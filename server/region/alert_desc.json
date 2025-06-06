@@ -1,0 +1,51 @@
+[
+  {
+    "alert_type": 3,
+    "show_timer": true,
+    "duration": 1.0,
+    "header": "Short alert test",
+    "body": "This will be dismissed in 1 minute."
+  },
+  {
+    "alert_type": 2,
+    "show_timer": false,
+    "duration": 0.0,
+    "header": "Evicted!",
+    "body": "The owner of your claim has issued an eviction for your owned rental. You no longer have access to your rental."
+  },
+  {
+    "alert_type": 1,
+    "show_timer": true,
+    "duration": 1440.0,
+    "header": "Eviction Notice!",
+    "body": "The owner of your claim has issued an eviction for your owned rental. You have 24 hrs to remove all buildings and items from your rental or they will become property of the town. You can collect your eviction compensation from your rental terminal before the time runs out."
+  },
+  {
+    "alert_type": 7,
+    "show_timer": false,
+    "duration": 0.0,
+    "header": "Lost Items!",
+    "body": "There are new lost items in your recovery chest, visit the nearest ruined town to collect them."
+  },
+  {
+    "alert_type": 4,
+    "show_timer": false,
+    "duration": 0.0,
+    "header": "Out of supplies!",
+    "body": "Your claim no longer offers protection for your buildings and belongings. Hurry up to stock some supplies."
+  },
+  {
+    "alert_type": 5,
+    "show_timer": true,
+    "duration": 60.0,
+    "header": "Low Supplies!",
+    "body": "Your claim will run out of supplies in one hour then will offer no protection for your buildings and belongings. Hurry up to stock some supplies."
+  },
+  {
+    "alert_type": 6,
+    "show_timer": true,
+    "duration": 720.0,
+    "header": "Low Supplies!",
+    "body": "Your claim will run out of supplies in half a day unless you stock more supplies."
+  }
+]

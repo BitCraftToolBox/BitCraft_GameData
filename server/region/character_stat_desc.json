@@ -1,0 +1,488 @@
+[
+  {
+    "stat_type": 51,
+    "name": "Accuracy",
+    "value": 100.0,
+    "min_value": 0.0,
+    "max_value": 200000.0,
+    "suffix": "",
+    "desc": "Increases the chances of hitting an enemy"
+  },
+  {
+    "stat_type": 47,
+    "name": "Active Health Regeneration Rate",
+    "value": 0.0,
+    "min_value": -100.0,
+    "max_value": 100.0,
+    "suffix": "",
+    "desc": "Amount of health gained per second from status effects."
+  },
+  {
+    "stat_type": 48,
+    "name": "Active Stamina Regeneration Rate",
+    "value": 0.0,
+    "min_value": -100.0,
+    "max_value": 100.0,
+    "suffix": "",
+    "desc": "Amount of stamina gained per second from status effects."
+  },
+  {
+    "stat_type": 7,
+    "name": "Armor",
+    "value": 0.0,
+    "min_value": 0.0,
+    "max_value": 200000.0,
+    "suffix": "",
+    "desc": "Armor point value. Reduces incoming damage from attacks."
+  },
+  {
+    "stat_type": 17,
+    "name": "Building Speed",
+    "value": 1.0,
+    "min_value": 0.1,
+    "max_value": 2.0,
+    "suffix": "x",
+    "desc": "Speed multiplier for Building actions."
+  },
+  {
+    "stat_type": 35,
+    "name": "Carpentry Power",
+    "value": 0.0,
+    "min_value": 0.0,
+    "max_value": 2000.0,
+    "suffix": "",
+    "desc": ""
+  },
+  {
+    "stat_type": 22,
+    "name": "Carpentry Speed",
+    "value": 1.0,
+    "min_value": 0.1,
+    "max_value": 20.0,
+    "suffix": "",
+    "desc": ""
+  },
+  {
+    "stat_type": 49,
+    "name": "Climb Proficiency",
+    "value": 0.0,
+    "min_value": 0.0,
+    "max_value": 2000.0,
+    "suffix": "",
+    "desc": "Level of climb proficiency. Certain cliffs require a higher proficiency in order to be climbed."
+  },
+  {
+    "stat_type": 11,
+    "name": "Cold Protection",
+    "value": 0.0,
+    "min_value": 0.0,
+    "max_value": 2000.0,
+    "suffix": "",
+    "desc": "Level of cold resistance. Certain Environments require enough to avoid taking environmental damage over time."
+  },
+  {
+    "stat_type": 45,
+    "name": "Cooking Power",
+    "value": 0.0,
+    "min_value": 0.0,
+    "max_value": 2000.0,
+    "suffix": "",
+    "desc": ""
+  },
+  {
+    "stat_type": 32,
+    "name": "Cooking Speed",
+    "value": 1.0,
+    "min_value": 0.1,
+    "max_value": 20.0,
+    "suffix": "",
+    "desc": ""
+  },
+  {
+    "stat_type": 8,
+    "name": "Cooldown Multiplier",
+    "value": 1.0,
+    "min_value": 0.1,
+    "max_value": 2.0,
+    "suffix": "x",
+    "desc": "Combat action cooldowns duration multipliers."
+  },
+  {
+    "stat_type": 15,
+    "name": "Crafting Speed",
+    "value": 1.0,
+    "min_value": 0.1,
+    "max_value": 2.0,
+    "suffix": "x",
+    "desc": "Speed multiplier for Crafting actions."
+  },
+  {
+    "stat_type": 20,
+    "name": "Defense Level",
+    "value": 3.0,
+    "min_value": 0.0,
+    "max_value": 2000.0,
+    "suffix": "",
+    "desc": "Threat Level for enemies. Determines what enemies will avoid you."
+  },
+  {
+    "stat_type": 13,
+    "name": "Evasion",
+    "value": 100.0,
+    "min_value": 0.0,
+    "max_value": 200000.0,
+    "suffix": "",
+    "desc": "Chance to dodge (negate entirely) incoming combat attack actions."
+  },
+  {
+    "stat_type": 50,
+    "name": "Experience Rate",
+    "value": 100.0,
+    "min_value": 0.0,
+    "max_value": 1000000.0,
+    "suffix": "",
+    "desc": "Experience Rate is represented as a percentage, where 100% means the same rate as currently, 150% would be that they get 1.5 the xp for every action and so on."
+  },
+  {
+    "stat_type": 43,
+    "name": "Farming Power",
+    "value": 0.0,
+    "min_value": 0.0,
+    "max_value": 2000.0,
+    "suffix": "",
+    "desc": ""
+  },
+  {
+    "stat_type": 30,
+    "name": "Farming Speed",
+    "value": 1.0,
+    "min_value": 0.1,
+    "max_value": 20.0,
+    "suffix": "",
+    "desc": ""
+  },
+  {
+    "stat_type": 44,
+    "name": "Fishing Power",
+    "value": 0.0,
+    "min_value": 0.0,
+    "max_value": 2000.0,
+    "suffix": "",
+    "desc": ""
+  },
+  {
+    "stat_type": 31,
+    "name": "Fishing Speed",
+    "value": 1.0,
+    "min_value": 0.1,
+    "max_value": 20.0,
+    "suffix": "",
+    "desc": ""
+  },
+  {
+    "stat_type": 46,
+    "name": "Foraging Power",
+    "value": 0.0,
+    "min_value": 0.0,
+    "max_value": 2000.0,
+    "suffix": "",
+    "desc": ""
+  },
+  {
+    "stat_type": 33,
+    "name": "Foraging Speed",
+    "value": 1.0,
+    "min_value": 0.1,
+    "max_value": 20.0,
+    "suffix": "",
+    "desc": ""
+  },
+  {
+    "stat_type": 34,
+    "name": "Forestry Power",
+    "value": 0.0,
+    "min_value": 0.0,
+    "max_value": 2000.0,
+    "suffix": "",
+    "desc": ""
+  },
+  {
+    "stat_type": 21,
+    "name": "Forestry Speed",
+    "value": 1.0,
+    "min_value": 0.1,
+    "max_value": 20.0,
+    "suffix": "",
+    "desc": ""
+  },
+  {
+    "stat_type": 16,
+    "name": "Gathering Speed",
+    "value": 1.0,
+    "min_value": 0.1,
+    "max_value": 2.0,
+    "suffix": "x",
+    "desc": "Speed multiplier for Gathering actions."
+  },
+  {
+    "stat_type": 12,
+    "name": "Heat Protection",
+    "value": 0.0,
+    "min_value": 0.0,
+    "max_value": 2000.0,
+    "suffix": "",
+    "desc": "Level of heat resistance. Certain Environments require enough to avoid taking environmental damage over time."
+  },
+  {
+    "stat_type": 41,
+    "name": "Hunting Power",
+    "value": 0.0,
+    "min_value": 0.0,
+    "max_value": 2000.0,
+    "suffix": "",
+    "desc": ""
+  },
+  {
+    "stat_type": 28,
+    "name": "Hunting Speed",
+    "value": 1.0,
+    "min_value": 0.1,
+    "max_value": 20.0,
+    "suffix": "",
+    "desc": ""
+  },
+  {
+    "stat_type": 9,
+    "name": "Hunting Weapon Power",
+    "value": 0.0,
+    "min_value": 0.0,
+    "max_value": 2000.0,
+    "suffix": "",
+    "desc": "Equipped item efficiency."
+  },
+  {
+    "stat_type": 40,
+    "name": "Leatherworking Power",
+    "value": 0.0,
+    "min_value": 0.0,
+    "max_value": 2000.0,
+    "suffix": "",
+    "desc": ""
+  },
+  {
+    "stat_type": 27,
+    "name": "Leatherworking Speed",
+    "value": 1.0,
+    "min_value": 0.1,
+    "max_value": 20.0,
+    "suffix": "",
+    "desc": ""
+  },
+  {
+    "stat_type": 36,
+    "name": "Masonry Power",
+    "value": 0.0,
+    "min_value": 0.0,
+    "max_value": 2000.0,
+    "suffix": "",
+    "desc": ""
+  },
+  {
+    "stat_type": 23,
+    "name": "Masonry Speed",
+    "value": 1.0,
+    "min_value": 0.1,
+    "max_value": 20.0,
+    "suffix": "",
+    "desc": ""
+  },
+  {
+    "stat_type": 0,
+    "name": "Maximum Health",
+    "value": 100.0,
+    "min_value": 10.0,
+    "max_value": 10000.0,
+    "suffix": "",
+    "desc": "Maximum possible health a character can heal to."
+  },
+  {
+    "stat_type": 19,
+    "name": "Maximum Satiation",
+    "value": 100.0,
+    "min_value": 10.0,
+    "max_value": 10000.0,
+    "suffix": "",
+    "desc": "Maximum possible satiation points a character can have"
+  },
+  {
+    "stat_type": 1,
+    "name": "Maximum Stamina",
+    "value": 100.0,
+    "min_value": 10.0,
+    "max_value": 10000.0,
+    "suffix": "",
+    "desc": "Maximum possible stamina a character can regenerate to."
+  },
+  {
+    "stat_type": 52,
+    "name": "Max Teleportation Energy",
+    "value": 100.0,
+    "min_value": 0.0,
+    "max_value": 200000.0,
+    "suffix": "",
+    "desc": "Maximum Teleportation Energy"
+  },
+  {
+    "stat_type": 37,
+    "name": "Mining Power",
+    "value": 0.0,
+    "min_value": 0.0,
+    "max_value": 2000.0,
+    "suffix": "",
+    "desc": ""
+  },
+  {
+    "stat_type": 24,
+    "name": "Mining Speed",
+    "value": 1.0,
+    "min_value": 0.1,
+    "max_value": 20.0,
+    "suffix": "",
+    "desc": ""
+  },
+  {
+    "stat_type": 4,
+    "name": "Movement Multiplier",
+    "value": 1.0,
+    "min_value": 0.001,
+    "max_value": 2.0,
+    "suffix": "",
+    "desc": "Movement speed multiplier."
+  },
+  {
+    "stat_type": 2,
+    "name": "Passive Health Regeneration Rate",
+    "value": 0.25,
+    "min_value": 0.0,
+    "max_value": 100.0,
+    "suffix": "",
+    "desc": "Amount of health gained per second while recovering."
+  },
+  {
+    "stat_type": 3,
+    "name": "Passive Stamina Regeneration Rate",
+    "value": 0.25,
+    "min_value": 0.0,
+    "max_value": 100.0,
+    "suffix": "",
+    "desc": "Amount of stamina gained per second while recovering."
+  },
+  {
+    "stat_type": 18,
+    "name": "Satiation Regeneration Rate",
+    "value": -0.01666667,
+    "min_value": 0.0,
+    "max_value": 100.0,
+    "suffix": "",
+    "desc": "How many satiation points are drained per tick"
+  },
+  {
+    "stat_type": 39,
+    "name": "Scholar Power",
+    "value": 0.0,
+    "min_value": 0.0,
+    "max_value": 2000.0,
+    "suffix": "",
+    "desc": ""
+  },
+  {
+    "stat_type": 26,
+    "name": "Scholar Speed",
+    "value": 1.0,
+    "min_value": 0.1,
+    "max_value": 20.0,
+    "suffix": "",
+    "desc": ""
+  },
+  {
+    "stat_type": 38,
+    "name": "Smithing Power",
+    "value": 0.0,
+    "min_value": 0.0,
+    "max_value": 2000.0,
+    "suffix": "",
+    "desc": ""
+  },
+  {
+    "stat_type": 25,
+    "name": "Smithing Speed",
+    "value": 1.0,
+    "min_value": 0.1,
+    "max_value": 20.0,
+    "suffix": "",
+    "desc": ""
+  },
+  {
+    "stat_type": 5,
+    "name": "Sprint Multiplier",
+    "value": 1.7,
+    "min_value": 0.1,
+    "max_value": 3.0,
+    "suffix": "x",
+    "desc": "Movement speed multiplier while sprinting."
+  },
+  {
+    "stat_type": 6,
+    "name": "Sprint Stamina Drain",
+    "value": -0.25,
+    "min_value": -10.0,
+    "max_value": 0.0,
+    "suffix": "",
+    "desc": "Amount of stamina drained per tile moved while sprinting."
+  },
+  {
+    "stat_type": 10,
+    "name": "Strength",
+    "value": 0.0,
+    "min_value": 0.0,
+    "max_value": 200000.0,
+    "suffix": "",
+    "desc": "Increases damage of equipped weapon"
+  },
+  {
+    "stat_type": 42,
+    "name": "Tailoring Power",
+    "value": 0.0,
+    "min_value": 0.0,
+    "max_value": 2000.0,
+    "suffix": "",
+    "desc": ""
+  },
+  {
+    "stat_type": 29,
+    "name": "Tailoring Speed",
+    "value": 1.0,
+    "min_value": 0.1,
+    "max_value": 20.0,
+    "suffix": "",
+    "desc": ""
+  },
+  {
+    "stat_type": 53,
+    "name": "Teleportation Energy Regen Rate",
+    "value": 0.02315,
+    "min_value": 0.0,
+    "max_value": 200000.0,
+    "suffix": "",
+    "desc": "Amount of teleportation energy gained every tick"
+  },
+  {
+    "stat_type": 14,
+    "name": "Toolbelt Slots",
+    "value": 2.0,
+    "min_value": 0.0,
+    "max_value": 10.0,
+    "suffix": "",
+    "desc": "Amount of extra tool holding slots in character equipment."
+  }
+]

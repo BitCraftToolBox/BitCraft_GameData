@@ -1,0 +1,97 @@
+[
+  {
+    "id": 1718827599,
+    "name": "Forest",
+    "consumed_item_stacks": [
+      [
+        1130003,
+        10,
+        [
+          0,
+          []
+        ],
+        1,
+        1.0
+      ],
+      [
+        1010010,
+        1,
+        [
+          0,
+          []
+        ],
+        1,
+        1.0
+      ]
+    ],
+    "input_cargo_id": 0,
+    "input_cargo_discovery_score": 0,
+    "experience_per_progress": [
+      [
+        15,
+        1.125
+      ]
+    ],
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "full_discovery_score": 1,
+    "duration": 3.0,
+    "prefab_address": "HexTileTemplates/stackDirtForestFlat",
+    "tier": 1,
+    "icon_address": "Items/Stick",
+    "description": "Alter the terrain to look like the Forest biome."
+  },
+  {
+    "id": 1647689074,
+    "name": "Meadow",
+    "consumed_item_stacks": [
+      [
+        1130003,
+        20,
+        [
+          0,
+          []
+        ],
+        1,
+        1.0
+      ]
+    ],
+    "input_cargo_id": 0,
+    "input_cargo_discovery_score": 0,
+    "experience_per_progress": [
+      [
+        15,
+        1.125
+      ]
+    ],
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "full_discovery_score": 1,
+    "duration": 3.0,
+    "prefab_address": "HexTileTemplates/scaleGrass",
+    "tier": 1,
+    "icon_address": "Items/Stick",
+    "description": "Alter the terrain to look like the meadow biome."
+  },
+  {
+    "id": 1728830976,
+    "name": "Rocky Garden",
+    "consumed_item_stacks": [],
+    "input_cargo_id": 2004,
+    "input_cargo_discovery_score": 1,
+    "experience_per_progress": [
+      [
+        15,
+        1.125
+      ]
+    ],
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "full_discovery_score": 1,
+    "duration": 3.0,
+    "prefab_address": "HexTileTemplates/stackBasaltRockyGarden",
+    "tier": 1,
+    "icon_address": "Items/MudLump",
+    "description": "Alter the terrain to look like the rocky garden biome"
+  }
+]

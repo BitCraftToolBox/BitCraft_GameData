@@ -1,0 +1,1354 @@
+[
+  {
+    "name": "Aggro",
+    "id": 100,
+    "learned_by_player": false,
+    "range": 100,
+    "max_range": 100,
+    "auto_cast": false,
+    "weapon_type_requirements": [],
+    "lead_in_time": 0.0,
+    "can_move_during_lead_in": false,
+    "cooldown": 0.0,
+    "global_cooldown": 0.0,
+    "ignore_global_cooldown": false,
+    "strength_multiplier": 0.0,
+    "accuracy_multiplier": 1.0,
+    "stamina_use": 0.0,
+    "weapon_durability_lost": 0,
+    "self_buffs": [],
+    "target_buffs": [],
+    "level_requirement": [
+      0,
+      {
+        "skill_id": 8,
+        "level": 1
+      }
+    ],
+    "icon_asset_name": "\\uFFC5",
+    "player_animation_id": -1,
+    "npc_animation_name": "",
+    "hit_vfx": "",
+    "projectile_speed": -1.0,
+    "projectile_vfx": "",
+    "description": "Aggroing by animal",
+    "self_threat_against_buildings": 10.0,
+    "self_threat_against_enemies": 20.0,
+    "base_threat": 0.0,
+    "threat_per_damage": 0.0
+  },
+  {
+    "name": "Automata's Strength",
+    "id": 1984006839,
+    "learned_by_player": true,
+    "range": 1,
+    "max_range": 3,
+    "auto_cast": false,
+    "weapon_type_requirements": [
+      1757944562
+    ],
+    "lead_in_time": 1.3,
+    "can_move_during_lead_in": false,
+    "cooldown": 30.0,
+    "global_cooldown": 1.0,
+    "ignore_global_cooldown": false,
+    "strength_multiplier": 0.5,
+    "accuracy_multiplier": 0.0,
+    "stamina_use": 1.0,
+    "weapon_durability_lost": 0,
+    "self_buffs": [
+      [
+        596814665,
+        [
+          0,
+          10
+        ]
+      ]
+    ],
+    "target_buffs": [],
+    "level_requirement": [
+      0,
+      {
+        "skill_id": 1,
+        "level": 1
+      }
+    ],
+    "icon_asset_name": "\\uFFC1",
+    "player_animation_id": 402,
+    "npc_animation_name": "",
+    "hit_vfx": "Mace_Special1_Hit",
+    "projectile_speed": -1.0,
+    "projectile_vfx": "",
+    "description": "Increases your weapon power for the next 10 seconds.",
+    "self_threat_against_buildings": 0.0,
+    "self_threat_against_enemies": 0.0,
+    "base_threat": 5.0,
+    "threat_per_damage": 1.0
+  },
+  {
+    "name": "Bite",
+    "id": 3,
+    "learned_by_player": false,
+    "range": 1,
+    "max_range": 5,
+    "auto_cast": true,
+    "weapon_type_requirements": [],
+    "lead_in_time": 0.7,
+    "can_move_during_lead_in": false,
+    "cooldown": 3.0,
+    "global_cooldown": 1.0,
+    "ignore_global_cooldown": false,
+    "strength_multiplier": 1.0,
+    "accuracy_multiplier": 1.0,
+    "stamina_use": 1.0,
+    "weapon_durability_lost": 0,
+    "self_buffs": [],
+    "target_buffs": [],
+    "level_requirement": [
+      0,
+      {
+        "skill_id": 8,
+        "level": 1
+      }
+    ],
+    "icon_asset_name": "\\uFFB9",
+    "player_animation_id": -1,
+    "npc_animation_name": "",
+    "hit_vfx": "GenericWeaponHit",
+    "projectile_speed": -1.0,
+    "projectile_vfx": "",
+    "description": "Biting by animal",
+    "self_threat_against_buildings": 0.0,
+    "self_threat_against_enemies": 5.0,
+    "base_threat": 0.0,
+    "threat_per_damage": 0.0
+  },
+  {
+    "name": "Bite Snare",
+    "id": 1942151218,
+    "learned_by_player": false,
+    "range": 1,
+    "max_range": 5,
+    "auto_cast": true,
+    "weapon_type_requirements": [],
+    "lead_in_time": 0.5,
+    "can_move_during_lead_in": false,
+    "cooldown": 3.0,
+    "global_cooldown": 1.0,
+    "ignore_global_cooldown": false,
+    "strength_multiplier": 1.0,
+    "accuracy_multiplier": 1.0,
+    "stamina_use": 1.0,
+    "weapon_durability_lost": 0,
+    "self_buffs": [],
+    "target_buffs": [],
+    "level_requirement": [
+      0,
+      {
+        "skill_id": 1,
+        "level": 0
+      }
+    ],
+    "icon_asset_name": "\\uFFB9",
+    "player_animation_id": -1,
+    "npc_animation_name": "",
+    "hit_vfx": "",
+    "projectile_speed": -1.0,
+    "projectile_vfx": "",
+    "description": "Biting by animal that snares its target",
+    "self_threat_against_buildings": 10.0,
+    "self_threat_against_enemies": 20.0,
+    "base_threat": 0.0,
+    "threat_per_damage": 0.0
+  },
+  {
+    "name": "Buck",
+    "id": 2,
+    "learned_by_player": false,
+    "range": 1,
+    "max_range": 5,
+    "auto_cast": true,
+    "weapon_type_requirements": [],
+    "lead_in_time": 0.5,
+    "can_move_during_lead_in": false,
+    "cooldown": 4.0,
+    "global_cooldown": 0.0,
+    "ignore_global_cooldown": false,
+    "strength_multiplier": 1.0,
+    "accuracy_multiplier": 1.0,
+    "stamina_use": 1.0,
+    "weapon_durability_lost": 0,
+    "self_buffs": [],
+    "target_buffs": [],
+    "level_requirement": [
+      0,
+      {
+        "skill_id": 8,
+        "level": 1
+      }
+    ],
+    "icon_asset_name": "\\uFFBB",
+    "player_animation_id": -1,
+    "npc_animation_name": "",
+    "hit_vfx": "",
+    "projectile_speed": -1.0,
+    "projectile_vfx": "",
+    "description": "Biting by animal",
+    "self_threat_against_buildings": 10.0,
+    "self_threat_against_enemies": 20.0,
+    "base_threat": 0.0,
+    "threat_per_damage": 0.0
+  },
+  {
+    "name": "Charge",
+    "id": 1,
+    "learned_by_player": false,
+    "range": 1,
+    "max_range": 5,
+    "auto_cast": true,
+    "weapon_type_requirements": [],
+    "lead_in_time": 0.5,
+    "can_move_during_lead_in": false,
+    "cooldown": 4.5,
+    "global_cooldown": 0.0,
+    "ignore_global_cooldown": false,
+    "strength_multiplier": 1.0,
+    "accuracy_multiplier": 1.0,
+    "stamina_use": 1.0,
+    "weapon_durability_lost": 0,
+    "self_buffs": [],
+    "target_buffs": [],
+    "level_requirement": [
+      0,
+      {
+        "skill_id": 8,
+        "level": 1
+      }
+    ],
+    "icon_asset_name": "\\uFFBC",
+    "player_animation_id": -1,
+    "npc_animation_name": "",
+    "hit_vfx": "",
+    "projectile_speed": -1.0,
+    "projectile_vfx": "",
+    "description": "Biting by animal",
+    "self_threat_against_buildings": 10.0,
+    "self_threat_against_enemies": 20.0,
+    "base_threat": 0.0,
+    "threat_per_damage": 0.0
+  },
+  {
+    "name": "Claymore Autoattack",
+    "id": 1632251525,
+    "learned_by_player": true,
+    "range": 1,
+    "max_range": 4,
+    "auto_cast": true,
+    "weapon_type_requirements": [
+      1898106062
+    ],
+    "lead_in_time": 0.85,
+    "can_move_during_lead_in": false,
+    "cooldown": 3.0,
+    "global_cooldown": 0.0,
+    "ignore_global_cooldown": true,
+    "strength_multiplier": 1.0,
+    "accuracy_multiplier": 1.0,
+    "stamina_use": 0.0,
+    "weapon_durability_lost": 0,
+    "self_buffs": [],
+    "target_buffs": [],
+    "level_requirement": [
+      0,
+      {
+        "skill_id": 1,
+        "level": 1
+      }
+    ],
+    "icon_asset_name": "\\uFF8B",
+    "player_animation_id": 301,
+    "npc_animation_name": "",
+    "hit_vfx": "GenericWeaponHit",
+    "projectile_speed": -1.0,
+    "projectile_vfx": "",
+    "description": "A simple swing of a weapon",
+    "self_threat_against_buildings": 0.0,
+    "self_threat_against_enemies": 0.0,
+    "base_threat": 5.0,
+    "threat_per_damage": 1.0
+  },
+  {
+    "name": "Claymore Strike",
+    "id": 1096051095,
+    "learned_by_player": true,
+    "range": 1,
+    "max_range": 4,
+    "auto_cast": false,
+    "weapon_type_requirements": [
+      1898106062
+    ],
+    "lead_in_time": 1.0,
+    "can_move_during_lead_in": false,
+    "cooldown": 12.0,
+    "global_cooldown": 1.0,
+    "ignore_global_cooldown": false,
+    "strength_multiplier": 2.0,
+    "accuracy_multiplier": 1.0,
+    "stamina_use": 1.0,
+    "weapon_durability_lost": 0,
+    "self_buffs": [],
+    "target_buffs": [],
+    "level_requirement": [
+      0,
+      {
+        "skill_id": 1,
+        "level": 1
+      }
+    ],
+    "icon_asset_name": "\\uFF8A",
+    "player_animation_id": 302,
+    "npc_animation_name": "",
+    "hit_vfx": "Claymore_Special1_Hit",
+    "projectile_speed": -1.0,
+    "projectile_vfx": "",
+    "description": "A powerful strike of a weapon",
+    "self_threat_against_buildings": 0.0,
+    "self_threat_against_enemies": 0.0,
+    "base_threat": 5.0,
+    "threat_per_damage": 1.0
+  },
+  {
+    "name": "Crossbow Autoattack",
+    "id": 479081828,
+    "learned_by_player": true,
+    "range": 8,
+    "max_range": 11,
+    "auto_cast": true,
+    "weapon_type_requirements": [
+      1187288045
+    ],
+    "lead_in_time": 0.15,
+    "can_move_during_lead_in": false,
+    "cooldown": 3.0,
+    "global_cooldown": 0.0,
+    "ignore_global_cooldown": false,
+    "strength_multiplier": 1.0,
+    "accuracy_multiplier": 1.0,
+    "stamina_use": 0.0,
+    "weapon_durability_lost": 0,
+    "self_buffs": [],
+    "target_buffs": [],
+    "level_requirement": [
+      0,
+      {
+        "skill_id": 1,
+        "level": 1
+      }
+    ],
+    "icon_asset_name": "\\uFF82",
+    "player_animation_id": 501,
+    "npc_animation_name": "",
+    "hit_vfx": "GenericWeaponHit",
+    "projectile_speed": 35.0,
+    "projectile_vfx": "BasicBolt",
+    "description": "Shoot a large crossbow bolt at your target",
+    "self_threat_against_buildings": 0.0,
+    "self_threat_against_enemies": 0.0,
+    "base_threat": 5.0,
+    "threat_per_damage": 1.0
+  },
+  {
+    "name": "Crossbow Headshot",
+    "id": 1382520763,
+    "learned_by_player": true,
+    "range": 8,
+    "max_range": 11,
+    "auto_cast": false,
+    "weapon_type_requirements": [
+      1187288045
+    ],
+    "lead_in_time": 1.15,
+    "can_move_during_lead_in": false,
+    "cooldown": 20.0,
+    "global_cooldown": 1.0,
+    "ignore_global_cooldown": false,
+    "strength_multiplier": 4.5,
+    "accuracy_multiplier": 0.6,
+    "stamina_use": 1.0,
+    "weapon_durability_lost": 0,
+    "self_buffs": [],
+    "target_buffs": [],
+    "level_requirement": [
+      0,
+      {
+        "skill_id": 1,
+        "level": 1
+      }
+    ],
+    "icon_asset_name": "\\uFF89",
+    "player_animation_id": 502,
+    "npc_animation_name": "",
+    "hit_vfx": "Claymore_Special1_Hit",
+    "projectile_speed": 35.0,
+    "projectile_vfx": "BasicBolt",
+    "description": "A heavy bolt aimed at the targets head. Higher chance to miss but deals more damage.",
+    "self_threat_against_buildings": 0.0,
+    "self_threat_against_enemies": 0.0,
+    "base_threat": 5.0,
+    "threat_per_damage": 1.0
+  },
+  {
+    "name": "Crossbow Leg Shot",
+    "id": 1435916170,
+    "learned_by_player": true,
+    "range": 8,
+    "max_range": 11,
+    "auto_cast": false,
+    "weapon_type_requirements": [
+      1187288045
+    ],
+    "lead_in_time": 0.15,
+    "can_move_during_lead_in": false,
+    "cooldown": 20.0,
+    "global_cooldown": 1.0,
+    "ignore_global_cooldown": false,
+    "strength_multiplier": 0.5,
+    "accuracy_multiplier": 1.0,
+    "stamina_use": 1.0,
+    "weapon_durability_lost": 0,
+    "self_buffs": [],
+    "target_buffs": [
+      [
+        285775040,
+        [
+          1,
+          []
+        ]
+      ]
+    ],
+    "level_requirement": [
+      0,
+      {
+        "skill_id": 1,
+        "level": 1
+      }
+    ],
+    "icon_asset_name": "\\uFF88",
+    "player_animation_id": 503,
+    "npc_animation_name": "",
+    "hit_vfx": "Claymore_Special1_Hit",
+    "projectile_speed": 35.0,
+    "projectile_vfx": "BasicBolt",
+    "description": "Take a shot at the target's legs, dealing some damage and lowering their movement speed.",
+    "self_threat_against_buildings": 0.0,
+    "self_threat_against_enemies": 0.0,
+    "base_threat": 5.0,
+    "threat_per_damage": 1.0
+  },
+  {
+    "name": "Crossbow Sniper's Stance",
+    "id": 15636056,
+    "learned_by_player": true,
+    "range": 8,
+    "max_range": 11,
+    "auto_cast": false,
+    "weapon_type_requirements": [
+      1187288045
+    ],
+    "lead_in_time": 0.8,
+    "can_move_during_lead_in": false,
+    "cooldown": 6.0,
+    "global_cooldown": 1.0,
+    "ignore_global_cooldown": false,
+    "strength_multiplier": 0.2,
+    "accuracy_multiplier": 1.0,
+    "stamina_use": 1.0,
+    "weapon_durability_lost": 0,
+    "self_buffs": [
+      [
+        2084605653,
+        [
+          1,
+          []
+        ]
+      ]
+    ],
+    "target_buffs": [],
+    "level_requirement": [
+      0,
+      {
+        "skill_id": 1,
+        "level": 1
+      }
+    ],
+    "icon_asset_name": "\\uFF87",
+    "player_animation_id": 504,
+    "npc_animation_name": "",
+    "hit_vfx": "Claymore_Special1_Hit",
+    "projectile_speed": 35.0,
+    "projectile_vfx": "BasicBolt",
+    "description": "Take a sniper's stance, lowering your movement speed and armor but increasing your damage.",
+    "self_threat_against_buildings": 0.0,
+    "self_threat_against_enemies": 0.0,
+    "base_threat": 5.0,
+    "threat_per_damage": 1.0
+  },
+  {
+    "name": "Daggers Autoattack",
+    "id": 1022859057,
+    "learned_by_player": true,
+    "range": 1,
+    "max_range": 4,
+    "auto_cast": true,
+    "weapon_type_requirements": [
+      1158805328
+    ],
+    "lead_in_time": 0.85,
+    "can_move_during_lead_in": false,
+    "cooldown": 1.0,
+    "global_cooldown": 0.0,
+    "ignore_global_cooldown": false,
+    "strength_multiplier": 1.3,
+    "accuracy_multiplier": 1.0,
+    "stamina_use": 0.0,
+    "weapon_durability_lost": 0,
+    "self_buffs": [],
+    "target_buffs": [],
+    "level_requirement": [
+      0,
+      {
+        "skill_id": 1,
+        "level": 1
+      }
+    ],
+    "icon_asset_name": "\\uFF86",
+    "player_animation_id": 601,
+    "npc_animation_name": "",
+    "hit_vfx": "GenericWeaponHit",
+    "projectile_speed": -1.0,
+    "projectile_vfx": "",
+    "description": "A simple swing of a weapon",
+    "self_threat_against_buildings": 0.0,
+    "self_threat_against_enemies": 0.0,
+    "base_threat": 5.0,
+    "threat_per_damage": 1.0
+  },
+  {
+    "name": "Daggers Berserker",
+    "id": 1919104043,
+    "learned_by_player": true,
+    "range": 1,
+    "max_range": 4,
+    "auto_cast": false,
+    "weapon_type_requirements": [
+      1158805328
+    ],
+    "lead_in_time": 1.0,
+    "can_move_during_lead_in": false,
+    "cooldown": 16.0,
+    "global_cooldown": 1.0,
+    "ignore_global_cooldown": false,
+    "strength_multiplier": 1.0,
+    "accuracy_multiplier": 1.0,
+    "stamina_use": 1.0,
+    "weapon_durability_lost": 0,
+    "self_buffs": [
+      [
+        2029849276,
+        [
+          1,
+          []
+        ]
+      ]
+    ],
+    "target_buffs": [],
+    "level_requirement": [
+      0,
+      {
+        "skill_id": 1,
+        "level": 1
+      }
+    ],
+    "icon_asset_name": "\\uFF85",
+    "player_animation_id": 602,
+    "npc_animation_name": "",
+    "hit_vfx": "Claymore_Special1_Hit",
+    "projectile_speed": -1.0,
+    "projectile_vfx": "",
+    "description": "A quick, reckless strike that increases your damage taken and increases your damage dealt for a short amount of time.",
+    "self_threat_against_buildings": 0.0,
+    "self_threat_against_enemies": 0.0,
+    "base_threat": 5.0,
+    "threat_per_damage": 1.0
+  },
+  {
+    "name": "Daggers Expose Weakness",
+    "id": 1522246821,
+    "learned_by_player": true,
+    "range": 1,
+    "max_range": 4,
+    "auto_cast": false,
+    "weapon_type_requirements": [
+      1158805328
+    ],
+    "lead_in_time": 1.0,
+    "can_move_during_lead_in": false,
+    "cooldown": 7.0,
+    "global_cooldown": 1.0,
+    "ignore_global_cooldown": false,
+    "strength_multiplier": 2.7,
+    "accuracy_multiplier": 1.0,
+    "stamina_use": 1.0,
+    "weapon_durability_lost": 0,
+    "self_buffs": [],
+    "target_buffs": [
+      [
+        799462427,
+        [
+          1,
+          []
+        ]
+      ]
+    ],
+    "level_requirement": [
+      0,
+      {
+        "skill_id": 1,
+        "level": 1
+      }
+    ],
+    "icon_asset_name": "\\uFF84",
+    "player_animation_id": 604,
+    "npc_animation_name": "",
+    "hit_vfx": "Claymore_Special1_Hit",
+    "projectile_speed": -1.0,
+    "projectile_vfx": "",
+    "description": "A powerful strike that chips away at your opponents armor, applying a debuff which reduces their Armor.",
+    "self_threat_against_buildings": 0.0,
+    "self_threat_against_enemies": 0.0,
+    "base_threat": 5.0,
+    "threat_per_damage": 1.0
+  },
+  {
+    "name": "Daggers Slice",
+    "id": 948049901,
+    "learned_by_player": true,
+    "range": 1,
+    "max_range": 4,
+    "auto_cast": false,
+    "weapon_type_requirements": [
+      1158805328
+    ],
+    "lead_in_time": 1.0,
+    "can_move_during_lead_in": false,
+    "cooldown": 4.0,
+    "global_cooldown": 1.0,
+    "ignore_global_cooldown": false,
+    "strength_multiplier": 2.7,
+    "accuracy_multiplier": 1.0,
+    "stamina_use": 1.0,
+    "weapon_durability_lost": 0,
+    "self_buffs": [],
+    "target_buffs": [],
+    "level_requirement": [
+      0,
+      {
+        "skill_id": 1,
+        "level": 1
+      }
+    ],
+    "icon_asset_name": "\\uFFC3",
+    "player_animation_id": 603,
+    "npc_animation_name": "",
+    "hit_vfx": "Claymore_Special1_Hit",
+    "projectile_speed": -1.0,
+    "projectile_vfx": "",
+    "description": "Slice at the target's torso, dealing significant damage.",
+    "self_threat_against_buildings": 0.0,
+    "self_threat_against_enemies": 0.0,
+    "base_threat": 5.0,
+    "threat_per_damage": 1.0
+  },
+  {
+    "name": "Debilitating Strike",
+    "id": 2031641420,
+    "learned_by_player": true,
+    "range": 1,
+    "max_range": 4,
+    "auto_cast": false,
+    "weapon_type_requirements": [
+      1898106062
+    ],
+    "lead_in_time": 1.0,
+    "can_move_during_lead_in": false,
+    "cooldown": 20.0,
+    "global_cooldown": 1.0,
+    "ignore_global_cooldown": false,
+    "strength_multiplier": 2.5,
+    "accuracy_multiplier": 1.0,
+    "stamina_use": 1.0,
+    "weapon_durability_lost": 0,
+    "self_buffs": [],
+    "target_buffs": [
+      [
+        1927294623,
+        [
+          1,
+          []
+        ]
+      ]
+    ],
+    "level_requirement": [
+      0,
+      {
+        "skill_id": 1,
+        "level": 1
+      }
+    ],
+    "icon_asset_name": "\\uFFC5",
+    "player_animation_id": 302,
+    "npc_animation_name": "",
+    "hit_vfx": "Claymore_Special1_Hit",
+    "projectile_speed": -1.0,
+    "projectile_vfx": "",
+    "description": "Strike the target hard to throw them off balance, decreasing their accuracy and strength briefly.",
+    "self_threat_against_buildings": 0.0,
+    "self_threat_against_enemies": 0.0,
+    "base_threat": 5.0,
+    "threat_per_damage": 1.0
+  },
+  {
+    "name": "Follow Up Strike",
+    "id": 63022841,
+    "learned_by_player": false,
+    "range": 1,
+    "max_range": 4,
+    "auto_cast": false,
+    "weapon_type_requirements": [
+      1
+    ],
+    "lead_in_time": 0.5,
+    "can_move_during_lead_in": false,
+    "cooldown": 12.0,
+    "global_cooldown": 0.0,
+    "ignore_global_cooldown": true,
+    "strength_multiplier": 1.0,
+    "accuracy_multiplier": 1.0,
+    "stamina_use": 1.0,
+    "weapon_durability_lost": 0,
+    "self_buffs": [],
+    "target_buffs": [],
+    "level_requirement": [
+      0,
+      {
+        "skill_id": 1,
+        "level": 1
+      }
+    ],
+    "icon_asset_name": "\\uFFC6",
+    "player_animation_id": 101,
+    "npc_animation_name": "",
+    "hit_vfx": "GenericWeaponHit",
+    "projectile_speed": -1.0,
+    "projectile_vfx": "",
+    "description": "A quick swing of the sword that ignores the global cooldown.",
+    "self_threat_against_buildings": 0.0,
+    "self_threat_against_enemies": 0.0,
+    "base_threat": 10.0,
+    "threat_per_damage": 1.0
+  },
+  {
+    "name": "Hunting Bow Autoattack",
+    "id": 17,
+    "learned_by_player": true,
+    "range": 6,
+    "max_range": 8,
+    "auto_cast": true,
+    "weapon_type_requirements": [
+      6
+    ],
+    "lead_in_time": 0.35,
+    "can_move_during_lead_in": true,
+    "cooldown": 1.5,
+    "global_cooldown": 1.5,
+    "ignore_global_cooldown": false,
+    "strength_multiplier": 1.0,
+    "accuracy_multiplier": 1.0,
+    "stamina_use": 0.0,
+    "weapon_durability_lost": 0,
+    "self_buffs": [],
+    "target_buffs": [],
+    "level_requirement": [
+      0,
+      {
+        "skill_id": 1,
+        "level": 1
+      }
+    ],
+    "icon_asset_name": "\\uFF83",
+    "player_animation_id": 1,
+    "npc_animation_name": "",
+    "hit_vfx": "GenericWeaponHit",
+    "projectile_speed": 18.0,
+    "projectile_vfx": "BasicArrow",
+    "description": "A quick shot that deals a low amount of damage",
+    "self_threat_against_buildings": 0.0,
+    "self_threat_against_enemies": 0.0,
+    "base_threat": 0.0,
+    "threat_per_damage": 0.0
+  },
+  {
+    "name": "Mace Autoattack",
+    "id": 597988470,
+    "learned_by_player": true,
+    "range": 1,
+    "max_range": 4,
+    "auto_cast": true,
+    "weapon_type_requirements": [
+      1757944562
+    ],
+    "lead_in_time": 0.85,
+    "can_move_during_lead_in": false,
+    "cooldown": 3.0,
+    "global_cooldown": 0.0,
+    "ignore_global_cooldown": true,
+    "strength_multiplier": 1.0,
+    "accuracy_multiplier": 1.0,
+    "stamina_use": 0.0,
+    "weapon_durability_lost": 0,
+    "self_buffs": [],
+    "target_buffs": [],
+    "level_requirement": [
+      0,
+      {
+        "skill_id": 1,
+        "level": 1
+      }
+    ],
+    "icon_asset_name": "\\uFF81",
+    "player_animation_id": 401,
+    "npc_animation_name": "",
+    "hit_vfx": "GenericWeaponHit",
+    "projectile_speed": -1.0,
+    "projectile_vfx": "",
+    "description": "A simple swing of a weapon",
+    "self_threat_against_buildings": 0.0,
+    "self_threat_against_enemies": 0.0,
+    "base_threat": 5.0,
+    "threat_per_damage": 1.0
+  },
+  {
+    "name": "Mace Smash",
+    "id": 1549677840,
+    "learned_by_player": true,
+    "range": 1,
+    "max_range": 4,
+    "auto_cast": false,
+    "weapon_type_requirements": [
+      1757944562
+    ],
+    "lead_in_time": 1.35,
+    "can_move_during_lead_in": false,
+    "cooldown": 12.0,
+    "global_cooldown": 1.0,
+    "ignore_global_cooldown": false,
+    "strength_multiplier": 2.0,
+    "accuracy_multiplier": 1.0,
+    "stamina_use": 1.0,
+    "weapon_durability_lost": 0,
+    "self_buffs": [],
+    "target_buffs": [],
+    "level_requirement": [
+      0,
+      {
+        "skill_id": 1,
+        "level": 1
+      }
+    ],
+    "icon_asset_name": "\\uFF80",
+    "player_animation_id": 402,
+    "npc_animation_name": "",
+    "hit_vfx": "Mace_Special1_Hit",
+    "projectile_speed": -1.0,
+    "projectile_vfx": "",
+    "description": "A simple swing of a weapon",
+    "self_threat_against_buildings": 0.0,
+    "self_threat_against_enemies": 0.0,
+    "base_threat": 5.0,
+    "threat_per_damage": 1.0
+  },
+  {
+    "name": "Shield Bash",
+    "id": 1817189903,
+    "learned_by_player": true,
+    "range": 1,
+    "max_range": 4,
+    "auto_cast": false,
+    "weapon_type_requirements": [
+      868029640
+    ],
+    "lead_in_time": 0.83,
+    "can_move_during_lead_in": false,
+    "cooldown": 7.2,
+    "global_cooldown": 1.0,
+    "ignore_global_cooldown": false,
+    "strength_multiplier": 2.8,
+    "accuracy_multiplier": 1.0,
+    "stamina_use": 1.0,
+    "weapon_durability_lost": 0,
+    "self_buffs": [],
+    "target_buffs": [],
+    "level_requirement": [
+      0,
+      {
+        "skill_id": 1,
+        "level": 1
+      }
+    ],
+    "icon_asset_name": "\\uFF7D",
+    "player_animation_id": 202,
+    "npc_animation_name": "",
+    "hit_vfx": "Spear_Special1_Hit",
+    "projectile_speed": -1.0,
+    "projectile_vfx": "",
+    "description": "A Shieldbash which will generate a high amount of threat, goading the enemy to attack you.",
+    "self_threat_against_buildings": 0.0,
+    "self_threat_against_enemies": 0.0,
+    "base_threat": 150.0,
+    "threat_per_damage": 1.75
+  },
+  {
+    "name": "Shield Slam",
+    "id": 1163188790,
+    "learned_by_player": true,
+    "range": 1,
+    "max_range": 4,
+    "auto_cast": false,
+    "weapon_type_requirements": [
+      868029640
+    ],
+    "lead_in_time": 0.83,
+    "can_move_during_lead_in": false,
+    "cooldown": 18.0,
+    "global_cooldown": 1.0,
+    "ignore_global_cooldown": false,
+    "strength_multiplier": 2.0,
+    "accuracy_multiplier": 1.0,
+    "stamina_use": 1.0,
+    "weapon_durability_lost": 0,
+    "self_buffs": [
+      [
+        939512353,
+        [
+          0,
+          25
+        ]
+      ]
+    ],
+    "target_buffs": [],
+    "level_requirement": [
+      0,
+      {
+        "skill_id": 1,
+        "level": 1
+      }
+    ],
+    "icon_asset_name": "\\uFFBA",
+    "player_animation_id": 202,
+    "npc_animation_name": "",
+    "hit_vfx": "Spear_Special1_Hit",
+    "projectile_speed": -1.0,
+    "projectile_vfx": "",
+    "description": "Slam your target with your shield, dealing significant damage and then raising your shield in a defensive position, increasing your armor.",
+    "self_threat_against_buildings": 0.0,
+    "self_threat_against_enemies": 0.0,
+    "base_threat": 50.0,
+    "threat_per_damage": 1.75
+  },
+  {
+    "name": "Shortsword Autoattack",
+    "id": 5,
+    "learned_by_player": true,
+    "range": 1,
+    "max_range": 4,
+    "auto_cast": true,
+    "weapon_type_requirements": [
+      1
+    ],
+    "lead_in_time": 0.5,
+    "can_move_during_lead_in": false,
+    "cooldown": 1.5,
+    "global_cooldown": 0.0,
+    "ignore_global_cooldown": false,
+    "strength_multiplier": 1.4,
+    "accuracy_multiplier": 1.0,
+    "stamina_use": 0.0,
+    "weapon_durability_lost": 0,
+    "self_buffs": [],
+    "target_buffs": [],
+    "level_requirement": [
+      0,
+      {
+        "skill_id": 1,
+        "level": 1
+      }
+    ],
+    "icon_asset_name": "\\uFF7F",
+    "player_animation_id": 101,
+    "npc_animation_name": "",
+    "hit_vfx": "GenericWeaponHit",
+    "projectile_speed": -1.0,
+    "projectile_vfx": "",
+    "description": "A simple swing of a weapon",
+    "self_threat_against_buildings": 0.0,
+    "self_threat_against_enemies": 0.0,
+    "base_threat": 5.0,
+    "threat_per_damage": 1.0
+  },
+  {
+    "name": "Shortsword Strike",
+    "id": 381642559,
+    "learned_by_player": true,
+    "range": 1,
+    "max_range": 4,
+    "auto_cast": false,
+    "weapon_type_requirements": [
+      1
+    ],
+    "lead_in_time": 0.5,
+    "can_move_during_lead_in": false,
+    "cooldown": 6.0,
+    "global_cooldown": 1.0,
+    "ignore_global_cooldown": false,
+    "strength_multiplier": 2.8,
+    "accuracy_multiplier": 1.0,
+    "stamina_use": 1.0,
+    "weapon_durability_lost": 0,
+    "self_buffs": [],
+    "target_buffs": [],
+    "level_requirement": [
+      0,
+      {
+        "skill_id": 1,
+        "level": 1
+      }
+    ],
+    "icon_asset_name": "\\uFF7E",
+    "player_animation_id": 101,
+    "npc_animation_name": "",
+    "hit_vfx": "GenericWeaponHit",
+    "projectile_speed": -1.0,
+    "projectile_vfx": "",
+    "description": "A simple swing of a weapon",
+    "self_threat_against_buildings": 0.0,
+    "self_threat_against_enemies": 0.0,
+    "base_threat": 5.0,
+    "threat_per_damage": 1.0
+  },
+  {
+    "name": "Slash and Defend",
+    "id": 1834217105,
+    "learned_by_player": true,
+    "range": 1,
+    "max_range": 4,
+    "auto_cast": false,
+    "weapon_type_requirements": [
+      1
+    ],
+    "lead_in_time": 0.5,
+    "can_move_during_lead_in": false,
+    "cooldown": 15.0,
+    "global_cooldown": 1.0,
+    "ignore_global_cooldown": false,
+    "strength_multiplier": 2.0,
+    "accuracy_multiplier": 1.0,
+    "stamina_use": 1.0,
+    "weapon_durability_lost": 0,
+    "self_buffs": [
+      [
+        837625739,
+        [
+          0,
+          7
+        ]
+      ]
+    ],
+    "target_buffs": [],
+    "level_requirement": [
+      0,
+      {
+        "skill_id": 1,
+        "level": 1
+      }
+    ],
+    "icon_asset_name": "\\uFFC0",
+    "player_animation_id": 101,
+    "npc_animation_name": "",
+    "hit_vfx": "GenericWeaponHit",
+    "projectile_speed": -1.0,
+    "projectile_vfx": "",
+    "description": "Swipe at the enemy, dealing significant damage and then enter a defensive position that increases your armor.",
+    "self_threat_against_buildings": 0.0,
+    "self_threat_against_enemies": 0.0,
+    "base_threat": 5.0,
+    "threat_per_damage": 1.0
+  },
+  {
+    "name": "Smash Armor",
+    "id": 2092470510,
+    "learned_by_player": true,
+    "range": 1,
+    "max_range": 4,
+    "auto_cast": false,
+    "weapon_type_requirements": [
+      1757944562
+    ],
+    "lead_in_time": 1.35,
+    "can_move_during_lead_in": false,
+    "cooldown": 20.0,
+    "global_cooldown": 1.0,
+    "ignore_global_cooldown": false,
+    "strength_multiplier": 2.5,
+    "accuracy_multiplier": 1.0,
+    "stamina_use": 1.0,
+    "weapon_durability_lost": 0,
+    "self_buffs": [],
+    "target_buffs": [
+      [
+        1245173307,
+        [
+          1,
+          []
+        ]
+      ]
+    ],
+    "level_requirement": [
+      0,
+      {
+        "skill_id": 1,
+        "level": 1
+      }
+    ],
+    "icon_asset_name": "\\uFFB8",
+    "player_animation_id": 402,
+    "npc_animation_name": "",
+    "hit_vfx": "Mace_Special1_Hit",
+    "projectile_speed": -1.0,
+    "projectile_vfx": "",
+    "description": "Smash the targets armor hard, briefly exposing them to further attacks by reducing their armor significantly.",
+    "self_threat_against_buildings": 0.0,
+    "self_threat_against_enemies": 0.0,
+    "base_threat": 5.0,
+    "threat_per_damage": 1.0
+  },
+  {
+    "name": "Spear & Shield Autoattack",
+    "id": 415269839,
+    "learned_by_player": true,
+    "range": 1,
+    "max_range": 4,
+    "auto_cast": true,
+    "weapon_type_requirements": [
+      868029640
+    ],
+    "lead_in_time": 0.5,
+    "can_move_during_lead_in": false,
+    "cooldown": 1.8,
+    "global_cooldown": 0.0,
+    "ignore_global_cooldown": false,
+    "strength_multiplier": 1.4,
+    "accuracy_multiplier": 1.0,
+    "stamina_use": 0.0,
+    "weapon_durability_lost": 0,
+    "self_buffs": [],
+    "target_buffs": [],
+    "level_requirement": [
+      0,
+      {
+        "skill_id": 1,
+        "level": 1
+      }
+    ],
+    "icon_asset_name": "\\uFFBF",
+    "player_animation_id": 201,
+    "npc_animation_name": "",
+    "hit_vfx": "GenericWeaponHit",
+    "projectile_speed": -1.0,
+    "projectile_vfx": "",
+    "description": "A thrust of the spear",
+    "self_threat_against_buildings": 0.0,
+    "self_threat_against_enemies": 0.0,
+    "base_threat": 50.0,
+    "threat_per_damage": 1.75
+  },
+  {
+    "name": "Spit",
+    "id": 747222397,
+    "learned_by_player": false,
+    "range": 15,
+    "max_range": 15,
+    "auto_cast": true,
+    "weapon_type_requirements": [],
+    "lead_in_time": 1.0,
+    "can_move_during_lead_in": false,
+    "cooldown": 3.0,
+    "global_cooldown": 1.0,
+    "ignore_global_cooldown": false,
+    "strength_multiplier": 1.0,
+    "accuracy_multiplier": 1.0,
+    "stamina_use": 1.0,
+    "weapon_durability_lost": 0,
+    "self_buffs": [],
+    "target_buffs": [],
+    "level_requirement": [
+      0,
+      {
+        "skill_id": 8,
+        "level": 1
+      }
+    ],
+    "icon_asset_name": "\\uFFB9",
+    "player_animation_id": -1,
+    "npc_animation_name": "",
+    "hit_vfx": "ToadAttackHit",
+    "projectile_speed": 18.0,
+    "projectile_vfx": "ToadAttack",
+    "description": "Spitting by an animal",
+    "self_threat_against_buildings": 5.0,
+    "self_threat_against_enemies": 5.0,
+    "base_threat": 0.0,
+    "threat_per_damage": 0.0
+  },
+  {
+    "name": "Sword Flurry",
+    "id": 1629389588,
+    "learned_by_player": true,
+    "range": 1,
+    "max_range": 4,
+    "auto_cast": false,
+    "weapon_type_requirements": [
+      1898106062
+    ],
+    "lead_in_time": 1.0,
+    "can_move_during_lead_in": false,
+    "cooldown": 30.0,
+    "global_cooldown": 1.0,
+    "ignore_global_cooldown": false,
+    "strength_multiplier": 1.0,
+    "accuracy_multiplier": 1.0,
+    "stamina_use": 1.0,
+    "weapon_durability_lost": 0,
+    "self_buffs": [
+      [
+        35180939,
+        [
+          0,
+          10
+        ]
+      ]
+    ],
+    "target_buffs": [],
+    "level_requirement": [
+      0,
+      {
+        "skill_id": 1,
+        "level": 1
+      }
+    ],
+    "icon_asset_name": "\\uFF7C",
+    "player_animation_id": 302,
+    "npc_animation_name": "",
+    "hit_vfx": "Claymore_Special1_Hit",
+    "projectile_speed": -1.0,
+    "projectile_vfx": "",
+    "description": "Increases your cooldown reduction for 10 seconds, allowing you to attack faster.",
+    "self_threat_against_buildings": 0.0,
+    "self_threat_against_enemies": 0.0,
+    "base_threat": 5.0,
+    "threat_per_damage": 1.0
+  },
+  {
+    "name": "Umbura's Fury",
+    "id": 266635031,
+    "learned_by_player": false,
+    "range": 2,
+    "max_range": 5,
+    "auto_cast": false,
+    "weapon_type_requirements": [],
+    "lead_in_time": 0.7,
+    "can_move_during_lead_in": false,
+    "cooldown": 15.0,
+    "global_cooldown": 2.0,
+    "ignore_global_cooldown": false,
+    "strength_multiplier": 1.0,
+    "accuracy_multiplier": 1.0,
+    "stamina_use": 1.0,
+    "weapon_durability_lost": 0,
+    "self_buffs": [],
+    "target_buffs": [
+      [
+        1043581193,
+        [
+          1,
+          []
+        ]
+      ]
+    ],
+    "level_requirement": [
+      0,
+      {
+        "skill_id": 8,
+        "level": 1
+      }
+    ],
+    "icon_asset_name": "\\uFFB9",
+    "player_animation_id": -1,
+    "npc_animation_name": "",
+    "hit_vfx": "GenericWeaponHit",
+    "projectile_speed": -1.0,
+    "projectile_vfx": "",
+    "description": "A vicious attack from an Umbura.",
+    "self_threat_against_buildings": 5.0,
+    "self_threat_against_enemies": 5.0,
+    "base_threat": 0.0,
+    "threat_per_damage": 0.0
+  },
+  {
+    "name": "Umbura Bite",
+    "id": 1453498302,
+    "learned_by_player": false,
+    "range": 2,
+    "max_range": 5,
+    "auto_cast": true,
+    "weapon_type_requirements": [],
+    "lead_in_time": 0.7,
+    "can_move_during_lead_in": false,
+    "cooldown": 4.5,
+    "global_cooldown": 2.0,
+    "ignore_global_cooldown": false,
+    "strength_multiplier": 1.0,
+    "accuracy_multiplier": 1.0,
+    "stamina_use": 1.0,
+    "weapon_durability_lost": 0,
+    "self_buffs": [],
+    "target_buffs": [],
+    "level_requirement": [
+      0,
+      {
+        "skill_id": 8,
+        "level": 1
+      }
+    ],
+    "icon_asset_name": "\\uFFB9",
+    "player_animation_id": -1,
+    "npc_animation_name": "",
+    "hit_vfx": "GenericWeaponHit",
+    "projectile_speed": -1.0,
+    "projectile_vfx": "",
+    "description": "Biting by animal",
+    "self_threat_against_buildings": 5.0,
+    "self_threat_against_enemies": 5.0,
+    "base_threat": 0.0,
+    "threat_per_damage": 0.0
+  }
+]

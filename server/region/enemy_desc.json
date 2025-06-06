@@ -1,0 +1,2066 @@
+[
+  {
+    "enemy_type": 18,
+    "name": "Alpha Jakyl",
+    "pathfinding_id": 769231106,
+    "targeting_matrix_id": 2,
+    "combat_actions_ids": [
+      3
+    ],
+    "description": "A massive Jakyl. Much stronger than the others you've seen.",
+    "min_speed": 12,
+    "max_speed": 24,
+    "radius": 1.0,
+    "awareness_destination_threshold": 0.5,
+    "min_awareness_tick_sec": 1.0,
+    "max_awareness_tick_sec": 5.0,
+    "max_health": 280,
+    "ignore_damage": false,
+    "health_regen_quantity": 5.0,
+    "armor": 700,
+    "accuracy": 980,
+    "evasion": 1260,
+    "strength": 0,
+    "min_damage": 20,
+    "max_damage": 36,
+    "cooldown_multiplier": 1.0,
+    "daytime_detect_range": 40,
+    "daytime_aggro_range": 20,
+    "daytime_deaggro_range": 50,
+    "nighttime_detect_range": 80,
+    "nighttime_aggro_range": 25,
+    "nighttime_deaggro_range": 60,
+    "evade_range": 0,
+    "deaggro_health_threshold": 0.0,
+    "attack_level": 5,
+    "defense_level": 5,
+    "prefab_address": "Enemies/AlphaJakyl",
+    "icon_address": "GeneratedIcons/Other/GeneratedIcons/Other/Animals/AlphaJakyl",
+    "extracted_item_stacks": [
+      [
+        [
+          0,
+          [
+            225094001,
+            1,
+            [
+              0,
+              []
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        ],
+        0.2
+      ],
+      [
+        [
+          0,
+          [
+            828731292,
+            1,
+            [
+              0,
+              []
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        ],
+        1.0
+      ]
+    ],
+    "experience_per_damage_dealt": [
+      [
+        18,
+        1.75
+      ]
+    ],
+    "tier": 1,
+    "tag": "Strong Monster",
+    "rarity": [
+      3,
+      {}
+    ],
+    "huntable": false
+  },
+  {
+    "enemy_type": 27,
+    "name": "Alpha Umbura",
+    "pathfinding_id": 769231106,
+    "targeting_matrix_id": 2,
+    "combat_actions_ids": [
+      1453498302
+    ],
+    "description": "A massive creature that looks very angry. Probably best to avoid it without backup.",
+    "min_speed": 25,
+    "max_speed": 35,
+    "radius": 0.5,
+    "awareness_destination_threshold": 0.5,
+    "min_awareness_tick_sec": 1.0,
+    "max_awareness_tick_sec": 5.0,
+    "max_health": 6000,
+    "ignore_damage": false,
+    "health_regen_quantity": 20.0,
+    "armor": 1200,
+    "accuracy": 200,
+    "evasion": 200,
+    "strength": 0,
+    "min_damage": 25,
+    "max_damage": 40,
+    "cooldown_multiplier": 1.0,
+    "daytime_detect_range": 40,
+    "daytime_aggro_range": 20,
+    "daytime_deaggro_range": 50,
+    "nighttime_detect_range": 80,
+    "nighttime_aggro_range": 25,
+    "nighttime_deaggro_range": 60,
+    "evade_range": 0,
+    "deaggro_health_threshold": 0.0,
+    "attack_level": 5,
+    "defense_level": 5,
+    "prefab_address": "Enemies/Umbura",
+    "icon_address": "GeneratedIcons/Other/GeneratedIcons/Other/Animals/Umbura",
+    "extracted_item_stacks": [
+      [
+        [
+          0,
+          [
+            1665899831,
+            1,
+            [
+              0,
+              []
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        ],
+        1.0
+      ],
+      [
+        [
+          0,
+          [
+            617029534,
+            1,
+            [
+              0,
+              []
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        ],
+        0.1
+      ]
+    ],
+    "experience_per_damage_dealt": [
+      [
+        18,
+        2.0
+      ]
+    ],
+    "tier": 1,
+    "tag": "Strong Monster",
+    "rarity": [
+      4,
+      {}
+    ],
+    "huntable": false
+  },
+  {
+    "enemy_type": 4,
+    "name": "Ardea",
+    "pathfinding_id": 1159321119,
+    "targeting_matrix_id": 5,
+    "combat_actions_ids": [],
+    "description": "A Swamp Bird",
+    "min_speed": 7,
+    "max_speed": 11,
+    "radius": 0.5,
+    "awareness_destination_threshold": 0.001,
+    "min_awareness_tick_sec": 10.0,
+    "max_awareness_tick_sec": 20.0,
+    "max_health": 375,
+    "ignore_damage": false,
+    "health_regen_quantity": 0.1,
+    "armor": 6,
+    "accuracy": 100,
+    "evasion": 100,
+    "strength": 0,
+    "min_damage": 0,
+    "max_damage": 0,
+    "cooldown_multiplier": 0.9,
+    "daytime_detect_range": 30,
+    "daytime_aggro_range": 30,
+    "daytime_deaggro_range": 0,
+    "nighttime_detect_range": 30,
+    "nighttime_aggro_range": 30,
+    "nighttime_deaggro_range": 0,
+    "evade_range": 25,
+    "deaggro_health_threshold": 0.0,
+    "attack_level": 0,
+    "defense_level": 1,
+    "prefab_address": "Enemies/GrassBird",
+    "icon_address": "GeneratedIcons/Other/Animals/SwampBird",
+    "extracted_item_stacks": [
+      [
+        [
+          0,
+          [
+            9,
+            1,
+            [
+              1,
+              []
+            ],
+            [
+              1,
+              []
+            ]
+          ]
+        ],
+        1.0
+      ]
+    ],
+    "experience_per_damage_dealt": [
+      [
+        9,
+        1.15
+      ]
+    ],
+    "tier": 4,
+    "tag": "Huntable Animal",
+    "rarity": [
+      2,
+      {}
+    ],
+    "huntable": true
+  },
+  {
+    "enemy_type": 21,
+    "name": "Desert Crab",
+    "pathfinding_id": 769231106,
+    "targeting_matrix_id": 2,
+    "combat_actions_ids": [
+      3
+    ],
+    "description": "A strange creature that hides under a rock hard shell. Not particularly threatening by itself but its friends are always nearby.",
+    "min_speed": 10,
+    "max_speed": 20,
+    "radius": 1.0,
+    "awareness_destination_threshold": 0.5,
+    "min_awareness_tick_sec": 1.0,
+    "max_awareness_tick_sec": 5.0,
+    "max_health": 50,
+    "ignore_damage": false,
+    "health_regen_quantity": 0.1,
+    "armor": 100,
+    "accuracy": 75,
+    "evasion": 125,
+    "strength": 0,
+    "min_damage": 8,
+    "max_damage": 12,
+    "cooldown_multiplier": 1.0,
+    "daytime_detect_range": 40,
+    "daytime_aggro_range": 20,
+    "daytime_deaggro_range": 50,
+    "nighttime_detect_range": 80,
+    "nighttime_aggro_range": 25,
+    "nighttime_deaggro_range": 60,
+    "evade_range": 0,
+    "deaggro_health_threshold": 0.0,
+    "attack_level": 5,
+    "defense_level": 5,
+    "prefab_address": "Enemies/SwarmCrab",
+    "icon_address": "GeneratedIcons/Other/GeneratedIcons/Other/Animals/SwarmCrab",
+    "extracted_item_stacks": [
+      [
+        [
+          0,
+          [
+            540370053,
+            1,
+            [
+              0,
+              []
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        ],
+        1.0
+      ],
+      [
+        [
+          0,
+          [
+            209860372,
+            1,
+            [
+              0,
+              []
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        ],
+        0.1
+      ]
+    ],
+    "experience_per_damage_dealt": [
+      [
+        18,
+        1.5
+      ]
+    ],
+    "tier": 1,
+    "tag": "Monster",
+    "rarity": [
+      1,
+      {}
+    ],
+    "huntable": false
+  },
+  {
+    "enemy_type": 16,
+    "name": "Desert Ostrich",
+    "pathfinding_id": 1159321119,
+    "targeting_matrix_id": 5,
+    "combat_actions_ids": [],
+    "description": "A Desert Bird",
+    "min_speed": 7,
+    "max_speed": 11,
+    "radius": 0.5,
+    "awareness_destination_threshold": 0.001,
+    "min_awareness_tick_sec": 10.0,
+    "max_awareness_tick_sec": 20.0,
+    "max_health": 450,
+    "ignore_damage": false,
+    "health_regen_quantity": 0.1,
+    "armor": 6,
+    "accuracy": 100,
+    "evasion": 100,
+    "strength": 0,
+    "min_damage": 0,
+    "max_damage": 0,
+    "cooldown_multiplier": 0.9,
+    "daytime_detect_range": 30,
+    "daytime_aggro_range": 30,
+    "daytime_deaggro_range": 0,
+    "nighttime_detect_range": 30,
+    "nighttime_aggro_range": 30,
+    "nighttime_deaggro_range": 0,
+    "evade_range": 25,
+    "deaggro_health_threshold": 0.0,
+    "attack_level": 0,
+    "defense_level": 1,
+    "prefab_address": "Enemies/GrassBird",
+    "icon_address": "GeneratedIcons/Other/Animals/DesertBird",
+    "extracted_item_stacks": [
+      [
+        [
+          0,
+          [
+            10,
+            1,
+            [
+              1,
+              []
+            ],
+            [
+              1,
+              []
+            ]
+          ]
+        ],
+        1.0
+      ]
+    ],
+    "experience_per_damage_dealt": [
+      [
+        9,
+        1.15
+      ]
+    ],
+    "tier": 5,
+    "tag": "Huntable Animal",
+    "rarity": [
+      2,
+      {}
+    ],
+    "huntable": true
+  },
+  {
+    "enemy_type": 3,
+    "name": "Dromai",
+    "pathfinding_id": 1159321119,
+    "targeting_matrix_id": 5,
+    "combat_actions_ids": [],
+    "description": "A Desert Bird",
+    "min_speed": 7,
+    "max_speed": 11,
+    "radius": 0.5,
+    "awareness_destination_threshold": 0.001,
+    "min_awareness_tick_sec": 10.0,
+    "max_awareness_tick_sec": 20.0,
+    "max_health": 450,
+    "ignore_damage": false,
+    "health_regen_quantity": 0.1,
+    "armor": 6,
+    "accuracy": 100,
+    "evasion": 100,
+    "strength": 0,
+    "min_damage": 0,
+    "max_damage": 0,
+    "cooldown_multiplier": 0.9,
+    "daytime_detect_range": 30,
+    "daytime_aggro_range": 30,
+    "daytime_deaggro_range": 0,
+    "nighttime_detect_range": 30,
+    "nighttime_aggro_range": 30,
+    "nighttime_deaggro_range": 0,
+    "evade_range": 25,
+    "deaggro_health_threshold": 0.0,
+    "attack_level": 0,
+    "defense_level": 1,
+    "prefab_address": "Enemies/GrassBird",
+    "icon_address": "GeneratedIcons/Other/Animals/DesertBird",
+    "extracted_item_stacks": [
+      [
+        [
+          0,
+          [
+            10,
+            1,
+            [
+              1,
+              []
+            ],
+            [
+              1,
+              []
+            ]
+          ]
+        ],
+        1.0
+      ]
+    ],
+    "experience_per_damage_dealt": [
+      [
+        9,
+        1.15
+      ]
+    ],
+    "tier": 5,
+    "tag": "Huntable Animal",
+    "rarity": [
+      2,
+      {}
+    ],
+    "huntable": true
+  },
+  {
+    "enemy_type": 29,
+    "name": "Drone",
+    "pathfinding_id": 690229665,
+    "targeting_matrix_id": 2,
+    "combat_actions_ids": [
+      3
+    ],
+    "description": "A weird thing that looks like it wants to bite you",
+    "min_speed": 0,
+    "max_speed": 0,
+    "radius": 1.0,
+    "awareness_destination_threshold": 0.5,
+    "min_awareness_tick_sec": 1.0,
+    "max_awareness_tick_sec": 5.0,
+    "max_health": 300,
+    "ignore_damage": false,
+    "health_regen_quantity": 0.1,
+    "armor": 50,
+    "accuracy": 75,
+    "evasion": 125,
+    "strength": 0,
+    "min_damage": 7,
+    "max_damage": 13,
+    "cooldown_multiplier": 1.0,
+    "daytime_detect_range": 40,
+    "daytime_aggro_range": 20,
+    "daytime_deaggro_range": 50,
+    "nighttime_detect_range": 80,
+    "nighttime_aggro_range": 25,
+    "nighttime_deaggro_range": 60,
+    "evade_range": 0,
+    "deaggro_health_threshold": 0.0,
+    "attack_level": 5,
+    "defense_level": 5,
+    "prefab_address": "Enemies/Jakyl",
+    "icon_address": "GeneratedIcons/Other/GeneratedIcons/Other/Animals/Jakyl",
+    "extracted_item_stacks": [
+      [
+        [
+          0,
+          [
+            344122023,
+            1,
+            [
+              0,
+              []
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        ],
+        0.1
+      ],
+      [
+        [
+          0,
+          [
+            711737334,
+            1,
+            [
+              0,
+              []
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        ],
+        1.0
+      ]
+    ],
+    "experience_per_damage_dealt": [
+      [
+        18,
+        1.5
+      ]
+    ],
+    "tier": 1,
+    "tag": "Monster",
+    "rarity": [
+      2,
+      {}
+    ],
+    "huntable": false
+  },
+  {
+    "enemy_type": 12,
+    "name": "Elder Scrofa",
+    "pathfinding_id": 1159321119,
+    "targeting_matrix_id": 5,
+    "combat_actions_ids": [],
+    "description": "An Elder Boar",
+    "min_speed": 7,
+    "max_speed": 11,
+    "radius": 0.5,
+    "awareness_destination_threshold": 0.001,
+    "min_awareness_tick_sec": 10.0,
+    "max_awareness_tick_sec": 20.0,
+    "max_health": 375,
+    "ignore_damage": false,
+    "health_regen_quantity": 0.1,
+    "armor": 6,
+    "accuracy": 100,
+    "evasion": 100,
+    "strength": 0,
+    "min_damage": 0,
+    "max_damage": 0,
+    "cooldown_multiplier": 1.2,
+    "daytime_detect_range": 15,
+    "daytime_aggro_range": 15,
+    "daytime_deaggro_range": 0,
+    "nighttime_detect_range": 15,
+    "nighttime_aggro_range": 15,
+    "nighttime_deaggro_range": 0,
+    "evade_range": 15,
+    "deaggro_health_threshold": 0.0,
+    "attack_level": 0,
+    "defense_level": 1,
+    "prefab_address": "Enemies/BoarElder",
+    "icon_address": "GeneratedIcons/Other/Animals/BoarElder",
+    "extracted_item_stacks": [
+      [
+        [
+          0,
+          [
+            7,
+            1,
+            [
+              1,
+              []
+            ],
+            [
+              1,
+              []
+            ]
+          ]
+        ],
+        1.0
+      ]
+    ],
+    "experience_per_damage_dealt": [
+      [
+        9,
+        1.15
+      ]
+    ],
+    "tier": 4,
+    "tag": "Huntable Animal",
+    "rarity": [
+      3,
+      {}
+    ],
+    "huntable": true
+  },
+  {
+    "enemy_type": 7,
+    "name": "Female Cervus",
+    "pathfinding_id": 959834809,
+    "targeting_matrix_id": 5,
+    "combat_actions_ids": [],
+    "description": "A Female Deer",
+    "min_speed": 7,
+    "max_speed": 11,
+    "radius": 0.5,
+    "awareness_destination_threshold": 0.001,
+    "min_awareness_tick_sec": 10.0,
+    "max_awareness_tick_sec": 20.0,
+    "max_health": 300,
+    "ignore_damage": false,
+    "health_regen_quantity": 0.1,
+    "armor": 6,
+    "accuracy": 100,
+    "evasion": 100,
+    "strength": 0,
+    "min_damage": 0,
+    "max_damage": 0,
+    "cooldown_multiplier": 1.0,
+    "daytime_detect_range": 15,
+    "daytime_aggro_range": 5,
+    "daytime_deaggro_range": 0,
+    "nighttime_detect_range": 15,
+    "nighttime_aggro_range": 5,
+    "nighttime_deaggro_range": 0,
+    "evade_range": 5,
+    "deaggro_health_threshold": 0.0,
+    "attack_level": 0,
+    "defense_level": 1,
+    "prefab_address": "Enemies/DeerFemale",
+    "icon_address": "GeneratedIcons/Other/Animals/DeerFemale",
+    "extracted_item_stacks": [
+      [
+        [
+          0,
+          [
+            3,
+            1,
+            [
+              1,
+              []
+            ],
+            [
+              1,
+              []
+            ]
+          ]
+        ],
+        0.0
+      ]
+    ],
+    "experience_per_damage_dealt": [
+      [
+        9,
+        1.15
+      ]
+    ],
+    "tier": 3,
+    "tag": "Huntable Animal",
+    "rarity": [
+      1,
+      {}
+    ],
+    "huntable": true
+  },
+  {
+    "enemy_type": 22,
+    "name": "Frost Crab",
+    "pathfinding_id": 769231106,
+    "targeting_matrix_id": 2,
+    "combat_actions_ids": [
+      3
+    ],
+    "description": "A strange creature that hides under a rock hard shell. Not particularly threatening by itself but its friends are always nearby.",
+    "min_speed": 10,
+    "max_speed": 20,
+    "radius": 1.0,
+    "awareness_destination_threshold": 0.5,
+    "min_awareness_tick_sec": 1.0,
+    "max_awareness_tick_sec": 5.0,
+    "max_health": 50,
+    "ignore_damage": false,
+    "health_regen_quantity": 0.1,
+    "armor": 100,
+    "accuracy": 75,
+    "evasion": 125,
+    "strength": 0,
+    "min_damage": 8,
+    "max_damage": 12,
+    "cooldown_multiplier": 1.0,
+    "daytime_detect_range": 40,
+    "daytime_aggro_range": 20,
+    "daytime_deaggro_range": 50,
+    "nighttime_detect_range": 80,
+    "nighttime_aggro_range": 25,
+    "nighttime_deaggro_range": 60,
+    "evade_range": 0,
+    "deaggro_health_threshold": 0.0,
+    "attack_level": 5,
+    "defense_level": 5,
+    "prefab_address": "Enemies/SwarmCrab",
+    "icon_address": "GeneratedIcons/Other/GeneratedIcons/Other/Animals/SwarmCrab",
+    "extracted_item_stacks": [
+      [
+        [
+          0,
+          [
+            540370053,
+            1,
+            [
+              0,
+              []
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        ],
+        1.0
+      ],
+      [
+        [
+          0,
+          [
+            209860372,
+            1,
+            [
+              0,
+              []
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        ],
+        0.15
+      ]
+    ],
+    "experience_per_damage_dealt": [
+      [
+        18,
+        1.5
+      ]
+    ],
+    "tier": 1,
+    "tag": "Strong Monster",
+    "rarity": [
+      1,
+      {}
+    ],
+    "huntable": false
+  },
+  {
+    "enemy_type": 17,
+    "name": "Jakyl",
+    "pathfinding_id": 769231106,
+    "targeting_matrix_id": 2,
+    "combat_actions_ids": [
+      3
+    ],
+    "description": "A weird thing that looks like it wants to bite you",
+    "min_speed": 10,
+    "max_speed": 20,
+    "radius": 1.0,
+    "awareness_destination_threshold": 0.5,
+    "min_awareness_tick_sec": 1.0,
+    "max_awareness_tick_sec": 5.0,
+    "max_health": 200,
+    "ignore_damage": false,
+    "health_regen_quantity": 0.1,
+    "armor": 500,
+    "accuracy": 700,
+    "evasion": 900,
+    "strength": 0,
+    "min_damage": 14,
+    "max_damage": 26,
+    "cooldown_multiplier": 1.0,
+    "daytime_detect_range": 30,
+    "daytime_aggro_range": 20,
+    "daytime_deaggro_range": 50,
+    "nighttime_detect_range": 50,
+    "nighttime_aggro_range": 25,
+    "nighttime_deaggro_range": 60,
+    "evade_range": 0,
+    "deaggro_health_threshold": 0.0,
+    "attack_level": 5,
+    "defense_level": 5,
+    "prefab_address": "Enemies/Jakyl",
+    "icon_address": "GeneratedIcons/Other/GeneratedIcons/Other/Animals/Jakyl",
+    "extracted_item_stacks": [
+      [
+        [
+          0,
+          [
+            225094001,
+            1,
+            [
+              0,
+              []
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        ],
+        0.1
+      ],
+      [
+        [
+          0,
+          [
+            767727086,
+            1,
+            [
+              0,
+              []
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        ],
+        1.0
+      ]
+    ],
+    "experience_per_damage_dealt": [
+      [
+        18,
+        1.5
+      ]
+    ],
+    "tier": 1,
+    "tag": "Monster",
+    "rarity": [
+      1,
+      {}
+    ],
+    "huntable": false
+  },
+  {
+    "enemy_type": 15,
+    "name": "Jungle Ostrich",
+    "pathfinding_id": 1159321119,
+    "targeting_matrix_id": 5,
+    "combat_actions_ids": [],
+    "description": "A Desert Bird",
+    "min_speed": 7,
+    "max_speed": 11,
+    "radius": 0.5,
+    "awareness_destination_threshold": 0.001,
+    "min_awareness_tick_sec": 10.0,
+    "max_awareness_tick_sec": 20.0,
+    "max_health": 450,
+    "ignore_damage": false,
+    "health_regen_quantity": 0.1,
+    "armor": 6,
+    "accuracy": 100,
+    "evasion": 100,
+    "strength": 0,
+    "min_damage": 0,
+    "max_damage": 0,
+    "cooldown_multiplier": 0.9,
+    "daytime_detect_range": 30,
+    "daytime_aggro_range": 30,
+    "daytime_deaggro_range": 0,
+    "nighttime_detect_range": 30,
+    "nighttime_aggro_range": 30,
+    "nighttime_deaggro_range": 0,
+    "evade_range": 25,
+    "deaggro_health_threshold": 0.0,
+    "attack_level": 0,
+    "defense_level": 1,
+    "prefab_address": "Enemies/GrassBird",
+    "icon_address": "GeneratedIcons/Other/Animals/DesertBird",
+    "extracted_item_stacks": [
+      [
+        [
+          0,
+          [
+            10,
+            1,
+            [
+              1,
+              []
+            ],
+            [
+              1,
+              []
+            ]
+          ]
+        ],
+        1.0
+      ]
+    ],
+    "experience_per_damage_dealt": [
+      [
+        9,
+        1.15
+      ]
+    ],
+    "tier": 5,
+    "tag": "Huntable Animal",
+    "rarity": [
+      2,
+      {}
+    ],
+    "huntable": true
+  },
+  {
+    "enemy_type": 19,
+    "name": "King Jakyl",
+    "pathfinding_id": 769231106,
+    "targeting_matrix_id": 2,
+    "combat_actions_ids": [
+      3
+    ],
+    "description": "A massive Jakyl. Much stronger than the others you've seen.",
+    "min_speed": 12,
+    "max_speed": 24,
+    "radius": 1.0,
+    "awareness_destination_threshold": 0.5,
+    "min_awareness_tick_sec": 1.0,
+    "max_awareness_tick_sec": 5.0,
+    "max_health": 2000,
+    "ignore_damage": false,
+    "health_regen_quantity": 0.1,
+    "armor": 400,
+    "accuracy": 150,
+    "evasion": 150,
+    "strength": 0,
+    "min_damage": 10,
+    "max_damage": 15,
+    "cooldown_multiplier": 1.0,
+    "daytime_detect_range": 40,
+    "daytime_aggro_range": 20,
+    "daytime_deaggro_range": 50,
+    "nighttime_detect_range": 80,
+    "nighttime_aggro_range": 25,
+    "nighttime_deaggro_range": 60,
+    "evade_range": 0,
+    "deaggro_health_threshold": 0.0,
+    "attack_level": 5,
+    "defense_level": 5,
+    "prefab_address": "Enemies/AlphaJakyl",
+    "icon_address": "GeneratedIcons/Other/GeneratedIcons/Other/Animals/AlphaJakyl",
+    "extracted_item_stacks": [
+      [
+        [
+          0,
+          [
+            225094001,
+            1,
+            [
+              0,
+              []
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        ],
+        1.0
+      ],
+      [
+        [
+          0,
+          [
+            828731292,
+            1,
+            [
+              0,
+              []
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        ],
+        1.0
+      ]
+    ],
+    "experience_per_damage_dealt": [
+      [
+        18,
+        1.75
+      ]
+    ],
+    "tier": 1,
+    "tag": "Elite Monster",
+    "rarity": [
+      3,
+      {}
+    ],
+    "huntable": false
+  },
+  {
+    "enemy_type": 28,
+    "name": "King Umbura",
+    "pathfinding_id": 769231106,
+    "targeting_matrix_id": 2,
+    "combat_actions_ids": [
+      1453498302
+    ],
+    "description": "A massive creature that looks very angry. Probably best to avoid it without backup.",
+    "min_speed": 25,
+    "max_speed": 35,
+    "radius": 0.5,
+    "awareness_destination_threshold": 0.5,
+    "min_awareness_tick_sec": 1.0,
+    "max_awareness_tick_sec": 5.0,
+    "max_health": 6000,
+    "ignore_damage": false,
+    "health_regen_quantity": 20.0,
+    "armor": 1200,
+    "accuracy": 200,
+    "evasion": 200,
+    "strength": 0,
+    "min_damage": 25,
+    "max_damage": 40,
+    "cooldown_multiplier": 1.0,
+    "daytime_detect_range": 40,
+    "daytime_aggro_range": 20,
+    "daytime_deaggro_range": 50,
+    "nighttime_detect_range": 80,
+    "nighttime_aggro_range": 25,
+    "nighttime_deaggro_range": 60,
+    "evade_range": 0,
+    "deaggro_health_threshold": 0.0,
+    "attack_level": 5,
+    "defense_level": 5,
+    "prefab_address": "Enemies/Umbura",
+    "icon_address": "GeneratedIcons/Other/GeneratedIcons/Other/Animals/Umbura",
+    "extracted_item_stacks": [
+      [
+        [
+          0,
+          [
+            1665899831,
+            1,
+            [
+              0,
+              []
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        ],
+        1.0
+      ],
+      [
+        [
+          0,
+          [
+            617029534,
+            1,
+            [
+              0,
+              []
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        ],
+        0.3
+      ]
+    ],
+    "experience_per_damage_dealt": [
+      [
+        18,
+        2.0
+      ]
+    ],
+    "tier": 1,
+    "tag": "Elite Monster",
+    "rarity": [
+      4,
+      {}
+    ],
+    "huntable": false
+  },
+  {
+    "enemy_type": 8,
+    "name": "Male Cervus",
+    "pathfinding_id": 959834809,
+    "targeting_matrix_id": 5,
+    "combat_actions_ids": [],
+    "description": "A Male Deer",
+    "min_speed": 7,
+    "max_speed": 11,
+    "radius": 0.5,
+    "awareness_destination_threshold": 0.001,
+    "min_awareness_tick_sec": 10.0,
+    "max_awareness_tick_sec": 20.0,
+    "max_health": 300,
+    "ignore_damage": false,
+    "health_regen_quantity": 0.1,
+    "armor": 6,
+    "accuracy": 100,
+    "evasion": 100,
+    "strength": 0,
+    "min_damage": 0,
+    "max_damage": 0,
+    "cooldown_multiplier": 0.9,
+    "daytime_detect_range": 15,
+    "daytime_aggro_range": 8,
+    "daytime_deaggro_range": 0,
+    "nighttime_detect_range": 15,
+    "nighttime_aggro_range": 8,
+    "nighttime_deaggro_range": 0,
+    "evade_range": 8,
+    "deaggro_health_threshold": 0.0,
+    "attack_level": 0,
+    "defense_level": 1,
+    "prefab_address": "Enemies/DeerMale",
+    "icon_address": "GeneratedIcons/Other/Animals/DeerMale",
+    "extracted_item_stacks": [
+      [
+        [
+          0,
+          [
+            4,
+            1,
+            [
+              1,
+              []
+            ],
+            [
+              1,
+              []
+            ]
+          ]
+        ],
+        1.0
+      ]
+    ],
+    "experience_per_damage_dealt": [
+      [
+        9,
+        1.15
+      ]
+    ],
+    "tier": 3,
+    "tag": "Huntable Animal",
+    "rarity": [
+      2,
+      {}
+    ],
+    "huntable": true
+  },
+  {
+    "enemy_type": 11,
+    "name": "Male Scrofa",
+    "pathfinding_id": 1159321119,
+    "targeting_matrix_id": 5,
+    "combat_actions_ids": [],
+    "description": "A Male Boar",
+    "min_speed": 7,
+    "max_speed": 11,
+    "radius": 0.5,
+    "awareness_destination_threshold": 0.001,
+    "min_awareness_tick_sec": 10.0,
+    "max_awareness_tick_sec": 20.0,
+    "max_health": 300,
+    "ignore_damage": false,
+    "health_regen_quantity": 0.1,
+    "armor": 6,
+    "accuracy": 100,
+    "evasion": 100,
+    "strength": 0,
+    "min_damage": 0,
+    "max_damage": 0,
+    "cooldown_multiplier": 1.2,
+    "daytime_detect_range": 15,
+    "daytime_aggro_range": 15,
+    "daytime_deaggro_range": 0,
+    "nighttime_detect_range": 15,
+    "nighttime_aggro_range": 15,
+    "nighttime_deaggro_range": 0,
+    "evade_range": 15,
+    "deaggro_health_threshold": 0.0,
+    "attack_level": 0,
+    "defense_level": 1,
+    "prefab_address": "Enemies/BoarMale",
+    "icon_address": "GeneratedIcons/Other/Animals/BoarMale",
+    "extracted_item_stacks": [
+      [
+        [
+          0,
+          [
+            6,
+            1,
+            [
+              1,
+              []
+            ],
+            [
+              1,
+              []
+            ]
+          ]
+        ],
+        1.0
+      ]
+    ],
+    "experience_per_damage_dealt": [
+      [
+        9,
+        1.15
+      ]
+    ],
+    "tier": 3,
+    "tag": "Huntable Animal",
+    "rarity": [
+      2,
+      {}
+    ],
+    "huntable": true
+  },
+  {
+    "enemy_type": 5,
+    "name": "Nubi Goat",
+    "pathfinding_id": 959834809,
+    "targeting_matrix_id": 5,
+    "combat_actions_ids": [],
+    "description": "A Goat",
+    "min_speed": 7,
+    "max_speed": 11,
+    "radius": 0.5,
+    "awareness_destination_threshold": 0.001,
+    "min_awareness_tick_sec": 10.0,
+    "max_awareness_tick_sec": 20.0,
+    "max_health": 225,
+    "ignore_damage": false,
+    "health_regen_quantity": 0.1,
+    "armor": 6,
+    "accuracy": 100,
+    "evasion": 100,
+    "strength": 0,
+    "min_damage": 0,
+    "max_damage": 0,
+    "cooldown_multiplier": 1.0,
+    "daytime_detect_range": 15,
+    "daytime_aggro_range": 5,
+    "daytime_deaggro_range": 0,
+    "nighttime_detect_range": 15,
+    "nighttime_aggro_range": 5,
+    "nighttime_deaggro_range": 0,
+    "evade_range": 3,
+    "deaggro_health_threshold": 0.0,
+    "attack_level": 0,
+    "defense_level": 1,
+    "prefab_address": "Enemies/Goat",
+    "icon_address": "GeneratedIcons/Other/Animals/Goat",
+    "extracted_item_stacks": [
+      [
+        [
+          0,
+          [
+            2,
+            1,
+            [
+              1,
+              []
+            ],
+            [
+              1,
+              []
+            ]
+          ]
+        ],
+        1.0
+      ]
+    ],
+    "experience_per_damage_dealt": [
+      [
+        9,
+        1.15
+      ]
+    ],
+    "tier": 2,
+    "tag": "Huntable Animal",
+    "rarity": [
+      1,
+      {}
+    ],
+    "huntable": true
+  },
+  {
+    "enemy_type": 13,
+    "name": "Ox",
+    "pathfinding_id": 959834809,
+    "targeting_matrix_id": 5,
+    "combat_actions_ids": [],
+    "description": "A Goat",
+    "min_speed": 7,
+    "max_speed": 11,
+    "radius": 0.5,
+    "awareness_destination_threshold": 0.001,
+    "min_awareness_tick_sec": 10.0,
+    "max_awareness_tick_sec": 20.0,
+    "max_health": 225,
+    "ignore_damage": false,
+    "health_regen_quantity": 0.1,
+    "armor": 6,
+    "accuracy": 100,
+    "evasion": 100,
+    "strength": 0,
+    "min_damage": 0,
+    "max_damage": 0,
+    "cooldown_multiplier": 1.0,
+    "daytime_detect_range": 15,
+    "daytime_aggro_range": 5,
+    "daytime_deaggro_range": 0,
+    "nighttime_detect_range": 15,
+    "nighttime_aggro_range": 5,
+    "nighttime_deaggro_range": 0,
+    "evade_range": 3,
+    "deaggro_health_threshold": 0.0,
+    "attack_level": 0,
+    "defense_level": 1,
+    "prefab_address": "Enemies/Goat",
+    "icon_address": "GeneratedIcons/Other/Animals/Goat",
+    "extracted_item_stacks": [
+      [
+        [
+          0,
+          [
+            2,
+            1,
+            [
+              1,
+              []
+            ],
+            [
+              1,
+              []
+            ]
+          ]
+        ],
+        1.0
+      ]
+    ],
+    "experience_per_damage_dealt": [
+      [
+        9,
+        1.15
+      ]
+    ],
+    "tier": 2,
+    "tag": "Huntable Animal",
+    "rarity": [
+      1,
+      {}
+    ],
+    "huntable": true
+  },
+  {
+    "enemy_type": 1,
+    "name": "Practice Dummy",
+    "pathfinding_id": 1159321119,
+    "targeting_matrix_id": 5,
+    "combat_actions_ids": [],
+    "description": "A Practice Dummy",
+    "min_speed": 0,
+    "max_speed": 0,
+    "radius": 0.5,
+    "awareness_destination_threshold": 0.001,
+    "min_awareness_tick_sec": 10.0,
+    "max_awareness_tick_sec": 20.0,
+    "max_health": 500000,
+    "ignore_damage": true,
+    "health_regen_quantity": 1.0,
+    "armor": 0,
+    "accuracy": 100,
+    "evasion": 100,
+    "strength": 0,
+    "min_damage": 0,
+    "max_damage": 0,
+    "cooldown_multiplier": 1.0,
+    "daytime_detect_range": 0,
+    "daytime_aggro_range": 0,
+    "daytime_deaggro_range": 0,
+    "nighttime_detect_range": 0,
+    "nighttime_aggro_range": 0,
+    "nighttime_deaggro_range": 0,
+    "evade_range": 0,
+    "deaggro_health_threshold": 0.0,
+    "attack_level": 0,
+    "defense_level": 1,
+    "prefab_address": "Enemies/PracticeDummy",
+    "icon_address": "GeneratedIcons/Other/GeneratedIcons/Other/Animals/TargetDummy",
+    "extracted_item_stacks": [],
+    "experience_per_damage_dealt": [
+      [
+        9,
+        0.0
+      ]
+    ],
+    "tier": 1,
+    "tag": "Monster",
+    "rarity": [
+      1,
+      {}
+    ],
+    "huntable": false
+  },
+  {
+    "enemy_type": 9,
+    "name": "Rangifer",
+    "pathfinding_id": 959834809,
+    "targeting_matrix_id": 5,
+    "combat_actions_ids": [],
+    "description": "An Elk",
+    "min_speed": 7,
+    "max_speed": 11,
+    "radius": 0.5,
+    "awareness_destination_threshold": 0.001,
+    "min_awareness_tick_sec": 10.0,
+    "max_awareness_tick_sec": 20.0,
+    "max_health": 375,
+    "ignore_damage": false,
+    "health_regen_quantity": 0.1,
+    "armor": 6,
+    "accuracy": 100,
+    "evasion": 100,
+    "strength": 0,
+    "min_damage": 0,
+    "max_damage": 0,
+    "cooldown_multiplier": 0.8,
+    "daytime_detect_range": 20,
+    "daytime_aggro_range": 15,
+    "daytime_deaggro_range": 0,
+    "nighttime_detect_range": 20,
+    "nighttime_aggro_range": 15,
+    "nighttime_deaggro_range": 0,
+    "evade_range": 15,
+    "deaggro_health_threshold": 0.0,
+    "attack_level": 0,
+    "defense_level": 1,
+    "prefab_address": "Enemies/DeerMale",
+    "icon_address": "GeneratedIcons/Other/Animals/DeerMale",
+    "extracted_item_stacks": [
+      [
+        [
+          0,
+          [
+            8,
+            1,
+            [
+              1,
+              []
+            ],
+            [
+              1,
+              []
+            ]
+          ]
+        ],
+        1.0
+      ]
+    ],
+    "experience_per_damage_dealt": [
+      [
+        9,
+        1.15
+      ]
+    ],
+    "tier": 4,
+    "tag": "Huntable Animal",
+    "rarity": [
+      1,
+      {}
+    ],
+    "huntable": true
+  },
+  {
+    "enemy_type": 2,
+    "name": "Sagi Bird",
+    "pathfinding_id": 1159321119,
+    "targeting_matrix_id": 5,
+    "combat_actions_ids": [],
+    "description": "A Grass Bird",
+    "min_speed": 5,
+    "max_speed": 15,
+    "radius": 0.5,
+    "awareness_destination_threshold": 0.001,
+    "min_awareness_tick_sec": 10.0,
+    "max_awareness_tick_sec": 20.0,
+    "max_health": 150,
+    "ignore_damage": false,
+    "health_regen_quantity": 0.1,
+    "armor": 6,
+    "accuracy": 100,
+    "evasion": 100,
+    "strength": 0,
+    "min_damage": 0,
+    "max_damage": 0,
+    "cooldown_multiplier": 1.0,
+    "daytime_detect_range": 16,
+    "daytime_aggro_range": 8,
+    "daytime_deaggro_range": 0,
+    "nighttime_detect_range": 16,
+    "nighttime_aggro_range": 8,
+    "nighttime_deaggro_range": 0,
+    "evade_range": 12,
+    "deaggro_health_threshold": 0.0,
+    "attack_level": 0,
+    "defense_level": 1,
+    "prefab_address": "Enemies/GrassBird",
+    "icon_address": "GeneratedIcons/Other/Animals/GrassBird",
+    "extracted_item_stacks": [
+      [
+        [
+          0,
+          [
+            1,
+            1,
+            [
+              1,
+              []
+            ],
+            [
+              1,
+              []
+            ]
+          ]
+        ],
+        1.0
+      ]
+    ],
+    "experience_per_damage_dealt": [
+      [
+        9,
+        1.15
+      ]
+    ],
+    "tier": 1,
+    "tag": "Huntable Animal",
+    "rarity": [
+      1,
+      {}
+    ],
+    "huntable": true
+  },
+  {
+    "enemy_type": 20,
+    "name": "Skitch",
+    "pathfinding_id": 769231106,
+    "targeting_matrix_id": 2,
+    "combat_actions_ids": [
+      3
+    ],
+    "description": "A strange creature that hides under a rock hard shell. Not particularly threatening by itself but its friends are always nearby.",
+    "min_speed": 10,
+    "max_speed": 20,
+    "radius": 1.0,
+    "awareness_destination_threshold": 0.5,
+    "min_awareness_tick_sec": 1.0,
+    "max_awareness_tick_sec": 5.0,
+    "max_health": 50,
+    "ignore_damage": false,
+    "health_regen_quantity": 0.1,
+    "armor": 100,
+    "accuracy": 75,
+    "evasion": 125,
+    "strength": 0,
+    "min_damage": 8,
+    "max_damage": 12,
+    "cooldown_multiplier": 1.0,
+    "daytime_detect_range": 40,
+    "daytime_aggro_range": 20,
+    "daytime_deaggro_range": 50,
+    "nighttime_detect_range": 80,
+    "nighttime_aggro_range": 25,
+    "nighttime_deaggro_range": 60,
+    "evade_range": 0,
+    "deaggro_health_threshold": 0.0,
+    "attack_level": 5,
+    "defense_level": 5,
+    "prefab_address": "Enemies/SwarmCrab",
+    "icon_address": "GeneratedIcons/Other/GeneratedIcons/Other/Animals/SwarmCrab",
+    "extracted_item_stacks": [
+      [
+        [
+          0,
+          [
+            540370053,
+            1,
+            [
+              0,
+              []
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        ],
+        1.0
+      ],
+      [
+        [
+          0,
+          [
+            209860372,
+            1,
+            [
+              0,
+              []
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        ],
+        0.04
+      ]
+    ],
+    "experience_per_damage_dealt": [
+      [
+        18,
+        1.5
+      ]
+    ],
+    "tier": 1,
+    "tag": "Monster",
+    "rarity": [
+      1,
+      {}
+    ],
+    "huntable": false
+  },
+  {
+    "enemy_type": 23,
+    "name": "Toad",
+    "pathfinding_id": 601358492,
+    "targeting_matrix_id": 2,
+    "combat_actions_ids": [
+      747222397
+    ],
+    "description": "A weird thing that looks like it wants to bite you",
+    "min_speed": 0,
+    "max_speed": 0,
+    "radius": 1.0,
+    "awareness_destination_threshold": 0.5,
+    "min_awareness_tick_sec": 1.0,
+    "max_awareness_tick_sec": 5.0,
+    "max_health": 300,
+    "ignore_damage": false,
+    "health_regen_quantity": 0.1,
+    "armor": 50,
+    "accuracy": 75,
+    "evasion": 125,
+    "strength": 0,
+    "min_damage": 7,
+    "max_damage": 13,
+    "cooldown_multiplier": 1.0,
+    "daytime_detect_range": 40,
+    "daytime_aggro_range": 20,
+    "daytime_deaggro_range": 50,
+    "nighttime_detect_range": 80,
+    "nighttime_aggro_range": 25,
+    "nighttime_deaggro_range": 60,
+    "evade_range": 0,
+    "deaggro_health_threshold": 0.0,
+    "attack_level": 5,
+    "defense_level": 5,
+    "prefab_address": "Enemies/ForestToad",
+    "icon_address": "GeneratedIcons/Other/GeneratedIcons/Other/Animals/Jakyl",
+    "extracted_item_stacks": [
+      [
+        [
+          0,
+          [
+            225094001,
+            1,
+            [
+              0,
+              []
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        ],
+        0.1
+      ],
+      [
+        [
+          0,
+          [
+            767727086,
+            1,
+            [
+              0,
+              []
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        ],
+        1.0
+      ]
+    ],
+    "experience_per_damage_dealt": [
+      [
+        18,
+        1.5
+      ]
+    ],
+    "tier": 1,
+    "tag": "Monster",
+    "rarity": [
+      2,
+      {}
+    ],
+    "huntable": false
+  },
+  {
+    "enemy_type": 14,
+    "name": "Tundra Ox",
+    "pathfinding_id": 959834809,
+    "targeting_matrix_id": 5,
+    "combat_actions_ids": [],
+    "description": "A Goat",
+    "min_speed": 7,
+    "max_speed": 11,
+    "radius": 0.5,
+    "awareness_destination_threshold": 0.001,
+    "min_awareness_tick_sec": 10.0,
+    "max_awareness_tick_sec": 20.0,
+    "max_health": 225,
+    "ignore_damage": false,
+    "health_regen_quantity": 0.1,
+    "armor": 6,
+    "accuracy": 100,
+    "evasion": 100,
+    "strength": 0,
+    "min_damage": 0,
+    "max_damage": 0,
+    "cooldown_multiplier": 1.0,
+    "daytime_detect_range": 15,
+    "daytime_aggro_range": 5,
+    "daytime_deaggro_range": 0,
+    "nighttime_detect_range": 15,
+    "nighttime_aggro_range": 5,
+    "nighttime_deaggro_range": 0,
+    "evade_range": 3,
+    "deaggro_health_threshold": 0.0,
+    "attack_level": 0,
+    "defense_level": 1,
+    "prefab_address": "Enemies/Goat",
+    "icon_address": "GeneratedIcons/Other/Animals/Goat",
+    "extracted_item_stacks": [
+      [
+        [
+          0,
+          [
+            2,
+            1,
+            [
+              1,
+              []
+            ],
+            [
+              1,
+              []
+            ]
+          ]
+        ],
+        1.0
+      ]
+    ],
+    "experience_per_damage_dealt": [
+      [
+        9,
+        1.15
+      ]
+    ],
+    "tier": 2,
+    "tag": "Huntable Animal",
+    "rarity": [
+      1,
+      {}
+    ],
+    "huntable": true
+  },
+  {
+    "enemy_type": 26,
+    "name": "Umbura",
+    "pathfinding_id": 769231106,
+    "targeting_matrix_id": 2,
+    "combat_actions_ids": [
+      1453498302
+    ],
+    "description": "A massive creature that looks very angry. Probably best to avoid it without backup.",
+    "min_speed": 25,
+    "max_speed": 35,
+    "radius": 0.5,
+    "awareness_destination_threshold": 0.5,
+    "min_awareness_tick_sec": 1.0,
+    "max_awareness_tick_sec": 5.0,
+    "max_health": 6000,
+    "ignore_damage": false,
+    "health_regen_quantity": 20.0,
+    "armor": 1200,
+    "accuracy": 200,
+    "evasion": 200,
+    "strength": 0,
+    "min_damage": 25,
+    "max_damage": 40,
+    "cooldown_multiplier": 1.0,
+    "daytime_detect_range": 40,
+    "daytime_aggro_range": 20,
+    "daytime_deaggro_range": 50,
+    "nighttime_detect_range": 80,
+    "nighttime_aggro_range": 25,
+    "nighttime_deaggro_range": 60,
+    "evade_range": 0,
+    "deaggro_health_threshold": 0.0,
+    "attack_level": 5,
+    "defense_level": 5,
+    "prefab_address": "Enemies/Umbura",
+    "icon_address": "GeneratedIcons/Other/GeneratedIcons/Other/Animals/Umbura",
+    "extracted_item_stacks": [
+      [
+        [
+          0,
+          [
+            1665899831,
+            1,
+            [
+              0,
+              []
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        ],
+        1.0
+      ],
+      [
+        [
+          0,
+          [
+            617029534,
+            1,
+            [
+              0,
+              []
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        ],
+        0.1
+      ]
+    ],
+    "experience_per_damage_dealt": [
+      [
+        18,
+        2.0
+      ]
+    ],
+    "tier": 1,
+    "tag": "Monster",
+    "rarity": [
+      4,
+      {}
+    ],
+    "huntable": false
+  },
+  {
+    "enemy_type": 6,
+    "name": "Yagi",
+    "pathfinding_id": 959834809,
+    "targeting_matrix_id": 5,
+    "combat_actions_ids": [],
+    "description": "A Mountain Goat",
+    "min_speed": 7,
+    "max_speed": 11,
+    "radius": 0.5,
+    "awareness_destination_threshold": 0.001,
+    "min_awareness_tick_sec": 10.0,
+    "max_awareness_tick_sec": 20.0,
+    "max_health": 560,
+    "ignore_damage": false,
+    "health_regen_quantity": 0.1,
+    "armor": 6,
+    "accuracy": 100,
+    "evasion": 100,
+    "strength": 0,
+    "min_damage": 0,
+    "max_damage": 0,
+    "cooldown_multiplier": 0.9,
+    "daytime_detect_range": 30,
+    "daytime_aggro_range": 25,
+    "daytime_deaggro_range": 0,
+    "nighttime_detect_range": 30,
+    "nighttime_aggro_range": 25,
+    "nighttime_deaggro_range": 0,
+    "evade_range": 25,
+    "deaggro_health_threshold": 0.0,
+    "attack_level": 0,
+    "defense_level": 1,
+    "prefab_address": "Enemies/Goat",
+    "icon_address": "GeneratedIcons/Other/Animals/MountainGoat",
+    "extracted_item_stacks": [
+      [
+        [
+          0,
+          [
+            11,
+            1,
+            [
+              1,
+              []
+            ],
+            [
+              1,
+              []
+            ]
+          ]
+        ],
+        1.0
+      ]
+    ],
+    "experience_per_damage_dealt": [
+      [
+        9,
+        1.15
+      ]
+    ],
+    "tier": 6,
+    "tag": "Huntable Animal",
+    "rarity": [
+      2,
+      {}
+    ],
+    "huntable": true
+  },
+  {
+    "enemy_type": 10,
+    "name": "Female Scrofa",
+    "pathfinding_id": 1159321119,
+    "targeting_matrix_id": 5,
+    "combat_actions_ids": [],
+    "description": "A Female Boar",
+    "min_speed": 7,
+    "max_speed": 11,
+    "radius": 0.5,
+    "awareness_destination_threshold": 0.001,
+    "min_awareness_tick_sec": 10.0,
+    "max_awareness_tick_sec": 20.0,
+    "max_health": 300,
+    "ignore_damage": false,
+    "health_regen_quantity": 0.1,
+    "armor": 6,
+    "accuracy": 100,
+    "evasion": 100,
+    "strength": 0,
+    "min_damage": 0,
+    "max_damage": 0,
+    "cooldown_multiplier": 1.0,
+    "daytime_detect_range": 15,
+    "daytime_aggro_range": 10,
+    "daytime_deaggro_range": 0,
+    "nighttime_detect_range": 15,
+    "nighttime_aggro_range": 10,
+    "nighttime_deaggro_range": 0,
+    "evade_range": 10,
+    "deaggro_health_threshold": 0.0,
+    "attack_level": 0,
+    "defense_level": 1,
+    "prefab_address": "Enemies/BoarFemale",
+    "icon_address": "GeneratedIcons/Other/Animals/BoarFemale",
+    "extracted_item_stacks": [
+      [
+        [
+          0,
+          [
+            5,
+            1,
+            [
+              1,
+              []
+            ],
+            [
+              1,
+              []
+            ]
+          ]
+        ],
+        1.0
+      ]
+    ],
+    "experience_per_damage_dealt": [
+      [
+        9,
+        1.15
+      ]
+    ],
+    "tier": 3,
+    "tag": "Huntable Animal",
+    "rarity": [
+      1,
+      {}
+    ],
+    "huntable": true
+  }
+]
