@@ -10,10 +10,12 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: BitCraftToolBox/game-data-action@main
+        id: update-data
         with:
           data-dir: server
           bitcraft-spacetime-host: ${{ secrets.BITCRAFT_SPACETIME_HOST }}
       - name: Commit changes
+        if: steps.update-data.outputs.updated_data == 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
