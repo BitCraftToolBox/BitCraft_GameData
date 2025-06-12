@@ -1,254 +1,5 @@
 [
   {
-    "id": 571156212,
-    "name": "Advanced Cart",
-    "deploy_from_collectible_id": 1083393330,
-    "deploy_time": 5.0,
-    "deployable_type": [
-      0,
-      {}
-    ],
-    "pathfinding_id": 1375685503,
-    "movement_type": [
-      1,
-      {}
-    ],
-    "can_enter_portals": true,
-    "speed": [
-      [
-        [
-          0,
-          []
-        ],
-        13.0
-      ],
-      [
-        [
-          1,
-          []
-        ],
-        0.0
-      ],
-      [
-        [
-          2,
-          []
-        ],
-        0.0
-      ],
-      [
-        [
-          3,
-          []
-        ],
-        0.0
-      ],
-      [
-        [
-          4,
-          []
-        ],
-        0.0
-      ],
-      [
-        [
-          5,
-          []
-        ],
-        0.0
-      ]
-    ],
-    "use_player_speed_modifier": true,
-    "placeable_on_land": true,
-    "placeable_in_water": false,
-    "capacity": 1,
-    "storage": 18,
-    "stockpile": 1,
-    "barter": 0,
-    "item_slot_size": 6000,
-    "cargo_slot_size": 60000,
-    "model_address": "Vehicles/Cart",
-    "stats": [],
-    "player_animations_in_deployable_slots": [
-      1
-    ],
-    "allow_driver_extract": false,
-    "allow_passenger_extract": false,
-    "show_for_secs_after_owner_logout": 0,
-    "allow_emote_while_driver": false,
-    "allow_emote_while_passenger": false,
-    "experience_per_progress": [],
-    "mounting_radius": 3.0
-  },
-  {
-    "id": 2045051661,
-    "name": "Advanced Wagon",
-    "deploy_from_collectible_id": 381044074,
-    "deploy_time": 5.0,
-    "deployable_type": [
-      0,
-      {}
-    ],
-    "pathfinding_id": 1030168975,
-    "movement_type": [
-      1,
-      {}
-    ],
-    "can_enter_portals": true,
-    "speed": [
-      [
-        [
-          0,
-          []
-        ],
-        11.0
-      ],
-      [
-        [
-          1,
-          []
-        ],
-        0.0
-      ],
-      [
-        [
-          2,
-          []
-        ],
-        0.0
-      ],
-      [
-        [
-          3,
-          []
-        ],
-        0.0
-      ],
-      [
-        [
-          4,
-          []
-        ],
-        0.0
-      ],
-      [
-        [
-          5,
-          []
-        ],
-        0.0
-      ]
-    ],
-    "use_player_speed_modifier": true,
-    "placeable_on_land": true,
-    "placeable_in_water": false,
-    "capacity": 1,
-    "storage": 12,
-    "stockpile": 6,
-    "barter": 0,
-    "item_slot_size": 6000,
-    "cargo_slot_size": 60000,
-    "model_address": "Vehicles/LargeCart",
-    "stats": [],
-    "player_animations_in_deployable_slots": [
-      1
-    ],
-    "allow_driver_extract": false,
-    "allow_passenger_extract": false,
-    "show_for_secs_after_owner_logout": 0,
-    "allow_emote_while_driver": false,
-    "allow_emote_while_passenger": false,
-    "experience_per_progress": [],
-    "mounting_radius": 3.0
-  },
-  {
-    "id": 1357146109,
-    "name": "Cargo Ship",
-    "deploy_from_collectible_id": 700235689,
-    "deploy_time": 5.0,
-    "deployable_type": [
-      4,
-      {}
-    ],
-    "pathfinding_id": 1876455160,
-    "movement_type": [
-      2,
-      {}
-    ],
-    "can_enter_portals": false,
-    "speed": [
-      [
-        [
-          0,
-          []
-        ],
-        0.0
-      ],
-      [
-        [
-          1,
-          []
-        ],
-        20.0
-      ],
-      [
-        [
-          2,
-          []
-        ],
-        20.0
-      ],
-      [
-        [
-          3,
-          []
-        ],
-        20.0
-      ],
-      [
-        [
-          4,
-          []
-        ],
-        20.0
-      ],
-      [
-        [
-          5,
-          []
-        ],
-        20.0
-      ]
-    ],
-    "use_player_speed_modifier": false,
-    "placeable_on_land": false,
-    "placeable_in_water": true,
-    "capacity": 5,
-    "storage": 30,
-    "stockpile": 6,
-    "barter": 0,
-    "item_slot_size": 6000,
-    "cargo_slot_size": 60000,
-    "model_address": "Vehicles/CargoShip",
-    "stats": [],
-    "player_animations_in_deployable_slots": [
-      1002,
-      1002
-    ],
-    "allow_driver_extract": true,
-    "allow_passenger_extract": true,
-    "show_for_secs_after_owner_logout": 0,
-    "allow_emote_while_driver": true,
-    "allow_emote_while_passenger": true,
-    "experience_per_progress": [
-      [
-        21,
-        1.0
-      ]
-    ],
-    "mounting_radius": 5.0
-  },
-  {
     "id": 1,
     "name": "Cart",
     "deploy_from_collectible_id": 128,
@@ -330,429 +81,9 @@
     "mounting_radius": 3.0
   },
   {
-    "id": 8,
-    "name": "Cheater's Boat",
-    "deploy_from_collectible_id": 133,
-    "deploy_time": 5.0,
-    "deployable_type": [
-      4,
-      {}
-    ],
-    "pathfinding_id": 691415579,
-    "movement_type": [
-      2,
-      {}
-    ],
-    "can_enter_portals": false,
-    "speed": [
-      [
-        [
-          0,
-          []
-        ],
-        0.0
-      ],
-      [
-        [
-          1,
-          []
-        ],
-        75.0
-      ],
-      [
-        [
-          2,
-          []
-        ],
-        75.0
-      ],
-      [
-        [
-          3,
-          []
-        ],
-        75.0
-      ],
-      [
-        [
-          4,
-          []
-        ],
-        75.0
-      ],
-      [
-        [
-          5,
-          []
-        ],
-        75.0
-      ]
-    ],
-    "use_player_speed_modifier": false,
-    "placeable_on_land": false,
-    "placeable_in_water": true,
-    "capacity": 2,
-    "storage": 0,
-    "stockpile": 0,
-    "barter": 0,
-    "item_slot_size": 6000,
-    "cargo_slot_size": 6000,
-    "model_address": "Vehicles/Canoe",
-    "stats": [],
-    "player_animations_in_deployable_slots": [
-      1002,
-      1002
-    ],
-    "allow_driver_extract": true,
-    "allow_passenger_extract": true,
-    "show_for_secs_after_owner_logout": 0,
-    "allow_emote_while_driver": false,
-    "allow_emote_while_passenger": false,
-    "experience_per_progress": [],
-    "mounting_radius": 5.0
-  },
-  {
-    "id": 228937650,
-    "name": "Clipper",
-    "deploy_from_collectible_id": 1142862651,
-    "deploy_time": 5.0,
-    "deployable_type": [
-      4,
-      {}
-    ],
-    "pathfinding_id": 1281875110,
-    "movement_type": [
-      2,
-      {}
-    ],
-    "can_enter_portals": false,
-    "speed": [
-      [
-        [
-          0,
-          []
-        ],
-        0.0
-      ],
-      [
-        [
-          1,
-          []
-        ],
-        20.0
-      ],
-      [
-        [
-          2,
-          []
-        ],
-        20.0
-      ],
-      [
-        [
-          3,
-          []
-        ],
-        20.0
-      ],
-      [
-        [
-          4,
-          []
-        ],
-        20.0
-      ],
-      [
-        [
-          5,
-          []
-        ],
-        20.0
-      ]
-    ],
-    "use_player_speed_modifier": false,
-    "placeable_on_land": false,
-    "placeable_in_water": true,
-    "capacity": 5,
-    "storage": 30,
-    "stockpile": 6,
-    "barter": 0,
-    "item_slot_size": 6000,
-    "cargo_slot_size": 60000,
-    "model_address": "Vehicles/Clipper",
-    "stats": [],
-    "player_animations_in_deployable_slots": [
-      1002,
-      1002
-    ],
-    "allow_driver_extract": true,
-    "allow_passenger_extract": true,
-    "show_for_secs_after_owner_logout": 0,
-    "allow_emote_while_driver": true,
-    "allow_emote_while_passenger": true,
-    "experience_per_progress": [
-      [
-        21,
-        1.0
-      ]
-    ],
-    "mounting_radius": 5.0
-  },
-  {
-    "id": 1641732157,
-    "name": "Expanded Personal Cache",
-    "deploy_from_collectible_id": 1226450761,
-    "deploy_time": 3.0,
-    "deployable_type": [
-      3,
-      {}
-    ],
-    "pathfinding_id": 1525146351,
-    "movement_type": [
-      0,
-      {}
-    ],
-    "can_enter_portals": true,
-    "speed": [
-      [
-        [
-          0,
-          []
-        ],
-        0.0
-      ],
-      [
-        [
-          1,
-          []
-        ],
-        0.0
-      ],
-      [
-        [
-          2,
-          []
-        ],
-        0.0
-      ],
-      [
-        [
-          3,
-          []
-        ],
-        0.0
-      ],
-      [
-        [
-          4,
-          []
-        ],
-        0.0
-      ],
-      [
-        [
-          5,
-          []
-        ],
-        0.0
-      ]
-    ],
-    "use_player_speed_modifier": false,
-    "placeable_on_land": true,
-    "placeable_in_water": false,
-    "capacity": 0,
-    "storage": 48,
-    "stockpile": 16,
-    "barter": 0,
-    "item_slot_size": 60000,
-    "cargo_slot_size": 600000,
-    "model_address": "Vehicles/PersonalCache",
-    "stats": [],
-    "player_animations_in_deployable_slots": [],
-    "allow_driver_extract": false,
-    "allow_passenger_extract": false,
-    "show_for_secs_after_owner_logout": 0,
-    "allow_emote_while_driver": false,
-    "allow_emote_while_passenger": false,
-    "experience_per_progress": [],
-    "mounting_radius": 3.0
-  },
-  {
-    "id": 7,
-    "name": "Fisherman's Boat",
-    "deploy_from_collectible_id": 132,
-    "deploy_time": 5.0,
-    "deployable_type": [
-      4,
-      {}
-    ],
-    "pathfinding_id": 1088877698,
-    "movement_type": [
-      2,
-      {}
-    ],
-    "can_enter_portals": false,
-    "speed": [
-      [
-        [
-          0,
-          []
-        ],
-        0.0
-      ],
-      [
-        [
-          1,
-          []
-        ],
-        30.0
-      ],
-      [
-        [
-          2,
-          []
-        ],
-        30.0
-      ],
-      [
-        [
-          3,
-          []
-        ],
-        30.0
-      ],
-      [
-        [
-          4,
-          []
-        ],
-        30.0
-      ],
-      [
-        [
-          5,
-          []
-        ],
-        30.0
-      ]
-    ],
-    "use_player_speed_modifier": false,
-    "placeable_on_land": false,
-    "placeable_in_water": true,
-    "capacity": 4,
-    "storage": 40,
-    "stockpile": 6,
-    "barter": 0,
-    "item_slot_size": 6000,
-    "cargo_slot_size": 180000,
-    "model_address": "Vehicles/SmallVessel",
-    "stats": [
-      [
-        [
-          15,
-          []
-        ],
-        0.05,
-        true
-      ]
-    ],
-    "player_animations_in_deployable_slots": [
-      1002,
-      1002
-    ],
-    "allow_driver_extract": true,
-    "allow_passenger_extract": true,
-    "show_for_secs_after_owner_logout": 0,
-    "allow_emote_while_driver": false,
-    "allow_emote_while_passenger": false,
-    "experience_per_progress": [],
-    "mounting_radius": 3.0
-  },
-  {
-    "id": 1596080513,
-    "name": "Improved Cart",
-    "deploy_from_collectible_id": 684496199,
-    "deploy_time": 5.0,
-    "deployable_type": [
-      0,
-      {}
-    ],
-    "pathfinding_id": 1375685503,
-    "movement_type": [
-      1,
-      {}
-    ],
-    "can_enter_portals": true,
-    "speed": [
-      [
-        [
-          0,
-          []
-        ],
-        13.0
-      ],
-      [
-        [
-          1,
-          []
-        ],
-        0.0
-      ],
-      [
-        [
-          2,
-          []
-        ],
-        0.0
-      ],
-      [
-        [
-          3,
-          []
-        ],
-        0.0
-      ],
-      [
-        [
-          4,
-          []
-        ],
-        0.0
-      ],
-      [
-        [
-          5,
-          []
-        ],
-        0.0
-      ]
-    ],
-    "use_player_speed_modifier": true,
-    "placeable_on_land": true,
-    "placeable_in_water": false,
-    "capacity": 1,
-    "storage": 18,
-    "stockpile": 1,
-    "barter": 0,
-    "item_slot_size": 6000,
-    "cargo_slot_size": 60000,
-    "model_address": "Vehicles/Cart",
-    "stats": [],
-    "player_animations_in_deployable_slots": [
-      1
-    ],
-    "allow_driver_extract": false,
-    "allow_passenger_extract": false,
-    "show_for_secs_after_owner_logout": 0,
-    "allow_emote_while_driver": false,
-    "allow_emote_while_passenger": false,
-    "experience_per_progress": [],
-    "mounting_radius": 3.0
-  },
-  {
-    "id": 1554573049,
-    "name": "Improved Wagon",
-    "deploy_from_collectible_id": 1520209370,
+    "id": 2,
+    "name": "Wagon",
+    "deploy_from_collectible_id": 129,
     "deploy_time": 5.0,
     "deployable_type": [
       0,
@@ -822,164 +153,6 @@
     "player_animations_in_deployable_slots": [
       1
     ],
-    "allow_driver_extract": false,
-    "allow_passenger_extract": false,
-    "show_for_secs_after_owner_logout": 0,
-    "allow_emote_while_driver": false,
-    "allow_emote_while_passenger": false,
-    "experience_per_progress": [],
-    "mounting_radius": 3.0
-  },
-  {
-    "id": 634088959,
-    "name": "Massive Personal Cache",
-    "deploy_from_collectible_id": 693157662,
-    "deploy_time": 3.0,
-    "deployable_type": [
-      3,
-      {}
-    ],
-    "pathfinding_id": 1525146351,
-    "movement_type": [
-      0,
-      {}
-    ],
-    "can_enter_portals": true,
-    "speed": [
-      [
-        [
-          0,
-          []
-        ],
-        0.0
-      ],
-      [
-        [
-          1,
-          []
-        ],
-        0.0
-      ],
-      [
-        [
-          2,
-          []
-        ],
-        0.0
-      ],
-      [
-        [
-          3,
-          []
-        ],
-        0.0
-      ],
-      [
-        [
-          4,
-          []
-        ],
-        0.0
-      ],
-      [
-        [
-          5,
-          []
-        ],
-        0.0
-      ]
-    ],
-    "use_player_speed_modifier": false,
-    "placeable_on_land": true,
-    "placeable_in_water": false,
-    "capacity": 0,
-    "storage": 72,
-    "stockpile": 24,
-    "barter": 0,
-    "item_slot_size": 60000,
-    "cargo_slot_size": 600000,
-    "model_address": "Vehicles/PersonalCache",
-    "stats": [],
-    "player_animations_in_deployable_slots": [],
-    "allow_driver_extract": false,
-    "allow_passenger_extract": false,
-    "show_for_secs_after_owner_logout": 0,
-    "allow_emote_while_driver": false,
-    "allow_emote_while_passenger": false,
-    "experience_per_progress": [],
-    "mounting_radius": 3.0
-  },
-  {
-    "id": 1026286338,
-    "name": "Personal Cache",
-    "deploy_from_collectible_id": 790337329,
-    "deploy_time": 3.0,
-    "deployable_type": [
-      3,
-      {}
-    ],
-    "pathfinding_id": 1525146351,
-    "movement_type": [
-      0,
-      {}
-    ],
-    "can_enter_portals": true,
-    "speed": [
-      [
-        [
-          0,
-          []
-        ],
-        0.0
-      ],
-      [
-        [
-          1,
-          []
-        ],
-        0.0
-      ],
-      [
-        [
-          2,
-          []
-        ],
-        0.0
-      ],
-      [
-        [
-          3,
-          []
-        ],
-        0.0
-      ],
-      [
-        [
-          4,
-          []
-        ],
-        0.0
-      ],
-      [
-        [
-          5,
-          []
-        ],
-        0.0
-      ]
-    ],
-    "use_player_speed_modifier": false,
-    "placeable_on_land": true,
-    "placeable_in_water": false,
-    "capacity": 0,
-    "storage": 32,
-    "stockpile": 8,
-    "barter": 0,
-    "item_slot_size": 60000,
-    "cargo_slot_size": 600000,
-    "model_address": "Vehicles/CrudePersonalCache",
-    "stats": [],
-    "player_animations_in_deployable_slots": [],
     "allow_driver_extract": false,
     "allow_passenger_extract": false,
     "show_for_secs_after_owner_logout": 0,
@@ -1076,172 +249,91 @@
     "mounting_radius": 3.0
   },
   {
-    "id": 2065423994,
-    "name": "Rickshaw Cart",
-    "deploy_from_collectible_id": 1586159687,
+    "id": 4,
+    "name": "Skiff",
+    "deploy_from_collectible_id": 131,
     "deploy_time": 5.0,
     "deployable_type": [
-      0,
+      4,
       {}
     ],
-    "pathfinding_id": 1375685503,
+    "pathfinding_id": 865980458,
     "movement_type": [
-      1,
+      2,
       {}
     ],
-    "can_enter_portals": true,
+    "can_enter_portals": false,
     "speed": [
       [
         [
           0,
           []
         ],
-        13.0
+        0.0
       ],
       [
         [
           1,
-          []
-        ],
-        0.0
-      ],
-      [
-        [
-          2,
-          []
-        ],
-        0.0
-      ],
-      [
-        [
-          3,
-          []
-        ],
-        0.0
-      ],
-      [
-        [
-          4,
-          []
-        ],
-        0.0
-      ],
-      [
-        [
-          5,
-          []
-        ],
-        0.0
-      ]
-    ],
-    "use_player_speed_modifier": true,
-    "placeable_on_land": true,
-    "placeable_in_water": false,
-    "capacity": 1,
-    "storage": 12,
-    "stockpile": 0,
-    "barter": 0,
-    "item_slot_size": 6000,
-    "cargo_slot_size": 60000,
-    "model_address": "Vehicles/Cart",
-    "stats": [],
-    "player_animations_in_deployable_slots": [
-      1
-    ],
-    "allow_driver_extract": false,
-    "allow_passenger_extract": false,
-    "show_for_secs_after_owner_logout": 0,
-    "allow_emote_while_driver": false,
-    "allow_emote_while_passenger": false,
-    "experience_per_progress": [],
-    "mounting_radius": 3.0
-  },
-  {
-    "id": 1338380321,
-    "name": "Rideable Bird",
-    "deploy_from_collectible_id": 1163358546,
-    "deploy_time": 3.0,
-    "deployable_type": [
-      1,
-      {}
-    ],
-    "pathfinding_id": 309954853,
-    "movement_type": [
-      1,
-      {}
-    ],
-    "can_enter_portals": true,
-    "speed": [
-      [
-        [
-          0,
           []
         ],
         20.0
       ],
       [
         [
-          1,
-          []
-        ],
-        0.0
-      ],
-      [
-        [
           2,
           []
         ],
-        0.0
+        20.0
       ],
       [
         [
           3,
           []
         ],
-        0.0
+        20.0
       ],
       [
         [
           4,
           []
         ],
-        0.0
+        20.0
       ],
       [
         [
           5,
           []
         ],
-        0.0
+        20.0
       ]
     ],
     "use_player_speed_modifier": false,
-    "placeable_on_land": true,
-    "placeable_in_water": false,
-    "capacity": 2,
-    "storage": 0,
-    "stockpile": 0,
+    "placeable_on_land": false,
+    "placeable_in_water": true,
+    "capacity": 3,
+    "storage": 24,
+    "stockpile": 4,
     "barter": 0,
     "item_slot_size": 6000,
-    "cargo_slot_size": 6000,
-    "model_address": "Vehicles/DeerMount",
+    "cargo_slot_size": 60000,
+    "model_address": "Vehicles/Skiff",
     "stats": [],
     "player_animations_in_deployable_slots": [
-      2,
-      1000
+      1002,
+      1002
     ],
-    "allow_driver_extract": false,
-    "allow_passenger_extract": false,
+    "allow_driver_extract": true,
+    "allow_passenger_extract": true,
     "show_for_secs_after_owner_logout": 0,
-    "allow_emote_while_driver": false,
-    "allow_emote_while_passenger": false,
+    "allow_emote_while_driver": true,
+    "allow_emote_while_passenger": true,
     "experience_per_progress": [
       [
-        17,
+        21,
         1.0
       ]
     ],
-    "mounting_radius": 3.0
+    "mounting_radius": 5.0
   },
   {
     "id": 6,
@@ -1330,267 +422,15 @@
     "mounting_radius": 3.0
   },
   {
-    "id": 1125730891,
-    "name": "Rideable Goat",
-    "deploy_from_collectible_id": 537052696,
-    "deploy_time": 3.0,
-    "deployable_type": [
-      1,
-      {}
-    ],
-    "pathfinding_id": 668511654,
-    "movement_type": [
-      1,
-      {}
-    ],
-    "can_enter_portals": true,
-    "speed": [
-      [
-        [
-          0,
-          []
-        ],
-        16.0
-      ],
-      [
-        [
-          1,
-          []
-        ],
-        0.0
-      ],
-      [
-        [
-          2,
-          []
-        ],
-        0.0
-      ],
-      [
-        [
-          3,
-          []
-        ],
-        0.0
-      ],
-      [
-        [
-          4,
-          []
-        ],
-        0.0
-      ],
-      [
-        [
-          5,
-          []
-        ],
-        0.0
-      ]
-    ],
-    "use_player_speed_modifier": false,
-    "placeable_on_land": true,
-    "placeable_in_water": false,
-    "capacity": 1,
-    "storage": 0,
-    "stockpile": 2,
-    "barter": 0,
-    "item_slot_size": 6000,
-    "cargo_slot_size": 6000,
-    "model_address": "Vehicles/GoatMount",
-    "stats": [],
-    "player_animations_in_deployable_slots": [
-      2
-    ],
-    "allow_driver_extract": false,
-    "allow_passenger_extract": false,
-    "show_for_secs_after_owner_logout": 0,
-    "allow_emote_while_driver": false,
-    "allow_emote_while_passenger": false,
-    "experience_per_progress": [
-      [
-        17,
-        1.0
-      ]
-    ],
-    "mounting_radius": 3.0
-  },
-  {
-    "id": 872518914,
-    "name": "Rideable Yak",
-    "deploy_from_collectible_id": 1289105478,
-    "deploy_time": 3.0,
-    "deployable_type": [
-      1,
-      {}
-    ],
-    "pathfinding_id": 309954853,
-    "movement_type": [
-      1,
-      {}
-    ],
-    "can_enter_portals": true,
-    "speed": [
-      [
-        [
-          0,
-          []
-        ],
-        20.0
-      ],
-      [
-        [
-          1,
-          []
-        ],
-        0.0
-      ],
-      [
-        [
-          2,
-          []
-        ],
-        0.0
-      ],
-      [
-        [
-          3,
-          []
-        ],
-        0.0
-      ],
-      [
-        [
-          4,
-          []
-        ],
-        0.0
-      ],
-      [
-        [
-          5,
-          []
-        ],
-        0.0
-      ]
-    ],
-    "use_player_speed_modifier": false,
-    "placeable_on_land": true,
-    "placeable_in_water": false,
-    "capacity": 2,
-    "storage": 0,
-    "stockpile": 0,
-    "barter": 0,
-    "item_slot_size": 6000,
-    "cargo_slot_size": 6000,
-    "model_address": "Vehicles/DeerMount",
-    "stats": [],
-    "player_animations_in_deployable_slots": [
-      2,
-      1000
-    ],
-    "allow_driver_extract": false,
-    "allow_passenger_extract": false,
-    "show_for_secs_after_owner_logout": 0,
-    "allow_emote_while_driver": false,
-    "allow_emote_while_passenger": false,
-    "experience_per_progress": [
-      [
-        17,
-        1.0
-      ]
-    ],
-    "mounting_radius": 3.0
-  },
-  {
-    "id": 1000,
-    "name": "Siege Engine",
-    "deploy_from_collectible_id": 0,
-    "deploy_time": 0.0,
-    "deployable_type": [
-      0,
-      {}
-    ],
-    "pathfinding_id": 1525146351,
-    "movement_type": [
-      0,
-      {}
-    ],
-    "can_enter_portals": true,
-    "speed": [
-      [
-        [
-          0,
-          []
-        ],
-        0.0
-      ],
-      [
-        [
-          1,
-          []
-        ],
-        0.0
-      ],
-      [
-        [
-          2,
-          []
-        ],
-        0.0
-      ],
-      [
-        [
-          3,
-          []
-        ],
-        0.0
-      ],
-      [
-        [
-          4,
-          []
-        ],
-        0.0
-      ],
-      [
-        [
-          5,
-          []
-        ],
-        0.0
-      ]
-    ],
-    "use_player_speed_modifier": false,
-    "placeable_on_land": true,
-    "placeable_in_water": false,
-    "capacity": 0,
-    "storage": 0,
-    "stockpile": 0,
-    "barter": 0,
-    "item_slot_size": 6000,
-    "cargo_slot_size": 0,
-    "model_address": "Vehicles/SiegeEngine",
-    "stats": [],
-    "player_animations_in_deployable_slots": [],
-    "allow_driver_extract": false,
-    "allow_passenger_extract": false,
-    "show_for_secs_after_owner_logout": 0,
-    "allow_emote_while_driver": false,
-    "allow_emote_while_passenger": false,
-    "experience_per_progress": [],
-    "mounting_radius": 3.0
-  },
-  {
-    "id": 4,
-    "name": "Skiff",
-    "deploy_from_collectible_id": 131,
+    "id": 7,
+    "name": "Fisherman's Boat",
+    "deploy_from_collectible_id": 132,
     "deploy_time": 5.0,
     "deployable_type": [
       4,
       {}
     ],
-    "pathfinding_id": 865980458,
+    "pathfinding_id": 1088877698,
     "movement_type": [
       2,
       {}
@@ -1609,47 +449,138 @@
           1,
           []
         ],
-        20.0
+        30.0
       ],
       [
         [
           2,
           []
         ],
-        20.0
+        30.0
       ],
       [
         [
           3,
           []
         ],
-        20.0
+        30.0
       ],
       [
         [
           4,
           []
         ],
-        20.0
+        30.0
       ],
       [
         [
           5,
           []
         ],
-        20.0
+        30.0
       ]
     ],
     "use_player_speed_modifier": false,
     "placeable_on_land": false,
     "placeable_in_water": true,
-    "capacity": 3,
-    "storage": 24,
-    "stockpile": 4,
+    "capacity": 4,
+    "storage": 40,
+    "stockpile": 6,
     "barter": 0,
     "item_slot_size": 6000,
-    "cargo_slot_size": 60000,
-    "model_address": "Vehicles/Skiff",
+    "cargo_slot_size": 180000,
+    "model_address": "Vehicles/SmallVessel",
+    "stats": [
+      [
+        [
+          15,
+          []
+        ],
+        0.05,
+        true
+      ]
+    ],
+    "player_animations_in_deployable_slots": [
+      1002,
+      1002
+    ],
+    "allow_driver_extract": true,
+    "allow_passenger_extract": true,
+    "show_for_secs_after_owner_logout": 0,
+    "allow_emote_while_driver": false,
+    "allow_emote_while_passenger": false,
+    "experience_per_progress": [],
+    "mounting_radius": 3.0
+  },
+  {
+    "id": 8,
+    "name": "Cheater's Boat",
+    "deploy_from_collectible_id": 133,
+    "deploy_time": 5.0,
+    "deployable_type": [
+      4,
+      {}
+    ],
+    "pathfinding_id": 691415579,
+    "movement_type": [
+      2,
+      {}
+    ],
+    "can_enter_portals": false,
+    "speed": [
+      [
+        [
+          0,
+          []
+        ],
+        0.0
+      ],
+      [
+        [
+          1,
+          []
+        ],
+        75.0
+      ],
+      [
+        [
+          2,
+          []
+        ],
+        75.0
+      ],
+      [
+        [
+          3,
+          []
+        ],
+        75.0
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        75.0
+      ],
+      [
+        [
+          5,
+          []
+        ],
+        75.0
+      ]
+    ],
+    "use_player_speed_modifier": false,
+    "placeable_on_land": false,
+    "placeable_in_water": true,
+    "capacity": 2,
+    "storage": 0,
+    "stockpile": 0,
+    "barter": 0,
+    "item_slot_size": 6000,
+    "cargo_slot_size": 6000,
+    "model_address": "Vehicles/Canoe",
     "stats": [],
     "player_animations_in_deployable_slots": [
       1002,
@@ -1658,14 +589,9 @@
     "allow_driver_extract": true,
     "allow_passenger_extract": true,
     "show_for_secs_after_owner_logout": 0,
-    "allow_emote_while_driver": true,
-    "allow_emote_while_passenger": true,
-    "experience_per_progress": [
-      [
-        21,
-        1.0
-      ]
-    ],
+    "allow_emote_while_driver": false,
+    "allow_emote_while_passenger": false,
+    "experience_per_progress": [],
     "mounting_radius": 5.0
   },
   {
@@ -1829,9 +755,761 @@
     "mounting_radius": 3.0
   },
   {
-    "id": 2,
-    "name": "Wagon",
-    "deploy_from_collectible_id": 129,
+    "id": 1000,
+    "name": "Siege Engine",
+    "deploy_from_collectible_id": 0,
+    "deploy_time": 0.0,
+    "deployable_type": [
+      0,
+      {}
+    ],
+    "pathfinding_id": 1525146351,
+    "movement_type": [
+      0,
+      {}
+    ],
+    "can_enter_portals": true,
+    "speed": [
+      [
+        [
+          0,
+          []
+        ],
+        0.0
+      ],
+      [
+        [
+          1,
+          []
+        ],
+        0.0
+      ],
+      [
+        [
+          2,
+          []
+        ],
+        0.0
+      ],
+      [
+        [
+          3,
+          []
+        ],
+        0.0
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        0.0
+      ],
+      [
+        [
+          5,
+          []
+        ],
+        0.0
+      ]
+    ],
+    "use_player_speed_modifier": false,
+    "placeable_on_land": true,
+    "placeable_in_water": false,
+    "capacity": 0,
+    "storage": 0,
+    "stockpile": 0,
+    "barter": 0,
+    "item_slot_size": 6000,
+    "cargo_slot_size": 0,
+    "model_address": "Vehicles/SiegeEngine",
+    "stats": [],
+    "player_animations_in_deployable_slots": [],
+    "allow_driver_extract": false,
+    "allow_passenger_extract": false,
+    "show_for_secs_after_owner_logout": 0,
+    "allow_emote_while_driver": false,
+    "allow_emote_while_passenger": false,
+    "experience_per_progress": [],
+    "mounting_radius": 3.0
+  },
+  {
+    "id": 228937650,
+    "name": "Clipper",
+    "deploy_from_collectible_id": 1142862651,
+    "deploy_time": 5.0,
+    "deployable_type": [
+      4,
+      {}
+    ],
+    "pathfinding_id": 1281875110,
+    "movement_type": [
+      2,
+      {}
+    ],
+    "can_enter_portals": false,
+    "speed": [
+      [
+        [
+          0,
+          []
+        ],
+        0.0
+      ],
+      [
+        [
+          1,
+          []
+        ],
+        20.0
+      ],
+      [
+        [
+          2,
+          []
+        ],
+        20.0
+      ],
+      [
+        [
+          3,
+          []
+        ],
+        20.0
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        20.0
+      ],
+      [
+        [
+          5,
+          []
+        ],
+        20.0
+      ]
+    ],
+    "use_player_speed_modifier": false,
+    "placeable_on_land": false,
+    "placeable_in_water": true,
+    "capacity": 5,
+    "storage": 30,
+    "stockpile": 6,
+    "barter": 0,
+    "item_slot_size": 6000,
+    "cargo_slot_size": 60000,
+    "model_address": "Vehicles/Clipper",
+    "stats": [],
+    "player_animations_in_deployable_slots": [
+      1002,
+      1002
+    ],
+    "allow_driver_extract": true,
+    "allow_passenger_extract": true,
+    "show_for_secs_after_owner_logout": 0,
+    "allow_emote_while_driver": true,
+    "allow_emote_while_passenger": true,
+    "experience_per_progress": [
+      [
+        21,
+        1.0
+      ]
+    ],
+    "mounting_radius": 5.0
+  },
+  {
+    "id": 571156212,
+    "name": "Advanced Cart",
+    "deploy_from_collectible_id": 1083393330,
+    "deploy_time": 5.0,
+    "deployable_type": [
+      0,
+      {}
+    ],
+    "pathfinding_id": 1375685503,
+    "movement_type": [
+      1,
+      {}
+    ],
+    "can_enter_portals": true,
+    "speed": [
+      [
+        [
+          0,
+          []
+        ],
+        13.0
+      ],
+      [
+        [
+          1,
+          []
+        ],
+        0.0
+      ],
+      [
+        [
+          2,
+          []
+        ],
+        0.0
+      ],
+      [
+        [
+          3,
+          []
+        ],
+        0.0
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        0.0
+      ],
+      [
+        [
+          5,
+          []
+        ],
+        0.0
+      ]
+    ],
+    "use_player_speed_modifier": true,
+    "placeable_on_land": true,
+    "placeable_in_water": false,
+    "capacity": 1,
+    "storage": 18,
+    "stockpile": 1,
+    "barter": 0,
+    "item_slot_size": 6000,
+    "cargo_slot_size": 60000,
+    "model_address": "Vehicles/Cart",
+    "stats": [],
+    "player_animations_in_deployable_slots": [
+      1
+    ],
+    "allow_driver_extract": false,
+    "allow_passenger_extract": false,
+    "show_for_secs_after_owner_logout": 0,
+    "allow_emote_while_driver": false,
+    "allow_emote_while_passenger": false,
+    "experience_per_progress": [],
+    "mounting_radius": 3.0
+  },
+  {
+    "id": 634088959,
+    "name": "Massive Personal Cache",
+    "deploy_from_collectible_id": 693157662,
+    "deploy_time": 3.0,
+    "deployable_type": [
+      3,
+      {}
+    ],
+    "pathfinding_id": 1525146351,
+    "movement_type": [
+      0,
+      {}
+    ],
+    "can_enter_portals": true,
+    "speed": [
+      [
+        [
+          0,
+          []
+        ],
+        0.0
+      ],
+      [
+        [
+          1,
+          []
+        ],
+        0.0
+      ],
+      [
+        [
+          2,
+          []
+        ],
+        0.0
+      ],
+      [
+        [
+          3,
+          []
+        ],
+        0.0
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        0.0
+      ],
+      [
+        [
+          5,
+          []
+        ],
+        0.0
+      ]
+    ],
+    "use_player_speed_modifier": false,
+    "placeable_on_land": true,
+    "placeable_in_water": false,
+    "capacity": 0,
+    "storage": 72,
+    "stockpile": 24,
+    "barter": 0,
+    "item_slot_size": 60000,
+    "cargo_slot_size": 600000,
+    "model_address": "Vehicles/PersonalCache",
+    "stats": [],
+    "player_animations_in_deployable_slots": [],
+    "allow_driver_extract": false,
+    "allow_passenger_extract": false,
+    "show_for_secs_after_owner_logout": 0,
+    "allow_emote_while_driver": false,
+    "allow_emote_while_passenger": false,
+    "experience_per_progress": [],
+    "mounting_radius": 3.0
+  },
+  {
+    "id": 872518914,
+    "name": "Rideable Yak",
+    "deploy_from_collectible_id": 1289105478,
+    "deploy_time": 3.0,
+    "deployable_type": [
+      1,
+      {}
+    ],
+    "pathfinding_id": 309954853,
+    "movement_type": [
+      1,
+      {}
+    ],
+    "can_enter_portals": true,
+    "speed": [
+      [
+        [
+          0,
+          []
+        ],
+        20.0
+      ],
+      [
+        [
+          1,
+          []
+        ],
+        0.0
+      ],
+      [
+        [
+          2,
+          []
+        ],
+        0.0
+      ],
+      [
+        [
+          3,
+          []
+        ],
+        0.0
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        0.0
+      ],
+      [
+        [
+          5,
+          []
+        ],
+        0.0
+      ]
+    ],
+    "use_player_speed_modifier": false,
+    "placeable_on_land": true,
+    "placeable_in_water": false,
+    "capacity": 2,
+    "storage": 0,
+    "stockpile": 0,
+    "barter": 0,
+    "item_slot_size": 6000,
+    "cargo_slot_size": 6000,
+    "model_address": "Vehicles/DeerMount",
+    "stats": [],
+    "player_animations_in_deployable_slots": [
+      2,
+      1000
+    ],
+    "allow_driver_extract": false,
+    "allow_passenger_extract": false,
+    "show_for_secs_after_owner_logout": 0,
+    "allow_emote_while_driver": false,
+    "allow_emote_while_passenger": false,
+    "experience_per_progress": [
+      [
+        17,
+        1.0
+      ]
+    ],
+    "mounting_radius": 3.0
+  },
+  {
+    "id": 1026286338,
+    "name": "Personal Cache",
+    "deploy_from_collectible_id": 790337329,
+    "deploy_time": 3.0,
+    "deployable_type": [
+      3,
+      {}
+    ],
+    "pathfinding_id": 1525146351,
+    "movement_type": [
+      0,
+      {}
+    ],
+    "can_enter_portals": true,
+    "speed": [
+      [
+        [
+          0,
+          []
+        ],
+        0.0
+      ],
+      [
+        [
+          1,
+          []
+        ],
+        0.0
+      ],
+      [
+        [
+          2,
+          []
+        ],
+        0.0
+      ],
+      [
+        [
+          3,
+          []
+        ],
+        0.0
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        0.0
+      ],
+      [
+        [
+          5,
+          []
+        ],
+        0.0
+      ]
+    ],
+    "use_player_speed_modifier": false,
+    "placeable_on_land": true,
+    "placeable_in_water": false,
+    "capacity": 0,
+    "storage": 32,
+    "stockpile": 8,
+    "barter": 0,
+    "item_slot_size": 60000,
+    "cargo_slot_size": 600000,
+    "model_address": "Vehicles/CrudePersonalCache",
+    "stats": [],
+    "player_animations_in_deployable_slots": [],
+    "allow_driver_extract": false,
+    "allow_passenger_extract": false,
+    "show_for_secs_after_owner_logout": 0,
+    "allow_emote_while_driver": false,
+    "allow_emote_while_passenger": false,
+    "experience_per_progress": [],
+    "mounting_radius": 3.0
+  },
+  {
+    "id": 1125730891,
+    "name": "Rideable Goat",
+    "deploy_from_collectible_id": 537052696,
+    "deploy_time": 3.0,
+    "deployable_type": [
+      1,
+      {}
+    ],
+    "pathfinding_id": 668511654,
+    "movement_type": [
+      1,
+      {}
+    ],
+    "can_enter_portals": true,
+    "speed": [
+      [
+        [
+          0,
+          []
+        ],
+        16.0
+      ],
+      [
+        [
+          1,
+          []
+        ],
+        0.0
+      ],
+      [
+        [
+          2,
+          []
+        ],
+        0.0
+      ],
+      [
+        [
+          3,
+          []
+        ],
+        0.0
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        0.0
+      ],
+      [
+        [
+          5,
+          []
+        ],
+        0.0
+      ]
+    ],
+    "use_player_speed_modifier": false,
+    "placeable_on_land": true,
+    "placeable_in_water": false,
+    "capacity": 1,
+    "storage": 0,
+    "stockpile": 2,
+    "barter": 0,
+    "item_slot_size": 6000,
+    "cargo_slot_size": 6000,
+    "model_address": "Vehicles/GoatMount",
+    "stats": [],
+    "player_animations_in_deployable_slots": [
+      2
+    ],
+    "allow_driver_extract": false,
+    "allow_passenger_extract": false,
+    "show_for_secs_after_owner_logout": 0,
+    "allow_emote_while_driver": false,
+    "allow_emote_while_passenger": false,
+    "experience_per_progress": [
+      [
+        17,
+        1.0
+      ]
+    ],
+    "mounting_radius": 3.0
+  },
+  {
+    "id": 1338380321,
+    "name": "Rideable Bird",
+    "deploy_from_collectible_id": 1163358546,
+    "deploy_time": 3.0,
+    "deployable_type": [
+      1,
+      {}
+    ],
+    "pathfinding_id": 309954853,
+    "movement_type": [
+      1,
+      {}
+    ],
+    "can_enter_portals": true,
+    "speed": [
+      [
+        [
+          0,
+          []
+        ],
+        20.0
+      ],
+      [
+        [
+          1,
+          []
+        ],
+        0.0
+      ],
+      [
+        [
+          2,
+          []
+        ],
+        0.0
+      ],
+      [
+        [
+          3,
+          []
+        ],
+        0.0
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        0.0
+      ],
+      [
+        [
+          5,
+          []
+        ],
+        0.0
+      ]
+    ],
+    "use_player_speed_modifier": false,
+    "placeable_on_land": true,
+    "placeable_in_water": false,
+    "capacity": 2,
+    "storage": 0,
+    "stockpile": 0,
+    "barter": 0,
+    "item_slot_size": 6000,
+    "cargo_slot_size": 6000,
+    "model_address": "Vehicles/DeerMount",
+    "stats": [],
+    "player_animations_in_deployable_slots": [
+      2,
+      1000
+    ],
+    "allow_driver_extract": false,
+    "allow_passenger_extract": false,
+    "show_for_secs_after_owner_logout": 0,
+    "allow_emote_while_driver": false,
+    "allow_emote_while_passenger": false,
+    "experience_per_progress": [
+      [
+        17,
+        1.0
+      ]
+    ],
+    "mounting_radius": 3.0
+  },
+  {
+    "id": 1357146109,
+    "name": "Cargo Ship",
+    "deploy_from_collectible_id": 700235689,
+    "deploy_time": 5.0,
+    "deployable_type": [
+      4,
+      {}
+    ],
+    "pathfinding_id": 1876455160,
+    "movement_type": [
+      2,
+      {}
+    ],
+    "can_enter_portals": false,
+    "speed": [
+      [
+        [
+          0,
+          []
+        ],
+        0.0
+      ],
+      [
+        [
+          1,
+          []
+        ],
+        20.0
+      ],
+      [
+        [
+          2,
+          []
+        ],
+        20.0
+      ],
+      [
+        [
+          3,
+          []
+        ],
+        20.0
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        20.0
+      ],
+      [
+        [
+          5,
+          []
+        ],
+        20.0
+      ]
+    ],
+    "use_player_speed_modifier": false,
+    "placeable_on_land": false,
+    "placeable_in_water": true,
+    "capacity": 5,
+    "storage": 30,
+    "stockpile": 6,
+    "barter": 0,
+    "item_slot_size": 6000,
+    "cargo_slot_size": 60000,
+    "model_address": "Vehicles/CargoShip",
+    "stats": [],
+    "player_animations_in_deployable_slots": [
+      1002,
+      1002
+    ],
+    "allow_driver_extract": true,
+    "allow_passenger_extract": true,
+    "show_for_secs_after_owner_logout": 0,
+    "allow_emote_while_driver": true,
+    "allow_emote_while_passenger": true,
+    "experience_per_progress": [
+      [
+        21,
+        1.0
+      ]
+    ],
+    "mounting_radius": 5.0
+  },
+  {
+    "id": 1554573049,
+    "name": "Improved Wagon",
+    "deploy_from_collectible_id": 1520209370,
     "deploy_time": 5.0,
     "deployable_type": [
       0,
@@ -1897,6 +1575,328 @@
     "item_slot_size": 6000,
     "cargo_slot_size": 60000,
     "model_address": "Vehicles/LargeCart",
+    "stats": [],
+    "player_animations_in_deployable_slots": [
+      1
+    ],
+    "allow_driver_extract": false,
+    "allow_passenger_extract": false,
+    "show_for_secs_after_owner_logout": 0,
+    "allow_emote_while_driver": false,
+    "allow_emote_while_passenger": false,
+    "experience_per_progress": [],
+    "mounting_radius": 3.0
+  },
+  {
+    "id": 1596080513,
+    "name": "Improved Cart",
+    "deploy_from_collectible_id": 684496199,
+    "deploy_time": 5.0,
+    "deployable_type": [
+      0,
+      {}
+    ],
+    "pathfinding_id": 1375685503,
+    "movement_type": [
+      1,
+      {}
+    ],
+    "can_enter_portals": true,
+    "speed": [
+      [
+        [
+          0,
+          []
+        ],
+        13.0
+      ],
+      [
+        [
+          1,
+          []
+        ],
+        0.0
+      ],
+      [
+        [
+          2,
+          []
+        ],
+        0.0
+      ],
+      [
+        [
+          3,
+          []
+        ],
+        0.0
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        0.0
+      ],
+      [
+        [
+          5,
+          []
+        ],
+        0.0
+      ]
+    ],
+    "use_player_speed_modifier": true,
+    "placeable_on_land": true,
+    "placeable_in_water": false,
+    "capacity": 1,
+    "storage": 18,
+    "stockpile": 1,
+    "barter": 0,
+    "item_slot_size": 6000,
+    "cargo_slot_size": 60000,
+    "model_address": "Vehicles/Cart",
+    "stats": [],
+    "player_animations_in_deployable_slots": [
+      1
+    ],
+    "allow_driver_extract": false,
+    "allow_passenger_extract": false,
+    "show_for_secs_after_owner_logout": 0,
+    "allow_emote_while_driver": false,
+    "allow_emote_while_passenger": false,
+    "experience_per_progress": [],
+    "mounting_radius": 3.0
+  },
+  {
+    "id": 1641732157,
+    "name": "Expanded Personal Cache",
+    "deploy_from_collectible_id": 1226450761,
+    "deploy_time": 3.0,
+    "deployable_type": [
+      3,
+      {}
+    ],
+    "pathfinding_id": 1525146351,
+    "movement_type": [
+      0,
+      {}
+    ],
+    "can_enter_portals": true,
+    "speed": [
+      [
+        [
+          0,
+          []
+        ],
+        0.0
+      ],
+      [
+        [
+          1,
+          []
+        ],
+        0.0
+      ],
+      [
+        [
+          2,
+          []
+        ],
+        0.0
+      ],
+      [
+        [
+          3,
+          []
+        ],
+        0.0
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        0.0
+      ],
+      [
+        [
+          5,
+          []
+        ],
+        0.0
+      ]
+    ],
+    "use_player_speed_modifier": false,
+    "placeable_on_land": true,
+    "placeable_in_water": false,
+    "capacity": 0,
+    "storage": 48,
+    "stockpile": 16,
+    "barter": 0,
+    "item_slot_size": 60000,
+    "cargo_slot_size": 600000,
+    "model_address": "Vehicles/PersonalCache",
+    "stats": [],
+    "player_animations_in_deployable_slots": [],
+    "allow_driver_extract": false,
+    "allow_passenger_extract": false,
+    "show_for_secs_after_owner_logout": 0,
+    "allow_emote_while_driver": false,
+    "allow_emote_while_passenger": false,
+    "experience_per_progress": [],
+    "mounting_radius": 3.0
+  },
+  {
+    "id": 2045051661,
+    "name": "Advanced Wagon",
+    "deploy_from_collectible_id": 381044074,
+    "deploy_time": 5.0,
+    "deployable_type": [
+      0,
+      {}
+    ],
+    "pathfinding_id": 1030168975,
+    "movement_type": [
+      1,
+      {}
+    ],
+    "can_enter_portals": true,
+    "speed": [
+      [
+        [
+          0,
+          []
+        ],
+        11.0
+      ],
+      [
+        [
+          1,
+          []
+        ],
+        0.0
+      ],
+      [
+        [
+          2,
+          []
+        ],
+        0.0
+      ],
+      [
+        [
+          3,
+          []
+        ],
+        0.0
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        0.0
+      ],
+      [
+        [
+          5,
+          []
+        ],
+        0.0
+      ]
+    ],
+    "use_player_speed_modifier": true,
+    "placeable_on_land": true,
+    "placeable_in_water": false,
+    "capacity": 1,
+    "storage": 12,
+    "stockpile": 6,
+    "barter": 0,
+    "item_slot_size": 6000,
+    "cargo_slot_size": 60000,
+    "model_address": "Vehicles/LargeCart",
+    "stats": [],
+    "player_animations_in_deployable_slots": [
+      1
+    ],
+    "allow_driver_extract": false,
+    "allow_passenger_extract": false,
+    "show_for_secs_after_owner_logout": 0,
+    "allow_emote_while_driver": false,
+    "allow_emote_while_passenger": false,
+    "experience_per_progress": [],
+    "mounting_radius": 3.0
+  },
+  {
+    "id": 2065423994,
+    "name": "Rickshaw Cart",
+    "deploy_from_collectible_id": 1586159687,
+    "deploy_time": 5.0,
+    "deployable_type": [
+      0,
+      {}
+    ],
+    "pathfinding_id": 1375685503,
+    "movement_type": [
+      1,
+      {}
+    ],
+    "can_enter_portals": true,
+    "speed": [
+      [
+        [
+          0,
+          []
+        ],
+        13.0
+      ],
+      [
+        [
+          1,
+          []
+        ],
+        0.0
+      ],
+      [
+        [
+          2,
+          []
+        ],
+        0.0
+      ],
+      [
+        [
+          3,
+          []
+        ],
+        0.0
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        0.0
+      ],
+      [
+        [
+          5,
+          []
+        ],
+        0.0
+      ]
+    ],
+    "use_player_speed_modifier": true,
+    "placeable_on_land": true,
+    "placeable_in_water": false,
+    "capacity": 1,
+    "storage": 12,
+    "stockpile": 0,
+    "barter": 0,
+    "item_slot_size": 6000,
+    "cargo_slot_size": 60000,
+    "model_address": "Vehicles/Cart",
     "stats": [],
     "player_animations_in_deployable_slots": [
       1

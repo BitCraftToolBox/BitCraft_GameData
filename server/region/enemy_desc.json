@@ -701,6 +701,75 @@
     "huntable": true
   },
   {
+    "enemy_type": 10,
+    "name": "Female Scrofa",
+    "pathfinding_id": 1159321119,
+    "targeting_matrix_id": 5,
+    "combat_actions_ids": [],
+    "description": "A Female Boar",
+    "min_speed": 7,
+    "max_speed": 11,
+    "radius": 0.5,
+    "awareness_destination_threshold": 0.001,
+    "min_awareness_tick_sec": 10.0,
+    "max_awareness_tick_sec": 20.0,
+    "max_health": 300,
+    "ignore_damage": false,
+    "health_regen_quantity": 0.1,
+    "armor": 6,
+    "accuracy": 100,
+    "evasion": 100,
+    "strength": 0,
+    "min_damage": 0,
+    "max_damage": 0,
+    "cooldown_multiplier": 1.0,
+    "daytime_detect_range": 15,
+    "daytime_aggro_range": 10,
+    "daytime_deaggro_range": 0,
+    "nighttime_detect_range": 15,
+    "nighttime_aggro_range": 10,
+    "nighttime_deaggro_range": 0,
+    "evade_range": 10,
+    "deaggro_health_threshold": 0.0,
+    "attack_level": 0,
+    "defense_level": 1,
+    "prefab_address": "Enemies/BoarFemale",
+    "icon_address": "GeneratedIcons/Other/Animals/BoarFemale",
+    "extracted_item_stacks": [
+      [
+        [
+          0,
+          [
+            5,
+            1,
+            [
+              1,
+              []
+            ],
+            [
+              1,
+              []
+            ]
+          ]
+        ],
+        1.0
+      ]
+    ],
+    "experience_per_damage_dealt": [
+      [
+        9,
+        1.15
+      ]
+    ],
+    "tier": 3,
+    "tag": "Huntable Animal",
+    "rarity": [
+      1,
+      {}
+    ],
+    "huntable": true
+  },
+  {
     "enemy_type": 22,
     "name": "Frost Crab",
     "pathfinding_id": 769231106,
@@ -1990,75 +2059,6 @@
     "tag": "Huntable Animal",
     "rarity": [
       2,
-      {}
-    ],
-    "huntable": true
-  },
-  {
-    "enemy_type": 10,
-    "name": "Female Scrofa",
-    "pathfinding_id": 1159321119,
-    "targeting_matrix_id": 5,
-    "combat_actions_ids": [],
-    "description": "A Female Boar",
-    "min_speed": 7,
-    "max_speed": 11,
-    "radius": 0.5,
-    "awareness_destination_threshold": 0.001,
-    "min_awareness_tick_sec": 10.0,
-    "max_awareness_tick_sec": 20.0,
-    "max_health": 300,
-    "ignore_damage": false,
-    "health_regen_quantity": 0.1,
-    "armor": 6,
-    "accuracy": 100,
-    "evasion": 100,
-    "strength": 0,
-    "min_damage": 0,
-    "max_damage": 0,
-    "cooldown_multiplier": 1.0,
-    "daytime_detect_range": 15,
-    "daytime_aggro_range": 10,
-    "daytime_deaggro_range": 0,
-    "nighttime_detect_range": 15,
-    "nighttime_aggro_range": 10,
-    "nighttime_deaggro_range": 0,
-    "evade_range": 10,
-    "deaggro_health_threshold": 0.0,
-    "attack_level": 0,
-    "defense_level": 1,
-    "prefab_address": "Enemies/BoarFemale",
-    "icon_address": "GeneratedIcons/Other/Animals/BoarFemale",
-    "extracted_item_stacks": [
-      [
-        [
-          0,
-          [
-            5,
-            1,
-            [
-              1,
-              []
-            ],
-            [
-              1,
-              []
-            ]
-          ]
-        ],
-        1.0
-      ]
-    ],
-    "experience_per_damage_dealt": [
-      [
-        9,
-        1.15
-      ]
-    ],
-    "tier": 3,
-    "tag": "Huntable Animal",
-    "rarity": [
-      1,
       {}
     ],
     "huntable": true

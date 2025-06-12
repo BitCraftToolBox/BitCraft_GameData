@@ -1,11 +1,24 @@
 [
   {
-    "id": 10,
-    "skill_type": 10,
-    "name": "Tailoring",
+    "id": 1,
+    "skill_type": 1,
+    "name": "ANY",
     "description": "",
-    "icon_asset_name": "\\uFFF0",
-    "title": "Tailor",
+    "icon_asset_name": "\\u019F",
+    "title": "",
+    "skill_category": [
+      0,
+      {}
+    ],
+    "max_level": 20
+  },
+  {
+    "id": 2,
+    "skill_type": 2,
+    "name": "Forestry",
+    "description": "",
+    "icon_asset_name": "\\uFFEA",
+    "title": "Forester",
     "skill_category": [
       1,
       {}
@@ -13,12 +26,12 @@
     "max_level": 20
   },
   {
-    "id": 6,
-    "skill_type": 6,
-    "name": "Smithing",
+    "id": 3,
+    "skill_type": 3,
+    "name": "Carpentry",
     "description": "",
-    "icon_asset_name": "\\uFFEF",
-    "title": "Smith",
+    "icon_asset_name": "\\uFFE5",
+    "title": "Carpenter",
     "skill_category": [
       1,
       {}
@@ -26,38 +39,12 @@
     "max_level": 20
   },
   {
-    "id": 15,
-    "skill_type": 15,
-    "name": "Construction",
+    "id": 4,
+    "skill_type": 4,
+    "name": "Masonry",
     "description": "",
-    "icon_asset_name": "\\uFFF6",
-    "title": "Builder",
-    "skill_category": [
-      2,
-      {}
-    ],
-    "max_level": 10
-  },
-  {
-    "id": 13,
-    "skill_type": 13,
-    "name": "Cooking",
-    "description": "",
-    "icon_asset_name": "\\uFFE6",
-    "title": "Cook",
-    "skill_category": [
-      2,
-      {}
-    ],
-    "max_level": 10
-  },
-  {
-    "id": 7,
-    "skill_type": 7,
-    "name": "Scholar",
-    "description": "",
-    "icon_asset_name": "\\uFFEE",
-    "title": "Scholar",
+    "icon_asset_name": "\\uFFE4",
+    "title": "Mason",
     "skill_category": [
       1,
       {}
@@ -78,12 +65,25 @@
     "max_level": 20
   },
   {
-    "id": 4,
-    "skill_type": 4,
-    "name": "Masonry",
+    "id": 6,
+    "skill_type": 6,
+    "name": "Smithing",
     "description": "",
-    "icon_asset_name": "\\uFFE4",
-    "title": "Mason",
+    "icon_asset_name": "\\uFFEF",
+    "title": "Smith",
+    "skill_category": [
+      1,
+      {}
+    ],
+    "max_level": 20
+  },
+  {
+    "id": 7,
+    "skill_type": 7,
+    "name": "Scholar",
+    "description": "",
+    "icon_asset_name": "\\uFFEE",
+    "title": "Scholar",
     "skill_category": [
       1,
       {}
@@ -117,69 +117,17 @@
     "max_level": 20
   },
   {
-    "id": 2,
-    "skill_type": 2,
-    "name": "Forestry",
+    "id": 10,
+    "skill_type": 10,
+    "name": "Tailoring",
     "description": "",
-    "icon_asset_name": "\\uFFEA",
-    "title": "Forester",
+    "icon_asset_name": "\\uFFF0",
+    "title": "Tailor",
     "skill_category": [
       1,
       {}
     ],
     "max_level": 20
-  },
-  {
-    "id": 14,
-    "skill_type": 14,
-    "name": "Foraging",
-    "description": "",
-    "icon_asset_name": "\\uFFE9",
-    "title": "Forager",
-    "skill_category": [
-      1,
-      {}
-    ],
-    "max_level": 20
-  },
-  {
-    "id": 19,
-    "skill_type": 19,
-    "name": "Merchanting",
-    "description": "",
-    "icon_asset_name": "\\uFFAF",
-    "title": "Merchant",
-    "skill_category": [
-      2,
-      {}
-    ],
-    "max_level": 10
-  },
-  {
-    "id": 12,
-    "skill_type": 12,
-    "name": "Fishing",
-    "description": "",
-    "icon_asset_name": "\\uFFE8",
-    "title": "Fisher",
-    "skill_category": [
-      1,
-      {}
-    ],
-    "max_level": 20
-  },
-  {
-    "id": 21,
-    "skill_type": 21,
-    "name": "Sailing",
-    "description": "",
-    "icon_asset_name": "\\uFFD5",
-    "title": "Sailor",
-    "skill_category": [
-      2,
-      {}
-    ],
-    "max_level": 10
   },
   {
     "id": 11,
@@ -195,6 +143,71 @@
     "max_level": 20
   },
   {
+    "id": 12,
+    "skill_type": 12,
+    "name": "Fishing",
+    "description": "",
+    "icon_asset_name": "\\uFFE8",
+    "title": "Fisher",
+    "skill_category": [
+      1,
+      {}
+    ],
+    "max_level": 20
+  },
+  {
+    "id": 13,
+    "skill_type": 13,
+    "name": "Cooking",
+    "description": "",
+    "icon_asset_name": "\\uFFE6",
+    "title": "Cook",
+    "skill_category": [
+      2,
+      {}
+    ],
+    "max_level": 10
+  },
+  {
+    "id": 14,
+    "skill_type": 14,
+    "name": "Foraging",
+    "description": "",
+    "icon_asset_name": "\\uFFE9",
+    "title": "Forager",
+    "skill_category": [
+      1,
+      {}
+    ],
+    "max_level": 20
+  },
+  {
+    "id": 15,
+    "skill_type": 15,
+    "name": "Construction",
+    "description": "",
+    "icon_asset_name": "\\uFFF6",
+    "title": "Builder",
+    "skill_category": [
+      2,
+      {}
+    ],
+    "max_level": 10
+  },
+  {
+    "id": 17,
+    "skill_type": 17,
+    "name": "Taming",
+    "description": "",
+    "icon_asset_name": "\\uFFAD",
+    "title": "Tamer",
+    "skill_category": [
+      2,
+      {}
+    ],
+    "max_level": 10
+  },
+  {
     "id": 18,
     "skill_type": 18,
     "name": "Slayer",
@@ -208,38 +221,25 @@
     "max_level": 10
   },
   {
-    "id": 3,
-    "skill_type": 3,
-    "name": "Carpentry",
+    "id": 19,
+    "skill_type": 19,
+    "name": "Merchanting",
     "description": "",
-    "icon_asset_name": "\\uFFE5",
-    "title": "Carpenter",
+    "icon_asset_name": "\\uFFAF",
+    "title": "Merchant",
     "skill_category": [
-      1,
+      2,
       {}
     ],
-    "max_level": 20
+    "max_level": 10
   },
   {
-    "id": 1,
-    "skill_type": 1,
-    "name": "ANY",
+    "id": 21,
+    "skill_type": 21,
+    "name": "Sailing",
     "description": "",
-    "icon_asset_name": "\\u019F",
-    "title": "",
-    "skill_category": [
-      0,
-      {}
-    ],
-    "max_level": 20
-  },
-  {
-    "id": 17,
-    "skill_type": 17,
-    "name": "Taming",
-    "description": "",
-    "icon_asset_name": "\\uFFAD",
-    "title": "Tamer",
+    "icon_asset_name": "\\uFFD5",
+    "title": "Sailor",
     "skill_category": [
       2,
       {}

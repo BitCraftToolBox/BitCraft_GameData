@@ -13,21 +13,6 @@
     "xp_to_mint_hex_coin": 2500
   },
   {
-    "id": 10000,
-    "description": "Empire Infrastructure",
-    "tier": 2,
-    "supplies_cost": 20000,
-    "research_time": 3600,
-    "requirements": [
-      200
-    ],
-    "input": [],
-    "members": 0,
-    "area": 0,
-    "supplies": 0,
-    "xp_to_mint_hex_coin": 2500
-  },
-  {
     "id": 200,
     "description": "Tier 2",
     "tier": 2,
@@ -265,48 +250,16 @@
     "xp_to_mint_hex_coin": 2500
   },
   {
-    "id": 2136582402,
-    "description": "Unlock 75 Members",
+    "id": 10000,
+    "description": "Empire Infrastructure",
     "tier": 2,
-    "supplies_cost": 1000,
-    "research_time": 1800,
+    "supplies_cost": 20000,
+    "research_time": 3600,
     "requirements": [
       200
     ],
     "input": [],
-    "members": 75,
-    "area": 0,
-    "supplies": 0,
-    "xp_to_mint_hex_coin": 2500
-  },
-  {
-    "id": 1426269264,
-    "description": "Unlock 100 Members",
-    "tier": 3,
-    "supplies_cost": 2000,
-    "research_time": 3600,
-    "requirements": [
-      300,
-      2136582402
-    ],
-    "input": [],
-    "members": 100,
-    "area": 0,
-    "supplies": 0,
-    "xp_to_mint_hex_coin": 2500
-  },
-  {
-    "id": 1912870048,
-    "description": "Unlock 125 Members",
-    "tier": 4,
-    "supplies_cost": 3000,
-    "research_time": 5400,
-    "requirements": [
-      400,
-      1426269264
-    ],
-    "input": [],
-    "members": 125,
+    "members": 0,
     "area": 0,
     "supplies": 0,
     "xp_to_mint_hex_coin": 2500
@@ -328,50 +281,34 @@
     "xp_to_mint_hex_coin": 2500
   },
   {
-    "id": 736567281,
-    "description": "Unlock 175 Members",
+    "id": 473237479,
+    "description": "Unlock up to 6000 tiles",
     "tier": 6,
-    "supplies_cost": 6000,
-    "research_time": 9000,
+    "supplies_cost": 10000,
+    "research_time": 18000,
     "requirements": [
       600,
-      187931146
+      956489539
     ],
     "input": [],
-    "members": 175,
-    "area": 0,
+    "members": 0,
+    "area": 6000,
     "supplies": 0,
     "xp_to_mint_hex_coin": 2500
   },
   {
-    "id": 1728735124,
-    "description": "Unlock 200 Members",
-    "tier": 7,
-    "supplies_cost": 7000,
-    "research_time": 10800,
+    "id": 477458683,
+    "description": "Unlock up to 3000 tiles",
+    "tier": 3,
+    "supplies_cost": 4000,
+    "research_time": 7200,
     "requirements": [
-      700,
-      736567281
+      300,
+      1161565644
     ],
     "input": [],
-    "members": 200,
-    "area": 0,
-    "supplies": 0,
-    "xp_to_mint_hex_coin": 2500
-  },
-  {
-    "id": 905455362,
-    "description": "Unlock 225 Members",
-    "tier": 8,
-    "supplies_cost": 8000,
-    "research_time": 10800,
-    "requirements": [
-      800,
-      1728735124
-    ],
-    "input": [],
-    "members": 225,
-    "area": 0,
+    "members": 0,
+    "area": 3000,
     "supplies": 0,
     "xp_to_mint_hex_coin": 2500
   },
@@ -387,6 +324,86 @@
     ],
     "input": [],
     "members": 250,
+    "area": 0,
+    "supplies": 0,
+    "xp_to_mint_hex_coin": 2500
+  },
+  {
+    "id": 649819263,
+    "description": "Unlock 120000 Max Supplies",
+    "tier": 9,
+    "supplies_cost": 20000,
+    "research_time": 21600,
+    "requirements": [
+      1000,
+      1567647942
+    ],
+    "input": [],
+    "members": 0,
+    "area": 0,
+    "supplies": 120000,
+    "xp_to_mint_hex_coin": 2500
+  },
+  {
+    "id": 688169271,
+    "description": "Unlock 48000 Max Supplies",
+    "tier": 4,
+    "supplies_cost": 8000,
+    "research_time": 14400,
+    "requirements": [
+      400,
+      1157053499
+    ],
+    "input": [],
+    "members": 0,
+    "area": 0,
+    "supplies": 48000,
+    "xp_to_mint_hex_coin": 2500
+  },
+  {
+    "id": 728778297,
+    "description": "Unlock up to 7000 tiles",
+    "tier": 7,
+    "supplies_cost": 12000,
+    "research_time": 18000,
+    "requirements": [
+      700,
+      473237479
+    ],
+    "input": [],
+    "members": 0,
+    "area": 7000,
+    "supplies": 0,
+    "xp_to_mint_hex_coin": 2500
+  },
+  {
+    "id": 733358069,
+    "description": "Unlock 60000 Max Supplies",
+    "tier": 5,
+    "supplies_cost": 10000,
+    "research_time": 18000,
+    "requirements": [
+      500,
+      688169271
+    ],
+    "input": [],
+    "members": 0,
+    "area": 0,
+    "supplies": 60000,
+    "xp_to_mint_hex_coin": 2500
+  },
+  {
+    "id": 736567281,
+    "description": "Unlock 175 Members",
+    "tier": 6,
+    "supplies_cost": 6000,
+    "research_time": 9000,
+    "requirements": [
+      600,
+      187931146
+    ],
+    "input": [],
+    "members": 175,
     "area": 0,
     "supplies": 0,
     "xp_to_mint_hex_coin": 2500
@@ -408,66 +425,19 @@
     "xp_to_mint_hex_coin": 2500
   },
   {
-    "id": 1826500486,
-    "description": "Unlock 24000 Max Supplies",
-    "tier": 2,
-    "supplies_cost": 4000,
-    "research_time": 7400,
-    "requirements": [
-      200
-    ],
-    "input": [],
-    "members": 0,
-    "area": 0,
-    "supplies": 24000,
-    "xp_to_mint_hex_coin": 2500
-  },
-  {
-    "id": 1157053499,
-    "description": "Unlock 36000 Max Supplies",
-    "tier": 3,
-    "supplies_cost": 6000,
+    "id": 905455362,
+    "description": "Unlock 225 Members",
+    "tier": 8,
+    "supplies_cost": 8000,
     "research_time": 10800,
     "requirements": [
-      300,
-      1826500486
+      800,
+      1728735124
     ],
     "input": [],
-    "members": 0,
+    "members": 225,
     "area": 0,
-    "supplies": 36000,
-    "xp_to_mint_hex_coin": 2500
-  },
-  {
-    "id": 688169271,
-    "description": "Unlock 48000 Max Supplies",
-    "tier": 4,
-    "supplies_cost": 8000,
-    "research_time": 14400,
-    "requirements": [
-      400,
-      1157053499
-    ],
-    "input": [],
-    "members": 0,
-    "area": 0,
-    "supplies": 48000,
-    "xp_to_mint_hex_coin": 2500
-  },
-  {
-    "id": 733358069,
-    "description": "Unlock 60000 Max Supplies",
-    "tier": 5,
-    "supplies_cost": 10000,
-    "research_time": 18000,
-    "requirements": [
-      500,
-      688169271
-    ],
-    "input": [],
-    "members": 0,
-    "area": 0,
-    "supplies": 60000,
+    "supplies": 0,
     "xp_to_mint_hex_coin": 2500
   },
   {
@@ -487,19 +457,50 @@
     "xp_to_mint_hex_coin": 2500
   },
   {
-    "id": 1273121576,
-    "description": "Unlock 84000 Max Supplies",
-    "tier": 7,
-    "supplies_cost": 14000,
-    "research_time": 21600,
+    "id": 956489539,
+    "description": "Unlock up to 5000 tiles",
+    "tier": 5,
+    "supplies_cost": 8000,
+    "research_time": 14400,
     "requirements": [
-      700,
-      906602291
+      500,
+      2099304788
+    ],
+    "input": [],
+    "members": 0,
+    "area": 5000,
+    "supplies": 0,
+    "xp_to_mint_hex_coin": 2500
+  },
+  {
+    "id": 1157053499,
+    "description": "Unlock 36000 Max Supplies",
+    "tier": 3,
+    "supplies_cost": 6000,
+    "research_time": 10800,
+    "requirements": [
+      300,
+      1826500486
     ],
     "input": [],
     "members": 0,
     "area": 0,
-    "supplies": 84000,
+    "supplies": 36000,
+    "xp_to_mint_hex_coin": 2500
+  },
+  {
+    "id": 1161565644,
+    "description": "Unlock up to 2000 tiles",
+    "tier": 2,
+    "supplies_cost": 2000,
+    "research_time": 3600,
+    "requirements": [
+      200
+    ],
+    "input": [],
+    "members": 0,
+    "area": 2000,
+    "supplies": 0,
     "xp_to_mint_hex_coin": 2500
   },
   {
@@ -519,6 +520,54 @@
     "xp_to_mint_hex_coin": 2500
   },
   {
+    "id": 1273121576,
+    "description": "Unlock 84000 Max Supplies",
+    "tier": 7,
+    "supplies_cost": 14000,
+    "research_time": 21600,
+    "requirements": [
+      700,
+      906602291
+    ],
+    "input": [],
+    "members": 0,
+    "area": 0,
+    "supplies": 84000,
+    "xp_to_mint_hex_coin": 2500
+  },
+  {
+    "id": 1337780142,
+    "description": "Unlock up to 9000 tiles",
+    "tier": 9,
+    "supplies_cost": 16000,
+    "research_time": 21600,
+    "requirements": [
+      900,
+      1617681454
+    ],
+    "input": [],
+    "members": 0,
+    "area": 9000,
+    "supplies": 0,
+    "xp_to_mint_hex_coin": 2500
+  },
+  {
+    "id": 1426269264,
+    "description": "Unlock 100 Members",
+    "tier": 3,
+    "supplies_cost": 2000,
+    "research_time": 3600,
+    "requirements": [
+      300,
+      2136582402
+    ],
+    "input": [],
+    "members": 100,
+    "area": 0,
+    "supplies": 0,
+    "xp_to_mint_hex_coin": 2500
+  },
+  {
     "id": 1567647942,
     "description": "Unlock 108000 Max Supplies",
     "tier": 9,
@@ -535,49 +584,81 @@
     "xp_to_mint_hex_coin": 2500
   },
   {
-    "id": 649819263,
-    "description": "Unlock 120000 Max Supplies",
-    "tier": 9,
-    "supplies_cost": 20000,
+    "id": 1617681454,
+    "description": "Unlock up to 8000 tiles",
+    "tier": 8,
+    "supplies_cost": 14000,
     "research_time": 21600,
     "requirements": [
-      1000,
-      1567647942
+      800,
+      728778297
     ],
     "input": [],
     "members": 0,
-    "area": 0,
-    "supplies": 120000,
+    "area": 8000,
+    "supplies": 0,
     "xp_to_mint_hex_coin": 2500
   },
   {
-    "id": 1161565644,
-    "description": "Unlock up to 2000 tiles",
+    "id": 1728735124,
+    "description": "Unlock 200 Members",
+    "tier": 7,
+    "supplies_cost": 7000,
+    "research_time": 10800,
+    "requirements": [
+      700,
+      736567281
+    ],
+    "input": [],
+    "members": 200,
+    "area": 0,
+    "supplies": 0,
+    "xp_to_mint_hex_coin": 2500
+  },
+  {
+    "id": 1826500486,
+    "description": "Unlock 24000 Max Supplies",
     "tier": 2,
-    "supplies_cost": 2000,
-    "research_time": 3600,
+    "supplies_cost": 4000,
+    "research_time": 7400,
     "requirements": [
       200
     ],
     "input": [],
     "members": 0,
-    "area": 2000,
+    "area": 0,
+    "supplies": 24000,
+    "xp_to_mint_hex_coin": 2500
+  },
+  {
+    "id": 1912870048,
+    "description": "Unlock 125 Members",
+    "tier": 4,
+    "supplies_cost": 3000,
+    "research_time": 5400,
+    "requirements": [
+      400,
+      1426269264
+    ],
+    "input": [],
+    "members": 125,
+    "area": 0,
     "supplies": 0,
     "xp_to_mint_hex_coin": 2500
   },
   {
-    "id": 477458683,
-    "description": "Unlock up to 3000 tiles",
-    "tier": 3,
-    "supplies_cost": 4000,
-    "research_time": 7200,
+    "id": 2072167322,
+    "description": "Unlock up to 10000 tiles",
+    "tier": 10,
+    "supplies_cost": 16000,
+    "research_time": 21600,
     "requirements": [
-      300,
-      1161565644
+      1000,
+      2072167322
     ],
     "input": [],
     "members": 0,
-    "area": 3000,
+    "area": 10000,
     "supplies": 0,
     "xp_to_mint_hex_coin": 2500
   },
@@ -598,98 +679,17 @@
     "xp_to_mint_hex_coin": 2500
   },
   {
-    "id": 956489539,
-    "description": "Unlock up to 5000 tiles",
-    "tier": 5,
-    "supplies_cost": 8000,
-    "research_time": 14400,
+    "id": 2136582402,
+    "description": "Unlock 75 Members",
+    "tier": 2,
+    "supplies_cost": 1000,
+    "research_time": 1800,
     "requirements": [
-      500,
-      2099304788
+      200
     ],
     "input": [],
-    "members": 0,
-    "area": 5000,
-    "supplies": 0,
-    "xp_to_mint_hex_coin": 2500
-  },
-  {
-    "id": 473237479,
-    "description": "Unlock up to 6000 tiles",
-    "tier": 6,
-    "supplies_cost": 10000,
-    "research_time": 18000,
-    "requirements": [
-      600,
-      956489539
-    ],
-    "input": [],
-    "members": 0,
-    "area": 6000,
-    "supplies": 0,
-    "xp_to_mint_hex_coin": 2500
-  },
-  {
-    "id": 728778297,
-    "description": "Unlock up to 7000 tiles",
-    "tier": 7,
-    "supplies_cost": 12000,
-    "research_time": 18000,
-    "requirements": [
-      700,
-      473237479
-    ],
-    "input": [],
-    "members": 0,
-    "area": 7000,
-    "supplies": 0,
-    "xp_to_mint_hex_coin": 2500
-  },
-  {
-    "id": 1617681454,
-    "description": "Unlock up to 8000 tiles",
-    "tier": 8,
-    "supplies_cost": 14000,
-    "research_time": 21600,
-    "requirements": [
-      800,
-      728778297
-    ],
-    "input": [],
-    "members": 0,
-    "area": 8000,
-    "supplies": 0,
-    "xp_to_mint_hex_coin": 2500
-  },
-  {
-    "id": 1337780142,
-    "description": "Unlock up to 9000 tiles",
-    "tier": 9,
-    "supplies_cost": 16000,
-    "research_time": 21600,
-    "requirements": [
-      900,
-      1617681454
-    ],
-    "input": [],
-    "members": 0,
-    "area": 9000,
-    "supplies": 0,
-    "xp_to_mint_hex_coin": 2500
-  },
-  {
-    "id": 2072167322,
-    "description": "Unlock up to 10000 tiles",
-    "tier": 10,
-    "supplies_cost": 16000,
-    "research_time": 21600,
-    "requirements": [
-      1000,
-      2072167322
-    ],
-    "input": [],
-    "members": 0,
-    "area": 10000,
+    "members": 75,
+    "area": 0,
     "supplies": 0,
     "xp_to_mint_hex_coin": 2500
   }

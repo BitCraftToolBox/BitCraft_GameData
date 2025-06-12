@@ -1,5 +1,85 @@
 [
   {
+    "id": 1,
+    "name": "Wave",
+    "animation": "Wave",
+    "duration": 1.8,
+    "key_code": "1",
+    "command_line": "/wave",
+    "allow_while_mounted": true,
+    "allow_while_moving": true
+  },
+  {
+    "id": 2,
+    "name": "Cheer",
+    "animation": "Celebrate",
+    "duration": 2.0,
+    "key_code": "2",
+    "command_line": "/cheer",
+    "allow_while_mounted": true,
+    "allow_while_moving": true
+  },
+  {
+    "id": 3,
+    "name": "Come Here",
+    "animation": "Beckon",
+    "duration": 1.75,
+    "key_code": "3",
+    "command_line": "/beckon",
+    "allow_while_mounted": true,
+    "allow_while_moving": true
+  },
+  {
+    "id": 4,
+    "name": "Point",
+    "animation": "Point-Forward",
+    "duration": 2.0,
+    "key_code": "4",
+    "command_line": "/point",
+    "allow_while_mounted": true,
+    "allow_while_moving": true
+  },
+  {
+    "id": 5,
+    "name": "Point Down",
+    "animation": "Point-Down",
+    "duration": 1.5,
+    "key_code": "5",
+    "command_line": "/pointdown",
+    "allow_while_mounted": true,
+    "allow_while_moving": true
+  },
+  {
+    "id": 6,
+    "name": "Clap",
+    "animation": "Clap",
+    "duration": 1.3,
+    "key_code": "6",
+    "command_line": "/clap",
+    "allow_while_mounted": true,
+    "allow_while_moving": true
+  },
+  {
+    "id": 7,
+    "name": "Wait",
+    "animation": "Wait-Here",
+    "duration": 2.85,
+    "key_code": "7",
+    "command_line": "/wait",
+    "allow_while_mounted": true,
+    "allow_while_moving": true
+  },
+  {
+    "id": 8,
+    "name": "Tired",
+    "animation": "Wipe-Brow",
+    "duration": 1.3,
+    "key_code": "8",
+    "command_line": "/tired",
+    "allow_while_mounted": true,
+    "allow_while_moving": true
+  },
+  {
     "id": 9,
     "name": "Bask",
     "animation": "Basking",
@@ -18,36 +98,6 @@
     "command_line": "/bow",
     "allow_while_mounted": true,
     "allow_while_moving": false
-  },
-  {
-    "id": 2,
-    "name": "Cheer",
-    "animation": "Celebrate",
-    "duration": 2.0,
-    "key_code": "2",
-    "command_line": "/cheer",
-    "allow_while_mounted": true,
-    "allow_while_moving": true
-  },
-  {
-    "id": 6,
-    "name": "Clap",
-    "animation": "Clap",
-    "duration": 1.3,
-    "key_code": "6",
-    "command_line": "/clap",
-    "allow_while_mounted": true,
-    "allow_while_moving": true
-  },
-  {
-    "id": 3,
-    "name": "Come Here",
-    "animation": "Beckon",
-    "duration": 1.75,
-    "key_code": "3",
-    "command_line": "/beckon",
-    "allow_while_mounted": true,
-    "allow_while_moving": true
   },
   {
     "id": 11,
@@ -80,24 +130,14 @@
     "allow_while_moving": false
   },
   {
-    "id": 4,
-    "name": "Point",
-    "animation": "Point-Forward",
-    "duration": 2.0,
-    "key_code": "4",
-    "command_line": "/point",
+    "id": 14,
+    "name": "Salute",
+    "animation": "Salute",
+    "duration": -1.0,
+    "key_code": "",
+    "command_line": "/salute",
     "allow_while_mounted": true,
-    "allow_while_moving": true
-  },
-  {
-    "id": 5,
-    "name": "Point Down",
-    "animation": "Point-Down",
-    "duration": 1.5,
-    "key_code": "5",
-    "command_line": "/pointdown",
-    "allow_while_mounted": true,
-    "allow_while_moving": true
+    "allow_while_moving": false
   },
   {
     "id": 15,
@@ -110,16 +150,6 @@
     "allow_while_moving": false
   },
   {
-    "id": 14,
-    "name": "Salute",
-    "animation": "Salute",
-    "duration": -1.0,
-    "key_code": "",
-    "command_line": "/salute",
-    "allow_while_mounted": true,
-    "allow_while_moving": false
-  },
-  {
     "id": 554635572,
     "name": "Sit",
     "animation": "Sit",
@@ -128,35 +158,5 @@
     "command_line": "/sit",
     "allow_while_mounted": false,
     "allow_while_moving": false
-  },
-  {
-    "id": 8,
-    "name": "Tired",
-    "animation": "Wipe-Brow",
-    "duration": 1.3,
-    "key_code": "8",
-    "command_line": "/tired",
-    "allow_while_mounted": true,
-    "allow_while_moving": true
-  },
-  {
-    "id": 7,
-    "name": "Wait",
-    "animation": "Wait-Here",
-    "duration": 2.85,
-    "key_code": "7",
-    "command_line": "/wait",
-    "allow_while_mounted": true,
-    "allow_while_moving": true
-  },
-  {
-    "id": 1,
-    "name": "Wave",
-    "animation": "Wave",
-    "duration": 1.8,
-    "key_code": "1",
-    "command_line": "/wave",
-    "allow_while_mounted": true,
-    "allow_while_moving": true
   }
 ]
