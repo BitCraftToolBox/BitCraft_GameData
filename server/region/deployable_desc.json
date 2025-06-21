@@ -62,7 +62,7 @@
     "placeable_on_land": true,
     "placeable_in_water": false,
     "capacity": 1,
-    "storage": 18,
+    "storage": 12,
     "stockpile": 1,
     "barter": 0,
     "item_slot_size": 6000,
@@ -101,7 +101,7 @@
           0,
           []
         ],
-        11.0
+        10.0
       ],
       [
         [
@@ -203,14 +203,14 @@
           3,
           []
         ],
-        14.0
+        10.0
       ],
       [
         [
           4,
           []
         ],
-        14.0
+        10.0
       ],
       [
         [
@@ -276,35 +276,35 @@
           1,
           []
         ],
-        20.0
+        21.0
       ],
       [
         [
           2,
           []
         ],
-        20.0
+        21.0
       ],
       [
         [
           3,
           []
         ],
-        20.0
+        15.0
       ],
       [
         [
           4,
           []
         ],
-        20.0
+        15.0
       ],
       [
         [
           5,
           []
         ],
-        20.0
+        10.0
       ]
     ],
     "use_player_speed_modifier": false,
@@ -330,7 +330,7 @@
     "experience_per_progress": [
       [
         21,
-        1.0
+        0.0
       ]
     ],
     "mounting_radius": 5.0
@@ -356,7 +356,7 @@
           0,
           []
         ],
-        20.0
+        24.0
       ],
       [
         [
@@ -416,7 +416,7 @@
     "experience_per_progress": [
       [
         17,
-        1.0
+        0.0
       ]
     ],
     "mounting_radius": 3.0
@@ -768,7 +768,7 @@
       0,
       {}
     ],
-    "can_enter_portals": true,
+    "can_enter_portals": false,
     "speed": [
       [
         [
@@ -861,41 +861,41 @@
           1,
           []
         ],
-        20.0
+        18.0
       ],
       [
         [
           2,
           []
         ],
-        20.0
+        18.0
       ],
       [
         [
           3,
           []
         ],
-        20.0
+        18.0
       ],
       [
         [
           4,
           []
         ],
-        20.0
+        18.0
       ],
       [
         [
           5,
           []
         ],
-        20.0
+        10.0
       ]
     ],
     "use_player_speed_modifier": false,
     "placeable_on_land": false,
     "placeable_in_water": true,
-    "capacity": 5,
+    "capacity": 4,
     "storage": 30,
     "stockpile": 6,
     "barter": 0,
@@ -915,7 +915,7 @@
     "experience_per_progress": [
       [
         21,
-        1.0
+        0.0
       ]
     ],
     "mounting_radius": 5.0
@@ -941,7 +941,7 @@
           0,
           []
         ],
-        13.0
+        15.0
       ],
       [
         [
@@ -983,8 +983,8 @@
     "placeable_on_land": true,
     "placeable_in_water": false,
     "capacity": 1,
-    "storage": 18,
-    "stockpile": 1,
+    "storage": 24,
+    "stockpile": 3,
     "barter": 0,
     "item_slot_size": 6000,
     "cargo_slot_size": 60000,
@@ -1015,7 +1015,7 @@
       0,
       {}
     ],
-    "can_enter_portals": true,
+    "can_enter_portals": false,
     "speed": [
       [
         [
@@ -1082,14 +1082,14 @@
   },
   {
     "id": 872518914,
-    "name": "Rideable Yak",
+    "name": "Rideable Ox",
     "deploy_from_collectible_id": 1289105478,
     "deploy_time": 3.0,
     "deployable_type": [
       1,
       {}
     ],
-    "pathfinding_id": 309954853,
+    "pathfinding_id": 1301654297,
     "movement_type": [
       1,
       {}
@@ -1101,7 +1101,7 @@
           0,
           []
         ],
-        20.0
+        17.0
       ],
       [
         [
@@ -1143,12 +1143,12 @@
     "placeable_on_land": true,
     "placeable_in_water": false,
     "capacity": 2,
-    "storage": 0,
-    "stockpile": 0,
+    "storage": 12,
+    "stockpile": 6,
     "barter": 0,
     "item_slot_size": 6000,
     "cargo_slot_size": 6000,
-    "model_address": "Vehicles/DeerMount",
+    "model_address": "Vehicles/BisonMount",
     "stats": [],
     "player_animations_in_deployable_slots": [
       2,
@@ -1162,7 +1162,7 @@
     "experience_per_progress": [
       [
         17,
-        1.0
+        0.0
       ]
     ],
     "mounting_radius": 3.0
@@ -1181,7 +1181,7 @@
       0,
       {}
     ],
-    "can_enter_portals": true,
+    "can_enter_portals": false,
     "speed": [
       [
         [
@@ -1267,7 +1267,7 @@
           0,
           []
         ],
-        16.0
+        20.0
       ],
       [
         [
@@ -1327,7 +1327,7 @@
     "experience_per_progress": [
       [
         17,
-        1.0
+        0.0
       ]
     ],
     "mounting_radius": 3.0
@@ -1341,7 +1341,7 @@
       1,
       {}
     ],
-    "pathfinding_id": 309954853,
+    "pathfinding_id": 1301654297,
     "movement_type": [
       1,
       {}
@@ -1353,7 +1353,7 @@
           0,
           []
         ],
-        20.0
+        28.0
       ],
       [
         [
@@ -1400,7 +1400,7 @@
     "barter": 0,
     "item_slot_size": 6000,
     "cargo_slot_size": 6000,
-    "model_address": "Vehicles/DeerMount",
+    "model_address": "Vehicles/TerrorbirdMount",
     "stats": [],
     "player_animations_in_deployable_slots": [
       2,
@@ -1414,7 +1414,7 @@
     "experience_per_progress": [
       [
         17,
-        1.0
+        0.0
       ]
     ],
     "mounting_radius": 3.0
@@ -1447,43 +1447,43 @@
           1,
           []
         ],
-        20.0
+        15.0
       ],
       [
         [
           2,
           []
         ],
-        20.0
+        15.0
       ],
       [
         [
           3,
           []
         ],
-        20.0
+        21.0
       ],
       [
         [
           4,
           []
         ],
-        20.0
+        21.0
       ],
       [
         [
           5,
           []
         ],
-        20.0
+        10.0
       ]
     ],
     "use_player_speed_modifier": false,
     "placeable_on_land": false,
     "placeable_in_water": true,
-    "capacity": 5,
+    "capacity": 6,
     "storage": 30,
-    "stockpile": 6,
+    "stockpile": 10,
     "barter": 0,
     "item_slot_size": 6000,
     "cargo_slot_size": 60000,
@@ -1501,7 +1501,7 @@
     "experience_per_progress": [
       [
         21,
-        1.0
+        0.0
       ]
     ],
     "mounting_radius": 5.0
@@ -1569,8 +1569,8 @@
     "placeable_on_land": true,
     "placeable_in_water": false,
     "capacity": 1,
-    "storage": 12,
-    "stockpile": 6,
+    "storage": 16,
+    "stockpile": 8,
     "barter": 0,
     "item_slot_size": 6000,
     "cargo_slot_size": 60000,
@@ -1608,7 +1608,7 @@
           0,
           []
         ],
-        13.0
+        14.0
       ],
       [
         [
@@ -1651,7 +1651,7 @@
     "placeable_in_water": false,
     "capacity": 1,
     "storage": 18,
-    "stockpile": 1,
+    "stockpile": 2,
     "barter": 0,
     "item_slot_size": 6000,
     "cargo_slot_size": 60000,
@@ -1682,7 +1682,7 @@
       0,
       {}
     ],
-    "can_enter_portals": true,
+    "can_enter_portals": false,
     "speed": [
       [
         [
@@ -1768,7 +1768,7 @@
           0,
           []
         ],
-        11.0
+        12.0
       ],
       [
         [
@@ -1810,8 +1810,8 @@
     "placeable_on_land": true,
     "placeable_in_water": false,
     "capacity": 1,
-    "storage": 12,
-    "stockpile": 6,
+    "storage": 20,
+    "stockpile": 10,
     "barter": 0,
     "item_slot_size": 6000,
     "cargo_slot_size": 60000,
@@ -1849,7 +1849,7 @@
           0,
           []
         ],
-        13.0
+        18.0
       ],
       [
         [
@@ -1890,16 +1890,17 @@
     "use_player_speed_modifier": true,
     "placeable_on_land": true,
     "placeable_in_water": false,
-    "capacity": 1,
+    "capacity": 2,
     "storage": 12,
     "stockpile": 0,
     "barter": 0,
     "item_slot_size": 6000,
     "cargo_slot_size": 60000,
-    "model_address": "Vehicles/Cart",
+    "model_address": "Vehicles/Rickshaw",
     "stats": [],
     "player_animations_in_deployable_slots": [
-      1
+      1,
+      1000
     ],
     "allow_driver_extract": false,
     "allow_passenger_extract": false,

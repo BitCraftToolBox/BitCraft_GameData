@@ -85,7 +85,9 @@
       ]
     ],
     "discovery_triggers": [],
-    "required_knowledges": [],
+    "required_knowledges": [
+      12345
+    ],
     "full_discovery_score": 2,
     "paving_duration": 1.0,
     "prefab_address": "Paving/cobblestone_paving",
@@ -144,11 +146,9 @@
         1.125
       ]
     ],
-    "discovery_triggers": [
-      5000
-    ],
+    "discovery_triggers": [],
     "required_knowledges": [
-      5000
+      12345
     ],
     "full_discovery_score": 2,
     "paving_duration": 1.0,
@@ -208,11 +208,9 @@
         1.125
       ]
     ],
-    "discovery_triggers": [
-      5001
-    ],
+    "discovery_triggers": [],
     "required_knowledges": [
-      5001
+      12345
     ],
     "full_discovery_score": 2,
     "paving_duration": 1.0,
@@ -272,11 +270,9 @@
         1.125
       ]
     ],
-    "discovery_triggers": [
-      5003
-    ],
+    "discovery_triggers": [],
     "required_knowledges": [
-      5003
+      12345
     ],
     "full_discovery_score": 2,
     "paving_duration": 1.0,
@@ -336,11 +332,9 @@
         1.125
       ]
     ],
-    "discovery_triggers": [
-      5002
-    ],
+    "discovery_triggers": [],
     "required_knowledges": [
-      5002
+      12345
     ],
     "full_discovery_score": 2,
     "paving_duration": 1.0,
@@ -401,7 +395,9 @@
       ]
     ],
     "discovery_triggers": [],
-    "required_knowledges": [],
+    "required_knowledges": [
+      12345
+    ],
     "full_discovery_score": 2,
     "paving_duration": 1.0,
     "prefab_address": "Paving/plank_paving",
@@ -460,11 +456,9 @@
         1.125
       ]
     ],
-    "discovery_triggers": [
-      5004
-    ],
+    "discovery_triggers": [],
     "required_knowledges": [
-      5004
+      12345
     ],
     "full_discovery_score": 2,
     "paving_duration": 1.0,
@@ -524,11 +518,9 @@
         1.125
       ]
     ],
-    "discovery_triggers": [
-      5005
-    ],
+    "discovery_triggers": [],
     "required_knowledges": [
-      5005
+      12345
     ],
     "full_discovery_score": 2,
     "paving_duration": 1.0,
@@ -588,11 +580,9 @@
         1.125
       ]
     ],
-    "discovery_triggers": [
-      5006
-    ],
+    "discovery_triggers": [],
     "required_knowledges": [
-      5006
+      12345
     ],
     "full_discovery_score": 2,
     "paving_duration": 1.0,
@@ -652,11 +642,9 @@
         1.125
       ]
     ],
-    "discovery_triggers": [
-      5007
-    ],
+    "discovery_triggers": [],
     "required_knowledges": [
-      5007
+      12345
     ],
     "full_discovery_score": 2,
     "paving_duration": 1.0,
@@ -682,6 +670,306 @@
     ],
     "icon_address": "Items/WoodPlank",
     "description": "Paving made out of wooden strips. Planked Roads can be used as a foundation for structures or to elevate the look of your area."
+  },
+  {
+    "id": 2503202,
+    "name": "Decorative Wood Paving (Gray)",
+    "consumed_item_stacks": [
+      [
+        1020003,
+        1,
+        [
+          0,
+          []
+        ],
+        1,
+        1.0
+      ]
+    ],
+    "input_cargo_id": 0,
+    "input_cargo_discovery_score": 0,
+    "experience_per_progress": [
+      [
+        15,
+        1.125
+      ]
+    ],
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "full_discovery_score": 1,
+    "paving_duration": 1.0,
+    "prefab_address": "Paving/DecorativeWoodT1",
+    "tier": 1,
+    "stat_effects": [
+      [
+        [
+          6,
+          []
+        ],
+        0.5,
+        false
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        0.1,
+        true
+      ]
+    ],
+    "icon_address": "Items/WoodPlank",
+    "description": "Paving made out of wooden planks. Wood paving can be used as a foundation for structures or to elevate the look of your area."
+  },
+  {
+    "id": 11103357,
+    "name": "Cobblestone (Red)",
+    "consumed_item_stacks": [
+      [
+        6030001,
+        1,
+        [
+          0,
+          []
+        ],
+        1,
+        1.0
+      ]
+    ],
+    "input_cargo_id": 0,
+    "input_cargo_discovery_score": 0,
+    "experience_per_progress": [
+      [
+        15,
+        1.125
+      ]
+    ],
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "full_discovery_score": 1,
+    "paving_duration": 1.0,
+    "prefab_address": "Paving/BrokenStoneT6",
+    "tier": 6,
+    "stat_effects": [
+      [
+        [
+          6,
+          []
+        ],
+        0.5,
+        false
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        0.1,
+        true
+      ]
+    ],
+    "icon_address": "Items/LimestonePebbles",
+    "description": "A road made from cobblestone. Fancier than a dirt road."
+  },
+  {
+    "id": 60301247,
+    "name": "Cobblestone (Yellow)",
+    "consumed_item_stacks": [
+      [
+        1801446403,
+        1,
+        [
+          0,
+          []
+        ],
+        1,
+        1.0
+      ]
+    ],
+    "input_cargo_id": 0,
+    "input_cargo_discovery_score": 0,
+    "experience_per_progress": [
+      [
+        15,
+        1.125
+      ]
+    ],
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "full_discovery_score": 1,
+    "paving_duration": 1.0,
+    "prefab_address": "Paving/BrokenStoneT7",
+    "tier": 7,
+    "stat_effects": [
+      [
+        [
+          6,
+          []
+        ],
+        0.5,
+        false
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        0.1,
+        true
+      ]
+    ],
+    "icon_address": "Items/LimestonePebbles",
+    "description": "A road made from cobblestone. Fancier than a dirt road."
+  },
+  {
+    "id": 103167075,
+    "name": "Stone Tile (Red)",
+    "consumed_item_stacks": [
+      [
+        6030001,
+        1,
+        [
+          0,
+          []
+        ],
+        1,
+        1.0
+      ]
+    ],
+    "input_cargo_id": 0,
+    "input_cargo_discovery_score": 0,
+    "experience_per_progress": [
+      [
+        15,
+        1.125
+      ]
+    ],
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "full_discovery_score": 1,
+    "paving_duration": 1.0,
+    "prefab_address": "Paving/CobblestoneT6",
+    "tier": 6,
+    "stat_effects": [
+      [
+        [
+          6,
+          []
+        ],
+        0.5,
+        false
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        0.1,
+        true
+      ]
+    ],
+    "icon_address": "Items/LimestonePebbles",
+    "description": "A road made from stone. Fancier than a dirt road."
+  },
+  {
+    "id": 198660490,
+    "name": "Cobblestone (Blue)",
+    "consumed_item_stacks": [
+      [
+        4030001,
+        1,
+        [
+          0,
+          []
+        ],
+        1,
+        1.0
+      ]
+    ],
+    "input_cargo_id": 0,
+    "input_cargo_discovery_score": 0,
+    "experience_per_progress": [
+      [
+        15,
+        1.125
+      ]
+    ],
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "full_discovery_score": 1,
+    "paving_duration": 1.0,
+    "prefab_address": "Paving/BrokenStoneT4",
+    "tier": 4,
+    "stat_effects": [
+      [
+        [
+          6,
+          []
+        ],
+        0.5,
+        false
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        0.1,
+        true
+      ]
+    ],
+    "icon_address": "Items/LimestonePebbles",
+    "description": "A road made from cobblestone. Fancier than a dirt road."
+  },
+  {
+    "id": 269008900,
+    "name": "Stone Tile (Orange)",
+    "consumed_item_stacks": [
+      [
+        2030001,
+        1,
+        [
+          0,
+          []
+        ],
+        1,
+        1.0
+      ]
+    ],
+    "input_cargo_id": 0,
+    "input_cargo_discovery_score": 0,
+    "experience_per_progress": [
+      [
+        15,
+        1.125
+      ]
+    ],
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "full_discovery_score": 1,
+    "paving_duration": 1.0,
+    "prefab_address": "Paving/CobblestoneT2",
+    "tier": 2,
+    "stat_effects": [
+      [
+        [
+          6,
+          []
+        ],
+        0.5,
+        false
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        0.1,
+        true
+      ]
+    ],
+    "icon_address": "Items/LimestonePebbles",
+    "description": "A road made from stone. Fancier than a dirt road."
   },
   {
     "id": 288550676,
@@ -731,6 +1019,456 @@
     "description": "Paving made out of dirt. Dirt Road can be used as a foundation for structures or to elevate the look of your area."
   },
   {
+    "id": 325879543,
+    "name": "Plank Road (Red)",
+    "consumed_item_stacks": [
+      [
+        1214031121,
+        1,
+        [
+          0,
+          []
+        ],
+        1,
+        1.0
+      ]
+    ],
+    "input_cargo_id": 0,
+    "input_cargo_discovery_score": 0,
+    "experience_per_progress": [
+      [
+        15,
+        1.125
+      ]
+    ],
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "full_discovery_score": 1,
+    "paving_duration": 1.0,
+    "prefab_address": "Pavings/WoodPlanksT6",
+    "tier": 6,
+    "stat_effects": [
+      [
+        [
+          6,
+          []
+        ],
+        0.5,
+        false
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        0.1,
+        true
+      ]
+    ],
+    "icon_address": "Items/WoodPlank",
+    "description": "Paving made out of stripped wood. Planked Roads can be used as a foundation for structures or to elevate the look of your area."
+  },
+  {
+    "id": 352145005,
+    "name": "Cobblestone (White)",
+    "consumed_item_stacks": [
+      [
+        287862079,
+        1,
+        [
+          0,
+          []
+        ],
+        1,
+        1.0
+      ]
+    ],
+    "input_cargo_id": 0,
+    "input_cargo_discovery_score": 0,
+    "experience_per_progress": [
+      [
+        15,
+        1.125
+      ]
+    ],
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "full_discovery_score": 1,
+    "paving_duration": 1.0,
+    "prefab_address": "Paving/BrokenStoneT10",
+    "tier": 10,
+    "stat_effects": [
+      [
+        [
+          6,
+          []
+        ],
+        0.5,
+        false
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        0.1,
+        true
+      ]
+    ],
+    "icon_address": "Items/LimestonePebbles",
+    "description": "A road made from cobblestone. Fancier than a dirt road."
+  },
+  {
+    "id": 369582221,
+    "name": "Cobblestone (Gray)",
+    "consumed_item_stacks": [
+      [
+        1030001,
+        1,
+        [
+          0,
+          []
+        ],
+        1,
+        1.0
+      ]
+    ],
+    "input_cargo_id": 0,
+    "input_cargo_discovery_score": 0,
+    "experience_per_progress": [
+      [
+        15,
+        1.125
+      ]
+    ],
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "full_discovery_score": 1,
+    "paving_duration": 1.0,
+    "prefab_address": "Paving/BrokenStoneT1",
+    "tier": 1,
+    "stat_effects": [
+      [
+        [
+          6,
+          []
+        ],
+        0.5,
+        false
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        0.1,
+        true
+      ]
+    ],
+    "icon_address": "Items/LimestonePebbles",
+    "description": "A road made from cobblestone. Fancier than a dirt road."
+  },
+  {
+    "id": 409316411,
+    "name": "Decorative Wood Paving (Green)",
+    "consumed_item_stacks": [
+      [
+        3020003,
+        1,
+        [
+          0,
+          []
+        ],
+        1,
+        1.0
+      ]
+    ],
+    "input_cargo_id": 0,
+    "input_cargo_discovery_score": 0,
+    "experience_per_progress": [
+      [
+        15,
+        1.125
+      ]
+    ],
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "full_discovery_score": 1,
+    "paving_duration": 1.0,
+    "prefab_address": "Paving/DecorativeWoodT3",
+    "tier": 3,
+    "stat_effects": [
+      [
+        [
+          6,
+          []
+        ],
+        0.5,
+        false
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        0.1,
+        true
+      ]
+    ],
+    "icon_address": "Items/WoodPlank",
+    "description": "Paving made out of wooden planks. Wood paving can be used as a foundation for structures or to elevate the look of your area."
+  },
+  {
+    "id": 483411002,
+    "name": "Plank Road (Gray)",
+    "consumed_item_stacks": [
+      [
+        1320886430,
+        1,
+        [
+          0,
+          []
+        ],
+        1,
+        1.0
+      ]
+    ],
+    "input_cargo_id": 0,
+    "input_cargo_discovery_score": 0,
+    "experience_per_progress": [
+      [
+        15,
+        1.125
+      ]
+    ],
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "full_discovery_score": 1,
+    "paving_duration": 1.0,
+    "prefab_address": "Pavings/WoodPlanksT1",
+    "tier": 1,
+    "stat_effects": [
+      [
+        [
+          6,
+          []
+        ],
+        0.5,
+        false
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        0.1,
+        true
+      ]
+    ],
+    "icon_address": "Items/WoodPlank",
+    "description": "Paving made out of stripped wood. Planked Roads can be used as a foundation for structures or to elevate the look of your area."
+  },
+  {
+    "id": 494759563,
+    "name": "Decorative Wood Paving (White)",
+    "consumed_item_stacks": [
+      [
+        117329467,
+        1,
+        [
+          0,
+          []
+        ],
+        1,
+        1.0
+      ]
+    ],
+    "input_cargo_id": 0,
+    "input_cargo_discovery_score": 0,
+    "experience_per_progress": [
+      [
+        15,
+        1.125
+      ]
+    ],
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "full_discovery_score": 1,
+    "paving_duration": 1.0,
+    "prefab_address": "Paving/DecorativeWoodT10",
+    "tier": 10,
+    "stat_effects": [
+      [
+        [
+          6,
+          []
+        ],
+        0.5,
+        false
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        0.1,
+        true
+      ]
+    ],
+    "icon_address": "Items/WoodPlank",
+    "description": "Paving made out of wooden planks. Wood paving can be used as a foundation for structures or to elevate the look of your area."
+  },
+  {
+    "id": 507867260,
+    "name": "Plank Road (Black)",
+    "consumed_item_stacks": [
+      [
+        859178162,
+        1,
+        [
+          0,
+          []
+        ],
+        1,
+        1.0
+      ]
+    ],
+    "input_cargo_id": 0,
+    "input_cargo_discovery_score": 0,
+    "experience_per_progress": [
+      [
+        15,
+        1.125
+      ]
+    ],
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "full_discovery_score": 1,
+    "paving_duration": 1.0,
+    "prefab_address": "Pavings/WoodPlanksT9",
+    "tier": 9,
+    "stat_effects": [
+      [
+        [
+          6,
+          []
+        ],
+        0.5,
+        false
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        0.1,
+        true
+      ]
+    ],
+    "icon_address": "Items/WoodPlank",
+    "description": "Paving made out of stripped wood. Planked Roads can be used as a foundation for structures or to elevate the look of your area."
+  },
+  {
+    "id": 583235237,
+    "name": "Plank Road (Teal)",
+    "consumed_item_stacks": [
+      [
+        84913062,
+        1,
+        [
+          0,
+          []
+        ],
+        1,
+        1.0
+      ]
+    ],
+    "input_cargo_id": 0,
+    "input_cargo_discovery_score": 0,
+    "experience_per_progress": [
+      [
+        15,
+        1.125
+      ]
+    ],
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "full_discovery_score": 1,
+    "paving_duration": 1.0,
+    "prefab_address": "Pavings/WoodPlanksT8",
+    "tier": 8,
+    "stat_effects": [
+      [
+        [
+          6,
+          []
+        ],
+        0.5,
+        false
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        0.1,
+        true
+      ]
+    ],
+    "icon_address": "Items/WoodPlank",
+    "description": "Paving made out of stripped wood. Planked Roads can be used as a foundation for structures or to elevate the look of your area."
+  },
+  {
+    "id": 645489484,
+    "name": "Cobblestone (Purple)",
+    "consumed_item_stacks": [
+      [
+        5030001,
+        1,
+        [
+          0,
+          []
+        ],
+        1,
+        1.0
+      ]
+    ],
+    "input_cargo_id": 0,
+    "input_cargo_discovery_score": 0,
+    "experience_per_progress": [
+      [
+        15,
+        1.125
+      ]
+    ],
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "full_discovery_score": 1,
+    "paving_duration": 1.0,
+    "prefab_address": "Paving/BrokenStoneT5",
+    "tier": 5,
+    "stat_effects": [
+      [
+        [
+          6,
+          []
+        ],
+        0.5,
+        false
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        0.1,
+        true
+      ]
+    ],
+    "icon_address": "Items/LimestonePebbles",
+    "description": "A road made from cobblestone. Fancier than a dirt road."
+  },
+  {
     "id": 691162837,
     "name": "TownRuinsPavingC",
     "consumed_item_stacks": [
@@ -765,6 +1503,7 @@
     ],
     "discovery_triggers": [],
     "required_knowledges": [
+      12345,
       12345
     ],
     "full_discovery_score": 2,
@@ -791,6 +1530,56 @@
     ],
     "icon_address": "Items/LimestonePebbles",
     "description": "Paving made out of cobblestone. Tin Ore Road can be used as a foundation for structures or to elevate the look of your area."
+  },
+  {
+    "id": 846351712,
+    "name": "Cobblestone (Teal)",
+    "consumed_item_stacks": [
+      [
+        1100049618,
+        1,
+        [
+          0,
+          []
+        ],
+        1,
+        1.0
+      ]
+    ],
+    "input_cargo_id": 0,
+    "input_cargo_discovery_score": 0,
+    "experience_per_progress": [
+      [
+        15,
+        1.125
+      ]
+    ],
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "full_discovery_score": 1,
+    "paving_duration": 1.0,
+    "prefab_address": "Paving/BrokenStoneT8",
+    "tier": 8,
+    "stat_effects": [
+      [
+        [
+          6,
+          []
+        ],
+        0.5,
+        false
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        0.1,
+        true
+      ]
+    ],
+    "icon_address": "Items/LimestonePebbles",
+    "description": "A road made from cobblestone. Fancier than a dirt road."
   },
   {
     "id": 895904764,
@@ -874,6 +1663,7 @@
     ],
     "discovery_triggers": [],
     "required_knowledges": [
+      12345,
       12345
     ],
     "full_discovery_score": 2,
@@ -900,6 +1690,106 @@
     ],
     "icon_address": "Items/LimestonePebbles",
     "description": "Paving made out of cobblestone. Tin Ore Road can be used as a foundation for structures or to elevate the look of your area."
+  },
+  {
+    "id": 1006121750,
+    "name": "Decorative Wood Paving (Teal)",
+    "consumed_item_stacks": [
+      [
+        28056473,
+        1,
+        [
+          0,
+          []
+        ],
+        1,
+        1.0
+      ]
+    ],
+    "input_cargo_id": 0,
+    "input_cargo_discovery_score": 0,
+    "experience_per_progress": [
+      [
+        15,
+        1.125
+      ]
+    ],
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "full_discovery_score": 1,
+    "paving_duration": 1.0,
+    "prefab_address": "Paving/DecorativeWoodT8",
+    "tier": 8,
+    "stat_effects": [
+      [
+        [
+          6,
+          []
+        ],
+        0.5,
+        false
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        0.1,
+        true
+      ]
+    ],
+    "icon_address": "Items/WoodPlank",
+    "description": "Paving made out of wooden planks. Wood paving can be used as a foundation for structures or to elevate the look of your area."
+  },
+  {
+    "id": 1016483257,
+    "name": "Decorative Wood Paving (Orange)",
+    "consumed_item_stacks": [
+      [
+        2020003,
+        1,
+        [
+          0,
+          []
+        ],
+        1,
+        1.0
+      ]
+    ],
+    "input_cargo_id": 0,
+    "input_cargo_discovery_score": 0,
+    "experience_per_progress": [
+      [
+        15,
+        1.125
+      ]
+    ],
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "full_discovery_score": 1,
+    "paving_duration": 1.0,
+    "prefab_address": "Paving/DecorativeWoodT2",
+    "tier": 2,
+    "stat_effects": [
+      [
+        [
+          6,
+          []
+        ],
+        0.5,
+        false
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        0.1,
+        true
+      ]
+    ],
+    "icon_address": "Items/WoodPlank",
+    "description": "Paving made out of wooden planks. Wood paving can be used as a foundation for structures or to elevate the look of your area."
   },
   {
     "id": 1096989728,
@@ -996,6 +1886,856 @@
     "description": "Paving made out of dirt. Dirt Road can be used as a foundation for structures or to elevate the look of your area."
   },
   {
+    "id": 1286087168,
+    "name": "Stone Tile (White)",
+    "consumed_item_stacks": [
+      [
+        287862079,
+        1,
+        [
+          0,
+          []
+        ],
+        1,
+        1.0
+      ]
+    ],
+    "input_cargo_id": 0,
+    "input_cargo_discovery_score": 0,
+    "experience_per_progress": [
+      [
+        15,
+        1.125
+      ]
+    ],
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "full_discovery_score": 1,
+    "paving_duration": 1.0,
+    "prefab_address": "Paving/CobblestoneT10",
+    "tier": 10,
+    "stat_effects": [
+      [
+        [
+          6,
+          []
+        ],
+        0.5,
+        false
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        0.1,
+        true
+      ]
+    ],
+    "icon_address": "Items/LimestonePebbles",
+    "description": "A road made from stone. Fancier than a dirt road."
+  },
+  {
+    "id": 1354391829,
+    "name": "Cobblestone (Green)",
+    "consumed_item_stacks": [
+      [
+        3030001,
+        1,
+        [
+          0,
+          []
+        ],
+        1,
+        1.0
+      ]
+    ],
+    "input_cargo_id": 0,
+    "input_cargo_discovery_score": 0,
+    "experience_per_progress": [
+      [
+        15,
+        1.125
+      ]
+    ],
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "full_discovery_score": 1,
+    "paving_duration": 1.0,
+    "prefab_address": "Paving/BrokenStoneT3",
+    "tier": 3,
+    "stat_effects": [
+      [
+        [
+          6,
+          []
+        ],
+        0.5,
+        false
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        0.1,
+        true
+      ]
+    ],
+    "icon_address": "Items/LimestonePebbles",
+    "description": "A road made from cobblestone. Fancier than a dirt road."
+  },
+  {
+    "id": 1356317254,
+    "name": "Stone Tile (Green)",
+    "consumed_item_stacks": [
+      [
+        3030001,
+        1,
+        [
+          0,
+          []
+        ],
+        1,
+        1.0
+      ]
+    ],
+    "input_cargo_id": 0,
+    "input_cargo_discovery_score": 0,
+    "experience_per_progress": [
+      [
+        15,
+        1.125
+      ]
+    ],
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "full_discovery_score": 1,
+    "paving_duration": 1.0,
+    "prefab_address": "Paving/CobblestoneT3",
+    "tier": 3,
+    "stat_effects": [
+      [
+        [
+          6,
+          []
+        ],
+        0.5,
+        false
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        0.1,
+        true
+      ]
+    ],
+    "icon_address": "Items/LimestonePebbles",
+    "description": "A road made from stone. Fancier than a dirt road."
+  },
+  {
+    "id": 1358495415,
+    "name": "Stone Tile (Purple)",
+    "consumed_item_stacks": [
+      [
+        5030001,
+        1,
+        [
+          0,
+          []
+        ],
+        1,
+        1.0
+      ]
+    ],
+    "input_cargo_id": 0,
+    "input_cargo_discovery_score": 0,
+    "experience_per_progress": [
+      [
+        15,
+        1.125
+      ]
+    ],
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "full_discovery_score": 1,
+    "paving_duration": 1.0,
+    "prefab_address": "Paving/CobblestoneT5",
+    "tier": 5,
+    "stat_effects": [
+      [
+        [
+          6,
+          []
+        ],
+        0.5,
+        false
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        0.1,
+        true
+      ]
+    ],
+    "icon_address": "Items/LimestonePebbles",
+    "description": "A road made from stone. Fancier than a dirt road."
+  },
+  {
+    "id": 1402435880,
+    "name": "Plank Road (Green)",
+    "consumed_item_stacks": [
+      [
+        1103116665,
+        1,
+        [
+          0,
+          []
+        ],
+        1,
+        1.0
+      ]
+    ],
+    "input_cargo_id": 0,
+    "input_cargo_discovery_score": 0,
+    "experience_per_progress": [
+      [
+        15,
+        1.125
+      ]
+    ],
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "full_discovery_score": 1,
+    "paving_duration": 1.0,
+    "prefab_address": "Pavings/WoodPlanksT3",
+    "tier": 3,
+    "stat_effects": [
+      [
+        [
+          6,
+          []
+        ],
+        0.5,
+        false
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        0.1,
+        true
+      ]
+    ],
+    "icon_address": "Items/WoodPlank",
+    "description": "Paving made out of stripped wood. Planked Roads can be used as a foundation for structures or to elevate the look of your area."
+  },
+  {
+    "id": 1408958051,
+    "name": "Stone Tile (Blue)",
+    "consumed_item_stacks": [
+      [
+        4030001,
+        1,
+        [
+          0,
+          []
+        ],
+        1,
+        1.0
+      ]
+    ],
+    "input_cargo_id": 0,
+    "input_cargo_discovery_score": 0,
+    "experience_per_progress": [
+      [
+        15,
+        1.125
+      ]
+    ],
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "full_discovery_score": 1,
+    "paving_duration": 1.0,
+    "prefab_address": "Paving/CobblestoneT4",
+    "tier": 4,
+    "stat_effects": [
+      [
+        [
+          6,
+          []
+        ],
+        0.5,
+        false
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        0.1,
+        true
+      ]
+    ],
+    "icon_address": "Items/LimestonePebbles",
+    "description": "A road made from stone. Fancier than a dirt road."
+  },
+  {
+    "id": 1438006232,
+    "name": "Decorative Wood Paving (Blue)",
+    "consumed_item_stacks": [
+      [
+        4020003,
+        1,
+        [
+          0,
+          []
+        ],
+        1,
+        1.0
+      ]
+    ],
+    "input_cargo_id": 0,
+    "input_cargo_discovery_score": 0,
+    "experience_per_progress": [
+      [
+        15,
+        1.125
+      ]
+    ],
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "full_discovery_score": 1,
+    "paving_duration": 1.0,
+    "prefab_address": "Paving/DecorativeWoodT4",
+    "tier": 4,
+    "stat_effects": [
+      [
+        [
+          6,
+          []
+        ],
+        0.5,
+        false
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        0.1,
+        true
+      ]
+    ],
+    "icon_address": "Items/WoodPlank",
+    "description": "Paving made out of wooden planks. Wood paving can be used as a foundation for structures or to elevate the look of your area."
+  },
+  {
+    "id": 1523194747,
+    "name": "Decorative Wood Paving (Black)",
+    "consumed_item_stacks": [
+      [
+        1227914325,
+        1,
+        [
+          0,
+          []
+        ],
+        1,
+        1.0
+      ]
+    ],
+    "input_cargo_id": 0,
+    "input_cargo_discovery_score": 0,
+    "experience_per_progress": [
+      [
+        15,
+        1.125
+      ]
+    ],
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "full_discovery_score": 1,
+    "paving_duration": 1.0,
+    "prefab_address": "Paving/DecorativeWoodT9",
+    "tier": 9,
+    "stat_effects": [
+      [
+        [
+          6,
+          []
+        ],
+        0.5,
+        false
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        0.1,
+        true
+      ]
+    ],
+    "icon_address": "Items/WoodPlank",
+    "description": "Paving made out of wooden planks. Wood paving can be used as a foundation for structures or to elevate the look of your area."
+  },
+  {
+    "id": 1601962868,
+    "name": "Cobblestone (Black)",
+    "consumed_item_stacks": [
+      [
+        1112980365,
+        1,
+        [
+          0,
+          []
+        ],
+        1,
+        1.0
+      ]
+    ],
+    "input_cargo_id": 0,
+    "input_cargo_discovery_score": 0,
+    "experience_per_progress": [
+      [
+        15,
+        1.125
+      ]
+    ],
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "full_discovery_score": 1,
+    "paving_duration": 1.0,
+    "prefab_address": "Paving/BrokenStoneT9",
+    "tier": 9,
+    "stat_effects": [
+      [
+        [
+          6,
+          []
+        ],
+        0.5,
+        false
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        0.1,
+        true
+      ]
+    ],
+    "icon_address": "Items/LimestonePebbles",
+    "description": "A road made from cobblestone. Fancier than a dirt road."
+  },
+  {
+    "id": 1609880494,
+    "name": "Decorative Wood Paving (Yellow)",
+    "consumed_item_stacks": [
+      [
+        1639308227,
+        1,
+        [
+          0,
+          []
+        ],
+        1,
+        1.0
+      ]
+    ],
+    "input_cargo_id": 0,
+    "input_cargo_discovery_score": 0,
+    "experience_per_progress": [
+      [
+        15,
+        1.125
+      ]
+    ],
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "full_discovery_score": 1,
+    "paving_duration": 1.0,
+    "prefab_address": "Paving/DecorativeWoodT7",
+    "tier": 7,
+    "stat_effects": [
+      [
+        [
+          6,
+          []
+        ],
+        0.5,
+        false
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        0.1,
+        true
+      ]
+    ],
+    "icon_address": "Items/WoodPlank",
+    "description": "Paving made out of wooden planks. Wood paving can be used as a foundation for structures or to elevate the look of your area."
+  },
+  {
+    "id": 1666976675,
+    "name": "Stone Tile (Gray)",
+    "consumed_item_stacks": [
+      [
+        1030001,
+        1,
+        [
+          0,
+          []
+        ],
+        1,
+        1.0
+      ]
+    ],
+    "input_cargo_id": 0,
+    "input_cargo_discovery_score": 0,
+    "experience_per_progress": [
+      [
+        15,
+        1.125
+      ]
+    ],
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "full_discovery_score": 1,
+    "paving_duration": 1.0,
+    "prefab_address": "Paving/CobblestoneT1",
+    "tier": 1,
+    "stat_effects": [
+      [
+        [
+          6,
+          []
+        ],
+        0.5,
+        false
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        0.1,
+        true
+      ]
+    ],
+    "icon_address": "Items/LimestonePebbles",
+    "description": "A road made from stone. Fancier than a dirt road."
+  },
+  {
+    "id": 1680911483,
+    "name": "Decorative Wood Paving (Purple)",
+    "consumed_item_stacks": [
+      [
+        5020003,
+        1,
+        [
+          0,
+          []
+        ],
+        1,
+        1.0
+      ]
+    ],
+    "input_cargo_id": 0,
+    "input_cargo_discovery_score": 0,
+    "experience_per_progress": [
+      [
+        15,
+        1.125
+      ]
+    ],
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "full_discovery_score": 1,
+    "paving_duration": 1.0,
+    "prefab_address": "Paving/DecorativeWoodT5",
+    "tier": 5,
+    "stat_effects": [
+      [
+        [
+          6,
+          []
+        ],
+        0.5,
+        false
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        0.1,
+        true
+      ]
+    ],
+    "icon_address": "Items/WoodPlank",
+    "description": "Paving made out of wooden planks. Wood paving can be used as a foundation for structures or to elevate the look of your area."
+  },
+  {
+    "id": 1723547714,
+    "name": "Plank Road (Purple)",
+    "consumed_item_stacks": [
+      [
+        902347969,
+        1,
+        [
+          0,
+          []
+        ],
+        1,
+        1.0
+      ]
+    ],
+    "input_cargo_id": 0,
+    "input_cargo_discovery_score": 0,
+    "experience_per_progress": [
+      [
+        15,
+        1.125
+      ]
+    ],
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "full_discovery_score": 1,
+    "paving_duration": 1.0,
+    "prefab_address": "Pavings/WoodPlanksT5",
+    "tier": 5,
+    "stat_effects": [
+      [
+        [
+          6,
+          []
+        ],
+        0.5,
+        false
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        0.1,
+        true
+      ]
+    ],
+    "icon_address": "Items/WoodPlank",
+    "description": "Paving made out of stripped wood. Planked Roads can be used as a foundation for structures or to elevate the look of your area."
+  },
+  {
+    "id": 1754086208,
+    "name": "Stone Tile (Yellow)",
+    "consumed_item_stacks": [
+      [
+        1801446403,
+        1,
+        [
+          0,
+          []
+        ],
+        1,
+        1.0
+      ]
+    ],
+    "input_cargo_id": 0,
+    "input_cargo_discovery_score": 0,
+    "experience_per_progress": [
+      [
+        15,
+        1.125
+      ]
+    ],
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "full_discovery_score": 1,
+    "paving_duration": 1.0,
+    "prefab_address": "Paving/CobblestoneT7",
+    "tier": 7,
+    "stat_effects": [
+      [
+        [
+          6,
+          []
+        ],
+        0.5,
+        false
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        0.1,
+        true
+      ]
+    ],
+    "icon_address": "Items/LimestonePebbles",
+    "description": "A road made from stone. Fancier than a dirt road."
+  },
+  {
+    "id": 1776881252,
+    "name": "Plank Road (White)",
+    "consumed_item_stacks": [
+      [
+        1322661925,
+        1,
+        [
+          0,
+          []
+        ],
+        1,
+        1.0
+      ]
+    ],
+    "input_cargo_id": 0,
+    "input_cargo_discovery_score": 0,
+    "experience_per_progress": [
+      [
+        15,
+        1.125
+      ]
+    ],
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "full_discovery_score": 1,
+    "paving_duration": 1.0,
+    "prefab_address": "Pavings/WoodPlanksT10",
+    "tier": 10,
+    "stat_effects": [
+      [
+        [
+          6,
+          []
+        ],
+        0.5,
+        false
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        0.1,
+        true
+      ]
+    ],
+    "icon_address": "Items/WoodPlank",
+    "description": "Paving made out of wooden planks. Planked Roads can be used as a foundation for structures or to elevate the look of your area."
+  },
+  {
+    "id": 1791342264,
+    "name": "Decorative Wood Paving (Red)",
+    "consumed_item_stacks": [
+      [
+        6020003,
+        1,
+        [
+          0,
+          []
+        ],
+        1,
+        1.0
+      ]
+    ],
+    "input_cargo_id": 0,
+    "input_cargo_discovery_score": 0,
+    "experience_per_progress": [
+      [
+        15,
+        1.125
+      ]
+    ],
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "full_discovery_score": 1,
+    "paving_duration": 1.0,
+    "prefab_address": "Paving/DecorativeWoodT6",
+    "tier": 6,
+    "stat_effects": [
+      [
+        [
+          6,
+          []
+        ],
+        0.5,
+        false
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        0.1,
+        true
+      ]
+    ],
+    "icon_address": "Items/WoodPlank",
+    "description": "Paving made out of wooden planks. Wood paving can be used as a foundation for structures or to elevate the look of your area."
+  },
+  {
+    "id": 1811988897,
+    "name": "Stone Tile (Teal)",
+    "consumed_item_stacks": [
+      [
+        1100049618,
+        1,
+        [
+          0,
+          []
+        ],
+        1,
+        1.0
+      ]
+    ],
+    "input_cargo_id": 0,
+    "input_cargo_discovery_score": 0,
+    "experience_per_progress": [
+      [
+        15,
+        1.125
+      ]
+    ],
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "full_discovery_score": 1,
+    "paving_duration": 1.0,
+    "prefab_address": "Paving/CobblestoneT8",
+    "tier": 8,
+    "stat_effects": [
+      [
+        [
+          6,
+          []
+        ],
+        0.5,
+        false
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        0.1,
+        true
+      ]
+    ],
+    "icon_address": "Items/LimestonePebbles",
+    "description": "A road made from stone. Fancier than a dirt road."
+  },
+  {
     "id": 1892403282,
     "name": "Dirt Road",
     "consumed_item_stacks": [
@@ -1043,6 +2783,56 @@
     "description": "Paving made out of dirt. Dirt Road can be used as a foundation for structures or to elevate the look of your area."
   },
   {
+    "id": 1893389720,
+    "name": "Cobblestone (Orange)",
+    "consumed_item_stacks": [
+      [
+        2030001,
+        1,
+        [
+          0,
+          []
+        ],
+        1,
+        1.0
+      ]
+    ],
+    "input_cargo_id": 0,
+    "input_cargo_discovery_score": 0,
+    "experience_per_progress": [
+      [
+        15,
+        1.125
+      ]
+    ],
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "full_discovery_score": 1,
+    "paving_duration": 1.0,
+    "prefab_address": "Paving/BrokenStoneT2",
+    "tier": 2,
+    "stat_effects": [
+      [
+        [
+          6,
+          []
+        ],
+        0.5,
+        false
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        0.1,
+        true
+      ]
+    ],
+    "icon_address": "Items/LimestonePebbles",
+    "description": "A road made from cobblestone. Fancier than a dirt road."
+  },
+  {
     "id": 1900705292,
     "name": "TownRuinsPavingA",
     "consumed_item_stacks": [
@@ -1077,6 +2867,7 @@
     ],
     "discovery_triggers": [],
     "required_knowledges": [
+      12345,
       12345
     ],
     "full_discovery_score": 2,
@@ -1103,5 +2894,205 @@
     ],
     "icon_address": "Items/LimestonePebbles",
     "description": "Paving made out of cobblestone. Tin Ore Road can be used as a foundation for structures or to elevate the look of your area."
+  },
+  {
+    "id": 2027172497,
+    "name": "Plank Road (Blue)",
+    "consumed_item_stacks": [
+      [
+        585162700,
+        1,
+        [
+          0,
+          []
+        ],
+        1,
+        1.0
+      ]
+    ],
+    "input_cargo_id": 0,
+    "input_cargo_discovery_score": 0,
+    "experience_per_progress": [
+      [
+        15,
+        1.125
+      ]
+    ],
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "full_discovery_score": 1,
+    "paving_duration": 1.0,
+    "prefab_address": "Pavings/WoodPlanksT4",
+    "tier": 4,
+    "stat_effects": [
+      [
+        [
+          6,
+          []
+        ],
+        0.5,
+        false
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        0.1,
+        true
+      ]
+    ],
+    "icon_address": "Items/WoodPlank",
+    "description": "Paving made out of stripped wood. Planked Roads can be used as a foundation for structures or to elevate the look of your area."
+  },
+  {
+    "id": 2069535728,
+    "name": "Plank Road (Yellow)",
+    "consumed_item_stacks": [
+      [
+        420379216,
+        1,
+        [
+          0,
+          []
+        ],
+        1,
+        1.0
+      ]
+    ],
+    "input_cargo_id": 0,
+    "input_cargo_discovery_score": 0,
+    "experience_per_progress": [
+      [
+        15,
+        1.125
+      ]
+    ],
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "full_discovery_score": 1,
+    "paving_duration": 1.0,
+    "prefab_address": "Pavings/WoodPlanksT7",
+    "tier": 7,
+    "stat_effects": [
+      [
+        [
+          6,
+          []
+        ],
+        0.5,
+        false
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        0.1,
+        true
+      ]
+    ],
+    "icon_address": "Items/WoodPlank",
+    "description": "Paving made out of wooden planks. Planked Roads can be used as a foundation for structures or to elevate the look of your area."
+  },
+  {
+    "id": 2073726939,
+    "name": "Stone Tile (Black)",
+    "consumed_item_stacks": [
+      [
+        1112980365,
+        1,
+        [
+          0,
+          []
+        ],
+        1,
+        1.0
+      ]
+    ],
+    "input_cargo_id": 0,
+    "input_cargo_discovery_score": 0,
+    "experience_per_progress": [
+      [
+        15,
+        1.125
+      ]
+    ],
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "full_discovery_score": 1,
+    "paving_duration": 1.0,
+    "prefab_address": "Paving/CobblestoneT9",
+    "tier": 9,
+    "stat_effects": [
+      [
+        [
+          6,
+          []
+        ],
+        0.5,
+        false
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        0.1,
+        true
+      ]
+    ],
+    "icon_address": "Items/LimestonePebbles",
+    "description": "A road made from stone. Fancier than a dirt road."
+  },
+  {
+    "id": 2137086053,
+    "name": "Plank Road (Orange)",
+    "consumed_item_stacks": [
+      [
+        362614434,
+        1,
+        [
+          0,
+          []
+        ],
+        1,
+        1.0
+      ]
+    ],
+    "input_cargo_id": 0,
+    "input_cargo_discovery_score": 0,
+    "experience_per_progress": [
+      [
+        15,
+        1.125
+      ]
+    ],
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "full_discovery_score": 1,
+    "paving_duration": 1.0,
+    "prefab_address": "Pavings/WoodPlanksT2",
+    "tier": 2,
+    "stat_effects": [
+      [
+        [
+          6,
+          []
+        ],
+        0.5,
+        false
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        0.1,
+        true
+      ]
+    ],
+    "icon_address": "Items/WoodPlank",
+    "description": "Paving made out of stripped wood. Planked Roads can be used as a foundation for structures or to elevate the look of your area."
   }
 ]

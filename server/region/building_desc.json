@@ -8281,7 +8281,7 @@
     "description": "An oven that could be used to bake various baked goods prepared by a cook.",
     "rested_buff_duration": 0,
     "light_radius": 0,
-    "model_asset_name": "Buildings/T1MudOven",
+    "model_asset_name": "Buildings/AncientOven",
     "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Other/Buildings/Crafting/AncientOven",
     "unenterable": true,
     "wilderness": true,
@@ -8341,6 +8341,14 @@
           0,
           []
         ]
+      ],
+      [
+        -1,
+        2,
+        [
+          0,
+          []
+        ]
       ]
     ],
     "max_health": 120,
@@ -8383,17 +8391,25 @@
         0
       ]
     ],
-    "name": "Rough Cooking Station",
+    "name": "Cooking Station",
     "description": "A worksurface for preparing foods",
     "rested_buff_duration": 0,
     "light_radius": 0,
-    "model_asset_name": "Buildings/T1CookingFirepit",
+    "model_asset_name": "Buildings/AncientKitchen",
     "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Other/Buildings/Crafting/AncientCookingWorkstation",
     "unenterable": true,
     "wilderness": true,
     "footprint": [
       [
         0,
+        0,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        -1,
         0,
         [
           0,
@@ -8409,8 +8425,40 @@
         ]
       ],
       [
-        -1,
         0,
+        -1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        -1,
+        1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        -1,
+        2,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        1,
+        1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        1,
+        -1,
         [
           0,
           []
@@ -59245,7 +59293,7 @@
         0,
         0,
         0,
-        255,
+        1000,
         0,
         6000,
         6000,
@@ -64247,7 +64295,7 @@
         0,
         0,
         0,
-        255,
+        1000,
         0,
         6000,
         6000,
@@ -64790,7 +64838,7 @@
         0,
         0,
         0,
-        255,
+        1000,
         0,
         6000,
         6000,
@@ -66433,18 +66481,42 @@
         0
       ]
     ],
-    "name": "Recovery Chest",
+    "name": "Item Recovery Pickup",
     "description": "For recovering lost items",
     "rested_buff_duration": 0,
     "light_radius": 0,
-    "model_asset_name": "Buildings/T5Building_Chest",
+    "model_asset_name": "Buildings/Recovery",
     "icon_asset_name": "GeneratedIcons/Other/Buildings/Storage/ChestSmallT5",
     "unenterable": true,
     "wilderness": true,
     "footprint": [
       [
+        1,
         0,
+        [
+          0,
+          []
+        ]
+      ],
+      [
         0,
+        1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        -1,
+        1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        -2,
+        1,
         [
           0,
           []
@@ -66662,7 +66734,7 @@
         0,
         0,
         0,
-        255,
+        1000,
         0,
         6000,
         6000,
@@ -68471,7 +68543,7 @@
     "description": "A place to buy and sell items with other players within this settlement.",
     "rested_buff_duration": 0,
     "light_radius": 0,
-    "model_asset_name": "Buildings/Marketplace",
+    "model_asset_name": "Buildings/TownMarketplace",
     "icon_asset_name": "GeneratedIcons/Other/Buildings/Barter/BarterStallT1",
     "unenterable": true,
     "wilderness": true,
@@ -68495,6 +68567,622 @@
       [
         0,
         -1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        -3,
+        6,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        -3,
+        -2,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        -2,
+        -3,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        -1,
+        -4,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        0,
+        -5,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        1,
+        -5,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        2,
+        -5,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        3,
+        -5,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        4,
+        -5,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        4,
+        -4,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        4,
+        -3,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        4,
+        -2,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        4,
+        -1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        4,
+        0,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        4,
+        1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        4,
+        2,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        3,
+        3,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        2,
+        4,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        1,
+        5,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        0,
+        6,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        -1,
+        6,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        -2,
+        6,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        0,
+        5,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        1,
+        4,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        2,
+        3,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        3,
+        2,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        3,
+        1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        3,
+        0,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        3,
+        -1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        3,
+        -3,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        3,
+        -2,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        3,
+        -4,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        2,
+        -4,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        1,
+        -4,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        0,
+        -4,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        -1,
+        -3,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        -2,
+        -2,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        -3,
+        -1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        -3,
+        0,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        -3,
+        1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        -3,
+        2,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        -3,
+        3,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        -3,
+        4,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        -3,
+        5,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        -2,
+        5,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        -1,
+        5,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        0,
+        4,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        1,
+        3,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        2,
+        2,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        2,
+        1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        2,
+        0,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        2,
+        -1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        2,
+        -2,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        2,
+        -3,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        1,
+        -3,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        0,
+        -3,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        -1,
+        -2,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        -2,
+        -1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        -2,
+        0,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        -2,
+        1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        -2,
+        2,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        -2,
+        3,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        -2,
+        4,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        -1,
+        4,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        0,
+        3,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        1,
+        2,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        1,
+        1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        1,
+        0,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        1,
+        -1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        1,
+        -2,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        0,
+        -2,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        -1,
+        -1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        -1,
+        0,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        -1,
+        1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        -1,
+        2,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        -1,
+        3,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        0,
+        2,
         [
           0,
           []
@@ -69003,6 +69691,208 @@
     "show_in_compendium": false,
     "is_ruins": false,
     "not_deconstructible": false
+  },
+  {
+    "id": 985246037,
+    "functions": [
+      [
+        1721785854,
+        -1,
+        0,
+        64,
+        16,
+        0,
+        0,
+        60000,
+        600000,
+        0,
+        [],
+        [],
+        0,
+        false,
+        0,
+        0
+      ]
+    ],
+    "name": "Town Bank",
+    "description": "A bank which has a personal inventory for each player",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/PlayerBankChest",
+    "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Other/Buildings/Crafting/Bank",
+    "unenterable": false,
+    "wilderness": false,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        0,
+        1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        0,
+        -1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        2,
+        0,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        2,
+        -1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        2,
+        -2,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        -2,
+        0,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        -2,
+        1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        -2,
+        2,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        1,
+        1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        1,
+        0,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        1,
+        -1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        1,
+        -2,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        0,
+        -2,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        -1,
+        -1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        -1,
+        0,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        -1,
+        1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        -1,
+        2,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        0,
+        2,
+        [
+          0,
+          []
+        ]
+      ]
+    ],
+    "max_health": -1,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 0.0,
+    "maintenance": 0.0,
+    "build_permission": [
+      0,
+      {}
+    ],
+    "interact_permission": [
+      3,
+      {}
+    ],
+    "has_action": true,
+    "show_in_compendium": false,
+    "is_ruins": false,
+    "not_deconstructible": true
   },
   {
     "id": 990783156,
@@ -75413,7 +76303,7 @@
         0,
         0,
         0,
-        255,
+        1000,
         0,
         6000,
         6000,
@@ -96208,7 +97098,7 @@
     "rested_buff_duration": 0,
     "light_radius": 0,
     "model_asset_name": "Buildings/WonderResourceTree",
-    "icon_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Other/TravelersTree",
     "unenterable": false,
     "wilderness": true,
     "footprint": [
@@ -114230,7 +115120,7 @@
         0,
         0,
         0,
-        255,
+        1000,
         0,
         6000,
         6000,
@@ -122481,7 +123371,7 @@
         0,
         0,
         0,
-        255,
+        1000,
         0,
         6000,
         6000,

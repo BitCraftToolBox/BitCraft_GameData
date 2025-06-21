@@ -7,7 +7,7 @@
     "combat_actions_ids": [
       3
     ],
-    "description": "A massive Jakyl. Much stronger than the others you've seen.",
+    "description": "A massive Jakyl. Much stronger than the others you've seen. These animals will avoid light sources.",
     "min_speed": 12,
     "max_speed": 24,
     "radius": 1.0,
@@ -19,7 +19,7 @@
     "health_regen_quantity": 5.0,
     "armor": 700,
     "accuracy": 980,
-    "evasion": 1260,
+    "evasion": 168,
     "strength": 0,
     "min_damage": 20,
     "max_damage": 36,
@@ -77,13 +77,13 @@
     "experience_per_damage_dealt": [
       [
         18,
-        1.75
+        1.66
       ]
     ],
-    "tier": 1,
-    "tag": "Strong Monster",
+    "tier": 2,
+    "tag": "Monster",
     "rarity": [
-      3,
+      1,
       {}
     ],
     "huntable": false
@@ -96,22 +96,22 @@
     "combat_actions_ids": [
       1453498302
     ],
-    "description": "A massive creature that looks very angry. Probably best to avoid it without backup.",
+    "description": "A massive, aggressive creature. This creature looks tougher than other Umburas you've seen. Particularly aggressive at night. This creature will avoid light sources in player made towns.",
     "min_speed": 25,
     "max_speed": 35,
     "radius": 0.5,
     "awareness_destination_threshold": 0.5,
     "min_awareness_tick_sec": 1.0,
     "max_awareness_tick_sec": 5.0,
-    "max_health": 6000,
+    "max_health": 560,
     "ignore_damage": false,
     "health_regen_quantity": 20.0,
-    "armor": 1200,
-    "accuracy": 200,
-    "evasion": 200,
+    "armor": 1400,
+    "accuracy": 1960,
+    "evasion": 336,
     "strength": 0,
-    "min_damage": 25,
-    "max_damage": 40,
+    "min_damage": 39,
+    "max_damage": 73,
     "cooldown_multiplier": 1.0,
     "daytime_detect_range": 40,
     "daytime_aggro_range": 20,
@@ -123,7 +123,7 @@
     "deaggro_health_threshold": 0.0,
     "attack_level": 5,
     "defense_level": 5,
-    "prefab_address": "Enemies/Umbura",
+    "prefab_address": "Enemies/UmburaAlpha",
     "icon_address": "GeneratedIcons/Other/GeneratedIcons/Other/Animals/Umbura",
     "extracted_item_stacks": [
       [
@@ -166,13 +166,13 @@
     "experience_per_damage_dealt": [
       [
         18,
-        2.0
+        2.14
       ]
     ],
-    "tier": 1,
-    "tag": "Strong Monster",
+    "tier": 5,
+    "tag": "Monster",
     "rarity": [
-      4,
+      1,
       {}
     ],
     "huntable": false
@@ -190,9 +190,9 @@
     "awareness_destination_threshold": 0.001,
     "min_awareness_tick_sec": 10.0,
     "max_awareness_tick_sec": 20.0,
-    "max_health": 375,
+    "max_health": 220,
     "ignore_damage": false,
-    "health_regen_quantity": 0.1,
+    "health_regen_quantity": 0.0,
     "armor": 6,
     "accuracy": 100,
     "evasion": 100,
@@ -210,7 +210,7 @@
     "deaggro_health_threshold": 0.0,
     "attack_level": 0,
     "defense_level": 1,
-    "prefab_address": "Enemies/GrassBird",
+    "prefab_address": "Enemies/SwampBird",
     "icon_address": "GeneratedIcons/Other/Animals/SwampBird",
     "extracted_item_stacks": [
       [
@@ -235,7 +235,7 @@
     "experience_per_damage_dealt": [
       [
         9,
-        1.15
+        2.08
       ]
     ],
     "tier": 4,
@@ -261,15 +261,15 @@
     "awareness_destination_threshold": 0.5,
     "min_awareness_tick_sec": 1.0,
     "max_awareness_tick_sec": 5.0,
-    "max_health": 50,
+    "max_health": 100,
     "ignore_damage": false,
     "health_regen_quantity": 0.1,
-    "armor": 100,
-    "accuracy": 75,
-    "evasion": 125,
+    "armor": 1000,
+    "accuracy": 1400,
+    "evasion": 240,
     "strength": 0,
-    "min_damage": 8,
-    "max_damage": 12,
+    "min_damage": 28,
+    "max_damage": 52,
     "cooldown_multiplier": 1.0,
     "daytime_detect_range": 40,
     "daytime_aggro_range": 20,
@@ -300,7 +300,7 @@
             ]
           ]
         ],
-        1.0
+        0.25
       ],
       [
         [
@@ -318,16 +318,16 @@
             ]
           ]
         ],
-        0.1
+        0.025
       ]
     ],
     "experience_per_damage_dealt": [
       [
         18,
-        1.5
+        1.98
       ]
     ],
-    "tier": 1,
+    "tier": 4,
     "tag": "Monster",
     "rarity": [
       1,
@@ -337,7 +337,7 @@
   },
   {
     "enemy_type": 16,
-    "name": "Desert Ostrich",
+    "name": "Desert Terrorbird",
     "pathfinding_id": 1159321119,
     "targeting_matrix_id": 5,
     "combat_actions_ids": [],
@@ -348,9 +348,9 @@
     "awareness_destination_threshold": 0.001,
     "min_awareness_tick_sec": 10.0,
     "max_awareness_tick_sec": 20.0,
-    "max_health": 450,
+    "max_health": 1060,
     "ignore_damage": false,
-    "health_regen_quantity": 0.1,
+    "health_regen_quantity": 0.0,
     "armor": 6,
     "accuracy": 100,
     "evasion": 100,
@@ -368,14 +368,14 @@
     "deaggro_health_threshold": 0.0,
     "attack_level": 0,
     "defense_level": 1,
-    "prefab_address": "Enemies/GrassBird",
-    "icon_address": "GeneratedIcons/Other/Animals/DesertBird",
+    "prefab_address": "Enemies/TerrorbirdDesert",
+    "icon_address": "GeneratedIcons/Other/GeneratedIcons/Other/Animals/Terrorbird",
     "extracted_item_stacks": [
       [
         [
           0,
           [
-            10,
+            1196702534,
             1,
             [
               1,
@@ -393,10 +393,10 @@
     "experience_per_damage_dealt": [
       [
         9,
-        1.15
+        3.04
       ]
     ],
-    "tier": 5,
+    "tier": 10,
     "tag": "Huntable Animal",
     "rarity": [
       2,
@@ -417,9 +417,9 @@
     "awareness_destination_threshold": 0.001,
     "min_awareness_tick_sec": 10.0,
     "max_awareness_tick_sec": 20.0,
-    "max_health": 450,
+    "max_health": 285,
     "ignore_damage": false,
-    "health_regen_quantity": 0.1,
+    "health_regen_quantity": 0.0,
     "armor": 6,
     "accuracy": 100,
     "evasion": 100,
@@ -437,7 +437,7 @@
     "deaggro_health_threshold": 0.0,
     "attack_level": 0,
     "defense_level": 1,
-    "prefab_address": "Enemies/GrassBird",
+    "prefab_address": "Enemies/DesertBird",
     "icon_address": "GeneratedIcons/Other/Animals/DesertBird",
     "extracted_item_stacks": [
       [
@@ -462,7 +462,7 @@
     "experience_per_damage_dealt": [
       [
         9,
-        1.15
+        2.24
       ]
     ],
     "tier": 5,
@@ -481,22 +481,22 @@
     "combat_actions_ids": [
       3
     ],
-    "description": "A weird thing that looks like it wants to bite you",
-    "min_speed": 0,
-    "max_speed": 0,
+    "description": "A vicious, insect like creature that will try to kill you. This creature can fly up and down cliffs and will avoid light sources made in towns.",
+    "min_speed": 14,
+    "max_speed": 24,
     "radius": 1.0,
     "awareness_destination_threshold": 0.5,
     "min_awareness_tick_sec": 1.0,
     "max_awareness_tick_sec": 5.0,
-    "max_health": 300,
+    "max_health": 320,
     "ignore_damage": false,
     "health_regen_quantity": 0.1,
-    "armor": 50,
-    "accuracy": 75,
-    "evasion": 125,
+    "armor": 800,
+    "accuracy": 1120,
+    "evasion": 192,
     "strength": 0,
-    "min_damage": 7,
-    "max_damage": 13,
+    "min_damage": 22,
+    "max_damage": 42,
     "cooldown_multiplier": 1.0,
     "daytime_detect_range": 40,
     "daytime_aggro_range": 20,
@@ -508,8 +508,8 @@
     "deaggro_health_threshold": 0.0,
     "attack_level": 5,
     "defense_level": 5,
-    "prefab_address": "Enemies/Jakyl",
-    "icon_address": "GeneratedIcons/Other/GeneratedIcons/Other/Animals/Jakyl",
+    "prefab_address": "Enemies/Wasp",
+    "icon_address": "GeneratedIcons/Other/GeneratedIcons/Other/Animals/Wasp",
     "extracted_item_stacks": [
       [
         [
@@ -551,13 +551,13 @@
     "experience_per_damage_dealt": [
       [
         18,
-        1.5
+        1.82
       ]
     ],
-    "tier": 1,
+    "tier": 3,
     "tag": "Monster",
     "rarity": [
-      2,
+      1,
       {}
     ],
     "huntable": false
@@ -575,9 +575,9 @@
     "awareness_destination_threshold": 0.001,
     "min_awareness_tick_sec": 10.0,
     "max_awareness_tick_sec": 20.0,
-    "max_health": 375,
+    "max_health": 625,
     "ignore_damage": false,
-    "health_regen_quantity": 0.1,
+    "health_regen_quantity": 0.0,
     "armor": 6,
     "accuracy": 100,
     "evasion": 100,
@@ -620,13 +620,13 @@
     "experience_per_damage_dealt": [
       [
         9,
-        1.15
+        2.72
       ]
     ],
-    "tier": 4,
+    "tier": 8,
     "tag": "Huntable Animal",
     "rarity": [
-      3,
+      1,
       {}
     ],
     "huntable": true
@@ -644,9 +644,9 @@
     "awareness_destination_threshold": 0.001,
     "min_awareness_tick_sec": 10.0,
     "max_awareness_tick_sec": 20.0,
-    "max_health": 300,
+    "max_health": 170,
     "ignore_damage": false,
-    "health_regen_quantity": 0.1,
+    "health_regen_quantity": 0.0,
     "armor": 6,
     "accuracy": 100,
     "evasion": 100,
@@ -689,7 +689,7 @@
     "experience_per_damage_dealt": [
       [
         9,
-        1.15
+        1.92
       ]
     ],
     "tier": 3,
@@ -713,9 +713,9 @@
     "awareness_destination_threshold": 0.001,
     "min_awareness_tick_sec": 10.0,
     "max_awareness_tick_sec": 20.0,
-    "max_health": 300,
+    "max_health": 170,
     "ignore_damage": false,
-    "health_regen_quantity": 0.1,
+    "health_regen_quantity": 0.0,
     "armor": 6,
     "accuracy": 100,
     "evasion": 100,
@@ -758,7 +758,7 @@
     "experience_per_damage_dealt": [
       [
         9,
-        1.15
+        1.92
       ]
     ],
     "tier": 3,
@@ -784,15 +784,15 @@
     "awareness_destination_threshold": 0.5,
     "min_awareness_tick_sec": 1.0,
     "max_awareness_tick_sec": 5.0,
-    "max_health": 50,
+    "max_health": 140,
     "ignore_damage": false,
     "health_regen_quantity": 0.1,
-    "armor": 100,
-    "accuracy": 75,
-    "evasion": 125,
+    "armor": 1400,
+    "accuracy": 1960,
+    "evasion": 336,
     "strength": 0,
-    "min_damage": 8,
-    "max_damage": 12,
+    "min_damage": 39,
+    "max_damage": 73,
     "cooldown_multiplier": 1.0,
     "daytime_detect_range": 40,
     "daytime_aggro_range": 20,
@@ -823,7 +823,7 @@
             ]
           ]
         ],
-        1.0
+        0.25
       ],
       [
         [
@@ -841,17 +841,17 @@
             ]
           ]
         ],
-        0.15
+        0.0375
       ]
     ],
     "experience_per_damage_dealt": [
       [
         18,
-        1.5
+        2.3
       ]
     ],
-    "tier": 1,
-    "tag": "Strong Monster",
+    "tier": 6,
+    "tag": "Monster",
     "rarity": [
       1,
       {}
@@ -866,7 +866,7 @@
     "combat_actions_ids": [
       3
     ],
-    "description": "A weird thing that looks like it wants to bite you",
+    "description": "A vicious, dog like creature. These animals are particularly aggressive at night. They don't like the light.",
     "min_speed": 10,
     "max_speed": 20,
     "radius": 1.0,
@@ -875,10 +875,10 @@
     "max_awareness_tick_sec": 5.0,
     "max_health": 200,
     "ignore_damage": false,
-    "health_regen_quantity": 0.1,
+    "health_regen_quantity": 20.0,
     "armor": 500,
     "accuracy": 700,
-    "evasion": 900,
+    "evasion": 120,
     "strength": 0,
     "min_damage": 14,
     "max_damage": 26,
@@ -949,20 +949,20 @@
   },
   {
     "enemy_type": 15,
-    "name": "Jungle Ostrich",
+    "name": "Jungle Terrorbird",
     "pathfinding_id": 1159321119,
     "targeting_matrix_id": 5,
     "combat_actions_ids": [],
-    "description": "A Desert Bird",
+    "description": "A jungle Bird",
     "min_speed": 7,
     "max_speed": 11,
     "radius": 0.5,
     "awareness_destination_threshold": 0.001,
     "min_awareness_tick_sec": 10.0,
     "max_awareness_tick_sec": 20.0,
-    "max_health": 450,
+    "max_health": 485,
     "ignore_damage": false,
-    "health_regen_quantity": 0.1,
+    "health_regen_quantity": 0.0,
     "armor": 6,
     "accuracy": 100,
     "evasion": 100,
@@ -980,14 +980,14 @@
     "deaggro_health_threshold": 0.0,
     "attack_level": 0,
     "defense_level": 1,
-    "prefab_address": "Enemies/GrassBird",
-    "icon_address": "GeneratedIcons/Other/Animals/DesertBird",
+    "prefab_address": "Enemies/Terrorbird",
+    "icon_address": "GeneratedIcons/Other/GeneratedIcons/Other/Animals/Terrorbird",
     "extracted_item_stacks": [
       [
         [
           0,
           [
-            10,
+            2141814235,
             1,
             [
               1,
@@ -1005,10 +1005,10 @@
     "experience_per_damage_dealt": [
       [
         9,
-        1.15
+        2.56
       ]
     ],
-    "tier": 5,
+    "tier": 7,
     "tag": "Huntable Animal",
     "rarity": [
       2,
@@ -1024,22 +1024,22 @@
     "combat_actions_ids": [
       3
     ],
-    "description": "A massive Jakyl. Much stronger than the others you've seen.",
+    "description": "A massive Jakyl. This Jakyl has scars from past encounters and looks particularly vicious. These animals will avoid light sources.",
     "min_speed": 12,
     "max_speed": 24,
     "radius": 1.0,
     "awareness_destination_threshold": 0.5,
     "min_awareness_tick_sec": 1.0,
     "max_awareness_tick_sec": 5.0,
-    "max_health": 2000,
+    "max_health": 680,
     "ignore_damage": false,
     "health_regen_quantity": 0.1,
-    "armor": 400,
-    "accuracy": 150,
-    "evasion": 150,
+    "armor": 1700,
+    "accuracy": 2380,
+    "evasion": 408,
     "strength": 0,
-    "min_damage": 10,
-    "max_damage": 15,
+    "min_damage": 48,
+    "max_damage": 88,
     "cooldown_multiplier": 1.0,
     "daytime_detect_range": 40,
     "daytime_aggro_range": 20,
@@ -1051,7 +1051,7 @@
     "deaggro_health_threshold": 0.0,
     "attack_level": 5,
     "defense_level": 5,
-    "prefab_address": "Enemies/AlphaJakyl",
+    "prefab_address": "Enemies/JakylKing",
     "icon_address": "GeneratedIcons/Other/GeneratedIcons/Other/Animals/AlphaJakyl",
     "extracted_item_stacks": [
       [
@@ -1070,7 +1070,7 @@
             ]
           ]
         ],
-        1.0
+        0.3
       ],
       [
         [
@@ -1094,13 +1094,13 @@
     "experience_per_damage_dealt": [
       [
         18,
-        1.75
+        2.46
       ]
     ],
-    "tier": 1,
-    "tag": "Elite Monster",
+    "tier": 7,
+    "tag": "Monster",
     "rarity": [
-      3,
+      1,
       {}
     ],
     "huntable": false
@@ -1113,22 +1113,22 @@
     "combat_actions_ids": [
       1453498302
     ],
-    "description": "A massive creature that looks very angry. Probably best to avoid it without backup.",
+    "description": "A massive, aggressive creature. This creature looks like it's been through a fair amount of conflicts and seems particularly tough. Particularly aggressive at night. This creature will avoid light sources in player made towns.",
     "min_speed": 25,
     "max_speed": 35,
     "radius": 0.5,
     "awareness_destination_threshold": 0.5,
     "min_awareness_tick_sec": 1.0,
     "max_awareness_tick_sec": 5.0,
-    "max_health": 6000,
+    "max_health": 760,
     "ignore_damage": false,
     "health_regen_quantity": 20.0,
-    "armor": 1200,
-    "accuracy": 200,
-    "evasion": 200,
+    "armor": 1900,
+    "accuracy": 2660,
+    "evasion": 456,
     "strength": 0,
-    "min_damage": 25,
-    "max_damage": 40,
+    "min_damage": 53,
+    "max_damage": 99,
     "cooldown_multiplier": 1.0,
     "daytime_detect_range": 40,
     "daytime_aggro_range": 20,
@@ -1140,7 +1140,7 @@
     "deaggro_health_threshold": 0.0,
     "attack_level": 5,
     "defense_level": 5,
-    "prefab_address": "Enemies/Umbura",
+    "prefab_address": "Enemies/UmburaKing",
     "icon_address": "GeneratedIcons/Other/GeneratedIcons/Other/Animals/Umbura",
     "extracted_item_stacks": [
       [
@@ -1183,13 +1183,13 @@
     "experience_per_damage_dealt": [
       [
         18,
-        2.0
+        2.62
       ]
     ],
-    "tier": 1,
-    "tag": "Elite Monster",
+    "tier": 8,
+    "tag": "Monster",
     "rarity": [
-      4,
+      1,
       {}
     ],
     "huntable": false
@@ -1207,9 +1207,9 @@
     "awareness_destination_threshold": 0.001,
     "min_awareness_tick_sec": 10.0,
     "max_awareness_tick_sec": 20.0,
-    "max_health": 300,
+    "max_health": 170,
     "ignore_damage": false,
-    "health_regen_quantity": 0.1,
+    "health_regen_quantity": 0.0,
     "armor": 6,
     "accuracy": 100,
     "evasion": 100,
@@ -1252,7 +1252,7 @@
     "experience_per_damage_dealt": [
       [
         9,
-        1.15
+        1.92
       ]
     ],
     "tier": 3,
@@ -1276,9 +1276,9 @@
     "awareness_destination_threshold": 0.001,
     "min_awareness_tick_sec": 10.0,
     "max_awareness_tick_sec": 20.0,
-    "max_health": 300,
+    "max_health": 170,
     "ignore_damage": false,
-    "health_regen_quantity": 0.1,
+    "health_regen_quantity": 0.0,
     "armor": 6,
     "accuracy": 100,
     "evasion": 100,
@@ -1321,7 +1321,7 @@
     "experience_per_damage_dealt": [
       [
         9,
-        1.15
+        1.92
       ]
     ],
     "tier": 3,
@@ -1345,9 +1345,9 @@
     "awareness_destination_threshold": 0.001,
     "min_awareness_tick_sec": 10.0,
     "max_awareness_tick_sec": 20.0,
-    "max_health": 225,
+    "max_health": 130,
     "ignore_damage": false,
-    "health_regen_quantity": 0.1,
+    "health_regen_quantity": 0.0,
     "armor": 6,
     "accuracy": 100,
     "evasion": 100,
@@ -1390,7 +1390,7 @@
     "experience_per_damage_dealt": [
       [
         9,
-        1.15
+        1.76
       ]
     ],
     "tier": 2,
@@ -1414,9 +1414,9 @@
     "awareness_destination_threshold": 0.001,
     "min_awareness_tick_sec": 10.0,
     "max_awareness_tick_sec": 20.0,
-    "max_health": 225,
+    "max_health": 285,
     "ignore_damage": false,
-    "health_regen_quantity": 0.1,
+    "health_regen_quantity": 0.0,
     "armor": 6,
     "accuracy": 100,
     "evasion": 100,
@@ -1434,14 +1434,14 @@
     "deaggro_health_threshold": 0.0,
     "attack_level": 0,
     "defense_level": 1,
-    "prefab_address": "Enemies/Goat",
-    "icon_address": "GeneratedIcons/Other/Animals/Goat",
+    "prefab_address": "Enemies/Bison",
+    "icon_address": "GeneratedIcons/Other/GeneratedIcons/Other/Animals/Bison",
     "extracted_item_stacks": [
       [
         [
           0,
           [
-            2,
+            141869841,
             1,
             [
               1,
@@ -1459,10 +1459,10 @@
     "experience_per_damage_dealt": [
       [
         9,
-        1.15
+        2.24
       ]
     ],
-    "tier": 2,
+    "tier": 5,
     "tag": "Huntable Animal",
     "rarity": [
       1,
@@ -1521,6 +1521,95 @@
     "huntable": false
   },
   {
+    "enemy_type": 31,
+    "name": "Queen",
+    "pathfinding_id": 690229665,
+    "targeting_matrix_id": 2,
+    "combat_actions_ids": [
+      3
+    ],
+    "description": "A vicious, insect like creature that will try to kill you. This creature can fly up and down cliffs and will avoid light sources made in towns.",
+    "min_speed": 14,
+    "max_speed": 24,
+    "radius": 1.0,
+    "awareness_destination_threshold": 0.5,
+    "min_awareness_tick_sec": 1.0,
+    "max_awareness_tick_sec": 5.0,
+    "max_health": 600,
+    "ignore_damage": false,
+    "health_regen_quantity": 0.1,
+    "armor": 1500,
+    "accuracy": 2100,
+    "evasion": 360,
+    "strength": 0,
+    "min_damage": 42,
+    "max_damage": 78,
+    "cooldown_multiplier": 1.0,
+    "daytime_detect_range": 40,
+    "daytime_aggro_range": 20,
+    "daytime_deaggro_range": 50,
+    "nighttime_detect_range": 80,
+    "nighttime_aggro_range": 25,
+    "nighttime_deaggro_range": 60,
+    "evade_range": 0,
+    "deaggro_health_threshold": 0.0,
+    "attack_level": 5,
+    "defense_level": 5,
+    "prefab_address": "Enemies/WaspQueen",
+    "icon_address": "GeneratedIcons/Other/GeneratedIcons/Other/Animals/Wasp",
+    "extracted_item_stacks": [
+      [
+        [
+          0,
+          [
+            344122023,
+            1,
+            [
+              0,
+              []
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        ],
+        0.1
+      ],
+      [
+        [
+          0,
+          [
+            711737334,
+            1,
+            [
+              0,
+              []
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        ],
+        1.0
+      ]
+    ],
+    "experience_per_damage_dealt": [
+      [
+        18,
+        2.3
+      ]
+    ],
+    "tier": 6,
+    "tag": "Monster",
+    "rarity": [
+      1,
+      {}
+    ],
+    "huntable": false
+  },
+  {
     "enemy_type": 9,
     "name": "Rangifer",
     "pathfinding_id": 959834809,
@@ -1533,9 +1622,9 @@
     "awareness_destination_threshold": 0.001,
     "min_awareness_tick_sec": 10.0,
     "max_awareness_tick_sec": 20.0,
-    "max_health": 375,
+    "max_health": 220,
     "ignore_damage": false,
-    "health_regen_quantity": 0.1,
+    "health_regen_quantity": 0.0,
     "armor": 6,
     "accuracy": 100,
     "evasion": 100,
@@ -1578,7 +1667,7 @@
     "experience_per_damage_dealt": [
       [
         9,
-        1.15
+        2.08
       ]
     ],
     "tier": 4,
@@ -1602,10 +1691,10 @@
     "awareness_destination_threshold": 0.001,
     "min_awareness_tick_sec": 10.0,
     "max_awareness_tick_sec": 20.0,
-    "max_health": 150,
+    "max_health": 100,
     "ignore_damage": false,
-    "health_regen_quantity": 0.1,
-    "armor": 6,
+    "health_regen_quantity": 0.0,
+    "armor": 0,
     "accuracy": 100,
     "evasion": 100,
     "strength": 0,
@@ -1647,7 +1736,7 @@
     "experience_per_damage_dealt": [
       [
         9,
-        1.15
+        1.6
       ]
     ],
     "tier": 1,
@@ -1673,15 +1762,15 @@
     "awareness_destination_threshold": 0.5,
     "min_awareness_tick_sec": 1.0,
     "max_awareness_tick_sec": 5.0,
-    "max_health": 50,
+    "max_health": 60,
     "ignore_damage": false,
     "health_regen_quantity": 0.1,
-    "armor": 100,
-    "accuracy": 75,
-    "evasion": 125,
+    "armor": 600,
+    "accuracy": 840,
+    "evasion": 144,
     "strength": 0,
-    "min_damage": 8,
-    "max_damage": 12,
+    "min_damage": 17,
+    "max_damage": 31,
     "cooldown_multiplier": 1.0,
     "daytime_detect_range": 40,
     "daytime_aggro_range": 20,
@@ -1712,7 +1801,7 @@
             ]
           ]
         ],
-        1.0
+        0.25
       ],
       [
         [
@@ -1730,16 +1819,16 @@
             ]
           ]
         ],
-        0.04
+        0.025
       ]
     ],
     "experience_per_damage_dealt": [
       [
         18,
-        1.5
+        1.66
       ]
     ],
-    "tier": 1,
+    "tier": 2,
     "tag": "Monster",
     "rarity": [
       1,
@@ -1748,29 +1837,29 @@
     "huntable": false
   },
   {
-    "enemy_type": 23,
-    "name": "Toad",
-    "pathfinding_id": 601358492,
+    "enemy_type": 30,
+    "name": "Soldier",
+    "pathfinding_id": 690229665,
     "targeting_matrix_id": 2,
     "combat_actions_ids": [
-      747222397
+      3
     ],
-    "description": "A weird thing that looks like it wants to bite you",
-    "min_speed": 0,
-    "max_speed": 0,
+    "description": "A vicious, insect like creature that will try to kill you. This creature can fly up and down cliffs and will avoid light sources made in towns.",
+    "min_speed": 14,
+    "max_speed": 24,
     "radius": 1.0,
     "awareness_destination_threshold": 0.5,
     "min_awareness_tick_sec": 1.0,
     "max_awareness_tick_sec": 5.0,
-    "max_health": 300,
+    "max_health": 440,
     "ignore_damage": false,
     "health_regen_quantity": 0.1,
-    "armor": 50,
-    "accuracy": 75,
-    "evasion": 125,
+    "armor": 1100,
+    "accuracy": 1540,
+    "evasion": 264,
     "strength": 0,
-    "min_damage": 7,
-    "max_damage": 13,
+    "min_damage": 31,
+    "max_damage": 57,
     "cooldown_multiplier": 1.0,
     "daytime_detect_range": 40,
     "daytime_aggro_range": 20,
@@ -1782,14 +1871,14 @@
     "deaggro_health_threshold": 0.0,
     "attack_level": 5,
     "defense_level": 5,
-    "prefab_address": "Enemies/ForestToad",
-    "icon_address": "GeneratedIcons/Other/GeneratedIcons/Other/Animals/Jakyl",
+    "prefab_address": "Enemies/WaspSoldier",
+    "icon_address": "GeneratedIcons/Other/GeneratedIcons/Other/Animals/Wasp",
     "extracted_item_stacks": [
       [
         [
           0,
           [
-            225094001,
+            344122023,
             1,
             [
               0,
@@ -1807,7 +1896,7 @@
         [
           0,
           [
-            767727086,
+            711737334,
             1,
             [
               0,
@@ -1825,13 +1914,191 @@
     "experience_per_damage_dealt": [
       [
         18,
-        1.5
+        1.98
       ]
     ],
-    "tier": 1,
+    "tier": 4,
     "tag": "Monster",
     "rarity": [
-      2,
+      1,
+      {}
+    ],
+    "huntable": false
+  },
+  {
+    "enemy_type": 24,
+    "name": "Swamp Terratoad",
+    "pathfinding_id": 601358492,
+    "targeting_matrix_id": 2,
+    "combat_actions_ids": [
+      747222397
+    ],
+    "description": "A weird creature that hoards shiny things in it's nest. This creature will shoot projectiles at you if you get close but won't leave it's nest. ",
+    "min_speed": 0,
+    "max_speed": 0,
+    "radius": 1.0,
+    "awareness_destination_threshold": 0.5,
+    "min_awareness_tick_sec": 1.0,
+    "max_awareness_tick_sec": 5.0,
+    "max_health": 480,
+    "ignore_damage": false,
+    "health_regen_quantity": 0.1,
+    "armor": 1200,
+    "accuracy": 1680,
+    "evasion": 288,
+    "strength": 0,
+    "min_damage": 34,
+    "max_damage": 62,
+    "cooldown_multiplier": 1.0,
+    "daytime_detect_range": 40,
+    "daytime_aggro_range": 20,
+    "daytime_deaggro_range": 50,
+    "nighttime_detect_range": 80,
+    "nighttime_aggro_range": 25,
+    "nighttime_deaggro_range": 60,
+    "evade_range": 0,
+    "deaggro_health_threshold": 0.0,
+    "attack_level": 5,
+    "defense_level": 5,
+    "prefab_address": "Enemies/SwampToad",
+    "icon_address": "GeneratedIcons/Other/GeneratedIcons/Other/Animals/Terratoad",
+    "extracted_item_stacks": [
+      [
+        [
+          0,
+          [
+            1125718226,
+            1,
+            [
+              0,
+              []
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        ],
+        0.1
+      ],
+      [
+        [
+          0,
+          [
+            420864423,
+            1,
+            [
+              0,
+              []
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        ],
+        1.0
+      ]
+    ],
+    "experience_per_damage_dealt": [
+      [
+        18,
+        2.14
+      ]
+    ],
+    "tier": 5,
+    "tag": "Monster",
+    "rarity": [
+      1,
+      {}
+    ],
+    "huntable": false
+  },
+  {
+    "enemy_type": 23,
+    "name": "Terratoad",
+    "pathfinding_id": 601358492,
+    "targeting_matrix_id": 2,
+    "combat_actions_ids": [
+      747222397
+    ],
+    "description": "A weird creature that hoards shiny things in it's nest. This creature will shoot projectiles at you if you get close but won't leave it's nest. ",
+    "min_speed": 0,
+    "max_speed": 0,
+    "radius": 1.0,
+    "awareness_destination_threshold": 0.5,
+    "min_awareness_tick_sec": 1.0,
+    "max_awareness_tick_sec": 5.0,
+    "max_health": 360,
+    "ignore_damage": false,
+    "health_regen_quantity": 0.1,
+    "armor": 900,
+    "accuracy": 1260,
+    "evasion": 216,
+    "strength": 0,
+    "min_damage": 25,
+    "max_damage": 47,
+    "cooldown_multiplier": 1.0,
+    "daytime_detect_range": 40,
+    "daytime_aggro_range": 20,
+    "daytime_deaggro_range": 50,
+    "nighttime_detect_range": 80,
+    "nighttime_aggro_range": 25,
+    "nighttime_deaggro_range": 60,
+    "evade_range": 0,
+    "deaggro_health_threshold": 0.0,
+    "attack_level": 5,
+    "defense_level": 5,
+    "prefab_address": "Enemies/ForestToad",
+    "icon_address": "GeneratedIcons/Other/GeneratedIcons/Other/Animals/Terratoad",
+    "extracted_item_stacks": [
+      [
+        [
+          0,
+          [
+            1125718226,
+            1,
+            [
+              0,
+              []
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        ],
+        0.1
+      ],
+      [
+        [
+          0,
+          [
+            711737334,
+            1,
+            [
+              0,
+              []
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        ],
+        1.0
+      ]
+    ],
+    "experience_per_damage_dealt": [
+      [
+        18,
+        1.82
+      ]
+    ],
+    "tier": 3,
+    "tag": "Monster",
+    "rarity": [
+      1,
       {}
     ],
     "huntable": false
@@ -1849,9 +2116,9 @@
     "awareness_destination_threshold": 0.001,
     "min_awareness_tick_sec": 10.0,
     "max_awareness_tick_sec": 20.0,
-    "max_health": 225,
+    "max_health": 815,
     "ignore_damage": false,
-    "health_regen_quantity": 0.1,
+    "health_regen_quantity": 0.0,
     "armor": 6,
     "accuracy": 100,
     "evasion": 100,
@@ -1869,14 +2136,14 @@
     "deaggro_health_threshold": 0.0,
     "attack_level": 0,
     "defense_level": 1,
-    "prefab_address": "Enemies/Goat",
-    "icon_address": "GeneratedIcons/Other/Animals/Goat",
+    "prefab_address": "Enemies/TundraBison",
+    "icon_address": "GeneratedIcons/Other/GeneratedIcons/Other/Animals/Bison",
     "extracted_item_stacks": [
       [
         [
           0,
           [
-            2,
+            870566793,
             1,
             [
               1,
@@ -1894,10 +2161,10 @@
     "experience_per_damage_dealt": [
       [
         9,
-        1.15
+        2.88
       ]
     ],
-    "tier": 2,
+    "tier": 9,
     "tag": "Huntable Animal",
     "rarity": [
       1,
@@ -1913,22 +2180,22 @@
     "combat_actions_ids": [
       1453498302
     ],
-    "description": "A massive creature that looks very angry. Probably best to avoid it without backup.",
+    "description": "A massive, aggressive creature. Particularly aggressive at night. This creature will avoid light sources in player made towns.",
     "min_speed": 25,
     "max_speed": 35,
     "radius": 0.5,
     "awareness_destination_threshold": 0.5,
     "min_awareness_tick_sec": 1.0,
     "max_awareness_tick_sec": 5.0,
-    "max_health": 6000,
+    "max_health": 400,
     "ignore_damage": false,
     "health_regen_quantity": 20.0,
-    "armor": 1200,
-    "accuracy": 200,
-    "evasion": 200,
+    "armor": 1000,
+    "accuracy": 1400,
+    "evasion": 240,
     "strength": 0,
-    "min_damage": 25,
-    "max_damage": 40,
+    "min_damage": 28,
+    "max_damage": 52,
     "cooldown_multiplier": 1.0,
     "daytime_detect_range": 40,
     "daytime_aggro_range": 20,
@@ -1983,13 +2250,13 @@
     "experience_per_damage_dealt": [
       [
         18,
-        2.0
+        1.98
       ]
     ],
-    "tier": 1,
+    "tier": 3,
     "tag": "Monster",
     "rarity": [
-      4,
+      1,
       {}
     ],
     "huntable": false
@@ -2007,9 +2274,9 @@
     "awareness_destination_threshold": 0.001,
     "min_awareness_tick_sec": 10.0,
     "max_awareness_tick_sec": 20.0,
-    "max_health": 560,
+    "max_health": 370,
     "ignore_damage": false,
-    "health_regen_quantity": 0.1,
+    "health_regen_quantity": 0.0,
     "armor": 6,
     "accuracy": 100,
     "evasion": 100,
@@ -2027,7 +2294,7 @@
     "deaggro_health_threshold": 0.0,
     "attack_level": 0,
     "defense_level": 1,
-    "prefab_address": "Enemies/Goat",
+    "prefab_address": "Enemies/GoatMountain",
     "icon_address": "GeneratedIcons/Other/Animals/MountainGoat",
     "extracted_item_stacks": [
       [
@@ -2052,7 +2319,7 @@
     "experience_per_damage_dealt": [
       [
         9,
-        1.15
+        2.4
       ]
     ],
     "tier": 6,
