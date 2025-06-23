@@ -69882,7 +69882,7 @@
     "decay": 0.0,
     "maintenance": 0.0,
     "build_permission": [
-      0,
+      1,
       {}
     ],
     "interact_permission": [
@@ -69892,7 +69892,7 @@
     "has_action": true,
     "show_in_compendium": false,
     "is_ruins": false,
-    "not_deconstructible": true
+    "not_deconstructible": false
   },
   {
     "id": 990783156,
@@ -76800,7 +76800,7 @@
     "has_action": true,
     "show_in_compendium": false,
     "is_ruins": false,
-    "not_deconstructible": true
+    "not_deconstructible": false
   },
   {
     "id": 1131063556,
@@ -80880,6 +80880,112 @@
     ],
     "interact_permission": [
       3,
+      {}
+    ],
+    "has_action": true,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false
+  },
+  {
+    "id": 1392033938,
+    "functions": [
+      [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6000,
+        6000,
+        0,
+        [],
+        [],
+        0,
+        false,
+        0,
+        0
+      ]
+    ],
+    "name": "Ramparte Camp",
+    "description": "A permanent camp where Ramparte is setup",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/TraderTravelerCamp",
+    "icon_asset_name": "GeneratedIcons/Other/Travelers/Slayer",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        0,
+        1,
+        [
+          1,
+          []
+        ]
+      ],
+      [
+        -1,
+        1,
+        [
+          1,
+          []
+        ]
+      ],
+      [
+        -1,
+        0,
+        [
+          1,
+          []
+        ]
+      ],
+      [
+        1,
+        0,
+        [
+          1,
+          []
+        ]
+      ],
+      [
+        1,
+        -1,
+        [
+          1,
+          []
+        ]
+      ],
+      [
+        0,
+        -1,
+        [
+          1,
+          []
+        ]
+      ]
+    ],
+    "max_health": -1,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 0.0,
+    "maintenance": 0.0,
+    "build_permission": [
+      1,
+      {}
+    ],
+    "interact_permission": [
+      1,
       {}
     ],
     "has_action": true,
