@@ -5453,7 +5453,7 @@
         [
           0,
           [
-            1010501089,
+            1116765938,
             1,
             [
               0,
@@ -5465,7 +5465,7 @@
             ]
           ]
         ],
-        0.06723
+        0.04672
       ]
     ],
     "consumed_item_stacks": [],
@@ -5473,7 +5473,7 @@
     "tool_requirements": [
       [
         12,
-        4,
+        5,
         1
       ]
     ],
@@ -5481,7 +5481,7 @@
     "level_requirements": [
       [
         14,
-        40
+        50
       ]
     ],
     "experience_per_progress": [
@@ -19957,6 +19957,97 @@
     "recipe_performance_id": 143
   },
   {
+    "id": 1114644287,
+    "resource_id": 939382648,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "time_requirement": 1.6,
+    "stamina_requirement": 1.86,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [
+      [
+        [
+          0,
+          [
+            11012,
+            1,
+            [
+              0,
+              []
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        ],
+        0.00483
+      ],
+      [
+        [
+          0,
+          [
+            585086064,
+            1,
+            [
+              0,
+              []
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        ],
+        0.00563
+      ],
+      [
+        [
+          0,
+          [
+            1885212129,
+            1,
+            [
+              1,
+              []
+            ],
+            [
+              1,
+              []
+            ]
+          ]
+        ],
+        0.00483
+      ]
+    ],
+    "consumed_item_stacks": [],
+    "range": 1,
+    "tool_requirements": [
+      [
+        1,
+        10,
+        1
+      ]
+    ],
+    "allow_use_hands": false,
+    "level_requirements": [
+      [
+        2,
+        100
+      ]
+    ],
+    "experience_per_progress": [
+      [
+        2,
+        2.375
+      ]
+    ],
+    "verb_phrase": "Chop",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 777
+  },
+  {
     "id": 1143894781,
     "resource_id": 699727318,
     "cargo_id": 0,
@@ -20028,6 +20119,61 @@
     "verb_phrase": "Mine",
     "tool_mesh_index": 0,
     "recipe_performance_id": 975
+  },
+  {
+    "id": 1163901183,
+    "resource_id": 702104027,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "time_requirement": 1.6,
+    "stamina_requirement": 1.41,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [
+      [
+        [
+          0,
+          [
+            6220032,
+            1,
+            [
+              0,
+              []
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        ],
+        0.06401
+      ]
+    ],
+    "consumed_item_stacks": [],
+    "range": 1,
+    "tool_requirements": [
+      [
+        12,
+        6,
+        1
+      ]
+    ],
+    "allow_use_hands": false,
+    "level_requirements": [
+      [
+        14,
+        60
+      ]
+    ],
+    "experience_per_progress": [
+      [
+        14,
+        1.875
+      ]
+    ],
+    "verb_phrase": "Dig",
+    "tool_mesh_index": 1,
+    "recipe_performance_id": 641
   },
   {
     "id": 1205481710,
