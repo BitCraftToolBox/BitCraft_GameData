@@ -50588,6 +50588,40 @@
       }
     },
     {
+      "name": "cheat_remove_item_quantity",
+      "params": {
+        "elements": [
+          {
+            "name": {
+              "some": "inventory_entity_id"
+            },
+            "algebraic_type": {
+              "U64": []
+            }
+          },
+          {
+            "name": {
+              "some": "pocket_index"
+            },
+            "algebraic_type": {
+              "I32": []
+            }
+          },
+          {
+            "name": {
+              "some": "quantity_to_remove"
+            },
+            "algebraic_type": {
+              "I32": []
+            }
+          }
+        ]
+      },
+      "lifecycle": {
+        "none": []
+      }
+    },
+    {
       "name": "cheat_set_ai_debug_state",
       "params": {
         "elements": [
