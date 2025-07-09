@@ -22151,6 +22151,84 @@
           "elements": [
             {
               "name": {
+                "some": "entity_id"
+              },
+              "algebraic_type": {
+                "U64": []
+              }
+            },
+            {
+              "name": {
+                "some": "report_entity_id"
+              },
+              "algebraic_type": {
+                "U64": []
+              }
+            },
+            {
+              "name": {
+                "some": "reported_player_entity_id"
+              },
+              "algebraic_type": {
+                "U64": []
+              }
+            },
+            {
+              "name": {
+                "some": "admin_name"
+              },
+              "algebraic_type": {
+                "String": []
+              }
+            },
+            {
+              "name": {
+                "some": "reported_player_username"
+              },
+              "algebraic_type": {
+                "String": []
+              }
+            },
+            {
+              "name": {
+                "some": "action_type"
+              },
+              "algebraic_type": {
+                "String": []
+              }
+            },
+            {
+              "name": {
+                "some": "moderation_notice"
+              },
+              "algebraic_type": {
+                "String": []
+              }
+            },
+            {
+              "name": {
+                "some": "details"
+              },
+              "algebraic_type": {
+                "String": []
+              }
+            },
+            {
+              "name": {
+                "some": "timestamp"
+              },
+              "algebraic_type": {
+                "I32": []
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Product": {
+          "elements": [
+            {
+              "name": {
                 "some": "version"
               },
               "algebraic_type": {
@@ -22164,6 +22242,30 @@
               "algebraic_type": {
                 "Array": {
                   "Ref": 85
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Product": {
+          "elements": [
+            {
+              "name": {
+                "some": "entity_id"
+              },
+              "algebraic_type": {
+                "U64": []
+              }
+            },
+            {
+              "name": {
+                "some": "experience_stacks"
+              },
+              "algebraic_type": {
+                "Array": {
+                  "Ref": 77
                 }
               }
             }
@@ -22229,7 +22331,7 @@
                 "some": "status"
               },
               "algebraic_type": {
-                "Ref": 364
+                "Ref": 366
               }
             },
             {
@@ -22687,7 +22789,7 @@
                 "some": "severity"
               },
               "algebraic_type": {
-                "Ref": 373
+                "Ref": 375
               }
             }
           ]
@@ -23045,7 +23147,7 @@
                 "some": "static_data"
               },
               "algebraic_type": {
-                "Ref": 387
+                "Ref": 389
               }
             }
           ]
@@ -23630,7 +23732,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 366
+                  "Ref": 368
                 }
               }
             },
@@ -23850,7 +23952,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 369
+                  "Ref": 371
                 }
               }
             },
@@ -23870,7 +23972,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 381
+                  "Ref": 383
                 }
               }
             }
@@ -23945,7 +24047,7 @@
                 "some": "placeholder_skill_type"
               },
               "algebraic_type": {
-                "Ref": 391
+                "Ref": 393
               }
             },
             {
@@ -23953,7 +24055,7 @@
                 "some": "placeholder_buff_category"
               },
               "algebraic_type": {
-                "Ref": 392
+                "Ref": 394
               }
             },
             {
@@ -23961,7 +24063,7 @@
                 "some": "placeholder"
               },
               "algebraic_type": {
-                "Ref": 393
+                "Ref": 395
               }
             },
             {
@@ -23977,7 +24079,7 @@
                 "some": "chat_channel"
               },
               "algebraic_type": {
-                "Ref": 394
+                "Ref": 396
               }
             },
             {
@@ -23985,7 +24087,7 @@
                 "some": "permission"
               },
               "algebraic_type": {
-                "Ref": 395
+                "Ref": 397
               }
             },
             {
@@ -23993,7 +24095,7 @@
                 "some": "permission_group"
               },
               "algebraic_type": {
-                "Ref": 396
+                "Ref": 398
               }
             }
           ]
@@ -33007,6 +33109,78 @@
       }
     },
     {
+      "name": "moderation_action_log_entry",
+      "product_type_ref": 362,
+      "primary_key": [
+        0
+      ],
+      "indexes": [
+        {
+          "name": {
+            "some": "moderation_action_log_entry_entity_id_idx_btree"
+          },
+          "accessor_name": {
+            "some": "entity_id"
+          },
+          "algorithm": {
+            "BTree": [
+              0
+            ]
+          }
+        },
+        {
+          "name": {
+            "some": "moderation_action_log_entry_report_entity_id_idx_btree"
+          },
+          "accessor_name": {
+            "some": "report_entity_id"
+          },
+          "algorithm": {
+            "BTree": [
+              1
+            ]
+          }
+        },
+        {
+          "name": {
+            "some": "moderation_action_log_entry_reported_player_entity_id_idx_btree"
+          },
+          "accessor_name": {
+            "some": "reported_player_entity_id"
+          },
+          "algorithm": {
+            "BTree": [
+              2
+            ]
+          }
+        }
+      ],
+      "constraints": [
+        {
+          "name": {
+            "some": "moderation_action_log_entry_entity_id_key"
+          },
+          "data": {
+            "Unique": {
+              "columns": [
+                0
+              ]
+            }
+          }
+        }
+      ],
+      "sequences": [],
+      "schedule": {
+        "none": []
+      },
+      "table_type": {
+        "User": []
+      },
+      "table_access": {
+        "Private": []
+      }
+    },
+    {
       "name": "mounting_state",
       "product_type_ref": 221,
       "primary_key": [
@@ -33356,7 +33530,7 @@
     },
     {
       "name": "parameters_player_move_desc",
-      "product_type_ref": 362,
+      "product_type_ref": 363,
       "primary_key": [
         0
       ],
@@ -33401,8 +33575,54 @@
       }
     },
     {
+      "name": "partial_experience_state",
+      "product_type_ref": 364,
+      "primary_key": [
+        0
+      ],
+      "indexes": [
+        {
+          "name": {
+            "some": "partial_experience_state_entity_id_idx_btree"
+          },
+          "accessor_name": {
+            "some": "entity_id"
+          },
+          "algorithm": {
+            "BTree": [
+              0
+            ]
+          }
+        }
+      ],
+      "constraints": [
+        {
+          "name": {
+            "some": "partial_experience_state_entity_id_key"
+          },
+          "data": {
+            "Unique": {
+              "columns": [
+                0
+              ]
+            }
+          }
+        }
+      ],
+      "sequences": [],
+      "schedule": {
+        "none": []
+      },
+      "table_type": {
+        "User": []
+      },
+      "table_access": {
+        "Private": []
+      }
+    },
+    {
       "name": "passive_craft_state",
-      "product_type_ref": 363,
+      "product_type_ref": 365,
       "primary_key": [
         0
       ],
@@ -33612,7 +33832,7 @@
     },
     {
       "name": "permission_state",
-      "product_type_ref": 365,
+      "product_type_ref": 367,
       "primary_key": [
         0
       ],
@@ -33685,7 +33905,7 @@
     },
     {
       "name": "pillar_shaping_desc",
-      "product_type_ref": 366,
+      "product_type_ref": 368,
       "primary_key": [
         0
       ],
@@ -33731,7 +33951,7 @@
     },
     {
       "name": "pillar_shaping_state",
-      "product_type_ref": 367,
+      "product_type_ref": 369,
       "primary_key": [
         0
       ],
@@ -33912,7 +34132,7 @@
     },
     {
       "name": "player_developer_notification_state",
-      "product_type_ref": 368,
+      "product_type_ref": 370,
       "primary_key": [
         0
       ],
@@ -33958,7 +34178,7 @@
     },
     {
       "name": "player_housing_desc",
-      "product_type_ref": 369,
+      "product_type_ref": 371,
       "primary_key": [
         0
       ],
@@ -34088,7 +34308,7 @@
     },
     {
       "name": "player_lowercase_username_state",
-      "product_type_ref": 370,
+      "product_type_ref": 372,
       "primary_key": [
         0
       ],
@@ -34159,7 +34379,7 @@
     },
     {
       "name": "player_note_state",
-      "product_type_ref": 371,
+      "product_type_ref": 373,
       "primary_key": [
         0
       ],
@@ -34205,7 +34425,7 @@
     },
     {
       "name": "player_notification_event",
-      "product_type_ref": 372,
+      "product_type_ref": 374,
       "primary_key": [
         0
       ],
@@ -34320,7 +34540,7 @@
     },
     {
       "name": "player_queue_state",
-      "product_type_ref": 374,
+      "product_type_ref": 376,
       "primary_key": [
         0
       ],
@@ -34454,7 +34674,7 @@
     },
     {
       "name": "player_report_state_timestamp",
-      "product_type_ref": 375,
+      "product_type_ref": 377,
       "primary_key": [
         0
       ],
@@ -34500,7 +34720,7 @@
     },
     {
       "name": "player_shard_state",
-      "product_type_ref": 377,
+      "product_type_ref": 379,
       "primary_key": [
         0
       ],
@@ -34592,7 +34812,7 @@
     },
     {
       "name": "player_timestamp_state",
-      "product_type_ref": 378,
+      "product_type_ref": 380,
       "primary_key": [
         0
       ],
@@ -34709,7 +34929,7 @@
     },
     {
       "name": "player_vote_conclude_timer",
-      "product_type_ref": 380,
+      "product_type_ref": 382,
       "primary_key": [
         0
       ],
@@ -35282,7 +35502,7 @@
     },
     {
       "name": "reserved_name_desc",
-      "product_type_ref": 381,
+      "product_type_ref": 383,
       "primary_key": [
         0
       ],
@@ -35525,7 +35745,7 @@
     },
     {
       "name": "resource_health_state",
-      "product_type_ref": 382,
+      "product_type_ref": 384,
       "primary_key": [
         0
       ],
@@ -35676,7 +35896,7 @@
     },
     {
       "name": "rez_sick_long_term_state",
-      "product_type_ref": 383,
+      "product_type_ref": 385,
       "primary_key": [
         0
       ],
@@ -35994,7 +36214,7 @@
     },
     {
       "name": "single_resource_to_clump_desc",
-      "product_type_ref": 385,
+      "product_type_ref": 387,
       "primary_key": [
         0
       ],
@@ -36136,7 +36356,7 @@
     },
     {
       "name": "staged_static_data",
-      "product_type_ref": 386,
+      "product_type_ref": 388,
       "primary_key": [
         0
       ],
@@ -36228,7 +36448,7 @@
     },
     {
       "name": "starving_player_state",
-      "product_type_ref": 388,
+      "product_type_ref": 390,
       "primary_key": [
         0
       ],
@@ -36517,7 +36737,7 @@
     },
     {
       "name": "terraform_progress_state",
-      "product_type_ref": 389,
+      "product_type_ref": 391,
       "primary_key": [
         0
       ],
@@ -36668,7 +36888,7 @@
     },
     {
       "name": "the_great_placeholder_table",
-      "product_type_ref": 390,
+      "product_type_ref": 392,
       "primary_key": [
         0
       ],
@@ -36714,7 +36934,7 @@
     },
     {
       "name": "threat_state",
-      "product_type_ref": 397,
+      "product_type_ref": 399,
       "primary_key": [
         0
       ],
@@ -37317,7 +37537,7 @@
     },
     {
       "name": "unclaimed_shards_state",
-      "product_type_ref": 398,
+      "product_type_ref": 400,
       "primary_key": [
         0
       ],
@@ -37468,7 +37688,7 @@
     },
     {
       "name": "user_previous_region_state",
-      "product_type_ref": 400,
+      "product_type_ref": 402,
       "primary_key": [
         0
       ],
@@ -37514,7 +37734,7 @@
     },
     {
       "name": "user_region_state",
-      "product_type_ref": 401,
+      "product_type_ref": 403,
       "primary_key": [
         0
       ],
@@ -37955,6 +38175,24 @@
       }
     },
     {
+      "name": "admin_delete_moderation_action_log_entry",
+      "params": {
+        "elements": [
+          {
+            "name": {
+              "some": "entity_id"
+            },
+            "algebraic_type": {
+              "U64": []
+            }
+          }
+        ]
+      },
+      "lifecycle": {
+        "none": []
+      }
+    },
+    {
       "name": "admin_grant_shards",
       "params": {
         "elements": [
@@ -37972,6 +38210,72 @@
             },
             "algebraic_type": {
               "U32": []
+            }
+          }
+        ]
+      },
+      "lifecycle": {
+        "none": []
+      }
+    },
+    {
+      "name": "admin_log_moderation_action",
+      "params": {
+        "elements": [
+          {
+            "name": {
+              "some": "report_entity_id"
+            },
+            "algebraic_type": {
+              "U64": []
+            }
+          },
+          {
+            "name": {
+              "some": "reported_player_entity_id"
+            },
+            "algebraic_type": {
+              "U64": []
+            }
+          },
+          {
+            "name": {
+              "some": "admin_name"
+            },
+            "algebraic_type": {
+              "String": []
+            }
+          },
+          {
+            "name": {
+              "some": "reported_player_username"
+            },
+            "algebraic_type": {
+              "String": []
+            }
+          },
+          {
+            "name": {
+              "some": "action_type"
+            },
+            "algebraic_type": {
+              "String": []
+            }
+          },
+          {
+            "name": {
+              "some": "moderation_notice"
+            },
+            "algebraic_type": {
+              "String": []
+            }
+          },
+          {
+            "name": {
+              "some": "details"
+            },
+            "algebraic_type": {
+              "String": []
             }
           }
         ]
@@ -42243,7 +42547,7 @@
               "some": "_timer"
             },
             "algebraic_type": {
-              "Ref": 372
+              "Ref": 374
             }
           }
         ]
@@ -42261,7 +42565,7 @@
               "some": "request"
             },
             "algebraic_type": {
-              "Ref": 376
+              "Ref": 378
             }
           }
         ]
@@ -42279,7 +42583,7 @@
               "some": "request"
             },
             "algebraic_type": {
-              "Ref": 379
+              "Ref": 381
             }
           }
         ]
@@ -42297,7 +42601,7 @@
               "some": "timer"
             },
             "algebraic_type": {
-              "Ref": 380
+              "Ref": 382
             }
           }
         ]
@@ -42367,7 +42671,7 @@
               "some": "_request"
             },
             "algebraic_type": {
-              "Ref": 384
+              "Ref": 386
             }
           }
         ]
@@ -43606,7 +43910,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 366
+                "Ref": 368
               }
             }
           }
@@ -43646,7 +43950,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 369
+                "Ref": 371
               }
             }
           }
@@ -43686,7 +43990,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 381
+                "Ref": 383
               }
             }
           }
@@ -44060,7 +44364,7 @@
               "some": "request"
             },
             "algebraic_type": {
-              "Ref": 399
+              "Ref": 401
             }
           }
         ]
@@ -44078,7 +44382,7 @@
               "some": "request"
             },
             "algebraic_type": {
-              "Ref": 399
+              "Ref": 401
             }
           }
         ]
@@ -44114,7 +44418,7 @@
               "some": "request"
             },
             "algebraic_type": {
-              "Ref": 399
+              "Ref": 401
             }
           }
         ]
@@ -44290,7 +44594,7 @@
         "scope": [],
         "name": "BuffCategory"
       },
-      "ty": 392,
+      "ty": 394,
       "custom_ordering": true
     },
     {
@@ -44490,7 +44794,7 @@
         "scope": [],
         "name": "ChatChannel"
       },
-      "ty": 394,
+      "ty": 396,
       "custom_ordering": true
     },
     {
@@ -46120,6 +46424,14 @@
     {
       "name": {
         "scope": [],
+        "name": "ModerationActionLogEntry"
+      },
+      "ty": 362,
+      "custom_ordering": true
+    },
+    {
+      "name": {
+        "scope": [],
         "name": "MountingState"
       },
       "ty": 221,
@@ -46162,7 +46474,7 @@
         "scope": [],
         "name": "NotificationSeverity"
       },
-      "ty": 373,
+      "ty": 375,
       "custom_ordering": true
     },
     {
@@ -46298,7 +46610,15 @@
         "scope": [],
         "name": "ParametersPlayerMoveDesc"
       },
-      "ty": 362,
+      "ty": 363,
+      "custom_ordering": true
+    },
+    {
+      "name": {
+        "scope": [],
+        "name": "PartialExperienceState"
+      },
+      "ty": 364,
       "custom_ordering": true
     },
     {
@@ -46306,7 +46626,7 @@
         "scope": [],
         "name": "PassiveCraftState"
       },
-      "ty": 363,
+      "ty": 365,
       "custom_ordering": true
     },
     {
@@ -46314,7 +46634,7 @@
         "scope": [],
         "name": "PassiveCraftStatus"
       },
-      "ty": 364,
+      "ty": 366,
       "custom_ordering": true
     },
     {
@@ -46354,7 +46674,7 @@
         "scope": [],
         "name": "Permission"
       },
-      "ty": 395,
+      "ty": 397,
       "custom_ordering": true
     },
     {
@@ -46362,7 +46682,7 @@
         "scope": [],
         "name": "PermissionGroup"
       },
-      "ty": 396,
+      "ty": 398,
       "custom_ordering": true
     },
     {
@@ -46370,7 +46690,7 @@
         "scope": [],
         "name": "PermissionState"
       },
-      "ty": 365,
+      "ty": 367,
       "custom_ordering": true
     },
     {
@@ -46378,7 +46698,7 @@
         "scope": [],
         "name": "PillarShapingDesc"
       },
-      "ty": 366,
+      "ty": 368,
       "custom_ordering": true
     },
     {
@@ -46386,7 +46706,7 @@
         "scope": [],
         "name": "PillarShapingState"
       },
-      "ty": 367,
+      "ty": 369,
       "custom_ordering": true
     },
     {
@@ -46442,7 +46762,7 @@
         "scope": [],
         "name": "PlayerDeveloperNotificationState"
       },
-      "ty": 368,
+      "ty": 370,
       "custom_ordering": true
     },
     {
@@ -46450,7 +46770,7 @@
         "scope": [],
         "name": "PlayerHousingDesc"
       },
-      "ty": 369,
+      "ty": 371,
       "custom_ordering": true
     },
     {
@@ -46474,7 +46794,7 @@
         "scope": [],
         "name": "PlayerLowercaseUsernameState"
       },
-      "ty": 370,
+      "ty": 372,
       "custom_ordering": true
     },
     {
@@ -46482,7 +46802,7 @@
         "scope": [],
         "name": "PlayerNoteState"
       },
-      "ty": 371,
+      "ty": 373,
       "custom_ordering": true
     },
     {
@@ -46490,7 +46810,7 @@
         "scope": [],
         "name": "PlayerNotificationEvent"
       },
-      "ty": 372,
+      "ty": 374,
       "custom_ordering": true
     },
     {
@@ -46506,7 +46826,7 @@
         "scope": [],
         "name": "PlayerQueueState"
       },
-      "ty": 374,
+      "ty": 376,
       "custom_ordering": true
     },
     {
@@ -46530,7 +46850,7 @@
         "scope": [],
         "name": "PlayerReportStateTimestamp"
       },
-      "ty": 375,
+      "ty": 377,
       "custom_ordering": true
     },
     {
@@ -46538,7 +46858,7 @@
         "scope": [],
         "name": "PlayerSetNameRequest"
       },
-      "ty": 376,
+      "ty": 378,
       "custom_ordering": true
     },
     {
@@ -46546,7 +46866,7 @@
         "scope": [],
         "name": "PlayerShardState"
       },
-      "ty": 377,
+      "ty": 379,
       "custom_ordering": true
     },
     {
@@ -46554,7 +46874,7 @@
         "scope": [],
         "name": "PlayerSignInRequest"
       },
-      "ty": 384,
+      "ty": 386,
       "custom_ordering": true
     },
     {
@@ -46578,7 +46898,7 @@
         "scope": [],
         "name": "PlayerTimestampState"
       },
-      "ty": 378,
+      "ty": 380,
       "custom_ordering": true
     },
     {
@@ -46602,7 +46922,7 @@
         "scope": [],
         "name": "PlayerVoteAnswerRequest"
       },
-      "ty": 379,
+      "ty": 381,
       "custom_ordering": true
     },
     {
@@ -46610,7 +46930,7 @@
         "scope": [],
         "name": "PlayerVoteConcludeTimer"
       },
-      "ty": 380,
+      "ty": 382,
       "custom_ordering": true
     },
     {
@@ -46674,7 +46994,7 @@
         "scope": [],
         "name": "ProgressiveActionStatus"
       },
-      "ty": 393,
+      "ty": 395,
       "custom_ordering": true
     },
     {
@@ -46770,7 +47090,7 @@
         "scope": [],
         "name": "ReservedNameDesc"
       },
-      "ty": 381,
+      "ty": 383,
       "custom_ordering": true
     },
     {
@@ -46810,7 +47130,7 @@
         "scope": [],
         "name": "ResourceHealthState"
       },
-      "ty": 382,
+      "ty": 384,
       "custom_ordering": true
     },
     {
@@ -46834,7 +47154,7 @@
         "scope": [],
         "name": "RezSickLongTermState"
       },
-      "ty": 383,
+      "ty": 385,
       "custom_ordering": true
     },
     {
@@ -46890,7 +47210,7 @@
         "scope": [],
         "name": "SingleResourceToClumpDesc"
       },
-      "ty": 385,
+      "ty": 387,
       "custom_ordering": true
     },
     {
@@ -46914,7 +47234,7 @@
         "scope": [],
         "name": "SkillType"
       },
-      "ty": 391,
+      "ty": 393,
       "custom_ordering": true
     },
     {
@@ -46922,7 +47242,7 @@
         "scope": [],
         "name": "StagedStaticData"
       },
-      "ty": 386,
+      "ty": 388,
       "custom_ordering": true
     },
     {
@@ -46938,7 +47258,7 @@
         "scope": [],
         "name": "StarvingPlayerState"
       },
-      "ty": 388,
+      "ty": 390,
       "custom_ordering": true
     },
     {
@@ -46946,7 +47266,7 @@
         "scope": [],
         "name": "StaticDataUpload"
       },
-      "ty": 387,
+      "ty": 389,
       "custom_ordering": true
     },
     {
@@ -47018,7 +47338,7 @@
         "scope": [],
         "name": "TerraformProgressState"
       },
-      "ty": 389,
+      "ty": 391,
       "custom_ordering": true
     },
     {
@@ -47050,7 +47370,7 @@
         "scope": [],
         "name": "TheGreatPlaceHolderTable"
       },
-      "ty": 390,
+      "ty": 392,
       "custom_ordering": true
     },
     {
@@ -47058,7 +47378,7 @@
         "scope": [],
         "name": "ThreatState"
       },
-      "ty": 397,
+      "ty": 399,
       "custom_ordering": true
     },
     {
@@ -47186,7 +47506,7 @@
         "scope": [],
         "name": "UnclaimedShardsState"
       },
-      "ty": 398,
+      "ty": 400,
       "custom_ordering": true
     },
     {
@@ -47210,7 +47530,7 @@
         "scope": [],
         "name": "UserModerationCreateUserPolicyRequest"
       },
-      "ty": 399,
+      "ty": 401,
       "custom_ordering": true
     },
     {
@@ -47242,7 +47562,7 @@
         "scope": [],
         "name": "UserPreviousRegionState"
       },
-      "ty": 400,
+      "ty": 402,
       "custom_ordering": true
     },
     {
@@ -47250,7 +47570,7 @@
         "scope": [],
         "name": "UserRegionState"
       },
-      "ty": 401,
+      "ty": 403,
       "custom_ordering": true
     },
     {
