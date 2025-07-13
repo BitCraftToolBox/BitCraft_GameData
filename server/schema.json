@@ -52091,6 +52091,24 @@
       }
     },
     {
+      "name": "deployable_move_off_bounds",
+      "params": {
+        "elements": [
+          {
+            "name": {
+              "some": "deployable_entity_id"
+            },
+            "algebraic_type": {
+              "U64": []
+            }
+          }
+        ]
+      },
+      "lifecycle": {
+        "none": []
+      }
+    },
+    {
       "name": "deployable_move_off_claim",
       "params": {
         "elements": [
