@@ -1,0 +1,162 @@
+[
+  {
+    "id": 933712505,
+    "name": "Framed Dirt Pillar",
+    "consumed_item_stacks": [
+      {
+        "item_id": 1130003,
+        "quantity": 20,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      },
+      {
+        "item_id": 1020003,
+        "quantity": 10,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "input_cargo_id": 0,
+    "input_cargo_discovery_score": 0,
+    "experience_per_progress": [
+      {
+        "skill_id": 15,
+        "quantity": 1.125
+      }
+    ],
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "full_discovery_score": 1,
+    "duration": 3.0,
+    "prefab_address": "HexTileTemplates/dirtScaffolding",
+    "tier": 1,
+    "icon_address": "Pillars/Scaffolding",
+    "description": "Alter the terrain to be a pillar of dirt framed with wood."
+  },
+  {
+    "id": 1647689074,
+    "name": "Dirt Pillar",
+    "consumed_item_stacks": [
+      {
+        "item_id": 1130003,
+        "quantity": 20,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "input_cargo_id": 0,
+    "input_cargo_discovery_score": 0,
+    "experience_per_progress": [
+      {
+        "skill_id": 15,
+        "quantity": 1.125
+      }
+    ],
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "full_discovery_score": 1,
+    "duration": 3.0,
+    "prefab_address": "HexTileTemplates/stackDirt",
+    "tier": 1,
+    "icon_address": "Items/Stick",
+    "description": "Alter the terrain to be  a pillar of dirt."
+  },
+  {
+    "id": 1126273886,
+    "name": "Cobblestone Pillar",
+    "consumed_item_stacks": [
+      {
+        "item_id": 894623392,
+        "quantity": 10,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      },
+      {
+        "item_id": 1030001,
+        "quantity": 10,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "input_cargo_id": 0,
+    "input_cargo_discovery_score": 0,
+    "experience_per_progress": [
+      {
+        "skill_id": 15,
+        "quantity": 1.125
+      }
+    ],
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "full_discovery_score": 1,
+    "duration": 3.0,
+    "prefab_address": "HexTileTemplates/cobblestone",
+    "tier": 1,
+    "icon_address": "Pillars/Cobblestone",
+    "description": "Alter the terrain to be a pillar of cobblestone."
+  },
+  {
+    "id": 1718827599,
+    "name": "Grassy Dirt Pillar",
+    "consumed_item_stacks": [
+      {
+        "item_id": 1130003,
+        "quantity": 20,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      },
+      {
+        "item_id": 1130001,
+        "quantity": 20,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "input_cargo_id": 0,
+    "input_cargo_discovery_score": 0,
+    "experience_per_progress": [
+      {
+        "skill_id": 15,
+        "quantity": 1.125
+      }
+    ],
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "full_discovery_score": 1,
+    "duration": 3.0,
+    "prefab_address": "HexTileTemplates/scaleGrass",
+    "tier": 1,
+    "icon_address": "Items/Stick",
+    "description": "Alter the terrain to be a pillar of dirt with grass on top."
+  },
+  {
+    "id": 1728830976,
+    "name": "Rocky Garden Pillar",
+    "consumed_item_stacks": [],
+    "input_cargo_id": 2004,
+    "input_cargo_discovery_score": 1,
+    "experience_per_progress": [
+      {
+        "skill_id": 15,
+        "quantity": 1.125
+      }
+    ],
+    "discovery_triggers": [],
+    "required_knowledges": [
+      12345
+    ],
+    "full_discovery_score": 1,
+    "duration": 3.0,
+    "prefab_address": "HexTileTemplates/stackBasaltRockyGarden",
+    "tier": 1,
+    "icon_address": "Items/MudLump",
+    "description": "Alter the terrain to look like the rocky garden biome"
+  }
+]

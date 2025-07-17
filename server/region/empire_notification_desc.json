@@ -1,0 +1,100 @@
+[
+  {
+    "id": 11,
+    "notification_type": "ClaimJoined",
+    "priority": 1,
+    "show_on_login": true,
+    "text": "Claim {} joined the empire!"
+  },
+  {
+    "id": 12,
+    "notification_type": "ClaimLeft",
+    "priority": 1,
+    "show_on_login": true,
+    "text": "Claim {} left the empire!"
+  },
+  {
+    "id": 13,
+    "notification_type": "Donation",
+    "priority": 3,
+    "show_on_login": false,
+    "text": "{} donated {} shards to the empire!"
+  },
+  {
+    "id": 14,
+    "notification_type": "DonationByProxy",
+    "priority": 3,
+    "show_on_login": false,
+    "text": "{} donated {} shards on behalf of {}!"
+  },
+  {
+    "id": 8,
+    "notification_type": "FailedDefense",
+    "priority": 1,
+    "show_on_login": false,
+    "text": "{} at {} was taken over by the enemy."
+  },
+  {
+    "id": 7,
+    "notification_type": "FailedSiege",
+    "priority": 1,
+    "show_on_login": false,
+    "text": "{} at {} repelled our attack, the siege was a failure."
+  },
+  {
+    "id": 2,
+    "notification_type": "MarkedForSiege",
+    "priority": 2,
+    "show_on_login": false,
+    "text": "{} at {} is marked for siege."
+  },
+  {
+    "id": 9,
+    "notification_type": "MemberLeft",
+    "priority": 3,
+    "show_on_login": false,
+    "text": "{} left the empire."
+  },
+  {
+    "id": 1,
+    "notification_type": "NewMember",
+    "priority": 3,
+    "show_on_login": false,
+    "text": "{} joined the empire."
+  },
+  {
+    "id": 4,
+    "notification_type": "StartedDefense",
+    "priority": 0,
+    "show_on_login": true,
+    "text": "{} at {} is under attack! Help defend!"
+  },
+  {
+    "id": 3,
+    "notification_type": "StartedSiege",
+    "priority": 1,
+    "show_on_login": false,
+    "text": "Sieging {} at {}, please contribute!"
+  },
+  {
+    "id": 6,
+    "notification_type": "SuccessfulDefense",
+    "priority": 1,
+    "show_on_login": false,
+    "text": "{} at {} successfully repelled the attack! Congratulations!"
+  },
+  {
+    "id": 5,
+    "notification_type": "SuccessfulSiege",
+    "priority": 1,
+    "show_on_login": false,
+    "text": "{} at {} was successfully sieged! Congratulations!"
+  },
+  {
+    "id": 10,
+    "notification_type": "WatchtowerBuilt",
+    "priority": 2,
+    "show_on_login": false,
+    "text": "Watchtower at {} finished building."
+  }
+]

@@ -1,0 +1,2603 @@
+[
+  {
+    "id": 1815674622,
+    "buff_type_id": 351703766,
+    "description": "AccuracyDown",
+    "priority": 1,
+    "duration": 15,
+    "warn_time": 0.0,
+    "online_timestamp": true,
+    "beneficial": false,
+    "icon_asset_name": "\\u0084",
+    "stats": [
+      {
+        "id": "Accuracy",
+        "value": -80.0,
+        "is_pct": false
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 902805361,
+    "buff_type_id": 1204575210,
+    "description": "Basic Healing Potion",
+    "priority": 0,
+    "duration": 15,
+    "warn_time": 0.0,
+    "online_timestamp": true,
+    "beneficial": true,
+    "icon_asset_name": "\\u00C8",
+    "stats": [
+      {
+        "id": "ActiveHealthRegenRate",
+        "value": 5.0,
+        "is_pct": false
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 2029849276,
+    "buff_type_id": 1570841358,
+    "description": "Berserk",
+    "priority": 0,
+    "duration": 10,
+    "warn_time": 2.0,
+    "online_timestamp": true,
+    "beneficial": true,
+    "icon_asset_name": "",
+    "stats": [
+      {
+        "id": "Armor",
+        "value": -0.2,
+        "is_pct": true
+      },
+      {
+        "id": "Strength",
+        "value": 0.4,
+        "is_pct": true
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 1732058250,
+    "buff_type_id": 1686192242,
+    "description": "Bleed",
+    "priority": 1,
+    "duration": 15,
+    "warn_time": 0.0,
+    "online_timestamp": true,
+    "beneficial": false,
+    "icon_asset_name": "\\u006D",
+    "stats": [
+      {
+        "id": "ActiveHealthRegenRate",
+        "value": -2.0,
+        "is_pct": false
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 11,
+    "buff_type_id": 7,
+    "description": "Carrying Cargo",
+    "priority": 0,
+    "duration": -1,
+    "warn_time": 0.0,
+    "online_timestamp": false,
+    "beneficial": false,
+    "icon_asset_name": "\\u0013",
+    "stats": [
+      {
+        "id": "MovementMultiplier",
+        "value": 0.0,
+        "is_pct": true
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 37,
+    "buff_type_id": 2041496537,
+    "description": "Chilling Tea",
+    "priority": 0,
+    "duration": 60,
+    "warn_time": 15.0,
+    "online_timestamp": true,
+    "beneficial": true,
+    "icon_asset_name": "\\u0015",
+    "stats": [
+      {
+        "id": "HeatProtection",
+        "value": 10.0,
+        "is_pct": false
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 596814665,
+    "buff_type_id": 723603793,
+    "description": "Combat Strength",
+    "priority": 1,
+    "duration": 10,
+    "warn_time": 0.0,
+    "online_timestamp": true,
+    "beneficial": true,
+    "icon_asset_name": "\\u0065",
+    "stats": [
+      {
+        "id": "Strength",
+        "value": 0.2,
+        "is_pct": true
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 588466208,
+    "buff_type_id": 4,
+    "description": "Concussed",
+    "priority": 1,
+    "duration": 2700,
+    "warn_time": 30.0,
+    "online_timestamp": false,
+    "beneficial": false,
+    "icon_asset_name": "\\u0014",
+    "stats": [
+      {
+        "id": "MaxHealth",
+        "value": -0.05,
+        "is_pct": true
+      },
+      {
+        "id": "MaxStamina",
+        "value": -0.05,
+        "is_pct": true
+      },
+      {
+        "id": "MovementMultiplier",
+        "value": -0.05,
+        "is_pct": true
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 1213011730,
+    "buff_type_id": 4,
+    "description": "Concussed",
+    "priority": 2,
+    "duration": 3600,
+    "warn_time": 30.0,
+    "online_timestamp": false,
+    "beneficial": false,
+    "icon_asset_name": "\\u0014",
+    "stats": [
+      {
+        "id": "MaxHealth",
+        "value": -0.1,
+        "is_pct": true
+      },
+      {
+        "id": "MaxStamina",
+        "value": -0.1,
+        "is_pct": true
+      },
+      {
+        "id": "MovementMultiplier",
+        "value": -0.1,
+        "is_pct": true
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 464108153,
+    "buff_type_id": 4,
+    "description": "Concussed",
+    "priority": 3,
+    "duration": 4500,
+    "warn_time": 30.0,
+    "online_timestamp": false,
+    "beneficial": false,
+    "icon_asset_name": "\\u0014",
+    "stats": [
+      {
+        "id": "MaxHealth",
+        "value": -0.18,
+        "is_pct": true
+      },
+      {
+        "id": "MaxStamina",
+        "value": -0.18,
+        "is_pct": true
+      },
+      {
+        "id": "MovementMultiplier",
+        "value": -0.18,
+        "is_pct": true
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 463234268,
+    "buff_type_id": 4,
+    "description": "Concussed",
+    "priority": 4,
+    "duration": 5400,
+    "warn_time": 30.0,
+    "online_timestamp": false,
+    "beneficial": false,
+    "icon_asset_name": "\\u0014",
+    "stats": [
+      {
+        "id": "MaxHealth",
+        "value": -0.3,
+        "is_pct": true
+      },
+      {
+        "id": "MaxStamina",
+        "value": -0.3,
+        "is_pct": true
+      },
+      {
+        "id": "MovementMultiplier",
+        "value": -0.3,
+        "is_pct": true
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 1566165595,
+    "buff_type_id": 4,
+    "description": "Concussed",
+    "priority": 0,
+    "duration": 1800,
+    "warn_time": 30.0,
+    "online_timestamp": false,
+    "beneficial": false,
+    "icon_asset_name": "\\u0014",
+    "stats": [
+      {
+        "id": "MaxHealth",
+        "value": -0.025,
+        "is_pct": true
+      },
+      {
+        "id": "MaxStamina",
+        "value": -0.025,
+        "is_pct": true
+      },
+      {
+        "id": "MovementMultiplier",
+        "value": -0.025,
+        "is_pct": true
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 425341826,
+    "buff_type_id": 1429042137,
+    "description": "Crushed Armor",
+    "priority": 1,
+    "duration": 15,
+    "warn_time": 0.0,
+    "online_timestamp": true,
+    "beneficial": false,
+    "icon_asset_name": "\\u0062",
+    "stats": [
+      {
+        "id": "Armor",
+        "value": -10.0,
+        "is_pct": false
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 10,
+    "buff_type_id": 6,
+    "description": "Darkness",
+    "priority": 0,
+    "duration": -1,
+    "warn_time": 0.0,
+    "online_timestamp": false,
+    "beneficial": false,
+    "icon_asset_name": "\\u0001",
+    "stats": [],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 14,
+    "buff_type_id": 1,
+    "description": "Dazed",
+    "priority": 0,
+    "duration": 5,
+    "warn_time": 5.0,
+    "online_timestamp": true,
+    "beneficial": false,
+    "icon_asset_name": "\\u0014",
+    "stats": [
+      {
+        "id": "MovementMultiplier",
+        "value": -0.5,
+        "is_pct": true
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 1927294623,
+    "buff_type_id": 2104428893,
+    "description": "Debilitating Strike",
+    "priority": 0,
+    "duration": 6,
+    "warn_time": 2.0,
+    "online_timestamp": true,
+    "beneficial": false,
+    "icon_asset_name": "",
+    "stats": [
+      {
+        "id": "Strength",
+        "value": -0.1,
+        "is_pct": true
+      },
+      {
+        "id": "Accuracy",
+        "value": -0.1,
+        "is_pct": true
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 799462427,
+    "buff_type_id": 1966364417,
+    "description": "Exposed Weakness",
+    "priority": 0,
+    "duration": 10,
+    "warn_time": 2.0,
+    "online_timestamp": true,
+    "beneficial": false,
+    "icon_asset_name": "",
+    "stats": [
+      {
+        "id": "Armor",
+        "value": -0.15,
+        "is_pct": true
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 1784860197,
+    "buff_type_id": 1204575210,
+    "description": "Exquisite Healing Potion",
+    "priority": 0,
+    "duration": 15,
+    "warn_time": 0.0,
+    "online_timestamp": true,
+    "beneficial": true,
+    "icon_asset_name": "\\u00C8",
+    "stats": [
+      {
+        "id": "ActiveHealthRegenRate",
+        "value": 9.0,
+        "is_pct": false
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 576620841,
+    "buff_type_id": 1204575210,
+    "description": "Fine Healing Potion",
+    "priority": 0,
+    "duration": 15,
+    "warn_time": 0.0,
+    "online_timestamp": true,
+    "beneficial": true,
+    "icon_asset_name": "\\u00C8",
+    "stats": [
+      {
+        "id": "ActiveHealthRegenRate",
+        "value": 8.0,
+        "is_pct": false
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 1958258156,
+    "buff_type_id": 1204575210,
+    "description": "Flawless Healing Potion",
+    "priority": 0,
+    "duration": 15,
+    "warn_time": 0.0,
+    "online_timestamp": true,
+    "beneficial": true,
+    "icon_asset_name": "\\u00C8",
+    "stats": [
+      {
+        "id": "ActiveHealthRegenRate",
+        "value": 15.0,
+        "is_pct": false
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 2,
+    "buff_type_id": 8,
+    "description": "Freezing",
+    "priority": 0,
+    "duration": -1,
+    "warn_time": 0.0,
+    "online_timestamp": false,
+    "beneficial": false,
+    "icon_asset_name": "\\u0018",
+    "stats": [],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 30,
+    "buff_type_id": 10,
+    "description": "Friend Warp Sickness",
+    "priority": 0,
+    "duration": 86400,
+    "warn_time": 30.0,
+    "online_timestamp": true,
+    "beneficial": false,
+    "icon_asset_name": "\\u0001",
+    "stats": [],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 31,
+    "buff_type_id": 2041496537,
+    "description": "Hot Tea",
+    "priority": 0,
+    "duration": 60,
+    "warn_time": 15.0,
+    "online_timestamp": true,
+    "beneficial": true,
+    "icon_asset_name": "\\u0017",
+    "stats": [
+      {
+        "id": "ColdProtection",
+        "value": 10.0,
+        "is_pct": false
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 5,
+    "buff_type_id": 3,
+    "description": "Incapacitated",
+    "priority": 0,
+    "duration": 300,
+    "warn_time": 30.0,
+    "online_timestamp": false,
+    "beneficial": false,
+    "icon_asset_name": "\\u0014",
+    "stats": [
+      {
+        "id": "CooldownMultiplier",
+        "value": -0.4,
+        "is_pct": true
+      },
+      {
+        "id": "GatheringSpeed",
+        "value": -0.4,
+        "is_pct": true
+      },
+      {
+        "id": "CraftingSpeed",
+        "value": -0.4,
+        "is_pct": true
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 124291392,
+    "buff_type_id": 1204575210,
+    "description": "Infused Healing Potion",
+    "priority": 0,
+    "duration": 15,
+    "warn_time": 0.0,
+    "online_timestamp": true,
+    "beneficial": true,
+    "icon_asset_name": "\\u00C8",
+    "stats": [
+      {
+        "id": "ActiveHealthRegenRate",
+        "value": 7.0,
+        "is_pct": false
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 9,
+    "buff_type_id": 5,
+    "description": "Inner Light",
+    "priority": 0,
+    "duration": 1500,
+    "warn_time": 120.0,
+    "online_timestamp": true,
+    "beneficial": true,
+    "icon_asset_name": "\\u0016",
+    "stats": [],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 285775040,
+    "buff_type_id": 345557092,
+    "description": "Leg Shot",
+    "priority": 0,
+    "duration": 5,
+    "warn_time": 1.0,
+    "online_timestamp": true,
+    "beneficial": false,
+    "icon_asset_name": "",
+    "stats": [
+      {
+        "id": "MovementMultiplier",
+        "value": -0.5,
+        "is_pct": true
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 1396605584,
+    "buff_type_id": 861783812,
+    "description": "Level 1 Action Speed",
+    "priority": 1,
+    "duration": 180,
+    "warn_time": 0.0,
+    "online_timestamp": true,
+    "beneficial": true,
+    "icon_asset_name": "\\u0035",
+    "stats": [
+      {
+        "id": "CraftingSpeed",
+        "value": 0.041,
+        "is_pct": true
+      },
+      {
+        "id": "GatheringSpeed",
+        "value": 0.041,
+        "is_pct": true
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 571903439,
+    "buff_type_id": 861783812,
+    "description": "Level 1 Combat Cooldown",
+    "priority": 1,
+    "duration": 180,
+    "warn_time": 0.0,
+    "online_timestamp": true,
+    "beneficial": true,
+    "icon_asset_name": "\\uFFEB",
+    "stats": [
+      {
+        "id": "CooldownMultiplier",
+        "value": 0.041,
+        "is_pct": true
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 1982977481,
+    "buff_type_id": 861783812,
+    "description": "Level 1 Deluxe Action Speed",
+    "priority": 1,
+    "duration": 180,
+    "warn_time": 0.0,
+    "online_timestamp": true,
+    "beneficial": true,
+    "icon_asset_name": "\\u0035",
+    "stats": [
+      {
+        "id": "CraftingSpeed",
+        "value": 0.082,
+        "is_pct": true
+      },
+      {
+        "id": "GatheringSpeed",
+        "value": 0.082,
+        "is_pct": true
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 204013868,
+    "buff_type_id": 861783812,
+    "description": "Level 1 Deluxe Combat Cooldown",
+    "priority": 1,
+    "duration": 180,
+    "warn_time": 0.0,
+    "online_timestamp": true,
+    "beneficial": true,
+    "icon_asset_name": "\\uFFEB",
+    "stats": [
+      {
+        "id": "CooldownMultiplier",
+        "value": 0.082,
+        "is_pct": true
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 860016725,
+    "buff_type_id": 861783812,
+    "description": "Level 1 Deluxe Movement Speed",
+    "priority": 1,
+    "duration": 180,
+    "warn_time": 0.0,
+    "online_timestamp": true,
+    "beneficial": true,
+    "icon_asset_name": "\\u003D",
+    "stats": [
+      {
+        "id": "MovementMultiplier",
+        "value": 0.082,
+        "is_pct": true
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 1529868230,
+    "buff_type_id": 1790361536,
+    "description": "Level 1 Food Regen",
+    "priority": 1,
+    "duration": 900,
+    "warn_time": 0.0,
+    "online_timestamp": true,
+    "beneficial": true,
+    "icon_asset_name": "\\u008C",
+    "stats": [
+      {
+        "id": "PassiveHealthRegenRate",
+        "value": 3.0,
+        "is_pct": false
+      },
+      {
+        "id": "PassiveStaminaRegenRate",
+        "value": 5.0,
+        "is_pct": false
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 195290716,
+    "buff_type_id": 861783812,
+    "description": "Level 1 Movement Speed",
+    "priority": 1,
+    "duration": 180,
+    "warn_time": 0.0,
+    "online_timestamp": true,
+    "beneficial": true,
+    "icon_asset_name": "\\u003D",
+    "stats": [
+      {
+        "id": "MovementMultiplier",
+        "value": 0.041,
+        "is_pct": true
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 1258657638,
+    "buff_type_id": 861783812,
+    "description": "Level 2 Action Speed",
+    "priority": 1,
+    "duration": 180,
+    "warn_time": 0.0,
+    "online_timestamp": true,
+    "beneficial": true,
+    "icon_asset_name": "\\u0035",
+    "stats": [
+      {
+        "id": "CraftingSpeed",
+        "value": 0.042,
+        "is_pct": true
+      },
+      {
+        "id": "GatheringSpeed",
+        "value": 0.042,
+        "is_pct": true
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 800188036,
+    "buff_type_id": 861783812,
+    "description": "Level 2 Combat Cooldown",
+    "priority": 1,
+    "duration": 180,
+    "warn_time": 0.0,
+    "online_timestamp": true,
+    "beneficial": true,
+    "icon_asset_name": "\\uFFEB",
+    "stats": [
+      {
+        "id": "CooldownMultiplier",
+        "value": 0.042,
+        "is_pct": true
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 197061567,
+    "buff_type_id": 861783812,
+    "description": "Level 2 Deluxe Action Speed",
+    "priority": 1,
+    "duration": 180,
+    "warn_time": 0.0,
+    "online_timestamp": true,
+    "beneficial": true,
+    "icon_asset_name": "\\u0035",
+    "stats": [
+      {
+        "id": "CraftingSpeed",
+        "value": 0.084,
+        "is_pct": true
+      },
+      {
+        "id": "GatheringSpeed",
+        "value": 0.084,
+        "is_pct": true
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 1935249643,
+    "buff_type_id": 861783812,
+    "description": "Level 2 Deluxe Combat Cooldown",
+    "priority": 1,
+    "duration": 180,
+    "warn_time": 0.0,
+    "online_timestamp": true,
+    "beneficial": true,
+    "icon_asset_name": "\\uFFEB",
+    "stats": [
+      {
+        "id": "CooldownMultiplier",
+        "value": 0.084,
+        "is_pct": true
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 926803956,
+    "buff_type_id": 861783812,
+    "description": "Level 2 Deluxe Movement Speed",
+    "priority": 1,
+    "duration": 180,
+    "warn_time": 0.0,
+    "online_timestamp": true,
+    "beneficial": true,
+    "icon_asset_name": "\\u003D",
+    "stats": [
+      {
+        "id": "MovementMultiplier",
+        "value": 0.084,
+        "is_pct": true
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 1050787622,
+    "buff_type_id": 1790361536,
+    "description": "Level 2 Food Regen",
+    "priority": 1,
+    "duration": 900,
+    "warn_time": 0.0,
+    "online_timestamp": true,
+    "beneficial": true,
+    "icon_asset_name": "\\u008C",
+    "stats": [
+      {
+        "id": "PassiveHealthRegenRate",
+        "value": 4.0,
+        "is_pct": false
+      },
+      {
+        "id": "PassiveStaminaRegenRate",
+        "value": 7.0,
+        "is_pct": false
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 289805356,
+    "buff_type_id": 861783812,
+    "description": "Level 2 Movement Speed",
+    "priority": 1,
+    "duration": 180,
+    "warn_time": 0.0,
+    "online_timestamp": true,
+    "beneficial": true,
+    "icon_asset_name": "\\u003D",
+    "stats": [
+      {
+        "id": "MovementMultiplier",
+        "value": 0.042,
+        "is_pct": true
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 1439414421,
+    "buff_type_id": 861783812,
+    "description": "Level 3 Action Speed",
+    "priority": 1,
+    "duration": 180,
+    "warn_time": 0.0,
+    "online_timestamp": true,
+    "beneficial": true,
+    "icon_asset_name": "\\u0035",
+    "stats": [
+      {
+        "id": "CraftingSpeed",
+        "value": 0.043,
+        "is_pct": true
+      },
+      {
+        "id": "GatheringSpeed",
+        "value": 0.043,
+        "is_pct": true
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 1100328253,
+    "buff_type_id": 861783812,
+    "description": "Level 3 Combat Cooldown",
+    "priority": 1,
+    "duration": 180,
+    "warn_time": 0.0,
+    "online_timestamp": true,
+    "beneficial": true,
+    "icon_asset_name": "\\uFFEB",
+    "stats": [
+      {
+        "id": "CooldownMultiplier",
+        "value": 0.043,
+        "is_pct": true
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 316166449,
+    "buff_type_id": 861783812,
+    "description": "Level 3 Deluxe Action Speed",
+    "priority": 1,
+    "duration": 180,
+    "warn_time": 0.0,
+    "online_timestamp": true,
+    "beneficial": true,
+    "icon_asset_name": "\\u0035",
+    "stats": [
+      {
+        "id": "CraftingSpeed",
+        "value": 0.086,
+        "is_pct": true
+      },
+      {
+        "id": "GatheringSpeed",
+        "value": 0.086,
+        "is_pct": true
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 1858579409,
+    "buff_type_id": 861783812,
+    "description": "Level 3 Deluxe Combat Cooldown",
+    "priority": 1,
+    "duration": 180,
+    "warn_time": 0.0,
+    "online_timestamp": true,
+    "beneficial": true,
+    "icon_asset_name": "\\uFFEB",
+    "stats": [
+      {
+        "id": "CooldownMultiplier",
+        "value": 0.086,
+        "is_pct": true
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 1369876541,
+    "buff_type_id": 861783812,
+    "description": "Level 3 Deluxe Movement Speed",
+    "priority": 1,
+    "duration": 180,
+    "warn_time": 0.0,
+    "online_timestamp": true,
+    "beneficial": true,
+    "icon_asset_name": "\\u003D",
+    "stats": [
+      {
+        "id": "MovementMultiplier",
+        "value": 0.086,
+        "is_pct": true
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 1399948075,
+    "buff_type_id": 1790361536,
+    "description": "Level 3 Food Regen",
+    "priority": 1,
+    "duration": 900,
+    "warn_time": 0.0,
+    "online_timestamp": true,
+    "beneficial": true,
+    "icon_asset_name": "\\u008C",
+    "stats": [
+      {
+        "id": "PassiveHealthRegenRate",
+        "value": 5.0,
+        "is_pct": false
+      },
+      {
+        "id": "PassiveStaminaRegenRate",
+        "value": 9.0,
+        "is_pct": false
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 704566699,
+    "buff_type_id": 861783812,
+    "description": "Level 3 Movement Speed",
+    "priority": 1,
+    "duration": 180,
+    "warn_time": 0.0,
+    "online_timestamp": true,
+    "beneficial": true,
+    "icon_asset_name": "\\u003D",
+    "stats": [
+      {
+        "id": "MovementMultiplier",
+        "value": 0.043,
+        "is_pct": true
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 567143384,
+    "buff_type_id": 861783812,
+    "description": "Level 4 Action Speed",
+    "priority": 1,
+    "duration": 180,
+    "warn_time": 0.0,
+    "online_timestamp": true,
+    "beneficial": true,
+    "icon_asset_name": "\\u0035",
+    "stats": [
+      {
+        "id": "CraftingSpeed",
+        "value": 0.044,
+        "is_pct": true
+      },
+      {
+        "id": "GatheringSpeed",
+        "value": 0.044,
+        "is_pct": true
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 283150588,
+    "buff_type_id": 861783812,
+    "description": "Level 4 Combat Cooldown",
+    "priority": 1,
+    "duration": 180,
+    "warn_time": 0.0,
+    "online_timestamp": true,
+    "beneficial": true,
+    "icon_asset_name": "\\uFFEB",
+    "stats": [
+      {
+        "id": "CooldownMultiplier",
+        "value": 0.044,
+        "is_pct": true
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 159178631,
+    "buff_type_id": 861783812,
+    "description": "Level 4 Deluxe Action Speed",
+    "priority": 1,
+    "duration": 180,
+    "warn_time": 0.0,
+    "online_timestamp": true,
+    "beneficial": true,
+    "icon_asset_name": "\\u0035",
+    "stats": [
+      {
+        "id": "CraftingSpeed",
+        "value": 0.088,
+        "is_pct": true
+      },
+      {
+        "id": "GatheringSpeed",
+        "value": 0.088,
+        "is_pct": true
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 1509772875,
+    "buff_type_id": 861783812,
+    "description": "Level 4 Deluxe Combat Cooldown",
+    "priority": 1,
+    "duration": 180,
+    "warn_time": 0.0,
+    "online_timestamp": true,
+    "beneficial": true,
+    "icon_asset_name": "\\uFFEB",
+    "stats": [
+      {
+        "id": "CooldownMultiplier",
+        "value": 0.088,
+        "is_pct": true
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 179767139,
+    "buff_type_id": 861783812,
+    "description": "Level 4 Deluxe Movement Speed",
+    "priority": 1,
+    "duration": 180,
+    "warn_time": 0.0,
+    "online_timestamp": true,
+    "beneficial": true,
+    "icon_asset_name": "\\u003D",
+    "stats": [
+      {
+        "id": "MovementMultiplier",
+        "value": 0.088,
+        "is_pct": true
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 1631091910,
+    "buff_type_id": 1790361536,
+    "description": "Level 4 Food Regen",
+    "priority": 1,
+    "duration": 900,
+    "warn_time": 0.0,
+    "online_timestamp": true,
+    "beneficial": true,
+    "icon_asset_name": "\\u008C",
+    "stats": [
+      {
+        "id": "PassiveHealthRegenRate",
+        "value": 6.0,
+        "is_pct": false
+      },
+      {
+        "id": "PassiveStaminaRegenRate",
+        "value": 11.0,
+        "is_pct": false
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 1579088613,
+    "buff_type_id": 861783812,
+    "description": "Level 4 Movement Speed",
+    "priority": 1,
+    "duration": 180,
+    "warn_time": 0.0,
+    "online_timestamp": true,
+    "beneficial": true,
+    "icon_asset_name": "\\u003D",
+    "stats": [
+      {
+        "id": "MovementMultiplier",
+        "value": 0.044,
+        "is_pct": true
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 257875307,
+    "buff_type_id": 861783812,
+    "description": "Level 5 Action Speed",
+    "priority": 1,
+    "duration": 180,
+    "warn_time": 0.0,
+    "online_timestamp": true,
+    "beneficial": true,
+    "icon_asset_name": "\\u0035",
+    "stats": [
+      {
+        "id": "CraftingSpeed",
+        "value": 0.045,
+        "is_pct": true
+      },
+      {
+        "id": "GatheringSpeed",
+        "value": 0.045,
+        "is_pct": true
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 2115603449,
+    "buff_type_id": 861783812,
+    "description": "Level 5 Combat Cooldown",
+    "priority": 1,
+    "duration": 180,
+    "warn_time": 0.0,
+    "online_timestamp": true,
+    "beneficial": true,
+    "icon_asset_name": "\\uFFEB",
+    "stats": [
+      {
+        "id": "CooldownMultiplier",
+        "value": 0.045,
+        "is_pct": true
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 1848949061,
+    "buff_type_id": 861783812,
+    "description": "Level 5 Deluxe Action Speed",
+    "priority": 1,
+    "duration": 180,
+    "warn_time": 0.0,
+    "online_timestamp": true,
+    "beneficial": true,
+    "icon_asset_name": "\\u0035",
+    "stats": [
+      {
+        "id": "CraftingSpeed",
+        "value": 0.09,
+        "is_pct": true
+      },
+      {
+        "id": "GatheringSpeed",
+        "value": 0.09,
+        "is_pct": true
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 31185922,
+    "buff_type_id": 861783812,
+    "description": "Level 5 Deluxe Combat Cooldown",
+    "priority": 1,
+    "duration": 180,
+    "warn_time": 0.0,
+    "online_timestamp": true,
+    "beneficial": true,
+    "icon_asset_name": "\\uFFEB",
+    "stats": [
+      {
+        "id": "CooldownMultiplier",
+        "value": 0.09,
+        "is_pct": true
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 854022801,
+    "buff_type_id": 861783812,
+    "description": "Level 5 Deluxe Movement Speed",
+    "priority": 1,
+    "duration": 180,
+    "warn_time": 0.0,
+    "online_timestamp": true,
+    "beneficial": true,
+    "icon_asset_name": "\\u003D",
+    "stats": [
+      {
+        "id": "MovementMultiplier",
+        "value": 0.09,
+        "is_pct": true
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 1347325268,
+    "buff_type_id": 1790361536,
+    "description": "Level 5 Food Regen",
+    "priority": 1,
+    "duration": 900,
+    "warn_time": 0.0,
+    "online_timestamp": true,
+    "beneficial": true,
+    "icon_asset_name": "\\u008C",
+    "stats": [
+      {
+        "id": "PassiveHealthRegenRate",
+        "value": 7.0,
+        "is_pct": false
+      },
+      {
+        "id": "PassiveStaminaRegenRate",
+        "value": 13.0,
+        "is_pct": false
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 1520805889,
+    "buff_type_id": 861783812,
+    "description": "Level 5 Movement Speed",
+    "priority": 1,
+    "duration": 180,
+    "warn_time": 0.0,
+    "online_timestamp": true,
+    "beneficial": true,
+    "icon_asset_name": "\\u003D",
+    "stats": [
+      {
+        "id": "MovementMultiplier",
+        "value": 0.045,
+        "is_pct": true
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 1885593226,
+    "buff_type_id": 861783812,
+    "description": "Level 6 Action Speed",
+    "priority": 1,
+    "duration": 180,
+    "warn_time": 0.0,
+    "online_timestamp": true,
+    "beneficial": true,
+    "icon_asset_name": "\\u0035",
+    "stats": [
+      {
+        "id": "CraftingSpeed",
+        "value": 0.046,
+        "is_pct": true
+      },
+      {
+        "id": "GatheringSpeed",
+        "value": 0.046,
+        "is_pct": true
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 1385090574,
+    "buff_type_id": 861783812,
+    "description": "Level 6 Combat Cooldown",
+    "priority": 1,
+    "duration": 180,
+    "warn_time": 0.0,
+    "online_timestamp": true,
+    "beneficial": true,
+    "icon_asset_name": "\\uFFEB",
+    "stats": [
+      {
+        "id": "CooldownMultiplier",
+        "value": 0.046,
+        "is_pct": true
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 5887916,
+    "buff_type_id": 861783812,
+    "description": "Level 6 Deluxe Action Speed",
+    "priority": 1,
+    "duration": 180,
+    "warn_time": 0.0,
+    "online_timestamp": true,
+    "beneficial": true,
+    "icon_asset_name": "\\u0035",
+    "stats": [
+      {
+        "id": "CraftingSpeed",
+        "value": 0.092,
+        "is_pct": true
+      },
+      {
+        "id": "GatheringSpeed",
+        "value": 0.092,
+        "is_pct": true
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 1273790540,
+    "buff_type_id": 861783812,
+    "description": "Level 6 Deluxe Combat Cooldown",
+    "priority": 1,
+    "duration": 180,
+    "warn_time": 0.0,
+    "online_timestamp": true,
+    "beneficial": true,
+    "icon_asset_name": "\\uFFEB",
+    "stats": [
+      {
+        "id": "CooldownMultiplier",
+        "value": 0.092,
+        "is_pct": true
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 347582187,
+    "buff_type_id": 861783812,
+    "description": "Level 6 Deluxe Movement Speed",
+    "priority": 1,
+    "duration": 180,
+    "warn_time": 0.0,
+    "online_timestamp": true,
+    "beneficial": true,
+    "icon_asset_name": "\\u003D",
+    "stats": [
+      {
+        "id": "MovementMultiplier",
+        "value": 0.092,
+        "is_pct": true
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 1481441973,
+    "buff_type_id": 1790361536,
+    "description": "Level 6 Food Regen",
+    "priority": 1,
+    "duration": 900,
+    "warn_time": 0.0,
+    "online_timestamp": true,
+    "beneficial": true,
+    "icon_asset_name": "\\u008C",
+    "stats": [
+      {
+        "id": "PassiveHealthRegenRate",
+        "value": 8.0,
+        "is_pct": false
+      },
+      {
+        "id": "PassiveStaminaRegenRate",
+        "value": 15.0,
+        "is_pct": false
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 545380252,
+    "buff_type_id": 861783812,
+    "description": "Level 6 Movement Speed",
+    "priority": 1,
+    "duration": 180,
+    "warn_time": 0.0,
+    "online_timestamp": true,
+    "beneficial": true,
+    "icon_asset_name": "\\u003D",
+    "stats": [
+      {
+        "id": "MovementMultiplier",
+        "value": 0.046,
+        "is_pct": true
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 670136642,
+    "buff_type_id": 861783812,
+    "description": "Level 7 Action Speed",
+    "priority": 1,
+    "duration": 180,
+    "warn_time": 0.0,
+    "online_timestamp": true,
+    "beneficial": true,
+    "icon_asset_name": "\\u0035",
+    "stats": [
+      {
+        "id": "CraftingSpeed",
+        "value": 0.047,
+        "is_pct": true
+      },
+      {
+        "id": "GatheringSpeed",
+        "value": 0.047,
+        "is_pct": true
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 1590162583,
+    "buff_type_id": 861783812,
+    "description": "Level 7 Combat Cooldown",
+    "priority": 1,
+    "duration": 180,
+    "warn_time": 0.0,
+    "online_timestamp": true,
+    "beneficial": true,
+    "icon_asset_name": "\\uFFEB",
+    "stats": [
+      {
+        "id": "CooldownMultiplier",
+        "value": 0.047,
+        "is_pct": true
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 478954807,
+    "buff_type_id": 861783812,
+    "description": "Level 7 Deluxe Action Speed",
+    "priority": 1,
+    "duration": 180,
+    "warn_time": 0.0,
+    "online_timestamp": true,
+    "beneficial": true,
+    "icon_asset_name": "\\u0035",
+    "stats": [
+      {
+        "id": "CraftingSpeed",
+        "value": 0.094,
+        "is_pct": true
+      },
+      {
+        "id": "GatheringSpeed",
+        "value": 0.094,
+        "is_pct": true
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 1386622342,
+    "buff_type_id": 861783812,
+    "description": "Level 7 Deluxe Combat Cooldown",
+    "priority": 1,
+    "duration": 180,
+    "warn_time": 0.0,
+    "online_timestamp": true,
+    "beneficial": true,
+    "icon_asset_name": "\\uFFEB",
+    "stats": [
+      {
+        "id": "CooldownMultiplier",
+        "value": 0.094,
+        "is_pct": true
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 2103902535,
+    "buff_type_id": 861783812,
+    "description": "Level 7 Deluxe Movement Speed",
+    "priority": 1,
+    "duration": 180,
+    "warn_time": 0.0,
+    "online_timestamp": true,
+    "beneficial": true,
+    "icon_asset_name": "\\u003D",
+    "stats": [
+      {
+        "id": "MovementMultiplier",
+        "value": 0.094,
+        "is_pct": true
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 855034153,
+    "buff_type_id": 1790361536,
+    "description": "Level 7 Food Regen",
+    "priority": 1,
+    "duration": 900,
+    "warn_time": 0.0,
+    "online_timestamp": true,
+    "beneficial": true,
+    "icon_asset_name": "\\u008C",
+    "stats": [
+      {
+        "id": "PassiveHealthRegenRate",
+        "value": 9.0,
+        "is_pct": false
+      },
+      {
+        "id": "PassiveStaminaRegenRate",
+        "value": 17.0,
+        "is_pct": false
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 2134900809,
+    "buff_type_id": 861783812,
+    "description": "Level 7 Movement Speed",
+    "priority": 1,
+    "duration": 180,
+    "warn_time": 0.0,
+    "online_timestamp": true,
+    "beneficial": true,
+    "icon_asset_name": "\\u003D",
+    "stats": [
+      {
+        "id": "MovementMultiplier",
+        "value": 0.047,
+        "is_pct": true
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 1772924204,
+    "buff_type_id": 861783812,
+    "description": "Level 8 Action Speed",
+    "priority": 1,
+    "duration": 180,
+    "warn_time": 0.0,
+    "online_timestamp": true,
+    "beneficial": true,
+    "icon_asset_name": "\\u0035",
+    "stats": [
+      {
+        "id": "CraftingSpeed",
+        "value": 0.048,
+        "is_pct": true
+      },
+      {
+        "id": "GatheringSpeed",
+        "value": 0.048,
+        "is_pct": true
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 1249118438,
+    "buff_type_id": 861783812,
+    "description": "Level 8 Combat Cooldown",
+    "priority": 1,
+    "duration": 180,
+    "warn_time": 0.0,
+    "online_timestamp": true,
+    "beneficial": true,
+    "icon_asset_name": "\\uFFEB",
+    "stats": [
+      {
+        "id": "CooldownMultiplier",
+        "value": 0.048,
+        "is_pct": true
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 1410212093,
+    "buff_type_id": 861783812,
+    "description": "Level 8 Deluxe Action Speed",
+    "priority": 1,
+    "duration": 180,
+    "warn_time": 0.0,
+    "online_timestamp": true,
+    "beneficial": true,
+    "icon_asset_name": "\\u0035",
+    "stats": [
+      {
+        "id": "CraftingSpeed",
+        "value": 0.096,
+        "is_pct": true
+      },
+      {
+        "id": "GatheringSpeed",
+        "value": 0.096,
+        "is_pct": true
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 718633663,
+    "buff_type_id": 861783812,
+    "description": "Level 8 Deluxe Combat Cooldown",
+    "priority": 1,
+    "duration": 180,
+    "warn_time": 0.0,
+    "online_timestamp": true,
+    "beneficial": true,
+    "icon_asset_name": "\\uFFEB",
+    "stats": [
+      {
+        "id": "CooldownMultiplier",
+        "value": 0.096,
+        "is_pct": true
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 1241284693,
+    "buff_type_id": 861783812,
+    "description": "Level 8 Deluxe Movement Speed",
+    "priority": 1,
+    "duration": 180,
+    "warn_time": 0.0,
+    "online_timestamp": true,
+    "beneficial": true,
+    "icon_asset_name": "\\u003D",
+    "stats": [
+      {
+        "id": "MovementMultiplier",
+        "value": 0.096,
+        "is_pct": true
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 1249248521,
+    "buff_type_id": 1790361536,
+    "description": "Level 8 Food Regen",
+    "priority": 1,
+    "duration": 900,
+    "warn_time": 0.0,
+    "online_timestamp": true,
+    "beneficial": true,
+    "icon_asset_name": "\\u008C",
+    "stats": [
+      {
+        "id": "PassiveHealthRegenRate",
+        "value": 10.0,
+        "is_pct": false
+      },
+      {
+        "id": "PassiveStaminaRegenRate",
+        "value": 19.0,
+        "is_pct": false
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 1453337769,
+    "buff_type_id": 861783812,
+    "description": "Level 8 Movement Speed",
+    "priority": 1,
+    "duration": 180,
+    "warn_time": 0.0,
+    "online_timestamp": true,
+    "beneficial": true,
+    "icon_asset_name": "\\u003D",
+    "stats": [
+      {
+        "id": "MovementMultiplier",
+        "value": 0.048,
+        "is_pct": true
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 1861631261,
+    "buff_type_id": 1790361536,
+    "description": "Level 9 Food Regen",
+    "priority": 1,
+    "duration": 900,
+    "warn_time": 0.0,
+    "online_timestamp": true,
+    "beneficial": true,
+    "icon_asset_name": "\\u008C",
+    "stats": [
+      {
+        "id": "PassiveHealthRegenRate",
+        "value": 11.0,
+        "is_pct": false
+      },
+      {
+        "id": "PassiveStaminaRegenRate",
+        "value": 20.0,
+        "is_pct": false
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 914919140,
+    "buff_type_id": 1923969860,
+    "description": "Limb Slash",
+    "priority": 0,
+    "duration": 6,
+    "warn_time": 2.0,
+    "online_timestamp": true,
+    "beneficial": false,
+    "icon_asset_name": "",
+    "stats": [
+      {
+        "id": "Strength",
+        "value": -0.1,
+        "is_pct": true
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 1318138218,
+    "buff_type_id": 1204575210,
+    "description": "Magnificent Healing Potion",
+    "priority": 0,
+    "duration": 15,
+    "warn_time": 0.0,
+    "online_timestamp": true,
+    "beneficial": true,
+    "icon_asset_name": "\\u00C8",
+    "stats": [
+      {
+        "id": "ActiveHealthRegenRate",
+        "value": 14.0,
+        "is_pct": false
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 2088230928,
+    "buff_type_id": 1654451514,
+    "description": "MovementSpeedDown",
+    "priority": 1,
+    "duration": 15,
+    "warn_time": 0.0,
+    "online_timestamp": true,
+    "beneficial": false,
+    "icon_asset_name": "\\uFFDA",
+    "stats": [
+      {
+        "id": "MovementMultiplier",
+        "value": -0.8,
+        "is_pct": true
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 10271152,
+    "buff_type_id": 13,
+    "description": "Nearby Flame",
+    "priority": 0,
+    "duration": 0,
+    "warn_time": 0.0,
+    "online_timestamp": true,
+    "beneficial": true,
+    "icon_asset_name": "\\u0016",
+    "stats": [],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 541849230,
+    "buff_type_id": 1204575210,
+    "description": "Ornate Healing Potion",
+    "priority": 0,
+    "duration": 15,
+    "warn_time": 0.0,
+    "online_timestamp": true,
+    "beneficial": true,
+    "icon_asset_name": "\\u00C8",
+    "stats": [
+      {
+        "id": "ActiveHealthRegenRate",
+        "value": 11.0,
+        "is_pct": false
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 12,
+    "buff_type_id": 9,
+    "description": "Overheating",
+    "priority": 0,
+    "duration": -1,
+    "warn_time": 0.0,
+    "online_timestamp": false,
+    "beneficial": false,
+    "icon_asset_name": "\\u0016",
+    "stats": [],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 837625739,
+    "buff_type_id": 1654317143,
+    "description": "Parry Up",
+    "priority": 1,
+    "duration": 10,
+    "warn_time": 5.0,
+    "online_timestamp": true,
+    "beneficial": true,
+    "icon_asset_name": "\\u0065",
+    "stats": [
+      {
+        "id": "Armor",
+        "value": 0.2,
+        "is_pct": true
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "BothHands"
+  },
+  {
+    "id": 415681120,
+    "buff_type_id": 1204575210,
+    "description": "Peerless Healing Potion",
+    "priority": 0,
+    "duration": 15,
+    "warn_time": 0.0,
+    "online_timestamp": true,
+    "beneficial": true,
+    "icon_asset_name": "\\u00C8",
+    "stats": [
+      {
+        "id": "ActiveHealthRegenRate",
+        "value": 10.0,
+        "is_pct": false
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 1246635821,
+    "buff_type_id": 1204575210,
+    "description": "Pristine Healing Potion",
+    "priority": 0,
+    "duration": 15,
+    "warn_time": 0.0,
+    "online_timestamp": true,
+    "beneficial": true,
+    "icon_asset_name": "\\u00C8",
+    "stats": [
+      {
+        "id": "ActiveHealthRegenRate",
+        "value": 12.0,
+        "is_pct": false
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 436750411,
+    "buff_type_id": 12,
+    "description": "Recently Used Elevator",
+    "priority": 0,
+    "duration": 3,
+    "warn_time": 0.0,
+    "online_timestamp": true,
+    "beneficial": false,
+    "icon_asset_name": "\\u0011",
+    "stats": [],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 939512353,
+    "buff_type_id": 220139041,
+    "description": "Shield Up",
+    "priority": 1,
+    "duration": 10,
+    "warn_time": 5.0,
+    "online_timestamp": true,
+    "beneficial": true,
+    "icon_asset_name": "\\u0065",
+    "stats": [
+      {
+        "id": "Armor",
+        "value": 0.2,
+        "is_pct": true
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 439160685,
+    "buff_type_id": 1204575210,
+    "description": "Simple Healing Potion",
+    "priority": 0,
+    "duration": 15,
+    "warn_time": 0.0,
+    "online_timestamp": true,
+    "beneficial": true,
+    "icon_asset_name": "\\u00C8",
+    "stats": [
+      {
+        "id": "ActiveHealthRegenRate",
+        "value": 6.0,
+        "is_pct": false
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 1245173307,
+    "buff_type_id": 1398544390,
+    "description": "Smash Armor",
+    "priority": 0,
+    "duration": 4,
+    "warn_time": 1.0,
+    "online_timestamp": true,
+    "beneficial": false,
+    "icon_asset_name": "",
+    "stats": [
+      {
+        "id": "Armor",
+        "value": -0.3,
+        "is_pct": true
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 2084605653,
+    "buff_type_id": 490104816,
+    "description": "Sniper's Stance",
+    "priority": 0,
+    "duration": 10,
+    "warn_time": 3.0,
+    "online_timestamp": true,
+    "beneficial": true,
+    "icon_asset_name": "",
+    "stats": [
+      {
+        "id": "Strength",
+        "value": 0.4,
+        "is_pct": true
+      },
+      {
+        "id": "Accuracy",
+        "value": 0.5,
+        "is_pct": true
+      },
+      {
+        "id": "MovementMultiplier",
+        "value": -0.9,
+        "is_pct": true
+      },
+      {
+        "id": "Armor",
+        "value": -0.1,
+        "is_pct": true
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 1547415845,
+    "buff_type_id": 11,
+    "description": "Starving",
+    "priority": 0,
+    "duration": -1,
+    "warn_time": 0.0,
+    "online_timestamp": false,
+    "beneficial": false,
+    "icon_asset_name": "\\u008C",
+    "stats": [],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 35180939,
+    "buff_type_id": 11955726,
+    "description": "Sword Flurry",
+    "priority": 1,
+    "duration": 5,
+    "warn_time": 0.0,
+    "online_timestamp": true,
+    "beneficial": true,
+    "icon_asset_name": "\\u0065",
+    "stats": [
+      {
+        "id": "CooldownMultiplier",
+        "value": 0.2,
+        "is_pct": false
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 3,
+    "buff_type_id": 0,
+    "description": "Teleportation Sickness",
+    "priority": 0,
+    "duration": 600,
+    "warn_time": 30.0,
+    "online_timestamp": true,
+    "beneficial": false,
+    "icon_asset_name": "\\u0011",
+    "stats": [],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 1043581193,
+    "buff_type_id": 1342545182,
+    "description": "Umbura's Fury",
+    "priority": 0,
+    "duration": 8,
+    "warn_time": 0.0,
+    "online_timestamp": true,
+    "beneficial": false,
+    "icon_asset_name": "\\u0062",
+    "stats": [
+      {
+        "id": "Armor",
+        "value": -20.0,
+        "is_pct": false
+      },
+      {
+        "id": "MovementMultiplier",
+        "value": -0.5,
+        "is_pct": true
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 1692241838,
+    "buff_type_id": 755187973,
+    "description": "Basic Crafting Speed Elixir",
+    "priority": 0,
+    "duration": 300,
+    "warn_time": 15.0,
+    "online_timestamp": false,
+    "beneficial": true,
+    "icon_asset_name": "\\u00C8",
+    "stats": [
+      {
+        "id": "CraftingSpeed",
+        "value": 0.03,
+        "is_pct": true
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 677696308,
+    "buff_type_id": 238577565,
+    "description": "Basic Stamina Potion",
+    "priority": 0,
+    "duration": 10,
+    "warn_time": 0.0,
+    "online_timestamp": true,
+    "beneficial": true,
+    "icon_asset_name": "\\u00C8",
+    "stats": [
+      {
+        "id": "ActiveStaminaRegenRate",
+        "value": 10.0,
+        "is_pct": false
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 1439415977,
+    "buff_type_id": 755187973,
+    "description": "Exquisite Crafting Speed Elixir",
+    "priority": 0,
+    "duration": 300,
+    "warn_time": 15.0,
+    "online_timestamp": false,
+    "beneficial": true,
+    "icon_asset_name": "\\u00C8",
+    "stats": [
+      {
+        "id": "CraftingSpeed",
+        "value": 0.066,
+        "is_pct": true
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 1038897951,
+    "buff_type_id": 238577565,
+    "description": "Exquisite Stamina Potion",
+    "priority": 0,
+    "duration": 10,
+    "warn_time": 0.0,
+    "online_timestamp": true,
+    "beneficial": true,
+    "icon_asset_name": "\\u00C8",
+    "stats": [
+      {
+        "id": "ActiveStaminaRegenRate",
+        "value": 22.0,
+        "is_pct": false
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 1575219793,
+    "buff_type_id": 755187973,
+    "description": "Fine Crafting Speed Elixir",
+    "priority": 0,
+    "duration": 300,
+    "warn_time": 15.0,
+    "online_timestamp": false,
+    "beneficial": true,
+    "icon_asset_name": "\\u00C8",
+    "stats": [
+      {
+        "id": "CraftingSpeed",
+        "value": 0.057,
+        "is_pct": true
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 1881525764,
+    "buff_type_id": 238577565,
+    "description": "Fine Stamina Potion",
+    "priority": 0,
+    "duration": 10,
+    "warn_time": 0.0,
+    "online_timestamp": true,
+    "beneficial": true,
+    "icon_asset_name": "\\u00C8",
+    "stats": [
+      {
+        "id": "ActiveStaminaRegenRate",
+        "value": 19.0,
+        "is_pct": false
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 1447762453,
+    "buff_type_id": 755187973,
+    "description": "Flawless Crafting Speed Elixir",
+    "priority": 0,
+    "duration": 300,
+    "warn_time": 15.0,
+    "online_timestamp": false,
+    "beneficial": true,
+    "icon_asset_name": "\\u00C8",
+    "stats": [
+      {
+        "id": "CraftingSpeed",
+        "value": 0.111,
+        "is_pct": true
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 1023844455,
+    "buff_type_id": 238577565,
+    "description": "Flawless Stamina Potion",
+    "priority": 0,
+    "duration": 10,
+    "warn_time": 0.0,
+    "online_timestamp": true,
+    "beneficial": true,
+    "icon_asset_name": "\\u00C8",
+    "stats": [
+      {
+        "id": "ActiveStaminaRegenRate",
+        "value": 37.0,
+        "is_pct": false
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 1793037679,
+    "buff_type_id": 755187973,
+    "description": "Infused Crafting Speed Elixir",
+    "priority": 0,
+    "duration": 300,
+    "warn_time": 15.0,
+    "online_timestamp": false,
+    "beneficial": true,
+    "icon_asset_name": "\\u00C8",
+    "stats": [
+      {
+        "id": "CraftingSpeed",
+        "value": 0.048,
+        "is_pct": true
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 2119591842,
+    "buff_type_id": 238577565,
+    "description": "Infused Stamina Potion",
+    "priority": 0,
+    "duration": 10,
+    "warn_time": 0.0,
+    "online_timestamp": true,
+    "beneficial": true,
+    "icon_asset_name": "\\u00C8",
+    "stats": [
+      {
+        "id": "ActiveStaminaRegenRate",
+        "value": 16.0,
+        "is_pct": false
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 10907170,
+    "buff_type_id": 755187973,
+    "description": "Magnificient Crafting Speed Elixir",
+    "priority": 0,
+    "duration": 300,
+    "warn_time": 15.0,
+    "online_timestamp": false,
+    "beneficial": true,
+    "icon_asset_name": "\\u00C8",
+    "stats": [
+      {
+        "id": "CraftingSpeed",
+        "value": 0.102,
+        "is_pct": true
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 827876701,
+    "buff_type_id": 238577565,
+    "description": "Magnificient Stamina Potion",
+    "priority": 0,
+    "duration": 10,
+    "warn_time": 0.0,
+    "online_timestamp": true,
+    "beneficial": true,
+    "icon_asset_name": "\\u00C8",
+    "stats": [
+      {
+        "id": "ActiveStaminaRegenRate",
+        "value": 34.0,
+        "is_pct": false
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 1243862356,
+    "buff_type_id": 755187973,
+    "description": "Ornate Crafting Speed Elixir",
+    "priority": 0,
+    "duration": 300,
+    "warn_time": 15.0,
+    "online_timestamp": false,
+    "beneficial": true,
+    "icon_asset_name": "\\u00C8",
+    "stats": [
+      {
+        "id": "CraftingSpeed",
+        "value": 0.084,
+        "is_pct": true
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 821574386,
+    "buff_type_id": 238577565,
+    "description": "Ornate Stamina Potion",
+    "priority": 0,
+    "duration": 10,
+    "warn_time": 0.0,
+    "online_timestamp": true,
+    "beneficial": true,
+    "icon_asset_name": "\\u00C8",
+    "stats": [
+      {
+        "id": "ActiveStaminaRegenRate",
+        "value": 28.0,
+        "is_pct": false
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 1556176707,
+    "buff_type_id": 755187973,
+    "description": "Peerless Crafting Speed Elixir",
+    "priority": 0,
+    "duration": 300,
+    "warn_time": 15.0,
+    "online_timestamp": false,
+    "beneficial": true,
+    "icon_asset_name": "\\u00C8",
+    "stats": [
+      {
+        "id": "CraftingSpeed",
+        "value": 0.075,
+        "is_pct": true
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 2103320983,
+    "buff_type_id": 238577565,
+    "description": "Peerless Stamina Potion",
+    "priority": 0,
+    "duration": 10,
+    "warn_time": 0.0,
+    "online_timestamp": true,
+    "beneficial": true,
+    "icon_asset_name": "\\u00C8",
+    "stats": [
+      {
+        "id": "ActiveStaminaRegenRate",
+        "value": 25.0,
+        "is_pct": false
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 135323446,
+    "buff_type_id": 755187973,
+    "description": "Pristine Crafting Speed Elixir",
+    "priority": 0,
+    "duration": 300,
+    "warn_time": 15.0,
+    "online_timestamp": false,
+    "beneficial": true,
+    "icon_asset_name": "\\u00C8",
+    "stats": [
+      {
+        "id": "CraftingSpeed",
+        "value": 0.093,
+        "is_pct": true
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 1853075244,
+    "buff_type_id": 238577565,
+    "description": "Pristine Stamina Potion",
+    "priority": 0,
+    "duration": 10,
+    "warn_time": 0.0,
+    "online_timestamp": true,
+    "beneficial": true,
+    "icon_asset_name": "\\u00C8",
+    "stats": [
+      {
+        "id": "ActiveStaminaRegenRate",
+        "value": 31.0,
+        "is_pct": false
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 1057407144,
+    "buff_type_id": 755187973,
+    "description": "Simple Crafting Speed Elixir",
+    "priority": 0,
+    "duration": 300,
+    "warn_time": 15.0,
+    "online_timestamp": false,
+    "beneficial": true,
+    "icon_asset_name": "\\u00C8",
+    "stats": [
+      {
+        "id": "CraftingSpeed",
+        "value": 0.039,
+        "is_pct": true
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 474711859,
+    "buff_type_id": 238577565,
+    "description": "Simple Stamina Potion",
+    "priority": 0,
+    "duration": 10,
+    "warn_time": 0.0,
+    "online_timestamp": true,
+    "beneficial": true,
+    "icon_asset_name": "\\u00C8",
+    "stats": [
+      {
+        "id": "ActiveStaminaRegenRate",
+        "value": 13.0,
+        "is_pct": false
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  }
+]

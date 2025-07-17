@@ -1,0 +1,838 @@
+[
+  {
+    "id": 959834809,
+    "can_walk_on_land": true,
+    "can_swim": false,
+    "requires_transitions": true,
+    "min_water_depth": 0,
+    "max_water_depth": 2,
+    "max_swim_height_delta": 2,
+    "avoid_light": false,
+    "climb_up_options": [
+      {
+        "max_elevation_difference": 2,
+        "move_type": "Walk"
+      },
+      {
+        "max_elevation_difference": 8,
+        "move_type": "Hoist1"
+      }
+    ],
+    "climb_down_options": [
+      {
+        "max_elevation_difference": -2,
+        "move_type": "Walk"
+      },
+      {
+        "max_elevation_difference": -8,
+        "move_type": "Down1"
+      }
+    ]
+  },
+  {
+    "id": 1159321119,
+    "can_walk_on_land": true,
+    "can_swim": false,
+    "requires_transitions": true,
+    "min_water_depth": 0,
+    "max_water_depth": 2,
+    "max_swim_height_delta": 2,
+    "avoid_light": false,
+    "climb_up_options": [
+      {
+        "max_elevation_difference": 2,
+        "move_type": "Walk"
+      },
+      {
+        "max_elevation_difference": 6,
+        "move_type": "Hoist1"
+      }
+    ],
+    "climb_down_options": [
+      {
+        "max_elevation_difference": -2,
+        "move_type": "Walk"
+      },
+      {
+        "max_elevation_difference": -6,
+        "move_type": "Down1"
+      }
+    ]
+  },
+  {
+    "id": 601358492,
+    "can_walk_on_land": true,
+    "can_swim": false,
+    "requires_transitions": true,
+    "min_water_depth": 0,
+    "max_water_depth": 2,
+    "max_swim_height_delta": 2,
+    "avoid_light": true,
+    "climb_up_options": [
+      {
+        "max_elevation_difference": 1,
+        "move_type": "Walk"
+      }
+    ],
+    "climb_down_options": [
+      {
+        "max_elevation_difference": -1,
+        "move_type": "Hoist1"
+      }
+    ]
+  },
+  {
+    "id": 769231106,
+    "can_walk_on_land": true,
+    "can_swim": false,
+    "requires_transitions": true,
+    "min_water_depth": 0,
+    "max_water_depth": 2,
+    "max_swim_height_delta": 2,
+    "avoid_light": true,
+    "climb_up_options": [
+      {
+        "max_elevation_difference": 2,
+        "move_type": "Walk"
+      },
+      {
+        "max_elevation_difference": 6,
+        "move_type": "Hoist1"
+      }
+    ],
+    "climb_down_options": [
+      {
+        "max_elevation_difference": -2,
+        "move_type": "Walk"
+      },
+      {
+        "max_elevation_difference": -6,
+        "move_type": "Down1"
+      }
+    ]
+  },
+  {
+    "id": 690229665,
+    "can_walk_on_land": true,
+    "can_swim": false,
+    "requires_transitions": true,
+    "min_water_depth": 0,
+    "max_water_depth": 2,
+    "max_swim_height_delta": 2,
+    "avoid_light": true,
+    "climb_up_options": [
+      {
+        "max_elevation_difference": 20,
+        "move_type": "Walk"
+      }
+    ],
+    "climb_down_options": [
+      {
+        "max_elevation_difference": -20,
+        "move_type": "Walk"
+      }
+    ]
+  },
+  {
+    "id": 1525146351,
+    "can_walk_on_land": false,
+    "can_swim": false,
+    "requires_transitions": false,
+    "min_water_depth": 0,
+    "max_water_depth": 0,
+    "max_swim_height_delta": 0,
+    "avoid_light": false,
+    "climb_up_options": [
+      {
+        "max_elevation_difference": 1,
+        "move_type": "None"
+      }
+    ],
+    "climb_down_options": [
+      {
+        "max_elevation_difference": -1,
+        "move_type": "None"
+      }
+    ]
+  },
+  {
+    "id": 2127231545,
+    "can_walk_on_land": true,
+    "can_swim": false,
+    "requires_transitions": true,
+    "min_water_depth": 0,
+    "max_water_depth": 0,
+    "max_swim_height_delta": 0,
+    "avoid_light": false,
+    "climb_up_options": [
+      {
+        "max_elevation_difference": 2,
+        "move_type": "Walk"
+      },
+      {
+        "max_elevation_difference": 4,
+        "move_type": "Hoist1"
+      }
+    ],
+    "climb_down_options": [
+      {
+        "max_elevation_difference": -2,
+        "move_type": "Walk"
+      },
+      {
+        "max_elevation_difference": -4,
+        "move_type": "Down1"
+      }
+    ]
+  },
+  {
+    "id": 100916428,
+    "can_walk_on_land": true,
+    "can_swim": true,
+    "requires_transitions": true,
+    "min_water_depth": 0,
+    "max_water_depth": 100,
+    "max_swim_height_delta": 2,
+    "avoid_light": false,
+    "climb_up_options": [
+      {
+        "max_elevation_difference": 2,
+        "move_type": "Walk"
+      },
+      {
+        "max_elevation_difference": 3,
+        "move_type": "StepUp"
+      },
+      {
+        "max_elevation_difference": 6,
+        "move_type": "Hoist1"
+      }
+    ],
+    "climb_down_options": [
+      {
+        "max_elevation_difference": -2,
+        "move_type": "Walk"
+      },
+      {
+        "max_elevation_difference": -6,
+        "move_type": "Down1"
+      }
+    ]
+  },
+  {
+    "id": 1954427417,
+    "can_walk_on_land": false,
+    "can_swim": true,
+    "requires_transitions": false,
+    "min_water_depth": 1,
+    "max_water_depth": 2147483647,
+    "max_swim_height_delta": 7,
+    "avoid_light": false,
+    "climb_up_options": [
+      {
+        "max_elevation_difference": 7,
+        "move_type": "Walk"
+      }
+    ],
+    "climb_down_options": [
+      {
+        "max_elevation_difference": -7,
+        "move_type": "Walk"
+      }
+    ]
+  },
+  {
+    "id": 1085002853,
+    "can_walk_on_land": true,
+    "can_swim": false,
+    "requires_transitions": false,
+    "min_water_depth": 0,
+    "max_water_depth": 0,
+    "max_swim_height_delta": 3,
+    "avoid_light": false,
+    "climb_up_options": [
+      {
+        "max_elevation_difference": 3,
+        "move_type": "Walk"
+      }
+    ],
+    "climb_down_options": [
+      {
+        "max_elevation_difference": -3,
+        "move_type": "Walk"
+      }
+    ]
+  },
+  {
+    "id": 587005016,
+    "can_walk_on_land": false,
+    "can_swim": true,
+    "requires_transitions": false,
+    "min_water_depth": 1,
+    "max_water_depth": 2147483647,
+    "max_swim_height_delta": 5,
+    "avoid_light": false,
+    "climb_up_options": [
+      {
+        "max_elevation_difference": 5,
+        "move_type": "Walk"
+      }
+    ],
+    "climb_down_options": [
+      {
+        "max_elevation_difference": -5,
+        "move_type": "Walk"
+      }
+    ]
+  },
+  {
+    "id": 1876455160,
+    "can_walk_on_land": false,
+    "can_swim": true,
+    "requires_transitions": false,
+    "min_water_depth": 1,
+    "max_water_depth": 2147483647,
+    "max_swim_height_delta": 5,
+    "avoid_light": false,
+    "climb_up_options": [
+      {
+        "max_elevation_difference": 5,
+        "move_type": "Walk"
+      }
+    ],
+    "climb_down_options": [
+      {
+        "max_elevation_difference": -5,
+        "move_type": "Walk"
+      }
+    ]
+  },
+  {
+    "id": 1375685503,
+    "can_walk_on_land": true,
+    "can_swim": false,
+    "requires_transitions": false,
+    "min_water_depth": 0,
+    "max_water_depth": 0,
+    "max_swim_height_delta": 3,
+    "avoid_light": false,
+    "climb_up_options": [
+      {
+        "max_elevation_difference": 3,
+        "move_type": "Walk"
+      }
+    ],
+    "climb_down_options": [
+      {
+        "max_elevation_difference": -3,
+        "move_type": "Walk"
+      }
+    ]
+  },
+  {
+    "id": 691415579,
+    "can_walk_on_land": false,
+    "can_swim": true,
+    "requires_transitions": false,
+    "min_water_depth": 1,
+    "max_water_depth": 2147483647,
+    "max_swim_height_delta": 10,
+    "avoid_light": false,
+    "climb_up_options": [
+      {
+        "max_elevation_difference": 10,
+        "move_type": "Walk"
+      }
+    ],
+    "climb_down_options": [
+      {
+        "max_elevation_difference": -10,
+        "move_type": "Walk"
+      }
+    ]
+  },
+  {
+    "id": 1281875110,
+    "can_walk_on_land": false,
+    "can_swim": true,
+    "requires_transitions": false,
+    "min_water_depth": 1,
+    "max_water_depth": 2147483647,
+    "max_swim_height_delta": 5,
+    "avoid_light": false,
+    "climb_up_options": [
+      {
+        "max_elevation_difference": 5,
+        "move_type": "Walk"
+      }
+    ],
+    "climb_down_options": [
+      {
+        "max_elevation_difference": -5,
+        "move_type": "Walk"
+      }
+    ]
+  },
+  {
+    "id": 2134736060,
+    "can_walk_on_land": true,
+    "can_swim": false,
+    "requires_transitions": false,
+    "min_water_depth": 0,
+    "max_water_depth": 0,
+    "max_swim_height_delta": 3,
+    "avoid_light": false,
+    "climb_up_options": [
+      {
+        "max_elevation_difference": 3,
+        "move_type": "Walk"
+      }
+    ],
+    "climb_down_options": [
+      {
+        "max_elevation_difference": -3,
+        "move_type": "Walk"
+      }
+    ]
+  },
+  {
+    "id": 1245556794,
+    "can_walk_on_land": false,
+    "can_swim": true,
+    "requires_transitions": false,
+    "min_water_depth": 1,
+    "max_water_depth": 2147483647,
+    "max_swim_height_delta": 5,
+    "avoid_light": false,
+    "climb_up_options": [
+      {
+        "max_elevation_difference": 5,
+        "move_type": "Walk"
+      }
+    ],
+    "climb_down_options": [
+      {
+        "max_elevation_difference": -5,
+        "move_type": "Walk"
+      }
+    ]
+  },
+  {
+    "id": 1166925861,
+    "can_walk_on_land": false,
+    "can_swim": true,
+    "requires_transitions": false,
+    "min_water_depth": 1,
+    "max_water_depth": 2147483647,
+    "max_swim_height_delta": 8,
+    "avoid_light": false,
+    "climb_up_options": [
+      {
+        "max_elevation_difference": 8,
+        "move_type": "Walk"
+      }
+    ],
+    "climb_down_options": [
+      {
+        "max_elevation_difference": -8,
+        "move_type": "Walk"
+      }
+    ]
+  },
+  {
+    "id": 1088877698,
+    "can_walk_on_land": false,
+    "can_swim": true,
+    "requires_transitions": false,
+    "min_water_depth": 1,
+    "max_water_depth": 2147483647,
+    "max_swim_height_delta": 4,
+    "avoid_light": false,
+    "climb_up_options": [
+      {
+        "max_elevation_difference": 4,
+        "move_type": "Walk"
+      }
+    ],
+    "climb_down_options": [
+      {
+        "max_elevation_difference": -4,
+        "move_type": "Walk"
+      }
+    ]
+  },
+  {
+    "id": 1420522971,
+    "can_walk_on_land": true,
+    "can_swim": false,
+    "requires_transitions": false,
+    "min_water_depth": 0,
+    "max_water_depth": 0,
+    "max_swim_height_delta": 3,
+    "avoid_light": false,
+    "climb_up_options": [
+      {
+        "max_elevation_difference": 3,
+        "move_type": "Walk"
+      }
+    ],
+    "climb_down_options": [
+      {
+        "max_elevation_difference": -3,
+        "move_type": "Walk"
+      }
+    ]
+  },
+  {
+    "id": 292566367,
+    "can_walk_on_land": false,
+    "can_swim": true,
+    "requires_transitions": false,
+    "min_water_depth": 1,
+    "max_water_depth": 2147483647,
+    "max_swim_height_delta": 5,
+    "avoid_light": false,
+    "climb_up_options": [
+      {
+        "max_elevation_difference": 5,
+        "move_type": "Walk"
+      }
+    ],
+    "climb_down_options": [
+      {
+        "max_elevation_difference": -5,
+        "move_type": "Walk"
+      }
+    ]
+  },
+  {
+    "id": 1810494375,
+    "can_walk_on_land": true,
+    "can_swim": false,
+    "requires_transitions": false,
+    "min_water_depth": 0,
+    "max_water_depth": 0,
+    "max_swim_height_delta": 3,
+    "avoid_light": false,
+    "climb_up_options": [
+      {
+        "max_elevation_difference": 3,
+        "move_type": "Walk"
+      }
+    ],
+    "climb_down_options": [
+      {
+        "max_elevation_difference": -3,
+        "move_type": "Walk"
+      }
+    ]
+  },
+  {
+    "id": 1939305002,
+    "can_walk_on_land": false,
+    "can_swim": true,
+    "requires_transitions": false,
+    "min_water_depth": 1,
+    "max_water_depth": 2147483647,
+    "max_swim_height_delta": 5,
+    "avoid_light": false,
+    "climb_up_options": [
+      {
+        "max_elevation_difference": 5,
+        "move_type": "Walk"
+      }
+    ],
+    "climb_down_options": [
+      {
+        "max_elevation_difference": -5,
+        "move_type": "Walk"
+      }
+    ]
+  },
+  {
+    "id": 1496395968,
+    "can_walk_on_land": false,
+    "can_swim": true,
+    "requires_transitions": false,
+    "min_water_depth": 1,
+    "max_water_depth": 2147483647,
+    "max_swim_height_delta": 6,
+    "avoid_light": false,
+    "climb_up_options": [
+      {
+        "max_elevation_difference": 6,
+        "move_type": "Walk"
+      }
+    ],
+    "climb_down_options": [
+      {
+        "max_elevation_difference": -6,
+        "move_type": "Walk"
+      }
+    ]
+  },
+  {
+    "id": 780366573,
+    "can_walk_on_land": true,
+    "can_swim": false,
+    "requires_transitions": false,
+    "min_water_depth": 0,
+    "max_water_depth": 0,
+    "max_swim_height_delta": 3,
+    "avoid_light": false,
+    "climb_up_options": [
+      {
+        "max_elevation_difference": 2,
+        "move_type": "Walk"
+      }
+    ],
+    "climb_down_options": [
+      {
+        "max_elevation_difference": -2,
+        "move_type": "Walk"
+      }
+    ]
+  },
+  {
+    "id": 96230270,
+    "can_walk_on_land": false,
+    "can_swim": true,
+    "requires_transitions": false,
+    "min_water_depth": 1,
+    "max_water_depth": 2147483647,
+    "max_swim_height_delta": 5,
+    "avoid_light": false,
+    "climb_up_options": [
+      {
+        "max_elevation_difference": 5,
+        "move_type": "Walk"
+      }
+    ],
+    "climb_down_options": [
+      {
+        "max_elevation_difference": -5,
+        "move_type": "Walk"
+      }
+    ]
+  },
+  {
+    "id": 581410702,
+    "can_walk_on_land": true,
+    "can_swim": false,
+    "requires_transitions": false,
+    "min_water_depth": 0,
+    "max_water_depth": 0,
+    "max_swim_height_delta": 3,
+    "avoid_light": false,
+    "climb_up_options": [
+      {
+        "max_elevation_difference": 3,
+        "move_type": "Walk"
+      }
+    ],
+    "climb_down_options": [
+      {
+        "max_elevation_difference": -3,
+        "move_type": "Walk"
+      }
+    ]
+  },
+  {
+    "id": 757939123,
+    "can_walk_on_land": false,
+    "can_swim": true,
+    "requires_transitions": false,
+    "min_water_depth": 1,
+    "max_water_depth": 2147483647,
+    "max_swim_height_delta": 5,
+    "avoid_light": false,
+    "climb_up_options": [
+      {
+        "max_elevation_difference": 5,
+        "move_type": "Walk"
+      }
+    ],
+    "climb_down_options": [
+      {
+        "max_elevation_difference": -5,
+        "move_type": "Walk"
+      }
+    ]
+  },
+  {
+    "id": 181653602,
+    "can_walk_on_land": false,
+    "can_swim": true,
+    "requires_transitions": false,
+    "min_water_depth": 1,
+    "max_water_depth": 2147483647,
+    "max_swim_height_delta": 9,
+    "avoid_light": false,
+    "climb_up_options": [
+      {
+        "max_elevation_difference": 9,
+        "move_type": "Walk"
+      }
+    ],
+    "climb_down_options": [
+      {
+        "max_elevation_difference": -9,
+        "move_type": "Walk"
+      }
+    ]
+  },
+  {
+    "id": 1109261591,
+    "can_walk_on_land": false,
+    "can_swim": true,
+    "requires_transitions": false,
+    "min_water_depth": 1,
+    "max_water_depth": 2147483647,
+    "max_swim_height_delta": 5,
+    "avoid_light": false,
+    "climb_up_options": [
+      {
+        "max_elevation_difference": 5,
+        "move_type": "Walk"
+      }
+    ],
+    "climb_down_options": [
+      {
+        "max_elevation_difference": -5,
+        "move_type": "Walk"
+      }
+    ]
+  },
+  {
+    "id": 668511654,
+    "can_walk_on_land": true,
+    "can_swim": false,
+    "requires_transitions": false,
+    "min_water_depth": 0,
+    "max_water_depth": 0,
+    "max_swim_height_delta": 6,
+    "avoid_light": false,
+    "climb_up_options": [
+      {
+        "max_elevation_difference": 5,
+        "move_type": "Walk"
+      }
+    ],
+    "climb_down_options": [
+      {
+        "max_elevation_difference": -5,
+        "move_type": "Walk"
+      }
+    ]
+  },
+  {
+    "id": 865980458,
+    "can_walk_on_land": false,
+    "can_swim": true,
+    "requires_transitions": false,
+    "min_water_depth": 1,
+    "max_water_depth": 2147483647,
+    "max_swim_height_delta": 5,
+    "avoid_light": false,
+    "climb_up_options": [
+      {
+        "max_elevation_difference": 5,
+        "move_type": "Walk"
+      }
+    ],
+    "climb_down_options": [
+      {
+        "max_elevation_difference": -5,
+        "move_type": "Walk"
+      }
+    ]
+  },
+  {
+    "id": 516255236,
+    "can_walk_on_land": true,
+    "can_swim": false,
+    "requires_transitions": false,
+    "min_water_depth": 0,
+    "max_water_depth": 0,
+    "max_swim_height_delta": 3,
+    "avoid_light": false,
+    "climb_up_options": [
+      {
+        "max_elevation_difference": 3,
+        "move_type": "Walk"
+      }
+    ],
+    "climb_down_options": [
+      {
+        "max_elevation_difference": -3,
+        "move_type": "Walk"
+      }
+    ]
+  },
+  {
+    "id": 1030168975,
+    "can_walk_on_land": true,
+    "can_swim": false,
+    "requires_transitions": false,
+    "min_water_depth": 0,
+    "max_water_depth": 0,
+    "max_swim_height_delta": 3,
+    "avoid_light": false,
+    "climb_up_options": [
+      {
+        "max_elevation_difference": 2,
+        "move_type": "Walk"
+      }
+    ],
+    "climb_down_options": [
+      {
+        "max_elevation_difference": -2,
+        "move_type": "Walk"
+      }
+    ]
+  },
+  {
+    "id": 1301654297,
+    "can_walk_on_land": true,
+    "can_swim": false,
+    "requires_transitions": false,
+    "min_water_depth": 0,
+    "max_water_depth": 0,
+    "max_swim_height_delta": 6,
+    "avoid_light": false,
+    "climb_up_options": [
+      {
+        "max_elevation_difference": 2,
+        "move_type": "Walk"
+      }
+    ],
+    "climb_down_options": [
+      {
+        "max_elevation_difference": -2,
+        "move_type": "Walk"
+      }
+    ]
+  },
+  {
+    "id": 309954853,
+    "can_walk_on_land": true,
+    "can_swim": false,
+    "requires_transitions": false,
+    "min_water_depth": 0,
+    "max_water_depth": 0,
+    "max_swim_height_delta": 6,
+    "avoid_light": false,
+    "climb_up_options": [
+      {
+        "max_elevation_difference": 5,
+        "move_type": "Walk"
+      }
+    ],
+    "climb_down_options": [
+      {
+        "max_elevation_difference": -5,
+        "move_type": "Walk"
+      }
+    ]
+  }
+]
