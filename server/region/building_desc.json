@@ -8080,12 +8080,12 @@
         3,
         1,
         0,
-        15,
         0,
+        6,
         0,
         0,
         6000,
-        6000,
+        600000,
         0,
         [],
         [],
@@ -8138,7 +8138,7 @@
         3,
         1,
         0,
-        5,
+        9,
         0,
         0,
         0,
@@ -8196,7 +8196,7 @@
         3,
         1,
         0,
-        10,
+        18,
         0,
         0,
         0,
@@ -9756,7 +9756,7 @@
         3,
         1,
         0,
-        5,
+        9,
         0,
         0,
         0,
@@ -10392,7 +10392,7 @@
         3,
         2,
         0,
-        8,
+        12,
         0,
         0,
         0,
@@ -10450,7 +10450,7 @@
         3,
         2,
         0,
-        16,
+        24,
         0,
         0,
         0,
@@ -11904,7 +11904,7 @@
         3,
         2,
         0,
-        8,
+        12,
         0,
         0,
         0,
@@ -12037,7 +12037,7 @@
         2,
         0,
         0,
-        8,
+        12,
         0,
         0,
         6000,
@@ -12320,7 +12320,7 @@
         3,
         3,
         0,
-        10,
+        15,
         0,
         0,
         0,
@@ -12378,7 +12378,7 @@
         3,
         3,
         0,
-        20,
+        30,
         0,
         0,
         0,
@@ -13832,7 +13832,7 @@
         3,
         3,
         0,
-        10,
+        15,
         0,
         0,
         0,
@@ -13965,7 +13965,7 @@
         3,
         0,
         0,
-        12,
+        18,
         0,
         0,
         6000,
@@ -14386,7 +14386,7 @@
         3,
         3,
         0,
-        20,
+        30,
         0,
         0,
         0,
@@ -14598,7 +14598,7 @@
         3,
         4,
         0,
-        12,
+        18,
         0,
         0,
         0,
@@ -14656,7 +14656,7 @@
         3,
         4,
         0,
-        24,
+        36,
         0,
         0,
         0,
@@ -16110,7 +16110,7 @@
         3,
         4,
         0,
-        12,
+        18,
         0,
         0,
         0,
@@ -16243,7 +16243,7 @@
         4,
         0,
         0,
-        16,
+        24,
         0,
         0,
         6000,
@@ -16590,7 +16590,7 @@
         3,
         5,
         0,
-        14,
+        21,
         0,
         0,
         0,
@@ -16648,7 +16648,7 @@
         3,
         5,
         0,
-        28,
+        42,
         0,
         0,
         0,
@@ -18238,7 +18238,7 @@
         3,
         5,
         0,
-        14,
+        21,
         0,
         0,
         0,
@@ -18371,7 +18371,7 @@
         5,
         0,
         0,
-        20,
+        30,
         0,
         0,
         6000,
@@ -18978,7 +18978,7 @@
         3,
         6,
         0,
-        16,
+        24,
         0,
         0,
         0,
@@ -19036,7 +19036,7 @@
         3,
         6,
         0,
-        32,
+        48,
         0,
         0,
         0,
@@ -20634,7 +20634,7 @@
         3,
         6,
         0,
-        16,
+        24,
         0,
         0,
         0,
@@ -20767,7 +20767,7 @@
         6,
         0,
         0,
-        24,
+        36,
         0,
         0,
         6000,
@@ -37502,6 +37502,80 @@
     ],
     "has_action": false,
     "show_in_compendium": false,
+    "is_ruins": false,
+    "not_deconstructible": false
+  },
+  {
+    "id": 182258364,
+    "functions": [
+      [
+        1002,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6000,
+        6000,
+        0,
+        [],
+        [],
+        0,
+        false,
+        0,
+        0
+      ]
+    ],
+    "name": "Wicker Carpet",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/DecoWickerRug2",
+    "icon_asset_name": "GeneratedIcons/Other/Buildings/Storage/WickerBasket",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          1,
+          []
+        ]
+      ],
+      [
+        1,
+        -1,
+        [
+          1,
+          []
+        ]
+      ],
+      [
+        -1,
+        1,
+        [
+          1,
+          []
+        ]
+      ]
+    ],
+    "max_health": -1,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 0.0,
+    "maintenance": 0.0,
+    "build_permission": [
+      1,
+      {}
+    ],
+    "interact_permission": [
+      1,
+      {}
+    ],
+    "has_action": true,
+    "show_in_compendium": true,
     "is_ruins": false,
     "not_deconstructible": false
   },
@@ -54544,6 +54618,64 @@
     "not_deconstructible": false
   },
   {
+    "id": 350733880,
+    "functions": [
+      [
+        1002,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6000,
+        6000,
+        0,
+        [],
+        [],
+        0,
+        false,
+        0,
+        0
+      ]
+    ],
+    "name": "Wicker Floor Plant",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/DecoWickerPot1",
+    "icon_asset_name": "GeneratedIcons/Other/Buildings/Storage/WickerBasket",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          0,
+          []
+        ]
+      ]
+    ],
+    "max_health": -1,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 0.0,
+    "maintenance": 0.0,
+    "build_permission": [
+      1,
+      {}
+    ],
+    "interact_permission": [
+      1,
+      {}
+    ],
+    "has_action": true,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false
+  },
+  {
     "id": 352466296,
     "functions": [],
     "name": "Tailoring Banner",
@@ -64739,7 +64871,7 @@
         3,
         8,
         0,
-        20,
+        30,
         0,
         0,
         0,
@@ -64826,6 +64958,64 @@
     ],
     "has_action": false,
     "show_in_compendium": false,
+    "is_ruins": false,
+    "not_deconstructible": false
+  },
+  {
+    "id": 544811609,
+    "functions": [
+      [
+        1002,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6000,
+        6000,
+        0,
+        [],
+        [],
+        0,
+        false,
+        0,
+        0
+      ]
+    ],
+    "name": "Wicker Table",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/DecoWickerTable",
+    "icon_asset_name": "GeneratedIcons/Other/Buildings/Storage/WickerBasket",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          0,
+          []
+        ]
+      ]
+    ],
+    "max_health": -1,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 0.0,
+    "maintenance": 0.0,
+    "build_permission": [
+      1,
+      {}
+    ],
+    "interact_permission": [
+      1,
+      {}
+    ],
+    "has_action": true,
+    "show_in_compendium": true,
     "is_ruins": false,
     "not_deconstructible": false
   },
@@ -65097,6 +65287,104 @@
     ],
     "interact_permission": [
       3,
+      {}
+    ],
+    "has_action": true,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false
+  },
+  {
+    "id": 594989789,
+    "functions": [
+      [
+        1002,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6000,
+        6000,
+        0,
+        [],
+        [],
+        0,
+        false,
+        0,
+        0
+      ]
+    ],
+    "name": "Wicker Hide Rug",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/DecoWickerRug3",
+    "icon_asset_name": "GeneratedIcons/Other/Buildings/Storage/WickerBasket",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        0,
+        -1,
+        [
+          1,
+          []
+        ]
+      ],
+      [
+        1,
+        -1,
+        [
+          1,
+          []
+        ]
+      ],
+      [
+        1,
+        0,
+        [
+          1,
+          []
+        ]
+      ],
+      [
+        -1,
+        0,
+        [
+          1,
+          []
+        ]
+      ],
+      [
+        0,
+        1,
+        [
+          1,
+          []
+        ]
+      ]
+    ],
+    "max_health": -1,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 0.0,
+    "maintenance": 0.0,
+    "build_permission": [
+      1,
+      {}
+    ],
+    "interact_permission": [
+      1,
       {}
     ],
     "has_action": true,
@@ -65381,7 +65669,7 @@
         3,
         10,
         0,
-        25,
+        36,
         0,
         0,
         0,
@@ -67246,6 +67534,176 @@
     "not_deconstructible": false
   },
   {
+    "id": 817103824,
+    "functions": [
+      [
+        4,
+        10,
+        0,
+        0,
+        60,
+        0,
+        0,
+        6000,
+        600000,
+        0,
+        [],
+        [],
+        0,
+        false,
+        0,
+        0
+      ]
+    ],
+    "name": "Flawless Stockpile",
+    "description": "An area to store cargo.",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/T6_Building_Stockpile",
+    "icon_asset_name": "GeneratedIcons/Other/Buildings/Stockpile/StockpileLargeT6",
+    "unenterable": false,
+    "wilderness": true,
+    "footprint": [
+      [
+        0,
+        -1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        -1,
+        0,
+        [
+          1,
+          []
+        ]
+      ],
+      [
+        -1,
+        1,
+        [
+          1,
+          []
+        ]
+      ],
+      [
+        0,
+        1,
+        [
+          1,
+          []
+        ]
+      ],
+      [
+        1,
+        0,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        1,
+        1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        -1,
+        -1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        1,
+        -1,
+        [
+          1,
+          []
+        ]
+      ],
+      [
+        0,
+        0,
+        [
+          1,
+          []
+        ]
+      ],
+      [
+        -1,
+        2,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        -2,
+        1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        -2,
+        2,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        -2,
+        0,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        2,
+        -1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        1,
+        -2,
+        [
+          0,
+          []
+        ]
+      ]
+    ],
+    "max_health": 120,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 1.0,
+    "maintenance": 0.0,
+    "build_permission": [
+      1,
+      {}
+    ],
+    "interact_permission": [
+      1,
+      {}
+    ],
+    "has_action": true,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false
+  },
+  {
     "id": 817510734,
     "functions": [],
     "name": "TownDecorTownRuinsHexPillar3",
@@ -67561,7 +68019,7 @@
         3,
         7,
         0,
-        18,
+        27,
         0,
         0,
         0,
@@ -70147,6 +70605,64 @@
     "show_in_compendium": false,
     "is_ruins": false,
     "not_deconstructible": false
+  },
+  {
+    "id": 1005598626,
+    "functions": [
+      [
+        999,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6000,
+        6000,
+        0,
+        [],
+        [],
+        0,
+        false,
+        0,
+        0
+      ]
+    ],
+    "name": "Player House Interior 2",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/Stairs",
+    "icon_asset_name": "GeneratedIcons/Other/Buildings/Enterable/EnterableT4Small",
+    "unenterable": false,
+    "wilderness": true,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          1,
+          []
+        ]
+      ]
+    ],
+    "max_health": -1,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 1.0,
+    "maintenance": 0.0,
+    "build_permission": [
+      1,
+      {}
+    ],
+    "interact_permission": [
+      1,
+      {}
+    ],
+    "has_action": true,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": true
   },
   {
     "id": 1008368350,
@@ -74900,6 +75416,64 @@
     "not_deconstructible": false
   },
   {
+    "id": 1037035044,
+    "functions": [
+      [
+        1002,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6000,
+        6000,
+        0,
+        [],
+        [],
+        0,
+        false,
+        0,
+        0
+      ]
+    ],
+    "name": "Wicker Hanging Plant",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/DecoWickerHangingPot1",
+    "icon_asset_name": "GeneratedIcons/Other/Buildings/Storage/WickerBasket",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          1,
+          []
+        ]
+      ]
+    ],
+    "max_health": -1,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 0.0,
+    "maintenance": 0.0,
+    "build_permission": [
+      1,
+      {}
+    ],
+    "interact_permission": [
+      1,
+      {}
+    ],
+    "has_action": true,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false
+  },
+  {
     "id": 1043599562,
     "functions": [
       [
@@ -76807,10 +77381,10 @@
     "functions": [
       [
         4,
-        6,
+        8,
         0,
         0,
-        24,
+        48,
         0,
         0,
         6000,
@@ -77235,14 +77809,14 @@
     "id": 1150881059,
     "functions": [
       [
-        3,
+        1002,
         1,
         0,
-        15,
         0,
         0,
         0,
-        60000,
+        0,
+        6000,
         6000,
         0,
         [],
@@ -77253,25 +77827,17 @@
         0
       ]
     ],
-    "name": "Wicker Cabinet",
-    "description": "A small cabinet for storage, can only be built inside",
+    "name": "Wicker Chair",
+    "description": "",
     "rested_buff_duration": 0,
     "light_radius": 0,
-    "model_asset_name": "Buildings/WickerCabinet",
+    "model_asset_name": "Buildings/DecoWickerChair3",
     "icon_asset_name": "GeneratedIcons/Other/Buildings/Storage/WickerBasket",
     "unenterable": true,
     "wilderness": true,
     "footprint": [
       [
         0,
-        0,
-        [
-          0,
-          []
-        ]
-      ],
-      [
-        1,
         0,
         [
           0,
@@ -78714,10 +79280,10 @@
     "functions": [
       [
         4,
-        6,
+        7,
         0,
         0,
-        21,
+        42,
         0,
         0,
         6000,
@@ -80272,7 +80838,7 @@
         3,
         9,
         0,
-        44,
+        66,
         0,
         0,
         0,
@@ -80332,13 +80898,71 @@
     "not_deconstructible": false
   },
   {
+    "id": 1369848538,
+    "functions": [
+      [
+        1002,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6000,
+        6000,
+        0,
+        [],
+        [],
+        0,
+        false,
+        0,
+        0
+      ]
+    ],
+    "name": "Wicker Stool",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/DecoWickerChar2",
+    "icon_asset_name": "GeneratedIcons/Other/Buildings/Storage/WickerBasket",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          0,
+          []
+        ]
+      ]
+    ],
+    "max_health": -1,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 0.0,
+    "maintenance": 0.0,
+    "build_permission": [
+      1,
+      {}
+    ],
+    "interact_permission": [
+      1,
+      {}
+    ],
+    "has_action": true,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false
+  },
+  {
     "id": 1373745156,
     "functions": [
       [
         3,
         9,
         0,
-        22,
+        33,
         0,
         0,
         0,
@@ -81739,6 +82363,112 @@
     ],
     "has_action": false,
     "show_in_compendium": false,
+    "is_ruins": false,
+    "not_deconstructible": false
+  },
+  {
+    "id": 1448089378,
+    "functions": [
+      [
+        1002,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6000,
+        6000,
+        0,
+        [],
+        [],
+        0,
+        false,
+        0,
+        0
+      ]
+    ],
+    "name": "Wicker Rug",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/DecoWickerRug1",
+    "icon_asset_name": "GeneratedIcons/Other/Buildings/Storage/WickerBasket",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          1,
+          []
+        ]
+      ],
+      [
+        0,
+        -1,
+        [
+          1,
+          []
+        ]
+      ],
+      [
+        -1,
+        0,
+        [
+          1,
+          []
+        ]
+      ],
+      [
+        -1,
+        1,
+        [
+          1,
+          []
+        ]
+      ],
+      [
+        0,
+        1,
+        [
+          1,
+          []
+        ]
+      ],
+      [
+        1,
+        0,
+        [
+          1,
+          []
+        ]
+      ],
+      [
+        1,
+        -1,
+        [
+          1,
+          []
+        ]
+      ]
+    ],
+    "max_health": -1,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 0.0,
+    "maintenance": 0.0,
+    "build_permission": [
+      1,
+      {}
+    ],
+    "interact_permission": [
+      1,
+      {}
+    ],
+    "has_action": true,
+    "show_in_compendium": true,
     "is_ruins": false,
     "not_deconstructible": false
   },
@@ -86742,7 +87472,7 @@
         3,
         7,
         0,
-        18,
+        27,
         0,
         0,
         0,
@@ -96877,7 +97607,7 @@
         3,
         8,
         0,
-        20,
+        30,
         0,
         0,
         0,
@@ -106930,6 +107660,234 @@
     "not_deconstructible": true
   },
   {
+    "id": 1845470819,
+    "functions": [
+      [
+        4,
+        9,
+        0,
+        0,
+        54,
+        0,
+        0,
+        6000,
+        600000,
+        0,
+        [],
+        [],
+        0,
+        false,
+        0,
+        0
+      ]
+    ],
+    "name": "Magnificient Stockpile",
+    "description": "An area to store cargo.",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/T6_Building_Stockpile",
+    "icon_asset_name": "GeneratedIcons/Other/Buildings/Stockpile/StockpileLargeT6",
+    "unenterable": false,
+    "wilderness": true,
+    "footprint": [
+      [
+        0,
+        -1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        -1,
+        0,
+        [
+          1,
+          []
+        ]
+      ],
+      [
+        -1,
+        1,
+        [
+          1,
+          []
+        ]
+      ],
+      [
+        0,
+        1,
+        [
+          1,
+          []
+        ]
+      ],
+      [
+        1,
+        0,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        1,
+        1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        -1,
+        -1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        1,
+        -1,
+        [
+          1,
+          []
+        ]
+      ],
+      [
+        0,
+        0,
+        [
+          1,
+          []
+        ]
+      ],
+      [
+        -1,
+        2,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        -2,
+        1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        -2,
+        2,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        -2,
+        0,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        2,
+        -1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        1,
+        -2,
+        [
+          0,
+          []
+        ]
+      ]
+    ],
+    "max_health": 120,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 1.0,
+    "maintenance": 0.0,
+    "build_permission": [
+      1,
+      {}
+    ],
+    "interact_permission": [
+      1,
+      {}
+    ],
+    "has_action": true,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false
+  },
+  {
+    "id": 1845898524,
+    "functions": [
+      [
+        999,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6000,
+        6000,
+        0,
+        [],
+        [],
+        0,
+        false,
+        0,
+        0
+      ]
+    ],
+    "name": "Doorway",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/InvisiblePortal",
+    "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Other/Buildings/ExitInterior",
+    "unenterable": false,
+    "wilderness": true,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          1,
+          []
+        ]
+      ]
+    ],
+    "max_health": -1,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 0.0,
+    "maintenance": 0.0,
+    "build_permission": [
+      0,
+      {}
+    ],
+    "interact_permission": [
+      3,
+      {}
+    ],
+    "has_action": true,
+    "show_in_compendium": false,
+    "is_ruins": false,
+    "not_deconstructible": true
+  },
+  {
     "id": 1848265457,
     "functions": [],
     "name": "RuinDecorMuralWallA7Broken",
@@ -107147,7 +108105,7 @@
         3,
         9,
         0,
-        22,
+        33,
         0,
         0,
         0,
@@ -107777,6 +108735,64 @@
     "not_deconstructible": false
   },
   {
+    "id": 1899627609,
+    "functions": [
+      [
+        999,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6000,
+        6000,
+        0,
+        [],
+        [],
+        0,
+        false,
+        0,
+        0
+      ]
+    ],
+    "name": "Player House Interior 3",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/Stairs",
+    "icon_asset_name": "GeneratedIcons/Other/Buildings/Enterable/EnterableT4Small",
+    "unenterable": false,
+    "wilderness": true,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          1,
+          []
+        ]
+      ]
+    ],
+    "max_health": -1,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 1.0,
+    "maintenance": 0.0,
+    "build_permission": [
+      1,
+      {}
+    ],
+    "interact_permission": [
+      1,
+      {}
+    ],
+    "has_action": true,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": true
+  },
+  {
     "id": 1900725047,
     "functions": [
       [
@@ -107963,7 +108979,7 @@
         3,
         10,
         0,
-        50,
+        72,
         0,
         0,
         0,
@@ -108790,6 +109806,80 @@
     "ignore_damage": false,
     "defense_level": 10000,
     "decay": 1.0,
+    "maintenance": 0.0,
+    "build_permission": [
+      1,
+      {}
+    ],
+    "interact_permission": [
+      1,
+      {}
+    ],
+    "has_action": true,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false
+  },
+  {
+    "id": 1987048521,
+    "functions": [
+      [
+        1002,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6000,
+        6000,
+        0,
+        [],
+        [],
+        0,
+        false,
+        0,
+        0
+      ]
+    ],
+    "name": "Wicker Bed",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/DecoWickerBed",
+    "icon_asset_name": "GeneratedIcons/Other/Buildings/Storage/WickerBasket",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        0,
+        -1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        0,
+        1,
+        [
+          0,
+          []
+        ]
+      ]
+    ],
+    "max_health": -1,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 0.0,
     "maintenance": 0.0,
     "build_permission": [
       1,
@@ -110772,7 +111862,7 @@
         3,
         7,
         0,
-        36,
+        54,
         0,
         0,
         0,
@@ -115218,6 +116308,80 @@
     "not_deconstructible": false
   },
   {
+    "id": 2045003491,
+    "functions": [
+      [
+        127749503,
+        1,
+        20,
+        0,
+        0,
+        0,
+        0,
+        6000,
+        6000,
+        0,
+        [],
+        [],
+        1,
+        false,
+        0,
+        0
+      ]
+    ],
+    "name": "Scrapper's Workbench",
+    "description": "A workstation where you can use scrap to attempt to upgrade your tools.",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/ScrapBench",
+    "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Other/Buildings/Crafting/AncientCarpentryWorkstation",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      [
+        1,
+        0,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        0,
+        0,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        1,
+        1,
+        [
+          0,
+          []
+        ]
+      ]
+    ],
+    "max_health": 120,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 1.0,
+    "maintenance": 0.0,
+    "build_permission": [
+      1,
+      {}
+    ],
+    "interact_permission": [
+      3,
+      {}
+    ],
+    "has_action": true,
+    "show_in_compendium": false,
+    "is_ruins": false,
+    "not_deconstructible": false
+  },
+  {
     "id": 2045589064,
     "functions": [
       [
@@ -115382,6 +116546,130 @@
     ],
     "interact_permission": [
       3,
+      {}
+    ],
+    "has_action": true,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false
+  },
+  {
+    "id": 2057418039,
+    "functions": [
+      [
+        3,
+        1,
+        0,
+        30,
+        0,
+        0,
+        0,
+        60000,
+        6000,
+        0,
+        [],
+        [],
+        0,
+        false,
+        0,
+        0
+      ]
+    ],
+    "name": "Wicker Cabinet",
+    "description": "A small cabinet for storage, can only be built inside",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/WickerCabinet",
+    "icon_asset_name": "GeneratedIcons/Other/Buildings/Storage/WickerBasket",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        1,
+        0,
+        [
+          0,
+          []
+        ]
+      ]
+    ],
+    "max_health": -1,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 0.0,
+    "maintenance": 0.0,
+    "build_permission": [
+      1,
+      {}
+    ],
+    "interact_permission": [
+      1,
+      {}
+    ],
+    "has_action": true,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false
+  },
+  {
+    "id": 2062702457,
+    "functions": [
+      [
+        1002,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6000,
+        6000,
+        0,
+        [],
+        [],
+        0,
+        false,
+        0,
+        0
+      ]
+    ],
+    "name": "Wicker Desk",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/DecoWickerDesk",
+    "icon_asset_name": "GeneratedIcons/Other/Buildings/Storage/WickerBasket",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          0,
+          []
+        ]
+      ]
+    ],
+    "max_health": -1,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 0.0,
+    "maintenance": 0.0,
+    "build_permission": [
+      1,
+      {}
+    ],
+    "interact_permission": [
+      1,
       {}
     ],
     "has_action": true,
@@ -123370,7 +124658,7 @@
         3,
         8,
         0,
-        40,
+        60,
         0,
         0,
         0,
@@ -124171,7 +125459,7 @@
         3,
         10,
         0,
-        25,
+        36,
         0,
         0,
         0,

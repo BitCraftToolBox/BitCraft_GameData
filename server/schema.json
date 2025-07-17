@@ -43709,6 +43709,19 @@
       "indexes": [
         {
           "name": {
+            "some": "player_housing_evict_player_timer_player_entity_id_idx_btree"
+          },
+          "accessor_name": {
+            "some": "player_entity_id"
+          },
+          "algorithm": {
+            "BTree": [
+              3
+            ]
+          }
+        },
+        {
+          "name": {
             "some": "player_housing_evict_player_timer_scheduled_id_idx_btree"
           },
           "accessor_name": {
@@ -43766,7 +43779,7 @@
         "User": []
       },
       "table_access": {
-        "Private": []
+        "Public": []
       }
     },
     {
