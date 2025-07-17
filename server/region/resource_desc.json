@@ -12958,6 +12958,34 @@
     "not_respawning": false
   },
   {
+    "id": 715451185,
+    "name": "Blueberry Bush",
+    "description": "",
+    "flattenable": true,
+    "max_health": 5000,
+    "ignore_damage": false,
+    "despawn_time": 0.0,
+    "model_asset_name": "Resources/BlueberryBush",
+    "icon_asset_name": "GeneratedIcons/Other/JuniperBerryBush",
+    "on_destroy_yield": [],
+    "on_destroy_yield_resource_id": 0,
+    "spawn_priority": 2,
+    "footprint": [
+      {
+        "x": 0,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      }
+    ],
+    "tier": 4,
+    "tag": "Berry",
+    "rarity": "Common",
+    "compendium_entry": true,
+    "enemy_params_id": [],
+    "scheduled_respawn_time": 7200.0,
+    "not_respawning": false
+  },
+  {
     "id": 21,
     "name": "Mature Oak Tree",
     "description": "",
@@ -24415,34 +24443,6 @@
     "compendium_entry": true,
     "enemy_params_id": [],
     "scheduled_respawn_time": 600.0,
-    "not_respawning": false
-  },
-  {
-    "id": 715451185,
-    "name": "Blueberry Bush",
-    "description": "",
-    "flattenable": true,
-    "max_health": 5000,
-    "ignore_damage": false,
-    "despawn_time": 0.0,
-    "model_asset_name": "Resources/BlueberryBush",
-    "icon_asset_name": "GeneratedIcons/Other/JuniperBerryBush",
-    "on_destroy_yield": [],
-    "on_destroy_yield_resource_id": 0,
-    "spawn_priority": 1,
-    "footprint": [
-      {
-        "x": 0,
-        "z": 0,
-        "footprint_type": "Hitbox"
-      }
-    ],
-    "tier": 4,
-    "tag": "Berry",
-    "rarity": "Common",
-    "compendium_entry": true,
-    "enemy_params_id": [],
-    "scheduled_respawn_time": 7200.0,
     "not_respawning": false
   },
   {

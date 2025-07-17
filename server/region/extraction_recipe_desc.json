@@ -2640,23 +2640,32 @@
     "recipe_performance_id": 1
   },
   {
-    "id": 885026581,
-    "resource_id": 1691492474,
+    "id": 625806020,
+    "resource_id": 464034838,
     "cargo_id": 0,
     "discovery_triggers": [],
     "required_knowledges": [],
     "time_requirement": 1.6,
-    "stamina_requirement": 1.28,
+    "stamina_requirement": 0.89,
     "tool_durability_lost": 0,
     "extracted_item_stacks": [
       {
         "item_stack": {
-          "item_id": 247059400,
+          "item_id": 1854175100,
           "quantity": 1,
           "item_type": "Item",
           "durability": 0
         },
-        "probability": 0.02044
+        "probability": 0.02941
+      },
+      {
+        "item_stack": {
+          "item_id": 732153593,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        },
+        "probability": 1.25E-05
       }
     ],
     "consumed_item_stacks": [],
@@ -2664,7 +2673,7 @@
     "tool_requirements": [
       {
         "tool_type": 12,
-        "level": 5,
+        "level": 2,
         "power": 1
       }
     ],
@@ -2672,13 +2681,13 @@
     "level_requirements": [
       {
         "skill_id": 14,
-        "level": 50
+        "level": 20
       }
     ],
     "experience_per_progress": [
       {
         "skill_id": 14,
-        "quantity": 1.75
+        "quantity": 1.375
       }
     ],
     "verb_phrase": "Dig",
@@ -2732,23 +2741,32 @@
     "recipe_performance_id": 725
   },
   {
-    "id": 1357469578,
-    "resource_id": 1180909566,
+    "id": 1643523237,
+    "resource_id": 541862086,
     "cargo_id": 0,
     "discovery_triggers": [],
     "required_knowledges": [],
     "time_requirement": 1.6,
-    "stamina_requirement": 1.03,
+    "stamina_requirement": 1.16,
     "tool_durability_lost": 0,
     "extracted_item_stacks": [
       {
         "item_stack": {
-          "item_id": 1638186849,
+          "item_id": 2110425560,
           "quantity": 1,
           "item_type": "Item",
           "durability": 0
         },
-        "probability": 0.02553
+        "probability": 0.02266
+      },
+      {
+        "item_stack": {
+          "item_id": 732153593,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        },
+        "probability": 1.25E-05
       }
     ],
     "consumed_item_stacks": [],
@@ -2756,7 +2774,7 @@
     "tool_requirements": [
       {
         "tool_type": 12,
-        "level": 3,
+        "level": 4,
         "power": 1
       }
     ],
@@ -2764,13 +2782,13 @@
     "level_requirements": [
       {
         "skill_id": 14,
-        "level": 30
+        "level": 40
       }
     ],
     "experience_per_progress": [
       {
         "skill_id": 14,
-        "quantity": 1.5
+        "quantity": 1.625
       }
     ],
     "verb_phrase": "Dig",
@@ -3226,6 +3244,15 @@
           "durability": 0
         },
         "probability": 0.01867
+      },
+      {
+        "item_stack": {
+          "item_id": 732153593,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        },
+        "probability": 1.25E-05
       }
     ],
     "consumed_item_stacks": [],
@@ -4667,23 +4694,32 @@
     "recipe_performance_id": 632
   },
   {
-    "id": 76713978,
-    "resource_id": 1333270269,
+    "id": 885026581,
+    "resource_id": 1691492474,
     "cargo_id": 0,
     "discovery_triggers": [],
     "required_knowledges": [],
     "time_requirement": 1.6,
-    "stamina_requirement": 1.86,
+    "stamina_requirement": 1.28,
     "tool_durability_lost": 0,
     "extracted_item_stacks": [
       {
         "item_stack": {
-          "item_id": 2095311627,
+          "item_id": 247059400,
           "quantity": 1,
           "item_type": "Item",
           "durability": 0
         },
-        "probability": 0.01408
+        "probability": 0.02044
+      },
+      {
+        "item_stack": {
+          "item_id": 732153593,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        },
+        "probability": 1.25E-05
       }
     ],
     "consumed_item_stacks": [],
@@ -4691,7 +4727,7 @@
     "tool_requirements": [
       {
         "tool_type": 12,
-        "level": 10,
+        "level": 5,
         "power": 1
       }
     ],
@@ -4699,13 +4735,13 @@
     "level_requirements": [
       {
         "skill_id": 14,
-        "level": 100
+        "level": 50
       }
     ],
     "experience_per_progress": [
       {
         "skill_id": 14,
-        "quantity": 2.375
+        "quantity": 1.75
       }
     ],
     "verb_phrase": "Dig",
@@ -6189,52 +6225,6 @@
     "verb_phrase": "Mine",
     "tool_mesh_index": 0,
     "recipe_performance_id": 975
-  },
-  {
-    "id": 1643523237,
-    "resource_id": 541862086,
-    "cargo_id": 0,
-    "discovery_triggers": [],
-    "required_knowledges": [],
-    "time_requirement": 1.6,
-    "stamina_requirement": 1.16,
-    "tool_durability_lost": 0,
-    "extracted_item_stacks": [
-      {
-        "item_stack": {
-          "item_id": 2110425560,
-          "quantity": 1,
-          "item_type": "Item",
-          "durability": 0
-        },
-        "probability": 0.02266
-      }
-    ],
-    "consumed_item_stacks": [],
-    "range": 1,
-    "tool_requirements": [
-      {
-        "tool_type": 12,
-        "level": 4,
-        "power": 1
-      }
-    ],
-    "allow_use_hands": false,
-    "level_requirements": [
-      {
-        "skill_id": 14,
-        "level": 40
-      }
-    ],
-    "experience_per_progress": [
-      {
-        "skill_id": 14,
-        "quantity": 1.625
-      }
-    ],
-    "verb_phrase": "Dig",
-    "tool_mesh_index": 1,
-    "recipe_performance_id": 641
   },
   {
     "id": 144,
@@ -8850,52 +8840,6 @@
     "recipe_performance_id": 632
   },
   {
-    "id": 583358138,
-    "resource_id": 562432497,
-    "cargo_id": 0,
-    "discovery_triggers": [],
-    "required_knowledges": [],
-    "time_requirement": 1.6,
-    "stamina_requirement": 1.75,
-    "tool_durability_lost": 0,
-    "extracted_item_stacks": [
-      {
-        "item_stack": {
-          "item_id": 1175301043,
-          "quantity": 1,
-          "item_type": "Item",
-          "durability": 0
-        },
-        "probability": 0.01497
-      }
-    ],
-    "consumed_item_stacks": [],
-    "range": 1,
-    "tool_requirements": [
-      {
-        "tool_type": 12,
-        "level": 9,
-        "power": 1
-      }
-    ],
-    "allow_use_hands": false,
-    "level_requirements": [
-      {
-        "skill_id": 14,
-        "level": 90
-      }
-    ],
-    "experience_per_progress": [
-      {
-        "skill_id": 14,
-        "quantity": 2.25
-      }
-    ],
-    "verb_phrase": "Dig",
-    "tool_mesh_index": 1,
-    "recipe_performance_id": 641
-  },
-  {
     "id": 5,
     "resource_id": 5,
     "cargo_id": 0,
@@ -10739,23 +10683,32 @@
     "recipe_performance_id": 777
   },
   {
-    "id": 625806020,
-    "resource_id": 464034838,
+    "id": 2083012478,
+    "resource_id": 457752715,
     "cargo_id": 0,
     "discovery_triggers": [],
     "required_knowledges": [],
     "time_requirement": 1.6,
-    "stamina_requirement": 0.89,
+    "stamina_requirement": 1.64,
     "tool_durability_lost": 0,
     "extracted_item_stacks": [
       {
         "item_stack": {
-          "item_id": 1854175100,
+          "item_id": 500129057,
           "quantity": 1,
           "item_type": "Item",
           "durability": 0
         },
-        "probability": 0.02941
+        "probability": 0.016
+      },
+      {
+        "item_stack": {
+          "item_id": 732153593,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        },
+        "probability": 1.25E-05
       }
     ],
     "consumed_item_stacks": [],
@@ -10763,7 +10716,7 @@
     "tool_requirements": [
       {
         "tool_type": 12,
-        "level": 2,
+        "level": 8,
         "power": 1
       }
     ],
@@ -10771,13 +10724,13 @@
     "level_requirements": [
       {
         "skill_id": 14,
-        "level": 20
+        "level": 80
       }
     ],
     "experience_per_progress": [
       {
         "skill_id": 14,
-        "quantity": 1.375
+        "quantity": 2.125
       }
     ],
     "verb_phrase": "Dig",
@@ -10991,23 +10944,32 @@
     "recipe_performance_id": 632
   },
   {
-    "id": 795125398,
-    "resource_id": 1332535555,
+    "id": 583358138,
+    "resource_id": 562432497,
     "cargo_id": 0,
     "discovery_triggers": [],
     "required_knowledges": [],
     "time_requirement": 1.6,
-    "stamina_requirement": 1.52,
+    "stamina_requirement": 1.75,
     "tool_durability_lost": 0,
     "extracted_item_stacks": [
       {
         "item_stack": {
-          "item_id": 1386206302,
+          "item_id": 1175301043,
           "quantity": 1,
           "item_type": "Item",
           "durability": 0
         },
-        "probability": 0.01722
+        "probability": 0.01497
+      },
+      {
+        "item_stack": {
+          "item_id": 732153593,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        },
+        "probability": 1.25E-05
       }
     ],
     "consumed_item_stacks": [],
@@ -11015,7 +10977,7 @@
     "tool_requirements": [
       {
         "tool_type": 12,
-        "level": 7,
+        "level": 9,
         "power": 1
       }
     ],
@@ -11023,13 +10985,13 @@
     "level_requirements": [
       {
         "skill_id": 14,
-        "level": 70
+        "level": 90
       }
     ],
     "experience_per_progress": [
       {
         "skill_id": 14,
-        "quantity": 2.0
+        "quantity": 2.25
       }
     ],
     "verb_phrase": "Dig",
@@ -12799,23 +12761,32 @@
     "recipe_performance_id": 632
   },
   {
-    "id": 2083012478,
-    "resource_id": 457752715,
+    "id": 76713978,
+    "resource_id": 1333270269,
     "cargo_id": 0,
     "discovery_triggers": [],
     "required_knowledges": [],
     "time_requirement": 1.6,
-    "stamina_requirement": 1.64,
+    "stamina_requirement": 1.86,
     "tool_durability_lost": 0,
     "extracted_item_stacks": [
       {
         "item_stack": {
-          "item_id": 500129057,
+          "item_id": 2095311627,
           "quantity": 1,
           "item_type": "Item",
           "durability": 0
         },
-        "probability": 0.016
+        "probability": 0.01408
+      },
+      {
+        "item_stack": {
+          "item_id": 732153593,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        },
+        "probability": 1.25E-05
       }
     ],
     "consumed_item_stacks": [],
@@ -12823,7 +12794,7 @@
     "tool_requirements": [
       {
         "tool_type": 12,
-        "level": 8,
+        "level": 10,
         "power": 1
       }
     ],
@@ -12831,13 +12802,13 @@
     "level_requirements": [
       {
         "skill_id": 14,
-        "level": 80
+        "level": 100
       }
     ],
     "experience_per_progress": [
       {
         "skill_id": 14,
-        "quantity": 2.125
+        "quantity": 2.375
       }
     ],
     "verb_phrase": "Dig",
@@ -13928,23 +13899,32 @@
     "recipe_performance_id": 650
   },
   {
-    "id": 1686518947,
-    "resource_id": 204021372,
+    "id": 1357469578,
+    "resource_id": 1180909566,
     "cargo_id": 0,
     "discovery_triggers": [],
     "required_knowledges": [],
     "time_requirement": 1.6,
-    "stamina_requirement": 0.75,
+    "stamina_requirement": 1.03,
     "tool_durability_lost": 0,
     "extracted_item_stacks": [
       {
         "item_stack": {
-          "item_id": 1990669797,
+          "item_id": 1638186849,
           "quantity": 1,
           "item_type": "Item",
           "durability": 0
         },
-        "probability": 0.035
+        "probability": 0.02553
+      },
+      {
+        "item_stack": {
+          "item_id": 732153593,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        },
+        "probability": 1.25E-05
       }
     ],
     "consumed_item_stacks": [],
@@ -13952,7 +13932,7 @@
     "tool_requirements": [
       {
         "tool_type": 12,
-        "level": 1,
+        "level": 3,
         "power": 1
       }
     ],
@@ -13960,13 +13940,13 @@
     "level_requirements": [
       {
         "skill_id": 14,
-        "level": 1
+        "level": 30
       }
     ],
     "experience_per_progress": [
       {
         "skill_id": 14,
-        "quantity": 1.25
+        "quantity": 1.5
       }
     ],
     "verb_phrase": "Dig",
@@ -19045,5 +19025,115 @@
     "verb_phrase": "Gather",
     "tool_mesh_index": 0,
     "recipe_performance_id": 632
+  },
+  {
+    "id": 795125398,
+    "resource_id": 1332535555,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "time_requirement": 1.6,
+    "stamina_requirement": 1.52,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [
+      {
+        "item_stack": {
+          "item_id": 1386206302,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        },
+        "probability": 0.01722
+      },
+      {
+        "item_stack": {
+          "item_id": 732153593,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        },
+        "probability": 1.25E-05
+      }
+    ],
+    "consumed_item_stacks": [],
+    "range": 1,
+    "tool_requirements": [
+      {
+        "tool_type": 12,
+        "level": 7,
+        "power": 1
+      }
+    ],
+    "allow_use_hands": false,
+    "level_requirements": [
+      {
+        "skill_id": 14,
+        "level": 70
+      }
+    ],
+    "experience_per_progress": [
+      {
+        "skill_id": 14,
+        "quantity": 2.0
+      }
+    ],
+    "verb_phrase": "Dig",
+    "tool_mesh_index": 1,
+    "recipe_performance_id": 641
+  },
+  {
+    "id": 1686518947,
+    "resource_id": 204021372,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "time_requirement": 1.6,
+    "stamina_requirement": 0.75,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [
+      {
+        "item_stack": {
+          "item_id": 1990669797,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        },
+        "probability": 0.035
+      },
+      {
+        "item_stack": {
+          "item_id": 732153593,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        },
+        "probability": 1.25E-05
+      }
+    ],
+    "consumed_item_stacks": [],
+    "range": 1,
+    "tool_requirements": [
+      {
+        "tool_type": 12,
+        "level": 1,
+        "power": 1
+      }
+    ],
+    "allow_use_hands": false,
+    "level_requirements": [
+      {
+        "skill_id": 14,
+        "level": 1
+      }
+    ],
+    "experience_per_progress": [
+      {
+        "skill_id": 14,
+        "quantity": 1.25
+      }
+    ],
+    "verb_phrase": "Dig",
+    "tool_mesh_index": 1,
+    "recipe_performance_id": 641
   }
 ]

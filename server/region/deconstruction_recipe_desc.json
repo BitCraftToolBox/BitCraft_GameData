@@ -6825,6 +6825,41 @@
     "recipe_performance_id": 538
   },
   {
+    "id": 1001,
+    "time_requirement": 2.0,
+    "consumed_building": 1004,
+    "level_requirements": [
+      {
+        "skill_id": 4,
+        "level": 1
+      }
+    ],
+    "tool_requirements": [
+      {
+        "tool_type": 14,
+        "level": 0,
+        "power": 1
+      }
+    ],
+    "output_item_stacks": [
+      {
+        "item_id": 1,
+        "quantity": 1,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "output_cargo_id": 0,
+    "experience_per_progress": [
+      {
+        "skill_id": 0,
+        "quantity": 0.0
+      }
+    ],
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 538
+  },
+  {
     "id": 1037,
     "time_requirement": 2.0,
     "consumed_building": 1203,
@@ -6844,71 +6879,18 @@
     "output_item_stacks": [
       {
         "item_id": 1020003,
-        "quantity": 17,
+        "quantity": 4,
         "item_type": "Item",
         "durability": 0
       },
       {
-        "item_id": 1050002,
-        "quantity": 7,
-        "item_type": "Item",
-        "durability": 0
-      },
-      {
-        "item_id": 1200,
-        "quantity": 3,
-        "item_type": "Cargo",
-        "durability": null
-      },
-      {
-        "item_id": 2400,
-        "quantity": 3,
-        "item_type": "Cargo",
-        "durability": null
-      }
-    ],
-    "output_cargo_id": 1200,
-    "experience_per_progress": [
-      {
-        "skill_id": 0,
-        "quantity": 0.0
-      }
-    ],
-    "tool_mesh_index": 0,
-    "recipe_performance_id": 538
-  },
-  {
-    "id": 1047,
-    "time_requirement": 2.0,
-    "consumed_building": 1036,
-    "level_requirements": [
-      {
-        "skill_id": 4,
-        "level": 1
-      }
-    ],
-    "tool_requirements": [
-      {
-        "tool_type": 14,
-        "level": 0,
-        "power": 1
-      }
-    ],
-    "output_item_stacks": [
-      {
-        "item_id": 1090004,
+        "item_id": 1090008,
         "quantity": 1,
         "item_type": "Item",
         "durability": 0
-      },
-      {
-        "item_id": 2000,
-        "quantity": 1,
-        "item_type": "Cargo",
-        "durability": null
       }
     ],
-    "output_cargo_id": 2000,
+    "output_cargo_id": 0,
     "experience_per_progress": [
       {
         "skill_id": 0,
@@ -11004,9 +10986,9 @@
     "recipe_performance_id": 538
   },
   {
-    "id": 1001,
+    "id": 1047,
     "time_requirement": 2.0,
-    "consumed_building": 1004,
+    "consumed_building": 1036,
     "level_requirements": [
       {
         "skill_id": 4,
@@ -11022,20 +11004,14 @@
     ],
     "output_item_stacks": [
       {
+        "item_id": 1030002,
+        "quantity": 4,
+        "item_type": "Item",
+        "durability": 0
+      },
+      {
         "item_id": 1090004,
         "quantity": 1,
-        "item_type": "Item",
-        "durability": 0
-      },
-      {
-        "item_id": 1020003,
-        "quantity": 8,
-        "item_type": "Item",
-        "durability": 0
-      },
-      {
-        "item_id": 1130001,
-        "quantity": 70,
         "item_type": "Item",
         "durability": 0
       }
