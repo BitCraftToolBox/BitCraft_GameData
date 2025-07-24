@@ -23050,6 +23050,36 @@
           "elements": [
             {
               "name": {
+                "some": "entity_id"
+              },
+              "algebraic_type": {
+                "U64": []
+              }
+            },
+            {
+              "name": {
+                "some": "building_entity_id"
+              },
+              "algebraic_type": {
+                "U64": []
+              }
+            },
+            {
+              "name": {
+                "some": "owner_entity_id"
+              },
+              "algebraic_type": {
+                "U64": []
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Product": {
+          "elements": [
+            {
+              "name": {
                 "some": "name"
               },
               "algebraic_type": {
@@ -23147,7 +23177,7 @@
                 "some": "static_data"
               },
               "algebraic_type": {
-                "Ref": 389
+                "Ref": 390
               }
             }
           ]
@@ -23972,7 +24002,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 383
+                  "Ref": 384
                 }
               }
             }
@@ -24047,7 +24077,7 @@
                 "some": "placeholder_skill_type"
               },
               "algebraic_type": {
-                "Ref": 393
+                "Ref": 394
               }
             },
             {
@@ -24055,7 +24085,7 @@
                 "some": "placeholder_buff_category"
               },
               "algebraic_type": {
-                "Ref": 394
+                "Ref": 395
               }
             },
             {
@@ -24063,7 +24093,7 @@
                 "some": "placeholder"
               },
               "algebraic_type": {
-                "Ref": 395
+                "Ref": 396
               }
             },
             {
@@ -24079,7 +24109,7 @@
                 "some": "chat_channel"
               },
               "algebraic_type": {
-                "Ref": 396
+                "Ref": 397
               }
             },
             {
@@ -24087,7 +24117,7 @@
                 "some": "permission"
               },
               "algebraic_type": {
-                "Ref": 397
+                "Ref": 398
               }
             },
             {
@@ -24095,7 +24125,7 @@
                 "some": "permission_group"
               },
               "algebraic_type": {
-                "Ref": 398
+                "Ref": 399
               }
             }
           ]
@@ -35279,6 +35309,65 @@
       }
     },
     {
+      "name": "public_progressive_action_state",
+      "product_type_ref": 383,
+      "primary_key": [
+        0
+      ],
+      "indexes": [
+        {
+          "name": {
+            "some": "public_progressive_action_state_building_entity_id_idx_btree"
+          },
+          "accessor_name": {
+            "some": "building_entity_id"
+          },
+          "algorithm": {
+            "BTree": [
+              1
+            ]
+          }
+        },
+        {
+          "name": {
+            "some": "public_progressive_action_state_entity_id_idx_btree"
+          },
+          "accessor_name": {
+            "some": "entity_id"
+          },
+          "algorithm": {
+            "BTree": [
+              0
+            ]
+          }
+        }
+      ],
+      "constraints": [
+        {
+          "name": {
+            "some": "public_progressive_action_state_entity_id_key"
+          },
+          "data": {
+            "Unique": {
+              "columns": [
+                0
+              ]
+            }
+          }
+        }
+      ],
+      "sequences": [],
+      "schedule": {
+        "none": []
+      },
+      "table_type": {
+        "User": []
+      },
+      "table_access": {
+        "Public": []
+      }
+    },
+    {
       "name": "region_connection_info",
       "product_type_ref": 249,
       "primary_key": [
@@ -35502,7 +35591,7 @@
     },
     {
       "name": "reserved_name_desc",
-      "product_type_ref": 383,
+      "product_type_ref": 384,
       "primary_key": [
         0
       ],
@@ -35745,7 +35834,7 @@
     },
     {
       "name": "resource_health_state",
-      "product_type_ref": 384,
+      "product_type_ref": 385,
       "primary_key": [
         0
       ],
@@ -35896,7 +35985,7 @@
     },
     {
       "name": "rez_sick_long_term_state",
-      "product_type_ref": 385,
+      "product_type_ref": 386,
       "primary_key": [
         0
       ],
@@ -36214,7 +36303,7 @@
     },
     {
       "name": "single_resource_to_clump_desc",
-      "product_type_ref": 387,
+      "product_type_ref": 388,
       "primary_key": [
         0
       ],
@@ -36356,7 +36445,7 @@
     },
     {
       "name": "staged_static_data",
-      "product_type_ref": 388,
+      "product_type_ref": 389,
       "primary_key": [
         0
       ],
@@ -36448,7 +36537,7 @@
     },
     {
       "name": "starving_player_state",
-      "product_type_ref": 390,
+      "product_type_ref": 391,
       "primary_key": [
         0
       ],
@@ -36737,7 +36826,7 @@
     },
     {
       "name": "terraform_progress_state",
-      "product_type_ref": 391,
+      "product_type_ref": 392,
       "primary_key": [
         0
       ],
@@ -36888,7 +36977,7 @@
     },
     {
       "name": "the_great_placeholder_table",
-      "product_type_ref": 392,
+      "product_type_ref": 393,
       "primary_key": [
         0
       ],
@@ -36934,7 +37023,7 @@
     },
     {
       "name": "threat_state",
-      "product_type_ref": 399,
+      "product_type_ref": 400,
       "primary_key": [
         0
       ],
@@ -37537,7 +37626,7 @@
     },
     {
       "name": "unclaimed_shards_state",
-      "product_type_ref": 400,
+      "product_type_ref": 401,
       "primary_key": [
         0
       ],
@@ -37688,7 +37777,7 @@
     },
     {
       "name": "user_previous_region_state",
-      "product_type_ref": 402,
+      "product_type_ref": 403,
       "primary_key": [
         0
       ],
@@ -37734,7 +37823,7 @@
     },
     {
       "name": "user_region_state",
-      "product_type_ref": 403,
+      "product_type_ref": 404,
       "primary_key": [
         0
       ],
@@ -39071,6 +39160,24 @@
             },
             "algebraic_type": {
               "Ref": 122
+            }
+          }
+        ]
+      },
+      "lifecycle": {
+        "none": []
+      }
+    },
+    {
+      "name": "empire_rename",
+      "params": {
+        "elements": [
+          {
+            "name": {
+              "some": "new_name"
+            },
+            "algebraic_type": {
+              "String": []
             }
           }
         ]
@@ -42671,7 +42778,7 @@
               "some": "_request"
             },
             "algebraic_type": {
-              "Ref": 386
+              "Ref": 387
             }
           }
         ]
@@ -43990,7 +44097,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 383
+                "Ref": 384
               }
             }
           }
@@ -44364,7 +44471,7 @@
               "some": "request"
             },
             "algebraic_type": {
-              "Ref": 401
+              "Ref": 402
             }
           }
         ]
@@ -44382,7 +44489,7 @@
               "some": "request"
             },
             "algebraic_type": {
-              "Ref": 401
+              "Ref": 402
             }
           }
         ]
@@ -44418,7 +44525,7 @@
               "some": "request"
             },
             "algebraic_type": {
-              "Ref": 401
+              "Ref": 402
             }
           }
         ]
@@ -44594,7 +44701,7 @@
         "scope": [],
         "name": "BuffCategory"
       },
-      "ty": 394,
+      "ty": 395,
       "custom_ordering": true
     },
     {
@@ -44794,7 +44901,7 @@
         "scope": [],
         "name": "ChatChannel"
       },
-      "ty": 396,
+      "ty": 397,
       "custom_ordering": true
     },
     {
@@ -46674,7 +46781,7 @@
         "scope": [],
         "name": "Permission"
       },
-      "ty": 397,
+      "ty": 398,
       "custom_ordering": true
     },
     {
@@ -46682,7 +46789,7 @@
         "scope": [],
         "name": "PermissionGroup"
       },
-      "ty": 398,
+      "ty": 399,
       "custom_ordering": true
     },
     {
@@ -46874,7 +46981,7 @@
         "scope": [],
         "name": "PlayerSignInRequest"
       },
-      "ty": 386,
+      "ty": 387,
       "custom_ordering": true
     },
     {
@@ -46994,7 +47101,7 @@
         "scope": [],
         "name": "ProgressiveActionStatus"
       },
-      "ty": 395,
+      "ty": 396,
       "custom_ordering": true
     },
     {
@@ -47003,6 +47110,14 @@
         "name": "ProjectSiteState"
       },
       "ty": 248,
+      "custom_ordering": true
+    },
+    {
+      "name": {
+        "scope": [],
+        "name": "PublicProgressiveActionState"
+      },
+      "ty": 383,
       "custom_ordering": true
     },
     {
@@ -47090,7 +47205,7 @@
         "scope": [],
         "name": "ReservedNameDesc"
       },
-      "ty": 383,
+      "ty": 384,
       "custom_ordering": true
     },
     {
@@ -47130,7 +47245,7 @@
         "scope": [],
         "name": "ResourceHealthState"
       },
-      "ty": 384,
+      "ty": 385,
       "custom_ordering": true
     },
     {
@@ -47154,7 +47269,7 @@
         "scope": [],
         "name": "RezSickLongTermState"
       },
-      "ty": 385,
+      "ty": 386,
       "custom_ordering": true
     },
     {
@@ -47210,7 +47325,7 @@
         "scope": [],
         "name": "SingleResourceToClumpDesc"
       },
-      "ty": 387,
+      "ty": 388,
       "custom_ordering": true
     },
     {
@@ -47234,7 +47349,7 @@
         "scope": [],
         "name": "SkillType"
       },
-      "ty": 393,
+      "ty": 394,
       "custom_ordering": true
     },
     {
@@ -47242,7 +47357,7 @@
         "scope": [],
         "name": "StagedStaticData"
       },
-      "ty": 388,
+      "ty": 389,
       "custom_ordering": true
     },
     {
@@ -47258,7 +47373,7 @@
         "scope": [],
         "name": "StarvingPlayerState"
       },
-      "ty": 390,
+      "ty": 391,
       "custom_ordering": true
     },
     {
@@ -47266,7 +47381,7 @@
         "scope": [],
         "name": "StaticDataUpload"
       },
-      "ty": 389,
+      "ty": 390,
       "custom_ordering": true
     },
     {
@@ -47338,7 +47453,7 @@
         "scope": [],
         "name": "TerraformProgressState"
       },
-      "ty": 391,
+      "ty": 392,
       "custom_ordering": true
     },
     {
@@ -47370,7 +47485,7 @@
         "scope": [],
         "name": "TheGreatPlaceHolderTable"
       },
-      "ty": 392,
+      "ty": 393,
       "custom_ordering": true
     },
     {
@@ -47378,7 +47493,7 @@
         "scope": [],
         "name": "ThreatState"
       },
-      "ty": 399,
+      "ty": 400,
       "custom_ordering": true
     },
     {
@@ -47506,7 +47621,7 @@
         "scope": [],
         "name": "UnclaimedShardsState"
       },
-      "ty": 400,
+      "ty": 401,
       "custom_ordering": true
     },
     {
@@ -47530,7 +47645,7 @@
         "scope": [],
         "name": "UserModerationCreateUserPolicyRequest"
       },
-      "ty": 401,
+      "ty": 402,
       "custom_ordering": true
     },
     {
@@ -47562,7 +47677,7 @@
         "scope": [],
         "name": "UserPreviousRegionState"
       },
-      "ty": 402,
+      "ty": 403,
       "custom_ordering": true
     },
     {
@@ -47570,7 +47685,7 @@
         "scope": [],
         "name": "UserRegionState"
       },
-      "ty": 403,
+      "ty": 404,
       "custom_ordering": true
     },
     {

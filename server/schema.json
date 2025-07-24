@@ -8123,6 +8123,14 @@
               "algebraic_type": {
                 "U64": []
               }
+            },
+            {
+              "name": {
+                "some": "is_public"
+              },
+              "algebraic_type": {
+                "Bool": []
+              }
             }
           ]
         }
@@ -29439,6 +29447,36 @@
           "elements": [
             {
               "name": {
+                "some": "entity_id"
+              },
+              "algebraic_type": {
+                "U64": []
+              }
+            },
+            {
+              "name": {
+                "some": "building_entity_id"
+              },
+              "algebraic_type": {
+                "U64": []
+              }
+            },
+            {
+              "name": {
+                "some": "owner_entity_id"
+              },
+              "algebraic_type": {
+                "U64": []
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Product": {
+          "elements": [
+            {
+              "name": {
                 "some": "scheduled_id"
               },
               "algebraic_type": {
@@ -30516,7 +30554,7 @@
                 "some": "reason"
               },
               "algebraic_type": {
-                "Ref": 562
+                "Ref": 563
               }
             }
           ]
@@ -30700,7 +30738,7 @@
                 "some": "static_data"
               },
               "algebraic_type": {
-                "Ref": 569
+                "Ref": 570
               }
             }
           ]
@@ -31822,7 +31860,7 @@
                 "some": "placeholder_skill_type"
               },
               "algebraic_type": {
-                "Ref": 579
+                "Ref": 580
               }
             },
             {
@@ -31830,7 +31868,7 @@
                 "some": "placeholder_buff_category"
               },
               "algebraic_type": {
-                "Ref": 580
+                "Ref": 581
               }
             },
             {
@@ -31838,7 +31876,7 @@
                 "some": "placeholder"
               },
               "algebraic_type": {
-                "Ref": 581
+                "Ref": 582
               }
             },
             {
@@ -31870,7 +31908,7 @@
                 "some": "permission_group"
               },
               "algebraic_type": {
-                "Ref": 582
+                "Ref": 583
               }
             }
           ]
@@ -45213,6 +45251,65 @@
       }
     },
     {
+      "name": "public_progressive_action_state",
+      "product_type_ref": 538,
+      "primary_key": [
+        0
+      ],
+      "indexes": [
+        {
+          "name": {
+            "some": "public_progressive_action_state_building_entity_id_idx_btree"
+          },
+          "accessor_name": {
+            "some": "building_entity_id"
+          },
+          "algorithm": {
+            "BTree": [
+              1
+            ]
+          }
+        },
+        {
+          "name": {
+            "some": "public_progressive_action_state_entity_id_idx_btree"
+          },
+          "accessor_name": {
+            "some": "entity_id"
+          },
+          "algorithm": {
+            "BTree": [
+              0
+            ]
+          }
+        }
+      ],
+      "constraints": [
+        {
+          "name": {
+            "some": "public_progressive_action_state_entity_id_key"
+          },
+          "data": {
+            "Unique": {
+              "columns": [
+                0
+              ]
+            }
+          }
+        }
+      ],
+      "sequences": [],
+      "schedule": {
+        "none": []
+      },
+      "table_type": {
+        "User": []
+      },
+      "table_access": {
+        "Public": []
+      }
+    },
+    {
       "name": "region_connection_info",
       "product_type_ref": 424,
       "primary_key": [
@@ -45306,7 +45403,7 @@
     },
     {
       "name": "region_popuplation_loop_timer",
-      "product_type_ref": 538,
+      "product_type_ref": 539,
       "primary_key": [
         0
       ],
@@ -45421,7 +45518,7 @@
     },
     {
       "name": "rent_collector_loop_timer",
-      "product_type_ref": 541,
+      "product_type_ref": 542,
       "primary_key": [
         0
       ],
@@ -45490,7 +45587,7 @@
     },
     {
       "name": "rent_evict_timer",
-      "product_type_ref": 544,
+      "product_type_ref": 545,
       "primary_key": [
         0
       ],
@@ -45689,7 +45786,7 @@
     },
     {
       "name": "reset_chunk_index_timer",
-      "product_type_ref": 552,
+      "product_type_ref": 553,
       "primary_key": [
         0
       ],
@@ -45758,7 +45855,7 @@
     },
     {
       "name": "reset_mobile_entity_timer",
-      "product_type_ref": 553,
+      "product_type_ref": 554,
       "primary_key": [
         0
       ],
@@ -46024,7 +46121,7 @@
     },
     {
       "name": "resource_health_state",
-      "product_type_ref": 554,
+      "product_type_ref": 555,
       "primary_key": [
         0
       ],
@@ -46116,7 +46213,7 @@
     },
     {
       "name": "resource_spawn_timer",
-      "product_type_ref": 555,
+      "product_type_ref": 556,
       "primary_key": [
         0
       ],
@@ -46290,7 +46387,7 @@
     },
     {
       "name": "resources_regen_loop_timer",
-      "product_type_ref": 556,
+      "product_type_ref": 557,
       "primary_key": [
         0
       ],
@@ -46359,7 +46456,7 @@
     },
     {
       "name": "respawn_resource_in_chunk_timer",
-      "product_type_ref": 557,
+      "product_type_ref": 558,
       "primary_key": [
         0
       ],
@@ -46428,7 +46525,7 @@
     },
     {
       "name": "rez_sick_long_term_state",
-      "product_type_ref": 559,
+      "product_type_ref": 560,
       "primary_key": [
         0
       ],
@@ -46746,7 +46843,7 @@
     },
     {
       "name": "single_resource_clump_info",
-      "product_type_ref": 565,
+      "product_type_ref": 566,
       "primary_key": [
         0
       ],
@@ -46792,7 +46889,7 @@
     },
     {
       "name": "single_resource_to_clump_desc",
-      "product_type_ref": 566,
+      "product_type_ref": 567,
       "primary_key": [
         0
       ],
@@ -46934,7 +47031,7 @@
     },
     {
       "name": "staged_static_data",
-      "product_type_ref": 568,
+      "product_type_ref": 569,
       "primary_key": [
         0
       ],
@@ -47026,7 +47123,7 @@
     },
     {
       "name": "starving_loop_timer",
-      "product_type_ref": 570,
+      "product_type_ref": 571,
       "primary_key": [
         0
       ],
@@ -47095,7 +47192,7 @@
     },
     {
       "name": "starving_player_state",
-      "product_type_ref": 571,
+      "product_type_ref": 572,
       "primary_key": [
         0
       ],
@@ -47338,7 +47435,7 @@
     },
     {
       "name": "teleport_player_timer",
-      "product_type_ref": 561,
+      "product_type_ref": 562,
       "primary_key": [
         0
       ],
@@ -47407,7 +47504,7 @@
     },
     {
       "name": "teleportation_energy_regen_loop_timer",
-      "product_type_ref": 573,
+      "product_type_ref": 574,
       "primary_key": [
         0
       ],
@@ -47522,7 +47619,7 @@
     },
     {
       "name": "terraform_progress_state",
-      "product_type_ref": 576,
+      "product_type_ref": 577,
       "primary_key": [
         0
       ],
@@ -47673,7 +47770,7 @@
     },
     {
       "name": "the_great_placeholder_table",
-      "product_type_ref": 578,
+      "product_type_ref": 579,
       "primary_key": [
         0
       ],
@@ -47719,7 +47816,7 @@
     },
     {
       "name": "threat_state",
-      "product_type_ref": 583,
+      "product_type_ref": 584,
       "primary_key": [
         0
       ],
@@ -48039,7 +48136,7 @@
     },
     {
       "name": "trade_session_loop_timer",
-      "product_type_ref": 591,
+      "product_type_ref": 592,
       "primary_key": [
         0
       ],
@@ -48180,7 +48277,7 @@
     },
     {
       "name": "transfer_player_timer",
-      "product_type_ref": 593,
+      "product_type_ref": 594,
       "primary_key": [
         0
       ],
@@ -48295,7 +48392,7 @@
     },
     {
       "name": "traveler_task_loop_timer",
-      "product_type_ref": 594,
+      "product_type_ref": 595,
       "primary_key": [
         0
       ],
@@ -48529,7 +48626,7 @@
     },
     {
       "name": "unclaimed_shards_state",
-      "product_type_ref": 595,
+      "product_type_ref": 596,
       "primary_key": [
         0
       ],
@@ -48680,7 +48777,7 @@
     },
     {
       "name": "user_previous_region_state",
-      "product_type_ref": 596,
+      "product_type_ref": 597,
       "primary_key": [
         0
       ],
@@ -51951,6 +52048,32 @@
             },
             "algebraic_type": {
               "Ref": 146
+            }
+          }
+        ]
+      },
+      "lifecycle": {
+        "none": []
+      }
+    },
+    {
+      "name": "craft_set_public",
+      "params": {
+        "elements": [
+          {
+            "name": {
+              "some": "progressive_action_entity_id"
+            },
+            "algebraic_type": {
+              "U64": []
+            }
+          },
+          {
+            "name": {
+              "some": "is_public"
+            },
+            "algebraic_type": {
+              "Bool": []
             }
           }
         ]
@@ -57826,7 +57949,7 @@
               "some": "_timer"
             },
             "algebraic_type": {
-              "Ref": 538
+              "Ref": 539
             }
           }
         ]
@@ -57844,7 +57967,7 @@
               "some": "request"
             },
             "algebraic_type": {
-              "Ref": 539
+              "Ref": 540
             }
           }
         ]
@@ -57862,7 +57985,7 @@
               "some": "request"
             },
             "algebraic_type": {
-              "Ref": 540
+              "Ref": 541
             }
           }
         ]
@@ -57898,7 +58021,7 @@
               "some": "timer"
             },
             "algebraic_type": {
-              "Ref": 541
+              "Ref": 542
             }
           }
         ]
@@ -57916,7 +58039,7 @@
               "some": "request"
             },
             "algebraic_type": {
-              "Ref": 542
+              "Ref": 543
             }
           }
         ]
@@ -57934,7 +58057,7 @@
               "some": "request"
             },
             "algebraic_type": {
-              "Ref": 543
+              "Ref": 544
             }
           }
         ]
@@ -57952,7 +58075,7 @@
               "some": "timer"
             },
             "algebraic_type": {
-              "Ref": 544
+              "Ref": 545
             }
           }
         ]
@@ -57970,7 +58093,7 @@
               "some": "request"
             },
             "algebraic_type": {
-              "Ref": 545
+              "Ref": 546
             }
           }
         ]
@@ -57988,7 +58111,7 @@
               "some": "request"
             },
             "algebraic_type": {
-              "Ref": 546
+              "Ref": 547
             }
           }
         ]
@@ -58006,7 +58129,7 @@
               "some": "request"
             },
             "algebraic_type": {
-              "Ref": 547
+              "Ref": 548
             }
           }
         ]
@@ -58024,7 +58147,7 @@
               "some": "request"
             },
             "algebraic_type": {
-              "Ref": 548
+              "Ref": 549
             }
           }
         ]
@@ -58042,7 +58165,7 @@
               "some": "request"
             },
             "algebraic_type": {
-              "Ref": 549
+              "Ref": 550
             }
           }
         ]
@@ -58060,7 +58183,7 @@
               "some": "request"
             },
             "algebraic_type": {
-              "Ref": 550
+              "Ref": 551
             }
           }
         ]
@@ -58078,7 +58201,7 @@
               "some": "request"
             },
             "algebraic_type": {
-              "Ref": 551
+              "Ref": 552
             }
           }
         ]
@@ -58105,7 +58228,7 @@
               "some": "timer"
             },
             "algebraic_type": {
-              "Ref": 552
+              "Ref": 553
             }
           }
         ]
@@ -58123,7 +58246,7 @@
               "some": "timer"
             },
             "algebraic_type": {
-              "Ref": 553
+              "Ref": 554
             }
           }
         ]
@@ -58150,7 +58273,7 @@
               "some": "timer"
             },
             "algebraic_type": {
-              "Ref": 555
+              "Ref": 556
             }
           }
         ]
@@ -58168,7 +58291,7 @@
               "some": "_timer"
             },
             "algebraic_type": {
-              "Ref": 556
+              "Ref": 557
             }
           }
         ]
@@ -58195,7 +58318,7 @@
               "some": "timer"
             },
             "algebraic_type": {
-              "Ref": 557
+              "Ref": 558
             }
           }
         ]
@@ -58213,7 +58336,7 @@
               "some": "request"
             },
             "algebraic_type": {
-              "Ref": 558
+              "Ref": 559
             }
           }
         ]
@@ -58231,7 +58354,7 @@
               "some": "request"
             },
             "algebraic_type": {
-              "Ref": 560
+              "Ref": 561
             }
           }
         ]
@@ -58287,7 +58410,7 @@
               "some": "timer"
             },
             "algebraic_type": {
-              "Ref": 561
+              "Ref": 562
             }
           }
         ]
@@ -58305,7 +58428,7 @@
               "some": "request"
             },
             "algebraic_type": {
-              "Ref": 563
+              "Ref": 564
             }
           }
         ]
@@ -58323,7 +58446,7 @@
               "some": "_request"
             },
             "algebraic_type": {
-              "Ref": 564
+              "Ref": 565
             }
           }
         ]
@@ -58350,7 +58473,7 @@
               "some": "_request"
             },
             "algebraic_type": {
-              "Ref": 567
+              "Ref": 568
             }
           }
         ]
@@ -60077,7 +60200,7 @@
               "some": "_timer"
             },
             "algebraic_type": {
-              "Ref": 570
+              "Ref": 571
             }
           }
         ]
@@ -60122,7 +60245,7 @@
               "some": "request"
             },
             "algebraic_type": {
-              "Ref": 572
+              "Ref": 573
             }
           }
         ]
@@ -60140,7 +60263,7 @@
               "some": "_timer"
             },
             "algebraic_type": {
-              "Ref": 573
+              "Ref": 574
             }
           }
         ]
@@ -60158,7 +60281,7 @@
               "some": "request"
             },
             "algebraic_type": {
-              "Ref": 574
+              "Ref": 575
             }
           }
         ]
@@ -60176,7 +60299,7 @@
               "some": "request"
             },
             "algebraic_type": {
-              "Ref": 575
+              "Ref": 576
             }
           }
         ]
@@ -60194,7 +60317,7 @@
               "some": "request"
             },
             "algebraic_type": {
-              "Ref": 577
+              "Ref": 578
             }
           }
         ]
@@ -60212,7 +60335,7 @@
               "some": "request"
             },
             "algebraic_type": {
-              "Ref": 574
+              "Ref": 575
             }
           }
         ]
@@ -60230,7 +60353,7 @@
               "some": "request"
             },
             "algebraic_type": {
-              "Ref": 584
+              "Ref": 585
             }
           }
         ]
@@ -60248,7 +60371,7 @@
               "some": "request"
             },
             "algebraic_type": {
-              "Ref": 585
+              "Ref": 586
             }
           }
         ]
@@ -60266,7 +60389,7 @@
               "some": "request"
             },
             "algebraic_type": {
-              "Ref": 586
+              "Ref": 587
             }
           }
         ]
@@ -60310,7 +60433,7 @@
               "some": "request"
             },
             "algebraic_type": {
-              "Ref": 587
+              "Ref": 588
             }
           }
         ]
@@ -60328,7 +60451,7 @@
               "some": "request"
             },
             "algebraic_type": {
-              "Ref": 588
+              "Ref": 589
             }
           }
         ]
@@ -60346,7 +60469,7 @@
               "some": "request"
             },
             "algebraic_type": {
-              "Ref": 589
+              "Ref": 590
             }
           }
         ]
@@ -60364,7 +60487,7 @@
               "some": "request"
             },
             "algebraic_type": {
-              "Ref": 590
+              "Ref": 591
             }
           }
         ]
@@ -60382,7 +60505,7 @@
               "some": "_timer"
             },
             "algebraic_type": {
-              "Ref": 591
+              "Ref": 592
             }
           }
         ]
@@ -60400,7 +60523,7 @@
               "some": "request"
             },
             "algebraic_type": {
-              "Ref": 592
+              "Ref": 593
             }
           }
         ]
@@ -60418,7 +60541,7 @@
               "some": "timer"
             },
             "algebraic_type": {
-              "Ref": 593
+              "Ref": 594
             }
           }
         ]
@@ -60436,7 +60559,7 @@
               "some": "_timer"
             },
             "algebraic_type": {
-              "Ref": 594
+              "Ref": 595
             }
           }
         ]
@@ -60669,7 +60792,7 @@
         "scope": [],
         "name": "BuffCategory"
       },
-      "ty": 580,
+      "ty": 581,
       "custom_ordering": true
     },
     {
@@ -63013,7 +63136,7 @@
         "scope": [],
         "name": "PermissionGroup"
       },
-      "ty": 582,
+      "ty": 583,
       "custom_ordering": true
     },
     {
@@ -63821,7 +63944,7 @@
         "scope": [],
         "name": "PlayerRetrieveLostItemRequest"
       },
-      "ty": 558,
+      "ty": 559,
       "custom_ordering": true
     },
     {
@@ -63829,7 +63952,7 @@
         "scope": [],
         "name": "PlayerScrollReadRequest"
       },
-      "ty": 560,
+      "ty": 561,
       "custom_ordering": true
     },
     {
@@ -63845,7 +63968,7 @@
         "scope": [],
         "name": "PlayerSetHomeRequest"
       },
-      "ty": 563,
+      "ty": 564,
       "custom_ordering": true
     },
     {
@@ -63861,7 +63984,7 @@
         "scope": [],
         "name": "PlayerSignInRequest"
       },
-      "ty": 564,
+      "ty": 565,
       "custom_ordering": true
     },
     {
@@ -63877,7 +64000,7 @@
         "scope": [],
         "name": "PlayerSleepRequest"
       },
-      "ty": 567,
+      "ty": 568,
       "custom_ordering": true
     },
     {
@@ -63909,7 +64032,7 @@
         "scope": [],
         "name": "PlayerTerraformCancelRequest"
       },
-      "ty": 575,
+      "ty": 576,
       "custom_ordering": true
     },
     {
@@ -63917,7 +64040,7 @@
         "scope": [],
         "name": "PlayerTerraformRequest"
       },
-      "ty": 574,
+      "ty": 575,
       "custom_ordering": true
     },
     {
@@ -63925,7 +64048,7 @@
         "scope": [],
         "name": "PlayerTerraformSetFinalTargetRequest"
       },
-      "ty": 577,
+      "ty": 578,
       "custom_ordering": true
     },
     {
@@ -63941,7 +64064,7 @@
         "scope": [],
         "name": "PlayerTradeAcceptRequest"
       },
-      "ty": 584,
+      "ty": 585,
       "custom_ordering": true
     },
     {
@@ -63949,7 +64072,7 @@
         "scope": [],
         "name": "PlayerTradeAcceptSessionRequest"
       },
-      "ty": 585,
+      "ty": 586,
       "custom_ordering": true
     },
     {
@@ -63957,7 +64080,7 @@
         "scope": [],
         "name": "PlayerTradeAddItemRequest"
       },
-      "ty": 586,
+      "ty": 587,
       "custom_ordering": true
     },
     {
@@ -63965,7 +64088,7 @@
         "scope": [],
         "name": "PlayerTradeDeclineRequest"
       },
-      "ty": 587,
+      "ty": 588,
       "custom_ordering": true
     },
     {
@@ -63973,7 +64096,7 @@
         "scope": [],
         "name": "PlayerTradeDeclineSessionRequest"
       },
-      "ty": 588,
+      "ty": 589,
       "custom_ordering": true
     },
     {
@@ -63981,7 +64104,7 @@
         "scope": [],
         "name": "PlayerTradeInitiateSessionRequest"
       },
-      "ty": 589,
+      "ty": 590,
       "custom_ordering": true
     },
     {
@@ -63989,7 +64112,7 @@
         "scope": [],
         "name": "PlayerTradeRemoveItemRequest"
       },
-      "ty": 590,
+      "ty": 591,
       "custom_ordering": true
     },
     {
@@ -63997,7 +64120,7 @@
         "scope": [],
         "name": "PlayerTradeSwapPocketsRequest"
       },
-      "ty": 592,
+      "ty": 593,
       "custom_ordering": true
     },
     {
@@ -64109,7 +64232,7 @@
         "scope": [],
         "name": "ProgressiveActionStatus"
       },
-      "ty": 581,
+      "ty": 582,
       "custom_ordering": true
     },
     {
@@ -64118,6 +64241,14 @@
         "name": "ProjectSiteState"
       },
       "ty": 353,
+      "custom_ordering": true
+    },
+    {
+      "name": {
+        "scope": [],
+        "name": "PublicProgressiveActionState"
+      },
+      "ty": 538,
       "custom_ordering": true
     },
     {
@@ -64181,7 +64312,7 @@
         "scope": [],
         "name": "RegionPopulationLoopTimer"
       },
-      "ty": 538,
+      "ty": 539,
       "custom_ordering": true
     },
     {
@@ -64205,7 +64336,7 @@
         "scope": [],
         "name": "RentAddListingRequest"
       },
-      "ty": 539,
+      "ty": 540,
       "custom_ordering": true
     },
     {
@@ -64213,7 +64344,7 @@
         "scope": [],
         "name": "RentAddTenantRequest"
       },
-      "ty": 540,
+      "ty": 541,
       "custom_ordering": true
     },
     {
@@ -64221,7 +64352,7 @@
         "scope": [],
         "name": "RentCollectorLoopTimer"
       },
-      "ty": 541,
+      "ty": 542,
       "custom_ordering": true
     },
     {
@@ -64229,7 +64360,7 @@
         "scope": [],
         "name": "RentDepositCoinsRequest"
       },
-      "ty": 542,
+      "ty": 543,
       "custom_ordering": true
     },
     {
@@ -64237,7 +64368,7 @@
         "scope": [],
         "name": "RentEvictRequest"
       },
-      "ty": 543,
+      "ty": 544,
       "custom_ordering": true
     },
     {
@@ -64245,7 +64376,7 @@
         "scope": [],
         "name": "RentEvictTimer"
       },
-      "ty": 544,
+      "ty": 545,
       "custom_ordering": true
     },
     {
@@ -64253,7 +64384,7 @@
         "scope": [],
         "name": "RentPurchaseRequest"
       },
-      "ty": 545,
+      "ty": 546,
       "custom_ordering": true
     },
     {
@@ -64261,7 +64392,7 @@
         "scope": [],
         "name": "RentRemoveTenantRequest"
       },
-      "ty": 546,
+      "ty": 547,
       "custom_ordering": true
     },
     {
@@ -64269,7 +64400,7 @@
         "scope": [],
         "name": "RentSetDailyRateRequest"
       },
-      "ty": 547,
+      "ty": 548,
       "custom_ordering": true
     },
     {
@@ -64285,7 +64416,7 @@
         "scope": [],
         "name": "RentTerminateRequest"
       },
-      "ty": 548,
+      "ty": 549,
       "custom_ordering": true
     },
     {
@@ -64293,7 +64424,7 @@
         "scope": [],
         "name": "RentUnlistRequest"
       },
-      "ty": 549,
+      "ty": 550,
       "custom_ordering": true
     },
     {
@@ -64301,7 +64432,7 @@
         "scope": [],
         "name": "ReportPlayerChatMessage"
       },
-      "ty": 550,
+      "ty": 551,
       "custom_ordering": true
     },
     {
@@ -64309,7 +64440,7 @@
         "scope": [],
         "name": "ReportPlayerMessage"
       },
-      "ty": 551,
+      "ty": 552,
       "custom_ordering": true
     },
     {
@@ -64325,7 +64456,7 @@
         "scope": [],
         "name": "ResetChunkIndexTimer"
       },
-      "ty": 552,
+      "ty": 553,
       "custom_ordering": true
     },
     {
@@ -64333,7 +64464,7 @@
         "scope": [],
         "name": "ResetMobileEntityTimer"
       },
-      "ty": 553,
+      "ty": 554,
       "custom_ordering": true
     },
     {
@@ -64381,7 +64512,7 @@
         "scope": [],
         "name": "ResourceHealthState"
       },
-      "ty": 554,
+      "ty": 555,
       "custom_ordering": true
     },
     {
@@ -64405,7 +64536,7 @@
         "scope": [],
         "name": "ResourceSpawnTimer"
       },
-      "ty": 555,
+      "ty": 556,
       "custom_ordering": true
     },
     {
@@ -64429,7 +64560,7 @@
         "scope": [],
         "name": "ResourcesRegenLoopTimer"
       },
-      "ty": 556,
+      "ty": 557,
       "custom_ordering": true
     },
     {
@@ -64437,7 +64568,7 @@
         "scope": [],
         "name": "RespawnResourceInChunkTimer"
       },
-      "ty": 557,
+      "ty": 558,
       "custom_ordering": true
     },
     {
@@ -64445,7 +64576,7 @@
         "scope": [],
         "name": "RezSickLongTermState"
       },
-      "ty": 559,
+      "ty": 560,
       "custom_ordering": true
     },
     {
@@ -64493,7 +64624,7 @@
         "scope": [],
         "name": "ServerTeleportReason"
       },
-      "ty": 562,
+      "ty": 563,
       "custom_ordering": true
     },
     {
@@ -64517,7 +64648,7 @@
         "scope": [],
         "name": "SingleResourceClumpInfo"
       },
-      "ty": 565,
+      "ty": 566,
       "custom_ordering": true
     },
     {
@@ -64525,7 +64656,7 @@
         "scope": [],
         "name": "SingleResourceToClumpDesc"
       },
-      "ty": 566,
+      "ty": 567,
       "custom_ordering": true
     },
     {
@@ -64549,7 +64680,7 @@
         "scope": [],
         "name": "SkillType"
       },
-      "ty": 579,
+      "ty": 580,
       "custom_ordering": true
     },
     {
@@ -64573,7 +64704,7 @@
         "scope": [],
         "name": "StagedStaticData"
       },
-      "ty": 568,
+      "ty": 569,
       "custom_ordering": true
     },
     {
@@ -64589,7 +64720,7 @@
         "scope": [],
         "name": "StarvingLoopTimer"
       },
-      "ty": 570,
+      "ty": 571,
       "custom_ordering": true
     },
     {
@@ -64597,7 +64728,7 @@
         "scope": [],
         "name": "StarvingPlayerState"
       },
-      "ty": 571,
+      "ty": 572,
       "custom_ordering": true
     },
     {
@@ -64605,7 +64736,7 @@
         "scope": [],
         "name": "StaticDataUpload"
       },
-      "ty": 569,
+      "ty": 570,
       "custom_ordering": true
     },
     {
@@ -64629,7 +64760,7 @@
         "scope": [],
         "name": "TargetUpdateRequest"
       },
-      "ty": 572,
+      "ty": 573,
       "custom_ordering": true
     },
     {
@@ -64677,7 +64808,7 @@
         "scope": [],
         "name": "TeleportPlayerTimer"
       },
-      "ty": 561,
+      "ty": 562,
       "custom_ordering": true
     },
     {
@@ -64685,7 +64816,7 @@
         "scope": [],
         "name": "TeleportationEnergyRegenLoopTimer"
       },
-      "ty": 573,
+      "ty": 574,
       "custom_ordering": true
     },
     {
@@ -64701,7 +64832,7 @@
         "scope": [],
         "name": "TerraformProgressState"
       },
-      "ty": 576,
+      "ty": 577,
       "custom_ordering": true
     },
     {
@@ -64733,7 +64864,7 @@
         "scope": [],
         "name": "TheGreatPlaceHolderTable"
       },
-      "ty": 578,
+      "ty": 579,
       "custom_ordering": true
     },
     {
@@ -64741,7 +64872,7 @@
         "scope": [],
         "name": "ThreatState"
       },
-      "ty": 583,
+      "ty": 584,
       "custom_ordering": true
     },
     {
@@ -64797,7 +64928,7 @@
         "scope": [],
         "name": "TradeSessionLoopTimer"
       },
-      "ty": 591,
+      "ty": 592,
       "custom_ordering": true
     },
     {
@@ -64837,7 +64968,7 @@
         "scope": [],
         "name": "TransferPlayerTimer"
       },
-      "ty": 593,
+      "ty": 594,
       "custom_ordering": true
     },
     {
@@ -64853,7 +64984,7 @@
         "scope": [],
         "name": "TravelerTaskLoopTimer"
       },
-      "ty": 594,
+      "ty": 595,
       "custom_ordering": true
     },
     {
@@ -64893,7 +65024,7 @@
         "scope": [],
         "name": "UnclaimedShardsState"
       },
-      "ty": 595,
+      "ty": 596,
       "custom_ordering": true
     },
     {
@@ -64941,7 +65072,7 @@
         "scope": [],
         "name": "UserPreviousRegionState"
       },
-      "ty": 596,
+      "ty": 597,
       "custom_ordering": true
     },
     {
