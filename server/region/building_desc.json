@@ -21539,7 +21539,7 @@
     "functions": [
       [
         999,
-        1,
+        2,
         0,
         0,
         0,
@@ -21556,8 +21556,8 @@
         0
       ]
     ],
-    "name": "Large Enterable Hut",
-    "description": "An enterable home that can be lived in or rented out.",
+    "name": "Simple Storehouse",
+    "description": "An enterable building which acts as additional space within a settlement, Only settlement members can access.",
     "rested_buff_duration": 0,
     "light_radius": 0,
     "model_asset_name": "Buildings/EnterableHut1",
@@ -36915,6 +36915,72 @@
     "not_deconstructible": false
   },
   {
+    "id": 90343168,
+    "functions": [
+      [
+        1002,
+        3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6000,
+        6000,
+        0,
+        [],
+        [],
+        0,
+        false,
+        0,
+        0
+      ]
+    ],
+    "name": "Talented Woodcraft Couch",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/DecoWoodcraftChair1",
+    "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Other/Buildings/DecoWoodcraftChair1",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        0,
+        -1,
+        [
+          0,
+          []
+        ]
+      ]
+    ],
+    "max_health": -1,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 0.0,
+    "maintenance": 0.0,
+    "build_permission": [
+      1,
+      {}
+    ],
+    "interact_permission": [
+      1,
+      {}
+    ],
+    "has_action": true,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false
+  },
+  {
     "id": 101794940,
     "functions": [
       [
@@ -37025,6 +37091,80 @@
     ],
     "has_action": true,
     "show_in_compendium": false,
+    "is_ruins": false,
+    "not_deconstructible": false
+  },
+  {
+    "id": 108518190,
+    "functions": [
+      [
+        1002,
+        3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6000,
+        6000,
+        0,
+        [],
+        [],
+        0,
+        false,
+        0,
+        0
+      ]
+    ],
+    "name": "Talented Woodcraft Rug",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/DecoWoodcraftRug2",
+    "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Other/Buildings/DecoWoodcraftRug2",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          1,
+          []
+        ]
+      ],
+      [
+        1,
+        -1,
+        [
+          1,
+          []
+        ]
+      ],
+      [
+        -1,
+        1,
+        [
+          1,
+          []
+        ]
+      ]
+    ],
+    "max_health": -1,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 0.0,
+    "maintenance": 0.0,
+    "build_permission": [
+      1,
+      {}
+    ],
+    "interact_permission": [
+      1,
+      {}
+    ],
+    "has_action": true,
+    "show_in_compendium": true,
     "is_ruins": false,
     "not_deconstructible": false
   },
@@ -37347,6 +37487,208 @@
     "not_deconstructible": false
   },
   {
+    "id": 154394148,
+    "functions": [
+      [
+        787619404,
+        5,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6000,
+        6000,
+        0,
+        [],
+        [],
+        0,
+        false,
+        5,
+        22
+      ]
+    ],
+    "name": "Exquisite Residential House",
+    "description": "A residence building that could be used to setup houses in.",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/ResidentialHouseT5",
+    "icon_asset_name": "GeneratedIcons/Other/Buildings/Enterable/EnterableT1Medium",
+    "unenterable": false,
+    "wilderness": true,
+    "footprint": [
+      [
+        -1,
+        1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        1,
+        1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        2,
+        0,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        2,
+        -2,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        0,
+        -2,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        -1,
+        -1,
+        [
+          1,
+          []
+        ]
+      ],
+      [
+        0,
+        1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        1,
+        0,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        2,
+        -1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        1,
+        -2,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        0,
+        -1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        -1,
+        0,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        1,
+        -1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        0,
+        0,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        -2,
+        2,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        -1,
+        2,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        0,
+        2,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        -2,
+        1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        -2,
+        0,
+        [
+          0,
+          []
+        ]
+      ]
+    ],
+    "max_health": 120,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 1.0,
+    "maintenance": 0.0,
+    "build_permission": [
+      1,
+      {}
+    ],
+    "interact_permission": [
+      3,
+      {}
+    ],
+    "has_action": true,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false
+  },
+  {
     "id": 169590327,
     "functions": [],
     "name": "TownDecorRuinedBuilding8",
@@ -37532,7 +37874,7 @@
     "rested_buff_duration": 0,
     "light_radius": 0,
     "model_asset_name": "Buildings/DecoWickerRug2",
-    "icon_asset_name": "GeneratedIcons/Other/Buildings/Storage/WickerBasket",
+    "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Other/Buildings/DecoWickerRug2",
     "unenterable": true,
     "wilderness": true,
     "footprint": [
@@ -54618,6 +54960,112 @@
     "not_deconstructible": false
   },
   {
+    "id": 344328584,
+    "functions": [
+      [
+        1002,
+        3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6000,
+        6000,
+        0,
+        [],
+        [],
+        0,
+        false,
+        0,
+        0
+      ]
+    ],
+    "name": "Talented Woodcraft Carpet",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/DecoWoodcraftRug1",
+    "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Other/Buildings/DecoWoodcraftRug1",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          1,
+          []
+        ]
+      ],
+      [
+        1,
+        -1,
+        [
+          1,
+          []
+        ]
+      ],
+      [
+        -1,
+        1,
+        [
+          1,
+          []
+        ]
+      ],
+      [
+        -1,
+        0,
+        [
+          1,
+          []
+        ]
+      ],
+      [
+        0,
+        -1,
+        [
+          1,
+          []
+        ]
+      ],
+      [
+        1,
+        0,
+        [
+          1,
+          []
+        ]
+      ],
+      [
+        0,
+        1,
+        [
+          1,
+          []
+        ]
+      ]
+    ],
+    "max_health": -1,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 0.0,
+    "maintenance": 0.0,
+    "build_permission": [
+      1,
+      {}
+    ],
+    "interact_permission": [
+      1,
+      {}
+    ],
+    "has_action": true,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false
+  },
+  {
     "id": 350733880,
     "functions": [
       [
@@ -54644,7 +55092,7 @@
     "rested_buff_duration": 0,
     "light_radius": 0,
     "model_asset_name": "Buildings/DecoWickerPot1",
-    "icon_asset_name": "GeneratedIcons/Other/Buildings/Storage/WickerBasket",
+    "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Other/Buildings/DecoWickerPot1",
     "unenterable": true,
     "wilderness": true,
     "footprint": [
@@ -55378,6 +55826,64 @@
       {}
     ],
     "has_action": false,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false
+  },
+  {
+    "id": 389279843,
+    "functions": [
+      [
+        3,
+        3,
+        0,
+        36,
+        0,
+        0,
+        0,
+        60000,
+        600000,
+        0,
+        [],
+        [],
+        0,
+        false,
+        0,
+        0
+      ]
+    ],
+    "name": "Talented Woodcraft Item Storage",
+    "description": "A cabinet for storing items, can only be built inside.",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/DecoWoodcraftWardrobe",
+    "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Other/Buildings/DecoWoodcraftWardrobe",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          0,
+          []
+        ]
+      ]
+    ],
+    "max_health": -1,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 0.0,
+    "maintenance": 0.0,
+    "build_permission": [
+      1,
+      {}
+    ],
+    "interact_permission": [
+      1,
+      {}
+    ],
+    "has_action": true,
     "show_in_compendium": true,
     "is_ruins": false,
     "not_deconstructible": false
@@ -59008,6 +59514,80 @@
       [
         1,
         -3,
+        [
+          0,
+          []
+        ]
+      ]
+    ],
+    "max_health": 120,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 1.0,
+    "maintenance": 0.0,
+    "build_permission": [
+      1,
+      {}
+    ],
+    "interact_permission": [
+      3,
+      {}
+    ],
+    "has_action": true,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false
+  },
+  {
+    "id": 446001992,
+    "functions": [
+      [
+        937867074,
+        1,
+        12,
+        0,
+        0,
+        0,
+        0,
+        6000,
+        6000,
+        0,
+        [],
+        [],
+        1,
+        false,
+        0,
+        0
+      ]
+    ],
+    "name": "Construction Station",
+    "description": "A construction station where you could build furniture for your house.",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/ConstructionWorkstation",
+    "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Other/Buildings/Crafting/AncientCarpentryWorkstation",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      [
+        1,
+        0,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        0,
+        0,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        1,
+        1,
         [
           0,
           []
@@ -63999,7 +64579,7 @@
       ]
     ],
     "name": "Player Housing Catacombs",
-    "description": "A portal to player housing",
+    "description": "A deep tunnel system with nearly infinite rooms which could be turned into housing.",
     "rested_buff_duration": 0,
     "light_radius": 6,
     "model_asset_name": "Buildings/PlayerHousingCatacombs",
@@ -64988,7 +65568,7 @@
     "rested_buff_duration": 0,
     "light_radius": 0,
     "model_asset_name": "Buildings/DecoWickerTable",
-    "icon_asset_name": "GeneratedIcons/Other/Buildings/Storage/WickerBasket",
+    "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Other/Buildings/DecoWickerTable",
     "unenterable": true,
     "wilderness": true,
     "footprint": [
@@ -65130,6 +65710,72 @@
     ],
     "has_action": true,
     "show_in_compendium": false,
+    "is_ruins": false,
+    "not_deconstructible": false
+  },
+  {
+    "id": 572073165,
+    "functions": [
+      [
+        1002,
+        3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6000,
+        6000,
+        0,
+        [],
+        [],
+        0,
+        false,
+        0,
+        0
+      ]
+    ],
+    "name": "Talented Woodcraft Desk",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/DecoWoodcraftDesk",
+    "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Other/Buildings/DecoWoodcraftDesk",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        -1,
+        1,
+        [
+          0,
+          []
+        ]
+      ]
+    ],
+    "max_health": -1,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 0.0,
+    "maintenance": 0.0,
+    "build_permission": [
+      1,
+      {}
+    ],
+    "interact_permission": [
+      1,
+      {}
+    ],
+    "has_action": true,
+    "show_in_compendium": true,
     "is_ruins": false,
     "not_deconstructible": false
   },
@@ -65321,7 +65967,7 @@
     "rested_buff_duration": 0,
     "light_radius": 0,
     "model_asset_name": "Buildings/DecoWickerRug3",
-    "icon_asset_name": "GeneratedIcons/Other/Buildings/Storage/WickerBasket",
+    "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Other/Buildings/DecoWickerRug3",
     "unenterable": true,
     "wilderness": true,
     "footprint": [
@@ -65329,7 +65975,7 @@
         0,
         0,
         [
-          0,
+          1,
           []
         ]
       ],
@@ -67014,6 +67660,208 @@
     "not_deconstructible": false
   },
   {
+    "id": 778355971,
+    "functions": [
+      [
+        787619404,
+        3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6000,
+        6000,
+        0,
+        [],
+        [],
+        0,
+        false,
+        5,
+        13
+      ]
+    ],
+    "name": "Sturdy Residential House",
+    "description": "A residence building that could be used to setup houses in.",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/ResidentialHouseT3",
+    "icon_asset_name": "GeneratedIcons/Other/Buildings/Enterable/EnterableT1Medium",
+    "unenterable": false,
+    "wilderness": true,
+    "footprint": [
+      [
+        -1,
+        1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        1,
+        1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        2,
+        0,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        2,
+        -2,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        0,
+        -2,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        -1,
+        -1,
+        [
+          1,
+          []
+        ]
+      ],
+      [
+        0,
+        1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        1,
+        0,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        2,
+        -1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        1,
+        -2,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        0,
+        -1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        -1,
+        0,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        1,
+        -1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        0,
+        0,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        -2,
+        2,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        -1,
+        2,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        0,
+        2,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        -2,
+        1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        -2,
+        0,
+        [
+          0,
+          []
+        ]
+      ]
+    ],
+    "max_health": 120,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 1.0,
+    "maintenance": 0.0,
+    "build_permission": [
+      1,
+      {}
+    ],
+    "interact_permission": [
+      3,
+      {}
+    ],
+    "has_action": true,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false
+  },
+  {
     "id": 789573505,
     "functions": [
       [
@@ -67739,6 +68587,64 @@
     ],
     "has_action": false,
     "show_in_compendium": false,
+    "is_ruins": false,
+    "not_deconstructible": false
+  },
+  {
+    "id": 820487351,
+    "functions": [
+      [
+        1002,
+        3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6000,
+        6000,
+        0,
+        [],
+        [],
+        0,
+        false,
+        0,
+        0
+      ]
+    ],
+    "name": "Talented Woodcraft Small Carpet",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/DecoWoodcraftRug3",
+    "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Other/Buildings/DecoWoodcraftRug3",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          1,
+          []
+        ]
+      ]
+    ],
+    "max_health": -1,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 0.0,
+    "maintenance": 0.0,
+    "build_permission": [
+      1,
+      {}
+    ],
+    "interact_permission": [
+      1,
+      {}
+    ],
+    "has_action": true,
+    "show_in_compendium": true,
     "is_ruins": false,
     "not_deconstructible": false
   },
@@ -68631,6 +69537,120 @@
     "not_deconstructible": false
   },
   {
+    "id": 901795831,
+    "functions": [
+      [
+        787619404,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6000,
+        6000,
+        0,
+        [],
+        [],
+        0,
+        false,
+        3,
+        5
+      ]
+    ],
+    "name": "Rough Residential Hut",
+    "description": "A residence building that could be used to setup houses in.",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/EnterableHut2",
+    "icon_asset_name": "GeneratedIcons/Other/Buildings/Enterable/EnterableT1Small",
+    "unenterable": false,
+    "wilderness": true,
+    "footprint": [
+      [
+        -1,
+        2,
+        [
+          1,
+          []
+        ]
+      ],
+      [
+        -1,
+        1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        0,
+        1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        1,
+        0,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        1,
+        -1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        0,
+        -1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        -1,
+        0,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        0,
+        0,
+        [
+          0,
+          []
+        ]
+      ]
+    ],
+    "max_health": 120,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 1.0,
+    "maintenance": 0.0,
+    "build_permission": [
+      1,
+      {}
+    ],
+    "interact_permission": [
+      3,
+      {}
+    ],
+    "has_action": true,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false
+  },
+  {
     "id": 902399847,
     "functions": [],
     "name": "RuinDecorLights",
@@ -69002,7 +70022,7 @@
     "rested_buff_duration": 0,
     "light_radius": 0,
     "model_asset_name": "Buildings/TownMarketplace",
-    "icon_asset_name": "GeneratedIcons/Other/Buildings/Barter/BarterStallT1",
+    "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Other/Buildings/TownMarketplace",
     "unenterable": true,
     "wilderness": true,
     "footprint": [
@@ -70177,7 +71197,7 @@
     "rested_buff_duration": 0,
     "light_radius": 0,
     "model_asset_name": "Buildings/PlayerBankChest",
-    "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Other/Buildings/Crafting/Bank",
+    "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Other/Buildings/PlayerBank",
     "unenterable": false,
     "wilderness": false,
     "footprint": [
@@ -75442,7 +76462,7 @@
     "rested_buff_duration": 0,
     "light_radius": 0,
     "model_asset_name": "Buildings/DecoWickerHangingPot1",
-    "icon_asset_name": "GeneratedIcons/Other/Buildings/Storage/WickerBasket",
+    "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Other/Buildings/DecoWickerHangingPot1",
     "unenterable": true,
     "wilderness": true,
     "footprint": [
@@ -75614,6 +76634,72 @@
       {}
     ],
     "has_action": false,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false
+  },
+  {
+    "id": 1052112899,
+    "functions": [
+      [
+        1002,
+        3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6000,
+        6000,
+        0,
+        [],
+        [],
+        0,
+        false,
+        0,
+        0
+      ]
+    ],
+    "name": "Talented Woodcraft Bed",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/DecoWoodcraftBed",
+    "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Other/Buildings/DecoWoodcraftBed",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        0,
+        -1,
+        [
+          0,
+          []
+        ]
+      ]
+    ],
+    "max_health": -1,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 0.0,
+    "maintenance": 0.0,
+    "build_permission": [
+      1,
+      {}
+    ],
+    "interact_permission": [
+      1,
+      {}
+    ],
+    "has_action": true,
     "show_in_compendium": true,
     "is_ruins": false,
     "not_deconstructible": false
@@ -77832,7 +78918,7 @@
     "rested_buff_duration": 0,
     "light_radius": 0,
     "model_asset_name": "Buildings/DecoWickerChair3",
-    "icon_asset_name": "GeneratedIcons/Other/Buildings/Storage/WickerBasket",
+    "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Other/Buildings/DecoWickerChair3",
     "unenterable": true,
     "wilderness": true,
     "footprint": [
@@ -80924,7 +82010,7 @@
     "rested_buff_duration": 0,
     "light_radius": 0,
     "model_asset_name": "Buildings/DecoWickerChar2",
-    "icon_asset_name": "GeneratedIcons/Other/Buildings/Storage/WickerBasket",
+    "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Other/Buildings/DecoWickerChar2",
     "unenterable": true,
     "wilderness": true,
     "footprint": [
@@ -81870,6 +82956,64 @@
     "not_deconstructible": false
   },
   {
+    "id": 1424317515,
+    "functions": [
+      [
+        1002,
+        3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6000,
+        6000,
+        0,
+        [],
+        [],
+        0,
+        false,
+        0,
+        0
+      ]
+    ],
+    "name": "Talented Woodcraft Accent Table",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/DecoWoodcraftAccentTable",
+    "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Other/Buildings/DecoWoodcraftAccentTable",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          0,
+          []
+        ]
+      ]
+    ],
+    "max_health": -1,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 0.0,
+    "maintenance": 0.0,
+    "build_permission": [
+      1,
+      {}
+    ],
+    "interact_permission": [
+      1,
+      {}
+    ],
+    "has_action": true,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false
+  },
+  {
     "id": 1429534535,
     "functions": [
       [
@@ -82393,7 +83537,7 @@
     "rested_buff_duration": 0,
     "light_radius": 0,
     "model_asset_name": "Buildings/DecoWickerRug1",
-    "icon_asset_name": "GeneratedIcons/Other/Buildings/Storage/WickerBasket",
+    "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Other/Buildings/DecoWickerRug1",
     "unenterable": true,
     "wilderness": true,
     "footprint": [
@@ -83374,6 +84518,64 @@
     ],
     "interact_permission": [
       3,
+      {}
+    ],
+    "has_action": true,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false
+  },
+  {
+    "id": 1538521369,
+    "functions": [
+      [
+        1002,
+        3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6000,
+        6000,
+        0,
+        [],
+        [],
+        0,
+        false,
+        0,
+        0
+      ]
+    ],
+    "name": "Talented Woodcraft Side Table",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/DecoWoodcraftSidetable",
+    "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Other/Buildings/DecoWoodcraftSidetable",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          0,
+          []
+        ]
+      ]
+    ],
+    "max_health": -1,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 0.0,
+    "maintenance": 0.0,
+    "build_permission": [
+      1,
+      {}
+    ],
+    "interact_permission": [
+      1,
       {}
     ],
     "has_action": true,
@@ -91694,6 +92896,64 @@
     "not_deconstructible": false
   },
   {
+    "id": 1671823359,
+    "functions": [
+      [
+        1002,
+        3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6000,
+        6000,
+        0,
+        [],
+        [],
+        0,
+        false,
+        0,
+        0
+      ]
+    ],
+    "name": "Talented Woodcraft Coffee Table",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/DecoWoodcraftCoffeeTable",
+    "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Other/Buildings/DecoWoodcraftCoffeeTable",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          0,
+          []
+        ]
+      ]
+    ],
+    "max_health": -1,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 0.0,
+    "maintenance": 0.0,
+    "build_permission": [
+      1,
+      {}
+    ],
+    "interact_permission": [
+      1,
+      {}
+    ],
+    "has_action": true,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false
+  },
+  {
     "id": 1678055861,
     "functions": [],
     "name": "RuinDecorBackWallTreasurePlatform",
@@ -92352,6 +93612,410 @@
     ],
     "has_action": false,
     "show_in_compendium": false,
+    "is_ruins": false,
+    "not_deconstructible": false
+  },
+  {
+    "id": 1720409289,
+    "functions": [
+      [
+        787619404,
+        4,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6000,
+        6000,
+        0,
+        [],
+        [],
+        0,
+        false,
+        5,
+        17
+      ]
+    ],
+    "name": "Fine Residential House",
+    "description": "A residence building that could be used to setup houses in.",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/ResidentialHouseT4",
+    "icon_asset_name": "GeneratedIcons/Other/Buildings/Enterable/EnterableT1Medium",
+    "unenterable": false,
+    "wilderness": true,
+    "footprint": [
+      [
+        -1,
+        1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        1,
+        1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        2,
+        0,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        2,
+        -2,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        0,
+        -2,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        -1,
+        -1,
+        [
+          1,
+          []
+        ]
+      ],
+      [
+        0,
+        1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        1,
+        0,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        2,
+        -1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        1,
+        -2,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        0,
+        -1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        -1,
+        0,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        1,
+        -1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        0,
+        0,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        -2,
+        2,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        -1,
+        2,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        0,
+        2,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        -2,
+        1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        -2,
+        0,
+        [
+          0,
+          []
+        ]
+      ]
+    ],
+    "max_health": 120,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 1.0,
+    "maintenance": 0.0,
+    "build_permission": [
+      1,
+      {}
+    ],
+    "interact_permission": [
+      3,
+      {}
+    ],
+    "has_action": true,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false
+  },
+  {
+    "id": 1726398716,
+    "functions": [
+      [
+        787619404,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6000,
+        6000,
+        0,
+        [],
+        [],
+        0,
+        false,
+        5,
+        10
+      ]
+    ],
+    "name": "Simple Residential House",
+    "description": "A residence building that could be used to setup houses in.",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/ResidentialHouseT2",
+    "icon_asset_name": "GeneratedIcons/Other/Buildings/Enterable/EnterableT1Medium",
+    "unenterable": false,
+    "wilderness": true,
+    "footprint": [
+      [
+        -1,
+        1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        1,
+        1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        2,
+        0,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        2,
+        -2,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        0,
+        -2,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        -1,
+        -1,
+        [
+          1,
+          []
+        ]
+      ],
+      [
+        0,
+        1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        1,
+        0,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        2,
+        -1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        1,
+        -2,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        0,
+        -1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        -1,
+        0,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        1,
+        -1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        0,
+        0,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        -2,
+        2,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        -1,
+        2,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        0,
+        2,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        -2,
+        1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        -2,
+        0,
+        [
+          0,
+          []
+        ]
+      ]
+    ],
+    "max_health": 120,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 1.0,
+    "maintenance": 0.0,
+    "build_permission": [
+      1,
+      {}
+    ],
+    "interact_permission": [
+      3,
+      {}
+    ],
+    "has_action": true,
+    "show_in_compendium": true,
     "is_ruins": false,
     "not_deconstructible": false
   },
@@ -97235,7 +98899,7 @@
     "rested_buff_duration": 0,
     "light_radius": 2,
     "model_asset_name": "Buildings/T5Wall",
-    "icon_asset_name": "GeneratedIcons/Other/Buildings/Walls/WallT1",
+    "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Other/Buildings/Walls/WallT5",
     "unenterable": true,
     "wilderness": true,
     "footprint": [
@@ -97301,6 +98965,72 @@
       {}
     ],
     "has_action": false,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false
+  },
+  {
+    "id": 1805493003,
+    "functions": [
+      [
+        1002,
+        3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6000,
+        6000,
+        0,
+        [],
+        [],
+        0,
+        false,
+        0,
+        0
+      ]
+    ],
+    "name": "Talented Woodcraft Room Divider",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/DecoWoodcraftRoomDivider",
+    "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Other/Buildings/DecoWoodcraftRoomDivider",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        -1,
+        1,
+        [
+          0,
+          []
+        ]
+      ]
+    ],
+    "max_health": -1,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 0.0,
+    "maintenance": 0.0,
+    "build_permission": [
+      1,
+      {}
+    ],
+    "interact_permission": [
+      1,
+      {}
+    ],
+    "has_action": true,
     "show_in_compendium": true,
     "is_ruins": false,
     "not_deconstructible": false
@@ -109039,6 +110769,72 @@
     "not_deconstructible": false
   },
   {
+    "id": 1920300482,
+    "functions": [
+      [
+        3,
+        3,
+        0,
+        0,
+        24,
+        0,
+        0,
+        60000,
+        600000,
+        0,
+        [],
+        [],
+        0,
+        false,
+        0,
+        0
+      ]
+    ],
+    "name": "Talented Woodcraft Cargo Bin",
+    "description": "A bin for storing cargo, can only be built inside.",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/DecoWoodcraftCabinet",
+    "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Other/Buildings/DecoWoodcraftCabinet",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        1,
+        0,
+        [
+          0,
+          []
+        ]
+      ]
+    ],
+    "max_health": -1,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 0.0,
+    "maintenance": 0.0,
+    "build_permission": [
+      1,
+      {}
+    ],
+    "interact_permission": [
+      1,
+      {}
+    ],
+    "has_action": true,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false
+  },
+  {
     "id": 1930084091,
     "functions": [],
     "name": "TownDecorTownRuinsWallEndcap2",
@@ -109757,7 +111553,7 @@
     "rested_buff_duration": 0,
     "light_radius": 5,
     "model_asset_name": "Buildings/T5Gate",
-    "icon_asset_name": "GeneratedIcons/Other/Buildings/Walls/T5Gate",
+    "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Other/Buildings/Walls/GateT5",
     "unenterable": true,
     "wilderness": true,
     "footprint": [
@@ -109847,7 +111643,7 @@
     "rested_buff_duration": 0,
     "light_radius": 0,
     "model_asset_name": "Buildings/DecoWickerBed",
-    "icon_asset_name": "GeneratedIcons/Other/Buildings/Storage/WickerBasket",
+    "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Other/Buildings/DecoWickerBed",
     "unenterable": true,
     "wilderness": true,
     "footprint": [
@@ -116560,12 +118356,12 @@
         3,
         1,
         0,
-        30,
         0,
+        12,
         0,
         0,
         60000,
-        6000,
+        600000,
         0,
         [],
         [],
@@ -116575,12 +118371,12 @@
         0
       ]
     ],
-    "name": "Wicker Cabinet",
-    "description": "A small cabinet for storage, can only be built inside",
+    "name": "Wicker Cargo Bin",
+    "description": "A bin for storing cargo, can only be built inside.",
     "rested_buff_duration": 0,
     "light_radius": 0,
     "model_asset_name": "Buildings/WickerCabinet",
-    "icon_asset_name": "GeneratedIcons/Other/Buildings/Storage/WickerBasket",
+    "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Other/Buildings/WickerCabinet",
     "unenterable": true,
     "wilderness": true,
     "footprint": [
@@ -116646,7 +118442,7 @@
     "rested_buff_duration": 0,
     "light_radius": 0,
     "model_asset_name": "Buildings/DecoWickerDesk",
-    "icon_asset_name": "GeneratedIcons/Other/Buildings/Storage/WickerBasket",
+    "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Other/Buildings/DecoWickerDesk",
     "unenterable": true,
     "wilderness": true,
     "footprint": [
@@ -116713,6 +118509,64 @@
     ],
     "has_action": false,
     "show_in_compendium": false,
+    "is_ruins": false,
+    "not_deconstructible": false
+  },
+  {
+    "id": 2065403158,
+    "functions": [
+      [
+        1002,
+        3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6000,
+        6000,
+        0,
+        [],
+        [],
+        0,
+        false,
+        0,
+        0
+      ]
+    ],
+    "name": "Talented Woodcraft Chair",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/DecoWoodcraftChair2",
+    "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Other/Buildings/DecoWoodcraftChair2",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          0,
+          []
+        ]
+      ]
+    ],
+    "max_health": -1,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 0.0,
+    "maintenance": 0.0,
+    "build_permission": [
+      1,
+      {}
+    ],
+    "interact_permission": [
+      1,
+      {}
+    ],
+    "has_action": true,
+    "show_in_compendium": true,
     "is_ruins": false,
     "not_deconstructible": false
   },
@@ -124271,6 +126125,64 @@
     ],
     "has_action": false,
     "show_in_compendium": false,
+    "is_ruins": false,
+    "not_deconstructible": false
+  },
+  {
+    "id": 2082568839,
+    "functions": [
+      [
+        3,
+        1,
+        0,
+        24,
+        0,
+        0,
+        0,
+        60000,
+        600000,
+        0,
+        [],
+        [],
+        0,
+        false,
+        0,
+        0
+      ]
+    ],
+    "name": "Wicker Item Storage",
+    "description": "A cabinet for storing items, can only be built inside.",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/DecoWickerWardrobe",
+    "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Other/Buildings/DecoWickerWardrobe",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          0,
+          []
+        ]
+      ]
+    ],
+    "max_health": -1,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 0.0,
+    "maintenance": 0.0,
+    "build_permission": [
+      1,
+      {}
+    ],
+    "interact_permission": [
+      1,
+      {}
+    ],
+    "has_action": true,
+    "show_in_compendium": true,
     "is_ruins": false,
     "not_deconstructible": false
   },
