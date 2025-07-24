@@ -242,13 +242,13 @@
     "hide_with_blocking_knowledges": false
   },
   {
-    "id": 2001943080,
+    "id": 1219324222,
     "starting_stock": 2147483647,
     "always_offered": true,
-    "traveler": "Rumbagh",
+    "traveler": "Brico",
     "offer_items": [
       {
-        "item_id": 580374466,
+        "item_id": 56730351,
         "quantity": 1,
         "item_type": "Item",
         "durability": 0
@@ -258,19 +258,26 @@
     "required_items": [
       {
         "item_id": 1,
-        "quantity": 1000,
+        "quantity": 50,
         "item_type": "Item",
         "durability": 0
       }
     ],
     "required_cargo_id": [],
-    "level_requirements": [],
+    "level_requirements": [
+      {
+        "skill_id": 15,
+        "level": 2
+      }
+    ],
     "achievement_requirements": [],
     "hide_if_requirements_are_not_met": false,
     "required_knowledges": [],
     "hide_without_required_knowledge": false,
-    "blocking_knowledges": [],
-    "hide_with_blocking_knowledges": false
+    "blocking_knowledges": [
+      423318193
+    ],
+    "hide_with_blocking_knowledges": true
   },
   {
     "id": 867159417,
@@ -1083,13 +1090,13 @@
     "hide_with_blocking_knowledges": false
   },
   {
-    "id": 1057802508,
+    "id": 1205666837,
     "starting_stock": 2147483647,
     "always_offered": true,
-    "traveler": "Rumbagh",
+    "traveler": "Brico",
     "offer_items": [
       {
-        "item_id": 1686060207,
+        "item_id": 1061968498,
         "quantity": 1,
         "item_type": "Item",
         "durability": 0
@@ -1098,8 +1105,8 @@
     "offer_cargo_id": [],
     "required_items": [
       {
-        "item_id": 1551266896,
-        "quantity": 10,
+        "item_id": 1249122434,
+        "quantity": 1,
         "item_type": "Item",
         "durability": 0
       },
@@ -1111,22 +1118,31 @@
       }
     ],
     "required_cargo_id": [],
-    "level_requirements": [],
+    "level_requirements": [
+      {
+        "skill_id": 15,
+        "level": 20
+      }
+    ],
     "achievement_requirements": [],
     "hide_if_requirements_are_not_met": false,
-    "required_knowledges": [],
-    "hide_without_required_knowledge": false,
-    "blocking_knowledges": [],
-    "hide_with_blocking_knowledges": false
+    "required_knowledges": [
+      9154362
+    ],
+    "hide_without_required_knowledge": true,
+    "blocking_knowledges": [
+      899698659
+    ],
+    "hide_with_blocking_knowledges": true
   },
   {
-    "id": 2072478915,
+    "id": 1446407671,
     "starting_stock": 2147483647,
     "always_offered": true,
-    "traveler": "Rumbagh",
+    "traveler": "Brico",
     "offer_items": [
       {
-        "item_id": 1712579910,
+        "item_id": 1008780724,
         "quantity": 1,
         "item_type": "Item",
         "durability": 0
@@ -1136,19 +1152,26 @@
     "required_items": [
       {
         "item_id": 1,
-        "quantity": 2500,
+        "quantity": 500,
         "item_type": "Item",
         "durability": 0
       }
     ],
     "required_cargo_id": [],
-    "level_requirements": [],
+    "level_requirements": [
+      {
+        "skill_id": 15,
+        "level": 2
+      }
+    ],
     "achievement_requirements": [],
     "hide_if_requirements_are_not_met": false,
     "required_knowledges": [],
     "hide_without_required_knowledge": false,
-    "blocking_knowledges": [],
-    "hide_with_blocking_knowledges": false
+    "blocking_knowledges": [
+      844511805
+    ],
+    "hide_with_blocking_knowledges": true
   },
   {
     "id": 1851037692,
@@ -4077,13 +4100,39 @@
     "hide_with_blocking_knowledges": true
   },
   {
-    "id": 1446407671,
+    "id": 2001943080,
+    "starting_stock": 2147483647,
+    "always_offered": true,
+    "traveler": "Rumbagh",
+    "offer_items": [],
+    "offer_cargo_id": [
+      1768052462
+    ],
+    "required_items": [
+      {
+        "item_id": 1,
+        "quantity": 1000,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "required_cargo_id": [],
+    "level_requirements": [],
+    "achievement_requirements": [],
+    "hide_if_requirements_are_not_met": false,
+    "required_knowledges": [],
+    "hide_without_required_knowledge": false,
+    "blocking_knowledges": [],
+    "hide_with_blocking_knowledges": false
+  },
+  {
+    "id": 1668470954,
     "starting_stock": 2147483647,
     "always_offered": true,
     "traveler": "Brico",
     "offer_items": [
       {
-        "item_id": 1008780724,
+        "item_id": 309254990,
         "quantity": 1,
         "item_type": "Item",
         "durability": 0
@@ -4093,7 +4142,7 @@
     "required_items": [
       {
         "item_id": 1,
-        "quantity": 1,
+        "quantity": 5000,
         "item_type": "Item",
         "durability": 0
       }
@@ -4102,17 +4151,15 @@
     "level_requirements": [
       {
         "skill_id": 15,
-        "level": 5
+        "level": 30
       }
     ],
     "achievement_requirements": [],
     "hide_if_requirements_are_not_met": false,
-    "required_knowledges": [
-      12345
-    ],
-    "hide_without_required_knowledge": true,
+    "required_knowledges": [],
+    "hide_without_required_knowledge": false,
     "blocking_knowledges": [
-      844511805
+      1144259116
     ],
     "hide_with_blocking_knowledges": true
   },
@@ -4132,8 +4179,14 @@
     "offer_cargo_id": [],
     "required_items": [
       {
-        "item_id": 1,
+        "item_id": 1551266896,
         "quantity": 1,
+        "item_type": "Item",
+        "durability": 0
+      },
+      {
+        "item_id": 1,
+        "quantity": 2500,
         "item_type": "Item",
         "durability": 0
       }
@@ -4142,59 +4195,17 @@
     "level_requirements": [
       {
         "skill_id": 15,
-        "level": 15
+        "level": 10
       }
     ],
     "achievement_requirements": [],
     "hide_if_requirements_are_not_met": false,
     "required_knowledges": [
-      844511805,
-      12345
+      844511805
     ],
     "hide_without_required_knowledge": true,
     "blocking_knowledges": [
       9154362
-    ],
-    "hide_with_blocking_knowledges": true
-  },
-  {
-    "id": 1205666837,
-    "starting_stock": 2147483647,
-    "always_offered": true,
-    "traveler": "Brico",
-    "offer_items": [
-      {
-        "item_id": 1061968498,
-        "quantity": 1,
-        "item_type": "Item",
-        "durability": 0
-      }
-    ],
-    "offer_cargo_id": [],
-    "required_items": [
-      {
-        "item_id": 1,
-        "quantity": 1,
-        "item_type": "Item",
-        "durability": 0
-      }
-    ],
-    "required_cargo_id": [],
-    "level_requirements": [
-      {
-        "skill_id": 15,
-        "level": 15
-      }
-    ],
-    "achievement_requirements": [],
-    "hide_if_requirements_are_not_met": false,
-    "required_knowledges": [
-      9154362,
-      12345
-    ],
-    "hide_without_required_knowledge": true,
-    "blocking_knowledges": [
-      899698659
     ],
     "hide_with_blocking_knowledges": true
   },
@@ -4402,6 +4413,64 @@
       {
         "item_id": 1,
         "quantity": 500,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "required_cargo_id": [],
+    "level_requirements": [],
+    "achievement_requirements": [],
+    "hide_if_requirements_are_not_met": false,
+    "required_knowledges": [],
+    "hide_without_required_knowledge": false,
+    "blocking_knowledges": [],
+    "hide_with_blocking_knowledges": false
+  },
+  {
+    "id": 2072478915,
+    "starting_stock": 2147483647,
+    "always_offered": true,
+    "traveler": "Rumbagh",
+    "offer_items": [],
+    "offer_cargo_id": [
+      549503000
+    ],
+    "required_items": [
+      {
+        "item_id": 1,
+        "quantity": 2500,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "required_cargo_id": [],
+    "level_requirements": [],
+    "achievement_requirements": [],
+    "hide_if_requirements_are_not_met": false,
+    "required_knowledges": [],
+    "hide_without_required_knowledge": false,
+    "blocking_knowledges": [],
+    "hide_with_blocking_knowledges": false
+  },
+  {
+    "id": 1057802508,
+    "starting_stock": 2147483647,
+    "always_offered": true,
+    "traveler": "Rumbagh",
+    "offer_items": [],
+    "offer_cargo_id": [
+      833769059
+    ],
+    "required_items": [
+      {
+        "item_id": 1551266896,
+        "quantity": 10,
+        "item_type": "Item",
+        "durability": 0
+      },
+      {
+        "item_id": 1,
+        "quantity": 5000,
         "item_type": "Item",
         "durability": 0
       }

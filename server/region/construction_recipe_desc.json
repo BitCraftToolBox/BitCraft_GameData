@@ -1599,10 +1599,10 @@
     "recipe_performance_id": 538
   },
   {
-    "id": 100,
-    "name": "Settlement Totem",
+    "id": 383019290,
+    "name": "Construction Station",
     "time_requirement": 2.0,
-    "stamina_requirement": 0.75,
+    "stamina_requirement": 0.89,
     "consumed_building": 0,
     "required_interior_tier": -1,
     "level_requirements": [
@@ -1620,30 +1620,47 @@
     ],
     "consumed_item_stacks": [
       {
-        "item_id": 1686060207,
-        "quantity": 1,
+        "item_id": 2090004,
+        "quantity": 5,
         "item_type": "Item",
         "discovery_score": 1,
         "consumption_chance": 1.0
       }
     ],
-    "consumed_cargo_stacks": [],
+    "consumed_cargo_stacks": [
+      {
+        "item_id": 1201,
+        "quantity": 10,
+        "item_type": "Cargo",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      },
+      {
+        "item_id": 2401,
+        "quantity": 5,
+        "item_type": "Cargo",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
     "consumed_shards": 0,
     "experience_per_progress": [
       {
         "skill_id": 15,
-        "quantity": 0.0
+        "quantity": 1.0
       }
     ],
-    "discovery_triggers": [],
+    "discovery_triggers": [
+      1365060029
+    ],
     "required_knowledges": [],
-    "required_claim_tech_id": 0,
+    "required_claim_tech_id": 200,
     "full_discovery_score": 1,
     "tool_mesh_index": 0,
-    "building_description_id": 405,
+    "building_description_id": 446001992,
     "required_paving_tier": -1,
-    "actions_required": 1,
-    "instantly_built": true,
+    "actions_required": 250,
+    "instantly_built": false,
     "recipe_performance_id": 538
   },
   {
@@ -6501,8 +6518,8 @@
     "recipe_performance_id": 538
   },
   {
-    "id": 213788942,
-    "name": "Wicker Floor Plant",
+    "id": 1637291634,
+    "name": "Talented Woodcraft Couch",
     "time_requirement": 2.0,
     "stamina_requirement": 0.75,
     "consumed_building": 0,
@@ -6522,7 +6539,7 @@
     ],
     "consumed_item_stacks": [
       {
-        "item_id": 1,
+        "item_id": 1677518526,
         "quantity": 1,
         "item_type": "Item",
         "discovery_score": 1,
@@ -6537,22 +6554,22 @@
         "quantity": 1.0
       }
     ],
-    "discovery_triggers": [],
-    "required_knowledges": [
-      12345
+    "discovery_triggers": [
+      1144259116
     ],
+    "required_knowledges": [],
     "required_claim_tech_id": 0,
     "full_discovery_score": 1,
     "tool_mesh_index": 0,
-    "building_description_id": 350733880,
+    "building_description_id": 90343168,
     "required_paving_tier": -1,
-    "actions_required": 50,
-    "instantly_built": false,
+    "actions_required": 1,
+    "instantly_built": true,
     "recipe_performance_id": 538
   },
   {
-    "id": 946013098,
-    "name": "Wicker Chair",
+    "id": 92262131,
+    "name": "Talented Woodcraft Chair",
     "time_requirement": 2.0,
     "stamina_requirement": 0.75,
     "consumed_building": 0,
@@ -6572,7 +6589,7 @@
     ],
     "consumed_item_stacks": [
       {
-        "item_id": 1,
+        "item_id": 496583989,
         "quantity": 1,
         "item_type": "Item",
         "discovery_score": 1,
@@ -6587,22 +6604,22 @@
         "quantity": 1.0
       }
     ],
-    "discovery_triggers": [],
-    "required_knowledges": [
-      12345
+    "discovery_triggers": [
+      1144259116
     ],
+    "required_knowledges": [],
     "required_claim_tech_id": 0,
     "full_discovery_score": 1,
     "tool_mesh_index": 0,
-    "building_description_id": 1150881059,
+    "building_description_id": 2065403158,
     "required_paving_tier": -1,
-    "actions_required": 50,
-    "instantly_built": false,
+    "actions_required": 1,
+    "instantly_built": true,
     "recipe_performance_id": 538
   },
   {
-    "id": 784814706,
-    "name": "Wicker Cabinet",
+    "id": 133409917,
+    "name": "Talented Woodcraft Cargo Bin",
     "time_requirement": 2.0,
     "stamina_requirement": 0.75,
     "consumed_building": 0,
@@ -6622,7 +6639,7 @@
     ],
     "consumed_item_stacks": [
       {
-        "item_id": 1,
+        "item_id": 1861949411,
         "quantity": 1,
         "item_type": "Item",
         "discovery_score": 1,
@@ -6637,17 +6654,17 @@
         "quantity": 1.0
       }
     ],
-    "discovery_triggers": [],
-    "required_knowledges": [
-      12345
+    "discovery_triggers": [
+      1144259116
     ],
+    "required_knowledges": [],
     "required_claim_tech_id": 0,
     "full_discovery_score": 1,
     "tool_mesh_index": 0,
-    "building_description_id": 2057418039,
+    "building_description_id": 1920300482,
     "required_paving_tier": -1,
-    "actions_required": 200,
-    "instantly_built": false,
+    "actions_required": 1,
+    "instantly_built": true,
     "recipe_performance_id": 538
   },
   {
@@ -6706,12 +6723,62 @@
     "recipe_performance_id": 538
   },
   {
-    "id": 1001,
-    "name": "Wicker Basket",
+    "id": 1663285219,
+    "name": "Talented Woodcraft Accent Table",
     "time_requirement": 2.0,
     "stamina_requirement": 0.75,
     "consumed_building": 0,
     "required_interior_tier": 1,
+    "level_requirements": [
+      {
+        "skill_id": 15,
+        "level": 1
+      }
+    ],
+    "tool_requirements": [
+      {
+        "tool_type": 14,
+        "level": 1,
+        "power": 1
+      }
+    ],
+    "consumed_item_stacks": [
+      {
+        "item_id": 1725069516,
+        "quantity": 1,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "consumed_cargo_stacks": [],
+    "consumed_shards": 0,
+    "experience_per_progress": [
+      {
+        "skill_id": 15,
+        "quantity": 1.0
+      }
+    ],
+    "discovery_triggers": [
+      1144259116
+    ],
+    "required_knowledges": [],
+    "required_claim_tech_id": 0,
+    "full_discovery_score": 1,
+    "tool_mesh_index": 0,
+    "building_description_id": 1424317515,
+    "required_paving_tier": -1,
+    "actions_required": 1,
+    "instantly_built": true,
+    "recipe_performance_id": 538
+  },
+  {
+    "id": 51002,
+    "name": "Simple Storehouse",
+    "time_requirement": 2.0,
+    "stamina_requirement": 0.75,
+    "consumed_building": 0,
+    "required_interior_tier": -1,
     "level_requirements": [
       {
         "skill_id": 15,
@@ -6746,84 +6813,12 @@
     "required_knowledges": [
       12345
     ],
-    "required_claim_tech_id": 0,
-    "full_discovery_score": 1,
-    "tool_mesh_index": 0,
-    "building_description_id": 1004,
-    "required_paving_tier": -1,
-    "actions_required": 25,
-    "instantly_built": false,
-    "recipe_performance_id": 538
-  },
-  {
-    "id": 2103089810,
-    "name": "Town Bank",
-    "time_requirement": 2.0,
-    "stamina_requirement": 0.75,
-    "consumed_building": 0,
-    "required_interior_tier": -1,
-    "level_requirements": [
-      {
-        "skill_id": 4,
-        "level": 1
-      }
-    ],
-    "tool_requirements": [
-      {
-        "tool_type": 14,
-        "level": 1,
-        "power": 1
-      }
-    ],
-    "consumed_item_stacks": [
-      {
-        "item_id": 580374466,
-        "quantity": 1,
-        "item_type": "Item",
-        "discovery_score": 1,
-        "consumption_chance": 1.0
-      },
-      {
-        "item_id": 2050002,
-        "quantity": 5,
-        "item_type": "Item",
-        "discovery_score": 0,
-        "consumption_chance": 1.0
-      }
-    ],
-    "consumed_cargo_stacks": [
-      {
-        "item_id": 1201,
-        "quantity": 10,
-        "item_type": "Cargo",
-        "discovery_score": 0,
-        "consumption_chance": 1.0
-      },
-      {
-        "item_id": 2401,
-        "quantity": 10,
-        "item_type": "Cargo",
-        "discovery_score": 0,
-        "consumption_chance": 1.0
-      }
-    ],
-    "consumed_shards": 0,
-    "experience_per_progress": [
-      {
-        "skill_id": 15,
-        "quantity": 1.0
-      }
-    ],
-    "discovery_triggers": [
-      1365060029
-    ],
-    "required_knowledges": [],
     "required_claim_tech_id": 200,
-    "full_discovery_score": 1,
+    "full_discovery_score": 2,
     "tool_mesh_index": 0,
-    "building_description_id": 985246037,
-    "required_paving_tier": -1,
-    "actions_required": 500,
+    "building_description_id": 52000,
+    "required_paving_tier": 1,
+    "actions_required": 2000,
     "instantly_built": false,
     "recipe_performance_id": 538
   },
@@ -7398,15 +7393,15 @@
     "recipe_performance_id": 50
   },
   {
-    "id": 51002,
-    "name": "Large Enterable Hut",
+    "id": 1120069267,
+    "name": "Rough Residential Hut",
     "time_requirement": 2.0,
     "stamina_requirement": 0.75,
     "consumed_building": 0,
     "required_interior_tier": -1,
     "level_requirements": [
       {
-        "skill_id": 4,
+        "skill_id": 15,
         "level": 1
       }
     ],
@@ -7419,22 +7414,8 @@
     ],
     "consumed_item_stacks": [
       {
-        "item_id": 1210006,
-        "quantity": 15,
-        "item_type": "Item",
-        "discovery_score": 1,
-        "consumption_chance": 1.0
-      },
-      {
-        "item_id": 1070004,
-        "quantity": 8,
-        "item_type": "Item",
-        "discovery_score": 1,
-        "consumption_chance": 1.0
-      },
-      {
-        "item_id": 1050002,
-        "quantity": 20,
+        "item_id": 1090002,
+        "quantity": 10,
         "item_type": "Item",
         "discovery_score": 1,
         "consumption_chance": 1.0
@@ -7442,24 +7423,10 @@
     ],
     "consumed_cargo_stacks": [
       {
-        "item_id": 2400,
-        "quantity": 15,
-        "item_type": "Cargo",
-        "discovery_score": 1,
-        "consumption_chance": 1.0
-      },
-      {
         "item_id": 1200,
-        "quantity": 15,
+        "quantity": 3,
         "item_type": "Cargo",
         "discovery_score": 1,
-        "consumption_chance": 1.0
-      },
-      {
-        "item_id": 7000,
-        "quantity": 6,
-        "item_type": "Cargo",
-        "discovery_score": 0,
         "consumption_chance": 1.0
       }
     ],
@@ -7470,17 +7437,67 @@
         "quantity": 1.0
       }
     ],
-    "discovery_triggers": [],
-    "required_knowledges": [
-      12345
+    "discovery_triggers": [
+      844511805
     ],
+    "required_knowledges": [],
     "required_claim_tech_id": 200,
-    "full_discovery_score": 2,
+    "full_discovery_score": 1,
     "tool_mesh_index": 0,
-    "building_description_id": 52000,
-    "required_paving_tier": 1,
-    "actions_required": 2000,
+    "building_description_id": 901795831,
+    "required_paving_tier": -1,
+    "actions_required": 1000,
     "instantly_built": false,
+    "recipe_performance_id": 538
+  },
+  {
+    "id": 1063589987,
+    "name": "Wicker Table",
+    "time_requirement": 2.0,
+    "stamina_requirement": 0.75,
+    "consumed_building": 0,
+    "required_interior_tier": 1,
+    "level_requirements": [
+      {
+        "skill_id": 15,
+        "level": 1
+      }
+    ],
+    "tool_requirements": [
+      {
+        "tool_type": 14,
+        "level": 1,
+        "power": 1
+      }
+    ],
+    "consumed_item_stacks": [
+      {
+        "item_id": 539747299,
+        "quantity": 1,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "consumed_cargo_stacks": [],
+    "consumed_shards": 0,
+    "experience_per_progress": [
+      {
+        "skill_id": 15,
+        "quantity": 1.0
+      }
+    ],
+    "discovery_triggers": [
+      423318193
+    ],
+    "required_knowledges": [],
+    "required_claim_tech_id": 0,
+    "full_discovery_score": 1,
+    "tool_mesh_index": 0,
+    "building_description_id": 544811609,
+    "required_paving_tier": -1,
+    "actions_required": 1,
+    "instantly_built": true,
     "recipe_performance_id": 538
   },
   {
@@ -7536,6 +7553,56 @@
     "required_paving_tier": -1,
     "actions_required": 50,
     "instantly_built": false,
+    "recipe_performance_id": 538
+  },
+  {
+    "id": 2017364326,
+    "name": "Wicker Hide Rug",
+    "time_requirement": 2.0,
+    "stamina_requirement": 0.75,
+    "consumed_building": 0,
+    "required_interior_tier": 1,
+    "level_requirements": [
+      {
+        "skill_id": 15,
+        "level": 1
+      }
+    ],
+    "tool_requirements": [
+      {
+        "tool_type": 14,
+        "level": 1,
+        "power": 1
+      }
+    ],
+    "consumed_item_stacks": [
+      {
+        "item_id": 1678488664,
+        "quantity": 1,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "consumed_cargo_stacks": [],
+    "consumed_shards": 0,
+    "experience_per_progress": [
+      {
+        "skill_id": 15,
+        "quantity": 1.0
+      }
+    ],
+    "discovery_triggers": [
+      423318193
+    ],
+    "required_knowledges": [],
+    "required_claim_tech_id": 0,
+    "full_discovery_score": 1,
+    "tool_mesh_index": 0,
+    "building_description_id": 594989789,
+    "required_paving_tier": -1,
+    "actions_required": 1,
+    "instantly_built": true,
     "recipe_performance_id": 538
   },
   {
@@ -7625,6 +7692,56 @@
     "actions_required": 1,
     "instantly_built": false,
     "recipe_performance_id": 50
+  },
+  {
+    "id": 485470390,
+    "name": "Wicker Rug",
+    "time_requirement": 2.0,
+    "stamina_requirement": 0.75,
+    "consumed_building": 0,
+    "required_interior_tier": 1,
+    "level_requirements": [
+      {
+        "skill_id": 15,
+        "level": 1
+      }
+    ],
+    "tool_requirements": [
+      {
+        "tool_type": 14,
+        "level": 1,
+        "power": 1
+      }
+    ],
+    "consumed_item_stacks": [
+      {
+        "item_id": 930753750,
+        "quantity": 1,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "consumed_cargo_stacks": [],
+    "consumed_shards": 0,
+    "experience_per_progress": [
+      {
+        "skill_id": 15,
+        "quantity": 1.0
+      }
+    ],
+    "discovery_triggers": [
+      423318193
+    ],
+    "required_knowledges": [],
+    "required_claim_tech_id": 0,
+    "full_discovery_score": 1,
+    "tool_mesh_index": 0,
+    "building_description_id": 1448089378,
+    "required_paving_tier": -1,
+    "actions_required": 1,
+    "instantly_built": true,
+    "recipe_performance_id": 538
   },
   {
     "id": 52005,
@@ -8171,6 +8288,56 @@
     "recipe_performance_id": 538
   },
   {
+    "id": 946013098,
+    "name": "Wicker Chair",
+    "time_requirement": 2.0,
+    "stamina_requirement": 0.75,
+    "consumed_building": 0,
+    "required_interior_tier": 1,
+    "level_requirements": [
+      {
+        "skill_id": 15,
+        "level": 1
+      }
+    ],
+    "tool_requirements": [
+      {
+        "tool_type": 14,
+        "level": 1,
+        "power": 1
+      }
+    ],
+    "consumed_item_stacks": [
+      {
+        "item_id": 86547845,
+        "quantity": 1,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "consumed_cargo_stacks": [],
+    "consumed_shards": 0,
+    "experience_per_progress": [
+      {
+        "skill_id": 15,
+        "quantity": 1.0
+      }
+    ],
+    "discovery_triggers": [
+      423318193
+    ],
+    "required_knowledges": [],
+    "required_claim_tech_id": 0,
+    "full_discovery_score": 1,
+    "tool_mesh_index": 0,
+    "building_description_id": 1150881059,
+    "required_paving_tier": -1,
+    "actions_required": 1,
+    "instantly_built": true,
+    "recipe_performance_id": 538
+  },
+  {
     "id": 423688948,
     "name": "Pristine Stockpile",
     "time_requirement": 2.0,
@@ -8278,6 +8445,56 @@
     "required_paving_tier": -1,
     "actions_required": 1125,
     "instantly_built": false,
+    "recipe_performance_id": 538
+  },
+  {
+    "id": 213788942,
+    "name": "Wicker Floor Plant",
+    "time_requirement": 2.0,
+    "stamina_requirement": 0.75,
+    "consumed_building": 0,
+    "required_interior_tier": 1,
+    "level_requirements": [
+      {
+        "skill_id": 15,
+        "level": 1
+      }
+    ],
+    "tool_requirements": [
+      {
+        "tool_type": 14,
+        "level": 1,
+        "power": 1
+      }
+    ],
+    "consumed_item_stacks": [
+      {
+        "item_id": 1749391478,
+        "quantity": 1,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "consumed_cargo_stacks": [],
+    "consumed_shards": 0,
+    "experience_per_progress": [
+      {
+        "skill_id": 15,
+        "quantity": 1.0
+      }
+    ],
+    "discovery_triggers": [
+      423318193
+    ],
+    "required_knowledges": [],
+    "required_claim_tech_id": 0,
+    "full_discovery_score": 1,
+    "tool_mesh_index": 0,
+    "building_description_id": 350733880,
+    "required_paving_tier": -1,
+    "actions_required": 1,
+    "instantly_built": true,
     "recipe_performance_id": 538
   },
   {
@@ -9448,6 +9665,228 @@
     "recipe_performance_id": 538
   },
   {
+    "id": 1854995580,
+    "name": "Town Market",
+    "time_requirement": 2.0,
+    "stamina_requirement": 0.75,
+    "consumed_building": 0,
+    "required_interior_tier": -1,
+    "level_requirements": [
+      {
+        "skill_id": 4,
+        "level": 1
+      }
+    ],
+    "tool_requirements": [
+      {
+        "tool_type": 14,
+        "level": 1,
+        "power": 1
+      }
+    ],
+    "consumed_item_stacks": [
+      {
+        "item_id": 2050002,
+        "quantity": 5,
+        "item_type": "Item",
+        "discovery_score": 0,
+        "consumption_chance": 1.0
+      }
+    ],
+    "consumed_cargo_stacks": [
+      {
+        "item_id": 549503000,
+        "quantity": 1,
+        "item_type": "Cargo",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      },
+      {
+        "item_id": 1201,
+        "quantity": 10,
+        "item_type": "Cargo",
+        "discovery_score": 0,
+        "consumption_chance": 1.0
+      },
+      {
+        "item_id": 2401,
+        "quantity": 10,
+        "item_type": "Cargo",
+        "discovery_score": 0,
+        "consumption_chance": 1.0
+      }
+    ],
+    "consumed_shards": 0,
+    "experience_per_progress": [
+      {
+        "skill_id": 15,
+        "quantity": 1.0
+      }
+    ],
+    "discovery_triggers": [
+      1365060029
+    ],
+    "required_knowledges": [],
+    "required_claim_tech_id": 200,
+    "full_discovery_score": 1,
+    "tool_mesh_index": 0,
+    "building_description_id": 934683282,
+    "required_paving_tier": -1,
+    "actions_required": 500,
+    "instantly_built": false,
+    "recipe_performance_id": 538
+  },
+  {
+    "id": 784814706,
+    "name": "Wicker Cargo Bin",
+    "time_requirement": 2.0,
+    "stamina_requirement": 0.75,
+    "consumed_building": 0,
+    "required_interior_tier": 1,
+    "level_requirements": [
+      {
+        "skill_id": 15,
+        "level": 1
+      }
+    ],
+    "tool_requirements": [
+      {
+        "tool_type": 14,
+        "level": 1,
+        "power": 1
+      }
+    ],
+    "consumed_item_stacks": [
+      {
+        "item_id": 1261025188,
+        "quantity": 1,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "consumed_cargo_stacks": [],
+    "consumed_shards": 0,
+    "experience_per_progress": [
+      {
+        "skill_id": 15,
+        "quantity": 1.0
+      }
+    ],
+    "discovery_triggers": [
+      423318193
+    ],
+    "required_knowledges": [],
+    "required_claim_tech_id": 0,
+    "full_discovery_score": 1,
+    "tool_mesh_index": 0,
+    "building_description_id": 2057418039,
+    "required_paving_tier": -1,
+    "actions_required": 1,
+    "instantly_built": true,
+    "recipe_performance_id": 538
+  },
+  {
+    "id": 1140839629,
+    "name": "Talented Woodcraft Rug",
+    "time_requirement": 2.0,
+    "stamina_requirement": 0.75,
+    "consumed_building": 0,
+    "required_interior_tier": 1,
+    "level_requirements": [
+      {
+        "skill_id": 15,
+        "level": 1
+      }
+    ],
+    "tool_requirements": [
+      {
+        "tool_type": 14,
+        "level": 1,
+        "power": 1
+      }
+    ],
+    "consumed_item_stacks": [
+      {
+        "item_id": 993169684,
+        "quantity": 1,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "consumed_cargo_stacks": [],
+    "consumed_shards": 0,
+    "experience_per_progress": [
+      {
+        "skill_id": 15,
+        "quantity": 1.0
+      }
+    ],
+    "discovery_triggers": [
+      1144259116
+    ],
+    "required_knowledges": [],
+    "required_claim_tech_id": 0,
+    "full_discovery_score": 1,
+    "tool_mesh_index": 0,
+    "building_description_id": 108518190,
+    "required_paving_tier": -1,
+    "actions_required": 1,
+    "instantly_built": true,
+    "recipe_performance_id": 538
+  },
+  {
+    "id": 581800279,
+    "name": "Talented Woodcraft Small Carpet",
+    "time_requirement": 2.0,
+    "stamina_requirement": 0.75,
+    "consumed_building": 0,
+    "required_interior_tier": 1,
+    "level_requirements": [
+      {
+        "skill_id": 15,
+        "level": 1
+      }
+    ],
+    "tool_requirements": [
+      {
+        "tool_type": 14,
+        "level": 1,
+        "power": 1
+      }
+    ],
+    "consumed_item_stacks": [
+      {
+        "item_id": 1465781717,
+        "quantity": 1,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "consumed_cargo_stacks": [],
+    "consumed_shards": 0,
+    "experience_per_progress": [
+      {
+        "skill_id": 15,
+        "quantity": 1.0
+      }
+    ],
+    "discovery_triggers": [
+      1144259116
+    ],
+    "required_knowledges": [],
+    "required_claim_tech_id": 0,
+    "full_discovery_score": 1,
+    "tool_mesh_index": 0,
+    "building_description_id": 820487351,
+    "required_paving_tier": -1,
+    "actions_required": 1,
+    "instantly_built": true,
+    "recipe_performance_id": 538
+  },
+  {
     "id": 52001,
     "name": "Multiroom Enterable Hut",
     "time_requirement": 2.0,
@@ -9691,12 +10130,12 @@
     "recipe_performance_id": 538
   },
   {
-    "id": 1642337379,
-    "name": "Wicker Stool",
+    "id": 1893698481,
+    "name": "Exquisite Residential House",
     "time_requirement": 2.0,
-    "stamina_requirement": 0.75,
+    "stamina_requirement": 1.28,
     "consumed_building": 0,
-    "required_interior_tier": 1,
+    "required_interior_tier": -1,
     "level_requirements": [
       {
         "skill_id": 15,
@@ -9710,33 +10149,59 @@
         "power": 1
       }
     ],
-    "consumed_item_stacks": [
+    "consumed_item_stacks": [],
+    "consumed_cargo_stacks": [
       {
-        "item_id": 1,
+        "item_id": 1204,
+        "quantity": 5,
+        "item_type": "Cargo",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      },
+      {
+        "item_id": 2404,
+        "quantity": 5,
+        "item_type": "Cargo",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      },
+      {
+        "item_id": 1080157951,
         "quantity": 1,
-        "item_type": "Item",
+        "item_type": "Cargo",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      },
+      {
+        "item_id": 7004,
+        "quantity": 1,
+        "item_type": "Cargo",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      },
+      {
+        "item_id": 741862367,
+        "quantity": 1,
+        "item_type": "Cargo",
         "discovery_score": 1,
         "consumption_chance": 1.0
       }
     ],
-    "consumed_cargo_stacks": [],
     "consumed_shards": 0,
     "experience_per_progress": [
       {
         "skill_id": 15,
-        "quantity": 1.0
+        "quantity": 1.45
       }
     ],
     "discovery_triggers": [],
-    "required_knowledges": [
-      12345
-    ],
-    "required_claim_tech_id": 0,
+    "required_knowledges": [],
+    "required_claim_tech_id": 500,
     "full_discovery_score": 1,
     "tool_mesh_index": 0,
-    "building_description_id": 1369848538,
+    "building_description_id": 154394148,
     "required_paving_tier": -1,
-    "actions_required": 50,
+    "actions_required": 5000,
     "instantly_built": false,
     "recipe_performance_id": 538
   },
@@ -10937,6 +11402,56 @@
     "recipe_performance_id": 538
   },
   {
+    "id": 245570803,
+    "name": "Talented Woodcraft Item Storage",
+    "time_requirement": 2.0,
+    "stamina_requirement": 0.75,
+    "consumed_building": 0,
+    "required_interior_tier": 1,
+    "level_requirements": [
+      {
+        "skill_id": 15,
+        "level": 1
+      }
+    ],
+    "tool_requirements": [
+      {
+        "tool_type": 14,
+        "level": 1,
+        "power": 1
+      }
+    ],
+    "consumed_item_stacks": [
+      {
+        "item_id": 523158569,
+        "quantity": 1,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "consumed_cargo_stacks": [],
+    "consumed_shards": 0,
+    "experience_per_progress": [
+      {
+        "skill_id": 15,
+        "quantity": 1.0
+      }
+    ],
+    "discovery_triggers": [
+      1144259116
+    ],
+    "required_knowledges": [],
+    "required_claim_tech_id": 0,
+    "full_discovery_score": 1,
+    "tool_mesh_index": 0,
+    "building_description_id": 389279843,
+    "required_paving_tier": -1,
+    "actions_required": 1,
+    "instantly_built": true,
+    "recipe_performance_id": 538
+  },
+  {
     "id": 1284638468,
     "name": "Pristine Loom",
     "time_requirement": 2.0,
@@ -11846,15 +12361,15 @@
     "recipe_performance_id": 538
   },
   {
-    "id": 2017364326,
-    "name": "Wicker Hide Rug",
+    "id": 100,
+    "name": "Settlement Totem",
     "time_requirement": 2.0,
     "stamina_requirement": 0.75,
     "consumed_building": 0,
-    "required_interior_tier": 1,
+    "required_interior_tier": -1,
     "level_requirements": [
       {
-        "skill_id": 15,
+        "skill_id": 4,
         "level": 1
       }
     ],
@@ -11865,34 +12380,32 @@
         "power": 1
       }
     ],
-    "consumed_item_stacks": [
+    "consumed_item_stacks": [],
+    "consumed_cargo_stacks": [
       {
-        "item_id": 1,
+        "item_id": 833769059,
         "quantity": 1,
-        "item_type": "Item",
+        "item_type": "Cargo",
         "discovery_score": 1,
         "consumption_chance": 1.0
       }
     ],
-    "consumed_cargo_stacks": [],
     "consumed_shards": 0,
     "experience_per_progress": [
       {
         "skill_id": 15,
-        "quantity": 1.0
+        "quantity": 0.0
       }
     ],
     "discovery_triggers": [],
-    "required_knowledges": [
-      12345
-    ],
+    "required_knowledges": [],
     "required_claim_tech_id": 0,
     "full_discovery_score": 1,
     "tool_mesh_index": 0,
-    "building_description_id": 594989789,
+    "building_description_id": 405,
     "required_paving_tier": -1,
-    "actions_required": 50,
-    "instantly_built": false,
+    "actions_required": 1,
+    "instantly_built": true,
     "recipe_performance_id": 538
   },
   {
@@ -12511,6 +13024,306 @@
     "recipe_performance_id": 538
   },
   {
+    "id": 1642337379,
+    "name": "Wicker Stool",
+    "time_requirement": 2.0,
+    "stamina_requirement": 0.75,
+    "consumed_building": 0,
+    "required_interior_tier": 1,
+    "level_requirements": [
+      {
+        "skill_id": 15,
+        "level": 1
+      }
+    ],
+    "tool_requirements": [
+      {
+        "tool_type": 14,
+        "level": 1,
+        "power": 1
+      }
+    ],
+    "consumed_item_stacks": [
+      {
+        "item_id": 1941474428,
+        "quantity": 1,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "consumed_cargo_stacks": [],
+    "consumed_shards": 0,
+    "experience_per_progress": [
+      {
+        "skill_id": 15,
+        "quantity": 1.0
+      }
+    ],
+    "discovery_triggers": [
+      423318193
+    ],
+    "required_knowledges": [],
+    "required_claim_tech_id": 0,
+    "full_discovery_score": 1,
+    "tool_mesh_index": 0,
+    "building_description_id": 1369848538,
+    "required_paving_tier": -1,
+    "actions_required": 1,
+    "instantly_built": true,
+    "recipe_performance_id": 538
+  },
+  {
+    "id": 1494032306,
+    "name": "Wicker Item Storage",
+    "time_requirement": 2.0,
+    "stamina_requirement": 0.75,
+    "consumed_building": 0,
+    "required_interior_tier": 1,
+    "level_requirements": [
+      {
+        "skill_id": 15,
+        "level": 1
+      }
+    ],
+    "tool_requirements": [
+      {
+        "tool_type": 14,
+        "level": 1,
+        "power": 1
+      }
+    ],
+    "consumed_item_stacks": [
+      {
+        "item_id": 1331808314,
+        "quantity": 1,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "consumed_cargo_stacks": [],
+    "consumed_shards": 0,
+    "experience_per_progress": [
+      {
+        "skill_id": 15,
+        "quantity": 1.0
+      }
+    ],
+    "discovery_triggers": [
+      423318193
+    ],
+    "required_knowledges": [],
+    "required_claim_tech_id": 0,
+    "full_discovery_score": 1,
+    "tool_mesh_index": 0,
+    "building_description_id": 2082568839,
+    "required_paving_tier": -1,
+    "actions_required": 200,
+    "instantly_built": true,
+    "recipe_performance_id": 538
+  },
+  {
+    "id": 1491126244,
+    "name": "Wicker Hanging Plant",
+    "time_requirement": 2.0,
+    "stamina_requirement": 0.75,
+    "consumed_building": 0,
+    "required_interior_tier": 1,
+    "level_requirements": [
+      {
+        "skill_id": 15,
+        "level": 1
+      }
+    ],
+    "tool_requirements": [
+      {
+        "tool_type": 14,
+        "level": 1,
+        "power": 1
+      }
+    ],
+    "consumed_item_stacks": [
+      {
+        "item_id": 630118880,
+        "quantity": 1,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "consumed_cargo_stacks": [],
+    "consumed_shards": 0,
+    "experience_per_progress": [
+      {
+        "skill_id": 15,
+        "quantity": 1.0
+      }
+    ],
+    "discovery_triggers": [
+      423318193
+    ],
+    "required_knowledges": [],
+    "required_claim_tech_id": 0,
+    "full_discovery_score": 1,
+    "tool_mesh_index": 0,
+    "building_description_id": 1037035044,
+    "required_paving_tier": -1,
+    "actions_required": 1,
+    "instantly_built": true,
+    "recipe_performance_id": 538
+  },
+  {
+    "id": 422556485,
+    "name": "Wicker Desk",
+    "time_requirement": 2.0,
+    "stamina_requirement": 0.75,
+    "consumed_building": 0,
+    "required_interior_tier": 1,
+    "level_requirements": [
+      {
+        "skill_id": 15,
+        "level": 1
+      }
+    ],
+    "tool_requirements": [
+      {
+        "tool_type": 14,
+        "level": 1,
+        "power": 1
+      }
+    ],
+    "consumed_item_stacks": [
+      {
+        "item_id": 1851240100,
+        "quantity": 1,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "consumed_cargo_stacks": [],
+    "consumed_shards": 0,
+    "experience_per_progress": [
+      {
+        "skill_id": 15,
+        "quantity": 1.0
+      }
+    ],
+    "discovery_triggers": [
+      423318193
+    ],
+    "required_knowledges": [],
+    "required_claim_tech_id": 0,
+    "full_discovery_score": 1,
+    "tool_mesh_index": 0,
+    "building_description_id": 2062702457,
+    "required_paving_tier": -1,
+    "actions_required": 1,
+    "instantly_built": true,
+    "recipe_performance_id": 538
+  },
+  {
+    "id": 1680213405,
+    "name": "Wicker Carpet",
+    "time_requirement": 2.0,
+    "stamina_requirement": 0.75,
+    "consumed_building": 0,
+    "required_interior_tier": 1,
+    "level_requirements": [
+      {
+        "skill_id": 15,
+        "level": 1
+      }
+    ],
+    "tool_requirements": [
+      {
+        "tool_type": 14,
+        "level": 1,
+        "power": 1
+      }
+    ],
+    "consumed_item_stacks": [
+      {
+        "item_id": 1171331819,
+        "quantity": 1,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "consumed_cargo_stacks": [],
+    "consumed_shards": 0,
+    "experience_per_progress": [
+      {
+        "skill_id": 15,
+        "quantity": 1.0
+      }
+    ],
+    "discovery_triggers": [
+      423318193
+    ],
+    "required_knowledges": [],
+    "required_claim_tech_id": 0,
+    "full_discovery_score": 1,
+    "tool_mesh_index": 0,
+    "building_description_id": 182258364,
+    "required_paving_tier": -1,
+    "actions_required": 1,
+    "instantly_built": true,
+    "recipe_performance_id": 538
+  },
+  {
+    "id": 1764726130,
+    "name": "Wicker Bed",
+    "time_requirement": 2.0,
+    "stamina_requirement": 0.75,
+    "consumed_building": 0,
+    "required_interior_tier": 1,
+    "level_requirements": [
+      {
+        "skill_id": 15,
+        "level": 1
+      }
+    ],
+    "tool_requirements": [
+      {
+        "tool_type": 14,
+        "level": 1,
+        "power": 1
+      }
+    ],
+    "consumed_item_stacks": [
+      {
+        "item_id": 124624682,
+        "quantity": 1,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "consumed_cargo_stacks": [],
+    "consumed_shards": 0,
+    "experience_per_progress": [
+      {
+        "skill_id": 15,
+        "quantity": 1.0
+      }
+    ],
+    "discovery_triggers": [
+      423318193
+    ],
+    "required_knowledges": [],
+    "required_claim_tech_id": 0,
+    "full_discovery_score": 1,
+    "tool_mesh_index": 0,
+    "building_description_id": 1987048521,
+    "required_paving_tier": -1,
+    "actions_required": 1,
+    "instantly_built": true,
+    "recipe_performance_id": 538
+  },
+  {
     "id": 1612725100,
     "name": "Pristine Large Chest",
     "time_requirement": 2.0,
@@ -12573,15 +13386,15 @@
     "recipe_performance_id": 538
   },
   {
-    "id": 1063589987,
-    "name": "Wicker Table",
+    "id": 2103089810,
+    "name": "Town Bank",
     "time_requirement": 2.0,
     "stamina_requirement": 0.75,
     "consumed_building": 0,
-    "required_interior_tier": 1,
+    "required_interior_tier": -1,
     "level_requirements": [
       {
-        "skill_id": 15,
+        "skill_id": 4,
         "level": 1
       }
     ],
@@ -12594,14 +13407,36 @@
     ],
     "consumed_item_stacks": [
       {
-        "item_id": 1,
-        "quantity": 1,
+        "item_id": 2050002,
+        "quantity": 5,
         "item_type": "Item",
-        "discovery_score": 1,
+        "discovery_score": 0,
         "consumption_chance": 1.0
       }
     ],
-    "consumed_cargo_stacks": [],
+    "consumed_cargo_stacks": [
+      {
+        "item_id": 1768052462,
+        "quantity": 1,
+        "item_type": "Cargo",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      },
+      {
+        "item_id": 1201,
+        "quantity": 10,
+        "item_type": "Cargo",
+        "discovery_score": 0,
+        "consumption_chance": 1.0
+      },
+      {
+        "item_id": 2401,
+        "quantity": 10,
+        "item_type": "Cargo",
+        "discovery_score": 0,
+        "consumption_chance": 1.0
+      }
+    ],
     "consumed_shards": 0,
     "experience_per_progress": [
       {
@@ -12609,22 +13444,22 @@
         "quantity": 1.0
       }
     ],
-    "discovery_triggers": [],
-    "required_knowledges": [
-      12345
+    "discovery_triggers": [
+      1365060029
     ],
-    "required_claim_tech_id": 0,
+    "required_knowledges": [],
+    "required_claim_tech_id": 200,
     "full_discovery_score": 1,
     "tool_mesh_index": 0,
-    "building_description_id": 544811609,
+    "building_description_id": 985246037,
     "required_paving_tier": -1,
-    "actions_required": 50,
+    "actions_required": 500,
     "instantly_built": false,
     "recipe_performance_id": 538
   },
   {
-    "id": 485470390,
-    "name": "Wicker Rug",
+    "id": 880758712,
+    "name": "Talented Woodcraft Side Table",
     "time_requirement": 2.0,
     "stamina_requirement": 0.75,
     "consumed_building": 0,
@@ -12644,7 +13479,7 @@
     ],
     "consumed_item_stacks": [
       {
-        "item_id": 1,
+        "item_id": 1052307928,
         "quantity": 1,
         "item_type": "Item",
         "discovery_score": 1,
@@ -12659,22 +13494,22 @@
         "quantity": 1.0
       }
     ],
-    "discovery_triggers": [],
-    "required_knowledges": [
-      12345
+    "discovery_triggers": [
+      1144259116
     ],
+    "required_knowledges": [],
     "required_claim_tech_id": 0,
     "full_discovery_score": 1,
     "tool_mesh_index": 0,
-    "building_description_id": 1448089378,
+    "building_description_id": 1538521369,
     "required_paving_tier": -1,
-    "actions_required": 50,
-    "instantly_built": false,
+    "actions_required": 1,
+    "instantly_built": true,
     "recipe_performance_id": 538
   },
   {
-    "id": 1491126244,
-    "name": "Wicker Hanging Plant",
+    "id": 444763550,
+    "name": "Talented Woodcraft Room Divider",
     "time_requirement": 2.0,
     "stamina_requirement": 0.75,
     "consumed_building": 0,
@@ -12694,7 +13529,7 @@
     ],
     "consumed_item_stacks": [
       {
-        "item_id": 1,
+        "item_id": 1065308494,
         "quantity": 1,
         "item_type": "Item",
         "discovery_score": 1,
@@ -12709,22 +13544,22 @@
         "quantity": 1.0
       }
     ],
-    "discovery_triggers": [],
-    "required_knowledges": [
-      12345
+    "discovery_triggers": [
+      1144259116
     ],
+    "required_knowledges": [],
     "required_claim_tech_id": 0,
     "full_discovery_score": 1,
     "tool_mesh_index": 0,
-    "building_description_id": 1037035044,
+    "building_description_id": 1805493003,
     "required_paving_tier": -1,
-    "actions_required": 50,
-    "instantly_built": false,
+    "actions_required": 1,
+    "instantly_built": true,
     "recipe_performance_id": 538
   },
   {
-    "id": 422556485,
-    "name": "Wicker Desk",
+    "id": 1968194807,
+    "name": "Talented Woodcraft Desk",
     "time_requirement": 2.0,
     "stamina_requirement": 0.75,
     "consumed_building": 0,
@@ -12744,7 +13579,7 @@
     ],
     "consumed_item_stacks": [
       {
-        "item_id": 1,
+        "item_id": 1221179611,
         "quantity": 1,
         "item_type": "Item",
         "discovery_score": 1,
@@ -12759,17 +13594,167 @@
         "quantity": 1.0
       }
     ],
-    "discovery_triggers": [],
-    "required_knowledges": [
-      12345
+    "discovery_triggers": [
+      1144259116
     ],
+    "required_knowledges": [],
     "required_claim_tech_id": 0,
     "full_discovery_score": 1,
     "tool_mesh_index": 0,
-    "building_description_id": 2062702457,
+    "building_description_id": 572073165,
     "required_paving_tier": -1,
-    "actions_required": 50,
-    "instantly_built": false,
+    "actions_required": 1,
+    "instantly_built": true,
+    "recipe_performance_id": 538
+  },
+  {
+    "id": 2065556749,
+    "name": "Talented Woodcraft Coffee Table",
+    "time_requirement": 2.0,
+    "stamina_requirement": 0.75,
+    "consumed_building": 0,
+    "required_interior_tier": 1,
+    "level_requirements": [
+      {
+        "skill_id": 15,
+        "level": 1
+      }
+    ],
+    "tool_requirements": [
+      {
+        "tool_type": 14,
+        "level": 1,
+        "power": 1
+      }
+    ],
+    "consumed_item_stacks": [
+      {
+        "item_id": 1427030012,
+        "quantity": 1,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "consumed_cargo_stacks": [],
+    "consumed_shards": 0,
+    "experience_per_progress": [
+      {
+        "skill_id": 15,
+        "quantity": 1.0
+      }
+    ],
+    "discovery_triggers": [
+      1144259116
+    ],
+    "required_knowledges": [],
+    "required_claim_tech_id": 0,
+    "full_discovery_score": 1,
+    "tool_mesh_index": 0,
+    "building_description_id": 1671823359,
+    "required_paving_tier": -1,
+    "actions_required": 1,
+    "instantly_built": true,
+    "recipe_performance_id": 538
+  },
+  {
+    "id": 1631497655,
+    "name": "Talented Woodcraft Carpet",
+    "time_requirement": 2.0,
+    "stamina_requirement": 0.75,
+    "consumed_building": 0,
+    "required_interior_tier": 1,
+    "level_requirements": [
+      {
+        "skill_id": 15,
+        "level": 1
+      }
+    ],
+    "tool_requirements": [
+      {
+        "tool_type": 14,
+        "level": 1,
+        "power": 1
+      }
+    ],
+    "consumed_item_stacks": [
+      {
+        "item_id": 1752726743,
+        "quantity": 1,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "consumed_cargo_stacks": [],
+    "consumed_shards": 0,
+    "experience_per_progress": [
+      {
+        "skill_id": 15,
+        "quantity": 1.0
+      }
+    ],
+    "discovery_triggers": [
+      1144259116
+    ],
+    "required_knowledges": [],
+    "required_claim_tech_id": 0,
+    "full_discovery_score": 1,
+    "tool_mesh_index": 0,
+    "building_description_id": 344328584,
+    "required_paving_tier": -1,
+    "actions_required": 1,
+    "instantly_built": true,
+    "recipe_performance_id": 538
+  },
+  {
+    "id": 1039890953,
+    "name": "Talented Woodcraft Bed",
+    "time_requirement": 2.0,
+    "stamina_requirement": 0.75,
+    "consumed_building": 0,
+    "required_interior_tier": 1,
+    "level_requirements": [
+      {
+        "skill_id": 15,
+        "level": 1
+      }
+    ],
+    "tool_requirements": [
+      {
+        "tool_type": 14,
+        "level": 1,
+        "power": 1
+      }
+    ],
+    "consumed_item_stacks": [
+      {
+        "item_id": 585975375,
+        "quantity": 1,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "consumed_cargo_stacks": [],
+    "consumed_shards": 0,
+    "experience_per_progress": [
+      {
+        "skill_id": 15,
+        "quantity": 1.0
+      }
+    ],
+    "discovery_triggers": [
+      1144259116
+    ],
+    "required_knowledges": [],
+    "required_claim_tech_id": 0,
+    "full_discovery_score": 1,
+    "tool_mesh_index": 0,
+    "building_description_id": 1052112899,
+    "required_paving_tier": -1,
+    "actions_required": 1,
+    "instantly_built": true,
     "recipe_performance_id": 538
   },
   {
@@ -12828,12 +13813,12 @@
     "recipe_performance_id": 538
   },
   {
-    "id": 1680213405,
-    "name": "Wicker Carpet",
+    "id": 1145725628,
+    "name": "Sturdy Residential House",
     "time_requirement": 2.0,
-    "stamina_requirement": 0.75,
+    "stamina_requirement": 1.03,
     "consumed_building": 0,
-    "required_interior_tier": 1,
+    "required_interior_tier": -1,
     "level_requirements": [
       {
         "skill_id": 15,
@@ -12847,43 +13832,69 @@
         "power": 1
       }
     ],
-    "consumed_item_stacks": [
+    "consumed_item_stacks": [],
+    "consumed_cargo_stacks": [
       {
-        "item_id": 1,
+        "item_id": 1202,
+        "quantity": 5,
+        "item_type": "Cargo",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      },
+      {
+        "item_id": 2402,
+        "quantity": 5,
+        "item_type": "Cargo",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      },
+      {
+        "item_id": 15195543,
         "quantity": 1,
-        "item_type": "Item",
+        "item_type": "Cargo",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      },
+      {
+        "item_id": 7002,
+        "quantity": 1,
+        "item_type": "Cargo",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      },
+      {
+        "item_id": 1090747065,
+        "quantity": 1,
+        "item_type": "Cargo",
         "discovery_score": 1,
         "consumption_chance": 1.0
       }
     ],
-    "consumed_cargo_stacks": [],
     "consumed_shards": 0,
     "experience_per_progress": [
       {
         "skill_id": 15,
-        "quantity": 1.0
+        "quantity": 1.15
       }
     ],
     "discovery_triggers": [],
-    "required_knowledges": [
-      12345
-    ],
-    "required_claim_tech_id": 0,
+    "required_knowledges": [],
+    "required_claim_tech_id": 300,
     "full_discovery_score": 1,
     "tool_mesh_index": 0,
-    "building_description_id": 182258364,
+    "building_description_id": 778355971,
     "required_paving_tier": -1,
-    "actions_required": 50,
+    "actions_required": 3000,
     "instantly_built": false,
     "recipe_performance_id": 538
   },
   {
-    "id": 1764726130,
-    "name": "Wicker Bed",
+    "id": 1929615857,
+    "name": "Simple Residential House",
     "time_requirement": 2.0,
-    "stamina_requirement": 0.75,
+    "stamina_requirement": 0.89,
     "consumed_building": 0,
-    "required_interior_tier": 1,
+    "required_interior_tier": -1,
     "level_requirements": [
       {
         "skill_id": 15,
@@ -12897,16 +13908,44 @@
         "power": 1
       }
     ],
-    "consumed_item_stacks": [
+    "consumed_item_stacks": [],
+    "consumed_cargo_stacks": [
       {
-        "item_id": 1,
+        "item_id": 1201,
+        "quantity": 5,
+        "item_type": "Cargo",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      },
+      {
+        "item_id": 2401,
+        "quantity": 5,
+        "item_type": "Cargo",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      },
+      {
+        "item_id": 1044447676,
         "quantity": 1,
-        "item_type": "Item",
+        "item_type": "Cargo",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      },
+      {
+        "item_id": 7001,
+        "quantity": 1,
+        "item_type": "Cargo",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      },
+      {
+        "item_id": 1297204491,
+        "quantity": 1,
+        "item_type": "Cargo",
         "discovery_score": 1,
         "consumption_chance": 1.0
       }
     ],
-    "consumed_cargo_stacks": [],
     "consumed_shards": 0,
     "experience_per_progress": [
       {
@@ -12914,16 +13953,16 @@
         "quantity": 1.0
       }
     ],
-    "discovery_triggers": [],
-    "required_knowledges": [
-      12345
+    "discovery_triggers": [
+      844511805
     ],
-    "required_claim_tech_id": 0,
+    "required_knowledges": [],
+    "required_claim_tech_id": 200,
     "full_discovery_score": 1,
     "tool_mesh_index": 0,
-    "building_description_id": 1987048521,
+    "building_description_id": 1726398716,
     "required_paving_tier": -1,
-    "actions_required": 50,
+    "actions_required": 2000,
     "instantly_built": false,
     "recipe_performance_id": 538
   },
@@ -13363,15 +14402,15 @@
     "recipe_performance_id": 538
   },
   {
-    "id": 1854995580,
-    "name": "Town Market",
+    "id": 1284436982,
+    "name": "Fine Residential House",
     "time_requirement": 2.0,
-    "stamina_requirement": 0.75,
+    "stamina_requirement": 1.16,
     "consumed_building": 0,
     "required_interior_tier": -1,
     "level_requirements": [
       {
-        "skill_id": 4,
+        "skill_id": 15,
         "level": 1
       }
     ],
@@ -13382,35 +14421,41 @@
         "power": 1
       }
     ],
-    "consumed_item_stacks": [
+    "consumed_item_stacks": [],
+    "consumed_cargo_stacks": [
       {
-        "item_id": 1712579910,
-        "quantity": 1,
-        "item_type": "Item",
+        "item_id": 1203,
+        "quantity": 5,
+        "item_type": "Cargo",
         "discovery_score": 1,
         "consumption_chance": 1.0
       },
       {
-        "item_id": 2050002,
+        "item_id": 2403,
         "quantity": 5,
-        "item_type": "Item",
-        "discovery_score": 0,
-        "consumption_chance": 1.0
-      }
-    ],
-    "consumed_cargo_stacks": [
-      {
-        "item_id": 1201,
-        "quantity": 10,
         "item_type": "Cargo",
-        "discovery_score": 0,
+        "discovery_score": 1,
         "consumption_chance": 1.0
       },
       {
-        "item_id": 2401,
-        "quantity": 10,
+        "item_id": 341301575,
+        "quantity": 1,
         "item_type": "Cargo",
-        "discovery_score": 0,
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      },
+      {
+        "item_id": 7003,
+        "quantity": 1,
+        "item_type": "Cargo",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      },
+      {
+        "item_id": 1784593653,
+        "quantity": 1,
+        "item_type": "Cargo",
+        "discovery_score": 1,
         "consumption_chance": 1.0
       }
     ],
@@ -13418,19 +14463,17 @@
     "experience_per_progress": [
       {
         "skill_id": 15,
-        "quantity": 1.0
+        "quantity": 1.3
       }
     ],
-    "discovery_triggers": [
-      1365060029
-    ],
+    "discovery_triggers": [],
     "required_knowledges": [],
-    "required_claim_tech_id": 200,
+    "required_claim_tech_id": 400,
     "full_discovery_score": 1,
     "tool_mesh_index": 0,
-    "building_description_id": 934683282,
+    "building_description_id": 1720409289,
     "required_paving_tier": -1,
-    "actions_required": 500,
+    "actions_required": 4000,
     "instantly_built": false,
     "recipe_performance_id": 538
   },

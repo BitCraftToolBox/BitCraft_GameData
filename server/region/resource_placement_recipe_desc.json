@@ -1,7 +1,7 @@
 [
   {
-    "id": 1010009,
-    "name": "Planted Beech Sapling",
+    "id": 3010010,
+    "name": "Planted Spruce Sapling",
     "time_requirement": 2.0,
     "stamina_requirement": 0.75,
     "consumed_resource": 0,
@@ -9,19 +9,19 @@
     "level_requirements": [
       {
         "skill_id": 2,
-        "level": 1
+        "level": 30
       }
     ],
     "tool_requirements": [
       {
         "tool_type": 1,
-        "level": 1,
+        "level": 3,
         "power": 1
       }
     ],
     "consumed_item_stacks": [
       {
-        "item_id": 1010013,
+        "item_id": 3010014,
         "quantity": 1,
         "item_type": "Item",
         "discovery_score": 1,
@@ -39,64 +39,15 @@
     "required_knowledges": [],
     "required_claim_tech_id": 0,
     "required_biomes": [
-      "CalmForest",
-      "AutumnForest"
-    ],
-    "full_discovery_score": 1,
-    "tool_mesh_index": 1,
-    "resource_description_id": 1010009,
-    "required_paving_tier": -1,
-    "actions_required": 200,
-    "recipe_performance_id": 641
-  },
-  {
-    "id": 1010008,
-    "name": "Planted Birch Sapling",
-    "time_requirement": 2.0,
-    "stamina_requirement": 0.75,
-    "consumed_resource": 0,
-    "required_interior_tier": -1,
-    "level_requirements": [
-      {
-        "skill_id": 2,
-        "level": 1
-      }
-    ],
-    "tool_requirements": [
-      {
-        "tool_type": 1,
-        "level": 1,
-        "power": 1
-      }
-    ],
-    "consumed_item_stacks": [
-      {
-        "item_id": 1010012,
-        "quantity": 1,
-        "item_type": "Item",
-        "discovery_score": 1,
-        "consumption_chance": 1.0
-      }
-    ],
-    "consumed_cargo_stacks": [],
-    "experience_per_progress": [
-      {
-        "skill_id": 2,
-        "quantity": 2.0
-      }
-    ],
-    "discovery_triggers": [],
-    "required_knowledges": [],
-    "required_claim_tech_id": 0,
-    "required_biomes": [
-      "CalmForest",
+      "PineWoods",
+      "Tundra",
       "SnowyPeaks"
     ],
     "full_discovery_score": 1,
     "tool_mesh_index": 1,
-    "resource_description_id": 1010008,
+    "resource_description_id": 3010010,
     "required_paving_tier": -1,
-    "actions_required": 200,
+    "actions_required": 400,
     "recipe_performance_id": 641
   },
   {
@@ -247,6 +198,57 @@
     "recipe_performance_id": 641
   },
   {
+    "id": 3010009,
+    "name": "Planted Pine Sapling",
+    "time_requirement": 2.0,
+    "stamina_requirement": 0.75,
+    "consumed_resource": 0,
+    "required_interior_tier": -1,
+    "level_requirements": [
+      {
+        "skill_id": 2,
+        "level": 30
+      }
+    ],
+    "tool_requirements": [
+      {
+        "tool_type": 1,
+        "level": 3,
+        "power": 1
+      }
+    ],
+    "consumed_item_stacks": [
+      {
+        "item_id": 3010013,
+        "quantity": 1,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "consumed_cargo_stacks": [],
+    "experience_per_progress": [
+      {
+        "skill_id": 2,
+        "quantity": 2.0
+      }
+    ],
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "required_claim_tech_id": 0,
+    "required_biomes": [
+      "PineWoods",
+      "Swamp",
+      "AutumnForest"
+    ],
+    "full_discovery_score": 1,
+    "tool_mesh_index": 1,
+    "resource_description_id": 3010009,
+    "required_paving_tier": -1,
+    "actions_required": 400,
+    "recipe_performance_id": 641
+  },
+  {
     "id": 1010010,
     "name": "Planted Oak Sapling",
     "time_requirement": 2.0,
@@ -287,7 +289,9 @@
     "required_claim_tech_id": 0,
     "required_biomes": [
       "CalmForest",
-      "BreezyPlains"
+      "Jungle",
+      "AutumnForest",
+      "Sapwoods"
     ],
     "full_discovery_score": 1,
     "tool_mesh_index": 1,
@@ -297,8 +301,8 @@
     "recipe_performance_id": 641
   },
   {
-    "id": 3010009,
-    "name": "Planted Pine Sapling",
+    "id": 1010008,
+    "name": "Planted Birch Sapling",
     "time_requirement": 2.0,
     "stamina_requirement": 0.75,
     "consumed_resource": 0,
@@ -306,19 +310,19 @@
     "level_requirements": [
       {
         "skill_id": 2,
-        "level": 30
+        "level": 1
       }
     ],
     "tool_requirements": [
       {
         "tool_type": 1,
-        "level": 3,
+        "level": 1,
         "power": 1
       }
     ],
     "consumed_item_stacks": [
       {
-        "item_id": 3010013,
+        "item_id": 1010012,
         "quantity": 1,
         "item_type": "Item",
         "discovery_score": 1,
@@ -336,18 +340,21 @@
     "required_knowledges": [],
     "required_claim_tech_id": 0,
     "required_biomes": [
-      "PineWoods"
+      "CalmForest",
+      "Sapwoods",
+      "AutumnForest",
+      "SnowyPeaks"
     ],
     "full_discovery_score": 1,
     "tool_mesh_index": 1,
-    "resource_description_id": 3010009,
+    "resource_description_id": 1010008,
     "required_paving_tier": -1,
-    "actions_required": 400,
+    "actions_required": 200,
     "recipe_performance_id": 641
   },
   {
-    "id": 3010010,
-    "name": "Planted Spruce Sapling",
+    "id": 1010009,
+    "name": "Planted Beech Sapling",
     "time_requirement": 2.0,
     "stamina_requirement": 0.75,
     "consumed_resource": 0,
@@ -355,19 +362,19 @@
     "level_requirements": [
       {
         "skill_id": 2,
-        "level": 30
+        "level": 1
       }
     ],
     "tool_requirements": [
       {
         "tool_type": 1,
-        "level": 3,
+        "level": 1,
         "power": 1
       }
     ],
     "consumed_item_stacks": [
       {
-        "item_id": 3010014,
+        "item_id": 1010013,
         "quantity": 1,
         "item_type": "Item",
         "discovery_score": 1,
@@ -385,64 +392,16 @@
     "required_knowledges": [],
     "required_claim_tech_id": 0,
     "required_biomes": [
+      "CalmForest",
+      "Sapwoods",
       "PineWoods",
-      "SnowyPeaks",
       "AutumnForest"
     ],
     "full_discovery_score": 1,
     "tool_mesh_index": 1,
-    "resource_description_id": 3010010,
+    "resource_description_id": 1010009,
     "required_paving_tier": -1,
-    "actions_required": 400,
-    "recipe_performance_id": 641
-  },
-  {
-    "id": 3010011,
-    "name": "Planted Willow Sapling",
-    "time_requirement": 2.0,
-    "stamina_requirement": 0.75,
-    "consumed_resource": 0,
-    "required_interior_tier": -1,
-    "level_requirements": [
-      {
-        "skill_id": 2,
-        "level": 30
-      }
-    ],
-    "tool_requirements": [
-      {
-        "tool_type": 1,
-        "level": 3,
-        "power": 1
-      }
-    ],
-    "consumed_item_stacks": [
-      {
-        "item_id": 3010015,
-        "quantity": 1,
-        "item_type": "Item",
-        "discovery_score": 1,
-        "consumption_chance": 1.0
-      }
-    ],
-    "consumed_cargo_stacks": [],
-    "experience_per_progress": [
-      {
-        "skill_id": 2,
-        "quantity": 2.0
-      }
-    ],
-    "discovery_triggers": [],
-    "required_knowledges": [],
-    "required_claim_tech_id": 0,
-    "required_biomes": [
-      "Swamp"
-    ],
-    "full_discovery_score": 1,
-    "tool_mesh_index": 1,
-    "resource_description_id": 3010011,
-    "required_paving_tier": -1,
-    "actions_required": 400,
+    "actions_required": 200,
     "recipe_performance_id": 641
   }
 ]
