@@ -49558,6 +49558,24 @@
       }
     },
     {
+      "name": "admin_check_closed_listing_states",
+      "params": {
+        "elements": [
+          {
+            "name": {
+              "some": "max_value"
+            },
+            "algebraic_type": {
+              "U64": []
+            }
+          }
+        ]
+      },
+      "lifecycle": {
+        "none": []
+      }
+    },
+    {
       "name": "admin_clear_all_resources",
       "params": {
         "elements": []
@@ -49798,6 +49816,116 @@
           {
             "name": {
               "some": "claim_entity_id"
+            },
+            "algebraic_type": {
+              "U64": []
+            }
+          }
+        ]
+      },
+      "lifecycle": {
+        "none": []
+      }
+    },
+    {
+      "name": "admin_find_all_players_with_item_above_quantity",
+      "params": {
+        "elements": [
+          {
+            "name": {
+              "some": "item_id"
+            },
+            "algebraic_type": {
+              "I32": []
+            }
+          },
+          {
+            "name": {
+              "some": "is_cargo"
+            },
+            "algebraic_type": {
+              "Bool": []
+            }
+          },
+          {
+            "name": {
+              "some": "claim_entity_id"
+            },
+            "algebraic_type": {
+              "U64": []
+            }
+          },
+          {
+            "name": {
+              "some": "min_quantity"
+            },
+            "algebraic_type": {
+              "U64": []
+            }
+          }
+        ]
+      },
+      "lifecycle": {
+        "none": []
+      }
+    },
+    {
+      "name": "admin_find_items_in_inventories",
+      "params": {
+        "elements": [
+          {
+            "name": {
+              "some": "item_id"
+            },
+            "algebraic_type": {
+              "I32": []
+            }
+          },
+          {
+            "name": {
+              "some": "is_cargo"
+            },
+            "algebraic_type": {
+              "Bool": []
+            }
+          },
+          {
+            "name": {
+              "some": "min_threshold"
+            },
+            "algebraic_type": {
+              "U64": []
+            }
+          }
+        ]
+      },
+      "lifecycle": {
+        "none": []
+      }
+    },
+    {
+      "name": "admin_find_items_in_trades",
+      "params": {
+        "elements": [
+          {
+            "name": {
+              "some": "item_id"
+            },
+            "algebraic_type": {
+              "I32": []
+            }
+          },
+          {
+            "name": {
+              "some": "is_cargo"
+            },
+            "algebraic_type": {
+              "Bool": []
+            }
+          },
+          {
+            "name": {
+              "some": "min_threshold"
             },
             "algebraic_type": {
               "U64": []
