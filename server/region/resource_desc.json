@@ -7030,6 +7030,71 @@
     "not_respawning": false
   },
   {
+    "id": 3010011,
+    "name": "Planted Willow Sapling",
+    "description": "",
+    "flattenable": false,
+    "max_health": 30,
+    "ignore_damage": false,
+    "despawn_time": 2.0,
+    "model_asset_name": "Resources/TreeSpruceSapling",
+    "icon_asset_name": "GeneratedIcons/Other/WillowTreeSapling",
+    "on_destroy_yield": [
+      {
+        "item_id": 11001,
+        "quantity": 2,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "on_destroy_yield_resource_id": 0,
+    "spawn_priority": 1,
+    "footprint": [
+      {
+        "x": 0,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 0,
+        "z": -1,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": -1,
+        "z": 0,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": 0,
+        "z": 1,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": 1,
+        "z": 0,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": 1,
+        "z": -1,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": -1,
+        "z": 1,
+        "footprint_type": "Walkable"
+      }
+    ],
+    "tier": 1,
+    "tag": "Sapling",
+    "rarity": "Common",
+    "compendium_entry": true,
+    "enemy_params_id": [],
+    "scheduled_respawn_time": 0.0,
+    "not_respawning": false
+  },
+  {
     "id": 192,
     "name": "Intricate Door",
     "description": "",
@@ -7141,6 +7206,201 @@
     "not_respawning": false
   },
   {
+    "id": 3010009,
+    "name": "Planted Pine Sapling",
+    "description": "",
+    "flattenable": false,
+    "max_health": 30,
+    "ignore_damage": false,
+    "despawn_time": 2.0,
+    "model_asset_name": "Resources/TreePineSapling",
+    "icon_asset_name": "GeneratedIcons/Other/PineTreeSapling",
+    "on_destroy_yield": [
+      {
+        "item_id": 11001,
+        "quantity": 2,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "on_destroy_yield_resource_id": 0,
+    "spawn_priority": 1,
+    "footprint": [
+      {
+        "x": 0,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 0,
+        "z": -1,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": -1,
+        "z": 0,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": 0,
+        "z": 1,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": 1,
+        "z": 0,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": 1,
+        "z": -1,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": -1,
+        "z": 1,
+        "footprint_type": "Walkable"
+      }
+    ],
+    "tier": 1,
+    "tag": "Sapling",
+    "rarity": "Common",
+    "compendium_entry": true,
+    "enemy_params_id": [],
+    "scheduled_respawn_time": 0.0,
+    "not_respawning": false
+  },
+  {
+    "id": 3010008,
+    "name": "Planted Maple Sapling",
+    "description": "",
+    "flattenable": false,
+    "max_health": 30,
+    "ignore_damage": false,
+    "despawn_time": 2.0,
+    "model_asset_name": "Resources/TreeMapleSapling",
+    "icon_asset_name": "GeneratedIcons/Other/MapleTreeSapling",
+    "on_destroy_yield": [
+      {
+        "item_id": 11001,
+        "quantity": 2,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "on_destroy_yield_resource_id": 0,
+    "spawn_priority": 1,
+    "footprint": [
+      {
+        "x": 0,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 0,
+        "z": -1,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": -1,
+        "z": 0,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": 0,
+        "z": 1,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": 1,
+        "z": 0,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": 1,
+        "z": -1,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": -1,
+        "z": 1,
+        "footprint_type": "Walkable"
+      }
+    ],
+    "tier": 6,
+    "tag": "Sapling",
+    "rarity": "Common",
+    "compendium_entry": true,
+    "enemy_params_id": [],
+    "scheduled_respawn_time": 0.0,
+    "not_respawning": false
+  },
+  {
+    "id": 4010011,
+    "name": "Planted Cypress Sapling",
+    "description": "",
+    "flattenable": false,
+    "max_health": 30,
+    "ignore_damage": false,
+    "despawn_time": 2.0,
+    "model_asset_name": "Resources/TreeSpruceSapling",
+    "icon_asset_name": "GeneratedIcons/Other/CypressTreeSapling",
+    "on_destroy_yield": [
+      {
+        "item_id": 11001,
+        "quantity": 2,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "on_destroy_yield_resource_id": 0,
+    "spawn_priority": 1,
+    "footprint": [
+      {
+        "x": 0,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 0,
+        "z": -1,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": -1,
+        "z": 0,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": 0,
+        "z": 1,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": 1,
+        "z": 0,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": 1,
+        "z": -1,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": -1,
+        "z": 1,
+        "footprint_type": "Walkable"
+      }
+    ],
+    "tier": 1,
+    "tag": "Sapling",
+    "rarity": "Common",
+    "compendium_entry": true,
+    "enemy_params_id": [],
+    "scheduled_respawn_time": 0.0,
+    "not_respawning": false
+  },
+  {
     "id": 219,
     "name": "Key Mold Pedestal",
     "description": "",
@@ -7206,6 +7466,71 @@
     "tag": "Obstacle",
     "rarity": "Common",
     "compendium_entry": false,
+    "enemy_params_id": [],
+    "scheduled_respawn_time": 0.0,
+    "not_respawning": false
+  },
+  {
+    "id": 1010009,
+    "name": "Planted Beech Sapling",
+    "description": "",
+    "flattenable": false,
+    "max_health": 30,
+    "ignore_damage": false,
+    "despawn_time": 2.0,
+    "model_asset_name": "Resources/TreeBeechSapling",
+    "icon_asset_name": "GeneratedIcons/Other/BeechTreeSapling",
+    "on_destroy_yield": [
+      {
+        "item_id": 11001,
+        "quantity": 2,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "on_destroy_yield_resource_id": 0,
+    "spawn_priority": 1,
+    "footprint": [
+      {
+        "x": 0,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 0,
+        "z": -1,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": -1,
+        "z": 0,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": 0,
+        "z": 1,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": 1,
+        "z": 0,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": 1,
+        "z": -1,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": -1,
+        "z": 1,
+        "footprint_type": "Walkable"
+      }
+    ],
+    "tier": 1,
+    "tag": "Sapling",
+    "rarity": "Common",
+    "compendium_entry": true,
     "enemy_params_id": [],
     "scheduled_respawn_time": 0.0,
     "not_respawning": false
@@ -13172,41 +13497,6 @@
     "not_respawning": false
   },
   {
-    "id": 1010009,
-    "name": "Planted Beech Sapling",
-    "description": "",
-    "flattenable": false,
-    "max_health": 30,
-    "ignore_damage": false,
-    "despawn_time": 2.0,
-    "model_asset_name": "Resources/TreeBeechSapling",
-    "icon_asset_name": "GeneratedIcons/Other/BeechTreeSapling",
-    "on_destroy_yield": [
-      {
-        "item_id": 11001,
-        "quantity": 2,
-        "item_type": "Item",
-        "durability": 0
-      }
-    ],
-    "on_destroy_yield_resource_id": 0,
-    "spawn_priority": 1,
-    "footprint": [
-      {
-        "x": 0,
-        "z": 0,
-        "footprint_type": "Hitbox"
-      }
-    ],
-    "tier": 1,
-    "tag": "Sapling",
-    "rarity": "Common",
-    "compendium_entry": true,
-    "enemy_params_id": [],
-    "scheduled_respawn_time": 0.0,
-    "not_respawning": false
-  },
-  {
     "id": 1011009,
     "name": "Planted Beech Tree",
     "description": "",
@@ -13235,41 +13525,6 @@
     ],
     "tier": 1,
     "tag": "Tree",
-    "rarity": "Common",
-    "compendium_entry": true,
-    "enemy_params_id": [],
-    "scheduled_respawn_time": 0.0,
-    "not_respawning": false
-  },
-  {
-    "id": 1010008,
-    "name": "Planted Birch Sapling",
-    "description": "",
-    "flattenable": false,
-    "max_health": 30,
-    "ignore_damage": false,
-    "despawn_time": 2.0,
-    "model_asset_name": "Resources/TreeBirchSapling",
-    "icon_asset_name": "GeneratedIcons/Other/BirchTreeSapling",
-    "on_destroy_yield": [
-      {
-        "item_id": 11001,
-        "quantity": 2,
-        "item_type": "Item",
-        "durability": 0
-      }
-    ],
-    "on_destroy_yield_resource_id": 0,
-    "spawn_priority": 1,
-    "footprint": [
-      {
-        "x": 0,
-        "z": 0,
-        "footprint_type": "Hitbox"
-      }
-    ],
-    "tier": 2,
-    "tag": "Sapling",
     "rarity": "Common",
     "compendium_entry": true,
     "enemy_params_id": [],
@@ -13312,41 +13567,6 @@
     "not_respawning": false
   },
   {
-    "id": 4010011,
-    "name": "Planted Cypress Sapling",
-    "description": "",
-    "flattenable": false,
-    "max_health": 30,
-    "ignore_damage": false,
-    "despawn_time": 2.0,
-    "model_asset_name": "Resources/TreeSpruceSapling",
-    "icon_asset_name": "GeneratedIcons/Other/CypressTreeSapling",
-    "on_destroy_yield": [
-      {
-        "item_id": 11001,
-        "quantity": 2,
-        "item_type": "Item",
-        "durability": 0
-      }
-    ],
-    "on_destroy_yield_resource_id": 0,
-    "spawn_priority": 1,
-    "footprint": [
-      {
-        "x": 0,
-        "z": 0,
-        "footprint_type": "Hitbox"
-      }
-    ],
-    "tier": 1,
-    "tag": "Sapling",
-    "rarity": "Common",
-    "compendium_entry": true,
-    "enemy_params_id": [],
-    "scheduled_respawn_time": 0.0,
-    "not_respawning": false
-  },
-  {
     "id": 4011011,
     "name": "Planted Cypress Tree",
     "description": "",
@@ -13382,41 +13602,6 @@
     "not_respawning": false
   },
   {
-    "id": 2010008,
-    "name": "Planted Dendro Sapling",
-    "description": "",
-    "flattenable": false,
-    "max_health": 30,
-    "ignore_damage": false,
-    "despawn_time": 2.0,
-    "model_asset_name": "Resources/TreeBirchSapling",
-    "icon_asset_name": "GeneratedIcons/Other/DendroTreeSapling",
-    "on_destroy_yield": [
-      {
-        "item_id": 11001,
-        "quantity": 2,
-        "item_type": "Item",
-        "durability": 0
-      }
-    ],
-    "on_destroy_yield_resource_id": 0,
-    "spawn_priority": 1,
-    "footprint": [
-      {
-        "x": 0,
-        "z": 0,
-        "footprint_type": "Hitbox"
-      }
-    ],
-    "tier": 1,
-    "tag": "Sapling",
-    "rarity": "Common",
-    "compendium_entry": true,
-    "enemy_params_id": [],
-    "scheduled_respawn_time": 0.0,
-    "not_respawning": false
-  },
-  {
     "id": 2011008,
     "name": "Planted Dendro Tree",
     "description": "",
@@ -13445,41 +13630,6 @@
     ],
     "tier": 2,
     "tag": "Tree",
-    "rarity": "Common",
-    "compendium_entry": true,
-    "enemy_params_id": [],
-    "scheduled_respawn_time": 0.0,
-    "not_respawning": false
-  },
-  {
-    "id": 3010008,
-    "name": "Planted Maple Sapling",
-    "description": "",
-    "flattenable": false,
-    "max_health": 30,
-    "ignore_damage": false,
-    "despawn_time": 2.0,
-    "model_asset_name": "Resources/TreeMapleSapling",
-    "icon_asset_name": "GeneratedIcons/Other/MapleTreeSapling",
-    "on_destroy_yield": [
-      {
-        "item_id": 11001,
-        "quantity": 2,
-        "item_type": "Item",
-        "durability": 0
-      }
-    ],
-    "on_destroy_yield_resource_id": 0,
-    "spawn_priority": 1,
-    "footprint": [
-      {
-        "x": 0,
-        "z": 0,
-        "footprint_type": "Hitbox"
-      }
-    ],
-    "tier": 6,
-    "tag": "Sapling",
     "rarity": "Common",
     "compendium_entry": true,
     "enemy_params_id": [],
@@ -13528,15 +13678,15 @@
     "not_respawning": false
   },
   {
-    "id": 1010010,
-    "name": "Planted Oak Sapling",
+    "id": 3010010,
+    "name": "Planted Spruce Sapling",
     "description": "",
     "flattenable": false,
     "max_health": 30,
     "ignore_damage": false,
     "despawn_time": 2.0,
-    "model_asset_name": "Resources/TreeOakSapling",
-    "icon_asset_name": "GeneratedIcons/Other/OakTreeSapling",
+    "model_asset_name": "Resources/TreeSpruceSapling",
+    "icon_asset_name": "GeneratedIcons/Other/SpruceTreeSapling",
     "on_destroy_yield": [
       {
         "item_id": 11001,
@@ -13552,6 +13702,36 @@
         "x": 0,
         "z": 0,
         "footprint_type": "Hitbox"
+      },
+      {
+        "x": 0,
+        "z": -1,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": -1,
+        "z": 0,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": 0,
+        "z": 1,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": 1,
+        "z": 0,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": 1,
+        "z": -1,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": -1,
+        "z": 1,
+        "footprint_type": "Walkable"
       }
     ],
     "tier": 1,
@@ -13598,15 +13778,15 @@
     "not_respawning": false
   },
   {
-    "id": 3010009,
-    "name": "Planted Pine Sapling",
+    "id": 1010010,
+    "name": "Planted Oak Sapling",
     "description": "",
     "flattenable": false,
     "max_health": 30,
     "ignore_damage": false,
     "despawn_time": 2.0,
-    "model_asset_name": "Resources/TreePineSapling",
-    "icon_asset_name": "GeneratedIcons/Other/PineTreeSapling",
+    "model_asset_name": "Resources/TreeOakSapling",
+    "icon_asset_name": "GeneratedIcons/Other/OakTreeSapling",
     "on_destroy_yield": [
       {
         "item_id": 11001,
@@ -13622,6 +13802,36 @@
         "x": 0,
         "z": 0,
         "footprint_type": "Hitbox"
+      },
+      {
+        "x": 0,
+        "z": -1,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": -1,
+        "z": 0,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": 0,
+        "z": 1,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": 1,
+        "z": 0,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": 1,
+        "z": -1,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": -1,
+        "z": 1,
+        "footprint_type": "Walkable"
       }
     ],
     "tier": 1,
@@ -13674,15 +13884,15 @@
     "not_respawning": false
   },
   {
-    "id": 3010010,
-    "name": "Planted Spruce Sapling",
+    "id": 2010008,
+    "name": "Planted Dendro Sapling",
     "description": "",
     "flattenable": false,
     "max_health": 30,
     "ignore_damage": false,
     "despawn_time": 2.0,
-    "model_asset_name": "Resources/TreeSpruceSapling",
-    "icon_asset_name": "GeneratedIcons/Other/SpruceTreeSapling",
+    "model_asset_name": "Resources/TreeBirchSapling",
+    "icon_asset_name": "GeneratedIcons/Other/DendroTreeSapling",
     "on_destroy_yield": [
       {
         "item_id": 11001,
@@ -13698,6 +13908,36 @@
         "x": 0,
         "z": 0,
         "footprint_type": "Hitbox"
+      },
+      {
+        "x": 0,
+        "z": -1,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": -1,
+        "z": 0,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": 0,
+        "z": 1,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": 1,
+        "z": 0,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": 1,
+        "z": -1,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": -1,
+        "z": 1,
+        "footprint_type": "Walkable"
       }
     ],
     "tier": 1,
@@ -13750,15 +13990,15 @@
     "not_respawning": false
   },
   {
-    "id": 3010011,
-    "name": "Planted Willow Sapling",
+    "id": 1010008,
+    "name": "Planted Birch Sapling",
     "description": "",
     "flattenable": false,
     "max_health": 30,
     "ignore_damage": false,
     "despawn_time": 2.0,
-    "model_asset_name": "Resources/TreeSpruceSapling",
-    "icon_asset_name": "GeneratedIcons/Other/WillowTreeSapling",
+    "model_asset_name": "Resources/TreeBirchSapling",
+    "icon_asset_name": "GeneratedIcons/Other/BirchTreeSapling",
     "on_destroy_yield": [
       {
         "item_id": 11001,
@@ -13774,9 +14014,39 @@
         "x": 0,
         "z": 0,
         "footprint_type": "Hitbox"
+      },
+      {
+        "x": 0,
+        "z": -1,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": -1,
+        "z": 0,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": 0,
+        "z": 1,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": 1,
+        "z": 0,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": 1,
+        "z": -1,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": -1,
+        "z": 1,
+        "footprint_type": "Walkable"
       }
     ],
-    "tier": 1,
+    "tier": 2,
     "tag": "Sapling",
     "rarity": "Common",
     "compendium_entry": true,

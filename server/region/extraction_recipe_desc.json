@@ -6227,6 +6227,61 @@
     "recipe_performance_id": 975
   },
   {
+    "id": 400447965,
+    "resource_id": 1996631377,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "time_requirement": 1.6,
+    "stamina_requirement": 1.86,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [
+      {
+        "item_stack": {
+          "item_id": 1170732802,
+          "quantity": 1,
+          "item_type": "Cargo",
+          "durability": null
+        },
+        "probability": 0.00402
+      },
+      {
+        "item_stack": {
+          "item_id": 962018090,
+          "quantity": 1,
+          "item_type": "Cargo",
+          "durability": null
+        },
+        "probability": 1.995E-05
+      }
+    ],
+    "consumed_item_stacks": [],
+    "range": 1,
+    "tool_requirements": [
+      {
+        "tool_type": 4,
+        "level": 10,
+        "power": 1
+      }
+    ],
+    "allow_use_hands": false,
+    "level_requirements": [
+      {
+        "skill_id": 5,
+        "level": 100
+      }
+    ],
+    "experience_per_progress": [
+      {
+        "skill_id": 5,
+        "quantity": 2.375
+      }
+    ],
+    "verb_phrase": "Mine",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 975
+  },
+  {
     "id": 144,
     "resource_id": 152,
     "cargo_id": 0,
@@ -8838,6 +8893,61 @@
     "verb_phrase": "Gather",
     "tool_mesh_index": 0,
     "recipe_performance_id": 632
+  },
+  {
+    "id": 333503414,
+    "resource_id": 1423928615,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "time_requirement": 1.6,
+    "stamina_requirement": 1.64,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [
+      {
+        "item_stack": {
+          "item_id": 58757068,
+          "quantity": 1,
+          "item_type": "Cargo",
+          "durability": null
+        },
+        "probability": 0.00457
+      },
+      {
+        "item_stack": {
+          "item_id": 2063391815,
+          "quantity": 1,
+          "item_type": "Cargo",
+          "durability": null
+        },
+        "probability": 1.995E-05
+      }
+    ],
+    "consumed_item_stacks": [],
+    "range": 1,
+    "tool_requirements": [
+      {
+        "tool_type": 4,
+        "level": 8,
+        "power": 1
+      }
+    ],
+    "allow_use_hands": false,
+    "level_requirements": [
+      {
+        "skill_id": 5,
+        "level": 80
+      }
+    ],
+    "experience_per_progress": [
+      {
+        "skill_id": 5,
+        "quantity": 2.125
+      }
+    ],
+    "verb_phrase": "Mine",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 975
   },
   {
     "id": 5,
@@ -16802,61 +16912,6 @@
     "recipe_performance_id": 632
   },
   {
-    "id": 333503414,
-    "resource_id": 1423928615,
-    "cargo_id": 0,
-    "discovery_triggers": [],
-    "required_knowledges": [],
-    "time_requirement": 1.6,
-    "stamina_requirement": 1.64,
-    "tool_durability_lost": 0,
-    "extracted_item_stacks": [
-      {
-        "item_stack": {
-          "item_id": 1143621247,
-          "quantity": 1,
-          "item_type": "Cargo",
-          "durability": null
-        },
-        "probability": 0.00533
-      },
-      {
-        "item_stack": {
-          "item_id": 2139638761,
-          "quantity": 1,
-          "item_type": "Cargo",
-          "durability": null
-        },
-        "probability": 1.995E-05
-      }
-    ],
-    "consumed_item_stacks": [],
-    "range": 1,
-    "tool_requirements": [
-      {
-        "tool_type": 4,
-        "level": 8,
-        "power": 1
-      }
-    ],
-    "allow_use_hands": false,
-    "level_requirements": [
-      {
-        "skill_id": 5,
-        "level": 80
-      }
-    ],
-    "experience_per_progress": [
-      {
-        "skill_id": 5,
-        "quantity": 2.125
-      }
-    ],
-    "verb_phrase": "Mine",
-    "tool_mesh_index": 0,
-    "recipe_performance_id": 975
-  },
-  {
     "id": 1498068948,
     "resource_id": 756579517,
     "cargo_id": 0,
@@ -17094,61 +17149,6 @@
     "verb_phrase": "Gather",
     "tool_mesh_index": 0,
     "recipe_performance_id": 632
-  },
-  {
-    "id": 1347187799,
-    "resource_id": 1113640469,
-    "cargo_id": 0,
-    "discovery_triggers": [],
-    "required_knowledges": [],
-    "time_requirement": 1.6,
-    "stamina_requirement": 1.75,
-    "tool_durability_lost": 0,
-    "extracted_item_stacks": [
-      {
-        "item_stack": {
-          "item_id": 1143621247,
-          "quantity": 1,
-          "item_type": "Cargo",
-          "durability": null
-        },
-        "probability": 0.00533
-      },
-      {
-        "item_stack": {
-          "item_id": 2139638761,
-          "quantity": 1,
-          "item_type": "Cargo",
-          "durability": null
-        },
-        "probability": 1.995E-05
-      }
-    ],
-    "consumed_item_stacks": [],
-    "range": 1,
-    "tool_requirements": [
-      {
-        "tool_type": 4,
-        "level": 9,
-        "power": 1
-      }
-    ],
-    "allow_use_hands": false,
-    "level_requirements": [
-      {
-        "skill_id": 5,
-        "level": 90
-      }
-    ],
-    "experience_per_progress": [
-      {
-        "skill_id": 5,
-        "quantity": 2.25
-      }
-    ],
-    "verb_phrase": "Mine",
-    "tool_mesh_index": 0,
-    "recipe_performance_id": 975
   },
   {
     "id": 1941847716,
@@ -17390,27 +17390,27 @@
     "recipe_performance_id": 632
   },
   {
-    "id": 400447965,
-    "resource_id": 1996631377,
+    "id": 1347187799,
+    "resource_id": 1113640469,
     "cargo_id": 0,
     "discovery_triggers": [],
     "required_knowledges": [],
     "time_requirement": 1.6,
-    "stamina_requirement": 1.86,
+    "stamina_requirement": 1.75,
     "tool_durability_lost": 0,
     "extracted_item_stacks": [
       {
         "item_stack": {
-          "item_id": 1143621247,
+          "item_id": 1173828253,
           "quantity": 1,
           "item_type": "Cargo",
           "durability": null
         },
-        "probability": 0.00533
+        "probability": 0.00428
       },
       {
         "item_stack": {
-          "item_id": 2139638761,
+          "item_id": 1706418122,
           "quantity": 1,
           "item_type": "Cargo",
           "durability": null
@@ -17423,7 +17423,7 @@
     "tool_requirements": [
       {
         "tool_type": 4,
-        "level": 10,
+        "level": 9,
         "power": 1
       }
     ],
@@ -17431,13 +17431,13 @@
     "level_requirements": [
       {
         "skill_id": 5,
-        "level": 100
+        "level": 90
       }
     ],
     "experience_per_progress": [
       {
         "skill_id": 5,
-        "quantity": 2.375
+        "quantity": 2.25
       }
     ],
     "verb_phrase": "Mine",
