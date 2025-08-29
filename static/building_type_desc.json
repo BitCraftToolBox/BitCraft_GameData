@@ -1,54 +1,24 @@
 [
   {
-    "id": 27,
-    "name": "Ancient Ruins",
-    "category": "AncientRuins",
-    "actions": []
-  },
-  {
-    "id": 500,
-    "name": "Ancient Workbench",
-    "category": "Crafting",
+    "id": 1,
+    "name": "Trading Post",
+    "category": 5,
     "actions": [
-      "Craft"
-    ]
-  },
-  {
-    "id": 1721785854,
-    "name": "Bank",
-    "category": "Bank",
-    "actions": [
-      "Open Bank"
-    ]
-  },
-  {
-    "id": 30,
-    "name": "Barter Stall",
-    "category": "Barter",
-    "actions": [
-      "Open Barter Stall"
+      "Trade"
     ]
   },
   {
     "id": 2,
     "name": "Bed",
-    "category": "Bed",
+    "category": 17,
     "actions": [
       "Sleep"
     ]
   },
   {
-    "id": 100,
-    "name": "Brazier",
-    "category": "Crafting",
-    "actions": [
-      "Craft"
-    ]
-  },
-  {
-    "id": 1001,
-    "name": "Cargo",
-    "category": "Storage",
+    "id": 3,
+    "name": "Storage",
+    "category": 0,
     "actions": [
       "Open Storage"
     ]
@@ -56,93 +26,47 @@
   {
     "id": 4,
     "name": "Cargo Stockpile",
-    "category": "Storage",
+    "category": 0,
     "actions": [
       "Open Storage"
     ]
   },
   {
-    "id": 20,
-    "name": "Carpentry Station",
-    "category": "Crafting",
+    "id": 5,
+    "name": "Town Hall",
+    "category": 3,
     "actions": [
-      "Craft"
+      "Enter"
     ]
   },
   {
-    "id": 1265792081,
-    "name": "Charter Stone",
-    "category": "Waystone",
-    "actions": [
-      "Interact"
-    ]
+    "id": 6,
+    "name": "Wall",
+    "category": 4,
+    "actions": []
   },
   {
-    "id": 28,
-    "name": "Claim Totem",
-    "category": "ClaimTotem",
-    "actions": [
-      "Interact"
-    ]
+    "id": 7,
+    "name": "Wall Tower",
+    "category": 4,
+    "actions": []
   },
   {
-    "id": 32,
-    "name": "Compost Bin",
-    "category": "Crafting",
-    "actions": [
-      "Craft"
-    ]
+    "id": 8,
+    "name": "Gate",
+    "category": 16,
+    "actions": []
   },
   {
     "id": 9,
     "name": "Construction",
-    "category": "Wall",
+    "category": 4,
     "actions": []
   },
   {
-    "id": 13,
-    "name": "Cooking Station",
-    "category": "Crafting",
-    "actions": [
-      "Craft"
-    ]
-  },
-  {
-    "id": 45,
-    "name": "Drying Frame",
-    "category": "Crafting",
-    "actions": [
-      "Craft"
-    ]
-  },
-  {
-    "id": 31359901,
-    "name": "Elevator",
-    "category": "Elevator",
-    "actions": [
-      "Use"
-    ]
-  },
-  {
-    "id": 2001,
-    "name": "Empire Foundry",
-    "category": "EmpireFoundry",
-    "actions": [
-      "Craft"
-    ]
-  },
-  {
-    "id": 34,
-    "name": "Farming Field",
-    "category": "Crafting",
-    "actions": [
-      "Craft"
-    ]
-  },
-  {
-    "id": 33,
-    "name": "Farming Station",
-    "category": "Crafting",
+    "id": 10,
+    "name": "Workbench",
+    "category": 1,
     "actions": [
       "Craft"
     ]
@@ -150,109 +74,23 @@
   {
     "id": 11,
     "name": "Fire",
-    "category": "Crafting",
+    "category": 1,
     "actions": [
       "Craft"
     ]
   },
   {
-    "id": 40,
-    "name": "Fishing Station",
-    "category": "Crafting",
+    "id": 12,
+    "name": "Oven",
+    "category": 1,
     "actions": [
       "Craft"
     ]
   },
   {
-    "id": 2012420824,
-    "name": "Foraging Station",
-    "category": "Crafting",
-    "actions": [
-      "Craft"
-    ]
-  },
-  {
-    "id": 44,
-    "name": "Forestry Station",
-    "category": "Crafting",
-    "actions": [
-      "Craft"
-    ]
-  },
-  {
-    "id": 400,
-    "name": "Garden Pot",
-    "category": "Crafting",
-    "actions": [
-      "Craft"
-    ]
-  },
-  {
-    "id": 8,
-    "name": "Gate",
-    "category": "Gate",
-    "actions": []
-  },
-  {
-    "id": 23,
-    "name": "Grinder",
-    "category": "Crafting",
-    "actions": [
-      "Craft"
-    ]
-  },
-  {
-    "id": 1913947152,
-    "name": "Heart Workshop",
-    "category": "Crafting",
-    "actions": [
-      "Craft"
-    ]
-  },
-  {
-    "id": 200,
-    "name": "Heimlich's Workbench",
-    "category": "Crafting",
-    "actions": [
-      "Craft"
-    ]
-  },
-  {
-    "id": 688483913,
-    "name": "Home",
-    "category": "Residential",
-    "actions": [
-      "Set Home"
-    ]
-  },
-  {
-    "id": 1559722792,
-    "name": "Hunting Station",
-    "category": "Crafting",
-    "actions": [
-      "Craft"
-    ]
-  },
-  {
-    "id": 1000,
-    "name": "Inventory",
-    "category": "Storage",
-    "actions": [
-      "Open Storage"
-    ]
-  },
-  {
-    "id": 21,
-    "name": "Kiln",
-    "category": "Crafting",
-    "actions": [
-      "Craft"
-    ]
-  },
-  {
-    "id": 16,
-    "name": "Leatherworking Station",
-    "category": "Crafting",
+    "id": 13,
+    "name": "Cooking Station",
+    "category": 1,
     "actions": [
       "Craft"
     ]
@@ -260,134 +98,7 @@
   {
     "id": 14,
     "name": "Loom",
-    "category": "Crafting",
-    "actions": [
-      "Craft"
-    ]
-  },
-  {
-    "id": 22,
-    "name": "Masonry Station",
-    "category": "Crafting",
-    "actions": [
-      "Craft"
-    ]
-  },
-  {
-    "id": 41,
-    "name": "Meat Smoker",
-    "category": "Crafting",
-    "actions": [
-      "Craft"
-    ]
-  },
-  {
-    "id": 635094930,
-    "name": "Mining Station",
-    "category": "Crafting",
-    "actions": [
-      "Craft"
-    ]
-  },
-  {
-    "id": 1002,
-    "name": "Ornament",
-    "category": "Ornamental",
-    "actions": []
-  },
-  {
-    "id": 12,
-    "name": "Oven",
-    "category": "Crafting",
-    "actions": [
-      "Craft"
-    ]
-  },
-  {
-    "id": 787619404,
-    "name": "PlayerHousing",
-    "category": "PlayerHousing",
-    "actions": [
-      "Enter your house",
-      "Interact"
-    ]
-  },
-  {
-    "id": 999,
-    "name": "Portal",
-    "category": "Portal",
-    "actions": [
-      "Enter"
-    ]
-  },
-  {
-    "id": 238340097,
-    "name": "Recovery Chest",
-    "category": "RecoveryChest",
-    "actions": [
-      "Open Bank"
-    ]
-  },
-  {
-    "id": 59,
-    "name": "Rent Terminal",
-    "category": "RentTerminal",
-    "actions": [
-      "Rent"
-    ]
-  },
-  {
-    "id": 202,
-    "name": "Rumbaugh's Workbench",
-    "category": "Crafting",
-    "actions": [
-      "Craft"
-    ]
-  },
-  {
-    "id": 48,
-    "name": "Scholar Station",
-    "category": "Crafting",
-    "actions": [
-      "Craft"
-    ]
-  },
-  {
-    "id": 848835411,
-    "name": "Sign",
-    "category": "Sign",
-    "actions": [
-      "Read"
-    ]
-  },
-  {
-    "id": 24,
-    "name": "Smelter",
-    "category": "Crafting",
-    "actions": [
-      "Craft"
-    ]
-  },
-  {
-    "id": 25,
-    "name": "Smithing Station",
-    "category": "Crafting",
-    "actions": [
-      "Craft"
-    ]
-  },
-  {
-    "id": 3,
-    "name": "Storage",
-    "category": "Storage",
-    "actions": [
-      "Open Storage"
-    ]
-  },
-  {
-    "id": 17,
-    "name": "Tailoring Station",
-    "category": "Crafting",
+    "category": 1,
     "actions": [
       "Craft"
     ]
@@ -395,107 +106,396 @@
   {
     "id": 15,
     "name": "Tanning Tub",
-    "category": "Crafting",
+    "category": 1,
     "actions": [
       "Craft"
     ]
   },
   {
-    "id": 29,
-    "name": "Terraforming Base",
-    "category": "TerrraformingBase",
-    "actions": [
-      "Enter"
-    ]
-  },
-  {
-    "id": 47,
-    "name": "Timber Pile",
-    "category": "Crafting",
+    "id": 16,
+    "name": "Leatherworking Station",
+    "category": 1,
     "actions": [
       "Craft"
     ]
   },
   {
-    "id": 5,
-    "name": "Town Hall",
-    "category": "TownHall",
-    "actions": [
-      "Enter"
-    ]
-  },
-  {
-    "id": 81226542,
-    "name": "Town Market",
-    "category": "TownMarket",
-    "actions": [
-      "Trade"
-    ]
-  },
-  {
-    "id": 1,
-    "name": "Trading Post",
-    "category": "TradingPost",
-    "actions": [
-      "Trade"
-    ]
-  },
-  {
-    "id": 201,
-    "name": "Twin's Workbench",
-    "category": "Crafting",
+    "id": 17,
+    "name": "Tailoring Station",
+    "category": 1,
     "actions": [
       "Craft"
     ]
   },
   {
-    "id": 6,
-    "name": "Wall",
-    "category": "Wall",
-    "actions": []
-  },
-  {
-    "id": 7,
-    "name": "Wall Tower",
-    "category": "Wall",
-    "actions": []
-  },
-  {
-    "id": 2000,
-    "name": "Watchtower",
-    "category": "Watchtower",
+    "id": 20,
+    "name": "Carpentry Station",
+    "category": 1,
     "actions": [
-      "Inspect"
+      "Craft"
+    ]
+  },
+  {
+    "id": 21,
+    "name": "Kiln",
+    "category": 1,
+    "actions": [
+      "Craft"
+    ]
+  },
+  {
+    "id": 22,
+    "name": "Masonry Station",
+    "category": 1,
+    "actions": [
+      "Craft"
+    ]
+  },
+  {
+    "id": 23,
+    "name": "Grinder",
+    "category": 1,
+    "actions": [
+      "Craft"
+    ]
+  },
+  {
+    "id": 24,
+    "name": "Smelter",
+    "category": 1,
+    "actions": [
+      "Craft"
+    ]
+  },
+  {
+    "id": 25,
+    "name": "Smithing Station",
+    "category": 1,
+    "actions": [
+      "Craft"
     ]
   },
   {
     "id": 26,
     "name": "Well",
-    "category": "Crafting",
+    "category": 1,
     "actions": [
       "Craft"
     ]
   },
   {
-    "id": 10,
-    "name": "Workbench",
-    "category": "Crafting",
+    "id": 27,
+    "name": "Ancient Ruins",
+    "category": 7,
+    "actions": []
+  },
+  {
+    "id": 28,
+    "name": "Claim Totem",
+    "category": 8,
+    "actions": [
+      "Interact"
+    ]
+  },
+  {
+    "id": 29,
+    "name": "Terraforming Base",
+    "category": 9,
+    "actions": [
+      "Enter"
+    ]
+  },
+  {
+    "id": 30,
+    "name": "Barter Stall",
+    "category": 10,
+    "actions": [
+      "Open Barter Stall"
+    ]
+  },
+  {
+    "id": 32,
+    "name": "Compost Bin",
+    "category": 1,
     "actions": [
       "Craft"
+    ]
+  },
+  {
+    "id": 33,
+    "name": "Farming Station",
+    "category": 1,
+    "actions": [
+      "Craft"
+    ]
+  },
+  {
+    "id": 34,
+    "name": "Farming Field",
+    "category": 1,
+    "actions": [
+      "Craft"
+    ]
+  },
+  {
+    "id": 40,
+    "name": "Fishing Station",
+    "category": 1,
+    "actions": [
+      "Craft"
+    ]
+  },
+  {
+    "id": 41,
+    "name": "Meat Smoker",
+    "category": 1,
+    "actions": [
+      "Craft"
+    ]
+  },
+  {
+    "id": 44,
+    "name": "Forestry Station",
+    "category": 1,
+    "actions": [
+      "Craft"
+    ]
+  },
+  {
+    "id": 45,
+    "name": "Drying Frame",
+    "category": 1,
+    "actions": [
+      "Craft"
+    ]
+  },
+  {
+    "id": 47,
+    "name": "Timber Pile",
+    "category": 1,
+    "actions": [
+      "Craft"
+    ]
+  },
+  {
+    "id": 48,
+    "name": "Scholar Station",
+    "category": 1,
+    "actions": [
+      "Craft"
+    ]
+  },
+  {
+    "id": 59,
+    "name": "Rent Terminal",
+    "category": 12,
+    "actions": [
+      "Rent"
+    ]
+  },
+  {
+    "id": 100,
+    "name": "Brazier",
+    "category": 1,
+    "actions": [
+      "Craft"
+    ]
+  },
+  {
+    "id": 200,
+    "name": "Heimlich's Workbench",
+    "category": 1,
+    "actions": [
+      "Craft"
+    ]
+  },
+  {
+    "id": 201,
+    "name": "Twin's Workbench",
+    "category": 1,
+    "actions": [
+      "Craft"
+    ]
+  },
+  {
+    "id": 202,
+    "name": "Rumbaugh's Workbench",
+    "category": 1,
+    "actions": [
+      "Craft"
+    ]
+  },
+  {
+    "id": 400,
+    "name": "Garden Pot",
+    "category": 1,
+    "actions": [
+      "Craft"
+    ]
+  },
+  {
+    "id": 500,
+    "name": "Ancient Workbench",
+    "category": 1,
+    "actions": [
+      "Craft"
+    ]
+  },
+  {
+    "id": 999,
+    "name": "Portal",
+    "category": 11,
+    "actions": [
+      "Enter"
+    ]
+  },
+  {
+    "id": 1000,
+    "name": "Inventory",
+    "category": 0,
+    "actions": [
+      "Open Storage"
+    ]
+  },
+  {
+    "id": 1001,
+    "name": "Cargo",
+    "category": 0,
+    "actions": [
+      "Open Storage"
+    ]
+  },
+  {
+    "id": 1002,
+    "name": "Ornament",
+    "category": 6,
+    "actions": []
+  },
+  {
+    "id": 2000,
+    "name": "Watchtower",
+    "category": 13,
+    "actions": [
+      "Inspect"
+    ]
+  },
+  {
+    "id": 2001,
+    "name": "Empire Foundry",
+    "category": 14,
+    "actions": [
+      "Craft"
+    ]
+  },
+  {
+    "id": 31359901,
+    "name": "Elevator",
+    "category": 20,
+    "actions": [
+      "Use"
+    ]
+  },
+  {
+    "id": 81226542,
+    "name": "Town Market",
+    "category": 21,
+    "actions": [
+      "Trade"
     ]
   },
   {
     "id": 127749503,
     "name": "Scrap Bench",
-    "category": "Crafting",
+    "category": 1,
     "actions": [
       "Craft"
     ]
   },
   {
+    "id": 238340097,
+    "name": "Recovery Chest",
+    "category": 22,
+    "actions": [
+      "Open Bank"
+    ]
+  },
+  {
+    "id": 635094930,
+    "name": "Mining Station",
+    "category": 1,
+    "actions": [
+      "Craft"
+    ]
+  },
+  {
+    "id": 688483913,
+    "name": "Home",
+    "category": 2,
+    "actions": [
+      "Set Home"
+    ]
+  },
+  {
+    "id": 787619404,
+    "name": "PlayerHousing",
+    "category": 23,
+    "actions": [
+      "Enter your house",
+      "Interact"
+    ]
+  },
+  {
+    "id": 848835411,
+    "name": "Sign",
+    "category": 15,
+    "actions": [
+      "Read"
+    ]
+  },
+  {
     "id": 937867074,
     "name": "Construction Workstation",
-    "category": "Crafting",
+    "category": 1,
+    "actions": [
+      "Craft"
+    ]
+  },
+  {
+    "id": 1265792081,
+    "name": "Charter Stone",
+    "category": 18,
+    "actions": [
+      "Interact"
+    ]
+  },
+  {
+    "id": 1559722792,
+    "name": "Hunting Station",
+    "category": 1,
+    "actions": [
+      "Craft"
+    ]
+  },
+  {
+    "id": 1721785854,
+    "name": "Bank",
+    "category": 19,
+    "actions": [
+      "Open Bank"
+    ]
+  },
+  {
+    "id": 1913947152,
+    "name": "Heart Workshop",
+    "category": 1,
+    "actions": [
+      "Craft"
+    ]
+  },
+  {
+    "id": 2012420824,
+    "name": "Foraging Station",
+    "category": 1,
     "actions": [
       "Craft"
     ]
