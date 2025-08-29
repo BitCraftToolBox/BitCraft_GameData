@@ -4,33 +4,33 @@
     "name": "Cart",
     "deploy_from_collectible_id": 128,
     "deploy_time": 5.0,
-    "deployable_type": 0,
+    "deployable_type": "Cart",
     "pathfinding_id": 1375685503,
-    "movement_type": 1,
+    "movement_type": "Ground",
     "can_enter_portals": true,
     "speed": [
       {
-        "surface_type": 0,
+        "surface_type": "Ground",
         "speed": 13.0
       },
       {
-        "surface_type": 1,
+        "surface_type": "Lake",
         "speed": 0.0
       },
       {
-        "surface_type": 2,
+        "surface_type": "River",
         "speed": 0.0
       },
       {
-        "surface_type": 3,
+        "surface_type": "Ocean",
         "speed": 0.0
       },
       {
-        "surface_type": 4,
+        "surface_type": "OceanBiome",
         "speed": 0.0
       },
       {
-        "surface_type": 5,
+        "surface_type": "Swamp",
         "speed": 0.0
       }
     ],
@@ -61,33 +61,33 @@
     "name": "Wagon",
     "deploy_from_collectible_id": 129,
     "deploy_time": 5.0,
-    "deployable_type": 0,
+    "deployable_type": "Cart",
     "pathfinding_id": 1030168975,
-    "movement_type": 1,
+    "movement_type": "Ground",
     "can_enter_portals": true,
     "speed": [
       {
-        "surface_type": 0,
+        "surface_type": "Ground",
         "speed": 10.0
       },
       {
-        "surface_type": 1,
+        "surface_type": "Lake",
         "speed": 0.0
       },
       {
-        "surface_type": 2,
+        "surface_type": "River",
         "speed": 0.0
       },
       {
-        "surface_type": 3,
+        "surface_type": "Ocean",
         "speed": 0.0
       },
       {
-        "surface_type": 4,
+        "surface_type": "OceanBiome",
         "speed": 0.0
       },
       {
-        "surface_type": 5,
+        "surface_type": "Swamp",
         "speed": 0.0
       }
     ],
@@ -118,33 +118,33 @@
     "name": "Raft",
     "deploy_from_collectible_id": 130,
     "deploy_time": 5.0,
-    "deployable_type": 4,
+    "deployable_type": "Boat",
     "pathfinding_id": 1109261591,
-    "movement_type": 2,
+    "movement_type": "Water",
     "can_enter_portals": false,
     "speed": [
       {
-        "surface_type": 0,
+        "surface_type": "Ground",
         "speed": 0.0
       },
       {
-        "surface_type": 1,
+        "surface_type": "Lake",
         "speed": 14.0
       },
       {
-        "surface_type": 2,
+        "surface_type": "River",
         "speed": 14.0
       },
       {
-        "surface_type": 3,
+        "surface_type": "Ocean",
         "speed": 10.0
       },
       {
-        "surface_type": 4,
+        "surface_type": "OceanBiome",
         "speed": 10.0
       },
       {
-        "surface_type": 5,
+        "surface_type": "Swamp",
         "speed": 14.0
       }
     ],
@@ -181,33 +181,33 @@
     "name": "Skiff",
     "deploy_from_collectible_id": 131,
     "deploy_time": 5.0,
-    "deployable_type": 4,
+    "deployable_type": "Boat",
     "pathfinding_id": 865980458,
-    "movement_type": 2,
+    "movement_type": "Water",
     "can_enter_portals": false,
     "speed": [
       {
-        "surface_type": 0,
+        "surface_type": "Ground",
         "speed": 0.0
       },
       {
-        "surface_type": 1,
+        "surface_type": "Lake",
         "speed": 21.0
       },
       {
-        "surface_type": 2,
+        "surface_type": "River",
         "speed": 21.0
       },
       {
-        "surface_type": 3,
+        "surface_type": "Ocean",
         "speed": 15.0
       },
       {
-        "surface_type": 4,
+        "surface_type": "OceanBiome",
         "speed": 15.0
       },
       {
-        "surface_type": 5,
+        "surface_type": "Swamp",
         "speed": 21.0
       }
     ],
@@ -244,33 +244,33 @@
     "name": "Rideable Deer",
     "deploy_from_collectible_id": 127,
     "deploy_time": 3.0,
-    "deployable_type": 1,
+    "deployable_type": "Mount",
     "pathfinding_id": 309954853,
-    "movement_type": 1,
+    "movement_type": "Ground",
     "can_enter_portals": true,
     "speed": [
       {
-        "surface_type": 0,
+        "surface_type": "Ground",
         "speed": 25.0
       },
       {
-        "surface_type": 1,
+        "surface_type": "Lake",
         "speed": 0.0
       },
       {
-        "surface_type": 2,
+        "surface_type": "River",
         "speed": 0.0
       },
       {
-        "surface_type": 3,
+        "surface_type": "Ocean",
         "speed": 0.0
       },
       {
-        "surface_type": 4,
+        "surface_type": "OceanBiome",
         "speed": 0.0
       },
       {
-        "surface_type": 5,
+        "surface_type": "Swamp",
         "speed": 0.0
       }
     ],
@@ -306,33 +306,33 @@
     "name": "Fisherman's Boat",
     "deploy_from_collectible_id": 132,
     "deploy_time": 5.0,
-    "deployable_type": 4,
+    "deployable_type": "Boat",
     "pathfinding_id": 1088877698,
-    "movement_type": 2,
+    "movement_type": "Water",
     "can_enter_portals": false,
     "speed": [
       {
-        "surface_type": 0,
+        "surface_type": "Ground",
         "speed": 0.0
       },
       {
-        "surface_type": 1,
+        "surface_type": "Lake",
         "speed": 30.0
       },
       {
-        "surface_type": 2,
+        "surface_type": "River",
         "speed": 30.0
       },
       {
-        "surface_type": 3,
+        "surface_type": "Ocean",
         "speed": 30.0
       },
       {
-        "surface_type": 4,
+        "surface_type": "OceanBiome",
         "speed": 30.0
       },
       {
-        "surface_type": 5,
+        "surface_type": "Swamp",
         "speed": 30.0
       }
     ],
@@ -348,7 +348,7 @@
     "model_address": "Vehicles/SmallVessel",
     "stats": [
       {
-        "id": 15,
+        "id": "CraftingSpeed",
         "value": 0.05,
         "is_pct": true
       }
@@ -370,33 +370,33 @@
     "name": "Cheater's Boat",
     "deploy_from_collectible_id": 133,
     "deploy_time": 5.0,
-    "deployable_type": 4,
+    "deployable_type": "Boat",
     "pathfinding_id": 691415579,
-    "movement_type": 2,
+    "movement_type": "Water",
     "can_enter_portals": false,
     "speed": [
       {
-        "surface_type": 0,
+        "surface_type": "Ground",
         "speed": 0.0
       },
       {
-        "surface_type": 1,
+        "surface_type": "Lake",
         "speed": 75.0
       },
       {
-        "surface_type": 2,
+        "surface_type": "River",
         "speed": 75.0
       },
       {
-        "surface_type": 3,
+        "surface_type": "Ocean",
         "speed": 75.0
       },
       {
-        "surface_type": 4,
+        "surface_type": "OceanBiome",
         "speed": 75.0
       },
       {
-        "surface_type": 5,
+        "surface_type": "Swamp",
         "speed": 75.0
       }
     ],
@@ -428,33 +428,33 @@
     "name": "Trader Cart",
     "deploy_from_collectible_id": 138,
     "deploy_time": 3.0,
-    "deployable_type": 0,
+    "deployable_type": "Cart",
     "pathfinding_id": 516255236,
-    "movement_type": 1,
+    "movement_type": "Ground",
     "can_enter_portals": true,
     "speed": [
       {
-        "surface_type": 0,
+        "surface_type": "Ground",
         "speed": 13.0
       },
       {
-        "surface_type": 1,
+        "surface_type": "Lake",
         "speed": 0.0
       },
       {
-        "surface_type": 2,
+        "surface_type": "River",
         "speed": 0.0
       },
       {
-        "surface_type": 3,
+        "surface_type": "Ocean",
         "speed": 0.0
       },
       {
-        "surface_type": 4,
+        "surface_type": "OceanBiome",
         "speed": 0.0
       },
       {
-        "surface_type": 5,
+        "surface_type": "Swamp",
         "speed": 0.0
       }
     ],
@@ -485,33 +485,33 @@
     "name": "Trader Stand",
     "deploy_from_collectible_id": 139,
     "deploy_time": 3.0,
-    "deployable_type": 2,
+    "deployable_type": "Stall",
     "pathfinding_id": 1525146351,
-    "movement_type": 0,
+    "movement_type": "None",
     "can_enter_portals": false,
     "speed": [
       {
-        "surface_type": 0,
+        "surface_type": "Ground",
         "speed": 0.0
       },
       {
-        "surface_type": 1,
+        "surface_type": "Lake",
         "speed": 0.0
       },
       {
-        "surface_type": 2,
+        "surface_type": "River",
         "speed": 0.0
       },
       {
-        "surface_type": 3,
+        "surface_type": "Ocean",
         "speed": 0.0
       },
       {
-        "surface_type": 4,
+        "surface_type": "OceanBiome",
         "speed": 0.0
       },
       {
-        "surface_type": 5,
+        "surface_type": "Swamp",
         "speed": 0.0
       }
     ],
@@ -540,33 +540,33 @@
     "name": "Siege Engine",
     "deploy_from_collectible_id": 0,
     "deploy_time": 0.0,
-    "deployable_type": 0,
+    "deployable_type": "Cart",
     "pathfinding_id": 1525146351,
-    "movement_type": 0,
+    "movement_type": "None",
     "can_enter_portals": false,
     "speed": [
       {
-        "surface_type": 0,
+        "surface_type": "Ground",
         "speed": 0.0
       },
       {
-        "surface_type": 1,
+        "surface_type": "Lake",
         "speed": 0.0
       },
       {
-        "surface_type": 2,
+        "surface_type": "River",
         "speed": 0.0
       },
       {
-        "surface_type": 3,
+        "surface_type": "Ocean",
         "speed": 0.0
       },
       {
-        "surface_type": 4,
+        "surface_type": "OceanBiome",
         "speed": 0.0
       },
       {
-        "surface_type": 5,
+        "surface_type": "Swamp",
         "speed": 0.0
       }
     ],
@@ -595,33 +595,33 @@
     "name": "Clipper",
     "deploy_from_collectible_id": 1142862651,
     "deploy_time": 5.0,
-    "deployable_type": 4,
+    "deployable_type": "Boat",
     "pathfinding_id": 1281875110,
-    "movement_type": 2,
+    "movement_type": "Water",
     "can_enter_portals": false,
     "speed": [
       {
-        "surface_type": 0,
+        "surface_type": "Ground",
         "speed": 0.0
       },
       {
-        "surface_type": 1,
+        "surface_type": "Lake",
         "speed": 18.0
       },
       {
-        "surface_type": 2,
+        "surface_type": "River",
         "speed": 18.0
       },
       {
-        "surface_type": 3,
+        "surface_type": "Ocean",
         "speed": 22.0
       },
       {
-        "surface_type": 4,
+        "surface_type": "OceanBiome",
         "speed": 25.0
       },
       {
-        "surface_type": 5,
+        "surface_type": "Swamp",
         "speed": 18.0
       }
     ],
@@ -658,33 +658,33 @@
     "name": "Advanced Cart",
     "deploy_from_collectible_id": 1083393330,
     "deploy_time": 5.0,
-    "deployable_type": 0,
+    "deployable_type": "Cart",
     "pathfinding_id": 1375685503,
-    "movement_type": 1,
+    "movement_type": "Ground",
     "can_enter_portals": true,
     "speed": [
       {
-        "surface_type": 0,
+        "surface_type": "Ground",
         "speed": 15.0
       },
       {
-        "surface_type": 1,
+        "surface_type": "Lake",
         "speed": 0.0
       },
       {
-        "surface_type": 2,
+        "surface_type": "River",
         "speed": 0.0
       },
       {
-        "surface_type": 3,
+        "surface_type": "Ocean",
         "speed": 0.0
       },
       {
-        "surface_type": 4,
+        "surface_type": "OceanBiome",
         "speed": 0.0
       },
       {
-        "surface_type": 5,
+        "surface_type": "Swamp",
         "speed": 0.0
       }
     ],
@@ -715,33 +715,33 @@
     "name": "Massive Personal Cache",
     "deploy_from_collectible_id": 693157662,
     "deploy_time": 3.0,
-    "deployable_type": 3,
+    "deployable_type": "Cache",
     "pathfinding_id": 1525146351,
-    "movement_type": 0,
+    "movement_type": "None",
     "can_enter_portals": false,
     "speed": [
       {
-        "surface_type": 0,
+        "surface_type": "Ground",
         "speed": 0.0
       },
       {
-        "surface_type": 1,
+        "surface_type": "Lake",
         "speed": 0.0
       },
       {
-        "surface_type": 2,
+        "surface_type": "River",
         "speed": 0.0
       },
       {
-        "surface_type": 3,
+        "surface_type": "Ocean",
         "speed": 0.0
       },
       {
-        "surface_type": 4,
+        "surface_type": "OceanBiome",
         "speed": 0.0
       },
       {
-        "surface_type": 5,
+        "surface_type": "Swamp",
         "speed": 0.0
       }
     ],
@@ -770,33 +770,33 @@
     "name": "Rideable Ox",
     "deploy_from_collectible_id": 1289105478,
     "deploy_time": 3.0,
-    "deployable_type": 1,
+    "deployable_type": "Mount",
     "pathfinding_id": 1301654297,
-    "movement_type": 1,
+    "movement_type": "Ground",
     "can_enter_portals": true,
     "speed": [
       {
-        "surface_type": 0,
+        "surface_type": "Ground",
         "speed": 18.0
       },
       {
-        "surface_type": 1,
+        "surface_type": "Lake",
         "speed": 0.0
       },
       {
-        "surface_type": 2,
+        "surface_type": "River",
         "speed": 0.0
       },
       {
-        "surface_type": 3,
+        "surface_type": "Ocean",
         "speed": 0.0
       },
       {
-        "surface_type": 4,
+        "surface_type": "OceanBiome",
         "speed": 0.0
       },
       {
-        "surface_type": 5,
+        "surface_type": "Swamp",
         "speed": 0.0
       }
     ],
@@ -833,33 +833,33 @@
     "name": "Personal Cache",
     "deploy_from_collectible_id": 790337329,
     "deploy_time": 3.0,
-    "deployable_type": 3,
+    "deployable_type": "Cache",
     "pathfinding_id": 1525146351,
-    "movement_type": 0,
+    "movement_type": "None",
     "can_enter_portals": false,
     "speed": [
       {
-        "surface_type": 0,
+        "surface_type": "Ground",
         "speed": 0.0
       },
       {
-        "surface_type": 1,
+        "surface_type": "Lake",
         "speed": 0.0
       },
       {
-        "surface_type": 2,
+        "surface_type": "River",
         "speed": 0.0
       },
       {
-        "surface_type": 3,
+        "surface_type": "Ocean",
         "speed": 0.0
       },
       {
-        "surface_type": 4,
+        "surface_type": "OceanBiome",
         "speed": 0.0
       },
       {
-        "surface_type": 5,
+        "surface_type": "Swamp",
         "speed": 0.0
       }
     ],
@@ -888,33 +888,33 @@
     "name": "Rideable Goat",
     "deploy_from_collectible_id": 537052696,
     "deploy_time": 3.0,
-    "deployable_type": 1,
+    "deployable_type": "Mount",
     "pathfinding_id": 668511654,
-    "movement_type": 1,
+    "movement_type": "Ground",
     "can_enter_portals": true,
     "speed": [
       {
-        "surface_type": 0,
+        "surface_type": "Ground",
         "speed": 22.0
       },
       {
-        "surface_type": 1,
+        "surface_type": "Lake",
         "speed": 0.0
       },
       {
-        "surface_type": 2,
+        "surface_type": "River",
         "speed": 0.0
       },
       {
-        "surface_type": 3,
+        "surface_type": "Ocean",
         "speed": 0.0
       },
       {
-        "surface_type": 4,
+        "surface_type": "OceanBiome",
         "speed": 0.0
       },
       {
-        "surface_type": 5,
+        "surface_type": "Swamp",
         "speed": 0.0
       }
     ],
@@ -950,33 +950,33 @@
     "name": "Rideable Bird",
     "deploy_from_collectible_id": 1163358546,
     "deploy_time": 3.0,
-    "deployable_type": 1,
+    "deployable_type": "Mount",
     "pathfinding_id": 1301654297,
-    "movement_type": 1,
+    "movement_type": "Ground",
     "can_enter_portals": true,
     "speed": [
       {
-        "surface_type": 0,
+        "surface_type": "Ground",
         "speed": 31.0
       },
       {
-        "surface_type": 1,
+        "surface_type": "Lake",
         "speed": 0.0
       },
       {
-        "surface_type": 2,
+        "surface_type": "River",
         "speed": 0.0
       },
       {
-        "surface_type": 3,
+        "surface_type": "Ocean",
         "speed": 0.0
       },
       {
-        "surface_type": 4,
+        "surface_type": "OceanBiome",
         "speed": 0.0
       },
       {
-        "surface_type": 5,
+        "surface_type": "Swamp",
         "speed": 0.0
       }
     ],
@@ -1012,33 +1012,33 @@
     "name": "Cargo Ship",
     "deploy_from_collectible_id": 700235689,
     "deploy_time": 5.0,
-    "deployable_type": 4,
+    "deployable_type": "Boat",
     "pathfinding_id": 1876455160,
-    "movement_type": 2,
+    "movement_type": "Water",
     "can_enter_portals": false,
     "speed": [
       {
-        "surface_type": 0,
+        "surface_type": "Ground",
         "speed": 0.0
       },
       {
-        "surface_type": 1,
+        "surface_type": "Lake",
         "speed": 15.0
       },
       {
-        "surface_type": 2,
+        "surface_type": "River",
         "speed": 15.0
       },
       {
-        "surface_type": 3,
+        "surface_type": "Ocean",
         "speed": 21.0
       },
       {
-        "surface_type": 4,
+        "surface_type": "OceanBiome",
         "speed": 21.0
       },
       {
-        "surface_type": 5,
+        "surface_type": "Swamp",
         "speed": 15.0
       }
     ],
@@ -1075,33 +1075,33 @@
     "name": "Improved Wagon",
     "deploy_from_collectible_id": 1520209370,
     "deploy_time": 5.0,
-    "deployable_type": 0,
+    "deployable_type": "Cart",
     "pathfinding_id": 1030168975,
-    "movement_type": 1,
+    "movement_type": "Ground",
     "can_enter_portals": true,
     "speed": [
       {
-        "surface_type": 0,
+        "surface_type": "Ground",
         "speed": 11.0
       },
       {
-        "surface_type": 1,
+        "surface_type": "Lake",
         "speed": 0.0
       },
       {
-        "surface_type": 2,
+        "surface_type": "River",
         "speed": 0.0
       },
       {
-        "surface_type": 3,
+        "surface_type": "Ocean",
         "speed": 0.0
       },
       {
-        "surface_type": 4,
+        "surface_type": "OceanBiome",
         "speed": 0.0
       },
       {
-        "surface_type": 5,
+        "surface_type": "Swamp",
         "speed": 0.0
       }
     ],
@@ -1132,33 +1132,33 @@
     "name": "Improved Cart",
     "deploy_from_collectible_id": 684496199,
     "deploy_time": 5.0,
-    "deployable_type": 0,
+    "deployable_type": "Cart",
     "pathfinding_id": 1375685503,
-    "movement_type": 1,
+    "movement_type": "Ground",
     "can_enter_portals": true,
     "speed": [
       {
-        "surface_type": 0,
+        "surface_type": "Ground",
         "speed": 14.0
       },
       {
-        "surface_type": 1,
+        "surface_type": "Lake",
         "speed": 0.0
       },
       {
-        "surface_type": 2,
+        "surface_type": "River",
         "speed": 0.0
       },
       {
-        "surface_type": 3,
+        "surface_type": "Ocean",
         "speed": 0.0
       },
       {
-        "surface_type": 4,
+        "surface_type": "OceanBiome",
         "speed": 0.0
       },
       {
-        "surface_type": 5,
+        "surface_type": "Swamp",
         "speed": 0.0
       }
     ],
@@ -1189,33 +1189,33 @@
     "name": "Expanded Personal Cache",
     "deploy_from_collectible_id": 1226450761,
     "deploy_time": 3.0,
-    "deployable_type": 3,
+    "deployable_type": "Cache",
     "pathfinding_id": 1525146351,
-    "movement_type": 0,
+    "movement_type": "None",
     "can_enter_portals": false,
     "speed": [
       {
-        "surface_type": 0,
+        "surface_type": "Ground",
         "speed": 0.0
       },
       {
-        "surface_type": 1,
+        "surface_type": "Lake",
         "speed": 0.0
       },
       {
-        "surface_type": 2,
+        "surface_type": "River",
         "speed": 0.0
       },
       {
-        "surface_type": 3,
+        "surface_type": "Ocean",
         "speed": 0.0
       },
       {
-        "surface_type": 4,
+        "surface_type": "OceanBiome",
         "speed": 0.0
       },
       {
-        "surface_type": 5,
+        "surface_type": "Swamp",
         "speed": 0.0
       }
     ],
@@ -1244,33 +1244,33 @@
     "name": "Advanced Wagon",
     "deploy_from_collectible_id": 381044074,
     "deploy_time": 5.0,
-    "deployable_type": 0,
+    "deployable_type": "Cart",
     "pathfinding_id": 1030168975,
-    "movement_type": 1,
+    "movement_type": "Ground",
     "can_enter_portals": true,
     "speed": [
       {
-        "surface_type": 0,
+        "surface_type": "Ground",
         "speed": 12.0
       },
       {
-        "surface_type": 1,
+        "surface_type": "Lake",
         "speed": 0.0
       },
       {
-        "surface_type": 2,
+        "surface_type": "River",
         "speed": 0.0
       },
       {
-        "surface_type": 3,
+        "surface_type": "Ocean",
         "speed": 0.0
       },
       {
-        "surface_type": 4,
+        "surface_type": "OceanBiome",
         "speed": 0.0
       },
       {
-        "surface_type": 5,
+        "surface_type": "Swamp",
         "speed": 0.0
       }
     ],
@@ -1301,33 +1301,33 @@
     "name": "Rickshaw Cart",
     "deploy_from_collectible_id": 1586159687,
     "deploy_time": 5.0,
-    "deployable_type": 0,
+    "deployable_type": "Cart",
     "pathfinding_id": 1375685503,
-    "movement_type": 1,
+    "movement_type": "Ground",
     "can_enter_portals": true,
     "speed": [
       {
-        "surface_type": 0,
+        "surface_type": "Ground",
         "speed": 18.0
       },
       {
-        "surface_type": 1,
+        "surface_type": "Lake",
         "speed": 0.0
       },
       {
-        "surface_type": 2,
+        "surface_type": "River",
         "speed": 0.0
       },
       {
-        "surface_type": 3,
+        "surface_type": "Ocean",
         "speed": 0.0
       },
       {
-        "surface_type": 4,
+        "surface_type": "OceanBiome",
         "speed": 0.0
       },
       {
-        "surface_type": 5,
+        "surface_type": "Swamp",
         "speed": 0.0
       }
     ],

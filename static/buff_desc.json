@@ -11,7 +11,7 @@
     "icon_asset_name": "\\u0018",
     "stats": [],
     "vfx": "",
-    "vfx_attachment_point": 0
+    "vfx_attachment_point": "Origin"
   },
   {
     "id": 3,
@@ -25,7 +25,7 @@
     "icon_asset_name": "\\u0011",
     "stats": [],
     "vfx": "",
-    "vfx_attachment_point": 0
+    "vfx_attachment_point": "Origin"
   },
   {
     "id": 5,
@@ -39,23 +39,23 @@
     "icon_asset_name": "\\u0014",
     "stats": [
       {
-        "id": 8,
+        "id": "CooldownMultiplier",
         "value": -0.4,
         "is_pct": true
       },
       {
-        "id": 16,
+        "id": "GatheringSpeed",
         "value": -0.4,
         "is_pct": true
       },
       {
-        "id": 15,
+        "id": "CraftingSpeed",
         "value": -0.4,
         "is_pct": true
       }
     ],
     "vfx": "",
-    "vfx_attachment_point": 0
+    "vfx_attachment_point": "Origin"
   },
   {
     "id": 9,
@@ -69,7 +69,7 @@
     "icon_asset_name": "\\u0016",
     "stats": [],
     "vfx": "",
-    "vfx_attachment_point": 0
+    "vfx_attachment_point": "Origin"
   },
   {
     "id": 10,
@@ -83,7 +83,7 @@
     "icon_asset_name": "\\u0001",
     "stats": [],
     "vfx": "",
-    "vfx_attachment_point": 0
+    "vfx_attachment_point": "Origin"
   },
   {
     "id": 11,
@@ -97,13 +97,13 @@
     "icon_asset_name": "\\u0013",
     "stats": [
       {
-        "id": 4,
+        "id": "MovementMultiplier",
         "value": 0.0,
         "is_pct": true
       }
     ],
     "vfx": "",
-    "vfx_attachment_point": 0
+    "vfx_attachment_point": "Origin"
   },
   {
     "id": 12,
@@ -117,7 +117,7 @@
     "icon_asset_name": "\\u0016",
     "stats": [],
     "vfx": "",
-    "vfx_attachment_point": 0
+    "vfx_attachment_point": "Origin"
   },
   {
     "id": 14,
@@ -131,13 +131,13 @@
     "icon_asset_name": "\\u0014",
     "stats": [
       {
-        "id": 4,
+        "id": "MovementMultiplier",
         "value": -0.5,
         "is_pct": true
       }
     ],
     "vfx": "",
-    "vfx_attachment_point": 0
+    "vfx_attachment_point": "Origin"
   },
   {
     "id": 30,
@@ -151,7 +151,7 @@
     "icon_asset_name": "\\u0001",
     "stats": [],
     "vfx": "",
-    "vfx_attachment_point": 0
+    "vfx_attachment_point": "Origin"
   },
   {
     "id": 31,
@@ -165,13 +165,13 @@
     "icon_asset_name": "\\u0017",
     "stats": [
       {
-        "id": 11,
+        "id": "ColdProtection",
         "value": 10.0,
         "is_pct": false
       }
     ],
     "vfx": "",
-    "vfx_attachment_point": 0
+    "vfx_attachment_point": "Origin"
   },
   {
     "id": 37,
@@ -185,13 +185,13 @@
     "icon_asset_name": "\\u0015",
     "stats": [
       {
-        "id": 12,
+        "id": "HeatProtection",
         "value": 10.0,
         "is_pct": false
       }
     ],
     "vfx": "",
-    "vfx_attachment_point": 0
+    "vfx_attachment_point": "Origin"
   },
   {
     "id": 5887916,
@@ -205,18 +205,18 @@
     "icon_asset_name": "\\u0035",
     "stats": [
       {
-        "id": 15,
+        "id": "CraftingSpeed",
         "value": 0.092,
         "is_pct": true
       },
       {
-        "id": 16,
+        "id": "GatheringSpeed",
         "value": 0.092,
         "is_pct": true
       }
     ],
     "vfx": "",
-    "vfx_attachment_point": 0
+    "vfx_attachment_point": "Origin"
   },
   {
     "id": 10271152,
@@ -230,7 +230,7 @@
     "icon_asset_name": "\\u0016",
     "stats": [],
     "vfx": "",
-    "vfx_attachment_point": 0
+    "vfx_attachment_point": "Origin"
   },
   {
     "id": 10907170,
@@ -244,13 +244,13 @@
     "icon_asset_name": "\\u00C8",
     "stats": [
       {
-        "id": 15,
+        "id": "CraftingSpeed",
         "value": 0.102,
         "is_pct": true
       }
     ],
     "vfx": "",
-    "vfx_attachment_point": 0
+    "vfx_attachment_point": "Origin"
   },
   {
     "id": 31185922,
@@ -264,13 +264,13 @@
     "icon_asset_name": "\\uFFEB",
     "stats": [
       {
-        "id": 8,
+        "id": "CooldownMultiplier",
         "value": 0.09,
         "is_pct": true
       }
     ],
     "vfx": "",
-    "vfx_attachment_point": 0
+    "vfx_attachment_point": "Origin"
   },
   {
     "id": 35180939,
@@ -284,13 +284,13 @@
     "icon_asset_name": "\\u0065",
     "stats": [
       {
-        "id": 8,
+        "id": "CooldownMultiplier",
         "value": 0.2,
         "is_pct": false
       }
     ],
     "vfx": "",
-    "vfx_attachment_point": 0
+    "vfx_attachment_point": "Origin"
   },
   {
     "id": 124291392,
@@ -304,13 +304,13 @@
     "icon_asset_name": "\\u00C8",
     "stats": [
       {
-        "id": 47,
+        "id": "ActiveHealthRegenRate",
         "value": 7.0,
         "is_pct": false
       }
     ],
     "vfx": "",
-    "vfx_attachment_point": 0
+    "vfx_attachment_point": "Origin"
   },
   {
     "id": 135323446,
@@ -324,13 +324,13 @@
     "icon_asset_name": "\\u00C8",
     "stats": [
       {
-        "id": 15,
+        "id": "CraftingSpeed",
         "value": 0.093,
         "is_pct": true
       }
     ],
     "vfx": "",
-    "vfx_attachment_point": 0
+    "vfx_attachment_point": "Origin"
   },
   {
     "id": 137051511,
@@ -344,13 +344,13 @@
     "icon_asset_name": "\\u00C8",
     "stats": [
       {
-        "id": 17,
+        "id": "BuildingSpeed",
         "value": 0.057,
         "is_pct": true
       }
     ],
     "vfx": "",
-    "vfx_attachment_point": 0
+    "vfx_attachment_point": "Origin"
   },
   {
     "id": 159178631,
@@ -364,18 +364,18 @@
     "icon_asset_name": "\\u0035",
     "stats": [
       {
-        "id": 15,
+        "id": "CraftingSpeed",
         "value": 0.088,
         "is_pct": true
       },
       {
-        "id": 16,
+        "id": "GatheringSpeed",
         "value": 0.088,
         "is_pct": true
       }
     ],
     "vfx": "",
-    "vfx_attachment_point": 0
+    "vfx_attachment_point": "Origin"
   },
   {
     "id": 179767139,
@@ -389,13 +389,13 @@
     "icon_asset_name": "\\u003D",
     "stats": [
       {
-        "id": 4,
+        "id": "MovementMultiplier",
         "value": 0.088,
         "is_pct": true
       }
     ],
     "vfx": "",
-    "vfx_attachment_point": 0
+    "vfx_attachment_point": "Origin"
   },
   {
     "id": 195290716,
@@ -409,13 +409,13 @@
     "icon_asset_name": "\\u003D",
     "stats": [
       {
-        "id": 4,
+        "id": "MovementMultiplier",
         "value": 0.041,
         "is_pct": true
       }
     ],
     "vfx": "",
-    "vfx_attachment_point": 0
+    "vfx_attachment_point": "Origin"
   },
   {
     "id": 197061567,
@@ -429,18 +429,18 @@
     "icon_asset_name": "\\u0035",
     "stats": [
       {
-        "id": 15,
+        "id": "CraftingSpeed",
         "value": 0.084,
         "is_pct": true
       },
       {
-        "id": 16,
+        "id": "GatheringSpeed",
         "value": 0.084,
         "is_pct": true
       }
     ],
     "vfx": "",
-    "vfx_attachment_point": 0
+    "vfx_attachment_point": "Origin"
   },
   {
     "id": 204013868,
@@ -454,13 +454,13 @@
     "icon_asset_name": "\\uFFEB",
     "stats": [
       {
-        "id": 8,
+        "id": "CooldownMultiplier",
         "value": 0.082,
         "is_pct": true
       }
     ],
     "vfx": "",
-    "vfx_attachment_point": 0
+    "vfx_attachment_point": "Origin"
   },
   {
     "id": 257875307,
@@ -474,18 +474,18 @@
     "icon_asset_name": "\\u0035",
     "stats": [
       {
-        "id": 15,
+        "id": "CraftingSpeed",
         "value": 0.045,
         "is_pct": true
       },
       {
-        "id": 16,
+        "id": "GatheringSpeed",
         "value": 0.045,
         "is_pct": true
       }
     ],
     "vfx": "",
-    "vfx_attachment_point": 0
+    "vfx_attachment_point": "Origin"
   },
   {
     "id": 283150588,
@@ -499,13 +499,13 @@
     "icon_asset_name": "\\uFFEB",
     "stats": [
       {
-        "id": 8,
+        "id": "CooldownMultiplier",
         "value": 0.044,
         "is_pct": true
       }
     ],
     "vfx": "",
-    "vfx_attachment_point": 0
+    "vfx_attachment_point": "Origin"
   },
   {
     "id": 285775040,
@@ -519,13 +519,13 @@
     "icon_asset_name": "",
     "stats": [
       {
-        "id": 4,
+        "id": "MovementMultiplier",
         "value": -0.5,
         "is_pct": true
       }
     ],
     "vfx": "",
-    "vfx_attachment_point": 0
+    "vfx_attachment_point": "Origin"
   },
   {
     "id": 289805356,
@@ -539,13 +539,13 @@
     "icon_asset_name": "\\u003D",
     "stats": [
       {
-        "id": 4,
+        "id": "MovementMultiplier",
         "value": 0.042,
         "is_pct": true
       }
     ],
     "vfx": "",
-    "vfx_attachment_point": 0
+    "vfx_attachment_point": "Origin"
   },
   {
     "id": 316166449,
@@ -559,18 +559,18 @@
     "icon_asset_name": "\\u0035",
     "stats": [
       {
-        "id": 15,
+        "id": "CraftingSpeed",
         "value": 0.086,
         "is_pct": true
       },
       {
-        "id": 16,
+        "id": "GatheringSpeed",
         "value": 0.086,
         "is_pct": true
       }
     ],
     "vfx": "",
-    "vfx_attachment_point": 0
+    "vfx_attachment_point": "Origin"
   },
   {
     "id": 328649129,
@@ -584,13 +584,13 @@
     "icon_asset_name": "\\u00C8",
     "stats": [
       {
-        "id": 17,
+        "id": "BuildingSpeed",
         "value": 0.048,
         "is_pct": true
       }
     ],
     "vfx": "",
-    "vfx_attachment_point": 0
+    "vfx_attachment_point": "Origin"
   },
   {
     "id": 347582187,
@@ -604,13 +604,13 @@
     "icon_asset_name": "\\u003D",
     "stats": [
       {
-        "id": 4,
+        "id": "MovementMultiplier",
         "value": 0.092,
         "is_pct": true
       }
     ],
     "vfx": "",
-    "vfx_attachment_point": 0
+    "vfx_attachment_point": "Origin"
   },
   {
     "id": 371306749,
@@ -624,13 +624,13 @@
     "icon_asset_name": "\\u00C8",
     "stats": [
       {
-        "id": 16,
+        "id": "GatheringSpeed",
         "value": 0.111,
         "is_pct": true
       }
     ],
     "vfx": "",
-    "vfx_attachment_point": 0
+    "vfx_attachment_point": "Origin"
   },
   {
     "id": 385172406,
@@ -644,13 +644,13 @@
     "icon_asset_name": "\\u00C8",
     "stats": [
       {
-        "id": 17,
+        "id": "BuildingSpeed",
         "value": 0.111,
         "is_pct": true
       }
     ],
     "vfx": "",
-    "vfx_attachment_point": 0
+    "vfx_attachment_point": "Origin"
   },
   {
     "id": 415681120,
@@ -664,13 +664,13 @@
     "icon_asset_name": "\\u00C8",
     "stats": [
       {
-        "id": 47,
+        "id": "ActiveHealthRegenRate",
         "value": 10.0,
         "is_pct": false
       }
     ],
     "vfx": "",
-    "vfx_attachment_point": 0
+    "vfx_attachment_point": "Origin"
   },
   {
     "id": 425341826,
@@ -684,13 +684,13 @@
     "icon_asset_name": "\\u0062",
     "stats": [
       {
-        "id": 7,
+        "id": "Armor",
         "value": -10.0,
         "is_pct": false
       }
     ],
     "vfx": "",
-    "vfx_attachment_point": 0
+    "vfx_attachment_point": "Origin"
   },
   {
     "id": 436750411,
@@ -704,7 +704,7 @@
     "icon_asset_name": "\\u0011",
     "stats": [],
     "vfx": "",
-    "vfx_attachment_point": 0
+    "vfx_attachment_point": "Origin"
   },
   {
     "id": 439160685,
@@ -718,13 +718,13 @@
     "icon_asset_name": "\\u00C8",
     "stats": [
       {
-        "id": 47,
+        "id": "ActiveHealthRegenRate",
         "value": 6.0,
         "is_pct": false
       }
     ],
     "vfx": "",
-    "vfx_attachment_point": 0
+    "vfx_attachment_point": "Origin"
   },
   {
     "id": 463234268,
@@ -738,23 +738,23 @@
     "icon_asset_name": "\\u0014",
     "stats": [
       {
-        "id": 0,
+        "id": "MaxHealth",
         "value": -0.3,
         "is_pct": true
       },
       {
-        "id": 1,
+        "id": "MaxStamina",
         "value": -0.3,
         "is_pct": true
       },
       {
-        "id": 4,
+        "id": "MovementMultiplier",
         "value": -0.3,
         "is_pct": true
       }
     ],
     "vfx": "",
-    "vfx_attachment_point": 0
+    "vfx_attachment_point": "Origin"
   },
   {
     "id": 464108153,
@@ -768,23 +768,23 @@
     "icon_asset_name": "\\u0014",
     "stats": [
       {
-        "id": 0,
+        "id": "MaxHealth",
         "value": -0.18,
         "is_pct": true
       },
       {
-        "id": 1,
+        "id": "MaxStamina",
         "value": -0.18,
         "is_pct": true
       },
       {
-        "id": 4,
+        "id": "MovementMultiplier",
         "value": -0.18,
         "is_pct": true
       }
     ],
     "vfx": "",
-    "vfx_attachment_point": 0
+    "vfx_attachment_point": "Origin"
   },
   {
     "id": 474711859,
@@ -798,13 +798,13 @@
     "icon_asset_name": "\\u00C8",
     "stats": [
       {
-        "id": 48,
+        "id": "ActiveStaminaRegenRate",
         "value": 13.0,
         "is_pct": false
       }
     ],
     "vfx": "",
-    "vfx_attachment_point": 0
+    "vfx_attachment_point": "Origin"
   },
   {
     "id": 478954807,
@@ -818,18 +818,18 @@
     "icon_asset_name": "\\u0035",
     "stats": [
       {
-        "id": 15,
+        "id": "CraftingSpeed",
         "value": 0.094,
         "is_pct": true
       },
       {
-        "id": 16,
+        "id": "GatheringSpeed",
         "value": 0.094,
         "is_pct": true
       }
     ],
     "vfx": "",
-    "vfx_attachment_point": 0
+    "vfx_attachment_point": "Origin"
   },
   {
     "id": 541849230,
@@ -843,13 +843,13 @@
     "icon_asset_name": "\\u00C8",
     "stats": [
       {
-        "id": 47,
+        "id": "ActiveHealthRegenRate",
         "value": 11.0,
         "is_pct": false
       }
     ],
     "vfx": "",
-    "vfx_attachment_point": 0
+    "vfx_attachment_point": "Origin"
   },
   {
     "id": 545380252,
@@ -863,13 +863,13 @@
     "icon_asset_name": "\\u003D",
     "stats": [
       {
-        "id": 4,
+        "id": "MovementMultiplier",
         "value": 0.046,
         "is_pct": true
       }
     ],
     "vfx": "",
-    "vfx_attachment_point": 0
+    "vfx_attachment_point": "Origin"
   },
   {
     "id": 567143384,
@@ -883,18 +883,18 @@
     "icon_asset_name": "\\u0035",
     "stats": [
       {
-        "id": 15,
+        "id": "CraftingSpeed",
         "value": 0.044,
         "is_pct": true
       },
       {
-        "id": 16,
+        "id": "GatheringSpeed",
         "value": 0.044,
         "is_pct": true
       }
     ],
     "vfx": "",
-    "vfx_attachment_point": 0
+    "vfx_attachment_point": "Origin"
   },
   {
     "id": 571903439,
@@ -908,13 +908,13 @@
     "icon_asset_name": "\\uFFEB",
     "stats": [
       {
-        "id": 8,
+        "id": "CooldownMultiplier",
         "value": 0.041,
         "is_pct": true
       }
     ],
     "vfx": "",
-    "vfx_attachment_point": 0
+    "vfx_attachment_point": "Origin"
   },
   {
     "id": 576620841,
@@ -928,13 +928,13 @@
     "icon_asset_name": "\\u00C8",
     "stats": [
       {
-        "id": 47,
+        "id": "ActiveHealthRegenRate",
         "value": 8.0,
         "is_pct": false
       }
     ],
     "vfx": "",
-    "vfx_attachment_point": 0
+    "vfx_attachment_point": "Origin"
   },
   {
     "id": 588466208,
@@ -948,23 +948,23 @@
     "icon_asset_name": "\\u0014",
     "stats": [
       {
-        "id": 0,
+        "id": "MaxHealth",
         "value": -0.05,
         "is_pct": true
       },
       {
-        "id": 1,
+        "id": "MaxStamina",
         "value": -0.05,
         "is_pct": true
       },
       {
-        "id": 4,
+        "id": "MovementMultiplier",
         "value": -0.05,
         "is_pct": true
       }
     ],
     "vfx": "",
-    "vfx_attachment_point": 0
+    "vfx_attachment_point": "Origin"
   },
   {
     "id": 594147339,
@@ -978,13 +978,13 @@
     "icon_asset_name": "\\u00C8",
     "stats": [
       {
-        "id": 17,
+        "id": "BuildingSpeed",
         "value": 0.093,
         "is_pct": true
       }
     ],
     "vfx": "",
-    "vfx_attachment_point": 0
+    "vfx_attachment_point": "Origin"
   },
   {
     "id": 596814665,
@@ -998,13 +998,13 @@
     "icon_asset_name": "\\u0065",
     "stats": [
       {
-        "id": 10,
+        "id": "Strength",
         "value": 0.2,
         "is_pct": true
       }
     ],
     "vfx": "",
-    "vfx_attachment_point": 0
+    "vfx_attachment_point": "Origin"
   },
   {
     "id": 619646856,
@@ -1018,13 +1018,13 @@
     "icon_asset_name": "\\u00C8",
     "stats": [
       {
-        "id": 16,
+        "id": "GatheringSpeed",
         "value": 0.075,
         "is_pct": true
       }
     ],
     "vfx": "",
-    "vfx_attachment_point": 0
+    "vfx_attachment_point": "Origin"
   },
   {
     "id": 670136642,
@@ -1038,18 +1038,18 @@
     "icon_asset_name": "\\u0035",
     "stats": [
       {
-        "id": 15,
+        "id": "CraftingSpeed",
         "value": 0.047,
         "is_pct": true
       },
       {
-        "id": 16,
+        "id": "GatheringSpeed",
         "value": 0.047,
         "is_pct": true
       }
     ],
     "vfx": "",
-    "vfx_attachment_point": 0
+    "vfx_attachment_point": "Origin"
   },
   {
     "id": 677696308,
@@ -1063,13 +1063,13 @@
     "icon_asset_name": "\\u00C8",
     "stats": [
       {
-        "id": 48,
+        "id": "ActiveStaminaRegenRate",
         "value": 10.0,
         "is_pct": false
       }
     ],
     "vfx": "",
-    "vfx_attachment_point": 0
+    "vfx_attachment_point": "Origin"
   },
   {
     "id": 699031322,
@@ -1083,13 +1083,13 @@
     "icon_asset_name": "\\u00C8",
     "stats": [
       {
-        "id": 17,
+        "id": "BuildingSpeed",
         "value": 0.039,
         "is_pct": true
       }
     ],
     "vfx": "",
-    "vfx_attachment_point": 0
+    "vfx_attachment_point": "Origin"
   },
   {
     "id": 704566699,
@@ -1103,13 +1103,13 @@
     "icon_asset_name": "\\u003D",
     "stats": [
       {
-        "id": 4,
+        "id": "MovementMultiplier",
         "value": 0.043,
         "is_pct": true
       }
     ],
     "vfx": "",
-    "vfx_attachment_point": 0
+    "vfx_attachment_point": "Origin"
   },
   {
     "id": 718633663,
@@ -1123,13 +1123,13 @@
     "icon_asset_name": "\\uFFEB",
     "stats": [
       {
-        "id": 8,
+        "id": "CooldownMultiplier",
         "value": 0.096,
         "is_pct": true
       }
     ],
     "vfx": "",
-    "vfx_attachment_point": 0
+    "vfx_attachment_point": "Origin"
   },
   {
     "id": 749675367,
@@ -1143,13 +1143,13 @@
     "icon_asset_name": "\\u00C8",
     "stats": [
       {
-        "id": 17,
+        "id": "BuildingSpeed",
         "value": 0.066,
         "is_pct": true
       }
     ],
     "vfx": "",
-    "vfx_attachment_point": 0
+    "vfx_attachment_point": "Origin"
   },
   {
     "id": 799462427,
@@ -1163,13 +1163,13 @@
     "icon_asset_name": "",
     "stats": [
       {
-        "id": 7,
+        "id": "Armor",
         "value": -0.15,
         "is_pct": true
       }
     ],
     "vfx": "",
-    "vfx_attachment_point": 0
+    "vfx_attachment_point": "Origin"
   },
   {
     "id": 800188036,
@@ -1183,13 +1183,13 @@
     "icon_asset_name": "\\uFFEB",
     "stats": [
       {
-        "id": 8,
+        "id": "CooldownMultiplier",
         "value": 0.042,
         "is_pct": true
       }
     ],
     "vfx": "",
-    "vfx_attachment_point": 0
+    "vfx_attachment_point": "Origin"
   },
   {
     "id": 804688612,
@@ -1203,13 +1203,13 @@
     "icon_asset_name": "\\u00C8",
     "stats": [
       {
-        "id": 16,
+        "id": "GatheringSpeed",
         "value": 0.039,
         "is_pct": true
       }
     ],
     "vfx": "",
-    "vfx_attachment_point": 0
+    "vfx_attachment_point": "Origin"
   },
   {
     "id": 821574386,
@@ -1223,13 +1223,13 @@
     "icon_asset_name": "\\u00C8",
     "stats": [
       {
-        "id": 48,
+        "id": "ActiveStaminaRegenRate",
         "value": 28.0,
         "is_pct": false
       }
     ],
     "vfx": "",
-    "vfx_attachment_point": 0
+    "vfx_attachment_point": "Origin"
   },
   {
     "id": 827876701,
@@ -1243,13 +1243,13 @@
     "icon_asset_name": "\\u00C8",
     "stats": [
       {
-        "id": 48,
+        "id": "ActiveStaminaRegenRate",
         "value": 34.0,
         "is_pct": false
       }
     ],
     "vfx": "",
-    "vfx_attachment_point": 0
+    "vfx_attachment_point": "Origin"
   },
   {
     "id": 837625739,
@@ -1263,13 +1263,13 @@
     "icon_asset_name": "\\u0065",
     "stats": [
       {
-        "id": 7,
+        "id": "Armor",
         "value": 0.2,
         "is_pct": true
       }
     ],
     "vfx": "",
-    "vfx_attachment_point": 6
+    "vfx_attachment_point": "BothHands"
   },
   {
     "id": 854022801,
@@ -1283,13 +1283,13 @@
     "icon_asset_name": "\\u003D",
     "stats": [
       {
-        "id": 4,
+        "id": "MovementMultiplier",
         "value": 0.09,
         "is_pct": true
       }
     ],
     "vfx": "",
-    "vfx_attachment_point": 0
+    "vfx_attachment_point": "Origin"
   },
   {
     "id": 855034153,
@@ -1303,18 +1303,18 @@
     "icon_asset_name": "\\u008C",
     "stats": [
       {
-        "id": 2,
+        "id": "PassiveHealthRegenRate",
         "value": 9.0,
         "is_pct": false
       },
       {
-        "id": 3,
+        "id": "PassiveStaminaRegenRate",
         "value": 17.0,
         "is_pct": false
       }
     ],
     "vfx": "",
-    "vfx_attachment_point": 0
+    "vfx_attachment_point": "Origin"
   },
   {
     "id": 860016725,
@@ -1328,13 +1328,13 @@
     "icon_asset_name": "\\u003D",
     "stats": [
       {
-        "id": 4,
+        "id": "MovementMultiplier",
         "value": 0.082,
         "is_pct": true
       }
     ],
     "vfx": "",
-    "vfx_attachment_point": 0
+    "vfx_attachment_point": "Origin"
   },
   {
     "id": 902805361,
@@ -1348,13 +1348,13 @@
     "icon_asset_name": "\\u00C8",
     "stats": [
       {
-        "id": 47,
+        "id": "ActiveHealthRegenRate",
         "value": 5.0,
         "is_pct": false
       }
     ],
     "vfx": "",
-    "vfx_attachment_point": 0
+    "vfx_attachment_point": "Origin"
   },
   {
     "id": 914919140,
@@ -1368,13 +1368,13 @@
     "icon_asset_name": "",
     "stats": [
       {
-        "id": 10,
+        "id": "Strength",
         "value": -0.1,
         "is_pct": true
       }
     ],
     "vfx": "",
-    "vfx_attachment_point": 0
+    "vfx_attachment_point": "Origin"
   },
   {
     "id": 926803956,
@@ -1388,13 +1388,13 @@
     "icon_asset_name": "\\u003D",
     "stats": [
       {
-        "id": 4,
+        "id": "MovementMultiplier",
         "value": 0.084,
         "is_pct": true
       }
     ],
     "vfx": "",
-    "vfx_attachment_point": 0
+    "vfx_attachment_point": "Origin"
   },
   {
     "id": 939512353,
@@ -1408,13 +1408,13 @@
     "icon_asset_name": "\\u0065",
     "stats": [
       {
-        "id": 7,
+        "id": "Armor",
         "value": 0.2,
         "is_pct": true
       }
     ],
     "vfx": "",
-    "vfx_attachment_point": 0
+    "vfx_attachment_point": "Origin"
   },
   {
     "id": 1023844455,
@@ -1428,13 +1428,13 @@
     "icon_asset_name": "\\u00C8",
     "stats": [
       {
-        "id": 48,
+        "id": "ActiveStaminaRegenRate",
         "value": 37.0,
         "is_pct": false
       }
     ],
     "vfx": "",
-    "vfx_attachment_point": 0
+    "vfx_attachment_point": "Origin"
   },
   {
     "id": 1038897951,
@@ -1448,13 +1448,13 @@
     "icon_asset_name": "\\u00C8",
     "stats": [
       {
-        "id": 48,
+        "id": "ActiveStaminaRegenRate",
         "value": 22.0,
         "is_pct": false
       }
     ],
     "vfx": "",
-    "vfx_attachment_point": 0
+    "vfx_attachment_point": "Origin"
   },
   {
     "id": 1043581193,
@@ -1468,18 +1468,18 @@
     "icon_asset_name": "\\u0062",
     "stats": [
       {
-        "id": 7,
+        "id": "Armor",
         "value": -20.0,
         "is_pct": false
       },
       {
-        "id": 4,
+        "id": "MovementMultiplier",
         "value": -0.5,
         "is_pct": true
       }
     ],
     "vfx": "",
-    "vfx_attachment_point": 0
+    "vfx_attachment_point": "Origin"
   },
   {
     "id": 1050787622,
@@ -1493,18 +1493,18 @@
     "icon_asset_name": "\\u008C",
     "stats": [
       {
-        "id": 2,
+        "id": "PassiveHealthRegenRate",
         "value": 4.0,
         "is_pct": false
       },
       {
-        "id": 3,
+        "id": "PassiveStaminaRegenRate",
         "value": 7.0,
         "is_pct": false
       }
     ],
     "vfx": "",
-    "vfx_attachment_point": 0
+    "vfx_attachment_point": "Origin"
   },
   {
     "id": 1057407144,
@@ -1518,13 +1518,13 @@
     "icon_asset_name": "\\u00C8",
     "stats": [
       {
-        "id": 15,
+        "id": "CraftingSpeed",
         "value": 0.039,
         "is_pct": true
       }
     ],
     "vfx": "",
-    "vfx_attachment_point": 0
+    "vfx_attachment_point": "Origin"
   },
   {
     "id": 1066791695,
@@ -1538,13 +1538,13 @@
     "icon_asset_name": "\\u00C8",
     "stats": [
       {
-        "id": 16,
+        "id": "GatheringSpeed",
         "value": 0.066,
         "is_pct": true
       }
     ],
     "vfx": "",
-    "vfx_attachment_point": 0
+    "vfx_attachment_point": "Origin"
   },
   {
     "id": 1100328253,
@@ -1558,13 +1558,13 @@
     "icon_asset_name": "\\uFFEB",
     "stats": [
       {
-        "id": 8,
+        "id": "CooldownMultiplier",
         "value": 0.043,
         "is_pct": true
       }
     ],
     "vfx": "",
-    "vfx_attachment_point": 0
+    "vfx_attachment_point": "Origin"
   },
   {
     "id": 1213011730,
@@ -1578,23 +1578,23 @@
     "icon_asset_name": "\\u0014",
     "stats": [
       {
-        "id": 0,
+        "id": "MaxHealth",
         "value": -0.1,
         "is_pct": true
       },
       {
-        "id": 1,
+        "id": "MaxStamina",
         "value": -0.1,
         "is_pct": true
       },
       {
-        "id": 4,
+        "id": "MovementMultiplier",
         "value": -0.1,
         "is_pct": true
       }
     ],
     "vfx": "",
-    "vfx_attachment_point": 0
+    "vfx_attachment_point": "Origin"
   },
   {
     "id": 1241284693,
@@ -1608,13 +1608,13 @@
     "icon_asset_name": "\\u003D",
     "stats": [
       {
-        "id": 4,
+        "id": "MovementMultiplier",
         "value": 0.096,
         "is_pct": true
       }
     ],
     "vfx": "",
-    "vfx_attachment_point": 0
+    "vfx_attachment_point": "Origin"
   },
   {
     "id": 1243862356,
@@ -1628,13 +1628,13 @@
     "icon_asset_name": "\\u00C8",
     "stats": [
       {
-        "id": 15,
+        "id": "CraftingSpeed",
         "value": 0.084,
         "is_pct": true
       }
     ],
     "vfx": "",
-    "vfx_attachment_point": 0
+    "vfx_attachment_point": "Origin"
   },
   {
     "id": 1245173307,
@@ -1648,13 +1648,13 @@
     "icon_asset_name": "",
     "stats": [
       {
-        "id": 7,
+        "id": "Armor",
         "value": -0.3,
         "is_pct": true
       }
     ],
     "vfx": "",
-    "vfx_attachment_point": 0
+    "vfx_attachment_point": "Origin"
   },
   {
     "id": 1246635821,
@@ -1668,13 +1668,13 @@
     "icon_asset_name": "\\u00C8",
     "stats": [
       {
-        "id": 47,
+        "id": "ActiveHealthRegenRate",
         "value": 12.0,
         "is_pct": false
       }
     ],
     "vfx": "",
-    "vfx_attachment_point": 0
+    "vfx_attachment_point": "Origin"
   },
   {
     "id": 1249118438,
@@ -1688,13 +1688,13 @@
     "icon_asset_name": "\\uFFEB",
     "stats": [
       {
-        "id": 8,
+        "id": "CooldownMultiplier",
         "value": 0.048,
         "is_pct": true
       }
     ],
     "vfx": "",
-    "vfx_attachment_point": 0
+    "vfx_attachment_point": "Origin"
   },
   {
     "id": 1249248521,
@@ -1708,18 +1708,18 @@
     "icon_asset_name": "\\u008C",
     "stats": [
       {
-        "id": 2,
+        "id": "PassiveHealthRegenRate",
         "value": 10.0,
         "is_pct": false
       },
       {
-        "id": 3,
+        "id": "PassiveStaminaRegenRate",
         "value": 19.0,
         "is_pct": false
       }
     ],
     "vfx": "",
-    "vfx_attachment_point": 0
+    "vfx_attachment_point": "Origin"
   },
   {
     "id": 1257118994,
@@ -1733,13 +1733,13 @@
     "icon_asset_name": "\\u00C8",
     "stats": [
       {
-        "id": 16,
+        "id": "GatheringSpeed",
         "value": 0.102,
         "is_pct": true
       }
     ],
     "vfx": "",
-    "vfx_attachment_point": 0
+    "vfx_attachment_point": "Origin"
   },
   {
     "id": 1258657638,
@@ -1753,18 +1753,18 @@
     "icon_asset_name": "\\u0035",
     "stats": [
       {
-        "id": 15,
+        "id": "CraftingSpeed",
         "value": 0.042,
         "is_pct": true
       },
       {
-        "id": 16,
+        "id": "GatheringSpeed",
         "value": 0.042,
         "is_pct": true
       }
     ],
     "vfx": "",
-    "vfx_attachment_point": 0
+    "vfx_attachment_point": "Origin"
   },
   {
     "id": 1260299797,
@@ -1778,13 +1778,13 @@
     "icon_asset_name": "\\u00C8",
     "stats": [
       {
-        "id": 16,
+        "id": "GatheringSpeed",
         "value": 0.057,
         "is_pct": true
       }
     ],
     "vfx": "",
-    "vfx_attachment_point": 0
+    "vfx_attachment_point": "Origin"
   },
   {
     "id": 1273790540,
@@ -1798,13 +1798,13 @@
     "icon_asset_name": "\\uFFEB",
     "stats": [
       {
-        "id": 8,
+        "id": "CooldownMultiplier",
         "value": 0.092,
         "is_pct": true
       }
     ],
     "vfx": "",
-    "vfx_attachment_point": 0
+    "vfx_attachment_point": "Origin"
   },
   {
     "id": 1280410544,
@@ -1818,13 +1818,13 @@
     "icon_asset_name": "\\u00C8",
     "stats": [
       {
-        "id": 16,
+        "id": "GatheringSpeed",
         "value": 0.048,
         "is_pct": true
       }
     ],
     "vfx": "",
-    "vfx_attachment_point": 0
+    "vfx_attachment_point": "Origin"
   },
   {
     "id": 1318138218,
@@ -1838,13 +1838,13 @@
     "icon_asset_name": "\\u00C8",
     "stats": [
       {
-        "id": 47,
+        "id": "ActiveHealthRegenRate",
         "value": 14.0,
         "is_pct": false
       }
     ],
     "vfx": "",
-    "vfx_attachment_point": 0
+    "vfx_attachment_point": "Origin"
   },
   {
     "id": 1347325268,
@@ -1858,18 +1858,18 @@
     "icon_asset_name": "\\u008C",
     "stats": [
       {
-        "id": 2,
+        "id": "PassiveHealthRegenRate",
         "value": 7.0,
         "is_pct": false
       },
       {
-        "id": 3,
+        "id": "PassiveStaminaRegenRate",
         "value": 13.0,
         "is_pct": false
       }
     ],
     "vfx": "",
-    "vfx_attachment_point": 0
+    "vfx_attachment_point": "Origin"
   },
   {
     "id": 1369876541,
@@ -1883,13 +1883,13 @@
     "icon_asset_name": "\\u003D",
     "stats": [
       {
-        "id": 4,
+        "id": "MovementMultiplier",
         "value": 0.086,
         "is_pct": true
       }
     ],
     "vfx": "",
-    "vfx_attachment_point": 0
+    "vfx_attachment_point": "Origin"
   },
   {
     "id": 1385090574,
@@ -1903,13 +1903,13 @@
     "icon_asset_name": "\\uFFEB",
     "stats": [
       {
-        "id": 8,
+        "id": "CooldownMultiplier",
         "value": 0.046,
         "is_pct": true
       }
     ],
     "vfx": "",
-    "vfx_attachment_point": 0
+    "vfx_attachment_point": "Origin"
   },
   {
     "id": 1386622342,
@@ -1923,13 +1923,13 @@
     "icon_asset_name": "\\uFFEB",
     "stats": [
       {
-        "id": 8,
+        "id": "CooldownMultiplier",
         "value": 0.094,
         "is_pct": true
       }
     ],
     "vfx": "",
-    "vfx_attachment_point": 0
+    "vfx_attachment_point": "Origin"
   },
   {
     "id": 1396605584,
@@ -1943,18 +1943,18 @@
     "icon_asset_name": "\\u0035",
     "stats": [
       {
-        "id": 15,
+        "id": "CraftingSpeed",
         "value": 0.041,
         "is_pct": true
       },
       {
-        "id": 16,
+        "id": "GatheringSpeed",
         "value": 0.041,
         "is_pct": true
       }
     ],
     "vfx": "",
-    "vfx_attachment_point": 0
+    "vfx_attachment_point": "Origin"
   },
   {
     "id": 1399948075,
@@ -1968,18 +1968,18 @@
     "icon_asset_name": "\\u008C",
     "stats": [
       {
-        "id": 2,
+        "id": "PassiveHealthRegenRate",
         "value": 5.0,
         "is_pct": false
       },
       {
-        "id": 3,
+        "id": "PassiveStaminaRegenRate",
         "value": 9.0,
         "is_pct": false
       }
     ],
     "vfx": "",
-    "vfx_attachment_point": 0
+    "vfx_attachment_point": "Origin"
   },
   {
     "id": 1410212093,
@@ -1993,18 +1993,18 @@
     "icon_asset_name": "\\u0035",
     "stats": [
       {
-        "id": 15,
+        "id": "CraftingSpeed",
         "value": 0.096,
         "is_pct": true
       },
       {
-        "id": 16,
+        "id": "GatheringSpeed",
         "value": 0.096,
         "is_pct": true
       }
     ],
     "vfx": "",
-    "vfx_attachment_point": 0
+    "vfx_attachment_point": "Origin"
   },
   {
     "id": 1439414421,
@@ -2018,18 +2018,18 @@
     "icon_asset_name": "\\u0035",
     "stats": [
       {
-        "id": 15,
+        "id": "CraftingSpeed",
         "value": 0.043,
         "is_pct": true
       },
       {
-        "id": 16,
+        "id": "GatheringSpeed",
         "value": 0.043,
         "is_pct": true
       }
     ],
     "vfx": "",
-    "vfx_attachment_point": 0
+    "vfx_attachment_point": "Origin"
   },
   {
     "id": 1439415977,
@@ -2043,13 +2043,13 @@
     "icon_asset_name": "\\u00C8",
     "stats": [
       {
-        "id": 15,
+        "id": "CraftingSpeed",
         "value": 0.066,
         "is_pct": true
       }
     ],
     "vfx": "",
-    "vfx_attachment_point": 0
+    "vfx_attachment_point": "Origin"
   },
   {
     "id": 1447762453,
@@ -2063,13 +2063,13 @@
     "icon_asset_name": "\\u00C8",
     "stats": [
       {
-        "id": 15,
+        "id": "CraftingSpeed",
         "value": 0.111,
         "is_pct": true
       }
     ],
     "vfx": "",
-    "vfx_attachment_point": 0
+    "vfx_attachment_point": "Origin"
   },
   {
     "id": 1453337769,
@@ -2083,13 +2083,13 @@
     "icon_asset_name": "\\u003D",
     "stats": [
       {
-        "id": 4,
+        "id": "MovementMultiplier",
         "value": 0.048,
         "is_pct": true
       }
     ],
     "vfx": "",
-    "vfx_attachment_point": 0
+    "vfx_attachment_point": "Origin"
   },
   {
     "id": 1468461954,
@@ -2103,13 +2103,13 @@
     "icon_asset_name": "\\u00C8",
     "stats": [
       {
-        "id": 17,
+        "id": "BuildingSpeed",
         "value": 0.075,
         "is_pct": true
       }
     ],
     "vfx": "",
-    "vfx_attachment_point": 0
+    "vfx_attachment_point": "Origin"
   },
   {
     "id": 1481441973,
@@ -2123,18 +2123,18 @@
     "icon_asset_name": "\\u008C",
     "stats": [
       {
-        "id": 2,
+        "id": "PassiveHealthRegenRate",
         "value": 8.0,
         "is_pct": false
       },
       {
-        "id": 3,
+        "id": "PassiveStaminaRegenRate",
         "value": 15.0,
         "is_pct": false
       }
     ],
     "vfx": "",
-    "vfx_attachment_point": 0
+    "vfx_attachment_point": "Origin"
   },
   {
     "id": 1509772875,
@@ -2148,13 +2148,13 @@
     "icon_asset_name": "\\uFFEB",
     "stats": [
       {
-        "id": 8,
+        "id": "CooldownMultiplier",
         "value": 0.088,
         "is_pct": true
       }
     ],
     "vfx": "",
-    "vfx_attachment_point": 0
+    "vfx_attachment_point": "Origin"
   },
   {
     "id": 1517521109,
@@ -2168,13 +2168,13 @@
     "icon_asset_name": "\\u00C8",
     "stats": [
       {
-        "id": 16,
+        "id": "GatheringSpeed",
         "value": 0.093,
         "is_pct": true
       }
     ],
     "vfx": "",
-    "vfx_attachment_point": 0
+    "vfx_attachment_point": "Origin"
   },
   {
     "id": 1520805889,
@@ -2188,13 +2188,13 @@
     "icon_asset_name": "\\u003D",
     "stats": [
       {
-        "id": 4,
+        "id": "MovementMultiplier",
         "value": 0.045,
         "is_pct": true
       }
     ],
     "vfx": "",
-    "vfx_attachment_point": 0
+    "vfx_attachment_point": "Origin"
   },
   {
     "id": 1529868230,
@@ -2208,18 +2208,18 @@
     "icon_asset_name": "\\u008C",
     "stats": [
       {
-        "id": 2,
+        "id": "PassiveHealthRegenRate",
         "value": 3.0,
         "is_pct": false
       },
       {
-        "id": 3,
+        "id": "PassiveStaminaRegenRate",
         "value": 5.0,
         "is_pct": false
       }
     ],
     "vfx": "",
-    "vfx_attachment_point": 0
+    "vfx_attachment_point": "Origin"
   },
   {
     "id": 1547415845,
@@ -2233,7 +2233,7 @@
     "icon_asset_name": "\\u008C",
     "stats": [],
     "vfx": "",
-    "vfx_attachment_point": 0
+    "vfx_attachment_point": "Origin"
   },
   {
     "id": 1556176707,
@@ -2247,13 +2247,13 @@
     "icon_asset_name": "\\u00C8",
     "stats": [
       {
-        "id": 15,
+        "id": "CraftingSpeed",
         "value": 0.075,
         "is_pct": true
       }
     ],
     "vfx": "",
-    "vfx_attachment_point": 0
+    "vfx_attachment_point": "Origin"
   },
   {
     "id": 1566165595,
@@ -2267,23 +2267,23 @@
     "icon_asset_name": "\\u0014",
     "stats": [
       {
-        "id": 0,
+        "id": "MaxHealth",
         "value": -0.025,
         "is_pct": true
       },
       {
-        "id": 1,
+        "id": "MaxStamina",
         "value": -0.025,
         "is_pct": true
       },
       {
-        "id": 4,
+        "id": "MovementMultiplier",
         "value": -0.025,
         "is_pct": true
       }
     ],
     "vfx": "",
-    "vfx_attachment_point": 0
+    "vfx_attachment_point": "Origin"
   },
   {
     "id": 1575219793,
@@ -2297,13 +2297,13 @@
     "icon_asset_name": "\\u00C8",
     "stats": [
       {
-        "id": 15,
+        "id": "CraftingSpeed",
         "value": 0.057,
         "is_pct": true
       }
     ],
     "vfx": "",
-    "vfx_attachment_point": 0
+    "vfx_attachment_point": "Origin"
   },
   {
     "id": 1579088613,
@@ -2317,13 +2317,13 @@
     "icon_asset_name": "\\u003D",
     "stats": [
       {
-        "id": 4,
+        "id": "MovementMultiplier",
         "value": 0.044,
         "is_pct": true
       }
     ],
     "vfx": "",
-    "vfx_attachment_point": 0
+    "vfx_attachment_point": "Origin"
   },
   {
     "id": 1590162583,
@@ -2337,13 +2337,13 @@
     "icon_asset_name": "\\uFFEB",
     "stats": [
       {
-        "id": 8,
+        "id": "CooldownMultiplier",
         "value": 0.047,
         "is_pct": true
       }
     ],
     "vfx": "",
-    "vfx_attachment_point": 0
+    "vfx_attachment_point": "Origin"
   },
   {
     "id": 1631091910,
@@ -2357,18 +2357,18 @@
     "icon_asset_name": "\\u008C",
     "stats": [
       {
-        "id": 2,
+        "id": "PassiveHealthRegenRate",
         "value": 6.0,
         "is_pct": false
       },
       {
-        "id": 3,
+        "id": "PassiveStaminaRegenRate",
         "value": 11.0,
         "is_pct": false
       }
     ],
     "vfx": "",
-    "vfx_attachment_point": 0
+    "vfx_attachment_point": "Origin"
   },
   {
     "id": 1692241838,
@@ -2382,13 +2382,13 @@
     "icon_asset_name": "\\u00C8",
     "stats": [
       {
-        "id": 15,
+        "id": "CraftingSpeed",
         "value": 0.03,
         "is_pct": true
       }
     ],
     "vfx": "",
-    "vfx_attachment_point": 0
+    "vfx_attachment_point": "Origin"
   },
   {
     "id": 1692642397,
@@ -2402,13 +2402,13 @@
     "icon_asset_name": "\\u00C8",
     "stats": [
       {
-        "id": 16,
+        "id": "GatheringSpeed",
         "value": 0.084,
         "is_pct": true
       }
     ],
     "vfx": "",
-    "vfx_attachment_point": 0
+    "vfx_attachment_point": "Origin"
   },
   {
     "id": 1732058250,
@@ -2422,13 +2422,13 @@
     "icon_asset_name": "\\u006D",
     "stats": [
       {
-        "id": 47,
+        "id": "ActiveHealthRegenRate",
         "value": -2.0,
         "is_pct": false
       }
     ],
     "vfx": "",
-    "vfx_attachment_point": 0
+    "vfx_attachment_point": "Origin"
   },
   {
     "id": 1772924204,
@@ -2442,18 +2442,18 @@
     "icon_asset_name": "\\u0035",
     "stats": [
       {
-        "id": 15,
+        "id": "CraftingSpeed",
         "value": 0.048,
         "is_pct": true
       },
       {
-        "id": 16,
+        "id": "GatheringSpeed",
         "value": 0.048,
         "is_pct": true
       }
     ],
     "vfx": "",
-    "vfx_attachment_point": 0
+    "vfx_attachment_point": "Origin"
   },
   {
     "id": 1784860197,
@@ -2467,13 +2467,13 @@
     "icon_asset_name": "\\u00C8",
     "stats": [
       {
-        "id": 47,
+        "id": "ActiveHealthRegenRate",
         "value": 9.0,
         "is_pct": false
       }
     ],
     "vfx": "",
-    "vfx_attachment_point": 0
+    "vfx_attachment_point": "Origin"
   },
   {
     "id": 1793037679,
@@ -2487,13 +2487,13 @@
     "icon_asset_name": "\\u00C8",
     "stats": [
       {
-        "id": 15,
+        "id": "CraftingSpeed",
         "value": 0.048,
         "is_pct": true
       }
     ],
     "vfx": "",
-    "vfx_attachment_point": 0
+    "vfx_attachment_point": "Origin"
   },
   {
     "id": 1815674622,
@@ -2507,13 +2507,13 @@
     "icon_asset_name": "\\u0084",
     "stats": [
       {
-        "id": 51,
+        "id": "Accuracy",
         "value": -80.0,
         "is_pct": false
       }
     ],
     "vfx": "",
-    "vfx_attachment_point": 0
+    "vfx_attachment_point": "Origin"
   },
   {
     "id": 1848949061,
@@ -2527,18 +2527,18 @@
     "icon_asset_name": "\\u0035",
     "stats": [
       {
-        "id": 15,
+        "id": "CraftingSpeed",
         "value": 0.09,
         "is_pct": true
       },
       {
-        "id": 16,
+        "id": "GatheringSpeed",
         "value": 0.09,
         "is_pct": true
       }
     ],
     "vfx": "",
-    "vfx_attachment_point": 0
+    "vfx_attachment_point": "Origin"
   },
   {
     "id": 1853075244,
@@ -2552,13 +2552,13 @@
     "icon_asset_name": "\\u00C8",
     "stats": [
       {
-        "id": 48,
+        "id": "ActiveStaminaRegenRate",
         "value": 31.0,
         "is_pct": false
       }
     ],
     "vfx": "",
-    "vfx_attachment_point": 0
+    "vfx_attachment_point": "Origin"
   },
   {
     "id": 1858579409,
@@ -2572,13 +2572,13 @@
     "icon_asset_name": "\\uFFEB",
     "stats": [
       {
-        "id": 8,
+        "id": "CooldownMultiplier",
         "value": 0.086,
         "is_pct": true
       }
     ],
     "vfx": "",
-    "vfx_attachment_point": 0
+    "vfx_attachment_point": "Origin"
   },
   {
     "id": 1861631261,
@@ -2592,18 +2592,18 @@
     "icon_asset_name": "\\u008C",
     "stats": [
       {
-        "id": 2,
+        "id": "PassiveHealthRegenRate",
         "value": 11.0,
         "is_pct": false
       },
       {
-        "id": 3,
+        "id": "PassiveStaminaRegenRate",
         "value": 20.0,
         "is_pct": false
       }
     ],
     "vfx": "",
-    "vfx_attachment_point": 0
+    "vfx_attachment_point": "Origin"
   },
   {
     "id": 1876524841,
@@ -2617,13 +2617,13 @@
     "icon_asset_name": "\\u00C8",
     "stats": [
       {
-        "id": 17,
+        "id": "BuildingSpeed",
         "value": 0.03,
         "is_pct": true
       }
     ],
     "vfx": "",
-    "vfx_attachment_point": 0
+    "vfx_attachment_point": "Origin"
   },
   {
     "id": 1881525764,
@@ -2637,13 +2637,13 @@
     "icon_asset_name": "\\u00C8",
     "stats": [
       {
-        "id": 48,
+        "id": "ActiveStaminaRegenRate",
         "value": 19.0,
         "is_pct": false
       }
     ],
     "vfx": "",
-    "vfx_attachment_point": 0
+    "vfx_attachment_point": "Origin"
   },
   {
     "id": 1885593226,
@@ -2657,18 +2657,18 @@
     "icon_asset_name": "\\u0035",
     "stats": [
       {
-        "id": 15,
+        "id": "CraftingSpeed",
         "value": 0.046,
         "is_pct": true
       },
       {
-        "id": 16,
+        "id": "GatheringSpeed",
         "value": 0.046,
         "is_pct": true
       }
     ],
     "vfx": "",
-    "vfx_attachment_point": 0
+    "vfx_attachment_point": "Origin"
   },
   {
     "id": 1927294623,
@@ -2682,18 +2682,18 @@
     "icon_asset_name": "",
     "stats": [
       {
-        "id": 10,
+        "id": "Strength",
         "value": -0.1,
         "is_pct": true
       },
       {
-        "id": 51,
+        "id": "Accuracy",
         "value": -0.1,
         "is_pct": true
       }
     ],
     "vfx": "",
-    "vfx_attachment_point": 0
+    "vfx_attachment_point": "Origin"
   },
   {
     "id": 1928903599,
@@ -2707,13 +2707,13 @@
     "icon_asset_name": "\\u00C8",
     "stats": [
       {
-        "id": 17,
+        "id": "BuildingSpeed",
         "value": 0.084,
         "is_pct": true
       }
     ],
     "vfx": "",
-    "vfx_attachment_point": 0
+    "vfx_attachment_point": "Origin"
   },
   {
     "id": 1935249643,
@@ -2727,13 +2727,13 @@
     "icon_asset_name": "\\uFFEB",
     "stats": [
       {
-        "id": 8,
+        "id": "CooldownMultiplier",
         "value": 0.084,
         "is_pct": true
       }
     ],
     "vfx": "",
-    "vfx_attachment_point": 0
+    "vfx_attachment_point": "Origin"
   },
   {
     "id": 1958258156,
@@ -2747,13 +2747,13 @@
     "icon_asset_name": "\\u00C8",
     "stats": [
       {
-        "id": 47,
+        "id": "ActiveHealthRegenRate",
         "value": 15.0,
         "is_pct": false
       }
     ],
     "vfx": "",
-    "vfx_attachment_point": 0
+    "vfx_attachment_point": "Origin"
   },
   {
     "id": 1980254979,
@@ -2767,13 +2767,13 @@
     "icon_asset_name": "\\u00C8",
     "stats": [
       {
-        "id": 17,
+        "id": "BuildingSpeed",
         "value": 0.102,
         "is_pct": true
       }
     ],
     "vfx": "",
-    "vfx_attachment_point": 0
+    "vfx_attachment_point": "Origin"
   },
   {
     "id": 1982977481,
@@ -2787,18 +2787,18 @@
     "icon_asset_name": "\\u0035",
     "stats": [
       {
-        "id": 15,
+        "id": "CraftingSpeed",
         "value": 0.082,
         "is_pct": true
       },
       {
-        "id": 16,
+        "id": "GatheringSpeed",
         "value": 0.082,
         "is_pct": true
       }
     ],
     "vfx": "",
-    "vfx_attachment_point": 0
+    "vfx_attachment_point": "Origin"
   },
   {
     "id": 2029849276,
@@ -2812,18 +2812,18 @@
     "icon_asset_name": "",
     "stats": [
       {
-        "id": 7,
+        "id": "Armor",
         "value": -0.2,
         "is_pct": true
       },
       {
-        "id": 10,
+        "id": "Strength",
         "value": 0.4,
         "is_pct": true
       }
     ],
     "vfx": "",
-    "vfx_attachment_point": 0
+    "vfx_attachment_point": "Origin"
   },
   {
     "id": 2084605653,
@@ -2837,28 +2837,28 @@
     "icon_asset_name": "",
     "stats": [
       {
-        "id": 10,
+        "id": "Strength",
         "value": 0.4,
         "is_pct": true
       },
       {
-        "id": 51,
+        "id": "Accuracy",
         "value": 0.5,
         "is_pct": true
       },
       {
-        "id": 4,
+        "id": "MovementMultiplier",
         "value": -0.9,
         "is_pct": true
       },
       {
-        "id": 7,
+        "id": "Armor",
         "value": -0.1,
         "is_pct": true
       }
     ],
     "vfx": "",
-    "vfx_attachment_point": 0
+    "vfx_attachment_point": "Origin"
   },
   {
     "id": 2088230928,
@@ -2872,13 +2872,13 @@
     "icon_asset_name": "\\uFFDA",
     "stats": [
       {
-        "id": 4,
+        "id": "MovementMultiplier",
         "value": -0.8,
         "is_pct": true
       }
     ],
     "vfx": "",
-    "vfx_attachment_point": 0
+    "vfx_attachment_point": "Origin"
   },
   {
     "id": 2103320983,
@@ -2892,13 +2892,13 @@
     "icon_asset_name": "\\u00C8",
     "stats": [
       {
-        "id": 48,
+        "id": "ActiveStaminaRegenRate",
         "value": 25.0,
         "is_pct": false
       }
     ],
     "vfx": "",
-    "vfx_attachment_point": 0
+    "vfx_attachment_point": "Origin"
   },
   {
     "id": 2103902535,
@@ -2912,13 +2912,13 @@
     "icon_asset_name": "\\u003D",
     "stats": [
       {
-        "id": 4,
+        "id": "MovementMultiplier",
         "value": 0.094,
         "is_pct": true
       }
     ],
     "vfx": "",
-    "vfx_attachment_point": 0
+    "vfx_attachment_point": "Origin"
   },
   {
     "id": 2115603449,
@@ -2932,13 +2932,13 @@
     "icon_asset_name": "\\uFFEB",
     "stats": [
       {
-        "id": 8,
+        "id": "CooldownMultiplier",
         "value": 0.045,
         "is_pct": true
       }
     ],
     "vfx": "",
-    "vfx_attachment_point": 0
+    "vfx_attachment_point": "Origin"
   },
   {
     "id": 2119591842,
@@ -2952,13 +2952,13 @@
     "icon_asset_name": "\\u00C8",
     "stats": [
       {
-        "id": 48,
+        "id": "ActiveStaminaRegenRate",
         "value": 16.0,
         "is_pct": false
       }
     ],
     "vfx": "",
-    "vfx_attachment_point": 0
+    "vfx_attachment_point": "Origin"
   },
   {
     "id": 2134900809,
@@ -2972,13 +2972,13 @@
     "icon_asset_name": "\\u003D",
     "stats": [
       {
-        "id": 4,
+        "id": "MovementMultiplier",
         "value": 0.047,
         "is_pct": true
       }
     ],
     "vfx": "",
-    "vfx_attachment_point": 0
+    "vfx_attachment_point": "Origin"
   },
   {
     "id": 2137093083,
@@ -2992,12 +2992,12 @@
     "icon_asset_name": "\\u00C8",
     "stats": [
       {
-        "id": 16,
+        "id": "GatheringSpeed",
         "value": 0.03,
         "is_pct": true
       }
     ],
     "vfx": "",
-    "vfx_attachment_point": 0
+    "vfx_attachment_point": "Origin"
   }
 ]
