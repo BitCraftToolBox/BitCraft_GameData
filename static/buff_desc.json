@@ -305,7 +305,7 @@
     "stats": [
       {
         "id": "ActiveHealthRegenRate",
-        "value": 7.0,
+        "value": 5.0,
         "is_pct": false
       }
     ],
@@ -665,7 +665,7 @@
     "stats": [
       {
         "id": "ActiveHealthRegenRate",
-        "value": 10.0,
+        "value": 8.0,
         "is_pct": false
       }
     ],
@@ -719,7 +719,7 @@
     "stats": [
       {
         "id": "ActiveHealthRegenRate",
-        "value": 6.0,
+        "value": 4.0,
         "is_pct": false
       }
     ],
@@ -844,7 +844,7 @@
     "stats": [
       {
         "id": "ActiveHealthRegenRate",
-        "value": 11.0,
+        "value": 9.0,
         "is_pct": false
       }
     ],
@@ -929,7 +929,7 @@
     "stats": [
       {
         "id": "ActiveHealthRegenRate",
-        "value": 8.0,
+        "value": 6.0,
         "is_pct": false
       }
     ],
@@ -1105,6 +1105,26 @@
       {
         "id": "MovementMultiplier",
         "value": 0.043,
+        "is_pct": true
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 715455679,
+    "buff_type_id": 703902181,
+    "description": "Grievous Wound",
+    "priority": 1,
+    "duration": 5,
+    "warn_time": 0.0,
+    "online_timestamp": true,
+    "beneficial": false,
+    "icon_asset_name": "\\u006D",
+    "stats": [
+      {
+        "id": "ActiveHealthRegenRate",
+        "value": -1.0,
         "is_pct": true
       }
     ],
@@ -1349,7 +1369,7 @@
     "stats": [
       {
         "id": "ActiveHealthRegenRate",
-        "value": 5.0,
+        "value": 3.0,
         "is_pct": false
       }
     ],
@@ -1567,6 +1587,26 @@
     "vfx_attachment_point": "Origin"
   },
   {
+    "id": 1187610739,
+    "buff_type_id": 1686192242,
+    "description": "Deep Bite",
+    "priority": 1,
+    "duration": 5,
+    "warn_time": 0.0,
+    "online_timestamp": true,
+    "beneficial": false,
+    "icon_asset_name": "\\u006D",
+    "stats": [
+      {
+        "id": "Armor",
+        "value": -0.2,
+        "is_pct": true
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
     "id": 1213011730,
     "buff_type_id": 4,
     "description": "Concussed",
@@ -1669,7 +1709,7 @@
     "stats": [
       {
         "id": "ActiveHealthRegenRate",
-        "value": 12.0,
+        "value": 10.0,
         "is_pct": false
       }
     ],
@@ -1839,7 +1879,7 @@
     "stats": [
       {
         "id": "ActiveHealthRegenRate",
-        "value": 14.0,
+        "value": 12.0,
         "is_pct": false
       }
     ],
@@ -2222,6 +2262,31 @@
     "vfx_attachment_point": "Origin"
   },
   {
+    "id": 1545438629,
+    "buff_type_id": 954871497,
+    "description": "Ground Slam Daze",
+    "priority": 0,
+    "duration": 10,
+    "warn_time": 0.0,
+    "online_timestamp": true,
+    "beneficial": false,
+    "icon_asset_name": "\\uFFB8",
+    "stats": [
+      {
+        "id": "Strength",
+        "value": -0.5,
+        "is_pct": true
+      },
+      {
+        "id": "MovementMultiplier",
+        "value": -0.5,
+        "is_pct": true
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
     "id": 1547415845,
     "buff_type_id": 11,
     "description": "Starving",
@@ -2346,6 +2411,31 @@
     "vfx_attachment_point": "Origin"
   },
   {
+    "id": 1601114136,
+    "buff_type_id": 2040264082,
+    "description": "Reckless Rage",
+    "priority": 1,
+    "duration": 15,
+    "warn_time": 0.0,
+    "online_timestamp": false,
+    "beneficial": true,
+    "icon_asset_name": "\\u006D",
+    "stats": [
+      {
+        "id": "Armor",
+        "value": -0.5,
+        "is_pct": true
+      },
+      {
+        "id": "Strength",
+        "value": 1.0,
+        "is_pct": true
+      }
+    ],
+    "vfx": "RedRoundBuff",
+    "vfx_attachment_point": "Head"
+  },
+  {
     "id": 1631091910,
     "buff_type_id": 1790361536,
     "description": "Level 4 Food Regen",
@@ -2411,6 +2501,31 @@
     "vfx_attachment_point": "Origin"
   },
   {
+    "id": 1715412419,
+    "buff_type_id": 1085165374,
+    "description": "Shield Block",
+    "priority": 0,
+    "duration": 5,
+    "warn_time": 5.0,
+    "online_timestamp": false,
+    "beneficial": true,
+    "icon_asset_name": "\\uFF7D",
+    "stats": [
+      {
+        "id": "Armor",
+        "value": 0.5,
+        "is_pct": true
+      },
+      {
+        "id": "Strength",
+        "value": -0.2,
+        "is_pct": true
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
     "id": 1732058250,
     "buff_type_id": 1686192242,
     "description": "Bleed",
@@ -2468,7 +2583,7 @@
     "stats": [
       {
         "id": "ActiveHealthRegenRate",
-        "value": 9.0,
+        "value": 7.0,
         "is_pct": false
       }
     ],
@@ -2675,7 +2790,7 @@
     "buff_type_id": 2104428893,
     "description": "Debilitating Strike",
     "priority": 0,
-    "duration": 6,
+    "duration": 4,
     "warn_time": 2.0,
     "online_timestamp": true,
     "beneficial": false,
@@ -2748,7 +2863,7 @@
     "stats": [
       {
         "id": "ActiveHealthRegenRate",
-        "value": 15.0,
+        "value": 13.0,
         "is_pct": false
       }
     ],
@@ -2822,7 +2937,7 @@
         "is_pct": true
       }
     ],
-    "vfx": "",
+    "vfx": "BerserkerBuff_PurpleSmokeUp",
     "vfx_attachment_point": "Origin"
   },
   {
@@ -2994,6 +3109,26 @@
       {
         "id": "GatheringSpeed",
         "value": 0.03,
+        "is_pct": true
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 2140146556,
+    "buff_type_id": 773007907,
+    "description": "Open Wound",
+    "priority": 0,
+    "duration": 10,
+    "warn_time": 0.0,
+    "online_timestamp": false,
+    "beneficial": false,
+    "icon_asset_name": "\\u006D",
+    "stats": [
+      {
+        "id": "PassiveHealthRegenRate",
+        "value": -1.0,
         "is_pct": true
       }
     ],
