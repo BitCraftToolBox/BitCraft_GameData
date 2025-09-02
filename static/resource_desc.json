@@ -21524,6 +21524,56 @@
     "not_respawning": true
   },
   {
+    "id": 92565503,
+    "name": "Ancient Rubble",
+    "description": "A pile of rubble from the crumbling walls around you. A miner could probably pull some useful materials from this.",
+    "flattenable": false,
+    "max_health": 100,
+    "ignore_damage": false,
+    "despawn_time": 0.0,
+    "model_asset_name": "Resources/3TileDungeonRubble",
+    "icon_asset_name": "",
+    "on_destroy_yield": [],
+    "on_destroy_yield_resource_id": 0,
+    "spawn_priority": 0,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        -1,
+        0,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        -1,
+        1,
+        [
+          0,
+          []
+        ]
+      ]
+    ],
+    "tier": 3,
+    "tag": "Dungeon Resource",
+    "rarity": [
+      2,
+      {}
+    ],
+    "compendium_entry": false,
+    "enemy_params_id": [],
+    "scheduled_respawn_time": 0.0,
+    "not_respawning": false
+  },
+  {
     "id": 93152192,
     "name": "Flawless Hieroglyphs",
     "description": "",
@@ -23726,6 +23776,48 @@
     "not_respawning": false
   },
   {
+    "id": 487003651,
+    "name": "Ancient Armor Rack",
+    "description": "An armor rack from the ancient times. The armor is broken down and brittle but a skilled smith could salvage some materials from them.",
+    "flattenable": false,
+    "max_health": 100,
+    "ignore_damage": false,
+    "despawn_time": 0.0,
+    "model_asset_name": "Resources/ArmorRack",
+    "icon_asset_name": "",
+    "on_destroy_yield": [],
+    "on_destroy_yield_resource_id": 0,
+    "spawn_priority": 0,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        0,
+        1,
+        [
+          0,
+          []
+        ]
+      ]
+    ],
+    "tier": 3,
+    "tag": "Dungeon Resource",
+    "rarity": [
+      2,
+      {}
+    ],
+    "compendium_entry": false,
+    "enemy_params_id": [],
+    "scheduled_respawn_time": 0.0,
+    "not_respawning": false
+  },
+  {
     "id": 505488132,
     "name": "Pristine Clay",
     "description": "",
@@ -23952,6 +24044,40 @@
     "compendium_entry": true,
     "enemy_params_id": [],
     "scheduled_respawn_time": 600.0,
+    "not_respawning": false
+  },
+  {
+    "id": 546753273,
+    "name": "Ancient Coffer",
+    "description": "A chest from the ancient times. Filled to the brim with hex coins and ancient metal fragments.",
+    "flattenable": false,
+    "max_health": 25,
+    "ignore_damage": false,
+    "despawn_time": 0.0,
+    "model_asset_name": "Resources/AncientCoffer",
+    "icon_asset_name": "",
+    "on_destroy_yield": [],
+    "on_destroy_yield_resource_id": 0,
+    "spawn_priority": 0,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          0,
+          []
+        ]
+      ]
+    ],
+    "tier": 3,
+    "tag": "Dungeon Resource",
+    "rarity": [
+      2,
+      {}
+    ],
+    "compendium_entry": false,
+    "enemy_params_id": [],
+    "scheduled_respawn_time": 0.0,
     "not_respawning": false
   },
   {
@@ -25790,6 +25916,40 @@
     "enemy_params_id": [],
     "scheduled_respawn_time": 600.0,
     "not_respawning": true
+  },
+  {
+    "id": 822745882,
+    "name": "Ancient Pots",
+    "description": "An pot from the ancient times. The pot could be salvaged for clay and potter's mix.",
+    "flattenable": false,
+    "max_health": 100,
+    "ignore_damage": false,
+    "despawn_time": 0.0,
+    "model_asset_name": "Resources/AncientPots",
+    "icon_asset_name": "",
+    "on_destroy_yield": [],
+    "on_destroy_yield_resource_id": 0,
+    "spawn_priority": 0,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          0,
+          []
+        ]
+      ]
+    ],
+    "tier": 3,
+    "tag": "Dungeon Resource",
+    "rarity": [
+      2,
+      {}
+    ],
+    "compendium_entry": false,
+    "enemy_params_id": [],
+    "scheduled_respawn_time": 0.0,
+    "not_respawning": false
   },
   {
     "id": 826362353,
@@ -30036,6 +30196,72 @@
     "not_respawning": true
   },
   {
+    "id": 1260515599,
+    "name": "Large Ancient Rubble",
+    "description": "A pile of rubble from the crumbling walls around you. A miner could probably pull some useful materials from this.",
+    "flattenable": false,
+    "max_health": 100,
+    "ignore_damage": false,
+    "despawn_time": 0.0,
+    "model_asset_name": "Resources/5TileDungeonRubble",
+    "icon_asset_name": "",
+    "on_destroy_yield": [],
+    "on_destroy_yield_resource_id": 0,
+    "spawn_priority": 0,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        0,
+        -1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        1,
+        -1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        2,
+        -1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        1,
+        0,
+        [
+          0,
+          []
+        ]
+      ]
+    ],
+    "tier": 3,
+    "tag": "Dungeon Resource",
+    "rarity": [
+      2,
+      {}
+    ],
+    "compendium_entry": false,
+    "enemy_params_id": [],
+    "scheduled_respawn_time": 0.0,
+    "not_respawning": false
+  },
+  {
     "id": 1262898141,
     "name": "Misty Crustacean",
     "description": "",
@@ -32554,6 +32780,48 @@
       {}
     ],
     "compendium_entry": true,
+    "enemy_params_id": [],
+    "scheduled_respawn_time": 0.0,
+    "not_respawning": false
+  },
+  {
+    "id": 1574537885,
+    "name": "Ancient Weapon Rack",
+    "description": "A weapon rack from the ancient times. The weapons are broken down and brittle but a skilled could salvage some materials from them.",
+    "flattenable": false,
+    "max_health": 100,
+    "ignore_damage": false,
+    "despawn_time": 0.0,
+    "model_asset_name": "Resources/WeaponRack",
+    "icon_asset_name": "",
+    "on_destroy_yield": [],
+    "on_destroy_yield_resource_id": 0,
+    "spawn_priority": 0,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        0,
+        -1,
+        [
+          0,
+          []
+        ]
+      ]
+    ],
+    "tier": 3,
+    "tag": "Dungeon Resource",
+    "rarity": [
+      2,
+      {}
+    ],
+    "compendium_entry": false,
     "enemy_params_id": [],
     "scheduled_respawn_time": 0.0,
     "not_respawning": false
@@ -35344,6 +35612,40 @@
       {}
     ],
     "compendium_entry": true,
+    "enemy_params_id": [],
+    "scheduled_respawn_time": 0.0,
+    "not_respawning": false
+  },
+  {
+    "id": 2022104490,
+    "name": "Broken Ancient Pots",
+    "description": "An pot from the ancient times. The pot could be salvaged for clay and potter's mix.",
+    "flattenable": false,
+    "max_health": 100,
+    "ignore_damage": false,
+    "despawn_time": 0.0,
+    "model_asset_name": "Resources/BrokenAncientPots",
+    "icon_asset_name": "",
+    "on_destroy_yield": [],
+    "on_destroy_yield_resource_id": 0,
+    "spawn_priority": 0,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          0,
+          []
+        ]
+      ]
+    ],
+    "tier": 3,
+    "tag": "Dungeon Resource",
+    "rarity": [
+      2,
+      {}
+    ],
+    "compendium_entry": false,
     "enemy_params_id": [],
     "scheduled_respawn_time": 0.0,
     "not_respawning": false

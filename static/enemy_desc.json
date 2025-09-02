@@ -770,6 +770,62 @@
     "huntable": true
   },
   {
+    "enemy_type": 32,
+    "name": "Feral Sentinel",
+    "pathfinding_id": 769231106,
+    "targeting_matrix_id": 2,
+    "combat_actions_ids": [
+      894316822,
+      712226850,
+      700277564,
+      522138642,
+      1880989778
+    ],
+    "description": "A sentinel from the ancient times that has malfunctioned and become extremely aggressive.",
+    "min_speed": 30,
+    "max_speed": 38,
+    "radius": 1.0,
+    "awareness_destination_threshold": 0.5,
+    "min_awareness_tick_sec": 1.0,
+    "max_awareness_tick_sec": 5.0,
+    "max_health": 12000,
+    "ignore_damage": false,
+    "health_regen_quantity": 5.0,
+    "armor": 1000,
+    "accuracy": 980,
+    "evasion": 168,
+    "strength": 250,
+    "min_damage": 15,
+    "max_damage": 25,
+    "cooldown_multiplier": 1.0,
+    "daytime_detect_range": 40,
+    "daytime_aggro_range": 20,
+    "daytime_deaggro_range": 50,
+    "nighttime_detect_range": 40,
+    "nighttime_aggro_range": 20,
+    "nighttime_deaggro_range": 50,
+    "evade_range": 0,
+    "deaggro_health_threshold": 0.0,
+    "attack_level": 5,
+    "defense_level": 5,
+    "prefab_address": "Enemies/Sentinel",
+    "icon_address": "GeneratedIcons/Other/GeneratedIcons/Other/Animals/Sentinel",
+    "extracted_item_stacks": [],
+    "experience_per_damage_dealt": [
+      [
+        18,
+        1.66
+      ]
+    ],
+    "tier": 1,
+    "tag": "Monster",
+    "rarity": [
+      1,
+      {}
+    ],
+    "huntable": false
+  },
+  {
     "enemy_type": 22,
     "name": "Frost Crab",
     "pathfinding_id": 769231106,
@@ -1915,6 +1971,163 @@
       [
         18,
         1.98
+      ]
+    ],
+    "tier": 1,
+    "tag": "Monster",
+    "rarity": [
+      1,
+      {}
+    ],
+    "huntable": false
+  },
+  {
+    "enemy_type": 33,
+    "name": "Subterranean Jakyl",
+    "pathfinding_id": 769231106,
+    "targeting_matrix_id": 2,
+    "combat_actions_ids": [
+      3
+    ],
+    "description": "A massive Jakyl. Much stronger than the others you've seen. This Jakyl lives underground and hates the sun.",
+    "min_speed": 22,
+    "max_speed": 28,
+    "radius": 1.0,
+    "awareness_destination_threshold": 0.5,
+    "min_awareness_tick_sec": 1.0,
+    "max_awareness_tick_sec": 5.0,
+    "max_health": 500,
+    "ignore_damage": false,
+    "health_regen_quantity": 5.0,
+    "armor": 700,
+    "accuracy": 980,
+    "evasion": 168,
+    "strength": 120,
+    "min_damage": 12,
+    "max_damage": 19,
+    "cooldown_multiplier": 1.0,
+    "daytime_detect_range": 5,
+    "daytime_aggro_range": 5,
+    "daytime_deaggro_range": 180,
+    "nighttime_detect_range": 5,
+    "nighttime_aggro_range": 5,
+    "nighttime_deaggro_range": 180,
+    "evade_range": 0,
+    "deaggro_health_threshold": 0.0,
+    "attack_level": 5,
+    "defense_level": 5,
+    "prefab_address": "Enemies/JakylSentinel",
+    "icon_address": "GeneratedIcons/Other/GeneratedIcons/Other/Animals/SentinelDungeonJakyl",
+    "extracted_item_stacks": [],
+    "experience_per_damage_dealt": [
+      [
+        18,
+        1.66
+      ]
+    ],
+    "tier": 1,
+    "tag": "Monster",
+    "rarity": [
+      1,
+      {}
+    ],
+    "huntable": false
+  },
+  {
+    "enemy_type": 35,
+    "name": "Subterranean Jakyl Protector",
+    "pathfinding_id": 769231106,
+    "targeting_matrix_id": 2,
+    "combat_actions_ids": [
+      3,
+      23586325
+    ],
+    "description": "A massive and terrifying Jakyl. This Jakyl leads the smaller Jakyls around it.",
+    "min_speed": 22,
+    "max_speed": 28,
+    "radius": 1.0,
+    "awareness_destination_threshold": 0.5,
+    "min_awareness_tick_sec": 1.0,
+    "max_awareness_tick_sec": 5.0,
+    "max_health": 2500,
+    "ignore_damage": false,
+    "health_regen_quantity": 5.0,
+    "armor": 700,
+    "accuracy": 980,
+    "evasion": 168,
+    "strength": 200,
+    "min_damage": 20,
+    "max_damage": 28,
+    "cooldown_multiplier": 1.0,
+    "daytime_detect_range": 5,
+    "daytime_aggro_range": 5,
+    "daytime_deaggro_range": 180,
+    "nighttime_detect_range": 5,
+    "nighttime_aggro_range": 5,
+    "nighttime_deaggro_range": 180,
+    "evade_range": 0,
+    "deaggro_health_threshold": 0.0,
+    "attack_level": 5,
+    "defense_level": 5,
+    "prefab_address": "Enemies/JakylSentinel",
+    "icon_address": "GeneratedIcons/Other/GeneratedIcons/Other/Animals/SentinelDungeonJakyl",
+    "extracted_item_stacks": [],
+    "experience_per_damage_dealt": [
+      [
+        18,
+        1.66
+      ]
+    ],
+    "tier": 1,
+    "tag": "Monster",
+    "rarity": [
+      1,
+      {}
+    ],
+    "huntable": false
+  },
+  {
+    "enemy_type": 34,
+    "name": "Subterranean Skitch",
+    "pathfinding_id": 769231106,
+    "targeting_matrix_id": 2,
+    "combat_actions_ids": [
+      3
+    ],
+    "description": "A skitch that has lived underground for quite some time. It seems to have made itself some armor out of metal that was laying around.",
+    "min_speed": 22,
+    "max_speed": 28,
+    "radius": 1.0,
+    "awareness_destination_threshold": 0.5,
+    "min_awareness_tick_sec": 1.0,
+    "max_awareness_tick_sec": 5.0,
+    "max_health": 250,
+    "ignore_damage": false,
+    "health_regen_quantity": 5.0,
+    "armor": 2500,
+    "accuracy": 980,
+    "evasion": 168,
+    "strength": 100,
+    "min_damage": 7,
+    "max_damage": 11,
+    "cooldown_multiplier": 1.0,
+    "daytime_detect_range": 5,
+    "daytime_aggro_range": 5,
+    "daytime_deaggro_range": 180,
+    "nighttime_detect_range": 5,
+    "nighttime_aggro_range": 5,
+    "nighttime_deaggro_range": 180,
+    "evade_range": 0,
+    "deaggro_health_threshold": 0.0,
+    "attack_level": 5,
+    "defense_level": 5,
+    "prefab_address": "Enemies/SwarmCrabDungeon",
+    "icon_address": "GeneratedIcons/Other/GeneratedIcons/Other/Animals/SentinelDungeonSkitch",
+    "extracted_item_stacks": [],
+    "experience_per_damage_dealt": [
+      [
+        18,
+        1.66
       ]
     ],
     "tier": 1,

@@ -392,7 +392,7 @@
           47,
           []
         ],
-        7.0,
+        5.0,
         false
       ]
     ],
@@ -866,7 +866,7 @@
           47,
           []
         ],
-        10.0,
+        8.0,
         false
       ]
     ],
@@ -935,7 +935,7 @@
           47,
           []
         ],
-        6.0,
+        4.0,
         false
       ]
     ],
@@ -1105,7 +1105,7 @@
           47,
           []
         ],
-        11.0,
+        9.0,
         false
       ]
     ],
@@ -1217,7 +1217,7 @@
           47,
           []
         ],
-        8.0,
+        6.0,
         false
       ]
     ],
@@ -1450,6 +1450,32 @@
           []
         ],
         0.043,
+        true
+      ]
+    ],
+    "vfx": "",
+    "vfx_attachment_point": [
+      0,
+      {}
+    ]
+  },
+  {
+    "id": 715455679,
+    "buff_type_id": 703902181,
+    "description": "Grievous Wound",
+    "priority": 1,
+    "duration": 5,
+    "warn_time": 0.0,
+    "online_timestamp": true,
+    "beneficial": false,
+    "icon_asset_name": "\\u006D",
+    "stats": [
+      [
+        [
+          47,
+          []
+        ],
+        -1.0,
         true
       ]
     ],
@@ -1769,7 +1795,7 @@
           47,
           []
         ],
-        5.0,
+        3.0,
         false
       ]
     ],
@@ -2056,6 +2082,32 @@
     ]
   },
   {
+    "id": 1187610739,
+    "buff_type_id": 1686192242,
+    "description": "Deep Bite",
+    "priority": 1,
+    "duration": 5,
+    "warn_time": 0.0,
+    "online_timestamp": true,
+    "beneficial": false,
+    "icon_asset_name": "\\u006D",
+    "stats": [
+      [
+        [
+          7,
+          []
+        ],
+        -0.2,
+        true
+      ]
+    ],
+    "vfx": "",
+    "vfx_attachment_point": [
+      0,
+      {}
+    ]
+  },
+  {
     "id": 1213011730,
     "buff_type_id": 4,
     "description": "Concussed",
@@ -2191,7 +2243,7 @@
           47,
           []
         ],
-        12.0,
+        10.0,
         false
       ]
     ],
@@ -2415,7 +2467,7 @@
           47,
           []
         ],
-        14.0,
+        12.0,
         false
       ]
     ],
@@ -2924,6 +2976,40 @@
     ]
   },
   {
+    "id": 1545438629,
+    "buff_type_id": 954871497,
+    "description": "Ground Slam Daze",
+    "priority": 0,
+    "duration": 10,
+    "warn_time": 0.0,
+    "online_timestamp": true,
+    "beneficial": false,
+    "icon_asset_name": "\\uFFB8",
+    "stats": [
+      [
+        [
+          10,
+          []
+        ],
+        -0.5,
+        true
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        -0.5,
+        true
+      ]
+    ],
+    "vfx": "",
+    "vfx_attachment_point": [
+      0,
+      {}
+    ]
+  },
+  {
     "id": 1547415845,
     "buff_type_id": 11,
     "description": "Starving",
@@ -3087,6 +3173,40 @@
     ]
   },
   {
+    "id": 1601114136,
+    "buff_type_id": 2040264082,
+    "description": "Reckless Rage",
+    "priority": 1,
+    "duration": 15,
+    "warn_time": 0.0,
+    "online_timestamp": false,
+    "beneficial": true,
+    "icon_asset_name": "\\u006D",
+    "stats": [
+      [
+        [
+          7,
+          []
+        ],
+        -0.5,
+        true
+      ],
+      [
+        [
+          10,
+          []
+        ],
+        1.0,
+        true
+      ]
+    ],
+    "vfx": "RedRoundBuff",
+    "vfx_attachment_point": [
+      2,
+      {}
+    ]
+  },
+  {
     "id": 1631091910,
     "buff_type_id": 1790361536,
     "description": "Level 4 Food Regen",
@@ -3173,6 +3293,40 @@
     ]
   },
   {
+    "id": 1715412419,
+    "buff_type_id": 1085165374,
+    "description": "Shield Block",
+    "priority": 0,
+    "duration": 5,
+    "warn_time": 5.0,
+    "online_timestamp": false,
+    "beneficial": true,
+    "icon_asset_name": "\\uFF7D",
+    "stats": [
+      [
+        [
+          7,
+          []
+        ],
+        0.5,
+        true
+      ],
+      [
+        [
+          10,
+          []
+        ],
+        -0.2,
+        true
+      ]
+    ],
+    "vfx": "",
+    "vfx_attachment_point": [
+      0,
+      {}
+    ]
+  },
+  {
     "id": 1732058250,
     "buff_type_id": 1686192242,
     "description": "Bleed",
@@ -3248,7 +3402,7 @@
           47,
           []
         ],
-        9.0,
+        7.0,
         false
       ]
     ],
@@ -3521,7 +3675,7 @@
     "buff_type_id": 2104428893,
     "description": "Debilitating Strike",
     "priority": 0,
-    "duration": 6,
+    "duration": 4,
     "warn_time": 2.0,
     "online_timestamp": true,
     "beneficial": false,
@@ -3618,7 +3772,7 @@
           47,
           []
         ],
-        15.0,
+        13.0,
         false
       ]
     ],
@@ -3716,7 +3870,7 @@
         true
       ]
     ],
-    "vfx": "",
+    "vfx": "BerserkerBuff_PurpleSmokeUp",
     "vfx_attachment_point": [
       0,
       {}
@@ -3945,6 +4099,32 @@
           []
         ],
         0.03,
+        true
+      ]
+    ],
+    "vfx": "",
+    "vfx_attachment_point": [
+      0,
+      {}
+    ]
+  },
+  {
+    "id": 2140146556,
+    "buff_type_id": 773007907,
+    "description": "Open Wound",
+    "priority": 0,
+    "duration": 10,
+    "warn_time": 0.0,
+    "online_timestamp": false,
+    "beneficial": false,
+    "icon_asset_name": "\\u006D",
+    "stats": [
+      [
+        [
+          2,
+          []
+        ],
+        -1.0,
         true
       ]
     ],
