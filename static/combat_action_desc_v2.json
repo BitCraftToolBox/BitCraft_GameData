@@ -423,7 +423,7 @@
     "hit_vfx": "GenericWeaponHit",
     "projectile_speed": -1.0,
     "projectile_vfx": "",
-    "description": "A simple swing of a weapon",
+    "description": "A powerful stab attack.",
     "self_threat_against_buildings": 0.0,
     "self_threat_against_enemies": 0.0,
     "base_threat": 5.0,
@@ -621,12 +621,12 @@
       "level": 1
     },
     "icon_asset_name": "\\uFF7D",
-    "player_animation_id": 202,
+    "player_animation_id": 204,
     "npc_animation_name": "",
     "hit_vfx": "Spear_Special1_Hit",
     "projectile_speed": -1.0,
     "projectile_vfx": "",
-    "description": "Raise your shield, significantly increasing your armor but lowering your strength for 5 seconds.",
+    "description": "Raise your shield, significantly increasing your armor but lowering your strength for 4 seconds.",
     "self_threat_against_buildings": 0.0,
     "self_threat_against_enemies": 0.0,
     "base_threat": 0.0,
@@ -793,6 +793,45 @@
     "is_taunt_action": false
   },
   {
+    "name": "Blade Spin",
+    "id": 894777773,
+    "learned_by_player": true,
+    "range": 1,
+    "max_range": 4.0,
+    "auto_cast": false,
+    "weapon_type_requirements": [
+      1158805328
+    ],
+    "lead_in_time": 0.75,
+    "can_move_during_lead_in": false,
+    "cooldown": 20.0,
+    "global_cooldown": 1.0,
+    "ignore_global_cooldown": false,
+    "strength_multiplier": 1.5,
+    "accuracy_multiplier": 1.0,
+    "stamina_use": 1.0,
+    "weapon_durability_lost": 0,
+    "self_buffs": [],
+    "target_buffs": [],
+    "level_requirement": {
+      "skill_id": 1,
+      "level": 1
+    },
+    "icon_asset_name": "\\uFFC3",
+    "player_animation_id": 605,
+    "npc_animation_name": "",
+    "hit_vfx": "Daggers_Slice_Hit",
+    "projectile_speed": -1.0,
+    "projectile_vfx": "",
+    "description": "Spin with your blades out dealing damage to all surround enemies",
+    "self_threat_against_buildings": 0.0,
+    "self_threat_against_enemies": 0.0,
+    "base_threat": 5.0,
+    "threat_per_damage": 1.0,
+    "is_self_targeting": false,
+    "is_taunt_action": false
+  },
+  {
     "name": "Daggers Slice",
     "id": 948049901,
     "learned_by_player": true,
@@ -940,7 +979,7 @@
       "level": 1
     },
     "icon_asset_name": "\\uFFBA",
-    "player_animation_id": 202,
+    "player_animation_id": 203,
     "npc_animation_name": "",
     "hit_vfx": "Spear_Special1_Hit",
     "projectile_speed": -1.0,
@@ -965,10 +1004,10 @@
     ],
     "lead_in_time": 1.15,
     "can_move_during_lead_in": false,
-    "cooldown": 10.0,
+    "cooldown": 8.0,
     "global_cooldown": 1.0,
     "ignore_global_cooldown": false,
-    "strength_multiplier": 2.9,
+    "strength_multiplier": 3.2,
     "accuracy_multiplier": 0.6,
     "stamina_use": 1.0,
     "weapon_durability_lost": 0,
@@ -1187,7 +1226,7 @@
       "level": 1
     },
     "icon_asset_name": "\\uFF7C",
-    "player_animation_id": 302,
+    "player_animation_id": 304,
     "npc_animation_name": "",
     "hit_vfx": "Claymore_Special1_Hit",
     "projectile_speed": -1.0,
@@ -1265,7 +1304,7 @@
       "level": 1
     },
     "icon_asset_name": "\\uFF8A",
-    "player_animation_id": 302,
+    "player_animation_id": 305,
     "npc_animation_name": "",
     "hit_vfx": "Claymore_Special1_Hit",
     "projectile_speed": -1.0,
@@ -1315,10 +1354,10 @@
     "base_threat": 150.0,
     "threat_per_damage": 1.75,
     "is_self_targeting": false,
-    "is_taunt_action": false
+    "is_taunt_action": true
   },
   {
-    "name": "Slash and Defend",
+    "name": "On Guard",
     "id": 1834217105,
     "learned_by_player": true,
     "range": 1,
@@ -1332,8 +1371,8 @@
     "cooldown": 15.0,
     "global_cooldown": 1.0,
     "ignore_global_cooldown": false,
-    "strength_multiplier": 2.0,
-    "accuracy_multiplier": 1.0,
+    "strength_multiplier": 1.5,
+    "accuracy_multiplier": 1.5,
     "stamina_use": 1.0,
     "weapon_durability_lost": 0,
     "self_buffs": [
@@ -1353,7 +1392,7 @@
     "hit_vfx": "GenericWeaponHit",
     "projectile_speed": -1.0,
     "projectile_vfx": "",
-    "description": "Swipe at the enemy, dealing significant damage and then enter a defensive position that increases your armor.",
+    "description": "Swipe at the enemy with increase damage and accuracy and then enter a defensive position that increases your chance to avoid incoming attacks for some time.",
     "self_threat_against_buildings": 0.0,
     "self_threat_against_enemies": 0.0,
     "base_threat": 5.0,
@@ -1387,7 +1426,7 @@
       "level": 1
     },
     "icon_asset_name": "\\uFFBF",
-    "player_animation_id": 201,
+    "player_animation_id": 204,
     "npc_animation_name": "",
     "hit_vfx": "GenericWeaponHit",
     "projectile_speed": -1.0,
@@ -1398,7 +1437,7 @@
     "base_threat": 100.0,
     "threat_per_damage": 1.75,
     "is_self_targeting": false,
-    "is_taunt_action": false
+    "is_taunt_action": true
   },
   {
     "name": "Grievous Wound",
@@ -1554,7 +1593,7 @@
       "level": 1
     },
     "icon_asset_name": "\\uFFC1",
-    "player_animation_id": 402,
+    "player_animation_id": 403,
     "npc_animation_name": "",
     "hit_vfx": "Mace_Special1_Hit",
     "projectile_speed": -1.0,
@@ -1642,7 +1681,7 @@
       "level": 1
     },
     "icon_asset_name": "\\uFFB8",
-    "player_animation_id": 402,
+    "player_animation_id": 404,
     "npc_animation_name": "",
     "hit_vfx": "Mace_Special1_Hit",
     "projectile_speed": -1.0,
