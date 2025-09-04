@@ -5319,6 +5319,36 @@
           "elements": [
             {
               "name": {
+                "some": "x"
+              },
+              "algebraic_type": {
+                "I32": []
+              }
+            },
+            {
+              "name": {
+                "some": "z"
+              },
+              "algebraic_type": {
+                "I32": []
+              }
+            },
+            {
+              "name": {
+                "some": "dimension"
+              },
+              "algebraic_type": {
+                "U32": []
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Product": {
+          "elements": [
+            {
+              "name": {
                 "some": "owner_entity_id"
               },
               "algebraic_type": {
@@ -5404,7 +5434,7 @@
                 "some": "coordinates"
               },
               "algebraic_type": {
-                "Ref": 84
+                "Ref": 85
               }
             },
             {
@@ -5464,7 +5494,7 @@
                 "some": "coordinates"
               },
               "algebraic_type": {
-                "Ref": 84
+                "Ref": 85
               }
             },
             {
@@ -5627,7 +5657,7 @@
                 "some": "location"
               },
               "algebraic_type": {
-                "Ref": 84
+                "Ref": 85
               }
             },
             {
@@ -5666,7 +5696,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 92
+                  "Ref": 93
                 }
               }
             }
@@ -6170,7 +6200,7 @@
                 "some": "from_pocket"
               },
               "algebraic_type": {
-                "Ref": 107
+                "Ref": 108
               }
             }
           ]
@@ -6900,7 +6930,7 @@
                 "some": "mask"
               },
               "algebraic_type": {
-                "Ref": 127
+                "Ref": 128
               }
             }
           ]
@@ -7077,7 +7107,7 @@
                 "some": "collectible_type"
               },
               "algebraic_type": {
-                "Ref": 131
+                "Ref": 132
               }
             },
             {
@@ -7085,7 +7115,7 @@
                 "some": "invalidates_type"
               },
               "algebraic_type": {
-                "Ref": 131
+                "Ref": 132
               }
             },
             {
@@ -7558,7 +7588,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 133
+                  "Ref": 134
                 }
               }
             },
@@ -7568,7 +7598,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 133
+                  "Ref": 134
                 }
               }
             },
@@ -7584,7 +7614,7 @@
                         "some": "some"
                       },
                       "algebraic_type": {
-                        "Ref": 134
+                        "Ref": 135
                       }
                     },
                     {
@@ -7896,7 +7926,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 133
+                  "Ref": 134
                 }
               }
             },
@@ -7906,7 +7936,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 133
+                  "Ref": 134
                 }
               }
             },
@@ -7922,7 +7952,7 @@
                         "some": "some"
                       },
                       "algebraic_type": {
-                        "Ref": 134
+                        "Ref": 135
                       }
                     },
                     {
@@ -8246,7 +8276,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 134
+                  "Ref": 135
                 }
               }
             },
@@ -8256,7 +8286,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 141
+                  "Ref": 142
                 }
               }
             },
@@ -8266,7 +8296,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 142
+                  "Ref": 143
                 }
               }
             },
@@ -8276,7 +8306,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 142
+                  "Ref": 143
                 }
               }
             },
@@ -8294,7 +8324,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 143
+                  "Ref": 144
                 }
               }
             },
@@ -8760,7 +8790,7 @@
                         "some": "some"
                       },
                       "algebraic_type": {
-                        "Ref": 154
+                        "Ref": 155
                       }
                     },
                     {
@@ -8783,7 +8813,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 134
+                  "Ref": 135
                 }
               }
             },
@@ -8793,7 +8823,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 141
+                  "Ref": 142
                 }
               }
             },
@@ -8803,7 +8833,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 142
+                  "Ref": 143
                 }
               }
             },
@@ -8839,7 +8869,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 143
+                  "Ref": 144
                 }
               }
             },
@@ -9050,7 +9080,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 134
+                  "Ref": 135
                 }
               }
             },
@@ -9060,7 +9090,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 141
+                  "Ref": 142
                 }
               }
             },
@@ -9088,7 +9118,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 143
+                  "Ref": 144
                 }
               }
             },
@@ -9248,7 +9278,7 @@
                 "some": "deployable_type"
               },
               "algebraic_type": {
-                "Ref": 160
+                "Ref": 161
               }
             },
             {
@@ -9264,7 +9294,7 @@
                 "some": "movement_type"
               },
               "algebraic_type": {
-                "Ref": 161
+                "Ref": 162
               }
             },
             {
@@ -9281,7 +9311,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 162
+                  "Ref": 163
                 }
               }
             },
@@ -9431,7 +9461,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 143
+                  "Ref": 144
                 }
               }
             },
@@ -9566,7 +9596,7 @@
                 "some": "surface_type"
               },
               "algebraic_type": {
-                "Ref": 163
+                "Ref": 164
               }
             },
             {
@@ -10252,7 +10282,7 @@
                 "some": "dimension_type"
               },
               "algebraic_type": {
-                "Ref": 173
+                "Ref": 174
               }
             }
           ]
@@ -11498,7 +11528,7 @@
                 "some": "notification_type"
               },
               "algebraic_type": {
-                "Ref": 199
+                "Ref": 200
               }
             },
             {
@@ -11901,7 +11931,7 @@
                 "some": "from_pocket"
               },
               "algebraic_type": {
-                "Ref": 107
+                "Ref": 108
               }
             }
           ]
@@ -12177,7 +12207,7 @@
                 "some": "grace_period_type"
               },
               "algebraic_type": {
-                "Ref": 210
+                "Ref": 211
               }
             }
           ]
@@ -12233,7 +12263,7 @@
                 "some": "biome"
               },
               "algebraic_type": {
-                "Ref": 212
+                "Ref": 213
               }
             },
             {
@@ -12785,7 +12815,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 215
+                  "Ref": 216
                 }
               }
             },
@@ -12795,7 +12825,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 143
+                  "Ref": 144
                 }
               }
             },
@@ -13187,37 +13217,7 @@
                 "some": "loot_coordinates"
               },
               "algebraic_type": {
-                "Ref": 223
-              }
-            }
-          ]
-        }
-      },
-      {
-        "Product": {
-          "elements": [
-            {
-              "name": {
-                "some": "x"
-              },
-              "algebraic_type": {
-                "I32": []
-              }
-            },
-            {
-              "name": {
-                "some": "z"
-              },
-              "algebraic_type": {
-                "I32": []
-              }
-            },
-            {
-              "name": {
-                "some": "dimension"
-              },
-              "algebraic_type": {
-                "U32": []
+                "Ref": 80
               }
             }
           ]
@@ -13530,7 +13530,7 @@
                         "some": "some"
                       },
                       "algebraic_type": {
-                        "Ref": 107
+                        "Ref": 108
                       }
                     },
                     {
@@ -13591,7 +13591,7 @@
                         "some": "some"
                       },
                       "algebraic_type": {
-                        "Ref": 134
+                        "Ref": 135
                       }
                     },
                     {
@@ -13934,7 +13934,7 @@
                         "some": "some"
                       },
                       "algebraic_type": {
-                        "Ref": 107
+                        "Ref": 108
                       }
                     },
                     {
@@ -14255,7 +14255,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 215
+                  "Ref": 216
                 }
               }
             },
@@ -14265,7 +14265,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 142
+                  "Ref": 143
                 }
               }
             },
@@ -14283,7 +14283,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 141
+                  "Ref": 142
                 }
               }
             },
@@ -14301,7 +14301,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 134
+                  "Ref": 135
                 }
               }
             },
@@ -14311,7 +14311,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 143
+                  "Ref": 144
                 }
               }
             },
@@ -14415,7 +14415,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 133
+                  "Ref": 134
                 }
               }
             }
@@ -16644,7 +16644,7 @@
                 "some": "dimension_type"
               },
               "algebraic_type": {
-                "Ref": 173
+                "Ref": 174
               }
             },
             {
@@ -18065,7 +18065,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 223
+                  "Ref": 80
                 }
               }
             },
@@ -18095,7 +18095,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 223
+                  "Ref": 80
                 }
               }
             },
@@ -18160,7 +18160,7 @@
                 "some": "coordinates"
               },
               "algebraic_type": {
-                "Ref": 223
+                "Ref": 80
               }
             }
           ]
@@ -18353,7 +18353,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 215
+                  "Ref": 216
                 }
               }
             }
@@ -18756,7 +18756,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 162
+                  "Ref": 163
                 }
               }
             },
@@ -19820,7 +19820,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 142
+                  "Ref": 143
                 }
               }
             },
@@ -19846,7 +19846,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 143
+                  "Ref": 144
                 }
               }
             },
@@ -19956,7 +19956,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 142
+                  "Ref": 143
                 }
               }
             },
@@ -19982,7 +19982,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 143
+                  "Ref": 144
                 }
               }
             },
@@ -21594,7 +21594,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 134
+                  "Ref": 135
                 }
               }
             },
@@ -21604,7 +21604,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 141
+                  "Ref": 142
                 }
               }
             },
@@ -21614,7 +21614,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 142
+                  "Ref": 143
                 }
               }
             },
@@ -21624,7 +21624,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 142
+                  "Ref": 143
                 }
               }
             },
@@ -21634,7 +21634,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 143
+                  "Ref": 144
                 }
               }
             },
@@ -21672,7 +21672,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 212
+                  "Ref": 213
                 }
               }
             },
@@ -22410,7 +22410,7 @@
                         "some": "some"
                       },
                       "algebraic_type": {
-                        "Ref": 141
+                        "Ref": 142
                       }
                     },
                     {
@@ -22960,7 +22960,7 @@
                 "some": "rewarded_experience"
               },
               "algebraic_type": {
-                "Ref": 143
+                "Ref": 144
               }
             },
             {
@@ -23085,7 +23085,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 134
+                  "Ref": 135
                 }
               }
             },
@@ -24790,7 +24790,7 @@
                 "some": "Insert"
               },
               "algebraic_type": {
-                "Ref": 99
+                "Ref": 100
               }
             },
             {
@@ -24798,7 +24798,7 @@
                 "some": "Delete"
               },
               "algebraic_type": {
-                "Ref": 99
+                "Ref": 100
               }
             }
           ]
@@ -24812,7 +24812,7 @@
                 "some": "Insert"
               },
               "algebraic_type": {
-                "Ref": 111
+                "Ref": 112
               }
             },
             {
@@ -24820,7 +24820,7 @@
                 "some": "Delete"
               },
               "algebraic_type": {
-                "Ref": 111
+                "Ref": 112
               }
             }
           ]
@@ -24834,7 +24834,7 @@
                 "some": "Insert"
               },
               "algebraic_type": {
-                "Ref": 190
+                "Ref": 191
               }
             },
             {
@@ -24842,7 +24842,7 @@
                 "some": "Delete"
               },
               "algebraic_type": {
-                "Ref": 190
+                "Ref": 191
               }
             }
           ]
@@ -24856,7 +24856,7 @@
                 "some": "Insert"
               },
               "algebraic_type": {
-                "Ref": 194
+                "Ref": 195
               }
             },
             {
@@ -24864,29 +24864,7 @@
                 "some": "Delete"
               },
               "algebraic_type": {
-                "Ref": 194
-              }
-            }
-          ]
-        }
-      },
-      {
-        "Sum": {
-          "variants": [
-            {
-              "name": {
-                "some": "Insert"
-              },
-              "algebraic_type": {
-                "Ref": 196
-              }
-            },
-            {
-              "name": {
-                "some": "Delete"
-              },
-              "algebraic_type": {
-                "Ref": 196
+                "Ref": 195
               }
             }
           ]
@@ -24922,7 +24900,7 @@
                 "some": "Insert"
               },
               "algebraic_type": {
-                "Ref": 200
+                "Ref": 198
               }
             },
             {
@@ -24930,7 +24908,7 @@
                 "some": "Delete"
               },
               "algebraic_type": {
-                "Ref": 200
+                "Ref": 198
               }
             }
           ]
@@ -24944,7 +24922,7 @@
                 "some": "Insert"
               },
               "algebraic_type": {
-                "Ref": 203
+                "Ref": 201
               }
             },
             {
@@ -24952,7 +24930,7 @@
                 "some": "Delete"
               },
               "algebraic_type": {
-                "Ref": 203
+                "Ref": 201
               }
             }
           ]
@@ -24966,7 +24944,7 @@
                 "some": "Insert"
               },
               "algebraic_type": {
-                "Ref": 205
+                "Ref": 204
               }
             },
             {
@@ -24974,7 +24952,7 @@
                 "some": "Delete"
               },
               "algebraic_type": {
-                "Ref": 205
+                "Ref": 204
               }
             }
           ]
@@ -24997,6 +24975,28 @@
               },
               "algebraic_type": {
                 "Ref": 206
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Sum": {
+          "variants": [
+            {
+              "name": {
+                "some": "Insert"
+              },
+              "algebraic_type": {
+                "Ref": 207
+              }
+            },
+            {
+              "name": {
+                "some": "Delete"
+              },
+              "algebraic_type": {
+                "Ref": 207
               }
             }
           ]
@@ -25661,7 +25661,7 @@
                         "some": "some"
                       },
                       "algebraic_type": {
-                        "Ref": 168
+                        "Ref": 169
                       }
                     },
                     {
@@ -25973,7 +25973,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 157
+                  "Ref": 158
                 }
               }
             },
@@ -25982,7 +25982,7 @@
                 "some": "combat_state"
               },
               "algebraic_type": {
-                "Ref": 138
+                "Ref": 139
               }
             },
             {
@@ -26143,7 +26143,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 168
+                  "Ref": 169
                 }
               }
             }
@@ -27260,7 +27260,7 @@
                 "some": "deployable_state"
               },
               "algebraic_type": {
-                "Ref": 168
+                "Ref": 169
               }
             },
             {
@@ -27475,7 +27475,7 @@
                 "some": "pocket"
               },
               "algebraic_type": {
-                "Ref": 107
+                "Ref": 108
               }
             }
           ]
@@ -27527,7 +27527,7 @@
                 "some": "from_pocket"
               },
               "algebraic_type": {
-                "Ref": 107
+                "Ref": 108
               }
             },
             {
@@ -27535,7 +27535,7 @@
                 "some": "to_pocket"
               },
               "algebraic_type": {
-                "Ref": 107
+                "Ref": 108
               }
             },
             {
@@ -27557,7 +27557,7 @@
                 "some": "from_pocket"
               },
               "algebraic_type": {
-                "Ref": 107
+                "Ref": 108
               }
             },
             {
@@ -27565,7 +27565,7 @@
                 "some": "to_pocket"
               },
               "algebraic_type": {
-                "Ref": 107
+                "Ref": 108
               }
             }
           ]
@@ -27579,7 +27579,7 @@
                 "some": "from_pocket"
               },
               "algebraic_type": {
-                "Ref": 107
+                "Ref": 108
               }
             },
             {
@@ -28230,7 +28230,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 162
+                  "Ref": 163
                 }
               }
             }
@@ -28254,7 +28254,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 143
+                  "Ref": 144
                 }
               }
             }
@@ -30089,7 +30089,7 @@
                 "some": "from_pocket"
               },
               "algebraic_type": {
-                "Ref": 107
+                "Ref": 108
               }
             },
             {
@@ -30097,7 +30097,7 @@
                 "some": "to_pocket"
               },
               "algebraic_type": {
-                "Ref": 107
+                "Ref": 108
               }
             },
             {
@@ -30142,7 +30142,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 107
+                  "Ref": 108
                 }
               }
             }
@@ -30992,7 +30992,7 @@
                 "some": "coordinates"
               },
               "algebraic_type": {
-                "Ref": 223
+                "Ref": 80
               }
             },
             {
@@ -31174,7 +31174,7 @@
                 "some": "coord"
               },
               "algebraic_type": {
-                "Ref": 223
+                "Ref": 80
               }
             }
           ]
@@ -31626,7 +31626,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 211
+                  "Ref": 212
                 }
               }
             },
@@ -31636,7 +31636,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 202
+                  "Ref": 203
                 }
               }
             },
@@ -31646,7 +31646,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 188
+                  "Ref": 189
                 }
               }
             },
@@ -31656,7 +31656,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 123
+                  "Ref": 124
                 }
               }
             },
@@ -31666,7 +31666,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 118
+                  "Ref": 119
                 }
               }
             },
@@ -31676,7 +31676,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 114
+                  "Ref": 115
                 }
               }
             },
@@ -31916,7 +31916,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 91
+                  "Ref": 92
                 }
               }
             },
@@ -31926,7 +31926,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 126
+                  "Ref": 127
                 }
               }
             },
@@ -31936,7 +31936,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 130
+                  "Ref": 131
                 }
               }
             },
@@ -31946,7 +31946,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 132
+                  "Ref": 133
                 }
               }
             },
@@ -31956,7 +31956,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 140
+                  "Ref": 141
                 }
               }
             },
@@ -31966,7 +31966,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 153
+                  "Ref": 154
                 }
               }
             },
@@ -31976,7 +31976,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 156
+                  "Ref": 157
                 }
               }
             },
@@ -31986,7 +31986,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 207
+                  "Ref": 208
                 }
               }
             },
@@ -31996,7 +31996,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 214
+                  "Ref": 215
                 }
               }
             },
@@ -32186,7 +32186,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 159
+                  "Ref": 160
                 }
               }
             },
@@ -32226,7 +32226,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 198
+                  "Ref": 199
                 }
               }
             },
@@ -32236,7 +32236,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 208
+                  "Ref": 209
                 }
               }
             },
@@ -32246,7 +32246,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 192
+                  "Ref": 193
                 }
               }
             },
@@ -32256,7 +32256,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 195
+                  "Ref": 196
                 }
               }
             },
@@ -32286,7 +32286,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 186
+                  "Ref": 187
                 }
               }
             },
@@ -32306,7 +32306,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 177
+                  "Ref": 178
                 }
               }
             },
@@ -32474,7 +32474,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 211
+                  "Ref": 212
                 }
               }
             },
@@ -32484,7 +32484,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 202
+                  "Ref": 203
                 }
               }
             },
@@ -32494,7 +32494,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 188
+                  "Ref": 189
                 }
               }
             },
@@ -32504,7 +32504,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 123
+                  "Ref": 124
                 }
               }
             },
@@ -32514,7 +32514,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 118
+                  "Ref": 119
                 }
               }
             },
@@ -32524,7 +32524,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 114
+                  "Ref": 115
                 }
               }
             },
@@ -32764,7 +32764,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 91
+                  "Ref": 92
                 }
               }
             },
@@ -32774,7 +32774,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 126
+                  "Ref": 127
                 }
               }
             },
@@ -32784,7 +32784,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 130
+                  "Ref": 131
                 }
               }
             },
@@ -32794,7 +32794,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 135
+                  "Ref": 136
                 }
               }
             },
@@ -32804,7 +32804,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 136
+                  "Ref": 137
                 }
               }
             },
@@ -32814,7 +32814,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 140
+                  "Ref": 141
                 }
               }
             },
@@ -32824,7 +32824,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 153
+                  "Ref": 154
                 }
               }
             },
@@ -32834,7 +32834,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 156
+                  "Ref": 157
                 }
               }
             },
@@ -32844,7 +32844,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 207
+                  "Ref": 208
                 }
               }
             },
@@ -32854,7 +32854,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 214
+                  "Ref": 215
                 }
               }
             },
@@ -33044,7 +33044,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 159
+                  "Ref": 160
                 }
               }
             },
@@ -33084,7 +33084,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 198
+                  "Ref": 199
                 }
               }
             },
@@ -33094,7 +33094,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 208
+                  "Ref": 209
                 }
               }
             },
@@ -33104,7 +33104,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 192
+                  "Ref": 193
                 }
               }
             },
@@ -33114,7 +33114,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 195
+                  "Ref": 196
                 }
               }
             },
@@ -33144,7 +33144,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 186
+                  "Ref": 187
                 }
               }
             },
@@ -33164,7 +33164,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 177
+                  "Ref": 178
                 }
               }
             },
@@ -33204,7 +33204,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 144
+                  "Ref": 145
                 }
               }
             }
@@ -33617,7 +33617,7 @@
                 "some": "coordinates"
               },
               "algebraic_type": {
-                "Ref": 84
+                "Ref": 85
               }
             },
             {
@@ -33647,7 +33647,7 @@
                 "some": "coordinates"
               },
               "algebraic_type": {
-                "Ref": 84
+                "Ref": 85
               }
             }
           ]
@@ -33699,7 +33699,7 @@
                 "some": "coordinates"
               },
               "algebraic_type": {
-                "Ref": 84
+                "Ref": 85
               }
             },
             {
@@ -33753,7 +33753,7 @@
                 "some": "placeholder_water_body_type"
               },
               "algebraic_type": {
-                "Ref": 163
+                "Ref": 164
               }
             },
             {
@@ -36892,7 +36892,7 @@
     },
     {
       "name": "chest_rarity_desc",
-      "product_type_ref": 91,
+      "product_type_ref": 92,
       "primary_key": [
         0
       ],
@@ -36938,7 +36938,7 @@
     },
     {
       "name": "claim_local_state",
-      "product_type_ref": 98,
+      "product_type_ref": 99,
       "primary_key": [
         0
       ],
@@ -36984,7 +36984,7 @@
     },
     {
       "name": "claim_member_state",
-      "product_type_ref": 99,
+      "product_type_ref": 100,
       "primary_key": [
         0
       ],
@@ -37070,7 +37070,7 @@
     },
     {
       "name": "claim_recruitment_state",
-      "product_type_ref": 101,
+      "product_type_ref": 102,
       "primary_key": [
         0
       ],
@@ -37116,7 +37116,7 @@
     },
     {
       "name": "claim_state",
-      "product_type_ref": 111,
+      "product_type_ref": 112,
       "primary_key": [
         0
       ],
@@ -37226,7 +37226,7 @@
     },
     {
       "name": "claim_tech_desc",
-      "product_type_ref": 114,
+      "product_type_ref": 115,
       "primary_key": [
         0
       ],
@@ -37285,7 +37285,7 @@
     },
     {
       "name": "claim_tech_state",
-      "product_type_ref": 116,
+      "product_type_ref": 117,
       "primary_key": [
         0
       ],
@@ -37331,7 +37331,7 @@
     },
     {
       "name": "claim_tech_unlock_timer",
-      "product_type_ref": 117,
+      "product_type_ref": 118,
       "primary_key": [
         0
       ],
@@ -37400,7 +37400,7 @@
     },
     {
       "name": "claim_tile_cost",
-      "product_type_ref": 118,
+      "product_type_ref": 119,
       "primary_key": [
         0
       ],
@@ -37446,7 +37446,7 @@
     },
     {
       "name": "claim_tile_state",
-      "product_type_ref": 119,
+      "product_type_ref": 120,
       "primary_key": [
         0
       ],
@@ -37505,7 +37505,7 @@
     },
     {
       "name": "climb_requirement_desc",
-      "product_type_ref": 123,
+      "product_type_ref": 124,
       "primary_key": [
         0
       ],
@@ -37568,7 +37568,7 @@
     },
     {
       "name": "closed_listing_state",
-      "product_type_ref": 125,
+      "product_type_ref": 126,
       "primary_key": [
         0
       ],
@@ -37641,7 +37641,7 @@
     },
     {
       "name": "clothing_desc",
-      "product_type_ref": 126,
+      "product_type_ref": 127,
       "primary_key": [
         0
       ],
@@ -37687,7 +37687,7 @@
     },
     {
       "name": "collect_stats_timer",
-      "product_type_ref": 128,
+      "product_type_ref": 129,
       "primary_key": [
         0
       ],
@@ -37756,7 +37756,7 @@
     },
     {
       "name": "collectible_desc",
-      "product_type_ref": 130,
+      "product_type_ref": 131,
       "primary_key": [
         0
       ],
@@ -37815,7 +37815,7 @@
     },
     {
       "name": "combat_action_desc",
-      "product_type_ref": 132,
+      "product_type_ref": 133,
       "primary_key": [
         1
       ],
@@ -37874,7 +37874,7 @@
     },
     {
       "name": "combat_action_desc_v2",
-      "product_type_ref": 135,
+      "product_type_ref": 136,
       "primary_key": [
         1
       ],
@@ -37933,7 +37933,7 @@
     },
     {
       "name": "combat_action_multi_hit_desc",
-      "product_type_ref": 136,
+      "product_type_ref": 137,
       "primary_key": [
         0
       ],
@@ -37979,7 +37979,7 @@
     },
     {
       "name": "combat_dimension_state",
-      "product_type_ref": 137,
+      "product_type_ref": 138,
       "primary_key": [
         0
       ],
@@ -38025,7 +38025,7 @@
     },
     {
       "name": "combat_state",
-      "product_type_ref": 138,
+      "product_type_ref": 139,
       "primary_key": [
         0
       ],
@@ -38071,7 +38071,7 @@
     },
     {
       "name": "config",
-      "product_type_ref": 139,
+      "product_type_ref": 140,
       "primary_key": [
         0
       ],
@@ -38117,7 +38117,7 @@
     },
     {
       "name": "construction_recipe_desc",
-      "product_type_ref": 140,
+      "product_type_ref": 141,
       "primary_key": [
         0
       ],
@@ -38176,7 +38176,7 @@
     },
     {
       "name": "contribution_loot_desc",
-      "product_type_ref": 144,
+      "product_type_ref": 145,
       "primary_key": [
         0
       ],
@@ -38235,7 +38235,7 @@
     },
     {
       "name": "contribution_state",
-      "product_type_ref": 145,
+      "product_type_ref": 146,
       "primary_key": [
         0
       ],
@@ -38308,7 +38308,7 @@
     },
     {
       "name": "crafting_recipe_desc",
-      "product_type_ref": 153,
+      "product_type_ref": 154,
       "primary_key": [
         0
       ],
@@ -38354,7 +38354,7 @@
     },
     {
       "name": "day_night_loop_timer",
-      "product_type_ref": 155,
+      "product_type_ref": 156,
       "primary_key": [
         0
       ],
@@ -38423,7 +38423,7 @@
     },
     {
       "name": "deconstruction_recipe_desc",
-      "product_type_ref": 156,
+      "product_type_ref": 157,
       "primary_key": [
         0
       ],
@@ -38482,7 +38482,7 @@
     },
     {
       "name": "deployable_collectible_state",
-      "product_type_ref": 157,
+      "product_type_ref": 158,
       "primary_key": [
         0
       ],
@@ -38541,7 +38541,7 @@
     },
     {
       "name": "deployable_desc",
-      "product_type_ref": 159,
+      "product_type_ref": 160,
       "primary_key": [
         0
       ],
@@ -38612,7 +38612,7 @@
     },
     {
       "name": "deployable_dismount_timer",
-      "product_type_ref": 165,
+      "product_type_ref": 166,
       "primary_key": [
         0
       ],
@@ -38681,7 +38681,7 @@
     },
     {
       "name": "deployable_state",
-      "product_type_ref": 168,
+      "product_type_ref": 169,
       "primary_key": [
         0
       ],
@@ -38753,7 +38753,7 @@
     },
     {
       "name": "destroy_dimension_network_timer",
-      "product_type_ref": 170,
+      "product_type_ref": 171,
       "primary_key": [
         0
       ],
@@ -38822,7 +38822,7 @@
     },
     {
       "name": "developer",
-      "product_type_ref": 171,
+      "product_type_ref": 172,
       "primary_key": [
         0
       ],
@@ -38868,7 +38868,7 @@
     },
     {
       "name": "dimension_description_state",
-      "product_type_ref": 172,
+      "product_type_ref": 173,
       "primary_key": [
         0
       ],
@@ -38952,7 +38952,7 @@
     },
     {
       "name": "dimension_network_state",
-      "product_type_ref": 174,
+      "product_type_ref": 175,
       "primary_key": [
         0
       ],
@@ -39023,7 +39023,7 @@
     },
     {
       "name": "distant_visible_entity",
-      "product_type_ref": 176,
+      "product_type_ref": 177,
       "primary_key": [
         0
       ],
@@ -39069,7 +39069,7 @@
     },
     {
       "name": "distant_visible_entity_desc",
-      "product_type_ref": 177,
+      "product_type_ref": 178,
       "primary_key": [
         0
       ],
@@ -39128,7 +39128,7 @@
     },
     {
       "name": "dropped_inventory_despawn_timer",
-      "product_type_ref": 178,
+      "product_type_ref": 179,
       "primary_key": [
         0
       ],
@@ -39210,7 +39210,7 @@
     },
     {
       "name": "dropped_inventory_ownership_timer",
-      "product_type_ref": 179,
+      "product_type_ref": 180,
       "primary_key": [
         0
       ],
@@ -39292,7 +39292,7 @@
     },
     {
       "name": "dropped_inventory_state",
-      "product_type_ref": 180,
+      "product_type_ref": 181,
       "primary_key": [
         0
       ],
@@ -39351,7 +39351,7 @@
     },
     {
       "name": "duel_agent_timer",
-      "product_type_ref": 181,
+      "product_type_ref": 182,
       "primary_key": [
         0
       ],
@@ -39420,7 +39420,7 @@
     },
     {
       "name": "duel_despawn_timer",
-      "product_type_ref": 182,
+      "product_type_ref": 183,
       "primary_key": [
         0
       ],
@@ -39489,7 +39489,7 @@
     },
     {
       "name": "duel_state",
-      "product_type_ref": 183,
+      "product_type_ref": 184,
       "primary_key": [
         0
       ],
@@ -39585,7 +39585,7 @@
     },
     {
       "name": "dungeon_state",
-      "product_type_ref": 184,
+      "product_type_ref": 185,
       "primary_key": [
         0
       ],
@@ -39631,7 +39631,7 @@
     },
     {
       "name": "elevator_desc",
-      "product_type_ref": 186,
+      "product_type_ref": 187,
       "primary_key": [
         0
       ],
@@ -39677,7 +39677,7 @@
     },
     {
       "name": "emote_desc",
-      "product_type_ref": 188,
+      "product_type_ref": 189,
       "primary_key": [
         0
       ],
@@ -39723,7 +39723,7 @@
     },
     {
       "name": "empire_chunk_state",
-      "product_type_ref": 190,
+      "product_type_ref": 191,
       "primary_key": [
         0
       ],
@@ -39769,7 +39769,7 @@
     },
     {
       "name": "empire_color_desc",
-      "product_type_ref": 192,
+      "product_type_ref": 193,
       "primary_key": [
         0
       ],
@@ -39815,7 +39815,7 @@
     },
     {
       "name": "empire_expansion_state",
-      "product_type_ref": 194,
+      "product_type_ref": 195,
       "primary_key": [
         0
       ],
@@ -39861,7 +39861,7 @@
     },
     {
       "name": "empire_icon_desc",
-      "product_type_ref": 195,
+      "product_type_ref": 196,
       "primary_key": [
         0
       ],
@@ -39907,7 +39907,7 @@
     },
     {
       "name": "empire_node_siege_state",
-      "product_type_ref": 196,
+      "product_type_ref": 197,
       "primary_key": [
         0
       ],
@@ -39992,7 +39992,7 @@
     },
     {
       "name": "empire_node_state",
-      "product_type_ref": 197,
+      "product_type_ref": 198,
       "primary_key": [
         0
       ],
@@ -40077,7 +40077,7 @@
     },
     {
       "name": "empire_notification_desc",
-      "product_type_ref": 198,
+      "product_type_ref": 199,
       "primary_key": [
         0
       ],
@@ -40123,7 +40123,7 @@
     },
     {
       "name": "empire_player_data_state",
-      "product_type_ref": 200,
+      "product_type_ref": 201,
       "primary_key": [
         0
       ],
@@ -40182,7 +40182,7 @@
     },
     {
       "name": "empire_rank_desc",
-      "product_type_ref": 202,
+      "product_type_ref": 203,
       "primary_key": [
         0
       ],
@@ -40228,7 +40228,7 @@
     },
     {
       "name": "empire_rank_state",
-      "product_type_ref": 203,
+      "product_type_ref": 204,
       "primary_key": [
         0
       ],
@@ -40314,7 +40314,7 @@
     },
     {
       "name": "empire_settlement_state",
-      "product_type_ref": 205,
+      "product_type_ref": 206,
       "primary_key": [
         0
       ],
@@ -40411,7 +40411,7 @@
     },
     {
       "name": "empire_state",
-      "product_type_ref": 206,
+      "product_type_ref": 207,
       "primary_key": [
         0
       ],
@@ -40507,7 +40507,7 @@
     },
     {
       "name": "empire_supplies_desc",
-      "product_type_ref": 207,
+      "product_type_ref": 208,
       "primary_key": [
         0
       ],
@@ -40553,7 +40553,7 @@
     },
     {
       "name": "empire_territory_desc",
-      "product_type_ref": 208,
+      "product_type_ref": 209,
       "primary_key": [
         0
       ],
@@ -40616,7 +40616,7 @@
     },
     {
       "name": "end_grace_period_timer",
-      "product_type_ref": 209,
+      "product_type_ref": 210,
       "primary_key": [
         0
       ],
@@ -40710,7 +40710,7 @@
     },
     {
       "name": "enemy_ai_params_desc",
-      "product_type_ref": 211,
+      "product_type_ref": 212,
       "primary_key": [
         0
       ],
@@ -40756,7 +40756,7 @@
     },
     {
       "name": "enemy_desc",
-      "product_type_ref": 214,
+      "product_type_ref": 215,
       "primary_key": [
         0
       ],
@@ -40802,7 +40802,7 @@
     },
     {
       "name": "enemy_despawn_timer",
-      "product_type_ref": 216,
+      "product_type_ref": 217,
       "primary_key": [
         0
       ],
@@ -40871,7 +40871,7 @@
     },
     {
       "name": "enemy_mob_monitor_state",
-      "product_type_ref": 217,
+      "product_type_ref": 218,
       "primary_key": [
         0
       ],
@@ -40917,7 +40917,7 @@
     },
     {
       "name": "enemy_regen_loop_timer",
-      "product_type_ref": 219,
+      "product_type_ref": 220,
       "primary_key": [
         0
       ],
@@ -53717,6 +53717,106 @@
       }
     },
     {
+      "name": "cheat_drop_item_on_entity",
+      "params": {
+        "elements": [
+          {
+            "name": {
+              "some": "entity_id"
+            },
+            "algebraic_type": {
+              "U64": []
+            }
+          },
+          {
+            "name": {
+              "some": "item_id"
+            },
+            "algebraic_type": {
+              "I32": []
+            }
+          },
+          {
+            "name": {
+              "some": "quantity"
+            },
+            "algebraic_type": {
+              "I32": []
+            }
+          },
+          {
+            "name": {
+              "some": "is_cargo"
+            },
+            "algebraic_type": {
+              "Bool": []
+            }
+          },
+          {
+            "name": {
+              "some": "owner_entity_id"
+            },
+            "algebraic_type": {
+              "U64": []
+            }
+          }
+        ]
+      },
+      "lifecycle": {
+        "none": []
+      }
+    },
+    {
+      "name": "cheat_drop_item_on_tile",
+      "params": {
+        "elements": [
+          {
+            "name": {
+              "some": "coord"
+            },
+            "algebraic_type": {
+              "Ref": 80
+            }
+          },
+          {
+            "name": {
+              "some": "item_id"
+            },
+            "algebraic_type": {
+              "I32": []
+            }
+          },
+          {
+            "name": {
+              "some": "quantity"
+            },
+            "algebraic_type": {
+              "I32": []
+            }
+          },
+          {
+            "name": {
+              "some": "is_cargo"
+            },
+            "algebraic_type": {
+              "Bool": []
+            }
+          },
+          {
+            "name": {
+              "some": "owner_entity_id"
+            },
+            "algebraic_type": {
+              "U64": []
+            }
+          }
+        ]
+      },
+      "lifecycle": {
+        "none": []
+      }
+    },
+    {
       "name": "cheat_experience_grant",
       "params": {
         "elements": [
@@ -53725,7 +53825,7 @@
               "some": "request"
             },
             "algebraic_type": {
-              "Ref": 80
+              "Ref": 81
             }
           }
         ]
@@ -53743,7 +53843,7 @@
               "some": "request"
             },
             "algebraic_type": {
-              "Ref": 81
+              "Ref": 82
             }
           }
         ]
@@ -53889,7 +53989,7 @@
               "some": "request"
             },
             "algebraic_type": {
-              "Ref": 82
+              "Ref": 83
             }
           }
         ]
@@ -53941,7 +54041,7 @@
               "some": "request"
             },
             "algebraic_type": {
-              "Ref": 83
+              "Ref": 84
             }
           }
         ]
@@ -53959,7 +54059,7 @@
               "some": "request"
             },
             "algebraic_type": {
-              "Ref": 85
+              "Ref": 86
             }
           }
         ]
@@ -54109,7 +54209,7 @@
               "some": "request"
             },
             "algebraic_type": {
-              "Ref": 86
+              "Ref": 87
             }
           }
         ]
@@ -54127,7 +54227,7 @@
               "some": "request"
             },
             "algebraic_type": {
-              "Ref": 87
+              "Ref": 88
             }
           }
         ]
@@ -54145,7 +54245,7 @@
               "some": "request"
             },
             "algebraic_type": {
-              "Ref": 88
+              "Ref": 89
             }
           }
         ]
@@ -54205,7 +54305,7 @@
               "some": "request"
             },
             "algebraic_type": {
-              "Ref": 89
+              "Ref": 90
             }
           }
         ]
@@ -54223,7 +54323,7 @@
               "some": "request"
             },
             "algebraic_type": {
-              "Ref": 90
+              "Ref": 91
             }
           }
         ]
@@ -54241,7 +54341,7 @@
               "some": "request"
             },
             "algebraic_type": {
-              "Ref": 93
+              "Ref": 94
             }
           }
         ]
@@ -54259,7 +54359,7 @@
               "some": "request"
             },
             "algebraic_type": {
-              "Ref": 94
+              "Ref": 95
             }
           }
         ]
@@ -54277,7 +54377,7 @@
               "some": "request"
             },
             "algebraic_type": {
-              "Ref": 95
+              "Ref": 96
             }
           }
         ]
@@ -54295,7 +54395,7 @@
               "some": "request"
             },
             "algebraic_type": {
-              "Ref": 96
+              "Ref": 97
             }
           }
         ]
@@ -54313,7 +54413,7 @@
               "some": "request"
             },
             "algebraic_type": {
-              "Ref": 97
+              "Ref": 98
             }
           }
         ]
@@ -54331,7 +54431,7 @@
               "some": "request"
             },
             "algebraic_type": {
-              "Ref": 100
+              "Ref": 101
             }
           }
         ]
@@ -54349,7 +54449,7 @@
               "some": "request"
             },
             "algebraic_type": {
-              "Ref": 102
+              "Ref": 103
             }
           }
         ]
@@ -54367,7 +54467,7 @@
               "some": "request"
             },
             "algebraic_type": {
-              "Ref": 103
+              "Ref": 104
             }
           }
         ]
@@ -54385,7 +54485,7 @@
               "some": "request"
             },
             "algebraic_type": {
-              "Ref": 104
+              "Ref": 105
             }
           }
         ]
@@ -54403,7 +54503,7 @@
               "some": "request"
             },
             "algebraic_type": {
-              "Ref": 105
+              "Ref": 106
             }
           }
         ]
@@ -54421,7 +54521,7 @@
               "some": "request"
             },
             "algebraic_type": {
-              "Ref": 106
+              "Ref": 107
             }
           }
         ]
@@ -54439,7 +54539,7 @@
               "some": "request"
             },
             "algebraic_type": {
-              "Ref": 106
+              "Ref": 107
             }
           }
         ]
@@ -54457,7 +54557,7 @@
               "some": "request"
             },
             "algebraic_type": {
-              "Ref": 108
+              "Ref": 109
             }
           }
         ]
@@ -54475,7 +54575,7 @@
               "some": "request"
             },
             "algebraic_type": {
-              "Ref": 109
+              "Ref": 110
             }
           }
         ]
@@ -54493,7 +54593,7 @@
               "some": "request"
             },
             "algebraic_type": {
-              "Ref": 110
+              "Ref": 111
             }
           }
         ]
@@ -54511,7 +54611,7 @@
               "some": "request"
             },
             "algebraic_type": {
-              "Ref": 112
+              "Ref": 113
             }
           }
         ]
@@ -54529,7 +54629,7 @@
               "some": "request"
             },
             "algebraic_type": {
-              "Ref": 113
+              "Ref": 114
             }
           }
         ]
@@ -54547,7 +54647,7 @@
               "some": "request"
             },
             "algebraic_type": {
-              "Ref": 115
+              "Ref": 116
             }
           }
         ]
@@ -54565,7 +54665,7 @@
               "some": "timer"
             },
             "algebraic_type": {
-              "Ref": 117
+              "Ref": 118
             }
           }
         ]
@@ -54583,7 +54683,7 @@
               "some": "request"
             },
             "algebraic_type": {
-              "Ref": 120
+              "Ref": 121
             }
           }
         ]
@@ -54601,7 +54701,7 @@
               "some": "request"
             },
             "algebraic_type": {
-              "Ref": 121
+              "Ref": 122
             }
           }
         ]
@@ -54619,7 +54719,7 @@
               "some": "request"
             },
             "algebraic_type": {
-              "Ref": 122
+              "Ref": 123
             }
           }
         ]
@@ -54646,7 +54746,7 @@
               "some": "request"
             },
             "algebraic_type": {
-              "Ref": 124
+              "Ref": 125
             }
           }
         ]
@@ -54664,7 +54764,7 @@
               "some": "timer"
             },
             "algebraic_type": {
-              "Ref": 128
+              "Ref": 129
             }
           }
         ]
@@ -54682,7 +54782,7 @@
               "some": "request"
             },
             "algebraic_type": {
-              "Ref": 129
+              "Ref": 130
             }
           }
         ]
@@ -54745,7 +54845,7 @@
               "some": "request"
             },
             "algebraic_type": {
-              "Ref": 146
+              "Ref": 147
             }
           }
         ]
@@ -54763,7 +54863,7 @@
               "some": "request"
             },
             "algebraic_type": {
-              "Ref": 147
+              "Ref": 148
             }
           }
         ]
@@ -54781,7 +54881,7 @@
               "some": "request"
             },
             "algebraic_type": {
-              "Ref": 148
+              "Ref": 149
             }
           }
         ]
@@ -54799,7 +54899,7 @@
               "some": "request"
             },
             "algebraic_type": {
-              "Ref": 149
+              "Ref": 150
             }
           }
         ]
@@ -54817,7 +54917,7 @@
               "some": "request"
             },
             "algebraic_type": {
-              "Ref": 150
+              "Ref": 151
             }
           }
         ]
@@ -54835,7 +54935,7 @@
               "some": "request"
             },
             "algebraic_type": {
-              "Ref": 151
+              "Ref": 152
             }
           }
         ]
@@ -54853,7 +54953,7 @@
               "some": "request"
             },
             "algebraic_type": {
-              "Ref": 151
+              "Ref": 152
             }
           }
         ]
@@ -54871,7 +54971,7 @@
               "some": "request"
             },
             "algebraic_type": {
-              "Ref": 152
+              "Ref": 153
             }
           }
         ]
@@ -54889,7 +54989,7 @@
               "some": "request"
             },
             "algebraic_type": {
-              "Ref": 152
+              "Ref": 153
             }
           }
         ]
@@ -54942,7 +55042,7 @@
               "some": "_timer"
             },
             "algebraic_type": {
-              "Ref": 155
+              "Ref": 156
             }
           }
         ]
@@ -54987,7 +55087,7 @@
               "some": "request"
             },
             "algebraic_type": {
-              "Ref": 158
+              "Ref": 159
             }
           }
         ]
@@ -55005,7 +55105,7 @@
               "some": "request"
             },
             "algebraic_type": {
-              "Ref": 158
+              "Ref": 159
             }
           }
         ]
@@ -55023,7 +55123,7 @@
               "some": "request"
             },
             "algebraic_type": {
-              "Ref": 164
+              "Ref": 165
             }
           }
         ]
@@ -55041,7 +55141,7 @@
               "some": "timer"
             },
             "algebraic_type": {
-              "Ref": 165
+              "Ref": 166
             }
           }
         ]
@@ -55059,7 +55159,7 @@
               "some": "request"
             },
             "algebraic_type": {
-              "Ref": 166
+              "Ref": 167
             }
           }
         ]
@@ -55077,7 +55177,7 @@
               "some": "request"
             },
             "algebraic_type": {
-              "Ref": 167
+              "Ref": 168
             }
           }
         ]
@@ -55131,7 +55231,7 @@
               "some": "request"
             },
             "algebraic_type": {
-              "Ref": 169
+              "Ref": 170
             }
           }
         ]
@@ -55149,7 +55249,7 @@
               "some": "request"
             },
             "algebraic_type": {
-              "Ref": 169
+              "Ref": 170
             }
           }
         ]
@@ -55167,7 +55267,7 @@
               "some": "timer"
             },
             "algebraic_type": {
-              "Ref": 170
+              "Ref": 171
             }
           }
         ]
@@ -55194,7 +55294,7 @@
               "some": "request"
             },
             "algebraic_type": {
-              "Ref": 175
+              "Ref": 176
             }
           }
         ]
@@ -55212,7 +55312,7 @@
               "some": "timer"
             },
             "algebraic_type": {
-              "Ref": 178
+              "Ref": 179
             }
           }
         ]
@@ -55248,7 +55348,7 @@
               "some": "timer"
             },
             "algebraic_type": {
-              "Ref": 179
+              "Ref": 180
             }
           }
         ]
@@ -55284,7 +55384,7 @@
               "some": "_timer"
             },
             "algebraic_type": {
-              "Ref": 181
+              "Ref": 182
             }
           }
         ]
@@ -55302,7 +55402,7 @@
               "some": "timer"
             },
             "algebraic_type": {
-              "Ref": 182
+              "Ref": 183
             }
           }
         ]
@@ -55320,7 +55420,7 @@
               "some": "request"
             },
             "algebraic_type": {
-              "Ref": 185
+              "Ref": 186
             }
           }
         ]
@@ -55338,7 +55438,7 @@
               "some": "request"
             },
             "algebraic_type": {
-              "Ref": 187
+              "Ref": 188
             }
           }
         ]
@@ -55356,7 +55456,7 @@
               "some": "request"
             },
             "algebraic_type": {
-              "Ref": 187
+              "Ref": 188
             }
           }
         ]
@@ -55374,7 +55474,7 @@
               "some": "request"
             },
             "algebraic_type": {
-              "Ref": 189
+              "Ref": 190
             }
           }
         ]
@@ -55418,7 +55518,7 @@
               "some": "request"
             },
             "algebraic_type": {
-              "Ref": 191
+              "Ref": 192
             }
           }
         ]
@@ -55436,7 +55536,7 @@
               "some": "request"
             },
             "algebraic_type": {
-              "Ref": 193
+              "Ref": 194
             }
           }
         ]
@@ -55454,7 +55554,7 @@
               "some": "request"
             },
             "algebraic_type": {
-              "Ref": 193
+              "Ref": 194
             }
           }
         ]
@@ -55472,7 +55572,7 @@
               "some": "request"
             },
             "algebraic_type": {
-              "Ref": 201
+              "Ref": 202
             }
           }
         ]
@@ -55490,7 +55590,7 @@
               "some": "request"
             },
             "algebraic_type": {
-              "Ref": 204
+              "Ref": 205
             }
           }
         ]
@@ -55508,7 +55608,7 @@
               "some": "request"
             },
             "algebraic_type": {
-              "Ref": 204
+              "Ref": 205
             }
           }
         ]
@@ -55526,7 +55626,7 @@
               "some": "request"
             },
             "algebraic_type": {
-              "Ref": 193
+              "Ref": 194
             }
           }
         ]
@@ -55544,7 +55644,7 @@
               "some": "timer"
             },
             "algebraic_type": {
-              "Ref": 209
+              "Ref": 210
             }
           }
         ]
@@ -55562,7 +55662,7 @@
               "some": "request"
             },
             "algebraic_type": {
-              "Ref": 213
+              "Ref": 214
             }
           }
         ]
@@ -55580,7 +55680,7 @@
               "some": "timer"
             },
             "algebraic_type": {
-              "Ref": 216
+              "Ref": 217
             }
           }
         ]
@@ -55636,7 +55736,7 @@
               "some": "request"
             },
             "algebraic_type": {
-              "Ref": 218
+              "Ref": 219
             }
           }
         ]
@@ -55655,7 +55755,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 218
+                "Ref": 219
               }
             }
           }
@@ -55674,7 +55774,7 @@
               "some": "_timer"
             },
             "algebraic_type": {
-              "Ref": 219
+              "Ref": 220
             }
           }
         ]
@@ -55692,44 +55792,6 @@
               "some": "request"
             },
             "algebraic_type": {
-              "Ref": 220
-            }
-          }
-        ]
-      },
-      "lifecycle": {
-        "none": []
-      }
-    },
-    {
-      "name": "enemy_set_health_batch",
-      "params": {
-        "elements": [
-          {
-            "name": {
-              "some": "requests"
-            },
-            "algebraic_type": {
-              "Array": {
-                "Ref": 220
-              }
-            }
-          }
-        ]
-      },
-      "lifecycle": {
-        "none": []
-      }
-    },
-    {
-      "name": "enemy_spawn",
-      "params": {
-        "elements": [
-          {
-            "name": {
-              "some": "request"
-            },
-            "algebraic_type": {
               "Ref": 221
             }
           }
@@ -55740,7 +55802,7 @@
       }
     },
     {
-      "name": "enemy_spawn_batch",
+      "name": "enemy_set_health_batch",
       "params": {
         "elements": [
           {
@@ -55760,7 +55822,7 @@
       }
     },
     {
-      "name": "enemy_spawn_loot",
+      "name": "enemy_spawn",
       "params": {
         "elements": [
           {
@@ -55769,6 +55831,44 @@
             },
             "algebraic_type": {
               "Ref": 222
+            }
+          }
+        ]
+      },
+      "lifecycle": {
+        "none": []
+      }
+    },
+    {
+      "name": "enemy_spawn_batch",
+      "params": {
+        "elements": [
+          {
+            "name": {
+              "some": "requests"
+            },
+            "algebraic_type": {
+              "Array": {
+                "Ref": 222
+              }
+            }
+          }
+        ]
+      },
+      "lifecycle": {
+        "none": []
+      }
+    },
+    {
+      "name": "enemy_spawn_loot",
+      "params": {
+        "elements": [
+          {
+            "name": {
+              "some": "request"
+            },
+            "algebraic_type": {
+              "Ref": 223
             }
           }
         ]
@@ -56380,7 +56480,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 91
+                "Ref": 92
               }
             }
           }
@@ -56400,7 +56500,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 98
+                "Ref": 99
               }
             }
           }
@@ -56420,7 +56520,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 101
+                "Ref": 102
               }
             }
           }
@@ -56440,7 +56540,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 111
+                "Ref": 112
               }
             }
           }
@@ -56460,7 +56560,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 114
+                "Ref": 115
               }
             }
           }
@@ -56480,7 +56580,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 116
+                "Ref": 117
               }
             }
           }
@@ -56500,7 +56600,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 118
+                "Ref": 119
               }
             }
           }
@@ -56520,7 +56620,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 119
+                "Ref": 120
               }
             }
           }
@@ -56540,7 +56640,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 123
+                "Ref": 124
               }
             }
           }
@@ -56560,7 +56660,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 126
+                "Ref": 127
               }
             }
           }
@@ -56580,7 +56680,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 130
+                "Ref": 131
               }
             }
           }
@@ -56600,7 +56700,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 135
+                "Ref": 136
               }
             }
           }
@@ -56620,7 +56720,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 136
+                "Ref": 137
               }
             }
           }
@@ -56640,7 +56740,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 138
+                "Ref": 139
               }
             }
           }
@@ -56660,7 +56760,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 139
+                "Ref": 140
               }
             }
           }
@@ -56680,7 +56780,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 140
+                "Ref": 141
               }
             }
           }
@@ -56700,7 +56800,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 144
+                "Ref": 145
               }
             }
           }
@@ -56720,7 +56820,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 153
+                "Ref": 154
               }
             }
           }
@@ -56740,7 +56840,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 156
+                "Ref": 157
               }
             }
           }
@@ -56760,7 +56860,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 159
+                "Ref": 160
               }
             }
           }
@@ -56780,7 +56880,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 168
+                "Ref": 169
               }
             }
           }
@@ -56800,7 +56900,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 172
+                "Ref": 173
               }
             }
           }
@@ -56820,7 +56920,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 174
+                "Ref": 175
               }
             }
           }
@@ -56840,7 +56940,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 177
+                "Ref": 178
               }
             }
           }
@@ -56860,7 +56960,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 180
+                "Ref": 181
               }
             }
           }
@@ -56880,7 +56980,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 186
+                "Ref": 187
               }
             }
           }
@@ -56900,7 +57000,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 188
+                "Ref": 189
               }
             }
           }
@@ -56920,7 +57020,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 192
+                "Ref": 193
               }
             }
           }
@@ -56940,7 +57040,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 195
+                "Ref": 196
               }
             }
           }
@@ -56960,7 +57060,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 198
+                "Ref": 199
               }
             }
           }
@@ -56980,7 +57080,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 202
+                "Ref": 203
               }
             }
           }
@@ -57000,7 +57100,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 207
+                "Ref": 208
               }
             }
           }
@@ -57020,7 +57120,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 208
+                "Ref": 209
               }
             }
           }
@@ -57040,7 +57140,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 211
+                "Ref": 212
               }
             }
           }
@@ -57060,7 +57160,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 214
+                "Ref": 215
               }
             }
           }
@@ -60057,7 +60157,7 @@
               "some": "request"
             },
             "algebraic_type": {
-              "Ref": 82
+              "Ref": 83
             }
           }
         ]
@@ -60075,7 +60175,7 @@
               "some": "request"
             },
             "algebraic_type": {
-              "Ref": 82
+              "Ref": 83
             }
           }
         ]
@@ -60111,7 +60211,7 @@
               "some": "request"
             },
             "algebraic_type": {
-              "Ref": 85
+              "Ref": 86
             }
           }
         ]
@@ -60129,7 +60229,7 @@
               "some": "request"
             },
             "algebraic_type": {
-              "Ref": 85
+              "Ref": 86
             }
           }
         ]
@@ -60147,7 +60247,7 @@
               "some": "request"
             },
             "algebraic_type": {
-              "Ref": 83
+              "Ref": 84
             }
           }
         ]
@@ -60165,7 +60265,7 @@
               "some": "request"
             },
             "algebraic_type": {
-              "Ref": 83
+              "Ref": 84
             }
           }
         ]
@@ -61756,7 +61856,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 91
+                "Ref": 92
               }
             }
           }
@@ -61776,7 +61876,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 114
+                "Ref": 115
               }
             }
           }
@@ -61796,7 +61896,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 118
+                "Ref": 119
               }
             }
           }
@@ -61816,7 +61916,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 123
+                "Ref": 124
               }
             }
           }
@@ -61836,7 +61936,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 126
+                "Ref": 127
               }
             }
           }
@@ -61856,7 +61956,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 130
+                "Ref": 131
               }
             }
           }
@@ -61876,7 +61976,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 135
+                "Ref": 136
               }
             }
           }
@@ -61896,7 +61996,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 136
+                "Ref": 137
               }
             }
           }
@@ -61916,7 +62016,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 140
+                "Ref": 141
               }
             }
           }
@@ -61936,7 +62036,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 144
+                "Ref": 145
               }
             }
           }
@@ -61956,7 +62056,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 153
+                "Ref": 154
               }
             }
           }
@@ -61976,7 +62076,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 156
+                "Ref": 157
               }
             }
           }
@@ -61996,7 +62096,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 159
+                "Ref": 160
               }
             }
           }
@@ -62016,7 +62116,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 177
+                "Ref": 178
               }
             }
           }
@@ -62036,7 +62136,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 186
+                "Ref": 187
               }
             }
           }
@@ -62056,7 +62156,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 188
+                "Ref": 189
               }
             }
           }
@@ -62076,7 +62176,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 192
+                "Ref": 193
               }
             }
           }
@@ -62096,7 +62196,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 195
+                "Ref": 196
               }
             }
           }
@@ -62116,7 +62216,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 198
+                "Ref": 199
               }
             }
           }
@@ -62136,7 +62236,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 202
+                "Ref": 203
               }
             }
           }
@@ -62156,7 +62256,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 207
+                "Ref": 208
               }
             }
           }
@@ -62176,7 +62276,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 208
+                "Ref": 209
               }
             }
           }
@@ -62196,7 +62296,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 211
+                "Ref": 212
               }
             }
           }
@@ -62216,7 +62316,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 214
+                "Ref": 215
               }
             }
           }
@@ -63862,7 +63962,7 @@
         "scope": [],
         "name": "Biome"
       },
-      "ty": 212,
+      "ty": 213,
       "custom_ordering": true
     },
     {
@@ -63910,7 +64010,7 @@
         "scope": [],
         "name": "BuffEffect"
       },
-      "ty": 133,
+      "ty": 134,
       "custom_ordering": true
     },
     {
@@ -64022,7 +64122,7 @@
         "scope": [],
         "name": "BuildingRequirement"
       },
-      "ty": 154,
+      "ty": 155,
       "custom_ordering": true
     },
     {
@@ -64174,7 +64274,7 @@
         "scope": [],
         "name": "CheatExperienceGrantRequest"
       },
-      "ty": 80,
+      "ty": 81,
       "custom_ordering": true
     },
     {
@@ -64182,7 +64282,7 @@
         "scope": [],
         "name": "CheatGrantKnowledgeRequest"
       },
-      "ty": 81,
+      "ty": 82,
       "custom_ordering": true
     },
     {
@@ -64190,7 +64290,7 @@
         "scope": [],
         "name": "CheatSetDebugAiStateRequest"
       },
-      "ty": 86,
+      "ty": 87,
       "custom_ordering": true
     },
     {
@@ -64198,7 +64298,7 @@
         "scope": [],
         "name": "CheatSpawnLootChestRequest"
       },
-      "ty": 87,
+      "ty": 88,
       "custom_ordering": true
     },
     {
@@ -64206,7 +64306,7 @@
         "scope": [],
         "name": "CheatTeleportFloatRequest"
       },
-      "ty": 88,
+      "ty": 89,
       "custom_ordering": true
     },
     {
@@ -64214,7 +64314,7 @@
         "scope": [],
         "name": "CheatToggleActiveCollectibleRequest"
       },
-      "ty": 89,
+      "ty": 90,
       "custom_ordering": true
     },
     {
@@ -64222,7 +64322,7 @@
         "scope": [],
         "name": "CheatWarpRequest"
       },
-      "ty": 90,
+      "ty": 91,
       "custom_ordering": true
     },
     {
@@ -64230,7 +64330,7 @@
         "scope": [],
         "name": "ChestLootRarity"
       },
-      "ty": 92,
+      "ty": 93,
       "custom_ordering": true
     },
     {
@@ -64238,7 +64338,7 @@
         "scope": [],
         "name": "ChestRarityDesc"
       },
-      "ty": 91,
+      "ty": 92,
       "custom_ordering": true
     },
     {
@@ -64262,7 +64362,7 @@
         "scope": [],
         "name": "ClaimLocalState"
       },
-      "ty": 98,
+      "ty": 99,
       "custom_ordering": true
     },
     {
@@ -64270,7 +64370,7 @@
         "scope": [],
         "name": "ClaimMemberState"
       },
-      "ty": 99,
+      "ty": 100,
       "custom_ordering": true
     },
     {
@@ -64294,7 +64394,7 @@
         "scope": [],
         "name": "ClaimPurchaseSuppliesFromPlayerRequest"
       },
-      "ty": 100,
+      "ty": 101,
       "custom_ordering": true
     },
     {
@@ -64302,7 +64402,7 @@
         "scope": [],
         "name": "ClaimRecruitmentState"
       },
-      "ty": 101,
+      "ty": 102,
       "custom_ordering": true
     },
     {
@@ -64310,7 +64410,7 @@
         "scope": [],
         "name": "ClaimResupplyRequest"
       },
-      "ty": 106,
+      "ty": 107,
       "custom_ordering": true
     },
     {
@@ -64318,7 +64418,7 @@
         "scope": [],
         "name": "ClaimSetPurchaseSupplyPriceRequest"
       },
-      "ty": 109,
+      "ty": 110,
       "custom_ordering": true
     },
     {
@@ -64326,7 +64426,7 @@
         "scope": [],
         "name": "ClaimSetPurchaseSupplyThresholdRequest"
       },
-      "ty": 110,
+      "ty": 111,
       "custom_ordering": true
     },
     {
@@ -64334,7 +64434,7 @@
         "scope": [],
         "name": "ClaimState"
       },
-      "ty": 111,
+      "ty": 112,
       "custom_ordering": true
     },
     {
@@ -64350,7 +64450,7 @@
         "scope": [],
         "name": "ClaimTechDesc"
       },
-      "ty": 114,
+      "ty": 115,
       "custom_ordering": true
     },
     {
@@ -64358,7 +64458,7 @@
         "scope": [],
         "name": "ClaimTechState"
       },
-      "ty": 116,
+      "ty": 117,
       "custom_ordering": true
     },
     {
@@ -64366,7 +64466,7 @@
         "scope": [],
         "name": "ClaimTechUnlockTimer"
       },
-      "ty": 117,
+      "ty": 118,
       "custom_ordering": true
     },
     {
@@ -64374,7 +64474,7 @@
         "scope": [],
         "name": "ClaimTileCost"
       },
-      "ty": 118,
+      "ty": 119,
       "custom_ordering": true
     },
     {
@@ -64382,7 +64482,7 @@
         "scope": [],
         "name": "ClaimTileState"
       },
-      "ty": 119,
+      "ty": 120,
       "custom_ordering": true
     },
     {
@@ -64398,7 +64498,7 @@
         "scope": [],
         "name": "ClimbRequirementDesc"
       },
-      "ty": 123,
+      "ty": 124,
       "custom_ordering": true
     },
     {
@@ -64406,7 +64506,7 @@
         "scope": [],
         "name": "ClosedListingState"
       },
-      "ty": 125,
+      "ty": 126,
       "custom_ordering": true
     },
     {
@@ -64414,7 +64514,7 @@
         "scope": [],
         "name": "ClothingDesc"
       },
-      "ty": 126,
+      "ty": 127,
       "custom_ordering": true
     },
     {
@@ -64422,7 +64522,7 @@
         "scope": [],
         "name": "ClothingMask"
       },
-      "ty": 127,
+      "ty": 128,
       "custom_ordering": true
     },
     {
@@ -64438,7 +64538,7 @@
         "scope": [],
         "name": "CollectStatsTimer"
       },
-      "ty": 128,
+      "ty": 129,
       "custom_ordering": true
     },
     {
@@ -64446,7 +64546,7 @@
         "scope": [],
         "name": "CollectibleDesc"
       },
-      "ty": 130,
+      "ty": 131,
       "custom_ordering": true
     },
     {
@@ -64454,7 +64554,7 @@
         "scope": [],
         "name": "CollectibleType"
       },
-      "ty": 131,
+      "ty": 132,
       "custom_ordering": true
     },
     {
@@ -64462,7 +64562,7 @@
         "scope": [],
         "name": "CombatActionDesc"
       },
-      "ty": 132,
+      "ty": 133,
       "custom_ordering": true
     },
     {
@@ -64470,7 +64570,7 @@
         "scope": [],
         "name": "CombatActionDescV2"
       },
-      "ty": 135,
+      "ty": 136,
       "custom_ordering": true
     },
     {
@@ -64478,7 +64578,7 @@
         "scope": [],
         "name": "CombatActionMultiHitDesc"
       },
-      "ty": 136,
+      "ty": 137,
       "custom_ordering": true
     },
     {
@@ -64486,7 +64586,7 @@
         "scope": [],
         "name": "CombatDimensionState"
       },
-      "ty": 137,
+      "ty": 138,
       "custom_ordering": true
     },
     {
@@ -64494,7 +64594,7 @@
         "scope": [],
         "name": "CombatState"
       },
-      "ty": 138,
+      "ty": 139,
       "custom_ordering": true
     },
     {
@@ -64510,7 +64610,7 @@
         "scope": [],
         "name": "Config"
       },
-      "ty": 139,
+      "ty": 140,
       "custom_ordering": true
     },
     {
@@ -64518,7 +64618,7 @@
         "scope": [],
         "name": "ConstructionRecipeDesc"
       },
-      "ty": 140,
+      "ty": 141,
       "custom_ordering": true
     },
     {
@@ -64526,7 +64626,7 @@
         "scope": [],
         "name": "ContributionLootDesc"
       },
-      "ty": 144,
+      "ty": 145,
       "custom_ordering": true
     },
     {
@@ -64534,7 +64634,7 @@
         "scope": [],
         "name": "ContributionState"
       },
-      "ty": 145,
+      "ty": 146,
       "custom_ordering": true
     },
     {
@@ -64542,7 +64642,7 @@
         "scope": [],
         "name": "CraftingRecipeDesc"
       },
-      "ty": 153,
+      "ty": 154,
       "custom_ordering": true
     },
     {
@@ -64566,7 +64666,7 @@
         "scope": [],
         "name": "DayNightLoopTimer"
       },
-      "ty": 155,
+      "ty": 156,
       "custom_ordering": true
     },
     {
@@ -64574,7 +64674,7 @@
         "scope": [],
         "name": "DeconstructionRecipeDesc"
       },
-      "ty": 156,
+      "ty": 157,
       "custom_ordering": true
     },
     {
@@ -64590,7 +64690,7 @@
         "scope": [],
         "name": "DeployableCollectibleState"
       },
-      "ty": 157,
+      "ty": 158,
       "custom_ordering": true
     },
     {
@@ -64598,7 +64698,7 @@
         "scope": [],
         "name": "DeployableDeployRequest"
       },
-      "ty": 158,
+      "ty": 159,
       "custom_ordering": true
     },
     {
@@ -64606,7 +64706,7 @@
         "scope": [],
         "name": "DeployableDesc"
       },
-      "ty": 159,
+      "ty": 160,
       "custom_ordering": true
     },
     {
@@ -64614,7 +64714,7 @@
         "scope": [],
         "name": "DeployableDismountTimer"
       },
-      "ty": 165,
+      "ty": 166,
       "custom_ordering": true
     },
     {
@@ -64622,7 +64722,7 @@
         "scope": [],
         "name": "DeployableState"
       },
-      "ty": 168,
+      "ty": 169,
       "custom_ordering": true
     },
     {
@@ -64630,7 +64730,7 @@
         "scope": [],
         "name": "DeployableStoreRequest"
       },
-      "ty": 169,
+      "ty": 170,
       "custom_ordering": true
     },
     {
@@ -64638,7 +64738,7 @@
         "scope": [],
         "name": "DeployableType"
       },
-      "ty": 160,
+      "ty": 161,
       "custom_ordering": true
     },
     {
@@ -64646,7 +64746,7 @@
         "scope": [],
         "name": "DestroyDimensionNetworkTimer"
       },
-      "ty": 170,
+      "ty": 171,
       "custom_ordering": true
     },
     {
@@ -64654,7 +64754,7 @@
         "scope": [],
         "name": "Developer"
       },
-      "ty": 171,
+      "ty": 172,
       "custom_ordering": true
     },
     {
@@ -64662,7 +64762,7 @@
         "scope": [],
         "name": "DimensionDescriptionState"
       },
-      "ty": 172,
+      "ty": 173,
       "custom_ordering": true
     },
     {
@@ -64670,7 +64770,7 @@
         "scope": [],
         "name": "DimensionNetworkState"
       },
-      "ty": 174,
+      "ty": 175,
       "custom_ordering": true
     },
     {
@@ -64678,7 +64778,7 @@
         "scope": [],
         "name": "DimensionType"
       },
-      "ty": 173,
+      "ty": 174,
       "custom_ordering": true
     },
     {
@@ -64686,7 +64786,7 @@
         "scope": [],
         "name": "DistantVisibleEntity"
       },
-      "ty": 176,
+      "ty": 177,
       "custom_ordering": true
     },
     {
@@ -64694,7 +64794,7 @@
         "scope": [],
         "name": "DistantVisibleEntityDesc"
       },
-      "ty": 177,
+      "ty": 178,
       "custom_ordering": true
     },
     {
@@ -64702,7 +64802,7 @@
         "scope": [],
         "name": "DroppedInventoryDespawnTimer"
       },
-      "ty": 178,
+      "ty": 179,
       "custom_ordering": true
     },
     {
@@ -64710,7 +64810,7 @@
         "scope": [],
         "name": "DroppedInventoryOwnershipTimer"
       },
-      "ty": 179,
+      "ty": 180,
       "custom_ordering": true
     },
     {
@@ -64718,7 +64818,7 @@
         "scope": [],
         "name": "DroppedInventoryState"
       },
-      "ty": 180,
+      "ty": 181,
       "custom_ordering": true
     },
     {
@@ -64726,7 +64826,7 @@
         "scope": [],
         "name": "DuelAgentTimer"
       },
-      "ty": 181,
+      "ty": 182,
       "custom_ordering": true
     },
     {
@@ -64734,7 +64834,7 @@
         "scope": [],
         "name": "DuelDespawnTimer"
       },
-      "ty": 182,
+      "ty": 183,
       "custom_ordering": true
     },
     {
@@ -64742,7 +64842,7 @@
         "scope": [],
         "name": "DuelState"
       },
-      "ty": 183,
+      "ty": 184,
       "custom_ordering": true
     },
     {
@@ -64750,7 +64850,7 @@
         "scope": [],
         "name": "DungeonState"
       },
-      "ty": 184,
+      "ty": 185,
       "custom_ordering": true
     },
     {
@@ -64758,7 +64858,7 @@
         "scope": [],
         "name": "ElevatorDesc"
       },
-      "ty": 186,
+      "ty": 187,
       "custom_ordering": true
     },
     {
@@ -64766,7 +64866,7 @@
         "scope": [],
         "name": "EmoteDesc"
       },
-      "ty": 188,
+      "ty": 189,
       "custom_ordering": true
     },
     {
@@ -64774,7 +64874,7 @@
         "scope": [],
         "name": "EmpireAddSiegeSuppliesRequest"
       },
-      "ty": 189,
+      "ty": 190,
       "custom_ordering": true
     },
     {
@@ -64782,7 +64882,7 @@
         "scope": [],
         "name": "EmpireChunkState"
       },
-      "ty": 190,
+      "ty": 191,
       "custom_ordering": true
     },
     {
@@ -64814,7 +64914,7 @@
         "scope": [],
         "name": "EmpireCollectHexiteCapsuleRequest"
       },
-      "ty": 191,
+      "ty": 192,
       "custom_ordering": true
     },
     {
@@ -64822,7 +64922,7 @@
         "scope": [],
         "name": "EmpireColorDesc"
       },
-      "ty": 192,
+      "ty": 193,
       "custom_ordering": true
     },
     {
@@ -64838,7 +64938,7 @@
         "scope": [],
         "name": "EmpireExpansionState"
       },
-      "ty": 194,
+      "ty": 195,
       "custom_ordering": true
     },
     {
@@ -64854,7 +64954,7 @@
         "scope": [],
         "name": "EmpireIconDesc"
       },
-      "ty": 195,
+      "ty": 196,
       "custom_ordering": true
     },
     {
@@ -64862,7 +64962,7 @@
         "scope": [],
         "name": "EmpireNodeSiegeState"
       },
-      "ty": 196,
+      "ty": 197,
       "custom_ordering": true
     },
     {
@@ -64878,7 +64978,7 @@
         "scope": [],
         "name": "EmpireNodeState"
       },
-      "ty": 197,
+      "ty": 198,
       "custom_ordering": true
     },
     {
@@ -64894,7 +64994,7 @@
         "scope": [],
         "name": "EmpireNotificationDesc"
       },
-      "ty": 198,
+      "ty": 199,
       "custom_ordering": true
     },
     {
@@ -64902,7 +65002,7 @@
         "scope": [],
         "name": "EmpireNotificationType"
       },
-      "ty": 199,
+      "ty": 200,
       "custom_ordering": true
     },
     {
@@ -64910,7 +65010,7 @@
         "scope": [],
         "name": "EmpirePlayerDataState"
       },
-      "ty": 200,
+      "ty": 201,
       "custom_ordering": true
     },
     {
@@ -64934,7 +65034,7 @@
         "scope": [],
         "name": "EmpireQueueSuppliesRequest"
       },
-      "ty": 201,
+      "ty": 202,
       "custom_ordering": true
     },
     {
@@ -64942,7 +65042,7 @@
         "scope": [],
         "name": "EmpireRankDesc"
       },
-      "ty": 202,
+      "ty": 203,
       "custom_ordering": true
     },
     {
@@ -64950,7 +65050,7 @@
         "scope": [],
         "name": "EmpireRankState"
       },
-      "ty": 203,
+      "ty": 204,
       "custom_ordering": true
     },
     {
@@ -64982,7 +65082,7 @@
         "scope": [],
         "name": "EmpireResupplyNodeRequest"
       },
-      "ty": 204,
+      "ty": 205,
       "custom_ordering": true
     },
     {
@@ -64990,7 +65090,7 @@
         "scope": [],
         "name": "EmpireSettlementState"
       },
-      "ty": 205,
+      "ty": 206,
       "custom_ordering": true
     },
     {
@@ -65022,7 +65122,7 @@
         "scope": [],
         "name": "EmpireStartSiegeRequest"
       },
-      "ty": 193,
+      "ty": 194,
       "custom_ordering": true
     },
     {
@@ -65030,7 +65130,7 @@
         "scope": [],
         "name": "EmpireState"
       },
-      "ty": 206,
+      "ty": 207,
       "custom_ordering": true
     },
     {
@@ -65046,7 +65146,7 @@
         "scope": [],
         "name": "EmpireSuppliesDesc"
       },
-      "ty": 207,
+      "ty": 208,
       "custom_ordering": true
     },
     {
@@ -65054,7 +65154,7 @@
         "scope": [],
         "name": "EmpireTerritoryDesc"
       },
-      "ty": 208,
+      "ty": 209,
       "custom_ordering": true
     },
     {
@@ -65070,7 +65170,7 @@
         "scope": [],
         "name": "EndGracePeriodTimer"
       },
-      "ty": 209,
+      "ty": 210,
       "custom_ordering": true
     },
     {
@@ -65078,7 +65178,7 @@
         "scope": [],
         "name": "EnemyAiParamsDesc"
       },
-      "ty": 211,
+      "ty": 212,
       "custom_ordering": true
     },
     {
@@ -65086,7 +65186,7 @@
         "scope": [],
         "name": "EnemyClearAggroRequest"
       },
-      "ty": 213,
+      "ty": 214,
       "custom_ordering": true
     },
     {
@@ -65094,7 +65194,7 @@
         "scope": [],
         "name": "EnemyDesc"
       },
-      "ty": 214,
+      "ty": 215,
       "custom_ordering": true
     },
     {
@@ -65102,7 +65202,7 @@
         "scope": [],
         "name": "EnemyDespawnTimer"
       },
-      "ty": 216,
+      "ty": 217,
       "custom_ordering": true
     },
     {
@@ -65110,7 +65210,7 @@
         "scope": [],
         "name": "EnemyMobMonitorState"
       },
-      "ty": 217,
+      "ty": 218,
       "custom_ordering": true
     },
     {
@@ -65118,7 +65218,7 @@
         "scope": [],
         "name": "EnemyMoveRequest"
       },
-      "ty": 218,
+      "ty": 219,
       "custom_ordering": true
     },
     {
@@ -65126,7 +65226,7 @@
         "scope": [],
         "name": "EnemyRegenLoopTimer"
       },
-      "ty": 219,
+      "ty": 220,
       "custom_ordering": true
     },
     {
@@ -65134,7 +65234,7 @@
         "scope": [],
         "name": "EnemySetHealthRequest"
       },
-      "ty": 220,
+      "ty": 221,
       "custom_ordering": true
     },
     {
@@ -65142,7 +65242,7 @@
         "scope": [],
         "name": "EnemySpawnLootRequest"
       },
-      "ty": 222,
+      "ty": 223,
       "custom_ordering": true
     },
     {
@@ -65150,7 +65250,7 @@
         "scope": [],
         "name": "EnemySpawnRequest"
       },
-      "ty": 221,
+      "ty": 222,
       "custom_ordering": true
     },
     {
@@ -65270,7 +65370,7 @@
         "scope": [],
         "name": "ExperienceStackF32"
       },
-      "ty": 143,
+      "ty": 144,
       "custom_ordering": true
     },
     {
@@ -65390,7 +65490,7 @@
         "scope": [],
         "name": "GracePeriodType"
       },
-      "ty": 210,
+      "ty": 211,
       "custom_ordering": true
     },
     {
@@ -65494,7 +65594,7 @@
         "scope": [],
         "name": "InputItemStack"
       },
-      "ty": 142,
+      "ty": 143,
       "custom_ordering": true
     },
     {
@@ -65902,7 +66002,7 @@
         "scope": [],
         "name": "LevelRequirement"
       },
-      "ty": 134,
+      "ty": 135,
       "custom_ordering": true
     },
     {
@@ -66046,7 +66146,7 @@
         "scope": [],
         "name": "MovementSpeed"
       },
-      "ty": 162,
+      "ty": 163,
       "custom_ordering": true
     },
     {
@@ -66054,7 +66154,7 @@
         "scope": [],
         "name": "MovementType"
       },
-      "ty": 161,
+      "ty": 162,
       "custom_ordering": true
     },
     {
@@ -66110,7 +66210,7 @@
         "scope": [],
         "name": "OffsetCoordinatesLargeMessage"
       },
-      "ty": 84,
+      "ty": 85,
       "custom_ordering": true
     },
     {
@@ -66454,7 +66554,7 @@
         "scope": [],
         "name": "PlayerClaimAddMemberRequest"
       },
-      "ty": 93,
+      "ty": 94,
       "custom_ordering": true
     },
     {
@@ -66462,7 +66562,7 @@
         "scope": [],
         "name": "PlayerClaimAddRecruitmentRequest"
       },
-      "ty": 94,
+      "ty": 95,
       "custom_ordering": true
     },
     {
@@ -66470,7 +66570,7 @@
         "scope": [],
         "name": "PlayerClaimAddTileRequest"
       },
-      "ty": 95,
+      "ty": 96,
       "custom_ordering": true
     },
     {
@@ -66478,7 +66578,7 @@
         "scope": [],
         "name": "PlayerClaimApplyForRecruitmentRequest"
       },
-      "ty": 96,
+      "ty": 97,
       "custom_ordering": true
     },
     {
@@ -66486,7 +66586,7 @@
         "scope": [],
         "name": "PlayerClaimDepositToTreasuryRequest"
       },
-      "ty": 121,
+      "ty": 122,
       "custom_ordering": true
     },
     {
@@ -66494,7 +66594,7 @@
         "scope": [],
         "name": "PlayerClaimLeaveRequest"
       },
-      "ty": 97,
+      "ty": 98,
       "custom_ordering": true
     },
     {
@@ -66502,7 +66602,7 @@
         "scope": [],
         "name": "PlayerClaimRemoveMemberRequest"
       },
-      "ty": 102,
+      "ty": 103,
       "custom_ordering": true
     },
     {
@@ -66510,7 +66610,7 @@
         "scope": [],
         "name": "PlayerClaimRemoveRecruitmentRequest"
       },
-      "ty": 103,
+      "ty": 104,
       "custom_ordering": true
     },
     {
@@ -66518,7 +66618,7 @@
         "scope": [],
         "name": "PlayerClaimRemoveTileRequest"
       },
-      "ty": 104,
+      "ty": 105,
       "custom_ordering": true
     },
     {
@@ -66526,7 +66626,7 @@
         "scope": [],
         "name": "PlayerClaimRenameRequest"
       },
-      "ty": 105,
+      "ty": 106,
       "custom_ordering": true
     },
     {
@@ -66534,7 +66634,7 @@
         "scope": [],
         "name": "PlayerClaimSetMemberPermissionsRequest"
       },
-      "ty": 108,
+      "ty": 109,
       "custom_ordering": true
     },
     {
@@ -66542,7 +66642,7 @@
         "scope": [],
         "name": "PlayerClaimTakeOwnershipRequest"
       },
-      "ty": 112,
+      "ty": 113,
       "custom_ordering": true
     },
     {
@@ -66550,7 +66650,7 @@
         "scope": [],
         "name": "PlayerClaimTechCancelRequest"
       },
-      "ty": 113,
+      "ty": 114,
       "custom_ordering": true
     },
     {
@@ -66558,7 +66658,7 @@
         "scope": [],
         "name": "PlayerClaimTechLearnRequest"
       },
-      "ty": 115,
+      "ty": 116,
       "custom_ordering": true
     },
     {
@@ -66566,7 +66666,7 @@
         "scope": [],
         "name": "PlayerClaimTransferOwnershipRequest"
       },
-      "ty": 120,
+      "ty": 121,
       "custom_ordering": true
     },
     {
@@ -66574,7 +66674,7 @@
         "scope": [],
         "name": "PlayerClaimWithdrawFromTreasuryRequest"
       },
-      "ty": 122,
+      "ty": 123,
       "custom_ordering": true
     },
     {
@@ -66590,7 +66690,7 @@
         "scope": [],
         "name": "PlayerClosedListingCollectRequest"
       },
-      "ty": 124,
+      "ty": 125,
       "custom_ordering": true
     },
     {
@@ -66598,7 +66698,7 @@
         "scope": [],
         "name": "PlayerCollectibleActivateRequest"
       },
-      "ty": 129,
+      "ty": 130,
       "custom_ordering": true
     },
     {
@@ -66614,7 +66714,7 @@
         "scope": [],
         "name": "PlayerConvertCollectibleToDeedRequest"
       },
-      "ty": 146,
+      "ty": 147,
       "custom_ordering": true
     },
     {
@@ -66622,7 +66722,7 @@
         "scope": [],
         "name": "PlayerConvertDeedToCollectibleRequest"
       },
-      "ty": 147,
+      "ty": 148,
       "custom_ordering": true
     },
     {
@@ -66630,7 +66730,7 @@
         "scope": [],
         "name": "PlayerCraftCancelRequest"
       },
-      "ty": 148,
+      "ty": 149,
       "custom_ordering": true
     },
     {
@@ -66638,7 +66738,7 @@
         "scope": [],
         "name": "PlayerCraftCollectAllRequest"
       },
-      "ty": 150,
+      "ty": 151,
       "custom_ordering": true
     },
     {
@@ -66646,7 +66746,7 @@
         "scope": [],
         "name": "PlayerCraftCollectRequest"
       },
-      "ty": 149,
+      "ty": 150,
       "custom_ordering": true
     },
     {
@@ -66654,7 +66754,7 @@
         "scope": [],
         "name": "PlayerCraftContinueRequest"
       },
-      "ty": 151,
+      "ty": 152,
       "custom_ordering": true
     },
     {
@@ -66662,7 +66762,7 @@
         "scope": [],
         "name": "PlayerCraftInitiateRequest"
       },
-      "ty": 152,
+      "ty": 153,
       "custom_ordering": true
     },
     {
@@ -66686,7 +66786,7 @@
         "scope": [],
         "name": "PlayerDeployableDismountRequest"
       },
-      "ty": 164,
+      "ty": 165,
       "custom_ordering": true
     },
     {
@@ -66694,7 +66794,7 @@
         "scope": [],
         "name": "PlayerDeployableMountRequest"
       },
-      "ty": 166,
+      "ty": 167,
       "custom_ordering": true
     },
     {
@@ -66702,7 +66802,7 @@
         "scope": [],
         "name": "PlayerDeployableMoveRequest"
       },
-      "ty": 167,
+      "ty": 168,
       "custom_ordering": true
     },
     {
@@ -66710,7 +66810,7 @@
         "scope": [],
         "name": "PlayerDiscoverEntitiesRequest"
       },
-      "ty": 175,
+      "ty": 176,
       "custom_ordering": true
     },
     {
@@ -66734,7 +66834,7 @@
         "scope": [],
         "name": "PlayerEatRequest"
       },
-      "ty": 185,
+      "ty": 186,
       "custom_ordering": true
     },
     {
@@ -66750,7 +66850,7 @@
         "scope": [],
         "name": "PlayerEmoteRequest"
       },
-      "ty": 187,
+      "ty": 188,
       "custom_ordering": true
     },
     {
@@ -66966,7 +67066,7 @@
         "scope": [],
         "name": "PlayerPavingPlaceTileRequest"
       },
-      "ty": 82,
+      "ty": 83,
       "custom_ordering": true
     },
     {
@@ -66982,7 +67082,7 @@
         "scope": [],
         "name": "PlayerPillarShapingDestroyRequest"
       },
-      "ty": 85,
+      "ty": 86,
       "custom_ordering": true
     },
     {
@@ -66990,7 +67090,7 @@
         "scope": [],
         "name": "PlayerPillarShapingPlaceRequest"
       },
-      "ty": 83,
+      "ty": 84,
       "custom_ordering": true
     },
     {
@@ -67358,7 +67458,7 @@
         "scope": [],
         "name": "PocketKey"
       },
-      "ty": 107,
+      "ty": 108,
       "custom_ordering": true
     },
     {
@@ -67382,7 +67482,7 @@
         "scope": [],
         "name": "ProbabilisticItemStack"
       },
-      "ty": 215,
+      "ty": 216,
       "custom_ordering": true
     },
     {
@@ -67862,7 +67962,7 @@
         "scope": [],
         "name": "SmallHexTileMessage"
       },
-      "ty": 223,
+      "ty": 80,
       "custom_ordering": true
     },
     {
@@ -67942,7 +68042,7 @@
         "scope": [],
         "name": "SurfaceType"
       },
-      "ty": 163,
+      "ty": 164,
       "custom_ordering": true
     },
     {
@@ -68086,7 +68186,7 @@
         "scope": [],
         "name": "ToolRequirement"
       },
-      "ty": 141,
+      "ty": 142,
       "custom_ordering": true
     },
     {
