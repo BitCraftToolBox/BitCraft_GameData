@@ -834,8 +834,13 @@
     "hand_equipment_visual": null,
     "stats": [
       {
-        "id": "Armor",
-        "value": 1.0,
+        "id": "MaxHealth",
+        "value": 10.0,
+        "is_pct": false
+      },
+      {
+        "id": "Evasion",
+        "value": 180.0,
         "is_pct": false
       }
     ],
@@ -858,8 +863,13 @@
     "hand_equipment_visual": null,
     "stats": [
       {
-        "id": "Armor",
-        "value": 1.0,
+        "id": "MaxHealth",
+        "value": 3.0,
+        "is_pct": false
+      },
+      {
+        "id": "Evasion",
+        "value": 60.0,
         "is_pct": false
       }
     ],
@@ -3719,7 +3729,7 @@
     "stats": [
       {
         "id": "Evasion",
-        "value": 72.0,
+        "value": 360.0,
         "is_pct": false
       },
       {
@@ -4673,6 +4683,35 @@
       {
         "id": "HuntingWeaponPower",
         "value": 15.0,
+        "is_pct": false
+      }
+    ],
+    "required_achievements": [],
+    "required_knowledges": []
+  },
+  {
+    "item_id": 126285613,
+    "slots": [
+      "HandArtifact"
+    ],
+    "visual_type": "Clothing",
+    "level_requirement": {
+      "skill_id": 1,
+      "level": 1
+    },
+    "clothing_visual": {
+      "meshe_names": []
+    },
+    "hand_equipment_visual": null,
+    "stats": [
+      {
+        "id": "Strength",
+        "value": 18.0,
+        "is_pct": false
+      },
+      {
+        "id": "Evasion",
+        "value": 360.0,
         "is_pct": false
       }
     ],
@@ -6153,7 +6192,7 @@
     "stats": [
       {
         "id": "Armor",
-        "value": 760.0,
+        "value": 1140.0,
         "is_pct": false
       },
       {
@@ -7286,12 +7325,12 @@
     "stats": [
       {
         "id": "Strength",
-        "value": 7.0,
+        "value": 14.0,
         "is_pct": false
       },
       {
         "id": "Armor",
-        "value": 56.0,
+        "value": 280.0,
         "is_pct": false
       }
     ],
@@ -8889,12 +8928,12 @@
     "stats": [
       {
         "id": "Strength",
-        "value": 12.0,
+        "value": 24.0,
         "is_pct": false
       },
       {
         "id": "Armor",
-        "value": 96.0,
+        "value": 480.0,
         "is_pct": false
       }
     ],
@@ -9320,6 +9359,35 @@
     "required_knowledges": []
   },
   {
+    "item_id": 297225166,
+    "slots": [
+      "HandArtifact"
+    ],
+    "visual_type": "Clothing",
+    "level_requirement": {
+      "skill_id": 1,
+      "level": 1
+    },
+    "clothing_visual": {
+      "meshe_names": []
+    },
+    "hand_equipment_visual": null,
+    "stats": [
+      {
+        "id": "MaxHealth",
+        "value": 32.0,
+        "is_pct": false
+      },
+      {
+        "id": "Armor",
+        "value": 320.0,
+        "is_pct": false
+      }
+    ],
+    "required_achievements": [],
+    "required_knowledges": []
+  },
+  {
     "item_id": 298404070,
     "slots": [
       "HeadClothing"
@@ -9697,7 +9765,7 @@
     "stats": [
       {
         "id": "Evasion",
-        "value": 104.0,
+        "value": 520.0,
         "is_pct": false
       },
       {
@@ -10054,6 +10122,35 @@
         "id": "CooldownMultiplier",
         "value": 0.0075,
         "is_pct": true
+      }
+    ],
+    "required_achievements": [],
+    "required_knowledges": []
+  },
+  {
+    "item_id": 324515276,
+    "slots": [
+      "HandArtifact"
+    ],
+    "visual_type": "Clothing",
+    "level_requirement": {
+      "skill_id": 1,
+      "level": 1
+    },
+    "clothing_visual": {
+      "meshe_names": []
+    },
+    "hand_equipment_visual": null,
+    "stats": [
+      {
+        "id": "MaxHealth",
+        "value": 56.0,
+        "is_pct": false
+      },
+      {
+        "id": "Armor",
+        "value": 560.0,
+        "is_pct": false
       }
     ],
     "required_achievements": [],
@@ -11079,7 +11176,7 @@
     "stats": [
       {
         "id": "Evasion",
-        "value": 64.0,
+        "value": 320.0,
         "is_pct": false
       },
       {
@@ -12681,6 +12778,35 @@
     "required_knowledges": []
   },
   {
+    "item_id": 418139854,
+    "slots": [
+      "HandArtifact"
+    ],
+    "visual_type": "Clothing",
+    "level_requirement": {
+      "skill_id": 1,
+      "level": 1
+    },
+    "clothing_visual": {
+      "meshe_names": []
+    },
+    "hand_equipment_visual": null,
+    "stats": [
+      {
+        "id": "Strength",
+        "value": 14.0,
+        "is_pct": false
+      },
+      {
+        "id": "Evasion",
+        "value": 280.0,
+        "is_pct": false
+      }
+    ],
+    "required_achievements": [],
+    "required_knowledges": []
+  },
+  {
     "item_id": 418911784,
     "slots": [
       "FeetClothing"
@@ -13273,6 +13399,35 @@
     "required_knowledges": []
   },
   {
+    "item_id": 436994384,
+    "slots": [
+      "HandArtifact"
+    ],
+    "visual_type": "Clothing",
+    "level_requirement": {
+      "skill_id": 1,
+      "level": 1
+    },
+    "clothing_visual": {
+      "meshe_names": []
+    },
+    "hand_equipment_visual": null,
+    "stats": [
+      {
+        "id": "MaxHealth",
+        "value": 40.0,
+        "is_pct": false
+      },
+      {
+        "id": "Armor",
+        "value": 400.0,
+        "is_pct": false
+      }
+    ],
+    "required_achievements": [],
+    "required_knowledges": []
+  },
+  {
     "item_id": 437150053,
     "slots": [
       "MainHand",
@@ -13313,6 +13468,35 @@
       ]
     },
     "stats": [],
+    "required_achievements": [],
+    "required_knowledges": []
+  },
+  {
+    "item_id": 439998807,
+    "slots": [
+      "HandArtifact"
+    ],
+    "visual_type": "Clothing",
+    "level_requirement": {
+      "skill_id": 1,
+      "level": 1
+    },
+    "clothing_visual": {
+      "meshe_names": []
+    },
+    "hand_equipment_visual": null,
+    "stats": [
+      {
+        "id": "MaxHealth",
+        "value": 48.0,
+        "is_pct": false
+      },
+      {
+        "id": "Armor",
+        "value": 480.0,
+        "is_pct": false
+      }
+    ],
     "required_achievements": [],
     "required_knowledges": []
   },
@@ -14577,6 +14761,35 @@
     "required_knowledges": []
   },
   {
+    "item_id": 486988613,
+    "slots": [
+      "HandArtifact"
+    ],
+    "visual_type": "Clothing",
+    "level_requirement": {
+      "skill_id": 1,
+      "level": 1
+    },
+    "clothing_visual": {
+      "meshe_names": []
+    },
+    "hand_equipment_visual": null,
+    "stats": [
+      {
+        "id": "MaxHealth",
+        "value": 28.0,
+        "is_pct": false
+      },
+      {
+        "id": "Armor",
+        "value": 280.0,
+        "is_pct": false
+      }
+    ],
+    "required_achievements": [],
+    "required_knowledges": []
+  },
+  {
     "item_id": 488632591,
     "slots": [
       "FeetClothing"
@@ -15745,12 +15958,12 @@
     "stats": [
       {
         "id": "Strength",
-        "value": 10.0,
+        "value": 20.0,
         "is_pct": false
       },
       {
         "id": "Armor",
-        "value": 80.0,
+        "value": 400.0,
         "is_pct": false
       }
     ],
@@ -17043,7 +17256,7 @@
     "stats": [
       {
         "id": "Evasion",
-        "value": 88.0,
+        "value": 440.0,
         "is_pct": false
       },
       {
@@ -17220,7 +17433,7 @@
     "stats": [
       {
         "id": "Evasion",
-        "value": 96.0,
+        "value": 480.0,
         "is_pct": false
       },
       {
@@ -17995,6 +18208,35 @@
     "required_knowledges": []
   },
   {
+    "item_id": 608092167,
+    "slots": [
+      "HandArtifact"
+    ],
+    "visual_type": "Clothing",
+    "level_requirement": {
+      "skill_id": 1,
+      "level": 1
+    },
+    "clothing_visual": {
+      "meshe_names": []
+    },
+    "hand_equipment_visual": null,
+    "stats": [
+      {
+        "id": "Strength",
+        "value": 22.0,
+        "is_pct": false
+      },
+      {
+        "id": "Evasion",
+        "value": 440.0,
+        "is_pct": false
+      }
+    ],
+    "required_achievements": [],
+    "required_knowledges": []
+  },
+  {
     "item_id": 608227572,
     "slots": [
       "FeetClothing"
@@ -18390,6 +18632,35 @@
       {
         "id": "BuildingSpeed",
         "value": 0.0256,
+        "is_pct": true
+      }
+    ],
+    "required_achievements": [],
+    "required_knowledges": []
+  },
+  {
+    "item_id": 623198141,
+    "slots": [
+      "HandArtifact"
+    ],
+    "visual_type": "Clothing",
+    "level_requirement": {
+      "skill_id": 1,
+      "level": 1
+    },
+    "clothing_visual": {
+      "meshe_names": []
+    },
+    "hand_equipment_visual": null,
+    "stats": [
+      {
+        "id": "Strength",
+        "value": 12.0,
+        "is_pct": false
+      },
+      {
+        "id": "CooldownMultiplier",
+        "value": 0.048,
         "is_pct": true
       }
     ],
@@ -19124,6 +19395,35 @@
       {
         "id": "SmithingSpeed",
         "value": 0.0756,
+        "is_pct": true
+      }
+    ],
+    "required_achievements": [],
+    "required_knowledges": []
+  },
+  {
+    "item_id": 653322926,
+    "slots": [
+      "HandArtifact"
+    ],
+    "visual_type": "Clothing",
+    "level_requirement": {
+      "skill_id": 1,
+      "level": 1
+    },
+    "clothing_visual": {
+      "meshe_names": []
+    },
+    "hand_equipment_visual": null,
+    "stats": [
+      {
+        "id": "Strength",
+        "value": 10.0,
+        "is_pct": false
+      },
+      {
+        "id": "CooldownMultiplier",
+        "value": 0.04,
         "is_pct": true
       }
     ],
@@ -20008,17 +20308,17 @@
     "stats": [
       {
         "id": "Armor",
-        "value": 960.0,
+        "value": 1290.0,
         "is_pct": false
       },
       {
         "id": "Strength",
-        "value": 144.0,
+        "value": 129.0,
         "is_pct": false
       },
       {
         "id": "Accuracy",
-        "value": 240.0,
+        "value": 215.0,
         "is_pct": false
       }
     ],
@@ -21467,7 +21767,7 @@
     "stats": [
       {
         "id": "Evasion",
-        "value": 40.0,
+        "value": 200.0,
         "is_pct": false
       },
       {
@@ -23145,6 +23445,35 @@
     "required_knowledges": []
   },
   {
+    "item_id": 773436380,
+    "slots": [
+      "HandArtifact"
+    ],
+    "visual_type": "Clothing",
+    "level_requirement": {
+      "skill_id": 1,
+      "level": 1
+    },
+    "clothing_visual": {
+      "meshe_names": []
+    },
+    "hand_equipment_visual": null,
+    "stats": [
+      {
+        "id": "Strength",
+        "value": 26.0,
+        "is_pct": false
+      },
+      {
+        "id": "CooldownMultiplier",
+        "value": 0.104,
+        "is_pct": true
+      }
+    ],
+    "required_achievements": [],
+    "required_knowledges": []
+  },
+  {
     "item_id": 775766159,
     "slots": [
       "MainHand",
@@ -23188,12 +23517,12 @@
     "stats": [
       {
         "id": "Strength",
-        "value": 144.0,
+        "value": 129.0,
         "is_pct": false
       },
       {
         "id": "Accuracy",
-        "value": 240.0,
+        "value": 215.0,
         "is_pct": false
       }
     ],
@@ -23601,12 +23930,12 @@
     "stats": [
       {
         "id": "Strength",
-        "value": 11.0,
+        "value": 22.0,
         "is_pct": false
       },
       {
         "id": "Armor",
-        "value": 88.0,
+        "value": 440.0,
         "is_pct": false
       }
     ],
@@ -23723,6 +24052,64 @@
       ]
     },
     "stats": [],
+    "required_achievements": [],
+    "required_knowledges": []
+  },
+  {
+    "item_id": 801436691,
+    "slots": [
+      "HandArtifact"
+    ],
+    "visual_type": "Clothing",
+    "level_requirement": {
+      "skill_id": 1,
+      "level": 1
+    },
+    "clothing_visual": {
+      "meshe_names": []
+    },
+    "hand_equipment_visual": null,
+    "stats": [
+      {
+        "id": "Strength",
+        "value": 22.0,
+        "is_pct": false
+      },
+      {
+        "id": "CooldownMultiplier",
+        "value": 0.088,
+        "is_pct": true
+      }
+    ],
+    "required_achievements": [],
+    "required_knowledges": []
+  },
+  {
+    "item_id": 802081280,
+    "slots": [
+      "HandArtifact"
+    ],
+    "visual_type": "Clothing",
+    "level_requirement": {
+      "skill_id": 1,
+      "level": 1
+    },
+    "clothing_visual": {
+      "meshe_names": []
+    },
+    "hand_equipment_visual": null,
+    "stats": [
+      {
+        "id": "Strength",
+        "value": 12.0,
+        "is_pct": false
+      },
+      {
+        "id": "Evasion",
+        "value": 240.0,
+        "is_pct": false
+      }
+    ],
     "required_achievements": [],
     "required_knowledges": []
   },
@@ -24565,6 +24952,35 @@
         "id": "CooldownMultiplier",
         "value": 0.0165,
         "is_pct": true
+      }
+    ],
+    "required_achievements": [],
+    "required_knowledges": []
+  },
+  {
+    "item_id": 838546870,
+    "slots": [
+      "HandArtifact"
+    ],
+    "visual_type": "Clothing",
+    "level_requirement": {
+      "skill_id": 1,
+      "level": 1
+    },
+    "clothing_visual": {
+      "meshe_names": []
+    },
+    "hand_equipment_visual": null,
+    "stats": [
+      {
+        "id": "MaxHealth",
+        "value": 44.0,
+        "is_pct": false
+      },
+      {
+        "id": "Armor",
+        "value": 440.0,
+        "is_pct": false
       }
     ],
     "required_achievements": [],
@@ -26782,6 +27198,35 @@
         "id": "CooldownMultiplier",
         "value": 0.0085,
         "is_pct": true
+      }
+    ],
+    "required_achievements": [],
+    "required_knowledges": []
+  },
+  {
+    "item_id": 918243825,
+    "slots": [
+      "HandArtifact"
+    ],
+    "visual_type": "Clothing",
+    "level_requirement": {
+      "skill_id": 1,
+      "level": 1
+    },
+    "clothing_visual": {
+      "meshe_names": []
+    },
+    "hand_equipment_visual": null,
+    "stats": [
+      {
+        "id": "Strength",
+        "value": 16.0,
+        "is_pct": false
+      },
+      {
+        "id": "Evasion",
+        "value": 320.0,
+        "is_pct": false
       }
     ],
     "required_achievements": [],
@@ -31088,12 +31533,12 @@
     "stats": [
       {
         "id": "Strength",
-        "value": 9.0,
+        "value": 18.0,
         "is_pct": false
       },
       {
         "id": "Armor",
-        "value": 72.0,
+        "value": 360.0,
         "is_pct": false
       }
     ],
@@ -31805,6 +32250,35 @@
     "required_knowledges": []
   },
   {
+    "item_id": 1091151492,
+    "slots": [
+      "HandArtifact"
+    ],
+    "visual_type": "Clothing",
+    "level_requirement": {
+      "skill_id": 1,
+      "level": 1
+    },
+    "clothing_visual": {
+      "meshe_names": []
+    },
+    "hand_equipment_visual": null,
+    "stats": [
+      {
+        "id": "Strength",
+        "value": 28.0,
+        "is_pct": false
+      },
+      {
+        "id": "CooldownMultiplier",
+        "value": 0.112,
+        "is_pct": true
+      }
+    ],
+    "required_achievements": [],
+    "required_knowledges": []
+  },
+  {
     "item_id": 1091979766,
     "slots": [
       "FeetClothing"
@@ -32253,6 +32727,35 @@
     "required_knowledges": [
       969337162
     ]
+  },
+  {
+    "item_id": 1104166962,
+    "slots": [
+      "HandArtifact"
+    ],
+    "visual_type": "Clothing",
+    "level_requirement": {
+      "skill_id": 1,
+      "level": 1
+    },
+    "clothing_visual": {
+      "meshe_names": []
+    },
+    "hand_equipment_visual": null,
+    "stats": [
+      {
+        "id": "Strength",
+        "value": 18.0,
+        "is_pct": false
+      },
+      {
+        "id": "CooldownMultiplier",
+        "value": 0.072,
+        "is_pct": true
+      }
+    ],
+    "required_achievements": [],
+    "required_knowledges": []
   },
   {
     "item_id": 1112133034,
@@ -34546,8 +35049,13 @@
     "hand_equipment_visual": null,
     "stats": [
       {
-        "id": "Armor",
-        "value": 1.0,
+        "id": "MaxHealth",
+        "value": 2.0,
+        "is_pct": false
+      },
+      {
+        "id": "Evasion",
+        "value": 60.0,
         "is_pct": false
       }
     ],
@@ -35650,6 +36158,35 @@
     "required_knowledges": []
   },
   {
+    "item_id": 1210509755,
+    "slots": [
+      "HandArtifact"
+    ],
+    "visual_type": "Clothing",
+    "level_requirement": {
+      "skill_id": 1,
+      "level": 1
+    },
+    "clothing_visual": {
+      "meshe_names": []
+    },
+    "hand_equipment_visual": null,
+    "stats": [
+      {
+        "id": "Strength",
+        "value": 24.0,
+        "is_pct": false
+      },
+      {
+        "id": "Evasion",
+        "value": 480.0,
+        "is_pct": false
+      }
+    ],
+    "required_achievements": [],
+    "required_knowledges": []
+  },
+  {
     "item_id": 1210883701,
     "slots": [
       "FeetClothing"
@@ -36342,6 +36879,35 @@
       ]
     },
     "stats": [],
+    "required_achievements": [],
+    "required_knowledges": []
+  },
+  {
+    "item_id": 1231404761,
+    "slots": [
+      "HandArtifact"
+    ],
+    "visual_type": "Clothing",
+    "level_requirement": {
+      "skill_id": 1,
+      "level": 1
+    },
+    "clothing_visual": {
+      "meshe_names": []
+    },
+    "hand_equipment_visual": null,
+    "stats": [
+      {
+        "id": "MaxHealth",
+        "value": 20.0,
+        "is_pct": false
+      },
+      {
+        "id": "Armor",
+        "value": 200.0,
+        "is_pct": false
+      }
+    ],
     "required_achievements": [],
     "required_knowledges": []
   },
@@ -38106,6 +38672,35 @@
     "required_knowledges": []
   },
   {
+    "item_id": 1292132217,
+    "slots": [
+      "HandArtifact"
+    ],
+    "visual_type": "Clothing",
+    "level_requirement": {
+      "skill_id": 1,
+      "level": 1
+    },
+    "clothing_visual": {
+      "meshe_names": []
+    },
+    "hand_equipment_visual": null,
+    "stats": [
+      {
+        "id": "Strength",
+        "value": 20.0,
+        "is_pct": false
+      },
+      {
+        "id": "CooldownMultiplier",
+        "value": 0.08,
+        "is_pct": true
+      }
+    ],
+    "required_achievements": [],
+    "required_knowledges": []
+  },
+  {
     "item_id": 1294316834,
     "slots": [
       "MainHand",
@@ -38245,7 +38840,7 @@
     "stats": [
       {
         "id": "Evasion",
-        "value": 80.0,
+        "value": 400.0,
         "is_pct": false
       },
       {
@@ -41552,6 +42147,35 @@
     "required_knowledges": []
   },
   {
+    "item_id": 1424225992,
+    "slots": [
+      "HandArtifact"
+    ],
+    "visual_type": "Clothing",
+    "level_requirement": {
+      "skill_id": 1,
+      "level": 1
+    },
+    "clothing_visual": {
+      "meshe_names": []
+    },
+    "hand_equipment_visual": null,
+    "stats": [
+      {
+        "id": "Strength",
+        "value": 28.0,
+        "is_pct": false
+      },
+      {
+        "id": "Evasion",
+        "value": 560.0,
+        "is_pct": false
+      }
+    ],
+    "required_achievements": [],
+    "required_knowledges": []
+  },
+  {
     "item_id": 1425017205,
     "slots": [
       "BeltClothing"
@@ -41640,12 +42264,12 @@
     "stats": [
       {
         "id": "Strength",
-        "value": 144.0,
+        "value": 129.0,
         "is_pct": false
       },
       {
         "id": "Accuracy",
-        "value": 240.0,
+        "value": 215.0,
         "is_pct": false
       }
     ],
@@ -43809,12 +44433,12 @@
     "stats": [
       {
         "id": "Strength",
-        "value": 6.0,
+        "value": 12.0,
         "is_pct": false
       },
       {
         "id": "Armor",
-        "value": 48.0,
+        "value": 240.0,
         "is_pct": false
       }
     ],
@@ -46896,6 +47520,35 @@
     ]
   },
   {
+    "item_id": 1583236883,
+    "slots": [
+      "HandArtifact"
+    ],
+    "visual_type": "Clothing",
+    "level_requirement": {
+      "skill_id": 1,
+      "level": 1
+    },
+    "clothing_visual": {
+      "meshe_names": []
+    },
+    "hand_equipment_visual": null,
+    "stats": [
+      {
+        "id": "Strength",
+        "value": 20.0,
+        "is_pct": false
+      },
+      {
+        "id": "Evasion",
+        "value": 400.0,
+        "is_pct": false
+      }
+    ],
+    "required_achievements": [],
+    "required_knowledges": []
+  },
+  {
     "item_id": 1585954601,
     "slots": [
       "LegClothing"
@@ -48028,6 +48681,35 @@
         "id": "Strength",
         "value": 19.5,
         "is_pct": false
+      }
+    ],
+    "required_achievements": [],
+    "required_knowledges": []
+  },
+  {
+    "item_id": 1616137023,
+    "slots": [
+      "HandArtifact"
+    ],
+    "visual_type": "Clothing",
+    "level_requirement": {
+      "skill_id": 1,
+      "level": 1
+    },
+    "clothing_visual": {
+      "meshe_names": []
+    },
+    "hand_equipment_visual": null,
+    "stats": [
+      {
+        "id": "Strength",
+        "value": 16.0,
+        "is_pct": false
+      },
+      {
+        "id": "CooldownMultiplier",
+        "value": 0.064,
+        "is_pct": true
       }
     ],
     "required_achievements": [],
@@ -49724,6 +50406,35 @@
     "required_knowledges": []
   },
   {
+    "item_id": 1671442519,
+    "slots": [
+      "HandArtifact"
+    ],
+    "visual_type": "Clothing",
+    "level_requirement": {
+      "skill_id": 1,
+      "level": 1
+    },
+    "clothing_visual": {
+      "meshe_names": []
+    },
+    "hand_equipment_visual": null,
+    "stats": [
+      {
+        "id": "Strength",
+        "value": 14.0,
+        "is_pct": false
+      },
+      {
+        "id": "CooldownMultiplier",
+        "value": 0.056,
+        "is_pct": true
+      }
+    ],
+    "required_achievements": [],
+    "required_knowledges": []
+  },
+  {
     "item_id": 1671660647,
     "slots": [
       "HeadClothing"
@@ -51072,12 +51783,12 @@
     "stats": [
       {
         "id": "Strength",
-        "value": 5.0,
+        "value": 10.0,
         "is_pct": false
       },
       {
         "id": "Armor",
-        "value": 40.0,
+        "value": 200.0,
         "is_pct": false
       }
     ],
@@ -52997,6 +53708,35 @@
     "required_knowledges": []
   },
   {
+    "item_id": 1772865501,
+    "slots": [
+      "HandArtifact"
+    ],
+    "visual_type": "Clothing",
+    "level_requirement": {
+      "skill_id": 1,
+      "level": 1
+    },
+    "clothing_visual": {
+      "meshe_names": []
+    },
+    "hand_equipment_visual": null,
+    "stats": [
+      {
+        "id": "MaxHealth",
+        "value": 52.0,
+        "is_pct": false
+      },
+      {
+        "id": "Armor",
+        "value": 520.0,
+        "is_pct": false
+      }
+    ],
+    "required_achievements": [],
+    "required_knowledges": []
+  },
+  {
     "item_id": 1773081226,
     "slots": [
       "HandArtifact"
@@ -53093,6 +53833,35 @@
         "id": "CooldownMultiplier",
         "value": 0.011,
         "is_pct": true
+      }
+    ],
+    "required_achievements": [],
+    "required_knowledges": []
+  },
+  {
+    "item_id": 1780834971,
+    "slots": [
+      "HandArtifact"
+    ],
+    "visual_type": "Clothing",
+    "level_requirement": {
+      "skill_id": 1,
+      "level": 1
+    },
+    "clothing_visual": {
+      "meshe_names": []
+    },
+    "hand_equipment_visual": null,
+    "stats": [
+      {
+        "id": "Strength",
+        "value": 16.0,
+        "is_pct": false
+      },
+      {
+        "id": "Accuracy",
+        "value": 20.0,
+        "is_pct": false
       }
     ],
     "required_achievements": [],
@@ -53433,6 +54202,35 @@
     "required_knowledges": []
   },
   {
+    "item_id": 1792733465,
+    "slots": [
+      "HandArtifact"
+    ],
+    "visual_type": "Clothing",
+    "level_requirement": {
+      "skill_id": 1,
+      "level": 1
+    },
+    "clothing_visual": {
+      "meshe_names": []
+    },
+    "hand_equipment_visual": null,
+    "stats": [
+      {
+        "id": "MaxHealth",
+        "value": 32.0,
+        "is_pct": false
+      },
+      {
+        "id": "ActiveHealthRegenRate",
+        "value": 0.2,
+        "is_pct": false
+      }
+    ],
+    "required_achievements": [],
+    "required_knowledges": []
+  },
+  {
     "item_id": 1793543078,
     "slots": [
       "TorsoClothing"
@@ -53728,7 +54526,7 @@
     "stats": [
       {
         "id": "Evasion",
-        "value": 56.0,
+        "value": 280.0,
         "is_pct": false
       },
       {
@@ -54973,6 +55771,35 @@
       ]
     },
     "stats": [],
+    "required_achievements": [],
+    "required_knowledges": []
+  },
+  {
+    "item_id": 1837848446,
+    "slots": [
+      "HandArtifact"
+    ],
+    "visual_type": "Clothing",
+    "level_requirement": {
+      "skill_id": 1,
+      "level": 1
+    },
+    "clothing_visual": {
+      "meshe_names": []
+    },
+    "hand_equipment_visual": null,
+    "stats": [
+      {
+        "id": "Strength",
+        "value": 24.0,
+        "is_pct": false
+      },
+      {
+        "id": "CooldownMultiplier",
+        "value": 0.096,
+        "is_pct": true
+      }
+    ],
     "required_achievements": [],
     "required_knowledges": []
   },
@@ -59728,6 +60555,35 @@
     "required_knowledges": []
   },
   {
+    "item_id": 1975567398,
+    "slots": [
+      "HandArtifact"
+    ],
+    "visual_type": "Clothing",
+    "level_requirement": {
+      "skill_id": 1,
+      "level": 1
+    },
+    "clothing_visual": {
+      "meshe_names": []
+    },
+    "hand_equipment_visual": null,
+    "stats": [
+      {
+        "id": "MaxHealth",
+        "value": 36.0,
+        "is_pct": false
+      },
+      {
+        "id": "Armor",
+        "value": 360.0,
+        "is_pct": false
+      }
+    ],
+    "required_achievements": [],
+    "required_knowledges": []
+  },
+  {
     "item_id": 1976446107,
     "slots": [
       "HandArtifact"
@@ -60103,7 +60959,7 @@
     "stats": [
       {
         "id": "Evasion",
-        "value": 112.0,
+        "value": 560.0,
         "is_pct": false
       },
       {
@@ -60334,12 +61190,12 @@
     "stats": [
       {
         "id": "Strength",
-        "value": 8.0,
+        "value": 16.0,
         "is_pct": false
       },
       {
         "id": "Armor",
-        "value": 64.0,
+        "value": 320.0,
         "is_pct": false
       }
     ],
@@ -60732,6 +61588,35 @@
     "required_knowledges": []
   },
   {
+    "item_id": 2015971334,
+    "slots": [
+      "HandArtifact"
+    ],
+    "visual_type": "Clothing",
+    "level_requirement": {
+      "skill_id": 1,
+      "level": 1
+    },
+    "clothing_visual": {
+      "meshe_names": []
+    },
+    "hand_equipment_visual": null,
+    "stats": [
+      {
+        "id": "Strength",
+        "value": 26.0,
+        "is_pct": false
+      },
+      {
+        "id": "Evasion",
+        "value": 520.0,
+        "is_pct": false
+      }
+    ],
+    "required_achievements": [],
+    "required_knowledges": []
+  },
+  {
     "item_id": 2016631639,
     "slots": [
       "HandClothing"
@@ -60982,7 +61867,7 @@
     "stats": [
       {
         "id": "Evasion",
-        "value": 48.0,
+        "value": 240.0,
         "is_pct": false
       },
       {
@@ -61397,12 +62282,12 @@
     "stats": [
       {
         "id": "Strength",
-        "value": 14.0,
+        "value": 28.0,
         "is_pct": false
       },
       {
         "id": "Armor",
-        "value": 112.0,
+        "value": 560.0,
         "is_pct": false
       }
     ],
@@ -62575,6 +63460,35 @@
       {
         "id": "Accuracy",
         "value": 290.0,
+        "is_pct": false
+      }
+    ],
+    "required_achievements": [],
+    "required_knowledges": []
+  },
+  {
+    "item_id": 2070498496,
+    "slots": [
+      "HandArtifact"
+    ],
+    "visual_type": "Clothing",
+    "level_requirement": {
+      "skill_id": 1,
+      "level": 1
+    },
+    "clothing_visual": {
+      "meshe_names": []
+    },
+    "hand_equipment_visual": null,
+    "stats": [
+      {
+        "id": "Strength",
+        "value": 10.0,
+        "is_pct": false
+      },
+      {
+        "id": "Evasion",
+        "value": 200.0,
         "is_pct": false
       }
     ],
@@ -64221,6 +65135,35 @@
     "required_knowledges": []
   },
   {
+    "item_id": 2120362043,
+    "slots": [
+      "HandArtifact"
+    ],
+    "visual_type": "Clothing",
+    "level_requirement": {
+      "skill_id": 1,
+      "level": 1
+    },
+    "clothing_visual": {
+      "meshe_names": []
+    },
+    "hand_equipment_visual": null,
+    "stats": [
+      {
+        "id": "MaxHealth",
+        "value": 24.0,
+        "is_pct": false
+      },
+      {
+        "id": "Armor",
+        "value": 240.0,
+        "is_pct": false
+      }
+    ],
+    "required_achievements": [],
+    "required_knowledges": []
+  },
+  {
     "item_id": 2120926079,
     "slots": [
       "HandArtifact"
@@ -64237,12 +65180,12 @@
     "stats": [
       {
         "id": "Strength",
-        "value": 13.0,
+        "value": 26.0,
         "is_pct": false
       },
       {
         "id": "Armor",
-        "value": 104.0,
+        "value": 520.0,
         "is_pct": false
       }
     ],
