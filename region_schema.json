@@ -45308,19 +45308,6 @@
         },
         {
           "name": {
-            "some": "location_state_dimension_idx_btree"
-          },
-          "accessor_name": {
-            "some": "dimension"
-          },
-          "algorithm": {
-            "BTree": [
-              4
-            ]
-          }
-        },
-        {
-          "name": {
             "some": "location_state_entity_id_idx_btree"
           },
           "accessor_name": {
@@ -54348,6 +54335,24 @@
             },
             "algebraic_type": {
               "String": []
+            }
+          }
+        ]
+      },
+      "lifecycle": {
+        "none": []
+      }
+    },
+    {
+      "name": "admin_unlock_house",
+      "params": {
+        "elements": [
+          {
+            "name": {
+              "some": "player_entity_id"
+            },
+            "algebraic_type": {
+              "U64": []
             }
           }
         ]
