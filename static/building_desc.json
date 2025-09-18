@@ -3634,7 +3634,7 @@
         -1,
         0,
         [
-          0,
+          1,
           []
         ]
       ],
@@ -3642,7 +3642,7 @@
         1,
         -1,
         [
-          0,
+          1,
           []
         ]
       ],
@@ -3650,7 +3650,7 @@
         0,
         1,
         [
-          0,
+          1,
           []
         ]
       ],
@@ -107008,6 +107008,80 @@
     "not_deconstructible": false
   },
   {
+    "id": 1396283472,
+    "functions": [
+      [
+        999,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6000,
+        6000,
+        0,
+        [],
+        [],
+        0,
+        false,
+        0,
+        0
+      ]
+    ],
+    "name": "Dungeon Room Entrance",
+    "description": "used for invisible exits to interiors that do not gate enemies\n",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/InvisibleCaveExit",
+    "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Other/Buildings/ExitInterior",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          1,
+          []
+        ]
+      ],
+      [
+        1,
+        -1,
+        [
+          1,
+          []
+        ]
+      ],
+      [
+        -1,
+        1,
+        [
+          1,
+          []
+        ]
+      ]
+    ],
+    "max_health": -1,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 0.0,
+    "maintenance": 0.0,
+    "build_permission": [
+      1,
+      {}
+    ],
+    "interact_permission": [
+      1,
+      {}
+    ],
+    "has_action": true,
+    "show_in_compendium": false,
+    "is_ruins": false,
+    "not_deconstructible": false
+  },
+  {
     "id": 1396990263,
     "functions": [
       [
@@ -137175,6 +137249,80 @@
     ],
     "has_action": true,
     "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false
+  },
+  {
+    "id": 1991870633,
+    "functions": [
+      [
+        999,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6000,
+        6000,
+        0,
+        [],
+        [],
+        0,
+        false,
+        0,
+        0
+      ]
+    ],
+    "name": "Dungeon Room Exit",
+    "description": "used for invisible exits to interiors with enemy gating\n\n",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/InvisibleCaveExit",
+    "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Other/Buildings/ExitInterior",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          1,
+          []
+        ]
+      ],
+      [
+        1,
+        -1,
+        [
+          1,
+          []
+        ]
+      ],
+      [
+        -1,
+        1,
+        [
+          1,
+          []
+        ]
+      ]
+    ],
+    "max_health": -1,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 0.0,
+    "maintenance": 0.0,
+    "build_permission": [
+      1,
+      {}
+    ],
+    "interact_permission": [
+      1,
+      {}
+    ],
+    "has_action": true,
+    "show_in_compendium": false,
     "is_ruins": false,
     "not_deconstructible": false
   },

@@ -6481,7 +6481,7 @@
   {
     "id": 1170004,
     "name": "Plain Mashed Bulbs",
-    "description": "Mashed potatoes. Tasty and filling but not overly interesting.",
+    "description": "Mashed starbulbs. Tasty and filling but not overly interesting.",
     "volume": 600,
     "durability": 0,
     "convert_to_on_durability_zero": 0,
@@ -9198,7 +9198,7 @@
   {
     "id": 2170004,
     "name": "Savory Mashed Bulbs",
-    "description": "Mashed potatoes. Tasty and filling but not overly interesting.",
+    "description": "Mashed starbulbs. Tasty and filling but not overly interesting.",
     "volume": 600,
     "durability": 0,
     "convert_to_on_durability_zero": 0,
@@ -12219,7 +12219,7 @@
   {
     "id": 3170004,
     "name": "Zesty Mashed Bulbs",
-    "description": "Mashed potatoes. Tasty and filling but not overly interesting.",
+    "description": "Mashed starbulbs. Tasty and filling but not overly interesting.",
     "volume": 600,
     "durability": 0,
     "convert_to_on_durability_zero": 0,
@@ -15088,7 +15088,7 @@
   {
     "id": 4170004,
     "name": "Fine Mashed Bulbs",
-    "description": "Mashed potatoes. Tasty and filling but not overly interesting.",
+    "description": "Mashed starbulbs. Tasty and filling but not overly interesting.",
     "volume": 600,
     "durability": 0,
     "convert_to_on_durability_zero": 0,
@@ -17919,7 +17919,7 @@
   {
     "id": 5170004,
     "name": "Succulent Mashed Bulbs",
-    "description": "Mashed potatoes. Tasty and filling but not overly interesting.",
+    "description": "Mashed starbulbs. Tasty and filling but not overly interesting.",
     "volume": 600,
     "durability": 0,
     "convert_to_on_durability_zero": 0,
@@ -20712,7 +20712,7 @@
   {
     "id": 6170004,
     "name": "Ambrosial Mashed Bulbs",
-    "description": "Mashed potatoes. Tasty and filling but not overly interesting.",
+    "description": "Mashed starbulbs. Tasty and filling but not overly interesting.",
     "volume": 600,
     "durability": 0,
     "convert_to_on_durability_zero": 0,
@@ -23503,6 +23503,44 @@
     "item_list_id": 0
   },
   {
+    "id": 40349004,
+    "name": "Scrumptious Roasted Meat",
+    "description": "Meat cooked on an open fire.",
+    "volume": 600,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/BoarMeatCooked",
+    "tier": 9,
+    "tag": "Basic Food",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
+    "id": 42076410,
+    "name": "Delectable Raw Bulb Rolls",
+    "description": "Uncooked onion rolls. Cook them in an oven to eat them!",
+    "volume": 600,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/UncookedWhiteOnionRolls",
+    "tier": 10,
+    "tag": "Raw Meal",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
     "id": 44051544,
     "name": "Ornate Leather Cap",
     "description": "",
@@ -24453,6 +24491,25 @@
     "item_list_id": 0
   },
   {
+    "id": 61342325,
+    "name": "Flavorful Deluxe Fish and Bulbs",
+    "description": "Fish arranged in a dish with salty fried potatoes. Delicious and filling.",
+    "volume": 600,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/FishAndChips",
+    "tier": 7,
+    "tag": "Meal",
+    "rarity": [
+      3,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
     "id": 61508445,
     "name": "Magnificient Ocean Fish Filet",
     "description": "A filet from a fish from the ocean. Could be used to make food.",
@@ -24806,6 +24863,25 @@
     "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Items/MaceT1",
     "tier": 7,
     "tag": "Weapon",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
+    "id": 70001889,
+    "name": "Delectable Ground Meat and Mashed Bulbs",
+    "description": "Ground meat served with a side of potatoes with onions. Delicious and filling.",
+    "volume": 600,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/PotatoAndWolfMeat",
+    "tier": 10,
+    "tag": "Meal",
     "rarity": [
       1,
       {}
@@ -25802,6 +25878,25 @@
     "item_list_id": 0
   },
   {
+    "id": 92340004,
+    "name": "Recipe: Delicious Deluxe Ground Meat and Mashed Bulbs",
+    "description": "A recipe to learn Delicious Deluxe Ground Meat and Mashed Bulbs",
+    "volume": 0,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/AncientDeed",
+    "tier": 8,
+    "tag": "Food Recipe",
+    "rarity": [
+      3,
+      {}
+    ],
+    "compendium_entry": false,
+    "item_list_id": 0
+  },
+  {
     "id": 92486652,
     "name": "Recipe: Ambrosial Raw Bulb Roll",
     "description": "A recipe to learn Ambrosial Raw Bulb Roll",
@@ -26296,6 +26391,25 @@
     "item_list_id": 0
   },
   {
+    "id": 102576945,
+    "name": "Flavorful Roasted Ocean Fish",
+    "description": "Filets from an ocean fish roasted on a fire.",
+    "volume": 600,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/CookedSalmon",
+    "tier": 7,
+    "tag": "Basic Food",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
     "id": 103390023,
     "name": "Refined Flawless Cloth",
     "description": "A thick weave of refined cloth embroided with animal hairs.",
@@ -26408,6 +26522,25 @@
     ],
     "compendium_entry": true,
     "item_list_id": 2063133489
+  },
+  {
+    "id": 107249693,
+    "name": "Flawless Lake Fish Experiment",
+    "description": "",
+    "volume": 0,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Items/FishFilet",
+    "tier": 10,
+    "tag": "Experimentation",
+    "rarity": [
+      2,
+      {}
+    ],
+    "compendium_entry": false,
+    "item_list_id": 843373305
   },
   {
     "id": 108221358,
@@ -26744,6 +26877,25 @@
     "icon_asset_name": "GeneratedIcons/Items/Parchment",
     "tier": 7,
     "tag": "Parchment",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
+    "id": 113402944,
+    "name": "Delicious Bread",
+    "description": "Bread made from flour. Tasty by itself but it could be used to make sandwiches.",
+    "volume": 600,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/WildBread",
+    "tier": 8,
+    "tag": "Basic Food",
     "rarity": [
       1,
       {}
@@ -27341,6 +27493,25 @@
     "item_list_id": 0
   },
   {
+    "id": 124580480,
+    "name": "Flavorful Ocean Fish Sticks",
+    "description": "Breaded ocean fish fried to a delicious crunchy meal.",
+    "volume": 600,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/FishAndChips",
+    "tier": 7,
+    "tag": "Meal",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
     "id": 124624682,
     "name": "Wicker Bed",
     "description": "This item could be used to make a Wicker Bed in your house. The Wicker Bed could be used to decorate your house.",
@@ -27472,6 +27643,25 @@
     ],
     "compendium_entry": true,
     "item_list_id": 1430658110
+  },
+  {
+    "id": 127337957,
+    "name": "Delicious Berry Pie",
+    "description": "Smells delicious. You can hardly wait to eat it.",
+    "volume": 600,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/StrawberryPie",
+    "tier": 8,
+    "tag": "Meal",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
   },
   {
     "id": 127537823,
@@ -28177,6 +28367,25 @@
     "item_list_id": 0
   },
   {
+    "id": 144368952,
+    "name": "Scrumptious Deluxe Mushroom Stuffed Bulbs",
+    "description": "Onions stuffed with wild mushrooms.",
+    "volume": 600,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/MushroomStuffedWildOnion",
+    "tier": 9,
+    "tag": "Meal",
+    "rarity": [
+      3,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
     "id": 144598614,
     "name": "Luminite Shortsword",
     "description": "A skillfully smithed sword. Better to be on the giving end than the receiving end.",
@@ -28538,6 +28747,25 @@
     "item_list_id": 0
   },
   {
+    "id": 153361133,
+    "name": "Recipe: Delectable Deluxe Ocean Fish Sticks",
+    "description": "A recipe to learn Delectable Deluxe Ocean Fish Sticks",
+    "volume": 0,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/AncientDeed",
+    "tier": 10,
+    "tag": "Food Recipe",
+    "rarity": [
+      3,
+      {}
+    ],
+    "compendium_entry": false,
+    "item_list_id": 0
+  },
+  {
     "id": 153737425,
     "name": "T9 Clay Output",
     "description": "",
@@ -28612,6 +28840,25 @@
     ],
     "compendium_entry": false,
     "item_list_id": 216755365
+  },
+  {
+    "id": 155257299,
+    "name": "Flavorful Deluxe Ocean Fish Sticks",
+    "description": "Breaded ocean fish fried to a delicious crunchy meal.",
+    "volume": 600,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/FishAndChips",
+    "tier": 7,
+    "tag": "Meal",
+    "rarity": [
+      3,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
   },
   {
     "id": 155717099,
@@ -29273,6 +29520,25 @@
     "tag": "Tailor Tool",
     "rarity": [
       2,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
+    "id": 169014644,
+    "name": "Scrumptious Deluxe Bulb Rolls",
+    "description": "Warm, tasty onion rolls.",
+    "volume": 600,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/WhiteOnionRolls",
+    "tier": 9,
+    "tag": "Meal",
+    "rarity": [
+      3,
       {}
     ],
     "compendium_entry": true,
@@ -30514,6 +30780,25 @@
     "item_list_id": 752470947
   },
   {
+    "id": 192484826,
+    "name": "Sentinel Ancient Headpiece Drop Gold",
+    "description": "",
+    "volume": 0,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "",
+    "tier": 3,
+    "tag": "Dungeon Contribution Item List",
+    "rarity": [
+      0,
+      {}
+    ],
+    "compendium_entry": false,
+    "item_list_id": 1431174715
+  },
+  {
     "id": 194004560,
     "name": "Aurumite Spear & Shield",
     "description": "",
@@ -30799,6 +31084,25 @@
     "item_list_id": 0
   },
   {
+    "id": 198923762,
+    "name": "Recipe: Scrumptious Raw Bulb Roll",
+    "description": "A recipe to learn Scrumptious Raw Bulb Roll",
+    "volume": 0,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/AncientDeed",
+    "tier": 9,
+    "tag": "Food Recipe",
+    "rarity": [
+      2,
+      {}
+    ],
+    "compendium_entry": false,
+    "item_list_id": 0
+  },
+  {
     "id": 200135323,
     "name": "Deed: Rough Long Skirt - Refined Blue",
     "description": "",
@@ -30888,6 +31192,25 @@
     "tag": "Refined Plank",
     "rarity": [
       4,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
+    "id": 201369581,
+    "name": "Delectable Deluxe Berry Pie",
+    "description": "Smells delicious. You can hardly wait to eat it.",
+    "volume": 600,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/StrawberryPie",
+    "tier": 10,
+    "tag": "Meal",
+    "rarity": [
+      3,
       {}
     ],
     "compendium_entry": true,
@@ -31006,6 +31329,25 @@
     ],
     "compendium_entry": false,
     "item_list_id": 0
+  },
+  {
+    "id": 204375597,
+    "name": "Flawless Meat Experiment",
+    "description": "",
+    "volume": 0,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Items/RawMeat",
+    "tier": 10,
+    "tag": "Experimentation",
+    "rarity": [
+      2,
+      {}
+    ],
+    "compendium_entry": false,
+    "item_list_id": 1869686067
   },
   {
     "id": 204592986,
@@ -31274,6 +31616,25 @@
     "item_list_id": 0
   },
   {
+    "id": 213782909,
+    "name": "Recipe: Scrumptious Deluxe Ground Meat and Mashed Bulbs",
+    "description": "A recipe to learn Scrumptious Deluxe Ground Meat and Mashed Bulbs",
+    "volume": 0,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/AncientDeed",
+    "tier": 9,
+    "tag": "Food Recipe",
+    "rarity": [
+      3,
+      {}
+    ],
+    "compendium_entry": false,
+    "item_list_id": 0
+  },
+  {
     "id": 214202420,
     "name": "Pristine Woven Cap",
     "description": "",
@@ -31481,6 +31842,25 @@
     ],
     "compendium_entry": true,
     "item_list_id": 0
+  },
+  {
+    "id": 217891430,
+    "name": "Magnificent Meat Experiment",
+    "description": "",
+    "volume": 0,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Items/RawMeat",
+    "tier": 9,
+    "tag": "Experimentation",
+    "rarity": [
+      2,
+      {}
+    ],
+    "compendium_entry": false,
+    "item_list_id": 315782006
   },
   {
     "id": 219172952,
@@ -31825,6 +32205,25 @@
     "item_list_id": 0
   },
   {
+    "id": 225137551,
+    "name": "Scrumptious Ocean Fish Sticks",
+    "description": "Breaded ocean fish fried to a delicious crunchy meal.",
+    "volume": 600,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/FishAndChips",
+    "tier": 9,
+    "tag": "Meal",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
     "id": 225196735,
     "name": "Breezy Fin Darter Experiment",
     "description": "",
@@ -31876,6 +32275,25 @@
     "tag": "Metal Armor",
     "rarity": [
       2,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
+    "id": 226672491,
+    "name": "Scrumptious Bulb Rolls",
+    "description": "Warm, tasty onion rolls.",
+    "volume": 600,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/WhiteOnionRolls",
+    "tier": 9,
+    "tag": "Meal",
+    "rarity": [
+      1,
       {}
     ],
     "compendium_entry": true,
@@ -32338,6 +32756,25 @@
     "item_list_id": 1088833668
   },
   {
+    "id": 235656017,
+    "name": "Flavorful Berry Pie",
+    "description": "Smells delicious. You can hardly wait to eat it.",
+    "volume": 600,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/StrawberryPie",
+    "tier": 7,
+    "tag": "Meal",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
     "id": 236049501,
     "name": "Astralite Plated Armor",
     "description": "",
@@ -32370,6 +32807,25 @@
     "tag": "Leather Clothing",
     "rarity": [
       5,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
+    "id": 237086445,
+    "name": "Flavorful Raw Bulb Rolls",
+    "description": "Uncooked onion rolls. Cook them in an oven to eat them!",
+    "volume": 600,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/UncookedWhiteOnionRolls",
+    "tier": 7,
+    "tag": "Raw Meal",
+    "rarity": [
+      1,
       {}
     ],
     "compendium_entry": true,
@@ -32427,6 +32883,25 @@
     "tag": "Scholar Tool",
     "rarity": [
       1,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
+    "id": 237870480,
+    "name": "Delectable Deluxe Fish and Bulbs",
+    "description": "Fish arranged in a dish with salty fried potatoes. Delicious and filling.",
+    "volume": 600,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/FishAndChips",
+    "tier": 10,
+    "tag": "Meal",
+    "rarity": [
+      3,
       {}
     ],
     "compendium_entry": true,
@@ -32640,6 +33115,25 @@
     ],
     "compendium_entry": true,
     "item_list_id": 1829444405
+  },
+  {
+    "id": 243206317,
+    "name": "Recipe: Delectable Raw Bulb Roll",
+    "description": "A recipe to learn Delectable Raw Bulb Roll",
+    "volume": 0,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/AncientDeed",
+    "tier": 10,
+    "tag": "Food Recipe",
+    "rarity": [
+      2,
+      {}
+    ],
+    "compendium_entry": false,
+    "item_list_id": 0
   },
   {
     "id": 243344685,
@@ -33896,6 +34390,25 @@
     "item_list_id": 0
   },
   {
+    "id": 267963940,
+    "name": "Delectable Bread",
+    "description": "Bread made from flour. Tasty by itself but it could be used to make sandwiches.",
+    "volume": 600,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/WildBread",
+    "tier": 10,
+    "tag": "Basic Food",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
     "id": 268156651,
     "name": "Elenvar Knife",
     "description": "A knife made from elenvar.",
@@ -34200,6 +34713,25 @@
     "item_list_id": 697928152
   },
   {
+    "id": 277511016,
+    "name": "Delectable Roasted Meat",
+    "description": "Meat cooked on an open fire.",
+    "volume": 600,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/BoarMeatCooked",
+    "tier": 10,
+    "tag": "Basic Food",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
     "id": 277992146,
     "name": "Deed: Rideable Ox",
     "description": "An Ox which excels at carrying large quantities of items and medium quantities of cargo.",
@@ -34350,6 +34882,25 @@
     ],
     "compendium_entry": true,
     "item_list_id": 946775272
+  },
+  {
+    "id": 279595930,
+    "name": "Recipe: Delectable Ground Meat and Mashed Bulbs",
+    "description": "A recipe to learn Delectable Ground Meat and Mashed Bulbs",
+    "volume": 0,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/AncientDeed",
+    "tier": 10,
+    "tag": "Food Recipe",
+    "rarity": [
+      2,
+      {}
+    ],
+    "compendium_entry": false,
+    "item_list_id": 0
   },
   {
     "id": 279640803,
@@ -34675,6 +35226,25 @@
     "item_list_id": 1065426103
   },
   {
+    "id": 287213426,
+    "name": "Flavorful Cooked Berries",
+    "description": "Berries that have been cooked into a mushy mess. Tasty enough though.",
+    "volume": 600,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/CookedBerries",
+    "tier": 7,
+    "tag": "Basic Food",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
     "id": 287595125,
     "name": "Woodcrafter's Outdoor Planterbox Trellis",
     "description": "An item that could be used to create a building to decorate your town.",
@@ -34954,6 +35524,25 @@
     "tag": "Metal Armor",
     "rarity": [
       5,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
+    "id": 291179803,
+    "name": "Scrumptious Cooked Berries",
+    "description": "Berries that have been cooked into a mushy mess. Tasty enough though.",
+    "volume": 600,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/CookedBerries",
+    "tier": 9,
+    "tag": "Basic Food",
+    "rarity": [
+      1,
       {}
     ],
     "compendium_entry": true,
@@ -35524,6 +36113,25 @@
     "tag": "Weapon",
     "rarity": [
       3,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
+    "id": 306210969,
+    "name": "Flavorful Roasted Fish",
+    "description": "Filets from a fresh water fish roasted on a fire.",
+    "volume": 600,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/CookedBass",
+    "tier": 7,
+    "tag": "Basic Food",
+    "rarity": [
+      1,
       {}
     ],
     "compendium_entry": true,
@@ -36765,6 +37373,25 @@
     "item_list_id": 0
   },
   {
+    "id": 335141681,
+    "name": "Scrumptious Roasted Ocean Fish",
+    "description": "Filets from an ocean fish roasted on a fire.",
+    "volume": 600,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/CookedSalmon",
+    "tier": 9,
+    "tag": "Basic Food",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
     "id": 335321809,
     "name": "Ornate Codex",
     "description": "A compilation of research needed to advance your settlement to the next tier.",
@@ -37487,6 +38114,25 @@
     "item_list_id": 806372633
   },
   {
+    "id": 356491301,
+    "name": "Sentinel Hexcoins Silver Contribution",
+    "description": "",
+    "volume": 0,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "",
+    "tier": 3,
+    "tag": "Dungeon Contribution Item List",
+    "rarity": [
+      0,
+      {}
+    ],
+    "compendium_entry": false,
+    "item_list_id": 500966422
+  },
+  {
     "id": 356873769,
     "name": "Fine Jakyl Fang Amulet",
     "description": "A metal amulet made with a Jakyl Fang.",
@@ -37791,6 +38437,25 @@
     "item_list_id": 0
   },
   {
+    "id": 364782497,
+    "name": "Scrumptious Deluxe Meat Sandwich",
+    "description": "A piece of meat and some onions stuck between two delicious pieces of bread.",
+    "volume": 600,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/RabbitMeatSandwich",
+    "tier": 9,
+    "tag": "Meal",
+    "rarity": [
+      3,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
     "id": 365034169,
     "name": "Fine Diamond Fragment",
     "description": "This could be used to craft a gem.",
@@ -38038,6 +38703,25 @@
     "item_list_id": 871358103
   },
   {
+    "id": 370102036,
+    "name": "Recipe: Flavorful Raw Berry Pie",
+    "description": "A recipe to learn Flavorful Raw Berry Pie",
+    "volume": 0,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/AncientDeed",
+    "tier": 7,
+    "tag": "Food Recipe",
+    "rarity": [
+      2,
+      {}
+    ],
+    "compendium_entry": false,
+    "item_list_id": 0
+  },
+  {
     "id": 370594479,
     "name": "Ornate Pebbles Output",
     "description": "Crafts between 2 and 5 Pebbles",
@@ -38188,6 +38872,25 @@
     ],
     "compendium_entry": true,
     "item_list_id": 0
+  },
+  {
+    "id": 375818920,
+    "name": "Ornate Meat Experiment",
+    "description": "",
+    "volume": 0,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Items/RawMeat",
+    "tier": 7,
+    "tag": "Experimentation",
+    "rarity": [
+      2,
+      {}
+    ],
+    "compendium_entry": false,
+    "item_list_id": 1984770550
   },
   {
     "id": 376045459,
@@ -38492,6 +39195,25 @@
     ],
     "compendium_entry": true,
     "item_list_id": 1364327753
+  },
+  {
+    "id": 382901580,
+    "name": "Flavorful Skewered Baitfish",
+    "description": "Small fish skewered on a stick and cooked on a fire.",
+    "volume": 600,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/ShrimpSkewer",
+    "tier": 7,
+    "tag": "Basic Food",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
   },
   {
     "id": 383191168,
@@ -39615,6 +40337,25 @@
     "item_list_id": 0
   },
   {
+    "id": 410007707,
+    "name": "Delectable Deluxe Bulb Rolls",
+    "description": "Warm, tasty onion rolls.",
+    "volume": 600,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/WhiteOnionRolls",
+    "tier": 10,
+    "tag": "Meal",
+    "rarity": [
+      3,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
     "id": 410038255,
     "name": "Magnificient Woven Belt",
     "description": "",
@@ -40565,6 +41306,25 @@
     "item_list_id": 0
   },
   {
+    "id": 428269439,
+    "name": "Delicious Raw Bulb Rolls",
+    "description": "Uncooked onion rolls. Cook them in an oven to eat them!",
+    "volume": 600,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/UncookedWhiteOnionRolls",
+    "tier": 8,
+    "tag": "Raw Meal",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
     "id": 428286924,
     "name": "Magnificient Wispweave Plant",
     "description": "Can be split into Wispweave Filament for tailoring and Wispweave Seeds to replant.",
@@ -40825,6 +41585,25 @@
     "tag": "Metal Armor",
     "rarity": [
       4,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
+    "id": 436152917,
+    "name": "Delicious Mushroom Stuffed Bulbs",
+    "description": "Onions stuffed with wild mushrooms.",
+    "volume": 600,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/MushroomStuffedWildOnion",
+    "tier": 8,
+    "tag": "Meal",
+    "rarity": [
+      1,
       {}
     ],
     "compendium_entry": true,
@@ -41572,6 +42351,25 @@
     "item_list_id": 1346992984
   },
   {
+    "id": 449544989,
+    "name": "Magnificent Berry Experiment",
+    "description": "",
+    "volume": 0,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Items/Berries",
+    "tier": 9,
+    "tag": "Experimentation",
+    "rarity": [
+      2,
+      {}
+    ],
+    "compendium_entry": false,
+    "item_list_id": 1165532366
+  },
+  {
     "id": 450178430,
     "name": "Umbracite Claymore",
     "description": "A skillfully smithed sword. Better to be on the giving end than the receiving end.",
@@ -42066,6 +42864,25 @@
     "item_list_id": 0
   },
   {
+    "id": 465087591,
+    "name": "Ornate Embergrain Experiment",
+    "description": "",
+    "volume": 0,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Items/Grain",
+    "tier": 7,
+    "tag": "Experimentation",
+    "rarity": [
+      2,
+      {}
+    ],
+    "compendium_entry": false,
+    "item_list_id": 296708831
+  },
+  {
     "id": 465467902,
     "name": "Magnificient Leather Shirt",
     "description": "",
@@ -42237,6 +43054,25 @@
     "item_list_id": 0
   },
   {
+    "id": 472628643,
+    "name": "Recipe: Delicious Deluxe Meat Sandwich",
+    "description": "A recipe to learn Delicious Deluxe Meat Sandwich",
+    "volume": 0,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/AncientDeed",
+    "tier": 8,
+    "tag": "Food Recipe",
+    "rarity": [
+      3,
+      {}
+    ],
+    "compendium_entry": false,
+    "item_list_id": 0
+  },
+  {
     "id": 472672268,
     "name": "Cook's Endurance Training IV",
     "description": "This scroll contains knowledge that deepens your understanding of food so much that your automata stomach can hold more food. Increases your max hunger by 10. Requires level 40 cooking to purchase.",
@@ -42311,6 +43147,25 @@
     ],
     "compendium_entry": true,
     "item_list_id": 0
+  },
+  {
+    "id": 474416049,
+    "name": "Sentinel Ancient Heart or Eye Drop Gold",
+    "description": "",
+    "volume": 0,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "",
+    "tier": 3,
+    "tag": "Dungeon Contribution Item List",
+    "rarity": [
+      0,
+      {}
+    ],
+    "compendium_entry": false,
+    "item_list_id": 1679617322
   },
   {
     "id": 474661758,
@@ -42579,6 +43434,25 @@
     "item_list_id": 0
   },
   {
+    "id": 480901909,
+    "name": "Recipe: Delicious Meat Sandwich",
+    "description": "A recipe to learn Delicious Meat Sandwich",
+    "volume": 0,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/AncientDeed",
+    "tier": 8,
+    "tag": "Food Recipe",
+    "rarity": [
+      2,
+      {}
+    ],
+    "compendium_entry": false,
+    "item_list_id": 0
+  },
+  {
     "id": 481201132,
     "name": "Celestium Claymore",
     "description": "A skillfully smithed sword. Better to be on the giving end than the receiving end.",
@@ -42742,6 +43616,25 @@
     "icon_asset_name": "GeneratedIcons/Items/RawPelt",
     "tier": 8,
     "tag": "Raw Pelt",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
+    "id": 485884071,
+    "name": "Scrumptious Fish and Bulbs",
+    "description": "Fish arranged in a dish with salty fried potatoes. Delicious and filling.",
+    "volume": 600,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/FishAndChips",
+    "tier": 9,
+    "tag": "Meal",
     "rarity": [
       1,
       {}
@@ -42919,6 +43812,25 @@
     ],
     "compendium_entry": true,
     "item_list_id": 0
+  },
+  {
+    "id": 490342431,
+    "name": "Sentinel Ancient Metal Fragments Gold",
+    "description": "",
+    "volume": 0,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "",
+    "tier": 3,
+    "tag": "Dungeon Contribution Item List",
+    "rarity": [
+      0,
+      {}
+    ],
+    "compendium_entry": false,
+    "item_list_id": 320115466
   },
   {
     "id": 490558384,
@@ -43339,6 +44251,25 @@
     "item_list_id": 1242477607
   },
   {
+    "id": 499222991,
+    "name": "Delicious Roasted Ocean Fish",
+    "description": "Filets from an ocean fish roasted on a fire.",
+    "volume": 600,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/CookedSalmon",
+    "tier": 8,
+    "tag": "Basic Food",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
     "id": 499526743,
     "name": "Elenvar Plated Boots",
     "description": "",
@@ -43545,6 +44476,25 @@
       {}
     ],
     "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
+    "id": 504168294,
+    "name": "Recipe: Scrumptious Deluxe Ocean Fish Sticks",
+    "description": "A recipe to learn Scrumptious Deluxe Ocean Fish Sticks",
+    "volume": 0,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/AncientDeed",
+    "tier": 9,
+    "tag": "Food Recipe",
+    "rarity": [
+      3,
+      {}
+    ],
+    "compendium_entry": false,
     "item_list_id": 0
   },
   {
@@ -44422,6 +45372,25 @@
     "item_list_id": 1436813202
   },
   {
+    "id": 519108692,
+    "name": "Recipe: Delicious Deluxe Berry Pie",
+    "description": "A recipe to learn Delicious Deluxe Berry Pie",
+    "volume": 0,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/AncientDeed",
+    "tier": 8,
+    "tag": "Food Recipe",
+    "rarity": [
+      3,
+      {}
+    ],
+    "compendium_entry": false,
+    "item_list_id": 0
+  },
+  {
     "id": 519223075,
     "name": "Deed: Cloth Armwraps - Gray",
     "description": "",
@@ -44438,6 +45407,25 @@
       {}
     ],
     "compendium_entry": false,
+    "item_list_id": 0
+  },
+  {
+    "id": 519513382,
+    "name": "Flavorful Fish and Bulbs",
+    "description": "Fish arranged in a dish with salty fried potatoes. Delicious and filling.",
+    "volume": 600,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/FishAndChips",
+    "tier": 7,
+    "tag": "Meal",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": true,
     "item_list_id": 0
   },
   {
@@ -44861,7 +45849,7 @@
   {
     "id": 529721253,
     "name": "Delicious Mashed Bulbs",
-    "description": "Mashed potatoes. Tasty and filling but not overly interesting.",
+    "description": "Mashed starbulbs. Tasty and filling but not overly interesting.",
     "volume": 600,
     "durability": 0,
     "convert_to_on_durability_zero": 0,
@@ -45258,6 +46246,25 @@
     "item_list_id": 17114025
   },
   {
+    "id": 538256728,
+    "name": "Flavorful Mushroom Stuffed Bulbs",
+    "description": "Onions stuffed with wild mushrooms.",
+    "volume": 600,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/MushroomStuffedWildOnion",
+    "tier": 7,
+    "tag": "Meal",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
     "id": 538664261,
     "name": "Luminite Quill",
     "description": "A quill made from luminite.",
@@ -45307,6 +46314,25 @@
     "icon_asset_name": "GeneratedIcons/Items/UnfiredBrick",
     "tier": 9,
     "tag": "Brick",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
+    "id": 539096868,
+    "name": "Delicious Fish and Bulbs",
+    "description": "Fish arranged in a dish with salty fried potatoes. Delicious and filling.",
+    "volume": 600,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/FishAndChips",
+    "tier": 8,
+    "tag": "Meal",
     "rarity": [
       1,
       {}
@@ -45809,6 +46835,25 @@
     "item_list_id": 824847542
   },
   {
+    "id": 551396983,
+    "name": "Recipe: Scrumptious Raw Berry Pie",
+    "description": "A recipe to learn Scrumptious Raw Berry Pie",
+    "volume": 0,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/AncientDeed",
+    "tier": 9,
+    "tag": "Food Recipe",
+    "rarity": [
+      2,
+      {}
+    ],
+    "compendium_entry": false,
+    "item_list_id": 0
+  },
+  {
     "id": 552382361,
     "name": "Aurumite Duelist Legguards",
     "description": "",
@@ -46016,6 +47061,25 @@
     ],
     "compendium_entry": false,
     "item_list_id": 1479014809
+  },
+  {
+    "id": 556832528,
+    "name": "Ornate Starbulb Experiment",
+    "description": "",
+    "volume": 0,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Items/Vegetable",
+    "tier": 7,
+    "tag": "Experimentation",
+    "rarity": [
+      2,
+      {}
+    ],
+    "compendium_entry": false,
+    "item_list_id": 393589766
   },
   {
     "id": 558198138,
@@ -46341,6 +47405,25 @@
     "item_list_id": 0
   },
   {
+    "id": 563853120,
+    "name": "Flavorful Meat Sandwich",
+    "description": "A piece of meat and some onions stuck between two delicious pieces of bread.",
+    "volume": 600,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/RabbitMeatSandwich",
+    "tier": 7,
+    "tag": "Meal",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
     "id": 565236047,
     "name": "Magnificient Chum",
     "description": "Can be used to chum fishing nodes in the ocean. Once chummed, nodes remain fishable for 15 minutes.",
@@ -46352,6 +47435,25 @@
     "icon_asset_name": "Items/InsectBait",
     "tier": 9,
     "tag": "Chum",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
+    "id": 565478461,
+    "name": "Scrumptious Mushroom Stuffed Bulbs",
+    "description": "Onions stuffed with wild mushrooms.",
+    "volume": 600,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/MushroomStuffedWildOnion",
+    "tier": 9,
+    "tag": "Meal",
     "rarity": [
       1,
       {}
@@ -47019,6 +48121,25 @@
     "tag": "Gem Fragment",
     "rarity": [
       2,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
+    "id": 577434769,
+    "name": "Scrumptious Roasted Fish",
+    "description": "Filets from a fresh water fish roasted on a fire.",
+    "volume": 600,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/CookedBass",
+    "tier": 9,
+    "tag": "Basic Food",
+    "rarity": [
+      1,
       {}
     ],
     "compendium_entry": true,
@@ -47804,6 +48925,25 @@
     "item_list_id": 0
   },
   {
+    "id": 597359610,
+    "name": "Sentinel Hexcoins Low Contribution",
+    "description": "",
+    "volume": 0,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "",
+    "tier": 3,
+    "tag": "Dungeon Contribution Item List",
+    "rarity": [
+      0,
+      {}
+    ],
+    "compendium_entry": false,
+    "item_list_id": 2091508413
+  },
+  {
     "id": 597402027,
     "name": "Fine Woven Shorts",
     "description": "",
@@ -47954,6 +49094,25 @@
     ],
     "compendium_entry": true,
     "item_list_id": 979794228
+  },
+  {
+    "id": 600149328,
+    "name": "Recipe: Delectable Fish and Bulbs",
+    "description": "A recipe to learn Delectable Fish and Bulbs",
+    "volume": 0,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/AncientDeed",
+    "tier": 10,
+    "tag": "Food Recipe",
+    "rarity": [
+      2,
+      {}
+    ],
+    "compendium_entry": false,
+    "item_list_id": 0
   },
   {
     "id": 600219259,
@@ -48925,6 +50084,25 @@
     "item_list_id": 0
   },
   {
+    "id": 620978731,
+    "name": "Delectable Meat Sandwich",
+    "description": "A piece of meat and some onions stuck between two delicious pieces of bread.",
+    "volume": 600,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/RabbitMeatSandwich",
+    "tier": 10,
+    "tag": "Meal",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
     "id": 621715027,
     "name": "Aurumite Axe",
     "description": "",
@@ -49090,6 +50268,25 @@
     "tag": "Vial",
     "rarity": [
       1,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
+    "id": 624993163,
+    "name": "Scrumptious Deluxe Berry Pie",
+    "description": "Smells delicious. You can hardly wait to eat it.",
+    "volume": 600,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/StrawberryPie",
+    "tier": 9,
+    "tag": "Meal",
+    "rarity": [
+      3,
       {}
     ],
     "compendium_entry": true,
@@ -50426,6 +51623,25 @@
     "item_list_id": 0
   },
   {
+    "id": 653992911,
+    "name": "Flavorful Deluxe Berry Pie",
+    "description": "Smells delicious. You can hardly wait to eat it.",
+    "volume": 600,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/StrawberryPie",
+    "tier": 7,
+    "tag": "Meal",
+    "rarity": [
+      3,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
     "id": 654118462,
     "name": "T7 Bark Output",
     "description": "",
@@ -50518,6 +51734,25 @@
       {}
     ],
     "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
+    "id": 656518479,
+    "name": "Recipe: Delectable Deluxe Ground Meat and Mashed Bulbs",
+    "description": "A recipe to learn Delectable Deluxe Ground Meat and Mashed Bulbs",
+    "volume": 0,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/AncientDeed",
+    "tier": 10,
+    "tag": "Food Recipe",
+    "rarity": [
+      3,
+      {}
+    ],
+    "compendium_entry": false,
     "item_list_id": 0
   },
   {
@@ -50760,6 +51995,25 @@
     "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Items/Tools/AstraliteQuill",
     "tier": 10,
     "tag": "Scholar Tool",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
+    "id": 660378396,
+    "name": "Scrumptious Meat Sandwich",
+    "description": "A piece of meat and some onions stuck between two delicious pieces of bread.",
+    "volume": 600,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/RabbitMeatSandwich",
+    "tier": 9,
+    "tag": "Meal",
     "rarity": [
       1,
       {}
@@ -52174,6 +53428,25 @@
     "item_list_id": 0
   },
   {
+    "id": 688566098,
+    "name": "Recipe: Delectable Deluxe Berry Pie",
+    "description": "A recipe to learn Delectable Deluxe Berry Pie",
+    "volume": 0,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/AncientDeed",
+    "tier": 10,
+    "tag": "Food Recipe",
+    "rarity": [
+      3,
+      {}
+    ],
+    "compendium_entry": false,
+    "item_list_id": 0
+  },
+  {
     "id": 688829506,
     "name": "Celestium Hoe",
     "description": "A hoe made from celestium.",
@@ -52495,6 +53768,25 @@
     ],
     "compendium_entry": true,
     "item_list_id": 1850869054
+  },
+  {
+    "id": 695315713,
+    "name": "Recipe: Flavorful Ground Meat and Mashed Bulbs",
+    "description": "A recipe to learn Flavorful Ground Meat and Mashed Bulbs",
+    "volume": 0,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/AncientDeed",
+    "tier": 7,
+    "tag": "Food Recipe",
+    "rarity": [
+      2,
+      {}
+    ],
+    "compendium_entry": false,
+    "item_list_id": 0
   },
   {
     "id": 695348739,
@@ -53295,6 +54587,25 @@
     "item_list_id": 0
   },
   {
+    "id": 708916025,
+    "name": "Pristine Embergrain Experiment",
+    "description": "",
+    "volume": 0,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Items/Grain",
+    "tier": 8,
+    "tag": "Experimentation",
+    "rarity": [
+      2,
+      {}
+    ],
+    "compendium_entry": false,
+    "item_list_id": 1853238039
+  },
+  {
     "id": 710780423,
     "name": "Emarium Hoe",
     "description": "A hoe made from emarium.",
@@ -53767,6 +55078,25 @@
       {}
     ],
     "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
+    "id": 722028613,
+    "name": "Recipe: Delicious Raw Berry Pie",
+    "description": "A recipe to learn Delicious Raw Berry Pie",
+    "volume": 0,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/AncientDeed",
+    "tier": 8,
+    "tag": "Food Recipe",
+    "rarity": [
+      2,
+      {}
+    ],
+    "compendium_entry": false,
     "item_list_id": 0
   },
   {
@@ -55442,6 +56772,44 @@
     "item_list_id": 0
   },
   {
+    "id": 756697704,
+    "name": "Rainbowscaled Tilapia Experiment",
+    "description": "",
+    "volume": 0,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Items/FishFilet",
+    "tier": 8,
+    "tag": "Experimentation",
+    "rarity": [
+      2,
+      {}
+    ],
+    "compendium_entry": false,
+    "item_list_id": 1042314417
+  },
+  {
+    "id": 757274989,
+    "name": "Scrumptious Deluxe Fish and Bulbs",
+    "description": "Fish arranged in a dish with salty fried potatoes. Delicious and filling.",
+    "volume": 600,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/FishAndChips",
+    "tier": 9,
+    "tag": "Meal",
+    "rarity": [
+      3,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
     "id": 757492125,
     "name": "Flawless Leather Belt",
     "description": "",
@@ -55651,6 +57019,25 @@
     "item_list_id": 0
   },
   {
+    "id": 762437710,
+    "name": "Recipe: Scrumptious Mushroom Stuffed Bulbs",
+    "description": "A recipe to learn Scrumptious Mushroom Stuffed Bulbs",
+    "volume": 0,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/AncientDeed",
+    "tier": 9,
+    "tag": "Food Recipe",
+    "rarity": [
+      2,
+      {}
+    ],
+    "compendium_entry": false,
+    "item_list_id": 0
+  },
+  {
     "id": 763048785,
     "name": "Pyrelite Plated Boots",
     "description": "",
@@ -55839,6 +57226,25 @@
     ],
     "compendium_entry": true,
     "item_list_id": 606920375
+  },
+  {
+    "id": 767302512,
+    "name": "Recipe: Delicious Deluxe Ocean Fish Sticks",
+    "description": "A recipe to learn Delicious Deluxe Ocean Fish Sticks",
+    "volume": 0,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/AncientDeed",
+    "tier": 8,
+    "tag": "Food Recipe",
+    "rarity": [
+      3,
+      {}
+    ],
+    "compendium_entry": false,
+    "item_list_id": 0
   },
   {
     "id": 767528162,
@@ -56373,6 +57779,25 @@
     "item_list_id": 1002782382
   },
   {
+    "id": 778605526,
+    "name": "Flawless Mushroom Experiment",
+    "description": "",
+    "volume": 0,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Items/Mushrooms",
+    "tier": 10,
+    "tag": "Experimentation",
+    "rarity": [
+      2,
+      {}
+    ],
+    "compendium_entry": false,
+    "item_list_id": 2004949152
+  },
+  {
     "id": 778616297,
     "name": "Celestium Plated Bracers",
     "description": "",
@@ -56620,6 +58045,25 @@
     "item_list_id": 0
   },
   {
+    "id": 784459445,
+    "name": "Recipe: Scrumptious Deluxe Meat Sandwich",
+    "description": "A recipe to learn Scrumptious Deluxe Meat Sandwich",
+    "volume": 0,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/AncientDeed",
+    "tier": 9,
+    "tag": "Food Recipe",
+    "rarity": [
+      3,
+      {}
+    ],
+    "compendium_entry": false,
+    "item_list_id": 0
+  },
+  {
     "id": 785195103,
     "name": "Ornate Tool Scrap",
     "description": "Some scrap that can be used at a Scrap Bench to improve tools.",
@@ -56808,6 +58252,25 @@
     ],
     "compendium_entry": true,
     "item_list_id": 536692770
+  },
+  {
+    "id": 793214989,
+    "name": "Recipe: Delicious Fish and Bulbs",
+    "description": "A recipe to learn Delicious Fish and Bulbs",
+    "volume": 0,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/AncientDeed",
+    "tier": 8,
+    "tag": "Food Recipe",
+    "rarity": [
+      2,
+      {}
+    ],
+    "compendium_entry": false,
+    "item_list_id": 0
   },
   {
     "id": 793269809,
@@ -57133,6 +58596,63 @@
     "item_list_id": 0
   },
   {
+    "id": 797381828,
+    "name": "Flavorful Deluxe Ground Meat and Mashed Bulbs",
+    "description": "Ground meat served with a side of potatoes with onions. Delicious and filling.",
+    "volume": 600,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/PotatoAndWolfMeat",
+    "tier": 7,
+    "tag": "Meal",
+    "rarity": [
+      3,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
+    "id": 797391355,
+    "name": "Sentinel Ancient Headpiece Drop Silver",
+    "description": "",
+    "volume": 0,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "",
+    "tier": 3,
+    "tag": "Dungeon Contribution Item List",
+    "rarity": [
+      0,
+      {}
+    ],
+    "compendium_entry": false,
+    "item_list_id": 1831924533
+  },
+  {
+    "id": 797778905,
+    "name": "Recipe: Scrumptious Deluxe Fish and Bulbs",
+    "description": "A recipe to learn Scrumptious Deluxe Fish and Bulbs",
+    "volume": 0,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/AncientDeed",
+    "tier": 9,
+    "tag": "Food Recipe",
+    "rarity": [
+      3,
+      {}
+    ],
+    "compendium_entry": false,
+    "item_list_id": 0
+  },
+  {
     "id": 798946495,
     "name": "Peerless Woven Cap",
     "description": "",
@@ -57184,6 +58704,25 @@
     "tag": "Leatherworker Tool",
     "rarity": [
       3,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
+    "id": 800626223,
+    "name": "Delectable Roasted Fish",
+    "description": "Filets from a fresh water fish roasted on a fire.",
+    "volume": 600,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/CookedBass",
+    "tier": 10,
+    "tag": "Basic Food",
+    "rarity": [
+      1,
       {}
     ],
     "compendium_entry": true,
@@ -57513,6 +59052,25 @@
     "item_list_id": 1367287060
   },
   {
+    "id": 807718375,
+    "name": "Delectable Berry Pie",
+    "description": "Smells delicious. You can hardly wait to eat it.",
+    "volume": 600,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/StrawberryPie",
+    "tier": 10,
+    "tag": "Meal",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
     "id": 808086843,
     "name": "Peerless Animal Hair",
     "description": "A particularly strong hair from an animal. This could be used to make more refined cloth.",
@@ -57625,6 +59183,25 @@
     ],
     "compendium_entry": true,
     "item_list_id": 0
+  },
+  {
+    "id": 812034158,
+    "name": "Magnificent Starbulb Experiment",
+    "description": "",
+    "volume": 0,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Items/Vegetable",
+    "tier": 9,
+    "tag": "Experimentation",
+    "rarity": [
+      2,
+      {}
+    ],
+    "compendium_entry": false,
+    "item_list_id": 1562380564
   },
   {
     "id": 812749346,
@@ -57988,6 +59565,25 @@
     "item_list_id": 0
   },
   {
+    "id": 819149629,
+    "name": "Delectable Mashed Bulbs",
+    "description": "Mashed starbulbs. Tasty and filling but not overly interesting.",
+    "volume": 600,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Items/Food/MashedBulbs",
+    "tier": 10,
+    "tag": "Basic Food",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
     "id": 819574640,
     "name": "Aurumite Plated Legguards",
     "description": "",
@@ -58235,6 +59831,25 @@
     "item_list_id": 0
   },
   {
+    "id": 827575430,
+    "name": "Recipe: Delectable Raw Berry Pie",
+    "description": "A recipe to learn Delectable Raw Berry Pie",
+    "volume": 0,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/AncientDeed",
+    "tier": 10,
+    "tag": "Food Recipe",
+    "rarity": [
+      2,
+      {}
+    ],
+    "compendium_entry": false,
+    "item_list_id": 0
+  },
+  {
     "id": 828731292,
     "name": "Alpha Jakyl Fur",
     "description": "Fur found commonly on Alpha Jakyl",
@@ -58248,6 +59863,25 @@
     "tag": "Common Slayer Material",
     "rarity": [
       1,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
+    "id": 830172861,
+    "name": "Delicious Deluxe Ocean Fish Sticks",
+    "description": "Breaded ocean fish fried to a delicious crunchy meal.",
+    "volume": 600,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/FishAndChips",
+    "tier": 8,
+    "tag": "Meal",
+    "rarity": [
+      3,
       {}
     ],
     "compendium_entry": true,
@@ -59356,6 +60990,25 @@
     "item_list_id": 0
   },
   {
+    "id": 850587115,
+    "name": "Recipe: Flavorful Ocean Fish Sticks",
+    "description": "A recipe to learn Flavorful Ocean Fish Sticks",
+    "volume": 0,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/AncientDeed",
+    "tier": 7,
+    "tag": "Food Recipe",
+    "rarity": [
+      2,
+      {}
+    ],
+    "compendium_entry": false,
+    "item_list_id": 0
+  },
+  {
     "id": 850829831,
     "name": "Peerless Crafting Elixir",
     "description": "An elixir made by a scholar. Increases your crafting speed. Does not stack with other elixirs.",
@@ -59829,6 +61482,25 @@
     ],
     "compendium_entry": true,
     "item_list_id": 74948948
+  },
+  {
+    "id": 863615912,
+    "name": "Delicious Deluxe Meat Sandwich",
+    "description": "A piece of meat and some onions stuck between two delicious pieces of bread.",
+    "volume": 600,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/RabbitMeatSandwich",
+    "tier": 8,
+    "tag": "Meal",
+    "rarity": [
+      3,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
   },
   {
     "id": 863928001,
@@ -60914,6 +62586,25 @@
     "item_list_id": 0
   },
   {
+    "id": 890412343,
+    "name": "Recipe: Flavorful Deluxe Fish and Bulbs",
+    "description": "A recipe to learn Flavorful Deluxe Fish and Bulbs",
+    "volume": 0,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/AncientDeed",
+    "tier": 7,
+    "tag": "Food Recipe",
+    "rarity": [
+      3,
+      {}
+    ],
+    "compendium_entry": false,
+    "item_list_id": 0
+  },
+  {
     "id": 891693634,
     "name": "Celestium Hoe",
     "description": "A hoe made from celestium.",
@@ -61009,6 +62700,25 @@
     "item_list_id": 774911750
   },
   {
+    "id": 892611099,
+    "name": "Scrumptious Raw Bulb Rolls",
+    "description": "Uncooked onion rolls. Cook them in an oven to eat them!",
+    "volume": 600,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/UncookedWhiteOnionRolls",
+    "tier": 9,
+    "tag": "Raw Meal",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
     "id": 892842742,
     "name": "Magnificient Mushroom",
     "description": "A plump mushroom that looks edible and quite hearty. Probably better cooked.",
@@ -61102,6 +62812,25 @@
     ],
     "compendium_entry": true,
     "item_list_id": 0
+  },
+  {
+    "id": 894041149,
+    "name": "Sentinel Ancient Heart or Eye Drop Silver",
+    "description": "",
+    "volume": 0,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "",
+    "tier": 3,
+    "tag": "Dungeon Contribution Item List",
+    "rarity": [
+      0,
+      {}
+    ],
+    "compendium_entry": false,
+    "item_list_id": 999367076
   },
   {
     "id": 894128561,
@@ -61408,6 +63137,25 @@
     "item_list_id": 0
   },
   {
+    "id": 901945954,
+    "name": "Scrumptious Deluxe Ground Meat and Mashed Bulbs",
+    "description": "Ground meat served with a side of potatoes with onions. Delicious and filling.",
+    "volume": 600,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/PotatoAndWolfMeat",
+    "tier": 9,
+    "tag": "Meal",
+    "rarity": [
+      3,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
     "id": 902112160,
     "name": "Luminite Duelist Armor",
     "description": "",
@@ -61674,6 +63422,25 @@
     "item_list_id": 0
   },
   {
+    "id": 907267894,
+    "name": "Delicious Raw Berry Pie",
+    "description": "An unbaked pie. Bake it in an oven to eat it!",
+    "volume": 600,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/RawStrawberryPie",
+    "tier": 8,
+    "tag": "Raw Meal",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
     "id": 909366533,
     "name": "Umbracite Pickaxe",
     "description": "",
@@ -61747,6 +63514,25 @@
       {}
     ],
     "compendium_entry": false,
+    "item_list_id": 0
+  },
+  {
+    "id": 910708388,
+    "name": "Delicious Ocean Fish Sticks",
+    "description": "Breaded ocean fish fried to a delicious crunchy meal.",
+    "volume": 600,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/FishAndChips",
+    "tier": 8,
+    "tag": "Meal",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": true,
     "item_list_id": 0
   },
   {
@@ -61937,6 +63723,25 @@
       {}
     ],
     "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
+    "id": 914529253,
+    "name": "Recipe: Scrumptious Deluxe Berry Pie",
+    "description": "A recipe to learn Scrumptious Deluxe Berry Pie",
+    "volume": 0,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/AncientDeed",
+    "tier": 9,
+    "tag": "Food Recipe",
+    "rarity": [
+      3,
+      {}
+    ],
+    "compendium_entry": false,
     "item_list_id": 0
   },
   {
@@ -64980,6 +66785,25 @@
     "item_list_id": 1962592568
   },
   {
+    "id": 986490219,
+    "name": "Pristine Meat Experiment",
+    "description": "",
+    "volume": 0,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Items/RawMeat",
+    "tier": 8,
+    "tag": "Experimentation",
+    "rarity": [
+      2,
+      {}
+    ],
+    "compendium_entry": false,
+    "item_list_id": 396224345
+  },
+  {
     "id": 987503406,
     "name": "Aurumite Machete",
     "description": "",
@@ -65170,6 +66994,44 @@
     "item_list_id": 1065428418
   },
   {
+    "id": 990415817,
+    "name": "Recipe: Delicious Deluxe Bulb Roll",
+    "description": "A recipe to learn Delicious Deluxe Bulb Roll",
+    "volume": 0,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/AncientDeed",
+    "tier": 8,
+    "tag": "Food Recipe",
+    "rarity": [
+      3,
+      {}
+    ],
+    "compendium_entry": false,
+    "item_list_id": 0
+  },
+  {
+    "id": 990866079,
+    "name": "Scrumptious Bread",
+    "description": "Bread made from flour. Tasty by itself but it could be used to make sandwiches.",
+    "volume": 600,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/WildBread",
+    "tier": 9,
+    "tag": "Basic Food",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
     "id": 991356263,
     "name": "Elenvar Duelist Legguards",
     "description": "",
@@ -65240,6 +67102,25 @@
     "tag": "Elixir",
     "rarity": [
       1,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
+    "id": 992755573,
+    "name": "Delectable Deluxe Ocean Fish Sticks",
+    "description": "Breaded ocean fish fried to a delicious crunchy meal.",
+    "volume": 600,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/FishAndChips",
+    "tier": 10,
+    "tag": "Meal",
+    "rarity": [
+      3,
       {}
     ],
     "compendium_entry": true,
@@ -65642,6 +67523,25 @@
       {}
     ],
     "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
+    "id": 1000859047,
+    "name": "Recipe: Delectable Deluxe Bulb Roll",
+    "description": "A recipe to learn Delectable Deluxe Bulb Roll",
+    "volume": 0,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/AncientDeed",
+    "tier": 10,
+    "tag": "Food Recipe",
+    "rarity": [
+      3,
+      {}
+    ],
+    "compendium_entry": false,
     "item_list_id": 0
   },
   {
@@ -66120,6 +68020,25 @@
     "item_list_id": 0
   },
   {
+    "id": 1009659769,
+    "name": "Delectable Raw Berry Pie",
+    "description": "An unbaked pie. Bake it in an oven to eat it!",
+    "volume": 600,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/RawStrawberryPie",
+    "tier": 10,
+    "tag": "Raw Meal",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
     "id": 1010075210,
     "name": "Ornate Animal Hair",
     "description": "A particularly strong hair from an animal. This could be used to make more refined cloth.",
@@ -66213,6 +68132,25 @@
     ],
     "compendium_entry": false,
     "item_list_id": 0
+  },
+  {
+    "id": 1011381486,
+    "name": "Speedy Glowfin Experiment",
+    "description": "",
+    "volume": 0,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Items/FishFilet",
+    "tier": 7,
+    "tag": "Experimentation",
+    "rarity": [
+      2,
+      {}
+    ],
+    "compendium_entry": false,
+    "item_list_id": 1278404995
   },
   {
     "id": 1011692227,
@@ -66935,6 +68873,25 @@
     ],
     "compendium_entry": true,
     "item_list_id": 943384221
+  },
+  {
+    "id": 1028093234,
+    "name": "Scrumptious Deluxe Ocean Fish Sticks",
+    "description": "Breaded ocean fish fried to a delicious crunchy meal.",
+    "volume": 600,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/FishAndChips",
+    "tier": 9,
+    "tag": "Meal",
+    "rarity": [
+      3,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
   },
   {
     "id": 1028865694,
@@ -67735,6 +69692,25 @@
     "item_list_id": 480074854
   },
   {
+    "id": 1043177508,
+    "name": "Flawless Starbulb Experiment",
+    "description": "",
+    "volume": 0,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Items/Vegetable",
+    "tier": 10,
+    "tag": "Experimentation",
+    "rarity": [
+      2,
+      {}
+    ],
+    "compendium_entry": false,
+    "item_list_id": 1975501167
+  },
+  {
     "id": 1043267104,
     "name": "Emarium Hoe",
     "description": "A hoe made from emarium.",
@@ -68094,6 +70070,25 @@
     ],
     "compendium_entry": true,
     "item_list_id": 50990311
+  },
+  {
+    "id": 1049705997,
+    "name": "Magnificent Embergrain Experiment",
+    "description": "",
+    "volume": 0,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Items/Grain",
+    "tier": 9,
+    "tag": "Experimentation",
+    "rarity": [
+      2,
+      {}
+    ],
+    "compendium_entry": false,
+    "item_list_id": 1822300048
   },
   {
     "id": 1049757353,
@@ -69730,6 +71725,25 @@
     "item_list_id": 938602465
   },
   {
+    "id": 1084376160,
+    "name": "Delectable Deluxe Meat Sandwich",
+    "description": "A piece of meat and some onions stuck between two delicious pieces of bread.",
+    "volume": 600,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/RabbitMeatSandwich",
+    "tier": 10,
+    "tag": "Meal",
+    "rarity": [
+      3,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
     "id": 1084713622,
     "name": "Rathium Plated Armor",
     "description": "",
@@ -70221,6 +72235,25 @@
       {}
     ],
     "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
+    "id": 1093697152,
+    "name": "Recipe: Flavorful Deluxe Meat Sandwich",
+    "description": "A recipe to learn Flavorful Deluxe Meat Sandwich",
+    "volume": 0,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/AncientDeed",
+    "tier": 7,
+    "tag": "Food Recipe",
+    "rarity": [
+      3,
+      {}
+    ],
+    "compendium_entry": false,
     "item_list_id": 0
   },
   {
@@ -70946,6 +72979,25 @@
     "item_list_id": 0
   },
   {
+    "id": 1114699596,
+    "name": "Recipe: Flavorful Meat Sandwich",
+    "description": "A recipe to learn Flavorful Meat Sandwich",
+    "volume": 0,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/AncientDeed",
+    "tier": 7,
+    "tag": "Food Recipe",
+    "rarity": [
+      2,
+      {}
+    ],
+    "compendium_entry": false,
+    "item_list_id": 0
+  },
+  {
     "id": 1115040228,
     "name": "Luminite Plated Helm",
     "description": "",
@@ -71231,6 +73283,25 @@
     "item_list_id": 0
   },
   {
+    "id": 1121403204,
+    "name": "Recipe: Delicious Ocean Fish Sticks",
+    "description": "A recipe to learn Delicious Ocean Fish Sticks",
+    "volume": 0,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/AncientDeed",
+    "tier": 8,
+    "tag": "Food Recipe",
+    "rarity": [
+      2,
+      {}
+    ],
+    "compendium_entry": false,
+    "item_list_id": 0
+  },
+  {
     "id": 1121621494,
     "name": "Aurumite Hammer",
     "description": "",
@@ -71476,6 +73547,25 @@
     ],
     "compendium_entry": true,
     "item_list_id": 1647516196
+  },
+  {
+    "id": 1125156502,
+    "name": "Recipe: Scrumptious Ground Meat and Mashed Bulbs",
+    "description": "A recipe to learn Scrumptious Ground Meat and Mashed Bulbs",
+    "volume": 0,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/AncientDeed",
+    "tier": 9,
+    "tag": "Food Recipe",
+    "rarity": [
+      2,
+      {}
+    ],
+    "compendium_entry": false,
+    "item_list_id": 0
   },
   {
     "id": 1125175444,
@@ -73834,6 +75924,25 @@
     "item_list_id": 0
   },
   {
+    "id": 1172074999,
+    "name": "Pristine Mushroom Experiment",
+    "description": "",
+    "volume": 0,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Items/Mushrooms",
+    "tier": 8,
+    "tag": "Experimentation",
+    "rarity": [
+      2,
+      {}
+    ],
+    "compendium_entry": false,
+    "item_list_id": 1609487398
+  },
+  {
     "id": 1172254762,
     "name": "Fine Woven Shoes",
     "description": "",
@@ -74231,6 +76340,25 @@
     ],
     "compendium_entry": true,
     "item_list_id": 2039516676
+  },
+  {
+    "id": 1181959428,
+    "name": "Flawless Embergrain Experiment",
+    "description": "",
+    "volume": 0,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Items/Grain",
+    "tier": 10,
+    "tag": "Experimentation",
+    "rarity": [
+      2,
+      {}
+    ],
+    "compendium_entry": false,
+    "item_list_id": 654718266
   },
   {
     "id": 1182348627,
@@ -74822,6 +76950,25 @@
     "item_list_id": 0
   },
   {
+    "id": 1194403169,
+    "name": "Delectable Skewered Baitfish",
+    "description": "Small fish skewered on a stick and cooked on a fire.",
+    "volume": 600,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/ShrimpSkewer",
+    "tier": 10,
+    "tag": "Basic Food",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
     "id": 1194520289,
     "name": "Elenvar Duelist Legguards",
     "description": "",
@@ -75067,6 +77214,25 @@
     ],
     "compendium_entry": true,
     "item_list_id": 0
+  },
+  {
+    "id": 1199943814,
+    "name": "Pristine Starbulb Experiment",
+    "description": "",
+    "volume": 0,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Items/Vegetable",
+    "tier": 8,
+    "tag": "Experimentation",
+    "rarity": [
+      2,
+      {}
+    ],
+    "compendium_entry": false,
+    "item_list_id": 1025968921
   },
   {
     "id": 1200171202,
@@ -75829,6 +77995,25 @@
     "item_list_id": 0
   },
   {
+    "id": 1212760667,
+    "name": "Pristine Berry Experiment",
+    "description": "",
+    "volume": 0,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Items/Berries",
+    "tier": 8,
+    "tag": "Experimentation",
+    "rarity": [
+      2,
+      {}
+    ],
+    "compendium_entry": false,
+    "item_list_id": 145292676
+  },
+  {
     "id": 1213340431,
     "name": "Umbracite Quill",
     "description": "",
@@ -76165,6 +78350,25 @@
     "tag": "Leatherworker Tool",
     "rarity": [
       2,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
+    "id": 1221133683,
+    "name": "Flavorful Roasted Meat",
+    "description": "Meat cooked on an open fire.",
+    "volume": 600,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/BoarMeatCooked",
+    "tier": 7,
+    "tag": "Basic Food",
+    "rarity": [
+      1,
       {}
     ],
     "compendium_entry": true,
@@ -76549,6 +78753,25 @@
     ],
     "compendium_entry": true,
     "item_list_id": 1718735503
+  },
+  {
+    "id": 1226085731,
+    "name": "Delectable Deluxe Ground Meat and Mashed Bulbs",
+    "description": "Ground meat served with a side of potatoes with onions. Delicious and filling.",
+    "volume": 600,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/PotatoAndWolfMeat",
+    "tier": 10,
+    "tag": "Meal",
+    "rarity": [
+      3,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
   },
   {
     "id": 1226411592,
@@ -77742,6 +79965,25 @@
     "tag": "Metal Armor",
     "rarity": [
       1,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
+    "id": 1253640532,
+    "name": "Flavorful Deluxe Mushroom Stuffed Bulbs",
+    "description": "Onions stuffed with wild mushrooms.",
+    "volume": 600,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/MushroomStuffedWildOnion",
+    "tier": 7,
+    "tag": "Meal",
+    "rarity": [
+      3,
       {}
     ],
     "compendium_entry": true,
@@ -79610,6 +81852,25 @@
     "item_list_id": 0
   },
   {
+    "id": 1299649056,
+    "name": "Delectable Roasted Ocean Fish",
+    "description": "Filets from an ocean fish roasted on a fire.",
+    "volume": 600,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/CookedSalmon",
+    "tier": 10,
+    "tag": "Basic Food",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
     "id": 1300016557,
     "name": "Luminite Bow",
     "description": "",
@@ -80484,6 +82745,25 @@
     "item_list_id": 0
   },
   {
+    "id": 1319573809,
+    "name": "Recipe: Scrumptious Deluxe Bulb Roll",
+    "description": "A recipe to learn Scrumptious Deluxe Bulb Roll",
+    "volume": 0,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/AncientDeed",
+    "tier": 9,
+    "tag": "Food Recipe",
+    "rarity": [
+      3,
+      {}
+    ],
+    "compendium_entry": false,
+    "item_list_id": 0
+  },
+  {
     "id": 1319984056,
     "name": "Deed: Simple Cloth Gloves - Gray",
     "description": "",
@@ -80786,6 +83066,25 @@
     ],
     "compendium_entry": true,
     "item_list_id": 1033846462
+  },
+  {
+    "id": 1327136386,
+    "name": "Recipe: Flavorful Deluxe Ocean Fish Sticks",
+    "description": "A recipe to learn Flavorful Deluxe Ocean Fish Sticks",
+    "volume": 0,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/AncientDeed",
+    "tier": 7,
+    "tag": "Food Recipe",
+    "rarity": [
+      3,
+      {}
+    ],
+    "compendium_entry": false,
+    "item_list_id": 0
   },
   {
     "id": 1327243115,
@@ -81662,6 +83961,25 @@
     "item_list_id": 0
   },
   {
+    "id": 1352513453,
+    "name": "Flavorful Deluxe Meat Sandwich",
+    "description": "A piece of meat and some onions stuck between two delicious pieces of bread.",
+    "volume": 600,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/RabbitMeatSandwich",
+    "tier": 7,
+    "tag": "Meal",
+    "rarity": [
+      3,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
     "id": 1352602844,
     "name": "Sturdy Woven Shorts",
     "description": "",
@@ -82023,6 +84341,25 @@
     "item_list_id": 48933437
   },
   {
+    "id": 1359906651,
+    "name": "Ornate Berry Experiment",
+    "description": "",
+    "volume": 0,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Items/Berries",
+    "tier": 7,
+    "tag": "Experimentation",
+    "rarity": [
+      2,
+      {}
+    ],
+    "compendium_entry": false,
+    "item_list_id": 985488497
+  },
+  {
     "id": 1360515241,
     "name": "Peerless Leather Boots",
     "description": "",
@@ -82362,6 +84699,25 @@
       {}
     ],
     "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
+    "id": 1367600288,
+    "name": "Recipe: Delicious Mushroom Stuffed Bulbs",
+    "description": "A recipe to learn Delicious Mushroom Stuffed Bulbs",
+    "volume": 0,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/AncientDeed",
+    "tier": 8,
+    "tag": "Food Recipe",
+    "rarity": [
+      2,
+      {}
+    ],
+    "compendium_entry": false,
     "item_list_id": 0
   },
   {
@@ -83144,6 +85500,25 @@
     "item_list_id": 0
   },
   {
+    "id": 1384100888,
+    "name": "Recipe: Flavorful Deluxe Bulb Roll",
+    "description": "A recipe to learn Flavorful Deluxe Bulb Roll",
+    "volume": 0,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/AncientDeed",
+    "tier": 7,
+    "tag": "Food Recipe",
+    "rarity": [
+      3,
+      {}
+    ],
+    "compendium_entry": false,
+    "item_list_id": 0
+  },
+  {
     "id": 1384793363,
     "name": "Rathium Duelist Helm",
     "description": "",
@@ -83524,6 +85899,25 @@
     "item_list_id": 344513124
   },
   {
+    "id": 1392519225,
+    "name": "Recipe: Flavorful Raw Bulb Roll",
+    "description": "A recipe to learn Flavorful Raw Bulb Roll",
+    "volume": 0,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/AncientDeed",
+    "tier": 7,
+    "tag": "Food Recipe",
+    "rarity": [
+      2,
+      {}
+    ],
+    "compendium_entry": false,
+    "item_list_id": 0
+  },
+  {
     "id": 1392853274,
     "name": "Pristine Leather Belt",
     "description": "",
@@ -83693,6 +86087,25 @@
     ],
     "compendium_entry": true,
     "item_list_id": 542256621
+  },
+  {
+    "id": 1394337700,
+    "name": "Mysterious Anglerfish Experiment",
+    "description": "",
+    "volume": 0,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Items/FishFilet",
+    "tier": 8,
+    "tag": "Experimentation",
+    "rarity": [
+      2,
+      {}
+    ],
+    "compendium_entry": false,
+    "item_list_id": 10447428
   },
   {
     "id": 1394341112,
@@ -84284,6 +86697,25 @@
     "item_list_id": 0
   },
   {
+    "id": 1407789799,
+    "name": "Flavorful Deluxe Bulb Rolls",
+    "description": "Warm, tasty onion rolls.",
+    "volume": 600,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/WhiteOnionRolls",
+    "tier": 7,
+    "tag": "Meal",
+    "rarity": [
+      3,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
     "id": 1408136102,
     "name": "Umbracite Crossbow",
     "description": "",
@@ -84585,6 +87017,25 @@
       {}
     ],
     "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
+    "id": 1417669193,
+    "name": "Recipe: Scrumptious Meat Sandwich",
+    "description": "A recipe to learn Scrumptious Meat Sandwich",
+    "volume": 0,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/AncientDeed",
+    "tier": 9,
+    "tag": "Food Recipe",
+    "rarity": [
+      2,
+      {}
+    ],
+    "compendium_entry": false,
     "item_list_id": 0
   },
   {
@@ -85155,6 +87606,25 @@
       {}
     ],
     "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
+    "id": 1427980757,
+    "name": "Recipe: Delectable Meat Sandwich",
+    "description": "A recipe to learn Delectable Meat Sandwich",
+    "volume": 0,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/AncientDeed",
+    "tier": 10,
+    "tag": "Food Recipe",
+    "rarity": [
+      2,
+      {}
+    ],
+    "compendium_entry": false,
     "item_list_id": 0
   },
   {
@@ -86849,6 +89319,25 @@
     "item_list_id": 0
   },
   {
+    "id": 1459487461,
+    "name": "Delectable Fish and Bulbs",
+    "description": "Fish arranged in a dish with salty fried potatoes. Delicious and filling.",
+    "volume": 600,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/FishAndChips",
+    "tier": 10,
+    "tag": "Meal",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
     "id": 1459640060,
     "name": "Logcraft Hammock",
     "description": "This could be used to make a decoration for your house or town.",
@@ -86922,6 +89411,25 @@
       {}
     ],
     "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
+    "id": 1460874350,
+    "name": "Recipe: Delicious Deluxe Fish and Bulbs",
+    "description": "A recipe to learn Delicious Deluxe Fish and Bulbs",
+    "volume": 0,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/AncientDeed",
+    "tier": 8,
+    "tag": "Food Recipe",
+    "rarity": [
+      3,
+      {}
+    ],
+    "compendium_entry": false,
     "item_list_id": 0
   },
   {
@@ -87052,6 +89560,25 @@
     "tag": "Metal Armor",
     "rarity": [
       6,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
+    "id": 1464306984,
+    "name": "Delicious Deluxe Fish and Bulbs",
+    "description": "Fish arranged in a dish with salty fried potatoes. Delicious and filling.",
+    "volume": 600,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/FishAndChips",
+    "tier": 8,
+    "tag": "Meal",
+    "rarity": [
+      3,
       {}
     ],
     "compendium_entry": true,
@@ -87875,6 +90402,25 @@
     "item_list_id": 0
   },
   {
+    "id": 1482290222,
+    "name": "Recipe: Scrumptious Deluxe Mushroom Stuffed Bulbs",
+    "description": "A recipe to learn Scrumptious Deluxe Mushroom Stuffed Bulbs",
+    "volume": 0,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/AncientDeed",
+    "tier": 9,
+    "tag": "Food Recipe",
+    "rarity": [
+      3,
+      {}
+    ],
+    "compendium_entry": false,
+    "item_list_id": 0
+  },
+  {
     "id": 1484168609,
     "name": "Emarium Mace",
     "description": "",
@@ -88348,6 +90894,25 @@
     ],
     "compendium_entry": true,
     "item_list_id": 768940124
+  },
+  {
+    "id": 1494155308,
+    "name": "Delectable Deluxe Mushroom Stuffed Bulbs",
+    "description": "Onions stuffed with wild mushrooms.",
+    "volume": 600,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/MushroomStuffedWildOnion",
+    "tier": 10,
+    "tag": "Meal",
+    "rarity": [
+      3,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
   },
   {
     "id": 1494271405,
@@ -88863,6 +91428,25 @@
     "item_list_id": 0
   },
   {
+    "id": 1505884741,
+    "name": "Delectable Ocean Fish Sticks",
+    "description": "Breaded ocean fish fried to a delicious crunchy meal.",
+    "volume": 600,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/FishAndChips",
+    "tier": 10,
+    "tag": "Meal",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
     "id": 1505954746,
     "name": "Magnificient Woven Cap",
     "description": "",
@@ -89222,6 +91806,25 @@
     ],
     "compendium_entry": true,
     "item_list_id": 440302125
+  },
+  {
+    "id": 1510160267,
+    "name": "Delectable Cooked Berries",
+    "description": "Berries that have been cooked into a mushy mess. Tasty enough though.",
+    "volume": 600,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/CookedBerries",
+    "tier": 10,
+    "tag": "Basic Food",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
   },
   {
     "id": 1510958243,
@@ -89849,6 +92452,25 @@
     ],
     "compendium_entry": true,
     "item_list_id": 1887459903
+  },
+  {
+    "id": 1522462318,
+    "name": "Delicious Deluxe Mushroom Stuffed Bulbs",
+    "description": "Onions stuffed with wild mushrooms.",
+    "volume": 600,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/MushroomStuffedWildOnion",
+    "tier": 8,
+    "tag": "Meal",
+    "rarity": [
+      3,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
   },
   {
     "id": 1523953406,
@@ -90741,6 +93363,25 @@
       {}
     ],
     "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
+    "id": 1538072113,
+    "name": "Recipe: Delectable Deluxe Meat Sandwich",
+    "description": "A recipe to learn Delectable Deluxe Meat Sandwich",
+    "volume": 0,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/AncientDeed",
+    "tier": 10,
+    "tag": "Food Recipe",
+    "rarity": [
+      3,
+      {}
+    ],
+    "compendium_entry": false,
     "item_list_id": 0
   },
   {
@@ -92131,6 +94772,25 @@
     "item_list_id": 0
   },
   {
+    "id": 1566519204,
+    "name": "Delicious Skewered Baitfish",
+    "description": "Small fish skewered on a stick and cooked on a fire.",
+    "volume": 600,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/ShrimpSkewer",
+    "tier": 8,
+    "tag": "Basic Food",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
     "id": 1567440156,
     "name": "Rathium Quill",
     "description": "A quill made from rathium.",
@@ -92584,6 +95244,25 @@
       {}
     ],
     "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
+    "id": 1577215989,
+    "name": "Recipe: Flavorful Mushroom Stuffed Bulbs",
+    "description": "A recipe to learn Flavorful Mushroom Stuffed Bulbs",
+    "volume": 0,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/AncientDeed",
+    "tier": 7,
+    "tag": "Food Recipe",
+    "rarity": [
+      2,
+      {}
+    ],
+    "compendium_entry": false,
     "item_list_id": 0
   },
   {
@@ -93062,6 +95741,25 @@
     "item_list_id": 0
   },
   {
+    "id": 1587277028,
+    "name": "Sentinel Hexcoins Gold Contribution",
+    "description": "",
+    "volume": 0,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "",
+    "tier": 3,
+    "tag": "Dungeon Contribution Item List",
+    "rarity": [
+      0,
+      {}
+    ],
+    "compendium_entry": false,
+    "item_list_id": 514496349
+  },
+  {
     "id": 1587626754,
     "name": "Luminite Shortsword",
     "description": "",
@@ -93398,6 +96096,25 @@
     "tag": "Carpenter Tool",
     "rarity": [
       2,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
+    "id": 1593558034,
+    "name": "Delicious Ground Meat and Mashed Bulbs",
+    "description": "Ground meat served with a side of potatoes with onions. Delicious and filling.",
+    "volume": 600,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/PotatoAndWolfMeat",
+    "tier": 8,
+    "tag": "Meal",
+    "rarity": [
+      1,
       {}
     ],
     "compendium_entry": true,
@@ -93953,6 +96670,25 @@
     ],
     "compendium_entry": true,
     "item_list_id": 65712733
+  },
+  {
+    "id": 1604540967,
+    "name": "Recipe: Delectable Deluxe Mushroom Stuffed Bulbs",
+    "description": "A recipe to learn Delectable Deluxe Mushroom Stuffed Bulbs",
+    "volume": 0,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/AncientDeed",
+    "tier": 10,
+    "tag": "Food Recipe",
+    "rarity": [
+      3,
+      {}
+    ],
+    "compendium_entry": false,
+    "item_list_id": 0
   },
   {
     "id": 1605521723,
@@ -95608,6 +98344,25 @@
     "item_list_id": 0
   },
   {
+    "id": 1647355741,
+    "name": "Sentinel Ancient Rare Weapon Drop",
+    "description": "",
+    "volume": 0,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "",
+    "tier": 3,
+    "tag": "Dungeon Contribution Item List",
+    "rarity": [
+      0,
+      {}
+    ],
+    "compendium_entry": false,
+    "item_list_id": 2019298855
+  },
+  {
     "id": 1648383996,
     "name": "Elenvar Bow",
     "description": "",
@@ -95625,6 +98380,25 @@
     ],
     "compendium_entry": true,
     "item_list_id": 56082344
+  },
+  {
+    "id": 1648695324,
+    "name": "Recipe: Scrumptious Fish and Bulbs",
+    "description": "A recipe to learn Scrumptious Fish and Bulbs",
+    "volume": 0,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/AncientDeed",
+    "tier": 9,
+    "tag": "Food Recipe",
+    "rarity": [
+      2,
+      {}
+    ],
+    "compendium_entry": false,
+    "item_list_id": 0
   },
   {
     "id": 1648875970,
@@ -96121,6 +98895,25 @@
     "item_list_id": 0
   },
   {
+    "id": 1661084453,
+    "name": "Recipe: Delicious Deluxe Mushroom Stuffed Bulbs",
+    "description": "A recipe to learn Delicious Deluxe Mushroom Stuffed Bulbs",
+    "volume": 0,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/AncientDeed",
+    "tier": 8,
+    "tag": "Food Recipe",
+    "rarity": [
+      3,
+      {}
+    ],
+    "compendium_entry": false,
+    "item_list_id": 0
+  },
+  {
     "id": 1661338656,
     "name": "Umbracite Duelist Belt",
     "description": "",
@@ -96309,6 +99102,25 @@
     ],
     "compendium_entry": true,
     "item_list_id": 1553793528
+  },
+  {
+    "id": 1664560257,
+    "name": "Delectable Mushroom Skewer",
+    "description": "Mushrooms roasted on a fire skewered on a stick.",
+    "volume": 600,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/MushroomSkewer",
+    "tier": 10,
+    "tag": "Basic Food",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
   },
   {
     "id": 1664714953,
@@ -96537,6 +99349,25 @@
     ],
     "compendium_entry": true,
     "item_list_id": 2074842473
+  },
+  {
+    "id": 1667103104,
+    "name": "Delicious Cooked Berries",
+    "description": "Berries that have been cooked into a mushy mess. Tasty enough though.",
+    "volume": 600,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/CookedBerries",
+    "tier": 8,
+    "tag": "Basic Food",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
   },
   {
     "id": 1667848693,
@@ -98154,6 +100985,25 @@
     "item_list_id": 0
   },
   {
+    "id": 1701395800,
+    "name": "Flavorful Bulb Rolls",
+    "description": "Warm, tasty onion rolls.",
+    "volume": 600,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/WhiteOnionRolls",
+    "tier": 7,
+    "tag": "Meal",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
     "id": 1701537811,
     "name": "Astralite Hoe",
     "description": "A hoe made from astralite.",
@@ -99579,6 +102429,25 @@
     "item_list_id": 0
   },
   {
+    "id": 1732161581,
+    "name": "Recipe: Scrumptious Ocean Fish Sticks",
+    "description": "A recipe to learn Scrumptious Ocean Fish Sticks",
+    "volume": 0,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/AncientDeed",
+    "tier": 9,
+    "tag": "Food Recipe",
+    "rarity": [
+      2,
+      {}
+    ],
+    "compendium_entry": false,
+    "item_list_id": 0
+  },
+  {
     "id": 1732336107,
     "name": "Aurumite Duelist Legguards",
     "description": "",
@@ -99843,6 +102712,44 @@
     ],
     "compendium_entry": true,
     "item_list_id": 418305625
+  },
+  {
+    "id": 1736712016,
+    "name": "Delectable Bulb Rolls",
+    "description": "Warm, tasty onion rolls.",
+    "volume": 600,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/WhiteOnionRolls",
+    "tier": 10,
+    "tag": "Meal",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
+    "id": 1737027704,
+    "name": "Delicious Bulb Rolls",
+    "description": "Warm, tasty onion rolls.",
+    "volume": 600,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/WhiteOnionRolls",
+    "tier": 8,
+    "tag": "Meal",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
   },
   {
     "id": 1737177184,
@@ -101042,6 +103949,25 @@
     "item_list_id": 0
   },
   {
+    "id": 1757429197,
+    "name": "Delicious Deluxe Bulb Rolls",
+    "description": "Warm, tasty onion rolls.",
+    "volume": 600,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/WhiteOnionRolls",
+    "tier": 8,
+    "tag": "Meal",
+    "rarity": [
+      3,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
     "id": 1758200750,
     "name": "Luminite Rod",
     "description": "",
@@ -101059,6 +103985,25 @@
     ],
     "compendium_entry": true,
     "item_list_id": 9043699
+  },
+  {
+    "id": 1758401357,
+    "name": "Flawless Berry Experiment",
+    "description": "",
+    "volume": 0,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Items/Berries",
+    "tier": 10,
+    "tag": "Experimentation",
+    "rarity": [
+      2,
+      {}
+    ],
+    "compendium_entry": false,
+    "item_list_id": 1558745116
   },
   {
     "id": 1758406083,
@@ -101365,6 +104310,25 @@
     "item_list_id": 1250439848
   },
   {
+    "id": 1763754141,
+    "name": "Sentinel Ancient Metal Fragments Bronze",
+    "description": "",
+    "volume": 0,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "",
+    "tier": 3,
+    "tag": "Dungeon Contribution Item List",
+    "rarity": [
+      0,
+      {}
+    ],
+    "compendium_entry": false,
+    "item_list_id": 1595580606
+  },
+  {
     "id": 1763886534,
     "name": "Woodworking Sandpaper",
     "description": "Sandpaper that is used to remove impurities from Wood Planks. This is required to make Planks starting at Tier 3. Sold by Rumbagh",
@@ -101591,6 +104555,25 @@
     ],
     "compendium_entry": true,
     "item_list_id": 0
+  },
+  {
+    "id": 1765849242,
+    "name": "Sentinel Ancient Metal Fragments Low Contribution",
+    "description": "",
+    "volume": 0,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "",
+    "tier": 3,
+    "tag": "Dungeon Contribution Item List",
+    "rarity": [
+      0,
+      {}
+    ],
+    "compendium_entry": false,
+    "item_list_id": 757414452
   },
   {
     "id": 1766114049,
@@ -102214,6 +105197,25 @@
     "tag": "Farmer Tool",
     "rarity": [
       2,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
+    "id": 1783151508,
+    "name": "Flavorful Mushroom Skewer",
+    "description": "Mushrooms roasted on a fire skewered on a stick.",
+    "volume": 600,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/MushroomSkewer",
+    "tier": 7,
+    "tag": "Basic Food",
+    "rarity": [
+      1,
       {}
     ],
     "compendium_entry": true,
@@ -103246,6 +106248,25 @@
     "item_list_id": 0
   },
   {
+    "id": 1802565018,
+    "name": "Recipe: Flavorful Fish and Bulbs",
+    "description": "A recipe to learn Flavorful Fish and Bulbs",
+    "volume": 0,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/AncientDeed",
+    "tier": 7,
+    "tag": "Food Recipe",
+    "rarity": [
+      2,
+      {}
+    ],
+    "compendium_entry": false,
+    "item_list_id": 0
+  },
+  {
     "id": 1803029676,
     "name": "Elenvar Axe",
     "description": "An axe made from elenvar.",
@@ -103430,6 +106451,25 @@
     "tag": "Weapon",
     "rarity": [
       5,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
+    "id": 1809182877,
+    "name": "Delicious Deluxe Berry Pie",
+    "description": "Smells delicious. You can hardly wait to eat it.",
+    "volume": 600,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/StrawberryPie",
+    "tier": 8,
+    "tag": "Meal",
+    "rarity": [
+      3,
       {}
     ],
     "compendium_entry": true,
@@ -104270,6 +107310,25 @@
     ],
     "compendium_entry": true,
     "item_list_id": 0
+  },
+  {
+    "id": 1826732090,
+    "name": "Flawless Ocean Fish Experiment",
+    "description": "",
+    "volume": 0,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Items/FishFilet",
+    "tier": 10,
+    "tag": "Experimentation",
+    "rarity": [
+      2,
+      {}
+    ],
+    "compendium_entry": false,
+    "item_list_id": 1631081644
   },
   {
     "id": 1827041111,
@@ -105944,6 +109003,25 @@
     "item_list_id": 1624103135
   },
   {
+    "id": 1854514562,
+    "name": "Flavorful Bread",
+    "description": "Bread made from flour. Tasty by itself but it could be used to make sandwiches.",
+    "volume": 600,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/WildBread",
+    "tier": 7,
+    "tag": "Basic Food",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
     "id": 1855359462,
     "name": "Flawless Leather Cap",
     "description": "",
@@ -106090,6 +109168,44 @@
     "tag": "Deed",
     "rarity": [
       1,
+      {}
+    ],
+    "compendium_entry": false,
+    "item_list_id": 0
+  },
+  {
+    "id": 1858123089,
+    "name": "Recipe: Flavorful Deluxe Mushroom Stuffed Bulbs",
+    "description": "A recipe to learn Flavorful Deluxe Mushroom Stuffed Bulbs",
+    "volume": 0,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/AncientDeed",
+    "tier": 7,
+    "tag": "Food Recipe",
+    "rarity": [
+      3,
+      {}
+    ],
+    "compendium_entry": false,
+    "item_list_id": 0
+  },
+  {
+    "id": 1858137836,
+    "name": "Recipe: Delicious Ground Meat and Mashed Bulbs",
+    "description": "A recipe to learn Delicious Ground Meat and Mashed Bulbs",
+    "volume": 0,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/AncientDeed",
+    "tier": 8,
+    "tag": "Food Recipe",
+    "rarity": [
+      2,
       {}
     ],
     "compendium_entry": false,
@@ -107578,6 +110694,25 @@
     "item_list_id": 0
   },
   {
+    "id": 1893625981,
+    "name": "Scrumptious Skewered Baitfish",
+    "description": "Small fish skewered on a stick and cooked on a fire.",
+    "volume": 600,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/ShrimpSkewer",
+    "tier": 9,
+    "tag": "Basic Food",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
     "id": 1893853321,
     "name": "Logcraft Side Table",
     "description": "This could be used to make a decoration for your house.",
@@ -108585,6 +111720,25 @@
     "item_list_id": 0
   },
   {
+    "id": 1915371751,
+    "name": "Delicious Roasted Meat",
+    "description": "Meat cooked on an open fire.",
+    "volume": 600,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/BoarMeatCooked",
+    "tier": 8,
+    "tag": "Basic Food",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
     "id": 1915423489,
     "name": "Celestium Duelist Bracers",
     "description": "",
@@ -108791,6 +111945,25 @@
       {}
     ],
     "compendium_entry": false,
+    "item_list_id": 0
+  },
+  {
+    "id": 1920980418,
+    "name": "Flavorful Raw Berry Pie",
+    "description": "An unbaked pie. Bake it in an oven to eat it!",
+    "volume": 600,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/RawStrawberryPie",
+    "tier": 7,
+    "tag": "Raw Meal",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": true,
     "item_list_id": 0
   },
   {
@@ -109041,6 +112214,25 @@
     "item_list_id": 1975737929
   },
   {
+    "id": 1925724505,
+    "name": "Delicious Roasted Fish",
+    "description": "Filets from a fresh water fish roasted on a fire.",
+    "volume": 600,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/CookedBass",
+    "tier": 8,
+    "tag": "Basic Food",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
     "id": 1925868035,
     "name": "Aurumite Crossbow",
     "description": "",
@@ -109117,6 +112309,25 @@
     "item_list_id": 0
   },
   {
+    "id": 1927578557,
+    "name": "Scrumptious Mushroom Skewer",
+    "description": "Mushrooms roasted on a fire skewered on a stick.",
+    "volume": 600,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/MushroomSkewer",
+    "tier": 9,
+    "tag": "Basic Food",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
     "id": 1927761865,
     "name": "Cooking Power Training VII",
     "description": "A scroll which increases your knowledge of cooking, allowing you to cook more quickly. Increases cooking power by 2. Requires level 70 cooking to purchase.",
@@ -109155,6 +112366,25 @@
     "item_list_id": 0
   },
   {
+    "id": 1928401049,
+    "name": "Magnificent Lake Fish Experiment",
+    "description": "",
+    "volume": 0,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Items/FishFilet",
+    "tier": 9,
+    "tag": "Experimentation",
+    "rarity": [
+      2,
+      {}
+    ],
+    "compendium_entry": false,
+    "item_list_id": 388539712
+  },
+  {
     "id": 1929382644,
     "name": "Magnificient Tree Bark Output",
     "description": "A piece of tree bark. Could be used to make tannin at a leatherworking station. This craft has multiple possible outcomes.",
@@ -109172,6 +112402,25 @@
     ],
     "compendium_entry": false,
     "item_list_id": 1962456776
+  },
+  {
+    "id": 1930171549,
+    "name": "Sentinel Ancient Epic Weapon Drop",
+    "description": "",
+    "volume": 0,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "",
+    "tier": 3,
+    "tag": "Dungeon Contribution Item List",
+    "rarity": [
+      0,
+      {}
+    ],
+    "compendium_entry": false,
+    "item_list_id": 1888843683
   },
   {
     "id": 1930538065,
@@ -109537,7 +112786,7 @@
   {
     "id": 1936407696,
     "name": "Flavorful Mashed Bulbs",
-    "description": "Mashed potatoes. Tasty and filling but not overly interesting.",
+    "description": "Mashed starbulbs. Tasty and filling but not overly interesting.",
     "volume": 600,
     "durability": 0,
     "convert_to_on_durability_zero": 0,
@@ -109723,6 +112972,44 @@
     ],
     "compendium_entry": true,
     "item_list_id": 0
+  },
+  {
+    "id": 1939571752,
+    "name": "Delicious Meat Sandwich",
+    "description": "A piece of meat and some onions stuck between two delicious pieces of bread.",
+    "volume": 600,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/RabbitMeatSandwich",
+    "tier": 8,
+    "tag": "Meal",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
+    "id": 1939802161,
+    "name": "Ornate Mushroom Experiment",
+    "description": "",
+    "volume": 0,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Items/Mushrooms",
+    "tier": 7,
+    "tag": "Experimentation",
+    "rarity": [
+      2,
+      {}
+    ],
+    "compendium_entry": false,
+    "item_list_id": 641944959
   },
   {
     "id": 1940258895,
@@ -109969,6 +113256,25 @@
       {}
     ],
     "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
+    "id": 1944565732,
+    "name": "Recipe: Delectable Ocean Fish Sticks",
+    "description": "A recipe to learn Delectable Ocean Fish Sticks",
+    "volume": 0,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/AncientDeed",
+    "tier": 10,
+    "tag": "Food Recipe",
+    "rarity": [
+      2,
+      {}
+    ],
+    "compendium_entry": false,
     "item_list_id": 0
   },
   {
@@ -110789,6 +114095,25 @@
     "item_list_id": 0
   },
   {
+    "id": 1962733786,
+    "name": "Delicious Mushroom Skewer",
+    "description": "Mushrooms roasted on a fire skewered on a stick.",
+    "volume": 600,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/MushroomSkewer",
+    "tier": 8,
+    "tag": "Basic Food",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
     "id": 1962831667,
     "name": "Celestium Daggers",
     "description": "",
@@ -111148,6 +114473,25 @@
     ],
     "compendium_entry": true,
     "item_list_id": 0
+  },
+  {
+    "id": 1970047010,
+    "name": "Sentinel Ancient Metal Fragments Silver",
+    "description": "",
+    "volume": 0,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "",
+    "tier": 3,
+    "tag": "Dungeon Contribution Item List",
+    "rarity": [
+      0,
+      {}
+    ],
+    "compendium_entry": false,
+    "item_list_id": 1730513242
   },
   {
     "id": 1970153400,
@@ -111777,6 +115121,25 @@
     "item_list_id": 792655345
   },
   {
+    "id": 1983097743,
+    "name": "Scrumptious Raw Berry Pie",
+    "description": "An unbaked pie. Bake it in an oven to eat it!",
+    "volume": 600,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/RawStrawberryPie",
+    "tier": 9,
+    "tag": "Raw Meal",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
     "id": 1984246002,
     "name": "Exquisite Leather Cap",
     "description": "",
@@ -111926,6 +115289,25 @@
       {}
     ],
     "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
+    "id": 1988364977,
+    "name": "Recipe: Delectable Deluxe Fish and Bulbs",
+    "description": "A recipe to learn Delectable Deluxe Fish and Bulbs",
+    "volume": 0,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/AncientDeed",
+    "tier": 10,
+    "tag": "Food Recipe",
+    "rarity": [
+      3,
+      {}
+    ],
+    "compendium_entry": false,
     "item_list_id": 0
   },
   {
@@ -112193,6 +115575,25 @@
     ],
     "compendium_entry": true,
     "item_list_id": 0
+  },
+  {
+    "id": 1995638477,
+    "name": "Magnificent Mushroom Experiment",
+    "description": "",
+    "volume": 0,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Items/Mushrooms",
+    "tier": 9,
+    "tag": "Experimentation",
+    "rarity": [
+      2,
+      {}
+    ],
+    "compendium_entry": false,
+    "item_list_id": 332208921
   },
   {
     "id": 1996360451,
@@ -112588,6 +115989,25 @@
     "tag": "Carpenter Tool",
     "rarity": [
       2,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
+    "id": 2003621109,
+    "name": "Delicious Deluxe Ground Meat and Mashed Bulbs",
+    "description": "Ground meat served with a side of potatoes with onions. Delicious and filling.",
+    "volume": 600,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/PotatoAndWolfMeat",
+    "tier": 8,
+    "tag": "Meal",
+    "rarity": [
+      3,
       {}
     ],
     "compendium_entry": true,
@@ -113126,6 +116546,25 @@
     "item_list_id": 0
   },
   {
+    "id": 2016110443,
+    "name": "Recipe: Delicious Raw Bulb Roll",
+    "description": "A recipe to learn Delicious Raw Bulb Roll",
+    "volume": 0,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/AncientDeed",
+    "tier": 8,
+    "tag": "Food Recipe",
+    "rarity": [
+      2,
+      {}
+    ],
+    "compendium_entry": false,
+    "item_list_id": 0
+  },
+  {
     "id": 2016383250,
     "name": "Crushed Magnificient Shells",
     "description": "Ground sea shells. Can be used by a mason to make more refined bricks.",
@@ -113139,6 +116578,25 @@
     "tag": "Crushed Shells",
     "rarity": [
       2,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
+    "id": 2016436858,
+    "name": "Scrumptious Ground Meat and Mashed Bulbs",
+    "description": "Ground meat served with a side of potatoes with onions. Delicious and filling.",
+    "volume": 600,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/PotatoAndWolfMeat",
+    "tier": 9,
+    "tag": "Meal",
+    "rarity": [
+      1,
       {}
     ],
     "compendium_entry": true,
@@ -113943,6 +117401,25 @@
     "item_list_id": 1370585003
   },
   {
+    "id": 2028700860,
+    "name": "Recipe: Flavorful Deluxe Ground Meat and Mashed Bulbs",
+    "description": "A recipe to learn Flavorful Deluxe Ground Meat and Mashed Bulbs",
+    "volume": 0,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/AncientDeed",
+    "tier": 7,
+    "tag": "Food Recipe",
+    "rarity": [
+      3,
+      {}
+    ],
+    "compendium_entry": false,
+    "item_list_id": 0
+  },
+  {
     "id": 2029139426,
     "name": "Deed: Leather Workboots - Burgundy",
     "description": "",
@@ -114089,6 +117566,25 @@
     "tag": "Farmer Tool",
     "rarity": [
       3,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
+    "id": 2031320058,
+    "name": "Scrumptious Mashed Bulbs",
+    "description": "Mashed starbulbs. Tasty and filling but not overly interesting.",
+    "volume": 600,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Items/Food/MashedBulbs",
+    "tier": 9,
+    "tag": "Basic Food",
+    "rarity": [
+      1,
       {}
     ],
     "compendium_entry": true,
@@ -114317,6 +117813,25 @@
     "tag": "Cloth Clothing",
     "rarity": [
       2,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
+    "id": 2035010471,
+    "name": "Scrumptious Berry Pie",
+    "description": "Smells delicious. You can hardly wait to eat it.",
+    "volume": 600,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/StrawberryPie",
+    "tier": 9,
+    "tag": "Meal",
+    "rarity": [
+      1,
       {}
     ],
     "compendium_entry": true,
@@ -115214,6 +118729,44 @@
     ],
     "compendium_entry": true,
     "item_list_id": 0
+  },
+  {
+    "id": 2052613981,
+    "name": "Recipe: Flavorful Deluxe Berry Pie",
+    "description": "A recipe to learn Flavorful Deluxe Berry Pie",
+    "volume": 0,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/AncientDeed",
+    "tier": 7,
+    "tag": "Food Recipe",
+    "rarity": [
+      3,
+      {}
+    ],
+    "compendium_entry": false,
+    "item_list_id": 0
+  },
+  {
+    "id": 2053987849,
+    "name": "Tidebreaker Barracuda Experiment",
+    "description": "",
+    "volume": 0,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Items/FishFilet",
+    "tier": 7,
+    "tag": "Experimentation",
+    "rarity": [
+      2,
+      {}
+    ],
+    "compendium_entry": false,
+    "item_list_id": 1280326371
   },
   {
     "id": 2054142227,
@@ -116527,6 +120080,25 @@
     "item_list_id": 651123906
   },
   {
+    "id": 2085085906,
+    "name": "Recipe: Delectable Mushroom Stuffed Bulbs",
+    "description": "A recipe to learn Delectable Mushroom Stuffed Bulbs",
+    "volume": 0,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/AncientDeed",
+    "tier": 10,
+    "tag": "Food Recipe",
+    "rarity": [
+      2,
+      {}
+    ],
+    "compendium_entry": false,
+    "item_list_id": 0
+  },
+  {
     "id": 2086183903,
     "name": "Rathium Shortsword",
     "description": "A skillfully smithed sword. Better to be on the giving end than the receiving end.",
@@ -117190,6 +120762,25 @@
     ],
     "compendium_entry": true,
     "item_list_id": 508471503
+  },
+  {
+    "id": 2098653797,
+    "name": "Magnificent Ocean Fish Experiment",
+    "description": "",
+    "volume": 0,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Items/FishFilet",
+    "tier": 9,
+    "tag": "Experimentation",
+    "rarity": [
+      2,
+      {}
+    ],
+    "compendium_entry": false,
+    "item_list_id": 267605152
   },
   {
     "id": 2099089937,
@@ -118636,6 +122227,25 @@
     "item_list_id": 0
   },
   {
+    "id": 2131627606,
+    "name": "Delectable Mushroom Stuffed Bulbs",
+    "description": "Onions stuffed with wild mushrooms.",
+    "volume": 600,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/MushroomStuffedWildOnion",
+    "tier": 10,
+    "tag": "Meal",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
     "id": 2132125837,
     "name": "Magnificient Leather Shirt",
     "description": "",
@@ -119280,6 +122890,25 @@
     ],
     "compendium_entry": true,
     "item_list_id": 1358141924
+  },
+  {
+    "id": 2147251599,
+    "name": "Sentinel Hexcoins Bronze Contribution",
+    "description": "",
+    "volume": 0,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "",
+    "tier": 3,
+    "tag": "Dungeon Contribution Item List",
+    "rarity": [
+      0,
+      {}
+    ],
+    "compendium_entry": false,
+    "item_list_id": 660251375
   },
   {
     "id": 2147367716,
