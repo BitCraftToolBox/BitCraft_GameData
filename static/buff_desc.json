@@ -289,6 +289,31 @@
         "is_pct": false
       }
     ],
+    "vfx": "Claymore_Flurry_Buff",
+    "vfx_attachment_point": "BothHands"
+  },
+  {
+    "id": 71700653,
+    "buff_type_id": 1790361536,
+    "description": "Level 11 Food Regen",
+    "priority": 1,
+    "duration": 900,
+    "warn_time": 0.0,
+    "online_timestamp": true,
+    "beneficial": true,
+    "icon_asset_name": "\\u008C",
+    "stats": [
+      {
+        "id": "PassiveHealthRegenRate",
+        "value": 13.0,
+        "is_pct": false
+      },
+      {
+        "id": "PassiveStaminaRegenRate",
+        "value": 22.0,
+        "is_pct": false
+      }
+    ],
     "vfx": "",
     "vfx_attachment_point": "Origin"
   },
@@ -463,6 +488,26 @@
     "vfx_attachment_point": "Origin"
   },
   {
+    "id": 215256181,
+    "buff_type_id": 861783812,
+    "description": "Level 10 Combat Cooldown",
+    "priority": 1,
+    "duration": 180,
+    "warn_time": 0.0,
+    "online_timestamp": true,
+    "beneficial": true,
+    "icon_asset_name": "\\uFFEB",
+    "stats": [
+      {
+        "id": "CooldownMultiplier",
+        "value": 0.05,
+        "is_pct": true
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
     "id": 257875307,
     "buff_type_id": 861783812,
     "description": "Level 5 Action Speed",
@@ -481,6 +526,26 @@
       {
         "id": "GatheringSpeed",
         "value": 0.045,
+        "is_pct": true
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 260155210,
+    "buff_type_id": 861783812,
+    "description": "Level 9 Deluxe Combat Cooldown",
+    "priority": 1,
+    "duration": 180,
+    "warn_time": 0.0,
+    "online_timestamp": true,
+    "beneficial": true,
+    "icon_asset_name": "\\uFFEB",
+    "stats": [
+      {
+        "id": "CooldownMultiplier",
+        "value": 0.098,
         "is_pct": true
       }
     ],
@@ -541,6 +606,31 @@
       {
         "id": "MovementMultiplier",
         "value": 0.042,
+        "is_pct": true
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 313180854,
+    "buff_type_id": 861783812,
+    "description": "Level 9 Action Speed",
+    "priority": 1,
+    "duration": 180,
+    "warn_time": 0.0,
+    "online_timestamp": true,
+    "beneficial": true,
+    "icon_asset_name": "\\u0035",
+    "stats": [
+      {
+        "id": "CraftingSpeed",
+        "value": 0.049,
+        "is_pct": true
+      },
+      {
+        "id": "GatheringSpeed",
+        "value": 0.049,
         "is_pct": true
       }
     ],
@@ -613,6 +703,31 @@
     "vfx_attachment_point": "Origin"
   },
   {
+    "id": 355319111,
+    "buff_type_id": 861783812,
+    "description": "Level 10 Action Speed",
+    "priority": 1,
+    "duration": 180,
+    "warn_time": 0.0,
+    "online_timestamp": true,
+    "beneficial": true,
+    "icon_asset_name": "\\u0035",
+    "stats": [
+      {
+        "id": "CraftingSpeed",
+        "value": 0.05,
+        "is_pct": true
+      },
+      {
+        "id": "GatheringSpeed",
+        "value": 0.05,
+        "is_pct": true
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
     "id": 371306749,
     "buff_type_id": 755187973,
     "description": "Flawless Gathering Speed Elixir",
@@ -647,6 +762,51 @@
         "id": "BuildingSpeed",
         "value": 0.111,
         "is_pct": true
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 392163203,
+    "buff_type_id": 861783812,
+    "description": "Level 10 Deluxe Movement Speed",
+    "priority": 1,
+    "duration": 180,
+    "warn_time": 0.0,
+    "online_timestamp": true,
+    "beneficial": true,
+    "icon_asset_name": "\\u003D",
+    "stats": [
+      {
+        "id": "MovementMultiplier",
+        "value": 0.1,
+        "is_pct": true
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 395639571,
+    "buff_type_id": 1790361536,
+    "description": "Level 10 Food Regen",
+    "priority": 1,
+    "duration": 900,
+    "warn_time": 0.0,
+    "online_timestamp": true,
+    "beneficial": true,
+    "icon_asset_name": "\\u008C",
+    "stats": [
+      {
+        "id": "PassiveHealthRegenRate",
+        "value": 12.0,
+        "is_pct": false
+      },
+      {
+        "id": "PassiveStaminaRegenRate",
+        "value": 21.0,
+        "is_pct": false
       }
     ],
     "vfx": "",
@@ -1003,8 +1163,8 @@
         "is_pct": true
       }
     ],
-    "vfx": "",
-    "vfx_attachment_point": "Origin"
+    "vfx": "OrangeBlackFieryHand",
+    "vfx_attachment_point": "BothHands"
   },
   {
     "id": 619646856,
@@ -1020,6 +1180,31 @@
       {
         "id": "GatheringSpeed",
         "value": 0.075,
+        "is_pct": true
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 641852985,
+    "buff_type_id": 861783812,
+    "description": "Level 9 Deluxe Action Speed",
+    "priority": 1,
+    "duration": 180,
+    "warn_time": 0.0,
+    "online_timestamp": true,
+    "beneficial": true,
+    "icon_asset_name": "\\u0035",
+    "stats": [
+      {
+        "id": "CraftingSpeed",
+        "value": 0.098,
+        "is_pct": true
+      },
+      {
+        "id": "GatheringSpeed",
+        "value": 0.098,
         "is_pct": true
       }
     ],
@@ -1288,8 +1473,8 @@
         "is_pct": true
       }
     ],
-    "vfx": "",
-    "vfx_attachment_point": "BothHands"
+    "vfx": "UpwardSparksSpinning_WhiteBlue",
+    "vfx_attachment_point": "Origin"
   },
   {
     "id": 854022801,
@@ -1527,6 +1712,26 @@
     "vfx_attachment_point": "Origin"
   },
   {
+    "id": 1053670106,
+    "buff_type_id": 861783812,
+    "description": "Level 9 Movement Speed",
+    "priority": 1,
+    "duration": 180,
+    "warn_time": 0.0,
+    "online_timestamp": true,
+    "beneficial": true,
+    "icon_asset_name": "\\u003D",
+    "stats": [
+      {
+        "id": "MovementMultiplier",
+        "value": 0.049,
+        "is_pct": true
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
     "id": 1057407144,
     "buff_type_id": 755187973,
     "description": "Simple Crafting Speed Elixir",
@@ -1560,6 +1765,26 @@
       {
         "id": "GatheringSpeed",
         "value": 0.066,
+        "is_pct": true
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 1069569544,
+    "buff_type_id": 861783812,
+    "description": "Level 10 Movement Speed",
+    "priority": 1,
+    "duration": 180,
+    "warn_time": 0.0,
+    "online_timestamp": true,
+    "beneficial": true,
+    "icon_asset_name": "\\u003D",
+    "stats": [
+      {
+        "id": "MovementMultiplier",
+        "value": 0.05,
         "is_pct": true
       }
     ],
@@ -1840,6 +2065,26 @@
       {
         "id": "CooldownMultiplier",
         "value": 0.092,
+        "is_pct": true
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 1274692435,
+    "buff_type_id": 861783812,
+    "description": "Level 9 Deluxe Movement Speed",
+    "priority": 1,
+    "duration": 180,
+    "warn_time": 0.0,
+    "online_timestamp": true,
+    "beneficial": true,
+    "icon_asset_name": "\\u003D",
+    "stats": [
+      {
+        "id": "MovementMultiplier",
+        "value": 0.098,
         "is_pct": true
       }
     ],
@@ -2411,6 +2656,31 @@
     "vfx_attachment_point": "Origin"
   },
   {
+    "id": 1595704382,
+    "buff_type_id": 861783812,
+    "description": "Level 10 Deluxe Action Speed",
+    "priority": 1,
+    "duration": 180,
+    "warn_time": 0.0,
+    "online_timestamp": true,
+    "beneficial": true,
+    "icon_asset_name": "\\u0035",
+    "stats": [
+      {
+        "id": "CraftingSpeed",
+        "value": 0.1,
+        "is_pct": true
+      },
+      {
+        "id": "GatheringSpeed",
+        "value": 0.1,
+        "is_pct": true
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
     "id": 1601114136,
     "buff_type_id": 2040264082,
     "description": "Reckless Rage",
@@ -2522,7 +2792,7 @@
         "is_pct": true
       }
     ],
-    "vfx": "",
+    "vfx": "UpwardSparksSpinning_YellowBlack",
     "vfx_attachment_point": "Origin"
   },
   {
@@ -2715,6 +2985,26 @@
         "id": "PassiveStaminaRegenRate",
         "value": 20.0,
         "is_pct": false
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 1868609718,
+    "buff_type_id": 861783812,
+    "description": "Level 10 Deluxe Combat Cooldown",
+    "priority": 1,
+    "duration": 180,
+    "warn_time": 0.0,
+    "online_timestamp": true,
+    "beneficial": true,
+    "icon_asset_name": "\\uFFEB",
+    "stats": [
+      {
+        "id": "CooldownMultiplier",
+        "value": 0.1,
+        "is_pct": true
       }
     ],
     "vfx": "",
@@ -2916,6 +3206,26 @@
     "vfx_attachment_point": "Origin"
   },
   {
+    "id": 1993372253,
+    "buff_type_id": 861783812,
+    "description": "Level 9 Combat Cooldown",
+    "priority": 1,
+    "duration": 180,
+    "warn_time": 0.0,
+    "online_timestamp": true,
+    "beneficial": true,
+    "icon_asset_name": "\\uFFEB",
+    "stats": [
+      {
+        "id": "CooldownMultiplier",
+        "value": 0.049,
+        "is_pct": true
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
     "id": 2029849276,
     "buff_type_id": 1570841358,
     "description": "Berserk",
@@ -2972,7 +3282,7 @@
         "is_pct": true
       }
     ],
-    "vfx": "",
+    "vfx": "UpwardSparksSpinning_GreenCyanBlack",
     "vfx_attachment_point": "Origin"
   },
   {
