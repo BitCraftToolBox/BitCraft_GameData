@@ -276,10 +276,10 @@
   ],
   "row_level_security": [
     {
-      "sql": "\n    SELECT d.*\n    FROM direct_message_state d\n    JOIN user_state u ON d.sender_entity_id = u.entity_id\n    WHERE u.identity = :sender\n"
+      "sql": "\n    SELECT d.*\n    FROM direct_message_state d\n    JOIN user_state u ON d.receiver_entity_id = u.entity_id\n    WHERE u.identity = :sender\n"
     },
     {
-      "sql": "\n    SELECT d.*\n    FROM direct_message_state d\n    JOIN user_state u ON d.receiver_entity_id = u.entity_id\n    WHERE u.identity = :sender\n"
+      "sql": "\n    SELECT d.*\n    FROM direct_message_state d\n    JOIN user_state u ON d.sender_entity_id = u.entity_id\n    WHERE u.identity = :sender\n"
     }
   ]
 }
