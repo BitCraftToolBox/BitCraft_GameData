@@ -60786,6 +60786,55 @@
     "not_deconstructible": false
   },
   {
+    "id": 652992043,
+    "functions": [
+      {
+        "function_type": 13,
+        "level": 1,
+        "crafting_slots": 12,
+        "storage_slots": 0,
+        "cargo_slots": 0,
+        "refining_slots": 0,
+        "refining_cargo_slots": 0,
+        "item_slot_size": 6000,
+        "cargo_slot_size": 6000,
+        "trade_orders": 0,
+        "allowed_item_id_per_slot": [],
+        "buff_ids": [],
+        "concurrent_crafts_per_player": 1,
+        "terraform": false,
+        "housing_slots": 0,
+        "housing_income": 0
+      }
+    ],
+    "name": "Cooking Fire",
+    "description": "A worksurface for preparing foods",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/SturdyCampfire",
+    "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Other/Buildings/Crafting/AncientCookingWorkstation",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      {
+        "x": 0,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      }
+    ],
+    "max_health": 120,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 1.0,
+    "maintenance": 0.0,
+    "build_permission": "Claim",
+    "interact_permission": "All",
+    "has_action": true,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false
+  },
+  {
     "id": 658255579,
     "functions": [],
     "name": "Hunting Banner",
@@ -69374,6 +69423,65 @@
     "maintenance": 0.0,
     "build_permission": "None",
     "interact_permission": "All",
+    "has_action": true,
+    "show_in_compendium": false,
+    "is_ruins": false,
+    "not_deconstructible": false
+  },
+  {
+    "id": 1128173093,
+    "functions": [
+      {
+        "function_type": 999,
+        "level": 0,
+        "crafting_slots": 0,
+        "storage_slots": 0,
+        "cargo_slots": 0,
+        "refining_slots": 0,
+        "refining_cargo_slots": 0,
+        "item_slot_size": 6000,
+        "cargo_slot_size": 6000,
+        "trade_orders": 0,
+        "allowed_item_id_per_slot": [],
+        "buff_ids": [],
+        "concurrent_crafts_per_player": 0,
+        "terraform": false,
+        "housing_slots": 0,
+        "housing_income": 0
+      }
+    ],
+    "name": "SkitchDungeonExit",
+    "description": "used for invisible exits to interiors\n",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/InvisibleCaveExit",
+    "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Other/Buildings/ExitInterior",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      {
+        "x": 0,
+        "z": 0,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": 1,
+        "z": -1,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": -1,
+        "z": 1,
+        "footprint_type": "Walkable"
+      }
+    ],
+    "max_health": -1,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 0.0,
+    "maintenance": 0.0,
+    "build_permission": "Claim",
+    "interact_permission": "Claim",
     "has_action": true,
     "show_in_compendium": false,
     "is_ruins": false,
@@ -84056,6 +84164,65 @@
     "not_deconstructible": false
   },
   {
+    "id": 1759710606,
+    "functions": [
+      {
+        "function_type": 999,
+        "level": 0,
+        "crafting_slots": 0,
+        "storage_slots": 0,
+        "cargo_slots": 0,
+        "refining_slots": 0,
+        "refining_cargo_slots": 0,
+        "item_slot_size": 6000,
+        "cargo_slot_size": 6000,
+        "trade_orders": 0,
+        "allowed_item_id_per_slot": [],
+        "buff_ids": [],
+        "concurrent_crafts_per_player": 0,
+        "terraform": false,
+        "housing_slots": 0,
+        "housing_income": 0
+      }
+    ],
+    "name": "SkitchDungeonBackExit",
+    "description": "used for invisible exits to interiors\n",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/InvisibleCaveExit",
+    "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Other/Buildings/ExitInterior",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      {
+        "x": 0,
+        "z": 0,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": 1,
+        "z": -1,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": -1,
+        "z": 1,
+        "footprint_type": "Walkable"
+      }
+    ],
+    "max_health": -1,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 0.0,
+    "maintenance": 0.0,
+    "build_permission": "Claim",
+    "interact_permission": "Claim",
+    "has_action": true,
+    "show_in_compendium": false,
+    "is_ruins": false,
+    "not_deconstructible": false
+  },
+  {
     "id": 1760772067,
     "functions": [
       {
@@ -84311,6 +84478,220 @@
     "show_in_compendium": false,
     "is_ruins": false,
     "not_deconstructible": false
+  },
+  {
+    "id": 1785852446,
+    "functions": [
+      {
+        "function_type": 999,
+        "level": 1,
+        "crafting_slots": 0,
+        "storage_slots": 0,
+        "cargo_slots": 0,
+        "refining_slots": 0,
+        "refining_cargo_slots": 0,
+        "item_slot_size": 6000,
+        "cargo_slot_size": 6000,
+        "trade_orders": 0,
+        "allowed_item_id_per_slot": [],
+        "buff_ids": [],
+        "concurrent_crafts_per_player": 0,
+        "terraform": false,
+        "housing_slots": 0,
+        "housing_income": 0
+      }
+    ],
+    "name": "Giant Skitch Dungeon",
+    "description": "Ancient Ruins",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/CrabCaveEntrance",
+    "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Other/Buildings/Enterable/Cave",
+    "unenterable": false,
+    "wilderness": true,
+    "footprint": [
+      {
+        "x": -1,
+        "z": 1,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": -2,
+        "z": 2,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": -3,
+        "z": 2,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": -3,
+        "z": 1,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": -2,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": -1,
+        "z": -1,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 0,
+        "z": -2,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 2,
+        "z": -2,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 1,
+        "z": -2,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 2,
+        "z": -1,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 2,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 1,
+        "z": 2,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 0,
+        "z": 3,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": -1,
+        "z": 3,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": -1,
+        "z": 2,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 0,
+        "z": 0,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": 1,
+        "z": 1,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 0,
+        "z": 2,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 0,
+        "z": 1,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 1,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 1,
+        "z": -1,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 0,
+        "z": -1,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": -1,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": -2,
+        "z": 1,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 2,
+        "z": 1,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": -3,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": -2,
+        "z": -1,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": -1,
+        "z": -2,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 1,
+        "z": -3,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 3,
+        "z": -4,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 3,
+        "z": -3,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 3,
+        "z": -2,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 3,
+        "z": -1,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 2,
+        "z": -3,
+        "footprint_type": "Hitbox"
+      }
+    ],
+    "max_health": -1,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 0.0,
+    "maintenance": 0.0,
+    "build_permission": "Claim",
+    "interact_permission": "Claim",
+    "has_action": true,
+    "show_in_compendium": false,
+    "is_ruins": false,
+    "not_deconstructible": true
   },
   {
     "id": 1800864019,

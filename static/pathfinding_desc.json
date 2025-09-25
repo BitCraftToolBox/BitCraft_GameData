@@ -618,13 +618,13 @@
     "avoid_light": false,
     "climb_up_options": [
       {
-        "max_elevation_difference": 3,
+        "max_elevation_difference": 5,
         "move_type": "Walk"
       }
     ],
     "climb_down_options": [
       {
-        "max_elevation_difference": -3,
+        "max_elevation_difference": -5,
         "move_type": "Walk"
       }
     ]
@@ -779,6 +779,28 @@
     "climb_down_options": [
       {
         "max_elevation_difference": -7,
+        "move_type": "Walk"
+      }
+    ]
+  },
+  {
+    "id": 2021683157,
+    "can_walk_on_land": true,
+    "can_swim": false,
+    "requires_transitions": false,
+    "min_water_depth": 0,
+    "max_water_depth": 0,
+    "max_swim_height_delta": 6,
+    "avoid_light": false,
+    "climb_up_options": [
+      {
+        "max_elevation_difference": 5,
+        "move_type": "Walk"
+      }
+    ],
+    "climb_down_options": [
+      {
+        "max_elevation_difference": -5,
         "move_type": "Walk"
       }
     ]

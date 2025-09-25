@@ -1212,6 +1212,36 @@
     "vfx_attachment_point": "Origin"
   },
   {
+    "id": 654035333,
+    "buff_type_id": 1291788226,
+    "description": "Shell Retreat",
+    "priority": 0,
+    "duration": 3600,
+    "warn_time": 0.0,
+    "online_timestamp": false,
+    "beneficial": true,
+    "icon_asset_name": "\\uFFDE",
+    "stats": [
+      {
+        "id": "Armor",
+        "value": 10000.0,
+        "is_pct": false
+      },
+      {
+        "id": "Strength",
+        "value": 5.0,
+        "is_pct": true
+      },
+      {
+        "id": "MovementMultiplier",
+        "value": -0.4,
+        "is_pct": false
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
     "id": 670136642,
     "buff_type_id": 861783812,
     "description": "Level 7 Action Speed",
@@ -1622,6 +1652,26 @@
     "vfx_attachment_point": "Origin"
   },
   {
+    "id": 996814075,
+    "buff_type_id": 861783812,
+    "description": "Skitch's Strength",
+    "priority": 1,
+    "duration": 360,
+    "warn_time": 0.0,
+    "online_timestamp": true,
+    "beneficial": true,
+    "icon_asset_name": "\\uFFEB",
+    "stats": [
+      {
+        "id": "Strength",
+        "value": 0.07,
+        "is_pct": true
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
     "id": 1023844455,
     "buff_type_id": 238577565,
     "description": "Flawless Stamina Potion",
@@ -1825,6 +1875,26 @@
       {
         "id": "Armor",
         "value": -0.2,
+        "is_pct": true
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 1193623232,
+    "buff_type_id": 1301394548,
+    "description": "Crab Blind",
+    "priority": 0,
+    "duration": 7,
+    "warn_time": 0.0,
+    "online_timestamp": false,
+    "beneficial": false,
+    "icon_asset_name": "\\uFF84",
+    "stats": [
+      {
+        "id": "Accuracy",
+        "value": -1.0,
         "is_pct": true
       }
     ],

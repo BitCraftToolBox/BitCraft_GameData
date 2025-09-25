@@ -1868,6 +1868,35 @@
     "description": "Alesi has an injured animal in need of care, deliver some Healing Potions."
   },
   {
+    "id": 397085407,
+    "level_requirement": {
+      "skill_id": 18,
+      "min_level": 30,
+      "max_level": 120
+    },
+    "required_items": [
+      {
+        "item_id": 502555967,
+        "quantity": 5,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "rewarded_items": [
+      {
+        "item_id": 1,
+        "quantity": 2500,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "rewarded_experience": {
+      "skill_id": 18,
+      "quantity": 2745.0
+    },
+    "description": "Ramparte wants you to take down an ancient skitch."
+  },
+  {
     "id": 400689680,
     "level_requirement": {
       "skill_id": 21,
@@ -3966,6 +3995,35 @@
       "quantity": 1400.0
     },
     "description": "Heimlich wants some Roasted Ocean Fish for a new recipe he's working on."
+  },
+  {
+    "id": 939572734,
+    "level_requirement": {
+      "skill_id": 18,
+      "min_level": 1,
+      "max_level": 30
+    },
+    "required_items": [
+      {
+        "item_id": 502555967,
+        "quantity": 1,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "rewarded_items": [
+      {
+        "item_id": 1,
+        "quantity": 500,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "rewarded_experience": {
+      "skill_id": 18,
+      "quantity": 1400.0
+    },
+    "description": "Ramparte wants you to take down an ancient skitch."
   },
   {
     "id": 946527082,
