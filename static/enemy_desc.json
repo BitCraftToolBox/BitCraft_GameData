@@ -247,6 +247,58 @@
     "huntable": true
   },
   {
+    "enemy_type": 37,
+    "name": "Cave Skitch",
+    "pathfinding_id": 769231106,
+    "targeting_matrix_id": 2,
+    "combat_actions_ids": [
+      3
+    ],
+    "description": "A skitch that has lived underground for quite some time. It seems to have made itself some armor out of metal that was laying around.",
+    "min_speed": 12,
+    "max_speed": 15,
+    "radius": 1.0,
+    "awareness_destination_threshold": 0.5,
+    "min_awareness_tick_sec": 1.0,
+    "max_awareness_tick_sec": 5.0,
+    "max_health": 25,
+    "ignore_damage": false,
+    "health_regen_quantity": 50.0,
+    "armor": 250,
+    "accuracy": 235,
+    "evasion": 75,
+    "strength": 25,
+    "min_damage": 2,
+    "max_damage": 3,
+    "cooldown_multiplier": 1.0,
+    "daytime_detect_range": 5,
+    "daytime_aggro_range": 5,
+    "daytime_deaggro_range": 180,
+    "nighttime_detect_range": 5,
+    "nighttime_aggro_range": 5,
+    "nighttime_deaggro_range": 180,
+    "evade_range": 0,
+    "deaggro_health_threshold": 0.0,
+    "attack_level": 5,
+    "defense_level": 5,
+    "prefab_address": "Enemies/SwarmCrabDungeon",
+    "icon_address": "GeneratedIcons/Other/GeneratedIcons/Other/Animals/SentinelDungeonSkitch",
+    "extracted_item_stacks": [],
+    "experience_per_damage_dealt": [
+      [
+        18,
+        1.25
+      ]
+    ],
+    "tier": 1,
+    "tag": "Monster",
+    "rarity": [
+      1,
+      {}
+    ],
+    "huntable": false
+  },
+  {
     "enemy_type": 21,
     "name": "Desert Crab",
     "pathfinding_id": 769231106,
@@ -904,6 +956,60 @@
       [
         18,
         2.3
+      ]
+    ],
+    "tier": 1,
+    "tag": "Monster",
+    "rarity": [
+      1,
+      {}
+    ],
+    "huntable": false
+  },
+  {
+    "enemy_type": 36,
+    "name": "Giant Skitch",
+    "pathfinding_id": 769231106,
+    "targeting_matrix_id": 2,
+    "combat_actions_ids": [
+      448882262,
+      2071436260,
+      230617850
+    ],
+    "description": "This skitch has grown so massive that it can't fit out of the cave anymore. Its shell is as hard as stone and your weapons will be weak against it.",
+    "min_speed": 10,
+    "max_speed": 14,
+    "radius": 1.5,
+    "awareness_destination_threshold": 0.5,
+    "min_awareness_tick_sec": 1.0,
+    "max_awareness_tick_sec": 5.0,
+    "max_health": 1500,
+    "ignore_damage": false,
+    "health_regen_quantity": 100.0,
+    "armor": 375,
+    "accuracy": 235,
+    "evasion": 85,
+    "strength": 100,
+    "min_damage": 0,
+    "max_damage": 1,
+    "cooldown_multiplier": 1.0,
+    "daytime_detect_range": 25,
+    "daytime_aggro_range": 10,
+    "daytime_deaggro_range": 50,
+    "nighttime_detect_range": 25,
+    "nighttime_aggro_range": 10,
+    "nighttime_deaggro_range": 50,
+    "evade_range": 0,
+    "deaggro_health_threshold": 0.0,
+    "attack_level": 5,
+    "defense_level": 5,
+    "prefab_address": "Enemies/AncientCrab",
+    "icon_address": "GeneratedIcons/Other/GeneratedIcons/Other/Animals/GiantSkitch",
+    "extracted_item_stacks": [],
+    "experience_per_damage_dealt": [
+      [
+        18,
+        1.5
       ]
     ],
     "tier": 1,

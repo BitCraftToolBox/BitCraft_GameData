@@ -393,6 +393,55 @@
     "is_taunt_action": false
   },
   {
+    "name": "Crab Smash",
+    "id": 230617850,
+    "learned_by_player": false,
+    "range": 1,
+    "max_range": 5.0,
+    "auto_cast": false,
+    "weapon_type_requirements": [],
+    "lead_in_time": 4.0,
+    "inaction_time": 0.0,
+    "can_move_during_lead_in": false,
+    "cooldown": 15.0,
+    "global_cooldown": 5.0,
+    "ignore_global_cooldown": false,
+    "strength_multiplier": 5.0,
+    "accuracy_multiplier": 1.0,
+    "stamina_use": 1.0,
+    "weapon_durability_lost": 0,
+    "self_buffs": [],
+    "target_buffs": [
+      [
+        1193623232,
+        [
+          1,
+          []
+        ]
+      ]
+    ],
+    "level_requirement": [
+      0,
+      {
+        "skill_id": 8,
+        "level": 1
+      }
+    ],
+    "icon_asset_name": "\\uFFB9",
+    "player_animation_id": -1,
+    "npc_animation_name": "ATTACK SLAM",
+    "hit_vfx": "",
+    "projectile_speed": 0.0,
+    "projectile_vfx": "ToadAttack",
+    "description": "The crab smashes the ground, dealing some damage to enemy players and lowering the accuracy of everyone hit.",
+    "self_threat_against_buildings": 0.0,
+    "self_threat_against_enemies": 5.0,
+    "base_threat": 0.0,
+    "threat_per_damage": 0.0,
+    "is_self_targeting": false,
+    "is_taunt_action": false
+  },
+  {
     "name": "Umbura's Fury",
     "id": 266635031,
     "learned_by_player": false,
@@ -524,6 +573,47 @@
     "self_threat_against_enemies": 0.0,
     "base_threat": 50.0,
     "threat_per_damage": 1.75,
+    "is_self_targeting": false,
+    "is_taunt_action": false
+  },
+  {
+    "name": "Crab Cleave",
+    "id": 448882262,
+    "learned_by_player": false,
+    "range": 1,
+    "max_range": 3.0,
+    "auto_cast": true,
+    "weapon_type_requirements": [],
+    "lead_in_time": 0.7,
+    "inaction_time": 0.0,
+    "can_move_during_lead_in": false,
+    "cooldown": 3.0,
+    "global_cooldown": 1.0,
+    "ignore_global_cooldown": false,
+    "strength_multiplier": 0.0,
+    "accuracy_multiplier": 1.0,
+    "stamina_use": 1.0,
+    "weapon_durability_lost": 0,
+    "self_buffs": [],
+    "target_buffs": [],
+    "level_requirement": [
+      0,
+      {
+        "skill_id": 8,
+        "level": 1
+      }
+    ],
+    "icon_asset_name": "\\uFFB9",
+    "player_animation_id": -1,
+    "npc_animation_name": "CLEAVE",
+    "hit_vfx": "GenericWeaponHit",
+    "projectile_speed": -1.0,
+    "projectile_vfx": "",
+    "description": "Biting by animal",
+    "self_threat_against_buildings": 0.0,
+    "self_threat_against_enemies": 5.0,
+    "base_threat": 0.0,
+    "threat_per_damage": 0.0,
     "is_self_targeting": false,
     "is_taunt_action": false
   },
@@ -1117,6 +1207,47 @@
     "is_taunt_action": false
   },
   {
+    "name": "Crab Claw Attack",
+    "id": 1263141107,
+    "learned_by_player": false,
+    "range": 1,
+    "max_range": 5.0,
+    "auto_cast": true,
+    "weapon_type_requirements": [],
+    "lead_in_time": 0.7,
+    "inaction_time": 0.0,
+    "can_move_during_lead_in": false,
+    "cooldown": 3.0,
+    "global_cooldown": 1.0,
+    "ignore_global_cooldown": false,
+    "strength_multiplier": 1.0,
+    "accuracy_multiplier": 1.0,
+    "stamina_use": 1.0,
+    "weapon_durability_lost": 0,
+    "self_buffs": [],
+    "target_buffs": [],
+    "level_requirement": [
+      0,
+      {
+        "skill_id": 8,
+        "level": 1
+      }
+    ],
+    "icon_asset_name": "\\uFFB9",
+    "player_animation_id": -1,
+    "npc_animation_name": "CLEAVE",
+    "hit_vfx": "GenericWeaponHit",
+    "projectile_speed": -1.0,
+    "projectile_vfx": "",
+    "description": "A simple claw attack from the giant crab",
+    "self_threat_against_buildings": 0.0,
+    "self_threat_against_enemies": 5.0,
+    "base_threat": 0.0,
+    "threat_per_damage": 0.0,
+    "is_self_targeting": false,
+    "is_taunt_action": false
+  },
+  {
     "name": "Crossbow Headshot",
     "id": 1382520763,
     "learned_by_player": true,
@@ -1343,6 +1474,55 @@
     "base_threat": 5.0,
     "threat_per_damage": 1.0,
     "is_self_targeting": false,
+    "is_taunt_action": false
+  },
+  {
+    "name": "Crab Huddle",
+    "id": 1612798448,
+    "learned_by_player": false,
+    "range": 1,
+    "max_range": 1.0,
+    "auto_cast": false,
+    "weapon_type_requirements": [],
+    "lead_in_time": 1.0,
+    "inaction_time": 0.0,
+    "can_move_during_lead_in": false,
+    "cooldown": 35.0,
+    "global_cooldown": 3.0,
+    "ignore_global_cooldown": false,
+    "strength_multiplier": 0.0,
+    "accuracy_multiplier": 0.0,
+    "stamina_use": 1.0,
+    "weapon_durability_lost": 0,
+    "self_buffs": [
+      [
+        654035333,
+        [
+          1,
+          []
+        ]
+      ]
+    ],
+    "target_buffs": [],
+    "level_requirement": [
+      0,
+      {
+        "skill_id": 8,
+        "level": 1
+      }
+    ],
+    "icon_asset_name": "\\uFFB9",
+    "player_animation_id": -1,
+    "npc_animation_name": "",
+    "hit_vfx": "GenericWeaponHit",
+    "projectile_speed": -1.0,
+    "projectile_vfx": "",
+    "description": "The crab reinforces itself with it's shell, increasing it's damage and armor.",
+    "self_threat_against_buildings": 0.0,
+    "self_threat_against_enemies": 5.0,
+    "base_threat": 0.0,
+    "threat_per_damage": 0.0,
+    "is_self_targeting": true,
     "is_taunt_action": false
   },
   {
@@ -1859,6 +2039,47 @@
     "self_threat_against_enemies": 0.0,
     "base_threat": 5.0,
     "threat_per_damage": 1.0,
+    "is_self_targeting": false,
+    "is_taunt_action": false
+  },
+  {
+    "name": "Crab Aggro Drop",
+    "id": 2071436260,
+    "learned_by_player": false,
+    "range": 1,
+    "max_range": 5.0,
+    "auto_cast": true,
+    "weapon_type_requirements": [],
+    "lead_in_time": 0.7,
+    "inaction_time": 0.0,
+    "can_move_during_lead_in": false,
+    "cooldown": 10.0,
+    "global_cooldown": 1.0,
+    "ignore_global_cooldown": false,
+    "strength_multiplier": 0.0,
+    "accuracy_multiplier": 1.0,
+    "stamina_use": 1.0,
+    "weapon_durability_lost": 0,
+    "self_buffs": [],
+    "target_buffs": [],
+    "level_requirement": [
+      0,
+      {
+        "skill_id": 8,
+        "level": 1
+      }
+    ],
+    "icon_asset_name": "\\uFFB9",
+    "player_animation_id": -1,
+    "npc_animation_name": "CLEAVE",
+    "hit_vfx": "GenericWeaponHit",
+    "projectile_speed": -1.0,
+    "projectile_vfx": "",
+    "description": "A simple claw attack from the giant crab",
+    "self_threat_against_buildings": 0.0,
+    "self_threat_against_enemies": -150000.0,
+    "base_threat": 0.0,
+    "threat_per_damage": 0.0,
     "is_self_targeting": false,
     "is_taunt_action": false
   },

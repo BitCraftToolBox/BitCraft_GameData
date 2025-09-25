@@ -801,7 +801,7 @@
     "avoid_light": false,
     "climb_up_options": [
       [
-        3,
+        5,
         [
           2,
           []
@@ -810,7 +810,7 @@
     ],
     "climb_down_options": [
       [
-        -3,
+        -5,
         [
           2,
           []
@@ -1007,6 +1007,34 @@
     "climb_down_options": [
       [
         -7,
+        [
+          2,
+          []
+        ]
+      ]
+    ]
+  },
+  {
+    "id": 2021683157,
+    "can_walk_on_land": true,
+    "can_swim": false,
+    "requires_transitions": false,
+    "min_water_depth": 0,
+    "max_water_depth": 0,
+    "max_swim_height_delta": 6,
+    "avoid_light": false,
+    "climb_up_options": [
+      [
+        5,
+        [
+          2,
+          []
+        ]
+      ]
+    ],
+    "climb_down_options": [
+      [
+        -5,
         [
           2,
           []

@@ -55,7 +55,9 @@
     "crafting_recipe_desc",
     "deconstruction_recipe_desc",
     "deployable_collectible_state",
+    "deployable_collectible_state_v2",
     "deployable_desc",
+    "deployable_desc_v2",
     "deployable_state",
     "dimension_description_state",
     "dimension_network_state",
@@ -105,6 +107,7 @@
     "hexite_exchange_entry_desc",
     "identity_role",
     "inter_module_message",
+    "inter_module_message_v2",
     "interior_collapse_trigger_state",
     "interior_environment_desc",
     "interior_instance_desc",
@@ -173,6 +176,7 @@
     "player_queue_state",
     "player_region_transfer_event",
     "player_set_name_outcome_event",
+    "player_settings_state",
     "player_state",
     "player_use_elevator_timer",
     "player_username_state",
@@ -223,6 +227,8 @@
     "waystone_state",
     "weapon_desc",
     "weapon_type_desc",
+    "wind_dbg_desc",
+    "wind_params_desc",
     "world_region_name_state",
     "world_region_state"
   ],
@@ -298,6 +304,7 @@
     "staged_static_data_v2",
     "staged_static_data_v3",
     "staged_static_data_v4",
+    "staged_static_data_v5",
     "starving_loop_timer",
     "starving_player_state",
     "storage_log_cleanup_loop_timer",
@@ -308,7 +315,8 @@
     "unclaimed_collectibles_state",
     "unclaimed_shards_state",
     "user_authentication_state",
-    "user_previous_region_state"
+    "user_previous_region_state",
+    "world_entity_placement_results"
   ],
   "row_level_security": []
 }
