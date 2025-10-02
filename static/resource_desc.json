@@ -28763,6 +28763,69 @@
     "not_respawning": false
   },
   {
+    "id": 1043012047,
+    "name": "Lost Shipment",
+    "description": "",
+    "flattenable": false,
+    "max_health": 1,
+    "ignore_damage": false,
+    "despawn_time": 0.0,
+    "model_asset_name": "Resources/LostShipment2",
+    "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Other/T2FloatingCargo",
+    "on_destroy_yield": [
+      [
+        1426801907,
+        1,
+        [
+          0,
+          []
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    ],
+    "on_destroy_yield_resource_id": 0,
+    "spawn_priority": 0,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          1,
+          []
+        ]
+      ],
+      [
+        0,
+        -1,
+        [
+          1,
+          []
+        ]
+      ],
+      [
+        1,
+        -1,
+        [
+          1,
+          []
+        ]
+      ]
+    ],
+    "tier": -1,
+    "tag": "Sailing Cargo",
+    "rarity": [
+      0,
+      {}
+    ],
+    "compendium_entry": true,
+    "enemy_params_id": [],
+    "scheduled_respawn_time": 0.0,
+    "not_respawning": false
+  },
+  {
     "id": 1045808810,
     "name": "Pyrelite Outcrop Interior",
     "description": "",
@@ -31809,6 +31872,85 @@
     "not_respawning": false
   },
   {
+    "id": 1293969473,
+    "name": "Lost Treasure",
+    "description": "",
+    "flattenable": false,
+    "max_health": 1,
+    "ignore_damage": false,
+    "despawn_time": 0.0,
+    "model_asset_name": "Resources/LostShipment3",
+    "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Other/T5FloatingCargo",
+    "on_destroy_yield": [
+      [
+        1977815797,
+        1,
+        [
+          0,
+          []
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    ],
+    "on_destroy_yield_resource_id": 0,
+    "spawn_priority": 0,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          1,
+          []
+        ]
+      ],
+      [
+        1,
+        -1,
+        [
+          1,
+          []
+        ]
+      ],
+      [
+        -1,
+        0,
+        [
+          1,
+          []
+        ]
+      ],
+      [
+        -1,
+        1,
+        [
+          1,
+          []
+        ]
+      ],
+      [
+        0,
+        1,
+        [
+          1,
+          []
+        ]
+      ]
+    ],
+    "tier": -1,
+    "tag": "Sailing Cargo",
+    "rarity": [
+      0,
+      {}
+    ],
+    "compendium_entry": true,
+    "enemy_params_id": [],
+    "scheduled_respawn_time": 0.0,
+    "not_respawning": false
+  },
+  {
     "id": 1303955933,
     "name": "Traveler's Tree",
     "description": "",
@@ -33348,6 +33490,53 @@
     "tag": "Berry",
     "rarity": [
       1,
+      {}
+    ],
+    "compendium_entry": true,
+    "enemy_params_id": [],
+    "scheduled_respawn_time": 0.0,
+    "not_respawning": false
+  },
+  {
+    "id": 1477126404,
+    "name": "Lost Wreckage",
+    "description": "",
+    "flattenable": false,
+    "max_health": 1,
+    "ignore_damage": false,
+    "despawn_time": 0.0,
+    "model_asset_name": "Resources/LostShipment1",
+    "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Other/T1FloatingCargo",
+    "on_destroy_yield": [
+      [
+        831574223,
+        1,
+        [
+          0,
+          []
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    ],
+    "on_destroy_yield_resource_id": 0,
+    "spawn_priority": 0,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          1,
+          []
+        ]
+      ]
+    ],
+    "tier": -1,
+    "tag": "Sailing Cargo",
+    "rarity": [
+      0,
       {}
     ],
     "compendium_entry": true,
