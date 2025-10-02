@@ -30169,6 +30169,894 @@
           "elements": [
             {
               "name": {
+                "some": "version"
+              },
+              "algebraic_type": {
+                "U32": []
+              }
+            },
+            {
+              "name": {
+                "some": "static_data"
+              },
+              "algebraic_type": {
+                "Ref": 429
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Product": {
+          "elements": [
+            {
+              "name": {
+                "some": "parameters"
+              },
+              "algebraic_type": {
+                "Array": {
+                  "Ref": 245
+                }
+              }
+            },
+            {
+              "name": {
+                "some": "private_parameters"
+              },
+              "algebraic_type": {
+                "Array": {
+                  "Ref": 264
+                }
+              }
+            },
+            {
+              "name": {
+                "some": "secondary_knowledges"
+              },
+              "algebraic_type": {
+                "Array": {
+                  "Ref": 277
+                }
+              }
+            },
+            {
+              "name": {
+                "some": "weapon_types"
+              },
+              "algebraic_type": {
+                "Array": {
+                  "Ref": 305
+                }
+              }
+            },
+            {
+              "name": {
+                "some": "skills"
+              },
+              "algebraic_type": {
+                "Array": {
+                  "Ref": 280
+                }
+              }
+            },
+            {
+              "name": {
+                "some": "targeting_matrices"
+              },
+              "algebraic_type": {
+                "Array": {
+                  "Ref": 285
+                }
+              }
+            },
+            {
+              "name": {
+                "some": "npcs"
+              },
+              "algebraic_type": {
+                "Array": {
+                  "Ref": 241
+                }
+              }
+            },
+            {
+              "name": {
+                "some": "loot_rarities"
+              },
+              "algebraic_type": {
+                "Array": {
+                  "Ref": 237
+                }
+              }
+            },
+            {
+              "name": {
+                "some": "knowledge_scroll_types"
+              },
+              "algebraic_type": {
+                "Array": {
+                  "Ref": 230
+                }
+              }
+            },
+            {
+              "name": {
+                "some": "items"
+              },
+              "algebraic_type": {
+                "Array": {
+                  "Ref": 207
+                }
+              }
+            },
+            {
+              "name": {
+                "some": "enemy_ai_params"
+              },
+              "algebraic_type": {
+                "Array": {
+                  "Ref": 152
+                }
+              }
+            },
+            {
+              "name": {
+                "some": "empire_ranks"
+              },
+              "algebraic_type": {
+                "Array": {
+                  "Ref": 140
+                }
+              }
+            },
+            {
+              "name": {
+                "some": "emotes"
+              },
+              "algebraic_type": {
+                "Array": {
+                  "Ref": 113
+                }
+              }
+            },
+            {
+              "name": {
+                "some": "climb_requirements"
+              },
+              "algebraic_type": {
+                "Array": {
+                  "Ref": 67
+                }
+              }
+            },
+            {
+              "name": {
+                "some": "claim_tile_costs"
+              },
+              "algebraic_type": {
+                "Array": {
+                  "Ref": 65
+                }
+              }
+            },
+            {
+              "name": {
+                "some": "claim_tech"
+              },
+              "algebraic_type": {
+                "Array": {
+                  "Ref": 61
+                }
+              }
+            },
+            {
+              "name": {
+                "some": "character_stats"
+              },
+              "algebraic_type": {
+                "Array": {
+                  "Ref": 50
+                }
+              }
+            },
+            {
+              "name": {
+                "some": "cargos"
+              },
+              "algebraic_type": {
+                "Array": {
+                  "Ref": 48
+                }
+              }
+            },
+            {
+              "name": {
+                "some": "building_types"
+              },
+              "algebraic_type": {
+                "Array": {
+                  "Ref": 45
+                }
+              }
+            },
+            {
+              "name": {
+                "some": "buildings"
+              },
+              "algebraic_type": {
+                "Array": {
+                  "Ref": 30
+                }
+              }
+            },
+            {
+              "name": {
+                "some": "biomes"
+              },
+              "algebraic_type": {
+                "Array": {
+                  "Ref": 20
+                }
+              }
+            },
+            {
+              "name": {
+                "some": "interior_shapes"
+              },
+              "algebraic_type": {
+                "Array": {
+                  "Ref": 201
+                }
+              }
+            },
+            {
+              "name": {
+                "some": "buff_types"
+              },
+              "algebraic_type": {
+                "Array": {
+                  "Ref": 27
+                }
+              }
+            },
+            {
+              "name": {
+                "some": "buffs"
+              },
+              "algebraic_type": {
+                "Array": {
+                  "Ref": 23
+                }
+              }
+            },
+            {
+              "name": {
+                "some": "alerts"
+              },
+              "algebraic_type": {
+                "Array": {
+                  "Ref": 11
+                }
+              }
+            },
+            {
+              "name": {
+                "some": "tool_types"
+              },
+              "algebraic_type": {
+                "Array": {
+                  "Ref": 290
+                }
+              }
+            },
+            {
+              "name": {
+                "some": "item_lists"
+              },
+              "algebraic_type": {
+                "Array": {
+                  "Ref": 208
+                }
+              }
+            },
+            {
+              "name": {
+                "some": "foods"
+              },
+              "algebraic_type": {
+                "Array": {
+                  "Ref": 175
+                }
+              }
+            },
+            {
+              "name": {
+                "some": "achievements"
+              },
+              "algebraic_type": {
+                "Array": {
+                  "Ref": 2
+                }
+              }
+            },
+            {
+              "name": {
+                "some": "knowledge_stat_modifiers"
+              },
+              "algebraic_type": {
+                "Array": {
+                  "Ref": 232
+                }
+              }
+            },
+            {
+              "name": {
+                "some": "interior_instances"
+              },
+              "algebraic_type": {
+                "Array": {
+                  "Ref": 198
+                }
+              }
+            },
+            {
+              "name": {
+                "some": "interior_environments"
+              },
+              "algebraic_type": {
+                "Array": {
+                  "Ref": 383
+                }
+              }
+            },
+            {
+              "name": {
+                "some": "interior_spawns"
+              },
+              "algebraic_type": {
+                "Array": {
+                  "Ref": 202
+                }
+              }
+            },
+            {
+              "name": {
+                "some": "building_portals"
+              },
+              "algebraic_type": {
+                "Array": {
+                  "Ref": 38
+                }
+              }
+            },
+            {
+              "name": {
+                "some": "portal_connections"
+              },
+              "algebraic_type": {
+                "Array": {
+                  "Ref": 200
+                }
+              }
+            },
+            {
+              "name": {
+                "some": "building_interior_networks"
+              },
+              "algebraic_type": {
+                "Array": {
+                  "Ref": 199
+                }
+              }
+            },
+            {
+              "name": {
+                "some": "building_claims"
+              },
+              "algebraic_type": {
+                "Array": {
+                  "Ref": 28
+                }
+              }
+            },
+            {
+              "name": {
+                "some": "building_repairs"
+              },
+              "algebraic_type": {
+                "Array": {
+                  "Ref": 39
+                }
+              }
+            },
+            {
+              "name": {
+                "some": "building_spawns"
+              },
+              "algebraic_type": {
+                "Array": {
+                  "Ref": 40
+                }
+              }
+            },
+            {
+              "name": {
+                "some": "chest_rarities"
+              },
+              "algebraic_type": {
+                "Array": {
+                  "Ref": 54
+                }
+              }
+            },
+            {
+              "name": {
+                "some": "clothing"
+              },
+              "algebraic_type": {
+                "Array": {
+                  "Ref": 69
+                }
+              }
+            },
+            {
+              "name": {
+                "some": "collectibles"
+              },
+              "algebraic_type": {
+                "Array": {
+                  "Ref": 71
+                }
+              }
+            },
+            {
+              "name": {
+                "some": "combat_actions"
+              },
+              "algebraic_type": {
+                "Array": {
+                  "Ref": 77
+                }
+              }
+            },
+            {
+              "name": {
+                "some": "combat_actions_multi_hit"
+              },
+              "algebraic_type": {
+                "Array": {
+                  "Ref": 78
+                }
+              }
+            },
+            {
+              "name": {
+                "some": "construction"
+              },
+              "algebraic_type": {
+                "Array": {
+                  "Ref": 82
+                }
+              }
+            },
+            {
+              "name": {
+                "some": "crafting"
+              },
+              "algebraic_type": {
+                "Array": {
+                  "Ref": 89
+                }
+              }
+            },
+            {
+              "name": {
+                "some": "desconstructions"
+              },
+              "algebraic_type": {
+                "Array": {
+                  "Ref": 91
+                }
+              }
+            },
+            {
+              "name": {
+                "some": "empire_supplies"
+              },
+              "algebraic_type": {
+                "Array": {
+                  "Ref": 149
+                }
+              }
+            },
+            {
+              "name": {
+                "some": "enemies"
+              },
+              "algebraic_type": {
+                "Array": {
+                  "Ref": 154
+                }
+              }
+            },
+            {
+              "name": {
+                "some": "environment_debuffs"
+              },
+              "algebraic_type": {
+                "Array": {
+                  "Ref": 161
+                }
+              }
+            },
+            {
+              "name": {
+                "some": "equipment"
+              },
+              "algebraic_type": {
+                "Array": {
+                  "Ref": 163
+                }
+              }
+            },
+            {
+              "name": {
+                "some": "extraction"
+              },
+              "algebraic_type": {
+                "Array": {
+                  "Ref": 174
+                }
+              }
+            },
+            {
+              "name": {
+                "some": "item_conversion_recipes"
+              },
+              "algebraic_type": {
+                "Array": {
+                  "Ref": 206
+                }
+              }
+            },
+            {
+              "name": {
+                "some": "knowledge_scrolls"
+              },
+              "algebraic_type": {
+                "Array": {
+                  "Ref": 229
+                }
+              }
+            },
+            {
+              "name": {
+                "some": "loot_chests"
+              },
+              "algebraic_type": {
+                "Array": {
+                  "Ref": 235
+                }
+              }
+            },
+            {
+              "name": {
+                "some": "loot_tables"
+              },
+              "algebraic_type": {
+                "Array": {
+                  "Ref": 238
+                }
+              }
+            },
+            {
+              "name": {
+                "some": "paving"
+              },
+              "algebraic_type": {
+                "Array": {
+                  "Ref": 250
+                }
+              }
+            },
+            {
+              "name": {
+                "some": "pathfinding"
+              },
+              "algebraic_type": {
+                "Array": {
+                  "Ref": 246
+                }
+              }
+            },
+            {
+              "name": {
+                "some": "pillar_shaping"
+              },
+              "algebraic_type": {
+                "Array": {
+                  "Ref": 394
+                }
+              }
+            },
+            {
+              "name": {
+                "some": "resources"
+              },
+              "algebraic_type": {
+                "Array": {
+                  "Ref": 272
+                }
+              }
+            },
+            {
+              "name": {
+                "some": "resource_clumps"
+              },
+              "algebraic_type": {
+                "Array": {
+                  "Ref": 270
+                }
+              }
+            },
+            {
+              "name": {
+                "some": "resource_growths"
+              },
+              "algebraic_type": {
+                "Array": {
+                  "Ref": 273
+                }
+              }
+            },
+            {
+              "name": {
+                "some": "resource_placements"
+              },
+              "algebraic_type": {
+                "Array": {
+                  "Ref": 274
+                }
+              }
+            },
+            {
+              "name": {
+                "some": "teleport_items"
+              },
+              "algebraic_type": {
+                "Array": {
+                  "Ref": 286
+                }
+              }
+            },
+            {
+              "name": {
+                "some": "tools"
+              },
+              "algebraic_type": {
+                "Array": {
+                  "Ref": 289
+                }
+              }
+            },
+            {
+              "name": {
+                "some": "traveler_tasks"
+              },
+              "algebraic_type": {
+                "Array": {
+                  "Ref": 295
+                }
+              }
+            },
+            {
+              "name": {
+                "some": "traveler_trade_orders"
+              },
+              "algebraic_type": {
+                "Array": {
+                  "Ref": 297
+                }
+              }
+            },
+            {
+              "name": {
+                "some": "deployables"
+              },
+              "algebraic_type": {
+                "Array": {
+                  "Ref": 99
+                }
+              }
+            },
+            {
+              "name": {
+                "some": "weapons"
+              },
+              "algebraic_type": {
+                "Array": {
+                  "Ref": 304
+                }
+              }
+            },
+            {
+              "name": {
+                "some": "onboarding_rewards"
+              },
+              "algebraic_type": {
+                "Array": {
+                  "Ref": 243
+                }
+              }
+            },
+            {
+              "name": {
+                "some": "terraform_recipes"
+              },
+              "algebraic_type": {
+                "Array": {
+                  "Ref": 287
+                }
+              }
+            },
+            {
+              "name": {
+                "some": "empire_notifications"
+              },
+              "algebraic_type": {
+                "Array": {
+                  "Ref": 133
+                }
+              }
+            },
+            {
+              "name": {
+                "some": "empire_territories"
+              },
+              "algebraic_type": {
+                "Array": {
+                  "Ref": 150
+                }
+              }
+            },
+            {
+              "name": {
+                "some": "empire_colors"
+              },
+              "algebraic_type": {
+                "Array": {
+                  "Ref": 116
+                }
+              }
+            },
+            {
+              "name": {
+                "some": "empire_icons"
+              },
+              "algebraic_type": {
+                "Array": {
+                  "Ref": 126
+                }
+              }
+            },
+            {
+              "name": {
+                "some": "walls"
+              },
+              "algebraic_type": {
+                "Array": {
+                  "Ref": 303
+                }
+              }
+            },
+            {
+              "name": {
+                "some": "gates"
+              },
+              "algebraic_type": {
+                "Array": {
+                  "Ref": 187
+                }
+              }
+            },
+            {
+              "name": {
+                "some": "elevators"
+              },
+              "algebraic_type": {
+                "Array": {
+                  "Ref": 112
+                }
+              }
+            },
+            {
+              "name": {
+                "some": "player_actions"
+              },
+              "algebraic_type": {
+                "Array": {
+                  "Ref": 251
+                }
+              }
+            },
+            {
+              "name": {
+                "some": "distant_visibile_entities"
+              },
+              "algebraic_type": {
+                "Array": {
+                  "Ref": 107
+                }
+              }
+            },
+            {
+              "name": {
+                "some": "player_housing"
+              },
+              "algebraic_type": {
+                "Array": {
+                  "Ref": 397
+                }
+              }
+            },
+            {
+              "name": {
+                "some": "hexite_exchange_entries"
+              },
+              "algebraic_type": {
+                "Array": {
+                  "Ref": 194
+                }
+              }
+            },
+            {
+              "name": {
+                "some": "reserved_name"
+              },
+              "algebraic_type": {
+                "Array": {
+                  "Ref": 412
+                }
+              }
+            },
+            {
+              "name": {
+                "some": "contribution_loot"
+              },
+              "algebraic_type": {
+                "Array": {
+                  "Ref": 87
+                }
+              }
+            },
+            {
+              "name": {
+                "some": "wind_params"
+              },
+              "algebraic_type": {
+                "Array": {
+                  "Ref": 306
+                }
+              }
+            },
+            {
+              "name": {
+                "some": "enemy_scaling"
+              },
+              "algebraic_type": {
+                "Array": {
+                  "Ref": 157
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Product": {
+          "elements": [
+            {
+              "name": {
                 "some": "entity_id"
               },
               "algebraic_type": {
@@ -30218,7 +31106,7 @@
                 "some": "subject_type"
               },
               "algebraic_type": {
-                "Ref": 430
+                "Ref": 432
               }
             },
             {
@@ -30226,7 +31114,7 @@
                 "some": "data"
               },
               "algebraic_type": {
-                "Ref": 431
+                "Ref": 433
               }
             },
             {
@@ -30283,7 +31171,7 @@
                 "some": "Reserved"
               },
               "algebraic_type": {
-                "Ref": 432
+                "Ref": 434
               }
             },
             {
@@ -30397,7 +31285,7 @@
                 "some": "placeholder_skill_type"
               },
               "algebraic_type": {
-                "Ref": 435
+                "Ref": 437
               }
             },
             {
@@ -30405,7 +31293,7 @@
                 "some": "placeholder_buff_category"
               },
               "algebraic_type": {
-                "Ref": 436
+                "Ref": 438
               }
             },
             {
@@ -30413,7 +31301,7 @@
                 "some": "placeholder"
               },
               "algebraic_type": {
-                "Ref": 437
+                "Ref": 439
               }
             },
             {
@@ -30429,7 +31317,7 @@
                 "some": "chat_channel"
               },
               "algebraic_type": {
-                "Ref": 438
+                "Ref": 440
               }
             },
             {
@@ -30437,7 +31325,7 @@
                 "some": "permission"
               },
               "algebraic_type": {
-                "Ref": 439
+                "Ref": 441
               }
             },
             {
@@ -30445,7 +31333,7 @@
                 "some": "permission_group"
               },
               "algebraic_type": {
-                "Ref": 440
+                "Ref": 442
               }
             }
           ]
@@ -44433,6 +45321,52 @@
       }
     },
     {
+      "name": "staged_static_data_v6",
+      "product_type_ref": 428,
+      "primary_key": [
+        0
+      ],
+      "indexes": [
+        {
+          "name": {
+            "some": "staged_static_data_v6_version_idx_btree"
+          },
+          "accessor_name": {
+            "some": "version"
+          },
+          "algorithm": {
+            "BTree": [
+              0
+            ]
+          }
+        }
+      ],
+      "constraints": [
+        {
+          "name": {
+            "some": "staged_static_data_v6_version_key"
+          },
+          "data": {
+            "Unique": {
+              "columns": [
+                0
+              ]
+            }
+          }
+        }
+      ],
+      "sequences": [],
+      "schedule": {
+        "none": []
+      },
+      "table_type": {
+        "User": []
+      },
+      "table_access": {
+        "Private": []
+      }
+    },
+    {
       "name": "stamina_state",
       "product_type_ref": 282,
       "primary_key": [
@@ -44480,7 +45414,7 @@
     },
     {
       "name": "starving_player_state",
-      "product_type_ref": 428,
+      "product_type_ref": 430,
       "primary_key": [
         0
       ],
@@ -44526,7 +45460,7 @@
     },
     {
       "name": "storage_log_state",
-      "product_type_ref": 429,
+      "product_type_ref": 431,
       "primary_key": [
         0
       ],
@@ -44858,7 +45792,7 @@
     },
     {
       "name": "terraform_progress_state",
-      "product_type_ref": 433,
+      "product_type_ref": 435,
       "primary_key": [
         0
       ],
@@ -45009,7 +45943,7 @@
     },
     {
       "name": "the_great_placeholder_table",
-      "product_type_ref": 434,
+      "product_type_ref": 436,
       "primary_key": [
         0
       ],
@@ -45055,7 +45989,7 @@
     },
     {
       "name": "threat_state",
-      "product_type_ref": 441,
+      "product_type_ref": 443,
       "primary_key": [
         0
       ],
@@ -45658,7 +46592,7 @@
     },
     {
       "name": "unclaimed_shards_state",
-      "product_type_ref": 442,
+      "product_type_ref": 444,
       "primary_key": [
         0
       ],
@@ -45750,7 +46684,7 @@
     },
     {
       "name": "user_creation_timestamp_state",
-      "product_type_ref": 443,
+      "product_type_ref": 445,
       "primary_key": [
         0
       ],
@@ -45855,7 +46789,7 @@
     },
     {
       "name": "user_previous_region_state",
-      "product_type_ref": 445,
+      "product_type_ref": 447,
       "primary_key": [
         0
       ],
@@ -45901,7 +46835,7 @@
     },
     {
       "name": "user_region_state",
-      "product_type_ref": 446,
+      "product_type_ref": 448,
       "primary_key": [
         0
       ],
@@ -46077,7 +47011,7 @@
     },
     {
       "name": "visibility_state",
-      "product_type_ref": 447,
+      "product_type_ref": 449,
       "primary_key": [
         0
       ],
@@ -46169,7 +47103,7 @@
     },
     {
       "name": "waystone_state",
-      "product_type_ref": 448,
+      "product_type_ref": 450,
       "primary_key": [
         0
       ],
@@ -46320,7 +47254,7 @@
     },
     {
       "name": "wind_dbg_desc",
-      "product_type_ref": 449,
+      "product_type_ref": 451,
       "primary_key": [
         0
       ],
@@ -53162,7 +54096,7 @@
               "some": "request"
             },
             "algebraic_type": {
-              "Ref": 444
+              "Ref": 446
             }
           }
         ]
@@ -53180,7 +54114,7 @@
               "some": "request"
             },
             "algebraic_type": {
-              "Ref": 444
+              "Ref": 446
             }
           }
         ]
@@ -53216,7 +54150,7 @@
               "some": "request"
             },
             "algebraic_type": {
-              "Ref": 444
+              "Ref": 446
             }
           }
         ]
@@ -53256,7 +54190,7 @@
         "scope": [],
         "name": "ActionLogData"
       },
-      "ty": 431,
+      "ty": 433,
       "custom_ordering": true
     },
     {
@@ -53264,7 +54198,7 @@
         "scope": [],
         "name": "ActionLogDataSpaceAllocator"
       },
-      "ty": 432,
+      "ty": 434,
       "custom_ordering": true
     },
     {
@@ -53272,7 +54206,7 @@
         "scope": [],
         "name": "ActionLogState"
       },
-      "ty": 429,
+      "ty": 431,
       "custom_ordering": true
     },
     {
@@ -53280,7 +54214,7 @@
         "scope": [],
         "name": "ActionLogSubjectType"
       },
-      "ty": 430,
+      "ty": 432,
       "custom_ordering": true
     },
     {
@@ -53440,7 +54374,7 @@
         "scope": [],
         "name": "BuffCategory"
       },
-      "ty": 436,
+      "ty": 438,
       "custom_ordering": true
     },
     {
@@ -53648,7 +54582,7 @@
         "scope": [],
         "name": "ChatChannel"
       },
-      "ty": 438,
+      "ty": 440,
       "custom_ordering": true
     },
     {
@@ -55680,7 +56614,7 @@
         "scope": [],
         "name": "Permission"
       },
-      "ty": 439,
+      "ty": 441,
       "custom_ordering": true
     },
     {
@@ -55688,7 +56622,7 @@
         "scope": [],
         "name": "PermissionGroup"
       },
-      "ty": 440,
+      "ty": 442,
       "custom_ordering": true
     },
     {
@@ -56016,7 +56950,7 @@
         "scope": [],
         "name": "ProgressiveActionStatus"
       },
-      "ty": 437,
+      "ty": 439,
       "custom_ordering": true
     },
     {
@@ -56272,7 +57206,7 @@
         "scope": [],
         "name": "SkillType"
       },
-      "ty": 435,
+      "ty": 437,
       "custom_ordering": true
     },
     {
@@ -56326,6 +57260,14 @@
     {
       "name": {
         "scope": [],
+        "name": "StagedStaticDataV6"
+      },
+      "ty": 428,
+      "custom_ordering": true
+    },
+    {
+      "name": {
+        "scope": [],
         "name": "StaminaState"
       },
       "ty": 282,
@@ -56336,7 +57278,7 @@
         "scope": [],
         "name": "StarvingPlayerState"
       },
-      "ty": 428,
+      "ty": 430,
       "custom_ordering": true
     },
     {
@@ -56377,6 +57319,14 @@
         "name": "StaticDataUploadV5"
       },
       "ty": 427,
+      "custom_ordering": true
+    },
+    {
+      "name": {
+        "scope": [],
+        "name": "StaticDataUploadV6"
+      },
+      "ty": 429,
       "custom_ordering": true
     },
     {
@@ -56448,7 +57398,7 @@
         "scope": [],
         "name": "TerraformProgressState"
       },
-      "ty": 433,
+      "ty": 435,
       "custom_ordering": true
     },
     {
@@ -56480,7 +57430,7 @@
         "scope": [],
         "name": "TheGreatPlaceHolderTable"
       },
-      "ty": 434,
+      "ty": 436,
       "custom_ordering": true
     },
     {
@@ -56488,7 +57438,7 @@
         "scope": [],
         "name": "ThreatState"
       },
-      "ty": 441,
+      "ty": 443,
       "custom_ordering": true
     },
     {
@@ -56624,7 +57574,7 @@
         "scope": [],
         "name": "UnclaimedShardsState"
       },
-      "ty": 442,
+      "ty": 444,
       "custom_ordering": true
     },
     {
@@ -56648,7 +57598,7 @@
         "scope": [],
         "name": "UserCreationTimestampState"
       },
-      "ty": 443,
+      "ty": 445,
       "custom_ordering": true
     },
     {
@@ -56656,7 +57606,7 @@
         "scope": [],
         "name": "UserModerationCreateUserPolicyRequest"
       },
-      "ty": 444,
+      "ty": 446,
       "custom_ordering": true
     },
     {
@@ -56688,7 +57638,7 @@
         "scope": [],
         "name": "UserPreviousRegionState"
       },
-      "ty": 445,
+      "ty": 447,
       "custom_ordering": true
     },
     {
@@ -56696,7 +57646,7 @@
         "scope": [],
         "name": "UserRegionState"
       },
-      "ty": 446,
+      "ty": 448,
       "custom_ordering": true
     },
     {
@@ -56752,7 +57702,7 @@
         "scope": [],
         "name": "VisibilityState"
       },
-      "ty": 447,
+      "ty": 449,
       "custom_ordering": true
     },
     {
@@ -56776,7 +57726,7 @@
         "scope": [],
         "name": "WaystoneState"
       },
-      "ty": 448,
+      "ty": 450,
       "custom_ordering": true
     },
     {
@@ -56800,7 +57750,7 @@
         "scope": [],
         "name": "WindDbgDesc"
       },
-      "ty": 449,
+      "ty": 451,
       "custom_ordering": true
     },
     {
