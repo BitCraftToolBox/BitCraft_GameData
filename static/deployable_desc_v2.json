@@ -127,7 +127,7 @@
     "movement_type": "Water",
     "can_enter_portals": false,
     "can_auto_follow": false,
-    "affected_by_wind": 0.0,
+    "affected_by_wind": 1.0,
     "speed": [
       {
         "surface_type": "Ground",
@@ -166,8 +166,9 @@
     "model_address": "Vehicles/BoatRaft",
     "stats": [],
     "player_animations_in_deployable_slots": [
-      1002,
-      1002
+      1003,
+      1005,
+      1004
     ],
     "allow_driver_extract": true,
     "allow_passenger_extract": true,
@@ -192,7 +193,7 @@
     "movement_type": "Water",
     "can_enter_portals": false,
     "can_auto_follow": false,
-    "affected_by_wind": 0.0,
+    "affected_by_wind": 1.0,
     "speed": [
       {
         "surface_type": "Ground",
@@ -231,8 +232,10 @@
     "model_address": "Vehicles/Skiff",
     "stats": [],
     "player_animations_in_deployable_slots": [
+      1003,
       1002,
-      1002
+      1005,
+      1006
     ],
     "allow_driver_extract": true,
     "allow_passenger_extract": true,
@@ -321,7 +324,7 @@
     "movement_type": "Water",
     "can_enter_portals": false,
     "can_auto_follow": false,
-    "affected_by_wind": 0.0,
+    "affected_by_wind": 1.0,
     "speed": [
       {
         "surface_type": "Ground",
@@ -387,7 +390,7 @@
     "movement_type": "Water",
     "can_enter_portals": false,
     "can_auto_follow": false,
-    "affected_by_wind": 0.0,
+    "affected_by_wind": 1.0,
     "speed": [
       {
         "surface_type": "Ground",
@@ -620,7 +623,7 @@
     "movement_type": "Water",
     "can_enter_portals": false,
     "can_auto_follow": false,
-    "affected_by_wind": 0.0,
+    "affected_by_wind": 1.0,
     "speed": [
       {
         "surface_type": "Ground",
@@ -659,8 +662,77 @@
     "model_address": "Vehicles/Clipper",
     "stats": [],
     "player_animations_in_deployable_slots": [
+      1011,
+      1007,
+      1009,
+      1008
+    ],
+    "allow_driver_extract": true,
+    "allow_passenger_extract": true,
+    "show_for_secs_after_owner_logout": 0,
+    "allow_emote_while_driver": true,
+    "allow_emote_while_passenger": true,
+    "experience_per_progress": [
+      {
+        "skill_id": 21,
+        "quantity": 0.0
+      }
+    ],
+    "mounting_radius": 5.0
+  },
+  {
+    "id": 335616392,
+    "name": "Skiff (Whitewater)",
+    "deploy_from_collectible_id": 1837107818,
+    "deploy_time": 5.0,
+    "deployable_type": "Boat",
+    "pathfinding_id": 907789309,
+    "movement_type": "Water",
+    "can_enter_portals": false,
+    "can_auto_follow": false,
+    "affected_by_wind": 1.0,
+    "speed": [
+      {
+        "surface_type": "Ground",
+        "speed": 0.0
+      },
+      {
+        "surface_type": "Lake",
+        "speed": 20.0
+      },
+      {
+        "surface_type": "River",
+        "speed": 22.0
+      },
+      {
+        "surface_type": "Ocean",
+        "speed": 15.0
+      },
+      {
+        "surface_type": "OceanBiome",
+        "speed": 15.0
+      },
+      {
+        "surface_type": "Swamp",
+        "speed": 20.0
+      }
+    ],
+    "use_player_speed_modifier": false,
+    "placeable_on_land": false,
+    "placeable_in_water": true,
+    "capacity": 3,
+    "storage": 24,
+    "stockpile": 4,
+    "barter": 0,
+    "item_slot_size": 6000,
+    "cargo_slot_size": 150000,
+    "model_address": "Vehicles/Skiff",
+    "stats": [],
+    "player_animations_in_deployable_slots": [
+      1003,
       1002,
-      1002
+      1005,
+      1006
     ],
     "allow_driver_extract": true,
     "allow_passenger_extract": true,
@@ -857,6 +929,77 @@
     "mounting_radius": 3.0
   },
   {
+    "id": 976217825,
+    "name": "Raft (Fishing)",
+    "deploy_from_collectible_id": 757232266,
+    "deploy_time": 5.0,
+    "deployable_type": "Boat",
+    "pathfinding_id": 1109261591,
+    "movement_type": "Water",
+    "can_enter_portals": false,
+    "can_auto_follow": false,
+    "affected_by_wind": 1.0,
+    "speed": [
+      {
+        "surface_type": "Ground",
+        "speed": 0.0
+      },
+      {
+        "surface_type": "Lake",
+        "speed": 14.0
+      },
+      {
+        "surface_type": "River",
+        "speed": 14.0
+      },
+      {
+        "surface_type": "Ocean",
+        "speed": 10.0
+      },
+      {
+        "surface_type": "OceanBiome",
+        "speed": 10.0
+      },
+      {
+        "surface_type": "Swamp",
+        "speed": 14.0
+      }
+    ],
+    "use_player_speed_modifier": false,
+    "placeable_on_land": false,
+    "placeable_in_water": true,
+    "capacity": 2,
+    "storage": 6,
+    "stockpile": 4,
+    "barter": 0,
+    "item_slot_size": 6000,
+    "cargo_slot_size": 60000,
+    "model_address": "Vehicles/BoatRaft",
+    "stats": [
+      {
+        "id": "FishingSpeed",
+        "value": 0.05,
+        "is_pct": true
+      }
+    ],
+    "player_animations_in_deployable_slots": [
+      1002,
+      1002
+    ],
+    "allow_driver_extract": true,
+    "allow_passenger_extract": true,
+    "show_for_secs_after_owner_logout": 0,
+    "allow_emote_while_driver": false,
+    "allow_emote_while_passenger": false,
+    "experience_per_progress": [
+      {
+        "skill_id": 21,
+        "quantity": 0.0
+      }
+    ],
+    "mounting_radius": 3.0
+  },
+  {
     "id": 1026286338,
     "name": "Personal Cache",
     "deploy_from_collectible_id": 790337329,
@@ -978,6 +1121,70 @@
     "mounting_radius": 3.0
   },
   {
+    "id": 1243654752,
+    "name": "Raft (Cargo)",
+    "deploy_from_collectible_id": 2098202704,
+    "deploy_time": 5.0,
+    "deployable_type": "Boat",
+    "pathfinding_id": 1109261591,
+    "movement_type": "Water",
+    "can_enter_portals": false,
+    "can_auto_follow": false,
+    "affected_by_wind": 1.0,
+    "speed": [
+      {
+        "surface_type": "Ground",
+        "speed": 0.0
+      },
+      {
+        "surface_type": "Lake",
+        "speed": 13.0
+      },
+      {
+        "surface_type": "River",
+        "speed": 13.0
+      },
+      {
+        "surface_type": "Ocean",
+        "speed": 10.0
+      },
+      {
+        "surface_type": "OceanBiome",
+        "speed": 10.0
+      },
+      {
+        "surface_type": "Swamp",
+        "speed": 13.0
+      }
+    ],
+    "use_player_speed_modifier": false,
+    "placeable_on_land": false,
+    "placeable_in_water": true,
+    "capacity": 1,
+    "storage": 12,
+    "stockpile": 8,
+    "barter": 0,
+    "item_slot_size": 6000,
+    "cargo_slot_size": 60000,
+    "model_address": "Vehicles/BoatRaft",
+    "stats": [],
+    "player_animations_in_deployable_slots": [
+      1002
+    ],
+    "allow_driver_extract": true,
+    "allow_passenger_extract": true,
+    "show_for_secs_after_owner_logout": 0,
+    "allow_emote_while_driver": false,
+    "allow_emote_while_passenger": false,
+    "experience_per_progress": [
+      {
+        "skill_id": 21,
+        "quantity": 0.0
+      }
+    ],
+    "mounting_radius": 3.0
+  },
+  {
     "id": 1338380321,
     "name": "Rideable Bird",
     "deploy_from_collectible_id": 1163358546,
@@ -1051,7 +1258,7 @@
     "movement_type": "Water",
     "can_enter_portals": false,
     "can_auto_follow": false,
-    "affected_by_wind": 0.0,
+    "affected_by_wind": 1.0,
     "speed": [
       {
         "surface_type": "Ground",
@@ -1090,8 +1297,85 @@
     "model_address": "Vehicles/CargoShip",
     "stats": [],
     "player_animations_in_deployable_slots": [
+      1010,
+      1007,
+      1014,
+      1008,
+      1009,
+      1013
+    ],
+    "allow_driver_extract": true,
+    "allow_passenger_extract": true,
+    "show_for_secs_after_owner_logout": 0,
+    "allow_emote_while_driver": true,
+    "allow_emote_while_passenger": true,
+    "experience_per_progress": [
+      {
+        "skill_id": 21,
+        "quantity": 0.0
+      }
+    ],
+    "mounting_radius": 5.0
+  },
+  {
+    "id": 1430249957,
+    "name": "Skiff (Fishing)",
+    "deploy_from_collectible_id": 320414617,
+    "deploy_time": 5.0,
+    "deployable_type": "Boat",
+    "pathfinding_id": 865980458,
+    "movement_type": "Water",
+    "can_enter_portals": false,
+    "can_auto_follow": false,
+    "affected_by_wind": 1.0,
+    "speed": [
+      {
+        "surface_type": "Ground",
+        "speed": 0.0
+      },
+      {
+        "surface_type": "Lake",
+        "speed": 20.0
+      },
+      {
+        "surface_type": "River",
+        "speed": 20.0
+      },
+      {
+        "surface_type": "Ocean",
+        "speed": 16.0
+      },
+      {
+        "surface_type": "OceanBiome",
+        "speed": 16.0
+      },
+      {
+        "surface_type": "Swamp",
+        "speed": 20.0
+      }
+    ],
+    "use_player_speed_modifier": false,
+    "placeable_on_land": false,
+    "placeable_in_water": true,
+    "capacity": 3,
+    "storage": 12,
+    "stockpile": 10,
+    "barter": 0,
+    "item_slot_size": 6000,
+    "cargo_slot_size": 60000,
+    "model_address": "Vehicles/Skiff",
+    "stats": [
+      {
+        "id": "FishingSpeed",
+        "value": 0.065,
+        "is_pct": true
+      }
+    ],
+    "player_animations_in_deployable_slots": [
+      1003,
       1002,
-      1002
+      1005,
+      1006
     ],
     "allow_driver_extract": true,
     "allow_passenger_extract": true,
@@ -1280,6 +1564,73 @@
     "allow_emote_while_passenger": false,
     "experience_per_progress": [],
     "mounting_radius": 3.0
+  },
+  {
+    "id": 1855409370,
+    "name": "Skiff (Cargo)",
+    "deploy_from_collectible_id": 1649953465,
+    "deploy_time": 5.0,
+    "deployable_type": "Boat",
+    "pathfinding_id": 865980458,
+    "movement_type": "Water",
+    "can_enter_portals": false,
+    "can_auto_follow": false,
+    "affected_by_wind": 1.0,
+    "speed": [
+      {
+        "surface_type": "Ground",
+        "speed": 0.0
+      },
+      {
+        "surface_type": "Lake",
+        "speed": 20.0
+      },
+      {
+        "surface_type": "River",
+        "speed": 20.0
+      },
+      {
+        "surface_type": "Ocean",
+        "speed": 14.0
+      },
+      {
+        "surface_type": "OceanBiome",
+        "speed": 14.0
+      },
+      {
+        "surface_type": "Swamp",
+        "speed": 20.0
+      }
+    ],
+    "use_player_speed_modifier": false,
+    "placeable_on_land": false,
+    "placeable_in_water": true,
+    "capacity": 2,
+    "storage": 24,
+    "stockpile": 8,
+    "barter": 0,
+    "item_slot_size": 6000,
+    "cargo_slot_size": 150000,
+    "model_address": "Vehicles/Skiff",
+    "stats": [],
+    "player_animations_in_deployable_slots": [
+      1003,
+      1002,
+      1005,
+      1006
+    ],
+    "allow_driver_extract": true,
+    "allow_passenger_extract": true,
+    "show_for_secs_after_owner_logout": 0,
+    "allow_emote_while_driver": true,
+    "allow_emote_while_passenger": true,
+    "experience_per_progress": [
+      {
+        "skill_id": 21,
+        "quantity": 0.0
+      }
+    ],
+    "mounting_radius": 5.0
   },
   {
     "id": 2045051661,

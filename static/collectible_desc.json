@@ -468,11 +468,11 @@
   {
     "id": 130,
     "name": "Raft",
-    "description": "A raft that could be used to slowly traverse water and carry cargo",
+    "description": "A small raft that could be used to traverse water",
     "collectible_type": "Deployable",
     "invalidates_type": "Default",
     "auto_collect": false,
-    "collectible_rarity": "Default",
+    "collectible_rarity": "Common",
     "starting_loadout": false,
     "locked": false,
     "variant": 0,
@@ -497,7 +497,7 @@
     "collectible_type": "Deployable",
     "invalidates_type": "Default",
     "auto_collect": false,
-    "collectible_rarity": "Default",
+    "collectible_rarity": "Common",
     "starting_loadout": false,
     "locked": false,
     "variant": 0,
@@ -16643,6 +16643,31 @@
     "required_knowledges_to_convert": []
   },
   {
+    "id": 320414617,
+    "name": "Skiff (Fishing)",
+    "description": "A small boat suitable for navigating rivers and lakes and capable of sailing in the ocean. Improved to make fishing from it more efficient.",
+    "collectible_type": "Deployable",
+    "invalidates_type": "Default",
+    "auto_collect": false,
+    "collectible_rarity": "Uncommon",
+    "starting_loadout": false,
+    "locked": false,
+    "variant": 0,
+    "color": "",
+    "emission": "",
+    "max_equip_count": 100,
+    "model_asset_name": "",
+    "variant_material": "",
+    "icon_asset_name": "GeneratedIcons/Other/Vehicles/Skiff",
+    "tag": "",
+    "display_string": "",
+    "item_deed_id": 1169587052,
+    "required_knowledges_to_use": [
+      463829733
+    ],
+    "required_knowledges_to_convert": []
+  },
+  {
     "id": 322199522,
     "name": "Magnificient Woven Shirt (Epic)",
     "description": "",
@@ -23872,6 +23897,31 @@
     "display_string": "",
     "item_deed_id": 345850142,
     "required_knowledges_to_use": [],
+    "required_knowledges_to_convert": []
+  },
+  {
+    "id": 757232266,
+    "name": "Raft (Fishing)",
+    "description": "A small raft optimized for efficient fishing.",
+    "collectible_type": "Deployable",
+    "invalidates_type": "Default",
+    "auto_collect": false,
+    "collectible_rarity": "Uncommon",
+    "starting_loadout": false,
+    "locked": false,
+    "variant": 0,
+    "color": "",
+    "emission": "",
+    "max_equip_count": 100,
+    "model_asset_name": "",
+    "variant_material": "",
+    "icon_asset_name": "GeneratedIcons/Other/Vehicles/Raft",
+    "tag": "",
+    "display_string": "",
+    "item_deed_id": 1828502501,
+    "required_knowledges_to_use": [
+      147699549
+    ],
     "required_knowledges_to_convert": []
   },
   {
@@ -38611,6 +38661,31 @@
     "required_knowledges_to_convert": []
   },
   {
+    "id": 1649953465,
+    "name": "Skiff (Cargo)",
+    "description": "A small boat suitable for navigating rivers and lakes and capable of sailing in the ocean. Improved to be able to hold extra cargo.",
+    "collectible_type": "Deployable",
+    "invalidates_type": "Default",
+    "auto_collect": false,
+    "collectible_rarity": "Uncommon",
+    "starting_loadout": false,
+    "locked": false,
+    "variant": 0,
+    "color": "",
+    "emission": "",
+    "max_equip_count": 100,
+    "model_asset_name": "",
+    "variant_material": "",
+    "icon_asset_name": "GeneratedIcons/Other/Vehicles/Skiff",
+    "tag": "",
+    "display_string": "",
+    "item_deed_id": 28534476,
+    "required_knowledges_to_use": [
+      463829733
+    ],
+    "required_knowledges_to_convert": []
+  },
+  {
     "id": 1651137036,
     "name": "Magnificient Woven Shoes (Rare)",
     "description": "",
@@ -41092,6 +41167,31 @@
     "display_string": "",
     "item_deed_id": 958309821,
     "required_knowledges_to_use": [],
+    "required_knowledges_to_convert": []
+  },
+  {
+    "id": 1837107818,
+    "name": "Skiff (Whitewater)",
+    "description": "A small boat suitable for navigating rivers and lakes and capable of sailing in the ocean. Especially good at traversing larger rapids and small waterfalls.",
+    "collectible_type": "Deployable",
+    "invalidates_type": "Default",
+    "auto_collect": false,
+    "collectible_rarity": "Uncommon",
+    "starting_loadout": false,
+    "locked": false,
+    "variant": 0,
+    "color": "",
+    "emission": "",
+    "max_equip_count": 100,
+    "model_asset_name": "",
+    "variant_material": "",
+    "icon_asset_name": "GeneratedIcons/Other/Vehicles/Skiff",
+    "tag": "",
+    "display_string": "",
+    "item_deed_id": 475897011,
+    "required_knowledges_to_use": [
+      463829733
+    ],
     "required_knowledges_to_convert": []
   },
   {
@@ -45117,6 +45217,31 @@
     "display_string": "",
     "item_deed_id": 676146584,
     "required_knowledges_to_use": [],
+    "required_knowledges_to_convert": []
+  },
+  {
+    "id": 2098202704,
+    "name": "Raft (Cargo)",
+    "description": "A small raft optimized for hauling extra cargo.",
+    "collectible_type": "Deployable",
+    "invalidates_type": "Default",
+    "auto_collect": false,
+    "collectible_rarity": "Uncommon",
+    "starting_loadout": false,
+    "locked": false,
+    "variant": 0,
+    "color": "",
+    "emission": "",
+    "max_equip_count": 100,
+    "model_asset_name": "",
+    "variant_material": "",
+    "icon_asset_name": "GeneratedIcons/Other/Vehicles/Raft",
+    "tag": "",
+    "display_string": "",
+    "item_deed_id": 180193837,
+    "required_knowledges_to_use": [
+      147699549
+    ],
     "required_knowledges_to_convert": []
   },
   {

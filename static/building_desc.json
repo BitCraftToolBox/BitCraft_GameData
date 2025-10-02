@@ -85312,6 +85312,85 @@
     "not_deconstructible": false
   },
   {
+    "id": 1827567161,
+    "functions": [
+      {
+        "function_type": 1837107818,
+        "level": 1,
+        "crafting_slots": 12,
+        "storage_slots": 0,
+        "cargo_slots": 0,
+        "refining_slots": 0,
+        "refining_cargo_slots": 0,
+        "item_slot_size": 6000,
+        "cargo_slot_size": 6000,
+        "trade_orders": 0,
+        "allowed_item_id_per_slot": [],
+        "buff_ids": [],
+        "concurrent_crafts_per_player": 1,
+        "terraform": false,
+        "housing_slots": 0,
+        "housing_income": 0
+      }
+    ],
+    "name": "Sailing Station",
+    "description": "A sailing workstation where you could process wreckage found in the ocean.",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/SailingWorkbench",
+    "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Other/Buildings/Crafting/AncientCarpentryWorkstation",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      {
+        "x": 1,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 0,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 1,
+        "z": 1,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": -2,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": -1,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 0,
+        "z": 2,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 0,
+        "z": 1,
+        "footprint_type": "Hitbox"
+      }
+    ],
+    "max_health": 120,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 1.0,
+    "maintenance": 0.0,
+    "build_permission": "Claim",
+    "interact_permission": "All",
+    "has_action": true,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false
+  },
+  {
     "id": 1828664180,
     "functions": [
       {

@@ -372,6 +372,28 @@
     ]
   },
   {
+    "id": 907789309,
+    "can_walk_on_land": false,
+    "can_swim": true,
+    "requires_transitions": false,
+    "min_water_depth": 1,
+    "max_water_depth": 2147483647,
+    "max_swim_height_delta": 5,
+    "avoid_light": false,
+    "climb_up_options": [
+      {
+        "max_elevation_difference": 8,
+        "move_type": "Walk"
+      }
+    ],
+    "climb_down_options": [
+      {
+        "max_elevation_difference": -8,
+        "move_type": "Walk"
+      }
+    ]
+  },
+  {
     "id": 959834809,
     "can_walk_on_land": true,
     "can_swim": false,
