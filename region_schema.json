@@ -30013,7 +30013,7 @@
             },
             {
               "name": {
-                "some": "coins"
+                "some": "max_unit_price"
               },
               "algebraic_type": {
                 "I32": []
@@ -30033,6 +30033,14 @@
               },
               "algebraic_type": {
                 "Bool": []
+              }
+            },
+            {
+              "name": {
+                "some": "coins_spent"
+              },
+              "algebraic_type": {
+                "I32": []
               }
             }
           ]
