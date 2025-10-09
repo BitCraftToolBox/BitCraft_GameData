@@ -14221,6 +14221,61 @@
     "recipe_performance_id": 641
   },
   {
+    "id": 598780160,
+    "resource_id": 623041128,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "time_requirement": 1.6,
+    "stamina_requirement": 0.89,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [
+      {
+        "item_stack": {
+          "item_id": 775487509,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        },
+        "probability": 0.04202
+      },
+      {
+        "item_stack": {
+          "item_id": 2011385818,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        },
+        "probability": 1.2E-05
+      }
+    ],
+    "consumed_item_stacks": [],
+    "range": 1,
+    "tool_requirements": [
+      {
+        "tool_type": 12,
+        "level": 2,
+        "power": 1
+      }
+    ],
+    "allow_use_hands": false,
+    "level_requirements": [
+      {
+        "skill_id": 14,
+        "level": 20
+      }
+    ],
+    "experience_per_progress": [
+      {
+        "skill_id": 14,
+        "quantity": 1.375
+      }
+    ],
+    "verb_phrase": "Gather",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 632
+  },
+  {
     "id": 609137392,
     "resource_id": 1673056013,
     "cargo_id": 0,
@@ -18945,6 +19000,61 @@
     "verb_phrase": "Fish",
     "tool_mesh_index": 0,
     "recipe_performance_id": 143
+  },
+  {
+    "id": 1961283044,
+    "resource_id": 1551712725,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "time_requirement": 1.6,
+    "stamina_requirement": 0.89,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [
+      {
+        "item_stack": {
+          "item_id": 1135740828,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        },
+        "probability": 0.04202
+      },
+      {
+        "item_stack": {
+          "item_id": 371378688,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        },
+        "probability": 1.2E-05
+      }
+    ],
+    "consumed_item_stacks": [],
+    "range": 1,
+    "tool_requirements": [
+      {
+        "tool_type": 12,
+        "level": 2,
+        "power": 1
+      }
+    ],
+    "allow_use_hands": false,
+    "level_requirements": [
+      {
+        "skill_id": 14,
+        "level": 20
+      }
+    ],
+    "experience_per_progress": [
+      {
+        "skill_id": 14,
+        "quantity": 1.375
+      }
+    ],
+    "verb_phrase": "Gather",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 632
   },
   {
     "id": 1964372810,
