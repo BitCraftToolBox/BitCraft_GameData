@@ -3242,6 +3242,50 @@
     "hide_with_blocking_knowledges": true
   },
   {
+    "id": 1219213151,
+    "starting_stock": 2147483647,
+    "always_offered": true,
+    "traveler": "Tamer",
+    "offer_items": [
+      {
+        "item_id": 393519126,
+        "quantity": 1,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "offer_cargo_id": [],
+    "required_items": [
+      {
+        "item_id": 1,
+        "quantity": 5000,
+        "item_type": "Item",
+        "durability": 0
+      },
+      {
+        "item_id": 1489899037,
+        "quantity": 1,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "required_cargo_id": [],
+    "level_requirements": [
+      {
+        "skill_id": 17,
+        "level": 40
+      }
+    ],
+    "achievement_requirements": [],
+    "hide_if_requirements_are_not_met": false,
+    "required_knowledges": [
+      1507195120
+    ],
+    "hide_without_required_knowledge": true,
+    "blocking_knowledges": [],
+    "hide_with_blocking_knowledges": false
+  },
+  {
     "id": 1219324222,
     "starting_stock": 2147483647,
     "always_offered": true,
@@ -5480,6 +5524,44 @@
     "hide_without_required_knowledge": false,
     "blocking_knowledges": [],
     "hide_with_blocking_knowledges": false
+  },
+  {
+    "id": 2142371808,
+    "starting_stock": 2147483647,
+    "always_offered": true,
+    "traveler": "Brico",
+    "offer_items": [
+      {
+        "item_id": 1366372118,
+        "quantity": 1,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "offer_cargo_id": [],
+    "required_items": [
+      {
+        "item_id": 1,
+        "quantity": 42500,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "required_cargo_id": [],
+    "level_requirements": [
+      {
+        "skill_id": 15,
+        "level": 60
+      }
+    ],
+    "achievement_requirements": [],
+    "hide_if_requirements_are_not_met": false,
+    "required_knowledges": [],
+    "hide_without_required_knowledge": false,
+    "blocking_knowledges": [
+      71098307
+    ],
+    "hide_with_blocking_knowledges": true
   },
   {
     "id": 2142815126,

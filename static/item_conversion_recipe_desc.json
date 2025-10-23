@@ -43316,6 +43316,32 @@
     "recipe_performance_id": 1
   },
   {
+    "id": 1396291283,
+    "name": "Resolve Item 1396291283",
+    "time_cost": 1,
+    "stamina_cost": 0,
+    "location_context": 0,
+    "string_context": "Collect",
+    "output_item": {
+      "item_id": 1396291283,
+      "quantity": 1,
+      "item_type": "Item",
+      "durability": null
+    },
+    "input_items": [
+      {
+        "item_id": 1396291283,
+        "quantity": 1,
+        "item_type": "Item",
+        "durability": null
+      }
+    ],
+    "required_equipment_id": 0,
+    "required_equipment_tier": 0,
+    "allow_use_hands": true,
+    "recipe_performance_id": 1
+  },
+  {
     "id": 1396694409,
     "name": "Resolve Item 1396694409",
     "time_cost": 1,
@@ -59434,6 +59460,32 @@
     "required_equipment_tier": 0,
     "allow_use_hands": true,
     "recipe_performance_id": 1
+  },
+  {
+    "id": 1977837508,
+    "name": "Open Qitt",
+    "time_cost": 2,
+    "stamina_cost": 1,
+    "location_context": 0,
+    "string_context": "Open",
+    "output_item": {
+      "item_id": 1396291283,
+      "quantity": 1,
+      "item_type": "Item",
+      "durability": 0
+    },
+    "input_items": [
+      {
+        "item_id": 393519126,
+        "quantity": 1,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "required_equipment_id": 0,
+    "required_equipment_tier": 0,
+    "allow_use_hands": true,
+    "recipe_performance_id": 859
   },
   {
     "id": 1977839337,
