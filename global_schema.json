@@ -57293,6 +57293,32 @@
       }
     },
     {
+      "name": "admin_set_shards",
+      "params": {
+        "elements": [
+          {
+            "name": {
+              "some": "identity"
+            },
+            "algebraic_type": {
+              "String": []
+            }
+          },
+          {
+            "name": {
+              "some": "amount"
+            },
+            "algebraic_type": {
+              "I32": []
+            }
+          }
+        ]
+      },
+      "lifecycle": {
+        "none": []
+      }
+    },
+    {
       "name": "admin_sign_out_all",
       "params": {
         "elements": [
