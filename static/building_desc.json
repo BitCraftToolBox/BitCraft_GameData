@@ -53565,6 +53565,55 @@
     "not_deconstructible": false
   },
   {
+    "id": 406404931,
+    "functions": [
+      {
+        "function_type": 1002,
+        "level": 7,
+        "crafting_slots": 0,
+        "storage_slots": 0,
+        "cargo_slots": 0,
+        "refining_slots": 0,
+        "refining_cargo_slots": 0,
+        "item_slot_size": 6000,
+        "cargo_slot_size": 6000,
+        "trade_orders": 0,
+        "allowed_item_id_per_slot": [],
+        "buff_ids": [],
+        "concurrent_crafts_per_player": 0,
+        "terraform": false,
+        "housing_slots": 0,
+        "housing_income": 0
+      }
+    ],
+    "name": "Araknir Web Pile",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/Furniture_webdecoration1",
+    "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Other/Buildings/Furniture_webdecoration1",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      {
+        "x": 0,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      }
+    ],
+    "max_health": 72,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 1.0,
+    "maintenance": 0.0,
+    "build_permission": "Claim",
+    "interact_permission": "Claim",
+    "has_action": true,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false
+  },
+  {
     "id": 406864045,
     "functions": [
       {
@@ -69416,6 +69465,220 @@
     "not_deconstructible": false
   },
   {
+    "id": 1084069097,
+    "functions": [
+      {
+        "function_type": 999,
+        "level": 7,
+        "crafting_slots": 0,
+        "storage_slots": 0,
+        "cargo_slots": 0,
+        "refining_slots": 0,
+        "refining_cargo_slots": 0,
+        "item_slot_size": 6000,
+        "cargo_slot_size": 6000,
+        "trade_orders": 0,
+        "allowed_item_id_per_slot": [],
+        "buff_ids": [],
+        "concurrent_crafts_per_player": 0,
+        "terraform": false,
+        "housing_slots": 0,
+        "housing_income": 0
+      }
+    ],
+    "name": "Araknir Dungeon",
+    "description": "Ancient Ruins",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/SpiderDungeon",
+    "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Other/Buildings/Enterable/Cave",
+    "unenterable": false,
+    "wilderness": true,
+    "footprint": [
+      {
+        "x": -1,
+        "z": 1,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": -2,
+        "z": 2,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": -3,
+        "z": 2,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": -3,
+        "z": 1,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": -2,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": -1,
+        "z": -1,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 0,
+        "z": -2,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 2,
+        "z": -2,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 1,
+        "z": -2,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 2,
+        "z": -1,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 2,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 1,
+        "z": 2,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 0,
+        "z": 3,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": -1,
+        "z": 3,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": -1,
+        "z": 2,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 0,
+        "z": 0,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": 1,
+        "z": 1,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 0,
+        "z": 2,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 0,
+        "z": 1,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 1,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 1,
+        "z": -1,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 0,
+        "z": -1,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": -1,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": -2,
+        "z": 1,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 2,
+        "z": 1,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": -3,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": -2,
+        "z": -1,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": -1,
+        "z": -2,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 1,
+        "z": -3,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 3,
+        "z": -4,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 3,
+        "z": -3,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 3,
+        "z": -2,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 3,
+        "z": -1,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 2,
+        "z": -3,
+        "footprint_type": "Hitbox"
+      }
+    ],
+    "max_health": -1,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 0.0,
+    "maintenance": 0.0,
+    "build_permission": "Claim",
+    "interact_permission": "Claim",
+    "has_action": true,
+    "show_in_compendium": false,
+    "is_ruins": false,
+    "not_deconstructible": true
+  },
+  {
     "id": 1097379917,
     "functions": [],
     "name": "RuinDecorBridge4Tile",
@@ -74946,6 +75209,55 @@
     "interact_permission": "None",
     "has_action": false,
     "show_in_compendium": false,
+    "is_ruins": false,
+    "not_deconstructible": false
+  },
+  {
+    "id": 1459959112,
+    "functions": [
+      {
+        "function_type": 1002,
+        "level": 7,
+        "crafting_slots": 0,
+        "storage_slots": 0,
+        "cargo_slots": 0,
+        "refining_slots": 0,
+        "refining_cargo_slots": 0,
+        "item_slot_size": 6000,
+        "cargo_slot_size": 6000,
+        "trade_orders": 0,
+        "allowed_item_id_per_slot": [],
+        "buff_ids": [],
+        "concurrent_crafts_per_player": 0,
+        "terraform": false,
+        "housing_slots": 0,
+        "housing_income": 0
+      }
+    ],
+    "name": "Araknir Tall Web Pile",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/Furniture_webdecoration3",
+    "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Other/Buildings/Furniture_webdecoration3",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      {
+        "x": 0,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      }
+    ],
+    "max_health": 72,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 1.0,
+    "maintenance": 0.0,
+    "build_permission": "Claim",
+    "interact_permission": "Claim",
+    "has_action": true,
+    "show_in_compendium": true,
     "is_ruins": false,
     "not_deconstructible": false
   },
@@ -81318,6 +81630,55 @@
     "not_deconstructible": false
   },
   {
+    "id": 1674743346,
+    "functions": [
+      {
+        "function_type": 1002,
+        "level": 7,
+        "crafting_slots": 0,
+        "storage_slots": 0,
+        "cargo_slots": 0,
+        "refining_slots": 0,
+        "refining_cargo_slots": 0,
+        "item_slot_size": 6000,
+        "cargo_slot_size": 6000,
+        "trade_orders": 0,
+        "allowed_item_id_per_slot": [],
+        "buff_ids": [],
+        "concurrent_crafts_per_player": 0,
+        "terraform": false,
+        "housing_slots": 0,
+        "housing_income": 0
+      }
+    ],
+    "name": "Araknir Corner Web",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/Furniture_webdecoration4",
+    "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Other/Buildings/Furniture_webdecoration4",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      {
+        "x": 0,
+        "z": 0,
+        "footprint_type": "Walkable"
+      }
+    ],
+    "max_health": 72,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 1.0,
+    "maintenance": 0.0,
+    "build_permission": "Claim",
+    "interact_permission": "Claim",
+    "has_action": true,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false
+  },
+  {
     "id": 1678055861,
     "functions": [],
     "name": "RuinDecorBackWallTreasurePlatform",
@@ -81569,6 +81930,55 @@
     "maintenance": 0.0,
     "build_permission": "None",
     "interact_permission": "None",
+    "has_action": true,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false
+  },
+  {
+    "id": 1694146752,
+    "functions": [
+      {
+        "function_type": 1002,
+        "level": 7,
+        "crafting_slots": 0,
+        "storage_slots": 0,
+        "cargo_slots": 0,
+        "refining_slots": 0,
+        "refining_cargo_slots": 0,
+        "item_slot_size": 6000,
+        "cargo_slot_size": 6000,
+        "trade_orders": 0,
+        "allowed_item_id_per_slot": [],
+        "buff_ids": [],
+        "concurrent_crafts_per_player": 0,
+        "terraform": false,
+        "housing_slots": 0,
+        "housing_income": 0
+      }
+    ],
+    "name": "Old Araknir Wall Web",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/Furniture_webdecoration2",
+    "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Other/Buildings/Furniture_webdecoration2",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      {
+        "x": 0,
+        "z": 0,
+        "footprint_type": "Walkable"
+      }
+    ],
+    "max_health": 72,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 1.0,
+    "maintenance": 0.0,
+    "build_permission": "Claim",
+    "interact_permission": "Claim",
     "has_action": true,
     "show_in_compendium": true,
     "is_ruins": false,

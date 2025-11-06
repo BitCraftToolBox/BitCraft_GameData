@@ -446,6 +446,49 @@
     "is_taunt_action": false
   },
   {
+    "name": "Web Throw",
+    "id": 341023858,
+    "learned_by_player": false,
+    "range": 30,
+    "max_range": 30.0,
+    "auto_cast": false,
+    "weapon_type_requirements": [],
+    "lead_in_time": 0.35,
+    "inaction_time": 0.85,
+    "can_move_during_lead_in": false,
+    "cooldown": 8.0,
+    "global_cooldown": 3.0,
+    "ignore_global_cooldown": false,
+    "strength_multiplier": 0.15,
+    "accuracy_multiplier": 1.0,
+    "stamina_use": 1.0,
+    "weapon_durability_lost": 0,
+    "self_buffs": [],
+    "target_buffs": [
+      {
+        "buff_id": 426909828,
+        "duration": null
+      }
+    ],
+    "level_requirement": {
+      "skill_id": 8,
+      "level": 1
+    },
+    "icon_asset_name": "\\uFFB9",
+    "player_animation_id": -1,
+    "npc_animation_name": "ATTACK_SWORDS_START",
+    "hit_vfx": "WebProjectile",
+    "projectile_speed": 25.0,
+    "projectile_vfx": "ThrownSwordProjectile",
+    "description": "The spider nest launches a web at a nearby enemy, slowing them.",
+    "self_threat_against_buildings": 0.0,
+    "self_threat_against_enemies": 5.0,
+    "base_threat": 0.0,
+    "threat_per_damage": 0.0,
+    "is_self_targeting": false,
+    "is_taunt_action": false
+  },
+  {
     "name": "Shortsword Strike",
     "id": 381642559,
     "learned_by_player": true,
@@ -1809,6 +1852,49 @@
     "is_taunt_action": false
   },
   {
+    "name": "Defenseless",
+    "id": 1996470085,
+    "learned_by_player": false,
+    "range": 1,
+    "max_range": 1.0,
+    "auto_cast": false,
+    "weapon_type_requirements": [],
+    "lead_in_time": 1.0,
+    "inaction_time": 0.0,
+    "can_move_during_lead_in": false,
+    "cooldown": 30.0,
+    "global_cooldown": 3.0,
+    "ignore_global_cooldown": false,
+    "strength_multiplier": 0.0,
+    "accuracy_multiplier": 0.0,
+    "stamina_use": 1.0,
+    "weapon_durability_lost": 0,
+    "self_buffs": [
+      {
+        "buff_id": 1887542232,
+        "duration": null
+      }
+    ],
+    "target_buffs": [],
+    "level_requirement": {
+      "skill_id": 8,
+      "level": 1
+    },
+    "icon_asset_name": "\\uFFB9",
+    "player_animation_id": -1,
+    "npc_animation_name": "",
+    "hit_vfx": "GenericWeaponHit",
+    "projectile_speed": -1.0,
+    "projectile_vfx": "",
+    "description": "The nest lowers it's defenses, providing a good window to damage it.",
+    "self_threat_against_buildings": 0.0,
+    "self_threat_against_enemies": 5.0,
+    "base_threat": 0.0,
+    "threat_per_damage": 0.0,
+    "is_self_targeting": true,
+    "is_taunt_action": false
+  },
+  {
     "name": "Debilitating Strike",
     "id": 2031641420,
     "learned_by_player": true,
@@ -1886,6 +1972,49 @@
     "description": "A simple claw attack from the giant crab",
     "self_threat_against_buildings": 0.0,
     "self_threat_against_enemies": -150000.0,
+    "base_threat": 0.0,
+    "threat_per_damage": 0.0,
+    "is_self_targeting": false,
+    "is_taunt_action": false
+  },
+  {
+    "name": "Poisonous Barbs",
+    "id": 2073432486,
+    "learned_by_player": false,
+    "range": 30,
+    "max_range": 30.0,
+    "auto_cast": false,
+    "weapon_type_requirements": [],
+    "lead_in_time": 0.35,
+    "inaction_time": 0.85,
+    "can_move_during_lead_in": false,
+    "cooldown": 15.0,
+    "global_cooldown": 3.0,
+    "ignore_global_cooldown": false,
+    "strength_multiplier": 0.15,
+    "accuracy_multiplier": 1.0,
+    "stamina_use": 1.0,
+    "weapon_durability_lost": 0,
+    "self_buffs": [],
+    "target_buffs": [
+      {
+        "buff_id": 1078784735,
+        "duration": null
+      }
+    ],
+    "level_requirement": {
+      "skill_id": 8,
+      "level": 1
+    },
+    "icon_asset_name": "\\uFFB9",
+    "player_animation_id": -1,
+    "npc_animation_name": "ATTACK_SWORDS_START",
+    "hit_vfx": "NeedleProjectile",
+    "projectile_speed": 25.0,
+    "projectile_vfx": "ThrownSwordProjectile",
+    "description": "The spider nest launches poisonous barbs in all directions, damaging players and disabling their health regeneration.",
+    "self_threat_against_buildings": 0.0,
+    "self_threat_against_enemies": 5.0,
     "base_threat": 0.0,
     "threat_per_damage": 0.0,
     "is_self_targeting": false,

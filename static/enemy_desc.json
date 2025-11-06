@@ -136,6 +136,57 @@
     "huntable": false
   },
   {
+    "enemy_type": 40,
+    "name": "Araknir Nest",
+    "pathfinding_id": 601358492,
+    "targeting_matrix_id": 2,
+    "combat_actions_ids": [
+      341023858,
+      2073432486,
+      1996470085
+    ],
+    "description": "A spider nest which is protected by the spiders in the cave.",
+    "min_speed": 0,
+    "max_speed": 0,
+    "radius": 2.0,
+    "awareness_destination_threshold": 0.5,
+    "min_awareness_tick_sec": 1.0,
+    "max_awareness_tick_sec": 5.0,
+    "max_health": 25000,
+    "ignore_damage": false,
+    "health_regen_quantity": 1000.0,
+    "armor": 50000,
+    "accuracy": 893,
+    "evasion": 456,
+    "strength": 100,
+    "min_damage": 0,
+    "max_damage": 1,
+    "cooldown_multiplier": 1.0,
+    "daytime_detect_range": 25,
+    "daytime_aggro_range": 10,
+    "daytime_deaggro_range": 50,
+    "nighttime_detect_range": 25,
+    "nighttime_aggro_range": 10,
+    "nighttime_deaggro_range": 50,
+    "evade_range": 0,
+    "deaggro_health_threshold": 0.0,
+    "attack_level": 5,
+    "defense_level": 5,
+    "prefab_address": "Enemies/SpiderNest",
+    "icon_address": "GeneratedIcons/Other/GeneratedIcons/Other/Animals/SpiderNest",
+    "extracted_item_stacks": [],
+    "experience_per_damage_dealt": [
+      {
+        "skill_id": 18,
+        "quantity": 2.5
+      }
+    ],
+    "tier": 1,
+    "tag": "Monster",
+    "rarity": "Common",
+    "huntable": false
+  },
+  {
     "enemy_type": 4,
     "name": "Ardea",
     "pathfinding_id": 1159321119,
@@ -1210,6 +1261,55 @@
     "huntable": true
   },
   {
+    "enemy_type": 38,
+    "name": "Massive Araknir",
+    "pathfinding_id": 769231106,
+    "targeting_matrix_id": 2,
+    "combat_actions_ids": [
+      3
+    ],
+    "description": "A massive Araknir",
+    "min_speed": 22,
+    "max_speed": 28,
+    "radius": 1.0,
+    "awareness_destination_threshold": 0.5,
+    "min_awareness_tick_sec": 1.0,
+    "max_awareness_tick_sec": 5.0,
+    "max_health": 4000,
+    "ignore_damage": false,
+    "health_regen_quantity": 1000.0,
+    "armor": 1900,
+    "accuracy": 980,
+    "evasion": 456,
+    "strength": 120,
+    "min_damage": 40,
+    "max_damage": 60,
+    "cooldown_multiplier": 1.0,
+    "daytime_detect_range": 10,
+    "daytime_aggro_range": 10,
+    "daytime_deaggro_range": 180,
+    "nighttime_detect_range": 10,
+    "nighttime_aggro_range": 10,
+    "nighttime_deaggro_range": 180,
+    "evade_range": 0,
+    "deaggro_health_threshold": 0.0,
+    "attack_level": 5,
+    "defense_level": 5,
+    "prefab_address": "Enemies/SpiderElite",
+    "icon_address": "GeneratedIcons/Other/GeneratedIcons/Other/Animals/SpiderElite",
+    "extracted_item_stacks": [],
+    "experience_per_damage_dealt": [
+      {
+        "skill_id": 18,
+        "quantity": 2.5
+      }
+    ],
+    "tier": 1,
+    "tag": "Monster",
+    "rarity": "Common",
+    "huntable": false
+  },
+  {
     "enemy_type": 5,
     "name": "Nubi Goat",
     "pathfinding_id": 959834809,
@@ -1613,6 +1713,55 @@
       {
         "skill_id": 18,
         "quantity": 1.66
+      }
+    ],
+    "tier": 1,
+    "tag": "Monster",
+    "rarity": "Common",
+    "huntable": false
+  },
+  {
+    "enemy_type": 39,
+    "name": "Small Araknir",
+    "pathfinding_id": 769231106,
+    "targeting_matrix_id": 2,
+    "combat_actions_ids": [
+      3
+    ],
+    "description": "A tiny Araknir",
+    "min_speed": 10,
+    "max_speed": 20,
+    "radius": 1.0,
+    "awareness_destination_threshold": 0.5,
+    "min_awareness_tick_sec": 1.0,
+    "max_awareness_tick_sec": 5.0,
+    "max_health": 500,
+    "ignore_damage": false,
+    "health_regen_quantity": 1000.0,
+    "armor": 1900,
+    "accuracy": 893,
+    "evasion": 456,
+    "strength": 120,
+    "min_damage": 20,
+    "max_damage": 30,
+    "cooldown_multiplier": 1.0,
+    "daytime_detect_range": 10,
+    "daytime_aggro_range": 10,
+    "daytime_deaggro_range": 50,
+    "nighttime_detect_range": 10,
+    "nighttime_aggro_range": 10,
+    "nighttime_deaggro_range": 50,
+    "evade_range": 0,
+    "deaggro_health_threshold": 0.0,
+    "attack_level": 5,
+    "defense_level": 5,
+    "prefab_address": "Enemies/SmallSpider",
+    "icon_address": "GeneratedIcons/Other/GeneratedIcons/Other/Animals/SpiderSmall",
+    "extracted_item_stacks": [],
+    "experience_per_damage_dealt": [
+      {
+        "skill_id": 18,
+        "quantity": 2.5
       }
     ],
     "tier": 1,
