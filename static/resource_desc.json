@@ -21356,6 +21356,40 @@
     "not_respawning": true
   },
   {
+    "id": 61557407,
+    "name": "Web Covered Chest",
+    "description": "A chest from the ancient times that the creatures in this cave have encased in web. Filled to the brim with hex coins and webs.",
+    "flattenable": false,
+    "max_health": 25,
+    "ignore_damage": false,
+    "despawn_time": 0.0,
+    "model_asset_name": "Resources/WebbedChest1",
+    "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Other/SpiderChest1",
+    "on_destroy_yield": [],
+    "on_destroy_yield_resource_id": 0,
+    "spawn_priority": 0,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          0,
+          []
+        ]
+      ]
+    ],
+    "tier": 7,
+    "tag": "Dungeon Resource",
+    "rarity": [
+      2,
+      {}
+    ],
+    "compendium_entry": false,
+    "enemy_params_id": [],
+    "scheduled_respawn_time": 0.0,
+    "not_respawning": false
+  },
+  {
     "id": 64125498,
     "name": "Umbracite Vein Interior",
     "description": "",
@@ -21617,6 +21651,42 @@
     ],
     "compendium_entry": true,
     "enemy_params_id": [],
+    "scheduled_respawn_time": 0.0,
+    "not_respawning": false
+  },
+  {
+    "id": 109403116,
+    "name": "Large Araknir Spawner",
+    "description": "",
+    "flattenable": false,
+    "max_health": 1,
+    "ignore_damage": false,
+    "despawn_time": 0.0,
+    "model_asset_name": "Resources/DepletedResource",
+    "icon_asset_name": "Resources/DepletedResource",
+    "on_destroy_yield": [],
+    "on_destroy_yield_resource_id": 0,
+    "spawn_priority": 1,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          3,
+          []
+        ]
+      ]
+    ],
+    "tier": -1,
+    "tag": "Enemy Spawner",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": false,
+    "enemy_params_id": [
+      1388047099
+    ],
     "scheduled_respawn_time": 0.0,
     "not_respawning": false
   },
@@ -24811,6 +24881,42 @@
     "not_respawning": false
   },
   {
+    "id": 545609744,
+    "name": "Araknir Eggs",
+    "description": "Eggs from the Araknir in the area that might contain some loot. Kind of gross but might be worth digging into.",
+    "flattenable": false,
+    "max_health": 250,
+    "ignore_damage": false,
+    "despawn_time": 0.0,
+    "model_asset_name": "Resources/SpiderEggs",
+    "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Other/SpiderEggs",
+    "on_destroy_yield": [],
+    "on_destroy_yield_resource_id": 0,
+    "spawn_priority": 0,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          0,
+          []
+        ]
+      ]
+    ],
+    "tier": 7,
+    "tag": "Dungeon Resource",
+    "rarity": [
+      2,
+      {}
+    ],
+    "compendium_entry": false,
+    "enemy_params_id": [
+      1733825303
+    ],
+    "scheduled_respawn_time": 0.0,
+    "not_respawning": false
+  },
+  {
     "id": 546753273,
     "name": "Ancient Coffer",
     "description": "A chest from the ancient times. Filled to the brim with hex coins and ancient metal fragments.",
@@ -24974,6 +25080,42 @@
     "compendium_entry": true,
     "enemy_params_id": [],
     "scheduled_respawn_time": 600.0,
+    "not_respawning": false
+  },
+  {
+    "id": 569033113,
+    "name": "Small Araknir Spawner",
+    "description": "",
+    "flattenable": false,
+    "max_health": 1,
+    "ignore_damage": false,
+    "despawn_time": 0.0,
+    "model_asset_name": "Resources/DepletedResource",
+    "icon_asset_name": "Resources/DepletedResource",
+    "on_destroy_yield": [],
+    "on_destroy_yield_resource_id": 0,
+    "spawn_priority": 1,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          3,
+          []
+        ]
+      ]
+    ],
+    "tier": -1,
+    "tag": "Enemy Spawner",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": false,
+    "enemy_params_id": [
+      1828502501
+    ],
+    "scheduled_respawn_time": 0.0,
     "not_respawning": false
   },
   {
@@ -30996,6 +31138,40 @@
     "enemy_params_id": [],
     "scheduled_respawn_time": 600.0,
     "not_respawning": true
+  },
+  {
+    "id": 1133243991,
+    "name": "Web Encased Chest",
+    "description": "A chest from the ancient times that the creatures in this cave have encased in web. Filled to the brim with hex coins and webs.",
+    "flattenable": false,
+    "max_health": 25,
+    "ignore_damage": false,
+    "despawn_time": 0.0,
+    "model_asset_name": "Resources/WebbedChest2",
+    "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Other/SpiderChest2",
+    "on_destroy_yield": [],
+    "on_destroy_yield_resource_id": 0,
+    "spawn_priority": 0,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          0,
+          []
+        ]
+      ]
+    ],
+    "tier": 7,
+    "tag": "Dungeon Resource",
+    "rarity": [
+      2,
+      {}
+    ],
+    "compendium_entry": false,
+    "enemy_params_id": [],
+    "scheduled_respawn_time": 0.0,
+    "not_respawning": false
   },
   {
     "id": 1141184831,
