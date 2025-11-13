@@ -489,11 +489,11 @@
     "requires_transitions": false,
     "min_water_depth": 1,
     "max_water_depth": 2147483647,
-    "max_swim_height_delta": 12,
+    "max_swim_height_delta": 18,
     "avoid_light": false,
     "climb_up_options": [
       [
-        12,
+        18,
         [
           2,
           []
@@ -502,7 +502,7 @@
     ],
     "climb_down_options": [
       [
-        -12,
+        -18,
         [
           2,
           []
@@ -824,8 +824,8 @@
     "can_swim": true,
     "requires_transitions": false,
     "min_water_depth": 0,
-    "max_water_depth": 2,
-    "max_swim_height_delta": 3,
+    "max_water_depth": 4,
+    "max_swim_height_delta": 4,
     "avoid_light": false,
     "climb_up_options": [
       [

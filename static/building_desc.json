@@ -35771,10 +35771,10 @@
         ]
       ]
     ],
-    "max_health": -1,
+    "max_health": 72,
     "ignore_damage": false,
     "defense_level": 10000,
-    "decay": 0.0,
+    "decay": 1.0,
     "maintenance": 0.0,
     "build_permission": [
       1,
@@ -36789,6 +36789,64 @@
     "not_deconstructible": false
   },
   {
+    "id": 62573355,
+    "functions": [
+      [
+        1002,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6000,
+        6000,
+        0,
+        [],
+        [],
+        0,
+        false,
+        0,
+        0
+      ]
+    ],
+    "name": "Modest Empire Banner",
+    "description": "A banner that would show off your empire's colors and emblem.",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/EmpireBannerBaseD",
+    "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Other/Buildings/EmpireBannerD",
+    "unenterable": true,
+    "wilderness": false,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          0,
+          []
+        ]
+      ]
+    ],
+    "max_health": -1,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 0.0,
+    "maintenance": 0.0,
+    "build_permission": [
+      1,
+      {}
+    ],
+    "interact_permission": [
+      1,
+      {}
+    ],
+    "has_action": false,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false
+  },
+  {
     "id": 66631978,
     "functions": [],
     "name": "RuinDecorSideColumn",
@@ -37144,6 +37202,64 @@
         ]
       ]
     ],
+    "max_health": 72,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 1.0,
+    "maintenance": 0.0,
+    "build_permission": [
+      1,
+      {}
+    ],
+    "interact_permission": [
+      1,
+      {}
+    ],
+    "has_action": true,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false
+  },
+  {
+    "id": 93658234,
+    "functions": [
+      [
+        1002,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6000,
+        6000,
+        0,
+        [],
+        [],
+        0,
+        false,
+        0,
+        0
+      ]
+    ],
+    "name": "Lavish Empire Banner",
+    "description": "A banner that would show off your empire's colors and emblem.",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/EmpireBannerBaseC",
+    "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Other/Buildings/EmpireBannerC",
+    "unenterable": true,
+    "wilderness": false,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          0,
+          []
+        ]
+      ]
+    ],
     "max_health": -1,
     "ignore_damage": false,
     "defense_level": 10000,
@@ -37157,7 +37273,7 @@
       1,
       {}
     ],
-    "has_action": true,
+    "has_action": false,
     "show_in_compendium": true,
     "is_ruins": false,
     "not_deconstructible": false
@@ -37332,10 +37448,10 @@
         ]
       ]
     ],
-    "max_health": -1,
+    "max_health": 72,
     "ignore_damage": false,
     "defense_level": 10000,
-    "decay": 0.0,
+    "decay": 1.0,
     "maintenance": 0.0,
     "build_permission": [
       1,
@@ -37582,7 +37698,7 @@
         ]
       ]
     ],
-    "max_health": 24,
+    "max_health": 72,
     "ignore_damage": false,
     "defense_level": 10000,
     "decay": 1.0,
@@ -37778,6 +37894,64 @@
     ],
     "interact_permission": [
       3,
+      {}
+    ],
+    "has_action": true,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false
+  },
+  {
+    "id": 149572108,
+    "functions": [
+      [
+        3,
+        8,
+        0,
+        66,
+        0,
+        0,
+        0,
+        60000,
+        600000,
+        0,
+        [],
+        [],
+        0,
+        false,
+        0,
+        0
+      ]
+    ],
+    "name": "Cozy Cottage Item Storage",
+    "description": "A cabinet for storing items, can only be built inside.",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/DecoCottage_Dresser",
+    "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Other/Buildings/DecoCottage_Dresser",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          0,
+          []
+        ]
+      ]
+    ],
+    "max_health": 72,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 1.0,
+    "maintenance": 0.0,
+    "build_permission": [
+      1,
+      {}
+    ],
+    "interact_permission": [
+      1,
       {}
     ],
     "has_action": true,
@@ -38066,10 +38240,68 @@
         ]
       ]
     ],
-    "max_health": -1,
+    "max_health": 72,
     "ignore_damage": false,
     "defense_level": 10000,
-    "decay": 0.0,
+    "decay": 1.0,
+    "maintenance": 0.0,
+    "build_permission": [
+      1,
+      {}
+    ],
+    "interact_permission": [
+      1,
+      {}
+    ],
+    "has_action": true,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false
+  },
+  {
+    "id": 167781550,
+    "functions": [
+      [
+        1002,
+        8,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6000,
+        6000,
+        0,
+        [],
+        [],
+        0,
+        false,
+        0,
+        0
+      ]
+    ],
+    "name": "Cozy Cottage Circular Table",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/DecoCottage_Table",
+    "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Other/Buildings/DecoCottage_Table",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          0,
+          []
+        ]
+      ]
+    ],
+    "max_health": 72,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 1.0,
     "maintenance": 0.0,
     "build_permission": [
       1,
@@ -38331,7 +38563,7 @@
         ]
       ]
     ],
-    "max_health": 24,
+    "max_health": 72,
     "ignore_damage": false,
     "defense_level": 10000,
     "decay": 1.0,
@@ -38405,10 +38637,100 @@
         ]
       ]
     ],
-    "max_health": -1,
+    "max_health": 72,
     "ignore_damage": false,
     "defense_level": 10000,
-    "decay": 0.0,
+    "decay": 1.0,
+    "maintenance": 0.0,
+    "build_permission": [
+      1,
+      {}
+    ],
+    "interact_permission": [
+      1,
+      {}
+    ],
+    "has_action": true,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false
+  },
+  {
+    "id": 183443207,
+    "functions": [
+      [
+        1002,
+        8,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6000,
+        6000,
+        0,
+        [],
+        [],
+        0,
+        false,
+        0,
+        0
+      ]
+    ],
+    "name": "Cozy Cottage Bed",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/DecoCottage_Bed",
+    "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Other/Buildings/DecoCottage_Bed",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        -1,
+        1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        0,
+        1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        1,
+        0,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        1,
+        -1,
+        [
+          0,
+          []
+        ]
+      ]
+    ],
+    "max_health": 72,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 1.0,
     "maintenance": 0.0,
     "build_permission": [
       1,
@@ -39236,7 +39558,7 @@
         ]
       ]
     ],
-    "max_health": 24,
+    "max_health": 72,
     "ignore_damage": false,
     "defense_level": 10000,
     "decay": 1.0,
@@ -60831,6 +61153,64 @@
     "not_deconstructible": true
   },
   {
+    "id": 216320776,
+    "functions": [
+      [
+        1002,
+        8,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6000,
+        6000,
+        0,
+        [],
+        [],
+        0,
+        false,
+        0,
+        0
+      ]
+    ],
+    "name": "Cozy Cottage Desk",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/DecoCottage_Desk",
+    "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Other/Buildings/DecoCottage_Desk",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          0,
+          []
+        ]
+      ]
+    ],
+    "max_health": 72,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 1.0,
+    "maintenance": 0.0,
+    "build_permission": [
+      1,
+      {}
+    ],
+    "interact_permission": [
+      1,
+      {}
+    ],
+    "has_action": true,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false
+  },
+  {
     "id": 216327785,
     "functions": [],
     "name": "RuinDecorMuralWallA5",
@@ -61257,10 +61637,10 @@
         ]
       ]
     ],
-    "max_health": -1,
+    "max_health": 72,
     "ignore_damage": false,
     "defense_level": 10000,
-    "decay": 0.0,
+    "decay": 1.0,
     "maintenance": 0.0,
     "build_permission": [
       1,
@@ -76820,10 +77200,10 @@
         ]
       ]
     ],
-    "max_health": -1,
+    "max_health": 72,
     "ignore_damage": false,
     "defense_level": 10000,
-    "decay": 0.0,
+    "decay": 1.0,
     "maintenance": 0.0,
     "build_permission": [
       1,
@@ -77489,10 +77869,10 @@
         ]
       ]
     ],
-    "max_health": -1,
+    "max_health": 72,
     "ignore_damage": false,
     "defense_level": 10000,
-    "decay": 0.0,
+    "decay": 1.0,
     "maintenance": 0.0,
     "build_permission": [
       1,
@@ -77619,7 +77999,7 @@
         ]
       ]
     ],
-    "max_health": 24,
+    "max_health": 72,
     "ignore_damage": false,
     "defense_level": 10000,
     "decay": 1.0,
@@ -77831,10 +78211,10 @@
         ]
       ]
     ],
-    "max_health": -1,
+    "max_health": 72,
     "ignore_damage": false,
     "defense_level": 10000,
-    "decay": 0.0,
+    "decay": 1.0,
     "maintenance": 0.0,
     "build_permission": [
       1,
@@ -77897,10 +78277,10 @@
         ]
       ]
     ],
-    "max_health": -1,
+    "max_health": 72,
     "ignore_damage": false,
     "defense_level": 10000,
-    "decay": 0.0,
+    "decay": 1.0,
     "maintenance": 0.0,
     "build_permission": [
       1,
@@ -77955,10 +78335,10 @@
         ]
       ]
     ],
-    "max_health": -1,
+    "max_health": 72,
     "ignore_damage": false,
     "defense_level": 10000,
-    "decay": 0.0,
+    "decay": 1.0,
     "maintenance": 0.0,
     "build_permission": [
       1,
@@ -78013,10 +78393,10 @@
         ]
       ]
     ],
-    "max_health": -1,
+    "max_health": 72,
     "ignore_damage": false,
     "defense_level": 10000,
-    "decay": 0.0,
+    "decay": 1.0,
     "maintenance": 0.0,
     "build_permission": [
       1,
@@ -78836,10 +79216,10 @@
         ]
       ]
     ],
-    "max_health": -1,
+    "max_health": 72,
     "ignore_damage": false,
     "defense_level": 10000,
-    "decay": 0.0,
+    "decay": 1.0,
     "maintenance": 0.0,
     "build_permission": [
       1,
@@ -78902,10 +79282,10 @@
         ]
       ]
     ],
-    "max_health": -1,
+    "max_health": 72,
     "ignore_damage": false,
     "defense_level": 10000,
-    "decay": 0.0,
+    "decay": 1.0,
     "maintenance": 0.0,
     "build_permission": [
       1,
@@ -79311,7 +79691,7 @@
         ]
       ]
     ],
-    "max_health": 24,
+    "max_health": 72,
     "ignore_damage": false,
     "defense_level": 10000,
     "decay": 1.0,
@@ -83499,10 +83879,10 @@
         ]
       ]
     ],
-    "max_health": -1,
+    "max_health": 72,
     "ignore_damage": false,
     "defense_level": 10000,
-    "decay": 0.0,
+    "decay": 1.0,
     "maintenance": 0.0,
     "build_permission": [
       1,
@@ -88471,6 +88851,72 @@
     "not_deconstructible": false
   },
   {
+    "id": 517819121,
+    "functions": [
+      [
+        1002,
+        8,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6000,
+        6000,
+        0,
+        [],
+        [],
+        0,
+        false,
+        0,
+        0
+      ]
+    ],
+    "name": "Cozy Cottage Room Divider",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/DecoCottage_RoomDivider",
+    "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Other/Buildings/DecoCottage_RoomDivider",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        -1,
+        1,
+        [
+          0,
+          []
+        ]
+      ]
+    ],
+    "max_health": 72,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 1.0,
+    "maintenance": 0.0,
+    "build_permission": [
+      1,
+      {}
+    ],
+    "interact_permission": [
+      1,
+      {}
+    ],
+    "has_action": true,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false
+  },
+  {
     "id": 520157334,
     "functions": [],
     "name": "SmallFenceEndCapC",
@@ -88627,7 +89073,7 @@
         ]
       ]
     ],
-    "max_health": 24,
+    "max_health": 72,
     "ignore_damage": false,
     "defense_level": 10000,
     "decay": 1.0,
@@ -88911,10 +89357,10 @@
         ]
       ]
     ],
-    "max_health": -1,
+    "max_health": 72,
     "ignore_damage": false,
     "defense_level": 10000,
-    "decay": 0.0,
+    "decay": 1.0,
     "maintenance": 0.0,
     "build_permission": [
       1,
@@ -89083,10 +89529,10 @@
         ]
       ]
     ],
-    "max_health": -1,
+    "max_health": 72,
     "ignore_damage": false,
     "defense_level": 10000,
-    "decay": 0.0,
+    "decay": 1.0,
     "maintenance": 0.0,
     "build_permission": [
       1,
@@ -89149,10 +89595,10 @@
         ]
       ]
     ],
-    "max_health": -1,
+    "max_health": 72,
     "ignore_damage": false,
     "defense_level": 10000,
-    "decay": 0.0,
+    "decay": 1.0,
     "maintenance": 0.0,
     "build_permission": [
       1,
@@ -89408,10 +89854,10 @@
         ]
       ]
     ],
-    "max_health": -1,
+    "max_health": 72,
     "ignore_damage": false,
     "defense_level": 10000,
-    "decay": 0.0,
+    "decay": 1.0,
     "maintenance": 0.0,
     "build_permission": [
       1,
@@ -89802,10 +90248,10 @@
         ]
       ]
     ],
-    "max_health": -1,
+    "max_health": 72,
     "ignore_damage": false,
     "defense_level": 10000,
-    "decay": 0.0,
+    "decay": 1.0,
     "maintenance": 0.0,
     "build_permission": [
       1,
@@ -90594,10 +91040,10 @@
         ]
       ]
     ],
-    "max_health": -1,
+    "max_health": 72,
     "ignore_damage": false,
     "defense_level": 10000,
-    "decay": 0.0,
+    "decay": 1.0,
     "maintenance": 0.0,
     "build_permission": [
       1,
@@ -91133,10 +91579,10 @@
         ]
       ]
     ],
-    "max_health": -1,
+    "max_health": 72,
     "ignore_damage": false,
     "defense_level": 10000,
-    "decay": 0.0,
+    "decay": 1.0,
     "maintenance": 0.0,
     "build_permission": [
       1,
@@ -91191,7 +91637,7 @@
         ]
       ]
     ],
-    "max_health": 24,
+    "max_health": 72,
     "ignore_damage": false,
     "defense_level": 10000,
     "decay": 1.0,
@@ -92067,10 +92513,68 @@
         ]
       ]
     ],
-    "max_health": -1,
+    "max_health": 72,
     "ignore_damage": false,
     "defense_level": 10000,
-    "decay": 0.0,
+    "decay": 1.0,
+    "maintenance": 0.0,
+    "build_permission": [
+      1,
+      {}
+    ],
+    "interact_permission": [
+      1,
+      {}
+    ],
+    "has_action": true,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false
+  },
+  {
+    "id": 800860961,
+    "functions": [
+      [
+        1002,
+        8,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6000,
+        6000,
+        0,
+        [],
+        [],
+        0,
+        false,
+        0,
+        0
+      ]
+    ],
+    "name": "Cozy Cottage Table Plant",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/DecoCottage_EndTable02",
+    "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Other/Buildings/DecoCottage_EndTable02",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          0,
+          []
+        ]
+      ]
+    ],
+    "max_health": 72,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 1.0,
     "maintenance": 0.0,
     "build_permission": [
       1,
@@ -92604,10 +93108,10 @@
         ]
       ]
     ],
-    "max_health": -1,
+    "max_health": 72,
     "ignore_damage": false,
     "defense_level": 10000,
-    "decay": 0.0,
+    "decay": 1.0,
     "maintenance": 0.0,
     "build_permission": [
       1,
@@ -93298,10 +93802,10 @@
         ]
       ]
     ],
-    "max_health": -1,
+    "max_health": 72,
     "ignore_damage": false,
     "defense_level": 10000,
-    "decay": 0.0,
+    "decay": 1.0,
     "maintenance": 0.0,
     "build_permission": [
       1,
@@ -93532,6 +94036,64 @@
       {}
     ],
     "has_action": true,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false
+  },
+  {
+    "id": 889612944,
+    "functions": [
+      [
+        1002,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6000,
+        6000,
+        0,
+        [],
+        [],
+        0,
+        false,
+        0,
+        0
+      ]
+    ],
+    "name": "Fancy Empire Banner",
+    "description": "A banner that would show off your empire's colors and emblem.",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/EmpireBannerBaseA",
+    "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Other/Buildings/EmpireBannerA",
+    "unenterable": true,
+    "wilderness": false,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          0,
+          []
+        ]
+      ]
+    ],
+    "max_health": -1,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 0.0,
+    "maintenance": 0.0,
+    "build_permission": [
+      1,
+      {}
+    ],
+    "interact_permission": [
+      1,
+      {}
+    ],
+    "has_action": false,
     "show_in_compendium": true,
     "is_ruins": false,
     "not_deconstructible": false
@@ -93866,10 +94428,10 @@
         ]
       ]
     ],
-    "max_health": -1,
+    "max_health": 72,
     "ignore_damage": false,
     "defense_level": 10000,
-    "decay": 0.0,
+    "decay": 1.0,
     "maintenance": 0.0,
     "build_permission": [
       1,
@@ -94920,10 +95482,10 @@
         ]
       ]
     ],
-    "max_health": -1,
+    "max_health": 72,
     "ignore_damage": false,
     "defense_level": 10000,
-    "decay": 0.0,
+    "decay": 1.0,
     "maintenance": 0.0,
     "build_permission": [
       1,
@@ -95261,10 +95823,10 @@
         ]
       ]
     ],
-    "max_health": -1,
+    "max_health": 72,
     "ignore_damage": false,
     "defense_level": 10000,
-    "decay": 0.0,
+    "decay": 1.0,
     "maintenance": 0.0,
     "build_permission": [
       1,
@@ -95692,10 +96254,10 @@
         ]
       ]
     ],
-    "max_health": -1,
+    "max_health": 72,
     "ignore_damage": false,
     "defense_level": 10000,
-    "decay": 0.0,
+    "decay": 1.0,
     "maintenance": 0.0,
     "build_permission": [
       1,
@@ -95789,10 +96351,10 @@
         ]
       ]
     ],
-    "max_health": -1,
+    "max_health": 72,
     "ignore_damage": false,
     "defense_level": 10000,
-    "decay": 0.0,
+    "decay": 1.0,
     "maintenance": 0.0,
     "build_permission": [
       1,
@@ -96031,10 +96593,10 @@
         ]
       ]
     ],
-    "max_health": -1,
+    "max_health": 72,
     "ignore_damage": false,
     "defense_level": 10000,
-    "decay": 0.0,
+    "decay": 1.0,
     "maintenance": 0.0,
     "build_permission": [
       1,
@@ -100879,10 +101441,10 @@
         ]
       ]
     ],
-    "max_health": -1,
+    "max_health": 72,
     "ignore_damage": false,
     "defense_level": 10000,
-    "decay": 0.0,
+    "decay": 1.0,
     "maintenance": 0.0,
     "build_permission": [
       1,
@@ -101011,10 +101573,10 @@
         ]
       ]
     ],
-    "max_health": -1,
+    "max_health": 72,
     "ignore_damage": false,
     "defense_level": 10000,
-    "decay": 0.0,
+    "decay": 1.0,
     "maintenance": 0.0,
     "build_permission": [
       1,
@@ -101222,10 +101784,10 @@
         ]
       ]
     ],
-    "max_health": -1,
+    "max_health": 72,
     "ignore_damage": false,
     "defense_level": 10000,
-    "decay": 0.0,
+    "decay": 1.0,
     "maintenance": 0.0,
     "build_permission": [
       1,
@@ -101520,10 +102082,10 @@
         ]
       ]
     ],
-    "max_health": -1,
+    "max_health": 72,
     "ignore_damage": false,
     "defense_level": 10000,
-    "decay": 0.0,
+    "decay": 1.0,
     "maintenance": 0.0,
     "build_permission": [
       1,
@@ -102552,7 +103114,7 @@
         ]
       ]
     ],
-    "max_health": 24,
+    "max_health": 72,
     "ignore_damage": false,
     "defense_level": 10000,
     "decay": 1.0,
@@ -103901,6 +104463,64 @@
     "not_deconstructible": false
   },
   {
+    "id": 1137346437,
+    "functions": [
+      [
+        1002,
+        8,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6000,
+        6000,
+        0,
+        [],
+        [],
+        0,
+        false,
+        0,
+        0
+      ]
+    ],
+    "name": "Cozy Cottage Circular Rug",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/DecoCottage_Rug1",
+    "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Other/Buildings/DecoCottage_Rug1",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          1,
+          []
+        ]
+      ]
+    ],
+    "max_health": 72,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 1.0,
+    "maintenance": 0.0,
+    "build_permission": [
+      1,
+      {}
+    ],
+    "interact_permission": [
+      1,
+      {}
+    ],
+    "has_action": true,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false
+  },
+  {
     "id": 1143147753,
     "functions": [],
     "name": "RuinDecorMainPlatformPillar",
@@ -103979,10 +104599,10 @@
         ]
       ]
     ],
-    "max_health": -1,
+    "max_health": 72,
     "ignore_damage": false,
     "defense_level": 10000,
-    "decay": 0.0,
+    "decay": 1.0,
     "maintenance": 0.0,
     "build_permission": [
       1,
@@ -104115,6 +104735,64 @@
       {}
     ],
     "has_action": true,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false
+  },
+  {
+    "id": 1156770326,
+    "functions": [
+      [
+        1002,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6000,
+        6000,
+        0,
+        [],
+        [],
+        0,
+        false,
+        0,
+        0
+      ]
+    ],
+    "name": "Traditional Empire Banner",
+    "description": "A banner that would show off your empire's colors and emblem.",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/EmpireBannerBaseE",
+    "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Other/Buildings/EmpireBannerE",
+    "unenterable": true,
+    "wilderness": false,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          0,
+          []
+        ]
+      ]
+    ],
+    "max_health": -1,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 0.0,
+    "maintenance": 0.0,
+    "build_permission": [
+      1,
+      {}
+    ],
+    "interact_permission": [
+      1,
+      {}
+    ],
+    "has_action": false,
     "show_in_compendium": true,
     "is_ruins": false,
     "not_deconstructible": false
@@ -104434,7 +105112,7 @@
         ]
       ]
     ],
-    "max_health": 24,
+    "max_health": 72,
     "ignore_damage": false,
     "defense_level": 10000,
     "decay": 1.0,
@@ -105071,10 +105749,10 @@
         ]
       ]
     ],
-    "max_health": -1,
+    "max_health": 72,
     "ignore_damage": false,
     "defense_level": 10000,
-    "decay": 0.0,
+    "decay": 1.0,
     "maintenance": 0.0,
     "build_permission": [
       1,
@@ -105227,10 +105905,10 @@
         ]
       ]
     ],
-    "max_health": -1,
+    "max_health": 72,
     "ignore_damage": false,
     "defense_level": 10000,
-    "decay": 0.0,
+    "decay": 1.0,
     "maintenance": 0.0,
     "build_permission": [
       1,
@@ -105906,10 +106584,116 @@
         ]
       ]
     ],
-    "max_health": -1,
+    "max_health": 72,
     "ignore_damage": false,
     "defense_level": 10000,
-    "decay": 0.0,
+    "decay": 1.0,
+    "maintenance": 0.0,
+    "build_permission": [
+      1,
+      {}
+    ],
+    "interact_permission": [
+      1,
+      {}
+    ],
+    "has_action": true,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false
+  },
+  {
+    "id": 1228190756,
+    "functions": [
+      [
+        1002,
+        8,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6000,
+        6000,
+        0,
+        [],
+        [],
+        0,
+        false,
+        0,
+        0
+      ]
+    ],
+    "name": "Cozy Cottage Decorative Rug",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/DecoCottage_Rug3",
+    "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Other/Buildings/DecoCottage_Rug3",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          1,
+          []
+        ]
+      ],
+      [
+        -1,
+        0,
+        [
+          1,
+          []
+        ]
+      ],
+      [
+        1,
+        0,
+        [
+          1,
+          []
+        ]
+      ],
+      [
+        0,
+        -1,
+        [
+          1,
+          []
+        ]
+      ],
+      [
+        1,
+        -1,
+        [
+          1,
+          []
+        ]
+      ],
+      [
+        0,
+        1,
+        [
+          1,
+          []
+        ]
+      ],
+      [
+        -1,
+        1,
+        [
+          1,
+          []
+        ]
+      ]
+    ],
+    "max_health": 72,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 1.0,
     "maintenance": 0.0,
     "build_permission": [
       1,
@@ -106932,10 +107716,10 @@
         ]
       ]
     ],
-    "max_health": -1,
+    "max_health": 72,
     "ignore_damage": false,
     "defense_level": 10000,
-    "decay": 0.0,
+    "decay": 1.0,
     "maintenance": 0.0,
     "build_permission": [
       1,
@@ -107185,10 +107969,10 @@
         ]
       ]
     ],
-    "max_health": -1,
+    "max_health": 72,
     "ignore_damage": false,
     "defense_level": 10000,
-    "decay": 0.0,
+    "decay": 1.0,
     "maintenance": 0.0,
     "build_permission": [
       1,
@@ -107683,10 +108467,10 @@
         ]
       ]
     ],
-    "max_health": -1,
+    "max_health": 72,
     "ignore_damage": false,
     "defense_level": 10000,
-    "decay": 0.0,
+    "decay": 1.0,
     "maintenance": 0.0,
     "build_permission": [
       1,
@@ -107749,7 +108533,7 @@
         ]
       ]
     ],
-    "max_health": 24,
+    "max_health": 72,
     "ignore_damage": false,
     "defense_level": 10000,
     "decay": 1.0,
@@ -107866,6 +108650,80 @@
       ]
     ],
     "max_health": 120,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 1.0,
+    "maintenance": 0.0,
+    "build_permission": [
+      1,
+      {}
+    ],
+    "interact_permission": [
+      1,
+      {}
+    ],
+    "has_action": true,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false
+  },
+  {
+    "id": 1374628201,
+    "functions": [
+      [
+        1002,
+        8,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6000,
+        6000,
+        0,
+        [],
+        [],
+        0,
+        false,
+        0,
+        0
+      ]
+    ],
+    "name": "Cozy Cottage Long Rug",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/DecoCottage_Rug2",
+    "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Other/Buildings/DecoCottage_Rug2",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          1,
+          []
+        ]
+      ],
+      [
+        -1,
+        0,
+        [
+          1,
+          []
+        ]
+      ],
+      [
+        1,
+        0,
+        [
+          1,
+          []
+        ]
+      ]
+    ],
+    "max_health": 72,
     "ignore_damage": false,
     "defense_level": 10000,
     "decay": 1.0,
@@ -108013,10 +108871,10 @@
         ]
       ]
     ],
-    "max_health": -1,
+    "max_health": 72,
     "ignore_damage": false,
     "defense_level": 10000,
-    "decay": 0.0,
+    "decay": 1.0,
     "maintenance": 0.0,
     "build_permission": [
       1,
@@ -108805,10 +109663,10 @@
         ]
       ]
     ],
-    "max_health": -1,
+    "max_health": 72,
     "ignore_damage": false,
     "defense_level": 10000,
-    "decay": 0.0,
+    "decay": 1.0,
     "maintenance": 0.0,
     "build_permission": [
       1,
@@ -108969,10 +109827,10 @@
         ]
       ]
     ],
-    "max_health": -1,
+    "max_health": 72,
     "ignore_damage": false,
     "defense_level": 10000,
-    "decay": 0.0,
+    "decay": 1.0,
     "maintenance": 0.0,
     "build_permission": [
       1,
@@ -109235,10 +110093,10 @@
         ]
       ]
     ],
-    "max_health": -1,
+    "max_health": 72,
     "ignore_damage": false,
     "defense_level": 10000,
-    "decay": 0.0,
+    "decay": 1.0,
     "maintenance": 0.0,
     "build_permission": [
       1,
@@ -109630,10 +110488,10 @@
         ]
       ]
     ],
-    "max_health": -1,
+    "max_health": 72,
     "ignore_damage": false,
     "defense_level": 10000,
-    "decay": 0.0,
+    "decay": 1.0,
     "maintenance": 0.0,
     "build_permission": [
       1,
@@ -110278,7 +111136,7 @@
         ]
       ]
     ],
-    "max_health": 24,
+    "max_health": 72,
     "ignore_damage": false,
     "defense_level": 10000,
     "decay": 1.0,
@@ -110524,10 +111382,10 @@
         ]
       ]
     ],
-    "max_health": -1,
+    "max_health": 72,
     "ignore_damage": false,
     "defense_level": 10000,
-    "decay": 0.0,
+    "decay": 1.0,
     "maintenance": 0.0,
     "build_permission": [
       1,
@@ -110853,10 +111711,10 @@
         ]
       ]
     ],
-    "max_health": -1,
+    "max_health": 72,
     "ignore_damage": false,
     "defense_level": 10000,
-    "decay": 0.0,
+    "decay": 1.0,
     "maintenance": 0.0,
     "build_permission": [
       1,
@@ -111005,10 +111863,10 @@
         ]
       ]
     ],
-    "max_health": -1,
+    "max_health": 72,
     "ignore_damage": false,
     "defense_level": 10000,
-    "decay": 0.0,
+    "decay": 1.0,
     "maintenance": 0.0,
     "build_permission": [
       1,
@@ -111193,9 +112051,9 @@
     "name": "Gothic Lamp Post",
     "description": "",
     "rested_buff_duration": 0,
-    "light_radius": 0,
+    "light_radius": 10,
     "model_asset_name": "Buildings/GothicLampPost",
-    "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Other/Buildings/GothicTallChair",
+    "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Other/Buildings/GothicLampPost",
     "unenterable": true,
     "wilderness": true,
     "footprint": [
@@ -115068,6 +115926,72 @@
     ],
     "has_action": false,
     "show_in_compendium": false,
+    "is_ruins": false,
+    "not_deconstructible": false
+  },
+  {
+    "id": 1658803297,
+    "functions": [
+      [
+        1002,
+        8,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6000,
+        6000,
+        0,
+        [],
+        [],
+        0,
+        false,
+        0,
+        0
+      ]
+    ],
+    "name": "Cozy Cottage Couch",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/DecoCottage_Couch",
+    "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Other/Buildings/DecoCottage_Couch",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        -1,
+        1,
+        [
+          0,
+          []
+        ]
+      ]
+    ],
+    "max_health": 72,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 1.0,
+    "maintenance": 0.0,
+    "build_permission": [
+      1,
+      {}
+    ],
+    "interact_permission": [
+      1,
+      {}
+    ],
+    "has_action": true,
+    "show_in_compendium": true,
     "is_ruins": false,
     "not_deconstructible": false
   },
@@ -119339,10 +120263,10 @@
         ]
       ]
     ],
-    "max_health": -1,
+    "max_health": 72,
     "ignore_damage": false,
     "defense_level": 10000,
-    "decay": 0.0,
+    "decay": 1.0,
     "maintenance": 0.0,
     "build_permission": [
       1,
@@ -119845,10 +120769,10 @@
         ]
       ]
     ],
-    "max_health": -1,
+    "max_health": 72,
     "ignore_damage": false,
     "defense_level": 10000,
-    "decay": 0.0,
+    "decay": 1.0,
     "maintenance": 0.0,
     "build_permission": [
       1,
@@ -120252,10 +121176,10 @@
         ]
       ]
     ],
-    "max_health": -1,
+    "max_health": 72,
     "ignore_damage": false,
     "defense_level": 10000,
-    "decay": 0.0,
+    "decay": 1.0,
     "maintenance": 0.0,
     "build_permission": [
       1,
@@ -125349,7 +126273,7 @@
         ]
       ]
     ],
-    "max_health": 24,
+    "max_health": 72,
     "ignore_damage": false,
     "defense_level": 10000,
     "decay": 1.0,
@@ -126165,10 +127089,10 @@
         ]
       ]
     ],
-    "max_health": -1,
+    "max_health": 72,
     "ignore_damage": false,
     "defense_level": 10000,
-    "decay": 0.0,
+    "decay": 1.0,
     "maintenance": 0.0,
     "build_permission": [
       1,
@@ -126781,6 +127705,64 @@
       {}
     ],
     "has_action": true,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false
+  },
+  {
+    "id": 1824420291,
+    "functions": [
+      [
+        1002,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6000,
+        6000,
+        0,
+        [],
+        [],
+        0,
+        false,
+        0,
+        0
+      ]
+    ],
+    "name": "Understated Empire Banner",
+    "description": "A banner that would show off your empire's colors and emblem.",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/EmpireBannerBaseF",
+    "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Other/Buildings/EmpireBannerF",
+    "unenterable": true,
+    "wilderness": false,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          0,
+          []
+        ]
+      ]
+    ],
+    "max_health": -1,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 0.0,
+    "maintenance": 0.0,
+    "build_permission": [
+      1,
+      {}
+    ],
+    "interact_permission": [
+      1,
+      {}
+    ],
+    "has_action": false,
     "show_in_compendium": true,
     "is_ruins": false,
     "not_deconstructible": false
@@ -137083,6 +138065,130 @@
     "not_deconstructible": false
   },
   {
+    "id": 1854284010,
+    "functions": [
+      [
+        3,
+        8,
+        0,
+        0,
+        54,
+        0,
+        0,
+        60000,
+        600000,
+        0,
+        [],
+        [],
+        0,
+        false,
+        0,
+        0
+      ]
+    ],
+    "name": "Cozy Cottage Cargo Bin",
+    "description": "A bin for storing cargo, can only be built inside.",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/DecoCottage_Chest",
+    "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Other/Buildings/DecoCottage_Chest",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        1,
+        0,
+        [
+          0,
+          []
+        ]
+      ]
+    ],
+    "max_health": 72,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 1.0,
+    "maintenance": 0.0,
+    "build_permission": [
+      1,
+      {}
+    ],
+    "interact_permission": [
+      1,
+      {}
+    ],
+    "has_action": true,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false
+  },
+  {
+    "id": 1855409370,
+    "functions": [
+      [
+        1002,
+        8,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6000,
+        6000,
+        0,
+        [],
+        [],
+        0,
+        false,
+        0,
+        0
+      ]
+    ],
+    "name": "Cozy Cottage Armchair",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/DecoCottage_Chair1",
+    "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Other/Buildings/DecoCottage_Chair1",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          0,
+          []
+        ]
+      ]
+    ],
+    "max_health": 72,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 1.0,
+    "maintenance": 0.0,
+    "build_permission": [
+      1,
+      {}
+    ],
+    "interact_permission": [
+      1,
+      {}
+    ],
+    "has_action": true,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false
+  },
+  {
     "id": 1856615884,
     "functions": [
       [
@@ -138666,10 +139772,10 @@
         ]
       ]
     ],
-    "max_health": -1,
+    "max_health": 72,
     "ignore_damage": false,
     "defense_level": 10000,
-    "decay": 0.0,
+    "decay": 1.0,
     "maintenance": 0.0,
     "build_permission": [
       1,
@@ -138806,6 +139912,64 @@
     ],
     "has_action": false,
     "show_in_compendium": false,
+    "is_ruins": false,
+    "not_deconstructible": false
+  },
+  {
+    "id": 1949877225,
+    "functions": [
+      [
+        1002,
+        8,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6000,
+        6000,
+        0,
+        [],
+        [],
+        0,
+        false,
+        0,
+        0
+      ]
+    ],
+    "name": "Cozy Cottage Shelf",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/DecoCottage_Shelf",
+    "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Other/Buildings/DecoCottage_Shelf",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          0,
+          []
+        ]
+      ]
+    ],
+    "max_health": 72,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 1.0,
+    "maintenance": 0.0,
+    "build_permission": [
+      1,
+      {}
+    ],
+    "interact_permission": [
+      1,
+      {}
+    ],
+    "has_action": true,
+    "show_in_compendium": true,
     "is_ruins": false,
     "not_deconstructible": false
   },
@@ -139416,10 +140580,10 @@
         ]
       ]
     ],
-    "max_health": -1,
+    "max_health": 72,
     "ignore_damage": false,
     "defense_level": 10000,
-    "decay": 0.0,
+    "decay": 1.0,
     "maintenance": 0.0,
     "build_permission": [
       1,
@@ -139580,10 +140744,10 @@
         ]
       ]
     ],
-    "max_health": -1,
+    "max_health": 72,
     "ignore_damage": false,
     "defense_level": 10000,
-    "decay": 0.0,
+    "decay": 1.0,
     "maintenance": 0.0,
     "build_permission": [
       1,
@@ -139770,10 +140934,10 @@
         ]
       ]
     ],
-    "max_health": -1,
+    "max_health": 72,
     "ignore_damage": false,
     "defense_level": 10000,
-    "decay": 0.0,
+    "decay": 1.0,
     "maintenance": 0.0,
     "build_permission": [
       1,
@@ -141872,6 +143036,64 @@
     "show_in_compendium": true,
     "is_ruins": false,
     "not_deconstructible": true
+  },
+  {
+    "id": 2015469740,
+    "functions": [
+      [
+        1002,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6000,
+        6000,
+        0,
+        [],
+        [],
+        0,
+        false,
+        0,
+        0
+      ]
+    ],
+    "name": "Regal Empire Banner",
+    "description": "A banner that would show off your empire's colors and emblem.",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/EmpireBannerBaseB",
+    "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Other/Buildings/EmpireBannerB",
+    "unenterable": true,
+    "wilderness": false,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          0,
+          []
+        ]
+      ]
+    ],
+    "max_health": -1,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 0.0,
+    "maintenance": 0.0,
+    "build_permission": [
+      1,
+      {}
+    ],
+    "interact_permission": [
+      1,
+      {}
+    ],
+    "has_action": false,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false
   },
   {
     "id": 2024015333,
@@ -146487,10 +147709,10 @@
         ]
       ]
     ],
-    "max_health": -1,
+    "max_health": 72,
     "ignore_damage": false,
     "defense_level": 10000,
-    "decay": 0.0,
+    "decay": 1.0,
     "maintenance": 0.0,
     "build_permission": [
       1,
@@ -146553,10 +147775,10 @@
         ]
       ]
     ],
-    "max_health": -1,
+    "max_health": 72,
     "ignore_damage": false,
     "defense_level": 10000,
-    "decay": 0.0,
+    "decay": 1.0,
     "maintenance": 0.0,
     "build_permission": [
       1,
@@ -146611,10 +147833,10 @@
         ]
       ]
     ],
-    "max_health": -1,
+    "max_health": 72,
     "ignore_damage": false,
     "defense_level": 10000,
-    "decay": 0.0,
+    "decay": 1.0,
     "maintenance": 0.0,
     "build_permission": [
       1,
@@ -146708,10 +147930,10 @@
         ]
       ]
     ],
-    "max_health": -1,
+    "max_health": 72,
     "ignore_damage": false,
     "defense_level": 10000,
-    "decay": 0.0,
+    "decay": 1.0,
     "maintenance": 0.0,
     "build_permission": [
       1,
@@ -146766,10 +147988,10 @@
         ]
       ]
     ],
-    "max_health": -1,
+    "max_health": 72,
     "ignore_damage": false,
     "defense_level": 10000,
-    "decay": 0.0,
+    "decay": 1.0,
     "maintenance": 0.0,
     "build_permission": [
       1,
@@ -154304,6 +155526,64 @@
     "not_deconstructible": false
   },
   {
+    "id": 2073432486,
+    "functions": [
+      [
+        1002,
+        8,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6000,
+        6000,
+        0,
+        [],
+        [],
+        0,
+        false,
+        0,
+        0
+      ]
+    ],
+    "name": "Cozy Cottage Chair",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/DecoCottage_Chair2",
+    "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Other/Buildings/DecoCottage_Chair2",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          0,
+          []
+        ]
+      ]
+    ],
+    "max_health": 72,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 1.0,
+    "maintenance": 0.0,
+    "build_permission": [
+      1,
+      {}
+    ],
+    "interact_permission": [
+      1,
+      {}
+    ],
+    "has_action": true,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false
+  },
+  {
     "id": 2076454680,
     "functions": [
       [
@@ -154343,7 +155623,7 @@
         ]
       ]
     ],
-    "max_health": 24,
+    "max_health": 72,
     "ignore_damage": false,
     "defense_level": 10000,
     "decay": 1.0,
@@ -154440,10 +155720,10 @@
         ]
       ]
     ],
-    "max_health": -1,
+    "max_health": 72,
     "ignore_damage": false,
     "defense_level": 10000,
-    "decay": 0.0,
+    "decay": 1.0,
     "maintenance": 0.0,
     "build_permission": [
       1,
@@ -154988,10 +156268,10 @@
         ]
       ]
     ],
-    "max_health": -1,
+    "max_health": 72,
     "ignore_damage": false,
     "defense_level": 10000,
-    "decay": 0.0,
+    "decay": 1.0,
     "maintenance": 0.0,
     "build_permission": [
       1,
@@ -155578,6 +156858,64 @@
     ],
     "has_action": false,
     "show_in_compendium": false,
+    "is_ruins": false,
+    "not_deconstructible": false
+  },
+  {
+    "id": 2123077959,
+    "functions": [
+      [
+        1002,
+        8,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6000,
+        6000,
+        0,
+        [],
+        [],
+        0,
+        false,
+        0,
+        0
+      ]
+    ],
+    "name": "Cozy Cottage End Table",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/DecoCottage_EndTable01",
+    "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Other/Buildings/DecoCottage_EndTable01",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          0,
+          []
+        ]
+      ]
+    ],
+    "max_health": 72,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 1.0,
+    "maintenance": 0.0,
+    "build_permission": [
+      1,
+      {}
+    ],
+    "interact_permission": [
+      1,
+      {}
+    ],
+    "has_action": true,
+    "show_in_compendium": true,
     "is_ruins": false,
     "not_deconstructible": false
   },
