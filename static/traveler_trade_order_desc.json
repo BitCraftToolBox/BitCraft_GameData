@@ -2287,6 +2287,44 @@
     "hide_with_blocking_knowledges": false
   },
   {
+    "id": 881133448,
+    "starting_stock": 2147483647,
+    "always_offered": true,
+    "traveler": "Brico",
+    "offer_items": [
+      {
+        "item_id": 1459959112,
+        "quantity": 1,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "offer_cargo_id": [],
+    "required_items": [
+      {
+        "item_id": 1,
+        "quantity": 60000,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "required_cargo_id": [],
+    "level_requirements": [
+      {
+        "skill_id": 15,
+        "level": 80
+      }
+    ],
+    "achievement_requirements": [],
+    "hide_if_requirements_are_not_met": false,
+    "required_knowledges": [],
+    "hide_without_required_knowledge": false,
+    "blocking_knowledges": [
+      2059587720
+    ],
+    "hide_with_blocking_knowledges": true
+  },
+  {
     "id": 883824228,
     "starting_stock": 2147483647,
     "always_offered": true,

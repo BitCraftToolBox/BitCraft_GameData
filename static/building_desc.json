@@ -25697,10 +25697,10 @@
         "footprint_type": "Hitbox"
       }
     ],
-    "max_health": -1,
+    "max_health": 72,
     "ignore_damage": false,
     "defense_level": 10000,
-    "decay": 0.0,
+    "decay": 1.0,
     "maintenance": 0.0,
     "build_permission": "Claim",
     "interact_permission": "Claim",
@@ -26439,6 +26439,55 @@
     "not_deconstructible": false
   },
   {
+    "id": 62573355,
+    "functions": [
+      {
+        "function_type": 1002,
+        "level": -1,
+        "crafting_slots": 0,
+        "storage_slots": 0,
+        "cargo_slots": 0,
+        "refining_slots": 0,
+        "refining_cargo_slots": 0,
+        "item_slot_size": 6000,
+        "cargo_slot_size": 6000,
+        "trade_orders": 0,
+        "allowed_item_id_per_slot": [],
+        "buff_ids": [],
+        "concurrent_crafts_per_player": 0,
+        "terraform": false,
+        "housing_slots": 0,
+        "housing_income": 0
+      }
+    ],
+    "name": "Modest Empire Banner",
+    "description": "A banner that would show off your empire's colors and emblem.",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/EmpireBannerBaseD",
+    "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Other/Buildings/EmpireBannerD",
+    "unenterable": true,
+    "wilderness": false,
+    "footprint": [
+      {
+        "x": 0,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      }
+    ],
+    "max_health": -1,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 0.0,
+    "maintenance": 0.0,
+    "build_permission": "Claim",
+    "interact_permission": "Claim",
+    "has_action": false,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false
+  },
+  {
     "id": 66631978,
     "functions": [],
     "name": "RuinDecorSideColumn",
@@ -26719,6 +26768,55 @@
         "footprint_type": "Hitbox"
       }
     ],
+    "max_health": 72,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 1.0,
+    "maintenance": 0.0,
+    "build_permission": "Claim",
+    "interact_permission": "Claim",
+    "has_action": true,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false
+  },
+  {
+    "id": 93658234,
+    "functions": [
+      {
+        "function_type": 1002,
+        "level": -1,
+        "crafting_slots": 0,
+        "storage_slots": 0,
+        "cargo_slots": 0,
+        "refining_slots": 0,
+        "refining_cargo_slots": 0,
+        "item_slot_size": 6000,
+        "cargo_slot_size": 6000,
+        "trade_orders": 0,
+        "allowed_item_id_per_slot": [],
+        "buff_ids": [],
+        "concurrent_crafts_per_player": 0,
+        "terraform": false,
+        "housing_slots": 0,
+        "housing_income": 0
+      }
+    ],
+    "name": "Lavish Empire Banner",
+    "description": "A banner that would show off your empire's colors and emblem.",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/EmpireBannerBaseC",
+    "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Other/Buildings/EmpireBannerC",
+    "unenterable": true,
+    "wilderness": false,
+    "footprint": [
+      {
+        "x": 0,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      }
+    ],
     "max_health": -1,
     "ignore_damage": false,
     "defense_level": 10000,
@@ -26726,7 +26824,7 @@
     "maintenance": 0.0,
     "build_permission": "Claim",
     "interact_permission": "Claim",
-    "has_action": true,
+    "has_action": false,
     "show_in_compendium": true,
     "is_ruins": false,
     "not_deconstructible": false
@@ -26862,10 +26960,10 @@
         "footprint_type": "Walkable"
       }
     ],
-    "max_health": -1,
+    "max_health": 72,
     "ignore_damage": false,
     "defense_level": 10000,
-    "decay": 0.0,
+    "decay": 1.0,
     "maintenance": 0.0,
     "build_permission": "Claim",
     "interact_permission": "Claim",
@@ -27055,7 +27153,7 @@
         "footprint_type": "Hitbox"
       }
     ],
-    "max_health": 24,
+    "max_health": 72,
     "ignore_damage": false,
     "defense_level": 10000,
     "decay": 1.0,
@@ -27196,6 +27294,55 @@
     "maintenance": 0.0,
     "build_permission": "Claim",
     "interact_permission": "All",
+    "has_action": true,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false
+  },
+  {
+    "id": 149572108,
+    "functions": [
+      {
+        "function_type": 3,
+        "level": 8,
+        "crafting_slots": 0,
+        "storage_slots": 66,
+        "cargo_slots": 0,
+        "refining_slots": 0,
+        "refining_cargo_slots": 0,
+        "item_slot_size": 60000,
+        "cargo_slot_size": 600000,
+        "trade_orders": 0,
+        "allowed_item_id_per_slot": [],
+        "buff_ids": [],
+        "concurrent_crafts_per_player": 0,
+        "terraform": false,
+        "housing_slots": 0,
+        "housing_income": 0
+      }
+    ],
+    "name": "Cozy Cottage Item Storage",
+    "description": "A cabinet for storing items, can only be built inside.",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/DecoCottage_Dresser",
+    "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Other/Buildings/DecoCottage_Dresser",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      {
+        "x": 0,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      }
+    ],
+    "max_health": 72,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 1.0,
+    "maintenance": 0.0,
+    "build_permission": "Claim",
+    "interact_permission": "Claim",
     "has_action": true,
     "show_in_compendium": true,
     "is_ruins": false,
@@ -27407,10 +27554,59 @@
         "footprint_type": "Hitbox"
       }
     ],
-    "max_health": -1,
+    "max_health": 72,
     "ignore_damage": false,
     "defense_level": 10000,
-    "decay": 0.0,
+    "decay": 1.0,
+    "maintenance": 0.0,
+    "build_permission": "Claim",
+    "interact_permission": "Claim",
+    "has_action": true,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false
+  },
+  {
+    "id": 167781550,
+    "functions": [
+      {
+        "function_type": 1002,
+        "level": 8,
+        "crafting_slots": 0,
+        "storage_slots": 0,
+        "cargo_slots": 0,
+        "refining_slots": 0,
+        "refining_cargo_slots": 0,
+        "item_slot_size": 6000,
+        "cargo_slot_size": 6000,
+        "trade_orders": 0,
+        "allowed_item_id_per_slot": [],
+        "buff_ids": [],
+        "concurrent_crafts_per_player": 0,
+        "terraform": false,
+        "housing_slots": 0,
+        "housing_income": 0
+      }
+    ],
+    "name": "Cozy Cottage Circular Table",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/DecoCottage_Table",
+    "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Other/Buildings/DecoCottage_Table",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      {
+        "x": 0,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      }
+    ],
+    "max_health": 72,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 1.0,
     "maintenance": 0.0,
     "build_permission": "Claim",
     "interact_permission": "Claim",
@@ -27591,7 +27787,7 @@
         "footprint_type": "Hitbox"
       }
     ],
-    "max_health": 24,
+    "max_health": 72,
     "ignore_damage": false,
     "defense_level": 10000,
     "decay": 1.0,
@@ -27650,10 +27846,79 @@
         "footprint_type": "Walkable"
       }
     ],
-    "max_health": -1,
+    "max_health": 72,
     "ignore_damage": false,
     "defense_level": 10000,
-    "decay": 0.0,
+    "decay": 1.0,
+    "maintenance": 0.0,
+    "build_permission": "Claim",
+    "interact_permission": "Claim",
+    "has_action": true,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false
+  },
+  {
+    "id": 183443207,
+    "functions": [
+      {
+        "function_type": 1002,
+        "level": 8,
+        "crafting_slots": 0,
+        "storage_slots": 0,
+        "cargo_slots": 0,
+        "refining_slots": 0,
+        "refining_cargo_slots": 0,
+        "item_slot_size": 6000,
+        "cargo_slot_size": 6000,
+        "trade_orders": 0,
+        "allowed_item_id_per_slot": [],
+        "buff_ids": [],
+        "concurrent_crafts_per_player": 0,
+        "terraform": false,
+        "housing_slots": 0,
+        "housing_income": 0
+      }
+    ],
+    "name": "Cozy Cottage Bed",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/DecoCottage_Bed",
+    "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Other/Buildings/DecoCottage_Bed",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      {
+        "x": 0,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": -1,
+        "z": 1,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 0,
+        "z": 1,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 1,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 1,
+        "z": -1,
+        "footprint_type": "Hitbox"
+      }
+    ],
+    "max_health": 72,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 1.0,
     "maintenance": 0.0,
     "build_permission": "Claim",
     "interact_permission": "Claim",
@@ -28226,7 +28491,7 @@
         "footprint_type": "Hitbox"
       }
     ],
-    "max_health": 24,
+    "max_health": 72,
     "ignore_damage": false,
     "defense_level": 10000,
     "decay": 1.0,
@@ -41775,6 +42040,55 @@
     "not_deconstructible": true
   },
   {
+    "id": 216320776,
+    "functions": [
+      {
+        "function_type": 1002,
+        "level": 8,
+        "crafting_slots": 0,
+        "storage_slots": 0,
+        "cargo_slots": 0,
+        "refining_slots": 0,
+        "refining_cargo_slots": 0,
+        "item_slot_size": 6000,
+        "cargo_slot_size": 6000,
+        "trade_orders": 0,
+        "allowed_item_id_per_slot": [],
+        "buff_ids": [],
+        "concurrent_crafts_per_player": 0,
+        "terraform": false,
+        "housing_slots": 0,
+        "housing_income": 0
+      }
+    ],
+    "name": "Cozy Cottage Desk",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/DecoCottage_Desk",
+    "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Other/Buildings/DecoCottage_Desk",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      {
+        "x": 0,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      }
+    ],
+    "max_health": 72,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 1.0,
+    "maintenance": 0.0,
+    "build_permission": "Claim",
+    "interact_permission": "Claim",
+    "has_action": true,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false
+  },
+  {
     "id": 216327785,
     "functions": [],
     "name": "RuinDecorMuralWallA5",
@@ -42108,10 +42422,10 @@
         "footprint_type": "Hitbox"
       }
     ],
-    "max_health": -1,
+    "max_health": 72,
     "ignore_damage": false,
     "defense_level": 10000,
-    "decay": 0.0,
+    "decay": 1.0,
     "maintenance": 0.0,
     "build_permission": "Claim",
     "interact_permission": "Claim",
@@ -51959,10 +52273,10 @@
         "footprint_type": "Walkable"
       }
     ],
-    "max_health": -1,
+    "max_health": 72,
     "ignore_damage": false,
     "defense_level": 10000,
-    "decay": 0.0,
+    "decay": 1.0,
     "maintenance": 0.0,
     "build_permission": "Claim",
     "interact_permission": "Claim",
@@ -52445,10 +52759,10 @@
         "footprint_type": "Hitbox"
       }
     ],
-    "max_health": -1,
+    "max_health": 72,
     "ignore_damage": false,
     "defense_level": 10000,
-    "decay": 0.0,
+    "decay": 1.0,
     "maintenance": 0.0,
     "build_permission": "Claim",
     "interact_permission": "Claim",
@@ -52539,7 +52853,7 @@
         "footprint_type": "Walkable"
       }
     ],
-    "max_health": 24,
+    "max_health": 72,
     "ignore_damage": false,
     "defense_level": 10000,
     "decay": 1.0,
@@ -52697,10 +53011,10 @@
         "footprint_type": "Walkable"
       }
     ],
-    "max_health": -1,
+    "max_health": 72,
     "ignore_damage": false,
     "defense_level": 10000,
-    "decay": 0.0,
+    "decay": 1.0,
     "maintenance": 0.0,
     "build_permission": "Claim",
     "interact_permission": "Claim",
@@ -52751,10 +53065,10 @@
         "footprint_type": "Hitbox"
       }
     ],
-    "max_health": -1,
+    "max_health": 72,
     "ignore_damage": false,
     "defense_level": 10000,
-    "decay": 0.0,
+    "decay": 1.0,
     "maintenance": 0.0,
     "build_permission": "Claim",
     "interact_permission": "Claim",
@@ -52800,10 +53114,10 @@
         "footprint_type": "Hitbox"
       }
     ],
-    "max_health": -1,
+    "max_health": 72,
     "ignore_damage": false,
     "defense_level": 10000,
-    "decay": 0.0,
+    "decay": 1.0,
     "maintenance": 0.0,
     "build_permission": "Claim",
     "interact_permission": "Claim",
@@ -52849,10 +53163,10 @@
         "footprint_type": "Hitbox"
       }
     ],
-    "max_health": -1,
+    "max_health": 72,
     "ignore_damage": false,
     "defense_level": 10000,
-    "decay": 0.0,
+    "decay": 1.0,
     "maintenance": 0.0,
     "build_permission": "Claim",
     "interact_permission": "Claim",
@@ -53468,10 +53782,10 @@
         "footprint_type": "Hitbox"
       }
     ],
-    "max_health": -1,
+    "max_health": 72,
     "ignore_damage": false,
     "defense_level": 10000,
-    "decay": 0.0,
+    "decay": 1.0,
     "maintenance": 0.0,
     "build_permission": "Claim",
     "interact_permission": "Claim",
@@ -53522,10 +53836,10 @@
         "footprint_type": "Hitbox"
       }
     ],
-    "max_health": -1,
+    "max_health": 72,
     "ignore_damage": false,
     "defense_level": 10000,
-    "decay": 0.0,
+    "decay": 1.0,
     "maintenance": 0.0,
     "build_permission": "Claim",
     "interact_permission": "Claim",
@@ -53844,7 +54158,7 @@
         "footprint_type": "Hitbox"
       }
     ],
-    "max_health": 24,
+    "max_health": 72,
     "ignore_damage": false,
     "defense_level": 10000,
     "decay": 1.0,
@@ -56610,10 +56924,10 @@
         "footprint_type": "Hitbox"
       }
     ],
-    "max_health": -1,
+    "max_health": 72,
     "ignore_damage": false,
     "defense_level": 10000,
-    "decay": 0.0,
+    "decay": 1.0,
     "maintenance": 0.0,
     "build_permission": "Claim",
     "interact_permission": "Claim",
@@ -59809,6 +60123,60 @@
     "not_deconstructible": false
   },
   {
+    "id": 517819121,
+    "functions": [
+      {
+        "function_type": 1002,
+        "level": 8,
+        "crafting_slots": 0,
+        "storage_slots": 0,
+        "cargo_slots": 0,
+        "refining_slots": 0,
+        "refining_cargo_slots": 0,
+        "item_slot_size": 6000,
+        "cargo_slot_size": 6000,
+        "trade_orders": 0,
+        "allowed_item_id_per_slot": [],
+        "buff_ids": [],
+        "concurrent_crafts_per_player": 0,
+        "terraform": false,
+        "housing_slots": 0,
+        "housing_income": 0
+      }
+    ],
+    "name": "Cozy Cottage Room Divider",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/DecoCottage_RoomDivider",
+    "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Other/Buildings/DecoCottage_RoomDivider",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      {
+        "x": 0,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": -1,
+        "z": 1,
+        "footprint_type": "Hitbox"
+      }
+    ],
+    "max_health": 72,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 1.0,
+    "maintenance": 0.0,
+    "build_permission": "Claim",
+    "interact_permission": "Claim",
+    "has_action": true,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false
+  },
+  {
     "id": 520157334,
     "functions": [],
     "name": "SmallFenceEndCapC",
@@ -59935,7 +60303,7 @@
         "footprint_type": "Hitbox"
       }
     ],
-    "max_health": 24,
+    "max_health": 72,
     "ignore_damage": false,
     "defense_level": 10000,
     "decay": 1.0,
@@ -60162,10 +60530,10 @@
         "footprint_type": "Hitbox"
       }
     ],
-    "max_health": -1,
+    "max_health": 72,
     "ignore_damage": false,
     "defense_level": 10000,
-    "decay": 0.0,
+    "decay": 1.0,
     "maintenance": 0.0,
     "build_permission": "Claim",
     "interact_permission": "Claim",
@@ -60295,10 +60663,10 @@
         "footprint_type": "Hitbox"
       }
     ],
-    "max_health": -1,
+    "max_health": 72,
     "ignore_damage": false,
     "defense_level": 10000,
-    "decay": 0.0,
+    "decay": 1.0,
     "maintenance": 0.0,
     "build_permission": "Claim",
     "interact_permission": "Claim",
@@ -60349,10 +60717,10 @@
         "footprint_type": "Hitbox"
       }
     ],
-    "max_health": -1,
+    "max_health": 72,
     "ignore_damage": false,
     "defense_level": 10000,
-    "decay": 0.0,
+    "decay": 1.0,
     "maintenance": 0.0,
     "build_permission": "Claim",
     "interact_permission": "Claim",
@@ -60542,10 +60910,10 @@
         "footprint_type": "Walkable"
       }
     ],
-    "max_health": -1,
+    "max_health": 72,
     "ignore_damage": false,
     "defense_level": 10000,
-    "decay": 0.0,
+    "decay": 1.0,
     "maintenance": 0.0,
     "build_permission": "Claim",
     "interact_permission": "Claim",
@@ -60852,10 +61220,10 @@
         "footprint_type": "Hitbox"
       }
     ],
-    "max_health": -1,
+    "max_health": 72,
     "ignore_damage": false,
     "defense_level": 10000,
-    "decay": 0.0,
+    "decay": 1.0,
     "maintenance": 0.0,
     "build_permission": "Claim",
     "interact_permission": "Claim",
@@ -61446,10 +61814,10 @@
         "footprint_type": "Hitbox"
       }
     ],
-    "max_health": -1,
+    "max_health": 72,
     "ignore_damage": false,
     "defense_level": 10000,
-    "decay": 0.0,
+    "decay": 1.0,
     "maintenance": 0.0,
     "build_permission": "Claim",
     "interact_permission": "Claim",
@@ -61838,10 +62206,10 @@
         "footprint_type": "Walkable"
       }
     ],
-    "max_health": -1,
+    "max_health": 72,
     "ignore_damage": false,
     "defense_level": 10000,
-    "decay": 0.0,
+    "decay": 1.0,
     "maintenance": 0.0,
     "build_permission": "Claim",
     "interact_permission": "Claim",
@@ -61887,7 +62255,7 @@
         "footprint_type": "Hitbox"
       }
     ],
-    "max_health": 24,
+    "max_health": 72,
     "ignore_damage": false,
     "defense_level": 10000,
     "decay": 1.0,
@@ -62535,10 +62903,59 @@
         "footprint_type": "Hitbox"
       }
     ],
-    "max_health": -1,
+    "max_health": 72,
     "ignore_damage": false,
     "defense_level": 10000,
-    "decay": 0.0,
+    "decay": 1.0,
+    "maintenance": 0.0,
+    "build_permission": "Claim",
+    "interact_permission": "Claim",
+    "has_action": true,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false
+  },
+  {
+    "id": 800860961,
+    "functions": [
+      {
+        "function_type": 1002,
+        "level": 8,
+        "crafting_slots": 0,
+        "storage_slots": 0,
+        "cargo_slots": 0,
+        "refining_slots": 0,
+        "refining_cargo_slots": 0,
+        "item_slot_size": 6000,
+        "cargo_slot_size": 6000,
+        "trade_orders": 0,
+        "allowed_item_id_per_slot": [],
+        "buff_ids": [],
+        "concurrent_crafts_per_player": 0,
+        "terraform": false,
+        "housing_slots": 0,
+        "housing_income": 0
+      }
+    ],
+    "name": "Cozy Cottage Table Plant",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/DecoCottage_EndTable02",
+    "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Other/Buildings/DecoCottage_EndTable02",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      {
+        "x": 0,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      }
+    ],
+    "max_health": 72,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 1.0,
     "maintenance": 0.0,
     "build_permission": "Claim",
     "interact_permission": "Claim",
@@ -62940,10 +63357,10 @@
         "footprint_type": "Walkable"
       }
     ],
-    "max_health": -1,
+    "max_health": 72,
     "ignore_damage": false,
     "defense_level": 10000,
-    "decay": 0.0,
+    "decay": 1.0,
     "maintenance": 0.0,
     "build_permission": "Claim",
     "interact_permission": "Claim",
@@ -63460,10 +63877,10 @@
         "footprint_type": "Hitbox"
       }
     ],
-    "max_health": -1,
+    "max_health": 72,
     "ignore_damage": false,
     "defense_level": 10000,
-    "decay": 0.0,
+    "decay": 1.0,
     "maintenance": 0.0,
     "build_permission": "Claim",
     "interact_permission": "Claim",
@@ -63631,6 +64048,55 @@
     "build_permission": "Claim",
     "interact_permission": "All",
     "has_action": true,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false
+  },
+  {
+    "id": 889612944,
+    "functions": [
+      {
+        "function_type": 1002,
+        "level": -1,
+        "crafting_slots": 0,
+        "storage_slots": 0,
+        "cargo_slots": 0,
+        "refining_slots": 0,
+        "refining_cargo_slots": 0,
+        "item_slot_size": 6000,
+        "cargo_slot_size": 6000,
+        "trade_orders": 0,
+        "allowed_item_id_per_slot": [],
+        "buff_ids": [],
+        "concurrent_crafts_per_player": 0,
+        "terraform": false,
+        "housing_slots": 0,
+        "housing_income": 0
+      }
+    ],
+    "name": "Fancy Empire Banner",
+    "description": "A banner that would show off your empire's colors and emblem.",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/EmpireBannerBaseA",
+    "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Other/Buildings/EmpireBannerA",
+    "unenterable": true,
+    "wilderness": false,
+    "footprint": [
+      {
+        "x": 0,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      }
+    ],
+    "max_health": -1,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 0.0,
+    "maintenance": 0.0,
+    "build_permission": "Claim",
+    "interact_permission": "Claim",
+    "has_action": false,
     "show_in_compendium": true,
     "is_ruins": false,
     "not_deconstructible": false
@@ -63890,10 +64356,10 @@
         "footprint_type": "Hitbox"
       }
     ],
-    "max_health": -1,
+    "max_health": 72,
     "ignore_damage": false,
     "defense_level": 10000,
-    "decay": 0.0,
+    "decay": 1.0,
     "maintenance": 0.0,
     "build_permission": "Claim",
     "interact_permission": "Claim",
@@ -64611,10 +65077,10 @@
         "footprint_type": "Hitbox"
       }
     ],
-    "max_health": -1,
+    "max_health": 72,
     "ignore_damage": false,
     "defense_level": 10000,
-    "decay": 0.0,
+    "decay": 1.0,
     "maintenance": 0.0,
     "build_permission": "Claim",
     "interact_permission": "Claim",
@@ -64865,10 +65331,10 @@
         "footprint_type": "Hitbox"
       }
     ],
-    "max_health": -1,
+    "max_health": 72,
     "ignore_damage": false,
     "defense_level": 10000,
-    "decay": 0.0,
+    "decay": 1.0,
     "maintenance": 0.0,
     "build_permission": "Claim",
     "interact_permission": "Claim",
@@ -65191,10 +65657,10 @@
         "footprint_type": "Hitbox"
       }
     ],
-    "max_health": -1,
+    "max_health": 72,
     "ignore_damage": false,
     "defense_level": 10000,
-    "decay": 0.0,
+    "decay": 1.0,
     "maintenance": 0.0,
     "build_permission": "Claim",
     "interact_permission": "Claim",
@@ -65270,10 +65736,10 @@
         "footprint_type": "Hitbox"
       }
     ],
-    "max_health": -1,
+    "max_health": 72,
     "ignore_damage": false,
     "defense_level": 10000,
-    "decay": 0.0,
+    "decay": 1.0,
     "maintenance": 0.0,
     "build_permission": "Claim",
     "interact_permission": "Claim",
@@ -65458,10 +65924,10 @@
         "footprint_type": "Hitbox"
       }
     ],
-    "max_health": -1,
+    "max_health": 72,
     "ignore_damage": false,
     "defense_level": 10000,
-    "decay": 0.0,
+    "decay": 1.0,
     "maintenance": 0.0,
     "build_permission": "Claim",
     "interact_permission": "Claim",
@@ -68611,10 +69077,10 @@
         "footprint_type": "Hitbox"
       }
     ],
-    "max_health": -1,
+    "max_health": 72,
     "ignore_damage": false,
     "defense_level": 10000,
-    "decay": 0.0,
+    "decay": 1.0,
     "maintenance": 0.0,
     "build_permission": "Claim",
     "interact_permission": "Claim",
@@ -68719,10 +69185,10 @@
         "footprint_type": "Walkable"
       }
     ],
-    "max_health": -1,
+    "max_health": 72,
     "ignore_damage": false,
     "defense_level": 10000,
-    "decay": 0.0,
+    "decay": 1.0,
     "maintenance": 0.0,
     "build_permission": "Claim",
     "interact_permission": "Claim",
@@ -68882,10 +69348,10 @@
         "footprint_type": "Hitbox"
       }
     ],
-    "max_health": -1,
+    "max_health": 72,
     "ignore_damage": false,
     "defense_level": 10000,
-    "decay": 0.0,
+    "decay": 1.0,
     "maintenance": 0.0,
     "build_permission": "Claim",
     "interact_permission": "Claim",
@@ -69105,10 +69571,10 @@
         "footprint_type": "Hitbox"
       }
     ],
-    "max_health": -1,
+    "max_health": 72,
     "ignore_damage": false,
     "defense_level": 10000,
-    "decay": 0.0,
+    "decay": 1.0,
     "maintenance": 0.0,
     "build_permission": "Claim",
     "interact_permission": "Claim",
@@ -69849,7 +70315,7 @@
         "footprint_type": "Hitbox"
       }
     ],
-    "max_health": 24,
+    "max_health": 72,
     "ignore_damage": false,
     "defense_level": 10000,
     "decay": 1.0,
@@ -70829,6 +71295,55 @@
     "not_deconstructible": false
   },
   {
+    "id": 1137346437,
+    "functions": [
+      {
+        "function_type": 1002,
+        "level": 8,
+        "crafting_slots": 0,
+        "storage_slots": 0,
+        "cargo_slots": 0,
+        "refining_slots": 0,
+        "refining_cargo_slots": 0,
+        "item_slot_size": 6000,
+        "cargo_slot_size": 6000,
+        "trade_orders": 0,
+        "allowed_item_id_per_slot": [],
+        "buff_ids": [],
+        "concurrent_crafts_per_player": 0,
+        "terraform": false,
+        "housing_slots": 0,
+        "housing_income": 0
+      }
+    ],
+    "name": "Cozy Cottage Circular Rug",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/DecoCottage_Rug1",
+    "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Other/Buildings/DecoCottage_Rug1",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      {
+        "x": 0,
+        "z": 0,
+        "footprint_type": "Walkable"
+      }
+    ],
+    "max_health": 72,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 1.0,
+    "maintenance": 0.0,
+    "build_permission": "Claim",
+    "interact_permission": "Claim",
+    "has_action": true,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false
+  },
+  {
     "id": 1143147753,
     "functions": [],
     "name": "RuinDecorMainPlatformPillar",
@@ -70895,10 +71410,10 @@
         "footprint_type": "Hitbox"
       }
     ],
-    "max_health": -1,
+    "max_health": 72,
     "ignore_damage": false,
     "defense_level": 10000,
-    "decay": 0.0,
+    "decay": 1.0,
     "maintenance": 0.0,
     "build_permission": "Claim",
     "interact_permission": "Claim",
@@ -70992,6 +71507,55 @@
     "build_permission": "Claim",
     "interact_permission": "All",
     "has_action": true,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false
+  },
+  {
+    "id": 1156770326,
+    "functions": [
+      {
+        "function_type": 1002,
+        "level": -1,
+        "crafting_slots": 0,
+        "storage_slots": 0,
+        "cargo_slots": 0,
+        "refining_slots": 0,
+        "refining_cargo_slots": 0,
+        "item_slot_size": 6000,
+        "cargo_slot_size": 6000,
+        "trade_orders": 0,
+        "allowed_item_id_per_slot": [],
+        "buff_ids": [],
+        "concurrent_crafts_per_player": 0,
+        "terraform": false,
+        "housing_slots": 0,
+        "housing_income": 0
+      }
+    ],
+    "name": "Traditional Empire Banner",
+    "description": "A banner that would show off your empire's colors and emblem.",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/EmpireBannerBaseE",
+    "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Other/Buildings/EmpireBannerE",
+    "unenterable": true,
+    "wilderness": false,
+    "footprint": [
+      {
+        "x": 0,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      }
+    ],
+    "max_health": -1,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 0.0,
+    "maintenance": 0.0,
+    "build_permission": "Claim",
+    "interact_permission": "Claim",
+    "has_action": false,
     "show_in_compendium": true,
     "is_ruins": false,
     "not_deconstructible": false
@@ -71236,7 +71800,7 @@
         "footprint_type": "Hitbox"
       }
     ],
-    "max_health": 24,
+    "max_health": 72,
     "ignore_damage": false,
     "defense_level": 10000,
     "decay": 1.0,
@@ -71702,10 +72266,10 @@
         "footprint_type": "Hitbox"
       }
     ],
-    "max_health": -1,
+    "max_health": 72,
     "ignore_damage": false,
     "defense_level": 10000,
-    "decay": 0.0,
+    "decay": 1.0,
     "maintenance": 0.0,
     "build_permission": "Claim",
     "interact_permission": "Claim",
@@ -71825,10 +72389,10 @@
         "footprint_type": "Hitbox"
       }
     ],
-    "max_health": -1,
+    "max_health": 72,
     "ignore_damage": false,
     "defense_level": 10000,
-    "decay": 0.0,
+    "decay": 1.0,
     "maintenance": 0.0,
     "build_permission": "Claim",
     "interact_permission": "Claim",
@@ -72330,10 +72894,89 @@
         "footprint_type": "Hitbox"
       }
     ],
-    "max_health": -1,
+    "max_health": 72,
     "ignore_damage": false,
     "defense_level": 10000,
-    "decay": 0.0,
+    "decay": 1.0,
+    "maintenance": 0.0,
+    "build_permission": "Claim",
+    "interact_permission": "Claim",
+    "has_action": true,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false
+  },
+  {
+    "id": 1228190756,
+    "functions": [
+      {
+        "function_type": 1002,
+        "level": 8,
+        "crafting_slots": 0,
+        "storage_slots": 0,
+        "cargo_slots": 0,
+        "refining_slots": 0,
+        "refining_cargo_slots": 0,
+        "item_slot_size": 6000,
+        "cargo_slot_size": 6000,
+        "trade_orders": 0,
+        "allowed_item_id_per_slot": [],
+        "buff_ids": [],
+        "concurrent_crafts_per_player": 0,
+        "terraform": false,
+        "housing_slots": 0,
+        "housing_income": 0
+      }
+    ],
+    "name": "Cozy Cottage Decorative Rug",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/DecoCottage_Rug3",
+    "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Other/Buildings/DecoCottage_Rug3",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      {
+        "x": 0,
+        "z": 0,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": -1,
+        "z": 0,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": 1,
+        "z": 0,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": 0,
+        "z": -1,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": 1,
+        "z": -1,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": 0,
+        "z": 1,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": -1,
+        "z": 1,
+        "footprint_type": "Walkable"
+      }
+    ],
+    "max_health": 72,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 1.0,
     "maintenance": 0.0,
     "build_permission": "Claim",
     "interact_permission": "Claim",
@@ -73083,10 +73726,10 @@
         "footprint_type": "Hitbox"
       }
     ],
-    "max_health": -1,
+    "max_health": 72,
     "ignore_damage": false,
     "defense_level": 10000,
-    "decay": 0.0,
+    "decay": 1.0,
     "maintenance": 0.0,
     "build_permission": "Claim",
     "interact_permission": "Claim",
@@ -73285,10 +73928,10 @@
         "footprint_type": "Walkable"
       }
     ],
-    "max_health": -1,
+    "max_health": 72,
     "ignore_damage": false,
     "defense_level": 10000,
-    "decay": 0.0,
+    "decay": 1.0,
     "maintenance": 0.0,
     "build_permission": "Claim",
     "interact_permission": "Claim",
@@ -73684,10 +74327,10 @@
         "footprint_type": "Hitbox"
       }
     ],
-    "max_health": -1,
+    "max_health": 72,
     "ignore_damage": false,
     "defense_level": 10000,
-    "decay": 0.0,
+    "decay": 1.0,
     "maintenance": 0.0,
     "build_permission": "Claim",
     "interact_permission": "Claim",
@@ -73738,7 +74381,7 @@
         "footprint_type": "Hitbox"
       }
     ],
-    "max_health": 24,
+    "max_health": 72,
     "ignore_damage": false,
     "defense_level": 10000,
     "decay": 1.0,
@@ -73837,6 +74480,65 @@
       }
     ],
     "max_health": 120,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 1.0,
+    "maintenance": 0.0,
+    "build_permission": "Claim",
+    "interact_permission": "Claim",
+    "has_action": true,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false
+  },
+  {
+    "id": 1374628201,
+    "functions": [
+      {
+        "function_type": 1002,
+        "level": 8,
+        "crafting_slots": 0,
+        "storage_slots": 0,
+        "cargo_slots": 0,
+        "refining_slots": 0,
+        "refining_cargo_slots": 0,
+        "item_slot_size": 6000,
+        "cargo_slot_size": 6000,
+        "trade_orders": 0,
+        "allowed_item_id_per_slot": [],
+        "buff_ids": [],
+        "concurrent_crafts_per_player": 0,
+        "terraform": false,
+        "housing_slots": 0,
+        "housing_income": 0
+      }
+    ],
+    "name": "Cozy Cottage Long Rug",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/DecoCottage_Rug2",
+    "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Other/Buildings/DecoCottage_Rug2",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      {
+        "x": 0,
+        "z": 0,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": -1,
+        "z": 0,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": 1,
+        "z": 0,
+        "footprint_type": "Walkable"
+      }
+    ],
+    "max_health": 72,
     "ignore_damage": false,
     "defense_level": 10000,
     "decay": 1.0,
@@ -73954,10 +74656,10 @@
         "footprint_type": "Hitbox"
       }
     ],
-    "max_health": -1,
+    "max_health": 72,
     "ignore_damage": false,
     "defense_level": 10000,
-    "decay": 0.0,
+    "decay": 1.0,
     "maintenance": 0.0,
     "build_permission": "Claim",
     "interact_permission": "Claim",
@@ -74551,10 +75253,10 @@
         "footprint_type": "Hitbox"
       }
     ],
-    "max_health": -1,
+    "max_health": 72,
     "ignore_damage": false,
     "defense_level": 10000,
-    "decay": 0.0,
+    "decay": 1.0,
     "maintenance": 0.0,
     "build_permission": "Claim",
     "interact_permission": "Claim",
@@ -74679,10 +75381,10 @@
         "footprint_type": "Hitbox"
       }
     ],
-    "max_health": -1,
+    "max_health": 72,
     "ignore_damage": false,
     "defense_level": 10000,
-    "decay": 0.0,
+    "decay": 1.0,
     "maintenance": 0.0,
     "build_permission": "Claim",
     "interact_permission": "Claim",
@@ -74882,10 +75584,10 @@
         "footprint_type": "Hitbox"
       }
     ],
-    "max_health": -1,
+    "max_health": 72,
     "ignore_damage": false,
     "defense_level": 10000,
-    "decay": 0.0,
+    "decay": 1.0,
     "maintenance": 0.0,
     "build_permission": "Claim",
     "interact_permission": "Claim",
@@ -75160,10 +75862,10 @@
         "footprint_type": "Walkable"
       }
     ],
-    "max_health": -1,
+    "max_health": 72,
     "ignore_damage": false,
     "defense_level": 10000,
-    "decay": 0.0,
+    "decay": 1.0,
     "maintenance": 0.0,
     "build_permission": "Claim",
     "interact_permission": "Claim",
@@ -75640,7 +76342,7 @@
         "footprint_type": "Hitbox"
       }
     ],
-    "max_health": 24,
+    "max_health": 72,
     "ignore_damage": false,
     "defense_level": 10000,
     "decay": 1.0,
@@ -75832,10 +76534,10 @@
         "footprint_type": "Hitbox"
       }
     ],
-    "max_health": -1,
+    "max_health": 72,
     "ignore_damage": false,
     "defense_level": 10000,
-    "decay": 0.0,
+    "decay": 1.0,
     "maintenance": 0.0,
     "build_permission": "Claim",
     "interact_permission": "Claim",
@@ -76080,10 +76782,10 @@
         "footprint_type": "Hitbox"
       }
     ],
-    "max_health": -1,
+    "max_health": 72,
     "ignore_damage": false,
     "defense_level": 10000,
-    "decay": 0.0,
+    "decay": 1.0,
     "maintenance": 0.0,
     "build_permission": "Claim",
     "interact_permission": "Claim",
@@ -76199,10 +76901,10 @@
         "footprint_type": "Hitbox"
       }
     ],
-    "max_health": -1,
+    "max_health": 72,
     "ignore_damage": false,
     "defense_level": 10000,
-    "decay": 0.0,
+    "decay": 1.0,
     "maintenance": 0.0,
     "build_permission": "Claim",
     "interact_permission": "Claim",
@@ -76345,9 +77047,9 @@
     "name": "Gothic Lamp Post",
     "description": "",
     "rested_buff_duration": 0,
-    "light_radius": 0,
+    "light_radius": 10,
     "model_asset_name": "Buildings/GothicLampPost",
-    "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Other/Buildings/GothicTallChair",
+    "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Other/Buildings/GothicLampPost",
     "unenterable": true,
     "wilderness": true,
     "footprint": [
@@ -78885,6 +79587,60 @@
     "interact_permission": "None",
     "has_action": false,
     "show_in_compendium": false,
+    "is_ruins": false,
+    "not_deconstructible": false
+  },
+  {
+    "id": 1658803297,
+    "functions": [
+      {
+        "function_type": 1002,
+        "level": 8,
+        "crafting_slots": 0,
+        "storage_slots": 0,
+        "cargo_slots": 0,
+        "refining_slots": 0,
+        "refining_cargo_slots": 0,
+        "item_slot_size": 6000,
+        "cargo_slot_size": 6000,
+        "trade_orders": 0,
+        "allowed_item_id_per_slot": [],
+        "buff_ids": [],
+        "concurrent_crafts_per_player": 0,
+        "terraform": false,
+        "housing_slots": 0,
+        "housing_income": 0
+      }
+    ],
+    "name": "Cozy Cottage Couch",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/DecoCottage_Couch",
+    "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Other/Buildings/DecoCottage_Couch",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      {
+        "x": 0,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": -1,
+        "z": 1,
+        "footprint_type": "Hitbox"
+      }
+    ],
+    "max_health": 72,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 1.0,
+    "maintenance": 0.0,
+    "build_permission": "Claim",
+    "interact_permission": "Claim",
+    "has_action": true,
+    "show_in_compendium": true,
     "is_ruins": false,
     "not_deconstructible": false
   },
@@ -81617,10 +82373,10 @@
         "footprint_type": "Hitbox"
       }
     ],
-    "max_health": -1,
+    "max_health": 72,
     "ignore_damage": false,
     "defense_level": 10000,
-    "decay": 0.0,
+    "decay": 1.0,
     "maintenance": 0.0,
     "build_permission": "Claim",
     "interact_permission": "Claim",
@@ -82021,10 +82777,10 @@
         "footprint_type": "Hitbox"
       }
     ],
-    "max_health": -1,
+    "max_health": 72,
     "ignore_damage": false,
     "defense_level": 10000,
-    "decay": 0.0,
+    "decay": 1.0,
     "maintenance": 0.0,
     "build_permission": "Claim",
     "interact_permission": "Claim",
@@ -82332,10 +83088,10 @@
         "footprint_type": "Hitbox"
       }
     ],
-    "max_health": -1,
+    "max_health": 72,
     "ignore_damage": false,
     "defense_level": 10000,
-    "decay": 0.0,
+    "decay": 1.0,
     "maintenance": 0.0,
     "build_permission": "Claim",
     "interact_permission": "Claim",
@@ -85635,7 +86391,7 @@
         "footprint_type": "Walkable"
       }
     ],
-    "max_health": 24,
+    "max_health": 72,
     "ignore_damage": false,
     "defense_level": 10000,
     "decay": 1.0,
@@ -86238,10 +86994,10 @@
         "footprint_type": "Hitbox"
       }
     ],
-    "max_health": -1,
+    "max_health": 72,
     "ignore_damage": false,
     "defense_level": 10000,
-    "decay": 0.0,
+    "decay": 1.0,
     "maintenance": 0.0,
     "build_permission": "Claim",
     "interact_permission": "Claim",
@@ -86683,6 +87439,55 @@
     "build_permission": "Claim",
     "interact_permission": "All",
     "has_action": true,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false
+  },
+  {
+    "id": 1824420291,
+    "functions": [
+      {
+        "function_type": 1002,
+        "level": -1,
+        "crafting_slots": 0,
+        "storage_slots": 0,
+        "cargo_slots": 0,
+        "refining_slots": 0,
+        "refining_cargo_slots": 0,
+        "item_slot_size": 6000,
+        "cargo_slot_size": 6000,
+        "trade_orders": 0,
+        "allowed_item_id_per_slot": [],
+        "buff_ids": [],
+        "concurrent_crafts_per_player": 0,
+        "terraform": false,
+        "housing_slots": 0,
+        "housing_income": 0
+      }
+    ],
+    "name": "Understated Empire Banner",
+    "description": "A banner that would show off your empire's colors and emblem.",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/EmpireBannerBaseF",
+    "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Other/Buildings/EmpireBannerF",
+    "unenterable": true,
+    "wilderness": false,
+    "footprint": [
+      {
+        "x": 0,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      }
+    ],
+    "max_health": -1,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 0.0,
+    "maintenance": 0.0,
+    "build_permission": "Claim",
+    "interact_permission": "Claim",
+    "has_action": false,
     "show_in_compendium": true,
     "is_ruins": false,
     "not_deconstructible": false
@@ -93265,6 +94070,109 @@
     "not_deconstructible": false
   },
   {
+    "id": 1854284010,
+    "functions": [
+      {
+        "function_type": 3,
+        "level": 8,
+        "crafting_slots": 0,
+        "storage_slots": 0,
+        "cargo_slots": 54,
+        "refining_slots": 0,
+        "refining_cargo_slots": 0,
+        "item_slot_size": 60000,
+        "cargo_slot_size": 600000,
+        "trade_orders": 0,
+        "allowed_item_id_per_slot": [],
+        "buff_ids": [],
+        "concurrent_crafts_per_player": 0,
+        "terraform": false,
+        "housing_slots": 0,
+        "housing_income": 0
+      }
+    ],
+    "name": "Cozy Cottage Cargo Bin",
+    "description": "A bin for storing cargo, can only be built inside.",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/DecoCottage_Chest",
+    "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Other/Buildings/DecoCottage_Chest",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      {
+        "x": 0,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 1,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      }
+    ],
+    "max_health": 72,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 1.0,
+    "maintenance": 0.0,
+    "build_permission": "Claim",
+    "interact_permission": "Claim",
+    "has_action": true,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false
+  },
+  {
+    "id": 1855409370,
+    "functions": [
+      {
+        "function_type": 1002,
+        "level": 8,
+        "crafting_slots": 0,
+        "storage_slots": 0,
+        "cargo_slots": 0,
+        "refining_slots": 0,
+        "refining_cargo_slots": 0,
+        "item_slot_size": 6000,
+        "cargo_slot_size": 6000,
+        "trade_orders": 0,
+        "allowed_item_id_per_slot": [],
+        "buff_ids": [],
+        "concurrent_crafts_per_player": 0,
+        "terraform": false,
+        "housing_slots": 0,
+        "housing_income": 0
+      }
+    ],
+    "name": "Cozy Cottage Armchair",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/DecoCottage_Chair1",
+    "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Other/Buildings/DecoCottage_Chair1",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      {
+        "x": 0,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      }
+    ],
+    "max_health": 72,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 1.0,
+    "maintenance": 0.0,
+    "build_permission": "Claim",
+    "interact_permission": "Claim",
+    "has_action": true,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false
+  },
+  {
     "id": 1856615884,
     "functions": [
       {
@@ -94416,10 +95324,10 @@
         "footprint_type": "Hitbox"
       }
     ],
-    "max_health": -1,
+    "max_health": 72,
     "ignore_damage": false,
     "defense_level": 10000,
-    "decay": 0.0,
+    "decay": 1.0,
     "maintenance": 0.0,
     "build_permission": "Claim",
     "interact_permission": "Claim",
@@ -94520,6 +95428,55 @@
     "interact_permission": "None",
     "has_action": false,
     "show_in_compendium": false,
+    "is_ruins": false,
+    "not_deconstructible": false
+  },
+  {
+    "id": 1949877225,
+    "functions": [
+      {
+        "function_type": 1002,
+        "level": 8,
+        "crafting_slots": 0,
+        "storage_slots": 0,
+        "cargo_slots": 0,
+        "refining_slots": 0,
+        "refining_cargo_slots": 0,
+        "item_slot_size": 6000,
+        "cargo_slot_size": 6000,
+        "trade_orders": 0,
+        "allowed_item_id_per_slot": [],
+        "buff_ids": [],
+        "concurrent_crafts_per_player": 0,
+        "terraform": false,
+        "housing_slots": 0,
+        "housing_income": 0
+      }
+    ],
+    "name": "Cozy Cottage Shelf",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/DecoCottage_Shelf",
+    "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Other/Buildings/DecoCottage_Shelf",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      {
+        "x": 0,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      }
+    ],
+    "max_health": 72,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 1.0,
+    "maintenance": 0.0,
+    "build_permission": "Claim",
+    "interact_permission": "Claim",
+    "has_action": true,
+    "show_in_compendium": true,
     "is_ruins": false,
     "not_deconstructible": false
   },
@@ -94992,10 +95949,10 @@
         "footprint_type": "Hitbox"
       }
     ],
-    "max_health": -1,
+    "max_health": 72,
     "ignore_damage": false,
     "defense_level": 10000,
-    "decay": 0.0,
+    "decay": 1.0,
     "maintenance": 0.0,
     "build_permission": "Claim",
     "interact_permission": "Claim",
@@ -95120,10 +96077,10 @@
         "footprint_type": "Hitbox"
       }
     ],
-    "max_health": -1,
+    "max_health": 72,
     "ignore_damage": false,
     "defense_level": 10000,
-    "decay": 0.0,
+    "decay": 1.0,
     "maintenance": 0.0,
     "build_permission": "Claim",
     "interact_permission": "Claim",
@@ -95277,10 +96234,10 @@
         "footprint_type": "Hitbox"
       }
     ],
-    "max_health": -1,
+    "max_health": 72,
     "ignore_damage": false,
     "defense_level": 10000,
-    "decay": 0.0,
+    "decay": 1.0,
     "maintenance": 0.0,
     "build_permission": "Claim",
     "interact_permission": "Claim",
@@ -96635,6 +97592,55 @@
     "show_in_compendium": true,
     "is_ruins": false,
     "not_deconstructible": true
+  },
+  {
+    "id": 2015469740,
+    "functions": [
+      {
+        "function_type": 1002,
+        "level": -1,
+        "crafting_slots": 0,
+        "storage_slots": 0,
+        "cargo_slots": 0,
+        "refining_slots": 0,
+        "refining_cargo_slots": 0,
+        "item_slot_size": 6000,
+        "cargo_slot_size": 6000,
+        "trade_orders": 0,
+        "allowed_item_id_per_slot": [],
+        "buff_ids": [],
+        "concurrent_crafts_per_player": 0,
+        "terraform": false,
+        "housing_slots": 0,
+        "housing_income": 0
+      }
+    ],
+    "name": "Regal Empire Banner",
+    "description": "A banner that would show off your empire's colors and emblem.",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/EmpireBannerBaseB",
+    "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Other/Buildings/EmpireBannerB",
+    "unenterable": true,
+    "wilderness": false,
+    "footprint": [
+      {
+        "x": 0,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      }
+    ],
+    "max_health": -1,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 0.0,
+    "maintenance": 0.0,
+    "build_permission": "Claim",
+    "interact_permission": "Claim",
+    "has_action": false,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false
   },
   {
     "id": 2024015333,
@@ -99618,10 +100624,10 @@
         "footprint_type": "Hitbox"
       }
     ],
-    "max_health": -1,
+    "max_health": 72,
     "ignore_damage": false,
     "defense_level": 10000,
-    "decay": 0.0,
+    "decay": 1.0,
     "maintenance": 0.0,
     "build_permission": "Claim",
     "interact_permission": "Claim",
@@ -99672,10 +100678,10 @@
         "footprint_type": "Hitbox"
       }
     ],
-    "max_health": -1,
+    "max_health": 72,
     "ignore_damage": false,
     "defense_level": 10000,
-    "decay": 0.0,
+    "decay": 1.0,
     "maintenance": 0.0,
     "build_permission": "Claim",
     "interact_permission": "Claim",
@@ -99721,10 +100727,10 @@
         "footprint_type": "Hitbox"
       }
     ],
-    "max_health": -1,
+    "max_health": 72,
     "ignore_damage": false,
     "defense_level": 10000,
-    "decay": 0.0,
+    "decay": 1.0,
     "maintenance": 0.0,
     "build_permission": "Claim",
     "interact_permission": "Claim",
@@ -99800,10 +100806,10 @@
         "footprint_type": "Hitbox"
       }
     ],
-    "max_health": -1,
+    "max_health": 72,
     "ignore_damage": false,
     "defense_level": 10000,
-    "decay": 0.0,
+    "decay": 1.0,
     "maintenance": 0.0,
     "build_permission": "Claim",
     "interact_permission": "Claim",
@@ -99849,10 +100855,10 @@
         "footprint_type": "Hitbox"
       }
     ],
-    "max_health": -1,
+    "max_health": 72,
     "ignore_damage": false,
     "defense_level": 10000,
-    "decay": 0.0,
+    "decay": 1.0,
     "maintenance": 0.0,
     "build_permission": "Claim",
     "interact_permission": "Claim",
@@ -104567,6 +105573,55 @@
     "not_deconstructible": false
   },
   {
+    "id": 2073432486,
+    "functions": [
+      {
+        "function_type": 1002,
+        "level": 8,
+        "crafting_slots": 0,
+        "storage_slots": 0,
+        "cargo_slots": 0,
+        "refining_slots": 0,
+        "refining_cargo_slots": 0,
+        "item_slot_size": 6000,
+        "cargo_slot_size": 6000,
+        "trade_orders": 0,
+        "allowed_item_id_per_slot": [],
+        "buff_ids": [],
+        "concurrent_crafts_per_player": 0,
+        "terraform": false,
+        "housing_slots": 0,
+        "housing_income": 0
+      }
+    ],
+    "name": "Cozy Cottage Chair",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/DecoCottage_Chair2",
+    "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Other/Buildings/DecoCottage_Chair2",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      {
+        "x": 0,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      }
+    ],
+    "max_health": 72,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 1.0,
+    "maintenance": 0.0,
+    "build_permission": "Claim",
+    "interact_permission": "Claim",
+    "has_action": true,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false
+  },
+  {
     "id": 2076454680,
     "functions": [
       {
@@ -104603,7 +105658,7 @@
         "footprint_type": "Hitbox"
       }
     ],
-    "max_health": 24,
+    "max_health": 72,
     "ignore_damage": false,
     "defense_level": 10000,
     "decay": 1.0,
@@ -104682,10 +105737,10 @@
         "footprint_type": "Hitbox"
       }
     ],
-    "max_health": -1,
+    "max_health": 72,
     "ignore_damage": false,
     "defense_level": 10000,
-    "decay": 0.0,
+    "decay": 1.0,
     "maintenance": 0.0,
     "build_permission": "Claim",
     "interact_permission": "Claim",
@@ -105098,10 +106153,10 @@
         "footprint_type": "Hitbox"
       }
     ],
-    "max_health": -1,
+    "max_health": 72,
     "ignore_damage": false,
     "defense_level": 10000,
-    "decay": 0.0,
+    "decay": 1.0,
     "maintenance": 0.0,
     "build_permission": "Claim",
     "interact_permission": "Claim",
@@ -105496,6 +106551,55 @@
     "interact_permission": "None",
     "has_action": false,
     "show_in_compendium": false,
+    "is_ruins": false,
+    "not_deconstructible": false
+  },
+  {
+    "id": 2123077959,
+    "functions": [
+      {
+        "function_type": 1002,
+        "level": 8,
+        "crafting_slots": 0,
+        "storage_slots": 0,
+        "cargo_slots": 0,
+        "refining_slots": 0,
+        "refining_cargo_slots": 0,
+        "item_slot_size": 6000,
+        "cargo_slot_size": 6000,
+        "trade_orders": 0,
+        "allowed_item_id_per_slot": [],
+        "buff_ids": [],
+        "concurrent_crafts_per_player": 0,
+        "terraform": false,
+        "housing_slots": 0,
+        "housing_income": 0
+      }
+    ],
+    "name": "Cozy Cottage End Table",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/DecoCottage_EndTable01",
+    "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Other/Buildings/DecoCottage_EndTable01",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      {
+        "x": 0,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      }
+    ],
+    "max_health": 72,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 1.0,
+    "maintenance": 0.0,
+    "build_permission": "Claim",
+    "interact_permission": "Claim",
+    "has_action": true,
+    "show_in_compendium": true,
     "is_ruins": false,
     "not_deconstructible": false
   },
