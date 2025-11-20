@@ -12791,7 +12791,7 @@
     "tool_mesh_index": 0,
     "building_description_id": 63000,
     "required_paving_tier": -1,
-    "actions_required": 200,
+    "actions_required": 170,
     "instantly_built": false,
     "recipe_performance_id": 538
   },
@@ -12847,9 +12847,7 @@
       ]
     ],
     "discovery_triggers": [],
-    "required_knowledges": [
-      1002
-    ],
+    "required_knowledges": [],
     "required_claim_tech_ids": [
       300
     ],
@@ -12857,7 +12855,7 @@
     "tool_mesh_index": 0,
     "building_description_id": 63001,
     "required_paving_tier": -1,
-    "actions_required": 300,
+    "actions_required": 255,
     "instantly_built": false,
     "recipe_performance_id": 538
   },
@@ -15864,6 +15862,70 @@
     "recipe_performance_id": 538
   },
   {
+    "id": 16263971,
+    "name": "Ornate Brick Gate",
+    "time_requirement": 2.0,
+    "stamina_requirement": 1.52,
+    "consumed_building": 0,
+    "required_interior_tier": -1,
+    "level_requirements": [
+      [
+        15,
+        1
+      ]
+    ],
+    "tool_requirements": [
+      [
+        14,
+        1,
+        1
+      ]
+    ],
+    "consumed_item_stacks": [
+      [
+        1425039947,
+        15,
+        [
+          0,
+          []
+        ],
+        1,
+        1.0
+      ]
+    ],
+    "consumed_cargo_stacks": [
+      [
+        302152262,
+        5,
+        [
+          1,
+          []
+        ],
+        1,
+        1.0
+      ]
+    ],
+    "consumed_shards": 0,
+    "experience_per_progress": [
+      [
+        15,
+        1.0
+      ]
+    ],
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "required_claim_tech_ids": [
+      700
+    ],
+    "full_discovery_score": 1,
+    "tool_mesh_index": 0,
+    "building_description_id": 1256020343,
+    "required_paving_tier": -1,
+    "actions_required": 725,
+    "instantly_built": false,
+    "recipe_performance_id": 538
+  },
+  {
     "id": 20651127,
     "name": "Ornate Stone Chest",
     "time_requirement": 2.0,
@@ -16855,6 +16917,123 @@
     "recipe_performance_id": 538
   },
   {
+    "id": 135636546,
+    "name": "Gothic Single Lamp Post",
+    "time_requirement": 2.0,
+    "stamina_requirement": 0.75,
+    "consumed_building": 0,
+    "required_interior_tier": -1,
+    "level_requirements": [
+      [
+        15,
+        1
+      ]
+    ],
+    "tool_requirements": [
+      [
+        14,
+        1,
+        1
+      ]
+    ],
+    "consumed_item_stacks": [
+      [
+        1455947422,
+        1,
+        [
+          0,
+          []
+        ],
+        1,
+        1.0
+      ]
+    ],
+    "consumed_cargo_stacks": [],
+    "consumed_shards": 0,
+    "experience_per_progress": [
+      [
+        15,
+        1.0
+      ]
+    ],
+    "discovery_triggers": [
+      71098307
+    ],
+    "required_knowledges": [],
+    "required_claim_tech_ids": [],
+    "full_discovery_score": 1,
+    "tool_mesh_index": 0,
+    "building_description_id": 278496721,
+    "required_paving_tier": -1,
+    "actions_required": 1,
+    "instantly_built": true,
+    "recipe_performance_id": 538
+  },
+  {
+    "id": 140116927,
+    "name": "Flawless Brick Gate",
+    "time_requirement": 2.0,
+    "stamina_requirement": 1.86,
+    "consumed_building": 0,
+    "required_interior_tier": -1,
+    "level_requirements": [
+      [
+        15,
+        1
+      ]
+    ],
+    "tool_requirements": [
+      [
+        14,
+        1,
+        1
+      ]
+    ],
+    "consumed_item_stacks": [
+      [
+        40344173,
+        15,
+        [
+          0,
+          []
+        ],
+        1,
+        1.0
+      ]
+    ],
+    "consumed_cargo_stacks": [
+      [
+        631093405,
+        5,
+        [
+          1,
+          []
+        ],
+        1,
+        1.0
+      ]
+    ],
+    "consumed_shards": 0,
+    "experience_per_progress": [
+      [
+        15,
+        1.0
+      ]
+    ],
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "required_claim_tech_ids": [
+      1000
+    ],
+    "full_discovery_score": 1,
+    "tool_mesh_index": 0,
+    "building_description_id": 1354389115,
+    "required_paving_tier": -1,
+    "actions_required": 1590,
+    "instantly_built": false,
+    "recipe_performance_id": 538
+  },
+  {
     "id": 149117351,
     "name": "Fifth Temple Entrance",
     "time_requirement": 2.0,
@@ -17387,7 +17566,7 @@
     ],
     "consumed_item_stacks": [
       [
-        1,
+        1310557200,
         1,
         [
           0,
@@ -17638,6 +17817,69 @@
     "building_description_id": 39920670,
     "required_paving_tier": -1,
     "actions_required": 50,
+    "instantly_built": false,
+    "recipe_performance_id": 538
+  },
+  {
+    "id": 237921027,
+    "name": "Ornate Brick Wall",
+    "time_requirement": 2.0,
+    "stamina_requirement": 1.52,
+    "consumed_building": 0,
+    "required_interior_tier": -1,
+    "level_requirements": [
+      [
+        15,
+        1
+      ]
+    ],
+    "tool_requirements": [
+      [
+        14,
+        1,
+        1
+      ]
+    ],
+    "consumed_item_stacks": [
+      [
+        813610254,
+        2,
+        [
+          0,
+          []
+        ],
+        1,
+        1.0
+      ],
+      [
+        1425039947,
+        1,
+        [
+          0,
+          []
+        ],
+        0,
+        1.0
+      ]
+    ],
+    "consumed_cargo_stacks": [],
+    "consumed_shards": 0,
+    "experience_per_progress": [
+      [
+        15,
+        1.0
+      ]
+    ],
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "required_claim_tech_ids": [
+      700
+    ],
+    "full_discovery_score": 1,
+    "tool_mesh_index": 0,
+    "building_description_id": 1403477582,
+    "required_paving_tier": -1,
+    "actions_required": 485,
     "instantly_built": false,
     "recipe_performance_id": 538
   },
@@ -17914,7 +18156,7 @@
     ],
     "consumed_item_stacks": [
       [
-        1,
+        1171646430,
         1,
         [
           0,
@@ -18125,7 +18367,7 @@
     ],
     "consumed_item_stacks": [
       [
-        1,
+        2133414886,
         1,
         [
           0,
@@ -18570,6 +18812,59 @@
     "required_paving_tier": -1,
     "actions_required": 1000,
     "instantly_built": false,
+    "recipe_performance_id": 538
+  },
+  {
+    "id": 361257647,
+    "name": "Sentinel's Brazier Trio",
+    "time_requirement": 2.0,
+    "stamina_requirement": 0.75,
+    "consumed_building": 0,
+    "required_interior_tier": 0,
+    "level_requirements": [
+      [
+        15,
+        1
+      ]
+    ],
+    "tool_requirements": [
+      [
+        14,
+        1,
+        1
+      ]
+    ],
+    "consumed_item_stacks": [
+      [
+        1133840626,
+        1,
+        [
+          0,
+          []
+        ],
+        1,
+        1.0
+      ]
+    ],
+    "consumed_cargo_stacks": [],
+    "consumed_shards": 0,
+    "experience_per_progress": [
+      [
+        15,
+        1.0
+      ]
+    ],
+    "discovery_triggers": [
+      2016531500
+    ],
+    "required_knowledges": [],
+    "required_claim_tech_ids": [],
+    "full_discovery_score": 1,
+    "tool_mesh_index": 0,
+    "building_description_id": 1834124104,
+    "required_paving_tier": -1,
+    "actions_required": 1,
+    "instantly_built": true,
     "recipe_performance_id": 538
   },
   {
@@ -19946,6 +20241,69 @@
     "building_description_id": 1081328472,
     "required_paving_tier": -1,
     "actions_required": 875,
+    "instantly_built": false,
+    "recipe_performance_id": 538
+  },
+  {
+    "id": 478881693,
+    "name": "Exquisite Well",
+    "time_requirement": 2.0,
+    "stamina_requirement": 0.75,
+    "consumed_building": 0,
+    "required_interior_tier": 0,
+    "level_requirements": [
+      [
+        15,
+        1
+      ]
+    ],
+    "tool_requirements": [
+      [
+        14,
+        1,
+        1
+      ]
+    ],
+    "consumed_item_stacks": [
+      [
+        5090004,
+        2,
+        [
+          0,
+          []
+        ],
+        1,
+        1.0
+      ],
+      [
+        5030002,
+        10,
+        [
+          0,
+          []
+        ],
+        1,
+        1.0
+      ]
+    ],
+    "consumed_cargo_stacks": [],
+    "consumed_shards": 0,
+    "experience_per_progress": [
+      [
+        15,
+        1.0
+      ]
+    ],
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "required_claim_tech_ids": [
+      500
+    ],
+    "full_discovery_score": 1,
+    "tool_mesh_index": 0,
+    "building_description_id": 1464160790,
+    "required_paving_tier": -1,
+    "actions_required": 375,
     "instantly_built": false,
     "recipe_performance_id": 538
   },
@@ -22409,6 +22767,69 @@
     "recipe_performance_id": 538
   },
   {
+    "id": 714430250,
+    "name": "Pristine Brick Wall",
+    "time_requirement": 2.0,
+    "stamina_requirement": 1.64,
+    "consumed_building": 0,
+    "required_interior_tier": -1,
+    "level_requirements": [
+      [
+        15,
+        1
+      ]
+    ],
+    "tool_requirements": [
+      [
+        14,
+        1,
+        1
+      ]
+    ],
+    "consumed_item_stacks": [
+      [
+        1221137435,
+        2,
+        [
+          0,
+          []
+        ],
+        1,
+        1.0
+      ],
+      [
+        1532060493,
+        1,
+        [
+          0,
+          []
+        ],
+        0,
+        1.0
+      ]
+    ],
+    "consumed_cargo_stacks": [],
+    "consumed_shards": 0,
+    "experience_per_progress": [
+      [
+        15,
+        1.0
+      ]
+    ],
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "required_claim_tech_ids": [
+      800
+    ],
+    "full_discovery_score": 1,
+    "tool_mesh_index": 0,
+    "building_description_id": 358114401,
+    "required_paving_tier": -1,
+    "actions_required": 625,
+    "instantly_built": false,
+    "recipe_performance_id": 538
+  },
+  {
     "id": 740392718,
     "name": "Outdoor Logcraft Large Garden Plot",
     "time_requirement": 2.0,
@@ -22430,7 +22851,7 @@
     ],
     "consumed_item_stacks": [
       [
-        1,
+        751500366,
         1,
         [
           0,
@@ -23601,6 +24022,70 @@
     "recipe_performance_id": 538
   },
   {
+    "id": 872951839,
+    "name": "Peerless Brick Gate",
+    "time_requirement": 2.0,
+    "stamina_requirement": 1.41,
+    "consumed_building": 0,
+    "required_interior_tier": -1,
+    "level_requirements": [
+      [
+        15,
+        1
+      ]
+    ],
+    "tool_requirements": [
+      [
+        14,
+        1,
+        1
+      ]
+    ],
+    "consumed_item_stacks": [
+      [
+        746630167,
+        10,
+        [
+          0,
+          []
+        ],
+        1,
+        1.0
+      ]
+    ],
+    "consumed_cargo_stacks": [
+      [
+        2405,
+        4,
+        [
+          1,
+          []
+        ],
+        1,
+        1.0
+      ]
+    ],
+    "consumed_shards": 0,
+    "experience_per_progress": [
+      [
+        15,
+        1.0
+      ]
+    ],
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "required_claim_tech_ids": [
+      600
+    ],
+    "full_discovery_score": 1,
+    "tool_mesh_index": 0,
+    "building_description_id": 783680290,
+    "required_paving_tier": -1,
+    "actions_required": 555,
+    "instantly_built": false,
+    "recipe_performance_id": 538
+  },
+  {
     "id": 873945930,
     "name": "Magnificient Fishing Station",
     "time_requirement": 2.0,
@@ -24321,6 +24806,59 @@
     "recipe_performance_id": 538
   },
   {
+    "id": 936577668,
+    "name": "Simple Log Wall",
+    "time_requirement": 2.0,
+    "stamina_requirement": 0.89,
+    "consumed_building": 0,
+    "required_interior_tier": -1,
+    "level_requirements": [
+      [
+        15,
+        1
+      ]
+    ],
+    "tool_requirements": [
+      [
+        14,
+        1,
+        1
+      ]
+    ],
+    "consumed_item_stacks": [],
+    "consumed_cargo_stacks": [
+      [
+        1001,
+        1,
+        [
+          1,
+          []
+        ],
+        1,
+        1.0
+      ]
+    ],
+    "consumed_shards": 0,
+    "experience_per_progress": [
+      [
+        15,
+        1.0
+      ]
+    ],
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "required_claim_tech_ids": [
+      200
+    ],
+    "full_discovery_score": 1,
+    "tool_mesh_index": 0,
+    "building_description_id": 371378688,
+    "required_paving_tier": -1,
+    "actions_required": 130,
+    "instantly_built": false,
+    "recipe_performance_id": 538
+  },
+  {
     "id": 938999135,
     "name": "Brico Camp",
     "time_requirement": 2.0,
@@ -24784,6 +25322,69 @@
     "building_description_id": 1917142142,
     "required_paving_tier": -1,
     "actions_required": 1250,
+    "instantly_built": false,
+    "recipe_performance_id": 538
+  },
+  {
+    "id": 979372860,
+    "name": "Magnificient Brick Wall",
+    "time_requirement": 2.0,
+    "stamina_requirement": 1.75,
+    "consumed_building": 0,
+    "required_interior_tier": -1,
+    "level_requirements": [
+      [
+        15,
+        1
+      ]
+    ],
+    "tool_requirements": [
+      [
+        14,
+        1,
+        1
+      ]
+    ],
+    "consumed_item_stacks": [
+      [
+        834413277,
+        3,
+        [
+          0,
+          []
+        ],
+        1,
+        1.0
+      ],
+      [
+        390845943,
+        1,
+        [
+          0,
+          []
+        ],
+        0,
+        1.0
+      ]
+    ],
+    "consumed_cargo_stacks": [],
+    "consumed_shards": 0,
+    "experience_per_progress": [
+      [
+        15,
+        1.0
+      ]
+    ],
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "required_claim_tech_ids": [
+      900
+    ],
+    "full_discovery_score": 1,
+    "tool_mesh_index": 0,
+    "building_description_id": 460146451,
+    "required_paving_tier": -1,
+    "actions_required": 815,
     "instantly_built": false,
     "recipe_performance_id": 538
   },
@@ -25486,7 +26087,7 @@
     ],
     "consumed_item_stacks": [
       [
-        1,
+        1357975077,
         1,
         [
           0,
@@ -25904,6 +26505,59 @@
     "recipe_performance_id": 538
   },
   {
+    "id": 1082765437,
+    "name": "Sentinel's Stone Brazier",
+    "time_requirement": 2.0,
+    "stamina_requirement": 0.75,
+    "consumed_building": 0,
+    "required_interior_tier": 0,
+    "level_requirements": [
+      [
+        15,
+        1
+      ]
+    ],
+    "tool_requirements": [
+      [
+        14,
+        1,
+        1
+      ]
+    ],
+    "consumed_item_stacks": [
+      [
+        1958049442,
+        1,
+        [
+          0,
+          []
+        ],
+        1,
+        1.0
+      ]
+    ],
+    "consumed_cargo_stacks": [],
+    "consumed_shards": 0,
+    "experience_per_progress": [
+      [
+        15,
+        1.0
+      ]
+    ],
+    "discovery_triggers": [
+      2016531500
+    ],
+    "required_knowledges": [],
+    "required_claim_tech_ids": [],
+    "full_discovery_score": 1,
+    "tool_mesh_index": 0,
+    "building_description_id": 747126413,
+    "required_paving_tier": -1,
+    "actions_required": 1,
+    "instantly_built": true,
+    "recipe_performance_id": 538
+  },
+  {
     "id": 1098311770,
     "name": "Skillful Leathercraft Table",
     "time_requirement": 2.0,
@@ -26243,7 +26897,7 @@
     ],
     "consumed_item_stacks": [
       [
-        1,
+        512998342,
         1,
         [
           0,
@@ -26596,7 +27250,7 @@
     ],
     "consumed_item_stacks": [
       [
-        1,
+        1179331889,
         1,
         [
           0,
@@ -26977,6 +27631,59 @@
     "recipe_performance_id": 538
   },
   {
+    "id": 1251755897,
+    "name": "Fine Stone Gate",
+    "time_requirement": 2.0,
+    "stamina_requirement": 1.16,
+    "consumed_building": 0,
+    "required_interior_tier": -1,
+    "level_requirements": [
+      [
+        15,
+        1
+      ]
+    ],
+    "tool_requirements": [
+      [
+        14,
+        1,
+        1
+      ]
+    ],
+    "consumed_item_stacks": [],
+    "consumed_cargo_stacks": [
+      [
+        2403,
+        2,
+        [
+          1,
+          []
+        ],
+        1,
+        1.0
+      ]
+    ],
+    "consumed_shards": 0,
+    "experience_per_progress": [
+      [
+        15,
+        1.0
+      ]
+    ],
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "required_claim_tech_ids": [
+      400
+    ],
+    "full_discovery_score": 1,
+    "tool_mesh_index": 0,
+    "building_description_id": 304007433,
+    "required_paving_tier": -1,
+    "actions_required": 330,
+    "instantly_built": false,
+    "recipe_performance_id": 538
+  },
+  {
     "id": 1275761045,
     "name": "Peerless Hunting Station",
     "time_requirement": 2.0,
@@ -27320,6 +28027,123 @@
     "recipe_performance_id": 882
   },
   {
+    "id": 1329796834,
+    "name": "Fine Stone Wall",
+    "time_requirement": 2.0,
+    "stamina_requirement": 1.03,
+    "consumed_building": 0,
+    "required_interior_tier": -1,
+    "level_requirements": [
+      [
+        15,
+        1
+      ]
+    ],
+    "tool_requirements": [
+      [
+        14,
+        1,
+        1
+      ]
+    ],
+    "consumed_item_stacks": [
+      [
+        4030002,
+        1,
+        [
+          0,
+          []
+        ],
+        1,
+        1.0
+      ]
+    ],
+    "consumed_cargo_stacks": [],
+    "consumed_shards": 0,
+    "experience_per_progress": [
+      [
+        15,
+        1.0
+      ]
+    ],
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "required_claim_tech_ids": [
+      400
+    ],
+    "full_discovery_score": 1,
+    "tool_mesh_index": 0,
+    "building_description_id": 1399290712,
+    "required_paving_tier": -1,
+    "actions_required": 220,
+    "instantly_built": false,
+    "recipe_performance_id": 538
+  },
+  {
+    "id": 1330898642,
+    "name": "Pristine Brick Gate",
+    "time_requirement": 2.0,
+    "stamina_requirement": 1.64,
+    "consumed_building": 0,
+    "required_interior_tier": -1,
+    "level_requirements": [
+      [
+        15,
+        1
+      ]
+    ],
+    "tool_requirements": [
+      [
+        14,
+        1,
+        1
+      ]
+    ],
+    "consumed_item_stacks": [
+      [
+        1532060493,
+        15,
+        [
+          0,
+          []
+        ],
+        1,
+        1.0
+      ]
+    ],
+    "consumed_cargo_stacks": [
+      [
+        360403214,
+        5,
+        [
+          1,
+          []
+        ],
+        1,
+        1.0
+      ]
+    ],
+    "consumed_shards": 0,
+    "experience_per_progress": [
+      [
+        15,
+        1.0
+      ]
+    ],
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "required_claim_tech_ids": [
+      800
+    ],
+    "full_discovery_score": 1,
+    "tool_mesh_index": 0,
+    "building_description_id": 1687756761,
+    "required_paving_tier": -1,
+    "actions_required": 940,
+    "instantly_built": false,
+    "recipe_performance_id": 538
+  },
+  {
     "id": 1336156860,
     "name": "Skillful Leathercraft White Carpet",
     "time_requirement": 2.0,
@@ -27423,9 +28247,62 @@
     "tool_mesh_index": 0,
     "building_description_id": 1803769111,
     "required_paving_tier": -1,
-    "actions_required": 200,
+    "actions_required": 285,
     "instantly_built": false,
-    "recipe_performance_id": 0
+    "recipe_performance_id": 538
+  },
+  {
+    "id": 1343656824,
+    "name": "Outdoor Logcraft Fence",
+    "time_requirement": 2.0,
+    "stamina_requirement": 0.75,
+    "consumed_building": 0,
+    "required_interior_tier": -1,
+    "level_requirements": [
+      [
+        15,
+        1
+      ]
+    ],
+    "tool_requirements": [
+      [
+        14,
+        1,
+        1
+      ]
+    ],
+    "consumed_item_stacks": [
+      [
+        409753909,
+        1,
+        [
+          0,
+          []
+        ],
+        1,
+        1.0
+      ]
+    ],
+    "consumed_cargo_stacks": [],
+    "consumed_shards": 0,
+    "experience_per_progress": [
+      [
+        15,
+        1.0
+      ]
+    ],
+    "discovery_triggers": [
+      407887958
+    ],
+    "required_knowledges": [],
+    "required_claim_tech_ids": [],
+    "full_discovery_score": 1,
+    "tool_mesh_index": 0,
+    "building_description_id": 1456983666,
+    "required_paving_tier": -1,
+    "actions_required": 1,
+    "instantly_built": true,
+    "recipe_performance_id": 538
   },
   {
     "id": 1346463227,
@@ -27734,6 +28611,70 @@
     "recipe_performance_id": 538
   },
   {
+    "id": 1403567181,
+    "name": "Magnificient Brick Gate",
+    "time_requirement": 2.0,
+    "stamina_requirement": 1.75,
+    "consumed_building": 0,
+    "required_interior_tier": -1,
+    "level_requirements": [
+      [
+        15,
+        1
+      ]
+    ],
+    "tool_requirements": [
+      [
+        14,
+        1,
+        1
+      ]
+    ],
+    "consumed_item_stacks": [
+      [
+        390845943,
+        15,
+        [
+          0,
+          []
+        ],
+        1,
+        1.0
+      ]
+    ],
+    "consumed_cargo_stacks": [
+      [
+        888273394,
+        5,
+        [
+          1,
+          []
+        ],
+        1,
+        1.0
+      ]
+    ],
+    "consumed_shards": 0,
+    "experience_per_progress": [
+      [
+        15,
+        1.0
+      ]
+    ],
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "required_claim_tech_ids": [
+      900
+    ],
+    "full_discovery_score": 1,
+    "tool_mesh_index": 0,
+    "building_description_id": 35753488,
+    "required_paving_tier": -1,
+    "actions_required": 1225,
+    "instantly_built": false,
+    "recipe_performance_id": 538
+  },
+  {
     "id": 1409133549,
     "name": "Ancient Leatherworking Station",
     "time_requirement": 2.0,
@@ -27895,6 +28836,59 @@
     "actions_required": 1,
     "instantly_built": false,
     "recipe_performance_id": 0
+  },
+  {
+    "id": 1481570421,
+    "name": "Peerless Brick Wall",
+    "time_requirement": 2.0,
+    "stamina_requirement": 1.41,
+    "consumed_building": 0,
+    "required_interior_tier": -1,
+    "level_requirements": [
+      [
+        15,
+        1
+      ]
+    ],
+    "tool_requirements": [
+      [
+        14,
+        1,
+        1
+      ]
+    ],
+    "consumed_item_stacks": [
+      [
+        6030002,
+        2,
+        [
+          0,
+          []
+        ],
+        1,
+        1.0
+      ]
+    ],
+    "consumed_cargo_stacks": [],
+    "consumed_shards": 0,
+    "experience_per_progress": [
+      [
+        15,
+        1.0
+      ]
+    ],
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "required_claim_tech_ids": [
+      600
+    ],
+    "full_discovery_score": 1,
+    "tool_mesh_index": 0,
+    "building_description_id": 483105999,
+    "required_paving_tier": -1,
+    "actions_required": 370,
+    "instantly_built": false,
+    "recipe_performance_id": 538
   },
   {
     "id": 1486853759,
@@ -29138,6 +30132,70 @@
     "recipe_performance_id": 538
   },
   {
+    "id": 1621468474,
+    "name": "Simple Log Gate",
+    "time_requirement": 2.0,
+    "stamina_requirement": 0.89,
+    "consumed_building": 0,
+    "required_interior_tier": -1,
+    "level_requirements": [
+      [
+        15,
+        1
+      ]
+    ],
+    "tool_requirements": [
+      [
+        14,
+        1,
+        1
+      ]
+    ],
+    "consumed_item_stacks": [
+      [
+        2010001,
+        4,
+        [
+          0,
+          []
+        ],
+        1,
+        1.0
+      ]
+    ],
+    "consumed_cargo_stacks": [
+      [
+        1001,
+        2,
+        [
+          1,
+          []
+        ],
+        1,
+        1.0
+      ]
+    ],
+    "consumed_shards": 0,
+    "experience_per_progress": [
+      [
+        15,
+        1.0
+      ]
+    ],
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "required_claim_tech_ids": [
+      200
+    ],
+    "full_discovery_score": 1,
+    "tool_mesh_index": 0,
+    "building_description_id": 679715144,
+    "required_paving_tier": -1,
+    "actions_required": 195,
+    "instantly_built": false,
+    "recipe_performance_id": 538
+  },
+  {
     "id": 1631497655,
     "name": "Talented Woodcraft Carpet",
     "time_requirement": 2.0,
@@ -30090,6 +31148,59 @@
     "recipe_performance_id": 538
   },
   {
+    "id": 1743028408,
+    "name": "Sentinel's Metal Brazier",
+    "time_requirement": 2.0,
+    "stamina_requirement": 0.75,
+    "consumed_building": 0,
+    "required_interior_tier": 0,
+    "level_requirements": [
+      [
+        15,
+        1
+      ]
+    ],
+    "tool_requirements": [
+      [
+        14,
+        1,
+        1
+      ]
+    ],
+    "consumed_item_stacks": [
+      [
+        1000925777,
+        1,
+        [
+          0,
+          []
+        ],
+        1,
+        1.0
+      ]
+    ],
+    "consumed_cargo_stacks": [],
+    "consumed_shards": 0,
+    "experience_per_progress": [
+      [
+        15,
+        1.0
+      ]
+    ],
+    "discovery_triggers": [
+      2016531500
+    ],
+    "required_knowledges": [],
+    "required_claim_tech_ids": [],
+    "full_discovery_score": 1,
+    "tool_mesh_index": 0,
+    "building_description_id": 1138394341,
+    "required_paving_tier": -1,
+    "actions_required": 1,
+    "instantly_built": true,
+    "recipe_performance_id": 538
+  },
+  {
     "id": 1747895565,
     "name": "Flawless Smelter",
     "time_requirement": 2.0,
@@ -30801,7 +31912,7 @@
     "id": 1823437250,
     "name": "Exquisite Gate",
     "time_requirement": 2.0,
-    "stamina_requirement": 1.03,
+    "stamina_requirement": 1.28,
     "consumed_building": 0,
     "required_interior_tier": -1,
     "level_requirements": [
@@ -30846,7 +31957,7 @@
     "tool_mesh_index": 0,
     "building_description_id": 1983930054,
     "required_paving_tier": -1,
-    "actions_required": 200,
+    "actions_required": 430,
     "instantly_built": false,
     "recipe_performance_id": 538
   },
@@ -32829,6 +33940,69 @@
     "recipe_performance_id": 538
   },
   {
+    "id": 2031716637,
+    "name": "Flawless Brick Wall",
+    "time_requirement": 2.0,
+    "stamina_requirement": 1.86,
+    "consumed_building": 0,
+    "required_interior_tier": -1,
+    "level_requirements": [
+      [
+        15,
+        1
+      ]
+    ],
+    "tool_requirements": [
+      [
+        14,
+        1,
+        1
+      ]
+    ],
+    "consumed_item_stacks": [
+      [
+        931497471,
+        3,
+        [
+          0,
+          []
+        ],
+        1,
+        1.0
+      ],
+      [
+        40344173,
+        2,
+        [
+          0,
+          []
+        ],
+        0,
+        1.0
+      ]
+    ],
+    "consumed_cargo_stacks": [],
+    "consumed_shards": 0,
+    "experience_per_progress": [
+      [
+        15,
+        1.0
+      ]
+    ],
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "required_claim_tech_ids": [
+      1000
+    ],
+    "full_discovery_score": 1,
+    "tool_mesh_index": 0,
+    "building_description_id": 1974541506,
+    "required_paving_tier": -1,
+    "actions_required": 1060,
+    "instantly_built": false,
+    "recipe_performance_id": 538
+  },
+  {
     "id": 2034730354,
     "name": "Ornate Carpentry Station",
     "time_requirement": 2.0,
@@ -33071,7 +34245,7 @@
     ],
     "consumed_item_stacks": [
       [
-        1,
+        424227579,
         1,
         [
           0,
