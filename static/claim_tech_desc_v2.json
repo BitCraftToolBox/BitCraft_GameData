@@ -1642,6 +1642,31 @@
     "unlocks_techs": []
   },
   {
+    "id": 834181377,
+    "name": "Large Walls",
+    "description": "Gives your village the ability to build very large walls. These walls are very expensive.",
+    "tier": 6,
+    "tech_type": "LargeHouse",
+    "supplies_cost": 100000,
+    "research_time": 0,
+    "requirements": [
+      1425977115
+    ],
+    "input": [
+      {
+        "item_id": 1,
+        "quantity": 500000,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "members": 0,
+    "area": 0,
+    "supplies": 0,
+    "xp_to_mint_hex_coin": 0,
+    "unlocks_techs": []
+  },
+  {
     "id": 861848649,
     "name": "Tier 10 Hunting",
     "description": "Allows you to build tier 10 Hunting Workstations within your settlement.",
