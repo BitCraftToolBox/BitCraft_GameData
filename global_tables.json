@@ -1,7 +1,9 @@
 {
   "public": [
     "a_i_debug_state",
+    "ability_custom_desc",
     "ability_state",
+    "ability_unlock_desc",
     "achievement_desc",
     "action_bar_state",
     "action_state",
@@ -286,6 +288,8 @@
     "rez_sick_long_term_state",
     "server_identity",
     "single_resource_to_clump_desc",
+    "staged_ability_custom_desc",
+    "staged_ability_unlock_desc",
     "staged_achievement_desc",
     "staged_alert_desc",
     "staged_biome_desc",
@@ -394,13 +398,13 @@
   ],
   "row_level_security": [
     {
-      "sql": "\n    SELECT d.*\n    FROM direct_message_state d\n    JOIN user_state u ON d.sender_entity_id = u.entity_id\n    WHERE u.identity = :sender\n"
-    },
-    {
       "sql": "\n    SELECT CMS.*\n    FROM chat_message_state CMS\n    JOIN chat_channel_permission_state CCPS ON CMS.target_id = CCPS.chat_channel_entity_id\n    WHERE CCPS.identity = :sender AND CCPS.rank >= 2 AND CCPS.rank != 4\n"
     },
     {
       "sql": "\n    SELECT d.*\n    FROM direct_message_state d\n    JOIN user_state u ON d.receiver_entity_id = u.entity_id\n    WHERE u.identity = :sender\n"
+    },
+    {
+      "sql": "\n    SELECT d.*\n    FROM direct_message_state d\n    JOIN user_state u ON d.sender_entity_id = u.entity_id\n    WHERE u.identity = :sender\n"
     }
   ]
 }
