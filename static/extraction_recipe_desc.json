@@ -13242,6 +13242,52 @@
     "recipe_performance_id": 641
   },
   {
+    "id": 229312555,
+    "resource_id": 1073998942,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "time_requirement": 1.6,
+    "stamina_requirement": 0.89,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [
+      {
+        "item_stack": {
+          "item_id": 1925415440,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        },
+        "probability": 0.04202
+      }
+    ],
+    "consumed_item_stacks": [],
+    "range": 1,
+    "tool_requirements": [
+      {
+        "tool_type": 12,
+        "level": 2,
+        "power": 1
+      }
+    ],
+    "allow_use_hands": false,
+    "level_requirements": [
+      {
+        "skill_id": 14,
+        "level": 20
+      }
+    ],
+    "experience_per_progress": [
+      {
+        "skill_id": 14,
+        "quantity": 1.375
+      }
+    ],
+    "verb_phrase": "Gather",
+    "tool_mesh_index": 1,
+    "recipe_performance_id": 641
+  },
+  {
     "id": 268632318,
     "resource_id": 284200468,
     "cargo_id": 0,
@@ -14084,6 +14130,73 @@
     "verb_phrase": "Gather",
     "tool_mesh_index": 0,
     "recipe_performance_id": 632
+  },
+  {
+    "id": 537572311,
+    "resource_id": 1774107141,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "time_requirement": 1.5,
+    "stamina_requirement": 0.75,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [
+      {
+        "item_stack": {
+          "item_id": 1,
+          "quantity": 2,
+          "item_type": "Item",
+          "durability": 0
+        },
+        "probability": 1.0
+      },
+      {
+        "item_stack": {
+          "item_id": 1,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        },
+        "probability": 0.8
+      },
+      {
+        "item_stack": {
+          "item_id": 1,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        },
+        "probability": 0.6
+      },
+      {
+        "item_stack": {
+          "item_id": 1411443574,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        },
+        "probability": 0.035
+      }
+    ],
+    "consumed_item_stacks": [],
+    "range": 1,
+    "tool_requirements": [],
+    "allow_use_hands": true,
+    "level_requirements": [
+      {
+        "skill_id": 1,
+        "level": 1
+      }
+    ],
+    "experience_per_progress": [
+      {
+        "skill_id": 5,
+        "quantity": 0.0
+      }
+    ],
+    "verb_phrase": "Loot",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 403
   },
   {
     "id": 540492425,
@@ -18018,6 +18131,46 @@
     "recipe_performance_id": 641
   },
   {
+    "id": 1661853275,
+    "resource_id": 1424784087,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "time_requirement": 1.6,
+    "stamina_requirement": 0.89,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [
+      {
+        "item_stack": {
+          "item_id": 1711979184,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        },
+        "probability": 1.0
+      }
+    ],
+    "consumed_item_stacks": [],
+    "range": 1,
+    "tool_requirements": [],
+    "allow_use_hands": true,
+    "level_requirements": [
+      {
+        "skill_id": 14,
+        "level": 1
+      }
+    ],
+    "experience_per_progress": [
+      {
+        "skill_id": 14,
+        "quantity": 0.0
+      }
+    ],
+    "verb_phrase": "Gather",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 403
+  },
+  {
     "id": 1664207130,
     "resource_id": 722506673,
     "cargo_id": 0,
@@ -19699,6 +19852,64 @@
     "verb_phrase": "Dig",
     "tool_mesh_index": 1,
     "recipe_performance_id": 641
+  },
+  {
+    "id": 2044590963,
+    "resource_id": 1823420883,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "time_requirement": 1.5,
+    "stamina_requirement": 0.75,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [
+      {
+        "item_stack": {
+          "item_id": 1,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        },
+        "probability": 1.0
+      },
+      {
+        "item_stack": {
+          "item_id": 1,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        },
+        "probability": 0.5
+      },
+      {
+        "item_stack": {
+          "item_id": 1411443574,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        },
+        "probability": 0.02
+      }
+    ],
+    "consumed_item_stacks": [],
+    "range": 1,
+    "tool_requirements": [],
+    "allow_use_hands": true,
+    "level_requirements": [
+      {
+        "skill_id": 1,
+        "level": 1
+      }
+    ],
+    "experience_per_progress": [
+      {
+        "skill_id": 5,
+        "quantity": 0.0
+      }
+    ],
+    "verb_phrase": "Loot",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 403
   },
   {
     "id": 2046456984,
