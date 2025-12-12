@@ -2379,6 +2379,56 @@
     "description": "Paving made out of dirt. Dirt Road can be used as a foundation for structures or to elevate the look of your area."
   },
   {
+    "id": 992254322,
+    "name": "Ice Pavement",
+    "consumed_item_stacks": [
+      [
+        1925415440,
+        2,
+        [
+          0,
+          []
+        ],
+        1,
+        1.0
+      ]
+    ],
+    "input_cargo_id": 0,
+    "input_cargo_discovery_score": 0,
+    "experience_per_progress": [
+      [
+        15,
+        1.125
+      ]
+    ],
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "full_discovery_score": 1,
+    "paving_duration": 1.0,
+    "prefab_address": "Paving/IcePavement",
+    "tier": 2,
+    "stat_effects": [
+      [
+        [
+          6,
+          []
+        ],
+        0.5,
+        false
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        0.1,
+        true
+      ]
+    ],
+    "icon_address": "GeneratedIcons/Other/GeneratedIcons/Other/Buildings/IcePavement",
+    "description": "Pavement made from snow."
+  },
+  {
     "id": 997205906,
     "name": "TownRuinsPavingB",
     "consumed_item_stacks": [
@@ -2984,6 +3034,56 @@
     ],
     "icon_address": "Items/WoodPlank",
     "description": "Paving made out of wooden planks. Wood paving can be used as a foundation for structures or to elevate the look of your area."
+  },
+  {
+    "id": 1255079031,
+    "name": "Ice Block Pavement",
+    "consumed_item_stacks": [
+      [
+        1925415440,
+        3,
+        [
+          0,
+          []
+        ],
+        1,
+        1.0
+      ]
+    ],
+    "input_cargo_id": 0,
+    "input_cargo_discovery_score": 0,
+    "experience_per_progress": [
+      [
+        15,
+        1.125
+      ]
+    ],
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "full_discovery_score": 1,
+    "paving_duration": 1.0,
+    "prefab_address": "Paving/IceBrickDecorationPavement",
+    "tier": 2,
+    "stat_effects": [
+      [
+        [
+          6,
+          []
+        ],
+        0.5,
+        false
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        0.1,
+        true
+      ]
+    ],
+    "icon_address": "GeneratedIcons/Other/GeneratedIcons/Other/Buildings/IceBrickDecorationPavement",
+    "description": "Pavement made from snow."
   },
   {
     "id": 1273300610,
@@ -4190,6 +4290,56 @@
     ],
     "icon_address": "GeneratedIcons/Other/GeneratedIcons/Other/PavementPremiumMarble2",
     "description": "Gilded pavement made from Gilded Tiles acquired from the premium store."
+  },
+  {
+    "id": 1708022223,
+    "name": "Snow",
+    "consumed_item_stacks": [
+      [
+        1925415440,
+        1,
+        [
+          0,
+          []
+        ],
+        1,
+        1.0
+      ]
+    ],
+    "input_cargo_id": 0,
+    "input_cargo_discovery_score": 0,
+    "experience_per_progress": [
+      [
+        15,
+        1.125
+      ]
+    ],
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "full_discovery_score": 1,
+    "paving_duration": 1.0,
+    "prefab_address": "Paving/SnowDecalPavement",
+    "tier": 2,
+    "stat_effects": [
+      [
+        [
+          6,
+          []
+        ],
+        0.5,
+        false
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        0.1,
+        true
+      ]
+    ],
+    "icon_address": "GeneratedIcons/Other/GeneratedIcons/Other/Buildings/SnowDecalPavement",
+    "description": "Pavement made from snow."
   },
   {
     "id": 1723547714,

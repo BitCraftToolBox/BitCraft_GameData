@@ -29564,6 +29564,40 @@
     "not_respawning": false
   },
   {
+    "id": 1073998942,
+    "name": "Snow Pile",
+    "description": "",
+    "flattenable": true,
+    "max_health": 355,
+    "ignore_damage": false,
+    "despawn_time": 0.0,
+    "model_asset_name": "Resources/WinterSnow",
+    "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Other/Buildings/snowResource",
+    "on_destroy_yield": [],
+    "on_destroy_yield_resource_id": 0,
+    "spawn_priority": 1,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          0,
+          []
+        ]
+      ]
+    ],
+    "tier": 2,
+    "tag": "Seasonal",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": false,
+    "enemy_params_id": [],
+    "scheduled_respawn_time": 600.0,
+    "not_respawning": false
+  },
+  {
     "id": 1077990023,
     "name": "Elenvar Vein Interior",
     "description": "",
@@ -32128,7 +32162,7 @@
     "icon_asset_name": "GeneratedIcons/Other/SchoolOfShrimpT6",
     "on_destroy_yield": [
       [
-        94044442,
+        37723214,
         1,
         [
           0,
@@ -33249,6 +33283,88 @@
     ],
     "tier": 8,
     "tag": "Rock Outcrop",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": true,
+    "enemy_params_id": [],
+    "scheduled_respawn_time": 0.0,
+    "not_respawning": false
+  },
+  {
+    "id": 1424784087,
+    "name": "Large Gift Pile",
+    "description": "",
+    "flattenable": false,
+    "max_health": 100000,
+    "ignore_damage": true,
+    "despawn_time": 0.0,
+    "model_asset_name": "Resources/GiantGiftPile",
+    "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Other/Buildings/GiftsGiant",
+    "on_destroy_yield": [],
+    "on_destroy_yield_resource_id": 0,
+    "spawn_priority": 1,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        -1,
+        0,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        -1,
+        1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        0,
+        -1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        1,
+        -1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        1,
+        0,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        0,
+        1,
+        [
+          0,
+          []
+        ]
+      ]
+    ],
+    "tier": 2,
+    "tag": "Seasonal",
     "rarity": [
       1,
       {}
@@ -35500,6 +35616,40 @@
     "not_respawning": true
   },
   {
+    "id": 1774107141,
+    "name": "Ancient Chest",
+    "description": "A chest from the ancient times. Filled with hex coins and other ancient goods.",
+    "flattenable": false,
+    "max_health": 15,
+    "ignore_damage": false,
+    "despawn_time": 0.0,
+    "model_asset_name": "Resources/AncientCoffer",
+    "icon_asset_name": "",
+    "on_destroy_yield": [],
+    "on_destroy_yield_resource_id": 0,
+    "spawn_priority": 0,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          0,
+          []
+        ]
+      ]
+    ],
+    "tier": -1,
+    "tag": "Ancient Loot",
+    "rarity": [
+      2,
+      {}
+    ],
+    "compendium_entry": false,
+    "enemy_params_id": [],
+    "scheduled_respawn_time": 0.0,
+    "not_respawning": false
+  },
+  {
     "id": 1800013378,
     "name": "Medium Aurumite Vein Interior",
     "description": "",
@@ -36386,6 +36536,40 @@
       {}
     ],
     "compendium_entry": true,
+    "enemy_params_id": [],
+    "scheduled_respawn_time": 0.0,
+    "not_respawning": false
+  },
+  {
+    "id": 1823420883,
+    "name": "Decayed Ancient Pots",
+    "description": "A pot from the ancient times. Contains hex coins and various goods from the ancient times.",
+    "flattenable": false,
+    "max_health": 10,
+    "ignore_damage": false,
+    "despawn_time": 0.0,
+    "model_asset_name": "Resources/BrokenAncientPots",
+    "icon_asset_name": "",
+    "on_destroy_yield": [],
+    "on_destroy_yield_resource_id": 0,
+    "spawn_priority": 0,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          0,
+          []
+        ]
+      ]
+    ],
+    "tier": -1,
+    "tag": "Ancient Loot",
+    "rarity": [
+      2,
+      {}
+    ],
+    "compendium_entry": false,
     "enemy_params_id": [],
     "scheduled_respawn_time": 0.0,
     "not_respawning": false
