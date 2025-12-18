@@ -24784,6 +24784,40 @@
     "not_respawning": false
   },
   {
+    "id": 517819121,
+    "name": "Berserker Mushroom",
+    "description": "",
+    "flattenable": false,
+    "max_health": 250000,
+    "ignore_damage": false,
+    "despawn_time": 0.0,
+    "model_asset_name": "Resources/BerserkerMushroom",
+    "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Other/BerserkerMushroom",
+    "on_destroy_yield": [],
+    "on_destroy_yield_resource_id": 0,
+    "spawn_priority": 1,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          3,
+          []
+        ]
+      ]
+    ],
+    "tier": -1,
+    "tag": "Rare Mushroom",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": true,
+    "enemy_params_id": [],
+    "scheduled_respawn_time": 0.0,
+    "not_respawning": false
+  },
+  {
     "id": 532077242,
     "name": "Indigo Milk Cap",
     "description": "",
@@ -31787,6 +31821,40 @@
     "not_respawning": false
   },
   {
+    "id": 1235656080,
+    "name": "Hidden Resource",
+    "description": "",
+    "flattenable": true,
+    "max_health": 1,
+    "ignore_damage": false,
+    "despawn_time": 0.0,
+    "model_asset_name": "Resources/DepletedResource",
+    "icon_asset_name": "Resources/DepletedResource",
+    "on_destroy_yield": [],
+    "on_destroy_yield_resource_id": 0,
+    "spawn_priority": 1,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          3,
+          []
+        ]
+      ]
+    ],
+    "tier": -1,
+    "tag": "Hidden Resource",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": false,
+    "enemy_params_id": [],
+    "scheduled_respawn_time": 0.0,
+    "not_respawning": false
+  },
+  {
     "id": 1241355606,
     "name": "Umbracite Outcrop Interior Depleted",
     "description": "",
@@ -33872,6 +33940,40 @@
     "not_respawning": false
   },
   {
+    "id": 1464160790,
+    "name": "Lost Gift",
+    "description": "",
+    "flattenable": false,
+    "max_health": 250000,
+    "ignore_damage": false,
+    "despawn_time": 0.0,
+    "model_asset_name": "Resources/GoldenGift",
+    "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Other/Gift",
+    "on_destroy_yield": [],
+    "on_destroy_yield_resource_id": 0,
+    "spawn_priority": 1,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          0,
+          []
+        ]
+      ]
+    ],
+    "tier": -1,
+    "tag": "Seasonal Resource",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": true,
+    "enemy_params_id": [],
+    "scheduled_respawn_time": 0.0,
+    "not_respawning": false
+  },
+  {
     "id": 1467799531,
     "name": "Dewberry Bush",
     "description": "",
@@ -35118,6 +35220,40 @@
     "not_respawning": false
   },
   {
+    "id": 1661853275,
+    "name": "Ancient Debris",
+    "description": "",
+    "flattenable": false,
+    "max_health": 250000,
+    "ignore_damage": false,
+    "despawn_time": 0.0,
+    "model_asset_name": "Resources/AncientDebris",
+    "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Other/AncientDebris",
+    "on_destroy_yield": [],
+    "on_destroy_yield_resource_id": 0,
+    "spawn_priority": 1,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          0,
+          []
+        ]
+      ]
+    ],
+    "tier": 2,
+    "tag": "Rare Research",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": true,
+    "enemy_params_id": [],
+    "scheduled_respawn_time": 0.0,
+    "not_respawning": false
+  },
+  {
     "id": 1673056013,
     "name": "Terrified Adventurer's Note",
     "description": "",
@@ -35506,6 +35642,56 @@
     "not_respawning": false
   },
   {
+    "id": 1740106662,
+    "name": "Argent Ore",
+    "description": "",
+    "flattenable": false,
+    "max_health": 250000,
+    "ignore_damage": false,
+    "despawn_time": 0.0,
+    "model_asset_name": "Resources/ArgentOre",
+    "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Other/ArgentOreVein",
+    "on_destroy_yield": [],
+    "on_destroy_yield_resource_id": 0,
+    "spawn_priority": 1,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        0,
+        -1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        1,
+        -1,
+        [
+          0,
+          []
+        ]
+      ]
+    ],
+    "tier": -1,
+    "tag": "Ore Vein",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": true,
+    "enemy_params_id": [],
+    "scheduled_respawn_time": 0.0,
+    "not_respawning": false
+  },
+  {
     "id": 1742959882,
     "name": "Magnificient Mushroom",
     "description": "",
@@ -35646,7 +35832,7 @@
     ],
     "compendium_entry": false,
     "enemy_params_id": [],
-    "scheduled_respawn_time": 0.0,
+    "scheduled_respawn_time": 15000.0,
     "not_respawning": false
   },
   {
@@ -36571,7 +36757,7 @@
     ],
     "compendium_entry": false,
     "enemy_params_id": [],
-    "scheduled_respawn_time": 0.0,
+    "scheduled_respawn_time": 10000.0,
     "not_respawning": false
   },
   {

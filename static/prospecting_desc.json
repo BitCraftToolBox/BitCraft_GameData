@@ -1,1 +1,168 @@
-[]
+[
+  {
+    "id": 126942728,
+    "name": "Argent Ore Prospecting",
+    "description": "Begin a hunt for Argent Ore or join a nearby hunt that's in progress. Argent ore can be used to make special jewelry and also gives a lot of experience when mined.",
+    "resource_clump_id": 620414635,
+    "placeholder_resource_clump_id": 1010220448,
+    "enemy_ai_desc_id": 0,
+    "is_aquatic_resource": false,
+    "biome_requirements": [
+      2,
+      1
+    ],
+    "equipment_requirements": [],
+    "required_items_to_start": [],
+    "required_items_to_interact_with_reward": [],
+    "consumed_items_by_ability_trigger": [],
+    "allow_aquatic_prospecting": false,
+    "bread_crumb_count": [
+      10,
+      12
+    ],
+    "bread_crumb_radius": [
+      10,
+      12
+    ],
+    "distance_between_bread_crumbs": [
+      90,
+      105
+    ],
+    "deadzone_angle_between_crumbs": 90.0,
+    "allow_aquatic_bread_crumb": false,
+    "pointer_duration": 4.0,
+    "prospecting_duration": 5.0,
+    "join_radius": 40,
+    "contribution_per_visited_bread_crumb": 3,
+    "breadcrumb_found_message": "You're closer to the precious metal!",
+    "resource_uncovered_message": "You found the argent ore!",
+    "breadcrumb_found_by_someone_else_message": "You are able to follow someone else's trail",
+    "resource_uncovered_by_someone_else_message": "You are able to follow someone else's trail to the argent ore!",
+    "icon_asset_path": ";"
+  },
+  {
+    "id": 1100790073,
+    "name": "Search for Ancient Relic",
+    "description": "Begin a hunt for Ancient Relics or join a nearby hunt that's in progress. Ancient Relics can be used to make research that grants the user a powerful, long lasting buff. Ancient Relics give a lot of experience when gathered.",
+    "resource_clump_id": 1343656824,
+    "placeholder_resource_clump_id": 1010220448,
+    "enemy_ai_desc_id": 0,
+    "is_aquatic_resource": false,
+    "biome_requirements": [
+      4,
+      1
+    ],
+    "equipment_requirements": [],
+    "required_items_to_start": [],
+    "required_items_to_interact_with_reward": [],
+    "consumed_items_by_ability_trigger": [],
+    "allow_aquatic_prospecting": false,
+    "bread_crumb_count": [
+      5,
+      6
+    ],
+    "bread_crumb_radius": [
+      6,
+      8
+    ],
+    "distance_between_bread_crumbs": [
+      180,
+      220
+    ],
+    "deadzone_angle_between_crumbs": 90.0,
+    "allow_aquatic_bread_crumb": false,
+    "pointer_duration": 4.0,
+    "prospecting_duration": 5.0,
+    "join_radius": 40,
+    "contribution_per_visited_bread_crumb": 4,
+    "breadcrumb_found_message": "You've found a clue to lead you to some ancient artifacts.",
+    "resource_uncovered_message": "You've uncovered debris and artifacts from the ancient times.",
+    "breadcrumb_found_by_someone_else_message": "You are able to follow someone else's trail",
+    "resource_uncovered_by_someone_else_message": "You are able to follow someone else's trail ancient debris!",
+    "icon_asset_path": "5"
+  },
+  {
+    "id": 1134246347,
+    "name": "Present Hunt",
+    "description": "Begin a hunt for a lost gift or join a nearby hunt that's in progress. Lost Gifts contain special holiday cloth to make decorations for your town or house. Can also contain holiday food or cosmetic clothing.",
+    "resource_clump_id": 590511920,
+    "placeholder_resource_clump_id": 1010220448,
+    "enemy_ai_desc_id": 0,
+    "is_aquatic_resource": false,
+    "biome_requirements": [
+      5,
+      1,
+      4,
+      11
+    ],
+    "equipment_requirements": [],
+    "required_items_to_start": [],
+    "required_items_to_interact_with_reward": [],
+    "consumed_items_by_ability_trigger": [],
+    "allow_aquatic_prospecting": false,
+    "bread_crumb_count": [
+      3,
+      4
+    ],
+    "bread_crumb_radius": [
+      10,
+      12
+    ],
+    "distance_between_bread_crumbs": [
+      80,
+      100
+    ],
+    "deadzone_angle_between_crumbs": 90.0,
+    "allow_aquatic_bread_crumb": false,
+    "pointer_duration": 4.0,
+    "prospecting_duration": 5.0,
+    "join_radius": 30,
+    "contribution_per_visited_bread_crumb": 2,
+    "breadcrumb_found_message": "You're one step closer to finding the gift!",
+    "resource_uncovered_message": "Gift Found!",
+    "breadcrumb_found_by_someone_else_message": "You are able to follow someone else's trail",
+    "resource_uncovered_by_someone_else_message": "You are able to follow someone else's trail to the gift!",
+    "icon_asset_path": "6"
+  },
+  {
+    "id": 1318037307,
+    "name": "Berserker Mushroom Hunt",
+    "description": "Begin a hunt for a Berserker Mushroom or join a nearby hunt that's in progress. Berserker Mushrooms can be used to make special potions that increase gathering or crafting speed. Berserker Mushrooms also give a lot of experience when gathered.",
+    "resource_clump_id": 1842388176,
+    "placeholder_resource_clump_id": 1010220448,
+    "enemy_ai_desc_id": 0,
+    "is_aquatic_resource": false,
+    "biome_requirements": [
+      5,
+      1
+    ],
+    "equipment_requirements": [],
+    "required_items_to_start": [],
+    "required_items_to_interact_with_reward": [],
+    "consumed_items_by_ability_trigger": [],
+    "allow_aquatic_prospecting": false,
+    "bread_crumb_count": [
+      3,
+      4
+    ],
+    "bread_crumb_radius": [
+      10,
+      12
+    ],
+    "distance_between_bread_crumbs": [
+      60,
+      70
+    ],
+    "deadzone_angle_between_crumbs": 90.0,
+    "allow_aquatic_bread_crumb": false,
+    "pointer_duration": 4.0,
+    "prospecting_duration": 5.0,
+    "join_radius": 30,
+    "contribution_per_visited_bread_crumb": 3,
+    "breadcrumb_found_message": "You can smell the mushroom spores in the air.",
+    "resource_uncovered_message": "Mushroom Found!",
+    "breadcrumb_found_by_someone_else_message": "You are able to follow someone else's trail",
+    "resource_uncovered_by_someone_else_message": "You are able to follow someone else's trail to the mushroom!",
+    "icon_asset_path": "6"
+  }
+]
