@@ -13259,6 +13259,33 @@
           "durability": 0
         },
         "probability": 0.04202
+      },
+      {
+        "item_stack": {
+          "item_id": 1362290100,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        },
+        "probability": 4E-06
+      },
+      {
+        "item_stack": {
+          "item_id": 1918226120,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        },
+        "probability": 4E-06
+      },
+      {
+        "item_stack": {
+          "item_id": 1905810953,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        },
+        "probability": 4E-06
       }
     ],
     "consumed_item_stacks": [],
@@ -13332,6 +13359,52 @@
     "verb_phrase": "Gather",
     "tool_mesh_index": 0,
     "recipe_performance_id": 632
+  },
+  {
+    "id": 282788631,
+    "resource_id": 1661853275,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "time_requirement": 1.6,
+    "stamina_requirement": 0.89,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [
+      {
+        "item_stack": {
+          "item_id": 1065373326,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        },
+        "probability": 0.015
+      }
+    ],
+    "consumed_item_stacks": [],
+    "range": 1,
+    "tool_requirements": [
+      {
+        "tool_type": 13,
+        "level": 2,
+        "power": 1
+      }
+    ],
+    "allow_use_hands": false,
+    "level_requirements": [
+      {
+        "skill_id": 7,
+        "level": 25
+      }
+    ],
+    "experience_per_progress": [
+      {
+        "skill_id": 7,
+        "quantity": 20.7
+      }
+    ],
+    "verb_phrase": "Gather",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 650
   },
   {
     "id": 302798978,
@@ -15935,6 +16008,52 @@
     "recipe_performance_id": 975
   },
   {
+    "id": 940609822,
+    "resource_id": 517819121,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "time_requirement": 1.6,
+    "stamina_requirement": 0.89,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [
+      {
+        "item_stack": {
+          "item_id": 1498621368,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        },
+        "probability": 0.015
+      }
+    ],
+    "consumed_item_stacks": [],
+    "range": 1,
+    "tool_requirements": [
+      {
+        "tool_type": 12,
+        "level": 2,
+        "power": 1
+      }
+    ],
+    "allow_use_hands": false,
+    "level_requirements": [
+      {
+        "skill_id": 14,
+        "level": 20
+      }
+    ],
+    "experience_per_progress": [
+      {
+        "skill_id": 14,
+        "quantity": 15.5
+      }
+    ],
+    "verb_phrase": "Gather",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 567
+  },
+  {
     "id": 975522317,
     "resource_id": 1101060328,
     "cargo_id": 0,
@@ -17973,6 +18092,52 @@
     "verb_phrase": "Salvage",
     "tool_mesh_index": 0,
     "recipe_performance_id": 18
+  },
+  {
+    "id": 1618295652,
+    "resource_id": 1740106662,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "time_requirement": 1.6,
+    "stamina_requirement": 0.89,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [
+      {
+        "item_stack": {
+          "item_id": 60000,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        },
+        "probability": 0.01
+      }
+    ],
+    "consumed_item_stacks": [],
+    "range": 1,
+    "tool_requirements": [
+      {
+        "tool_type": 4,
+        "level": 2,
+        "power": 1
+      }
+    ],
+    "allow_use_hands": false,
+    "level_requirements": [
+      {
+        "skill_id": 5,
+        "level": 20
+      }
+    ],
+    "experience_per_progress": [
+      {
+        "skill_id": 5,
+        "quantity": 16.75
+      }
+    ],
+    "verb_phrase": "Mine",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 975
   },
   {
     "id": 1635796919,
@@ -20074,6 +20239,82 @@
     "verb_phrase": "Mine",
     "tool_mesh_index": 0,
     "recipe_performance_id": 975
+  },
+  {
+    "id": 2111626185,
+    "resource_id": 1464160790,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "time_requirement": 1.6,
+    "stamina_requirement": 0.89,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [
+      {
+        "item_stack": {
+          "item_id": 1823420883,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        },
+        "probability": 0.3
+      },
+      {
+        "item_stack": {
+          "item_id": 1451448571,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        },
+        "probability": 0.15
+      },
+      {
+        "item_stack": {
+          "item_id": 348117275,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        },
+        "probability": 0.005
+      },
+      {
+        "item_stack": {
+          "item_id": 49617878,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        },
+        "probability": 0.005
+      },
+      {
+        "item_stack": {
+          "item_id": 1579231280,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        },
+        "probability": 0.005
+      }
+    ],
+    "consumed_item_stacks": [],
+    "range": 1,
+    "tool_requirements": [],
+    "allow_use_hands": false,
+    "level_requirements": [
+      {
+        "skill_id": 14,
+        "level": 1
+      }
+    ],
+    "experience_per_progress": [
+      {
+        "skill_id": 14,
+        "quantity": 0.0
+      }
+    ],
+    "verb_phrase": "Gather",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 403
   },
   {
     "id": 2111640252,

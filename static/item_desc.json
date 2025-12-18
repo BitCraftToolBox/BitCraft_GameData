@@ -1809,18 +1809,18 @@
   },
   {
     "id": 60000,
-    "name": "Small Piece of Argent Ore",
-    "description": "A piece of ore with a tiny amount of precious metal in it. Could be processed at a masonry's station.",
-    "volume": 6000,
+    "name": "Argent Ore",
+    "description": "A piece of ore with a tiny amount of precious metal in it. Could be processed at a miners station.",
+    "volume": 600,
     "durability": 0,
     "convert_to_on_durability_zero": 0,
     "secondary_knowledge_id": 0,
     "model_asset_name": "",
-    "icon_asset_name": "Items/CopperOrePiece",
+    "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Items/ArgentOre",
     "tier": -1,
     "tag": "Precious Metal Ore",
     "rarity": "Epic",
-    "compendium_entry": false,
+    "compendium_entry": true,
     "item_list_id": 0
   },
   {
@@ -1875,12 +1875,12 @@
     "id": 62000,
     "name": "Argent Ore Concentrate",
     "description": "A small amount concentrate made from precious metal. Could be processed into a nugget.",
-    "volume": 6000,
+    "volume": 600,
     "durability": 0,
     "convert_to_on_durability_zero": 0,
     "secondary_knowledge_id": 0,
     "model_asset_name": "",
-    "icon_asset_name": "Items/TinOreConcentrate",
+    "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Items/ArgentConcentrate",
     "tier": -1,
     "tag": "Precious Metal Concentrate",
     "rarity": "Epic",
@@ -1907,16 +1907,16 @@
     "id": 63000,
     "name": "Argent Nugget",
     "description": "A small amount of precious metal made by smelting concentrate. Could be made into an ingot at a smithing station.",
-    "volume": 6000,
+    "volume": 300,
     "durability": 0,
     "convert_to_on_durability_zero": 0,
     "secondary_knowledge_id": 0,
     "model_asset_name": "",
-    "icon_asset_name": "Items/ShalePebbles",
+    "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Items/ArgentNugget",
     "tier": -1,
     "tag": "Precious Metal Nugget",
     "rarity": "Epic",
-    "compendium_entry": false,
+    "compendium_entry": true,
     "item_list_id": 0
   },
   {
@@ -1944,11 +1944,11 @@
     "convert_to_on_durability_zero": 0,
     "secondary_knowledge_id": 0,
     "model_asset_name": "",
-    "icon_asset_name": "Items/TinIngot",
+    "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Items/ArgentIngot",
     "tier": -1,
     "tag": "Precious Metal Ingot",
     "rarity": "Epic",
-    "compendium_entry": false,
+    "compendium_entry": true,
     "item_list_id": 0
   },
   {
@@ -8797,6 +8797,22 @@
     "tag": "Food Recipe",
     "rarity": "Rare",
     "compendium_entry": false,
+    "item_list_id": 0
+  },
+  {
+    "id": 2916289,
+    "name": "Party Hat (Black)",
+    "description": "A black party hat from inside a party cracker. ",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "PremiumIcons/partyhat_black",
+    "tier": -1,
+    "tag": "Seasonal Cosmetic",
+    "rarity": "Rare",
+    "compendium_entry": true,
     "item_list_id": 0
   },
   {
@@ -20176,6 +20192,22 @@
     "item_list_id": 1383060882
   },
   {
+    "id": 49617878,
+    "name": "Festive Winter Mittens",
+    "description": "",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Other/Cosmetics/Mittens1",
+    "tier": -1,
+    "tag": "Seasonal Cosmetic",
+    "rarity": "Rare",
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
     "id": 49707346,
     "name": "Aurumite Duelist Armor",
     "description": "",
@@ -21116,6 +21148,22 @@
     "tier": -1,
     "tag": "Deed",
     "rarity": "Common",
+    "compendium_entry": false,
+    "item_list_id": 0
+  },
+  {
+    "id": 71098307,
+    "name": "Everwoods Healer's Bracers",
+    "description": "A Premium Clothing Outfit Piece from the Everwoods Healer Set. Can be added to you vault to wear as a cosmetic override.",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "PremiumIcons/EverwoodHealerHands",
+    "tier": -1,
+    "tag": "Premium Cosmetic Clothes",
+    "rarity": "Mythic",
     "compendium_entry": false,
     "item_list_id": 0
   },
@@ -23586,13 +23634,13 @@
   {
     "id": 127841241,
     "name": "Deed: Pet Snowball",
-    "description": "The deed for a pet Jakyl.",
+    "description": "A cute little pup. The cold never bothered him. Right Click and add to your vault to summon him.",
     "volume": 6000,
     "durability": 0,
     "convert_to_on_durability_zero": 0,
     "secondary_knowledge_id": 0,
     "model_asset_name": "",
-    "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Items/HuskyJakylItems",
+    "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Items/HuskyJakylCollectible",
     "tier": -1,
     "tag": "Deed",
     "rarity": "Mythic",
@@ -26704,6 +26752,22 @@
     "item_list_id": 0
   },
   {
+    "id": 200536436,
+    "name": "Midwinter Cabin Whimsical Rug",
+    "description": "An item that could be used to create a building to decorate your house.",
+    "volume": 600,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "PremiumIcons/WinterRug4",
+    "tier": -1,
+    "tag": "Furniture",
+    "rarity": "Mythic",
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
     "id": 200654583,
     "name": "Magnificient Wood Log",
     "description": "A cross section of a tree trunk harvested from trees or fallen trunks. Could be used to build or craft something.",
@@ -27104,6 +27168,22 @@
     "item_list_id": 0
   },
   {
+    "id": 213344270,
+    "name": "Everwoods Warrior's Tunic",
+    "description": "A Premium Clothing Outfit Piece from the Everwoods Warrior Set. Can be added to you vault to wear as a cosmetic override.",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "PremiumIcons/EverwoodWarriorShirt",
+    "tier": -1,
+    "tag": "Premium Cosmetic Clothes",
+    "rarity": "Mythic",
+    "compendium_entry": false,
+    "item_list_id": 0
+  },
+  {
     "id": 213782909,
     "name": "Recipe: Scrumptious Deluxe Ground Meat and Mashed Bulbs",
     "description": "A recipe to learn Scrumptious Deluxe Ground Meat and Mashed Bulbs",
@@ -27486,6 +27566,22 @@
     "rarity": "Uncommon",
     "compendium_entry": false,
     "item_list_id": 1780203062
+  },
+  {
+    "id": 221525238,
+    "name": "Party Hat (Hexite)",
+    "description": "A party hat glowing with the energy of hexite. ",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "PremiumIcons/partyhat_hexite",
+    "tier": -1,
+    "tag": "Seasonal Cosmetic",
+    "rarity": "Mythic",
+    "compendium_entry": true,
+    "item_list_id": 0
   },
   {
     "id": 221648479,
@@ -29278,6 +29374,22 @@
     "rarity": "Uncommon",
     "compendium_entry": false,
     "item_list_id": 829356144
+  },
+  {
+    "id": 262495756,
+    "name": "Ancient Hunting Knowledge",
+    "description": "Knowledge that you've compiled from the ancient times. This would inspire the reader, increasing their hunting power for one day.",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/AncientLorePage",
+    "tier": -1,
+    "tag": "Ancient Relic",
+    "rarity": "Rare",
+    "compendium_entry": true,
+    "item_list_id": 0
   },
   {
     "id": 262655142,
@@ -31312,6 +31424,22 @@
     "item_list_id": 985576844
   },
   {
+    "id": 312104881,
+    "name": "Party Hat (Blue)",
+    "description": "A blue party hat from inside a party cracker. ",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "PremiumIcons/partyhat_blue",
+    "tier": -1,
+    "tag": "Seasonal Cosmetic",
+    "rarity": "Common",
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
     "id": 312332257,
     "name": "Deed: Shirt and Suspenders - Light Green",
     "description": "",
@@ -31867,6 +31995,22 @@
     "icon_asset_name": "GeneratedIcons/Other/Cosmetics/Torso/Torso_BasicDressShirt_D",
     "tier": 5,
     "tag": "Leather Clothing",
+    "rarity": "Common",
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
+    "id": 327421456,
+    "name": "Party Hat (Red)",
+    "description": "A red party hat from inside a party cracker. ",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "PremiumIcons/partyhat_red",
+    "tier": -1,
+    "tag": "Seasonal Cosmetic",
     "rarity": "Common",
     "compendium_entry": true,
     "item_list_id": 0
@@ -32624,6 +32768,22 @@
     "item_list_id": 0
   },
   {
+    "id": 348117275,
+    "name": "Cozy Winter Mittens",
+    "description": "",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Other/Cosmetics/Mittens2",
+    "tier": -1,
+    "tag": "Seasonal Cosmetic",
+    "rarity": "Rare",
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
     "id": 349030731,
     "name": "Aurumite Crossbow",
     "description": "",
@@ -33245,6 +33405,22 @@
     "tag": "Deed",
     "rarity": "Common",
     "compendium_entry": false,
+    "item_list_id": 0
+  },
+  {
+    "id": 367260206,
+    "name": "Midwinter Cabin Long Couch",
+    "description": "An item that could be used to create a building to decorate your house.",
+    "volume": 600,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "PremiumIcons/WinterCouch1",
+    "tier": -1,
+    "tag": "Furniture",
+    "rarity": "Mythic",
+    "compendium_entry": true,
     "item_list_id": 0
   },
   {
@@ -35808,6 +35984,22 @@
     "item_list_id": 0
   },
   {
+    "id": 430096090,
+    "name": "Everwoods Warrior's Pants",
+    "description": "A Premium Clothing Outfit Piece from the Everwoods Warrior Set. Can be added to you vault to wear as a cosmetic override.",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "PremiumIcons/EverwoodWarriorPants",
+    "tier": -1,
+    "tag": "Premium Cosmetic Clothes",
+    "rarity": "Mythic",
+    "compendium_entry": false,
+    "item_list_id": 0
+  },
+  {
     "id": 430501399,
     "name": "Fine Crafting Elixir",
     "description": "An elixir made by a scholar. Increases your crafting speed. Does not stack with other elixirs.",
@@ -36316,6 +36508,22 @@
     "tier": 8,
     "tag": "Metal Armor",
     "rarity": "Common",
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
+    "id": 443454011,
+    "name": "Ancient Leatherworking Knowledge",
+    "description": "Knowledge that you've compiled from the ancient times. This would inspire the reader, increasing their leatherworking power for one day.",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/AncientLorePage",
+    "tier": -1,
+    "tag": "Ancient Relic",
+    "rarity": "Rare",
     "compendium_entry": true,
     "item_list_id": 0
   },
@@ -39152,6 +39360,22 @@
     "item_list_id": 0
   },
   {
+    "id": 516684728,
+    "name": "Holiday Mega Bundle 2025 Item List",
+    "description": "",
+    "volume": 0,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Items/WinterClothesFullItem",
+    "tier": -1,
+    "tag": "Premium Item",
+    "rarity": "Mythic",
+    "compendium_entry": false,
+    "item_list_id": 2034963231
+  },
+  {
     "id": 516729137,
     "name": "Umbracite Daggers",
     "description": "Small, sharp daggers that could do some real damage if you're on the receiving end of them.",
@@ -40944,6 +41168,22 @@
     "item_list_id": 0
   },
   {
+    "id": 559304826,
+    "name": "Everwoods Warrior's Bracers",
+    "description": "A Premium Clothing Outfit Piece from the Everwoods Warrior Set. Can be added to you vault to wear as a cosmetic override.",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "PremiumIcons/EverwoodWarriorHands",
+    "tier": -1,
+    "tag": "Premium Cosmetic Clothes",
+    "rarity": "Mythic",
+    "compendium_entry": false,
+    "item_list_id": 0
+  },
+  {
     "id": 561359618,
     "name": "Aurumite Plated Armor",
     "description": "",
@@ -41406,6 +41646,22 @@
     "rarity": "Uncommon",
     "compendium_entry": false,
     "item_list_id": 112214875
+  },
+  {
+    "id": 570057225,
+    "name": "Everwoods Healer's Outfit Bundle",
+    "description": "A premium bundle of clothing making up the Everwood Healer's outfit, purchased from the premium store. Right click it and click \"Unpack\" to access your new clothing!",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "PremiumIcons/EverwoodHealerBundle",
+    "tier": -1,
+    "tag": "Premium Cosmetic Clothes",
+    "rarity": "Mythic",
+    "compendium_entry": false,
+    "item_list_id": 0
   },
   {
     "id": 570158556,
@@ -43360,6 +43616,22 @@
     "item_list_id": 0
   },
   {
+    "id": 616055621,
+    "name": "Midwinter Cabin Furniture Bundle",
+    "description": "A bundle of Midwinter Cabin Furniture for you to use to decorate your house and town.",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "PremiumIcons/WinterFurnitureBundle",
+    "tier": -1,
+    "tag": "Furniture",
+    "rarity": "Mythic",
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
     "id": 616102099,
     "name": "Luminite Machete",
     "description": "",
@@ -43502,6 +43774,22 @@
     "rarity": "Legendary",
     "compendium_entry": false,
     "item_list_id": 680373244
+  },
+  {
+    "id": 620414635,
+    "name": "Berserker Gathering Potion",
+    "description": "An elixir that provides you with a very high amount of gathering speed for a long duration.",
+    "volume": 600,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Items/GatheringSpeedPotion",
+    "tier": -1,
+    "tag": "Elixir",
+    "rarity": "Epic",
+    "compendium_entry": true,
+    "item_list_id": 0
   },
   {
     "id": 620432214,
@@ -45696,6 +45984,22 @@
     "item_list_id": 0
   },
   {
+    "id": 671481440,
+    "name": "Ancient Relic Knowledge",
+    "description": "Knowledge that you've compiled from the ancient times. This would inspire the reader, increasing their experience gain for one day.",
+    "volume": 600,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/AncientLorePage",
+    "tier": -1,
+    "tag": "Ancient Relic",
+    "rarity": "Epic",
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
     "id": 671494642,
     "name": "Ornate Raw Meat",
     "description": "A piece of meat from a wild animal. Could be used as a cooking ingredient.",
@@ -47344,6 +47648,22 @@
     "item_list_id": 0
   },
   {
+    "id": 705339984,
+    "name": "Everwoods Healer's Outfit ItemList",
+    "description": "",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/ImmortalRecruitsBelt",
+    "tier": -1,
+    "tag": "Premium Cosmetic Clothes",
+    "rarity": "Mythic",
+    "compendium_entry": false,
+    "item_list_id": 1855409370
+  },
+  {
     "id": 705866832,
     "name": "Rathium Saw",
     "description": "A saw made from rathium.",
@@ -47374,6 +47694,22 @@
     "rarity": "Legendary",
     "compendium_entry": true,
     "item_list_id": 0
+  },
+  {
+    "id": 706270139,
+    "name": "Party Cracker Contents",
+    "description": "",
+    "volume": 0,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "",
+    "tier": -1,
+    "tag": "Seasonal",
+    "rarity": "Default",
+    "compendium_entry": false,
+    "item_list_id": 350062593
   },
   {
     "id": 707318385,
@@ -48926,6 +49262,22 @@
     "rarity": "Epic",
     "compendium_entry": false,
     "item_list_id": 2093442126
+  },
+  {
+    "id": 744069255,
+    "name": "Everwoods Warrior's Belt",
+    "description": "A Premium Clothing Outfit Piece from the Everwoods Warrior Set. Can be added to you vault to wear as a cosmetic override.",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "PremiumIcons/EverwoodWarriorBelt",
+    "tier": -1,
+    "tag": "Premium Cosmetic Clothes",
+    "rarity": "Mythic",
+    "compendium_entry": false,
+    "item_list_id": 0
   },
   {
     "id": 744075628,
@@ -50528,6 +50880,22 @@
     "item_list_id": 0
   },
   {
+    "id": 782857121,
+    "name": "Everwoods Healer's Circlet",
+    "description": "A Premium Clothing Outfit Piece from the Everwoods Healer Set. Can be added to you vault to wear as a cosmetic override.",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "PremiumIcons/EverwoodHealerHat",
+    "tier": -1,
+    "tag": "Premium Cosmetic Clothes",
+    "rarity": "Mythic",
+    "compendium_entry": false,
+    "item_list_id": 0
+  },
+  {
     "id": 782974457,
     "name": "Simple Diamond Fragment",
     "description": "This could be used to craft a gem.",
@@ -51328,6 +51696,22 @@
     "item_list_id": 0
   },
   {
+    "id": 804477179,
+    "name": "Ancient Smithing Knowledge",
+    "description": "Knowledge that you've compiled from the ancient times. This would inspire the reader, increasing their smithing power for one day.",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/AncientLorePage",
+    "tier": -1,
+    "tag": "Ancient Relic",
+    "rarity": "Rare",
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
     "id": 805422378,
     "name": "Metalworking Flux",
     "description": "Flux that is used to remove impurities from metal. This is required to make Ingots starting at Tier 3. Sold by Rumbagh",
@@ -51628,6 +52012,22 @@
     "tier": 6,
     "tag": "Metal Armor",
     "rarity": "Uncommon",
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
+    "id": 811686234,
+    "name": "Midwinter Cabin Chair",
+    "description": "An item that could be used to create a building to decorate your house.",
+    "volume": 600,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "PremiumIcons/WinterChair",
+    "tier": -1,
+    "tag": "Furniture",
+    "rarity": "Mythic",
     "compendium_entry": true,
     "item_list_id": 0
   },
@@ -53648,6 +54048,22 @@
     "item_list_id": 0
   },
   {
+    "id": 860831973,
+    "name": "Midwinter Cabin Fireplace",
+    "description": "An item that could be used to create a building to decorate your house.",
+    "volume": 600,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "PremiumIcons/WinterCabinChimney",
+    "tier": -1,
+    "tag": "Furniture",
+    "rarity": "Mythic",
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
     "id": 862054473,
     "name": "Magnificient Leather Shirt",
     "description": "",
@@ -54208,6 +54624,22 @@
     "item_list_id": 2079685958
   },
   {
+    "id": 878423721,
+    "name": "Midwinter Cabin Shelf",
+    "description": "An item that could be used to create a building to decorate your house.",
+    "volume": 600,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "PremiumIcons/WinterDresser2",
+    "tier": -1,
+    "tag": "Furniture",
+    "rarity": "Mythic",
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
     "id": 878819349,
     "name": "Aurumite Quill",
     "description": "A quill made from aurumite.",
@@ -54238,6 +54670,22 @@
     "rarity": "Uncommon",
     "compendium_entry": false,
     "item_list_id": 475783783
+  },
+  {
+    "id": 881133448,
+    "name": "Ancient Forestry Knowledge",
+    "description": "Knowledge that you've compiled from the ancient times. This would inspire the reader, increasing their forestry power for one day.",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/AncientLorePage",
+    "tier": -1,
+    "tag": "Ancient Relic",
+    "rarity": "Rare",
+    "compendium_entry": true,
+    "item_list_id": 0
   },
   {
     "id": 881224896,
@@ -56240,6 +56688,22 @@
     "item_list_id": 0
   },
   {
+    "id": 931956405,
+    "name": "Everwoods Warrior's Outfit Bundle",
+    "description": "A premium bundle of clothing making up the Everwood Warrior's outfit, purchased from the premium store. Right click it and click \"Unpack\" to access your new clothing!",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "PremiumIcons/EverwoodWarriorBundle",
+    "tier": -1,
+    "tag": "Premium Cosmetic Clothes",
+    "rarity": "Mythic",
+    "compendium_entry": false,
+    "item_list_id": 0
+  },
+  {
     "id": 932229778,
     "name": "Fine Woven Cap",
     "description": "",
@@ -56766,6 +57230,22 @@
     "rarity": "Legendary",
     "compendium_entry": false,
     "item_list_id": 1333293579
+  },
+  {
+    "id": 943814632,
+    "name": "Midwinter Cabin Lantern",
+    "description": "An item that could be used to create a building to decorate your house.",
+    "volume": 600,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "PremiumIcons/WinterLamp1",
+    "tier": -1,
+    "tag": "Furniture",
+    "rarity": "Mythic",
+    "compendium_entry": true,
+    "item_list_id": 0
   },
   {
     "id": 943838904,
@@ -59104,6 +59584,22 @@
     "item_list_id": 2042193116
   },
   {
+    "id": 1001825494,
+    "name": "Midwinter Cabin Rocking Chair",
+    "description": "An item that could be used to create a building to decorate your house.",
+    "volume": 600,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "PremiumIcons/WinterRockingChair",
+    "tier": -1,
+    "tag": "Furniture",
+    "rarity": "Mythic",
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
     "id": 1002296378,
     "name": "Rathium Hoe",
     "description": "",
@@ -59664,6 +60160,22 @@
     "item_list_id": 492258508
   },
   {
+    "id": 1013300154,
+    "name": "Everwoods Warrior's Circlet",
+    "description": "A Premium Clothing Outfit Piece from the Everwoods Warrior Set. Can be added to you vault to wear as a cosmetic override.",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "PremiumIcons/EverwoodWarriorHat",
+    "tier": -1,
+    "tag": "Premium Cosmetic Clothes",
+    "rarity": "Mythic",
+    "compendium_entry": false,
+    "item_list_id": 0
+  },
+  {
     "id": 1013839268,
     "name": "Astralite Bow",
     "description": "A bow made from astralite.",
@@ -59788,6 +60300,22 @@
     "tier": 7,
     "tag": "Metal Armor",
     "rarity": "Epic",
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
+    "id": 1017333092,
+    "name": "Party Hat (Purple)",
+    "description": "A purple party hat from inside a party cracker. ",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "PremiumIcons/partyhat_purple",
+    "tier": -1,
+    "tag": "Seasonal Cosmetic",
+    "rarity": "Uncommon",
     "compendium_entry": true,
     "item_list_id": 0
   },
@@ -61168,6 +61696,22 @@
     "item_list_id": 241559285
   },
   {
+    "id": 1047031705,
+    "name": "Midwinter Cabin Furniture Bundle Output",
+    "description": "A bundle of Midwinter Cabin Furniture for you to use to decorate your house and town.",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Other/Buildings/DecoWinterCabinBundle",
+    "tier": -1,
+    "tag": "Furniture",
+    "rarity": "Mythic",
+    "compendium_entry": false,
+    "item_list_id": 542378458
+  },
+  {
     "id": 1047278345,
     "name": "Luminite Duelist Helm",
     "description": "",
@@ -61948,6 +62492,22 @@
     "tier": 3,
     "tag": "Furniture",
     "rarity": "Common",
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
+    "id": 1065373326,
+    "name": "Ancient Relic",
+    "description": "A relic from the ancient times. The knowledge contained in here should be preserved.",
+    "volume": 120,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Items/AncientRelic",
+    "tier": -1,
+    "tag": "Ancient Relic",
+    "rarity": "Epic",
     "compendium_entry": true,
     "item_list_id": 0
   },
@@ -62781,6 +63341,22 @@
     "tag": "Deed",
     "rarity": "Common",
     "compendium_entry": false,
+    "item_list_id": 0
+  },
+  {
+    "id": 1086855799,
+    "name": "Party Cracker",
+    "description": "A party cracker which can be opened to obtain a random colored party hat. Who knows which you'll get?",
+    "volume": 0,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "PremiumIcons/partyhat_gift",
+    "tier": -1,
+    "tag": "Seasonal",
+    "rarity": "Common",
+    "compendium_entry": true,
     "item_list_id": 0
   },
   {
@@ -67312,6 +67888,22 @@
     "item_list_id": 0
   },
   {
+    "id": 1194567558,
+    "name": "Everwoods Healer's Pants",
+    "description": "A Premium Clothing Outfit Piece from the Everwoods Healer Set. Can be added to you vault to wear as a cosmetic override.",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "PremiumIcons/EverwoodHealerPants",
+    "tier": -1,
+    "tag": "Premium Cosmetic Clothes",
+    "rarity": "Mythic",
+    "compendium_entry": false,
+    "item_list_id": 0
+  },
+  {
     "id": 1196242640,
     "name": "Aurumite Plated Legguards",
     "description": "",
@@ -67372,6 +67964,22 @@
     "tier": 8,
     "tag": "Raw Meat",
     "rarity": "Common",
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
+    "id": 1197518668,
+    "name": "Midwinter Cabin Bed",
+    "description": "An item that could be used to create a building to decorate your house.",
+    "volume": 600,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "PremiumIcons/WinterBed",
+    "tier": -1,
+    "tag": "Furniture",
+    "rarity": "Mythic",
     "compendium_entry": true,
     "item_list_id": 0
   },
@@ -67868,6 +68476,22 @@
     "tier": 5,
     "tag": "Leather Clothing",
     "rarity": "Common",
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
+    "id": 1207761685,
+    "name": "Midwinter Cabin Room Divider",
+    "description": "An item that could be used to create a building to decorate your house.",
+    "volume": 600,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "PremiumIcons/WinterDivider",
+    "tier": -1,
+    "tag": "Furniture",
+    "rarity": "Mythic",
     "compendium_entry": true,
     "item_list_id": 0
   },
@@ -68720,6 +69344,22 @@
     "item_list_id": 0
   },
   {
+    "id": 1224355349,
+    "name": "Ancient Tailor Knowledge",
+    "description": "Knowledge that you've compiled from the ancient times. This would inspire the reader, increasing their tailor power for one day.",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/AncientLorePage",
+    "tier": -1,
+    "tag": "Ancient Relic",
+    "rarity": "Rare",
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
     "id": 1224541740,
     "name": "Pristine Leather Cap",
     "description": "",
@@ -69152,6 +69792,22 @@
     "item_list_id": 1758912936
   },
   {
+    "id": 1235656080,
+    "name": "Ancient Mining Knowledge",
+    "description": "Knowledge that you've compiled from the ancient times. This would inspire the reader, increasing their mining power for one day.",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/AncientLorePage",
+    "tier": -1,
+    "tag": "Ancient Relic",
+    "rarity": "Rare",
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
     "id": 1236430591,
     "name": "Celestium Duelist Legguards",
     "description": "",
@@ -69166,6 +69822,22 @@
     "rarity": "Legendary",
     "compendium_entry": false,
     "item_list_id": 809318196
+  },
+  {
+    "id": 1236697516,
+    "name": "Party Hat (Orange)",
+    "description": "A orange party hat from inside a party cracker. ",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "PremiumIcons/partyhat_orange",
+    "tier": -1,
+    "tag": "Seasonal Cosmetic",
+    "rarity": "Uncommon",
+    "compendium_entry": true,
+    "item_list_id": 0
   },
   {
     "id": 1237530772,
@@ -70544,6 +71216,22 @@
     "item_list_id": 0
   },
   {
+    "id": 1271682263,
+    "name": "Ancient Fishing Knowledge",
+    "description": "Knowledge that you've compiled from the ancient times. This would inspire the reader, increasing their fishing power for one day.",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/AncientLorePage",
+    "tier": -1,
+    "tag": "Ancient Relic",
+    "rarity": "Rare",
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
     "id": 1271975069,
     "name": "Ornate Stone Research",
     "description": "Research notes about advanced stone materials. ",
@@ -70848,6 +71536,22 @@
     "item_list_id": 654814869
   },
   {
+    "id": 1280415872,
+    "name": "Everwoods Warrior's Boots",
+    "description": "A Premium Clothing Outfit Piece from the Everwoods Warrior Set. Can be added to you vault to wear as a cosmetic override.",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "PremiumIcons/EverwoodWarriorBoots",
+    "tier": -1,
+    "tag": "Premium Cosmetic Clothes",
+    "rarity": "Mythic",
+    "compendium_entry": false,
+    "item_list_id": 0
+  },
+  {
     "id": 1280500900,
     "name": "Astralite Machete",
     "description": "",
@@ -71144,8 +71848,8 @@
     "convert_to_on_durability_zero": 0,
     "secondary_knowledge_id": 0,
     "model_asset_name": "",
-    "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Items/HotCocoa",
-    "tier": 2,
+    "icon_asset_name": "PremiumIcons/HotCocoa",
+    "tier": -1,
     "tag": "Seasonal Food",
     "rarity": "Common",
     "compendium_entry": true,
@@ -72016,6 +72720,22 @@
     "item_list_id": 0
   },
   {
+    "id": 1310573463,
+    "name": "Party Hat (Green)",
+    "description": "A green party hat from inside a party cracker. ",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "PremiumIcons/partyhat_green",
+    "tier": -1,
+    "tag": "Seasonal Cosmetic",
+    "rarity": "Uncommon",
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
     "id": 1312391363,
     "name": "Heated Capacitor Knowledge Scroll",
     "description": "Provides knowledge to craft a Heated Capacitor.",
@@ -72384,6 +73104,22 @@
     "item_list_id": 0
   },
   {
+    "id": 1322340922,
+    "name": "Midwinter Cabin Cozy Rug",
+    "description": "An item that could be used to create a building to decorate your house.",
+    "volume": 600,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "PremiumIcons/WinterRug1",
+    "tier": -1,
+    "tag": "Furniture",
+    "rarity": "Mythic",
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
     "id": 1322661925,
     "name": "Flawless Stripped Wood",
     "description": "Strips of wood taken from a log from a tree. A skilled carpenter could form these into a plank to be used in construction or other crafting recipes.",
@@ -72635,6 +73371,22 @@
     "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Items/Tools/UmbraciteRoundknife",
     "tier": 9,
     "tag": "Leatherworker Tool",
+    "rarity": "Mythic",
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
+    "id": 1329796834,
+    "name": "Midwinter Cabin Lantern Trio",
+    "description": "An item that could be used to create a building to decorate your house.",
+    "volume": 600,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "PremiumIcons/WinterLamp2",
+    "tier": -1,
+    "tag": "Furniture",
     "rarity": "Mythic",
     "compendium_entry": true,
     "item_list_id": 0
@@ -73152,6 +73904,22 @@
     "item_list_id": 1587633250
   },
   {
+    "id": 1343656824,
+    "name": "Ancient Foraging Knowledge",
+    "description": "Knowledge that you've compiled from the ancient times. This would inspire the reader, increasing their foraging power for one day.",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/AncientLorePage",
+    "tier": -1,
+    "tag": "Ancient Relic",
+    "rarity": "Rare",
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
     "id": 1344023712,
     "name": "Elenvar Hoe",
     "description": "A hoe made from elenvar.",
@@ -73422,6 +74190,22 @@
     "rarity": "Uncommon",
     "compendium_entry": false,
     "item_list_id": 909198051
+  },
+  {
+    "id": 1354389115,
+    "name": "Ancient Carpentry Knowledge",
+    "description": "Knowledge that you've compiled from the ancient times. This would inspire the reader, increasing their carpentry power for one day.",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/AncientLorePage",
+    "tier": -1,
+    "tag": "Ancient Relic",
+    "rarity": "Rare",
+    "compendium_entry": true,
+    "item_list_id": 0
   },
   {
     "id": 1354542154,
@@ -73790,6 +74574,22 @@
     "rarity": "Common",
     "compendium_entry": false,
     "item_list_id": 694591059
+  },
+  {
+    "id": 1362290100,
+    "name": "Patterned Winter Mittens",
+    "description": "",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Other/Cosmetics/Mittens6",
+    "tier": -1,
+    "tag": "Seasonal Cosmetic",
+    "rarity": "Rare",
+    "compendium_entry": true,
+    "item_list_id": 0
   },
   {
     "id": 1363329798,
@@ -74574,6 +75374,22 @@
     "rarity": "Epic",
     "compendium_entry": false,
     "item_list_id": 589563693
+  },
+  {
+    "id": 1379770067,
+    "name": "Pure Argent Ring",
+    "description": "A ring made from Argent.",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Items/PureArgentRing",
+    "tier": -1,
+    "tag": "Jewelry",
+    "rarity": "Epic",
+    "compendium_entry": true,
+    "item_list_id": 0
   },
   {
     "id": 1380477475,
@@ -75680,6 +76496,22 @@
     "item_list_id": 216443243
   },
   {
+    "id": 1403477583,
+    "name": "Holiday Mega Bundle",
+    "description": "",
+    "volume": 0,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "PremiumIcons/HolidayBundle",
+    "tier": -1,
+    "tag": "Premium Item",
+    "rarity": "Mythic",
+    "compendium_entry": false,
+    "item_list_id": 0
+  },
+  {
     "id": 1403488115,
     "name": "Flawless Ruby Ring",
     "description": "A metal ring with a gem in it.",
@@ -75788,6 +76620,22 @@
     "tier": 1,
     "tag": "Gem Fragment",
     "rarity": "Uncommon",
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
+    "id": 1407304744,
+    "name": "Party Hat (White)",
+    "description": "A white party hat from inside a party cracker. ",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "PremiumIcons/partyhat_white",
+    "tier": -1,
+    "tag": "Seasonal Cosmetic",
+    "rarity": "Rare",
     "compendium_entry": true,
     "item_list_id": 0
   },
@@ -77752,8 +78600,8 @@
     "convert_to_on_durability_zero": 0,
     "secondary_knowledge_id": 0,
     "model_asset_name": "",
-    "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Items/Cocoa",
-    "tier": 2,
+    "icon_asset_name": "PremiumIcons/Cocoa",
+    "tier": -1,
     "tag": "Seasonal Food",
     "rarity": "Common",
     "compendium_entry": true,
@@ -78253,6 +79101,22 @@
     "tag": "Hunter Tool",
     "rarity": "Uncommon",
     "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
+    "id": 1461119192,
+    "name": "Everwoods Healer's Belt",
+    "description": "A Premium Clothing Outfit Piece from the Everwoods Healer Set. Can be added to you vault to wear as a cosmetic override.",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "PremiumIcons/EverwoodHealerBelt",
+    "tier": -1,
+    "tag": "Premium Cosmetic Clothes",
+    "rarity": "Mythic",
+    "compendium_entry": false,
     "item_list_id": 0
   },
   {
@@ -79708,6 +80572,22 @@
     "tier": 8,
     "tag": "Weapon",
     "rarity": "Rare",
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
+    "id": 1498621368,
+    "name": "Berserker Mushroom",
+    "description": "A mushroom that is bursting with energy. A scholar could produce an extremely powerful potion out of this.",
+    "volume": 120,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Items/BerserkerMushroom",
+    "tier": -1,
+    "tag": "Rare Mushroom",
+    "rarity": "Epic",
     "compendium_entry": true,
     "item_list_id": 0
   },
@@ -83264,6 +84144,22 @@
     "item_list_id": 0
   },
   {
+    "id": 1576306254,
+    "name": "Party Hat (Yellow)",
+    "description": "A yellow party hat from inside a party cracker. ",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "PremiumIcons/partyhat_yellow",
+    "tier": -1,
+    "tag": "Seasonal Cosmetic",
+    "rarity": "Common",
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
     "id": 1576306916,
     "name": "Fine Leather Boots",
     "description": "",
@@ -83406,6 +84302,22 @@
     "rarity": "Legendary",
     "compendium_entry": false,
     "item_list_id": 1788398646
+  },
+  {
+    "id": 1579231280,
+    "name": "Knitted Winter Mittens",
+    "description": "",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Other/Cosmetics/Mittens3",
+    "tier": -1,
+    "tag": "Seasonal Cosmetic",
+    "rarity": "Rare",
+    "compendium_entry": true,
+    "item_list_id": 0
   },
   {
     "id": 1579904026,
@@ -85632,6 +86544,22 @@
     "item_list_id": 1833675880
   },
   {
+    "id": 1635059636,
+    "name": "Midwinter Cabin Patterned Rug",
+    "description": "An item that could be used to create a building to decorate your house.",
+    "volume": 600,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "PremiumIcons/WinterRug2",
+    "tier": -1,
+    "tag": "Furniture",
+    "rarity": "Mythic",
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
     "id": 1635165368,
     "name": "Deed: Leather Trousers - Orange",
     "description": "",
@@ -85820,6 +86748,22 @@
     "tier": 9,
     "tag": "Metal Armor",
     "rarity": "Legendary",
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
+    "id": 1640641201,
+    "name": "Party Hat (Gold)",
+    "description": "A gold party hat from inside a party cracker. ",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "PremiumIcons/partyhat_gold",
+    "tier": -1,
+    "tag": "Seasonal Cosmetic",
+    "rarity": "Mythic",
     "compendium_entry": true,
     "item_list_id": 0
   },
@@ -88267,6 +89211,22 @@
     "icon_asset_name": "GeneratedIcons/Other/Cosmetics/Torso/Torso_BasicDressShirt_D",
     "tier": 9,
     "tag": "Leather Clothing",
+    "rarity": "Rare",
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
+    "id": 1700172396,
+    "name": "Ancient Farming Knowledge",
+    "description": "Knowledge that you've compiled from the ancient times. This would inspire the reader, increasing their farming power for one day.",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/AncientLorePage",
+    "tier": -1,
+    "tag": "Ancient Relic",
     "rarity": "Rare",
     "compendium_entry": true,
     "item_list_id": 0
@@ -93640,8 +94600,8 @@
     "convert_to_on_durability_zero": 0,
     "secondary_knowledge_id": 0,
     "model_asset_name": "",
-    "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Items/HolidayCloth",
-    "tier": 2,
+    "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Items/WinterCloth",
+    "tier": -1,
     "tag": "Seasonal",
     "rarity": "Common",
     "compendium_entry": true,
@@ -94176,6 +95136,22 @@
     "item_list_id": 1229604387
   },
   {
+    "id": 1834124104,
+    "name": "Midwinter Cabin Couch",
+    "description": "An item that could be used to create a building to decorate your house.",
+    "volume": 600,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "PremiumIcons/WinterCouch2",
+    "tier": -1,
+    "tag": "Furniture",
+    "rarity": "Mythic",
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
     "id": 1834653146,
     "name": "Refined Fine Cloth",
     "description": "A thick weave of refined cloth embroided with animal hairs.",
@@ -94560,6 +95536,22 @@
     "item_list_id": 590708844
   },
   {
+    "id": 1841729933,
+    "name": "Everwoods Healer's Tunic",
+    "description": "A Premium Clothing Outfit Piece from the Everwoods Healer Set. Can be added to you vault to wear as a cosmetic override.",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "PremiumIcons/EverwoodHealerShirt",
+    "tier": -1,
+    "tag": "Premium Cosmetic Clothes",
+    "rarity": "Mythic",
+    "compendium_entry": false,
+    "item_list_id": 0
+  },
+  {
     "id": 1842199427,
     "name": "Luminite Saw",
     "description": "",
@@ -94588,6 +95580,22 @@
     "tier": 5,
     "tag": "Blacksmith Tool",
     "rarity": "Legendary",
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
+    "id": 1842388176,
+    "name": "Ancient Masonry Knowledge",
+    "description": "Knowledge that you've compiled from the ancient times. This would inspire the reader, increasing their masonry power for one day.",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/AncientLorePage",
+    "tier": -1,
+    "tag": "Ancient Relic",
+    "rarity": "Rare",
     "compendium_entry": true,
     "item_list_id": 0
   },
@@ -97008,6 +98016,22 @@
     "item_list_id": 0
   },
   {
+    "id": 1897638753,
+    "name": "Midwinter Cabin Fur Rug",
+    "description": "An item that could be used to create a building to decorate your house.",
+    "volume": 600,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "PremiumIcons/WinterRug3",
+    "tier": -1,
+    "tag": "Furniture",
+    "rarity": "Mythic",
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
     "id": 1898963680,
     "name": "Flawless Leather Gloves",
     "description": "",
@@ -97292,6 +98316,22 @@
     "tier": -1,
     "tag": "Premium Item",
     "rarity": "Mythic",
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
+    "id": 1905810953,
+    "name": "Whimsical Winter Mittens",
+    "description": "",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Other/Cosmetics/Mittens5",
+    "tier": -1,
+    "tag": "Seasonal Cosmetic",
+    "rarity": "Rare",
     "compendium_entry": true,
     "item_list_id": 0
   },
@@ -97804,6 +98844,22 @@
     "tier": 7,
     "tag": "Metal Armor",
     "rarity": "Mythic",
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
+    "id": 1918226120,
+    "name": "Warm Winter Mittens",
+    "description": "",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Other/Cosmetics/Mittens4",
+    "tier": -1,
+    "tag": "Seasonal Cosmetic",
+    "rarity": "Rare",
     "compendium_entry": true,
     "item_list_id": 0
   },
@@ -100528,6 +101584,22 @@
     "item_list_id": 0
   },
   {
+    "id": 1977837508,
+    "name": "Everwoods Healer's Boots",
+    "description": "A Premium Clothing Outfit Piece from the Everwoods Healer Set. Can be added to you vault to wear as a cosmetic override.",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "PremiumIcons/EverwoodHealerBoots",
+    "tier": -1,
+    "tag": "Premium Cosmetic Clothes",
+    "rarity": "Mythic",
+    "compendium_entry": false,
+    "item_list_id": 0
+  },
+  {
     "id": 1978666497,
     "name": "Umbracite Daggers",
     "description": "Small, sharp daggers that could do some real damage if you're on the receiving end of them.",
@@ -101454,6 +102526,22 @@
     "rarity": "Uncommon",
     "compendium_entry": false,
     "item_list_id": 879957036
+  },
+  {
+    "id": 1999559035,
+    "name": "Berserker Crafting Potion",
+    "description": "An elixir that provides you with a very high amount of crafting speed for a long duration.",
+    "volume": 600,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Items/CraftingSpeedPotion",
+    "tier": -1,
+    "tag": "Elixir",
+    "rarity": "Epic",
+    "compendium_entry": true,
+    "item_list_id": 0
   },
   {
     "id": 2000518635,
@@ -104608,6 +105696,22 @@
     "item_list_id": 0
   },
   {
+    "id": 2071058084,
+    "name": "Ancient Scholar Knowledge",
+    "description": "Knowledge that you've compiled from the ancient times. This would inspire the reader, increasing their scholar power for one day.",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/AncientLorePage",
+    "tier": -1,
+    "tag": "Ancient Relic",
+    "rarity": "Rare",
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
     "id": 2071574448,
     "name": "Food And Stamina",
     "description": "",
@@ -107008,6 +108112,22 @@
     "item_list_id": 0
   },
   {
+    "id": 2134313728,
+    "name": "Midwinter Cabin Tall Lantern",
+    "description": "An item that could be used to create a building to decorate your house.",
+    "volume": 600,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "PremiumIcons/WinterLamp",
+    "tier": -1,
+    "tag": "Furniture",
+    "rarity": "Mythic",
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
     "id": 2134795875,
     "name": "Magnificient Leather Leggings",
     "description": "",
@@ -107068,6 +108188,22 @@
     "tier": 10,
     "tag": "Metal Armor",
     "rarity": "Uncommon",
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
+    "id": 2137035226,
+    "name": "Midwinter Cabin Counter",
+    "description": "An item that could be used to create a building to decorate your house.",
+    "volume": 600,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "PremiumIcons/WinterDesc",
+    "tier": -1,
+    "tag": "Furniture",
+    "rarity": "Mythic",
     "compendium_entry": true,
     "item_list_id": 0
   },
@@ -107582,5 +108718,37 @@
     "rarity": "Uncommon",
     "compendium_entry": true,
     "item_list_id": 0
+  },
+  {
+    "id": 2147483456,
+    "name": "Everwoods Pair Outfit Itemlist",
+    "description": "",
+    "volume": 0,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Items/WinterClothesItem",
+    "tier": -1,
+    "tag": "Premium Item",
+    "rarity": "Mythic",
+    "compendium_entry": false,
+    "item_list_id": 976217825
+  },
+  {
+    "id": 2147483635,
+    "name": "Everwoods Warrior's Outfit ItemList",
+    "description": "",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/ImmortalRecruitsBelt",
+    "tier": -1,
+    "tag": "Premium Cosmetic Clothes",
+    "rarity": "Mythic",
+    "compendium_entry": false,
+    "item_list_id": 3358638
   }
 ]

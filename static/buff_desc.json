@@ -593,6 +593,26 @@
     "vfx_attachment_point": "Origin"
   },
   {
+    "id": 286494970,
+    "buff_type_id": 1482558529,
+    "description": "Ancient Forestry Inspiration",
+    "priority": 0,
+    "duration": 86400,
+    "warn_time": 15.0,
+    "online_timestamp": false,
+    "beneficial": true,
+    "icon_asset_name": "\\u00E4",
+    "stats": [
+      {
+        "id": "ForestryPower",
+        "value": 2.0,
+        "is_pct": false
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
     "id": 289805356,
     "buff_type_id": 861783812,
     "description": "Level 2 Movement Speed",
@@ -806,6 +826,26 @@
       {
         "id": "PassiveStaminaRegenRate",
         "value": 21.0,
+        "is_pct": false
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 414991515,
+    "buff_type_id": 1482558529,
+    "description": "Ancient Mining Inspiration",
+    "priority": 0,
+    "duration": 86400,
+    "warn_time": 15.0,
+    "online_timestamp": false,
+    "beneficial": true,
+    "icon_asset_name": "\\u00E4",
+    "stats": [
+      {
+        "id": "MiningPower",
+        "value": 2.0,
         "is_pct": false
       }
     ],
@@ -1185,6 +1225,26 @@
     ],
     "vfx": "OrangeBlackFieryHand",
     "vfx_attachment_point": "BothHands"
+  },
+  {
+    "id": 611825682,
+    "buff_type_id": 1482558529,
+    "description": "Ancient Scholar Inspiration",
+    "priority": 0,
+    "duration": 86400,
+    "warn_time": 15.0,
+    "online_timestamp": false,
+    "beneficial": true,
+    "icon_asset_name": "\\u00E4",
+    "stats": [
+      {
+        "id": "ScholarPower",
+        "value": 2.0,
+        "is_pct": false
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
   },
   {
     "id": 619646856,
@@ -1592,6 +1652,46 @@
     "vfx_attachment_point": "Origin"
   },
   {
+    "id": 881133448,
+    "buff_type_id": 1482558529,
+    "description": "Ancient Masonry Inspiration",
+    "priority": 0,
+    "duration": 86400,
+    "warn_time": 15.0,
+    "online_timestamp": false,
+    "beneficial": true,
+    "icon_asset_name": "\\u00E4",
+    "stats": [
+      {
+        "id": "MasonryPower",
+        "value": 2.0,
+        "is_pct": false
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 889612944,
+    "buff_type_id": 1482558529,
+    "description": "Ancient Foraging Inspiration",
+    "priority": 0,
+    "duration": 86400,
+    "warn_time": 15.0,
+    "online_timestamp": false,
+    "beneficial": true,
+    "icon_asset_name": "\\u00E4",
+    "stats": [
+      {
+        "id": "ForagingPower",
+        "value": 2.0,
+        "is_pct": false
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
     "id": 902805361,
     "buff_type_id": 1204575210,
     "description": "Basic Healing Potion",
@@ -1882,6 +1982,26 @@
     "vfx_attachment_point": "Origin"
   },
   {
+    "id": 1096704687,
+    "buff_type_id": 491173688,
+    "description": "Berserker's Gathering Elixir",
+    "priority": 0,
+    "duration": 600,
+    "warn_time": 15.0,
+    "online_timestamp": false,
+    "beneficial": true,
+    "icon_asset_name": "\\u00E4",
+    "stats": [
+      {
+        "id": "GatheringSpeed",
+        "value": 0.3,
+        "is_pct": true
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
     "id": 1100328253,
     "buff_type_id": 861783812,
     "description": "Level 3 Combat Cooldown",
@@ -1965,6 +2085,26 @@
       {
         "id": "MovementMultiplier",
         "value": -0.1,
+        "is_pct": true
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 1214968445,
+    "buff_type_id": 491173688,
+    "description": "Berserker's Crafting Elixir",
+    "priority": 0,
+    "duration": 600,
+    "warn_time": 15.0,
+    "online_timestamp": false,
+    "beneficial": true,
+    "icon_asset_name": "\\u00E4",
+    "stats": [
+      {
+        "id": "CraftingSpeed",
+        "value": 0.3,
         "is_pct": true
       }
     ],
@@ -2242,6 +2382,26 @@
     "vfx_attachment_point": "Origin"
   },
   {
+    "id": 1346847362,
+    "buff_type_id": 1482558529,
+    "description": "Ancient Carpentry Inspiration",
+    "priority": 0,
+    "duration": 86400,
+    "warn_time": 15.0,
+    "online_timestamp": false,
+    "beneficial": true,
+    "icon_asset_name": "\\u00E4",
+    "stats": [
+      {
+        "id": "CarpentryPower",
+        "value": 2.0,
+        "is_pct": false
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
     "id": 1347325268,
     "buff_type_id": 1790361536,
     "description": "Level 5 Food Regen",
@@ -2260,6 +2420,26 @@
       {
         "id": "PassiveStaminaRegenRate",
         "value": 13.0,
+        "is_pct": false
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 1361197348,
+    "buff_type_id": 1482558529,
+    "description": "Ancient Smithing Inspiration",
+    "priority": 0,
+    "duration": 86400,
+    "warn_time": 15.0,
+    "online_timestamp": false,
+    "beneficial": true,
+    "icon_asset_name": "\\u00E4",
+    "stats": [
+      {
+        "id": "SmithingPower",
+        "value": 2.0,
         "is_pct": false
       }
     ],
@@ -2467,6 +2647,26 @@
     "vfx_attachment_point": "Origin"
   },
   {
+    "id": 1448245922,
+    "buff_type_id": 1482558529,
+    "description": "Ancient Farming Inspiration",
+    "priority": 0,
+    "duration": 86400,
+    "warn_time": 15.0,
+    "online_timestamp": false,
+    "beneficial": true,
+    "icon_asset_name": "\\u00E4",
+    "stats": [
+      {
+        "id": "FarmingPower",
+        "value": 2.0,
+        "is_pct": false
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
     "id": 1453337769,
     "buff_type_id": 861783812,
     "description": "Level 8 Movement Speed",
@@ -2525,6 +2725,26 @@
       {
         "id": "PassiveStaminaRegenRate",
         "value": 15.0,
+        "is_pct": false
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 1485812767,
+    "buff_type_id": 1482558529,
+    "description": "Ancient Leatherworking Inspiration",
+    "priority": 0,
+    "duration": 86400,
+    "warn_time": 15.0,
+    "online_timestamp": false,
+    "beneficial": true,
+    "icon_asset_name": "\\u00E4",
+    "stats": [
+      {
+        "id": "LeatherworkingPower",
+        "value": 2.0,
         "is_pct": false
       }
     ],
@@ -2636,6 +2856,26 @@
         "id": "MovementMultiplier",
         "value": -0.5,
         "is_pct": true
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 1546485583,
+    "buff_type_id": 1482558529,
+    "description": "Ancient Fishing Inspiration",
+    "priority": 0,
+    "duration": 86400,
+    "warn_time": 15.0,
+    "online_timestamp": false,
+    "beneficial": true,
+    "icon_asset_name": "\\u00E4",
+    "stats": [
+      {
+        "id": "FishingPower",
+        "value": 2.0,
+        "is_pct": false
       }
     ],
     "vfx": "",
@@ -2813,6 +3053,26 @@
       }
     ],
     "vfx": "EnrageBuff",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 1625755612,
+    "buff_type_id": 1482558529,
+    "description": "Ancient Tailoring Inspiration",
+    "priority": 0,
+    "duration": 86400,
+    "warn_time": 15.0,
+    "online_timestamp": false,
+    "beneficial": true,
+    "icon_asset_name": "\\u00E4",
+    "stats": [
+      {
+        "id": "TailoringPower",
+        "value": 2.0,
+        "is_pct": false
+      }
+    ],
+    "vfx": "",
     "vfx_attachment_point": "Origin"
   },
   {
@@ -3005,6 +3265,26 @@
         "id": "CraftingSpeed",
         "value": 0.048,
         "is_pct": true
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 1811669941,
+    "buff_type_id": 1482558529,
+    "description": "Ancient Hunting Inspiration",
+    "priority": 0,
+    "duration": 86400,
+    "warn_time": 15.0,
+    "online_timestamp": false,
+    "beneficial": true,
+    "icon_asset_name": "\\u00E4",
+    "stats": [
+      {
+        "id": "HuntingPower",
+        "value": 2.0,
+        "is_pct": false
       }
     ],
     "vfx": "",
