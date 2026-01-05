@@ -71292,10 +71292,10 @@
       "sql": "\n    SELECT CMS.*\n    FROM chat_message_state CMS\n    JOIN chat_channel_permission_state CCPS ON CMS.target_id = CCPS.chat_channel_entity_id\n    WHERE CCPS.identity = :sender AND CCPS.rank >= 2 AND CCPS.rank != 4\n"
     },
     {
-      "sql": "\n    SELECT d.*\n    FROM direct_message_state d\n    JOIN user_state u ON d.receiver_entity_id = u.entity_id\n    WHERE u.identity = :sender\n"
+      "sql": "\n    SELECT d.*\n    FROM direct_message_state d\n    JOIN user_state u ON d.sender_entity_id = u.entity_id\n    WHERE u.identity = :sender\n"
     },
     {
-      "sql": "\n    SELECT d.*\n    FROM direct_message_state d\n    JOIN user_state u ON d.sender_entity_id = u.entity_id\n    WHERE u.identity = :sender\n"
+      "sql": "\n    SELECT d.*\n    FROM direct_message_state d\n    JOIN user_state u ON d.receiver_entity_id = u.entity_id\n    WHERE u.identity = :sender\n"
     }
   ]
 }
