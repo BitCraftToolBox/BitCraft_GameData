@@ -61239,24 +61239,6 @@
       }
     },
     {
-      "name": "delete_developer_identity",
-      "params": {
-        "elements": [
-          {
-            "name": {
-              "some": "identity"
-            },
-            "algebraic_type": {
-              "String": []
-            }
-          }
-        ]
-      },
-      "lifecycle": {
-        "none": []
-      }
-    },
-    {
       "name": "edit_chat_channel",
       "params": {
         "elements": [
@@ -64988,56 +64970,6 @@
         "some": {
           "Init": []
         }
-      }
-    },
-    {
-      "name": "insert_developer_identity",
-      "params": {
-        "elements": [
-          {
-            "name": {
-              "some": "identity"
-            },
-            "algebraic_type": {
-              "String": []
-            }
-          },
-          {
-            "name": {
-              "some": "developer_name"
-            },
-            "algebraic_type": {
-              "String": []
-            }
-          },
-          {
-            "name": {
-              "some": "service_name"
-            },
-            "algebraic_type": {
-              "String": []
-            }
-          },
-          {
-            "name": {
-              "some": "email"
-            },
-            "algebraic_type": {
-              "String": []
-            }
-          },
-          {
-            "name": {
-              "some": "is_external"
-            },
-            "algebraic_type": {
-              "Bool": []
-            }
-          }
-        ]
-      },
-      "lifecycle": {
-        "none": []
       }
     },
     {
