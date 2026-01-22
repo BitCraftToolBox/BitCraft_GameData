@@ -16180,7 +16180,7 @@
   },
   {
     "id": 331687458,
-    "name": "Magnificient Hieroglyphs",
+    "name": "Magnificent Hieroglyphs",
     "description": "",
     "flattenable": false,
     "max_health": 235,
@@ -17394,7 +17394,7 @@
   },
   {
     "id": 562432497,
-    "name": "Magnificient Sand",
+    "name": "Magnificent Sand",
     "description": "",
     "flattenable": false,
     "max_health": 2340,
@@ -18145,7 +18145,7 @@
   },
   {
     "id": 756579517,
-    "name": "Magnificient Baitfish",
+    "name": "Magnificent Baitfish",
     "description": "",
     "flattenable": false,
     "max_health": 3505,
@@ -19842,7 +19842,7 @@
   },
   {
     "id": 963451338,
-    "name": "Magnificient Berry Bush",
+    "name": "Magnificent Berry Bush",
     "description": "",
     "flattenable": true,
     "max_health": 700,
@@ -21535,7 +21535,7 @@
   },
   {
     "id": 1141184831,
-    "name": "Frenzied School Of Magnificient Ocean Fish",
+    "name": "Frenzied School Of Magnificent Ocean Fish",
     "description": "",
     "flattenable": false,
     "max_health": 233775,
@@ -21593,7 +21593,7 @@
   },
   {
     "id": 1157887989,
-    "name": "School Of Magnificient Lake Fish",
+    "name": "School Of Magnificent Lake Fish",
     "description": "",
     "flattenable": false,
     "max_health": 7015,
@@ -23528,7 +23528,7 @@
   },
   {
     "id": 1526038154,
-    "name": "Magnificient Clay",
+    "name": "Magnificent Clay",
     "description": "",
     "flattenable": false,
     "max_health": 2340,
@@ -24248,6 +24248,34 @@
     "not_respawning": true
   },
   {
+    "id": 1622386904,
+    "name": "Depleted Ancient Pots",
+    "description": "",
+    "flattenable": false,
+    "max_health": 1,
+    "ignore_damage": false,
+    "despawn_time": 0.0,
+    "model_asset_name": "Resources/DepletedResource",
+    "icon_asset_name": "Resources/DepletedResource",
+    "on_destroy_yield": [],
+    "on_destroy_yield_resource_id": 0,
+    "spawn_priority": 1,
+    "footprint": [
+      {
+        "x": 0,
+        "z": 0,
+        "footprint_type": "WalkableResource"
+      }
+    ],
+    "tier": -1,
+    "tag": "Depleted Resource",
+    "rarity": "Common",
+    "compendium_entry": false,
+    "enemy_params_id": [],
+    "scheduled_respawn_time": 0.0,
+    "not_respawning": false
+  },
+  {
     "id": 1637125903,
     "name": "Flawless Mushroom",
     "description": "",
@@ -24659,7 +24687,7 @@
   },
   {
     "id": 1742959882,
-    "name": "Magnificient Mushroom",
+    "name": "Magnificent Mushroom",
     "description": "",
     "flattenable": true,
     "max_health": 470,
@@ -24748,7 +24776,7 @@
     "model_asset_name": "Resources/AncientCoffer",
     "icon_asset_name": "",
     "on_destroy_yield": [],
-    "on_destroy_yield_resource_id": 0,
+    "on_destroy_yield_resource_id": 1886066214,
     "spawn_priority": 0,
     "footprint": [
       {
@@ -24805,7 +24833,7 @@
   },
   {
     "id": 1812221896,
-    "name": "School Of Magnificient Ocean Fish",
+    "name": "School Of Magnificent Ocean Fish",
     "description": "",
     "flattenable": false,
     "max_health": 1,
@@ -25352,7 +25380,7 @@
     "model_asset_name": "Resources/BrokenAncientPots",
     "icon_asset_name": "",
     "on_destroy_yield": [],
-    "on_destroy_yield_resource_id": 0,
+    "on_destroy_yield_resource_id": 1622386904,
     "spawn_priority": 0,
     "footprint": [
       {
@@ -25564,6 +25592,34 @@
     "enemy_params_id": [],
     "scheduled_respawn_time": 600.0,
     "not_respawning": true
+  },
+  {
+    "id": 1886066214,
+    "name": "Depleted Ancient Chest",
+    "description": "",
+    "flattenable": false,
+    "max_health": 1,
+    "ignore_damage": false,
+    "despawn_time": 0.0,
+    "model_asset_name": "Resources/DepletedResource",
+    "icon_asset_name": "Resources/DepletedResource",
+    "on_destroy_yield": [],
+    "on_destroy_yield_resource_id": 0,
+    "spawn_priority": 1,
+    "footprint": [
+      {
+        "x": 0,
+        "z": 0,
+        "footprint_type": "WalkableResource"
+      }
+    ],
+    "tier": -1,
+    "tag": "Depleted Resource",
+    "rarity": "Common",
+    "compendium_entry": false,
+    "enemy_params_id": [],
+    "scheduled_respawn_time": 0.0,
+    "not_respawning": false
   },
   {
     "id": 1902966974,

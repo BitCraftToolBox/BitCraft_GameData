@@ -1,0 +1,608 @@
+[
+  {
+    "id": 1,
+    "name": "Tutorial",
+    "is_hint": false,
+    "stages": [
+      877395349,
+      870152545,
+      118661712,
+      2072596421,
+      1054200456,
+      1469758479,
+      731196410,
+      1438268605,
+      911886611,
+      2011385818,
+      406404931,
+      645764707,
+      2146624978,
+      633219445,
+      332818258,
+      1862978209
+    ],
+    "requirements": [],
+    "rewards": [],
+    "implicit_rewards": []
+  },
+  {
+    "id": 184422323,
+    "name": "Cargo Hint",
+    "is_hint": true,
+    "stages": [],
+    "requirements": [],
+    "rewards": [],
+    "implicit_rewards": []
+  },
+  {
+    "id": 290593440,
+    "name": "Snowy Peaks hint",
+    "is_hint": true,
+    "stages": [],
+    "requirements": [],
+    "rewards": [],
+    "implicit_rewards": []
+  },
+  {
+    "id": 333616920,
+    "name": "Cooling Off",
+    "is_hint": false,
+    "stages": [
+      1755501446,
+      2016531500,
+      853749612,
+      775231482,
+      425980020,
+      192486299,
+      1810612425,
+      770032196,
+      671481440
+    ],
+    "requirements": [
+      {
+        "QuestChain_": 336599736
+      },
+      {
+        "Level_": {
+          "skill_id": 1,
+          "level": 40
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "ItemStack_": {
+          "item_id": 1312391363,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        }
+      }
+    ],
+    "implicit_rewards": [
+      {
+        "ItemStack_": {
+          "item_id": 2096381372,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        }
+      }
+    ]
+  },
+  {
+    "id": 336599736,
+    "name": "An Empowered Heart",
+    "is_hint": false,
+    "stages": [
+      1833099380,
+      648880145,
+      1891832254,
+      1108393180,
+      1322340922,
+      1152504172,
+      838207432,
+      1564069891
+    ],
+    "requirements": [
+      {
+        "QuestChain_": 976217825
+      },
+      {
+        "Level_": {
+          "skill_id": 1,
+          "level": 20
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "ItemStack_": {
+          "item_id": 1434148175,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        }
+      }
+    ],
+    "implicit_rewards": [
+      {
+        "ItemStack_": {
+          "item_id": 255350911,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        }
+      }
+    ]
+  },
+  {
+    "id": 354296535,
+    "name": "Fully Equipped",
+    "is_hint": false,
+    "stages": [
+      1055228462,
+      981407899,
+      1922184282,
+      898650936,
+      2133202740
+    ],
+    "requirements": [
+      {
+        "QuestChain_": 534319745
+      }
+    ],
+    "rewards": [
+      {
+        "ItemStack_": {
+          "item_id": 1,
+          "quantity": 500,
+          "item_type": "Item",
+          "durability": 0
+        }
+      },
+      {
+        "Experience_": {
+          "skill_id": 6,
+          "quantity": 1500.0
+        }
+      }
+    ],
+    "implicit_rewards": []
+  },
+  {
+    "id": 534319745,
+    "name": "Making the Rounds",
+    "is_hint": false,
+    "stages": [
+      739907105,
+      114585002,
+      1700553143,
+      943814632,
+      953606644,
+      216320776,
+      1185160842,
+      2040178117,
+      2094248554,
+      293663010,
+      1765599197,
+      850637090,
+      2141260780
+    ],
+    "requirements": [
+      {
+        "QuestChain_": 976217825
+      }
+    ],
+    "rewards": [
+      {
+        "ItemStack_": {
+          "item_id": 1,
+          "quantity": 100,
+          "item_type": "Item",
+          "durability": 0
+        }
+      }
+    ],
+    "implicit_rewards": []
+  },
+  {
+    "id": 627872387,
+    "name": "Starving Hint",
+    "is_hint": true,
+    "stages": [],
+    "requirements": [],
+    "rewards": [],
+    "implicit_rewards": []
+  },
+  {
+    "id": 679715144,
+    "name": "Knocked out hint",
+    "is_hint": true,
+    "stages": [],
+    "requirements": [],
+    "rewards": [],
+    "implicit_rewards": []
+  },
+  {
+    "id": 751817487,
+    "name": "The Basics of Combat",
+    "is_hint": false,
+    "stages": [
+      1133243991,
+      967662545,
+      1732841847,
+      1868291431,
+      380075472,
+      1333956876,
+      1464160790,
+      1785993958,
+      743012375
+    ],
+    "requirements": [
+      {
+        "QuestChain_": 1
+      }
+    ],
+    "rewards": [
+      {
+        "ItemStack_": {
+          "item_id": 473776546,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        }
+      },
+      {
+        "Experience_": {
+          "skill_id": 18,
+          "quantity": 500.0
+        }
+      }
+    ],
+    "implicit_rewards": []
+  },
+  {
+    "id": 976217825,
+    "name": "The Ancient Temple",
+    "is_hint": false,
+    "stages": [
+      747126413,
+      706270139,
+      1859765855,
+      478881693,
+      1216037245,
+      563374688,
+      196787213,
+      1751365000,
+      1614535885
+    ],
+    "requirements": [
+      {
+        "QuestChain_": 751817487
+      }
+    ],
+    "rewards": [
+      {
+        "ItemStack_": {
+          "item_id": 1901138565,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        }
+      }
+    ],
+    "implicit_rewards": [
+      {
+        "ItemStack_": {
+          "item_id": 1454954372,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        }
+      }
+    ]
+  },
+  {
+    "id": 1043927455,
+    "name": "Reaching Higher",
+    "is_hint": false,
+    "stages": [
+      1760677436,
+      353291895,
+      499442560,
+      1990795843
+    ],
+    "requirements": [
+      {
+        "QuestChain_": 1708022223
+      }
+    ],
+    "rewards": [
+      {
+        "ItemStack_": {
+          "item_id": 1,
+          "quantity": 100,
+          "item_type": "Item",
+          "durability": 0
+        }
+      }
+    ],
+    "implicit_rewards": []
+  },
+  {
+    "id": 1358679061,
+    "name": "Deployable Hint",
+    "is_hint": true,
+    "stages": [],
+    "requirements": [],
+    "rewards": [],
+    "implicit_rewards": []
+  },
+  {
+    "id": 1370444347,
+    "name": "Claim hint",
+    "is_hint": true,
+    "stages": [],
+    "requirements": [],
+    "rewards": [],
+    "implicit_rewards": []
+  },
+  {
+    "id": 1441436391,
+    "name": "Vault hint",
+    "is_hint": true,
+    "stages": [],
+    "requirements": [],
+    "rewards": [],
+    "implicit_rewards": []
+  },
+  {
+    "id": 1511437178,
+    "name": "Crafting Your Cart",
+    "is_hint": false,
+    "stages": [
+      1349105777,
+      693048005,
+      1374628201,
+      1580338100,
+      1913008782,
+      1576306254,
+      889612944,
+      1058330642,
+      371378688,
+      372566884,
+      1867206771,
+      1954240935,
+      1026680208,
+      782857121,
+      422627182,
+      927804551,
+      680761036,
+      1973582914,
+      1949007721,
+      517110148,
+      956679262,
+      636403467,
+      993233230
+    ],
+    "requirements": [
+      {
+        "QuestChain_": 1
+      }
+    ],
+    "rewards": [
+      {
+        "ItemStack_": {
+          "item_id": 1,
+          "quantity": 50,
+          "item_type": "Item",
+          "durability": 0
+        }
+      },
+      {
+        "Experience_": {
+          "skill_id": 3,
+          "quantity": 1000.0
+        }
+      }
+    ],
+    "implicit_rewards": [
+      {
+        "ItemStack_": {
+          "item_id": 128,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        }
+      }
+    ]
+  },
+  {
+    "id": 1536298064,
+    "name": "Test Your Mettle",
+    "is_hint": false,
+    "stages": [
+      212222318,
+      507534648
+    ],
+    "requirements": [
+      {
+        "QuestChain_": 534319745
+      }
+    ],
+    "rewards": [
+      {
+        "Experience_": {
+          "skill_id": 18,
+          "quantity": 2000.0
+        }
+      }
+    ],
+    "implicit_rewards": []
+  },
+  {
+    "id": 1604930937,
+    "name": "Desert hint",
+    "is_hint": true,
+    "stages": [],
+    "requirements": [],
+    "rewards": [],
+    "implicit_rewards": []
+  },
+  {
+    "id": 1699433943,
+    "name": "Built to Last",
+    "is_hint": false,
+    "stages": [
+      39920670,
+      2012270438,
+      1251755897,
+      242194921,
+      916025125,
+      207644280,
+      1057438638,
+      167781550,
+      2110540789,
+      1482558529
+    ],
+    "requirements": [
+      {
+        "QuestChain_": 1793465882
+      },
+      {
+        "Level_": {
+          "skill_id": 1,
+          "level": 80
+        }
+      }
+    ],
+    "rewards": [],
+    "implicit_rewards": [
+      {
+        "ItemStack_": {
+          "item_id": 423184559,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        }
+      }
+    ]
+  },
+  {
+    "id": 1708022223,
+    "name": "The Ruined Town",
+    "is_hint": false,
+    "stages": [
+      611825682,
+      931956405,
+      1995433961,
+      1362290100,
+      1559932637,
+      954844275
+    ],
+    "requirements": [
+      {
+        "QuestChain_": 534319745
+      }
+    ],
+    "rewards": [
+      {
+        "ItemStack_": {
+          "item_id": 1,
+          "quantity": 100,
+          "item_type": "Item",
+          "durability": 0
+        }
+      }
+    ],
+    "implicit_rewards": []
+  },
+  {
+    "id": 1793465882,
+    "name": "Warming Up",
+    "is_hint": false,
+    "stages": [
+      1263093967,
+      1165246958,
+      2101454390,
+      627872387,
+      530102399,
+      979372860,
+      1078784735,
+      1306060345,
+      1725656559
+    ],
+    "requirements": [
+      {
+        "QuestChain_": 333616920
+      },
+      {
+        "Level_": {
+          "skill_id": 1,
+          "level": 60
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "ItemStack_": {
+          "item_id": 127537823,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        }
+      }
+    ],
+    "implicit_rewards": [
+      {
+        "ItemStack_": {
+          "item_id": 162370266,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        }
+      }
+    ]
+  },
+  {
+    "id": 1918226120,
+    "name": "What's Cooking?",
+    "is_hint": false,
+    "stages": [
+      590511920,
+      1121234230,
+      3358638,
+      1247956062,
+      902998530,
+      1940818881,
+      616055621,
+      1025517868,
+      1845851314,
+      725653000
+    ],
+    "requirements": [
+      {
+        "QuestChain_": 534319745
+      }
+    ],
+    "rewards": [
+      {
+        "Experience_": {
+          "skill_id": 13,
+          "quantity": 1000.0
+        }
+      }
+    ],
+    "implicit_rewards": [
+      {
+        "ItemStack_": {
+          "item_id": 1170001,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        }
+      }
+    ]
+  }
+]
