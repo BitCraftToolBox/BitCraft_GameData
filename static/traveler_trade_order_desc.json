@@ -383,45 +383,6 @@
     "hide_with_blocking_knowledges": false
   },
   {
-    "id": 56175024,
-    "starting_stock": 2147483647,
-    "always_offered": true,
-    "traveler": "Svim",
-    "offer_items": [
-      {
-        "item_id": 131,
-        "quantity": 1,
-        "item_type": "Item",
-        "durability": 0
-      }
-    ],
-    "offer_cargo_id": [],
-    "required_items": [
-      {
-        "item_id": 1201,
-        "quantity": 1,
-        "item_type": "Cargo",
-        "durability": null
-      },
-      {
-        "item_id": 7001,
-        "quantity": 1,
-        "item_type": "Cargo",
-        "durability": null
-      }
-    ],
-    "required_cargo_id": [],
-    "level_requirements": [],
-    "achievement_requirements": [],
-    "hide_if_requirements_are_not_met": false,
-    "required_knowledges": [
-      463829733
-    ],
-    "hide_without_required_knowledge": false,
-    "blocking_knowledges": [],
-    "hide_with_blocking_knowledges": false
-  },
-  {
     "id": 67066537,
     "starting_stock": 2147483647,
     "always_offered": true,
@@ -451,6 +412,58 @@
     "hide_without_required_knowledge": false,
     "blocking_knowledges": [],
     "hide_with_blocking_knowledges": false
+  },
+  {
+    "id": 93559232,
+    "starting_stock": 2147483647,
+    "always_offered": true,
+    "traveler": "Tamer",
+    "offer_items": [
+      {
+        "item_id": 168873478,
+        "quantity": 1,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "offer_cargo_id": [],
+    "required_items": [
+      {
+        "item_id": 1,
+        "quantity": 10000,
+        "item_type": "Item",
+        "durability": 0
+      },
+      {
+        "item_id": 828731292,
+        "quantity": 100,
+        "item_type": "Item",
+        "durability": 0
+      },
+      {
+        "item_id": 225094001,
+        "quantity": 25,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "required_cargo_id": [],
+    "level_requirements": [
+      {
+        "skill_id": 17,
+        "level": 35
+      }
+    ],
+    "achievement_requirements": [],
+    "hide_if_requirements_are_not_met": false,
+    "required_knowledges": [
+      351808398
+    ],
+    "hide_without_required_knowledge": true,
+    "blocking_knowledges": [
+      1754860341
+    ],
+    "hide_with_blocking_knowledges": true
   },
   {
     "id": 122694869,
@@ -4714,6 +4727,88 @@
     "hide_with_blocking_knowledges": true
   },
   {
+    "id": 1757603327,
+    "starting_stock": 2147483647,
+    "always_offered": true,
+    "traveler": "Rumbagh",
+    "offer_items": [
+      {
+        "item_id": 693124382,
+        "quantity": 1,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "offer_cargo_id": [],
+    "required_items": [
+      {
+        "item_id": 873292785,
+        "quantity": 2000,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "required_cargo_id": [],
+    "level_requirements": [
+      {
+        "skill_id": 19,
+        "level": 5
+      }
+    ],
+    "achievement_requirements": [],
+    "hide_if_requirements_are_not_met": false,
+    "required_knowledges": [],
+    "hide_without_required_knowledge": false,
+    "blocking_knowledges": [],
+    "hide_with_blocking_knowledges": false
+  },
+  {
+    "id": 1766408025,
+    "starting_stock": 2147483647,
+    "always_offered": true,
+    "traveler": "Tamer",
+    "offer_items": [
+      {
+        "item_id": 1362051411,
+        "quantity": 1,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "offer_cargo_id": [],
+    "required_items": [
+      {
+        "item_id": 1,
+        "quantity": 10000,
+        "item_type": "Item",
+        "durability": 0
+      },
+      {
+        "item_id": 1129379303,
+        "quantity": 1,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "required_cargo_id": [],
+    "level_requirements": [
+      {
+        "skill_id": 17,
+        "level": 50
+      }
+    ],
+    "achievement_requirements": [],
+    "hide_if_requirements_are_not_met": false,
+    "required_knowledges": [
+      1700829190
+    ],
+    "hide_without_required_knowledge": true,
+    "blocking_knowledges": [
+      1844213187
+    ],
+    "hide_with_blocking_knowledges": true
+  },
+  {
     "id": 1769671713,
     "starting_stock": 2147483647,
     "always_offered": true,
@@ -5196,44 +5291,6 @@
     "hide_without_required_knowledge": false,
     "blocking_knowledges": [],
     "hide_with_blocking_knowledges": false
-  },
-  {
-    "id": 1985281811,
-    "starting_stock": 2147483647,
-    "always_offered": true,
-    "traveler": "Svim",
-    "offer_items": [
-      {
-        "item_id": 244281069,
-        "quantity": 1,
-        "item_type": "Item",
-        "durability": 0
-      }
-    ],
-    "offer_cargo_id": [],
-    "required_items": [
-      {
-        "item_id": 1,
-        "quantity": 2500,
-        "item_type": "Item",
-        "durability": 0
-      }
-    ],
-    "required_cargo_id": [],
-    "level_requirements": [
-      {
-        "skill_id": 21,
-        "level": 20
-      }
-    ],
-    "achievement_requirements": [],
-    "hide_if_requirements_are_not_met": false,
-    "required_knowledges": [],
-    "hide_without_required_knowledge": false,
-    "blocking_knowledges": [
-      463829733
-    ],
-    "hide_with_blocking_knowledges": true
   },
   {
     "id": 2004706237,

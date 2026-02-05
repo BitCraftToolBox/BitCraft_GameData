@@ -6,9 +6,51 @@
     "completion_conditions": []
   },
   {
+    "id": 4671418,
+    "chain_desc_id": 1458805123,
+    "name": "King Jakyl Traction Acquisition Dialog",
+    "completion_conditions": []
+  },
+  {
     "id": 39920670,
     "chain_desc_id": 1699433943,
     "name": "Upgrade Heart Fourth Time Quest",
+    "completion_conditions": []
+  },
+  {
+    "id": 76679671,
+    "chain_desc_id": 1843874604,
+    "name": "Craft Reinforced Skiff Hull - First Skiff Upgrade",
+    "completion_conditions": []
+  },
+  {
+    "id": 78012860,
+    "chain_desc_id": 1927636609,
+    "name": "Jakyl Puppy Gnawed Bone to Alesi",
+    "completion_conditions": [
+      {
+        "ItemStack_": {
+          "item_stack": {
+            "item_id": 1925945541,
+            "quantity": 1,
+            "item_type": "Item",
+            "durability": 0
+          },
+          "is_consumed": true
+        }
+      }
+    ]
+  },
+  {
+    "id": 108127902,
+    "chain_desc_id": 277069635,
+    "name": "Wisp Final Dialog",
+    "completion_conditions": []
+  },
+  {
+    "id": 111445663,
+    "chain_desc_id": 1927636609,
+    "name": "Jakyl Puppy Speak to Alesi First",
     "completion_conditions": []
   },
   {
@@ -21,6 +63,41 @@
     "id": 118661712,
     "chain_desc_id": 1,
     "name": "Learn Sprinting",
+    "completion_conditions": []
+  },
+  {
+    "id": 141711390,
+    "chain_desc_id": 277069635,
+    "name": "Coconut Hat - Collect 25 Coconut Notes",
+    "completion_conditions": [
+      {
+        "ItemStack_": {
+          "item_stack": {
+            "item_id": 680761036,
+            "quantity": 25,
+            "item_type": "Item",
+            "durability": 0
+          },
+          "is_consumed": true
+        }
+      },
+      {
+        "ItemStack_": {
+          "item_stack": {
+            "item_id": 1,
+            "quantity": 15000,
+            "item_type": "Item",
+            "durability": 0
+          },
+          "is_consumed": true
+        }
+      }
+    ]
+  },
+  {
+    "id": 166972343,
+    "chain_desc_id": 171407959,
+    "name": "Talk to Svim - Second Skiff Upgrade",
     "completion_conditions": []
   },
   {
@@ -66,6 +143,12 @@
     "completion_conditions": []
   },
   {
+    "id": 250240663,
+    "chain_desc_id": 171407959,
+    "name": "Return to Svim - Second Skiff Upgrade",
+    "completion_conditions": []
+  },
+  {
     "id": 293663010,
     "chain_desc_id": 534319745,
     "name": "Go to Alesi Quest",
@@ -75,6 +158,18 @@
     "id": 332818258,
     "chain_desc_id": 1,
     "name": "Equip Tools Quest",
+    "completion_conditions": []
+  },
+  {
+    "id": 335398450,
+    "chain_desc_id": 1854817774,
+    "name": "Return To Svim First - Default Skiff",
+    "completion_conditions": []
+  },
+  {
+    "id": 352177620,
+    "chain_desc_id": 1843874604,
+    "name": "Talk to Svim - First Skiff Upgrade",
     "completion_conditions": []
   },
   {
@@ -102,10 +197,26 @@
     "completion_conditions": []
   },
   {
+    "id": 397781217,
+    "chain_desc_id": 583027027,
+    "name": "Svim First Dialogue - Level 40 Sailing",
+    "completion_conditions": []
+  },
+  {
     "id": 406404931,
     "chain_desc_id": 1,
     "name": "Attune to Statue Quest",
     "completion_conditions": []
+  },
+  {
+    "id": 411977405,
+    "chain_desc_id": 1854817774,
+    "name": "Craft a Basic Skiff Hull - Default Skiff",
+    "completion_conditions": [
+      {
+        "SecondaryKnowledge_": 451137766
+      }
+    ]
   },
   {
     "id": 422627182,
@@ -118,6 +229,16 @@
     "chain_desc_id": 333616920,
     "name": "Buy Temple Location Scroll Quest",
     "completion_conditions": []
+  },
+  {
+    "id": 465648847,
+    "chain_desc_id": 583027027,
+    "name": "Make a Kelp Tracker - Level 40 Sailing",
+    "completion_conditions": [
+      {
+        "SecondaryKnowledge_": 1700580143
+      }
+    ]
   },
   {
     "id": 478881693,
@@ -150,9 +271,21 @@
     "completion_conditions": []
   },
   {
+    "id": 531935284,
+    "chain_desc_id": 1854817774,
+    "name": "Svim Second Dialogue - Default Skiff",
+    "completion_conditions": []
+  },
+  {
     "id": 563374688,
     "chain_desc_id": 976217825,
     "name": "Equip heart quest",
+    "completion_conditions": []
+  },
+  {
+    "id": 578444625,
+    "chain_desc_id": 171407959,
+    "name": "Svim Second Dialogue - Second Skiff Upgrade",
     "completion_conditions": []
   },
   {
@@ -162,9 +295,31 @@
     "completion_conditions": []
   },
   {
+    "id": 595362906,
+    "chain_desc_id": 1843874604,
+    "name": "Second Svim Dialogue - First Skiff Upgrade",
+    "completion_conditions": []
+  },
+  {
+    "id": 598145298,
+    "chain_desc_id": 1458805123,
+    "name": "Search for King Jakyl Fur Imprint",
+    "completion_conditions": [
+      {
+        "SecondaryKnowledge_": 1209748167
+      }
+    ]
+  },
+  {
     "id": 611825682,
     "chain_desc_id": 1708022223,
     "name": "Go to Recovery Quest",
+    "completion_conditions": []
+  },
+  {
+    "id": 613190187,
+    "chain_desc_id": 1687982095,
+    "name": "Alpha Jakyl Alesi First Dialog",
     "completion_conditions": []
   },
   {
@@ -189,6 +344,12 @@
     "id": 636403467,
     "chain_desc_id": 1511437178,
     "name": "Undeploy Cart Quest",
+    "completion_conditions": []
+  },
+  {
+    "id": 641026109,
+    "chain_desc_id": 1687982095,
+    "name": "AlphaJakylFirstQuestSpeakToAlesi",
     "completion_conditions": []
   },
   {
@@ -246,6 +407,16 @@
     "completion_conditions": []
   },
   {
+    "id": 740524599,
+    "chain_desc_id": 277069635,
+    "name": "Acquire Coconut Hat",
+    "completion_conditions": [
+      {
+        "Collectible_": 1150008
+      }
+    ]
+  },
+  {
     "id": 743012375,
     "chain_desc_id": 751817487,
     "name": "Ramparte says well done",
@@ -276,6 +447,16 @@
     "completion_conditions": []
   },
   {
+    "id": 812756018,
+    "chain_desc_id": 1458805123,
+    "name": "Search for King Jakyl Puppy",
+    "completion_conditions": [
+      {
+        "Collectible_": 2126223548
+      }
+    ]
+  },
+  {
     "id": 838207432,
     "chain_desc_id": 336599736,
     "name": "Go to Rumagh Quest",
@@ -291,6 +472,12 @@
     "id": 853749612,
     "chain_desc_id": 333616920,
     "name": "Go to Rumbagh Quest",
+    "completion_conditions": []
+  },
+  {
+    "id": 855738782,
+    "chain_desc_id": 1843874604,
+    "name": "Svim Dialogue - First Skiff Upgrade",
     "completion_conditions": []
   },
   {
@@ -333,6 +520,12 @@
     "id": 916025125,
     "chain_desc_id": 1699433943,
     "name": "Enter Fifth Temple Dialogue",
+    "completion_conditions": []
+  },
+  {
+    "id": 916247711,
+    "chain_desc_id": 583027027,
+    "name": "First Talk to Svim - Level 40 Sailing",
     "completion_conditions": []
   },
   {
@@ -396,6 +589,46 @@
     "completion_conditions": []
   },
   {
+    "id": 1002005465,
+    "chain_desc_id": 1854817774,
+    "name": "Talk to Svim - Default Skiff",
+    "completion_conditions": []
+  },
+  {
+    "id": 1004973975,
+    "chain_desc_id": 171407959,
+    "name": "Acquire Ancient Cargo Hold - Second Skiff Upgrade",
+    "completion_conditions": [
+      {
+        "SecondaryKnowledge_": 1409105703
+      }
+    ]
+  },
+  {
+    "id": 1005500811,
+    "chain_desc_id": 1927636609,
+    "name": "Acquire Jakyl Puppy",
+    "completion_conditions": []
+  },
+  {
+    "id": 1009327321,
+    "chain_desc_id": 1927636609,
+    "name": "Jakyl Puppy Find Gnawed Bone",
+    "completion_conditions": [
+      {
+        "ItemStack_": {
+          "item_stack": {
+            "item_id": 1925945541,
+            "quantity": 1,
+            "item_type": "Item",
+            "durability": 0
+          },
+          "is_consumed": false
+        }
+      }
+    ]
+  },
+  {
     "id": 1025517868,
     "chain_desc_id": 1918226120,
     "name": "Heimlich asks you to do a Task",
@@ -438,6 +671,22 @@
     "completion_conditions": []
   },
   {
+    "id": 1099750803,
+    "chain_desc_id": 1927636609,
+    "name": "Jakyl Puppy Gnawed Bone Found Dialog",
+    "completion_conditions": []
+  },
+  {
+    "id": 1106924587,
+    "chain_desc_id": 1854817774,
+    "name": "Survey the Lake - Default Skiff",
+    "completion_conditions": [
+      {
+        "SecondaryKnowledge_": 526269927
+      }
+    ]
+  },
+  {
     "id": 1108393180,
     "chain_desc_id": 336599736,
     "name": "Go Charge at Energy Font Dialogue",
@@ -456,6 +705,16 @@
     "completion_conditions": []
   },
   {
+    "id": 1136006431,
+    "chain_desc_id": 583027027,
+    "name": "Make a Bioluminescent Fish Beacon - Level 40 Sailing",
+    "completion_conditions": [
+      {
+        "SecondaryKnowledge_": 765518163
+      }
+    ]
+  },
+  {
     "id": 1152504172,
     "chain_desc_id": 336599736,
     "name": "Go to Rumagh Dialogue",
@@ -468,6 +727,18 @@
     "completion_conditions": []
   },
   {
+    "id": 1172000516,
+    "chain_desc_id": 171407959,
+    "name": "Craft a Recreated Ancient Cargo Hold - Second Skiff Upgrade",
+    "completion_conditions": []
+  },
+  {
+    "id": 1181294175,
+    "chain_desc_id": 1843874604,
+    "name": "Final Return to Svim - First Skiff Upgrade",
+    "completion_conditions": []
+  },
+  {
     "id": 1185160842,
     "chain_desc_id": 534319745,
     "name": "Open Market Search Window Quest",
@@ -477,6 +748,18 @@
     "id": 1216037245,
     "chain_desc_id": 976217825,
     "name": "Wisp tells you to equip the heart",
+    "completion_conditions": []
+  },
+  {
+    "id": 1220001461,
+    "chain_desc_id": 1854817774,
+    "name": "Return to Svim - Default Skiff",
+    "completion_conditions": []
+  },
+  {
+    "id": 1236674797,
+    "chain_desc_id": 1927636609,
+    "name": "Jakyl Puppy Training First Dialog",
     "completion_conditions": []
   },
   {
@@ -504,6 +787,12 @@
     "completion_conditions": []
   },
   {
+    "id": 1308503831,
+    "chain_desc_id": 1843874604,
+    "name": "First Return to Svim - First Skiff Upgrade",
+    "completion_conditions": []
+  },
+  {
     "id": 1322340922,
     "chain_desc_id": 336599736,
     "name": "Go Charge at Energy Font Quest",
@@ -522,9 +811,25 @@
     "completion_conditions": []
   },
   {
+    "id": 1357240631,
+    "chain_desc_id": 1458805123,
+    "name": "Search for King Jakyl Nose Imprint",
+    "completion_conditions": [
+      {
+        "SecondaryKnowledge_": 990782228
+      }
+    ]
+  },
+  {
     "id": 1362290100,
     "chain_desc_id": 1708022223,
     "name": "Twins Explain Achievements",
+    "completion_conditions": []
+  },
+  {
+    "id": 1372343149,
+    "chain_desc_id": 277069635,
+    "name": "Coconut Start Quest",
     "completion_conditions": []
   },
   {
@@ -546,15 +851,49 @@
     "completion_conditions": []
   },
   {
+    "id": 1468631158,
+    "chain_desc_id": 583027027,
+    "name": "Final Svim Dialogue - Level 40 Sailing",
+    "completion_conditions": []
+  },
+  {
+    "id": 1469738156,
+    "chain_desc_id": 277069635,
+    "name": "Rumbagh Coconut Scented Notes",
+    "completion_conditions": []
+  },
+  {
     "id": 1469758479,
     "chain_desc_id": 1,
     "name": "Learn Stamina",
     "completion_conditions": []
   },
   {
+    "id": 1472865467,
+    "chain_desc_id": 1687982095,
+    "name": "Acquire Alpha Jakyl Puppy",
+    "completion_conditions": [
+      {
+        "Collectible_": 861825712
+      }
+    ]
+  },
+  {
+    "id": 1480009455,
+    "chain_desc_id": 583027027,
+    "name": "Final Return to Svim - Level 40 Sailing",
+    "completion_conditions": []
+  },
+  {
     "id": 1482558529,
     "chain_desc_id": 1699433943,
     "name": "Wisp Says Goodbye",
+    "completion_conditions": []
+  },
+  {
+    "id": 1491266922,
+    "chain_desc_id": 277069635,
+    "name": "Coconut Hat - Rumbagh Essence of Coconut",
     "completion_conditions": []
   },
   {
@@ -570,6 +909,12 @@
     "completion_conditions": []
   },
   {
+    "id": 1570720369,
+    "chain_desc_id": 171407959,
+    "name": "Svim First Dialogue - Second Skiff Upgrade",
+    "completion_conditions": []
+  },
+  {
     "id": 1576306254,
     "chain_desc_id": 1511437178,
     "name": "Craft Fibers into Threads Quest",
@@ -582,9 +927,44 @@
     "completion_conditions": []
   },
   {
+    "id": 1613864881,
+    "chain_desc_id": 1458805123,
+    "name": "Gather Jakyl Fangs King Jakyl Puppy",
+    "completion_conditions": [
+      {
+        "ItemStack_": {
+          "item_stack": {
+            "item_id": 225094001,
+            "quantity": 50,
+            "item_type": "Item",
+            "durability": 0
+          },
+          "is_consumed": true
+        }
+      },
+      {
+        "ItemStack_": {
+          "item_stack": {
+            "item_id": 1,
+            "quantity": 20000,
+            "item_type": "Item",
+            "durability": 0
+          },
+          "is_consumed": true
+        }
+      }
+    ]
+  },
+  {
     "id": 1614535885,
     "chain_desc_id": 976217825,
     "name": "Rumbagh explains the heart",
+    "completion_conditions": []
+  },
+  {
+    "id": 1678121384,
+    "chain_desc_id": 1854817774,
+    "name": "Svim Final Dialogue - Default Skiff",
     "completion_conditions": []
   },
   {
@@ -604,6 +984,22 @@
     "chain_desc_id": 751817487,
     "name": "First Ramparte Dialogue",
     "completion_conditions": []
+  },
+  {
+    "id": 1738855957,
+    "chain_desc_id": 583027027,
+    "name": "First Rumbagh Dialogue - Level 40 Sailing",
+    "completion_conditions": []
+  },
+  {
+    "id": 1744007051,
+    "chain_desc_id": 1458805123,
+    "name": "Search for King Jakyl Paw Imprint",
+    "completion_conditions": [
+      {
+        "SecondaryKnowledge_": 1032024115
+      }
+    ]
   },
   {
     "id": 1751365000,
@@ -636,9 +1032,37 @@
     "completion_conditions": []
   },
   {
+    "id": 1795533608,
+    "chain_desc_id": 1843874604,
+    "name": "Survey the Pine Wood Waters - First Skiff Upgrade",
+    "completion_conditions": [
+      {
+        "SecondaryKnowledge_": 1029741203
+      }
+    ]
+  },
+  {
+    "id": 1798246336,
+    "chain_desc_id": 171407959,
+    "name": "Svim Final Dialogue - Second Skiff Upgrade",
+    "completion_conditions": []
+  },
+  {
+    "id": 1800063932,
+    "chain_desc_id": 1843874604,
+    "name": "Final Svim Dialogue - First Skiff Upgrade",
+    "completion_conditions": []
+  },
+  {
     "id": 1810612425,
     "chain_desc_id": 333616920,
     "name": "Lets go Outside Dialogue",
+    "completion_conditions": []
+  },
+  {
+    "id": 1825100280,
+    "chain_desc_id": 1458805123,
+    "name": "Alesi Dialog King Jakyl Puppy1",
     "completion_conditions": []
   },
   {
@@ -651,6 +1075,12 @@
     "id": 1845851314,
     "chain_desc_id": 1918226120,
     "name": "Do Task Quest",
+    "completion_conditions": []
+  },
+  {
+    "id": 1858730279,
+    "chain_desc_id": 1687982095,
+    "name": "Alpha Jakyl Puppy Quest Second Dialog",
     "completion_conditions": []
   },
   {
@@ -678,10 +1108,57 @@
     "completion_conditions": []
   },
   {
+    "id": 1869292571,
+    "chain_desc_id": 583027027,
+    "name": "First Talk to Rumbagh - Level 40 Sailing",
+    "completion_conditions": [
+      {
+        "ItemStack_": {
+          "item_stack": {
+            "item_id": 1,
+            "quantity": 25000,
+            "item_type": "Item",
+            "durability": 0
+          },
+          "is_consumed": true
+        }
+      }
+    ]
+  },
+  {
     "id": 1891832254,
     "chain_desc_id": 336599736,
     "name": "Go to Second Temple Quest",
     "completion_conditions": []
+  },
+  {
+    "id": 1906616591,
+    "chain_desc_id": 277069635,
+    "name": "Coconut Hat - Collect Essence of Coconut",
+    "completion_conditions": [
+      {
+        "ItemStack_": {
+          "item_stack": {
+            "item_id": 1069689320,
+            "quantity": 1,
+            "item_type": "Item",
+            "durability": 0
+          },
+          "is_consumed": true
+        }
+      },
+      {
+        "ItemStack_": {
+          "item_stack": {
+            "item_id": 1,
+            "quantity": 15000,
+            "item_type": "Item",
+            "durability": 0
+          },
+          "is_consumed": true
+        }
+      }
+    ]
   },
   {
     "id": 1913008782,
@@ -696,6 +1173,46 @@
     "completion_conditions": []
   },
   {
+    "id": 1935241877,
+    "chain_desc_id": 1687982095,
+    "name": "Get Alpha Jakyl Challenge",
+    "completion_conditions": [
+      {
+        "ItemStack_": {
+          "item_stack": {
+            "item_id": 828731292,
+            "quantity": 100,
+            "item_type": "Item",
+            "durability": 0
+          },
+          "is_consumed": true
+        }
+      },
+      {
+        "ItemStack_": {
+          "item_stack": {
+            "item_id": 225094001,
+            "quantity": 25,
+            "item_type": "Item",
+            "durability": 0
+          },
+          "is_consumed": true
+        }
+      },
+      {
+        "ItemStack_": {
+          "item_stack": {
+            "item_id": 1,
+            "quantity": 15000,
+            "item_type": "Item",
+            "durability": 0
+          },
+          "is_consumed": true
+        }
+      }
+    ]
+  },
+  {
     "id": 1940818881,
     "chain_desc_id": 1918226120,
     "name": "Berry Experiment Quest",
@@ -708,6 +1225,12 @@
     "completion_conditions": []
   },
   {
+    "id": 1953085947,
+    "chain_desc_id": 1927636609,
+    "name": "Jakyl Puppy Training Second Dialog",
+    "completion_conditions": []
+  },
+  {
     "id": 1954240935,
     "chain_desc_id": 1511437178,
     "name": "Craft Logs Quest",
@@ -717,6 +1240,12 @@
     "id": 1973582914,
     "chain_desc_id": 1511437178,
     "name": "Add Cart to Vault Quest",
+    "completion_conditions": []
+  },
+  {
+    "id": 1979184264,
+    "chain_desc_id": 1854817774,
+    "name": "Svim First Dialogue - Default Skiff",
     "completion_conditions": []
   },
   {
@@ -750,6 +1279,24 @@
     "completion_conditions": []
   },
   {
+    "id": 2024628347,
+    "chain_desc_id": 1458805123,
+    "name": "Bring the King Jakyl Chew Toy to Alesi",
+    "completion_conditions": [
+      {
+        "ItemStack_": {
+          "item_stack": {
+            "item_id": 1129379303,
+            "quantity": 1,
+            "item_type": "Item",
+            "durability": 0
+          },
+          "is_consumed": true
+        }
+      }
+    ]
+  },
+  {
     "id": 2040178117,
     "chain_desc_id": 534319745,
     "name": "Go to Rumbagh Quest",
@@ -760,6 +1307,24 @@
     "chain_desc_id": 1,
     "name": "Input Username",
     "completion_conditions": []
+  },
+  {
+    "id": 2074964801,
+    "chain_desc_id": 171407959,
+    "name": "Svim 25,000 Hex Coins - Second Skiff Upgrade",
+    "completion_conditions": [
+      {
+        "ItemStack_": {
+          "item_stack": {
+            "item_id": 1,
+            "quantity": 25000,
+            "item_type": "Item",
+            "durability": 0
+          },
+          "is_consumed": true
+        }
+      }
+    ]
   },
   {
     "id": 2094248554,

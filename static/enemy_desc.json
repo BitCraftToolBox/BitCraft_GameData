@@ -600,6 +600,65 @@
     "huntable": true
   },
   {
+    "enemy_type": 41,
+    "name": "Enraged Alpha Jakyl",
+    "pathfinding_id": 769231106,
+    "targeting_matrix_id": 2,
+    "combat_actions_ids": [
+      3
+    ],
+    "description": "An enraged alpha jakyl that's coming after you because of your challenge.",
+    "min_speed": 12,
+    "max_speed": 24,
+    "radius": 1.0,
+    "awareness_destination_threshold": 0.5,
+    "min_awareness_tick_sec": 1.0,
+    "max_awareness_tick_sec": 5.0,
+    "max_health": 180,
+    "ignore_damage": false,
+    "health_regen_quantity": 5.0,
+    "armor": 700,
+    "accuracy": 325,
+    "evasion": 168,
+    "strength": 0,
+    "min_damage": 10,
+    "max_damage": 20,
+    "cooldown_multiplier": 1.0,
+    "daytime_detect_range": 10,
+    "daytime_aggro_range": 10,
+    "daytime_deaggro_range": 50,
+    "nighttime_detect_range": 10,
+    "nighttime_aggro_range": 10,
+    "nighttime_deaggro_range": 50,
+    "evade_range": 0,
+    "deaggro_health_threshold": 0.0,
+    "attack_level": 5,
+    "defense_level": 5,
+    "prefab_address": "Enemies/AlphaJakyl",
+    "icon_address": "GeneratedIcons/Other/GeneratedIcons/Other/Animals/AlphaJakyl",
+    "extracted_item_stacks": [
+      {
+        "item_stack": {
+          "item_id": 2008113071,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        },
+        "probability": 1.0
+      }
+    ],
+    "experience_per_damage_dealt": [
+      {
+        "skill_id": 18,
+        "quantity": 0.75
+      }
+    ],
+    "tier": 1,
+    "tag": "Monster",
+    "rarity": "Common",
+    "huntable": false
+  },
+  {
     "enemy_type": 7,
     "name": "Female Cervus",
     "pathfinding_id": 959834809,
@@ -1065,6 +1124,15 @@
           "durability": 0
         },
         "probability": 1.0
+      },
+      {
+        "item_stack": {
+          "item_id": 1129379303,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        },
+        "probability": 0.005
       }
     ],
     "experience_per_damage_dealt": [

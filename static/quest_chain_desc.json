@@ -26,6 +26,43 @@
     "implicit_rewards": []
   },
   {
+    "id": 171407959,
+    "name": "You're Going to Need a Bigger Skiff",
+    "is_hint": false,
+    "stages": [
+      166972343,
+      1570720369,
+      2074964801,
+      578444625,
+      1004973975,
+      1172000516,
+      250240663,
+      1798246336
+    ],
+    "requirements": [
+      {
+        "Level_": {
+          "skill_id": 21,
+          "level": 30
+        }
+      },
+      {
+        "QuestChain_": 1843874604
+      }
+    ],
+    "rewards": [
+      {
+        "ItemStack_": {
+          "item_id": 28534476,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        }
+      }
+    ],
+    "implicit_rewards": []
+  },
+  {
     "id": 184422323,
     "name": "Cargo Hint",
     "is_hint": true,
@@ -33,6 +70,41 @@
     "requirements": [],
     "rewards": [],
     "implicit_rewards": []
+  },
+  {
+    "id": 277069635,
+    "name": "Adventurer's Mighty Helmet",
+    "is_hint": false,
+    "stages": [
+      1372343149,
+      141711390,
+      1469738156,
+      1906616591,
+      1491266922,
+      740524599,
+      108127902
+    ],
+    "requirements": [
+      {
+        "ItemStack_": {
+          "item_id": 680761036,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        }
+      }
+    ],
+    "rewards": [],
+    "implicit_rewards": [
+      {
+        "ItemStack_": {
+          "item_id": 103060846,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        }
+      }
+    ]
   },
   {
     "id": 290593440,
@@ -171,6 +243,15 @@
     "implicit_rewards": []
   },
   {
+    "id": 474216485,
+    "name": "Item Recovery Hint",
+    "is_hint": true,
+    "stages": [],
+    "requirements": [],
+    "rewards": [],
+    "implicit_rewards": []
+  },
+  {
     "id": 534319745,
     "name": "Making the Rounds",
     "is_hint": false,
@@ -199,6 +280,43 @@
         "ItemStack_": {
           "item_id": 1,
           "quantity": 100,
+          "item_type": "Item",
+          "durability": 0
+        }
+      }
+    ],
+    "implicit_rewards": []
+  },
+  {
+    "id": 583027027,
+    "name": "Time for a Reel Upgrade",
+    "is_hint": false,
+    "stages": [
+      916247711,
+      397781217,
+      1869292571,
+      1738855957,
+      465648847,
+      1136006431,
+      1480009455,
+      1468631158
+    ],
+    "requirements": [
+      {
+        "Level_": {
+          "skill_id": 21,
+          "level": 40
+        }
+      },
+      {
+        "QuestChain_": 171407959
+      }
+    ],
+    "rewards": [
+      {
+        "ItemStack_": {
+          "item_id": 1169587052,
+          "quantity": 1,
           "item_type": "Item",
           "durability": 0
         }
@@ -358,6 +476,48 @@
     "implicit_rewards": []
   },
   {
+    "id": 1458805123,
+    "name": "Taming a King Alpha Jakyl Puppy",
+    "is_hint": false,
+    "stages": [
+      2024628347,
+      1825100280,
+      1613864881,
+      4671418,
+      598145298,
+      1357240631,
+      1744007051,
+      812756018
+    ],
+    "requirements": [
+      {
+        "ItemStack_": {
+          "item_id": 1129379303,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        }
+      },
+      {
+        "Level_": {
+          "skill_id": 17,
+          "level": 50
+        }
+      }
+    ],
+    "rewards": [],
+    "implicit_rewards": [
+      {
+        "ItemStack_": {
+          "item_id": 1325613383,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        }
+      }
+    ]
+  },
+  {
     "id": 1511437178,
     "name": "Crafting Your Cart",
     "is_hint": false,
@@ -449,6 +609,37 @@
     "requirements": [],
     "rewards": [],
     "implicit_rewards": []
+  },
+  {
+    "id": 1687982095,
+    "name": "Taming an Alpha Puppy",
+    "is_hint": false,
+    "stages": [
+      641026109,
+      613190187,
+      1935241877,
+      1858730279,
+      1472865467
+    ],
+    "requirements": [
+      {
+        "Level_": {
+          "skill_id": 17,
+          "level": 35
+        }
+      }
+    ],
+    "rewards": [],
+    "implicit_rewards": [
+      {
+        "ItemStack_": {
+          "item_id": 788586378,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        }
+      }
+    ]
   },
   {
     "id": 1699433943,
@@ -566,6 +757,85 @@
     ]
   },
   {
+    "id": 1843874604,
+    "name": "Whitewater Skiffing",
+    "is_hint": false,
+    "stages": [
+      352177620,
+      855738782,
+      1795533608,
+      1308503831,
+      595362906,
+      76679671,
+      1181294175,
+      1800063932
+    ],
+    "requirements": [
+      {
+        "Level_": {
+          "skill_id": 21,
+          "level": 20
+        }
+      },
+      {
+        "QuestChain_": 1854817774
+      }
+    ],
+    "rewards": [
+      {
+        "ItemStack_": {
+          "item_id": 475897011,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        }
+      }
+    ],
+    "implicit_rewards": []
+  },
+  {
+    "id": 1854817774,
+    "name": "Obtain a Skiff",
+    "is_hint": false,
+    "stages": [
+      1002005465,
+      1979184264,
+      1106924587,
+      335398450,
+      531935284,
+      411977405,
+      1220001461,
+      1678121384
+    ],
+    "requirements": [
+      {
+        "Level_": {
+          "skill_id": 21,
+          "level": 10
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "ItemStack_": {
+          "item_id": 131,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        }
+      },
+      {
+        "ItemStack_": {
+          "item_id": 244281069,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        }
+      }
+    ],
+    "implicit_rewards": []
+  },
+  {
     "id": 1918226120,
     "name": "What's Cooking?",
     "is_hint": false,
@@ -598,6 +868,39 @@
       {
         "ItemStack_": {
           "item_id": 1170001,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        }
+      }
+    ]
+  },
+  {
+    "id": 1927636609,
+    "name": "Taming a Jakyl Puppy",
+    "is_hint": false,
+    "stages": [
+      111445663,
+      1236674797,
+      1009327321,
+      1099750803,
+      78012860,
+      1953085947,
+      1005500811
+    ],
+    "requirements": [
+      {
+        "Level_": {
+          "skill_id": 17,
+          "level": 10
+        }
+      }
+    ],
+    "rewards": [],
+    "implicit_rewards": [
+      {
+        "ItemStack_": {
+          "item_id": 409686668,
           "quantity": 1,
           "item_type": "Item",
           "durability": 0

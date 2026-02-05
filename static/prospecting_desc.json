@@ -41,6 +41,246 @@
     "icon_asset_path": ";"
   },
   {
+    "id": 262495756,
+    "name": "Search for Coconuts",
+    "description": "Begin a hunt for some coconuts. Coconuts can be used by a scholar to make coconut essence.",
+    "resource_clump_id": 542378458,
+    "placeholder_resource_clump_id": 1010220448,
+    "enemy_ai_desc_id": 0,
+    "is_aquatic_resource": false,
+    "biome_requirements": [
+      7
+    ],
+    "equipment_requirements": [],
+    "required_items_to_start": [],
+    "required_items_to_interact_with_reward": [],
+    "consumed_items_by_ability_trigger": [],
+    "allow_aquatic_prospecting": false,
+    "bread_crumb_count": [
+      7,
+      7
+    ],
+    "bread_crumb_radius": [
+      10,
+      12
+    ],
+    "distance_between_bread_crumbs": [
+      100,
+      150
+    ],
+    "deadzone_angle_between_crumbs": 0.0,
+    "allow_aquatic_bread_crumb": false,
+    "pointer_duration": 4.0,
+    "prospecting_duration": 5.0,
+    "join_radius": 40,
+    "contribution_per_visited_bread_crumb": 3,
+    "breadcrumb_found_message": "You've found a clue to lead you to some coconuts.",
+    "resource_uncovered_message": "You've discovered a small amount of coconuts.",
+    "breadcrumb_found_by_someone_else_message": "You are able to follow someone else's trail",
+    "resource_uncovered_by_someone_else_message": "You are able to follow someone else's trail to the coconuts!",
+    "icon_asset_path": "D"
+  },
+  {
+    "id": 461794749,
+    "name": "Survey the Currents",
+    "description": "Survey a lake or river in the Pine Woods to find a Pine Water Point of Interest",
+    "resource_clump_id": 2085450435,
+    "placeholder_resource_clump_id": 1010220448,
+    "enemy_ai_desc_id": 0,
+    "is_aquatic_resource": true,
+    "biome_requirements": [
+      2
+    ],
+    "equipment_requirements": [],
+    "required_items_to_start": [],
+    "required_items_to_interact_with_reward": [],
+    "consumed_items_by_ability_trigger": [],
+    "allow_aquatic_prospecting": true,
+    "bread_crumb_count": [
+      1,
+      1
+    ],
+    "bread_crumb_radius": [
+      10,
+      12
+    ],
+    "distance_between_bread_crumbs": [
+      10,
+      20
+    ],
+    "deadzone_angle_between_crumbs": 90.0,
+    "allow_aquatic_bread_crumb": true,
+    "pointer_duration": 4.0,
+    "prospecting_duration": 5.0,
+    "join_radius": 50,
+    "contribution_per_visited_bread_crumb": 1,
+    "breadcrumb_found_message": "You've found the point of interest",
+    "resource_uncovered_message": "You've surveyed the lake! Interact with the nearby point of interest",
+    "breadcrumb_found_by_someone_else_message": "Somebody else has found the point of interest. Follow the trial to it",
+    "resource_uncovered_by_someone_else_message": "Somebody else has found the point of interest. Follow the trail to it",
+    "icon_asset_path": "\u001c"
+  },
+  {
+    "id": 503462118,
+    "name": "Search for the Mighty Helmet",
+    "description": "Use your map to begin a hunt to a treasure chest containing the Mighty Helmet you've been searching for. The trail on the map is extremely long.",
+    "resource_clump_id": 2111626185,
+    "placeholder_resource_clump_id": 1010220448,
+    "enemy_ai_desc_id": 0,
+    "is_aquatic_resource": false,
+    "biome_requirements": [
+      6
+    ],
+    "equipment_requirements": [],
+    "required_items_to_start": [],
+    "required_items_to_interact_with_reward": [],
+    "consumed_items_by_ability_trigger": [],
+    "allow_aquatic_prospecting": false,
+    "bread_crumb_count": [
+      12,
+      12
+    ],
+    "bread_crumb_radius": [
+      10,
+      12
+    ],
+    "distance_between_bread_crumbs": [
+      250,
+      300
+    ],
+    "deadzone_angle_between_crumbs": 0.0,
+    "allow_aquatic_bread_crumb": false,
+    "pointer_duration": 4.0,
+    "prospecting_duration": 5.0,
+    "join_radius": 40,
+    "contribution_per_visited_bread_crumb": 1,
+    "breadcrumb_found_message": "You've found a clue to lead you to the coconut hat.",
+    "resource_uncovered_message": "You've found the final clue to lead you to the Mighty Helmet!",
+    "breadcrumb_found_by_someone_else_message": "You are able to follow someone else's trail",
+    "resource_uncovered_by_someone_else_message": "You are able to follow someone else's trail to the Mighty Helmet!",
+    "icon_asset_path": "D"
+  },
+  {
+    "id": 578611094,
+    "name": "Track Kelp",
+    "description": "Use Rumbagh's device to track down Lumincescent Kelp",
+    "resource_clump_id": 251281541,
+    "placeholder_resource_clump_id": 1010220448,
+    "enemy_ai_desc_id": 0,
+    "is_aquatic_resource": true,
+    "biome_requirements": [
+      10
+    ],
+    "equipment_requirements": [],
+    "required_items_to_start": [],
+    "required_items_to_interact_with_reward": [],
+    "consumed_items_by_ability_trigger": [],
+    "allow_aquatic_prospecting": true,
+    "bread_crumb_count": [
+      5,
+      5
+    ],
+    "bread_crumb_radius": [
+      10,
+      12
+    ],
+    "distance_between_bread_crumbs": [
+      150,
+      180
+    ],
+    "deadzone_angle_between_crumbs": 90.0,
+    "allow_aquatic_bread_crumb": true,
+    "pointer_duration": 4.0,
+    "prospecting_duration": 5.0,
+    "join_radius": 30,
+    "contribution_per_visited_bread_crumb": 2,
+    "breadcrumb_found_message": "The device glows, you're getting closer to the kelp",
+    "resource_uncovered_message": "The devices glows brightly, follow the device to the kelp's location",
+    "breadcrumb_found_by_someone_else_message": "Someone elses device in the area has made a ringing sound, follow them to the next clue",
+    "resource_uncovered_by_someone_else_message": "Someone else uncovered the Kelp, follow their trail",
+    "icon_asset_path": "\u001c"
+  },
+  {
+    "id": 862405504,
+    "name": "Search for King Jakyl Puppy",
+    "description": "Continue your search for the King Jakyl Puppy. Last clue you found seemed to hint to it possibly migrating to the desert. This prospecting requires a King Jakyl Puppy Tracker to start.",
+    "resource_clump_id": 240195156,
+    "placeholder_resource_clump_id": 1010220448,
+    "enemy_ai_desc_id": 0,
+    "is_aquatic_resource": false,
+    "biome_requirements": [
+      7
+    ],
+    "equipment_requirements": [],
+    "required_items_to_start": [],
+    "required_items_to_interact_with_reward": [],
+    "consumed_items_by_ability_trigger": [],
+    "allow_aquatic_prospecting": false,
+    "bread_crumb_count": [
+      3,
+      3
+    ],
+    "bread_crumb_radius": [
+      10,
+      12
+    ],
+    "distance_between_bread_crumbs": [
+      180,
+      220
+    ],
+    "deadzone_angle_between_crumbs": 0.0,
+    "allow_aquatic_bread_crumb": false,
+    "pointer_duration": 4.0,
+    "prospecting_duration": 5.0,
+    "join_radius": 40,
+    "contribution_per_visited_bread_crumb": 1,
+    "breadcrumb_found_message": "You've found a trail to a clue",
+    "resource_uncovered_message": "You've found the final trail to the clue",
+    "breadcrumb_found_by_someone_else_message": "You are able to follow someone else's trail",
+    "resource_uncovered_by_someone_else_message": "You are able to follow someone else's trail to the clue",
+    "icon_asset_path": "5"
+  },
+  {
+    "id": 1050531390,
+    "name": "Search for the King Jakyl Puppy",
+    "description": "You believe you've finally narrowed down the King Jakyl Puppies location to the Sapwoods. Track it down! This requires the King Puppy Jakyl Tracker.",
+    "resource_clump_id": 421534941,
+    "placeholder_resource_clump_id": 1010220448,
+    "enemy_ai_desc_id": 0,
+    "is_aquatic_resource": false,
+    "biome_requirements": [
+      14
+    ],
+    "equipment_requirements": [],
+    "required_items_to_start": [],
+    "required_items_to_interact_with_reward": [],
+    "consumed_items_by_ability_trigger": [],
+    "allow_aquatic_prospecting": false,
+    "bread_crumb_count": [
+      6,
+      6
+    ],
+    "bread_crumb_radius": [
+      10,
+      12
+    ],
+    "distance_between_bread_crumbs": [
+      180,
+      220
+    ],
+    "deadzone_angle_between_crumbs": 0.0,
+    "allow_aquatic_bread_crumb": false,
+    "pointer_duration": 4.0,
+    "prospecting_duration": 5.0,
+    "join_radius": 40,
+    "contribution_per_visited_bread_crumb": 1,
+    "breadcrumb_found_message": "You've found a clue to the King Jakyl Puppy's location",
+    "resource_uncovered_message": "You've found the final clue to the King Jakyl Puppy's Location",
+    "breadcrumb_found_by_someone_else_message": "You are able to follow someone else's trail",
+    "resource_uncovered_by_someone_else_message": "You are able to follow someone else's trail to the King Jakyl Puppy",
+    "icon_asset_path": "þ"
+  },
+  {
     "id": 1100790073,
     "name": "Search for Ancient Relic",
     "description": "Begin a hunt for Ancient Relics or join a nearby hunt that's in progress. Ancient Relics can be used to make research that grants the user a powerful, long lasting buff. Ancient Relics give a lot of experience when gathered.",
@@ -125,6 +365,46 @@
     "icon_asset_path": "6"
   },
   {
+    "id": 1249466124,
+    "name": "Survey the Lake",
+    "description": "Survey a lake in the calm forest to find a Lake Point of Interest",
+    "resource_clump_id": 2112722116,
+    "placeholder_resource_clump_id": 1010220448,
+    "enemy_ai_desc_id": 0,
+    "is_aquatic_resource": true,
+    "biome_requirements": [
+      1
+    ],
+    "equipment_requirements": [],
+    "required_items_to_start": [],
+    "required_items_to_interact_with_reward": [],
+    "consumed_items_by_ability_trigger": [],
+    "allow_aquatic_prospecting": true,
+    "bread_crumb_count": [
+      1,
+      1
+    ],
+    "bread_crumb_radius": [
+      10,
+      12
+    ],
+    "distance_between_bread_crumbs": [
+      10,
+      20
+    ],
+    "deadzone_angle_between_crumbs": 90.0,
+    "allow_aquatic_bread_crumb": true,
+    "pointer_duration": 4.0,
+    "prospecting_duration": 5.0,
+    "join_radius": 50,
+    "contribution_per_visited_bread_crumb": 1,
+    "breadcrumb_found_message": "You've found the point of interest",
+    "resource_uncovered_message": "You've surveyed the lake! Interact with the nearby point of interest",
+    "breadcrumb_found_by_someone_else_message": "Somebody else has found the point of interest. Follow the trial to it",
+    "resource_uncovered_by_someone_else_message": "Somebody else has found the point of interest. Follow the trail to it",
+    "icon_asset_path": "\u001c"
+  },
+  {
     "id": 1318037307,
     "name": "Berserker Mushroom Hunt",
     "description": "Begin a hunt for a Berserker Mushroom or join a nearby hunt that's in progress. Berserker Mushrooms can be used to make special potions that increase gathering or crafting speed. Berserker Mushrooms also give a lot of experience when gathered.",
@@ -164,5 +444,212 @@
     "breadcrumb_found_by_someone_else_message": "You are able to follow someone else's trail",
     "resource_uncovered_by_someone_else_message": "You are able to follow someone else's trail to the mushroom!",
     "icon_asset_path": "6"
+  },
+  {
+    "id": 1616120186,
+    "name": "Baby Jakyl Search and Rescue",
+    "description": "Somewhere out there is a Baby Jakyl that needs your help! Use your Baby Jakyl Tracker with some Jakyl Fur to track it down. Each use of this ability will consume a Jakyl Fur so bring lots of fur!",
+    "resource_clump_id": 804547173,
+    "placeholder_resource_clump_id": 1010220448,
+    "enemy_ai_desc_id": 0,
+    "is_aquatic_resource": false,
+    "biome_requirements": [
+      1
+    ],
+    "equipment_requirements": [],
+    "required_items_to_start": [],
+    "required_items_to_interact_with_reward": [],
+    "consumed_items_by_ability_trigger": [
+      {
+        "item_id": 767727086,
+        "quantity": 1,
+        "item_type": "Item",
+        "durability": null
+      }
+    ],
+    "allow_aquatic_prospecting": false,
+    "bread_crumb_count": [
+      3,
+      3
+    ],
+    "bread_crumb_radius": [
+      15,
+      20
+    ],
+    "distance_between_bread_crumbs": [
+      120,
+      140
+    ],
+    "deadzone_angle_between_crumbs": 0.0,
+    "allow_aquatic_bread_crumb": false,
+    "pointer_duration": 4.0,
+    "prospecting_duration": 5.0,
+    "join_radius": 40,
+    "contribution_per_visited_bread_crumb": 1,
+    "breadcrumb_found_message": "You've Found a Baby Jakyl Track",
+    "resource_uncovered_message": "You've Found the Final Clue to the Baby Jakyl's Location",
+    "breadcrumb_found_by_someone_else_message": "You are able to follow someone else's trail to a new Baby Jakyl Track",
+    "resource_uncovered_by_someone_else_message": "You are able to follow someone else's trail to the Baby Jakyl",
+    "icon_asset_path": "\u0000"
+  },
+  {
+    "id": 1738314687,
+    "name": "Search for King Jakyl Puppy",
+    "description": "Begin searching for clues to point you to the King Jakyl Puppy. King Jakyls migrate between regions so you'll likely have to do some traveling to find the Jakyl Puppy. This prospecting requires a King Jakyl Puppy Tracker to start.",
+    "resource_clump_id": 213061245,
+    "placeholder_resource_clump_id": 1010220448,
+    "enemy_ai_desc_id": 0,
+    "is_aquatic_resource": false,
+    "biome_requirements": [
+      2
+    ],
+    "equipment_requirements": [],
+    "required_items_to_start": [],
+    "required_items_to_interact_with_reward": [],
+    "consumed_items_by_ability_trigger": [],
+    "allow_aquatic_prospecting": false,
+    "bread_crumb_count": [
+      3,
+      3
+    ],
+    "bread_crumb_radius": [
+      10,
+      12
+    ],
+    "distance_between_bread_crumbs": [
+      180,
+      220
+    ],
+    "deadzone_angle_between_crumbs": 0.0,
+    "allow_aquatic_bread_crumb": false,
+    "pointer_duration": 4.0,
+    "prospecting_duration": 5.0,
+    "join_radius": 40,
+    "contribution_per_visited_bread_crumb": 1,
+    "breadcrumb_found_message": "You've found a trail to a clue",
+    "resource_uncovered_message": "You've found the final trail to the clue",
+    "breadcrumb_found_by_someone_else_message": "You are able to follow someone else's trail",
+    "resource_uncovered_by_someone_else_message": "You are able to follow someone else's trail to the clue",
+    "icon_asset_path": "5"
+  },
+  {
+    "id": 1814863361,
+    "name": "Search for Toughened Pine Bark",
+    "description": "Begin searching for Toughened Pine Bark. Hopefully it wont be too hard to find.",
+    "resource_clump_id": 482157321,
+    "placeholder_resource_clump_id": 1010220448,
+    "enemy_ai_desc_id": 0,
+    "is_aquatic_resource": false,
+    "biome_requirements": [
+      2
+    ],
+    "equipment_requirements": [],
+    "required_items_to_start": [],
+    "required_items_to_interact_with_reward": [],
+    "consumed_items_by_ability_trigger": [],
+    "allow_aquatic_prospecting": false,
+    "bread_crumb_count": [
+      3,
+      4
+    ],
+    "bread_crumb_radius": [
+      10,
+      12
+    ],
+    "distance_between_bread_crumbs": [
+      60,
+      70
+    ],
+    "deadzone_angle_between_crumbs": 90.0,
+    "allow_aquatic_bread_crumb": false,
+    "pointer_duration": 4.0,
+    "prospecting_duration": 5.0,
+    "join_radius": 30,
+    "contribution_per_visited_bread_crumb": 1,
+    "breadcrumb_found_message": "You've found a clue to lead you to the bark.",
+    "resource_uncovered_message": "Uncovered Bark! Track it to the final location",
+    "breadcrumb_found_by_someone_else_message": "You're able to follow someone elses clue to the bark.",
+    "resource_uncovered_by_someone_else_message": "Someone else has discovered the final location of the bark. Follow their trail.",
+    "icon_asset_path": "\u001c"
+  },
+  {
+    "id": 2022634606,
+    "name": "Search for King Jakyl Puppy",
+    "description": "Continue your search for the King Jakyl Puppy. The last clue you found seemed to hint to it possibly migrating to the Rocky Garden. King Jakyls sure get around... This prospecting requires a King Jakyl Puppy Tracker to start.",
+    "resource_clump_id": 835340260,
+    "placeholder_resource_clump_id": 1010220448,
+    "enemy_ai_desc_id": 0,
+    "is_aquatic_resource": false,
+    "biome_requirements": [
+      9
+    ],
+    "equipment_requirements": [],
+    "required_items_to_start": [],
+    "required_items_to_interact_with_reward": [],
+    "consumed_items_by_ability_trigger": [],
+    "allow_aquatic_prospecting": false,
+    "bread_crumb_count": [
+      3,
+      3
+    ],
+    "bread_crumb_radius": [
+      10,
+      12
+    ],
+    "distance_between_bread_crumbs": [
+      180,
+      220
+    ],
+    "deadzone_angle_between_crumbs": 0.0,
+    "allow_aquatic_bread_crumb": false,
+    "pointer_duration": 4.0,
+    "prospecting_duration": 5.0,
+    "join_radius": 40,
+    "contribution_per_visited_bread_crumb": 1,
+    "breadcrumb_found_message": "You've found a trail to a clue",
+    "resource_uncovered_message": "You've found the final trail to the clue",
+    "breadcrumb_found_by_someone_else_message": "You are able to follow someone else's trail",
+    "resource_uncovered_by_someone_else_message": "You are able to follow someone else's trail to the clue",
+    "icon_asset_path": "5"
+  },
+  {
+    "id": 2114508102,
+    "name": "Search for the Ancient Cargo Hold",
+    "description": "Use Svim's device to search for the Ancient Cargo Hold",
+    "resource_clump_id": 1613418176,
+    "placeholder_resource_clump_id": 1010220448,
+    "enemy_ai_desc_id": 0,
+    "is_aquatic_resource": true,
+    "biome_requirements": [
+      10
+    ],
+    "equipment_requirements": [],
+    "required_items_to_start": [],
+    "required_items_to_interact_with_reward": [],
+    "consumed_items_by_ability_trigger": [],
+    "allow_aquatic_prospecting": true,
+    "bread_crumb_count": [
+      8,
+      8
+    ],
+    "bread_crumb_radius": [
+      10,
+      12
+    ],
+    "distance_between_bread_crumbs": [
+      110,
+      145
+    ],
+    "deadzone_angle_between_crumbs": 90.0,
+    "allow_aquatic_bread_crumb": true,
+    "pointer_duration": 4.0,
+    "prospecting_duration": 5.0,
+    "join_radius": 30,
+    "contribution_per_visited_bread_crumb": 1,
+    "breadcrumb_found_message": "The device glows, you're closer to the Ancient Cargo Hold",
+    "resource_uncovered_message": "You can see the Ancient Cargo Hold in the distance",
+    "breadcrumb_found_by_someone_else_message": "Someone elses device in the area has made a ringing sound, follow them to the next clue",
+    "resource_uncovered_by_someone_else_message": "Someone else uncovered the Ancient Cargo Hold, follow their trail",
+    "icon_asset_path": "\u001c"
   }
 ]
