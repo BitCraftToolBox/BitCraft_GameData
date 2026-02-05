@@ -21838,6 +21838,40 @@
     "not_respawning": true
   },
   {
+    "id": 158059491,
+    "name": "King Jakyl Puppy Den",
+    "description": "",
+    "flattenable": false,
+    "max_health": 250000,
+    "ignore_damage": true,
+    "despawn_time": 0.0,
+    "model_asset_name": "Resources/BabyJakylDen",
+    "icon_asset_name": "GeneratedIcons/Other/BabyJakylDen",
+    "on_destroy_yield": [],
+    "on_destroy_yield_resource_id": 0,
+    "spawn_priority": 1,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          0,
+          []
+        ]
+      ]
+    ],
+    "tier": -1,
+    "tag": "Monster Den",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": false,
+    "enemy_params_id": [],
+    "scheduled_respawn_time": 0.0,
+    "not_respawning": false
+  },
+  {
     "id": 182331452,
     "name": "Traveler's Fruit",
     "description": "",
@@ -22476,6 +22510,40 @@
     "enemy_params_id": [],
     "scheduled_respawn_time": 600.0,
     "not_respawning": true
+  },
+  {
+    "id": 222537784,
+    "name": "King Jakyl Puppy Paw Imprints",
+    "description": "",
+    "flattenable": false,
+    "max_health": 250000,
+    "ignore_damage": true,
+    "despawn_time": 0.0,
+    "model_asset_name": "Resources/Fossils",
+    "icon_asset_name": "GeneratedIcons/Other/SandcoveredFossils",
+    "on_destroy_yield": [],
+    "on_destroy_yield_resource_id": 0,
+    "spawn_priority": 1,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          0,
+          []
+        ]
+      ]
+    ],
+    "tier": -1,
+    "tag": "Prospecting Clue",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": false,
+    "enemy_params_id": [],
+    "scheduled_respawn_time": 0.0,
+    "not_respawning": false
   },
   {
     "id": 233091253,
@@ -24204,6 +24272,40 @@
     "not_respawning": true
   },
   {
+    "id": 419920080,
+    "name": "Pine Water Point of Interest",
+    "description": "",
+    "flattenable": false,
+    "max_health": 200,
+    "ignore_damage": true,
+    "despawn_time": 2.0,
+    "model_asset_name": "Resources/LakePointOfInterest",
+    "icon_asset_name": "GeneratedIcons/Other/SilkenHexmoths",
+    "on_destroy_yield": [],
+    "on_destroy_yield_resource_id": 0,
+    "spawn_priority": 1,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          3,
+          []
+        ]
+      ]
+    ],
+    "tier": -1,
+    "tag": "Quest Resource",
+    "rarity": [
+      3,
+      {}
+    ],
+    "compendium_entry": false,
+    "enemy_params_id": [],
+    "scheduled_respawn_time": 0.0,
+    "not_respawning": true
+  },
+  {
     "id": 424796674,
     "name": "School Of Flawless Ocean Fish",
     "description": "",
@@ -24282,6 +24384,42 @@
     ],
     "compendium_entry": true,
     "enemy_params_id": [],
+    "scheduled_respawn_time": 0.0,
+    "not_respawning": false
+  },
+  {
+    "id": 427032893,
+    "name": "Disturbed Alpha Puppy Den",
+    "description": "",
+    "flattenable": false,
+    "max_health": 20,
+    "ignore_damage": false,
+    "despawn_time": 0.0,
+    "model_asset_name": "Resources/BabyJakylDen",
+    "icon_asset_name": "",
+    "on_destroy_yield": [],
+    "on_destroy_yield_resource_id": 1091832489,
+    "spawn_priority": 1,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          0,
+          []
+        ]
+      ]
+    ],
+    "tier": -1,
+    "tag": "Monster Den",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": false,
+    "enemy_params_id": [
+      963209607
+    ],
     "scheduled_respawn_time": 0.0,
     "not_respawning": false
   },
@@ -25232,6 +25370,40 @@
     "enemy_params_id": [],
     "scheduled_respawn_time": 600.0,
     "not_respawning": false
+  },
+  {
+    "id": 596660873,
+    "name": "Hexite Meteor",
+    "description": "",
+    "flattenable": false,
+    "max_health": 2500,
+    "ignore_damage": true,
+    "despawn_time": 0.0,
+    "model_asset_name": "Resources/HexiteMeteorEvent",
+    "icon_asset_name": "Items/HexiteGem",
+    "on_destroy_yield": [],
+    "on_destroy_yield_resource_id": 0,
+    "spawn_priority": 1,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          0,
+          []
+        ]
+      ]
+    ],
+    "tier": -1,
+    "tag": "Hexite Meteor",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": true,
+    "enemy_params_id": [],
+    "scheduled_respawn_time": 0.0,
+    "not_respawning": true
   },
   {
     "id": 623041128,
@@ -27058,6 +27230,40 @@
     "not_respawning": false
   },
   {
+    "id": 849939303,
+    "name": "Alpha Jakyl Puppy Den",
+    "description": "",
+    "flattenable": false,
+    "max_health": 1,
+    "ignore_damage": false,
+    "despawn_time": 0.0,
+    "model_asset_name": "Resources/BabyJakylDen",
+    "icon_asset_name": "GeneratedIcons/Other/BabyJakylDen",
+    "on_destroy_yield": [],
+    "on_destroy_yield_resource_id": 427032893,
+    "spawn_priority": 1,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          0,
+          []
+        ]
+      ]
+    ],
+    "tier": -1,
+    "tag": "Monster Den",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": false,
+    "enemy_params_id": [],
+    "scheduled_respawn_time": 0.0,
+    "not_respawning": false
+  },
+  {
     "id": 875245395,
     "name": "Mistberry Bush",
     "description": "",
@@ -28694,6 +28900,40 @@
     "not_respawning": false
   },
   {
+    "id": 949468358,
+    "name": "Grand Treasure Chest",
+    "description": "",
+    "flattenable": false,
+    "max_health": 250000,
+    "ignore_damage": true,
+    "despawn_time": 0.0,
+    "model_asset_name": "Resources/GrandTreasureChest",
+    "icon_asset_name": "GeneratedIcons/Other/Buildings/Storage/ChestStoneT3",
+    "on_destroy_yield": [],
+    "on_destroy_yield_resource_id": 0,
+    "spawn_priority": 1,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          0,
+          []
+        ]
+      ]
+    ],
+    "tier": -1,
+    "tag": "Treasure",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": false,
+    "enemy_params_id": [],
+    "scheduled_respawn_time": 0.0,
+    "not_respawning": false
+  },
+  {
     "id": 963451338,
     "name": "Magnificent Berry Bush",
     "description": "",
@@ -29050,6 +29290,40 @@
       {}
     ],
     "compendium_entry": true,
+    "enemy_params_id": [],
+    "scheduled_respawn_time": 0.0,
+    "not_respawning": false
+  },
+  {
+    "id": 1040719110,
+    "name": "Luminescent Kelp",
+    "description": "",
+    "flattenable": false,
+    "max_health": 1,
+    "ignore_damage": true,
+    "despawn_time": 0.0,
+    "model_asset_name": "Resources/LuminescentKelp",
+    "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Other/Seaweed",
+    "on_destroy_yield": [],
+    "on_destroy_yield_resource_id": 0,
+    "spawn_priority": 0,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          1,
+          []
+        ]
+      ]
+    ],
+    "tier": -1,
+    "tag": "Quest Resource",
+    "rarity": [
+      0,
+      {}
+    ],
+    "compendium_entry": false,
     "enemy_params_id": [],
     "scheduled_respawn_time": 0.0,
     "not_respawning": false
@@ -29693,6 +29967,40 @@
     "enemy_params_id": [],
     "scheduled_respawn_time": 600.0,
     "not_respawning": true
+  },
+  {
+    "id": 1091832489,
+    "name": "Docile Alpha Puppy Den",
+    "description": "",
+    "flattenable": false,
+    "max_health": 1,
+    "ignore_damage": true,
+    "despawn_time": 0.0,
+    "model_asset_name": "Resources/BabyJakylDen",
+    "icon_asset_name": "",
+    "on_destroy_yield": [],
+    "on_destroy_yield_resource_id": 0,
+    "spawn_priority": 1,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          0,
+          []
+        ]
+      ]
+    ],
+    "tier": -1,
+    "tag": "Monster Den",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": false,
+    "enemy_params_id": [],
+    "scheduled_respawn_time": 0.0,
+    "not_respawning": false
   },
   {
     "id": 1101060328,
@@ -31324,6 +31632,40 @@
     "not_respawning": false
   },
   {
+    "id": 1146338010,
+    "name": "Tough Pine Bark Pile",
+    "description": "",
+    "flattenable": false,
+    "max_health": 200,
+    "ignore_damage": true,
+    "despawn_time": 2.0,
+    "model_asset_name": "Resources/ReinforcedPineBark",
+    "icon_asset_name": "GeneratedIcons/Other/SilkenHexmoths",
+    "on_destroy_yield": [],
+    "on_destroy_yield_resource_id": 0,
+    "spawn_priority": 1,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          3,
+          []
+        ]
+      ]
+    ],
+    "tier": -1,
+    "tag": "Quest Resource",
+    "rarity": [
+      3,
+      {}
+    ],
+    "compendium_entry": false,
+    "enemy_params_id": [],
+    "scheduled_respawn_time": 0.0,
+    "not_respawning": true
+  },
+  {
     "id": 1157887989,
     "name": "School Of Magnificent Lake Fish",
     "description": "",
@@ -31821,6 +32163,40 @@
     "not_respawning": false
   },
   {
+    "id": 1220773790,
+    "name": "Damaged Ancient Cargo Hold",
+    "description": "",
+    "flattenable": false,
+    "max_health": 1,
+    "ignore_damage": true,
+    "despawn_time": 0.0,
+    "model_asset_name": "Resources/LostShipmentQuestCargoSkiff",
+    "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Other/T1FloatingCargo",
+    "on_destroy_yield": [],
+    "on_destroy_yield_resource_id": 0,
+    "spawn_priority": 0,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          1,
+          []
+        ]
+      ]
+    ],
+    "tier": -1,
+    "tag": "Quest Resource",
+    "rarity": [
+      0,
+      {}
+    ],
+    "compendium_entry": false,
+    "enemy_params_id": [],
+    "scheduled_respawn_time": 0.0,
+    "not_respawning": false
+  },
+  {
     "id": 1235656080,
     "name": "Hidden Resource",
     "description": "",
@@ -31845,6 +32221,40 @@
     ],
     "tier": -1,
     "tag": "Hidden Resource",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": false,
+    "enemy_params_id": [],
+    "scheduled_respawn_time": 0.0,
+    "not_respawning": false
+  },
+  {
+    "id": 1237686038,
+    "name": "King Jakyl Puppy Fur Imprints",
+    "description": "",
+    "flattenable": false,
+    "max_health": 250000,
+    "ignore_damage": true,
+    "despawn_time": 0.0,
+    "model_asset_name": "Resources/Fossils",
+    "icon_asset_name": "GeneratedIcons/Other/SandcoveredFossils",
+    "on_destroy_yield": [],
+    "on_destroy_yield_resource_id": 0,
+    "spawn_priority": 1,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          0,
+          []
+        ]
+      ]
+    ],
+    "tier": -1,
+    "tag": "Prospecting Clue",
     "rarity": [
       1,
       {}
@@ -32907,6 +33317,40 @@
     "enemy_params_id": [],
     "scheduled_respawn_time": 600.0,
     "not_respawning": false
+  },
+  {
+    "id": 1352550205,
+    "name": "Lake Point of Interest",
+    "description": "",
+    "flattenable": false,
+    "max_health": 200,
+    "ignore_damage": true,
+    "despawn_time": 2.0,
+    "model_asset_name": "Resources/LakePointOfInterest",
+    "icon_asset_name": "GeneratedIcons/Other/SilkenHexmoths",
+    "on_destroy_yield": [],
+    "on_destroy_yield_resource_id": 0,
+    "spawn_priority": 1,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          3,
+          []
+        ]
+      ]
+    ],
+    "tier": -1,
+    "tag": "Quest Resource",
+    "rarity": [
+      3,
+      {}
+    ],
+    "compendium_entry": false,
+    "enemy_params_id": [],
+    "scheduled_respawn_time": 0.0,
+    "not_respawning": true
   },
   {
     "id": 1357154092,
@@ -35207,6 +35651,40 @@
     "not_respawning": false
   },
   {
+    "id": 1643773046,
+    "name": "Baby Jakyl Den",
+    "description": "",
+    "flattenable": false,
+    "max_health": 250000,
+    "ignore_damage": true,
+    "despawn_time": 0.0,
+    "model_asset_name": "Resources/BabyJakylDen",
+    "icon_asset_name": "GeneratedIcons/Other/BabyJakylDen",
+    "on_destroy_yield": [],
+    "on_destroy_yield_resource_id": 0,
+    "spawn_priority": 1,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          0,
+          []
+        ]
+      ]
+    ],
+    "tier": -1,
+    "tag": "Monster Den",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": false,
+    "enemy_params_id": [],
+    "scheduled_respawn_time": 0.0,
+    "not_respawning": false
+  },
+  {
     "id": 1657885116,
     "name": "Pristine Mushroom",
     "description": "",
@@ -35627,6 +36105,40 @@
     "enemy_params_id": [],
     "scheduled_respawn_time": 600.0,
     "not_respawning": true
+  },
+  {
+    "id": 1712315445,
+    "name": "Coconut Pile",
+    "description": "",
+    "flattenable": false,
+    "max_health": 250000,
+    "ignore_damage": true,
+    "despawn_time": 0.0,
+    "model_asset_name": "Resources/CoconutPile",
+    "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Other/CoconutFragment",
+    "on_destroy_yield": [],
+    "on_destroy_yield_resource_id": 0,
+    "spawn_priority": 1,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          0,
+          []
+        ]
+      ]
+    ],
+    "tier": -1,
+    "tag": "Coconut",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": false,
+    "enemy_params_id": [],
+    "scheduled_respawn_time": 0.0,
+    "not_respawning": false
   },
   {
     "id": 1731709368,
@@ -38121,6 +38633,40 @@
     "not_respawning": true
   },
   {
+    "id": 2029466380,
+    "name": "Fiery Hexite Meteor",
+    "description": "",
+    "flattenable": false,
+    "max_health": 2500,
+    "ignore_damage": false,
+    "despawn_time": 0.0,
+    "model_asset_name": "Resources/FieryHexiteMeteor",
+    "icon_asset_name": "Items/HexiteGem",
+    "on_destroy_yield": [],
+    "on_destroy_yield_resource_id": 596660873,
+    "spawn_priority": 1,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          0,
+          []
+        ]
+      ]
+    ],
+    "tier": -1,
+    "tag": "Hexite Meteor",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": true,
+    "enemy_params_id": [],
+    "scheduled_respawn_time": 0.0,
+    "not_respawning": false
+  },
+  {
     "id": 2031243337,
     "name": "Aurumite Vein Interior",
     "description": "",
@@ -38897,6 +39443,40 @@
     "not_respawning": false
   },
   {
+    "id": 2137589174,
+    "name": "King Jakyl Puppy Nose Imprints",
+    "description": "",
+    "flattenable": false,
+    "max_health": 250000,
+    "ignore_damage": true,
+    "despawn_time": 0.0,
+    "model_asset_name": "Resources/Fossils",
+    "icon_asset_name": "GeneratedIcons/Other/SandcoveredFossils",
+    "on_destroy_yield": [],
+    "on_destroy_yield_resource_id": 0,
+    "spawn_priority": 1,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          0,
+          []
+        ]
+      ]
+    ],
+    "tier": -1,
+    "tag": "Prospecting Clue",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": false,
+    "enemy_params_id": [],
+    "scheduled_respawn_time": 0.0,
+    "not_respawning": false
+  },
+  {
     "id": 2140754992,
     "name": "Celestium Outcrop Interior Depleted",
     "description": "",
@@ -39122,7 +39702,7 @@
     "ignore_damage": false,
     "despawn_time": 0.0,
     "model_asset_name": "Resources/JakylDen",
-    "icon_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Other/BabyJakylDen",
     "on_destroy_yield": [
       [
         225094001,
