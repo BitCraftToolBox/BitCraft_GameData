@@ -84,7 +84,7 @@
     "empire_node_starting_energy": 500,
     "empire_min_siege_distance": 5,
     "empire_max_siege_distance": 20,
-    "daily_shards": 500,
+    "daily_shards": 0,
     "hexite_capsule_supply_cost": 500,
     "hexite_capsule_shard_cost": 100,
     "hexite_capsule_craft_time_seconds": 1800,
@@ -96,7 +96,7 @@
     "claim_stability_param_b": 21.36,
     "player_regen_tick_millis": 1000,
     "enemy_regen_tick_millis": 10000,
-    "teleportation_energy_regen_tick_millis": 60000,
+    "teleportation_energy_regen_tick_millis": 600,
     "auto_respawn_attempts": 20,
     "player_pathfinding_id": 100916428,
     "nearby_flame_buff_id": 10271152,
@@ -132,6 +132,9 @@
     "duel_out_of_range_grace_period_millis": 5000,
     "player_housing_same_region_move_time_minutes": 2880,
     "player_housing_eviction_time_minutes": 2880,
-    "player_housing_income_time_of_day": 16.0
+    "player_housing_income_time_of_day": 16.0,
+    "co_owner_take_ownership_supply_time": 259200,
+    "officer_take_ownership_supply_time": 172800,
+    "member_take_ownership_supply_time": 86400
   }
 ]
