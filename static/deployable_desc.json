@@ -14,6 +14,8 @@
       {}
     ],
     "can_enter_portals": true,
+    "can_auto_follow": false,
+    "affected_by_wind": 0.0,
     "speed": [
       [
         [
@@ -27,58 +29,60 @@
           1,
           []
         ],
-        0.0
+        13.0
       ],
       [
         [
           2,
           []
         ],
-        0.0
+        13.0
       ],
       [
         [
           3,
           []
         ],
-        0.0
+        13.0
       ],
       [
         [
           4,
           []
         ],
-        0.0
+        13.0
       ],
       [
         [
           5,
           []
         ],
-        0.0
+        13.0
       ]
     ],
     "use_player_speed_modifier": true,
     "placeable_on_land": true,
-    "placeable_in_water": false,
+    "placeable_in_water": true,
     "capacity": 1,
     "storage": 12,
     "stockpile": 1,
     "barter": 0,
     "item_slot_size": 6000,
-    "cargo_slot_size": 60000,
+    "cargo_slot_size": 150000,
     "model_address": "Vehicles/Cart",
     "stats": [],
     "player_animations_in_deployable_slots": [
       1
     ],
-    "allow_driver_extract": false,
+    "allow_driver_extract": true,
     "allow_passenger_extract": false,
     "show_for_secs_after_owner_logout": 0,
     "allow_emote_while_driver": false,
     "allow_emote_while_passenger": false,
     "experience_per_progress": [],
-    "mounting_radius": 3.0
+    "mounting_radius": 3.0,
+    "radius": 1.0,
+    "allow_hunting": false
   },
   {
     "id": 2,
@@ -95,6 +99,8 @@
       {}
     ],
     "can_enter_portals": true,
+    "can_auto_follow": false,
+    "affected_by_wind": 0.0,
     "speed": [
       [
         [
@@ -108,46 +114,46 @@
           1,
           []
         ],
-        0.0
+        10.0
       ],
       [
         [
           2,
           []
         ],
-        0.0
+        10.0
       ],
       [
         [
           3,
           []
         ],
-        0.0
+        10.0
       ],
       [
         [
           4,
           []
         ],
-        0.0
+        10.0
       ],
       [
         [
           5,
           []
         ],
-        0.0
+        10.0
       ]
     ],
     "use_player_speed_modifier": true,
     "placeable_on_land": true,
-    "placeable_in_water": false,
+    "placeable_in_water": true,
     "capacity": 1,
     "storage": 12,
     "stockpile": 6,
     "barter": 0,
     "item_slot_size": 6000,
-    "cargo_slot_size": 60000,
+    "cargo_slot_size": 600000,
     "model_address": "Vehicles/LargeCart",
     "stats": [],
     "player_animations_in_deployable_slots": [
@@ -159,7 +165,9 @@
     "allow_emote_while_driver": false,
     "allow_emote_while_passenger": false,
     "experience_per_progress": [],
-    "mounting_radius": 3.0
+    "mounting_radius": 3.0,
+    "radius": 0.0,
+    "allow_hunting": false
   },
   {
     "id": 3,
@@ -176,6 +184,8 @@
       {}
     ],
     "can_enter_portals": false,
+    "can_auto_follow": false,
+    "affected_by_wind": 1.0,
     "speed": [
       [
         [
@@ -225,15 +235,16 @@
     "placeable_in_water": true,
     "capacity": 2,
     "storage": 6,
-    "stockpile": 1,
+    "stockpile": 4,
     "barter": 0,
     "item_slot_size": 6000,
     "cargo_slot_size": 60000,
     "model_address": "Vehicles/BoatRaft",
     "stats": [],
     "player_animations_in_deployable_slots": [
-      1002,
-      1002
+      1003,
+      1005,
+      1004
     ],
     "allow_driver_extract": true,
     "allow_passenger_extract": true,
@@ -246,7 +257,9 @@
         0.0
       ]
     ],
-    "mounting_radius": 3.0
+    "mounting_radius": 3.0,
+    "radius": 0.0,
+    "allow_hunting": false
   },
   {
     "id": 4,
@@ -263,6 +276,8 @@
       {}
     ],
     "can_enter_portals": false,
+    "can_auto_follow": false,
+    "affected_by_wind": 1.0,
     "speed": [
       [
         [
@@ -312,15 +327,17 @@
     "placeable_in_water": true,
     "capacity": 3,
     "storage": 24,
-    "stockpile": 4,
+    "stockpile": 6,
     "barter": 0,
     "item_slot_size": 6000,
-    "cargo_slot_size": 60000,
+    "cargo_slot_size": 150000,
     "model_address": "Vehicles/Skiff",
     "stats": [],
     "player_animations_in_deployable_slots": [
-      1002,
-      1002
+      1012,
+      1015,
+      1016,
+      1006
     ],
     "allow_driver_extract": true,
     "allow_passenger_extract": true,
@@ -333,7 +350,9 @@
         0.0
       ]
     ],
-    "mounting_radius": 5.0
+    "mounting_radius": 5.0,
+    "radius": 0.0,
+    "allow_hunting": false
   },
   {
     "id": 6,
@@ -350,6 +369,8 @@
       {}
     ],
     "can_enter_portals": true,
+    "can_auto_follow": true,
+    "affected_by_wind": 0.0,
     "speed": [
       [
         [
@@ -363,46 +384,46 @@
           1,
           []
         ],
-        0.0
+        25.0
       ],
       [
         [
           2,
           []
         ],
-        0.0
+        25.0
       ],
       [
         [
           3,
           []
         ],
-        0.0
+        25.0
       ],
       [
         [
           4,
           []
         ],
-        0.0
+        25.0
       ],
       [
         [
           5,
           []
         ],
-        0.0
+        25.0
       ]
     ],
     "use_player_speed_modifier": false,
     "placeable_on_land": true,
-    "placeable_in_water": false,
+    "placeable_in_water": true,
     "capacity": 1,
     "storage": 0,
     "stockpile": 1,
     "barter": 0,
     "item_slot_size": 6000,
-    "cargo_slot_size": 18000,
+    "cargo_slot_size": 60000,
     "model_address": "Vehicles/DeerMount",
     "stats": [],
     "player_animations_in_deployable_slots": [
@@ -419,7 +440,9 @@
         0.0
       ]
     ],
-    "mounting_radius": 3.0
+    "mounting_radius": 3.0,
+    "radius": 0.0,
+    "allow_hunting": false
   },
   {
     "id": 7,
@@ -436,6 +459,8 @@
       {}
     ],
     "can_enter_portals": false,
+    "can_auto_follow": false,
+    "affected_by_wind": 1.0,
     "speed": [
       [
         [
@@ -501,8 +526,8 @@
       ]
     ],
     "player_animations_in_deployable_slots": [
-      1002,
-      1002
+      1003,
+      1004
     ],
     "allow_driver_extract": true,
     "allow_passenger_extract": true,
@@ -510,7 +535,9 @@
     "allow_emote_while_driver": false,
     "allow_emote_while_passenger": false,
     "experience_per_progress": [],
-    "mounting_radius": 3.0
+    "mounting_radius": 3.0,
+    "radius": 0.0,
+    "allow_hunting": false
   },
   {
     "id": 8,
@@ -527,6 +554,8 @@
       {}
     ],
     "can_enter_portals": false,
+    "can_auto_follow": false,
+    "affected_by_wind": 1.0,
     "speed": [
       [
         [
@@ -583,8 +612,8 @@
     "model_address": "Vehicles/Canoe",
     "stats": [],
     "player_animations_in_deployable_slots": [
-      1002,
-      1002
+      1003,
+      1004
     ],
     "allow_driver_extract": true,
     "allow_passenger_extract": true,
@@ -592,7 +621,9 @@
     "allow_emote_while_driver": false,
     "allow_emote_while_passenger": false,
     "experience_per_progress": [],
-    "mounting_radius": 5.0
+    "mounting_radius": 5.0,
+    "radius": 0.0,
+    "allow_hunting": false
   },
   {
     "id": 13,
@@ -609,6 +640,8 @@
       {}
     ],
     "can_enter_portals": true,
+    "can_auto_follow": false,
+    "affected_by_wind": 0.0,
     "speed": [
       [
         [
@@ -622,40 +655,40 @@
           1,
           []
         ],
-        0.0
+        13.0
       ],
       [
         [
           2,
           []
         ],
-        0.0
+        13.0
       ],
       [
         [
           3,
           []
         ],
-        0.0
+        13.0
       ],
       [
         [
           4,
           []
         ],
-        0.0
+        13.0
       ],
       [
         [
           5,
           []
         ],
-        0.0
+        13.0
       ]
     ],
     "use_player_speed_modifier": true,
     "placeable_on_land": true,
-    "placeable_in_water": false,
+    "placeable_in_water": true,
     "capacity": 1,
     "storage": 32,
     "stockpile": 20,
@@ -667,13 +700,15 @@
     "player_animations_in_deployable_slots": [
       1
     ],
-    "allow_driver_extract": false,
+    "allow_driver_extract": true,
     "allow_passenger_extract": false,
     "show_for_secs_after_owner_logout": 86400,
     "allow_emote_while_driver": false,
     "allow_emote_while_passenger": false,
     "experience_per_progress": [],
-    "mounting_radius": 3.0
+    "mounting_radius": 3.0,
+    "radius": 1.0,
+    "allow_hunting": false
   },
   {
     "id": 14,
@@ -690,6 +725,8 @@
       {}
     ],
     "can_enter_portals": false,
+    "can_auto_follow": false,
+    "affected_by_wind": 0.0,
     "speed": [
       [
         [
@@ -736,7 +773,7 @@
     ],
     "use_player_speed_modifier": false,
     "placeable_on_land": true,
-    "placeable_in_water": false,
+    "placeable_in_water": true,
     "capacity": 0,
     "storage": 10,
     "stockpile": 4,
@@ -752,7 +789,9 @@
     "allow_emote_while_driver": false,
     "allow_emote_while_passenger": false,
     "experience_per_progress": [],
-    "mounting_radius": 3.0
+    "mounting_radius": 3.0,
+    "radius": 0.0,
+    "allow_hunting": false
   },
   {
     "id": 1000,
@@ -769,6 +808,8 @@
       {}
     ],
     "can_enter_portals": false,
+    "can_auto_follow": false,
+    "affected_by_wind": 0.0,
     "speed": [
       [
         [
@@ -815,7 +856,7 @@
     ],
     "use_player_speed_modifier": false,
     "placeable_on_land": true,
-    "placeable_in_water": false,
+    "placeable_in_water": true,
     "capacity": 0,
     "storage": 0,
     "stockpile": 0,
@@ -831,7 +872,9 @@
     "allow_emote_while_driver": false,
     "allow_emote_while_passenger": false,
     "experience_per_progress": [],
-    "mounting_radius": 3.0
+    "mounting_radius": 3.0,
+    "radius": 0.0,
+    "allow_hunting": false
   },
   {
     "id": 228937650,
@@ -848,6 +891,8 @@
       {}
     ],
     "can_enter_portals": false,
+    "can_auto_follow": false,
+    "affected_by_wind": 1.0,
     "speed": [
       [
         [
@@ -900,12 +945,14 @@
     "stockpile": 6,
     "barter": 0,
     "item_slot_size": 6000,
-    "cargo_slot_size": 60000,
+    "cargo_slot_size": 150000,
     "model_address": "Vehicles/Clipper",
     "stats": [],
     "player_animations_in_deployable_slots": [
-      1002,
-      1002
+      1011,
+      1007,
+      1009,
+      1008
     ],
     "allow_driver_extract": true,
     "allow_passenger_extract": true,
@@ -918,7 +965,288 @@
         0.0
       ]
     ],
-    "mounting_radius": 5.0
+    "mounting_radius": 5.0,
+    "radius": 0.0,
+    "allow_hunting": false
+  },
+  {
+    "id": 335616392,
+    "name": "Skiff (Whitewater)",
+    "deploy_from_collectible_id": 1837107818,
+    "deploy_time": 5.0,
+    "deployable_type": [
+      4,
+      {}
+    ],
+    "pathfinding_id": 907789309,
+    "movement_type": [
+      2,
+      {}
+    ],
+    "can_enter_portals": false,
+    "can_auto_follow": false,
+    "affected_by_wind": 1.0,
+    "speed": [
+      [
+        [
+          0,
+          []
+        ],
+        0.0
+      ],
+      [
+        [
+          1,
+          []
+        ],
+        22.0
+      ],
+      [
+        [
+          2,
+          []
+        ],
+        22.0
+      ],
+      [
+        [
+          3,
+          []
+        ],
+        16.0
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        16.0
+      ],
+      [
+        [
+          5,
+          []
+        ],
+        22.0
+      ]
+    ],
+    "use_player_speed_modifier": false,
+    "placeable_on_land": false,
+    "placeable_in_water": true,
+    "capacity": 3,
+    "storage": 24,
+    "stockpile": 6,
+    "barter": 0,
+    "item_slot_size": 6000,
+    "cargo_slot_size": 150000,
+    "model_address": "Vehicles/Skiff",
+    "stats": [],
+    "player_animations_in_deployable_slots": [
+      1012,
+      1015,
+      1016,
+      1006
+    ],
+    "allow_driver_extract": true,
+    "allow_passenger_extract": true,
+    "show_for_secs_after_owner_logout": 0,
+    "allow_emote_while_driver": true,
+    "allow_emote_while_passenger": true,
+    "experience_per_progress": [
+      [
+        21,
+        0.0
+      ]
+    ],
+    "mounting_radius": 5.0,
+    "radius": 0.0,
+    "allow_hunting": false
+  },
+  {
+    "id": 402191613,
+    "name": "Clipper (Cargo)",
+    "deploy_from_collectible_id": 573176507,
+    "deploy_time": 5.0,
+    "deployable_type": [
+      4,
+      {}
+    ],
+    "pathfinding_id": 1281875110,
+    "movement_type": [
+      2,
+      {}
+    ],
+    "can_enter_portals": false,
+    "can_auto_follow": false,
+    "affected_by_wind": 1.0,
+    "speed": [
+      [
+        [
+          0,
+          []
+        ],
+        0.0
+      ],
+      [
+        [
+          1,
+          []
+        ],
+        17.0
+      ],
+      [
+        [
+          2,
+          []
+        ],
+        17.0
+      ],
+      [
+        [
+          3,
+          []
+        ],
+        20.0
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        23.0
+      ],
+      [
+        [
+          5,
+          []
+        ],
+        17.0
+      ]
+    ],
+    "use_player_speed_modifier": false,
+    "placeable_on_land": false,
+    "placeable_in_water": true,
+    "capacity": 4,
+    "storage": 30,
+    "stockpile": 10,
+    "barter": 0,
+    "item_slot_size": 6000,
+    "cargo_slot_size": 150000,
+    "model_address": "Vehicles/Clipper",
+    "stats": [],
+    "player_animations_in_deployable_slots": [
+      1011,
+      1007,
+      1009,
+      1008
+    ],
+    "allow_driver_extract": true,
+    "allow_passenger_extract": true,
+    "show_for_secs_after_owner_logout": 0,
+    "allow_emote_while_driver": true,
+    "allow_emote_while_passenger": true,
+    "experience_per_progress": [
+      [
+        21,
+        0.0
+      ]
+    ],
+    "mounting_radius": 5.0,
+    "radius": 0.0,
+    "allow_hunting": false
+  },
+  {
+    "id": 418500076,
+    "name": "Clipper (Windrider)",
+    "deploy_from_collectible_id": 1438268605,
+    "deploy_time": 5.0,
+    "deployable_type": [
+      4,
+      {}
+    ],
+    "pathfinding_id": 1281875110,
+    "movement_type": [
+      2,
+      {}
+    ],
+    "can_enter_portals": false,
+    "can_auto_follow": false,
+    "affected_by_wind": 2.0,
+    "speed": [
+      [
+        [
+          0,
+          []
+        ],
+        0.0
+      ],
+      [
+        [
+          1,
+          []
+        ],
+        16.0
+      ],
+      [
+        [
+          2,
+          []
+        ],
+        16.0
+      ],
+      [
+        [
+          3,
+          []
+        ],
+        20.0
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        23.0
+      ],
+      [
+        [
+          5,
+          []
+        ],
+        16.0
+      ]
+    ],
+    "use_player_speed_modifier": false,
+    "placeable_on_land": false,
+    "placeable_in_water": true,
+    "capacity": 4,
+    "storage": 20,
+    "stockpile": 3,
+    "barter": 0,
+    "item_slot_size": 6000,
+    "cargo_slot_size": 150000,
+    "model_address": "Vehicles/Clipper",
+    "stats": [],
+    "player_animations_in_deployable_slots": [
+      1011,
+      1007,
+      1009,
+      1008
+    ],
+    "allow_driver_extract": true,
+    "allow_passenger_extract": true,
+    "show_for_secs_after_owner_logout": 0,
+    "allow_emote_while_driver": true,
+    "allow_emote_while_passenger": true,
+    "experience_per_progress": [
+      [
+        21,
+        0.0
+      ]
+    ],
+    "mounting_radius": 5.0,
+    "radius": 0.0,
+    "allow_hunting": false
   },
   {
     "id": 571156212,
@@ -935,71 +1263,75 @@
       {}
     ],
     "can_enter_portals": true,
+    "can_auto_follow": false,
+    "affected_by_wind": 0.0,
     "speed": [
       [
         [
           0,
           []
         ],
-        15.0
+        13.0
       ],
       [
         [
           1,
           []
         ],
-        0.0
+        13.0
       ],
       [
         [
           2,
           []
         ],
-        0.0
+        13.0
       ],
       [
         [
           3,
           []
         ],
-        0.0
+        13.0
       ],
       [
         [
           4,
           []
         ],
-        0.0
+        13.0
       ],
       [
         [
           5,
           []
         ],
-        0.0
+        13.0
       ]
     ],
     "use_player_speed_modifier": true,
     "placeable_on_land": true,
-    "placeable_in_water": false,
+    "placeable_in_water": true,
     "capacity": 1,
     "storage": 24,
     "stockpile": 3,
     "barter": 0,
     "item_slot_size": 6000,
-    "cargo_slot_size": 60000,
+    "cargo_slot_size": 150000,
     "model_address": "Vehicles/Cart",
     "stats": [],
     "player_animations_in_deployable_slots": [
       1
     ],
-    "allow_driver_extract": false,
+    "allow_driver_extract": true,
     "allow_passenger_extract": false,
     "show_for_secs_after_owner_logout": 0,
     "allow_emote_while_driver": false,
     "allow_emote_while_passenger": false,
     "experience_per_progress": [],
-    "mounting_radius": 3.0
+    "mounting_radius": 3.0,
+    "radius": 1.0,
+    "allow_hunting": false
   },
   {
     "id": 634088959,
@@ -1016,6 +1348,8 @@
       {}
     ],
     "can_enter_portals": false,
+    "can_auto_follow": false,
+    "affected_by_wind": 0.0,
     "speed": [
       [
         [
@@ -1062,7 +1396,7 @@
     ],
     "use_player_speed_modifier": false,
     "placeable_on_land": true,
-    "placeable_in_water": false,
+    "placeable_in_water": true,
     "capacity": 0,
     "storage": 72,
     "stockpile": 24,
@@ -1078,7 +1412,9 @@
     "allow_emote_while_driver": false,
     "allow_emote_while_passenger": false,
     "experience_per_progress": [],
-    "mounting_radius": 3.0
+    "mounting_radius": 3.0,
+    "radius": 0.0,
+    "allow_hunting": false
   },
   {
     "id": 872518914,
@@ -1089,12 +1425,14 @@
       1,
       {}
     ],
-    "pathfinding_id": 1301654297,
+    "pathfinding_id": 2021683157,
     "movement_type": [
       1,
       {}
     ],
     "can_enter_portals": true,
+    "can_auto_follow": true,
+    "affected_by_wind": 0.0,
     "speed": [
       [
         [
@@ -1108,46 +1446,46 @@
           1,
           []
         ],
-        0.0
+        18.0
       ],
       [
         [
           2,
           []
         ],
-        0.0
+        18.0
       ],
       [
         [
           3,
           []
         ],
-        0.0
+        18.0
       ],
       [
         [
           4,
           []
         ],
-        0.0
+        18.0
       ],
       [
         [
           5,
           []
         ],
-        0.0
+        18.0
       ]
     ],
     "use_player_speed_modifier": false,
     "placeable_on_land": true,
-    "placeable_in_water": false,
+    "placeable_in_water": true,
     "capacity": 2,
     "storage": 20,
-    "stockpile": 6,
+    "stockpile": 4,
     "barter": 0,
     "item_slot_size": 60000,
-    "cargo_slot_size": 18000,
+    "cargo_slot_size": 60000,
     "model_address": "Vehicles/BisonMount",
     "stats": [],
     "player_animations_in_deployable_slots": [
@@ -1165,7 +1503,204 @@
         0.0
       ]
     ],
-    "mounting_radius": 3.0
+    "mounting_radius": 3.0,
+    "radius": 0.0,
+    "allow_hunting": false
+  },
+  {
+    "id": 893424902,
+    "name": "Ship",
+    "deploy_from_collectible_id": 1819824069,
+    "deploy_time": 5.0,
+    "deployable_type": [
+      4,
+      {}
+    ],
+    "pathfinding_id": 1876455160,
+    "movement_type": [
+      2,
+      {}
+    ],
+    "can_enter_portals": false,
+    "can_auto_follow": false,
+    "affected_by_wind": 1.0,
+    "speed": [
+      [
+        [
+          0,
+          []
+        ],
+        0.0
+      ],
+      [
+        [
+          1,
+          []
+        ],
+        15.0
+      ],
+      [
+        [
+          2,
+          []
+        ],
+        15.0
+      ],
+      [
+        [
+          3,
+          []
+        ],
+        22.0
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        22.0
+      ],
+      [
+        [
+          5,
+          []
+        ],
+        15.0
+      ]
+    ],
+    "use_player_speed_modifier": false,
+    "placeable_on_land": false,
+    "placeable_in_water": true,
+    "capacity": 6,
+    "storage": 30,
+    "stockpile": 15,
+    "barter": 0,
+    "item_slot_size": 6000,
+    "cargo_slot_size": 450000,
+    "model_address": "Vehicles/CargoShip",
+    "stats": [],
+    "player_animations_in_deployable_slots": [
+      1010,
+      1007,
+      1014,
+      1008,
+      1009,
+      1013
+    ],
+    "allow_driver_extract": true,
+    "allow_passenger_extract": true,
+    "show_for_secs_after_owner_logout": 0,
+    "allow_emote_while_driver": true,
+    "allow_emote_while_passenger": true,
+    "experience_per_progress": [
+      [
+        21,
+        0.0
+      ]
+    ],
+    "mounting_radius": 5.0,
+    "radius": 0.0,
+    "allow_hunting": false
+  },
+  {
+    "id": 976217825,
+    "name": "Raft (Fishing)",
+    "deploy_from_collectible_id": 757232266,
+    "deploy_time": 5.0,
+    "deployable_type": [
+      4,
+      {}
+    ],
+    "pathfinding_id": 1109261591,
+    "movement_type": [
+      2,
+      {}
+    ],
+    "can_enter_portals": false,
+    "can_auto_follow": false,
+    "affected_by_wind": 1.0,
+    "speed": [
+      [
+        [
+          0,
+          []
+        ],
+        0.0
+      ],
+      [
+        [
+          1,
+          []
+        ],
+        14.0
+      ],
+      [
+        [
+          2,
+          []
+        ],
+        14.0
+      ],
+      [
+        [
+          3,
+          []
+        ],
+        10.0
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        10.0
+      ],
+      [
+        [
+          5,
+          []
+        ],
+        14.0
+      ]
+    ],
+    "use_player_speed_modifier": false,
+    "placeable_on_land": false,
+    "placeable_in_water": true,
+    "capacity": 2,
+    "storage": 6,
+    "stockpile": 4,
+    "barter": 0,
+    "item_slot_size": 6000,
+    "cargo_slot_size": 60000,
+    "model_address": "Vehicles/BoatRaft",
+    "stats": [
+      [
+        [
+          31,
+          []
+        ],
+        0.05,
+        true
+      ]
+    ],
+    "player_animations_in_deployable_slots": [
+      1003,
+      1005
+    ],
+    "allow_driver_extract": true,
+    "allow_passenger_extract": true,
+    "show_for_secs_after_owner_logout": 0,
+    "allow_emote_while_driver": false,
+    "allow_emote_while_passenger": false,
+    "experience_per_progress": [
+      [
+        21,
+        0.0
+      ]
+    ],
+    "mounting_radius": 3.0,
+    "radius": 0.0,
+    "allow_hunting": false
   },
   {
     "id": 1026286338,
@@ -1182,6 +1717,8 @@
       {}
     ],
     "can_enter_portals": false,
+    "can_auto_follow": false,
+    "affected_by_wind": 0.0,
     "speed": [
       [
         [
@@ -1228,7 +1765,7 @@
     ],
     "use_player_speed_modifier": false,
     "placeable_on_land": true,
-    "placeable_in_water": false,
+    "placeable_in_water": true,
     "capacity": 0,
     "storage": 32,
     "stockpile": 8,
@@ -1244,7 +1781,113 @@
     "allow_emote_while_driver": false,
     "allow_emote_while_passenger": false,
     "experience_per_progress": [],
-    "mounting_radius": 3.0
+    "mounting_radius": 3.0,
+    "radius": 0.0,
+    "allow_hunting": false
+  },
+  {
+    "id": 1084069097,
+    "name": "Ship (Fishing)",
+    "deploy_from_collectible_id": 1564069891,
+    "deploy_time": 5.0,
+    "deployable_type": [
+      4,
+      {}
+    ],
+    "pathfinding_id": 1876455160,
+    "movement_type": [
+      2,
+      {}
+    ],
+    "can_enter_portals": false,
+    "can_auto_follow": false,
+    "affected_by_wind": 1.0,
+    "speed": [
+      [
+        [
+          0,
+          []
+        ],
+        0.0
+      ],
+      [
+        [
+          1,
+          []
+        ],
+        14.0
+      ],
+      [
+        [
+          2,
+          []
+        ],
+        14.0
+      ],
+      [
+        [
+          3,
+          []
+        ],
+        20.0
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        20.0
+      ],
+      [
+        [
+          5,
+          []
+        ],
+        15.0
+      ]
+    ],
+    "use_player_speed_modifier": false,
+    "placeable_on_land": false,
+    "placeable_in_water": true,
+    "capacity": 6,
+    "storage": 30,
+    "stockpile": 10,
+    "barter": 0,
+    "item_slot_size": 6000,
+    "cargo_slot_size": 300000,
+    "model_address": "Vehicles/CargoShip",
+    "stats": [
+      [
+        [
+          31,
+          []
+        ],
+        0.065,
+        true
+      ]
+    ],
+    "player_animations_in_deployable_slots": [
+      1010,
+      1007,
+      1014,
+      1008,
+      1009,
+      1013
+    ],
+    "allow_driver_extract": true,
+    "allow_passenger_extract": true,
+    "show_for_secs_after_owner_logout": 0,
+    "allow_emote_while_driver": true,
+    "allow_emote_while_passenger": true,
+    "experience_per_progress": [
+      [
+        21,
+        0.0
+      ]
+    ],
+    "mounting_radius": 5.0,
+    "radius": 0.0,
+    "allow_hunting": false
   },
   {
     "id": 1125730891,
@@ -1261,6 +1904,8 @@
       {}
     ],
     "can_enter_portals": true,
+    "can_auto_follow": true,
+    "affected_by_wind": 0.0,
     "speed": [
       [
         [
@@ -1274,46 +1919,46 @@
           1,
           []
         ],
-        0.0
+        22.0
       ],
       [
         [
           2,
           []
         ],
-        0.0
+        22.0
       ],
       [
         [
           3,
           []
         ],
-        0.0
+        22.0
       ],
       [
         [
           4,
           []
         ],
-        0.0
+        22.0
       ],
       [
         [
           5,
           []
         ],
-        0.0
+        22.0
       ]
     ],
     "use_player_speed_modifier": false,
     "placeable_on_land": true,
-    "placeable_in_water": false,
+    "placeable_in_water": true,
     "capacity": 1,
     "storage": 0,
     "stockpile": 2,
     "barter": 0,
     "item_slot_size": 6000,
-    "cargo_slot_size": 18000,
+    "cargo_slot_size": 60000,
     "model_address": "Vehicles/GoatMount",
     "stats": [],
     "player_animations_in_deployable_slots": [
@@ -1330,7 +1975,189 @@
         0.0
       ]
     ],
-    "mounting_radius": 3.0
+    "mounting_radius": 3.0,
+    "radius": 0.0,
+    "allow_hunting": false
+  },
+  {
+    "id": 1150170855,
+    "name": "Hunter's Goat",
+    "deploy_from_collectible_id": 1977837508,
+    "deploy_time": 3.0,
+    "deployable_type": [
+      1,
+      {}
+    ],
+    "pathfinding_id": 668511654,
+    "movement_type": [
+      1,
+      {}
+    ],
+    "can_enter_portals": true,
+    "can_auto_follow": true,
+    "affected_by_wind": 0.0,
+    "speed": [
+      [
+        [
+          0,
+          []
+        ],
+        20.0
+      ],
+      [
+        [
+          1,
+          []
+        ],
+        20.0
+      ],
+      [
+        [
+          2,
+          []
+        ],
+        20.0
+      ],
+      [
+        [
+          3,
+          []
+        ],
+        20.0
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        20.0
+      ],
+      [
+        [
+          5,
+          []
+        ],
+        20.0
+      ]
+    ],
+    "use_player_speed_modifier": false,
+    "placeable_on_land": true,
+    "placeable_in_water": true,
+    "capacity": 1,
+    "storage": 0,
+    "stockpile": 2,
+    "barter": 0,
+    "item_slot_size": 6000,
+    "cargo_slot_size": 72000,
+    "model_address": "Vehicles/GoatMount",
+    "stats": [],
+    "player_animations_in_deployable_slots": [
+      2
+    ],
+    "allow_driver_extract": false,
+    "allow_passenger_extract": false,
+    "show_for_secs_after_owner_logout": 0,
+    "allow_emote_while_driver": false,
+    "allow_emote_while_passenger": false,
+    "experience_per_progress": [
+      [
+        17,
+        0.0
+      ]
+    ],
+    "mounting_radius": 3.0,
+    "radius": 0.0,
+    "allow_hunting": true
+  },
+  {
+    "id": 1243654752,
+    "name": "Raft (Cargo)",
+    "deploy_from_collectible_id": 2098202704,
+    "deploy_time": 5.0,
+    "deployable_type": [
+      4,
+      {}
+    ],
+    "pathfinding_id": 1109261591,
+    "movement_type": [
+      2,
+      {}
+    ],
+    "can_enter_portals": false,
+    "can_auto_follow": false,
+    "affected_by_wind": 1.0,
+    "speed": [
+      [
+        [
+          0,
+          []
+        ],
+        0.0
+      ],
+      [
+        [
+          1,
+          []
+        ],
+        13.0
+      ],
+      [
+        [
+          2,
+          []
+        ],
+        13.0
+      ],
+      [
+        [
+          3,
+          []
+        ],
+        10.0
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        10.0
+      ],
+      [
+        [
+          5,
+          []
+        ],
+        13.0
+      ]
+    ],
+    "use_player_speed_modifier": false,
+    "placeable_on_land": false,
+    "placeable_in_water": true,
+    "capacity": 1,
+    "storage": 12,
+    "stockpile": 8,
+    "barter": 0,
+    "item_slot_size": 6000,
+    "cargo_slot_size": 60000,
+    "model_address": "Vehicles/BoatRaft",
+    "stats": [],
+    "player_animations_in_deployable_slots": [
+      1003
+    ],
+    "allow_driver_extract": true,
+    "allow_passenger_extract": true,
+    "show_for_secs_after_owner_logout": 0,
+    "allow_emote_while_driver": false,
+    "allow_emote_while_passenger": false,
+    "experience_per_progress": [
+      [
+        21,
+        0.0
+      ]
+    ],
+    "mounting_radius": 3.0,
+    "radius": 0.0,
+    "allow_hunting": false
   },
   {
     "id": 1338380321,
@@ -1347,6 +2174,8 @@
       {}
     ],
     "can_enter_portals": true,
+    "can_auto_follow": true,
+    "affected_by_wind": 0.0,
     "speed": [
       [
         [
@@ -1360,40 +2189,40 @@
           1,
           []
         ],
-        0.0
+        31.0
       ],
       [
         [
           2,
           []
         ],
-        0.0
+        31.0
       ],
       [
         [
           3,
           []
         ],
-        0.0
+        31.0
       ],
       [
         [
           4,
           []
         ],
-        0.0
+        31.0
       ],
       [
         [
           5,
           []
         ],
-        0.0
+        31.0
       ]
     ],
     "use_player_speed_modifier": false,
     "placeable_on_land": true,
-    "placeable_in_water": false,
+    "placeable_in_water": true,
     "capacity": 1,
     "storage": 0,
     "stockpile": 0,
@@ -1416,11 +2245,13 @@
         0.0
       ]
     ],
-    "mounting_radius": 3.0
+    "mounting_radius": 3.0,
+    "radius": 0.0,
+    "allow_hunting": false
   },
   {
     "id": 1357146109,
-    "name": "Cargo Ship",
+    "name": "Ship (Cargo)",
     "deploy_from_collectible_id": 700235689,
     "deploy_time": 5.0,
     "deployable_type": [
@@ -1433,6 +2264,8 @@
       {}
     ],
     "can_enter_portals": false,
+    "can_auto_follow": false,
+    "affected_by_wind": 1.0,
     "speed": [
       [
         [
@@ -1460,14 +2293,14 @@
           3,
           []
         ],
-        21.0
+        20.0
       ],
       [
         [
           4,
           []
         ],
-        21.0
+        20.0
       ],
       [
         [
@@ -1480,17 +2313,21 @@
     "use_player_speed_modifier": false,
     "placeable_on_land": false,
     "placeable_in_water": true,
-    "capacity": 6,
+    "capacity": 4,
     "storage": 30,
-    "stockpile": 10,
+    "stockpile": 20,
     "barter": 0,
     "item_slot_size": 6000,
-    "cargo_slot_size": 60000,
+    "cargo_slot_size": 600000,
     "model_address": "Vehicles/CargoShip",
     "stats": [],
     "player_animations_in_deployable_slots": [
-      1002,
-      1002
+      1010,
+      1007,
+      1014,
+      1008,
+      1009,
+      1013
     ],
     "allow_driver_extract": true,
     "allow_passenger_extract": true,
@@ -1503,7 +2340,111 @@
         0.0
       ]
     ],
-    "mounting_radius": 5.0
+    "mounting_radius": 5.0,
+    "radius": 0.0,
+    "allow_hunting": false
+  },
+  {
+    "id": 1430249957,
+    "name": "Skiff (Fishing)",
+    "deploy_from_collectible_id": 320414617,
+    "deploy_time": 5.0,
+    "deployable_type": [
+      4,
+      {}
+    ],
+    "pathfinding_id": 907789309,
+    "movement_type": [
+      2,
+      {}
+    ],
+    "can_enter_portals": false,
+    "can_auto_follow": false,
+    "affected_by_wind": 1.0,
+    "speed": [
+      [
+        [
+          0,
+          []
+        ],
+        0.0
+      ],
+      [
+        [
+          1,
+          []
+        ],
+        24.0
+      ],
+      [
+        [
+          2,
+          []
+        ],
+        24.0
+      ],
+      [
+        [
+          3,
+          []
+        ],
+        17.0
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        17.0
+      ],
+      [
+        [
+          5,
+          []
+        ],
+        24.0
+      ]
+    ],
+    "use_player_speed_modifier": false,
+    "placeable_on_land": false,
+    "placeable_in_water": true,
+    "capacity": 3,
+    "storage": 24,
+    "stockpile": 12,
+    "barter": 0,
+    "item_slot_size": 6000,
+    "cargo_slot_size": 60000,
+    "model_address": "Vehicles/Skiff",
+    "stats": [
+      [
+        [
+          31,
+          []
+        ],
+        0.065,
+        true
+      ]
+    ],
+    "player_animations_in_deployable_slots": [
+      1012,
+      1015,
+      1016,
+      1006
+    ],
+    "allow_driver_extract": true,
+    "allow_passenger_extract": true,
+    "show_for_secs_after_owner_logout": 0,
+    "allow_emote_while_driver": true,
+    "allow_emote_while_passenger": true,
+    "experience_per_progress": [
+      [
+        21,
+        0.0
+      ]
+    ],
+    "mounting_radius": 5.0,
+    "radius": 0.0,
+    "allow_hunting": false
   },
   {
     "id": 1554573049,
@@ -1520,59 +2461,61 @@
       {}
     ],
     "can_enter_portals": true,
+    "can_auto_follow": false,
+    "affected_by_wind": 0.0,
     "speed": [
       [
         [
           0,
           []
         ],
-        11.0
+        10.0
       ],
       [
         [
           1,
           []
         ],
-        0.0
+        10.0
       ],
       [
         [
           2,
           []
         ],
-        0.0
+        10.0
       ],
       [
         [
           3,
           []
         ],
-        0.0
+        10.0
       ],
       [
         [
           4,
           []
         ],
-        0.0
+        10.0
       ],
       [
         [
           5,
           []
         ],
-        0.0
+        10.0
       ]
     ],
     "use_player_speed_modifier": true,
     "placeable_on_land": true,
-    "placeable_in_water": false,
+    "placeable_in_water": true,
     "capacity": 1,
     "storage": 16,
     "stockpile": 8,
     "barter": 0,
     "item_slot_size": 6000,
-    "cargo_slot_size": 60000,
+    "cargo_slot_size": 600000,
     "model_address": "Vehicles/LargeCart",
     "stats": [],
     "player_animations_in_deployable_slots": [
@@ -1584,7 +2527,9 @@
     "allow_emote_while_driver": false,
     "allow_emote_while_passenger": false,
     "experience_per_progress": [],
-    "mounting_radius": 3.0
+    "mounting_radius": 3.0,
+    "radius": 0.0,
+    "allow_hunting": false
   },
   {
     "id": 1596080513,
@@ -1601,71 +2546,75 @@
       {}
     ],
     "can_enter_portals": true,
+    "can_auto_follow": false,
+    "affected_by_wind": 0.0,
     "speed": [
       [
         [
           0,
           []
         ],
-        14.0
+        13.0
       ],
       [
         [
           1,
           []
         ],
-        0.0
+        13.0
       ],
       [
         [
           2,
           []
         ],
-        0.0
+        13.0
       ],
       [
         [
           3,
           []
         ],
-        0.0
+        13.0
       ],
       [
         [
           4,
           []
         ],
-        0.0
+        13.0
       ],
       [
         [
           5,
           []
         ],
-        0.0
+        13.0
       ]
     ],
     "use_player_speed_modifier": true,
     "placeable_on_land": true,
-    "placeable_in_water": false,
+    "placeable_in_water": true,
     "capacity": 1,
     "storage": 18,
     "stockpile": 2,
     "barter": 0,
     "item_slot_size": 6000,
-    "cargo_slot_size": 60000,
+    "cargo_slot_size": 150000,
     "model_address": "Vehicles/Cart",
     "stats": [],
     "player_animations_in_deployable_slots": [
       1
     ],
-    "allow_driver_extract": false,
+    "allow_driver_extract": true,
     "allow_passenger_extract": false,
     "show_for_secs_after_owner_logout": 0,
     "allow_emote_while_driver": false,
     "allow_emote_while_passenger": false,
     "experience_per_progress": [],
-    "mounting_radius": 3.0
+    "mounting_radius": 3.0,
+    "radius": 1.0,
+    "allow_hunting": false
   },
   {
     "id": 1641732157,
@@ -1682,6 +2631,8 @@
       {}
     ],
     "can_enter_portals": false,
+    "can_auto_follow": false,
+    "affected_by_wind": 0.0,
     "speed": [
       [
         [
@@ -1728,7 +2679,7 @@
     ],
     "use_player_speed_modifier": false,
     "placeable_on_land": true,
-    "placeable_in_water": false,
+    "placeable_in_water": true,
     "capacity": 0,
     "storage": 48,
     "stockpile": 16,
@@ -1744,7 +2695,102 @@
     "allow_emote_while_driver": false,
     "allow_emote_while_passenger": false,
     "experience_per_progress": [],
-    "mounting_radius": 3.0
+    "mounting_radius": 3.0,
+    "radius": 0.0,
+    "allow_hunting": false
+  },
+  {
+    "id": 1855409370,
+    "name": "Skiff (Cargo)",
+    "deploy_from_collectible_id": 1649953465,
+    "deploy_time": 5.0,
+    "deployable_type": [
+      4,
+      {}
+    ],
+    "pathfinding_id": 907789309,
+    "movement_type": [
+      2,
+      {}
+    ],
+    "can_enter_portals": false,
+    "can_auto_follow": false,
+    "affected_by_wind": 1.0,
+    "speed": [
+      [
+        [
+          0,
+          []
+        ],
+        0.0
+      ],
+      [
+        [
+          1,
+          []
+        ],
+        23.0
+      ],
+      [
+        [
+          2,
+          []
+        ],
+        23.0
+      ],
+      [
+        [
+          3,
+          []
+        ],
+        16.0
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        16.0
+      ],
+      [
+        [
+          5,
+          []
+        ],
+        23.0
+      ]
+    ],
+    "use_player_speed_modifier": false,
+    "placeable_on_land": false,
+    "placeable_in_water": true,
+    "capacity": 2,
+    "storage": 24,
+    "stockpile": 12,
+    "barter": 0,
+    "item_slot_size": 6000,
+    "cargo_slot_size": 150000,
+    "model_address": "Vehicles/Skiff",
+    "stats": [],
+    "player_animations_in_deployable_slots": [
+      1012,
+      1015,
+      1016,
+      1006
+    ],
+    "allow_driver_extract": true,
+    "allow_passenger_extract": true,
+    "show_for_secs_after_owner_logout": 0,
+    "allow_emote_while_driver": true,
+    "allow_emote_while_passenger": true,
+    "experience_per_progress": [
+      [
+        21,
+        0.0
+      ]
+    ],
+    "mounting_radius": 5.0,
+    "radius": 0.0,
+    "allow_hunting": false
   },
   {
     "id": 2045051661,
@@ -1761,59 +2807,61 @@
       {}
     ],
     "can_enter_portals": true,
+    "can_auto_follow": false,
+    "affected_by_wind": 0.0,
     "speed": [
       [
         [
           0,
           []
         ],
-        12.0
+        10.0
       ],
       [
         [
           1,
           []
         ],
-        0.0
+        10.0
       ],
       [
         [
           2,
           []
         ],
-        0.0
+        10.0
       ],
       [
         [
           3,
           []
         ],
-        0.0
+        10.0
       ],
       [
         [
           4,
           []
         ],
-        0.0
+        10.0
       ],
       [
         [
           5,
           []
         ],
-        0.0
+        10.0
       ]
     ],
     "use_player_speed_modifier": true,
     "placeable_on_land": true,
-    "placeable_in_water": false,
+    "placeable_in_water": true,
     "capacity": 1,
     "storage": 20,
     "stockpile": 10,
     "barter": 0,
     "item_slot_size": 6000,
-    "cargo_slot_size": 60000,
+    "cargo_slot_size": 600000,
     "model_address": "Vehicles/LargeCart",
     "stats": [],
     "player_animations_in_deployable_slots": [
@@ -1825,7 +2873,9 @@
     "allow_emote_while_driver": false,
     "allow_emote_while_passenger": false,
     "experience_per_progress": [],
-    "mounting_radius": 3.0
+    "mounting_radius": 3.0,
+    "radius": 0.0,
+    "allow_hunting": false
   },
   {
     "id": 2065423994,
@@ -1842,6 +2892,8 @@
       {}
     ],
     "can_enter_portals": true,
+    "can_auto_follow": false,
+    "affected_by_wind": 0.0,
     "speed": [
       [
         [
@@ -1855,40 +2907,40 @@
           1,
           []
         ],
-        0.0
+        18.0
       ],
       [
         [
           2,
           []
         ],
-        0.0
+        18.0
       ],
       [
         [
           3,
           []
         ],
-        0.0
+        18.0
       ],
       [
         [
           4,
           []
         ],
-        0.0
+        18.0
       ],
       [
         [
           5,
           []
         ],
-        0.0
+        18.0
       ]
     ],
     "use_player_speed_modifier": true,
     "placeable_on_land": true,
-    "placeable_in_water": false,
+    "placeable_in_water": true,
     "capacity": 2,
     "storage": 12,
     "stockpile": 0,
@@ -1901,12 +2953,14 @@
       1,
       1000
     ],
-    "allow_driver_extract": false,
+    "allow_driver_extract": true,
     "allow_passenger_extract": false,
     "show_for_secs_after_owner_logout": 0,
     "allow_emote_while_driver": false,
     "allow_emote_while_passenger": false,
     "experience_per_progress": [],
-    "mounting_radius": 3.0
+    "mounting_radius": 3.0,
+    "radius": 1.0,
+    "allow_hunting": false
   }
 ]
