@@ -10357,19 +10357,59 @@
         1
       ]
     ],
-    "consumed_item_stacks": [
+    "consumed_item_stacks": [],
+    "consumed_cargo_stacks": [
       [
-        1,
-        1,
+        1201,
+        10,
         [
-          0,
+          1,
+          []
+        ],
+        1,
+        1.0
+      ],
+      [
+        2401,
+        10,
+        [
+          1,
+          []
+        ],
+        1,
+        1.0
+      ],
+      [
+        1044447676,
+        2,
+        [
+          1,
+          []
+        ],
+        1,
+        1.0
+      ],
+      [
+        7001,
+        2,
+        [
+          1,
+          []
+        ],
+        1,
+        1.0
+      ],
+      [
+        1297204491,
+        2,
+        [
+          1,
           []
         ],
         1,
         1.0
       ]
     ],
-    "consumed_cargo_stacks": [],
     "consumed_shards": 0,
     "experience_per_progress": [
       [
@@ -10378,9 +10418,7 @@
       ]
     ],
     "discovery_triggers": [],
-    "required_knowledges": [
-      12345
-    ],
+    "required_knowledges": [],
     "required_claim_tech_ids": [
       200
     ],
@@ -14796,11 +14834,9 @@
         1.0
       ]
     ],
-    "discovery_triggers": [
-      100002
-    ],
+    "discovery_triggers": [],
     "required_knowledges": [
-      100002
+      12345
     ],
     "required_claim_tech_ids": [],
     "full_discovery_score": 0,
@@ -17034,6 +17070,80 @@
     "required_paving_tier": -1,
     "actions_required": 1,
     "instantly_built": true,
+    "recipe_performance_id": 538
+  },
+  {
+    "id": 109074392,
+    "name": "Mechanism of Stamina",
+    "time_requirement": 2.0,
+    "stamina_requirement": 0.89,
+    "consumed_building": 0,
+    "required_interior_tier": -1,
+    "level_requirements": [
+      [
+        15,
+        1
+      ]
+    ],
+    "tool_requirements": [
+      [
+        14,
+        1,
+        1
+      ]
+    ],
+    "consumed_item_stacks": [
+      [
+        828972621,
+        100,
+        [
+          0,
+          []
+        ],
+        1,
+        1.0
+      ],
+      [
+        515896091,
+        20,
+        [
+          0,
+          []
+        ],
+        1,
+        1.0
+      ]
+    ],
+    "consumed_cargo_stacks": [
+      [
+        2401,
+        10,
+        [
+          1,
+          []
+        ],
+        0,
+        1.0
+      ]
+    ],
+    "consumed_shards": 0,
+    "experience_per_progress": [
+      [
+        15,
+        1.0
+      ]
+    ],
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "required_claim_tech_ids": [
+      200
+    ],
+    "full_discovery_score": 1,
+    "tool_mesh_index": 0,
+    "building_description_id": 83756714,
+    "required_paving_tier": -1,
+    "actions_required": 1000,
+    "instantly_built": false,
     "recipe_performance_id": 538
   },
   {
@@ -22746,6 +22856,59 @@
     "recipe_performance_id": 538
   },
   {
+    "id": 581625337,
+    "name": "Tree of Wisdom",
+    "time_requirement": 2.0,
+    "stamina_requirement": 0.89,
+    "consumed_building": 0,
+    "required_interior_tier": 0,
+    "level_requirements": [
+      [
+        15,
+        1
+      ]
+    ],
+    "tool_requirements": [
+      [
+        14,
+        0,
+        1
+      ]
+    ],
+    "consumed_item_stacks": [
+      [
+        1,
+        1,
+        [
+          0,
+          []
+        ],
+        1,
+        1.0
+      ]
+    ],
+    "consumed_cargo_stacks": [],
+    "consumed_shards": 0,
+    "experience_per_progress": [
+      [
+        15,
+        1.0
+      ]
+    ],
+    "discovery_triggers": [],
+    "required_knowledges": [
+      12345
+    ],
+    "required_claim_tech_ids": [],
+    "full_discovery_score": 1,
+    "tool_mesh_index": 0,
+    "building_description_id": 433549604,
+    "required_paving_tier": -1,
+    "actions_required": 1,
+    "instantly_built": false,
+    "recipe_performance_id": 538
+  },
+  {
     "id": 581800279,
     "name": "Talented Woodcraft Small Carpet",
     "time_requirement": 2.0,
@@ -26254,6 +26417,82 @@
     "building_description_id": 1482673802,
     "required_paving_tier": -1,
     "actions_required": 1125,
+    "instantly_built": false,
+    "recipe_performance_id": 538
+  },
+  {
+    "id": 902382720,
+    "name": "Farmer's Garden",
+    "time_requirement": 2.0,
+    "stamina_requirement": 0.75,
+    "consumed_building": 0,
+    "required_interior_tier": -1,
+    "level_requirements": [
+      [
+        15,
+        1
+      ]
+    ],
+    "tool_requirements": [
+      [
+        14,
+        1,
+        1
+      ]
+    ],
+    "consumed_item_stacks": [
+      [
+        4100001,
+        20,
+        [
+          0,
+          []
+        ],
+        1,
+        1.0
+      ]
+    ],
+    "consumed_cargo_stacks": [
+      [
+        1203,
+        10,
+        [
+          1,
+          []
+        ],
+        0,
+        1.0
+      ],
+      [
+        7003,
+        2,
+        [
+          1,
+          []
+        ],
+        0,
+        1.0
+      ]
+    ],
+    "consumed_shards": 0,
+    "experience_per_progress": [
+      [
+        15,
+        1.0
+      ]
+    ],
+    "discovery_triggers": [
+      1365060029
+    ],
+    "required_knowledges": [],
+    "required_claim_tech_ids": [
+      126942728
+    ],
+    "full_discovery_score": 1,
+    "tool_mesh_index": 0,
+    "building_description_id": 1521060188,
+    "required_paving_tier": -1,
+    "actions_required": 800,
     "instantly_built": false,
     "recipe_performance_id": 538
   },
@@ -30543,6 +30782,53 @@
     "actions_required": 285,
     "instantly_built": false,
     "recipe_performance_id": 538
+  },
+  {
+    "id": 1343417068,
+    "name": "Hexite Deposit",
+    "time_requirement": 2.0,
+    "stamina_requirement": 0.75,
+    "consumed_building": 0,
+    "required_interior_tier": 0,
+    "level_requirements": [
+      [
+        15,
+        1
+      ]
+    ],
+    "tool_requirements": [],
+    "consumed_item_stacks": [
+      [
+        1,
+        1,
+        [
+          0,
+          []
+        ],
+        1,
+        1.0
+      ]
+    ],
+    "consumed_cargo_stacks": [],
+    "consumed_shards": 0,
+    "experience_per_progress": [
+      [
+        15,
+        1.0
+      ]
+    ],
+    "discovery_triggers": [],
+    "required_knowledges": [
+      12345
+    ],
+    "required_claim_tech_ids": [],
+    "full_discovery_score": 1,
+    "tool_mesh_index": 0,
+    "building_description_id": 421789207,
+    "required_paving_tier": -1,
+    "actions_required": 1,
+    "instantly_built": false,
+    "recipe_performance_id": 0
   },
   {
     "id": 1343656824,

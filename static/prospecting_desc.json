@@ -1,5 +1,45 @@
 [
   {
+    "id": 49580958,
+    "name": "Search for Rimefruit",
+    "description": "Track the fruit that Alesi requested. ",
+    "resource_clump_id": 1291711029,
+    "placeholder_resource_clump_id": 1010220448,
+    "enemy_ai_desc_id": 0,
+    "is_aquatic_resource": false,
+    "biome_requirements": [
+      6
+    ],
+    "equipment_requirements": [],
+    "required_items_to_start": [],
+    "required_items_to_interact_with_reward": [],
+    "consumed_items_by_ability_trigger": [],
+    "allow_aquatic_prospecting": false,
+    "bread_crumb_count": [
+      5,
+      5
+    ],
+    "bread_crumb_radius": [
+      10,
+      12
+    ],
+    "distance_between_bread_crumbs": [
+      200,
+      250
+    ],
+    "deadzone_angle_between_crumbs": 90.0,
+    "allow_aquatic_bread_crumb": false,
+    "pointer_duration": 4.0,
+    "prospecting_duration": 5.0,
+    "join_radius": 30,
+    "contribution_per_visited_bread_crumb": 1,
+    "breadcrumb_found_message": "You've found a clue to the Rimefruit. You're getting closer.",
+    "resource_uncovered_message": "You can smell the Rimefruit in the distance. You're close.",
+    "breadcrumb_found_by_someone_else_message": "Someone else found a clue to the Rimefruit. Follow them!",
+    "resource_uncovered_by_someone_else_message": "Someone else uncovered the Rimefruit. Follow them to it!",
+    "icon_asset_path": "\uffad"
+  },
+  {
     "id": 126942728,
     "name": "Argent Ore Prospecting",
     "description": "Begin a hunt for Argent Ore or join a nearby hunt that's in progress. Argent ore can be used to make special jewelry and also gives a lot of experience when mined.",
@@ -121,6 +161,46 @@
     "icon_asset_path": "\u001c"
   },
   {
+    "id": 481302758,
+    "name": "Search for Windswept Flowers",
+    "description": "Search for the Windswept Flower in the Breezy Grassland",
+    "resource_clump_id": 48380102,
+    "placeholder_resource_clump_id": 1010220448,
+    "enemy_ai_desc_id": 0,
+    "is_aquatic_resource": false,
+    "biome_requirements": [
+      4
+    ],
+    "equipment_requirements": [],
+    "required_items_to_start": [],
+    "required_items_to_interact_with_reward": [],
+    "consumed_items_by_ability_trigger": [],
+    "allow_aquatic_prospecting": false,
+    "bread_crumb_count": [
+      3,
+      3
+    ],
+    "bread_crumb_radius": [
+      10,
+      12
+    ],
+    "distance_between_bread_crumbs": [
+      200,
+      250
+    ],
+    "deadzone_angle_between_crumbs": 90.0,
+    "allow_aquatic_bread_crumb": false,
+    "pointer_duration": 4.0,
+    "prospecting_duration": 5.0,
+    "join_radius": 30,
+    "contribution_per_visited_bread_crumb": 1,
+    "breadcrumb_found_message": "You can smell the windswept flower in the air",
+    "resource_uncovered_message": "You see the windswept flower in the distance! ",
+    "breadcrumb_found_by_someone_else_message": "Someone else found a clue to the flower, follow them!",
+    "resource_uncovered_by_someone_else_message": "Someone found the Windswept flower! You can follow them to it",
+    "icon_asset_path": "\uffad"
+  },
+  {
     "id": 503462118,
     "name": "Search for the Mighty Helmet",
     "description": "Use your map to begin a hunt to a treasure chest containing the Mighty Helmet you've been searching for. The trail on the map is extremely long.",
@@ -239,6 +319,86 @@
     "breadcrumb_found_by_someone_else_message": "You are able to follow someone else's trail",
     "resource_uncovered_by_someone_else_message": "You are able to follow someone else's trail to the clue",
     "icon_asset_path": "5"
+  },
+  {
+    "id": 866858010,
+    "name": "Search for Lost Cervus",
+    "description": "Track Alesi's lost Cervus in the Calm Forest. The Cervus might be in trouble.",
+    "resource_clump_id": 1457302086,
+    "placeholder_resource_clump_id": 1010220448,
+    "enemy_ai_desc_id": 0,
+    "is_aquatic_resource": false,
+    "biome_requirements": [
+      1
+    ],
+    "equipment_requirements": [],
+    "required_items_to_start": [],
+    "required_items_to_interact_with_reward": [],
+    "consumed_items_by_ability_trigger": [],
+    "allow_aquatic_prospecting": false,
+    "bread_crumb_count": [
+      3,
+      3
+    ],
+    "bread_crumb_radius": [
+      10,
+      12
+    ],
+    "distance_between_bread_crumbs": [
+      200,
+      250
+    ],
+    "deadzone_angle_between_crumbs": 90.0,
+    "allow_aquatic_bread_crumb": false,
+    "pointer_duration": 4.0,
+    "prospecting_duration": 5.0,
+    "join_radius": 30,
+    "contribution_per_visited_bread_crumb": 1,
+    "breadcrumb_found_message": "You found some Cervus tracks.",
+    "resource_uncovered_message": "You can hear the Cervus in the distance! Get to it!",
+    "breadcrumb_found_by_someone_else_message": "You can follow someone else to the clue!",
+    "resource_uncovered_by_someone_else_message": "Someone else uncovered the Lost Cervus! Get to it!",
+    "icon_asset_path": "\uffad"
+  },
+  {
+    "id": 1023593297,
+    "name": "Owl Feather Hunt",
+    "description": "Search the Safe Meadows for owl feathers for Alesi",
+    "resource_clump_id": 1276893624,
+    "placeholder_resource_clump_id": 1010220448,
+    "enemy_ai_desc_id": 0,
+    "is_aquatic_resource": false,
+    "biome_requirements": [
+      11
+    ],
+    "equipment_requirements": [],
+    "required_items_to_start": [],
+    "required_items_to_interact_with_reward": [],
+    "consumed_items_by_ability_trigger": [],
+    "allow_aquatic_prospecting": false,
+    "bread_crumb_count": [
+      3,
+      4
+    ],
+    "bread_crumb_radius": [
+      10,
+      12
+    ],
+    "distance_between_bread_crumbs": [
+      60,
+      70
+    ],
+    "deadzone_angle_between_crumbs": 90.0,
+    "allow_aquatic_bread_crumb": false,
+    "pointer_duration": 4.0,
+    "prospecting_duration": 5.0,
+    "join_radius": 30,
+    "contribution_per_visited_bread_crumb": 2,
+    "breadcrumb_found_message": "You found a clue to point you to the owl feathers",
+    "resource_uncovered_message": "You see the feathers in the distance! Go get them!",
+    "breadcrumb_found_by_someone_else_message": "You can follow someone elses trail to the clue",
+    "resource_uncovered_by_someone_else_message": "Someone else uncovered the feathers, go get them!",
+    "icon_asset_path": "\uffad"
   },
   {
     "id": 1050531390,
@@ -405,6 +565,49 @@
     "icon_asset_path": "\u001c"
   },
   {
+    "id": 1257020574,
+    "name": "Hexite Fragment Search",
+    "description": "Begin a search for a Hexite Fragment. Hexite Fragments give Hexite Dust which can be used by Empires to fight over Watchtowers",
+    "resource_clump_id": 229045680,
+    "placeholder_resource_clump_id": 1010220448,
+    "enemy_ai_desc_id": 0,
+    "is_aquatic_resource": false,
+    "biome_requirements": [
+      2,
+      1,
+      5,
+      4
+    ],
+    "equipment_requirements": [],
+    "required_items_to_start": [],
+    "required_items_to_interact_with_reward": [],
+    "consumed_items_by_ability_trigger": [],
+    "allow_aquatic_prospecting": false,
+    "bread_crumb_count": [
+      5,
+      7
+    ],
+    "bread_crumb_radius": [
+      10,
+      12
+    ],
+    "distance_between_bread_crumbs": [
+      90,
+      105
+    ],
+    "deadzone_angle_between_crumbs": 90.0,
+    "allow_aquatic_bread_crumb": false,
+    "pointer_duration": 4.0,
+    "prospecting_duration": 5.0,
+    "join_radius": 40,
+    "contribution_per_visited_bread_crumb": 2,
+    "breadcrumb_found_message": "You're getting close to the Hexite Fragment",
+    "resource_uncovered_message": "You found the Hexite Fragment!",
+    "breadcrumb_found_by_someone_else_message": "Someone else found a clue to the Hexite Fragment!",
+    "resource_uncovered_by_someone_else_message": "You are able to follow someone else's trail to the Hexite Fragment!",
+    "icon_asset_path": ";"
+  },
+  {
     "id": 1318037307,
     "name": "Berserker Mushroom Hunt",
     "description": "Begin a hunt for a Berserker Mushroom or join a nearby hunt that's in progress. Berserker Mushrooms can be used to make special potions that increase gathering or crafting speed. Berserker Mushrooms also give a lot of experience when gathered.",
@@ -539,6 +742,86 @@
     "icon_asset_path": "5"
   },
   {
+    "id": 1754161348,
+    "name": "Find the Hexite Whirlpool",
+    "description": "Follow the water currents to the hexite whirlpool",
+    "resource_clump_id": 1447132202,
+    "placeholder_resource_clump_id": 1010220448,
+    "enemy_ai_desc_id": 0,
+    "is_aquatic_resource": true,
+    "biome_requirements": [
+      10
+    ],
+    "equipment_requirements": [],
+    "required_items_to_start": [],
+    "required_items_to_interact_with_reward": [],
+    "consumed_items_by_ability_trigger": [],
+    "allow_aquatic_prospecting": true,
+    "bread_crumb_count": [
+      10,
+      10
+    ],
+    "bread_crumb_radius": [
+      10,
+      12
+    ],
+    "distance_between_bread_crumbs": [
+      80,
+      145
+    ],
+    "deadzone_angle_between_crumbs": 90.0,
+    "allow_aquatic_bread_crumb": true,
+    "pointer_duration": 4.0,
+    "prospecting_duration": 5.0,
+    "join_radius": 30,
+    "contribution_per_visited_bread_crumb": 1,
+    "breadcrumb_found_message": "The waters have shifted direction, keep following them to find the whirlpool",
+    "resource_uncovered_message": "The waters teem with hexite energy, you think you can see the Whirlpool in the distance",
+    "breadcrumb_found_by_someone_else_message": "Someone else has found a clue to the whirlpool, follow their trail!",
+    "resource_uncovered_by_someone_else_message": "Someone else uncovered the Whirlpool, follow their trail",
+    "icon_asset_path": "\u001c"
+  },
+  {
+    "id": 1773234374,
+    "name": "Search for Miregrub Nest",
+    "description": "Search for nearby Miregrub Nests. Miregrub Nests contain Miregrubs which Croaklin love to eat.",
+    "resource_clump_id": 638793892,
+    "placeholder_resource_clump_id": 1010220448,
+    "enemy_ai_desc_id": 0,
+    "is_aquatic_resource": false,
+    "biome_requirements": [
+      8
+    ],
+    "equipment_requirements": [],
+    "required_items_to_start": [],
+    "required_items_to_interact_with_reward": [],
+    "consumed_items_by_ability_trigger": [],
+    "allow_aquatic_prospecting": false,
+    "bread_crumb_count": [
+      4,
+      5
+    ],
+    "bread_crumb_radius": [
+      10,
+      12
+    ],
+    "distance_between_bread_crumbs": [
+      85,
+      100
+    ],
+    "deadzone_angle_between_crumbs": 90.0,
+    "allow_aquatic_bread_crumb": false,
+    "pointer_duration": 4.0,
+    "prospecting_duration": 5.0,
+    "join_radius": 30,
+    "contribution_per_visited_bread_crumb": 2,
+    "breadcrumb_found_message": "You found a clue to point you to the Miregrub Nest",
+    "resource_uncovered_message": "You see the Miregrub Nest in the distance! Go get them!",
+    "breadcrumb_found_by_someone_else_message": "You can follow someone elses trail to the clue",
+    "resource_uncovered_by_someone_else_message": "Someone else uncovered the Miregrub Nest, go get it!",
+    "icon_asset_path": "\uffe1"
+  },
+  {
     "id": 1814863361,
     "name": "Search for Toughened Pine Bark",
     "description": "Begin searching for Toughened Pine Bark. Hopefully it wont be too hard to find.",
@@ -577,6 +860,87 @@
     "breadcrumb_found_by_someone_else_message": "You're able to follow someone elses clue to the bark.",
     "resource_uncovered_by_someone_else_message": "Someone else has discovered the final location of the bark. Follow their trail.",
     "icon_asset_path": "\u001c"
+  },
+  {
+    "id": 1848550291,
+    "name": "Track Windstreams",
+    "description": "Search for windstreams in the ocean so that you can harvest Motes of the Wind",
+    "resource_clump_id": 1490227557,
+    "placeholder_resource_clump_id": 1010220448,
+    "enemy_ai_desc_id": 0,
+    "is_aquatic_resource": true,
+    "biome_requirements": [
+      10
+    ],
+    "equipment_requirements": [],
+    "required_items_to_start": [],
+    "required_items_to_interact_with_reward": [],
+    "consumed_items_by_ability_trigger": [],
+    "allow_aquatic_prospecting": true,
+    "bread_crumb_count": [
+      5,
+      5
+    ],
+    "bread_crumb_radius": [
+      10,
+      12
+    ],
+    "distance_between_bread_crumbs": [
+      150,
+      180
+    ],
+    "deadzone_angle_between_crumbs": 90.0,
+    "allow_aquatic_bread_crumb": true,
+    "pointer_duration": 4.0,
+    "prospecting_duration": 5.0,
+    "join_radius": 30,
+    "contribution_per_visited_bread_crumb": 2,
+    "breadcrumb_found_message": "The windcatcher pulls you towards the windstream, you're getting closer",
+    "resource_uncovered_message": "You see the windstream in the distance",
+    "breadcrumb_found_by_someone_else_message": "Someone else has found a clue to get closer to the windstream, follow them!",
+    "resource_uncovered_by_someone_else_message": "Someone else found the windstream, follow them to the windstream!",
+    "icon_asset_path": "\u001c"
+  },
+  {
+    "id": 1968795041,
+    "name": "Track Lusul Burrow",
+    "description": "Search the Calm Forest or the Desert for Lusul Dens",
+    "resource_clump_id": 1284201244,
+    "placeholder_resource_clump_id": 1010220448,
+    "enemy_ai_desc_id": 0,
+    "is_aquatic_resource": false,
+    "biome_requirements": [
+      1,
+      7
+    ],
+    "equipment_requirements": [],
+    "required_items_to_start": [],
+    "required_items_to_interact_with_reward": [],
+    "consumed_items_by_ability_trigger": [],
+    "allow_aquatic_prospecting": false,
+    "bread_crumb_count": [
+      6,
+      8
+    ],
+    "bread_crumb_radius": [
+      10,
+      12
+    ],
+    "distance_between_bread_crumbs": [
+      60,
+      70
+    ],
+    "deadzone_angle_between_crumbs": 90.0,
+    "allow_aquatic_bread_crumb": false,
+    "pointer_duration": 4.0,
+    "prospecting_duration": 5.0,
+    "join_radius": 30,
+    "contribution_per_visited_bread_crumb": 2,
+    "breadcrumb_found_message": "You found a clue to finding the Lusul Den! Keep going!",
+    "resource_uncovered_message": "You see a Lusul Burrow in the distance! Go get it!",
+    "breadcrumb_found_by_someone_else_message": "You can follow someone elses trail to the clue",
+    "resource_uncovered_by_someone_else_message": "Someone else uncovered the Lusul Den! Go get it!",
+    "icon_asset_path": "\uffad"
   },
   {
     "id": 2022634606,
