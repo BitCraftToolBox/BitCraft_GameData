@@ -9175,16 +9175,44 @@
         "power": 1
       }
     ],
-    "consumed_item_stacks": [
+    "consumed_item_stacks": [],
+    "consumed_cargo_stacks": [
       {
-        "item_id": 1,
-        "quantity": 1,
-        "item_type": "Item",
+        "item_id": 1201,
+        "quantity": 10,
+        "item_type": "Cargo",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      },
+      {
+        "item_id": 2401,
+        "quantity": 10,
+        "item_type": "Cargo",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      },
+      {
+        "item_id": 1044447676,
+        "quantity": 2,
+        "item_type": "Cargo",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      },
+      {
+        "item_id": 7001,
+        "quantity": 2,
+        "item_type": "Cargo",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      },
+      {
+        "item_id": 1297204491,
+        "quantity": 2,
+        "item_type": "Cargo",
         "discovery_score": 1,
         "consumption_chance": 1.0
       }
     ],
-    "consumed_cargo_stacks": [],
     "consumed_shards": 0,
     "experience_per_progress": [
       {
@@ -9193,9 +9221,7 @@
       }
     ],
     "discovery_triggers": [],
-    "required_knowledges": [
-      12345
-    ],
+    "required_knowledges": [],
     "required_claim_tech_ids": [
       200
     ],
@@ -13020,11 +13046,9 @@
         "quantity": 1.0
       }
     ],
-    "discovery_triggers": [
-      100002
-    ],
+    "discovery_triggers": [],
     "required_knowledges": [
-      100002
+      12345
     ],
     "required_claim_tech_ids": [],
     "full_discovery_score": 0,
@@ -15093,6 +15117,71 @@
     "required_paving_tier": -1,
     "actions_required": 1,
     "instantly_built": true,
+    "recipe_performance_id": 538
+  },
+  {
+    "id": 109074392,
+    "name": "Mechanism of Stamina",
+    "time_requirement": 2.0,
+    "stamina_requirement": 0.89,
+    "consumed_building": 0,
+    "required_interior_tier": -1,
+    "level_requirements": [
+      {
+        "skill_id": 15,
+        "level": 1
+      }
+    ],
+    "tool_requirements": [
+      {
+        "tool_type": 14,
+        "level": 1,
+        "power": 1
+      }
+    ],
+    "consumed_item_stacks": [
+      {
+        "item_id": 828972621,
+        "quantity": 100,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      },
+      {
+        "item_id": 515896091,
+        "quantity": 20,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "consumed_cargo_stacks": [
+      {
+        "item_id": 2401,
+        "quantity": 10,
+        "item_type": "Cargo",
+        "discovery_score": 0,
+        "consumption_chance": 1.0
+      }
+    ],
+    "consumed_shards": 0,
+    "experience_per_progress": [
+      {
+        "skill_id": 15,
+        "quantity": 1.0
+      }
+    ],
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "required_claim_tech_ids": [
+      200
+    ],
+    "full_discovery_score": 1,
+    "tool_mesh_index": 0,
+    "building_description_id": 83756714,
+    "required_paving_tier": -1,
+    "actions_required": 1000,
+    "instantly_built": false,
     "recipe_performance_id": 538
   },
   {
@@ -20274,6 +20363,56 @@
     "recipe_performance_id": 538
   },
   {
+    "id": 581625337,
+    "name": "Tree of Wisdom",
+    "time_requirement": 2.0,
+    "stamina_requirement": 0.89,
+    "consumed_building": 0,
+    "required_interior_tier": 0,
+    "level_requirements": [
+      {
+        "skill_id": 15,
+        "level": 1
+      }
+    ],
+    "tool_requirements": [
+      {
+        "tool_type": 14,
+        "level": 0,
+        "power": 1
+      }
+    ],
+    "consumed_item_stacks": [
+      {
+        "item_id": 1,
+        "quantity": 1,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "consumed_cargo_stacks": [],
+    "consumed_shards": 0,
+    "experience_per_progress": [
+      {
+        "skill_id": 15,
+        "quantity": 1.0
+      }
+    ],
+    "discovery_triggers": [],
+    "required_knowledges": [
+      12345
+    ],
+    "required_claim_tech_ids": [],
+    "full_discovery_score": 1,
+    "tool_mesh_index": 0,
+    "building_description_id": 433549604,
+    "required_paving_tier": -1,
+    "actions_required": 1,
+    "instantly_built": false,
+    "recipe_performance_id": 538
+  },
+  {
     "id": 581800279,
     "name": "Talented Woodcraft Small Carpet",
     "time_requirement": 2.0,
@@ -23473,6 +23612,73 @@
     "building_description_id": 1482673802,
     "required_paving_tier": -1,
     "actions_required": 1125,
+    "instantly_built": false,
+    "recipe_performance_id": 538
+  },
+  {
+    "id": 902382720,
+    "name": "Farmer's Garden",
+    "time_requirement": 2.0,
+    "stamina_requirement": 0.75,
+    "consumed_building": 0,
+    "required_interior_tier": -1,
+    "level_requirements": [
+      {
+        "skill_id": 15,
+        "level": 1
+      }
+    ],
+    "tool_requirements": [
+      {
+        "tool_type": 14,
+        "level": 1,
+        "power": 1
+      }
+    ],
+    "consumed_item_stacks": [
+      {
+        "item_id": 4100001,
+        "quantity": 20,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "consumed_cargo_stacks": [
+      {
+        "item_id": 1203,
+        "quantity": 10,
+        "item_type": "Cargo",
+        "discovery_score": 0,
+        "consumption_chance": 1.0
+      },
+      {
+        "item_id": 7003,
+        "quantity": 2,
+        "item_type": "Cargo",
+        "discovery_score": 0,
+        "consumption_chance": 1.0
+      }
+    ],
+    "consumed_shards": 0,
+    "experience_per_progress": [
+      {
+        "skill_id": 15,
+        "quantity": 1.0
+      }
+    ],
+    "discovery_triggers": [
+      1365060029
+    ],
+    "required_knowledges": [],
+    "required_claim_tech_ids": [
+      126942728
+    ],
+    "full_discovery_score": 1,
+    "tool_mesh_index": 0,
+    "building_description_id": 1521060188,
+    "required_paving_tier": -1,
+    "actions_required": 800,
     "instantly_built": false,
     "recipe_performance_id": 538
   },
@@ -27399,6 +27605,50 @@
     "actions_required": 285,
     "instantly_built": false,
     "recipe_performance_id": 538
+  },
+  {
+    "id": 1343417068,
+    "name": "Hexite Deposit",
+    "time_requirement": 2.0,
+    "stamina_requirement": 0.75,
+    "consumed_building": 0,
+    "required_interior_tier": 0,
+    "level_requirements": [
+      {
+        "skill_id": 15,
+        "level": 1
+      }
+    ],
+    "tool_requirements": [],
+    "consumed_item_stacks": [
+      {
+        "item_id": 1,
+        "quantity": 1,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "consumed_cargo_stacks": [],
+    "consumed_shards": 0,
+    "experience_per_progress": [
+      {
+        "skill_id": 15,
+        "quantity": 1.0
+      }
+    ],
+    "discovery_triggers": [],
+    "required_knowledges": [
+      12345
+    ],
+    "required_claim_tech_ids": [],
+    "full_discovery_score": 1,
+    "tool_mesh_index": 0,
+    "building_description_id": 421789207,
+    "required_paving_tier": -1,
+    "actions_required": 1,
+    "instantly_built": false,
+    "recipe_performance_id": 0
   },
   {
     "id": 1343656824,

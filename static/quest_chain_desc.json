@@ -8,6 +8,7 @@
       870152545,
       118661712,
       2072596421,
+      1474265332,
       1054200456,
       1469758479,
       731196410,
@@ -23,7 +24,205 @@
     ],
     "requirements": [],
     "rewards": [],
-    "implicit_rewards": []
+    "implicit_rewards": [],
+    "unstartable": false,
+    "is_secret": false
+  },
+  {
+    "id": 11822390,
+    "name": "Culling the Umbura",
+    "is_hint": false,
+    "stages": [
+      1789858308,
+      94917401,
+      547543544,
+      525937029
+    ],
+    "requirements": [
+      {
+        "QuestChain_": 751817487
+      },
+      {
+        "Level_": {
+          "skill_id": 18,
+          "level": 25
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "ItemStack_": {
+          "item_id": 1996765852,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        }
+      },
+      {
+        "ItemStack_": {
+          "item_id": 1029508657,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        }
+      },
+      {
+        "Experience_": {
+          "skill_id": 18,
+          "quantity": 700.0
+        }
+      },
+      {
+        "ItemStack_": {
+          "item_id": 1,
+          "quantity": 500,
+          "item_type": "Item",
+          "durability": 0
+        }
+      }
+    ],
+    "implicit_rewards": [],
+    "unstartable": false,
+    "is_secret": false
+  },
+  {
+    "id": 51088672,
+    "name": "Fishing Basics",
+    "is_hint": false,
+    "stages": [
+      913080070,
+      519627234,
+      320764159,
+      145307384,
+      1735814058,
+      1473919928,
+      1105556096,
+      1983583408,
+      544570637,
+      1001045936,
+      185284063,
+      788714863,
+      152462790,
+      1521870379,
+      726700753,
+      1450106598
+    ],
+    "requirements": [
+      {
+        "QuestChain_": 751817487
+      }
+    ],
+    "rewards": [
+      {
+        "Experience_": {
+          "skill_id": 12,
+          "quantity": 500.0
+        }
+      }
+    ],
+    "implicit_rewards": [
+      {
+        "ItemStack_": {
+          "item_id": 130,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        }
+      }
+    ],
+    "unstartable": false,
+    "is_secret": false
+  },
+  {
+    "id": 69611471,
+    "name": "Brick by Brick (IV)",
+    "is_hint": false,
+    "stages": [
+      1006287165,
+      1352027641,
+      1301787267,
+      535032561
+    ],
+    "requirements": [
+      {
+        "QuestChain_": 2082411756
+      },
+      {
+        "Level_": {
+          "skill_id": 15,
+          "level": 50
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "Experience_": {
+          "skill_id": 15,
+          "quantity": 8800.0
+        }
+      },
+      {
+        "ItemStack_": {
+          "item_id": 986451792,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        }
+      }
+    ],
+    "implicit_rewards": [],
+    "unstartable": false,
+    "is_secret": false
+  },
+  {
+    "id": 79625522,
+    "name": "A Guide to Scholar",
+    "is_hint": false,
+    "stages": [
+      5136445,
+      1233659560,
+      471272799,
+      724330930,
+      556647685,
+      2092248546,
+      1930955474,
+      1893102170,
+      1347051150,
+      1471679324
+    ],
+    "requirements": [
+      {
+        "QuestChain_": 1523998557
+      }
+    ],
+    "rewards": [
+      {
+        "ItemStack_": {
+          "item_id": 1,
+          "quantity": 50,
+          "item_type": "Item",
+          "durability": 0
+        }
+      },
+      {
+        "Experience_": {
+          "skill_id": 7,
+          "quantity": 500.0
+        }
+      }
+    ],
+    "implicit_rewards": [
+      {
+        "ItemStack_": {
+          "item_id": 1210004,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        }
+      }
+    ],
+    "unstartable": false,
+    "is_secret": false
   },
   {
     "id": 171407959,
@@ -58,9 +257,17 @@
           "item_type": "Item",
           "durability": 0
         }
+      },
+      {
+        "Experience_": {
+          "skill_id": 21,
+          "quantity": 1100.0
+        }
       }
     ],
-    "implicit_rewards": []
+    "implicit_rewards": [],
+    "unstartable": false,
+    "is_secret": false
   },
   {
     "id": 184422323,
@@ -69,7 +276,91 @@
     "stages": [],
     "requirements": [],
     "rewards": [],
-    "implicit_rewards": []
+    "implicit_rewards": [],
+    "unstartable": false,
+    "is_secret": false
+  },
+  {
+    "id": 186876140,
+    "name": "The Best Ingredients (I)",
+    "is_hint": false,
+    "stages": [
+      1488451956,
+      221934802,
+      1460988976,
+      1864947694
+    ],
+    "requirements": [
+      {
+        "Level_": {
+          "skill_id": 13,
+          "level": 20
+        }
+      },
+      {
+        "QuestChain_": 1918226120
+      }
+    ],
+    "rewards": [
+      {
+        "Experience_": {
+          "skill_id": 13,
+          "quantity": 500.0
+        }
+      },
+      {
+        "ItemStack_": {
+          "item_id": 305548547,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        }
+      }
+    ],
+    "implicit_rewards": [],
+    "unstartable": false,
+    "is_secret": false
+  },
+  {
+    "id": 192373651,
+    "name": "Brick by Brick (II)",
+    "is_hint": false,
+    "stages": [
+      657499470,
+      808739539,
+      105797163,
+      59002129
+    ],
+    "requirements": [
+      {
+        "QuestChain_": 1068250466
+      },
+      {
+        "Level_": {
+          "skill_id": 15,
+          "level": 30
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "Experience_": {
+          "skill_id": 15,
+          "quantity": 1100.0
+        }
+      },
+      {
+        "ItemStack_": {
+          "item_id": 2011086921,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        }
+      }
+    ],
+    "implicit_rewards": [],
+    "unstartable": false,
+    "is_secret": false
   },
   {
     "id": 277069635,
@@ -104,7 +395,9 @@
           "durability": 0
         }
       }
-    ]
+    ],
+    "unstartable": false,
+    "is_secret": false
   },
   {
     "id": 290593440,
@@ -113,7 +406,50 @@
     "stages": [],
     "requirements": [],
     "rewards": [],
-    "implicit_rewards": []
+    "implicit_rewards": [],
+    "unstartable": false,
+    "is_secret": false
+  },
+  {
+    "id": 329114763,
+    "name": "A Helping Hand (I)",
+    "is_hint": false,
+    "stages": [
+      193663822,
+      1581600502,
+      1360394140,
+      2086186870
+    ],
+    "requirements": [
+      {
+        "Level_": {
+          "skill_id": 17,
+          "level": 20
+        }
+      },
+      {
+        "QuestChain_": 871400259
+      }
+    ],
+    "rewards": [
+      {
+        "Experience_": {
+          "skill_id": 17,
+          "quantity": 500.0
+        }
+      },
+      {
+        "ItemStack_": {
+          "item_id": 1782235581,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        }
+      }
+    ],
+    "implicit_rewards": [],
+    "unstartable": false,
+    "is_secret": false
   },
   {
     "id": 333616920,
@@ -160,7 +496,9 @@
           "durability": 0
         }
       }
-    ]
+    ],
+    "unstartable": false,
+    "is_secret": false
   },
   {
     "id": 336599736,
@@ -206,22 +544,34 @@
           "durability": 0
         }
       }
-    ]
+    ],
+    "unstartable": false,
+    "is_secret": false
   },
   {
     "id": 354296535,
     "name": "Fully Equipped",
     "is_hint": false,
     "stages": [
+      1675697731,
+      1084733337,
+      848559488,
       1055228462,
-      981407899,
-      1922184282,
-      898650936,
-      2133202740
+      548586649,
+      1752238754,
+      2133202740,
+      286508338,
+      1894797947
     ],
     "requirements": [
       {
-        "QuestChain_": 534319745
+        "QuestChain_": 1842217612
+      },
+      {
+        "QuestChain_": 557763216
+      },
+      {
+        "QuestChain_": 871400259
       }
     ],
     "rewards": [
@@ -236,11 +586,297 @@
       {
         "Experience_": {
           "skill_id": 6,
-          "quantity": 1500.0
+          "quantity": 500.0
+        }
+      },
+      {
+        "ItemStack_": {
+          "item_id": 514979337,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        }
+      },
+      {
+        "ItemStack_": {
+          "item_id": 1579028741,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        }
+      },
+      {
+        "ItemStack_": {
+          "item_id": 1920915380,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
         }
       }
     ],
-    "implicit_rewards": []
+    "implicit_rewards": [],
+    "unstartable": false,
+    "is_secret": false
+  },
+  {
+    "id": 371815384,
+    "name": "Bricks for a Home",
+    "is_hint": false,
+    "stages": [
+      729790316,
+      1588326303,
+      51599117,
+      155740456,
+      453762148,
+      2071614749,
+      1446657659,
+      1926673463,
+      162215545,
+      415492420,
+      518681747
+    ],
+    "requirements": [
+      {
+        "QuestChain_": 1511437178
+      }
+    ],
+    "rewards": [
+      {
+        "ItemStack_": {
+          "item_id": 1008780724,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        }
+      },
+      {
+        "ItemStack_": {
+          "item_id": 56730351,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        }
+      }
+    ],
+    "implicit_rewards": [],
+    "unstartable": false,
+    "is_secret": false
+  },
+  {
+    "id": 377977438,
+    "name": "Keeping in Shipshape (IV)",
+    "is_hint": false,
+    "stages": [
+      1178373660,
+      544365355,
+      925199909,
+      227576533
+    ],
+    "requirements": [
+      {
+        "QuestChain_": 449494863
+      },
+      {
+        "Level_": {
+          "skill_id": 21,
+          "level": 50
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "Experience_": {
+          "skill_id": 21,
+          "quantity": 8800.0
+        }
+      },
+      {
+        "ItemStack_": {
+          "item_id": 1459176192,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        }
+      }
+    ],
+    "implicit_rewards": [],
+    "unstartable": false,
+    "is_secret": false
+  },
+  {
+    "id": 416921588,
+    "name": "A Helping Hand (III)",
+    "is_hint": false,
+    "stages": [
+      1176075876,
+      1065186560,
+      1421773306,
+      1262503209
+    ],
+    "requirements": [
+      {
+        "QuestChain_": 1463789699
+      },
+      {
+        "Level_": {
+          "skill_id": 17,
+          "level": 40
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "Experience_": {
+          "skill_id": 17,
+          "quantity": 3200.0
+        }
+      },
+      {
+        "ItemStack_": {
+          "item_id": 1829171061,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        }
+      }
+    ],
+    "implicit_rewards": [],
+    "unstartable": false,
+    "is_secret": false
+  },
+  {
+    "id": 423972432,
+    "name": "Brick by Brick (V)",
+    "is_hint": false,
+    "stages": [
+      2067726881,
+      653790053,
+      314015618,
+      1514610463
+    ],
+    "requirements": [
+      {
+        "QuestChain_": 69611471
+      },
+      {
+        "Level_": {
+          "skill_id": 15,
+          "level": 60
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "Experience_": {
+          "skill_id": 15,
+          "quantity": 24000.0
+        }
+      },
+      {
+        "ItemStack_": {
+          "item_id": 1641408509,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        }
+      }
+    ],
+    "implicit_rewards": [],
+    "unstartable": false,
+    "is_secret": false
+  },
+  {
+    "id": 424185181,
+    "name": "Built Like an Ox",
+    "is_hint": false,
+    "stages": [
+      135072025,
+      1641308407,
+      413018844,
+      1442320448,
+      285272337,
+      494033585,
+      386335499
+    ],
+    "requirements": [
+      {
+        "Level_": {
+          "skill_id": 17,
+          "level": 60
+        }
+      },
+      {
+        "QuestChain_": 871400259
+      }
+    ],
+    "rewards": [
+      {
+        "ItemStack_": {
+          "item_id": 277992146,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        }
+      },
+      {
+        "ItemStack_": {
+          "item_id": 2012639669,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        }
+      },
+      {
+        "Experience_": {
+          "skill_id": 17,
+          "quantity": 24000.0
+        }
+      }
+    ],
+    "implicit_rewards": [],
+    "unstartable": false,
+    "is_secret": false
+  },
+  {
+    "id": 449494863,
+    "name": "Keeping in Shipshape (III)",
+    "is_hint": false,
+    "stages": [
+      224258588,
+      1579990936,
+      1435969047,
+      1068459831
+    ],
+    "requirements": [
+      {
+        "QuestChain_": 477305639
+      },
+      {
+        "Level_": {
+          "skill_id": 21,
+          "level": 40
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "Experience_": {
+          "skill_id": 21,
+          "quantity": 3200.0
+        }
+      },
+      {
+        "ItemStack_": {
+          "item_id": 343963076,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        }
+      }
+    ],
+    "implicit_rewards": [],
+    "unstartable": false,
+    "is_secret": false
   },
   {
     "id": 474216485,
@@ -249,30 +885,115 @@
     "stages": [],
     "requirements": [],
     "rewards": [],
-    "implicit_rewards": []
+    "implicit_rewards": [],
+    "unstartable": false,
+    "is_secret": false
   },
   {
-    "id": 534319745,
-    "name": "Making the Rounds",
+    "id": 477305639,
+    "name": "Keeping in Shipshape (II)",
     "is_hint": false,
     "stages": [
-      739907105,
-      114585002,
-      1700553143,
-      943814632,
-      953606644,
-      216320776,
-      1185160842,
-      2040178117,
-      2094248554,
-      293663010,
-      1765599197,
-      850637090,
-      2141260780
+      161286350,
+      94313106,
+      402256959,
+      179599011
     ],
     "requirements": [
       {
-        "QuestChain_": 976217825
+        "QuestChain_": 692278385
+      },
+      {
+        "Level_": {
+          "skill_id": 21,
+          "level": 30
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "Experience_": {
+          "skill_id": 21,
+          "quantity": 1100.0
+        }
+      },
+      {
+        "ItemStack_": {
+          "item_id": 395629858,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        }
+      }
+    ],
+    "implicit_rewards": [],
+    "unstartable": false,
+    "is_secret": false
+  },
+  {
+    "id": 526544950,
+    "name": "Documenting History (I)",
+    "is_hint": false,
+    "stages": [
+      670428631,
+      1803430063,
+      1894085969,
+      518092584
+    ],
+    "requirements": [
+      {
+        "Level_": {
+          "skill_id": 19,
+          "level": 20
+        }
+      },
+      {
+        "QuestChain_": 79625522
+      }
+    ],
+    "rewards": [
+      {
+        "Experience_": {
+          "skill_id": 19,
+          "quantity": 500.0
+        }
+      },
+      {
+        "ItemStack_": {
+          "item_id": 1232023582,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        }
+      }
+    ],
+    "implicit_rewards": [],
+    "unstartable": false,
+    "is_secret": false
+  },
+  {
+    "id": 557763216,
+    "name": "Farming for Fashion",
+    "is_hint": false,
+    "stages": [
+      1713099045,
+      1115145070,
+      748766955,
+      942725916,
+      837909353,
+      56271391,
+      683908764,
+      1020640828,
+      1912680796,
+      739103783,
+      888421379,
+      132717967,
+      435735258,
+      407316691
+    ],
+    "requirements": [
+      {
+        "QuestChain_": 1511437178
       }
     ],
     "rewards": [
@@ -283,9 +1004,83 @@
           "item_type": "Item",
           "durability": 0
         }
+      },
+      {
+        "Experience_": {
+          "skill_id": 11,
+          "quantity": 500.0
+        }
+      },
+      {
+        "ItemStack_": {
+          "item_id": 922569704,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        }
+      },
+      {
+        "ItemStack_": {
+          "item_id": 1453086157,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        }
+      },
+      {
+        "ItemStack_": {
+          "item_id": 1033282052,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        }
       }
     ],
-    "implicit_rewards": []
+    "implicit_rewards": [],
+    "unstartable": false,
+    "is_secret": false
+  },
+  {
+    "id": 566211269,
+    "name": "Hunting in Style",
+    "is_hint": false,
+    "stages": [
+      2033526812,
+      308062827,
+      1712134025,
+      1192605544,
+      1159805708
+    ],
+    "requirements": [
+      {
+        "Level_": {
+          "skill_id": 17,
+          "level": 10
+        }
+      },
+      {
+        "QuestChain_": 1537415686
+      }
+    ],
+    "rewards": [
+      {
+        "ItemStack_": {
+          "item_id": 163996264,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        }
+      },
+      {
+        "Experience_": {
+          "skill_id": 17,
+          "quantity": 500.0
+        }
+      }
+    ],
+    "implicit_rewards": [],
+    "unstartable": false,
+    "is_secret": false
   },
   {
     "id": 583027027,
@@ -320,9 +1115,17 @@
           "item_type": "Item",
           "durability": 0
         }
+      },
+      {
+        "Experience_": {
+          "skill_id": 21,
+          "quantity": 3200.0
+        }
       }
     ],
-    "implicit_rewards": []
+    "implicit_rewards": [],
+    "unstartable": false,
+    "is_secret": false
   },
   {
     "id": 627872387,
@@ -331,7 +1134,9 @@
     "stages": [],
     "requirements": [],
     "rewards": [],
-    "implicit_rewards": []
+    "implicit_rewards": [],
+    "unstartable": false,
+    "is_secret": false
   },
   {
     "id": 679715144,
@@ -340,14 +1145,141 @@
     "stages": [],
     "requirements": [],
     "rewards": [],
-    "implicit_rewards": []
+    "implicit_rewards": [],
+    "unstartable": false,
+    "is_secret": false
+  },
+  {
+    "id": 692278385,
+    "name": "Keeping in Shipshape (I)",
+    "is_hint": false,
+    "stages": [
+      1803962527,
+      197159183,
+      2041381610,
+      1438370103
+    ],
+    "requirements": [
+      {
+        "Level_": {
+          "skill_id": 21,
+          "level": 20
+        }
+      },
+      {
+        "QuestChain_": 51088672
+      }
+    ],
+    "rewards": [
+      {
+        "Experience_": {
+          "skill_id": 21,
+          "quantity": 500.0
+        }
+      },
+      {
+        "ItemStack_": {
+          "item_id": 1396227981,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        }
+      }
+    ],
+    "implicit_rewards": [],
+    "unstartable": false,
+    "is_secret": false
+  },
+  {
+    "id": 728483143,
+    "name": "Skitching for Battle",
+    "is_hint": false,
+    "stages": [
+      178627762,
+      1831248699,
+      142308676,
+      1538610531,
+      1572745057
+    ],
+    "requirements": [
+      {
+        "QuestChain_": 751817487
+      }
+    ],
+    "rewards": [
+      {
+        "ItemStack_": {
+          "item_id": 130542853,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        }
+      },
+      {
+        "Experience_": {
+          "skill_id": 18,
+          "quantity": 500.0
+        }
+      }
+    ],
+    "implicit_rewards": [],
+    "unstartable": false,
+    "is_secret": false
+  },
+  {
+    "id": 731051392,
+    "name": "Having a Hoot",
+    "is_hint": false,
+    "stages": [
+      877989986,
+      1342136467,
+      1515442219,
+      1289490960
+    ],
+    "requirements": [
+      {
+        "QuestChain_": 871400259
+      },
+      {
+        "Level_": {
+          "skill_id": 17,
+          "level": 2
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "ItemStack_": {
+          "item_id": 148829439,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        }
+      },
+      {
+        "ItemStack_": {
+          "item_id": 314591419,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        }
+      },
+      {
+        "Experience_": {
+          "skill_id": 17,
+          "quantity": 500.0
+        }
+      }
+    ],
+    "implicit_rewards": [],
+    "unstartable": false,
+    "is_secret": false
   },
   {
     "id": 751817487,
     "name": "The Basics of Combat",
     "is_hint": false,
     "stages": [
-      1133243991,
       967662545,
       1732841847,
       1868291431,
@@ -359,7 +1291,7 @@
     ],
     "requirements": [
       {
-        "QuestChain_": 1
+        "QuestChain_": 1473099082
       }
     ],
     "rewards": [
@@ -378,7 +1310,153 @@
         }
       }
     ],
-    "implicit_rewards": []
+    "implicit_rewards": [],
+    "unstartable": false,
+    "is_secret": false
+  },
+  {
+    "id": 765186915,
+    "name": "Healing the Wild",
+    "is_hint": false,
+    "stages": [
+      1316952492,
+      1586801925,
+      1967269238,
+      475137662,
+      247874431,
+      2046860803,
+      1634881297,
+      694879601
+    ],
+    "requirements": [
+      {
+        "Level_": {
+          "skill_id": 17,
+          "level": 20
+        }
+      },
+      {
+        "QuestChain_": 871400259
+      }
+    ],
+    "rewards": [
+      {
+        "ItemStack_": {
+          "item_id": 127,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        }
+      },
+      {
+        "ItemStack_": {
+          "item_id": 13338385,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        }
+      },
+      {
+        "Experience_": {
+          "skill_id": 17,
+          "quantity": 500.0
+        }
+      }
+    ],
+    "implicit_rewards": [],
+    "unstartable": false,
+    "is_secret": false
+  },
+  {
+    "id": 837316211,
+    "name": "Friends in Small Places",
+    "is_hint": false,
+    "stages": [
+      613357606,
+      1468943427,
+      1396978556,
+      589263062
+    ],
+    "requirements": [
+      {
+        "Level_": {
+          "skill_id": 17,
+          "level": 18
+        }
+      },
+      {
+        "QuestChain_": 871400259
+      }
+    ],
+    "rewards": [
+      {
+        "ItemStack_": {
+          "item_id": 732153593,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        }
+      },
+      {
+        "ItemStack_": {
+          "item_id": 1787890629,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        }
+      },
+      {
+        "Experience_": {
+          "skill_id": 17,
+          "quantity": 500.0
+        }
+      }
+    ],
+    "implicit_rewards": [],
+    "unstartable": false,
+    "is_secret": false
+  },
+  {
+    "id": 871400259,
+    "name": "Hunters and Gatherers",
+    "is_hint": false,
+    "stages": [
+      752427010,
+      1827989675,
+      586468699,
+      928877702,
+      1231097959,
+      1990597778,
+      488974051,
+      393963710,
+      705650393,
+      342652995,
+      1105901770
+    ],
+    "requirements": [
+      {
+        "QuestChain_": 1511437178
+      }
+    ],
+    "rewards": [
+      {
+        "Experience_": {
+          "skill_id": 9,
+          "quantity": 500.0
+        }
+      },
+      {
+        "ItemStack_": {
+          "item_id": 471537919,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        }
+      }
+    ],
+    "implicit_rewards": [],
+    "unstartable": false,
+    "is_secret": false
   },
   {
     "id": 976217825,
@@ -397,7 +1475,10 @@
     ],
     "requirements": [
       {
-        "QuestChain_": 751817487
+        "Level_": {
+          "skill_id": 1,
+          "level": 10
+        }
       }
     ],
     "rewards": [
@@ -419,13 +1500,155 @@
           "durability": 0
         }
       }
-    ]
+    ],
+    "unstartable": false,
+    "is_secret": false
+  },
+  {
+    "id": 985054074,
+    "name": "Trash or Treasure",
+    "is_hint": false,
+    "stages": [
+      248330503,
+      81870493,
+      1076395337,
+      306349279
+    ],
+    "requirements": [
+      {
+        "QuestChain_": 751817487
+      },
+      {
+        "Level_": {
+          "skill_id": 18,
+          "level": 15
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "ItemStack_": {
+          "item_id": 1040471365,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        }
+      },
+      {
+        "ItemStack_": {
+          "item_id": 1741610719,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        }
+      },
+      {
+        "Experience_": {
+          "skill_id": 18,
+          "quantity": 500.0
+        }
+      },
+      {
+        "ItemStack_": {
+          "item_id": 1,
+          "quantity": 500,
+          "item_type": "Item",
+          "durability": 0
+        }
+      }
+    ],
+    "implicit_rewards": [],
+    "unstartable": false,
+    "is_secret": false
+  },
+  {
+    "id": 1021437725,
+    "name": "The Best Ingredients (II)",
+    "is_hint": false,
+    "stages": [
+      162748338,
+      153506370,
+      1407117977,
+      2139624290
+    ],
+    "requirements": [
+      {
+        "QuestChain_": 186876140
+      },
+      {
+        "Level_": {
+          "skill_id": 13,
+          "level": 30
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "Experience_": {
+          "skill_id": 13,
+          "quantity": 1100.0
+        }
+      },
+      {
+        "ItemStack_": {
+          "item_id": 1821431416,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        }
+      }
+    ],
+    "implicit_rewards": [],
+    "unstartable": false,
+    "is_secret": false
+  },
+  {
+    "id": 1026471043,
+    "name": "Documenting History (II)",
+    "is_hint": false,
+    "stages": [
+      1889720519,
+      234876490,
+      707489545,
+      28875326
+    ],
+    "requirements": [
+      {
+        "QuestChain_": 526544950
+      },
+      {
+        "Level_": {
+          "skill_id": 19,
+          "level": 30
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "Experience_": {
+          "skill_id": 19,
+          "quantity": 1100.0
+        }
+      },
+      {
+        "ItemStack_": {
+          "item_id": 1771382171,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        }
+      }
+    ],
+    "implicit_rewards": [],
+    "unstartable": false,
+    "is_secret": false
   },
   {
     "id": 1043927455,
-    "name": "Reaching Higher",
+    "name": "Achievements",
     "is_hint": false,
     "stages": [
+      1631785592,
       1760677436,
       353291895,
       499442560,
@@ -433,7 +1656,13 @@
     ],
     "requirements": [
       {
-        "QuestChain_": 1708022223
+        "QuestChain_": 1473099082
+      },
+      {
+        "Level_": {
+          "skill_id": 1,
+          "level": 9
+        }
       }
     ],
     "rewards": [
@@ -446,7 +1675,176 @@
         }
       }
     ],
-    "implicit_rewards": []
+    "implicit_rewards": [],
+    "unstartable": false,
+    "is_secret": false
+  },
+  {
+    "id": 1061764958,
+    "name": "Sting Operation",
+    "is_hint": false,
+    "stages": [
+      1943914913,
+      119934780,
+      16504459,
+      851611819
+    ],
+    "requirements": [
+      {
+        "QuestChain_": 751817487
+      },
+      {
+        "Level_": {
+          "skill_id": 18,
+          "level": 20
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "ItemStack_": {
+          "item_id": 1495565268,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        }
+      },
+      {
+        "Experience_": {
+          "skill_id": 18,
+          "quantity": 500.0
+        }
+      },
+      {
+        "ItemStack_": {
+          "item_id": 1,
+          "quantity": 500,
+          "item_type": "Item",
+          "durability": 0
+        }
+      }
+    ],
+    "implicit_rewards": [],
+    "unstartable": false,
+    "is_secret": false
+  },
+  {
+    "id": 1068250466,
+    "name": "Brick by Brick (I)",
+    "is_hint": false,
+    "stages": [
+      1374369568,
+      313773202,
+      1059552888,
+      1039086633
+    ],
+    "requirements": [
+      {
+        "Level_": {
+          "skill_id": 15,
+          "level": 20
+        }
+      },
+      {
+        "QuestChain_": 371815384
+      }
+    ],
+    "rewards": [
+      {
+        "Experience_": {
+          "skill_id": 15,
+          "quantity": 500.0
+        }
+      },
+      {
+        "ItemStack_": {
+          "item_id": 576103337,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        }
+      }
+    ],
+    "implicit_rewards": [],
+    "unstartable": false,
+    "is_secret": false
+  },
+  {
+    "id": 1125859549,
+    "name": "Empires",
+    "is_hint": false,
+    "stages": [
+      624665542,
+      1407386270,
+      2054569939
+    ],
+    "requirements": [
+      {
+        "QuestChain_": 1523998557
+      }
+    ],
+    "rewards": [
+      {
+        "ItemStack_": {
+          "item_id": 1734904161,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        }
+      }
+    ],
+    "implicit_rewards": [],
+    "unstartable": false,
+    "is_secret": false
+  },
+  {
+    "id": 1207742201,
+    "name": "A Shop of Your Own",
+    "is_hint": false,
+    "stages": [
+      2000522768,
+      31010731,
+      2125460926,
+      1737421305
+    ],
+    "requirements": [
+      {
+        "Level_": {
+          "skill_id": 19,
+          "level": 10
+        }
+      },
+      {
+        "QuestChain_": 79625522
+      }
+    ],
+    "rewards": [
+      {
+        "Experience_": {
+          "skill_id": 19,
+          "quantity": 500.0
+        }
+      },
+      {
+        "ItemStack_": {
+          "item_id": 1382535079,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        }
+      },
+      {
+        "ItemStack_": {
+          "item_id": 349530101,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        }
+      }
+    ],
+    "implicit_rewards": [],
+    "unstartable": false,
+    "is_secret": false
   },
   {
     "id": 1358679061,
@@ -455,7 +1853,9 @@
     "stages": [],
     "requirements": [],
     "rewards": [],
-    "implicit_rewards": []
+    "implicit_rewards": [],
+    "unstartable": false,
+    "is_secret": false
   },
   {
     "id": 1370444347,
@@ -464,7 +1864,60 @@
     "stages": [],
     "requirements": [],
     "rewards": [],
-    "implicit_rewards": []
+    "implicit_rewards": [],
+    "unstartable": false,
+    "is_secret": false
+  },
+  {
+    "id": 1435788604,
+    "name": "A Clip at Sea",
+    "is_hint": false,
+    "stages": [
+      176011293,
+      1589627866,
+      1243718280,
+      829076939,
+      1791496233,
+      1153043950
+    ],
+    "requirements": [
+      {
+        "Level_": {
+          "skill_id": 21,
+          "level": 50
+        }
+      },
+      {
+        "QuestChain_": 51088672
+      }
+    ],
+    "rewards": [
+      {
+        "ItemStack_": {
+          "item_id": 1638188042,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        }
+      },
+      {
+        "ItemStack_": {
+          "item_id": 91116690,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        }
+      },
+      {
+        "Experience_": {
+          "skill_id": 21,
+          "quantity": 8800.0
+        }
+      }
+    ],
+    "implicit_rewards": [],
+    "unstartable": false,
+    "is_secret": false
   },
   {
     "id": 1441436391,
@@ -473,11 +1926,13 @@
     "stages": [],
     "requirements": [],
     "rewards": [],
-    "implicit_rewards": []
+    "implicit_rewards": [],
+    "unstartable": false,
+    "is_secret": false
   },
   {
     "id": 1458805123,
-    "name": "Taming a King Alpha Jakyl Puppy",
+    "name": "Royal Ruffs",
     "is_hint": false,
     "stages": [
       2024628347,
@@ -503,9 +1958,19 @@
           "skill_id": 17,
           "level": 50
         }
+      },
+      {
+        "QuestChain_": 871400259
       }
     ],
-    "rewards": [],
+    "rewards": [
+      {
+        "Experience_": {
+          "skill_id": 17,
+          "quantity": 8800.0
+        }
+      }
+    ],
     "implicit_rewards": [
       {
         "ItemStack_": {
@@ -515,13 +1980,258 @@
           "durability": 0
         }
       }
-    ]
+    ],
+    "unstartable": false,
+    "is_secret": false
+  },
+  {
+    "id": 1459208875,
+    "name": "Documenting History (V)",
+    "is_hint": false,
+    "stages": [
+      2017482936,
+      1380298955,
+      1188581472,
+      1576961976
+    ],
+    "requirements": [
+      {
+        "QuestChain_": 1478279162
+      },
+      {
+        "Level_": {
+          "skill_id": 19,
+          "level": 60
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "Experience_": {
+          "skill_id": 19,
+          "quantity": 24000.0
+        }
+      },
+      {
+        "ItemStack_": {
+          "item_id": 801121497,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        }
+      }
+    ],
+    "implicit_rewards": [],
+    "unstartable": false,
+    "is_secret": false
+  },
+  {
+    "id": 1460378481,
+    "name": "The Best Ingredients (V)",
+    "is_hint": false,
+    "stages": [
+      1917954200,
+      2016248165,
+      2046011862,
+      853856957
+    ],
+    "requirements": [
+      {
+        "QuestChain_": 1569942624
+      },
+      {
+        "Level_": {
+          "skill_id": 13,
+          "level": 60
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "Experience_": {
+          "skill_id": 13,
+          "quantity": 24000.0
+        }
+      },
+      {
+        "ItemStack_": {
+          "item_id": 712013593,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        }
+      }
+    ],
+    "implicit_rewards": [],
+    "unstartable": false,
+    "is_secret": false
+  },
+  {
+    "id": 1463789699,
+    "name": "A Helping Hand (II)",
+    "is_hint": false,
+    "stages": [
+      1801894780,
+      369570338,
+      714550234,
+      1469991614
+    ],
+    "requirements": [
+      {
+        "QuestChain_": 329114763
+      },
+      {
+        "Level_": {
+          "skill_id": 17,
+          "level": 30
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "Experience_": {
+          "skill_id": 17,
+          "quantity": 1100.0
+        }
+      },
+      {
+        "ItemStack_": {
+          "item_id": 123324453,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        }
+      }
+    ],
+    "implicit_rewards": [],
+    "unstartable": false,
+    "is_secret": false
+  },
+  {
+    "id": 1473099082,
+    "name": "Cooking Food",
+    "is_hint": false,
+    "stages": [
+      2101508460,
+      728982961,
+      2116424285,
+      473002209,
+      1547318632,
+      803925358,
+      468495127
+    ],
+    "requirements": [
+      {
+        "QuestChain_": 1
+      }
+    ],
+    "rewards": [],
+    "implicit_rewards": [
+      {
+        "ItemStack_": {
+          "item_id": 1170000,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        }
+      }
+    ],
+    "unstartable": false,
+    "is_secret": false
+  },
+  {
+    "id": 1478279162,
+    "name": "Documenting History (IV)",
+    "is_hint": false,
+    "stages": [
+      989344684,
+      79232079,
+      1623910015,
+      56686651
+    ],
+    "requirements": [
+      {
+        "QuestChain_": 1999118607
+      },
+      {
+        "Level_": {
+          "skill_id": 19,
+          "level": 50
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "Experience_": {
+          "skill_id": 19,
+          "quantity": 8800.0
+        }
+      },
+      {
+        "ItemStack_": {
+          "item_id": 423067362,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        }
+      }
+    ],
+    "implicit_rewards": [],
+    "unstartable": false,
+    "is_secret": false
+  },
+  {
+    "id": 1502520870,
+    "name": "Hoarders",
+    "is_hint": false,
+    "stages": [
+      254926247,
+      1425615972,
+      1423843310,
+      254181012,
+      1535203855,
+      2145839065,
+      1143305348,
+      705736803
+    ],
+    "requirements": [
+      {
+        "Level_": {
+          "skill_id": 19,
+          "level": 15
+        }
+      },
+      {
+        "QuestChain_": 1704867030
+      }
+    ],
+    "rewards": [
+      {
+        "Experience_": {
+          "skill_id": 19,
+          "quantity": 500.0
+        }
+      },
+      {
+        "ItemStack_": {
+          "item_id": 1258659186,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        }
+      }
+    ],
+    "implicit_rewards": [],
+    "unstartable": false,
+    "is_secret": false
   },
   {
     "id": 1511437178,
     "name": "Crafting Your Cart",
     "is_hint": false,
     "stages": [
+      1788948894,
+      1663191596,
       1349105777,
       693048005,
       1374628201,
@@ -539,7 +2249,6 @@
       422627182,
       927804551,
       680761036,
-      1973582914,
       1949007721,
       517110148,
       956679262,
@@ -548,22 +2257,22 @@
     ],
     "requirements": [
       {
-        "QuestChain_": 1
+        "QuestChain_": 1473099082
       }
     ],
     "rewards": [
+      {
+        "Experience_": {
+          "skill_id": 15,
+          "quantity": 500.0
+        }
+      },
       {
         "ItemStack_": {
           "item_id": 1,
           "quantity": 50,
           "item_type": "Item",
           "durability": 0
-        }
-      },
-      {
-        "Experience_": {
-          "skill_id": 3,
-          "quantity": 1000.0
         }
       }
     ],
@@ -576,7 +2285,40 @@
           "durability": 0
         }
       }
-    ]
+    ],
+    "unstartable": false,
+    "is_secret": false
+  },
+  {
+    "id": 1523998557,
+    "name": "The Social Market",
+    "is_hint": false,
+    "stages": [
+      1557269594,
+      1384601401,
+      1837391838,
+      1641088545,
+      1092308228,
+      2117001355
+    ],
+    "requirements": [
+      {
+        "QuestChain_": 1511437178
+      }
+    ],
+    "rewards": [
+      {
+        "ItemStack_": {
+          "item_id": 1,
+          "quantity": 50,
+          "item_type": "Item",
+          "durability": 0
+        }
+      }
+    ],
+    "implicit_rewards": [],
+    "unstartable": false,
+    "is_secret": false
   },
   {
     "id": 1536298064,
@@ -588,18 +2330,111 @@
     ],
     "requirements": [
       {
-        "QuestChain_": 534319745
+        "QuestChain_": 751817487
       }
     ],
     "rewards": [
       {
         "Experience_": {
           "skill_id": 18,
-          "quantity": 2000.0
+          "quantity": 500.0
         }
       }
     ],
-    "implicit_rewards": []
+    "implicit_rewards": [],
+    "unstartable": false,
+    "is_secret": false
+  },
+  {
+    "id": 1537415686,
+    "name": "Hoofing It",
+    "is_hint": false,
+    "stages": [
+      1963632272,
+      724151576,
+      12692779,
+      2045977646,
+      1731995380
+    ],
+    "requirements": [
+      {
+        "Level_": {
+          "skill_id": 17,
+          "level": 5
+        }
+      },
+      {
+        "QuestChain_": 871400259
+      }
+    ],
+    "rewards": [
+      {
+        "ItemStack_": {
+          "item_id": 1112071728,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        }
+      },
+      {
+        "ItemStack_": {
+          "item_id": 555274167,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        }
+      },
+      {
+        "Experience_": {
+          "skill_id": 17,
+          "quantity": 500.0
+        }
+      }
+    ],
+    "implicit_rewards": [],
+    "unstartable": false,
+    "is_secret": false
+  },
+  {
+    "id": 1569942624,
+    "name": "The Best Ingredients (IV)",
+    "is_hint": false,
+    "stages": [
+      942780210,
+      855147181,
+      823975834,
+      1859399905
+    ],
+    "requirements": [
+      {
+        "QuestChain_": 1882932298
+      },
+      {
+        "Level_": {
+          "skill_id": 13,
+          "level": 50
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "Experience_": {
+          "skill_id": 13,
+          "quantity": 8800.0
+        }
+      },
+      {
+        "ItemStack_": {
+          "item_id": 1678332527,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        }
+      }
+    ],
+    "implicit_rewards": [],
+    "unstartable": false,
+    "is_secret": false
   },
   {
     "id": 1604930937,
@@ -608,11 +2443,97 @@
     "stages": [],
     "requirements": [],
     "rewards": [],
-    "implicit_rewards": []
+    "implicit_rewards": [],
+    "unstartable": false,
+    "is_secret": false
+  },
+  {
+    "id": 1619095603,
+    "name": "A Helping Hand (IV)",
+    "is_hint": false,
+    "stages": [
+      2032551867,
+      311018958,
+      1489743825,
+      1708178472
+    ],
+    "requirements": [
+      {
+        "QuestChain_": 416921588
+      },
+      {
+        "Level_": {
+          "skill_id": 17,
+          "level": 50
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "Experience_": {
+          "skill_id": 17,
+          "quantity": 8800.0
+        }
+      },
+      {
+        "ItemStack_": {
+          "item_id": 308517349,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        }
+      }
+    ],
+    "implicit_rewards": [],
+    "unstartable": false,
+    "is_secret": false
+  },
+  {
+    "id": 1681156609,
+    "name": "The Sailor's Wind",
+    "is_hint": false,
+    "stages": [
+      1263424086,
+      920281451,
+      887019099,
+      234107975,
+      140596489,
+      1749105611
+    ],
+    "requirements": [
+      {
+        "Level_": {
+          "skill_id": 21,
+          "level": 60
+        }
+      },
+      {
+        "QuestChain_": 1435788604
+      }
+    ],
+    "rewards": [
+      {
+        "ItemStack_": {
+          "item_id": 358114401,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        }
+      },
+      {
+        "Experience_": {
+          "skill_id": 21,
+          "quantity": 24000.0
+        }
+      }
+    ],
+    "implicit_rewards": [],
+    "unstartable": false,
+    "is_secret": false
   },
   {
     "id": 1687982095,
-    "name": "Taming an Alpha Puppy",
+    "name": "The Littlest Alpha",
     "is_hint": false,
     "stages": [
       641026109,
@@ -627,9 +2548,19 @@
           "skill_id": 17,
           "level": 35
         }
+      },
+      {
+        "QuestChain_": 871400259
       }
     ],
-    "rewards": [],
+    "rewards": [
+      {
+        "Experience_": {
+          "skill_id": 17,
+          "quantity": 1900.0
+        }
+      }
+    ],
     "implicit_rewards": [
       {
         "ItemStack_": {
@@ -639,7 +2570,9 @@
           "durability": 0
         }
       }
-    ]
+    ],
+    "unstartable": false,
+    "is_secret": false
   },
   {
     "id": 1699433943,
@@ -678,36 +2611,106 @@
           "durability": 0
         }
       }
-    ]
+    ],
+    "unstartable": false,
+    "is_secret": false
   },
   {
-    "id": 1708022223,
-    "name": "The Ruined Town",
+    "id": 1704867030,
+    "name": "Stow and Go",
     "is_hint": false,
     "stages": [
-      611825682,
-      931956405,
-      1995433961,
-      1362290100,
-      1559932637,
-      954844275
+      1919471920,
+      887796786,
+      1567368596,
+      517183166,
+      1403713124,
+      1114299867
     ],
     "requirements": [
       {
-        "QuestChain_": 534319745
+        "Level_": {
+          "skill_id": 19,
+          "level": 3
+        }
+      },
+      {
+        "QuestChain_": 79625522
       }
     ],
     "rewards": [
       {
+        "Experience_": {
+          "skill_id": 19,
+          "quantity": 500.0
+        }
+      },
+      {
         "ItemStack_": {
-          "item_id": 1,
-          "quantity": 100,
+          "item_id": 1492526768,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        }
+      },
+      {
+        "ItemStack_": {
+          "item_id": 1331162242,
+          "quantity": 1,
           "item_type": "Item",
           "durability": 0
         }
       }
     ],
-    "implicit_rewards": []
+    "implicit_rewards": [],
+    "unstartable": false,
+    "is_secret": false
+  },
+  {
+    "id": 1762918554,
+    "name": "The Long Haul",
+    "is_hint": false,
+    "stages": [
+      1045551297,
+      1535332407,
+      1176317565,
+      1732391236
+    ],
+    "requirements": [
+      {
+        "Level_": {
+          "skill_id": 15,
+          "level": 20
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "Experience_": {
+          "skill_id": 15,
+          "quantity": 500.0
+        }
+      },
+      {
+        "ItemStack_": {
+          "item_id": 129,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        }
+      },
+      {
+        "ItemStack_": {
+          "item_id": 383280923,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        }
+      }
+    ],
+    "implicit_rewards": [],
+    "unstartable": false,
+    "is_secret": false
   },
   {
     "id": 1793465882,
@@ -754,7 +2757,63 @@
           "durability": 0
         }
       }
-    ]
+    ],
+    "unstartable": false,
+    "is_secret": false
+  },
+  {
+    "id": 1842217612,
+    "name": "Smithing Basics",
+    "is_hint": false,
+    "stages": [
+      1282798433,
+      1400002390,
+      1494762146,
+      1556002607,
+      1325234697,
+      1741818559,
+      1722415360,
+      490083378,
+      1606854234,
+      1299763941,
+      2001273100
+    ],
+    "requirements": [
+      {
+        "QuestChain_": 751817487
+      },
+      {
+        "QuestChain_": 1511437178
+      }
+    ],
+    "rewards": [
+      {
+        "ItemStack_": {
+          "item_id": 155776141,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        }
+      },
+      {
+        "Experience_": {
+          "skill_id": 6,
+          "quantity": 500.0
+        }
+      }
+    ],
+    "implicit_rewards": [
+      {
+        "ItemStack_": {
+          "item_id": 1050001,
+          "quantity": 2,
+          "item_type": "Item",
+          "durability": 0
+        }
+      }
+    ],
+    "unstartable": false,
+    "is_secret": false
   },
   {
     "id": 1843874604,
@@ -789,9 +2848,17 @@
           "item_type": "Item",
           "durability": 0
         }
+      },
+      {
+        "Experience_": {
+          "skill_id": 21,
+          "quantity": 500.0
+        }
       }
     ],
-    "implicit_rewards": []
+    "implicit_rewards": [],
+    "unstartable": false,
+    "is_secret": false
   },
   {
     "id": 1854817774,
@@ -813,6 +2880,9 @@
           "skill_id": 21,
           "level": 10
         }
+      },
+      {
+        "QuestChain_": 51088672
       }
     ],
     "rewards": [
@@ -831,9 +2901,211 @@
           "item_type": "Item",
           "durability": 0
         }
+      },
+      {
+        "Experience_": {
+          "skill_id": 21,
+          "quantity": 500.0
+        }
       }
     ],
-    "implicit_rewards": []
+    "implicit_rewards": [],
+    "unstartable": false,
+    "is_secret": false
+  },
+  {
+    "id": 1882932298,
+    "name": "The Best Ingredients (III)",
+    "is_hint": false,
+    "stages": [
+      186659278,
+      1657385508,
+      1031030928,
+      689044573
+    ],
+    "requirements": [
+      {
+        "QuestChain_": 1021437725
+      },
+      {
+        "Level_": {
+          "skill_id": 13,
+          "level": 40
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "Experience_": {
+          "skill_id": 13,
+          "quantity": 3200.0
+        }
+      },
+      {
+        "ItemStack_": {
+          "item_id": 1106595406,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        }
+      }
+    ],
+    "implicit_rewards": [],
+    "unstartable": false,
+    "is_secret": false
+  },
+  {
+    "id": 1902529904,
+    "name": "Birds of a Feather",
+    "is_hint": false,
+    "stages": [
+      1494131815,
+      494512320,
+      372580893,
+      690047852,
+      1298432758,
+      1493793298
+    ],
+    "requirements": [
+      {
+        "Level_": {
+          "skill_id": 17,
+          "level": 40
+        }
+      },
+      {
+        "QuestChain_": 871400259
+      }
+    ],
+    "rewards": [
+      {
+        "ItemStack_": {
+          "item_id": 422814781,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        }
+      },
+      {
+        "ItemStack_": {
+          "item_id": 1313504512,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        }
+      },
+      {
+        "Experience_": {
+          "skill_id": 17,
+          "quantity": 3200.0
+        }
+      }
+    ],
+    "implicit_rewards": [],
+    "unstartable": false,
+    "is_secret": false
+  },
+  {
+    "id": 1905626394,
+    "name": "Hounded",
+    "is_hint": false,
+    "stages": [
+      1137723261,
+      540215780,
+      563176583,
+      1508756354
+    ],
+    "requirements": [
+      {
+        "QuestChain_": 751817487
+      },
+      {
+        "Level_": {
+          "skill_id": 18,
+          "level": 10
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "ItemStack_": {
+          "item_id": 1798374700,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        }
+      },
+      {
+        "Experience_": {
+          "skill_id": 18,
+          "quantity": 500.0
+        }
+      },
+      {
+        "ItemStack_": {
+          "item_id": 753252133,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        }
+      },
+      {
+        "ItemStack_": {
+          "item_id": 1,
+          "quantity": 500,
+          "item_type": "Item",
+          "durability": 0
+        }
+      }
+    ],
+    "implicit_rewards": [],
+    "unstartable": false,
+    "is_secret": false
+  },
+  {
+    "id": 1914175184,
+    "name": "To The Brim",
+    "is_hint": false,
+    "stages": [
+      747817833,
+      638515797,
+      1540836258,
+      1239498356,
+      41674502,
+      2103051446,
+      950054937,
+      1963755796
+    ],
+    "requirements": [
+      {
+        "Level_": {
+          "skill_id": 19,
+          "level": 25
+        }
+      },
+      {
+        "QuestChain_": 1502520870
+      }
+    ],
+    "rewards": [
+      {
+        "ItemStack_": {
+          "item_id": 453171119,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        }
+      },
+      {
+        "Experience_": {
+          "skill_id": 19,
+          "quantity": 700.0
+        }
+      }
+    ],
+    "implicit_rewards": [],
+    "unstartable": false,
+    "is_secret": false
   },
   {
     "id": 1918226120,
@@ -841,9 +3113,6 @@
     "is_hint": false,
     "stages": [
       590511920,
-      1121234230,
-      3358638,
-      1247956062,
       902998530,
       1940818881,
       616055621,
@@ -853,14 +3122,14 @@
     ],
     "requirements": [
       {
-        "QuestChain_": 534319745
+        "QuestChain_": 557763216
       }
     ],
     "rewards": [
       {
         "Experience_": {
           "skill_id": 13,
-          "quantity": 1000.0
+          "quantity": 500.0
         }
       }
     ],
@@ -872,12 +3141,22 @@
           "item_type": "Item",
           "durability": 0
         }
+      },
+      {
+        "ItemStack_": {
+          "item_id": 1988580272,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        }
       }
-    ]
+    ],
+    "unstartable": false,
+    "is_secret": false
   },
   {
     "id": 1927636609,
-    "name": "Taming a Jakyl Puppy",
+    "name": "All Bark and Some Bites",
     "is_hint": false,
     "stages": [
       111445663,
@@ -894,9 +3173,19 @@
           "skill_id": 17,
           "level": 10
         }
+      },
+      {
+        "QuestChain_": 871400259
       }
     ],
-    "rewards": [],
+    "rewards": [
+      {
+        "Experience_": {
+          "skill_id": 17,
+          "quantity": 500.0
+        }
+      }
+    ],
     "implicit_rewards": [
       {
         "ItemStack_": {
@@ -906,6 +3195,339 @@
           "durability": 0
         }
       }
-    ]
+    ],
+    "unstartable": false,
+    "is_secret": false
+  },
+  {
+    "id": 1945676217,
+    "name": "A Helping Hand (V)",
+    "is_hint": false,
+    "stages": [
+      1535291944,
+      59122263,
+      443830013,
+      1983467008
+    ],
+    "requirements": [
+      {
+        "QuestChain_": 1619095603
+      },
+      {
+        "Level_": {
+          "skill_id": 17,
+          "level": 60
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "Experience_": {
+          "skill_id": 17,
+          "quantity": 24000.0
+        }
+      },
+      {
+        "ItemStack_": {
+          "item_id": 32145192,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        }
+      }
+    ],
+    "implicit_rewards": [],
+    "unstartable": false,
+    "is_secret": false
+  },
+  {
+    "id": 1958755356,
+    "name": "Keeping in Shipshape (V)",
+    "is_hint": false,
+    "stages": [
+      1041132629,
+      1686803923,
+      928960596,
+      231606065
+    ],
+    "requirements": [
+      {
+        "QuestChain_": 377977438
+      },
+      {
+        "Level_": {
+          "skill_id": 21,
+          "level": 60
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "Experience_": {
+          "skill_id": 21,
+          "quantity": 24000.0
+        }
+      },
+      {
+        "ItemStack_": {
+          "item_id": 1281957132,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        }
+      }
+    ],
+    "implicit_rewards": [],
+    "unstartable": false,
+    "is_secret": false
+  },
+  {
+    "id": 1986224772,
+    "name": "Meeting up with friends",
+    "is_hint": false,
+    "stages": [
+      117749768,
+      1831685518,
+      785221703
+    ],
+    "requirements": [
+      {
+        "QuestChain_": 1
+      }
+    ],
+    "rewards": [],
+    "implicit_rewards": [],
+    "unstartable": false,
+    "is_secret": false
+  },
+  {
+    "id": 1999118607,
+    "name": "Documenting History (III)",
+    "is_hint": false,
+    "stages": [
+      476704172,
+      981757716,
+      284161573,
+      15069251
+    ],
+    "requirements": [
+      {
+        "QuestChain_": 1026471043
+      },
+      {
+        "Level_": {
+          "skill_id": 19,
+          "level": 40
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "Experience_": {
+          "skill_id": 19,
+          "quantity": 3200.0
+        }
+      },
+      {
+        "ItemStack_": {
+          "item_id": 1634140672,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        }
+      }
+    ],
+    "implicit_rewards": [],
+    "unstartable": false,
+    "is_secret": false
+  },
+  {
+    "id": 2019363240,
+    "name": "Kindred Croaks",
+    "is_hint": false,
+    "stages": [
+      2070032917,
+      1408757016,
+      233399321,
+      1156627711
+    ],
+    "requirements": [
+      {
+        "Level_": {
+          "skill_id": 17,
+          "level": 52
+        }
+      },
+      {
+        "QuestChain_": 871400259
+      }
+    ],
+    "rewards": [
+      {
+        "ItemStack_": {
+          "item_id": 1737177184,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        }
+      },
+      {
+        "ItemStack_": {
+          "item_id": 1077925222,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        }
+      },
+      {
+        "Experience_": {
+          "skill_id": 17,
+          "quantity": 10700.0
+        }
+      }
+    ],
+    "implicit_rewards": [],
+    "unstartable": false,
+    "is_secret": false
+  },
+  {
+    "id": 2082411756,
+    "name": "Brick by Brick (III)",
+    "is_hint": false,
+    "stages": [
+      660577421,
+      1444977812,
+      1871023013,
+      1290184189
+    ],
+    "requirements": [
+      {
+        "QuestChain_": 192373651
+      },
+      {
+        "Level_": {
+          "skill_id": 15,
+          "level": 40
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "Experience_": {
+          "skill_id": 15,
+          "quantity": 3200.0
+        }
+      },
+      {
+        "ItemStack_": {
+          "item_id": 82602668,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        }
+      }
+    ],
+    "implicit_rewards": [],
+    "unstartable": false,
+    "is_secret": false
+  },
+  {
+    "id": 2085948434,
+    "name": "Behind the Mask",
+    "is_hint": false,
+    "stages": [
+      380615074,
+      977820891
+    ],
+    "requirements": [
+      {
+        "QuestChain_": 728483143
+      },
+      {
+        "QuestChain_": 1905626394
+      },
+      {
+        "QuestChain_": 985054074
+      },
+      {
+        "QuestChain_": 1061764958
+      },
+      {
+        "QuestChain_": 11822390
+      },
+      {
+        "QuestChain_": 2109433461
+      }
+    ],
+    "rewards": [
+      {
+        "ItemStack_": {
+          "item_id": 109,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        }
+      }
+    ],
+    "implicit_rewards": [],
+    "unstartable": false,
+    "is_secret": true
+  },
+  {
+    "id": 2109433461,
+    "name": "Taking Down the Sentinel",
+    "is_hint": false,
+    "stages": [
+      1009764249,
+      1128690846,
+      987301547,
+      1205050821
+    ],
+    "requirements": [
+      {
+        "QuestChain_": 751817487
+      },
+      {
+        "Level_": {
+          "skill_id": 18,
+          "level": 30
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "ItemStack_": {
+          "item_id": 1807155019,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        }
+      },
+      {
+        "ItemStack_": {
+          "item_id": 74785014,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        }
+      },
+      {
+        "Experience_": {
+          "skill_id": 18,
+          "quantity": 1100.0
+        }
+      },
+      {
+        "ItemStack_": {
+          "item_id": 1,
+          "quantity": 1000,
+          "item_type": "Item",
+          "durability": 0
+        }
+      }
+    ],
+    "implicit_rewards": [],
+    "unstartable": false,
+    "is_secret": false
   }
 ]

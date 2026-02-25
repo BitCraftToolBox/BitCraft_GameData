@@ -559,7 +559,7 @@
     "storage": 10,
     "stockpile": 4,
     "barter": 10,
-    "item_slot_size": 60000,
+    "item_slot_size": 600000,
     "cargo_slot_size": 600000,
     "model_address": "Vehicles/TraderStand",
     "stats": [],
@@ -659,11 +659,11 @@
       },
       {
         "surface_type": "Ocean",
-        "speed": 22.0
+        "speed": 23.0
       },
       {
         "surface_type": "OceanBiome",
-        "speed": 25.0
+        "speed": 26.0
       },
       {
         "surface_type": "Swamp",
@@ -675,7 +675,7 @@
     "placeable_in_water": true,
     "capacity": 4,
     "storage": 30,
-    "stockpile": 6,
+    "stockpile": 10,
     "barter": 0,
     "item_slot_size": 6000,
     "cargo_slot_size": 150000,
@@ -704,7 +704,7 @@
   },
   {
     "id": 335616392,
-    "name": "Skiff (Whitewater)",
+    "name": "Skiff (II)",
     "deploy_from_collectible_id": 1837107818,
     "deploy_time": 5.0,
     "deployable_type": "Boat",
@@ -773,7 +773,7 @@
   },
   {
     "id": 402191613,
-    "name": "Clipper (Cargo)",
+    "name": "Clipper (III)",
     "deploy_from_collectible_id": 573176507,
     "deploy_time": 5.0,
     "deployable_type": "Boat",
@@ -781,7 +781,7 @@
     "movement_type": "Water",
     "can_enter_portals": false,
     "can_auto_follow": false,
-    "affected_by_wind": 1.0,
+    "affected_by_wind": 2.0,
     "speed": [
       {
         "surface_type": "Ground",
@@ -789,23 +789,23 @@
       },
       {
         "surface_type": "Lake",
-        "speed": 17.0
+        "speed": 18.0
       },
       {
         "surface_type": "River",
-        "speed": 17.0
+        "speed": 18.0
       },
       {
         "surface_type": "Ocean",
-        "speed": 20.0
+        "speed": 24.0
       },
       {
         "surface_type": "OceanBiome",
-        "speed": 23.0
+        "speed": 28.0
       },
       {
         "surface_type": "Swamp",
-        "speed": 17.0
+        "speed": 18.0
       }
     ],
     "use_player_speed_modifier": false,
@@ -813,7 +813,7 @@
     "placeable_in_water": true,
     "capacity": 4,
     "storage": 30,
-    "stockpile": 10,
+    "stockpile": 15,
     "barter": 0,
     "item_slot_size": 6000,
     "cargo_slot_size": 150000,
@@ -842,7 +842,7 @@
   },
   {
     "id": 418500076,
-    "name": "Clipper (Windrider)",
+    "name": "Clipper (II)",
     "deploy_from_collectible_id": 1438268605,
     "deploy_time": 5.0,
     "deployable_type": "Boat",
@@ -858,23 +858,23 @@
       },
       {
         "surface_type": "Lake",
-        "speed": 16.0
+        "speed": 18.0
       },
       {
         "surface_type": "River",
-        "speed": 16.0
+        "speed": 18.0
       },
       {
         "surface_type": "Ocean",
-        "speed": 20.0
+        "speed": 24.0
       },
       {
         "surface_type": "OceanBiome",
-        "speed": 23.0
+        "speed": 27.0
       },
       {
         "surface_type": "Swamp",
-        "speed": 16.0
+        "speed": 18.0
       }
     ],
     "use_player_speed_modifier": false,
@@ -882,7 +882,7 @@
     "placeable_in_water": true,
     "capacity": 4,
     "storage": 20,
-    "stockpile": 3,
+    "stockpile": 10,
     "barter": 0,
     "item_slot_size": 6000,
     "cargo_slot_size": 150000,
@@ -911,7 +911,7 @@
   },
   {
     "id": 571156212,
-    "name": "Advanced Cart",
+    "name": "Cart (III)",
     "deploy_from_collectible_id": 1083393330,
     "deploy_time": 5.0,
     "deployable_type": "Cart",
@@ -972,7 +972,7 @@
   },
   {
     "id": 634088959,
-    "name": "Massive Personal Cache",
+    "name": "Personal Cache (III)",
     "deploy_from_collectible_id": 693157662,
     "deploy_time": 3.0,
     "deployable_type": "Cache",
@@ -1014,7 +1014,7 @@
     "storage": 72,
     "stockpile": 24,
     "barter": 0,
-    "item_slot_size": 60000,
+    "item_slot_size": 600000,
     "cargo_slot_size": 600000,
     "model_address": "Vehicles/PersonalCache",
     "stats": [],
@@ -1169,7 +1169,7 @@
   },
   {
     "id": 976217825,
-    "name": "Raft (Fishing)",
+    "name": "Raft (III)",
     "deploy_from_collectible_id": 757232266,
     "deploy_time": 5.0,
     "deployable_type": "Boat",
@@ -1284,7 +1284,7 @@
     "storage": 32,
     "stockpile": 8,
     "barter": 0,
-    "item_slot_size": 60000,
+    "item_slot_size": 600000,
     "cargo_slot_size": 600000,
     "model_address": "Vehicles/CrudePersonalCache",
     "stats": [],
@@ -1510,7 +1510,7 @@
   },
   {
     "id": 1243654752,
-    "name": "Raft (Cargo)",
+    "name": "Raft (II)",
     "deploy_from_collectible_id": 2098202704,
     "deploy_time": 5.0,
     "deployable_type": "Boat",
@@ -1713,7 +1713,7 @@
   },
   {
     "id": 1430249957,
-    "name": "Skiff (Fishing)",
+    "name": "Skiff (IV)",
     "deploy_from_collectible_id": 320414617,
     "deploy_time": 5.0,
     "deployable_type": "Boat",
@@ -1756,7 +1756,7 @@
     "stockpile": 12,
     "barter": 0,
     "item_slot_size": 6000,
-    "cargo_slot_size": 60000,
+    "cargo_slot_size": 150000,
     "model_address": "Vehicles/Skiff",
     "stats": [
       {
@@ -1788,7 +1788,7 @@
   },
   {
     "id": 1554573049,
-    "name": "Improved Wagon",
+    "name": "Wagon (II)",
     "deploy_from_collectible_id": 1520209370,
     "deploy_time": 5.0,
     "deployable_type": "Cart",
@@ -1849,7 +1849,7 @@
   },
   {
     "id": 1596080513,
-    "name": "Improved Cart",
+    "name": "Cart (II)",
     "deploy_from_collectible_id": 684496199,
     "deploy_time": 5.0,
     "deployable_type": "Cart",
@@ -1910,7 +1910,7 @@
   },
   {
     "id": 1641732157,
-    "name": "Expanded Personal Cache",
+    "name": "Personal Cache (II)",
     "deploy_from_collectible_id": 1226450761,
     "deploy_time": 3.0,
     "deployable_type": "Cache",
@@ -1952,7 +1952,7 @@
     "storage": 48,
     "stockpile": 16,
     "barter": 0,
-    "item_slot_size": 60000,
+    "item_slot_size": 600000,
     "cargo_slot_size": 600000,
     "model_address": "Vehicles/PersonalCache",
     "stats": [],
@@ -1969,7 +1969,7 @@
   },
   {
     "id": 1855409370,
-    "name": "Skiff (Cargo)",
+    "name": "Skiff (III)",
     "deploy_from_collectible_id": 1649953465,
     "deploy_time": 5.0,
     "deployable_type": "Boat",
@@ -2007,7 +2007,7 @@
     "use_player_speed_modifier": false,
     "placeable_on_land": false,
     "placeable_in_water": true,
-    "capacity": 2,
+    "capacity": 3,
     "storage": 24,
     "stockpile": 12,
     "barter": 0,
@@ -2038,7 +2038,7 @@
   },
   {
     "id": 2045051661,
-    "name": "Advanced Wagon",
+    "name": "Wagon (III)",
     "deploy_from_collectible_id": 381044074,
     "deploy_time": 5.0,
     "deployable_type": "Cart",

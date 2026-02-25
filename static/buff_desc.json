@@ -253,6 +253,26 @@
     "vfx_attachment_point": "Origin"
   },
   {
+    "id": 24356068,
+    "buff_type_id": 1707464193,
+    "description": "Tree of Wisdom",
+    "priority": 0,
+    "duration": 86400,
+    "warn_time": 120.0,
+    "online_timestamp": false,
+    "beneficial": true,
+    "icon_asset_name": "\\uFF60",
+    "stats": [
+      {
+        "id": "ExperienceRate",
+        "value": 0.05,
+        "is_pct": true
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
     "id": 31185922,
     "buff_type_id": 861783812,
     "description": "Level 5 Deluxe Combat Cooldown",
@@ -3280,6 +3300,31 @@
         "id": "CraftingSpeed",
         "value": 0.057,
         "is_pct": true
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 1576059436,
+    "buff_type_id": 2008201254,
+    "description": "Emperor's Gift of Stamina",
+    "priority": 0,
+    "duration": 7200,
+    "warn_time": 10.0,
+    "online_timestamp": false,
+    "beneficial": true,
+    "icon_asset_name": "\\uFFB7",
+    "stats": [
+      {
+        "id": "MaxStamina",
+        "value": 50.0,
+        "is_pct": false
+      },
+      {
+        "id": "PassiveStaminaRegenRate",
+        "value": 0.2,
+        "is_pct": false
       }
     ],
     "vfx": "",

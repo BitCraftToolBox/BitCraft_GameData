@@ -2,229 +2,367 @@
   {
     "id": 48560198,
     "name": "Everwoods Healer's Outfit Bundle",
-    "description": "A bundle which contains the Everwoods Hearler outfit. This outfit includes a head, torso, belt, hand, leg and feet slot clothing piece. Once purchased, you can find the bundle in the \"Premium Items\" section of your vault. From there, you can right click it to convert it to an item to unpack in your inventory.",
+    "description": "A bundle which contains the Everwoods Hearler outfit. This outfit includes a head, torso, belt, hand, leg and feet slot clothing piece. ",
     "image_address": "PremiumIcons/EverwoodHealerBundle",
-    "collectible_desc_id": 702142733,
+    "collectible_ids": [
+      1089523876,
+      1057438638,
+      1974541506,
+      1350138053,
+      1210965151,
+      761484652
+    ],
     "price": 5000,
     "base_price": 5000,
-    "is_enabled": true,
     "quantity": 1,
-    "sorting_priority": 0
+    "sorting_priority": 0,
+    "is_enabled": true
   },
   {
     "id": 61557407,
     "name": "Cozy Winter Clothing Bundle",
-    "description": "A bundle of winter clothing that contains a matching winter sweater and beanie for your character. Once purchased, you can find the bundle in the \"Premium Items\" section of your vault. From there, you can right click it to convert it to an item to unpack in your inventory.",
+    "description": "A bundle of winter clothing that contains a matching winter sweater and beanie for your character. ",
     "image_address": "UI/SweaterBeanieUI2",
-    "collectible_desc_id": 1721582457,
+    "collectible_ids": [
+      1638177178,
+      1645913271,
+      972844451
+    ],
     "price": 1250,
     "base_price": 1250,
-    "is_enabled": false,
     "quantity": 1,
-    "sorting_priority": 0
+    "sorting_priority": 0,
+    "is_enabled": false
   },
   {
     "id": 75384237,
     "name": "Festive Winter Clothing Bundle",
-    "description": "A bundle of winter clothing that contains a matching winter sweater and beanie for your character. Once purchased, you can find the bundle in the \"Premium Items\" section of your vault. From there, you can right click it to convert it to an item to unpack in your inventory.",
+    "description": "A bundle of winter clothing that contains a matching winter sweater and beanie for your character. ",
     "image_address": "UI/SweaterBeanieUI1",
-    "collectible_desc_id": 2916289,
+    "collectible_ids": [
+      1393313069,
+      420274736,
+      156522208
+    ],
     "price": 1250,
     "base_price": 1250,
-    "is_enabled": false,
     "quantity": 1,
-    "sorting_priority": 0
+    "sorting_priority": 0,
+    "is_enabled": false
+  },
+  {
+    "id": 82977667,
+    "name": "Exploring Emote",
+    "description": "Teaches your character to use the \"Explore\" emote",
+    "image_address": "Emotes/Explore",
+    "collectible_ids": [
+      1611048253
+    ],
+    "price": 1500,
+    "base_price": 1500,
+    "quantity": 1,
+    "sorting_priority": 0,
+    "is_enabled": true
   },
   {
     "id": 113458506,
     "name": "Regal Fabric",
     "description": "A special piece of cloth which could be used to make empire banners to show off your empire's colors. Once purchased, this will go into your vault where it can be withdrawn to build the banners. Banners require either 1 or 2 cloth depending on the banner and you can check the recipes for these in the compendium.",
     "image_address": "UI/RegalFabric",
-    "collectible_desc_id": 3358638,
+    "collectible_ids": [
+      3358638
+    ],
     "price": 2500,
     "base_price": 2500,
-    "is_enabled": true,
     "quantity": 1,
-    "sorting_priority": 0
+    "sorting_priority": 0,
+    "is_enabled": true
   },
   {
     "id": 114585002,
     "name": "Knitted Winter Clothing Bundle",
-    "description": "A bundle of winter clothing that contains a matching winter sweater and beanie for your character. Once purchased, you can find the bundle in the \"Premium Items\" section of your vault. From there, you can right click it to convert it to an item to unpack in your inventory.",
+    "description": "A bundle of winter clothing that contains a matching winter sweater and beanie for your character. ",
     "image_address": "UI/SweaterBeanieUI3",
-    "collectible_desc_id": 1867206771,
+    "collectible_ids": [
+      1112627518,
+      2090014264,
+      1996470085
+    ],
     "price": 1250,
     "base_price": 1250,
-    "is_enabled": false,
     "quantity": 1,
-    "sorting_priority": 0
+    "sorting_priority": 0,
+    "is_enabled": false
   },
   {
     "id": 136157481,
     "name": "Everwoods Pair Outfit Bundle",
-    "description": "A bundle which contains both full everwoods outfits: Healer and Warrior. Each outfits includes a head, torso, belt, hand, leg and feet slot clothing piece. Once purchased, you can find the bundle in the \"Premium Items\" section of your vault. From there, you can right click it to convert it to an item to unpack in your inventory.",
+    "description": "A bundle which contains both full everwoods outfits: Healer and Warrior. Each outfits includes a head, torso, belt, hand, leg and feet slot clothing piece. ",
     "image_address": "PremiumIcons/EverwoodBundle",
-    "collectible_desc_id": 1223232885,
+    "collectible_ids": [
+      1776890135,
+      1193371042,
+      564874355,
+      1099753933,
+      1673686674,
+      1579231280,
+      1089523876,
+      1057438638,
+      1974541506,
+      1350138053,
+      1210965151,
+      761484652
+    ],
     "price": 7500,
     "base_price": 10000,
-    "is_enabled": true,
     "quantity": 1,
-    "sorting_priority": 0
+    "sorting_priority": 0,
+    "is_enabled": true
+  },
+  {
+    "id": 302328449,
+    "name": "First Awakened Set",
+    "description": "Unlock a set of cosmetic clothing for your character.",
+    "image_address": "PremiumIcons/FirstAwakenedOutfit",
+    "collectible_ids": [
+      325326067,
+      686593815,
+      1235528145,
+      280034629,
+      179443189,
+      2022080722
+    ],
+    "price": 5000,
+    "base_price": 5000,
+    "quantity": 1,
+    "sorting_priority": 0,
+    "is_enabled": true
   },
   {
     "id": 327421456,
     "name": "Complete Winter Clothing Bundle",
-    "description": "A bundle which contains all the cozy, festive, knitted, patterned, warm and whimsical winter clothing bundles. Once purchased, you can find the bundle in the \"Premium Items\" section of your vault. From there, you can right click it to convert it to an item to unpack in your inventory.",
+    "description": "A bundle which contains all the cozy, festive, knitted, patterned, warm and whimsical winter clothing bundles. ",
     "image_address": "UI/AllBeaniesAllSweatersUI",
-    "collectible_desc_id": 298727283,
+    "collectible_ids": [
+      1638177178,
+      1645913271,
+      972844451,
+      1393313069,
+      420274736,
+      156522208,
+      1112627518,
+      2090014264,
+      1996470085,
+      1897638753,
+      1986891721,
+      783680290,
+      20898301,
+      499442560,
+      1494255786,
+      517110148,
+      1001825494,
+      713312206
+    ],
     "price": 5000,
     "base_price": 5000,
-    "is_enabled": false,
     "quantity": 1,
-    "sorting_priority": 0
+    "sorting_priority": 0,
+    "is_enabled": false
   },
   {
     "id": 328622422,
     "name": "Handstand Emote Bundle",
-    "description": "Grants you a bundle containing the \"Handstand\" and \"Handstand Fail\" emotes. Once purchased, this bundle can be found in the \"Premium\" section of your vault. Right click the bundle and withdraw it to get your emotes.",
+    "description": "A bundle that contains the \"Handstand\" and \"Handstand Fail\" emotes. ",
     "image_address": "Emotes/Handstand",
-    "collectible_desc_id": 864705032,
+    "collectible_ids": [
+      1960819972,
+      1781608235
+    ],
     "price": 1750,
     "base_price": 1750,
-    "is_enabled": true,
     "quantity": 1,
-    "sorting_priority": 0
+    "sorting_priority": 0,
+    "is_enabled": true
   },
   {
     "id": 577649825,
     "name": "Patterned Winter Clothing Bundle",
-    "description": "A bundle of winter clothing that contains a matching winter sweater and beanie for your character. Once purchased, you can find the bundle in the \"Premium Items\" section of your vault. From there, you can right click it to convert it to an item to unpack in your inventory.",
+    "description": "A bundle of winter clothing that contains a matching winter sweater and beanie for your character. ",
     "image_address": "UI/SweaterBeanieUI6",
-    "collectible_desc_id": 233342609,
+    "collectible_ids": [
+      1897638753,
+      1986891721,
+      783680290
+    ],
     "price": 1250,
     "base_price": 1250,
-    "is_enabled": false,
     "quantity": 1,
-    "sorting_priority": 0
+    "sorting_priority": 0,
+    "is_enabled": false
   },
   {
     "id": 627872387,
     "name": "Pumpkin the Qitt Pet",
     "description": "This limited item will be available for purchase until November 6th",
     "image_address": "UI/catPumpkinPetIcon",
-    "collectible_desc_id": 834181377,
+    "collectible_ids": [
+      834181377
+    ],
     "price": 7500,
     "base_price": 7500,
-    "is_enabled": false,
     "quantity": 1,
-    "sorting_priority": 0
+    "sorting_priority": 0,
+    "is_enabled": false
   },
   {
     "id": 825931337,
     "name": "Everwoods Warrior's Outfit Bundle",
-    "description": "A bundle which contains the Everwoods Warrior outfit. This outfit includes a head, torso, belt, hand, leg and feet slot clothing piece. Once purchased, you can find the bundle in the \"Premium Items\" section of your vault. From there, you can right click it to convert it to an item to unpack in your inventory.",
+    "description": "A bundle which contains the Everwoods Warrior outfit. This outfit includes a head, torso, belt, hand, leg and feet slot clothing piece. ",
     "image_address": "PremiumIcons/EverwoodWarriorBundle",
-    "collectible_desc_id": 290593440,
+    "collectible_ids": [
+      1776890135,
+      1193371042,
+      564874355,
+      1099753933,
+      1673686674,
+      1579231280
+    ],
     "price": 5000,
     "base_price": 5000,
-    "is_enabled": true,
     "quantity": 1,
-    "sorting_priority": 0
+    "sorting_priority": 0,
+    "is_enabled": true
   },
   {
     "id": 833129905,
     "name": "Warm Winter Clothing Bundle",
-    "description": "A bundle of winter clothing that contains a matching winter sweater and beanie for your character. Once purchased, you can find the bundle in the \"Premium Items\" section of your vault. From there, you can right click it to convert it to an item to unpack in your inventory.",
+    "description": "A bundle of winter clothing that contains a matching winter sweater and beanie for your character.",
     "image_address": "UI/SweaterBeanieUI4",
-    "collectible_desc_id": 967662545,
+    "collectible_ids": [
+      20898301,
+      499442560,
+      1494255786
+    ],
     "price": 1250,
     "base_price": 1250,
-    "is_enabled": false,
     "quantity": 1,
-    "sorting_priority": 0
+    "sorting_priority": 0,
+    "is_enabled": false
   },
   {
     "id": 865037543,
-    "name": "Midwinter Cabin Furniture Bundle",
+    "name": "THIS MUST BE UPDATED TO USE COLLECTIBLE LISTS BEFORE RERELEASE",
     "description": "A bundle of various midwinter cabin furniture that could be used to decorate your house and town. Once this bundle is purchased, you can right click it and click \"Convert to Deed\" to receive it as an item in your inventory. It can then be unpacked into your items!",
     "image_address": "PremiumIcons/WinterFurnitureBundle",
-    "collectible_desc_id": 1863900033,
+    "collectible_ids": [
+      1863900033
+    ],
     "price": 7500,
     "base_price": 7500,
-    "is_enabled": false,
     "quantity": 1,
-    "sorting_priority": 0
+    "sorting_priority": 0,
+    "is_enabled": false
   },
   {
     "id": 1013300154,
     "name": "Gilded Tiles",
     "description": "Special tiles which can be used to pave various gilded pavements. Once purchased, this will go into your vault where it can be withdrawn to pave with. Pavements require between 4 and 20 tiles depending on the type of pavement you wish you place. Once this is paved in game, the item cannot be refunded so pave carefully!",
     "image_address": "UI/GildedTiles",
-    "collectible_desc_id": 1128960173,
+    "collectible_ids": [
+      1128960173
+    ],
     "price": 2500,
     "base_price": 2500,
-    "is_enabled": true,
     "quantity": 100,
-    "sorting_priority": 0
+    "sorting_priority": 0,
+    "is_enabled": true
   },
   {
     "id": 1091957485,
-    "name": "Emote: Obertas Dance",
+    "name": "Emote: Twirl Dance",
     "description": "This provides you with a new dance for your character! Once purchased, it can be found in your vault",
     "image_address": "Emotes/DanceObertas",
-    "collectible_desc_id": 783020528,
+    "collectible_ids": [
+      783020528
+    ],
     "price": 1500,
     "base_price": 1500,
-    "is_enabled": true,
     "quantity": 1,
-    "sorting_priority": 0
+    "sorting_priority": 0,
+    "is_enabled": true
+  },
+  {
+    "id": 1407050310,
+    "name": "Rock Paper Scissors",
+    "description": "Teaches your character to use the Rock, Paper and Scissors emotes!",
+    "image_address": "Emotes/RPSBundle",
+    "collectible_ids": [
+      2098152479,
+      890681526,
+      1285401419
+    ],
+    "price": 1500,
+    "base_price": 1500,
+    "quantity": 1,
+    "sorting_priority": 0,
+    "is_enabled": true
   },
   {
     "id": 1523147251,
-    "name": "Holiday Mega Bundle",
+    "name": "THIS MUST BE UPDATED TO USE COLLECTIBLE LISTS BEFORE RERELEASE",
     "description": "A massive premium bundle containing many premium items.  Contains: both Everwoods Outfits, Snowball (Pet), an exclusive Golden Party Hat, the Complete Sweater Bundle, 2 sets of the Midwinter Cabin Furniture, 300 Gilded Tiles, and 4 Regal Fabric. Once purchased, you can find the bundle in the \"Premium Items\" section of your vault",
     "image_address": "PremiumIcons/HolidayBundle",
-    "collectible_desc_id": 1459959112,
+    "collectible_ids": [
+      1459959112
+    ],
     "price": 20000,
     "base_price": 50000,
-    "is_enabled": false,
     "quantity": 1,
-    "sorting_priority": 0
+    "sorting_priority": 0,
+    "is_enabled": false
   },
   {
     "id": 2012270438,
     "name": "Snowball",
     "description": "A cute little pup. The cold never bothered him.",
     "image_address": "UI/HuskyJakylUI",
-    "collectible_desc_id": 2103338593,
+    "collectible_ids": [
+      2103338593
+    ],
     "price": 7500,
     "base_price": 7500,
-    "is_enabled": true,
     "quantity": 1,
-    "sorting_priority": 0
+    "sorting_priority": 0,
+    "is_enabled": true
   },
   {
     "id": 2077792531,
     "name": "Whimsical Winter Clothing Bundle",
-    "description": "A bundle of winter clothing that contains a matching winter sweater and beanie for your character. Once purchased, you can find the bundle in the \"Premium Items\" section of your vault. From there, you can right click it to convert it to an item to unpack in your inventory.",
+    "description": "A bundle of winter clothing that contains a matching winter sweater and beanie for your character.",
     "image_address": "UI/SweaterBeanieUI5",
-    "collectible_desc_id": 886985897,
+    "collectible_ids": [
+      517110148,
+      1001825494,
+      713312206
+    ],
     "price": 1250,
     "base_price": 1250,
-    "is_enabled": false,
     "quantity": 1,
-    "sorting_priority": 0
+    "sorting_priority": 0,
+    "is_enabled": false
   },
   {
     "id": 2090866813,
-    "name": "Dramatic Death",
+    "name": "Emote: Play Dead",
     "description": "This provides you with an emote for your character! Once purchased, it can be found in your vault",
     "image_address": "Emotes/DramaticDeath",
-    "collectible_desc_id": 1615867331,
+    "collectible_ids": [
+      1615867331
+    ],
     "price": 1500,
     "base_price": 1500,
-    "is_enabled": true,
     "quantity": 1,
-    "sorting_priority": 0
+    "sorting_priority": 0,
+    "is_enabled": true
   }
 ]
