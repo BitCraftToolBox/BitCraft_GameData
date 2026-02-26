@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "name": "Cart",
+    "name": "Cart (I)",
     "deploy_from_collectible_id": 128,
     "deploy_time": 5.0,
     "deployable_type": [
@@ -22,52 +22,52 @@
           0,
           []
         ],
-        13.0
+        15.0
       ],
       [
         [
           1,
           []
         ],
-        13.0
+        15.0
       ],
       [
         [
           2,
           []
         ],
-        13.0
+        15.0
       ],
       [
         [
           3,
           []
         ],
-        13.0
+        15.0
       ],
       [
         [
           4,
           []
         ],
-        13.0
+        15.0
       ],
       [
         [
           5,
           []
         ],
-        13.0
+        15.0
       ]
     ],
     "use_player_speed_modifier": true,
     "placeable_on_land": true,
     "placeable_in_water": true,
     "capacity": 1,
-    "storage": 12,
-    "stockpile": 1,
+    "storage": 6,
+    "stockpile": 3,
     "barter": 0,
-    "item_slot_size": 6000,
+    "item_slot_size": 60000,
     "cargo_slot_size": 150000,
     "model_address": "Vehicles/Cart",
     "stats": [],
@@ -86,7 +86,7 @@
   },
   {
     "id": 2,
-    "name": "Wagon",
+    "name": "Wagon (I)",
     "deploy_from_collectible_id": 129,
     "deploy_time": 5.0,
     "deployable_type": [
@@ -150,10 +150,10 @@
     "placeable_in_water": true,
     "capacity": 1,
     "storage": 12,
-    "stockpile": 6,
+    "stockpile": 9,
     "barter": 0,
     "item_slot_size": 6000,
-    "cargo_slot_size": 600000,
+    "cargo_slot_size": 300000,
     "model_address": "Vehicles/LargeCart",
     "stats": [],
     "player_animations_in_deployable_slots": [
@@ -171,7 +171,7 @@
   },
   {
     "id": 3,
-    "name": "Raft",
+    "name": "Raft (I)",
     "deploy_from_collectible_id": 130,
     "deploy_time": 5.0,
     "deployable_type": [
@@ -235,10 +235,10 @@
     "placeable_in_water": true,
     "capacity": 2,
     "storage": 6,
-    "stockpile": 4,
+    "stockpile": 3,
     "barter": 0,
     "item_slot_size": 6000,
-    "cargo_slot_size": 60000,
+    "cargo_slot_size": 150000,
     "model_address": "Vehicles/BoatRaft",
     "stats": [],
     "player_animations_in_deployable_slots": [
@@ -263,7 +263,7 @@
   },
   {
     "id": 4,
-    "name": "Skiff",
+    "name": "Skiff (I)",
     "deploy_from_collectible_id": 131,
     "deploy_time": 5.0,
     "deployable_type": [
@@ -326,8 +326,8 @@
     "placeable_on_land": false,
     "placeable_in_water": true,
     "capacity": 3,
-    "storage": 24,
-    "stockpile": 6,
+    "storage": 16,
+    "stockpile": 8,
     "barter": 0,
     "item_slot_size": 6000,
     "cargo_slot_size": 150000,
@@ -356,7 +356,7 @@
   },
   {
     "id": 6,
-    "name": "Rideable Deer",
+    "name": "Deer (I)",
     "deploy_from_collectible_id": 127,
     "deploy_time": 3.0,
     "deployable_type": [
@@ -377,42 +377,42 @@
           0,
           []
         ],
-        25.0
+        26.0
       ],
       [
         [
           1,
           []
         ],
-        25.0
+        26.0
       ],
       [
         [
           2,
           []
         ],
-        25.0
+        26.0
       ],
       [
         [
           3,
           []
         ],
-        25.0
+        26.0
       ],
       [
         [
           4,
           []
         ],
-        25.0
+        26.0
       ],
       [
         [
           5,
           []
         ],
-        25.0
+        26.0
       ]
     ],
     "use_player_speed_modifier": false,
@@ -712,7 +712,7 @@
   },
   {
     "id": 14,
-    "name": "Trader Stand",
+    "name": "Trader Stand (I)",
     "deploy_from_collectible_id": 139,
     "deploy_time": 3.0,
     "deployable_type": [
@@ -776,8 +776,8 @@
     "placeable_in_water": true,
     "capacity": 0,
     "storage": 10,
-    "stockpile": 4,
-    "barter": 10,
+    "stockpile": 5,
+    "barter": 12,
     "item_slot_size": 600000,
     "cargo_slot_size": 600000,
     "model_address": "Vehicles/TraderStand",
@@ -878,7 +878,7 @@
   },
   {
     "id": 228937650,
-    "name": "Clipper",
+    "name": "Clipper (I)",
     "deploy_from_collectible_id": 1142862651,
     "deploy_time": 5.0,
     "deployable_type": [
@@ -945,7 +945,7 @@
     "stockpile": 10,
     "barter": 0,
     "item_slot_size": 6000,
-    "cargo_slot_size": 150000,
+    "cargo_slot_size": 300000,
     "model_address": "Vehicles/Clipper",
     "stats": [],
     "player_animations_in_deployable_slots": [
@@ -1013,14 +1013,14 @@
           3,
           []
         ],
-        16.0
+        18.0
       ],
       [
         [
           4,
           []
         ],
-        16.0
+        18.0
       ],
       [
         [
@@ -1034,8 +1034,8 @@
     "placeable_on_land": false,
     "placeable_in_water": true,
     "capacity": 3,
-    "storage": 24,
-    "stockpile": 6,
+    "storage": 16,
+    "stockpile": 8,
     "barter": 0,
     "item_slot_size": 6000,
     "cargo_slot_size": 150000,
@@ -1106,14 +1106,14 @@
           3,
           []
         ],
-        24.0
+        27.0
       ],
       [
         [
           4,
           []
         ],
-        28.0
+        31.0
       ],
       [
         [
@@ -1128,10 +1128,10 @@
     "placeable_in_water": true,
     "capacity": 4,
     "storage": 30,
-    "stockpile": 15,
+    "stockpile": 10,
     "barter": 0,
     "item_slot_size": 6000,
-    "cargo_slot_size": 150000,
+    "cargo_slot_size": 600000,
     "model_address": "Vehicles/Clipper",
     "stats": [],
     "player_animations_in_deployable_slots": [
@@ -1199,14 +1199,14 @@
           3,
           []
         ],
-        24.0
+        26.0
       ],
       [
         [
           4,
           []
         ],
-        27.0
+        30.0
       ],
       [
         [
@@ -1220,11 +1220,11 @@
     "placeable_on_land": false,
     "placeable_in_water": true,
     "capacity": 4,
-    "storage": 20,
+    "storage": 30,
     "stockpile": 10,
     "barter": 0,
     "item_slot_size": 6000,
-    "cargo_slot_size": 150000,
+    "cargo_slot_size": 300000,
     "model_address": "Vehicles/Clipper",
     "stats": [],
     "player_animations_in_deployable_slots": [
@@ -1271,53 +1271,53 @@
           0,
           []
         ],
-        13.0
+        15.0
       ],
       [
         [
           1,
           []
         ],
-        13.0
+        15.0
       ],
       [
         [
           2,
           []
         ],
-        13.0
+        15.0
       ],
       [
         [
           3,
           []
         ],
-        13.0
+        15.0
       ],
       [
         [
           4,
           []
         ],
-        13.0
+        15.0
       ],
       [
         [
           5,
           []
         ],
-        13.0
+        15.0
       ]
     ],
     "use_player_speed_modifier": true,
     "placeable_on_land": true,
     "placeable_in_water": true,
     "capacity": 1,
-    "storage": 24,
+    "storage": 18,
     "stockpile": 3,
     "barter": 0,
-    "item_slot_size": 6000,
-    "cargo_slot_size": 150000,
+    "item_slot_size": 60000,
+    "cargo_slot_size": 450000,
     "model_address": "Vehicles/Cart",
     "stats": [],
     "player_animations_in_deployable_slots": [
@@ -1398,7 +1398,7 @@
     "placeable_on_land": true,
     "placeable_in_water": true,
     "capacity": 0,
-    "storage": 72,
+    "storage": 64,
     "stockpile": 24,
     "barter": 0,
     "item_slot_size": 600000,
@@ -1418,7 +1418,7 @@
   },
   {
     "id": 872518914,
-    "name": "Rideable Ox",
+    "name": "Ox (I)",
     "deploy_from_collectible_id": 1289105478,
     "deploy_time": 3.0,
     "deployable_type": [
@@ -1481,11 +1481,11 @@
     "placeable_on_land": true,
     "placeable_in_water": true,
     "capacity": 2,
-    "storage": 20,
-    "stockpile": 4,
+    "storage": 10,
+    "stockpile": 5,
     "barter": 0,
     "item_slot_size": 60000,
-    "cargo_slot_size": 60000,
+    "cargo_slot_size": 150000,
     "model_address": "Vehicles/BisonMount",
     "stats": [],
     "player_animations_in_deployable_slots": [
@@ -1509,7 +1509,7 @@
   },
   {
     "id": 893424902,
-    "name": "Ship",
+    "name": "Ship (I)",
     "deploy_from_collectible_id": 1819824069,
     "deploy_time": 5.0,
     "deployable_type": [
@@ -1668,7 +1668,7 @@
     "placeable_in_water": true,
     "capacity": 2,
     "storage": 6,
-    "stockpile": 4,
+    "stockpile": 3,
     "barter": 0,
     "item_slot_size": 6000,
     "cargo_slot_size": 60000,
@@ -1704,7 +1704,7 @@
   },
   {
     "id": 1026286338,
-    "name": "Personal Cache",
+    "name": "Personal Cache (I)",
     "deploy_from_collectible_id": 790337329,
     "deploy_time": 3.0,
     "deployable_type": [
@@ -1767,8 +1767,8 @@
     "placeable_on_land": true,
     "placeable_in_water": true,
     "capacity": 0,
-    "storage": 32,
-    "stockpile": 8,
+    "storage": 30,
+    "stockpile": 10,
     "barter": 0,
     "item_slot_size": 600000,
     "cargo_slot_size": 600000,
@@ -1891,7 +1891,7 @@
   },
   {
     "id": 1125730891,
-    "name": "Rideable Goat",
+    "name": "Goat (I)",
     "deploy_from_collectible_id": 537052696,
     "deploy_time": 3.0,
     "deployable_type": [
@@ -1981,7 +1981,7 @@
   },
   {
     "id": 1150170855,
-    "name": "Hunter's Goat",
+    "name": "Goat (II)",
     "deploy_from_collectible_id": 1977837508,
     "deploy_time": 3.0,
     "deployable_type": [
@@ -2002,42 +2002,42 @@
           0,
           []
         ],
-        20.0
+        23.0
       ],
       [
         [
           1,
           []
         ],
-        20.0
+        23.0
       ],
       [
         [
           2,
           []
         ],
-        20.0
+        23.0
       ],
       [
         [
           3,
           []
         ],
-        20.0
+        23.0
       ],
       [
         [
           4,
           []
         ],
-        20.0
+        23.0
       ],
       [
         [
           5,
           []
         ],
-        20.0
+        23.0
       ]
     ],
     "use_player_speed_modifier": false,
@@ -2048,7 +2048,7 @@
     "stockpile": 2,
     "barter": 0,
     "item_slot_size": 6000,
-    "cargo_slot_size": 72000,
+    "cargo_slot_size": 150000,
     "model_address": "Vehicles/GoatMount",
     "stats": [],
     "player_animations_in_deployable_slots": [
@@ -2099,14 +2099,14 @@
           1,
           []
         ],
-        13.0
+        14.0
       ],
       [
         [
           2,
           []
         ],
-        13.0
+        14.0
       ],
       [
         [
@@ -2127,20 +2127,29 @@
           5,
           []
         ],
-        13.0
+        14.0
       ]
     ],
     "use_player_speed_modifier": false,
     "placeable_on_land": false,
     "placeable_in_water": true,
-    "capacity": 1,
-    "storage": 12,
-    "stockpile": 8,
+    "capacity": 2,
+    "storage": 6,
+    "stockpile": 3,
     "barter": 0,
     "item_slot_size": 6000,
-    "cargo_slot_size": 60000,
+    "cargo_slot_size": 150000,
     "model_address": "Vehicles/BoatRaft",
-    "stats": [],
+    "stats": [
+      [
+        [
+          31,
+          []
+        ],
+        0.05,
+        true
+      ]
+    ],
     "player_animations_in_deployable_slots": [
       1003
     ],
@@ -2161,7 +2170,7 @@
   },
   {
     "id": 1338380321,
-    "name": "Rideable Bird",
+    "name": "Bird (I)",
     "deploy_from_collectible_id": 1163358546,
     "deploy_time": 3.0,
     "deployable_type": [
@@ -2182,53 +2191,53 @@
           0,
           []
         ],
-        31.0
+        34.0
       ],
       [
         [
           1,
           []
         ],
-        31.0
+        34.0
       ],
       [
         [
           2,
           []
         ],
-        31.0
+        34.0
       ],
       [
         [
           3,
           []
         ],
-        31.0
+        34.0
       ],
       [
         [
           4,
           []
         ],
-        31.0
+        34.0
       ],
       [
         [
           5,
           []
         ],
-        31.0
+        34.0
       ]
     ],
     "use_player_speed_modifier": false,
     "placeable_on_land": true,
     "placeable_in_water": true,
     "capacity": 1,
-    "storage": 0,
+    "storage": 6,
     "stockpile": 0,
     "barter": 0,
-    "item_slot_size": 6000,
-    "cargo_slot_size": 6000,
+    "item_slot_size": 60000,
+    "cargo_slot_size": 60000,
     "model_address": "Vehicles/TerrorbirdMount",
     "stats": [],
     "player_animations_in_deployable_slots": [
@@ -2388,14 +2397,14 @@
           3,
           []
         ],
-        17.0
+        18.0
       ],
       [
         [
           4,
           []
         ],
-        17.0
+        18.0
       ],
       [
         [
@@ -2410,10 +2419,10 @@
     "placeable_in_water": true,
     "capacity": 3,
     "storage": 24,
-    "stockpile": 12,
+    "stockpile": 8,
     "barter": 0,
     "item_slot_size": 6000,
-    "cargo_slot_size": 150000,
+    "cargo_slot_size": 450000,
     "model_address": "Vehicles/Skiff",
     "stats": [
       [
@@ -2511,11 +2520,11 @@
     "placeable_on_land": true,
     "placeable_in_water": true,
     "capacity": 1,
-    "storage": 16,
-    "stockpile": 8,
+    "storage": 12,
+    "stockpile": 9,
     "barter": 0,
     "item_slot_size": 6000,
-    "cargo_slot_size": 600000,
+    "cargo_slot_size": 450000,
     "model_address": "Vehicles/LargeCart",
     "stats": [],
     "player_animations_in_deployable_slots": [
@@ -2554,53 +2563,53 @@
           0,
           []
         ],
-        13.0
+        15.0
       ],
       [
         [
           1,
           []
         ],
-        13.0
+        15.0
       ],
       [
         [
           2,
           []
         ],
-        13.0
+        15.0
       ],
       [
         [
           3,
           []
         ],
-        13.0
+        15.0
       ],
       [
         [
           4,
           []
         ],
-        13.0
+        15.0
       ],
       [
         [
           5,
           []
         ],
-        13.0
+        15.0
       ]
     ],
     "use_player_speed_modifier": true,
     "placeable_on_land": true,
     "placeable_in_water": true,
     "capacity": 1,
-    "storage": 18,
-    "stockpile": 2,
+    "storage": 12,
+    "stockpile": 3,
     "barter": 0,
-    "item_slot_size": 6000,
-    "cargo_slot_size": 150000,
+    "item_slot_size": 60000,
+    "cargo_slot_size": 300000,
     "model_address": "Vehicles/Cart",
     "stats": [],
     "player_animations_in_deployable_slots": [
@@ -2682,7 +2691,7 @@
     "placeable_in_water": true,
     "capacity": 0,
     "storage": 48,
-    "stockpile": 16,
+    "stockpile": 18,
     "barter": 0,
     "item_slot_size": 600000,
     "cargo_slot_size": 600000,
@@ -2743,14 +2752,14 @@
           3,
           []
         ],
-        16.0
+        18.0
       ],
       [
         [
           4,
           []
         ],
-        16.0
+        18.0
       ],
       [
         [
@@ -2764,11 +2773,11 @@
     "placeable_on_land": false,
     "placeable_in_water": true,
     "capacity": 3,
-    "storage": 24,
-    "stockpile": 12,
+    "storage": 16,
+    "stockpile": 8,
     "barter": 0,
     "item_slot_size": 6000,
-    "cargo_slot_size": 150000,
+    "cargo_slot_size": 450000,
     "model_address": "Vehicles/Skiff",
     "stats": [],
     "player_animations_in_deployable_slots": [
@@ -2857,8 +2866,8 @@
     "placeable_on_land": true,
     "placeable_in_water": true,
     "capacity": 1,
-    "storage": 20,
-    "stockpile": 10,
+    "storage": 12,
+    "stockpile": 9,
     "barter": 0,
     "item_slot_size": 6000,
     "cargo_slot_size": 600000,
