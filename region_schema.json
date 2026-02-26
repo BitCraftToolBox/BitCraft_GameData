@@ -61823,6 +61823,24 @@
       }
     },
     {
+      "name": "admin_flip_interior_instance_doors",
+      "params": {
+        "elements": [
+          {
+            "name": {
+              "some": "interior_instance_id"
+            },
+            "algebraic_type": {
+              "I32": []
+            }
+          }
+        ]
+      },
+      "lifecycle": {
+        "none": []
+      }
+    },
+    {
       "name": "admin_grant_all_claim_supplies",
       "params": {
         "elements": [
