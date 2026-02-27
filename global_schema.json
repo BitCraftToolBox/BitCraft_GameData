@@ -27821,6 +27821,40 @@
           "elements": [
             {
               "name": {
+                "some": "traveler_task_id"
+              },
+              "algebraic_type": {
+                "I32": []
+              }
+            },
+            {
+              "name": {
+                "some": "required_knowledges"
+              },
+              "algebraic_type": {
+                "Array": {
+                  "I32": []
+                }
+              }
+            },
+            {
+              "name": {
+                "some": "blocking_knowledges"
+              },
+              "algebraic_type": {
+                "Array": {
+                  "I32": []
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Product": {
+          "elements": [
+            {
+              "name": {
                 "some": "entity_id"
               },
               "algebraic_type": {
@@ -27870,7 +27904,7 @@
                 "some": "subject_type"
               },
               "algebraic_type": {
-                "Ref": 471
+                "Ref": 472
               }
             },
             {
@@ -27878,7 +27912,7 @@
                 "some": "data"
               },
               "algebraic_type": {
-                "Ref": 472
+                "Ref": 473
               }
             },
             {
@@ -27935,7 +27969,7 @@
                 "some": "Reserved"
               },
               "algebraic_type": {
-                "Ref": 473
+                "Ref": 474
               }
             },
             {
@@ -28049,7 +28083,7 @@
                 "some": "placeholder_skill_type"
               },
               "algebraic_type": {
-                "Ref": 476
+                "Ref": 477
               }
             },
             {
@@ -28057,7 +28091,7 @@
                 "some": "placeholder_buff_category"
               },
               "algebraic_type": {
-                "Ref": 477
+                "Ref": 478
               }
             },
             {
@@ -28065,7 +28099,7 @@
                 "some": "placeholder"
               },
               "algebraic_type": {
-                "Ref": 478
+                "Ref": 479
               }
             },
             {
@@ -28089,7 +28123,7 @@
                 "some": "permission"
               },
               "algebraic_type": {
-                "Ref": 479
+                "Ref": 480
               }
             },
             {
@@ -28097,7 +28131,7 @@
                 "some": "permission_group"
               },
               "algebraic_type": {
-                "Ref": 480
+                "Ref": 481
               }
             },
             {
@@ -28105,7 +28139,7 @@
                 "some": "ability_type"
               },
               "algebraic_type": {
-                "Ref": 481
+                "Ref": 482
               }
             }
           ]
@@ -48717,6 +48751,52 @@
       }
     },
     {
+      "name": "staged_traveler_task_knowledge_requirement_desc",
+      "product_type_ref": 469,
+      "primary_key": [
+        0
+      ],
+      "indexes": [
+        {
+          "name": {
+            "some": "staged_traveler_task_knowledge_requirement_desc_traveler_task_id_idx_btree"
+          },
+          "accessor_name": {
+            "some": "traveler_task_id"
+          },
+          "algorithm": {
+            "BTree": [
+              0
+            ]
+          }
+        }
+      ],
+      "constraints": [
+        {
+          "name": {
+            "some": "staged_traveler_task_knowledge_requirement_desc_traveler_task_id_key"
+          },
+          "data": {
+            "Unique": {
+              "columns": [
+                0
+              ]
+            }
+          }
+        }
+      ],
+      "sequences": [],
+      "schedule": {
+        "none": []
+      },
+      "table_type": {
+        "User": []
+      },
+      "table_access": {
+        "Private": []
+      }
+    },
+    {
       "name": "staged_traveler_trade_order_desc",
       "product_type_ref": 314,
       "primary_key": [
@@ -48994,7 +49074,7 @@
     },
     {
       "name": "starving_player_state",
-      "product_type_ref": 469,
+      "product_type_ref": 470,
       "primary_key": [
         0
       ],
@@ -49040,7 +49120,7 @@
     },
     {
       "name": "storage_log_state",
-      "product_type_ref": 470,
+      "product_type_ref": 471,
       "primary_key": [
         0
       ],
@@ -49372,7 +49452,7 @@
     },
     {
       "name": "terraform_progress_state",
-      "product_type_ref": 474,
+      "product_type_ref": 475,
       "primary_key": [
         0
       ],
@@ -49523,7 +49603,7 @@
     },
     {
       "name": "the_great_placeholder_table",
-      "product_type_ref": 475,
+      "product_type_ref": 476,
       "primary_key": [
         0
       ],
@@ -49569,7 +49649,7 @@
     },
     {
       "name": "threat_state",
-      "product_type_ref": 482,
+      "product_type_ref": 483,
       "primary_key": [
         0
       ],
@@ -49961,7 +50041,7 @@
     },
     {
       "name": "translation_corrections",
-      "product_type_ref": 483,
+      "product_type_ref": 484,
       "primary_key": [
         0
       ],
@@ -50073,6 +50153,52 @@
         {
           "name": {
             "some": "traveler_task_desc_id_key"
+          },
+          "data": {
+            "Unique": {
+              "columns": [
+                0
+              ]
+            }
+          }
+        }
+      ],
+      "sequences": [],
+      "schedule": {
+        "none": []
+      },
+      "table_type": {
+        "User": []
+      },
+      "table_access": {
+        "Public": []
+      }
+    },
+    {
+      "name": "traveler_task_knowledge_requirement_desc",
+      "product_type_ref": 469,
+      "primary_key": [
+        0
+      ],
+      "indexes": [
+        {
+          "name": {
+            "some": "traveler_task_knowledge_requirement_desc_traveler_task_id_idx_btree"
+          },
+          "accessor_name": {
+            "some": "traveler_task_id"
+          },
+          "algorithm": {
+            "BTree": [
+              0
+            ]
+          }
+        }
+      ],
+      "constraints": [
+        {
+          "name": {
+            "some": "traveler_task_knowledge_requirement_desc_traveler_task_id_key"
           },
           "data": {
             "Unique": {
@@ -50261,7 +50387,7 @@
     },
     {
       "name": "unclaimed_shards_state",
-      "product_type_ref": 484,
+      "product_type_ref": 485,
       "primary_key": [
         0
       ],
@@ -50353,7 +50479,7 @@
     },
     {
       "name": "user_creation_timestamp_state",
-      "product_type_ref": 485,
+      "product_type_ref": 486,
       "primary_key": [
         0
       ],
@@ -50458,7 +50584,7 @@
     },
     {
       "name": "user_previous_region_state",
-      "product_type_ref": 487,
+      "product_type_ref": 488,
       "primary_key": [
         0
       ],
@@ -50504,7 +50630,7 @@
     },
     {
       "name": "user_region_state",
-      "product_type_ref": 488,
+      "product_type_ref": 489,
       "primary_key": [
         0
       ],
@@ -50680,7 +50806,7 @@
     },
     {
       "name": "visibility_state",
-      "product_type_ref": 489,
+      "product_type_ref": 490,
       "primary_key": [
         0
       ],
@@ -50772,7 +50898,7 @@
     },
     {
       "name": "waystone_state",
-      "product_type_ref": 490,
+      "product_type_ref": 491,
       "primary_key": [
         0
       ],
@@ -50923,7 +51049,7 @@
     },
     {
       "name": "wind_dbg_desc",
-      "product_type_ref": 491,
+      "product_type_ref": 492,
       "primary_key": [
         0
       ],
@@ -59150,6 +59276,26 @@
       }
     },
     {
+      "name": "stage_traveler_task_knowledge_requirement_desc",
+      "params": {
+        "elements": [
+          {
+            "name": {
+              "some": "records"
+            },
+            "algebraic_type": {
+              "Array": {
+                "Ref": 469
+              }
+            }
+          }
+        ]
+      },
+      "lifecycle": {
+        "none": []
+      }
+    },
+    {
       "name": "stage_traveler_trade_order_desc",
       "params": {
         "elements": [
@@ -59337,7 +59483,7 @@
               "some": "request"
             },
             "algebraic_type": {
-              "Ref": 486
+              "Ref": 487
             }
           }
         ]
@@ -59355,7 +59501,7 @@
               "some": "request"
             },
             "algebraic_type": {
-              "Ref": 486
+              "Ref": 487
             }
           }
         ]
@@ -59480,7 +59626,7 @@
         "scope": [],
         "name": "AbilityTypeEnum"
       },
-      "ty": 481,
+      "ty": 482,
       "custom_ordering": true
     },
     {
@@ -59520,7 +59666,7 @@
         "scope": [],
         "name": "ActionLogData"
       },
-      "ty": 472,
+      "ty": 473,
       "custom_ordering": true
     },
     {
@@ -59528,7 +59674,7 @@
         "scope": [],
         "name": "ActionLogDataSpaceAllocator"
       },
-      "ty": 473,
+      "ty": 474,
       "custom_ordering": true
     },
     {
@@ -59536,7 +59682,7 @@
         "scope": [],
         "name": "ActionLogState"
       },
-      "ty": 470,
+      "ty": 471,
       "custom_ordering": true
     },
     {
@@ -59544,7 +59690,7 @@
         "scope": [],
         "name": "ActionLogSubjectType"
       },
-      "ty": 471,
+      "ty": 472,
       "custom_ordering": true
     },
     {
@@ -59704,7 +59850,7 @@
         "scope": [],
         "name": "BuffCategory"
       },
-      "ty": 477,
+      "ty": 478,
       "custom_ordering": true
     },
     {
@@ -62152,7 +62298,7 @@
         "scope": [],
         "name": "Permission"
       },
-      "ty": 479,
+      "ty": 480,
       "custom_ordering": true
     },
     {
@@ -62160,7 +62306,7 @@
         "scope": [],
         "name": "PermissionGroup"
       },
-      "ty": 480,
+      "ty": 481,
       "custom_ordering": true
     },
     {
@@ -62560,7 +62706,7 @@
         "scope": [],
         "name": "ProgressiveActionStatus"
       },
-      "ty": 478,
+      "ty": 479,
       "custom_ordering": true
     },
     {
@@ -62896,7 +63042,7 @@
         "scope": [],
         "name": "SkillType"
       },
-      "ty": 476,
+      "ty": 477,
       "custom_ordering": true
     },
     {
@@ -62928,7 +63074,7 @@
         "scope": [],
         "name": "StarvingPlayerState"
       },
-      "ty": 469,
+      "ty": 470,
       "custom_ordering": true
     },
     {
@@ -63000,7 +63146,7 @@
         "scope": [],
         "name": "TerraformProgressState"
       },
-      "ty": 474,
+      "ty": 475,
       "custom_ordering": true
     },
     {
@@ -63032,7 +63178,7 @@
         "scope": [],
         "name": "TheGreatPlaceHolderTable"
       },
-      "ty": 475,
+      "ty": 476,
       "custom_ordering": true
     },
     {
@@ -63040,7 +63186,7 @@
         "scope": [],
         "name": "ThreatState"
       },
-      "ty": 482,
+      "ty": 483,
       "custom_ordering": true
     },
     {
@@ -63128,7 +63274,7 @@
         "scope": [],
         "name": "TranslationCorrections"
       },
-      "ty": 483,
+      "ty": 484,
       "custom_ordering": true
     },
     {
@@ -63137,6 +63283,14 @@
         "name": "TravelerTaskDesc"
       },
       "ty": 312,
+      "custom_ordering": true
+    },
+    {
+      "name": {
+        "scope": [],
+        "name": "TravelerTaskKnowledgeRequirementDesc"
+      },
+      "ty": 469,
       "custom_ordering": true
     },
     {
@@ -63176,7 +63330,7 @@
         "scope": [],
         "name": "UnclaimedShardsState"
       },
-      "ty": 484,
+      "ty": 485,
       "custom_ordering": true
     },
     {
@@ -63200,7 +63354,7 @@
         "scope": [],
         "name": "UserCreationTimestampState"
       },
-      "ty": 485,
+      "ty": 486,
       "custom_ordering": true
     },
     {
@@ -63208,7 +63362,7 @@
         "scope": [],
         "name": "UserModerationCreateUserPolicyRequest"
       },
-      "ty": 486,
+      "ty": 487,
       "custom_ordering": true
     },
     {
@@ -63240,7 +63394,7 @@
         "scope": [],
         "name": "UserPreviousRegionState"
       },
-      "ty": 487,
+      "ty": 488,
       "custom_ordering": true
     },
     {
@@ -63248,7 +63402,7 @@
         "scope": [],
         "name": "UserRegionState"
       },
-      "ty": 488,
+      "ty": 489,
       "custom_ordering": true
     },
     {
@@ -63304,7 +63458,7 @@
         "scope": [],
         "name": "VisibilityState"
       },
-      "ty": 489,
+      "ty": 490,
       "custom_ordering": true
     },
     {
@@ -63328,7 +63482,7 @@
         "scope": [],
         "name": "WaystoneState"
       },
-      "ty": 490,
+      "ty": 491,
       "custom_ordering": true
     },
     {
@@ -63352,7 +63506,7 @@
         "scope": [],
         "name": "WindDbgDesc"
       },
-      "ty": 491,
+      "ty": 492,
       "custom_ordering": true
     },
     {
