@@ -1139,6 +1139,50 @@
     "is_secret": false
   },
   {
+    "id": 636450923,
+    "name": "Carty Time",
+    "is_hint": false,
+    "stages": [
+      426468342,
+      1816059959,
+      420463907,
+      34869109,
+      1565506956,
+      690792902,
+      587899278
+    ],
+    "requirements": [
+      {
+        "Level_": {
+          "skill_id": 15,
+          "level": 10
+        }
+      },
+      {
+        "QuestChain_": 1511437178
+      }
+    ],
+    "rewards": [
+      {
+        "ItemStack_": {
+          "item_id": 259426368,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        }
+      },
+      {
+        "Experience_": {
+          "skill_id": 15,
+          "quantity": 500.0
+        }
+      }
+    ],
+    "implicit_rewards": [],
+    "unstartable": false,
+    "is_secret": false
+  },
+  {
     "id": 679715144,
     "name": "Knocked out hint",
     "is_hint": true,
@@ -1770,6 +1814,50 @@
     "is_secret": false
   },
   {
+    "id": 1121072693,
+    "name": "Reinventing the Wheel",
+    "is_hint": false,
+    "stages": [
+      1064917894,
+      1240509309,
+      114228858,
+      500171421,
+      462224998,
+      1574872731,
+      1536427860
+    ],
+    "requirements": [
+      {
+        "Level_": {
+          "skill_id": 15,
+          "level": 25
+        }
+      },
+      {
+        "QuestChain_": 636450923
+      }
+    ],
+    "rewards": [
+      {
+        "ItemStack_": {
+          "item_id": 1741713616,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        }
+      },
+      {
+        "Experience_": {
+          "skill_id": 15,
+          "quantity": 700.0
+        }
+      }
+    ],
+    "implicit_rewards": [],
+    "unstartable": false,
+    "is_secret": false
+  },
+  {
     "id": 1125859549,
     "name": "Empires",
     "is_hint": false,
@@ -2080,6 +2168,66 @@
       {
         "ItemStack_": {
           "item_id": 712013593,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        }
+      }
+    ],
+    "implicit_rewards": [],
+    "unstartable": false,
+    "is_secret": false
+  },
+  {
+    "id": 1463250815,
+    "name": "Curiosity Brought It Back",
+    "is_hint": false,
+    "stages": [
+      197583786,
+      1865476664,
+      1443120361,
+      604408864,
+      267991547,
+      845375687,
+      1125389133,
+      54235077,
+      49605976,
+      440625746,
+      2104375936,
+      1226075779,
+      1836655526,
+      1022177065,
+      1630777465,
+      132634272,
+      2137073328,
+      499128750,
+      1103749873,
+      3110929
+    ],
+    "requirements": [
+      {
+        "Level_": {
+          "skill_id": 15,
+          "level": 35
+        }
+      },
+      {
+        "Level_": {
+          "skill_id": 19,
+          "level": 35
+        }
+      },
+      {
+        "Level_": {
+          "skill_id": 17,
+          "level": 35
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "ItemStack_": {
+          "item_id": 106,
           "quantity": 1,
           "item_type": "Item",
           "durability": 0

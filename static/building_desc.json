@@ -26833,7 +26833,7 @@
     "rested_buff_duration": 0,
     "light_radius": 0,
     "model_asset_name": "Buildings/EmpireStaminaBuffBuilding",
-    "icon_asset_name": "GeneratedIcons/Buildings/EmpireStaminaBuffBuilding",
+    "icon_asset_name": "GeneratedIcons/Other/Buildings/MechanismOfStamina",
     "unenterable": true,
     "wilderness": false,
     "footprint": [
@@ -28075,6 +28075,55 @@
       {
         "x": 1,
         "z": -1,
+        "footprint_type": "Hitbox"
+      }
+    ],
+    "max_health": 72,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 0.0,
+    "maintenance": 0.0,
+    "build_permission": "Claim",
+    "interact_permission": "Claim",
+    "has_action": true,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false,
+    "destroy_on_unclaim": false
+  },
+  {
+    "id": 174334053,
+    "functions": [
+      {
+        "function_type": 1002,
+        "level": -1,
+        "crafting_slots": 0,
+        "storage_slots": 0,
+        "cargo_slots": 0,
+        "refining_slots": 0,
+        "refining_cargo_slots": 0,
+        "item_slot_size": 6000,
+        "cargo_slot_size": 6000,
+        "trade_orders": 0,
+        "allowed_item_id_per_slot": [],
+        "concurrent_crafts_per_player": 0,
+        "terraform": false,
+        "housing_slots": 0,
+        "housing_income": 0
+      }
+    ],
+    "name": "Clockwork Clock",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/DecoClockworkClock",
+    "icon_asset_name": "PremiumIcons/ClockworkClock",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      {
+        "x": 0,
+        "z": 0,
         "footprint_type": "Hitbox"
       }
     ],
@@ -55682,6 +55731,55 @@
     "destroy_on_unclaim": false
   },
   {
+    "id": 409629564,
+    "functions": [
+      {
+        "function_type": 1002,
+        "level": -1,
+        "crafting_slots": 0,
+        "storage_slots": 0,
+        "cargo_slots": 0,
+        "refining_slots": 0,
+        "refining_cargo_slots": 0,
+        "item_slot_size": 6000,
+        "cargo_slot_size": 6000,
+        "trade_orders": 0,
+        "allowed_item_id_per_slot": [],
+        "concurrent_crafts_per_player": 0,
+        "terraform": false,
+        "housing_slots": 0,
+        "housing_income": 0
+      }
+    ],
+    "name": "Clockwork Astroglobe",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/DecoClockworkAstrolabe",
+    "icon_asset_name": "PremiumIcons/ClockworkAstrolabe",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      {
+        "x": 0,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      }
+    ],
+    "max_health": 72,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 0.0,
+    "maintenance": 0.0,
+    "build_permission": "Claim",
+    "interact_permission": "Claim",
+    "has_action": true,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false,
+    "destroy_on_unclaim": false
+  },
+  {
     "id": 410783411,
     "functions": [],
     "name": "RuinDecorWallTallFlat",
@@ -63689,6 +63787,55 @@
     "destroy_on_unclaim": false
   },
   {
+    "id": 436886226,
+    "functions": [
+      {
+        "function_type": 1002,
+        "level": -1,
+        "crafting_slots": 0,
+        "storage_slots": 0,
+        "cargo_slots": 0,
+        "refining_slots": 0,
+        "refining_cargo_slots": 0,
+        "item_slot_size": 6000,
+        "cargo_slot_size": 6000,
+        "trade_orders": 0,
+        "allowed_item_id_per_slot": [],
+        "concurrent_crafts_per_player": 0,
+        "terraform": false,
+        "housing_slots": 0,
+        "housing_income": 0
+      }
+    ],
+    "name": "Clockwork Planter",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/DecoClockworkPlanter",
+    "icon_asset_name": "PremiumIcons/ClockworkHangingBasket",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      {
+        "x": 0,
+        "z": 0,
+        "footprint_type": "Walkable"
+      }
+    ],
+    "max_health": 72,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 0.0,
+    "maintenance": 0.0,
+    "build_permission": "Claim",
+    "interact_permission": "Claim",
+    "has_action": true,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false,
+    "destroy_on_unclaim": false
+  },
+  {
     "id": 446001992,
     "functions": [
       {
@@ -64070,6 +64217,65 @@
     "interact_permission": "None",
     "has_action": false,
     "show_in_compendium": false,
+    "is_ruins": false,
+    "not_deconstructible": false,
+    "destroy_on_unclaim": false
+  },
+  {
+    "id": 462859709,
+    "functions": [
+      {
+        "function_type": 1002,
+        "level": -1,
+        "crafting_slots": 0,
+        "storage_slots": 0,
+        "cargo_slots": 0,
+        "refining_slots": 0,
+        "refining_cargo_slots": 0,
+        "item_slot_size": 6000,
+        "cargo_slot_size": 6000,
+        "trade_orders": 0,
+        "allowed_item_id_per_slot": [],
+        "concurrent_crafts_per_player": 0,
+        "terraform": false,
+        "housing_slots": 0,
+        "housing_income": 0
+      }
+    ],
+    "name": "Clockwork Room Divider",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/DecoClockworkDevider",
+    "icon_asset_name": "PremiumIcons/ClockworkDivider",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      {
+        "x": 0,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 1,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": -1,
+        "z": 1,
+        "footprint_type": "Hitbox"
+      }
+    ],
+    "max_health": 72,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 0.0,
+    "maintenance": 0.0,
+    "build_permission": "Claim",
+    "interact_permission": "Claim",
+    "has_action": true,
+    "show_in_compendium": true,
     "is_ruins": false,
     "not_deconstructible": false,
     "destroy_on_unclaim": false
@@ -68673,6 +68879,85 @@
     "destroy_on_unclaim": false
   },
   {
+    "id": 562357959,
+    "functions": [
+      {
+        "function_type": 1002,
+        "level": -1,
+        "crafting_slots": 0,
+        "storage_slots": 0,
+        "cargo_slots": 0,
+        "refining_slots": 0,
+        "refining_cargo_slots": 0,
+        "item_slot_size": 6000,
+        "cargo_slot_size": 6000,
+        "trade_orders": 0,
+        "allowed_item_id_per_slot": [],
+        "concurrent_crafts_per_player": 0,
+        "terraform": false,
+        "housing_slots": 0,
+        "housing_income": 0
+      }
+    ],
+    "name": "Clockwork Bed",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/DecoClockworkBed",
+    "icon_asset_name": "PremiumIcons/ClockworkBed",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      {
+        "x": 0,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 0,
+        "z": 1,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": -1,
+        "z": 1,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 1,
+        "z": -1,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 0,
+        "z": -1,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": -1,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 1,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      }
+    ],
+    "max_health": 72,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 0.0,
+    "maintenance": 0.0,
+    "build_permission": "Claim",
+    "interact_permission": "Claim",
+    "has_action": true,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false,
+    "destroy_on_unclaim": false
+  },
+  {
     "id": 566525078,
     "functions": [
       {
@@ -68776,6 +69061,55 @@
       {
         "x": -1,
         "z": 1,
+        "footprint_type": "Hitbox"
+      }
+    ],
+    "max_health": 72,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 0.0,
+    "maintenance": 0.0,
+    "build_permission": "Claim",
+    "interact_permission": "Claim",
+    "has_action": true,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false,
+    "destroy_on_unclaim": false
+  },
+  {
+    "id": 576772112,
+    "functions": [
+      {
+        "function_type": 1002,
+        "level": -1,
+        "crafting_slots": 0,
+        "storage_slots": 0,
+        "cargo_slots": 0,
+        "refining_slots": 0,
+        "refining_cargo_slots": 0,
+        "item_slot_size": 6000,
+        "cargo_slot_size": 6000,
+        "trade_orders": 0,
+        "allowed_item_id_per_slot": [],
+        "concurrent_crafts_per_player": 0,
+        "terraform": false,
+        "housing_slots": 0,
+        "housing_income": 0
+      }
+    ],
+    "name": "Clockwork Chair",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/DecoClockworkChair1",
+    "icon_asset_name": "PremiumIcons/ClockworkChair",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      {
+        "x": 0,
+        "z": 0,
         "footprint_type": "Hitbox"
       }
     ],
@@ -70217,6 +70551,55 @@
     "destroy_on_unclaim": false
   },
   {
+    "id": 686564833,
+    "functions": [
+      {
+        "function_type": 1002,
+        "level": -1,
+        "crafting_slots": 0,
+        "storage_slots": 0,
+        "cargo_slots": 0,
+        "refining_slots": 0,
+        "refining_cargo_slots": 0,
+        "item_slot_size": 6000,
+        "cargo_slot_size": 6000,
+        "trade_orders": 0,
+        "allowed_item_id_per_slot": [],
+        "concurrent_crafts_per_player": 0,
+        "terraform": false,
+        "housing_slots": 0,
+        "housing_income": 0
+      }
+    ],
+    "name": "Clockwork Green and Pink Rug",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/DecoClockworkRug3",
+    "icon_asset_name": "PremiumIcons/ClockworkSmallRug",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      {
+        "x": 0,
+        "z": 0,
+        "footprint_type": "Walkable"
+      }
+    ],
+    "max_health": 72,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 0.0,
+    "maintenance": 0.0,
+    "build_permission": "Claim",
+    "interact_permission": "Claim",
+    "has_action": true,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false,
+    "destroy_on_unclaim": false
+  },
+  {
     "id": 688597541,
     "functions": [
       {
@@ -70259,6 +70642,60 @@
       {
         "x": 0,
         "z": 1,
+        "footprint_type": "Hitbox"
+      }
+    ],
+    "max_health": 72,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 0.0,
+    "maintenance": 0.0,
+    "build_permission": "Claim",
+    "interact_permission": "Claim",
+    "has_action": true,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false,
+    "destroy_on_unclaim": false
+  },
+  {
+    "id": 695978337,
+    "functions": [
+      {
+        "function_type": 1002,
+        "level": -1,
+        "crafting_slots": 0,
+        "storage_slots": 0,
+        "cargo_slots": 0,
+        "refining_slots": 0,
+        "refining_cargo_slots": 0,
+        "item_slot_size": 6000,
+        "cargo_slot_size": 6000,
+        "trade_orders": 0,
+        "allowed_item_id_per_slot": [],
+        "concurrent_crafts_per_player": 0,
+        "terraform": false,
+        "housing_slots": 0,
+        "housing_income": 0
+      }
+    ],
+    "name": "Clockwork Desk",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/DecoClockworkConsole",
+    "icon_asset_name": "PremiumIcons/ClockworkConsole",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      {
+        "x": 0,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": -1,
+        "z": 0,
         "footprint_type": "Hitbox"
       }
     ],
@@ -73084,6 +73521,85 @@
     "maintenance": 0.0,
     "build_permission": "Claim",
     "interact_permission": "All",
+    "has_action": true,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false,
+    "destroy_on_unclaim": false
+  },
+  {
+    "id": 884823776,
+    "functions": [
+      {
+        "function_type": 1002,
+        "level": -1,
+        "crafting_slots": 0,
+        "storage_slots": 0,
+        "cargo_slots": 0,
+        "refining_slots": 0,
+        "refining_cargo_slots": 0,
+        "item_slot_size": 6000,
+        "cargo_slot_size": 6000,
+        "trade_orders": 0,
+        "allowed_item_id_per_slot": [],
+        "concurrent_crafts_per_player": 0,
+        "terraform": false,
+        "housing_slots": 0,
+        "housing_income": 0
+      }
+    ],
+    "name": "Clockwork Purple and Gold Rug",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/DecoClockworkRug2",
+    "icon_asset_name": "PremiumIcons/ClockworkMediumRug",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      {
+        "x": 0,
+        "z": 0,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": 0,
+        "z": -1,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": -1,
+        "z": 0,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": 1,
+        "z": -1,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": 1,
+        "z": 0,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": 0,
+        "z": 1,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": -1,
+        "z": 1,
+        "footprint_type": "Walkable"
+      }
+    ],
+    "max_health": 72,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 0.0,
+    "maintenance": 0.0,
+    "build_permission": "Claim",
+    "interact_permission": "Claim",
     "has_action": true,
     "show_in_compendium": true,
     "is_ruins": false,
@@ -81281,6 +81797,60 @@
     "destroy_on_unclaim": false
   },
   {
+    "id": 1148367296,
+    "functions": [
+      {
+        "function_type": 1002,
+        "level": -1,
+        "crafting_slots": 0,
+        "storage_slots": 0,
+        "cargo_slots": 0,
+        "refining_slots": 0,
+        "refining_cargo_slots": 0,
+        "item_slot_size": 6000,
+        "cargo_slot_size": 6000,
+        "trade_orders": 0,
+        "allowed_item_id_per_slot": [],
+        "concurrent_crafts_per_player": 0,
+        "terraform": false,
+        "housing_slots": 0,
+        "housing_income": 0
+      }
+    ],
+    "name": "Clockwork Couch",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/DecoClockworkChair2",
+    "icon_asset_name": "PremiumIcons/ClockworkCouch",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      {
+        "x": 0,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 1,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      }
+    ],
+    "max_health": 72,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 0.0,
+    "maintenance": 0.0,
+    "build_permission": "Claim",
+    "interact_permission": "Claim",
+    "has_action": true,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false,
+    "destroy_on_unclaim": false
+  },
+  {
     "id": 1150881059,
     "functions": [
       {
@@ -85896,6 +86466,85 @@
     "destroy_on_unclaim": false
   },
   {
+    "id": 1417004791,
+    "functions": [
+      {
+        "function_type": 1002,
+        "level": -1,
+        "crafting_slots": 0,
+        "storage_slots": 0,
+        "cargo_slots": 0,
+        "refining_slots": 0,
+        "refining_cargo_slots": 0,
+        "item_slot_size": 6000,
+        "cargo_slot_size": 6000,
+        "trade_orders": 0,
+        "allowed_item_id_per_slot": [],
+        "concurrent_crafts_per_player": 0,
+        "terraform": false,
+        "housing_slots": 0,
+        "housing_income": 0
+      }
+    ],
+    "name": "Clockwork Area Rug",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/DecoClockworkRug1",
+    "icon_asset_name": "PremiumIcons/ClockworkLargeRug",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      {
+        "x": 0,
+        "z": 0,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": 0,
+        "z": -1,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": 1,
+        "z": -1,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": -1,
+        "z": 0,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": -1,
+        "z": 1,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": 0,
+        "z": 1,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": 1,
+        "z": 0,
+        "footprint_type": "Walkable"
+      }
+    ],
+    "max_health": 72,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 0.0,
+    "maintenance": 0.0,
+    "build_permission": "Claim",
+    "interact_permission": "Claim",
+    "has_action": true,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false,
+    "destroy_on_unclaim": false
+  },
+  {
     "id": 1417315857,
     "functions": [
       {
@@ -88531,6 +89180,55 @@
     "destroy_on_unclaim": false
   },
   {
+    "id": 1581897295,
+    "functions": [
+      {
+        "function_type": 1002,
+        "level": -1,
+        "crafting_slots": 0,
+        "storage_slots": 0,
+        "cargo_slots": 0,
+        "refining_slots": 0,
+        "refining_cargo_slots": 0,
+        "item_slot_size": 6000,
+        "cargo_slot_size": 6000,
+        "trade_orders": 0,
+        "allowed_item_id_per_slot": [],
+        "concurrent_crafts_per_player": 0,
+        "terraform": false,
+        "housing_slots": 0,
+        "housing_income": 0
+      }
+    ],
+    "name": "Clockwork Lamp",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/DecoClockworkLamp",
+    "icon_asset_name": "PremiumIcons/ClockworkLamp",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      {
+        "x": 0,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      }
+    ],
+    "max_health": 72,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 0.0,
+    "maintenance": 0.0,
+    "build_permission": "Claim",
+    "interact_permission": "Claim",
+    "has_action": true,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false,
+    "destroy_on_unclaim": false
+  },
+  {
     "id": 1593688043,
     "functions": [
       {
@@ -88670,6 +89368,55 @@
     "interact_permission": "None",
     "has_action": false,
     "show_in_compendium": false,
+    "is_ruins": false,
+    "not_deconstructible": false,
+    "destroy_on_unclaim": false
+  },
+  {
+    "id": 1603813961,
+    "functions": [
+      {
+        "function_type": 1002,
+        "level": -1,
+        "crafting_slots": 0,
+        "storage_slots": 0,
+        "cargo_slots": 0,
+        "refining_slots": 0,
+        "refining_cargo_slots": 0,
+        "item_slot_size": 6000,
+        "cargo_slot_size": 6000,
+        "trade_orders": 0,
+        "allowed_item_id_per_slot": [],
+        "concurrent_crafts_per_player": 0,
+        "terraform": false,
+        "housing_slots": 0,
+        "housing_income": 0
+      }
+    ],
+    "name": "Clockwork Bird Cage",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/DecoClockworkBirdCage",
+    "icon_asset_name": "PremiumIcons/ClockworkBirdCage",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      {
+        "x": 0,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      }
+    ],
+    "max_health": 72,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 0.0,
+    "maintenance": 0.0,
+    "build_permission": "Claim",
+    "interact_permission": "Claim",
+    "has_action": true,
+    "show_in_compendium": true,
     "is_ruins": false,
     "not_deconstructible": false,
     "destroy_on_unclaim": false
@@ -95605,6 +96352,60 @@
     "interact_permission": "None",
     "has_action": false,
     "show_in_compendium": false,
+    "is_ruins": false,
+    "not_deconstructible": false,
+    "destroy_on_unclaim": false
+  },
+  {
+    "id": 1731908900,
+    "functions": [
+      {
+        "function_type": 1002,
+        "level": -1,
+        "crafting_slots": 0,
+        "storage_slots": 0,
+        "cargo_slots": 0,
+        "refining_slots": 0,
+        "refining_cargo_slots": 0,
+        "item_slot_size": 6000,
+        "cargo_slot_size": 6000,
+        "trade_orders": 0,
+        "allowed_item_id_per_slot": [],
+        "concurrent_crafts_per_player": 0,
+        "terraform": false,
+        "housing_slots": 0,
+        "housing_income": 0
+      }
+    ],
+    "name": "Clockwork Bookshelf",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/DecoClockworkDresser",
+    "icon_asset_name": "PremiumIcons/ClockworkDresser",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      {
+        "x": 0,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": -1,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      }
+    ],
+    "max_health": 72,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 0.0,
+    "maintenance": 0.0,
+    "build_permission": "Claim",
+    "interact_permission": "Claim",
+    "has_action": true,
+    "show_in_compendium": true,
     "is_ruins": false,
     "not_deconstructible": false,
     "destroy_on_unclaim": false
@@ -118988,6 +119789,55 @@
     "light_radius": 0,
     "model_asset_name": "Buildings/DecoCottage_Chair2",
     "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Other/Buildings/DecoCottage_Chair2",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      {
+        "x": 0,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      }
+    ],
+    "max_health": 72,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 0.0,
+    "maintenance": 0.0,
+    "build_permission": "Claim",
+    "interact_permission": "Claim",
+    "has_action": true,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false,
+    "destroy_on_unclaim": false
+  },
+  {
+    "id": 2075736489,
+    "functions": [
+      {
+        "function_type": 1002,
+        "level": -1,
+        "crafting_slots": 0,
+        "storage_slots": 0,
+        "cargo_slots": 0,
+        "refining_slots": 0,
+        "refining_cargo_slots": 0,
+        "item_slot_size": 6000,
+        "cargo_slot_size": 6000,
+        "trade_orders": 0,
+        "allowed_item_id_per_slot": [],
+        "concurrent_crafts_per_player": 0,
+        "terraform": false,
+        "housing_slots": 0,
+        "housing_income": 0
+      }
+    ],
+    "name": "Clockwork Table",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/DecoClockworkTable",
+    "icon_asset_name": "PremiumIcons/ClockworkTable",
     "unenterable": true,
     "wilderness": true,
     "footprint": [
