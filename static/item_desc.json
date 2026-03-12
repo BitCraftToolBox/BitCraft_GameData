@@ -482,7 +482,7 @@
   {
     "id": 110,
     "name": "Deed: Mask - Uneven Horn Mask",
-    "description": "A mask with curling horns pieced with gold rings",
+    "description": "A mask with curling horns pieced with gold rings. This mask was lost at sea ages ago. ",
     "volume": 6000,
     "durability": 0,
     "convert_to_on_durability_zero": 0,
@@ -514,17 +514,17 @@
   {
     "id": 112,
     "name": "Deed: Mask - Drooping Ear Mask",
-    "description": "A mask with drooping ear-like extrusions",
+    "description": "This mask has droopy ears, almost reminiscent\r of a Nubi Goat's ears. Maybe it was inspired by them?",
     "volume": 6000,
     "durability": 0,
     "convert_to_on_durability_zero": 0,
     "secondary_knowledge_id": 0,
     "model_asset_name": "",
-    "icon_asset_name": "Items/AncientDeed",
+    "icon_asset_name": "Collectible/Mask/DroopyEarMask",
     "tier": -1,
     "tag": "Deed",
-    "rarity": "Common",
-    "compendium_entry": true,
+    "rarity": "Epic",
+    "compendium_entry": false,
     "item_list_id": 0
   },
   {
@@ -21872,6 +21872,22 @@
     "item_list_id": 0
   },
   {
+    "id": 83720916,
+    "name": "Summit Spices",
+    "description": "A special spice that can be used to a special food for Nubi Goats.",
+    "volume": 120,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Items/SummitSpices",
+    "tier": -1,
+    "tag": "Spice",
+    "rarity": "Common",
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
     "id": 83848460,
     "name": "Windswept Flower",
     "description": "You've recovered the Windswept Flower!",
@@ -25297,8 +25313,8 @@
   },
   {
     "id": 163996264,
-    "name": "Deed: Hunter's Goat",
-    "description": "A goat that can be ridden while hunting. A bit slower than a regular goat but with slightly more cargo storage. Ideal for hunters.",
+    "name": "Deed: Nubi Goat (II)",
+    "description": "A goat that can be riden for faster traversal.",
     "volume": 6000,
     "durability": 0,
     "convert_to_on_durability_zero": 0,
@@ -41120,6 +41136,22 @@
     "item_list_id": 0
   },
   {
+    "id": 534008597,
+    "name": "Deed: Nubi Goat (III)",
+    "description": "A goat that can be riden for faster traversal.",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Other/Animals/Goat",
+    "tier": -1,
+    "tag": "Deployable Deed",
+    "rarity": "Common",
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
     "id": 534537216,
     "name": "Luminite Claymore",
     "description": "A skillfully smithed sword. Better to be on the giving end than the receiving end.",
@@ -41841,7 +41873,7 @@
   },
   {
     "id": 555274167,
-    "name": "Deed: Rideable Goat",
+    "name": "Deed: Nubi Goat (I)",
     "description": "A goat that can be riden for faster traversal.",
     "volume": 6000,
     "durability": 0,
@@ -61181,6 +61213,22 @@
     "tag": "Weapon",
     "rarity": "Common",
     "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
+    "id": 1002478629,
+    "name": "Damaged Mask",
+    "description": "It's hard to tell, but it looks like this mask used to have some horns on it. The years and the waves have not been kind to it.",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Items/MaskFragment",
+    "tier": -1,
+    "tag": "Deed",
+    "rarity": "Epic",
+    "compendium_entry": false,
     "item_list_id": 0
   },
   {
@@ -85648,6 +85696,22 @@
     "item_list_id": 0
   },
   {
+    "id": 1541856987,
+    "name": "Nubi Berry Mash Knowledge",
+    "description": "Knowledge on how to make Nubi Berry Mash",
+    "volume": 120,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Items/NubiBerryMash",
+    "tier": -2,
+    "tag": "Animal Feed",
+    "rarity": "Uncommon",
+    "compendium_entry": false,
+    "item_list_id": 0
+  },
+  {
     "id": 1542565607,
     "name": "Astralite Duelist Armor",
     "description": "",
@@ -101421,6 +101485,22 @@
     "tag": "Deed",
     "rarity": "Common",
     "compendium_entry": false,
+    "item_list_id": 0
+  },
+  {
+    "id": 1896045840,
+    "name": "Nubi Berry Mash",
+    "description": "A treat made from berries that Nubi Goats absolutely love.",
+    "volume": 120,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Items/NubiBerryMash",
+    "tier": -1,
+    "tag": "Animal Feed",
+    "rarity": "Uncommon",
+    "compendium_entry": true,
     "item_list_id": 0
   },
   {

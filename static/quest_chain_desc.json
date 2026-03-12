@@ -3475,6 +3475,44 @@
     "is_secret": false
   },
   {
+    "id": 1988418003,
+    "name": "Lost to the Waves",
+    "is_hint": false,
+    "stages": [
+      599981836,
+      1209909213,
+      64471442,
+      1886712015,
+      1582754126,
+      2119877898,
+      23473721,
+      66809368
+    ],
+    "requirements": [
+      {
+        "ItemStack_": {
+          "item_id": 1002478629,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "ItemStack_": {
+          "item_id": 110,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        }
+      }
+    ],
+    "implicit_rewards": [],
+    "unstartable": false,
+    "is_secret": false
+  },
+  {
     "id": 1999118607,
     "name": "Documenting History (III)",
     "is_hint": false,
@@ -3565,6 +3603,31 @@
     "is_secret": false
   },
   {
+    "id": 2053821083,
+    "name": "Sharing History",
+    "is_hint": false,
+    "stages": [
+      1735643,
+      884463020
+    ],
+    "requirements": [
+      {
+        "QuestChain_": 1988418003
+      }
+    ],
+    "rewards": [
+      {
+        "Experience_": {
+          "skill_id": 19,
+          "quantity": 1000.0
+        }
+      }
+    ],
+    "implicit_rewards": [],
+    "unstartable": false,
+    "is_secret": true
+  },
+  {
     "id": 2082411756,
     "name": "Brick by Brick (III)",
     "is_hint": false,
@@ -3646,6 +3709,51 @@
     "implicit_rewards": [],
     "unstartable": false,
     "is_secret": true
+  },
+  {
+    "id": 2105342661,
+    "name": "The Nubi's Leap",
+    "is_hint": false,
+    "stages": [
+      483329042,
+      1348168801,
+      1942751830,
+      439298838,
+      737202140,
+      353872225,
+      136165085,
+      2125477549
+    ],
+    "requirements": [
+      {
+        "QuestChain_": 566211269
+      },
+      {
+        "Level_": {
+          "skill_id": 17,
+          "level": 25
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "ItemStack_": {
+          "item_id": 534008597,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        }
+      },
+      {
+        "Experience_": {
+          "skill_id": 17,
+          "quantity": 700.0
+        }
+      }
+    ],
+    "implicit_rewards": [],
+    "unstartable": false,
+    "is_secret": false
   },
   {
     "id": 2109433461,

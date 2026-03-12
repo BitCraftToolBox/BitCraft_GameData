@@ -1982,6 +1982,44 @@
     "hide_with_blocking_knowledges": false
   },
   {
+    "id": 980062017,
+    "starting_stock": 2147483647,
+    "always_offered": true,
+    "traveler": "Heimlich",
+    "offer_items": [
+      {
+        "item_id": 83720916,
+        "quantity": 1,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "offer_cargo_id": [],
+    "required_items": [
+      {
+        "item_id": 1,
+        "quantity": 50,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "required_cargo_id": [],
+    "level_requirements": [
+      {
+        "skill_id": 13,
+        "level": 1
+      }
+    ],
+    "achievement_requirements": [],
+    "hide_if_requirements_are_not_met": false,
+    "required_knowledges": [
+      1664191059
+    ],
+    "hide_without_required_knowledge": true,
+    "blocking_knowledges": [],
+    "hide_with_blocking_knowledges": false
+  },
+  {
     "id": 999980454,
     "starting_stock": 2147483647,
     "always_offered": true,
