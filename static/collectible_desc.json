@@ -1166,7 +1166,7 @@
   {
     "id": 301,
     "name": "Drooping Ear Mask",
-    "description": "A mask with drooping ear-like extrusions",
+    "description": "This mask has droopy ears, almost reminiscent\r of a Nubi Goat's ears. Maybe it was inspired by them?",
     "collectible_type": [
       2,
       {}
@@ -1367,13 +1367,13 @@
       0,
       {}
     ],
-    "auto_collect": false,
+    "auto_collect": true,
     "collectible_rarity": [
       4,
       {}
     ],
     "starting_loadout": false,
-    "locked": false,
+    "locked": true,
     "variant": 0,
     "color": "",
     "emission": "",
@@ -29873,8 +29873,8 @@
   },
   {
     "id": 537052696,
-    "name": "Rideable Goat",
-    "description": "A goat",
+    "name": "Nubi Goat (I)",
+    "description": "A goat mount which could be ridden for faster traversal.",
     "collectible_type": [
       14,
       {}
@@ -41179,6 +41179,40 @@
     "display_string": "",
     "item_deed_id": 1034448013,
     "required_knowledges_to_use": [],
+    "required_knowledges_to_convert": []
+  },
+  {
+    "id": 954221349,
+    "name": "Nubi Goat (III)",
+    "description": "This goat mount has all the stats of the Nubi Goat (II) but is faster and has better cliff traversal.",
+    "collectible_type": [
+      14,
+      {}
+    ],
+    "invalidates_type": [
+      0,
+      {}
+    ],
+    "auto_collect": true,
+    "collectible_rarity": [
+      0,
+      {}
+    ],
+    "starting_loadout": false,
+    "locked": true,
+    "variant": 0,
+    "color": "",
+    "emission": "",
+    "max_equip_count": 100,
+    "model_asset_name": "",
+    "variant_material": "",
+    "icon_asset_name": "GeneratedIcons/Other/Animals/Goat",
+    "tag": "Animal Mount",
+    "display_string": "",
+    "item_deed_id": 534008597,
+    "required_knowledges_to_use": [
+      1575435835
+    ],
     "required_knowledges_to_convert": []
   },
   {
@@ -67575,8 +67609,8 @@
   },
   {
     "id": 1977837508,
-    "name": "Hunter's Goat",
-    "description": "A goat with a special saddle that allows the rider to shoot their bow while riding.",
+    "name": "Nubi Goat (II)",
+    "description": "This goat mount has all the stats of the Nubi Goat (I) and can also be ridden while hunting.",
     "collectible_type": [
       14,
       {}
