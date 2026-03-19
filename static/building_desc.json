@@ -37837,7 +37837,7 @@
     "functions": [
       [
         8,
-        6,
+        9,
         0,
         0,
         0,
@@ -38179,9 +38179,9 @@
     "functions": [
       [
         3,
-        8,
+        5,
         0,
-        66,
+        48,
         0,
         0,
         0,
@@ -38537,7 +38537,7 @@
     "functions": [
       [
         1002,
-        8,
+        5,
         0,
         0,
         0,
@@ -39067,7 +39067,7 @@
     "functions": [
       [
         1002,
-        8,
+        5,
         0,
         0,
         0,
@@ -61715,7 +61715,7 @@
     "functions": [
       [
         1002,
-        8,
+        5,
         0,
         0,
         0,
@@ -63417,7 +63417,7 @@
     "functions": [
       [
         1002,
-        6,
+        9,
         0,
         0,
         0,
@@ -79010,7 +79010,7 @@
     "functions": [
       [
         1002,
-        6,
+        9,
         0,
         0,
         0,
@@ -94899,6 +94899,64 @@
     "destroy_on_unclaim": false
   },
   {
+    "id": 461462929,
+    "functions": [
+      [
+        1002,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6000,
+        6000,
+        0,
+        [],
+        0,
+        false,
+        0,
+        0
+      ]
+    ],
+    "name": "Titan Long Rug",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/DecoTitanRug3",
+    "icon_asset_name": "PremiumIcons/TitanRectangularRug",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          1,
+          []
+        ]
+      ]
+    ],
+    "max_health": 72,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 0.0,
+    "maintenance": 0.0,
+    "build_permission": [
+      1,
+      {}
+    ],
+    "interact_permission": [
+      1,
+      {}
+    ],
+    "has_action": true,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false,
+    "destroy_on_unclaim": false
+  },
+  {
     "id": 462513976,
     "functions": [],
     "name": "RuinDecorRuinPillar",
@@ -95307,7 +95365,7 @@
     "functions": [
       [
         1002,
-        6,
+        9,
         0,
         0,
         0,
@@ -100780,7 +100838,7 @@
     "functions": [
       [
         1002,
-        8,
+        5,
         0,
         0,
         0,
@@ -101804,9 +101862,9 @@
     "functions": [
       [
         3,
-        6,
+        9,
         0,
-        54,
+        72,
         0,
         0,
         0,
@@ -105945,7 +106003,7 @@
     "functions": [
       [
         1002,
-        8,
+        5,
         0,
         0,
         0,
@@ -108479,7 +108537,7 @@
     "functions": [
       [
         1002,
-        6,
+        9,
         0,
         0,
         0,
@@ -108517,6 +108575,64 @@
         0,
         [
           0,
+          []
+        ]
+      ]
+    ],
+    "max_health": 72,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 0.0,
+    "maintenance": 0.0,
+    "build_permission": [
+      1,
+      {}
+    ],
+    "interact_permission": [
+      1,
+      {}
+    ],
+    "has_action": true,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false,
+    "destroy_on_unclaim": false
+  },
+  {
+    "id": 918291195,
+    "functions": [
+      [
+        1002,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6000,
+        6000,
+        0,
+        [],
+        0,
+        false,
+        0,
+        0
+      ]
+    ],
+    "name": "Titan Hanging Pot",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/DecoTitanPot1",
+    "icon_asset_name": "PremiumIcons/TitanHangingBasket",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          1,
           []
         ]
       ]
@@ -108679,6 +108795,72 @@
     "ignore_damage": false,
     "defense_level": 10000,
     "decay": 1.0,
+    "maintenance": 0.0,
+    "build_permission": [
+      1,
+      {}
+    ],
+    "interact_permission": [
+      1,
+      {}
+    ],
+    "has_action": true,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false,
+    "destroy_on_unclaim": false
+  },
+  {
+    "id": 924170577,
+    "functions": [
+      [
+        1002,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6000,
+        6000,
+        0,
+        [],
+        0,
+        false,
+        0,
+        0
+      ]
+    ],
+    "name": "Titan Room Divider",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/DecoTitanRoomDivider",
+    "icon_asset_name": "PremiumIcons/TitanDivider",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        1,
+        0,
+        [
+          0,
+          []
+        ]
+      ]
+    ],
+    "max_health": 72,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 0.0,
     "maintenance": 0.0,
     "build_permission": [
       1,
@@ -110809,10 +110991,10 @@
     "functions": [
       [
         3,
-        6,
+        9,
         0,
         0,
-        42,
+        60,
         0,
         0,
         60000,
@@ -116021,6 +116203,64 @@
     "destroy_on_unclaim": false
   },
   {
+    "id": 1048505984,
+    "functions": [
+      [
+        1002,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6000,
+        6000,
+        0,
+        [],
+        0,
+        false,
+        0,
+        0
+      ]
+    ],
+    "name": "Titan Red Rug",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/DecoTitanRug1",
+    "icon_asset_name": "PremiumIcons/TitanLargeRug",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          1,
+          []
+        ]
+      ]
+    ],
+    "max_health": 72,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 0.0,
+    "maintenance": 0.0,
+    "build_permission": [
+      1,
+      {}
+    ],
+    "interact_permission": [
+      1,
+      {}
+    ],
+    "has_action": true,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false,
+    "destroy_on_unclaim": false
+  },
+  {
     "id": 1051156525,
     "functions": [],
     "name": "TowerRuinPillarLarge3",
@@ -119596,7 +119836,7 @@
     "functions": [
       [
         1002,
-        8,
+        5,
         0,
         0,
         0,
@@ -122157,7 +122397,7 @@
     "functions": [
       [
         1002,
-        8,
+        5,
         0,
         0,
         0,
@@ -123630,7 +123870,7 @@
     "functions": [
       [
         6,
-        6,
+        9,
         0,
         0,
         0,
@@ -124357,6 +124597,80 @@
     "destroy_on_unclaim": false
   },
   {
+    "id": 1363601104,
+    "functions": [
+      [
+        1002,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6000,
+        6000,
+        0,
+        [],
+        0,
+        false,
+        0,
+        0
+      ]
+    ],
+    "name": "Titan Round Table",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/DecoTitanTable1",
+    "icon_asset_name": "PremiumIcons/TitanTable",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        1,
+        -1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        0,
+        -1,
+        [
+          0,
+          []
+        ]
+      ]
+    ],
+    "max_health": 72,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 0.0,
+    "maintenance": 0.0,
+    "build_permission": [
+      1,
+      {}
+    ],
+    "interact_permission": [
+      1,
+      {}
+    ],
+    "has_action": true,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false,
+    "destroy_on_unclaim": false
+  },
+  {
     "id": 1365257490,
     "functions": [],
     "name": "TownDecorTownRuinsArchwayRubble1",
@@ -124723,7 +125037,7 @@
     "functions": [
       [
         1002,
-        8,
+        5,
         0,
         0,
         0,
@@ -126671,6 +126985,80 @@
     "destroy_on_unclaim": false
   },
   {
+    "id": 1441107805,
+    "functions": [
+      [
+        1002,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6000,
+        6000,
+        0,
+        [],
+        0,
+        false,
+        0,
+        0
+      ]
+    ],
+    "name": "Titan Bed",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/DecoTitanBed",
+    "icon_asset_name": "PremiumIcons/TitanBed",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      [
+        -1,
+        1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        0,
+        1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        0,
+        0,
+        [
+          0,
+          []
+        ]
+      ]
+    ],
+    "max_health": 72,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 0.0,
+    "maintenance": 0.0,
+    "build_permission": [
+      1,
+      {}
+    ],
+    "interact_permission": [
+      1,
+      {}
+    ],
+    "has_action": true,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false,
+    "destroy_on_unclaim": false
+  },
+  {
     "id": 1441436391,
     "functions": [
       [
@@ -127776,6 +128164,64 @@
     "destroy_on_unclaim": false
   },
   {
+    "id": 1493198082,
+    "functions": [
+      [
+        1002,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6000,
+        6000,
+        0,
+        [],
+        0,
+        false,
+        0,
+        0
+      ]
+    ],
+    "name": "Titan Chair",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/DecoTitanChair1",
+    "icon_asset_name": "PremiumIcons/TitanChair",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          0,
+          []
+        ]
+      ]
+    ],
+    "max_health": 72,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 0.0,
+    "maintenance": 0.0,
+    "build_permission": [
+      1,
+      {}
+    ],
+    "interact_permission": [
+      1,
+      {}
+    ],
+    "has_action": true,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false,
+    "destroy_on_unclaim": false
+  },
+  {
     "id": 1493654595,
     "functions": [
       [
@@ -128071,6 +128517,64 @@
       [
         -1,
         1,
+        [
+          0,
+          []
+        ]
+      ]
+    ],
+    "max_health": 72,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 0.0,
+    "maintenance": 0.0,
+    "build_permission": [
+      1,
+      {}
+    ],
+    "interact_permission": [
+      1,
+      {}
+    ],
+    "has_action": true,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false,
+    "destroy_on_unclaim": false
+  },
+  {
+    "id": 1507175831,
+    "functions": [
+      [
+        1002,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6000,
+        6000,
+        0,
+        [],
+        0,
+        false,
+        0,
+        0
+      ]
+    ],
+    "name": "Titan Statue",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/DecoTitanStatue",
+    "icon_asset_name": "PremiumIcons/TitanStatue",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      [
+        0,
+        0,
         [
           0,
           []
@@ -128913,6 +129417,72 @@
     "destroy_on_unclaim": false
   },
   {
+    "id": 1548516766,
+    "functions": [
+      [
+        1002,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6000,
+        6000,
+        0,
+        [],
+        0,
+        false,
+        0,
+        0
+      ]
+    ],
+    "name": "Titan Shelf",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/DecoTitanDresser",
+    "icon_asset_name": "PremiumIcons/TitanDresser",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        -1,
+        0,
+        [
+          0,
+          []
+        ]
+      ]
+    ],
+    "max_health": 72,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 0.0,
+    "maintenance": 0.0,
+    "build_permission": [
+      1,
+      {}
+    ],
+    "interact_permission": [
+      1,
+      {}
+    ],
+    "has_action": true,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false,
+    "destroy_on_unclaim": false
+  },
+  {
     "id": 1550117558,
     "functions": [],
     "name": "RuinDecorMuralWallB1_broken",
@@ -129358,7 +129928,7 @@
     "functions": [
       [
         1002,
-        6,
+        9,
         0,
         0,
         0,
@@ -129541,7 +130111,7 @@
     "name": "Clockwork Lamp",
     "description": "",
     "rested_buff_duration": 0,
-    "light_radius": 0,
+    "light_radius": 10,
     "model_asset_name": "Buildings/DecoClockworkLamp",
     "icon_asset_name": "PremiumIcons/ClockworkLamp",
     "unenterable": true,
@@ -133583,7 +134153,7 @@
     "functions": [
       [
         1002,
-        8,
+        5,
         0,
         0,
         0,
@@ -139360,6 +139930,72 @@
       [
         0,
         0,
+        [
+          0,
+          []
+        ]
+      ]
+    ],
+    "max_health": 72,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 0.0,
+    "maintenance": 0.0,
+    "build_permission": [
+      1,
+      {}
+    ],
+    "interact_permission": [
+      1,
+      {}
+    ],
+    "has_action": true,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false,
+    "destroy_on_unclaim": false
+  },
+  {
+    "id": 1707742445,
+    "functions": [
+      [
+        1002,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6000,
+        6000,
+        0,
+        [],
+        0,
+        false,
+        0,
+        0
+      ]
+    ],
+    "name": "Titan Bench",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/DecoTitanChair2",
+    "icon_asset_name": "PremiumIcons/TitanCouch",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        0,
+        -1,
         [
           0,
           []
@@ -145406,6 +146042,72 @@
     "destroy_on_unclaim": false
   },
   {
+    "id": 1791756732,
+    "functions": [
+      [
+        1002,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6000,
+        6000,
+        0,
+        [],
+        0,
+        false,
+        0,
+        0
+      ]
+    ],
+    "name": "Titan Long Table",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/DecoTitanTable2",
+    "icon_asset_name": "PremiumIcons/TitanDesk",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        1,
+        0,
+        [
+          0,
+          []
+        ]
+      ]
+    ],
+    "max_health": 72,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 0.0,
+    "maintenance": 0.0,
+    "build_permission": [
+      1,
+      {}
+    ],
+    "interact_permission": [
+      1,
+      {}
+    ],
+    "has_action": true,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false,
+    "destroy_on_unclaim": false
+  },
+  {
     "id": 1800864019,
     "functions": [],
     "name": "RuinDecorMuralWallA8Broken",
@@ -146456,6 +147158,64 @@
       {}
     ],
     "has_action": false,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false,
+    "destroy_on_unclaim": false
+  },
+  {
+    "id": 1825875214,
+    "functions": [
+      [
+        1002,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6000,
+        6000,
+        0,
+        [],
+        0,
+        false,
+        0,
+        0
+      ]
+    ],
+    "name": "Titan Gold Rug",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/DecoTitanRug2",
+    "icon_asset_name": "PremiumIcons/TitanSmallRug",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          1,
+          []
+        ]
+      ]
+    ],
+    "max_health": 72,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 0.0,
+    "maintenance": 0.0,
+    "build_permission": [
+      1,
+      {}
+    ],
+    "interact_permission": [
+      1,
+      {}
+    ],
+    "has_action": true,
     "show_in_compendium": true,
     "is_ruins": false,
     "not_deconstructible": false,
@@ -157038,10 +157798,10 @@
     "functions": [
       [
         3,
-        8,
+        5,
         0,
         0,
-        54,
+        36,
         0,
         0,
         60000,
@@ -157104,7 +157864,7 @@
     "functions": [
       [
         1002,
-        8,
+        5,
         0,
         0,
         0,
@@ -157200,6 +157960,64 @@
     "ignore_damage": false,
     "defense_level": 10000,
     "decay": 1.0,
+    "maintenance": 0.0,
+    "build_permission": [
+      1,
+      {}
+    ],
+    "interact_permission": [
+      1,
+      {}
+    ],
+    "has_action": true,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false,
+    "destroy_on_unclaim": false
+  },
+  {
+    "id": 1861793212,
+    "functions": [
+      [
+        1002,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6000,
+        6000,
+        0,
+        [],
+        0,
+        false,
+        0,
+        0
+      ]
+    ],
+    "name": "Titan Lamp",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 10,
+    "model_asset_name": "Buildings/DecoTitanLamp",
+    "icon_asset_name": "PremiumIcons/TitanLamp",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          0,
+          []
+        ]
+      ]
+    ],
+    "max_health": 72,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 0.0,
     "maintenance": 0.0,
     "build_permission": [
       1,
@@ -159324,7 +160142,7 @@
     "functions": [
       [
         1002,
-        8,
+        5,
         0,
         0,
         0,
@@ -159369,6 +160187,70 @@
     ],
     "interact_permission": [
       1,
+      {}
+    ],
+    "has_action": true,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false,
+    "destroy_on_unclaim": false
+  },
+  {
+    "id": 1952439465,
+    "functions": [],
+    "name": "Statue of Life",
+    "description": "Provides a buff to the user that gives them 50 Max Health and 0.1 active health regeneration at the cost of 25 Hexite Dust. Hexite Energy is given to the Empire that controls the land this building is on. The buff lasts 2 hours.",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/EmpireHealthBuffStatue",
+    "icon_asset_name": "GeneratedIcons/Other/Buildings/StatueOfLife",
+    "unenterable": true,
+    "wilderness": false,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        -1,
+        1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        -1,
+        0,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        0,
+        -1,
+        [
+          0,
+          []
+        ]
+      ]
+    ],
+    "max_health": 10,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 1.0,
+    "maintenance": 0.0,
+    "build_permission": [
+      1,
+      {}
+    ],
+    "interact_permission": [
+      3,
       {}
     ],
     "has_action": true,
@@ -167844,7 +168726,7 @@
     "functions": [
       [
         1002,
-        6,
+        9,
         0,
         0,
         0,
@@ -175702,7 +176584,7 @@
     "functions": [
       [
         1002,
-        8,
+        5,
         0,
         0,
         0,
@@ -176614,7 +177496,7 @@
     "functions": [
       [
         1002,
-        6,
+        9,
         0,
         0,
         0,
@@ -177258,7 +178140,7 @@
     "functions": [
       [
         1002,
-        8,
+        5,
         0,
         0,
         0,

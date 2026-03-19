@@ -962,6 +962,12 @@
     "completion_conditions": []
   },
   {
+    "id": 334722367,
+    "chain_desc_id": 463403005,
+    "name": "Craft Grafted Object Quest",
+    "completion_conditions": []
+  },
+  {
     "id": 335398450,
     "chain_desc_id": 1854817774,
     "name": "Return To Svim First - Default Skiff",
@@ -1556,6 +1562,12 @@
     "completion_conditions": []
   },
   {
+    "id": 537115724,
+    "chain_desc_id": 6654984,
+    "name": "Talk to Rumbagh - Equipment Preset Unlock",
+    "completion_conditions": []
+  },
+  {
     "id": 540215780,
     "chain_desc_id": 1905626394,
     "name": "Ramparte Conversation",
@@ -1664,6 +1676,31 @@
     "chain_desc_id": 837316211,
     "name": "Alesi Final Dialogue - Lusul Pet Taming",
     "completion_conditions": []
+  },
+  {
+    "id": 589943655,
+    "chain_desc_id": 6654984,
+    "name": "Pay Rumbagh 500 Hex Coins - Equipment Preset Unlock",
+    "completion_conditions": [
+      [
+        1,
+        [
+          [
+            1,
+            500,
+            [
+              0,
+              []
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          true
+        ]
+      ]
+    ]
   },
   {
     "id": 590511920,
@@ -1807,6 +1844,12 @@
     "id": 670428631,
     "chain_desc_id": 526544950,
     "name": "Talk to Rumbagh - Level 20 Merchanting Experience Quest",
+    "completion_conditions": []
+  },
+  {
+    "id": 671185284,
+    "chain_desc_id": 378322976,
+    "name": "Wisp Final Dialogue - Bask Unlock Quest",
     "completion_conditions": []
   },
   {
@@ -2235,7 +2278,12 @@
     "id": 829076939,
     "chain_desc_id": 1435788604,
     "name": "Craft a Clipper Frame - Default Clipper Quest",
-    "completion_conditions": []
+    "completion_conditions": [
+      [
+        5,
+        1176978398
+      ]
+    ]
   },
   {
     "id": 837909353,
@@ -2533,6 +2581,12 @@
     ]
   },
   {
+    "id": 935938423,
+    "chain_desc_id": 6654984,
+    "name": "Rumbagh First Dialogue - Equipment Preset Unlock",
+    "completion_conditions": []
+  },
+  {
     "id": 942725916,
     "chain_desc_id": 557763216,
     "name": "Heimlich Introduction",
@@ -2609,6 +2663,12 @@
     "id": 956679262,
     "chain_desc_id": 1511437178,
     "name": "Undeploy Cart Dialogue",
+    "completion_conditions": []
+  },
+  {
+    "id": 967326662,
+    "chain_desc_id": 463403005,
+    "name": "Wagion II Turn In Dialogue",
     "completion_conditions": []
   },
   {
@@ -3035,6 +3095,31 @@
     "completion_conditions": []
   },
   {
+    "id": 1115039266,
+    "chain_desc_id": 463403005,
+    "name": "Grafted Object Turn In",
+    "completion_conditions": [
+      [
+        1,
+        [
+          [
+            1235479031,
+            1,
+            [
+              1,
+              []
+            ],
+            [
+              1,
+              []
+            ]
+          ],
+          true
+        ]
+      ]
+    ]
+  },
+  {
     "id": 1115145070,
     "chain_desc_id": 557763216,
     "name": "Twins Introduction",
@@ -3146,7 +3231,12 @@
     "id": 1172000516,
     "chain_desc_id": 171407959,
     "name": "Craft a Recreated Ancient Cargo Hold - Second Skiff Upgrade",
-    "completion_conditions": []
+    "completion_conditions": [
+      [
+        5,
+        183005864
+      ]
+    ]
   },
   {
     "id": 1176075876,
@@ -3312,6 +3402,12 @@
         ]
       ]
     ]
+  },
+  {
+    "id": 1197242631,
+    "chain_desc_id": 463403005,
+    "name": "Brico First Dialogue Wagon II",
+    "completion_conditions": []
   },
   {
     "id": 1205050821,
@@ -4794,6 +4890,12 @@
     "completion_conditions": []
   },
   {
+    "id": 1718808862,
+    "chain_desc_id": 378322976,
+    "name": "Travel to the Sapwoods - Bask Unlock Quest",
+    "completion_conditions": []
+  },
+  {
     "id": 1722415360,
     "chain_desc_id": 1842217612,
     "name": "Make Ore Pieces Quest",
@@ -4889,9 +4991,21 @@
     "completion_conditions": []
   },
   {
+    "id": 1767088447,
+    "chain_desc_id": 378322976,
+    "name": "Wisp Starting Dialogue - Bask Unlock Quest",
+    "completion_conditions": []
+  },
+  {
     "id": 1785993958,
     "chain_desc_id": 751817487,
     "name": "Deal 50 damage Quest",
+    "completion_conditions": []
+  },
+  {
+    "id": 1787419449,
+    "chain_desc_id": 6654984,
+    "name": "Rumbagh Final Dialogue - Equipment Preset Unlock",
     "completion_conditions": []
   },
   {
@@ -5788,6 +5902,12 @@
     "id": 2086186870,
     "chain_desc_id": 329114763,
     "name": "Alesi Second Dialogue - Level 20 Taming Exp Quest",
+    "completion_conditions": []
+  },
+  {
+    "id": 2090537714,
+    "chain_desc_id": 463403005,
+    "name": "Brico Wagon II Quest Start",
     "completion_conditions": []
   },
   {
