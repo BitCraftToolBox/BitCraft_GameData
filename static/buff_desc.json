@@ -1202,6 +1202,31 @@
     "vfx_attachment_point": "Origin"
   },
   {
+    "id": 562300971,
+    "buff_type_id": 2008201254,
+    "description": "Emperor's Gift of Health",
+    "priority": 0,
+    "duration": 7200,
+    "warn_time": 10.0,
+    "online_timestamp": false,
+    "beneficial": true,
+    "icon_asset_name": "\\uFFB7",
+    "stats": [
+      {
+        "id": "MaxHealth",
+        "value": 50.0,
+        "is_pct": false
+      },
+      {
+        "id": "ActiveHealthRegenRate",
+        "value": 0.1,
+        "is_pct": false
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
     "id": 567143384,
     "buff_type_id": 861783812,
     "description": "Level 4 Action Speed",

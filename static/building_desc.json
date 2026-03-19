@@ -27277,7 +27277,7 @@
     "functions": [
       {
         "function_type": 8,
-        "level": 6,
+        "level": 9,
         "crafting_slots": 0,
         "storage_slots": 0,
         "cargo_slots": 0,
@@ -27535,9 +27535,9 @@
     "functions": [
       {
         "function_type": 3,
-        "level": 8,
+        "level": 5,
         "crafting_slots": 0,
-        "storage_slots": 66,
+        "storage_slots": 48,
         "cargo_slots": 0,
         "refining_slots": 0,
         "refining_cargo_slots": 0,
@@ -27803,7 +27803,7 @@
     "functions": [
       {
         "function_type": 1002,
-        "level": 8,
+        "level": 5,
         "crafting_slots": 0,
         "storage_slots": 0,
         "cargo_slots": 0,
@@ -28204,7 +28204,7 @@
     "functions": [
       {
         "function_type": 1002,
-        "level": 8,
+        "level": 5,
         "crafting_slots": 0,
         "storage_slots": 0,
         "cargo_slots": 0,
@@ -42518,7 +42518,7 @@
     "functions": [
       {
         "function_type": 1002,
-        "level": 8,
+        "level": 5,
         "crafting_slots": 0,
         "storage_slots": 0,
         "cargo_slots": 0,
@@ -43815,7 +43815,7 @@
     "functions": [
       {
         "function_type": 1002,
-        "level": 6,
+        "level": 9,
         "crafting_slots": 0,
         "storage_slots": 0,
         "cargo_slots": 0,
@@ -53693,7 +53693,7 @@
     "functions": [
       {
         "function_type": 1002,
-        "level": 6,
+        "level": 9,
         "crafting_slots": 0,
         "storage_slots": 0,
         "cargo_slots": 0,
@@ -64191,6 +64191,55 @@
     "destroy_on_unclaim": false
   },
   {
+    "id": 461462929,
+    "functions": [
+      {
+        "function_type": 1002,
+        "level": -1,
+        "crafting_slots": 0,
+        "storage_slots": 0,
+        "cargo_slots": 0,
+        "refining_slots": 0,
+        "refining_cargo_slots": 0,
+        "item_slot_size": 6000,
+        "cargo_slot_size": 6000,
+        "trade_orders": 0,
+        "allowed_item_id_per_slot": [],
+        "concurrent_crafts_per_player": 0,
+        "terraform": false,
+        "housing_slots": 0,
+        "housing_income": 0
+      }
+    ],
+    "name": "Titan Long Rug",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/DecoTitanRug3",
+    "icon_asset_name": "PremiumIcons/TitanRectangularRug",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      {
+        "x": 0,
+        "z": 0,
+        "footprint_type": "Walkable"
+      }
+    ],
+    "max_health": 72,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 0.0,
+    "maintenance": 0.0,
+    "build_permission": "Claim",
+    "interact_permission": "Claim",
+    "has_action": true,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false,
+    "destroy_on_unclaim": false
+  },
+  {
     "id": 462513976,
     "functions": [],
     "name": "RuinDecorRuinPillar",
@@ -64491,7 +64540,7 @@
     "functions": [
       {
         "function_type": 1002,
-        "level": 6,
+        "level": 9,
         "crafting_slots": 0,
         "storage_slots": 0,
         "cargo_slots": 0,
@@ -68062,7 +68111,7 @@
     "functions": [
       {
         "function_type": 1002,
-        "level": 8,
+        "level": 5,
         "crafting_slots": 0,
         "storage_slots": 0,
         "cargo_slots": 0,
@@ -68834,9 +68883,9 @@
     "functions": [
       {
         "function_type": 3,
-        "level": 6,
+        "level": 9,
         "crafting_slots": 0,
-        "storage_slots": 54,
+        "storage_slots": 72,
         "cargo_slots": 0,
         "refining_slots": 0,
         "refining_cargo_slots": 0,
@@ -71973,7 +72022,7 @@
     "functions": [
       {
         "function_type": 1002,
-        "level": 8,
+        "level": 5,
         "crafting_slots": 0,
         "storage_slots": 0,
         "cargo_slots": 0,
@@ -73892,7 +73941,7 @@
     "functions": [
       {
         "function_type": 1002,
-        "level": 6,
+        "level": 9,
         "crafting_slots": 0,
         "storage_slots": 0,
         "cargo_slots": 0,
@@ -73926,6 +73975,55 @@
         "x": -1,
         "z": 0,
         "footprint_type": "Hitbox"
+      }
+    ],
+    "max_health": 72,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 0.0,
+    "maintenance": 0.0,
+    "build_permission": "Claim",
+    "interact_permission": "Claim",
+    "has_action": true,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false,
+    "destroy_on_unclaim": false
+  },
+  {
+    "id": 918291195,
+    "functions": [
+      {
+        "function_type": 1002,
+        "level": -1,
+        "crafting_slots": 0,
+        "storage_slots": 0,
+        "cargo_slots": 0,
+        "refining_slots": 0,
+        "refining_cargo_slots": 0,
+        "item_slot_size": 6000,
+        "cargo_slot_size": 6000,
+        "trade_orders": 0,
+        "allowed_item_id_per_slot": [],
+        "concurrent_crafts_per_player": 0,
+        "terraform": false,
+        "housing_slots": 0,
+        "housing_income": 0
+      }
+    ],
+    "name": "Titan Hanging Pot",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/DecoTitanPot1",
+    "icon_asset_name": "PremiumIcons/TitanHangingBasket",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      {
+        "x": 0,
+        "z": 0,
+        "footprint_type": "Walkable"
       }
     ],
     "max_health": 72,
@@ -74041,6 +74139,60 @@
     "ignore_damage": false,
     "defense_level": 10000,
     "decay": 1.0,
+    "maintenance": 0.0,
+    "build_permission": "Claim",
+    "interact_permission": "Claim",
+    "has_action": true,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false,
+    "destroy_on_unclaim": false
+  },
+  {
+    "id": 924170577,
+    "functions": [
+      {
+        "function_type": 1002,
+        "level": -1,
+        "crafting_slots": 0,
+        "storage_slots": 0,
+        "cargo_slots": 0,
+        "refining_slots": 0,
+        "refining_cargo_slots": 0,
+        "item_slot_size": 6000,
+        "cargo_slot_size": 6000,
+        "trade_orders": 0,
+        "allowed_item_id_per_slot": [],
+        "concurrent_crafts_per_player": 0,
+        "terraform": false,
+        "housing_slots": 0,
+        "housing_income": 0
+      }
+    ],
+    "name": "Titan Room Divider",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/DecoTitanRoomDivider",
+    "icon_asset_name": "PremiumIcons/TitanDivider",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      {
+        "x": 0,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 1,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      }
+    ],
+    "max_health": 72,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 0.0,
     "maintenance": 0.0,
     "build_permission": "Claim",
     "interact_permission": "Claim",
@@ -75580,10 +75732,10 @@
     "functions": [
       {
         "function_type": 3,
-        "level": 6,
+        "level": 9,
         "crafting_slots": 0,
         "storage_slots": 0,
-        "cargo_slots": 42,
+        "cargo_slots": 60,
         "refining_slots": 0,
         "refining_cargo_slots": 0,
         "item_slot_size": 60000,
@@ -79025,6 +79177,55 @@
     "destroy_on_unclaim": false
   },
   {
+    "id": 1048505984,
+    "functions": [
+      {
+        "function_type": 1002,
+        "level": -1,
+        "crafting_slots": 0,
+        "storage_slots": 0,
+        "cargo_slots": 0,
+        "refining_slots": 0,
+        "refining_cargo_slots": 0,
+        "item_slot_size": 6000,
+        "cargo_slot_size": 6000,
+        "trade_orders": 0,
+        "allowed_item_id_per_slot": [],
+        "concurrent_crafts_per_player": 0,
+        "terraform": false,
+        "housing_slots": 0,
+        "housing_income": 0
+      }
+    ],
+    "name": "Titan Red Rug",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/DecoTitanRug1",
+    "icon_asset_name": "PremiumIcons/TitanLargeRug",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      {
+        "x": 0,
+        "z": 0,
+        "footprint_type": "Walkable"
+      }
+    ],
+    "max_health": 72,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 0.0,
+    "maintenance": 0.0,
+    "build_permission": "Claim",
+    "interact_permission": "Claim",
+    "has_action": true,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false,
+    "destroy_on_unclaim": false
+  },
+  {
     "id": 1051156525,
     "functions": [],
     "name": "TowerRuinPillarLarge3",
@@ -81613,7 +81814,7 @@
     "functions": [
       {
         "function_type": 1002,
-        "level": 8,
+        "level": 5,
         "crafting_slots": 0,
         "storage_slots": 0,
         "cargo_slots": 0,
@@ -83574,7 +83775,7 @@
     "functions": [
       {
         "function_type": 1002,
-        "level": 8,
+        "level": 5,
         "crafting_slots": 0,
         "storage_slots": 0,
         "cargo_slots": 0,
@@ -84678,7 +84879,7 @@
     "functions": [
       {
         "function_type": 6,
-        "level": 6,
+        "level": 9,
         "crafting_slots": 0,
         "storage_slots": 0,
         "cargo_slots": 0,
@@ -85264,6 +85465,65 @@
     "destroy_on_unclaim": false
   },
   {
+    "id": 1363601104,
+    "functions": [
+      {
+        "function_type": 1002,
+        "level": -1,
+        "crafting_slots": 0,
+        "storage_slots": 0,
+        "cargo_slots": 0,
+        "refining_slots": 0,
+        "refining_cargo_slots": 0,
+        "item_slot_size": 6000,
+        "cargo_slot_size": 6000,
+        "trade_orders": 0,
+        "allowed_item_id_per_slot": [],
+        "concurrent_crafts_per_player": 0,
+        "terraform": false,
+        "housing_slots": 0,
+        "housing_income": 0
+      }
+    ],
+    "name": "Titan Round Table",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/DecoTitanTable1",
+    "icon_asset_name": "PremiumIcons/TitanTable",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      {
+        "x": 0,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 1,
+        "z": -1,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 0,
+        "z": -1,
+        "footprint_type": "Hitbox"
+      }
+    ],
+    "max_health": 72,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 0.0,
+    "maintenance": 0.0,
+    "build_permission": "Claim",
+    "interact_permission": "Claim",
+    "has_action": true,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false,
+    "destroy_on_unclaim": false
+  },
+  {
     "id": 1365257490,
     "functions": [],
     "name": "TownDecorTownRuinsArchwayRubble1",
@@ -85564,7 +85824,7 @@
     "functions": [
       {
         "function_type": 1002,
-        "level": 8,
+        "level": 5,
         "crafting_slots": 0,
         "storage_slots": 0,
         "cargo_slots": 0,
@@ -87047,6 +87307,65 @@
     "destroy_on_unclaim": false
   },
   {
+    "id": 1441107805,
+    "functions": [
+      {
+        "function_type": 1002,
+        "level": -1,
+        "crafting_slots": 0,
+        "storage_slots": 0,
+        "cargo_slots": 0,
+        "refining_slots": 0,
+        "refining_cargo_slots": 0,
+        "item_slot_size": 6000,
+        "cargo_slot_size": 6000,
+        "trade_orders": 0,
+        "allowed_item_id_per_slot": [],
+        "concurrent_crafts_per_player": 0,
+        "terraform": false,
+        "housing_slots": 0,
+        "housing_income": 0
+      }
+    ],
+    "name": "Titan Bed",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/DecoTitanBed",
+    "icon_asset_name": "PremiumIcons/TitanBed",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      {
+        "x": -1,
+        "z": 1,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 0,
+        "z": 1,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 0,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      }
+    ],
+    "max_health": 72,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 0.0,
+    "maintenance": 0.0,
+    "build_permission": "Claim",
+    "interact_permission": "Claim",
+    "has_action": true,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false,
+    "destroy_on_unclaim": false
+  },
+  {
     "id": 1441436391,
     "functions": [
       {
@@ -87864,6 +88183,55 @@
     "destroy_on_unclaim": false
   },
   {
+    "id": 1493198082,
+    "functions": [
+      {
+        "function_type": 1002,
+        "level": -1,
+        "crafting_slots": 0,
+        "storage_slots": 0,
+        "cargo_slots": 0,
+        "refining_slots": 0,
+        "refining_cargo_slots": 0,
+        "item_slot_size": 6000,
+        "cargo_slot_size": 6000,
+        "trade_orders": 0,
+        "allowed_item_id_per_slot": [],
+        "concurrent_crafts_per_player": 0,
+        "terraform": false,
+        "housing_slots": 0,
+        "housing_income": 0
+      }
+    ],
+    "name": "Titan Chair",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/DecoTitanChair1",
+    "icon_asset_name": "PremiumIcons/TitanChair",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      {
+        "x": 0,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      }
+    ],
+    "max_health": 72,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 0.0,
+    "maintenance": 0.0,
+    "build_permission": "Claim",
+    "interact_permission": "Claim",
+    "has_action": true,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false,
+    "destroy_on_unclaim": false
+  },
+  {
     "id": 1493654595,
     "functions": [
       {
@@ -88105,6 +88473,55 @@
       {
         "x": -1,
         "z": 1,
+        "footprint_type": "Hitbox"
+      }
+    ],
+    "max_health": 72,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 0.0,
+    "maintenance": 0.0,
+    "build_permission": "Claim",
+    "interact_permission": "Claim",
+    "has_action": true,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false,
+    "destroy_on_unclaim": false
+  },
+  {
+    "id": 1507175831,
+    "functions": [
+      {
+        "function_type": 1002,
+        "level": -1,
+        "crafting_slots": 0,
+        "storage_slots": 0,
+        "cargo_slots": 0,
+        "refining_slots": 0,
+        "refining_cargo_slots": 0,
+        "item_slot_size": 6000,
+        "cargo_slot_size": 6000,
+        "trade_orders": 0,
+        "allowed_item_id_per_slot": [],
+        "concurrent_crafts_per_player": 0,
+        "terraform": false,
+        "housing_slots": 0,
+        "housing_income": 0
+      }
+    ],
+    "name": "Titan Statue",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/DecoTitanStatue",
+    "icon_asset_name": "PremiumIcons/TitanStatue",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      {
+        "x": 0,
+        "z": 0,
         "footprint_type": "Hitbox"
       }
     ],
@@ -88701,6 +89118,60 @@
     "destroy_on_unclaim": false
   },
   {
+    "id": 1548516766,
+    "functions": [
+      {
+        "function_type": 1002,
+        "level": -1,
+        "crafting_slots": 0,
+        "storage_slots": 0,
+        "cargo_slots": 0,
+        "refining_slots": 0,
+        "refining_cargo_slots": 0,
+        "item_slot_size": 6000,
+        "cargo_slot_size": 6000,
+        "trade_orders": 0,
+        "allowed_item_id_per_slot": [],
+        "concurrent_crafts_per_player": 0,
+        "terraform": false,
+        "housing_slots": 0,
+        "housing_income": 0
+      }
+    ],
+    "name": "Titan Shelf",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/DecoTitanDresser",
+    "icon_asset_name": "PremiumIcons/TitanDresser",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      {
+        "x": 0,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": -1,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      }
+    ],
+    "max_health": 72,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 0.0,
+    "maintenance": 0.0,
+    "build_permission": "Claim",
+    "interact_permission": "Claim",
+    "has_action": true,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false,
+    "destroy_on_unclaim": false
+  },
+  {
     "id": 1550117558,
     "functions": [],
     "name": "RuinDecorMuralWallB1_broken",
@@ -89056,7 +89527,7 @@
     "functions": [
       {
         "function_type": 1002,
-        "level": 6,
+        "level": 9,
         "crafting_slots": 0,
         "storage_slots": 0,
         "cargo_slots": 0,
@@ -89203,7 +89674,7 @@
     "name": "Clockwork Lamp",
     "description": "",
     "rested_buff_duration": 0,
-    "light_radius": 0,
+    "light_radius": 10,
     "model_asset_name": "Buildings/DecoClockworkLamp",
     "icon_asset_name": "PremiumIcons/ClockworkLamp",
     "unenterable": true,
@@ -91898,7 +92369,7 @@
     "functions": [
       {
         "function_type": 1002,
-        "level": 8,
+        "level": 5,
         "crafting_slots": 0,
         "storage_slots": 0,
         "cargo_slots": 0,
@@ -95785,6 +96256,60 @@
       {
         "x": 0,
         "z": 0,
+        "footprint_type": "Hitbox"
+      }
+    ],
+    "max_health": 72,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 0.0,
+    "maintenance": 0.0,
+    "build_permission": "Claim",
+    "interact_permission": "Claim",
+    "has_action": true,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false,
+    "destroy_on_unclaim": false
+  },
+  {
+    "id": 1707742445,
+    "functions": [
+      {
+        "function_type": 1002,
+        "level": -1,
+        "crafting_slots": 0,
+        "storage_slots": 0,
+        "cargo_slots": 0,
+        "refining_slots": 0,
+        "refining_cargo_slots": 0,
+        "item_slot_size": 6000,
+        "cargo_slot_size": 6000,
+        "trade_orders": 0,
+        "allowed_item_id_per_slot": [],
+        "concurrent_crafts_per_player": 0,
+        "terraform": false,
+        "housing_slots": 0,
+        "housing_income": 0
+      }
+    ],
+    "name": "Titan Bench",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/DecoTitanChair2",
+    "icon_asset_name": "PremiumIcons/TitanCouch",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      {
+        "x": 0,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 0,
+        "z": -1,
         "footprint_type": "Hitbox"
       }
     ],
@@ -99785,6 +100310,60 @@
     "destroy_on_unclaim": false
   },
   {
+    "id": 1791756732,
+    "functions": [
+      {
+        "function_type": 1002,
+        "level": -1,
+        "crafting_slots": 0,
+        "storage_slots": 0,
+        "cargo_slots": 0,
+        "refining_slots": 0,
+        "refining_cargo_slots": 0,
+        "item_slot_size": 6000,
+        "cargo_slot_size": 6000,
+        "trade_orders": 0,
+        "allowed_item_id_per_slot": [],
+        "concurrent_crafts_per_player": 0,
+        "terraform": false,
+        "housing_slots": 0,
+        "housing_income": 0
+      }
+    ],
+    "name": "Titan Long Table",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/DecoTitanTable2",
+    "icon_asset_name": "PremiumIcons/TitanDesk",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      {
+        "x": 0,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 1,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      }
+    ],
+    "max_health": 72,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 0.0,
+    "maintenance": 0.0,
+    "build_permission": "Claim",
+    "interact_permission": "Claim",
+    "has_action": true,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false,
+    "destroy_on_unclaim": false
+  },
+  {
     "id": 1800864019,
     "functions": [],
     "name": "RuinDecorMuralWallA8Broken",
@@ -100577,6 +101156,55 @@
     "build_permission": "Claim",
     "interact_permission": "Claim",
     "has_action": false,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false,
+    "destroy_on_unclaim": false
+  },
+  {
+    "id": 1825875214,
+    "functions": [
+      {
+        "function_type": 1002,
+        "level": -1,
+        "crafting_slots": 0,
+        "storage_slots": 0,
+        "cargo_slots": 0,
+        "refining_slots": 0,
+        "refining_cargo_slots": 0,
+        "item_slot_size": 6000,
+        "cargo_slot_size": 6000,
+        "trade_orders": 0,
+        "allowed_item_id_per_slot": [],
+        "concurrent_crafts_per_player": 0,
+        "terraform": false,
+        "housing_slots": 0,
+        "housing_income": 0
+      }
+    ],
+    "name": "Titan Gold Rug",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/DecoTitanRug2",
+    "icon_asset_name": "PremiumIcons/TitanSmallRug",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      {
+        "x": 0,
+        "z": 0,
+        "footprint_type": "Walkable"
+      }
+    ],
+    "max_health": 72,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 0.0,
+    "maintenance": 0.0,
+    "build_permission": "Claim",
+    "interact_permission": "Claim",
+    "has_action": true,
     "show_in_compendium": true,
     "is_ruins": false,
     "not_deconstructible": false,
@@ -107364,10 +107992,10 @@
     "functions": [
       {
         "function_type": 3,
-        "level": 8,
+        "level": 5,
         "crafting_slots": 0,
         "storage_slots": 0,
-        "cargo_slots": 54,
+        "cargo_slots": 36,
         "refining_slots": 0,
         "refining_cargo_slots": 0,
         "item_slot_size": 60000,
@@ -107418,7 +108046,7 @@
     "functions": [
       {
         "function_type": 1002,
-        "level": 8,
+        "level": 5,
         "crafting_slots": 0,
         "storage_slots": 0,
         "cargo_slots": 0,
@@ -107502,6 +108130,55 @@
     "ignore_damage": false,
     "defense_level": 10000,
     "decay": 1.0,
+    "maintenance": 0.0,
+    "build_permission": "Claim",
+    "interact_permission": "Claim",
+    "has_action": true,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false,
+    "destroy_on_unclaim": false
+  },
+  {
+    "id": 1861793212,
+    "functions": [
+      {
+        "function_type": 1002,
+        "level": -1,
+        "crafting_slots": 0,
+        "storage_slots": 0,
+        "cargo_slots": 0,
+        "refining_slots": 0,
+        "refining_cargo_slots": 0,
+        "item_slot_size": 6000,
+        "cargo_slot_size": 6000,
+        "trade_orders": 0,
+        "allowed_item_id_per_slot": [],
+        "concurrent_crafts_per_player": 0,
+        "terraform": false,
+        "housing_slots": 0,
+        "housing_income": 0
+      }
+    ],
+    "name": "Titan Lamp",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 10,
+    "model_asset_name": "Buildings/DecoTitanLamp",
+    "icon_asset_name": "PremiumIcons/TitanLamp",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      {
+        "x": 0,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      }
+    ],
+    "max_health": 72,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 0.0,
     "maintenance": 0.0,
     "build_permission": "Claim",
     "interact_permission": "Claim",
@@ -109026,7 +109703,7 @@
     "functions": [
       {
         "function_type": 1002,
-        "level": 8,
+        "level": 5,
         "crafting_slots": 0,
         "storage_slots": 0,
         "cargo_slots": 0,
@@ -109064,6 +109741,52 @@
     "maintenance": 0.0,
     "build_permission": "Claim",
     "interact_permission": "Claim",
+    "has_action": true,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false,
+    "destroy_on_unclaim": false
+  },
+  {
+    "id": 1952439465,
+    "functions": [],
+    "name": "Statue of Life",
+    "description": "Provides a buff to the user that gives them 50 Max Health and 0.1 active health regeneration at the cost of 25 Hexite Dust. Hexite Energy is given to the Empire that controls the land this building is on. The buff lasts 2 hours.",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/EmpireHealthBuffStatue",
+    "icon_asset_name": "GeneratedIcons/Other/Buildings/StatueOfLife",
+    "unenterable": true,
+    "wilderness": false,
+    "footprint": [
+      {
+        "x": 0,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": -1,
+        "z": 1,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": -1,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 0,
+        "z": -1,
+        "footprint_type": "Hitbox"
+      }
+    ],
+    "max_health": 10,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 1.0,
+    "maintenance": 0.0,
+    "build_permission": "Claim",
+    "interact_permission": "All",
     "has_action": true,
     "show_in_compendium": true,
     "is_ruins": false,
@@ -114780,7 +115503,7 @@
     "functions": [
       {
         "function_type": 1002,
-        "level": 6,
+        "level": 9,
         "crafting_slots": 0,
         "storage_slots": 0,
         "cargo_slots": 0,
@@ -119767,7 +120490,7 @@
     "functions": [
       {
         "function_type": 1002,
-        "level": 8,
+        "level": 5,
         "crafting_slots": 0,
         "storage_slots": 0,
         "cargo_slots": 0,
@@ -120469,7 +121192,7 @@
     "functions": [
       {
         "function_type": 1002,
-        "level": 6,
+        "level": 9,
         "crafting_slots": 0,
         "storage_slots": 0,
         "cargo_slots": 0,
@@ -120915,7 +121638,7 @@
     "functions": [
       {
         "function_type": 1002,
-        "level": 8,
+        "level": 5,
         "crafting_slots": 0,
         "storage_slots": 0,
         "cargo_slots": 0,

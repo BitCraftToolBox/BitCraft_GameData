@@ -29,6 +29,41 @@
     "is_secret": false
   },
   {
+    "id": 6654984,
+    "name": "Dressed for Success",
+    "is_hint": false,
+    "stages": [
+      537115724,
+      935938423,
+      589943655,
+      1787419449
+    ],
+    "requirements": [
+      {
+        "Level_": {
+          "skill_id": 1,
+          "level": 15
+        }
+      },
+      {
+        "QuestChain_": 1511437178
+      }
+    ],
+    "rewards": [
+      {
+        "ItemStack_": {
+          "item_id": 965963949,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        }
+      }
+    ],
+    "implicit_rewards": [],
+    "unstartable": false,
+    "is_secret": false
+  },
+  {
     "id": 11822390,
     "name": "Culling the Umbura",
     "is_hint": false,
@@ -704,6 +739,34 @@
     "is_secret": false
   },
   {
+    "id": 378322976,
+    "name": "Basking in the Tree's Wisdom",
+    "is_hint": false,
+    "stages": [
+      1767088447,
+      1718808862,
+      671185284
+    ],
+    "requirements": [
+      {
+        "QuestChain_": 1125859549
+      }
+    ],
+    "rewards": [
+      {
+        "ItemStack_": {
+          "item_id": 1138394341,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        }
+      }
+    ],
+    "implicit_rewards": [],
+    "unstartable": false,
+    "is_secret": false
+  },
+  {
     "id": 416921588,
     "name": "A Helping Hand (III)",
     "is_hint": false,
@@ -871,6 +934,48 @@
           "quantity": 1,
           "item_type": "Item",
           "durability": 0
+        }
+      }
+    ],
+    "implicit_rewards": [],
+    "unstartable": false,
+    "is_secret": false
+  },
+  {
+    "id": 463403005,
+    "name": "Grafting Crafting",
+    "is_hint": false,
+    "stages": [
+      2090537714,
+      1197242631,
+      334722367,
+      1115039266,
+      967326662
+    ],
+    "requirements": [
+      {
+        "QuestChain_": 1762918554
+      },
+      {
+        "Level_": {
+          "skill_id": 15,
+          "level": 35
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "ItemStack_": {
+          "item_id": 1336925241,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        }
+      },
+      {
+        "Experience_": {
+          "skill_id": 15,
+          "quantity": 2100.0
         }
       }
     ],
@@ -2039,7 +2144,7 @@
     "requirements": [],
     "rewards": [],
     "implicit_rewards": [],
-    "unstartable": false,
+    "unstartable": true,
     "is_secret": false
   },
   {
