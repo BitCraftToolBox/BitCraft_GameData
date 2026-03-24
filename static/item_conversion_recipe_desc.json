@@ -13079,6 +13079,47 @@
     "recipe_performance_id": 1
   },
   {
+    "id": 137253818,
+    "name": "Hatch Uncommon Owl",
+    "time_cost": 2,
+    "stamina_cost": 1,
+    "location_context": 0,
+    "string_context": "Hatch",
+    "output_item": [
+      0,
+      {
+        "item_id": 622969684,
+        "quantity": 1,
+        "item_type": [
+          0,
+          {}
+        ],
+        "durability": [
+          0,
+          0
+        ]
+      }
+    ],
+    "input_items": [
+      [
+        1470535138,
+        1,
+        [
+          0,
+          []
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    ],
+    "required_equipment_id": 0,
+    "required_equipment_tier": 0,
+    "allow_use_hands": true,
+    "recipe_performance_id": 859
+  },
+  {
     "id": 143323990,
     "name": "Resolve Item 143323990",
     "time_cost": 1,
@@ -35670,6 +35711,47 @@
     "recipe_performance_id": 1
   },
   {
+    "id": 622969684,
+    "name": "Resolve Item 622969684",
+    "time_cost": 1,
+    "stamina_cost": 0,
+    "location_context": 0,
+    "string_context": "Collect",
+    "output_item": [
+      0,
+      {
+        "item_id": 622969684,
+        "quantity": 1,
+        "item_type": [
+          0,
+          {}
+        ],
+        "durability": [
+          1,
+          {}
+        ]
+      }
+    ],
+    "input_items": [
+      [
+        622969684,
+        1,
+        [
+          0,
+          []
+        ],
+        [
+          1,
+          []
+        ]
+      ]
+    ],
+    "required_equipment_id": 0,
+    "required_equipment_tier": 0,
+    "allow_use_hands": true,
+    "recipe_performance_id": 1
+  },
+  {
     "id": 625694053,
     "name": "Resolve Item 625694053",
     "time_cost": 1,
@@ -38702,6 +38784,47 @@
     "required_equipment_tier": 0,
     "allow_use_hands": true,
     "recipe_performance_id": 315
+  },
+  {
+    "id": 685829873,
+    "name": "Split Juicy Traveler's Fruit",
+    "time_cost": 2,
+    "stamina_cost": 1,
+    "location_context": 0,
+    "string_context": "Split up",
+    "output_item": [
+      0,
+      {
+        "item_id": 1818418717,
+        "quantity": 5,
+        "item_type": [
+          0,
+          {}
+        ],
+        "durability": [
+          0,
+          0
+        ]
+      }
+    ],
+    "input_items": [
+      [
+        437346027,
+        1,
+        [
+          0,
+          []
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    ],
+    "required_equipment_id": 0,
+    "required_equipment_tier": 0,
+    "allow_use_hands": true,
+    "recipe_performance_id": 859
   },
   {
     "id": 687085581,
