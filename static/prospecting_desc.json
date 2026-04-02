@@ -49,7 +49,7 @@
     "name": "Argent Ore Prospecting",
     "description": "Begin a hunt for Argent Ore or join a nearby hunt that's in progress. Argent ore can be used to make special jewelry and also gives a lot of experience when mined.",
     "resource_clump_id": 620414635,
-    "placeholder_resource_clump_id": 1010220448,
+    "placeholder_resource_clump_id": 1776950272,
     "enemy_ai_desc_id": 0,
     "is_aquatic_resource": false,
     "biome_requirements": [
@@ -89,6 +89,53 @@
       "quantity": 0.0
     },
     "pct_nodes_for_max_contribution": 0.0
+  },
+  {
+    "id": 192697986,
+    "name": "Swift Cervus Tracking",
+    "description": "Begin a hunt for an elusive Swift Cervus. It may not yield a lot but hunting it would bring excellent experience.",
+    "resource_clump_id": 0,
+    "placeholder_resource_clump_id": 0,
+    "enemy_ai_desc_id": 360660404,
+    "is_aquatic_resource": false,
+    "biome_requirements": [
+      2,
+      5,
+      14
+    ],
+    "equipment_requirements": [],
+    "required_items_to_start": [],
+    "required_items_to_interact_with_reward": [],
+    "consumed_items_by_ability_trigger": [],
+    "allow_aquatic_prospecting": false,
+    "bread_crumb_count": [
+      6,
+      6
+    ],
+    "bread_crumb_radius": [
+      10,
+      20
+    ],
+    "distance_between_bread_crumbs": [
+      200,
+      240
+    ],
+    "deadzone_angle_between_crumbs": 90.0,
+    "allow_aquatic_bread_crumb": false,
+    "pointer_duration": 4.0,
+    "prospecting_duration": 3.0,
+    "join_radius": 80,
+    "contribution_per_visited_bread_crumb": 3,
+    "breadcrumb_found_message": "You're hot on it's trail!",
+    "resource_uncovered_message": "You see the Cervus",
+    "breadcrumb_found_by_someone_else_message": "You are able to follow someone else's tracks",
+    "resource_uncovered_by_someone_else_message": "You are able to follow someone else's tracks to the swift cervus!",
+    "icon_asset_path": "\uffeb",
+    "experience_per_node": {
+      "skill_id": 9,
+      "quantity": 0.0
+    },
+    "pct_nodes_for_max_contribution": 50.0
   },
   {
     "id": 262495756,

@@ -226,6 +226,12 @@
     "completion_conditions": []
   },
   {
+    "id": 72228870,
+    "chain_desc_id": 1433977552,
+    "name": "Alesi First Dialogue - Level 80 Taming Exp Quest",
+    "completion_conditions": []
+  },
+  {
     "id": 76679671,
     "chain_desc_id": 1843874604,
     "name": "Craft Reinforced Skiff Hull - First Skiff Upgrade",
@@ -278,6 +284,12 @@
     "id": 94917401,
     "chain_desc_id": 11822390,
     "name": "Ramparte First Dialogue - Slayer Dual Dagger Training",
+    "completion_conditions": []
+  },
+  {
+    "id": 104822636,
+    "chain_desc_id": 196368405,
+    "name": "Svim Final Dialogue - Level 100 Sailing Exp Quest",
     "completion_conditions": []
   },
   {
@@ -361,15 +373,15 @@
     ]
   },
   {
-    "id": 117749768,
-    "chain_desc_id": 1986224772,
-    "name": "WispPopupWaystones",
+    "id": 117592202,
+    "chain_desc_id": 1892030667,
+    "name": "Talk to Alesi - Level 70 Taming Exp Quest",
     "completion_conditions": []
   },
   {
-    "id": 118661712,
-    "chain_desc_id": 1,
-    "name": "Learn Sprinting",
+    "id": 117749768,
+    "chain_desc_id": 1986224772,
+    "name": "WispPopupWaystones",
     "completion_conditions": []
   },
   {
@@ -587,6 +599,12 @@
     "completion_conditions": []
   },
   {
+    "id": 170393788,
+    "chain_desc_id": 478407897,
+    "name": "Rumbagh Final Dialogue - Level 90 Merchanting Exp Quest",
+    "completion_conditions": []
+  },
+  {
     "id": 176011293,
     "chain_desc_id": 1435788604,
     "name": "First Talk to Svim - Default Clipper",
@@ -659,15 +677,70 @@
     "completion_conditions": []
   },
   {
+    "id": 208894328,
+    "chain_desc_id": 1443976191,
+    "name": "Gather Materials for Brico - Level 90 Construction Exp Quest",
+    "completion_conditions": [
+      [
+        1,
+        [
+          [
+            834413277,
+            50,
+            [
+              0,
+              []
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          true
+        ]
+      ],
+      [
+        1,
+        [
+          [
+            390845943,
+            20,
+            [
+              0,
+              []
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          true
+        ]
+      ]
+    ]
+  },
+  {
     "id": 212222318,
     "chain_desc_id": 1536298064,
     "name": "Do Ramparte Task Quest",
     "completion_conditions": []
   },
   {
+    "id": 212445245,
+    "chain_desc_id": 702803829,
+    "name": "Svim First Dialogue - Level 90 Sailing Exp Quest",
+    "completion_conditions": []
+  },
+  {
     "id": 221934802,
     "chain_desc_id": 186876140,
     "name": "Heimlich First Dialogue - Level 20 Cooking Exp Quest",
+    "completion_conditions": []
+  },
+  {
+    "id": 223438208,
+    "chain_desc_id": 196368405,
+    "name": "Talk to Svim - Level 100 Sailing Exp Quest",
     "completion_conditions": []
   },
   {
@@ -810,6 +883,12 @@
     ]
   },
   {
+    "id": 278101501,
+    "chain_desc_id": 1593952305,
+    "name": "Talk to Heimlich - Level 100 Cooking Exp Quest",
+    "completion_conditions": []
+  },
+  {
     "id": 284161573,
     "chain_desc_id": 1999118607,
     "name": "Bring Rumbagh Materials - Level 40 Merchanting Experience Quest",
@@ -877,10 +956,95 @@
     "completion_conditions": []
   },
   {
+    "id": 286020039,
+    "chain_desc_id": 1443976191,
+    "name": "Talk to Brico - Level 90 Construction Exp Quest",
+    "completion_conditions": []
+  },
+  {
     "id": 286508338,
     "chain_desc_id": 354296535,
     "name": "Return to Twins After Tools",
     "completion_conditions": []
+  },
+  {
+    "id": 295928864,
+    "chain_desc_id": 1584129980,
+    "name": "Gather Materials for Svim - Level 80 Sailing Exp Quest",
+    "completion_conditions": [
+      [
+        1,
+        [
+          [
+            28056473,
+            60,
+            [
+              0,
+              []
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          true
+        ]
+      ],
+      [
+        1,
+        [
+          [
+            136406464,
+            15,
+            [
+              0,
+              []
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          true
+        ]
+      ],
+      [
+        1,
+        [
+          [
+            448297337,
+            20,
+            [
+              0,
+              []
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          true
+        ]
+      ],
+      [
+        1,
+        [
+          [
+            1303231672,
+            20,
+            [
+              0,
+              []
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          true
+        ]
+      ]
+    ]
   },
   {
     "id": 306349279,
@@ -956,6 +1120,18 @@
     "completion_conditions": []
   },
   {
+    "id": 321323506,
+    "chain_desc_id": 315978683,
+    "name": "Heimlich First Dialogue - Level 80 Cooking Exp Quest",
+    "completion_conditions": []
+  },
+  {
+    "id": 332684447,
+    "chain_desc_id": 668416359,
+    "name": "Talk to Heimlich - Level 90 Cooking Exp Quest",
+    "completion_conditions": []
+  },
+  {
     "id": 332818258,
     "chain_desc_id": 1,
     "name": "Equip Tools Quest",
@@ -995,6 +1171,12 @@
     "id": 353872225,
     "chain_desc_id": 2105342661,
     "name": "Alesi Second Dialogue - Nubi Goat III",
+    "completion_conditions": []
+  },
+  {
+    "id": 360540318,
+    "chain_desc_id": 478407897,
+    "name": "Rumbagh First Dialogue - Level 90 Merchanting Exp Quest",
     "completion_conditions": []
   },
   {
@@ -1089,9 +1271,76 @@
     "completion_conditions": []
   },
   {
+    "id": 383895630,
+    "chain_desc_id": 315978683,
+    "name": "Gather Materials for Heimlich - Level 80 Cooking Exp Quest",
+    "completion_conditions": [
+      [
+        1,
+        [
+          [
+            1229162977,
+            70,
+            [
+              0,
+              []
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          true
+        ]
+      ],
+      [
+        1,
+        [
+          [
+            1971526319,
+            120,
+            [
+              0,
+              []
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          true
+        ]
+      ],
+      [
+        1,
+        [
+          [
+            1981238432,
+            60,
+            [
+              0,
+              []
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          true
+        ]
+      ]
+    ]
+  },
+  {
     "id": 386335499,
     "chain_desc_id": 424185181,
     "name": "Alesi Final Dialogue - Ox Unlock Quest",
+    "completion_conditions": []
+  },
+  {
+    "id": 386994670,
+    "chain_desc_id": 1593952305,
+    "name": "Heimlich Final Dialogue - Level 100 Cooking Exp Quest",
     "completion_conditions": []
   },
   {
@@ -1104,6 +1353,12 @@
     "id": 397781217,
     "chain_desc_id": 583027027,
     "name": "Svim First Dialogue - Level 40 Sailing",
+    "completion_conditions": []
+  },
+  {
+    "id": 401320993,
+    "chain_desc_id": 1794473731,
+    "name": "Rumbagh Final Dialogue - Level 70 Merchanting Exp Quest",
     "completion_conditions": []
   },
   {
@@ -1168,6 +1423,12 @@
     ]
   },
   {
+    "id": 404013417,
+    "chain_desc_id": 702803829,
+    "name": "Talk to Svim - Level 90 Sailing Exp Quest",
+    "completion_conditions": []
+  },
+  {
     "id": 406404931,
     "chain_desc_id": 1,
     "name": "Attune to Statue Quest",
@@ -1177,6 +1438,12 @@
     "id": 407316691,
     "chain_desc_id": 557763216,
     "name": "Good Job On Cloth",
+    "completion_conditions": []
+  },
+  {
+    "id": 407720464,
+    "chain_desc_id": 1443976191,
+    "name": "Final Dialogue - Level 90 Construction Exp Quest",
     "completion_conditions": []
   },
   {
@@ -1198,6 +1465,67 @@
       [
         5,
         1722490832
+      ]
+    ]
+  },
+  {
+    "id": 415137254,
+    "chain_desc_id": 1037743532,
+    "name": "Gather Materials for Heimlich - Level 70 Cooking Exp Quest",
+    "completion_conditions": [
+      [
+        1,
+        [
+          [
+            1371278217,
+            65,
+            [
+              0,
+              []
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          true
+        ]
+      ],
+      [
+        1,
+        [
+          [
+            1188640605,
+            110,
+            [
+              0,
+              []
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          true
+        ]
+      ],
+      [
+        1,
+        [
+          [
+            1695618883,
+            110,
+            [
+              0,
+              []
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          true
+        ]
       ]
     ]
   },
@@ -1296,7 +1624,62 @@
     "id": 443830013,
     "chain_desc_id": 1945676217,
     "name": "Gather Food and Medicine for Alesi - Level 60 Taming Exp Quest",
-    "completion_conditions": []
+    "completion_conditions": [
+      [
+        1,
+        [
+          [
+            6100006,
+            10,
+            [
+              0,
+              []
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          true
+        ]
+      ],
+      [
+        1,
+        [
+          [
+            6100009,
+            10,
+            [
+              0,
+              []
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          true
+        ]
+      ],
+      [
+        1,
+        [
+          [
+            150119774,
+            30,
+            [
+              0,
+              []
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          true
+        ]
+      ]
+    ]
   },
   {
     "id": 453762148,
@@ -1361,6 +1744,49 @@
     "chain_desc_id": 976217825,
     "name": "Charge heart at font quest",
     "completion_conditions": []
+  },
+  {
+    "id": 481796809,
+    "chain_desc_id": 803146736,
+    "name": "Gather Materials for Rumbagh - Level 100 Merchanting Exp Quest",
+    "completion_conditions": [
+      [
+        1,
+        [
+          [
+            254492415,
+            50,
+            [
+              0,
+              []
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          true
+        ]
+      ],
+      [
+        1,
+        [
+          [
+            1754789660,
+            25,
+            [
+              0,
+              []
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          true
+        ]
+      ]
+    ]
   },
   {
     "id": 483329042,
@@ -1526,6 +1952,12 @@
     "completion_conditions": []
   },
   {
+    "id": 518433653,
+    "chain_desc_id": 196368405,
+    "name": "Svim First Dialogue - Level 100 Sailing Exp Quest",
+    "completion_conditions": []
+  },
+  {
     "id": 518681747,
     "chain_desc_id": 371815384,
     "name": "Good Job On Bricks",
@@ -1538,10 +1970,77 @@
     "completion_conditions": []
   },
   {
+    "id": 524929235,
+    "chain_desc_id": 197075384,
+    "name": "Final Dialogue Brico - Level 80 Construction Exp Quest",
+    "completion_conditions": []
+  },
+  {
     "id": 525937029,
     "chain_desc_id": 11822390,
     "name": "Ramparte Final Dialogue - Slayer Dual Dagger Training",
     "completion_conditions": []
+  },
+  {
+    "id": 527251016,
+    "chain_desc_id": 668416359,
+    "name": "Gather Materials for Heimlich - Level 90 Cooking Exp Quest",
+    "completion_conditions": [
+      [
+        1,
+        [
+          [
+            538920616,
+            70,
+            [
+              0,
+              []
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          true
+        ]
+      ],
+      [
+        1,
+        [
+          [
+            892842742,
+            120,
+            [
+              0,
+              []
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          true
+        ]
+      ],
+      [
+        1,
+        [
+          [
+            1608154701,
+            120,
+            [
+              0,
+              []
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          true
+        ]
+      ]
+    ]
   },
   {
     "id": 530102399,
@@ -1565,6 +2064,12 @@
     "id": 537115724,
     "chain_desc_id": 6654984,
     "name": "Talk to Rumbagh - Equipment Preset Unlock",
+    "completion_conditions": []
+  },
+  {
+    "id": 538532785,
+    "chain_desc_id": 1334989176,
+    "name": "Talk to Svim - Level 70 Sailing Exp Quest",
     "completion_conditions": []
   },
   {
@@ -1817,6 +2322,12 @@
     "completion_conditions": []
   },
   {
+    "id": 647626522,
+    "chain_desc_id": 1794473731,
+    "name": "Rumbagh First Dialogue - Level 70 Merchanting Exp Quest",
+    "completion_conditions": []
+  },
+  {
     "id": 648880145,
     "chain_desc_id": 336599736,
     "name": "Go to Second Temple Dialogue",
@@ -1859,6 +2370,12 @@
     "completion_conditions": []
   },
   {
+    "id": 678495365,
+    "chain_desc_id": 315978683,
+    "name": "Talk to Heimlich - Level 80 Cooking Exp Quest",
+    "completion_conditions": []
+  },
+  {
     "id": 680761036,
     "chain_desc_id": 1511437178,
     "name": "Add Cart to Vault Dialogue",
@@ -1894,6 +2411,12 @@
     ]
   },
   {
+    "id": 691999913,
+    "chain_desc_id": 1037743532,
+    "name": "Talk to Heimlich - Level 70 Cooking Exp Quest",
+    "completion_conditions": []
+  },
+  {
     "id": 693048005,
     "chain_desc_id": 1511437178,
     "name": "Get Roots Quest",
@@ -1903,6 +2426,12 @@
     "id": 694879601,
     "chain_desc_id": 765186915,
     "name": "Final Alesi Dialogue - Default Deer",
+    "completion_conditions": []
+  },
+  {
+    "id": 696773023,
+    "chain_desc_id": 1584129980,
+    "name": "SvimFinalDialogue - Level 80 Sailing Exp Quest",
     "completion_conditions": []
   },
   {
@@ -1967,6 +2496,12 @@
     ]
   },
   {
+    "id": 708559315,
+    "chain_desc_id": 1334989176,
+    "name": "Svim Final Dialogue - Level 70 Sailing Exp Quest",
+    "completion_conditions": []
+  },
+  {
     "id": 714550234,
     "chain_desc_id": 1463789699,
     "name": "Bring Food to Alesi - Level 30 Taming Exp Quest",
@@ -2013,6 +2548,49 @@
           [
             3130004,
             100,
+            [
+              0,
+              []
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          true
+        ]
+      ]
+    ]
+  },
+  {
+    "id": 719134133,
+    "chain_desc_id": 1660704637,
+    "name": "Gather Materials - Level 100 Construction Exp Quest",
+    "completion_conditions": [
+      [
+        1,
+        [
+          [
+            931497471,
+            50,
+            [
+              0,
+              []
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          true
+        ]
+      ],
+      [
+        1,
+        [
+          [
+            40344173,
+            20,
             [
               0,
               []
@@ -2087,6 +2665,85 @@
     "chain_desc_id": 1,
     "name": "Learn Extraction (Sticks + Flint)",
     "completion_conditions": []
+  },
+  {
+    "id": 735045497,
+    "chain_desc_id": 702803829,
+    "name": "Gather Materials for Svim - Level 90 Sailing Exp Quest",
+    "completion_conditions": [
+      [
+        1,
+        [
+          [
+            1227914325,
+            60,
+            [
+              0,
+              []
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          true
+        ]
+      ],
+      [
+        1,
+        [
+          [
+            282660928,
+            15,
+            [
+              0,
+              []
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          true
+        ]
+      ],
+      [
+        1,
+        [
+          [
+            406404931,
+            20,
+            [
+              0,
+              []
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          true
+        ]
+      ],
+      [
+        1,
+        [
+          [
+            1741714930,
+            20,
+            [
+              0,
+              []
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          true
+        ]
+      ]
+    ]
   },
   {
     "id": 737202140,
@@ -2185,9 +2842,94 @@
     "completion_conditions": []
   },
   {
+    "id": 785783017,
+    "chain_desc_id": 1334989176,
+    "name": "Bring Materials to Svim - Level 70 Sailing Exp Quest",
+    "completion_conditions": [
+      [
+        1,
+        [
+          [
+            1639308227,
+            50,
+            [
+              0,
+              []
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          true
+        ]
+      ],
+      [
+        1,
+        [
+          [
+            1610800379,
+            15,
+            [
+              0,
+              []
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          true
+        ]
+      ],
+      [
+        1,
+        [
+          [
+            406404931,
+            20,
+            [
+              0,
+              []
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          true
+        ]
+      ],
+      [
+        1,
+        [
+          [
+            1303231672,
+            20,
+            [
+              0,
+              []
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          true
+        ]
+      ]
+    ]
+  },
+  {
     "id": 788714863,
     "chain_desc_id": 51088672,
     "name": "Catch Lake Fish",
+    "completion_conditions": []
+  },
+  {
+    "id": 800242028,
+    "chain_desc_id": 1660704637,
+    "name": "Talk to Brico - Level 100 Construction Exp Quest",
     "completion_conditions": []
   },
   {
@@ -2286,6 +3028,12 @@
     ]
   },
   {
+    "id": 832816007,
+    "chain_desc_id": 1584129980,
+    "name": "Talk to Svim - Level 80 Sailing Exp Quest",
+    "completion_conditions": []
+  },
+  {
     "id": 837909353,
     "chain_desc_id": 557763216,
     "name": "CompendiumTracking",
@@ -2295,6 +3043,18 @@
     "id": 838207432,
     "chain_desc_id": 336599736,
     "name": "Go to Rumagh Quest",
+    "completion_conditions": []
+  },
+  {
+    "id": 838764494,
+    "chain_desc_id": 698417500,
+    "name": "Rumbagh First Dialogue - Level 80 Merchanting Exp Quest",
+    "completion_conditions": []
+  },
+  {
+    "id": 842505425,
+    "chain_desc_id": 803146736,
+    "name": "Rumbagh First Dialogue - Level 100 Merchanting Experience Quest",
     "completion_conditions": []
   },
   {
@@ -2340,10 +3100,77 @@
     "completion_conditions": []
   },
   {
+    "id": 869504606,
+    "chain_desc_id": 803146736,
+    "name": "Talk to Rumbagh - Level 100 Merchanting Experience Quest",
+    "completion_conditions": []
+  },
+  {
     "id": 870152545,
     "chain_desc_id": 1,
     "name": "Learn Controls",
     "completion_conditions": []
+  },
+  {
+    "id": 870668292,
+    "chain_desc_id": 1593952305,
+    "name": "Gather Materials for Heimlich - Level 100 Cooking Exp Quest",
+    "completion_conditions": [
+      [
+        1,
+        [
+          [
+            728096566,
+            70,
+            [
+              0,
+              []
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          true
+        ]
+      ],
+      [
+        1,
+        [
+          [
+            699985609,
+            120,
+            [
+              0,
+              []
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          true
+        ]
+      ],
+      [
+        1,
+        [
+          [
+            51716987,
+            120,
+            [
+              0,
+              []
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          true
+        ]
+      ]
+    ]
   },
   {
     "id": 877395349,
@@ -2396,6 +3223,18 @@
     "id": 902998530,
     "chain_desc_id": 1918226120,
     "name": "Heimlich Explains Foods",
+    "completion_conditions": []
+  },
+  {
+    "id": 905594895,
+    "chain_desc_id": 803146736,
+    "name": "Rumbagh Final Dialogue - Level 100 Merchanting Experience Quest",
+    "completion_conditions": []
+  },
+  {
+    "id": 907208019,
+    "chain_desc_id": 1037743532,
+    "name": "Heimlich Dialogue - Level 70 Cooking Exp Quest",
     "completion_conditions": []
   },
   {
@@ -2475,6 +3314,67 @@
           [
             1303231672,
             20,
+            [
+              0,
+              []
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          true
+        ]
+      ]
+    ]
+  },
+  {
+    "id": 925250017,
+    "chain_desc_id": 1433977552,
+    "name": "Gather Materials for Alesi - Level 80 Taming Exp Quest",
+    "completion_conditions": [
+      [
+        1,
+        [
+          [
+            1490118433,
+            15,
+            [
+              0,
+              []
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          true
+        ]
+      ],
+      [
+        1,
+        [
+          [
+            1971157573,
+            15,
+            [
+              0,
+              []
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          true
+        ]
+      ],
+      [
+        1,
+        [
+          [
+            2114450653,
+            40,
             [
               0,
               []
@@ -2581,6 +3481,12 @@
     ]
   },
   {
+    "id": 930804517,
+    "chain_desc_id": 1268807347,
+    "name": "Brico First Dialogue - Level 70 Construction Exp Quest",
+    "completion_conditions": []
+  },
+  {
     "id": 935938423,
     "chain_desc_id": 6654984,
     "name": "Rumbagh First Dialogue - Equipment Preset Unlock",
@@ -2596,6 +3502,12 @@
     "id": 942780210,
     "chain_desc_id": 1569942624,
     "name": "Talk to Heimlich - Level 50 Cooking Exp Quest",
+    "completion_conditions": []
+  },
+  {
+    "id": 944044214,
+    "chain_desc_id": 1268807347,
+    "name": "Talk to Brico - Level 70 Construction Exp Quest",
     "completion_conditions": []
   },
   {
@@ -2687,6 +3599,12 @@
     "id": 979372860,
     "chain_desc_id": 1793465882,
     "name": "Go Inside and Get Charged Dialogue",
+    "completion_conditions": []
+  },
+  {
+    "id": 979609391,
+    "chain_desc_id": 197075384,
+    "name": "Talk to Brico - Level 80 Construction Exp Quest",
     "completion_conditions": []
   },
   {
@@ -2811,6 +3729,12 @@
     "completion_conditions": []
   },
   {
+    "id": 1023756424,
+    "chain_desc_id": 1892030667,
+    "name": "Alesi First Dialogue - Level 70 Taming Exp Quest",
+    "completion_conditions": []
+  },
+  {
     "id": 1025517868,
     "chain_desc_id": 1918226120,
     "name": "Heimlich asks you to do a Task",
@@ -2893,6 +3817,12 @@
     "id": 1041132629,
     "chain_desc_id": 1958755356,
     "name": "Talk to Svim - Level 60 Sailing Exp Quest",
+    "completion_conditions": []
+  },
+  {
+    "id": 1043804939,
+    "chain_desc_id": 197075384,
+    "name": "Brico First Dialogue - Level 80 Construction Exp Quest",
     "completion_conditions": []
   },
   {
@@ -3089,6 +4019,12 @@
     "completion_conditions": []
   },
   {
+    "id": 1109062955,
+    "chain_desc_id": 702803829,
+    "name": "Svim Final Dialogue - Level 90 Sailing Exp Quest",
+    "completion_conditions": []
+  },
+  {
     "id": 1114299867,
     "chain_desc_id": 1704867030,
     "name": "Rumbagh Final Dialogue - Default Cache Unlock",
@@ -3225,6 +4161,12 @@
     "id": 1165246958,
     "chain_desc_id": 1793465882,
     "name": "Go to Rumbagh Quest",
+    "completion_conditions": []
+  },
+  {
+    "id": 1169435949,
+    "chain_desc_id": 698417500,
+    "name": "Rumbagh Final Dialogue - Level 80 Merchanting Exp Quest",
     "completion_conditions": []
   },
   {
@@ -3404,6 +4346,49 @@
     ]
   },
   {
+    "id": 1197183913,
+    "chain_desc_id": 1794473731,
+    "name": "Gather Materials for Rumbagh - Level 70 Merchanting Exp Quest",
+    "completion_conditions": [
+      [
+        1,
+        [
+          [
+            113276733,
+            40,
+            [
+              0,
+              []
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          true
+        ]
+      ],
+      [
+        1,
+        [
+          [
+            365949150,
+            25,
+            [
+              0,
+              []
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          true
+        ]
+      ]
+    ]
+  },
+  {
     "id": 1197242631,
     "chain_desc_id": 463403005,
     "name": "Brico First Dialogue Wagon II",
@@ -3487,6 +4472,67 @@
     "completion_conditions": []
   },
   {
+    "id": 1252107471,
+    "chain_desc_id": 929721823,
+    "name": "Gather Materials for Alesi - Level 100 Taming Exp Quest",
+    "completion_conditions": [
+      [
+        1,
+        [
+          [
+            1150025188,
+            15,
+            [
+              0,
+              []
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          true
+        ]
+      ],
+      [
+        1,
+        [
+          [
+            996092646,
+            15,
+            [
+              0,
+              []
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          true
+        ]
+      ],
+      [
+        1,
+        [
+          [
+            2011003333,
+            40,
+            [
+              0,
+              []
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          true
+        ]
+      ]
+    ]
+  },
+  {
     "id": 1262503209,
     "chain_desc_id": 416921588,
     "name": "Alesi Second Dialogue - Level 40 Taming Exp Quest",
@@ -3505,9 +4551,21 @@
     "completion_conditions": []
   },
   {
+    "id": 1280192945,
+    "chain_desc_id": 478407897,
+    "name": "Talk to Rumbagh - Level 90 Merchanting Exp Quest",
+    "completion_conditions": []
+  },
+  {
     "id": 1282798433,
     "chain_desc_id": 1842217612,
     "name": "Speak To Ramparte",
+    "completion_conditions": []
+  },
+  {
+    "id": 1286900406,
+    "chain_desc_id": 1874904586,
+    "name": "Talk to Alesi - Level 90 Taming Exp Quest",
     "completion_conditions": []
   },
   {
@@ -3520,6 +4578,12 @@
     "id": 1290184189,
     "chain_desc_id": 2082411756,
     "name": "Brico Final Dialogue - Level 40 Construction Experience Quest",
+    "completion_conditions": []
+  },
+  {
+    "id": 1295099148,
+    "chain_desc_id": 1433977552,
+    "name": "Alesi Final Dialogue - Level 80 Taming Exp Quest",
     "completion_conditions": []
   },
   {
@@ -3645,6 +4709,12 @@
     "completion_conditions": []
   },
   {
+    "id": 1328096358,
+    "chain_desc_id": 929721823,
+    "name": "Talk to Alesi - Level 100 Taming Exp Quest",
+    "completion_conditions": []
+  },
+  {
     "id": 1333956876,
     "chain_desc_id": 751817487,
     "name": "Ramparte Tells you to use an ability Quest",
@@ -3753,6 +4823,73 @@
     ]
   },
   {
+    "id": 1363711279,
+    "chain_desc_id": 1892030667,
+    "name": "Gather Materials for Alesi - Level 70 Taming Exp Quest",
+    "completion_conditions": [
+      [
+        1,
+        [
+          [
+            294983155,
+            15,
+            [
+              0,
+              []
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          true
+        ]
+      ],
+      [
+        1,
+        [
+          [
+            810845550,
+            15,
+            [
+              0,
+              []
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          true
+        ]
+      ],
+      [
+        1,
+        [
+          [
+            1595786521,
+            30,
+            [
+              0,
+              []
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          true
+        ]
+      ]
+    ]
+  },
+  {
+    "id": 1370677905,
+    "chain_desc_id": 1433977552,
+    "name": "Talk to Alesi - Level 80 Taming Exp Quest",
+    "completion_conditions": []
+  },
+  {
     "id": 1372343149,
     "chain_desc_id": 277069635,
     "name": "Coconut Start Quest",
@@ -3780,6 +4917,12 @@
     "id": 1384601401,
     "chain_desc_id": 1523998557,
     "name": "Explain Market",
+    "completion_conditions": []
+  },
+  {
+    "id": 1393064310,
+    "chain_desc_id": 1874904586,
+    "name": "Alesi Final Dialogue - Level 90 Taming Exp Quest",
     "completion_conditions": []
   },
   {
@@ -4065,6 +5208,49 @@
     ]
   },
   {
+    "id": 1438019616,
+    "chain_desc_id": 1268807347,
+    "name": "Gather Materials for Brico - Level 70 Construction Exp Quest",
+    "completion_conditions": [
+      [
+        1,
+        [
+          [
+            813610254,
+            40,
+            [
+              0,
+              []
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          true
+        ]
+      ],
+      [
+        1,
+        [
+          [
+            1425039947,
+            20,
+            [
+              0,
+              []
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          true
+        ]
+      ]
+    ]
+  },
+  {
     "id": 1438268605,
     "chain_desc_id": 1,
     "name": "Go To Ruined Town",
@@ -4104,6 +5290,12 @@
     "id": 1450106598,
     "chain_desc_id": 51088672,
     "name": "Good Job on Cooked Fish",
+    "completion_conditions": []
+  },
+  {
+    "id": 1457689026,
+    "chain_desc_id": 1584129980,
+    "name": "Svim First Dialogue - Level 80 Sailing Exp Quest",
     "completion_conditions": []
   },
   {
@@ -4496,6 +5688,12 @@
     "completion_conditions": []
   },
   {
+    "id": 1555565816,
+    "chain_desc_id": 1660704637,
+    "name": "Brico Final Dialogue - Level 100 Construction Exp Quest",
+    "completion_conditions": []
+  },
+  {
     "id": 1556002607,
     "chain_desc_id": 1842217612,
     "name": "WispTellsUsToUseCompendium",
@@ -4505,6 +5703,12 @@
     "id": 1557269594,
     "chain_desc_id": 1523998557,
     "name": "Meet Rumbagh",
+    "completion_conditions": []
+  },
+  {
+    "id": 1563148314,
+    "chain_desc_id": 1660704637,
+    "name": "Brico First Dialogue - Level 100 Construction Exp Quest",
     "completion_conditions": []
   },
   {
@@ -4672,10 +5876,59 @@
     "completion_conditions": []
   },
   {
+    "id": 1591755441,
+    "chain_desc_id": 929721823,
+    "name": "Alesi First Dialogue - Level 100 Taming Exp Quest",
+    "completion_conditions": []
+  },
+  {
     "id": 1606854234,
     "chain_desc_id": 1842217612,
     "name": "Make Molten Quest",
     "completion_conditions": []
+  },
+  {
+    "id": 1609161634,
+    "chain_desc_id": 698417500,
+    "name": "Gather Materials for Rumbagh - Level 80 Merchanting Exp Quest",
+    "completion_conditions": [
+      [
+        1,
+        [
+          [
+            95989045,
+            50,
+            [
+              0,
+              []
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          true
+        ]
+      ],
+      [
+        1,
+        [
+          [
+            398010040,
+            25,
+            [
+              0,
+              []
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          true
+        ]
+      ]
+    ]
   },
   {
     "id": 1613864881,
@@ -4724,6 +5977,12 @@
     "id": 1614535885,
     "chain_desc_id": 976217825,
     "name": "Rumbagh explains the heart",
+    "completion_conditions": []
+  },
+  {
+    "id": 1622695863,
+    "chain_desc_id": 1334989176,
+    "name": "Svim Dialogue - Level 70 Sailing Exp Quest",
     "completion_conditions": []
   },
   {
@@ -4782,6 +6041,12 @@
     "completion_conditions": []
   },
   {
+    "id": 1634283116,
+    "chain_desc_id": 929721823,
+    "name": "Alesi Final Dialogue - Level 100 Taming Exp Quest",
+    "completion_conditions": []
+  },
+  {
     "id": 1634881297,
     "chain_desc_id": 765186915,
     "name": "Take Flowers and Berries to Alesi - Default Deer",
@@ -4837,6 +6102,55 @@
     "completion_conditions": []
   },
   {
+    "id": 1652870178,
+    "chain_desc_id": 197075384,
+    "name": "Gather Materials for Brico - Level 80 Construction Exp Quest",
+    "completion_conditions": [
+      [
+        1,
+        [
+          [
+            1221137435,
+            50,
+            [
+              0,
+              []
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          true
+        ]
+      ],
+      [
+        1,
+        [
+          [
+            1532060493,
+            20,
+            [
+              0,
+              []
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          true
+        ]
+      ]
+    ]
+  },
+  {
+    "id": 1656279780,
+    "chain_desc_id": 698417500,
+    "name": "Talk to Rumbagh - Level 80 Merchanting Exp Quest",
+    "completion_conditions": []
+  },
+  {
     "id": 1657385508,
     "chain_desc_id": 1882932298,
     "name": "Heimlich First Dialogue - Level 40 Cooking Exp Quest",
@@ -4853,6 +6167,85 @@
     "chain_desc_id": 354296535,
     "name": "Wisp Suggests An Upgrade",
     "completion_conditions": []
+  },
+  {
+    "id": 1676865840,
+    "chain_desc_id": 196368405,
+    "name": "Gather Materials for Svim - Level 100 Sailing Exp Quest",
+    "completion_conditions": [
+      [
+        1,
+        [
+          [
+            117329467,
+            60,
+            [
+              0,
+              []
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          true
+        ]
+      ],
+      [
+        1,
+        [
+          [
+            35270576,
+            15,
+            [
+              0,
+              []
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          true
+        ]
+      ],
+      [
+        1,
+        [
+          [
+            1303231672,
+            20,
+            [
+              0,
+              []
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          true
+        ]
+      ],
+      [
+        1,
+        [
+          [
+            1741714930,
+            20,
+            [
+              0,
+              []
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          true
+        ]
+      ]
+    ]
   },
   {
     "id": 1678121384,
@@ -4985,6 +6378,12 @@
     "completion_conditions": []
   },
   {
+    "id": 1756309784,
+    "chain_desc_id": 315978683,
+    "name": "Heimlich Final Dialogue - Level 80 Cooking Exp Quest",
+    "completion_conditions": []
+  },
+  {
     "id": 1760677436,
     "chain_desc_id": 1043927455,
     "name": "Get Achievement Points Quest",
@@ -4994,6 +6393,18 @@
     "id": 1767088447,
     "chain_desc_id": 378322976,
     "name": "Wisp Starting Dialogue - Bask Unlock Quest",
+    "completion_conditions": []
+  },
+  {
+    "id": 1772963541,
+    "chain_desc_id": 668416359,
+    "name": "Heimlich First Dialogue - Level 90 Cooking Exp Quest",
+    "completion_conditions": []
+  },
+  {
+    "id": 1779440523,
+    "chain_desc_id": 1892030667,
+    "name": "Alesi Final Dialogue - Level 70 Taming Exp Quest",
     "completion_conditions": []
   },
   {
@@ -5105,15 +6516,70 @@
     "completion_conditions": []
   },
   {
+    "id": 1804858343,
+    "chain_desc_id": 478407897,
+    "name": "Gather Materials For Rumbagh - Level 90 Merchanting Exp Quest",
+    "completion_conditions": [
+      [
+        1,
+        [
+          [
+            1987836568,
+            50,
+            [
+              0,
+              []
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          true
+        ]
+      ],
+      [
+        1,
+        [
+          [
+            1429176413,
+            25,
+            [
+              0,
+              []
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          true
+        ]
+      ]
+    ]
+  },
+  {
     "id": 1810612425,
     "chain_desc_id": 333616920,
     "name": "Lets go Outside Dialogue",
     "completion_conditions": []
   },
   {
+    "id": 1811305942,
+    "chain_desc_id": 668416359,
+    "name": "Heimlich Final Dialogue - Level 90 Cooking Exp Quest",
+    "completion_conditions": []
+  },
+  {
     "id": 1816059959,
     "chain_desc_id": 636450923,
     "name": "Brico First Dialogue - Cart II Unlock",
+    "completion_conditions": []
+  },
+  {
+    "id": 1817683026,
+    "chain_desc_id": 1443976191,
+    "name": "Brico First Dialogue - Level 90 Construction Exp Quest",
     "completion_conditions": []
   },
   {
@@ -5198,6 +6664,12 @@
     "id": 1864947694,
     "chain_desc_id": 186876140,
     "name": "Heimlich Final Dialogue - Level 20 Cooking Exp Quest",
+    "completion_conditions": []
+  },
+  {
+    "id": 1865142146,
+    "chain_desc_id": 1794473731,
+    "name": "Talk to Rumbagh - Level 70 Merchanting Exp Quest",
     "completion_conditions": []
   },
   {
@@ -5357,6 +6829,12 @@
     "id": 1894797947,
     "chain_desc_id": 354296535,
     "name": "Twins Explain Tool Level",
+    "completion_conditions": []
+  },
+  {
+    "id": 1898769998,
+    "chain_desc_id": 1268807347,
+    "name": "Brico Final Dialogue - Level 70 Construction Exp Quest",
     "completion_conditions": []
   },
   {
@@ -5577,6 +7055,12 @@
     "completion_conditions": []
   },
   {
+    "id": 1983782289,
+    "chain_desc_id": 1874904586,
+    "name": "Alesi First Dialogue - Level 90 Taming Exp Quest",
+    "completion_conditions": []
+  },
+  {
     "id": 1990597778,
     "chain_desc_id": 871400259,
     "name": "Craft Water Bucket",
@@ -5611,6 +7095,67 @@
     "chain_desc_id": 1699433943,
     "name": "Go to Rumbagh Quest",
     "completion_conditions": []
+  },
+  {
+    "id": 2015021976,
+    "chain_desc_id": 1874904586,
+    "name": "Gather Materials for Alesi - Level 90 Taming Exp Quest",
+    "completion_conditions": [
+      [
+        1,
+        [
+          [
+            984024387,
+            15,
+            [
+              0,
+              []
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          true
+        ]
+      ],
+      [
+        1,
+        [
+          [
+            600219259,
+            15,
+            [
+              0,
+              []
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          true
+        ]
+      ],
+      [
+        1,
+        [
+          [
+            1633320160,
+            40,
+            [
+              0,
+              []
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          true
+        ]
+      ]
+    ]
   },
   {
     "id": 2016248165,
@@ -5665,6 +7210,12 @@
     "id": 2033526812,
     "chain_desc_id": 566211269,
     "name": "Talk to Alesi First - Hunting Goat Unlock",
+    "completion_conditions": []
+  },
+  {
+    "id": 2039070486,
+    "chain_desc_id": 1593952305,
+    "name": "Heimlich First Dialogue - Level 100 Cooking Exp Quest",
     "completion_conditions": []
   },
   {
@@ -5870,7 +7421,7 @@
   {
     "id": 2072596421,
     "chain_desc_id": 1,
-    "name": "Input Username",
+    "name": "Input Username and Learn Sprint",
     "completion_conditions": []
   },
   {
@@ -5938,6 +7489,12 @@
     "id": 2104375936,
     "chain_desc_id": 1463250815,
     "name": "Talk to Alesi - Feline Mask Unlock",
+    "completion_conditions": []
+  },
+  {
+    "id": 2108594611,
+    "chain_desc_id": 1037743532,
+    "name": "Heimlich Final Dialogue - Level 70 Cooking Exp Quest",
     "completion_conditions": []
   },
   {

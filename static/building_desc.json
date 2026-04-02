@@ -40002,6 +40002,256 @@
     "destroy_on_unclaim": false
   },
   {
+    "id": 194489660,
+    "functions": [
+      [
+        999,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6000,
+        6000,
+        0,
+        [],
+        0,
+        false,
+        0,
+        0
+      ]
+    ],
+    "name": "Overgrown Mine",
+    "description": "Ancient Ruins",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/OvergrownMine",
+    "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Other/Buildings/Enterable/Cave",
+    "unenterable": false,
+    "wilderness": true,
+    "footprint": [
+      [
+        -1,
+        1,
+        [
+          1,
+          []
+        ]
+      ],
+      [
+        -2,
+        2,
+        [
+          1,
+          []
+        ]
+      ],
+      [
+        -3,
+        2,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        -3,
+        1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        -2,
+        0,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        -1,
+        -1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        0,
+        -2,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        2,
+        -2,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        1,
+        -2,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        2,
+        -1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        2,
+        0,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        1,
+        2,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        0,
+        3,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        -1,
+        3,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        -1,
+        2,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        0,
+        0,
+        [
+          1,
+          []
+        ]
+      ],
+      [
+        1,
+        1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        0,
+        2,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        0,
+        1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        1,
+        0,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        1,
+        -1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        0,
+        -1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        -1,
+        0,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        -2,
+        1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        2,
+        1,
+        [
+          0,
+          []
+        ]
+      ]
+    ],
+    "max_health": -1,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 0.0,
+    "maintenance": 0.0,
+    "build_permission": [
+      1,
+      {}
+    ],
+    "interact_permission": [
+      1,
+      {}
+    ],
+    "has_action": true,
+    "show_in_compendium": false,
+    "is_ruins": false,
+    "not_deconstructible": true,
+    "destroy_on_unclaim": false
+  },
+  {
     "id": 196787213,
     "functions": [
       [
@@ -81484,6 +81734,64 @@
     "destroy_on_unclaim": false
   },
   {
+    "id": 396701386,
+    "functions": [
+      [
+        1002,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6000,
+        6000,
+        0,
+        [],
+        0,
+        false,
+        0,
+        0
+      ]
+    ],
+    "name": "Uncommon Uggo",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/uggoBuilding",
+    "icon_asset_name": "GeneratedIcons/Cargo/Uggo",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          0,
+          []
+        ]
+      ]
+    ],
+    "max_health": 72,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 0.0,
+    "maintenance": 0.0,
+    "build_permission": [
+      1,
+      {}
+    ],
+    "interact_permission": [
+      1,
+      {}
+    ],
+    "has_action": true,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false,
+    "destroy_on_unclaim": false
+  },
+  {
     "id": 399204585,
     "functions": [],
     "name": "SmallFenceStraightB",
@@ -119194,7 +119502,7 @@
         0
       ]
     ],
-    "name": "SkitchDungeonExit",
+    "name": "Dungeon Exit",
     "description": "used for invisible exits to interiors\n",
     "rested_buff_duration": 0,
     "light_radius": 0,
@@ -120057,6 +120365,64 @@
     ],
     "has_action": false,
     "show_in_compendium": false,
+    "is_ruins": false,
+    "not_deconstructible": false,
+    "destroy_on_unclaim": false
+  },
+  {
+    "id": 1143714311,
+    "functions": [
+      [
+        1002,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6000,
+        6000,
+        0,
+        [],
+        0,
+        false,
+        0,
+        0
+      ]
+    ],
+    "name": "Epic Uggo",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/uggoBuilding",
+    "icon_asset_name": "GeneratedIcons/Cargo/Uggo",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          0,
+          []
+        ]
+      ]
+    ],
+    "max_health": 72,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 0.0,
+    "maintenance": 0.0,
+    "build_permission": [
+      1,
+      {}
+    ],
+    "interact_permission": [
+      1,
+      {}
+    ],
+    "has_action": true,
+    "show_in_compendium": true,
     "is_ruins": false,
     "not_deconstructible": false,
     "destroy_on_unclaim": false
@@ -125573,6 +125939,64 @@
     "destroy_on_unclaim": false
   },
   {
+    "id": 1385919449,
+    "functions": [
+      [
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6000,
+        6000,
+        0,
+        [],
+        0,
+        false,
+        0,
+        0
+      ]
+    ],
+    "name": "Invisible Overgrown Mine Entrance",
+    "description": "Ancient Ruins",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/InvisiblePortal",
+    "icon_asset_name": "",
+    "unenterable": false,
+    "wilderness": true,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          1,
+          []
+        ]
+      ]
+    ],
+    "max_health": 10000,
+    "ignore_damage": true,
+    "defense_level": 10000,
+    "decay": 0.0,
+    "maintenance": 0.0,
+    "build_permission": [
+      0,
+      {}
+    ],
+    "interact_permission": [
+      0,
+      {}
+    ],
+    "has_action": false,
+    "show_in_compendium": false,
+    "is_ruins": true,
+    "not_deconstructible": true,
+    "destroy_on_unclaim": false
+  },
+  {
     "id": 1389266676,
     "functions": [
       [
@@ -126400,6 +126824,64 @@
     ],
     "interact_permission": [
       3,
+      {}
+    ],
+    "has_action": true,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false,
+    "destroy_on_unclaim": false
+  },
+  {
+    "id": 1418590348,
+    "functions": [
+      [
+        1002,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6000,
+        6000,
+        0,
+        [],
+        0,
+        false,
+        0,
+        0
+      ]
+    ],
+    "name": "Legendary Uggo",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/uggoBuilding",
+    "icon_asset_name": "GeneratedIcons/Cargo/Uggo",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          0,
+          []
+        ]
+      ]
+    ],
+    "max_health": 72,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 0.0,
+    "maintenance": 0.0,
+    "build_permission": [
+      1,
+      {}
+    ],
+    "interact_permission": [
+      1,
       {}
     ],
     "has_action": true,
@@ -129950,6 +130432,64 @@
     "light_radius": 10,
     "model_asset_name": "Buildings/GothicLampPost",
     "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Other/Buildings/GothicLampPost",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          0,
+          []
+        ]
+      ]
+    ],
+    "max_health": 72,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 0.0,
+    "maintenance": 0.0,
+    "build_permission": [
+      1,
+      {}
+    ],
+    "interact_permission": [
+      1,
+      {}
+    ],
+    "has_action": true,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false,
+    "destroy_on_unclaim": false
+  },
+  {
+    "id": 1576382689,
+    "functions": [
+      [
+        1002,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6000,
+        6000,
+        0,
+        [],
+        0,
+        false,
+        0,
+        0
+      ]
+    ],
+    "name": "Mythic Uggo",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/uggoBuilding",
+    "icon_asset_name": "GeneratedIcons/Cargo/Uggo",
     "unenterable": true,
     "wilderness": true,
     "footprint": [
@@ -134086,6 +134626,64 @@
     ],
     "has_action": false,
     "show_in_compendium": false,
+    "is_ruins": false,
+    "not_deconstructible": false,
+    "destroy_on_unclaim": false
+  },
+  {
+    "id": 1637445390,
+    "functions": [
+      [
+        1002,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6000,
+        6000,
+        0,
+        [],
+        0,
+        false,
+        0,
+        0
+      ]
+    ],
+    "name": "Rare Uggo",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/uggoBuilding",
+    "icon_asset_name": "GeneratedIcons/Cargo/Uggo",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          0,
+          []
+        ]
+      ]
+    ],
+    "max_health": 72,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 0.0,
+    "maintenance": 0.0,
+    "build_permission": [
+      1,
+      {}
+    ],
+    "interact_permission": [
+      1,
+      {}
+    ],
+    "has_action": true,
+    "show_in_compendium": true,
     "is_ruins": false,
     "not_deconstructible": false,
     "destroy_on_unclaim": false
@@ -161166,6 +161764,288 @@
     "destroy_on_unclaim": false
   },
   {
+    "id": 1983050760,
+    "functions": [
+      [
+        999,
+        3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6000,
+        6000,
+        0,
+        [],
+        0,
+        false,
+        0,
+        0
+      ]
+    ],
+    "name": "Sturdy Storehouse",
+    "description": "An enterable building which acts as additional space within a settlement, only settlement members can access.",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/T3StorageBuilding",
+    "icon_asset_name": "GeneratedIcons/Other/Buildings/Enterable/EnterableT1Large",
+    "unenterable": false,
+    "wilderness": true,
+    "footprint": [
+      [
+        -1,
+        2,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        -3,
+        2,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        -3,
+        1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        -3,
+        0,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        -2,
+        -1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        -1,
+        -2,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        3,
+        -2,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        3,
+        -1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        3,
+        0,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        2,
+        1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        1,
+        2,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        0,
+        2,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        0,
+        1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        -1,
+        1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        -2,
+        2,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        -2,
+        1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        -2,
+        0,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        -1,
+        0,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        -1,
+        -1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        0,
+        -2,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        0,
+        -1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        1,
+        -2,
+        [
+          1,
+          []
+        ]
+      ],
+      [
+        1,
+        -1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        2,
+        -2,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        2,
+        -1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        1,
+        0,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        2,
+        0,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        1,
+        1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        0,
+        0,
+        [
+          0,
+          []
+        ]
+      ]
+    ],
+    "max_health": 120,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 1.0,
+    "maintenance": 0.0,
+    "build_permission": [
+      1,
+      {}
+    ],
+    "interact_permission": [
+      1,
+      {}
+    ],
+    "has_action": true,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false,
+    "destroy_on_unclaim": false
+  },
+  {
     "id": 1983930054,
     "functions": [
       [
@@ -176919,6 +177799,64 @@
     ],
     "has_action": false,
     "show_in_compendium": false,
+    "is_ruins": false,
+    "not_deconstructible": false,
+    "destroy_on_unclaim": false
+  },
+  {
+    "id": 2085222953,
+    "functions": [
+      [
+        1002,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6000,
+        6000,
+        0,
+        [],
+        0,
+        false,
+        0,
+        0
+      ]
+    ],
+    "name": "Common Uggo",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/uggoBuilding",
+    "icon_asset_name": "GeneratedIcons/Cargo/Uggo",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          0,
+          []
+        ]
+      ]
+    ],
+    "max_health": 72,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 0.0,
+    "maintenance": 0.0,
+    "build_permission": [
+      1,
+      {}
+    ],
+    "interact_permission": [
+      1,
+      {}
+    ],
+    "has_action": true,
+    "show_in_compendium": true,
     "is_ruins": false,
     "not_deconstructible": false,
     "destroy_on_unclaim": false

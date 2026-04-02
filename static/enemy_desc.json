@@ -2599,6 +2599,56 @@
     "huntable": false
   },
   {
+    "enemy_type": 42,
+    "name": "Swift Cervus",
+    "pathfinding_id": 959834809,
+    "targeting_matrix_id": 5,
+    "combat_actions_ids": [],
+    "description": "An animal which can be hunted by a hunter with the appropriate bow.",
+    "min_speed": 9,
+    "max_speed": 14,
+    "radius": 0.5,
+    "awareness_destination_threshold": 0.001,
+    "min_awareness_tick_sec": 10.0,
+    "max_awareness_tick_sec": 20.0,
+    "max_health": 800,
+    "ignore_damage": false,
+    "health_regen_quantity": 0.0,
+    "armor": 0,
+    "accuracy": 100,
+    "evasion": 50,
+    "strength": 0,
+    "min_damage": 0,
+    "max_damage": 0,
+    "cooldown_multiplier": 0.9,
+    "daytime_detect_range": 15,
+    "daytime_aggro_range": 8,
+    "daytime_deaggro_range": 0,
+    "nighttime_detect_range": 15,
+    "nighttime_aggro_range": 8,
+    "nighttime_deaggro_range": 0,
+    "evade_range": 8,
+    "deaggro_health_threshold": 0.0,
+    "attack_level": 0,
+    "defense_level": 1,
+    "prefab_address": "Enemies/DeerMale",
+    "icon_address": "GeneratedIcons/Other/Animals/DeerMale",
+    "extracted_item_stacks": [],
+    "experience_per_damage_dealt": [
+      [
+        9,
+        8.1
+      ]
+    ],
+    "tier": 3,
+    "tag": "Huntable Animal",
+    "rarity": [
+      2,
+      {}
+    ],
+    "huntable": true
+  },
+  {
     "enemy_type": 23,
     "name": "Terratoad",
     "pathfinding_id": 601358492,
