@@ -7,7 +7,6 @@
       877395349,
       1474265332,
       870152545,
-      118661712,
       2072596421,
       1054200456,
       1469758479,
@@ -398,6 +397,88 @@
     "is_secret": false
   },
   {
+    "id": 196368405,
+    "name": "Keeping in Shipshape (IX)",
+    "is_hint": false,
+    "stages": [
+      223438208,
+      518433653,
+      1676865840,
+      104822636
+    ],
+    "requirements": [
+      {
+        "QuestChain_": 702803829
+      },
+      {
+        "Level_": {
+          "skill_id": 21,
+          "level": 100
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "ItemStack_": {
+          "item_id": 1339095178,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        }
+      },
+      {
+        "Experience_": {
+          "skill_id": 21,
+          "quantity": 2658900.0
+        }
+      }
+    ],
+    "implicit_rewards": [],
+    "unstartable": false,
+    "is_secret": false
+  },
+  {
+    "id": 197075384,
+    "name": "Brick by Brick (VII)",
+    "is_hint": false,
+    "stages": [
+      979609391,
+      1043804939,
+      1652870178,
+      524929235
+    ],
+    "requirements": [
+      {
+        "QuestChain_": 1268807347
+      },
+      {
+        "Level_": {
+          "skill_id": 15,
+          "level": 80
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "Experience_": {
+          "skill_id": 15,
+          "quantity": 297400.0
+        }
+      },
+      {
+        "ItemStack_": {
+          "item_id": 2086048067,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        }
+      }
+    ],
+    "implicit_rewards": [],
+    "unstartable": false,
+    "is_secret": false
+  },
+  {
     "id": 277069635,
     "name": "Adventurer's Mighty Helmet",
     "is_hint": false,
@@ -441,6 +522,47 @@
     "stages": [],
     "requirements": [],
     "rewards": [],
+    "implicit_rewards": [],
+    "unstartable": false,
+    "is_secret": false
+  },
+  {
+    "id": 315978683,
+    "name": "The Best Ingredients (VII)",
+    "is_hint": false,
+    "stages": [
+      678495365,
+      321323506,
+      383895630,
+      1756309784
+    ],
+    "requirements": [
+      {
+        "QuestChain_": 1037743532
+      },
+      {
+        "Level_": {
+          "skill_id": 13,
+          "level": 80
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "ItemStack_": {
+          "item_id": 1625568762,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        }
+      },
+      {
+        "Experience_": {
+          "skill_id": 13,
+          "quantity": 297400.0
+        }
+      }
+    ],
     "implicit_rewards": [],
     "unstartable": false,
     "is_secret": false
@@ -1036,6 +1158,47 @@
     "is_secret": false
   },
   {
+    "id": 478407897,
+    "name": "Documenting History (VIII)",
+    "is_hint": false,
+    "stages": [
+      1280192945,
+      360540318,
+      1804858343,
+      170393788
+    ],
+    "requirements": [
+      {
+        "QuestChain_": 698417500
+      },
+      {
+        "Level_": {
+          "skill_id": 19,
+          "level": 90
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "ItemStack_": {
+          "item_id": 804979100,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        }
+      },
+      {
+        "Experience_": {
+          "skill_id": 19,
+          "quantity": 889300.0
+        }
+      }
+    ],
+    "implicit_rewards": [],
+    "unstartable": false,
+    "is_secret": false
+  },
+  {
     "id": 526544950,
     "name": "Documenting History (I)",
     "is_hint": false,
@@ -1288,6 +1451,47 @@
     "is_secret": false
   },
   {
+    "id": 668416359,
+    "name": "The Best Ingredients (VIII)",
+    "is_hint": false,
+    "stages": [
+      332684447,
+      1772963541,
+      527251016,
+      1811305942
+    ],
+    "requirements": [
+      {
+        "QuestChain_": 315978683
+      },
+      {
+        "Level_": {
+          "skill_id": 13,
+          "level": 90
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "ItemStack_": {
+          "item_id": 1309532359,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        }
+      },
+      {
+        "Experience_": {
+          "skill_id": 13,
+          "quantity": 889300.0
+        }
+      }
+    ],
+    "implicit_rewards": [],
+    "unstartable": false,
+    "is_secret": false
+  },
+  {
     "id": 679715144,
     "name": "Knocked out hint",
     "is_hint": true,
@@ -1332,6 +1536,88 @@
           "quantity": 1,
           "item_type": "Item",
           "durability": 0
+        }
+      }
+    ],
+    "implicit_rewards": [],
+    "unstartable": false,
+    "is_secret": false
+  },
+  {
+    "id": 698417500,
+    "name": "Documenting History (VII)",
+    "is_hint": false,
+    "stages": [
+      1656279780,
+      838764494,
+      1609161634,
+      1169435949
+    ],
+    "requirements": [
+      {
+        "QuestChain_": 1794473731
+      },
+      {
+        "Level_": {
+          "skill_id": 19,
+          "level": 80
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "ItemStack_": {
+          "item_id": 1337993788,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        }
+      },
+      {
+        "Experience_": {
+          "skill_id": 19,
+          "quantity": 297400.0
+        }
+      }
+    ],
+    "implicit_rewards": [],
+    "unstartable": false,
+    "is_secret": false
+  },
+  {
+    "id": 702803829,
+    "name": "Keeping in Shipshape (VIII)",
+    "is_hint": false,
+    "stages": [
+      404013417,
+      212445245,
+      735045497,
+      1109062955
+    ],
+    "requirements": [
+      {
+        "QuestChain_": 1584129980
+      },
+      {
+        "Level_": {
+          "skill_id": 21,
+          "level": 90
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "ItemStack_": {
+          "item_id": 1745212367,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        }
+      },
+      {
+        "Experience_": {
+          "skill_id": 21,
+          "quantity": 889300.0
         }
       }
     ],
@@ -1517,6 +1803,47 @@
     "is_secret": false
   },
   {
+    "id": 803146736,
+    "name": "Documenting History (IX)",
+    "is_hint": false,
+    "stages": [
+      869504606,
+      842505425,
+      481796809,
+      905594895
+    ],
+    "requirements": [
+      {
+        "QuestChain_": 478407897
+      },
+      {
+        "Level_": {
+          "skill_id": 19,
+          "level": 100
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "ItemStack_": {
+          "item_id": 1745161362,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        }
+      },
+      {
+        "Experience_": {
+          "skill_id": 19,
+          "quantity": 2658900.0
+        }
+      }
+    ],
+    "implicit_rewards": [],
+    "unstartable": false,
+    "is_secret": false
+  },
+  {
     "id": 837316211,
     "name": "Friends in Small Places",
     "is_hint": false,
@@ -1600,6 +1927,47 @@
           "quantity": 1,
           "item_type": "Item",
           "durability": 0
+        }
+      }
+    ],
+    "implicit_rewards": [],
+    "unstartable": false,
+    "is_secret": false
+  },
+  {
+    "id": 929721823,
+    "name": "A Helping Hand (IX)",
+    "is_hint": false,
+    "stages": [
+      1328096358,
+      1591755441,
+      1252107471,
+      1634283116
+    ],
+    "requirements": [
+      {
+        "QuestChain_": 1874904586
+      },
+      {
+        "Level_": {
+          "skill_id": 17,
+          "level": 100
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "ItemStack_": {
+          "item_id": 1287439051,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        }
+      },
+      {
+        "Experience_": {
+          "skill_id": 17,
+          "quantity": 2658900.0
         }
       }
     ],
@@ -1785,6 +2153,47 @@
           "quantity": 1,
           "item_type": "Item",
           "durability": 0
+        }
+      }
+    ],
+    "implicit_rewards": [],
+    "unstartable": false,
+    "is_secret": false
+  },
+  {
+    "id": 1037743532,
+    "name": "The Best Ingredients (VI)",
+    "is_hint": false,
+    "stages": [
+      691999913,
+      907208019,
+      415137254,
+      2108594611
+    ],
+    "requirements": [
+      {
+        "QuestChain_": 1460378481
+      },
+      {
+        "Level_": {
+          "skill_id": 13,
+          "level": 70
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "ItemStack_": {
+          "item_id": 1412553994,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        }
+      },
+      {
+        "Experience_": {
+          "skill_id": 13,
+          "quantity": 99500.0
         }
       }
     ],
@@ -2040,6 +2449,88 @@
     "is_secret": false
   },
   {
+    "id": 1268807347,
+    "name": "Brick by Brick (VI)",
+    "is_hint": false,
+    "stages": [
+      944044214,
+      930804517,
+      1438019616,
+      1898769998
+    ],
+    "requirements": [
+      {
+        "QuestChain_": 423972432
+      },
+      {
+        "Level_": {
+          "skill_id": 15,
+          "level": 70
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "Experience_": {
+          "skill_id": 15,
+          "quantity": 99500.0
+        }
+      },
+      {
+        "ItemStack_": {
+          "item_id": 426715295,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        }
+      }
+    ],
+    "implicit_rewards": [],
+    "unstartable": false,
+    "is_secret": false
+  },
+  {
+    "id": 1334989176,
+    "name": "Keeping in Shipshape (VI)",
+    "is_hint": false,
+    "stages": [
+      538532785,
+      1622695863,
+      785783017,
+      708559315
+    ],
+    "requirements": [
+      {
+        "QuestChain_": 1958755356
+      },
+      {
+        "Level_": {
+          "skill_id": 21,
+          "level": 70
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "ItemStack_": {
+          "item_id": 678883515,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        }
+      },
+      {
+        "Experience_": {
+          "skill_id": 21,
+          "quantity": 99500.0
+        }
+      }
+    ],
+    "implicit_rewards": [],
+    "unstartable": false,
+    "is_secret": false
+  },
+  {
     "id": 1358679061,
     "name": "Deployable Hint",
     "is_hint": true,
@@ -2068,6 +2559,47 @@
     "stages": [],
     "requirements": [],
     "rewards": [],
+    "implicit_rewards": [],
+    "unstartable": false,
+    "is_secret": false
+  },
+  {
+    "id": 1433977552,
+    "name": "A Helping Hand (VII)",
+    "is_hint": false,
+    "stages": [
+      1370677905,
+      72228870,
+      925250017,
+      1295099148
+    ],
+    "requirements": [
+      {
+        "QuestChain_": 1892030667
+      },
+      {
+        "Level_": {
+          "skill_id": 17,
+          "level": 80
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "ItemStack_": {
+          "item_id": 2088567089,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        }
+      },
+      {
+        "Experience_": {
+          "skill_id": 17,
+          "quantity": 297400.0
+        }
+      }
+    ],
     "implicit_rewards": [],
     "unstartable": false,
     "is_secret": false
@@ -2130,6 +2662,47 @@
     "stages": [],
     "requirements": [],
     "rewards": [],
+    "implicit_rewards": [],
+    "unstartable": false,
+    "is_secret": false
+  },
+  {
+    "id": 1443976191,
+    "name": "Brick by Brick (VIII)",
+    "is_hint": false,
+    "stages": [
+      286020039,
+      1817683026,
+      208894328,
+      407720464
+    ],
+    "requirements": [
+      {
+        "QuestChain_": 197075384
+      },
+      {
+        "Level_": {
+          "skill_id": 15,
+          "level": 90
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "Experience_": {
+          "skill_id": 15,
+          "quantity": 889300.0
+        }
+      },
+      {
+        "ItemStack_": {
+          "item_id": 493211437,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        }
+      }
+    ],
     "implicit_rewards": [],
     "unstartable": false,
     "is_secret": false
@@ -2716,6 +3289,88 @@
     "is_secret": false
   },
   {
+    "id": 1584129980,
+    "name": "Keeping in Shipshape (VII)",
+    "is_hint": false,
+    "stages": [
+      832816007,
+      1457689026,
+      295928864,
+      696773023
+    ],
+    "requirements": [
+      {
+        "QuestChain_": 1334989176
+      },
+      {
+        "Level_": {
+          "skill_id": 19,
+          "level": 80
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "ItemStack_": {
+          "item_id": 82286756,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        }
+      },
+      {
+        "Experience_": {
+          "skill_id": 19,
+          "quantity": 297400.0
+        }
+      }
+    ],
+    "implicit_rewards": [],
+    "unstartable": false,
+    "is_secret": false
+  },
+  {
+    "id": 1593952305,
+    "name": "The Best Ingredients (IX)",
+    "is_hint": false,
+    "stages": [
+      278101501,
+      2039070486,
+      870668292,
+      386994670
+    ],
+    "requirements": [
+      {
+        "QuestChain_": 668416359
+      },
+      {
+        "Level_": {
+          "skill_id": 13,
+          "level": 100
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "ItemStack_": {
+          "item_id": 1866960100,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        }
+      },
+      {
+        "Experience_": {
+          "skill_id": 13,
+          "quantity": 2658900.0
+        }
+      }
+    ],
+    "implicit_rewards": [],
+    "unstartable": false,
+    "is_secret": false
+  },
+  {
     "id": 1604930937,
     "name": "Desert hint",
     "is_hint": true,
@@ -2760,6 +3415,47 @@
           "quantity": 1,
           "item_type": "Item",
           "durability": 0
+        }
+      }
+    ],
+    "implicit_rewards": [],
+    "unstartable": false,
+    "is_secret": false
+  },
+  {
+    "id": 1660704637,
+    "name": "Brick by Brick (IX)",
+    "is_hint": false,
+    "stages": [
+      800242028,
+      1563148314,
+      719134133,
+      1555565816
+    ],
+    "requirements": [
+      {
+        "QuestChain_": 1443976191
+      },
+      {
+        "Level_": {
+          "skill_id": 15,
+          "level": 100
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "ItemStack_": {
+          "item_id": 1346193928,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        }
+      },
+      {
+        "Experience_": {
+          "skill_id": 15,
+          "quantity": 2658900.0
         }
       }
     ],
@@ -3041,6 +3737,47 @@
     "is_secret": false
   },
   {
+    "id": 1794473731,
+    "name": "Documenting History (VI)",
+    "is_hint": false,
+    "stages": [
+      1865142146,
+      647626522,
+      1197183913,
+      401320993
+    ],
+    "requirements": [
+      {
+        "QuestChain_": 1459208875
+      },
+      {
+        "Level_": {
+          "skill_id": 19,
+          "level": 70
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "Experience_": {
+          "skill_id": 19,
+          "quantity": 99500.0
+        }
+      },
+      {
+        "ItemStack_": {
+          "item_id": 1756609302,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        }
+      }
+    ],
+    "implicit_rewards": [],
+    "unstartable": false,
+    "is_secret": false
+  },
+  {
     "id": 1842217612,
     "name": "Smithing Basics",
     "is_hint": false,
@@ -3193,6 +3930,47 @@
     "is_secret": false
   },
   {
+    "id": 1874904586,
+    "name": "A Helping Hand (VIII)",
+    "is_hint": false,
+    "stages": [
+      1286900406,
+      1983782289,
+      2015021976,
+      1393064310
+    ],
+    "requirements": [
+      {
+        "QuestChain_": 1433977552
+      },
+      {
+        "Level_": {
+          "skill_id": 17,
+          "level": 90
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "ItemStack_": {
+          "item_id": 1795788800,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        }
+      },
+      {
+        "Experience_": {
+          "skill_id": 17,
+          "quantity": 889300.0
+        }
+      }
+    ],
+    "implicit_rewards": [],
+    "unstartable": false,
+    "is_secret": false
+  },
+  {
     "id": 1882932298,
     "name": "The Best Ingredients (III)",
     "is_hint": false,
@@ -3226,6 +4004,47 @@
           "quantity": 1,
           "item_type": "Item",
           "durability": 0
+        }
+      }
+    ],
+    "implicit_rewards": [],
+    "unstartable": false,
+    "is_secret": false
+  },
+  {
+    "id": 1892030667,
+    "name": "A Helping Hand (VI)",
+    "is_hint": false,
+    "stages": [
+      117592202,
+      1023756424,
+      1363711279,
+      1779440523
+    ],
+    "requirements": [
+      {
+        "QuestChain_": 1945676217
+      },
+      {
+        "Level_": {
+          "skill_id": 17,
+          "level": 70
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "ItemStack_": {
+          "item_id": 908308502,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        }
+      },
+      {
+        "Experience_": {
+          "skill_id": 17,
+          "quantity": 99500.0
         }
       }
     ],

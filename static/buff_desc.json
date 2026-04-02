@@ -293,6 +293,26 @@
     "vfx_attachment_point": "Origin"
   },
   {
+    "id": 33170129,
+    "buff_type_id": 816607747,
+    "description": "Epicly Uggo",
+    "priority": 0,
+    "duration": 7200,
+    "warn_time": 10.0,
+    "online_timestamp": false,
+    "beneficial": true,
+    "icon_asset_name": "\\u00E9",
+    "stats": [
+      {
+        "id": "MaxStamina",
+        "value": 4.0,
+        "is_pct": false
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
     "id": 35180939,
     "buff_type_id": 11955726,
     "description": "Sword Flurry",
@@ -1682,6 +1702,26 @@
     "vfx_attachment_point": "Origin"
   },
   {
+    "id": 818814641,
+    "buff_type_id": 816607747,
+    "description": "Mythicly Uggo",
+    "priority": 0,
+    "duration": 7200,
+    "warn_time": 10.0,
+    "online_timestamp": false,
+    "beneficial": true,
+    "icon_asset_name": "\\u00E9",
+    "stats": [
+      {
+        "id": "MaxStamina",
+        "value": 6.0,
+        "is_pct": false
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
     "id": 821574386,
     "buff_type_id": 238577565,
     "description": "Ornate Stamina Potion",
@@ -1820,6 +1860,26 @@
       {
         "id": "MasonryPower",
         "value": 2.0,
+        "is_pct": false
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 887930444,
+    "buff_type_id": 816607747,
+    "description": "Legendarily Uggo",
+    "priority": 0,
+    "duration": 7200,
+    "warn_time": 10.0,
+    "online_timestamp": false,
+    "beneficial": true,
+    "icon_asset_name": "\\u00E9",
+    "stats": [
+      {
+        "id": "MaxStamina",
+        "value": 5.0,
         "is_pct": false
       }
     ],
@@ -2012,6 +2072,26 @@
     "vfx_attachment_point": "Origin"
   },
   {
+    "id": 1029717457,
+    "buff_type_id": 816607747,
+    "description": "Commonly Uggo",
+    "priority": 0,
+    "duration": 7200,
+    "warn_time": 10.0,
+    "online_timestamp": false,
+    "beneficial": true,
+    "icon_asset_name": "\\u00E9",
+    "stats": [
+      {
+        "id": "MaxStamina",
+        "value": 1.0,
+        "is_pct": false
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
     "id": 1038897951,
     "buff_type_id": 238577565,
     "description": "Exquisite Stamina Potion",
@@ -2136,6 +2216,26 @@
         "id": "GatheringSpeed",
         "value": 0.066,
         "is_pct": true
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 1068838184,
+    "buff_type_id": 816607747,
+    "description": "Uncommonly Uggo",
+    "priority": 0,
+    "duration": 7200,
+    "warn_time": 10.0,
+    "online_timestamp": false,
+    "beneficial": true,
+    "icon_asset_name": "\\u00E9",
+    "stats": [
+      {
+        "id": "MaxStamina",
+        "value": 2.0,
+        "is_pct": false
       }
     ],
     "vfx": "",
@@ -3446,6 +3546,26 @@
     "vfx_attachment_point": "Origin"
   },
   {
+    "id": 1609939007,
+    "buff_type_id": 816607747,
+    "description": "Rarely Uggo",
+    "priority": 0,
+    "duration": 7200,
+    "warn_time": 10.0,
+    "online_timestamp": false,
+    "beneficial": true,
+    "icon_asset_name": "\\u00E9",
+    "stats": [
+      {
+        "id": "MaxStamina",
+        "value": 3.0,
+        "is_pct": false
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
     "id": 1625755612,
     "buff_type_id": 1482558529,
     "description": "Ancient Tailoring Inspiration",
@@ -3790,12 +3910,18 @@
     "buff_type_id": 14,
     "description": "Sprint",
     "priority": 1,
-    "duration": -1,
+    "duration": 15,
     "warn_time": 0.0,
     "online_timestamp": true,
     "beneficial": true,
     "icon_asset_name": "\\uFFDA",
-    "stats": [],
+    "stats": [
+      {
+        "id": "MovementMultiplier",
+        "value": 0.4,
+        "is_pct": true
+      }
+    ],
     "vfx": "",
     "vfx_attachment_point": "Origin"
   },

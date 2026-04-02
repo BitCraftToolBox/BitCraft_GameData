@@ -4934,7 +4934,7 @@
     "name": "Strawberry Bush",
     "description": "",
     "flattenable": true,
-    "max_health": 300,
+    "max_health": 500,
     "ignore_damage": false,
     "despawn_time": 0.0,
     "model_asset_name": "Resources/BushStrawberry",
@@ -4999,7 +4999,7 @@
     "name": "Blackberry Bush",
     "description": "",
     "flattenable": true,
-    "max_health": 515,
+    "max_health": 855,
     "ignore_damage": false,
     "despawn_time": 0.0,
     "model_asset_name": "Resources/BushBlackberry",
@@ -5093,7 +5093,7 @@
     "name": "Juniper Berry Bush",
     "description": "",
     "flattenable": true,
-    "max_health": 410,
+    "max_health": 685,
     "ignore_damage": false,
     "despawn_time": 0.0,
     "model_asset_name": "Resources/JuniperBerryBush",
@@ -5158,7 +5158,7 @@
     "name": "Honeyberry Bush",
     "description": "",
     "flattenable": true,
-    "max_health": 355,
+    "max_health": 595,
     "ignore_damage": false,
     "despawn_time": 0.0,
     "model_asset_name": "Resources/HoneyberryBush",
@@ -5295,7 +5295,7 @@
     "name": "Cloudberry Bush",
     "description": "",
     "flattenable": true,
-    "max_health": 655,
+    "max_health": 1095,
     "ignore_damage": false,
     "despawn_time": 0.0,
     "model_asset_name": "Resources/CloudberryBush",
@@ -15434,6 +15434,65 @@
     "show_time_left": false
   },
   {
+    "id": 139670438,
+    "name": "Ruin Archway",
+    "description": "",
+    "flattenable": false,
+    "max_health": 75,
+    "ignore_damage": false,
+    "despawn_time": 0.0,
+    "model_asset_name": "Resouces/ProfessionDungeonArchWay",
+    "icon_asset_name": "GeneratedIcons/Other/RuinArchway",
+    "on_destroy_yield": [],
+    "on_destroy_yield_resource_id": 139670438,
+    "spawn_priority": 0,
+    "footprint": [
+      {
+        "x": -1,
+        "z": 1,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": 0,
+        "z": 1,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": 1,
+        "z": 0,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": 1,
+        "z": -1,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": 0,
+        "z": -1,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": -1,
+        "z": 0,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": 0,
+        "z": 0,
+        "footprint_type": "Walkable"
+      }
+    ],
+    "tier": -1,
+    "tag": "Profession Dungeon Resource",
+    "rarity": "Default",
+    "compendium_entry": false,
+    "enemy_params_id": [],
+    "scheduled_respawn_time": 0.0,
+    "not_respawning": true,
+    "show_time_left": true
+  },
+  {
     "id": 152428426,
     "name": "Medium Ferralith Vein Interior Depleted",
     "description": "",
@@ -16467,6 +16526,65 @@
     "enemy_params_id": [],
     "scheduled_respawn_time": 0.0,
     "not_respawning": false,
+    "show_time_left": false
+  },
+  {
+    "id": 296306290,
+    "name": "Overgrown Ancient Brick Pile",
+    "description": "",
+    "flattenable": false,
+    "max_health": 250,
+    "ignore_damage": false,
+    "despawn_time": 0.0,
+    "model_asset_name": "Resources/ProfessionDungeonRubbleResourceDepleted",
+    "icon_asset_name": "GeneratedIcons/Other/OvergrownAncientBrickPile",
+    "on_destroy_yield": [],
+    "on_destroy_yield_resource_id": 1223085684,
+    "spawn_priority": 0,
+    "footprint": [
+      {
+        "x": 0,
+        "z": -1,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": -1,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": -1,
+        "z": 1,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 0,
+        "z": 1,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 1,
+        "z": -1,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 1,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 0,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      }
+    ],
+    "tier": -1,
+    "tag": "Ruin Resource",
+    "rarity": "Default",
+    "compendium_entry": false,
+    "enemy_params_id": [],
+    "scheduled_respawn_time": 0.0,
+    "not_respawning": true,
     "show_time_left": false
   },
   {
@@ -21148,7 +21266,7 @@
     "name": "Cranberry Bush",
     "description": "",
     "flattenable": true,
-    "max_health": 560,
+    "max_health": 935,
     "ignore_damage": false,
     "despawn_time": 0.0,
     "model_asset_name": "Resources/T6Berry",
@@ -22508,7 +22626,7 @@
     "name": "Ornate Berry Bush",
     "description": "",
     "flattenable": true,
-    "max_health": 610,
+    "max_health": 1015,
     "ignore_damage": false,
     "despawn_time": 0.0,
     "model_asset_name": "Resources/MistberryBush",
@@ -22977,7 +23095,7 @@
     "name": "Blueberry Bush",
     "description": "",
     "flattenable": true,
-    "max_health": 465,
+    "max_health": 770,
     "ignore_damage": false,
     "despawn_time": 0.0,
     "model_asset_name": "Resources/BlueberryBush",
@@ -28452,11 +28570,70 @@
     "show_time_left": true
   },
   {
+    "id": 868500054,
+    "name": "Collapsed Ruin Archway",
+    "description": "",
+    "flattenable": false,
+    "max_health": 50,
+    "ignore_damage": false,
+    "despawn_time": 0.0,
+    "model_asset_name": "Resouces/ProfessionDungeonArchWayRubble",
+    "icon_asset_name": "GeneratedIcons/Other/CollapsedRuinArchway",
+    "on_destroy_yield": [],
+    "on_destroy_yield_resource_id": 139670438,
+    "spawn_priority": 0,
+    "footprint": [
+      {
+        "x": -1,
+        "z": 1,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 0,
+        "z": 1,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 1,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 1,
+        "z": -1,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 0,
+        "z": -1,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": -1,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 0,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      }
+    ],
+    "tier": -1,
+    "tag": "Profession Dungeon Resource",
+    "rarity": "Default",
+    "compendium_entry": false,
+    "enemy_params_id": [],
+    "scheduled_respawn_time": 0.0,
+    "not_respawning": true,
+    "show_time_left": false
+  },
+  {
     "id": 875245395,
     "name": "Mistberry Bush",
     "description": "",
     "flattenable": true,
-    "max_health": 560,
+    "max_health": 935,
     "ignore_damage": false,
     "despawn_time": 0.0,
     "model_asset_name": "Resources/T6Berry",
@@ -29549,7 +29726,7 @@
     "name": "Magnificent Berry Bush",
     "description": "",
     "flattenable": true,
-    "max_health": 700,
+    "max_health": 1170,
     "ignore_damage": false,
     "despawn_time": 0.0,
     "model_asset_name": "Resources/T9Berry",
@@ -31431,6 +31608,75 @@
     "show_time_left": false
   },
   {
+    "id": 1154155891,
+    "name": "Sawmill",
+    "description": "",
+    "flattenable": false,
+    "max_health": 1,
+    "ignore_damage": true,
+    "despawn_time": 0.0,
+    "model_asset_name": "Resources/ProfessionDungeonSawmill",
+    "icon_asset_name": "GeneratedIcons/Other/RuinSawmill",
+    "on_destroy_yield": [],
+    "on_destroy_yield_resource_id": 0,
+    "spawn_priority": 0,
+    "footprint": [
+      {
+        "x": 1,
+        "z": -2,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 0,
+        "z": -1,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 1,
+        "z": -1,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 1,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 0,
+        "z": 1,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": -1,
+        "z": 1,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": -1,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 0,
+        "z": -2,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 0,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      }
+    ],
+    "tier": -1,
+    "tag": "Profession Dungeon Resource",
+    "rarity": "Default",
+    "compendium_entry": false,
+    "enemy_params_id": [],
+    "scheduled_respawn_time": 0.0,
+    "not_respawning": true,
+    "show_time_left": false
+  },
+  {
     "id": 1157887989,
     "name": "School Of Abyssal Nobilis",
     "description": "",
@@ -31806,6 +32052,65 @@
     "show_time_left": false
   },
   {
+    "id": 1219773404,
+    "name": "Depleted Roots",
+    "description": "",
+    "flattenable": false,
+    "max_health": 1000,
+    "ignore_damage": true,
+    "despawn_time": 0.0,
+    "model_asset_name": "Resources/ProfessionDungeonRootDepleted",
+    "icon_asset_name": "GeneratedIcons/Other/DepletedHexiteInfusedRoots",
+    "on_destroy_yield": [],
+    "on_destroy_yield_resource_id": 0,
+    "spawn_priority": 0,
+    "footprint": [
+      {
+        "x": -4,
+        "z": 2,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": -3,
+        "z": 1,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": -3,
+        "z": 2,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": -2,
+        "z": 1,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": -1,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 0,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": -1,
+        "z": 1,
+        "footprint_type": "Hitbox"
+      }
+    ],
+    "tier": -1,
+    "tag": "Profession Dungeon Resource",
+    "rarity": "Default",
+    "compendium_entry": false,
+    "enemy_params_id": [],
+    "scheduled_respawn_time": 0.0,
+    "not_respawning": true,
+    "show_time_left": true
+  },
+  {
     "id": 1220773790,
     "name": "Damaged Ancient Cargo Hold",
     "description": "",
@@ -31833,6 +32138,65 @@
     "scheduled_respawn_time": 0.0,
     "not_respawning": false,
     "show_time_left": false
+  },
+  {
+    "id": 1223085684,
+    "name": "Ancient Brick Pile",
+    "description": "",
+    "flattenable": false,
+    "max_health": 1000,
+    "ignore_damage": true,
+    "despawn_time": 0.0,
+    "model_asset_name": "Resources/ProfessionDungeonRubbleResource",
+    "icon_asset_name": "GeneratedIcons/Other/AncientBrickPile",
+    "on_destroy_yield": [],
+    "on_destroy_yield_resource_id": 296306290,
+    "spawn_priority": 0,
+    "footprint": [
+      {
+        "x": 0,
+        "z": -1,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": -1,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": -1,
+        "z": 1,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 0,
+        "z": 1,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 1,
+        "z": -1,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 1,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 0,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      }
+    ],
+    "tier": -1,
+    "tag": "Ruin Resource",
+    "rarity": "Default",
+    "compendium_entry": false,
+    "enemy_params_id": [],
+    "scheduled_respawn_time": 0.0,
+    "not_respawning": true,
+    "show_time_left": true
   },
   {
     "id": 1235656080,
@@ -33447,7 +33811,7 @@
     "name": "Dewberry Bush",
     "description": "",
     "flattenable": true,
-    "max_health": 745,
+    "max_health": 1245,
     "ignore_damage": false,
     "despawn_time": 0.0,
     "model_asset_name": "Resources/T10Berry",
@@ -34161,7 +34525,7 @@
     "name": "Yellow Apricot Bush",
     "description": "",
     "flattenable": true,
-    "max_health": 610,
+    "max_health": 1015,
     "ignore_damage": false,
     "despawn_time": 0.0,
     "model_asset_name": "Resources/T7Berry",
@@ -34190,7 +34554,7 @@
     "name": "Pristine Berry Bush",
     "description": "",
     "flattenable": true,
-    "max_health": 655,
+    "max_health": 1095,
     "ignore_damage": false,
     "despawn_time": 0.0,
     "model_asset_name": "Resources/MistberryBush",
@@ -34460,6 +34824,45 @@
     "tag": "Rare Research",
     "rarity": "Common",
     "compendium_entry": true,
+    "enemy_params_id": [],
+    "scheduled_respawn_time": 0.0,
+    "not_respawning": false,
+    "show_time_left": false
+  },
+  {
+    "id": 1672706925,
+    "name": "Hidden 3 Tiles Resource",
+    "description": "",
+    "flattenable": false,
+    "max_health": 1,
+    "ignore_damage": false,
+    "despawn_time": 0.0,
+    "model_asset_name": "Resources/DepletedResource",
+    "icon_asset_name": "Resources/DepletedResource",
+    "on_destroy_yield": [],
+    "on_destroy_yield_resource_id": 0,
+    "spawn_priority": 1,
+    "footprint": [
+      {
+        "x": 0,
+        "z": 0,
+        "footprint_type": "WalkableResource"
+      },
+      {
+        "x": 0,
+        "z": -1,
+        "footprint_type": "WalkableResource"
+      },
+      {
+        "x": 1,
+        "z": -1,
+        "footprint_type": "WalkableResource"
+      }
+    ],
+    "tier": -1,
+    "tag": "Hidden Resource",
+    "rarity": "Common",
+    "compendium_entry": false,
     "enemy_params_id": [],
     "scheduled_respawn_time": 0.0,
     "not_respawning": false,
@@ -34961,6 +35364,65 @@
     "scheduled_respawn_time": 600.0,
     "not_respawning": true,
     "show_time_left": false
+  },
+  {
+    "id": 1805090430,
+    "name": "Ruin Bridge",
+    "description": "",
+    "flattenable": false,
+    "max_health": 100,
+    "ignore_damage": false,
+    "despawn_time": 0.0,
+    "model_asset_name": "Resouces/ProfessionDungeonBridge",
+    "icon_asset_name": "GeneratedIcons/Other/RuinBridge",
+    "on_destroy_yield": [],
+    "on_destroy_yield_resource_id": 1805090430,
+    "spawn_priority": 0,
+    "footprint": [
+      {
+        "x": 0,
+        "z": -1,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": -1,
+        "z": 0,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": -1,
+        "z": 1,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": 0,
+        "z": 1,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": 1,
+        "z": 0,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": 1,
+        "z": -1,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": 0,
+        "z": 0,
+        "footprint_type": "Walkable"
+      }
+    ],
+    "tier": -1,
+    "tag": "Profession Dungeon Resource",
+    "rarity": "Default",
+    "compendium_entry": false,
+    "enemy_params_id": [],
+    "scheduled_respawn_time": 0.0,
+    "not_respawning": true,
+    "show_time_left": true
   },
   {
     "id": 1812221896,
@@ -35894,7 +36356,7 @@
     "tier": 3,
     "tag": "Tree",
     "rarity": "Common",
-    "compendium_entry": false,
+    "compendium_entry": true,
     "enemy_params_id": [],
     "scheduled_respawn_time": 1800.0,
     "not_respawning": false,
@@ -35976,11 +36438,70 @@
     "show_time_left": false
   },
   {
+    "id": 1922244008,
+    "name": "Collapsed Ruin Bridge",
+    "description": "",
+    "flattenable": false,
+    "max_health": 75,
+    "ignore_damage": false,
+    "despawn_time": 0.0,
+    "model_asset_name": "Resouces/ProfessionDungeonBridgeBroken",
+    "icon_asset_name": "GeneratedIcons/Other/CollapsedRuinBridge",
+    "on_destroy_yield": [],
+    "on_destroy_yield_resource_id": 1805090430,
+    "spawn_priority": 0,
+    "footprint": [
+      {
+        "x": 0,
+        "z": 1,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": -1,
+        "z": 1,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": -1,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 0,
+        "z": -1,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 1,
+        "z": -1,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 1,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 0,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      }
+    ],
+    "tier": -1,
+    "tag": "Profession Dungeon Resource",
+    "rarity": "Default",
+    "compendium_entry": false,
+    "enemy_params_id": [],
+    "scheduled_respawn_time": 0.0,
+    "not_respawning": true,
+    "show_time_left": false
+  },
+  {
     "id": 1954847232,
     "name": "Black Fig Bush",
     "description": "",
     "flattenable": true,
-    "max_health": 700,
+    "max_health": 1170,
     "ignore_damage": false,
     "despawn_time": 0.0,
     "model_asset_name": "Resources/T9Berry",
@@ -36995,7 +37516,7 @@
     "name": "Flawless Berry Bush",
     "description": "",
     "flattenable": true,
-    "max_health": 745,
+    "max_health": 1245,
     "ignore_damage": false,
     "despawn_time": 0.0,
     "model_asset_name": "Resources/T10Berry",
@@ -37018,6 +37539,65 @@
     "scheduled_respawn_time": 600.0,
     "not_respawning": false,
     "show_time_left": false
+  },
+  {
+    "id": 2124433785,
+    "name": "Hexite Infused Roots",
+    "description": "",
+    "flattenable": false,
+    "max_health": 1000,
+    "ignore_damage": true,
+    "despawn_time": 0.0,
+    "model_asset_name": "Resources/ProfessionDungeonRoot",
+    "icon_asset_name": "GeneratedIcons/Other/HexiteInfusedRoot",
+    "on_destroy_yield": [],
+    "on_destroy_yield_resource_id": 0,
+    "spawn_priority": 0,
+    "footprint": [
+      {
+        "x": -4,
+        "z": 2,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": -3,
+        "z": 1,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": -3,
+        "z": 2,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": -2,
+        "z": 1,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": -1,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 0,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": -1,
+        "z": 1,
+        "footprint_type": "Hitbox"
+      }
+    ],
+    "tier": -1,
+    "tag": "Profession Dungeon Resource",
+    "rarity": "Default",
+    "compendium_entry": false,
+    "enemy_params_id": [],
+    "scheduled_respawn_time": 0.0,
+    "not_respawning": true,
+    "show_time_left": true
   },
   {
     "id": 2124845482,
@@ -37082,6 +37662,45 @@
     "enemy_params_id": [],
     "scheduled_respawn_time": 0.0,
     "not_respawning": false,
+    "show_time_left": false
+  },
+  {
+    "id": 2138772580,
+    "name": "Mine Cart",
+    "description": "",
+    "flattenable": false,
+    "max_health": 1,
+    "ignore_damage": true,
+    "despawn_time": 0.0,
+    "model_asset_name": "Resouces/MineCartDeposit",
+    "icon_asset_name": "GeneratedIcons/Other/RuinMinecart",
+    "on_destroy_yield": [],
+    "on_destroy_yield_resource_id": 0,
+    "spawn_priority": 0,
+    "footprint": [
+      {
+        "x": 0,
+        "z": -1,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 0,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": -1,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      }
+    ],
+    "tier": -1,
+    "tag": "Profession Dungeon Resource",
+    "rarity": "Default",
+    "compendium_entry": false,
+    "enemy_params_id": [],
+    "scheduled_respawn_time": 0.0,
+    "not_respawning": true,
     "show_time_left": false
   },
   {

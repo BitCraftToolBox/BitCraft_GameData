@@ -13714,6 +13714,64 @@
     "empire_permission_required": null
   },
   {
+    "id": 34716734,
+    "resource_id": 868500054,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 1.6,
+    "stamina_requirement": 0.75,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [
+      {
+        "item_stack": {
+          "item_id": 1903879412,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        },
+        "probability": 0.1
+      }
+    ],
+    "consumed_item_stacks": [
+      {
+        "item_id": 75270868,
+        "quantity": 1,
+        "item_type": "Cargo",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "range": 1,
+    "tool_requirements": [
+      {
+        "tool_type": 3,
+        "level": 1,
+        "power": 1
+      }
+    ],
+    "allow_use_hands": false,
+    "level_requirements": [
+      {
+        "skill_id": 4,
+        "level": 15
+      }
+    ],
+    "experience_per_progress": [
+      {
+        "skill_id": 4,
+        "quantity": 4.0
+      }
+    ],
+    "verb_phrase": "Repair",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 568,
+    "empire_rank_requirement": null,
+    "show_in_progression": false,
+    "empire_permission_required": null
+  },
+  {
     "id": 44747026,
     "resource_id": 182331452,
     "cargo_id": 0,
@@ -14040,6 +14098,64 @@
     "verb_phrase": "Mine",
     "tool_mesh_index": 0,
     "recipe_performance_id": 975,
+    "empire_rank_requirement": null,
+    "show_in_progression": false,
+    "empire_permission_required": null
+  },
+  {
+    "id": 96631363,
+    "resource_id": 1922244008,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 1.6,
+    "stamina_requirement": 0.75,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [
+      {
+        "item_stack": {
+          "item_id": 1903879412,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        },
+        "probability": 0.1
+      }
+    ],
+    "consumed_item_stacks": [
+      {
+        "item_id": 75270868,
+        "quantity": 1,
+        "item_type": "Cargo",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "range": 1,
+    "tool_requirements": [
+      {
+        "tool_type": 3,
+        "level": 1,
+        "power": 1
+      }
+    ],
+    "allow_use_hands": false,
+    "level_requirements": [
+      {
+        "skill_id": 4,
+        "level": 15
+      }
+    ],
+    "experience_per_progress": [
+      {
+        "skill_id": 4,
+        "quantity": 4.0
+      }
+    ],
+    "verb_phrase": "Repair",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 568,
     "empire_rank_requirement": null,
     "show_in_progression": false,
     "empire_permission_required": null
@@ -19125,6 +19241,56 @@
     "empire_permission_required": null
   },
   {
+    "id": 1283968371,
+    "resource_id": 1223085684,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 1.6,
+    "stamina_requirement": 0.75,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [
+      {
+        "item_stack": {
+          "item_id": 75270868,
+          "quantity": 1,
+          "item_type": "Cargo",
+          "durability": null
+        },
+        "probability": 0.012
+      }
+    ],
+    "consumed_item_stacks": [],
+    "range": 1,
+    "tool_requirements": [
+      {
+        "tool_type": 3,
+        "level": 1,
+        "power": 1
+      }
+    ],
+    "allow_use_hands": false,
+    "level_requirements": [
+      {
+        "skill_id": 4,
+        "level": 15
+      }
+    ],
+    "experience_per_progress": [
+      {
+        "skill_id": 4,
+        "quantity": 1.76
+      }
+    ],
+    "verb_phrase": "Collect",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 568,
+    "empire_rank_requirement": null,
+    "show_in_progression": false,
+    "empire_permission_required": null
+  },
+  {
     "id": 1288166058,
     "resource_id": 70663203,
     "cargo_id": 0,
@@ -19179,6 +19345,56 @@
     "verb_phrase": "Mine",
     "tool_mesh_index": 0,
     "recipe_performance_id": 975,
+    "empire_rank_requirement": null,
+    "show_in_progression": false,
+    "empire_permission_required": null
+  },
+  {
+    "id": 1292729079,
+    "resource_id": 2124433785,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 1.6,
+    "stamina_requirement": 0.75,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [
+      {
+        "item_stack": {
+          "item_id": 1375736667,
+          "quantity": 1,
+          "item_type": "Cargo",
+          "durability": null
+        },
+        "probability": 0.01
+      }
+    ],
+    "consumed_item_stacks": [],
+    "range": 1,
+    "tool_requirements": [
+      {
+        "tool_type": 2,
+        "level": 1,
+        "power": 1
+      }
+    ],
+    "allow_use_hands": false,
+    "level_requirements": [
+      {
+        "skill_id": 3,
+        "level": 15
+      }
+    ],
+    "experience_per_progress": [
+      {
+        "skill_id": 3,
+        "quantity": 3.0
+      }
+    ],
+    "verb_phrase": "Harvest",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 157,
     "empire_rank_requirement": null,
     "show_in_progression": false,
     "empire_permission_required": null
@@ -20471,6 +20687,94 @@
     "empire_permission_required": null
   },
   {
+    "id": 1631747582,
+    "resource_id": 1154155891,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 1.6,
+    "stamina_requirement": 0.75,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [
+      {
+        "item_stack": {
+          "item_id": 1595055118,
+          "quantity": 1,
+          "item_type": "Cargo",
+          "durability": null
+        },
+        "probability": 1.0
+      },
+      {
+        "item_stack": {
+          "item_id": 828972621,
+          "quantity": 2,
+          "item_type": "Item",
+          "durability": 0
+        },
+        "probability": 0.1
+      },
+      {
+        "item_stack": {
+          "item_id": 828972621,
+          "quantity": 2,
+          "item_type": "Item",
+          "durability": 0
+        },
+        "probability": 0.2
+      },
+      {
+        "item_stack": {
+          "item_id": 828972621,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        },
+        "probability": 0.3
+      },
+      {
+        "item_stack": {
+          "item_id": 828972621,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        },
+        "probability": 0.4
+      }
+    ],
+    "consumed_item_stacks": [
+      {
+        "item_id": 1375736667,
+        "quantity": 1,
+        "item_type": "Cargo",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "range": 1,
+    "tool_requirements": [],
+    "allow_use_hands": true,
+    "level_requirements": [
+      {
+        "skill_id": 3,
+        "level": 15
+      }
+    ],
+    "experience_per_progress": [
+      {
+        "skill_id": 3,
+        "quantity": 750.0
+      }
+    ],
+    "verb_phrase": "Use Sawmill",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 315,
+    "empire_rank_requirement": null,
+    "show_in_progression": false,
+    "empire_permission_required": null
+  },
+  {
     "id": 1635796919,
     "resource_id": 2031243337,
     "cargo_id": 0,
@@ -20786,6 +21090,64 @@
     "verb_phrase": "Fish",
     "tool_mesh_index": 0,
     "recipe_performance_id": 143,
+    "empire_rank_requirement": null,
+    "show_in_progression": false,
+    "empire_permission_required": null
+  },
+  {
+    "id": 1667889190,
+    "resource_id": 139670438,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 1.6,
+    "stamina_requirement": 0.75,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [
+      {
+        "item_stack": {
+          "item_id": 1903879412,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        },
+        "probability": 0.09
+      }
+    ],
+    "consumed_item_stacks": [
+      {
+        "item_id": 75270868,
+        "quantity": 1,
+        "item_type": "Cargo",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "range": 1,
+    "tool_requirements": [
+      {
+        "tool_type": 3,
+        "level": 1,
+        "power": 1
+      }
+    ],
+    "allow_use_hands": false,
+    "level_requirements": [
+      {
+        "skill_id": 4,
+        "level": 15
+      }
+    ],
+    "experience_per_progress": [
+      {
+        "skill_id": 4,
+        "quantity": 4.0
+      }
+    ],
+    "verb_phrase": "Repair",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 568,
     "empire_rank_requirement": null,
     "show_in_progression": false,
     "empire_permission_required": null
@@ -22517,6 +22879,58 @@
     "empire_permission_required": null
   },
   {
+    "id": 2007433204,
+    "resource_id": 2138772580,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 1.6,
+    "stamina_requirement": 0.75,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [
+      {
+        "item_stack": {
+          "item_id": 1939049017,
+          "quantity": 10,
+          "item_type": "Item",
+          "durability": 0
+        },
+        "probability": 1.0
+      }
+    ],
+    "consumed_item_stacks": [
+      {
+        "item_id": 1595055118,
+        "quantity": 1,
+        "item_type": "Cargo",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "range": 1,
+    "tool_requirements": [],
+    "allow_use_hands": true,
+    "level_requirements": [
+      {
+        "skill_id": 3,
+        "level": 15
+      }
+    ],
+    "experience_per_progress": [
+      {
+        "skill_id": 3,
+        "quantity": 1000.0
+      }
+    ],
+    "verb_phrase": "Deposit",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 315,
+    "empire_rank_requirement": null,
+    "show_in_progression": false,
+    "empire_permission_required": null
+  },
+  {
     "id": 2020965244,
     "resource_id": 20857160,
     "cargo_id": 0,
@@ -23006,6 +23420,46 @@
     "empire_permission_required": null
   },
   {
+    "id": 2083800277,
+    "resource_id": 296306290,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 1.6,
+    "stamina_requirement": 0.75,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [],
+    "consumed_item_stacks": [],
+    "range": 1,
+    "tool_requirements": [
+      {
+        "tool_type": 2,
+        "level": 1,
+        "power": 1
+      }
+    ],
+    "allow_use_hands": false,
+    "level_requirements": [
+      {
+        "skill_id": 3,
+        "level": 15
+      }
+    ],
+    "experience_per_progress": [
+      {
+        "skill_id": 3,
+        "quantity": 3.0
+      }
+    ],
+    "verb_phrase": "Clear",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 157,
+    "empire_rank_requirement": null,
+    "show_in_progression": false,
+    "empire_permission_required": null
+  },
+  {
     "id": 2084103997,
     "resource_id": 379219978,
     "cargo_id": 0,
@@ -23199,6 +23653,64 @@
     "verb_phrase": "Gather",
     "tool_mesh_index": 0,
     "recipe_performance_id": 632,
+    "empire_rank_requirement": null,
+    "show_in_progression": false,
+    "empire_permission_required": null
+  },
+  {
+    "id": 2131701628,
+    "resource_id": 1805090430,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 1.6,
+    "stamina_requirement": 0.75,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [
+      {
+        "item_stack": {
+          "item_id": 1903879412,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        },
+        "probability": 0.09
+      }
+    ],
+    "consumed_item_stacks": [
+      {
+        "item_id": 75270868,
+        "quantity": 1,
+        "item_type": "Cargo",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "range": 1,
+    "tool_requirements": [
+      {
+        "tool_type": 3,
+        "level": 1,
+        "power": 1
+      }
+    ],
+    "allow_use_hands": false,
+    "level_requirements": [
+      {
+        "skill_id": 4,
+        "level": 15
+      }
+    ],
+    "experience_per_progress": [
+      {
+        "skill_id": 4,
+        "quantity": 4.0
+      }
+    ],
+    "verb_phrase": "Repair",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 568,
     "empire_rank_requirement": null,
     "show_in_progression": false,
     "empire_permission_required": null

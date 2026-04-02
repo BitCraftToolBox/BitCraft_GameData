@@ -4,27 +4,27 @@
     "default_speed": [
       {
         "surface_type": "Ground",
-        "speed": 13.0
+        "speed": 18.0
       },
       {
         "surface_type": "Lake",
-        "speed": 8.0
+        "speed": 11.0
       },
       {
         "surface_type": "River",
-        "speed": 8.0
+        "speed": 11.0
       },
       {
         "surface_type": "Ocean",
-        "speed": 6.0
+        "speed": 8.0
       },
       {
         "surface_type": "OceanBiome",
-        "speed": 4.0
+        "speed": 5.5
       },
       {
         "surface_type": "Swamp",
-        "speed": 8.0
+        "speed": 11.0
       }
     ],
     "default_num_inventory_pockets": 25,
@@ -124,6 +124,7 @@
     "empire_rename_currency_cost": 1000,
     "empire_move_capital_currency_cost": 1000,
     "hexite_capsule_currency_cost": 100,
-    "prospecting_herd_immunity_secs": 120
+    "prospecting_herd_immunity_secs": 20,
+    "rp_walk_speed": 9.0
   }
 ]
