@@ -2892,6 +2892,113 @@
     "allow_hunting": false
   },
   {
+    "id": 1944345023,
+    "name": "Goat (IV)",
+    "deploy_from_collectible_id": 2107364222,
+    "deploy_time": 3.0,
+    "deployable_type": [
+      1,
+      {}
+    ],
+    "pathfinding_id": 41384450,
+    "movement_type": [
+      1,
+      {}
+    ],
+    "can_enter_portals": true,
+    "can_auto_follow": true,
+    "affected_by_wind": 0.0,
+    "speed": [
+      [
+        [
+          0,
+          []
+        ],
+        24.0
+      ],
+      [
+        [
+          1,
+          []
+        ],
+        24.0
+      ],
+      [
+        [
+          2,
+          []
+        ],
+        24.0
+      ],
+      [
+        [
+          3,
+          []
+        ],
+        24.0
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        24.0
+      ],
+      [
+        [
+          5,
+          []
+        ],
+        24.0
+      ]
+    ],
+    "use_player_speed_modifier": false,
+    "placeable_on_land": true,
+    "placeable_in_water": true,
+    "capacity": 1,
+    "storage": 0,
+    "stockpile": 2,
+    "barter": 0,
+    "item_slot_size": 6000,
+    "cargo_slot_size": 150000,
+    "model_address": "Vehicles/GoatMount",
+    "stats": [
+      [
+        [
+          8,
+          []
+        ],
+        0.1,
+        true
+      ],
+      [
+        [
+          9,
+          []
+        ],
+        3.0,
+        false
+      ]
+    ],
+    "player_animations_in_deployable_slots": [
+      2
+    ],
+    "allow_driver_extract": false,
+    "allow_passenger_extract": false,
+    "show_for_secs_after_owner_logout": 0,
+    "allow_emote_while_driver": false,
+    "allow_emote_while_passenger": false,
+    "experience_per_progress": [
+      [
+        17,
+        0.0
+      ]
+    ],
+    "mounting_radius": 3.0,
+    "radius": 0.0,
+    "allow_hunting": true
+  },
+  {
     "id": 2045051661,
     "name": "Wagon (III)",
     "deploy_from_collectible_id": 381044074,
