@@ -560,6 +560,42 @@
     "description": "A road made from cobblestone. Fancier than a dirt road."
   },
   {
+    "id": 16835153,
+    "name": "Blossom Pavement",
+    "consumed_item_stacks": [
+      {
+        "item_id": 1156615754,
+        "quantity": 4,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "input_cargo_id": 0,
+    "input_cargo_discovery_score": 0,
+    "experience_per_progress": [
+      {
+        "skill_id": 15,
+        "quantity": 1.125
+      }
+    ],
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "full_discovery_score": 2,
+    "paving_duration": 1.0,
+    "prefab_address": "Paving/CherryBlossomPavement",
+    "tier": 1,
+    "stat_effects": [
+      {
+        "id": "MovementMultiplier",
+        "value": 0.35,
+        "is_pct": true
+      }
+    ],
+    "icon_address": "GeneratedIcons/Other/BlossomPavement",
+    "description": "Blossom petal pavement"
+  },
+  {
     "id": 60301247,
     "name": "Cobblestone (Yellow)",
     "consumed_item_stacks": [

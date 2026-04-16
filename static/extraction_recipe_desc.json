@@ -16838,6 +16838,48 @@
     "empire_permission_required": null
   },
   {
+    "id": 696055082,
+    "resource_id": 451150522,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 1.6,
+    "stamina_requirement": 0.75,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [],
+    "consumed_item_stacks": [
+      {
+        "item_id": 1678554032,
+        "quantity": 1,
+        "item_type": "Item",
+        "discovery_score": 0,
+        "consumption_chance": 1.0
+      }
+    ],
+    "range": 1,
+    "tool_requirements": [],
+    "allow_use_hands": false,
+    "level_requirements": [
+      {
+        "skill_id": 17,
+        "level": 1
+      }
+    ],
+    "experience_per_progress": [
+      {
+        "skill_id": 17,
+        "quantity": 250.0
+      }
+    ],
+    "verb_phrase": "Gather",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 725,
+    "empire_rank_requirement": null,
+    "show_in_progression": false,
+    "empire_permission_required": null
+  },
+  {
     "id": 729673178,
     "resource_id": 1574437474,
     "cargo_id": 0,
@@ -19182,6 +19224,83 @@
     "empire_permission_required": null
   },
   {
+    "id": 1281651764,
+    "resource_id": 1423043113,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 1.6,
+    "stamina_requirement": 1.03,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [
+      {
+        "item_stack": {
+          "item_id": 2074753566,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        },
+        "probability": 0.0035
+      },
+      {
+        "item_stack": {
+          "item_id": 3220025,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        },
+        "probability": 0.01021
+      },
+      {
+        "item_stack": {
+          "item_id": 2113280563,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        },
+        "probability": 0.0016666
+      },
+      {
+        "item_stack": {
+          "item_id": 3220024,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        },
+        "probability": 0.00875
+      }
+    ],
+    "consumed_item_stacks": [],
+    "range": 1,
+    "tool_requirements": [
+      {
+        "tool_type": 1,
+        "level": 3,
+        "power": 1
+      }
+    ],
+    "allow_use_hands": false,
+    "level_requirements": [
+      {
+        "skill_id": 2,
+        "level": 30
+      }
+    ],
+    "experience_per_progress": [
+      {
+        "skill_id": 2,
+        "quantity": 1.5
+      }
+    ],
+    "verb_phrase": "Chop",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 777,
+    "empire_rank_requirement": null,
+    "show_in_progression": false,
+    "empire_permission_required": null
+  },
+  {
     "id": 1282858906,
     "resource_id": 370078223,
     "cargo_id": 0,
@@ -20436,6 +20555,59 @@
       }
     ],
     "verb_phrase": "Collect",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 725,
+    "empire_rank_requirement": null,
+    "show_in_progression": false,
+    "empire_permission_required": null
+  },
+  {
+    "id": 1527096542,
+    "resource_id": 405891180,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 1.6,
+    "stamina_requirement": 0.75,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [
+      {
+        "item_stack": {
+          "item_id": 1225123841,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        },
+        "probability": 0.2
+      },
+      {
+        "item_stack": {
+          "item_id": 432022960,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        },
+        "probability": 0.001
+      }
+    ],
+    "consumed_item_stacks": [],
+    "range": 1,
+    "tool_requirements": [],
+    "allow_use_hands": true,
+    "level_requirements": [
+      {
+        "skill_id": 17,
+        "level": 1
+      }
+    ],
+    "experience_per_progress": [
+      {
+        "skill_id": 17,
+        "quantity": 25.0
+      }
+    ],
+    "verb_phrase": "Gather",
     "tool_mesh_index": 0,
     "recipe_performance_id": 725,
     "empire_rank_requirement": null,
@@ -22494,6 +22666,74 @@
     "verb_phrase": "Fish",
     "tool_mesh_index": 0,
     "recipe_performance_id": 143,
+    "empire_rank_requirement": null,
+    "show_in_progression": false,
+    "empire_permission_required": null
+  },
+  {
+    "id": 1946607538,
+    "resource_id": 1299321579,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 1.6,
+    "stamina_requirement": 1.03,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [
+      {
+        "item_stack": {
+          "item_id": 1156615754,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        },
+        "probability": 0.0035
+      },
+      {
+        "item_stack": {
+          "item_id": 239316139,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        },
+        "probability": 0.0016666
+      },
+      {
+        "item_stack": {
+          "item_id": 962847677,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        },
+        "probability": 1.2E-05
+      }
+    ],
+    "consumed_item_stacks": [],
+    "range": 1,
+    "tool_requirements": [
+      {
+        "tool_type": 1,
+        "level": 3,
+        "power": 1
+      }
+    ],
+    "allow_use_hands": false,
+    "level_requirements": [
+      {
+        "skill_id": 2,
+        "level": 30
+      }
+    ],
+    "experience_per_progress": [
+      {
+        "skill_id": 2,
+        "quantity": 1.25
+      }
+    ],
+    "verb_phrase": "Chop",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 777,
     "empire_rank_requirement": null,
     "show_in_progression": false,
     "empire_permission_required": null

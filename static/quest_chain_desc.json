@@ -1396,6 +1396,49 @@
     "is_secret": false
   },
   {
+    "id": 613811784,
+    "name": "Creepy Crawlies",
+    "is_hint": false,
+    "stages": [
+      1202128155,
+      255775847,
+      1112848585,
+      1092871980,
+      250533757,
+      1217949939,
+      481743859,
+      1202153164,
+      2057560391,
+      1646941204
+    ],
+    "requirements": [
+      {
+        "QuestChain_": 809605965
+      }
+    ],
+    "rewards": [
+      {
+        "ItemStack_": {
+          "item_id": 113,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        }
+      },
+      {
+        "ItemStack_": {
+          "item_id": 1621872821,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        }
+      }
+    ],
+    "implicit_rewards": [],
+    "unstartable": false,
+    "is_secret": false
+  },
+  {
     "id": 627872387,
     "name": "Starving Hint",
     "is_hint": true,
@@ -1803,6 +1846,42 @@
     "is_secret": false
   },
   {
+    "id": 801723173,
+    "name": "Masks of War",
+    "is_hint": false,
+    "stages": [
+      1649746330,
+      1835378639,
+      715131773,
+      1055812314,
+      792574237,
+      1755586060,
+      1142391837,
+      1279676589
+    ],
+    "requirements": [
+      {
+        "QuestChain_": 2053821083
+      },
+      {
+        "QuestChain_": 2085948434
+      }
+    ],
+    "rewards": [
+      {
+        "ItemStack_": {
+          "item_id": 111,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        }
+      }
+    ],
+    "implicit_rewards": [],
+    "unstartable": false,
+    "is_secret": true
+  },
+  {
     "id": 803146736,
     "name": "Documenting History (IX)",
     "is_hint": false,
@@ -1836,6 +1915,65 @@
         "Experience_": {
           "skill_id": 19,
           "quantity": 2658900.0
+        }
+      }
+    ],
+    "implicit_rewards": [],
+    "unstartable": false,
+    "is_secret": false
+  },
+  {
+    "id": 809605965,
+    "name": "Pest Control",
+    "is_hint": false,
+    "stages": [
+      565277825,
+      1858210622,
+      475295807,
+      1847112994
+    ],
+    "requirements": [
+      {
+        "QuestChain_": 728483143
+      },
+      {
+        "QuestChain_": 1905626394
+      },
+      {
+        "QuestChain_": 985054074
+      },
+      {
+        "QuestChain_": 1061764958
+      },
+      {
+        "QuestChain_": 11822390
+      },
+      {
+        "QuestChain_": 2109433461
+      },
+      {
+        "QuestChain_": 1061764958
+      },
+      {
+        "Level_": {
+          "skill_id": 18,
+          "level": 70
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "ItemStack_": {
+          "item_id": 1682820391,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        }
+      },
+      {
+        "Experience_": {
+          "skill_id": 18,
+          "quantity": 99500.0
         }
       }
     ],
@@ -1968,6 +2106,34 @@
         "Experience_": {
           "skill_id": 17,
           "quantity": 2658900.0
+        }
+      }
+    ],
+    "implicit_rewards": [],
+    "unstartable": false,
+    "is_secret": false
+  },
+  {
+    "id": 970445302,
+    "name": "A Salute to Your Empire",
+    "is_hint": false,
+    "stages": [
+      1794285259,
+      1341023328,
+      1961487945
+    ],
+    "requirements": [
+      {
+        "QuestChain_": 378322976
+      }
+    ],
+    "rewards": [
+      {
+        "ItemStack_": {
+          "item_id": 285377754,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
         }
       }
     ],
@@ -2564,6 +2730,59 @@
     "is_secret": false
   },
   {
+    "id": 1409814184,
+    "name": "Rumbagh's Lost Shipment",
+    "is_hint": false,
+    "stages": [
+      387597286,
+      24900382,
+      987372856,
+      1979306388,
+      1762691734,
+      1787769877,
+      923873585,
+      1117003243
+    ],
+    "requirements": [
+      {
+        "QuestChain_": 79625522
+      },
+      {
+        "Level_": {
+          "skill_id": 19,
+          "level": 45
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "ItemStack_": {
+          "item_id": 164053808,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        }
+      },
+      {
+        "ItemStack_": {
+          "item_id": 1816967630,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        }
+      },
+      {
+        "Experience_": {
+          "skill_id": 19,
+          "quantity": 6400.0
+        }
+      }
+    ],
+    "implicit_rewards": [],
+    "unstartable": false,
+    "is_secret": false
+  },
+  {
     "id": 1433977552,
     "name": "A Helping Hand (VII)",
     "is_hint": false,
@@ -2718,6 +2937,55 @@
     "rewards": [],
     "implicit_rewards": [],
     "unstartable": true,
+    "is_secret": false
+  },
+  {
+    "id": 1456826953,
+    "name": "Alesi's Mercy",
+    "is_hint": false,
+    "stages": [
+      280902880,
+      1641297515,
+      1333547363,
+      38853167,
+      1713880745,
+      178795495
+    ],
+    "requirements": [
+      {
+        "QuestChain_": 2105342661
+      },
+      {
+        "Level_": {
+          "skill_id": 17,
+          "level": 33
+        }
+      },
+      {
+        "Level_": {
+          "skill_id": 9,
+          "level": 30
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "ItemStack_": {
+          "item_id": 1292828663,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        }
+      },
+      {
+        "Experience_": {
+          "skill_id": 17,
+          "quantity": 1700.0
+        }
+      }
+    ],
+    "implicit_rewards": [],
+    "unstartable": false,
     "is_secret": false
   },
   {
@@ -3922,6 +4190,34 @@
         "Experience_": {
           "skill_id": 21,
           "quantity": 500.0
+        }
+      }
+    ],
+    "implicit_rewards": [],
+    "unstartable": false,
+    "is_secret": false
+  },
+  {
+    "id": 1865788303,
+    "name": "Golden Eyes on the Empire",
+    "is_hint": false,
+    "stages": [
+      941675257,
+      1423764235,
+      1390798863
+    ],
+    "requirements": [
+      {
+        "QuestChain_": 970445302
+      }
+    ],
+    "rewards": [
+      {
+        "ItemStack_": {
+          "item_id": 115,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
         }
       }
     ],

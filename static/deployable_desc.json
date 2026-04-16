@@ -2109,6 +2109,83 @@
     "allow_hunting": false
   },
   {
+    "id": 1944345023,
+    "name": "Goat (IV)",
+    "deploy_from_collectible_id": 2107364222,
+    "deploy_time": 3.0,
+    "deployable_type": "Mount",
+    "pathfinding_id": 41384450,
+    "movement_type": "Ground",
+    "can_enter_portals": true,
+    "can_auto_follow": true,
+    "affected_by_wind": 0.0,
+    "speed": [
+      {
+        "surface_type": "Ground",
+        "speed": 24.0
+      },
+      {
+        "surface_type": "Lake",
+        "speed": 24.0
+      },
+      {
+        "surface_type": "River",
+        "speed": 24.0
+      },
+      {
+        "surface_type": "Ocean",
+        "speed": 24.0
+      },
+      {
+        "surface_type": "OceanBiome",
+        "speed": 24.0
+      },
+      {
+        "surface_type": "Swamp",
+        "speed": 24.0
+      }
+    ],
+    "use_player_speed_modifier": false,
+    "placeable_on_land": true,
+    "placeable_in_water": true,
+    "capacity": 1,
+    "storage": 0,
+    "stockpile": 2,
+    "barter": 0,
+    "item_slot_size": 6000,
+    "cargo_slot_size": 150000,
+    "model_address": "Vehicles/GoatMount",
+    "stats": [
+      {
+        "id": "CooldownMultiplier",
+        "value": 0.1,
+        "is_pct": true
+      },
+      {
+        "id": "HuntingWeaponPower",
+        "value": 3.0,
+        "is_pct": false
+      }
+    ],
+    "player_animations_in_deployable_slots": [
+      2
+    ],
+    "allow_driver_extract": false,
+    "allow_passenger_extract": false,
+    "show_for_secs_after_owner_logout": 0,
+    "allow_emote_while_driver": false,
+    "allow_emote_while_passenger": false,
+    "experience_per_progress": [
+      {
+        "skill_id": 17,
+        "quantity": 0.0
+      }
+    ],
+    "mounting_radius": 3.0,
+    "radius": 0.0,
+    "allow_hunting": true
+  },
+  {
     "id": 2045051661,
     "name": "Wagon (III)",
     "deploy_from_collectible_id": 381044074,

@@ -21771,6 +21771,35 @@
     "show_time_left": false
   },
   {
+    "id": 405891180,
+    "name": "Calmed Beehive",
+    "description": "",
+    "flattenable": false,
+    "max_health": 233775,
+    "ignore_damage": true,
+    "despawn_time": 0.0,
+    "model_asset_name": "Resources/CalmedBeeHive",
+    "icon_asset_name": "GeneratedIcons/Other/Beehive",
+    "on_destroy_yield": [],
+    "on_destroy_yield_resource_id": 0,
+    "spawn_priority": 1,
+    "footprint": [
+      {
+        "x": 0,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      }
+    ],
+    "tier": -1,
+    "tag": "Taming",
+    "rarity": "Common",
+    "compendium_entry": false,
+    "enemy_params_id": [],
+    "scheduled_respawn_time": 0.0,
+    "not_respawning": false,
+    "show_time_left": true
+  },
+  {
     "id": 411376268,
     "name": "Aurumite Vein Interior Depleted",
     "description": "",
@@ -21924,6 +21953,35 @@
     "enemy_params_id": [
       963209607
     ],
+    "scheduled_respawn_time": 0.0,
+    "not_respawning": false,
+    "show_time_left": false
+  },
+  {
+    "id": 451150522,
+    "name": "Beehive",
+    "description": "",
+    "flattenable": false,
+    "max_health": 1,
+    "ignore_damage": false,
+    "despawn_time": 0.0,
+    "model_asset_name": "Resources/BeeHive",
+    "icon_asset_name": "GeneratedIcons/Other/Beehive",
+    "on_destroy_yield": [],
+    "on_destroy_yield_resource_id": 405891180,
+    "spawn_priority": 1,
+    "footprint": [
+      {
+        "x": 0,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      }
+    ],
+    "tier": -1,
+    "tag": "Taming",
+    "rarity": "Common",
+    "compendium_entry": true,
+    "enemy_params_id": [],
     "scheduled_respawn_time": 0.0,
     "not_respawning": false,
     "show_time_left": false
@@ -32613,6 +32671,35 @@
     "show_time_left": false
   },
   {
+    "id": 1299321579,
+    "name": "Blossom Tree",
+    "description": "",
+    "flattenable": false,
+    "max_health": 1500,
+    "ignore_damage": false,
+    "despawn_time": 3.0,
+    "model_asset_name": "Resources/CherryBlossomTree",
+    "icon_asset_name": "GeneratedIcons/Other/Blossom",
+    "on_destroy_yield": [],
+    "on_destroy_yield_resource_id": 0,
+    "spawn_priority": 1,
+    "footprint": [
+      {
+        "x": 0,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      }
+    ],
+    "tier": 1,
+    "tag": "Blossom Tree",
+    "rarity": "Common",
+    "compendium_entry": true,
+    "enemy_params_id": [],
+    "scheduled_respawn_time": 600.0,
+    "not_respawning": false,
+    "show_time_left": false
+  },
+  {
     "id": 1303955933,
     "name": "Traveler's Tree",
     "description": "",
@@ -33235,6 +33322,35 @@
     ],
     "tier": 9,
     "tag": "Ore Vein",
+    "rarity": "Common",
+    "compendium_entry": true,
+    "enemy_params_id": [],
+    "scheduled_respawn_time": 0.0,
+    "not_respawning": false,
+    "show_time_left": false
+  },
+  {
+    "id": 1423043113,
+    "name": "Peach Tree",
+    "description": "",
+    "flattenable": false,
+    "max_health": 1500,
+    "ignore_damage": false,
+    "despawn_time": 3.0,
+    "model_asset_name": "Resources/PeachFruitTree",
+    "icon_asset_name": "GeneratedIcons/Other/PeachTree",
+    "on_destroy_yield": [],
+    "on_destroy_yield_resource_id": 0,
+    "spawn_priority": 1,
+    "footprint": [
+      {
+        "x": 0,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      }
+    ],
+    "tier": 3,
+    "tag": "Fruit Tree",
     "rarity": "Common",
     "compendium_entry": true,
     "enemy_params_id": [],
