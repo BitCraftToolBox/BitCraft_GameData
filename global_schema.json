@@ -54233,42 +54233,6 @@
       }
     },
     {
-      "name": "admin_gated_feature_add",
-      "params": {
-        "elements": [
-          {
-            "name": {
-              "some": "feature"
-            },
-            "algebraic_type": {
-              "String": []
-            }
-          }
-        ]
-      },
-      "lifecycle": {
-        "none": []
-      }
-    },
-    {
-      "name": "admin_gated_feature_remove",
-      "params": {
-        "elements": [
-          {
-            "name": {
-              "some": "feature"
-            },
-            "algebraic_type": {
-              "String": []
-            }
-          }
-        ]
-      },
-      "lifecycle": {
-        "none": []
-      }
-    },
-    {
       "name": "admin_grant_shards",
       "params": {
         "elements": [
