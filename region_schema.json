@@ -7086,6 +7086,14 @@
             },
             {
               "name": {
+                "some": "from_pocket"
+              },
+              "algebraic_type": {
+                "Ref": 114
+              }
+            },
+            {
+              "name": {
                 "some": "paid_supplies"
               },
               "algebraic_type": {
@@ -7098,6 +7106,28 @@
               },
               "algebraic_type": {
                 "F32": []
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Product": {
+          "elements": [
+            {
+              "name": {
+                "some": "inventory_entity_id"
+              },
+              "algebraic_type": {
+                "U64": []
+              }
+            },
+            {
+              "name": {
+                "some": "pocket_index"
+              },
+              "algebraic_type": {
+                "I32": []
               }
             }
           ]
@@ -7245,29 +7275,7 @@
                 "some": "from_pocket"
               },
               "algebraic_type": {
-                "Ref": 120
-              }
-            }
-          ]
-        }
-      },
-      {
-        "Product": {
-          "elements": [
-            {
-              "name": {
-                "some": "inventory_entity_id"
-              },
-              "algebraic_type": {
-                "U64": []
-              }
-            },
-            {
-              "name": {
-                "some": "pocket_index"
-              },
-              "algebraic_type": {
-                "I32": []
+                "Ref": 114
               }
             }
           ]
@@ -12782,7 +12790,7 @@
                 "some": "from_pocket"
               },
               "algebraic_type": {
-                "Ref": 120
+                "Ref": 114
               }
             }
           ]
@@ -13415,7 +13423,7 @@
                 "some": "from_pocket"
               },
               "algebraic_type": {
-                "Ref": 120
+                "Ref": 114
               }
             }
           ]
@@ -15156,7 +15164,7 @@
                         "some": "some"
                       },
                       "algebraic_type": {
-                        "Ref": 120
+                        "Ref": 114
                       }
                     },
                     {
@@ -15681,7 +15689,7 @@
                         "some": "some"
                       },
                       "algebraic_type": {
-                        "Ref": 120
+                        "Ref": 114
                       }
                     },
                     {
@@ -32064,7 +32072,7 @@
                 "some": "pocket"
               },
               "algebraic_type": {
-                "Ref": 120
+                "Ref": 114
               }
             }
           ]
@@ -32116,7 +32124,7 @@
                 "some": "from_pocket"
               },
               "algebraic_type": {
-                "Ref": 120
+                "Ref": 114
               }
             },
             {
@@ -32124,7 +32132,7 @@
                 "some": "to_pocket"
               },
               "algebraic_type": {
-                "Ref": 120
+                "Ref": 114
               }
             },
             {
@@ -32146,7 +32154,7 @@
                 "some": "from_pocket"
               },
               "algebraic_type": {
-                "Ref": 120
+                "Ref": 114
               }
             },
             {
@@ -32154,7 +32162,7 @@
                 "some": "to_pocket"
               },
               "algebraic_type": {
-                "Ref": 120
+                "Ref": 114
               }
             }
           ]
@@ -32168,7 +32176,7 @@
                 "some": "from_pocket"
               },
               "algebraic_type": {
-                "Ref": 120
+                "Ref": 114
               }
             },
             {
@@ -34820,7 +34828,7 @@
                 "some": "from_pocket"
               },
               "algebraic_type": {
-                "Ref": 120
+                "Ref": 114
               }
             },
             {
@@ -34828,7 +34836,7 @@
                 "some": "to_pocket"
               },
               "algebraic_type": {
-                "Ref": 120
+                "Ref": 114
               }
             },
             {
@@ -34990,7 +34998,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 120
+                  "Ref": 114
                 }
               }
             }
@@ -41517,7 +41525,7 @@
     },
     {
       "name": "claim_recruitment_state",
-      "product_type_ref": 114,
+      "product_type_ref": 115,
       "primary_key": [
         0
       ],
@@ -66756,7 +66764,7 @@
               "some": "request"
             },
             "algebraic_type": {
-              "Ref": 115
+              "Ref": 116
             }
           }
         ]
@@ -66774,7 +66782,7 @@
               "some": "request"
             },
             "algebraic_type": {
-              "Ref": 116
+              "Ref": 117
             }
           }
         ]
@@ -66792,7 +66800,7 @@
               "some": "request"
             },
             "algebraic_type": {
-              "Ref": 117
+              "Ref": 118
             }
           }
         ]
@@ -66810,7 +66818,7 @@
               "some": "request"
             },
             "algebraic_type": {
-              "Ref": 118
+              "Ref": 119
             }
           }
         ]
@@ -66828,7 +66836,7 @@
               "some": "request"
             },
             "algebraic_type": {
-              "Ref": 119
+              "Ref": 120
             }
           }
         ]
@@ -66846,7 +66854,7 @@
               "some": "request"
             },
             "algebraic_type": {
-              "Ref": 119
+              "Ref": 120
             }
           }
         ]
@@ -67744,6 +67752,168 @@
       }
     },
     {
+      "name": "discover_achievement",
+      "params": {
+        "elements": [
+          {
+            "name": {
+              "some": "achievement_id"
+            },
+            "algebraic_type": {
+              "I32": []
+            }
+          }
+        ]
+      },
+      "lifecycle": {
+        "none": []
+      }
+    },
+    {
+      "name": "discover_building",
+      "params": {
+        "elements": [
+          {
+            "name": {
+              "some": "building_id"
+            },
+            "algebraic_type": {
+              "I32": []
+            }
+          }
+        ]
+      },
+      "lifecycle": {
+        "none": []
+      }
+    },
+    {
+      "name": "discover_cargo",
+      "params": {
+        "elements": [
+          {
+            "name": {
+              "some": "cargo_id"
+            },
+            "algebraic_type": {
+              "I32": []
+            }
+          }
+        ]
+      },
+      "lifecycle": {
+        "none": []
+      }
+    },
+    {
+      "name": "discover_claim",
+      "params": {
+        "elements": [
+          {
+            "name": {
+              "some": "claim_entity_id"
+            },
+            "algebraic_type": {
+              "U64": []
+            }
+          }
+        ]
+      },
+      "lifecycle": {
+        "none": []
+      }
+    },
+    {
+      "name": "discover_collectible",
+      "params": {
+        "elements": [
+          {
+            "name": {
+              "some": "collectible_id"
+            },
+            "algebraic_type": {
+              "I32": []
+            }
+          }
+        ]
+      },
+      "lifecycle": {
+        "none": []
+      }
+    },
+    {
+      "name": "discover_construction_recipe",
+      "params": {
+        "elements": [
+          {
+            "name": {
+              "some": "construction_id"
+            },
+            "algebraic_type": {
+              "I32": []
+            }
+          }
+        ]
+      },
+      "lifecycle": {
+        "none": []
+      }
+    },
+    {
+      "name": "discover_crafting_recipe",
+      "params": {
+        "elements": [
+          {
+            "name": {
+              "some": "craft_id"
+            },
+            "algebraic_type": {
+              "I32": []
+            }
+          }
+        ]
+      },
+      "lifecycle": {
+        "none": []
+      }
+    },
+    {
+      "name": "discover_deployable",
+      "params": {
+        "elements": [
+          {
+            "name": {
+              "some": "deployable_id"
+            },
+            "algebraic_type": {
+              "I32": []
+            }
+          }
+        ]
+      },
+      "lifecycle": {
+        "none": []
+      }
+    },
+    {
+      "name": "discover_enemy",
+      "params": {
+        "elements": [
+          {
+            "name": {
+              "some": "enemy_id"
+            },
+            "algebraic_type": {
+              "I32": []
+            }
+          }
+        ]
+      },
+      "lifecycle": {
+        "none": []
+      }
+    },
+    {
       "name": "discover_entities",
       "params": {
         "elements": [
@@ -67753,6 +67923,186 @@
             },
             "algebraic_type": {
               "Ref": 193
+            }
+          }
+        ]
+      },
+      "lifecycle": {
+        "none": []
+      }
+    },
+    {
+      "name": "discover_extraction_recipe",
+      "params": {
+        "elements": [
+          {
+            "name": {
+              "some": "extract_id"
+            },
+            "algebraic_type": {
+              "I32": []
+            }
+          }
+        ]
+      },
+      "lifecycle": {
+        "none": []
+      }
+    },
+    {
+      "name": "discover_item",
+      "params": {
+        "elements": [
+          {
+            "name": {
+              "some": "item_id"
+            },
+            "algebraic_type": {
+              "I32": []
+            }
+          }
+        ]
+      },
+      "lifecycle": {
+        "none": []
+      }
+    },
+    {
+      "name": "discover_npc",
+      "params": {
+        "elements": [
+          {
+            "name": {
+              "some": "npc_id"
+            },
+            "algebraic_type": {
+              "I32": []
+            }
+          }
+        ]
+      },
+      "lifecycle": {
+        "none": []
+      }
+    },
+    {
+      "name": "discover_pavement",
+      "params": {
+        "elements": [
+          {
+            "name": {
+              "some": "paving_id"
+            },
+            "algebraic_type": {
+              "I32": []
+            }
+          }
+        ]
+      },
+      "lifecycle": {
+        "none": []
+      }
+    },
+    {
+      "name": "discover_pillar_shaping",
+      "params": {
+        "elements": [
+          {
+            "name": {
+              "some": "pillar_shaping_id"
+            },
+            "algebraic_type": {
+              "I32": []
+            }
+          }
+        ]
+      },
+      "lifecycle": {
+        "none": []
+      }
+    },
+    {
+      "name": "discover_resource",
+      "params": {
+        "elements": [
+          {
+            "name": {
+              "some": "resource_id"
+            },
+            "algebraic_type": {
+              "I32": []
+            }
+          }
+        ]
+      },
+      "lifecycle": {
+        "none": []
+      }
+    },
+    {
+      "name": "discover_resource_placement",
+      "params": {
+        "elements": [
+          {
+            "name": {
+              "some": "resource_placement_id"
+            },
+            "algebraic_type": {
+              "I32": []
+            }
+          }
+        ]
+      },
+      "lifecycle": {
+        "none": []
+      }
+    },
+    {
+      "name": "discover_ruins",
+      "params": {
+        "elements": [
+          {
+            "name": {
+              "some": "coordinates"
+            },
+            "algebraic_type": {
+              "Ref": 22
+            }
+          }
+        ]
+      },
+      "lifecycle": {
+        "none": []
+      }
+    },
+    {
+      "name": "discover_scroll",
+      "params": {
+        "elements": [
+          {
+            "name": {
+              "some": "scroll_id"
+            },
+            "algebraic_type": {
+              "I32": []
+            }
+          }
+        ]
+      },
+      "lifecycle": {
+        "none": []
+      }
+    },
+    {
+      "name": "discover_secondary_knowledge",
+      "params": {
+        "elements": [
+          {
+            "name": {
+              "some": "secondary_id"
+            },
+            "algebraic_type": {
+              "I32": []
             }
           }
         ]
@@ -69126,7 +69476,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 114
+                "Ref": 115
               }
             }
           }
@@ -78139,7 +78489,7 @@
         "scope": [],
         "name": "ClaimRecruitmentState"
       },
-      "ty": 114,
+      "ty": 115,
       "custom_ordering": true
     },
     {
@@ -78147,7 +78497,7 @@
         "scope": [],
         "name": "ClaimResupplyRequest"
       },
-      "ty": 119,
+      "ty": 120,
       "custom_ordering": true
     },
     {
@@ -80595,7 +80945,7 @@
         "scope": [],
         "name": "PlayerClaimRemoveMemberRequest"
       },
-      "ty": 115,
+      "ty": 116,
       "custom_ordering": true
     },
     {
@@ -80603,7 +80953,7 @@
         "scope": [],
         "name": "PlayerClaimRemoveRecruitmentRequest"
       },
-      "ty": 116,
+      "ty": 117,
       "custom_ordering": true
     },
     {
@@ -80611,7 +80961,7 @@
         "scope": [],
         "name": "PlayerClaimRemoveTileRequest"
       },
-      "ty": 117,
+      "ty": 118,
       "custom_ordering": true
     },
     {
@@ -80619,7 +80969,7 @@
         "scope": [],
         "name": "PlayerClaimRenameRequest"
       },
-      "ty": 118,
+      "ty": 119,
       "custom_ordering": true
     },
     {
@@ -81475,7 +81825,7 @@
         "scope": [],
         "name": "PocketKey"
       },
-      "ty": 120,
+      "ty": 114,
       "custom_ordering": true
     },
     {
