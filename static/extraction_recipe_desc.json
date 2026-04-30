@@ -14670,6 +14670,56 @@
     "empire_permission_required": null
   },
   {
+    "id": 263598971,
+    "resource_id": 499397253,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 1.6,
+    "stamina_requirement": 0.89,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [
+      {
+        "item_stack": {
+          "item_id": 60001,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        },
+        "probability": 0.0065
+      }
+    ],
+    "consumed_item_stacks": [],
+    "range": 1,
+    "tool_requirements": [
+      {
+        "tool_type": 4,
+        "level": 5,
+        "power": 1
+      }
+    ],
+    "allow_use_hands": false,
+    "level_requirements": [
+      {
+        "skill_id": 5,
+        "level": 55
+      }
+    ],
+    "experience_per_progress": [
+      {
+        "skill_id": 5,
+        "quantity": 22.0
+      }
+    ],
+    "verb_phrase": "Mine",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 975,
+    "empire_rank_requirement": null,
+    "show_in_progression": false,
+    "empire_permission_required": null
+  },
+  {
     "id": 268632318,
     "resource_id": 284200468,
     "cargo_id": 0,
@@ -17977,6 +18027,59 @@
     "empire_permission_required": null
   },
   {
+    "id": 951807369,
+    "resource_id": 876954498,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 1.6,
+    "stamina_requirement": 0.75,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [
+      {
+        "item_stack": {
+          "item_id": 1225123841,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        },
+        "probability": 0.2
+      },
+      {
+        "item_stack": {
+          "item_id": 432022960,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        },
+        "probability": 0.001
+      }
+    ],
+    "consumed_item_stacks": [],
+    "range": 1,
+    "tool_requirements": [],
+    "allow_use_hands": true,
+    "level_requirements": [
+      {
+        "skill_id": 17,
+        "level": 1
+      }
+    ],
+    "experience_per_progress": [
+      {
+        "skill_id": 17,
+        "quantity": 25.0
+      }
+    ],
+    "verb_phrase": "Gather",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 725,
+    "empire_rank_requirement": null,
+    "show_in_progression": false,
+    "empire_permission_required": null
+  },
+  {
     "id": 975522317,
     "resource_id": 1101060328,
     "cargo_id": 0,
@@ -18347,6 +18450,15 @@
           "durability": 0
         },
         "probability": 0.00875
+      },
+      {
+        "item_stack": {
+          "item_id": 869973077,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        },
+        "probability": 0.0016666
       }
     ],
     "consumed_item_stacks": [],
@@ -22063,6 +22175,48 @@
     "empire_permission_required": null
   },
   {
+    "id": 1780151225,
+    "resource_id": 1396949488,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 1.6,
+    "stamina_requirement": 0.75,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [],
+    "consumed_item_stacks": [
+      {
+        "item_id": 1678554032,
+        "quantity": 1,
+        "item_type": "Item",
+        "discovery_score": 0,
+        "consumption_chance": 1.0
+      }
+    ],
+    "range": 1,
+    "tool_requirements": [],
+    "allow_use_hands": false,
+    "level_requirements": [
+      {
+        "skill_id": 17,
+        "level": 1
+      }
+    ],
+    "experience_per_progress": [
+      {
+        "skill_id": 17,
+        "quantity": 250.0
+      }
+    ],
+    "verb_phrase": "Gather",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 725,
+    "empire_rank_requirement": null,
+    "show_in_progression": false,
+    "empire_permission_required": null
+  },
+  {
     "id": 1798019273,
     "resource_id": 2089197796,
     "cargo_id": 0,
@@ -22688,7 +22842,7 @@
           "item_type": "Item",
           "durability": 0
         },
-        "probability": 0.0035
+        "probability": 0.004375
       },
       {
         "item_stack": {
@@ -22697,7 +22851,7 @@
           "item_type": "Item",
           "durability": 0
         },
-        "probability": 0.0016666
+        "probability": 0.002
       },
       {
         "item_stack": {

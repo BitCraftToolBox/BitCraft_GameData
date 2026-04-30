@@ -259,6 +259,65 @@
     "is_secret": false
   },
   {
+    "id": 104606097,
+    "name": "A Sailor of the Nine Seas",
+    "is_hint": false,
+    "stages": [
+      1123905302,
+      2085693365,
+      969757447,
+      689405591,
+      1156379553,
+      50228166,
+      1433865673,
+      159374862,
+      49303414,
+      1789812088,
+      1110722835,
+      1811390858,
+      1300882380,
+      1279011476
+    ],
+    "requirements": [
+      {
+        "Level_": {
+          "skill_id": 21,
+          "level": 80
+        }
+      },
+      {
+        "QuestChain_": 51088672
+      }
+    ],
+    "rewards": [
+      {
+        "ItemStack_": {
+          "item_id": 75384237,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        }
+      },
+      {
+        "ItemStack_": {
+          "item_id": 1030786738,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        }
+      },
+      {
+        "Experience_": {
+          "skill_id": 21,
+          "quantity": 297400.0
+        }
+      }
+    ],
+    "implicit_rewards": [],
+    "unstartable": false,
+    "is_secret": false
+  },
+  {
     "id": 171407959,
     "name": "You're Going to Need a Bigger Skiff",
     "is_hint": false,
@@ -1431,6 +1490,61 @@
           "quantity": 1,
           "item_type": "Item",
           "durability": 0
+        }
+      }
+    ],
+    "implicit_rewards": [],
+    "unstartable": false,
+    "is_secret": false
+  },
+  {
+    "id": 618339395,
+    "name": "What's the buzz about?",
+    "is_hint": false,
+    "stages": [
+      822168826,
+      209564449,
+      373899008,
+      1621498561,
+      991338881,
+      1393385824,
+      963331080,
+      959018307,
+      944558837,
+      1548478311
+    ],
+    "requirements": [
+      {
+        "QuestChain_": 871400259
+      },
+      {
+        "Level_": {
+          "skill_id": 1,
+          "level": 15
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "ItemStack_": {
+          "item_id": 1133243991,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        }
+      },
+      {
+        "ItemStack_": {
+          "item_id": 365584277,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        }
+      },
+      {
+        "Experience_": {
+          "skill_id": 17,
+          "quantity": 500.0
         }
       }
     ],
@@ -3572,7 +3686,7 @@
       },
       {
         "Level_": {
-          "skill_id": 19,
+          "skill_id": 21,
           "level": 80
         }
       }
@@ -3588,7 +3702,7 @@
       },
       {
         "Experience_": {
-          "skill_id": 19,
+          "skill_id": 21,
           "quantity": 297400.0
         }
       }

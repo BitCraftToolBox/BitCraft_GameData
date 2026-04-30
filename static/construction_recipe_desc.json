@@ -413,7 +413,13 @@
         "level": 1
       }
     ],
-    "tool_requirements": [],
+    "tool_requirements": [
+      {
+        "tool_type": 14,
+        "level": 1,
+        "power": 1
+      }
+    ],
     "consumed_item_stacks": [
       {
         "item_id": 1182839338,
@@ -438,7 +444,7 @@
     "tool_mesh_index": 0,
     "building_description_id": 13,
     "required_paving_tier": -1,
-    "actions_required": 5,
+    "actions_required": 100,
     "instantly_built": false,
     "recipe_performance_id": 50
   },
@@ -14255,6 +14261,54 @@
     "recipe_performance_id": 538
   },
   {
+    "id": 33966587,
+    "name": "Purple Balloon",
+    "time_requirement": 2.0,
+    "stamina_requirement": 0.75,
+    "consumed_building": 0,
+    "required_interior_tier": 0,
+    "level_requirements": [
+      {
+        "skill_id": 15,
+        "level": 1
+      }
+    ],
+    "tool_requirements": [
+      {
+        "tool_type": 14,
+        "level": 1,
+        "power": 1
+      }
+    ],
+    "consumed_item_stacks": [
+      {
+        "item_id": 1475610031,
+        "quantity": 1,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "consumed_cargo_stacks": [],
+    "consumed_shards": 0,
+    "experience_per_progress": [
+      {
+        "skill_id": 15,
+        "quantity": 1.0
+      }
+    ],
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "required_claim_tech_ids": [],
+    "full_discovery_score": 1,
+    "tool_mesh_index": 0,
+    "building_description_id": 1147779993,
+    "required_paving_tier": -1,
+    "actions_required": 1,
+    "instantly_built": false,
+    "recipe_performance_id": 538
+  },
+  {
     "id": 38938786,
     "name": "Clockwork Chair",
     "time_requirement": 2.0,
@@ -14777,6 +14831,77 @@
     "recipe_performance_id": 50
   },
   {
+    "id": 74415652,
+    "name": "Decorative Mature Pine Tree",
+    "time_requirement": 2.0,
+    "stamina_requirement": 0.75,
+    "consumed_building": 0,
+    "required_interior_tier": -1,
+    "level_requirements": [
+      {
+        "skill_id": 2,
+        "level": 1
+      }
+    ],
+    "tool_requirements": [
+      {
+        "tool_type": 14,
+        "level": 1,
+        "power": 1
+      }
+    ],
+    "consumed_item_stacks": [
+      {
+        "item_id": 3010009,
+        "quantity": 5,
+        "item_type": "Item",
+        "discovery_score": 3,
+        "consumption_chance": 1.0
+      },
+      {
+        "item_id": 4100001,
+        "quantity": 30,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      },
+      {
+        "item_id": 11007,
+        "quantity": 15,
+        "item_type": "Item",
+        "discovery_score": 0,
+        "consumption_chance": 1.0
+      },
+      {
+        "item_id": 4030025,
+        "quantity": 1,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "consumed_cargo_stacks": [],
+    "consumed_shards": 0,
+    "experience_per_progress": [
+      {
+        "skill_id": 2,
+        "quantity": 1.0
+      }
+    ],
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "required_claim_tech_ids": [
+      400
+    ],
+    "full_discovery_score": 4,
+    "tool_mesh_index": 1,
+    "building_description_id": 45725348,
+    "required_paving_tier": -1,
+    "actions_required": 100,
+    "instantly_built": false,
+    "recipe_performance_id": 641
+  },
+  {
     "id": 76625002,
     "name": "Midwinter Cabin Couch",
     "time_requirement": 2.0,
@@ -14890,6 +15015,77 @@
     "actions_required": 250,
     "instantly_built": false,
     "recipe_performance_id": 538
+  },
+  {
+    "id": 79715855,
+    "name": "Decorative Young Birch Tree",
+    "time_requirement": 2.0,
+    "stamina_requirement": 0.75,
+    "consumed_building": 0,
+    "required_interior_tier": -1,
+    "level_requirements": [
+      {
+        "skill_id": 2,
+        "level": 1
+      }
+    ],
+    "tool_requirements": [
+      {
+        "tool_type": 14,
+        "level": 1,
+        "power": 1
+      }
+    ],
+    "consumed_item_stacks": [
+      {
+        "item_id": 1010008,
+        "quantity": 1,
+        "item_type": "Item",
+        "discovery_score": 3,
+        "consumption_chance": 1.0
+      },
+      {
+        "item_id": 2100001,
+        "quantity": 20,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      },
+      {
+        "item_id": 11007,
+        "quantity": 10,
+        "item_type": "Item",
+        "discovery_score": 0,
+        "consumption_chance": 1.0
+      },
+      {
+        "item_id": 2030025,
+        "quantity": 1,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "consumed_cargo_stacks": [],
+    "consumed_shards": 0,
+    "experience_per_progress": [
+      {
+        "skill_id": 2,
+        "quantity": 1.0
+      }
+    ],
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "required_claim_tech_ids": [
+      200
+    ],
+    "full_discovery_score": 4,
+    "tool_mesh_index": 1,
+    "building_description_id": 323911843,
+    "required_paving_tier": -1,
+    "actions_required": 100,
+    "instantly_built": false,
+    "recipe_performance_id": 641
   },
   {
     "id": 88915421,
@@ -15264,6 +15460,77 @@
     "recipe_performance_id": 538
   },
   {
+    "id": 103146603,
+    "name": "Decorative Mature Cypress Tree",
+    "time_requirement": 2.0,
+    "stamina_requirement": 0.75,
+    "consumed_building": 0,
+    "required_interior_tier": -1,
+    "level_requirements": [
+      {
+        "skill_id": 2,
+        "level": 1
+      }
+    ],
+    "tool_requirements": [
+      {
+        "tool_type": 14,
+        "level": 1,
+        "power": 1
+      }
+    ],
+    "consumed_item_stacks": [
+      {
+        "item_id": 4010011,
+        "quantity": 5,
+        "item_type": "Item",
+        "discovery_score": 3,
+        "consumption_chance": 1.0
+      },
+      {
+        "item_id": 5100001,
+        "quantity": 30,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      },
+      {
+        "item_id": 11007,
+        "quantity": 15,
+        "item_type": "Item",
+        "discovery_score": 0,
+        "consumption_chance": 1.0
+      },
+      {
+        "item_id": 5030025,
+        "quantity": 1,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "consumed_cargo_stacks": [],
+    "consumed_shards": 0,
+    "experience_per_progress": [
+      {
+        "skill_id": 2,
+        "quantity": 1.0
+      }
+    ],
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "required_claim_tech_ids": [
+      500
+    ],
+    "full_discovery_score": 4,
+    "tool_mesh_index": 1,
+    "building_description_id": 271649210,
+    "required_paving_tier": -1,
+    "actions_required": 100,
+    "instantly_built": false,
+    "recipe_performance_id": 641
+  },
+  {
     "id": 109074392,
     "name": "Mechanism of Stamina",
     "time_requirement": 2.0,
@@ -15329,6 +15596,54 @@
     "recipe_performance_id": 538
   },
   {
+    "id": 113150753,
+    "name": "Paper Lanterns",
+    "time_requirement": 2.0,
+    "stamina_requirement": 0.75,
+    "consumed_building": 0,
+    "required_interior_tier": 0,
+    "level_requirements": [
+      {
+        "skill_id": 15,
+        "level": 1
+      }
+    ],
+    "tool_requirements": [
+      {
+        "tool_type": 14,
+        "level": 1,
+        "power": 1
+      }
+    ],
+    "consumed_item_stacks": [
+      {
+        "item_id": 613686345,
+        "quantity": 1,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "consumed_cargo_stacks": [],
+    "consumed_shards": 0,
+    "experience_per_progress": [
+      {
+        "skill_id": 15,
+        "quantity": 1.0
+      }
+    ],
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "required_claim_tech_ids": [],
+    "full_discovery_score": 1,
+    "tool_mesh_index": 0,
+    "building_description_id": 305311307,
+    "required_paving_tier": -1,
+    "actions_required": 1,
+    "instantly_built": true,
+    "recipe_performance_id": 538
+  },
+  {
     "id": 113458506,
     "name": "Magnificent Lamp Post",
     "time_requirement": 2.0,
@@ -15380,6 +15695,54 @@
     "building_description_id": 102248649,
     "required_paving_tier": -1,
     "actions_required": 815,
+    "instantly_built": false,
+    "recipe_performance_id": 538
+  },
+  {
+    "id": 115893610,
+    "name": "Gold Balloon",
+    "time_requirement": 2.0,
+    "stamina_requirement": 0.75,
+    "consumed_building": 0,
+    "required_interior_tier": 0,
+    "level_requirements": [
+      {
+        "skill_id": 15,
+        "level": 1
+      }
+    ],
+    "tool_requirements": [
+      {
+        "tool_type": 14,
+        "level": 1,
+        "power": 1
+      }
+    ],
+    "consumed_item_stacks": [
+      {
+        "item_id": 1475610031,
+        "quantity": 1,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "consumed_cargo_stacks": [],
+    "consumed_shards": 0,
+    "experience_per_progress": [
+      {
+        "skill_id": 15,
+        "quantity": 1.0
+      }
+    ],
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "required_claim_tech_ids": [],
+    "full_discovery_score": 1,
+    "tool_mesh_index": 0,
+    "building_description_id": 105247318,
+    "required_paving_tier": -1,
+    "actions_required": 1,
     "instantly_built": false,
     "recipe_performance_id": 538
   },
@@ -16664,6 +17027,77 @@
     "recipe_performance_id": 50
   },
   {
+    "id": 252566091,
+    "name": "Decorative Mature Spruce Tree",
+    "time_requirement": 2.0,
+    "stamina_requirement": 0.75,
+    "consumed_building": 0,
+    "required_interior_tier": -1,
+    "level_requirements": [
+      {
+        "skill_id": 2,
+        "level": 1
+      }
+    ],
+    "tool_requirements": [
+      {
+        "tool_type": 14,
+        "level": 1,
+        "power": 1
+      }
+    ],
+    "consumed_item_stacks": [
+      {
+        "item_id": 3010010,
+        "quantity": 5,
+        "item_type": "Item",
+        "discovery_score": 3,
+        "consumption_chance": 1.0
+      },
+      {
+        "item_id": 3100001,
+        "quantity": 30,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      },
+      {
+        "item_id": 11007,
+        "quantity": 15,
+        "item_type": "Item",
+        "discovery_score": 0,
+        "consumption_chance": 1.0
+      },
+      {
+        "item_id": 3030025,
+        "quantity": 1,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "consumed_cargo_stacks": [],
+    "consumed_shards": 0,
+    "experience_per_progress": [
+      {
+        "skill_id": 2,
+        "quantity": 1.0
+      }
+    ],
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "required_claim_tech_ids": [
+      300
+    ],
+    "full_discovery_score": 4,
+    "tool_mesh_index": 1,
+    "building_description_id": 1230574558,
+    "required_paving_tier": -1,
+    "actions_required": 100,
+    "instantly_built": false,
+    "recipe_performance_id": 641
+  },
+  {
     "id": 253122785,
     "name": "Logcraft Ladder",
     "time_requirement": 2.0,
@@ -16902,6 +17336,77 @@
     "actions_required": 1,
     "instantly_built": true,
     "recipe_performance_id": 538
+  },
+  {
+    "id": 278746187,
+    "name": "Decorative Young Oak Tree",
+    "time_requirement": 2.0,
+    "stamina_requirement": 0.75,
+    "consumed_building": 0,
+    "required_interior_tier": -1,
+    "level_requirements": [
+      {
+        "skill_id": 2,
+        "level": 1
+      }
+    ],
+    "tool_requirements": [
+      {
+        "tool_type": 14,
+        "level": 1,
+        "power": 1
+      }
+    ],
+    "consumed_item_stacks": [
+      {
+        "item_id": 1010010,
+        "quantity": 1,
+        "item_type": "Item",
+        "discovery_score": 3,
+        "consumption_chance": 1.0
+      },
+      {
+        "item_id": 1100001,
+        "quantity": 20,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      },
+      {
+        "item_id": 11007,
+        "quantity": 10,
+        "item_type": "Item",
+        "discovery_score": 0,
+        "consumption_chance": 1.0
+      },
+      {
+        "item_id": 1030025,
+        "quantity": 1,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "consumed_cargo_stacks": [],
+    "consumed_shards": 0,
+    "experience_per_progress": [
+      {
+        "skill_id": 2,
+        "quantity": 1.0
+      }
+    ],
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "required_claim_tech_ids": [
+      200
+    ],
+    "full_discovery_score": 4,
+    "tool_mesh_index": 1,
+    "building_description_id": 1774634714,
+    "required_paving_tier": -1,
+    "actions_required": 100,
+    "instantly_built": false,
+    "recipe_performance_id": 641
   },
   {
     "id": 288641318,
@@ -17428,6 +17933,77 @@
     "recipe_performance_id": 538
   },
   {
+    "id": 312824140,
+    "name": "Decorative Ancient Oak Tree",
+    "time_requirement": 2.0,
+    "stamina_requirement": 0.75,
+    "consumed_building": 0,
+    "required_interior_tier": -1,
+    "level_requirements": [
+      {
+        "skill_id": 2,
+        "level": 1
+      }
+    ],
+    "tool_requirements": [
+      {
+        "tool_type": 14,
+        "level": 1,
+        "power": 1
+      }
+    ],
+    "consumed_item_stacks": [
+      {
+        "item_id": 1010010,
+        "quantity": 10,
+        "item_type": "Item",
+        "discovery_score": 3,
+        "consumption_chance": 1.0
+      },
+      {
+        "item_id": 6100001,
+        "quantity": 30,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      },
+      {
+        "item_id": 11007,
+        "quantity": 15,
+        "item_type": "Item",
+        "discovery_score": 0,
+        "consumption_chance": 1.0
+      },
+      {
+        "item_id": 6030025,
+        "quantity": 1,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "consumed_cargo_stacks": [],
+    "consumed_shards": 0,
+    "experience_per_progress": [
+      {
+        "skill_id": 2,
+        "quantity": 1.0
+      }
+    ],
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "required_claim_tech_ids": [
+      600
+    ],
+    "full_discovery_score": 4,
+    "tool_mesh_index": 1,
+    "building_description_id": 1367658900,
+    "required_paving_tier": -1,
+    "actions_required": 100,
+    "instantly_built": false,
+    "recipe_performance_id": 641
+  },
+  {
     "id": 322852483,
     "name": "Ornate Kiln",
     "time_requirement": 2.0,
@@ -17727,6 +18303,54 @@
     "building_description_id": 1286135857,
     "required_paving_tier": -1,
     "actions_required": 1000,
+    "instantly_built": false,
+    "recipe_performance_id": 538
+  },
+  {
+    "id": 354857512,
+    "name": "Gold Balloon Trio",
+    "time_requirement": 2.0,
+    "stamina_requirement": 0.75,
+    "consumed_building": 0,
+    "required_interior_tier": 0,
+    "level_requirements": [
+      {
+        "skill_id": 15,
+        "level": 1
+      }
+    ],
+    "tool_requirements": [
+      {
+        "tool_type": 14,
+        "level": 1,
+        "power": 1
+      }
+    ],
+    "consumed_item_stacks": [
+      {
+        "item_id": 1475610031,
+        "quantity": 2,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "consumed_cargo_stacks": [],
+    "consumed_shards": 0,
+    "experience_per_progress": [
+      {
+        "skill_id": 15,
+        "quantity": 1.0
+      }
+    ],
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "required_claim_tech_ids": [],
+    "full_discovery_score": 1,
+    "tool_mesh_index": 0,
+    "building_description_id": 2019435164,
+    "required_paving_tier": -1,
+    "actions_required": 1,
     "instantly_built": false,
     "recipe_performance_id": 538
   },
@@ -18253,6 +18877,54 @@
     "required_paving_tier": -1,
     "actions_required": 1,
     "instantly_built": true,
+    "recipe_performance_id": 538
+  },
+  {
+    "id": 407717975,
+    "name": "Black Balloon",
+    "time_requirement": 2.0,
+    "stamina_requirement": 0.75,
+    "consumed_building": 0,
+    "required_interior_tier": 0,
+    "level_requirements": [
+      {
+        "skill_id": 15,
+        "level": 1
+      }
+    ],
+    "tool_requirements": [
+      {
+        "tool_type": 14,
+        "level": 1,
+        "power": 1
+      }
+    ],
+    "consumed_item_stacks": [
+      {
+        "item_id": 1475610031,
+        "quantity": 1,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "consumed_cargo_stacks": [],
+    "consumed_shards": 0,
+    "experience_per_progress": [
+      {
+        "skill_id": 15,
+        "quantity": 1.0
+      }
+    ],
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "required_claim_tech_ids": [],
+    "full_discovery_score": 1,
+    "tool_mesh_index": 0,
+    "building_description_id": 1521299666,
+    "required_paving_tier": -1,
+    "actions_required": 1,
+    "instantly_built": false,
     "recipe_performance_id": 538
   },
   {
@@ -19724,6 +20396,77 @@
     "recipe_performance_id": 538
   },
   {
+    "id": 497307928,
+    "name": "Decorative Mature Oak Tree",
+    "time_requirement": 2.0,
+    "stamina_requirement": 0.75,
+    "consumed_building": 0,
+    "required_interior_tier": -1,
+    "level_requirements": [
+      {
+        "skill_id": 2,
+        "level": 1
+      }
+    ],
+    "tool_requirements": [
+      {
+        "tool_type": 14,
+        "level": 1,
+        "power": 1
+      }
+    ],
+    "consumed_item_stacks": [
+      {
+        "item_id": 1010010,
+        "quantity": 5,
+        "item_type": "Item",
+        "discovery_score": 3,
+        "consumption_chance": 1.0
+      },
+      {
+        "item_id": 1100001,
+        "quantity": 30,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      },
+      {
+        "item_id": 11007,
+        "quantity": 15,
+        "item_type": "Item",
+        "discovery_score": 0,
+        "consumption_chance": 1.0
+      },
+      {
+        "item_id": 1030025,
+        "quantity": 1,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "consumed_cargo_stacks": [],
+    "consumed_shards": 0,
+    "experience_per_progress": [
+      {
+        "skill_id": 2,
+        "quantity": 1.0
+      }
+    ],
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "required_claim_tech_ids": [
+      200
+    ],
+    "full_discovery_score": 4,
+    "tool_mesh_index": 1,
+    "building_description_id": 1558065146,
+    "required_paving_tier": -1,
+    "actions_required": 100,
+    "instantly_built": false,
+    "recipe_performance_id": 641
+  },
+  {
     "id": 503462118,
     "name": "Ornate Large Wall",
     "time_requirement": 2.0,
@@ -20426,6 +21169,77 @@
     "recipe_performance_id": 538
   },
   {
+    "id": 550886245,
+    "name": "Decorative Young Dendro Tree",
+    "time_requirement": 2.0,
+    "stamina_requirement": 0.75,
+    "consumed_building": 0,
+    "required_interior_tier": -1,
+    "level_requirements": [
+      {
+        "skill_id": 2,
+        "level": 1
+      }
+    ],
+    "tool_requirements": [
+      {
+        "tool_type": 14,
+        "level": 1,
+        "power": 1
+      }
+    ],
+    "consumed_item_stacks": [
+      {
+        "item_id": 2010008,
+        "quantity": 1,
+        "item_type": "Item",
+        "discovery_score": 3,
+        "consumption_chance": 1.0
+      },
+      {
+        "item_id": 2100001,
+        "quantity": 20,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      },
+      {
+        "item_id": 11007,
+        "quantity": 10,
+        "item_type": "Item",
+        "discovery_score": 0,
+        "consumption_chance": 1.0
+      },
+      {
+        "item_id": 2030025,
+        "quantity": 1,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "consumed_cargo_stacks": [],
+    "consumed_shards": 0,
+    "experience_per_progress": [
+      {
+        "skill_id": 2,
+        "quantity": 1.0
+      }
+    ],
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "required_claim_tech_ids": [
+      200
+    ],
+    "full_discovery_score": 4,
+    "tool_mesh_index": 1,
+    "building_description_id": 939029681,
+    "required_paving_tier": -1,
+    "actions_required": 100,
+    "instantly_built": false,
+    "recipe_performance_id": 641
+  },
+  {
     "id": 560141651,
     "name": "Sturdy Foraging Station",
     "time_requirement": 2.0,
@@ -21021,6 +21835,77 @@
     "actions_required": 1,
     "instantly_built": true,
     "recipe_performance_id": 538
+  },
+  {
+    "id": 583057005,
+    "name": "Decorative Mature Maple Tree",
+    "time_requirement": 2.0,
+    "stamina_requirement": 0.75,
+    "consumed_building": 0,
+    "required_interior_tier": -1,
+    "level_requirements": [
+      {
+        "skill_id": 2,
+        "level": 1
+      }
+    ],
+    "tool_requirements": [
+      {
+        "tool_type": 14,
+        "level": 1,
+        "power": 1
+      }
+    ],
+    "consumed_item_stacks": [
+      {
+        "item_id": 3010008,
+        "quantity": 5,
+        "item_type": "Item",
+        "discovery_score": 3,
+        "consumption_chance": 1.0
+      },
+      {
+        "item_id": 6100001,
+        "quantity": 30,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      },
+      {
+        "item_id": 11007,
+        "quantity": 15,
+        "item_type": "Item",
+        "discovery_score": 0,
+        "consumption_chance": 1.0
+      },
+      {
+        "item_id": 6030025,
+        "quantity": 1,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "consumed_cargo_stacks": [],
+    "consumed_shards": 0,
+    "experience_per_progress": [
+      {
+        "skill_id": 2,
+        "quantity": 1.0
+      }
+    ],
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "required_claim_tech_ids": [
+      600
+    ],
+    "full_discovery_score": 4,
+    "tool_mesh_index": 1,
+    "building_description_id": 1176922821,
+    "required_paving_tier": -1,
+    "actions_required": 100,
+    "instantly_built": false,
+    "recipe_performance_id": 641
   },
   {
     "id": 583920850,
@@ -25400,6 +26285,50 @@
     "recipe_performance_id": 538
   },
   {
+    "id": 968057869,
+    "name": "North Eastern Sunken Ruin",
+    "time_requirement": 2.0,
+    "stamina_requirement": 0.75,
+    "consumed_building": 0,
+    "required_interior_tier": 0,
+    "level_requirements": [
+      {
+        "skill_id": 15,
+        "level": 1
+      }
+    ],
+    "tool_requirements": [],
+    "consumed_item_stacks": [
+      {
+        "item_id": 1,
+        "quantity": 1,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "consumed_cargo_stacks": [],
+    "consumed_shards": 0,
+    "experience_per_progress": [
+      {
+        "skill_id": 15,
+        "quantity": 1.0
+      }
+    ],
+    "discovery_triggers": [],
+    "required_knowledges": [
+      12345
+    ],
+    "required_claim_tech_ids": [],
+    "full_discovery_score": 1,
+    "tool_mesh_index": 0,
+    "building_description_id": 1907229466,
+    "required_paving_tier": -1,
+    "actions_required": 1,
+    "instantly_built": false,
+    "recipe_performance_id": 0
+  },
+  {
     "id": 972744071,
     "name": "Flawless Large Chest",
     "time_requirement": 2.0,
@@ -25517,6 +26446,54 @@
     "building_description_id": 460146451,
     "required_paving_tier": -1,
     "actions_required": 815,
+    "instantly_built": false,
+    "recipe_performance_id": 538
+  },
+  {
+    "id": 984913365,
+    "name": "Pink Balloon",
+    "time_requirement": 2.0,
+    "stamina_requirement": 0.75,
+    "consumed_building": 0,
+    "required_interior_tier": 0,
+    "level_requirements": [
+      {
+        "skill_id": 15,
+        "level": 1
+      }
+    ],
+    "tool_requirements": [
+      {
+        "tool_type": 14,
+        "level": 1,
+        "power": 1
+      }
+    ],
+    "consumed_item_stacks": [
+      {
+        "item_id": 1475610031,
+        "quantity": 1,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "consumed_cargo_stacks": [],
+    "consumed_shards": 0,
+    "experience_per_progress": [
+      {
+        "skill_id": 15,
+        "quantity": 1.0
+      }
+    ],
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "required_claim_tech_ids": [],
+    "full_discovery_score": 1,
+    "tool_mesh_index": 0,
+    "building_description_id": 2038264610,
+    "required_paving_tier": -1,
+    "actions_required": 1,
     "instantly_built": false,
     "recipe_performance_id": 538
   },
@@ -25872,6 +26849,77 @@
     "actions_required": 555,
     "instantly_built": false,
     "recipe_performance_id": 538
+  },
+  {
+    "id": 1024263008,
+    "name": "Decorative Young Pine Tree",
+    "time_requirement": 2.0,
+    "stamina_requirement": 0.75,
+    "consumed_building": 0,
+    "required_interior_tier": -1,
+    "level_requirements": [
+      {
+        "skill_id": 2,
+        "level": 1
+      }
+    ],
+    "tool_requirements": [
+      {
+        "tool_type": 14,
+        "level": 1,
+        "power": 1
+      }
+    ],
+    "consumed_item_stacks": [
+      {
+        "item_id": 3010009,
+        "quantity": 1,
+        "item_type": "Item",
+        "discovery_score": 3,
+        "consumption_chance": 1.0
+      },
+      {
+        "item_id": 4100001,
+        "quantity": 20,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      },
+      {
+        "item_id": 11007,
+        "quantity": 10,
+        "item_type": "Item",
+        "discovery_score": 0,
+        "consumption_chance": 1.0
+      },
+      {
+        "item_id": 4030025,
+        "quantity": 1,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "consumed_cargo_stacks": [],
+    "consumed_shards": 0,
+    "experience_per_progress": [
+      {
+        "skill_id": 2,
+        "quantity": 1.0
+      }
+    ],
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "required_claim_tech_ids": [
+      400
+    ],
+    "full_discovery_score": 4,
+    "tool_mesh_index": 1,
+    "building_description_id": 167189636,
+    "required_paving_tier": -1,
+    "actions_required": 100,
+    "instantly_built": false,
+    "recipe_performance_id": 641
   },
   {
     "id": 1026812153,
@@ -26647,6 +27695,77 @@
     "actions_required": 1,
     "instantly_built": true,
     "recipe_performance_id": 538
+  },
+  {
+    "id": 1072963300,
+    "name": "Decorative Young Maple Tree",
+    "time_requirement": 2.0,
+    "stamina_requirement": 0.75,
+    "consumed_building": 0,
+    "required_interior_tier": -1,
+    "level_requirements": [
+      {
+        "skill_id": 2,
+        "level": 1
+      }
+    ],
+    "tool_requirements": [
+      {
+        "tool_type": 14,
+        "level": 1,
+        "power": 1
+      }
+    ],
+    "consumed_item_stacks": [
+      {
+        "item_id": 3010008,
+        "quantity": 1,
+        "item_type": "Item",
+        "discovery_score": 3,
+        "consumption_chance": 1.0
+      },
+      {
+        "item_id": 6100001,
+        "quantity": 20,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      },
+      {
+        "item_id": 11007,
+        "quantity": 10,
+        "item_type": "Item",
+        "discovery_score": 0,
+        "consumption_chance": 1.0
+      },
+      {
+        "item_id": 6030025,
+        "quantity": 1,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "consumed_cargo_stacks": [],
+    "consumed_shards": 0,
+    "experience_per_progress": [
+      {
+        "skill_id": 2,
+        "quantity": 1.0
+      }
+    ],
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "required_claim_tech_ids": [
+      600
+    ],
+    "full_discovery_score": 4,
+    "tool_mesh_index": 1,
+    "building_description_id": 1763062935,
+    "required_paving_tier": -1,
+    "actions_required": 100,
+    "instantly_built": false,
+    "recipe_performance_id": 641
   },
   {
     "id": 1073998942,
@@ -27553,6 +28672,54 @@
     "recipe_performance_id": 538
   },
   {
+    "id": 1189951037,
+    "name": "Black Streamer Archway",
+    "time_requirement": 2.0,
+    "stamina_requirement": 0.75,
+    "consumed_building": 0,
+    "required_interior_tier": 0,
+    "level_requirements": [
+      {
+        "skill_id": 15,
+        "level": 1
+      }
+    ],
+    "tool_requirements": [
+      {
+        "tool_type": 14,
+        "level": 1,
+        "power": 1
+      }
+    ],
+    "consumed_item_stacks": [
+      {
+        "item_id": 1475610031,
+        "quantity": 3,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "consumed_cargo_stacks": [],
+    "consumed_shards": 0,
+    "experience_per_progress": [
+      {
+        "skill_id": 15,
+        "quantity": 1.0
+      }
+    ],
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "required_claim_tech_ids": [],
+    "full_discovery_score": 1,
+    "tool_mesh_index": 0,
+    "building_description_id": 2043501092,
+    "required_paving_tier": -1,
+    "actions_required": 1,
+    "instantly_built": false,
+    "recipe_performance_id": 538
+  },
+  {
     "id": 1196159429,
     "name": "Pristine Cooking Station",
     "time_requirement": 2.0,
@@ -27791,6 +28958,50 @@
     "recipe_performance_id": 538
   },
   {
+    "id": 1222929789,
+    "name": "South Eastern Sunken Ruin",
+    "time_requirement": 2.0,
+    "stamina_requirement": 0.75,
+    "consumed_building": 0,
+    "required_interior_tier": 0,
+    "level_requirements": [
+      {
+        "skill_id": 15,
+        "level": 1
+      }
+    ],
+    "tool_requirements": [],
+    "consumed_item_stacks": [
+      {
+        "item_id": 1,
+        "quantity": 1,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "consumed_cargo_stacks": [],
+    "consumed_shards": 0,
+    "experience_per_progress": [
+      {
+        "skill_id": 15,
+        "quantity": 1.0
+      }
+    ],
+    "discovery_triggers": [],
+    "required_knowledges": [
+      12345
+    ],
+    "required_claim_tech_ids": [],
+    "full_discovery_score": 1,
+    "tool_mesh_index": 0,
+    "building_description_id": 988692715,
+    "required_paving_tier": -1,
+    "actions_required": 1,
+    "instantly_built": false,
+    "recipe_performance_id": 0
+  },
+  {
     "id": 1224355349,
     "name": "Midwinter Cabin Cozy Rug",
     "time_requirement": 2.0,
@@ -27837,6 +29048,50 @@
     "actions_required": 1,
     "instantly_built": true,
     "recipe_performance_id": 538
+  },
+  {
+    "id": 1226992391,
+    "name": "North Western Sunken Ruin",
+    "time_requirement": 2.0,
+    "stamina_requirement": 0.75,
+    "consumed_building": 0,
+    "required_interior_tier": 0,
+    "level_requirements": [
+      {
+        "skill_id": 15,
+        "level": 1
+      }
+    ],
+    "tool_requirements": [],
+    "consumed_item_stacks": [
+      {
+        "item_id": 1,
+        "quantity": 1,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "consumed_cargo_stacks": [],
+    "consumed_shards": 0,
+    "experience_per_progress": [
+      {
+        "skill_id": 15,
+        "quantity": 1.0
+      }
+    ],
+    "discovery_triggers": [],
+    "required_knowledges": [
+      12345
+    ],
+    "required_claim_tech_ids": [],
+    "full_discovery_score": 1,
+    "tool_mesh_index": 0,
+    "building_description_id": 1320058140,
+    "required_paving_tier": -1,
+    "actions_required": 1,
+    "instantly_built": false,
+    "recipe_performance_id": 0
   },
   {
     "id": 1227260848,
@@ -28150,6 +29405,54 @@
     "building_description_id": 233342609,
     "required_paving_tier": -1,
     "actions_required": 8155,
+    "instantly_built": false,
+    "recipe_performance_id": 538
+  },
+  {
+    "id": 1249550080,
+    "name": "White Balloon",
+    "time_requirement": 2.0,
+    "stamina_requirement": 0.75,
+    "consumed_building": 0,
+    "required_interior_tier": 0,
+    "level_requirements": [
+      {
+        "skill_id": 15,
+        "level": 1
+      }
+    ],
+    "tool_requirements": [
+      {
+        "tool_type": 14,
+        "level": 1,
+        "power": 1
+      }
+    ],
+    "consumed_item_stacks": [
+      {
+        "item_id": 1475610031,
+        "quantity": 1,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "consumed_cargo_stacks": [],
+    "consumed_shards": 0,
+    "experience_per_progress": [
+      {
+        "skill_id": 15,
+        "quantity": 1.0
+      }
+    ],
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "required_claim_tech_ids": [],
+    "full_discovery_score": 1,
+    "tool_mesh_index": 0,
+    "building_description_id": 102786825,
+    "required_paving_tier": -1,
+    "actions_required": 1,
     "instantly_built": false,
     "recipe_performance_id": 538
   },
@@ -28652,6 +29955,54 @@
     "recipe_performance_id": 50
   },
   {
+    "id": 1302338284,
+    "name": "Purple Balloon Trio",
+    "time_requirement": 2.0,
+    "stamina_requirement": 0.75,
+    "consumed_building": 0,
+    "required_interior_tier": 0,
+    "level_requirements": [
+      {
+        "skill_id": 15,
+        "level": 1
+      }
+    ],
+    "tool_requirements": [
+      {
+        "tool_type": 14,
+        "level": 1,
+        "power": 1
+      }
+    ],
+    "consumed_item_stacks": [
+      {
+        "item_id": 1475610031,
+        "quantity": 2,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "consumed_cargo_stacks": [],
+    "consumed_shards": 0,
+    "experience_per_progress": [
+      {
+        "skill_id": 15,
+        "quantity": 1.0
+      }
+    ],
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "required_claim_tech_ids": [],
+    "full_discovery_score": 1,
+    "tool_mesh_index": 0,
+    "building_description_id": 1017673922,
+    "required_paving_tier": -1,
+    "actions_required": 1,
+    "instantly_built": false,
+    "recipe_performance_id": 538
+  },
+  {
     "id": 1316641568,
     "name": "Clockwork Purple and Gold Rug",
     "time_requirement": 2.0,
@@ -28750,6 +30101,77 @@
     "actions_required": 350,
     "instantly_built": false,
     "recipe_performance_id": 882
+  },
+  {
+    "id": 1329350749,
+    "name": "Decorative Windswept Tree",
+    "time_requirement": 2.0,
+    "stamina_requirement": 0.75,
+    "consumed_building": 0,
+    "required_interior_tier": -1,
+    "level_requirements": [
+      {
+        "skill_id": 2,
+        "level": 1
+      }
+    ],
+    "tool_requirements": [
+      {
+        "tool_type": 14,
+        "level": 1,
+        "power": 1
+      }
+    ],
+    "consumed_item_stacks": [
+      {
+        "item_id": 869973077,
+        "quantity": 5,
+        "item_type": "Item",
+        "discovery_score": 3,
+        "consumption_chance": 1.0
+      },
+      {
+        "item_id": 3100001,
+        "quantity": 20,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      },
+      {
+        "item_id": 11007,
+        "quantity": 10,
+        "item_type": "Item",
+        "discovery_score": 0,
+        "consumption_chance": 1.0
+      },
+      {
+        "item_id": 3030025,
+        "quantity": 1,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "consumed_cargo_stacks": [],
+    "consumed_shards": 0,
+    "experience_per_progress": [
+      {
+        "skill_id": 2,
+        "quantity": 1.0
+      }
+    ],
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "required_claim_tech_ids": [
+      300
+    ],
+    "full_discovery_score": 4,
+    "tool_mesh_index": 1,
+    "building_description_id": 2098443021,
+    "required_paving_tier": -1,
+    "actions_required": 100,
+    "instantly_built": false,
+    "recipe_performance_id": 641
   },
   {
     "id": 1329796834,
@@ -29704,6 +31126,54 @@
     "recipe_performance_id": 538
   },
   {
+    "id": 1420356479,
+    "name": "Pink Balloon Trio",
+    "time_requirement": 2.0,
+    "stamina_requirement": 0.75,
+    "consumed_building": 0,
+    "required_interior_tier": 0,
+    "level_requirements": [
+      {
+        "skill_id": 15,
+        "level": 1
+      }
+    ],
+    "tool_requirements": [
+      {
+        "tool_type": 14,
+        "level": 1,
+        "power": 1
+      }
+    ],
+    "consumed_item_stacks": [
+      {
+        "item_id": 1475610031,
+        "quantity": 2,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "consumed_cargo_stacks": [],
+    "consumed_shards": 0,
+    "experience_per_progress": [
+      {
+        "skill_id": 15,
+        "quantity": 1.0
+      }
+    ],
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "required_claim_tech_ids": [],
+    "full_discovery_score": 1,
+    "tool_mesh_index": 0,
+    "building_description_id": 1837350128,
+    "required_paving_tier": -1,
+    "actions_required": 1,
+    "instantly_built": false,
+    "recipe_performance_id": 538
+  },
+  {
     "id": 1420638013,
     "name": "Ancient Crumbled Platform",
     "time_requirement": 2.0,
@@ -29746,6 +31216,77 @@
     "actions_required": 1,
     "instantly_built": false,
     "recipe_performance_id": 50
+  },
+  {
+    "id": 1422647668,
+    "name": "Decorative Mature Beech Tree",
+    "time_requirement": 2.0,
+    "stamina_requirement": 0.75,
+    "consumed_building": 0,
+    "required_interior_tier": -1,
+    "level_requirements": [
+      {
+        "skill_id": 2,
+        "level": 1
+      }
+    ],
+    "tool_requirements": [
+      {
+        "tool_type": 14,
+        "level": 1,
+        "power": 1
+      }
+    ],
+    "consumed_item_stacks": [
+      {
+        "item_id": 1010009,
+        "quantity": 5,
+        "item_type": "Item",
+        "discovery_score": 3,
+        "consumption_chance": 1.0
+      },
+      {
+        "item_id": 1100001,
+        "quantity": 30,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      },
+      {
+        "item_id": 11007,
+        "quantity": 15,
+        "item_type": "Item",
+        "discovery_score": 0,
+        "consumption_chance": 1.0
+      },
+      {
+        "item_id": 1030025,
+        "quantity": 1,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "consumed_cargo_stacks": [],
+    "consumed_shards": 0,
+    "experience_per_progress": [
+      {
+        "skill_id": 2,
+        "quantity": 1.0
+      }
+    ],
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "required_claim_tech_ids": [
+      200
+    ],
+    "full_discovery_score": 4,
+    "tool_mesh_index": 1,
+    "building_description_id": 1652564356,
+    "required_paving_tier": -1,
+    "actions_required": 100,
+    "instantly_built": false,
+    "recipe_performance_id": 641
   },
   {
     "id": 1425977115,
@@ -29841,6 +31382,54 @@
     "required_paving_tier": -1,
     "actions_required": 1,
     "instantly_built": true,
+    "recipe_performance_id": 538
+  },
+  {
+    "id": 1434612319,
+    "name": "Purple Streamer Archway",
+    "time_requirement": 2.0,
+    "stamina_requirement": 0.75,
+    "consumed_building": 0,
+    "required_interior_tier": 0,
+    "level_requirements": [
+      {
+        "skill_id": 15,
+        "level": 1
+      }
+    ],
+    "tool_requirements": [
+      {
+        "tool_type": 14,
+        "level": 1,
+        "power": 1
+      }
+    ],
+    "consumed_item_stacks": [
+      {
+        "item_id": 1475610031,
+        "quantity": 3,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "consumed_cargo_stacks": [],
+    "consumed_shards": 0,
+    "experience_per_progress": [
+      {
+        "skill_id": 15,
+        "quantity": 1.0
+      }
+    ],
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "required_claim_tech_ids": [],
+    "full_discovery_score": 1,
+    "tool_mesh_index": 0,
+    "building_description_id": 725568101,
+    "required_paving_tier": -1,
+    "actions_required": 1,
+    "instantly_built": false,
     "recipe_performance_id": 538
   },
   {
@@ -31952,6 +33541,77 @@
     "recipe_performance_id": 538
   },
   {
+    "id": 1635415722,
+    "name": "Decorative Mature Birch Tree",
+    "time_requirement": 2.0,
+    "stamina_requirement": 0.75,
+    "consumed_building": 0,
+    "required_interior_tier": -1,
+    "level_requirements": [
+      {
+        "skill_id": 2,
+        "level": 1
+      }
+    ],
+    "tool_requirements": [
+      {
+        "tool_type": 14,
+        "level": 1,
+        "power": 1
+      }
+    ],
+    "consumed_item_stacks": [
+      {
+        "item_id": 1010008,
+        "quantity": 5,
+        "item_type": "Item",
+        "discovery_score": 3,
+        "consumption_chance": 1.0
+      },
+      {
+        "item_id": 2100001,
+        "quantity": 30,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      },
+      {
+        "item_id": 11007,
+        "quantity": 15,
+        "item_type": "Item",
+        "discovery_score": 0,
+        "consumption_chance": 1.0
+      },
+      {
+        "item_id": 2030025,
+        "quantity": 1,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "consumed_cargo_stacks": [],
+    "consumed_shards": 0,
+    "experience_per_progress": [
+      {
+        "skill_id": 2,
+        "quantity": 1.0
+      }
+    ],
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "required_claim_tech_ids": [
+      200
+    ],
+    "full_discovery_score": 4,
+    "tool_mesh_index": 1,
+    "building_description_id": 125929680,
+    "required_paving_tier": -1,
+    "actions_required": 100,
+    "instantly_built": false,
+    "recipe_performance_id": 641
+  },
+  {
     "id": 1637291634,
     "name": "Talented Woodcraft Couch",
     "time_requirement": 2.0,
@@ -32099,6 +33759,54 @@
     "required_paving_tier": -1,
     "actions_required": 1,
     "instantly_built": true,
+    "recipe_performance_id": 538
+  },
+  {
+    "id": 1643021307,
+    "name": "White Balloon Trio",
+    "time_requirement": 2.0,
+    "stamina_requirement": 0.75,
+    "consumed_building": 0,
+    "required_interior_tier": 0,
+    "level_requirements": [
+      {
+        "skill_id": 15,
+        "level": 1
+      }
+    ],
+    "tool_requirements": [
+      {
+        "tool_type": 14,
+        "level": 1,
+        "power": 1
+      }
+    ],
+    "consumed_item_stacks": [
+      {
+        "item_id": 1475610031,
+        "quantity": 2,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "consumed_cargo_stacks": [],
+    "consumed_shards": 0,
+    "experience_per_progress": [
+      {
+        "skill_id": 15,
+        "quantity": 1.0
+      }
+    ],
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "required_claim_tech_ids": [],
+    "full_discovery_score": 1,
+    "tool_mesh_index": 0,
+    "building_description_id": 263586327,
+    "required_paving_tier": -1,
+    "actions_required": 1,
+    "instantly_built": false,
     "recipe_performance_id": 538
   },
   {
@@ -32856,6 +34564,54 @@
     "recipe_performance_id": 538
   },
   {
+    "id": 1737090448,
+    "name": "White Streamer Archway",
+    "time_requirement": 2.0,
+    "stamina_requirement": 0.75,
+    "consumed_building": 0,
+    "required_interior_tier": 0,
+    "level_requirements": [
+      {
+        "skill_id": 15,
+        "level": 1
+      }
+    ],
+    "tool_requirements": [
+      {
+        "tool_type": 14,
+        "level": 1,
+        "power": 1
+      }
+    ],
+    "consumed_item_stacks": [
+      {
+        "item_id": 1475610031,
+        "quantity": 3,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "consumed_cargo_stacks": [],
+    "consumed_shards": 0,
+    "experience_per_progress": [
+      {
+        "skill_id": 15,
+        "quantity": 1.0
+      }
+    ],
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "required_claim_tech_ids": [],
+    "full_discovery_score": 1,
+    "tool_mesh_index": 0,
+    "building_description_id": 1590476159,
+    "required_paving_tier": -1,
+    "actions_required": 1,
+    "instantly_built": false,
+    "recipe_performance_id": 538
+  },
+  {
     "id": 1743028408,
     "name": "Sentinel's Metal Brazier",
     "time_requirement": 2.0,
@@ -33139,6 +34895,50 @@
     "recipe_performance_id": 538
   },
   {
+    "id": 1757707255,
+    "name": "South Western Sunken Ruin",
+    "time_requirement": 2.0,
+    "stamina_requirement": 0.75,
+    "consumed_building": 0,
+    "required_interior_tier": 0,
+    "level_requirements": [
+      {
+        "skill_id": 15,
+        "level": 1
+      }
+    ],
+    "tool_requirements": [],
+    "consumed_item_stacks": [
+      {
+        "item_id": 1,
+        "quantity": 1,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "consumed_cargo_stacks": [],
+    "consumed_shards": 0,
+    "experience_per_progress": [
+      {
+        "skill_id": 15,
+        "quantity": 1.0
+      }
+    ],
+    "discovery_triggers": [],
+    "required_knowledges": [
+      12345
+    ],
+    "required_claim_tech_ids": [],
+    "full_discovery_score": 1,
+    "tool_mesh_index": 0,
+    "building_description_id": 148750481,
+    "required_paving_tier": -1,
+    "actions_required": 1,
+    "instantly_built": false,
+    "recipe_performance_id": 0
+  },
+  {
     "id": 1764726130,
     "name": "Wicker Bed",
     "time_requirement": 2.0,
@@ -33376,6 +35176,54 @@
     "building_description_id": 1417315857,
     "required_paving_tier": -1,
     "actions_required": 525,
+    "instantly_built": false,
+    "recipe_performance_id": 538
+  },
+  {
+    "id": 1799696365,
+    "name": "Pink Streamer Archway",
+    "time_requirement": 2.0,
+    "stamina_requirement": 0.75,
+    "consumed_building": 0,
+    "required_interior_tier": 0,
+    "level_requirements": [
+      {
+        "skill_id": 15,
+        "level": 1
+      }
+    ],
+    "tool_requirements": [
+      {
+        "tool_type": 14,
+        "level": 1,
+        "power": 1
+      }
+    ],
+    "consumed_item_stacks": [
+      {
+        "item_id": 1475610031,
+        "quantity": 3,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "consumed_cargo_stacks": [],
+    "consumed_shards": 0,
+    "experience_per_progress": [
+      {
+        "skill_id": 15,
+        "quantity": 1.0
+      }
+    ],
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "required_claim_tech_ids": [],
+    "full_discovery_score": 1,
+    "tool_mesh_index": 0,
+    "building_description_id": 384021462,
+    "required_paving_tier": -1,
+    "actions_required": 1,
     "instantly_built": false,
     "recipe_performance_id": 538
   },
@@ -34472,6 +36320,77 @@
     "recipe_performance_id": 538
   },
   {
+    "id": 1864625777,
+    "name": "Decorative Young Beech Tree",
+    "time_requirement": 2.0,
+    "stamina_requirement": 0.75,
+    "consumed_building": 0,
+    "required_interior_tier": -1,
+    "level_requirements": [
+      {
+        "skill_id": 2,
+        "level": 1
+      }
+    ],
+    "tool_requirements": [
+      {
+        "tool_type": 14,
+        "level": 1,
+        "power": 1
+      }
+    ],
+    "consumed_item_stacks": [
+      {
+        "item_id": 1010009,
+        "quantity": 1,
+        "item_type": "Item",
+        "discovery_score": 3,
+        "consumption_chance": 1.0
+      },
+      {
+        "item_id": 1100001,
+        "quantity": 20,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      },
+      {
+        "item_id": 11007,
+        "quantity": 10,
+        "item_type": "Item",
+        "discovery_score": 0,
+        "consumption_chance": 1.0
+      },
+      {
+        "item_id": 1030025,
+        "quantity": 1,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "consumed_cargo_stacks": [],
+    "consumed_shards": 0,
+    "experience_per_progress": [
+      {
+        "skill_id": 2,
+        "quantity": 1.0
+      }
+    ],
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "required_claim_tech_ids": [
+      200
+    ],
+    "full_discovery_score": 4,
+    "tool_mesh_index": 1,
+    "building_description_id": 1081423851,
+    "required_paving_tier": -1,
+    "actions_required": 100,
+    "instantly_built": false,
+    "recipe_performance_id": 641
+  },
+  {
     "id": 1869018799,
     "name": "Ornate Tailoring Station",
     "time_requirement": 2.0,
@@ -35106,6 +37025,54 @@
     "recipe_performance_id": 538
   },
   {
+    "id": 1925311953,
+    "name": "Black Balloon Trio",
+    "time_requirement": 2.0,
+    "stamina_requirement": 0.75,
+    "consumed_building": 0,
+    "required_interior_tier": 0,
+    "level_requirements": [
+      {
+        "skill_id": 15,
+        "level": 1
+      }
+    ],
+    "tool_requirements": [
+      {
+        "tool_type": 14,
+        "level": 1,
+        "power": 1
+      }
+    ],
+    "consumed_item_stacks": [
+      {
+        "item_id": 1475610031,
+        "quantity": 2,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "consumed_cargo_stacks": [],
+    "consumed_shards": 0,
+    "experience_per_progress": [
+      {
+        "skill_id": 15,
+        "quantity": 1.0
+      }
+    ],
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "required_claim_tech_ids": [],
+    "full_discovery_score": 1,
+    "tool_mesh_index": 0,
+    "building_description_id": 134183005,
+    "required_paving_tier": -1,
+    "actions_required": 1,
+    "instantly_built": false,
+    "recipe_performance_id": 538
+  },
+  {
     "id": 1929387038,
     "name": "Simple Fence",
     "time_requirement": 2.0,
@@ -35517,6 +37484,77 @@
     "recipe_performance_id": 538
   },
   {
+    "id": 1953272072,
+    "name": "Decorative Young Spruce Tree",
+    "time_requirement": 2.0,
+    "stamina_requirement": 0.75,
+    "consumed_building": 0,
+    "required_interior_tier": -1,
+    "level_requirements": [
+      {
+        "skill_id": 2,
+        "level": 1
+      }
+    ],
+    "tool_requirements": [
+      {
+        "tool_type": 14,
+        "level": 1,
+        "power": 1
+      }
+    ],
+    "consumed_item_stacks": [
+      {
+        "item_id": 3010010,
+        "quantity": 1,
+        "item_type": "Item",
+        "discovery_score": 3,
+        "consumption_chance": 1.0
+      },
+      {
+        "item_id": 3100001,
+        "quantity": 20,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      },
+      {
+        "item_id": 11007,
+        "quantity": 10,
+        "item_type": "Item",
+        "discovery_score": 0,
+        "consumption_chance": 1.0
+      },
+      {
+        "item_id": 3030025,
+        "quantity": 1,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "consumed_cargo_stacks": [],
+    "consumed_shards": 0,
+    "experience_per_progress": [
+      {
+        "skill_id": 2,
+        "quantity": 1.0
+      }
+    ],
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "required_claim_tech_ids": [
+      300
+    ],
+    "full_discovery_score": 4,
+    "tool_mesh_index": 1,
+    "building_description_id": 1612362070,
+    "required_paving_tier": -1,
+    "actions_required": 100,
+    "instantly_built": false,
+    "recipe_performance_id": 641
+  },
+  {
     "id": 1953977662,
     "name": "Ancient Smithing Station",
     "time_requirement": 2.0,
@@ -35830,6 +37868,77 @@
     "actions_required": 1,
     "instantly_built": false,
     "recipe_performance_id": 538
+  },
+  {
+    "id": 1975060221,
+    "name": "Decorative Mature Dendro Tree",
+    "time_requirement": 2.0,
+    "stamina_requirement": 0.75,
+    "consumed_building": 0,
+    "required_interior_tier": -1,
+    "level_requirements": [
+      {
+        "skill_id": 2,
+        "level": 1
+      }
+    ],
+    "tool_requirements": [
+      {
+        "tool_type": 14,
+        "level": 1,
+        "power": 1
+      }
+    ],
+    "consumed_item_stacks": [
+      {
+        "item_id": 2010008,
+        "quantity": 5,
+        "item_type": "Item",
+        "discovery_score": 3,
+        "consumption_chance": 1.0
+      },
+      {
+        "item_id": 2100001,
+        "quantity": 30,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      },
+      {
+        "item_id": 11007,
+        "quantity": 15,
+        "item_type": "Item",
+        "discovery_score": 0,
+        "consumption_chance": 1.0
+      },
+      {
+        "item_id": 2030025,
+        "quantity": 1,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "consumed_cargo_stacks": [],
+    "consumed_shards": 0,
+    "experience_per_progress": [
+      {
+        "skill_id": 2,
+        "quantity": 1.0
+      }
+    ],
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "required_claim_tech_ids": [
+      200
+    ],
+    "full_discovery_score": 4,
+    "tool_mesh_index": 1,
+    "building_description_id": 1141587380,
+    "required_paving_tier": -1,
+    "actions_required": 100,
+    "instantly_built": false,
+    "recipe_performance_id": 641
   },
   {
     "id": 1976986633,
@@ -36855,6 +38964,54 @@
     "recipe_performance_id": 538
   },
   {
+    "id": 2057012799,
+    "name": "Gold Streamer Archway",
+    "time_requirement": 2.0,
+    "stamina_requirement": 0.75,
+    "consumed_building": 0,
+    "required_interior_tier": 0,
+    "level_requirements": [
+      {
+        "skill_id": 15,
+        "level": 1
+      }
+    ],
+    "tool_requirements": [
+      {
+        "tool_type": 14,
+        "level": 1,
+        "power": 1
+      }
+    ],
+    "consumed_item_stacks": [
+      {
+        "item_id": 1475610031,
+        "quantity": 3,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "consumed_cargo_stacks": [],
+    "consumed_shards": 0,
+    "experience_per_progress": [
+      {
+        "skill_id": 15,
+        "quantity": 1.0
+      }
+    ],
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "required_claim_tech_ids": [],
+    "full_discovery_score": 1,
+    "tool_mesh_index": 0,
+    "building_description_id": 623810934,
+    "required_paving_tier": -1,
+    "actions_required": 1,
+    "instantly_built": false,
+    "recipe_performance_id": 538
+  },
+  {
     "id": 2065556749,
     "name": "Talented Woodcraft Coffee Table",
     "time_requirement": 2.0,
@@ -37088,6 +39245,77 @@
     "actions_required": 500,
     "instantly_built": false,
     "recipe_performance_id": 538
+  },
+  {
+    "id": 2108572325,
+    "name": "Decorative Ancient Cypress Tree",
+    "time_requirement": 2.0,
+    "stamina_requirement": 0.75,
+    "consumed_building": 0,
+    "required_interior_tier": -1,
+    "level_requirements": [
+      {
+        "skill_id": 2,
+        "level": 1
+      }
+    ],
+    "tool_requirements": [
+      {
+        "tool_type": 14,
+        "level": 1,
+        "power": 1
+      }
+    ],
+    "consumed_item_stacks": [
+      {
+        "item_id": 4010011,
+        "quantity": 10,
+        "item_type": "Item",
+        "discovery_score": 3,
+        "consumption_chance": 1.0
+      },
+      {
+        "item_id": 5100001,
+        "quantity": 30,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      },
+      {
+        "item_id": 11007,
+        "quantity": 15,
+        "item_type": "Item",
+        "discovery_score": 0,
+        "consumption_chance": 1.0
+      },
+      {
+        "item_id": 5030025,
+        "quantity": 1,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "consumed_cargo_stacks": [],
+    "consumed_shards": 0,
+    "experience_per_progress": [
+      {
+        "skill_id": 2,
+        "quantity": 1.0
+      }
+    ],
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "required_claim_tech_ids": [
+      500
+    ],
+    "full_discovery_score": 4,
+    "tool_mesh_index": 1,
+    "building_description_id": 1491760124,
+    "required_paving_tier": -1,
+    "actions_required": 100,
+    "instantly_built": false,
+    "recipe_performance_id": 641
   },
   {
     "id": 2111251635,

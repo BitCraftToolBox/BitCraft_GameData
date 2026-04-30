@@ -16,7 +16,7 @@
     "base_price": 5000,
     "quantity": 1,
     "sorting_priority": 11,
-    "is_enabled": true
+    "is_enabled": false
   },
   {
     "id": 48560198,
@@ -80,7 +80,7 @@
     "price": 1500,
     "base_price": 1500,
     "quantity": 1,
-    "sorting_priority": 15,
+    "sorting_priority": 20,
     "is_enabled": true
   },
   {
@@ -108,7 +108,7 @@
     "price": 7500,
     "base_price": 7500,
     "quantity": 1,
-    "sorting_priority": 9,
+    "sorting_priority": 12,
     "is_enabled": true
   },
   {
@@ -119,7 +119,7 @@
     "collectible_ids": [
       3358638
     ],
-    "price": 2500,
+    "price": 1500,
     "base_price": 2500,
     "quantity": 1,
     "sorting_priority": 14,
@@ -178,7 +178,7 @@
     "base_price": 7500,
     "quantity": 1,
     "sorting_priority": 11,
-    "is_enabled": true
+    "is_enabled": false
   },
   {
     "id": 179045334,
@@ -191,7 +191,7 @@
     "price": 1500,
     "base_price": 1500,
     "quantity": 1,
-    "sorting_priority": 15,
+    "sorting_priority": 20,
     "is_enabled": true
   },
   {
@@ -205,7 +205,25 @@
     "price": 2000,
     "base_price": 2000,
     "quantity": 1,
-    "sorting_priority": 15,
+    "sorting_priority": 20,
+    "is_enabled": true
+  },
+  {
+    "id": 286814514,
+    "name": "Classic Dress Outfit",
+    "description": "An classic dress outfit that consists of shoes, pants, gloves, a shirt and a belt. Get dressed up for the occasion!",
+    "image_address": "PremiumIcons/SoireeClassicDress",
+    "collectible_ids": [
+      4221595,
+      1533697001,
+      1657836861,
+      425963383,
+      763223577
+    ],
+    "price": 5000,
+    "base_price": 5000,
+    "quantity": 1,
+    "sorting_priority": 5,
     "is_enabled": true
   },
   {
@@ -219,7 +237,25 @@
     "price": 1500,
     "base_price": 1500,
     "quantity": 1,
-    "sorting_priority": 15,
+    "sorting_priority": 20,
+    "is_enabled": true
+  },
+  {
+    "id": 291970813,
+    "name": "Dapper Suit Outfit",
+    "description": "A classic suit outfit that consists of shoes, pants, gloves, a shirt and a hat. Get dressed up for the occasion!",
+    "image_address": "PremiumIcons/SoireeDapperSuit",
+    "collectible_ids": [
+      1264187813,
+      1633354480,
+      1822818474,
+      2087936367,
+      1546586392
+    ],
+    "price": 5000,
+    "base_price": 5000,
+    "quantity": 1,
+    "sorting_priority": 5,
     "is_enabled": true
   },
   {
@@ -240,6 +276,20 @@
     "quantity": 1,
     "sorting_priority": 8,
     "is_enabled": false
+  },
+  {
+    "id": 325243315,
+    "name": "Party Supplies",
+    "description": "A pack of 20 party supplies. Can be used to make a variety of balloon, confetti and streamer decorations for your house or settlement. Decorations come in Black, White, Purple, Gold and Pink colors. Single Balloon decorations and Confetti paving costs 1 Party Supply, Multi Balloon Decorations cost 2 Party Supplies and Streamer Archways cost 3 Party Supplies.",
+    "image_address": "PremiumIcons/PartySupplies",
+    "collectible_ids": [
+      1148542279
+    ],
+    "price": 10000,
+    "base_price": 10000,
+    "quantity": 20,
+    "sorting_priority": 4,
+    "is_enabled": true
   },
   {
     "id": 327421456,
@@ -284,7 +334,7 @@
     "price": 1750,
     "base_price": 1750,
     "quantity": 1,
-    "sorting_priority": 15,
+    "sorting_priority": 20,
     "is_enabled": true
   },
   {
@@ -298,7 +348,25 @@
     "price": 7500,
     "base_price": 7500,
     "quantity": 1,
-    "sorting_priority": 9,
+    "sorting_priority": 12,
+    "is_enabled": true
+  },
+  {
+    "id": 436804458,
+    "name": "Elegant Dress Outfit",
+    "description": "An elegant dress outfit that consists of shoes, pants, gloves, a shirt and a belt. Get dressed up for the occasion!",
+    "image_address": "PremiumIcons/SoireeElegantDress",
+    "collectible_ids": [
+      1647779128,
+      1569473438,
+      1591419016,
+      2143497922,
+      401735431
+    ],
+    "price": 5000,
+    "base_price": 5000,
+    "quantity": 1,
+    "sorting_priority": 5,
     "is_enabled": true
   },
   {
@@ -325,7 +393,54 @@
     "price": 7500,
     "base_price": 10000,
     "quantity": 1,
+    "sorting_priority": 7,
+    "is_enabled": true
+  },
+  {
+    "id": 473891541,
+    "name": "Complete Soiree Outfit Set",
+    "description": "A bundle which contains the Classic Suit, Classic Dress, Dapper Suit and Elegant Dress outfits.",
+    "image_address": "PremiumIcons/SoireeOutfitBundle",
+    "collectible_ids": [
+      4221595,
+      1533697001,
+      1657836861,
+      425963383,
+      763223577,
+      401735431,
+      1647779128,
+      1569473438,
+      1591419016,
+      2143497922,
+      1167277568,
+      533323916,
+      1192545700,
+      721473478,
+      1091403923,
+      1264187813,
+      1633354480,
+      1822818474,
+      2087936367,
+      1546586392
+    ],
+    "price": 12500,
+    "base_price": 15000,
+    "quantity": 1,
     "sorting_priority": 1,
+    "is_enabled": true
+  },
+  {
+    "id": 483834783,
+    "name": "Paper Lanterns",
+    "description": "Floating lanterns which can be used to decorate your town or house. Also provides light in a radius around them.",
+    "image_address": "PremiumIcons/Party_PaperLantern",
+    "collectible_ids": [
+      1195374397
+    ],
+    "price": 1000,
+    "base_price": 1000,
+    "quantity": 1,
+    "sorting_priority": 3,
     "is_enabled": true
   },
   {
@@ -339,7 +454,7 @@
     "price": 3500,
     "base_price": 3500,
     "quantity": 1,
-    "sorting_priority": 2,
+    "sorting_priority": 8,
     "is_enabled": true
   },
   {
@@ -359,6 +474,20 @@
     "is_enabled": false
   },
   {
+    "id": 614615796,
+    "name": "Extravagant Party Supplies",
+    "description": "A pack of 50 party supplies. Can be used to make a variety of balloon, confetti and streamer decorations for your house or settlement. Decorations come in Black, White, Purple, Gold and Pink colors. Single Balloon decorations and Confetti paving costs 1 Party Supply, Multi Balloon Decorations cost 2 Party Supplies and Streamer Archways cost 3 Party Supplies.",
+    "image_address": "PremiumIcons/PartySupplies",
+    "collectible_ids": [
+      1148542279
+    ],
+    "price": 20000,
+    "base_price": 25000,
+    "quantity": 50,
+    "sorting_priority": 4,
+    "is_enabled": true
+  },
+  {
     "id": 627872387,
     "name": "Pumpkin the Qitt Pet",
     "description": "This limited item will be available for purchase until November 6th",
@@ -371,6 +500,24 @@
     "quantity": 1,
     "sorting_priority": 10,
     "is_enabled": false
+  },
+  {
+    "id": 654533053,
+    "name": "Classic Suit Outfit",
+    "description": "A classic suit outfit that consists of shoes, pants, gloves, a shirt and a hat. Get dressed up for the occasion!",
+    "image_address": "PremiumIcons/SoireeClassicSuit",
+    "collectible_ids": [
+      1167277568,
+      533323916,
+      1192545700,
+      721473478,
+      1091403923
+    ],
+    "price": 5000,
+    "base_price": 5000,
+    "quantity": 1,
+    "sorting_priority": 5,
+    "is_enabled": true
   },
   {
     "id": 654791202,
@@ -389,6 +536,29 @@
     "base_price": 5000,
     "quantity": 1,
     "sorting_priority": 11,
+    "is_enabled": false
+  },
+  {
+    "id": 656028257,
+    "name": "Soiree Dress Bundle",
+    "description": "A bundle that contains the Classic Dress Outfit and the Elegant Dress Outfits",
+    "image_address": "PremiumIcons/SoireeDressBundle",
+    "collectible_ids": [
+      4221595,
+      1533697001,
+      1657836861,
+      425963383,
+      763223577,
+      401735431,
+      1647779128,
+      1569473438,
+      1591419016,
+      2143497922
+    ],
+    "price": 7500,
+    "base_price": 10000,
+    "quantity": 1,
+    "sorting_priority": 2,
     "is_enabled": true
   },
   {
@@ -418,7 +588,7 @@
     "price": 20000,
     "base_price": 23500,
     "quantity": 1,
-    "sorting_priority": 0,
+    "sorting_priority": 6,
     "is_enabled": true
   },
   {
@@ -432,7 +602,7 @@
     "price": 7500,
     "base_price": 7500,
     "quantity": 1,
-    "sorting_priority": 4,
+    "sorting_priority": 10,
     "is_enabled": true
   },
   {
@@ -446,7 +616,7 @@
     "price": 1500,
     "base_price": 1500,
     "quantity": 1,
-    "sorting_priority": 15,
+    "sorting_priority": 20,
     "is_enabled": true
   },
   {
@@ -509,7 +679,7 @@
     "base_price": 32500,
     "quantity": 1,
     "sorting_priority": 10,
-    "is_enabled": true
+    "is_enabled": false
   },
   {
     "id": 825931337,
@@ -556,7 +726,7 @@
     "price": 15000,
     "base_price": 22500,
     "quantity": 1,
-    "sorting_priority": 3,
+    "sorting_priority": 9,
     "is_enabled": true
   },
   {
@@ -606,7 +776,7 @@
     "price": 5000,
     "base_price": 5000,
     "quantity": 1,
-    "sorting_priority": 1,
+    "sorting_priority": 7,
     "is_enabled": true
   },
   {
@@ -631,7 +801,7 @@
     "price": 7500,
     "base_price": 10000,
     "quantity": 1,
-    "sorting_priority": 7,
+    "sorting_priority": 10,
     "is_enabled": true
   },
   {
@@ -645,7 +815,7 @@
     "price": 1500,
     "base_price": 1500,
     "quantity": 1,
-    "sorting_priority": 15,
+    "sorting_priority": 20,
     "is_enabled": true
   },
   {
@@ -656,10 +826,56 @@
     "collectible_ids": [
       1128960173
     ],
-    "price": 1500,
+    "price": 2500,
     "base_price": 2500,
     "quantity": 100,
     "sorting_priority": 14,
+    "is_enabled": true
+  },
+  {
+    "id": 1047023106,
+    "name": "Date Night Couples Bundle",
+    "description": "Get dressed up with someone special, or keep the full bundle for yourself! Contains both the Dapper Suit Outfit and the Elegant Dress Outfit.",
+    "image_address": "PremiumIcons/SoireeDateNightBundle",
+    "collectible_ids": [
+      401735431,
+      1647779128,
+      1569473438,
+      1591419016,
+      2143497922,
+      1264187813,
+      1633354480,
+      1822818474,
+      2087936367,
+      1546586392
+    ],
+    "price": 7500,
+    "base_price": 10000,
+    "quantity": 1,
+    "sorting_priority": 2,
+    "is_enabled": true
+  },
+  {
+    "id": 1048579351,
+    "name": "Soiree Suit Bundle",
+    "description": "A bundle which contains both the Classic Suit Outfit and the Dapper Suit Outfit.",
+    "image_address": "PremiumIcons/SoireeSuitBundle",
+    "collectible_ids": [
+      1167277568,
+      533323916,
+      1192545700,
+      721473478,
+      1091403923,
+      1264187813,
+      1633354480,
+      1822818474,
+      2087936367,
+      1546586392
+    ],
+    "price": 7500,
+    "base_price": 10000,
+    "quantity": 1,
+    "sorting_priority": 2,
     "is_enabled": true
   },
   {
@@ -673,7 +889,7 @@
     "price": 1500,
     "base_price": 1500,
     "quantity": 1,
-    "sorting_priority": 15,
+    "sorting_priority": 20,
     "is_enabled": true
   },
   {
@@ -687,7 +903,7 @@
     "price": 1500,
     "base_price": 1500,
     "quantity": 1,
-    "sorting_priority": 15,
+    "sorting_priority": 20,
     "is_enabled": true
   },
   {
@@ -706,7 +922,7 @@
     "price": 5000,
     "base_price": 5000,
     "quantity": 1,
-    "sorting_priority": 5,
+    "sorting_priority": 11,
     "is_enabled": true
   },
   {
@@ -720,7 +936,7 @@
     "price": 1500,
     "base_price": 1500,
     "quantity": 1,
-    "sorting_priority": 15,
+    "sorting_priority": 20,
     "is_enabled": true
   },
   {
@@ -736,7 +952,7 @@
     "price": 1500,
     "base_price": 1500,
     "quantity": 1,
-    "sorting_priority": 15,
+    "sorting_priority": 20,
     "is_enabled": true
   },
   {
@@ -750,7 +966,7 @@
     "price": 1500,
     "base_price": 1500,
     "quantity": 1,
-    "sorting_priority": 15,
+    "sorting_priority": 20,
     "is_enabled": true
   },
   {
@@ -778,7 +994,7 @@
     "price": 7500,
     "base_price": 7500,
     "quantity": 1,
-    "sorting_priority": 2,
+    "sorting_priority": 8,
     "is_enabled": true
   },
   {
@@ -798,6 +1014,20 @@
     "price": 5000,
     "base_price": 5000,
     "quantity": 1,
+    "sorting_priority": 7,
+    "is_enabled": true
+  },
+  {
+    "id": 1572619784,
+    "name": "Firefly Lantern",
+    "description": "A strange paper lantern that will follow you everywhere you go. Like a pet...but it's a lantern?",
+    "image_address": "PremiumItems/PaperLanternPet",
+    "collectible_ids": [
+      589853919
+    ],
+    "price": 7500,
+    "base_price": 7500,
+    "quantity": 1,
     "sorting_priority": 1,
     "is_enabled": true
   },
@@ -812,7 +1042,7 @@
     "price": 2500,
     "base_price": 2500,
     "quantity": 1,
-    "sorting_priority": 3,
+    "sorting_priority": 9,
     "is_enabled": true
   },
   {
@@ -837,7 +1067,7 @@
     "price": 7500,
     "base_price": 10000,
     "quantity": 1,
-    "sorting_priority": 3,
+    "sorting_priority": 9,
     "is_enabled": true
   },
   {
@@ -869,7 +1099,7 @@
     "base_price": 7500,
     "quantity": 1,
     "sorting_priority": 12,
-    "is_enabled": true
+    "is_enabled": false
   },
   {
     "id": 1695638959,
@@ -924,7 +1154,7 @@
     "price": 20000,
     "base_price": 32500,
     "quantity": 1,
-    "sorting_priority": 6,
+    "sorting_priority": 9,
     "is_enabled": true
   },
   {
@@ -938,7 +1168,7 @@
     "price": 1500,
     "base_price": 1500,
     "quantity": 1,
-    "sorting_priority": 15,
+    "sorting_priority": 20,
     "is_enabled": true
   },
   {
@@ -952,7 +1182,66 @@
     "price": 1500,
     "base_price": 1500,
     "quantity": 1,
-    "sorting_priority": 15,
+    "sorting_priority": 20,
+    "is_enabled": true
+  },
+  {
+    "id": 1750752764,
+    "name": "Soiree Mega Bundle",
+    "description": "A bundle which contains the Classic Suit, Classic Dress, Dapper Suit and Elegant Dress outfits. Also contains 4 Paper Lanterns, 20 Party Supplies, a Blossom Party Hat and a Firefly Lantern Pet.",
+    "image_address": "PremiumIcons/SoireeMegaBundle",
+    "collectible_ids": [
+      4221595,
+      1533697001,
+      1657836861,
+      425963383,
+      763223577,
+      401735431,
+      1647779128,
+      1569473438,
+      1591419016,
+      2143497922,
+      1167277568,
+      533323916,
+      1192545700,
+      721473478,
+      1091403923,
+      1264187813,
+      1633354480,
+      1822818474,
+      2087936367,
+      1546586392,
+      1148542279,
+      1148542279,
+      1148542279,
+      1148542279,
+      1148542279,
+      1148542279,
+      1148542279,
+      1148542279,
+      1148542279,
+      1148542279,
+      1148542279,
+      1148542279,
+      1148542279,
+      1148542279,
+      1148542279,
+      1148542279,
+      1148542279,
+      1148542279,
+      1148542279,
+      1148542279,
+      1195374397,
+      1195374397,
+      1195374397,
+      1195374397,
+      589853919,
+      482846285
+    ],
+    "price": 25000,
+    "base_price": 35000,
+    "quantity": 1,
+    "sorting_priority": 0,
     "is_enabled": true
   },
   {
@@ -966,7 +1255,7 @@
     "price": 1500,
     "base_price": 1500,
     "quantity": 1,
-    "sorting_priority": 15,
+    "sorting_priority": 20,
     "is_enabled": true
   },
   {
@@ -981,7 +1270,7 @@
     "price": 1750,
     "base_price": 1750,
     "quantity": 1,
-    "sorting_priority": 15,
+    "sorting_priority": 20,
     "is_enabled": true
   },
   {
@@ -1000,7 +1289,7 @@
     "price": 5000,
     "base_price": 5000,
     "quantity": 1,
-    "sorting_priority": 5,
+    "sorting_priority": 11,
     "is_enabled": true
   },
   {
@@ -1018,6 +1307,43 @@
     "is_enabled": false
   },
   {
+    "id": 2028482487,
+    "name": "Party Hat (Blossoming)",
+    "description": "A party hat to celebrate the occasion. ",
+    "image_address": "PremiumIcons/partyhat_blossom",
+    "collectible_ids": [
+      482846285
+    ],
+    "price": 1000,
+    "base_price": 1000,
+    "quantity": 1,
+    "sorting_priority": 5,
+    "is_enabled": true
+  },
+  {
+    "id": 2031972219,
+    "name": "Classic Couples Bundle",
+    "description": "Get dressed up with someone special, or keep the full set to yourself! Contains both the Classic Suit Outfit and the Classic Dress Outfit.",
+    "image_address": "PremiumIcons/ClassicCoupleBundle",
+    "collectible_ids": [
+      763223577,
+      4221595,
+      1533697001,
+      1657836861,
+      425963383,
+      1167277568,
+      533323916,
+      1192545700,
+      721473478,
+      1091403923
+    ],
+    "price": 7500,
+    "base_price": 10000,
+    "quantity": 1,
+    "sorting_priority": 2,
+    "is_enabled": true
+  },
+  {
     "id": 2044189194,
     "name": "Flex",
     "description": "Teaches your character to use the \"Flex\" emote",
@@ -1028,7 +1354,7 @@
     "price": 1500,
     "base_price": 1500,
     "quantity": 1,
-    "sorting_priority": 15,
+    "sorting_priority": 20,
     "is_enabled": true
   },
   {
@@ -1047,7 +1373,7 @@
     "price": 5000,
     "base_price": 5000,
     "quantity": 1,
-    "sorting_priority": 8,
+    "sorting_priority": 11,
     "is_enabled": true
   },
   {
@@ -1082,7 +1408,7 @@
     "price": 5000,
     "base_price": 5000,
     "quantity": 1,
-    "sorting_priority": 8,
+    "sorting_priority": 11,
     "is_enabled": true
   },
   {
@@ -1096,7 +1422,7 @@
     "price": 1500,
     "base_price": 1500,
     "quantity": 1,
-    "sorting_priority": 15,
+    "sorting_priority": 20,
     "is_enabled": true
   },
   {
@@ -1122,6 +1448,6 @@
     "base_price": 10000,
     "quantity": 1,
     "sorting_priority": 10,
-    "is_enabled": true
+    "is_enabled": false
   }
 ]
