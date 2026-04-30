@@ -32566,7 +32566,7 @@
     ],
     "compendium_entry": true,
     "enemy_params_id": [],
-    "scheduled_respawn_time": 900.0,
+    "scheduled_respawn_time": 0.0,
     "not_respawning": false,
     "show_time_left": false,
     "on_destroy_yield_resource_chance": 1.0
@@ -32943,6 +32943,58 @@
       {}
     ],
     "compendium_entry": false,
+    "enemy_params_id": [],
+    "scheduled_respawn_time": 0.0,
+    "not_respawning": false,
+    "show_time_left": false,
+    "on_destroy_yield_resource_chance": 1.0
+  },
+  {
+    "id": 499397253,
+    "name": "Auric Ore",
+    "description": "",
+    "flattenable": false,
+    "max_health": 250000,
+    "ignore_damage": true,
+    "despawn_time": 0.0,
+    "model_asset_name": "Resources/AuricOre",
+    "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Other/AuricOreVein",
+    "on_destroy_yield": [],
+    "on_destroy_yield_resource_id": 0,
+    "spawn_priority": 1,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        0,
+        -1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        1,
+        -1,
+        [
+          0,
+          []
+        ]
+      ]
+    ],
+    "tier": -1,
+    "tag": "Ore Vein",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": true,
     "enemy_params_id": [],
     "scheduled_respawn_time": 0.0,
     "not_respawning": false,
@@ -42900,6 +42952,44 @@
     "on_destroy_yield_resource_chance": 1.0
   },
   {
+    "id": 876954498,
+    "name": "Enraged Drone Nest",
+    "description": "",
+    "flattenable": false,
+    "max_health": 233775,
+    "ignore_damage": true,
+    "despawn_time": 0.0,
+    "model_asset_name": "Resources/CalmedBeeHive",
+    "icon_asset_name": "GeneratedIcons/Other/Beehive",
+    "on_destroy_yield": [],
+    "on_destroy_yield_resource_id": 0,
+    "spawn_priority": 1,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          0,
+          []
+        ]
+      ]
+    ],
+    "tier": -1,
+    "tag": "Taming",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": false,
+    "enemy_params_id": [
+      1337403190
+    ],
+    "scheduled_respawn_time": 0.0,
+    "not_respawning": false,
+    "show_time_left": true,
+    "on_destroy_yield_resource_chance": 1.0
+  },
+  {
     "id": 887736443,
     "name": "Luminite Vein Interior",
     "description": "",
@@ -49720,6 +49810,42 @@
     "on_destroy_yield_resource_chance": 1.0
   },
   {
+    "id": 1396949488,
+    "name": "Beehive",
+    "description": "",
+    "flattenable": false,
+    "max_health": 1,
+    "ignore_damage": false,
+    "despawn_time": 0.0,
+    "model_asset_name": "Resources/BeeHive",
+    "icon_asset_name": "GeneratedIcons/Other/Beehive",
+    "on_destroy_yield": [],
+    "on_destroy_yield_resource_id": 876954498,
+    "spawn_priority": 1,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          0,
+          []
+        ]
+      ]
+    ],
+    "tier": -1,
+    "tag": "Taming",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": false,
+    "enemy_params_id": [],
+    "scheduled_respawn_time": 0.0,
+    "not_respawning": false,
+    "show_time_left": false,
+    "on_destroy_yield_resource_chance": 1.0
+  },
+  {
     "id": 1423043113,
     "name": "Peach Tree",
     "description": "",
@@ -54112,7 +54238,7 @@
     "ignore_damage": false,
     "despawn_time": 0.0,
     "model_asset_name": "Resources/WindsweptTree",
-    "icon_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Other/WindsweptTree",
     "on_destroy_yield": [
       [
         1002,

@@ -912,6 +912,52 @@
     "hide_with_blocking_knowledges": true
   },
   {
+    "id": 275474500,
+    "starting_stock": 2147483647,
+    "always_offered": true,
+    "traveler": [
+      1,
+      {}
+    ],
+    "offer_items": [
+      [
+        1086855799,
+        1,
+        [
+          0,
+          []
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    ],
+    "offer_cargo_id": [],
+    "required_items": [
+      [
+        1,
+        2500,
+        [
+          0,
+          []
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    ],
+    "required_cargo_id": [],
+    "level_requirements": [],
+    "achievement_requirements": [],
+    "hide_if_requirements_are_not_met": false,
+    "required_knowledges": [],
+    "hide_without_required_knowledge": false,
+    "blocking_knowledges": [],
+    "hide_with_blocking_knowledges": false
+  },
+  {
     "id": 299615640,
     "starting_stock": 2147483647,
     "always_offered": true,
@@ -1173,6 +1219,57 @@
       1577596405
     ],
     "hide_with_blocking_knowledges": true
+  },
+  {
+    "id": 371282388,
+    "starting_stock": 2147483647,
+    "always_offered": true,
+    "traveler": [
+      3,
+      {}
+    ],
+    "offer_items": [
+      [
+        734767938,
+        1,
+        [
+          0,
+          []
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    ],
+    "offer_cargo_id": [],
+    "required_items": [
+      [
+        1,
+        50,
+        [
+          0,
+          []
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    ],
+    "required_cargo_id": [],
+    "level_requirements": [
+      [
+        2,
+        60
+      ]
+    ],
+    "achievement_requirements": [],
+    "hide_if_requirements_are_not_met": false,
+    "required_knowledges": [],
+    "hide_without_required_knowledge": false,
+    "blocking_knowledges": [],
+    "hide_with_blocking_knowledges": false
   },
   {
     "id": 441491803,
@@ -1495,6 +1592,61 @@
     "hide_without_required_knowledge": false,
     "blocking_knowledges": [],
     "hide_with_blocking_knowledges": false
+  },
+  {
+    "id": 490631598,
+    "starting_stock": 2147483647,
+    "always_offered": true,
+    "traveler": [
+      1,
+      {}
+    ],
+    "offer_items": [
+      [
+        630990396,
+        1,
+        [
+          0,
+          []
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    ],
+    "offer_cargo_id": [],
+    "required_items": [
+      [
+        1,
+        50000,
+        [
+          0,
+          []
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    ],
+    "required_cargo_id": [],
+    "level_requirements": [
+      [
+        21,
+        80
+      ]
+    ],
+    "achievement_requirements": [],
+    "hide_if_requirements_are_not_met": false,
+    "required_knowledges": [
+      1542357396
+    ],
+    "hide_without_required_knowledge": true,
+    "blocking_knowledges": [
+      65637572
+    ],
+    "hide_with_blocking_knowledges": true
   },
   {
     "id": 544514700,
@@ -4652,8 +4804,10 @@
     ],
     "achievement_requirements": [],
     "hide_if_requirements_are_not_met": false,
-    "required_knowledges": [],
-    "hide_without_required_knowledge": false,
+    "required_knowledges": [
+      12345
+    ],
+    "hide_without_required_knowledge": true,
     "blocking_knowledges": [],
     "hide_with_blocking_knowledges": false
   },
