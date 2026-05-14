@@ -18387,6 +18387,26 @@
                   "elements": []
                 }
               }
+            },
+            {
+              "name": {
+                "some": "PlacePlaceable"
+              },
+              "algebraic_type": {
+                "Product": {
+                  "elements": []
+                }
+              }
+            },
+            {
+              "name": {
+                "some": "InteractPlaceable"
+              },
+              "algebraic_type": {
+                "Product": {
+                  "elements": []
+                }
+              }
             }
           ]
         }
@@ -27855,6 +27875,632 @@
           "elements": [
             {
               "name": {
+                "some": "id"
+              },
+              "algebraic_type": {
+                "I32": []
+              }
+            },
+            {
+              "name": {
+                "some": "name"
+              },
+              "algebraic_type": {
+                "String": []
+              }
+            },
+            {
+              "name": {
+                "some": "tag"
+              },
+              "algebraic_type": {
+                "String": []
+              }
+            },
+            {
+              "name": {
+                "some": "tier"
+              },
+              "algebraic_type": {
+                "I32": []
+              }
+            },
+            {
+              "name": {
+                "some": "description"
+              },
+              "algebraic_type": {
+                "String": []
+              }
+            },
+            {
+              "name": {
+                "some": "rarity"
+              },
+              "algebraic_type": {
+                "Ref": 58
+              }
+            },
+            {
+              "name": {
+                "some": "model_asset_name"
+              },
+              "algebraic_type": {
+                "String": []
+              }
+            },
+            {
+              "name": {
+                "some": "icon_asset_name"
+              },
+              "algebraic_type": {
+                "String": []
+              }
+            },
+            {
+              "name": {
+                "some": "max_health"
+              },
+              "algebraic_type": {
+                "I32": []
+              }
+            },
+            {
+              "name": {
+                "some": "visible_to_others"
+              },
+              "algebraic_type": {
+                "Bool": []
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Product": {
+          "elements": [
+            {
+              "name": {
+                "some": "id"
+              },
+              "algebraic_type": {
+                "I32": []
+              }
+            },
+            {
+              "name": {
+                "some": "name"
+              },
+              "algebraic_type": {
+                "String": []
+              }
+            },
+            {
+              "name": {
+                "some": "placement_limit"
+              },
+              "algebraic_type": {
+                "U16": []
+              }
+            },
+            {
+              "name": {
+                "some": "placeable_ids"
+              },
+              "algebraic_type": {
+                "Array": {
+                  "I32": []
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Product": {
+          "elements": [
+            {
+              "name": {
+                "some": "id"
+              },
+              "algebraic_type": {
+                "I32": []
+              }
+            },
+            {
+              "name": {
+                "some": "placeable_id"
+              },
+              "algebraic_type": {
+                "I32": []
+              }
+            },
+            {
+              "name": {
+                "some": "time"
+              },
+              "algebraic_type": {
+                "Array": {
+                  "F32": []
+                }
+              }
+            },
+            {
+              "name": {
+                "some": "outcomes"
+              },
+              "algebraic_type": {
+                "Array": {
+                  "Ref": 447
+                }
+              }
+            },
+            {
+              "name": {
+                "some": "show_time_left"
+              },
+              "algebraic_type": {
+                "Bool": []
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Product": {
+          "elements": [
+            {
+              "name": {
+                "some": "probability"
+              },
+              "algebraic_type": {
+                "F32": []
+              }
+            },
+            {
+              "name": {
+                "some": "placeable_id"
+              },
+              "algebraic_type": {
+                "I32": []
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Product": {
+          "elements": [
+            {
+              "name": {
+                "some": "id"
+              },
+              "algebraic_type": {
+                "I32": []
+              }
+            },
+            {
+              "name": {
+                "some": "verb_phrase"
+              },
+              "algebraic_type": {
+                "String": []
+              }
+            },
+            {
+              "name": {
+                "some": "placeable_id"
+              },
+              "algebraic_type": {
+                "I32": []
+              }
+            },
+            {
+              "name": {
+                "some": "required_knowledges"
+              },
+              "algebraic_type": {
+                "Array": {
+                  "I32": []
+                }
+              }
+            },
+            {
+              "name": {
+                "some": "blocking_knowledges"
+              },
+              "algebraic_type": {
+                "Array": {
+                  "I32": []
+                }
+              }
+            },
+            {
+              "name": {
+                "some": "consumed_item_stacks"
+              },
+              "algebraic_type": {
+                "Array": {
+                  "Ref": 98
+                }
+              }
+            },
+            {
+              "name": {
+                "some": "output_item_stacks"
+              },
+              "algebraic_type": {
+                "Array": {
+                  "Ref": 79
+                }
+              }
+            },
+            {
+              "name": {
+                "some": "tool_requirements"
+              },
+              "algebraic_type": {
+                "Array": {
+                  "Ref": 97
+                }
+              }
+            },
+            {
+              "name": {
+                "some": "level_requirements"
+              },
+              "algebraic_type": {
+                "Array": {
+                  "Ref": 8
+                }
+              }
+            },
+            {
+              "name": {
+                "some": "experience_per_progress"
+              },
+              "algebraic_type": {
+                "Array": {
+                  "Ref": 99
+                }
+              }
+            },
+            {
+              "name": {
+                "some": "time_requirement"
+              },
+              "algebraic_type": {
+                "F32": []
+              }
+            },
+            {
+              "name": {
+                "some": "stamina_requirement"
+              },
+              "algebraic_type": {
+                "F32": []
+              }
+            },
+            {
+              "name": {
+                "some": "tool_durability_lost"
+              },
+              "algebraic_type": {
+                "I32": []
+              }
+            },
+            {
+              "name": {
+                "some": "range"
+              },
+              "algebraic_type": {
+                "I32": []
+              }
+            },
+            {
+              "name": {
+                "some": "allow_use_hands"
+              },
+              "algebraic_type": {
+                "Bool": []
+              }
+            },
+            {
+              "name": {
+                "some": "power_multiplier"
+              },
+              "algebraic_type": {
+                "F32": []
+              }
+            },
+            {
+              "name": {
+                "some": "recipe_performance_id"
+              },
+              "algebraic_type": {
+                "I32": []
+              }
+            },
+            {
+              "name": {
+                "some": "on_destroy_spawned_placeable_id"
+              },
+              "algebraic_type": {
+                "I32": []
+              }
+            },
+            {
+              "name": {
+                "some": "on_destroy_spawned_placeable_chance"
+              },
+              "algebraic_type": {
+                "F32": []
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Product": {
+          "elements": [
+            {
+              "name": {
+                "some": "id"
+              },
+              "algebraic_type": {
+                "I32": []
+              }
+            },
+            {
+              "name": {
+                "some": "placed_placeable_id"
+              },
+              "algebraic_type": {
+                "I32": []
+              }
+            },
+            {
+              "name": {
+                "some": "input_item"
+              },
+              "algebraic_type": {
+                "Ref": 79
+              }
+            },
+            {
+              "name": {
+                "some": "required_time"
+              },
+              "algebraic_type": {
+                "F32": []
+              }
+            },
+            {
+              "name": {
+                "some": "level_requirements"
+              },
+              "algebraic_type": {
+                "Array": {
+                  "Ref": 8
+                }
+              }
+            },
+            {
+              "name": {
+                "some": "tool_requirements"
+              },
+              "algebraic_type": {
+                "Array": {
+                  "Ref": 97
+                }
+              }
+            },
+            {
+              "name": {
+                "some": "required_knowledges"
+              },
+              "algebraic_type": {
+                "Array": {
+                  "I32": []
+                }
+              }
+            },
+            {
+              "name": {
+                "some": "blocking_knowledges"
+              },
+              "algebraic_type": {
+                "Array": {
+                  "I32": []
+                }
+              }
+            },
+            {
+              "name": {
+                "some": "required_biomes"
+              },
+              "algebraic_type": {
+                "Array": {
+                  "Ref": 170
+                }
+              }
+            },
+            {
+              "name": {
+                "some": "place_on_land"
+              },
+              "algebraic_type": {
+                "Bool": []
+              }
+            },
+            {
+              "name": {
+                "some": "land_elevation_min"
+              },
+              "algebraic_type": {
+                "I32": []
+              }
+            },
+            {
+              "name": {
+                "some": "land_elevation_max"
+              },
+              "algebraic_type": {
+                "I32": []
+              }
+            },
+            {
+              "name": {
+                "some": "place_on_water"
+              },
+              "algebraic_type": {
+                "Bool": []
+              }
+            },
+            {
+              "name": {
+                "some": "water_depth_min"
+              },
+              "algebraic_type": {
+                "I32": []
+              }
+            },
+            {
+              "name": {
+                "some": "water_depth_max"
+              },
+              "algebraic_type": {
+                "I32": []
+              }
+            },
+            {
+              "name": {
+                "some": "required_paving_tier"
+              },
+              "algebraic_type": {
+                "I32": []
+              }
+            },
+            {
+              "name": {
+                "some": "required_interior_tier"
+              },
+              "algebraic_type": {
+                "I32": []
+              }
+            },
+            {
+              "name": {
+                "some": "required_claim_tier"
+              },
+              "algebraic_type": {
+                "I32": []
+              }
+            },
+            {
+              "name": {
+                "some": "min_distance_to_player_claims"
+              },
+              "algebraic_type": {
+                "I32": []
+              }
+            },
+            {
+              "name": {
+                "some": "min_distance_to_group"
+              },
+              "algebraic_type": {
+                "I32": []
+              }
+            },
+            {
+              "name": {
+                "some": "min_distance_to_other_placeables"
+              },
+              "algebraic_type": {
+                "I32": []
+              }
+            },
+            {
+              "name": {
+                "some": "min_distance_to_existing_footprints"
+              },
+              "algebraic_type": {
+                "I32": []
+              }
+            },
+            {
+              "name": {
+                "some": "max_distance_to_buildings"
+              },
+              "algebraic_type": {
+                "I32": []
+              }
+            },
+            {
+              "name": {
+                "some": "buildings"
+              },
+              "algebraic_type": {
+                "Array": {
+                  "I32": []
+                }
+              }
+            },
+            {
+              "name": {
+                "some": "recipe_performance_id"
+              },
+              "algebraic_type": {
+                "I32": []
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Product": {
+          "elements": [
+            {
+              "name": {
+                "some": "entity_id"
+              },
+              "algebraic_type": {
+                "U64": []
+              }
+            },
+            {
+              "name": {
+                "some": "owner_entity_id"
+              },
+              "algebraic_type": {
+                "U64": []
+              }
+            },
+            {
+              "name": {
+                "some": "placeable_id"
+              },
+              "algebraic_type": {
+                "I32": []
+              }
+            },
+            {
+              "name": {
+                "some": "direction_index"
+              },
+              "algebraic_type": {
+                "I32": []
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Product": {
+          "elements": [
+            {
+              "name": {
                 "some": "entity_id"
               },
               "algebraic_type": {
@@ -28095,7 +28741,7 @@
                 "some": "severity"
               },
               "algebraic_type": {
-                "Ref": 451
+                "Ref": 458
               }
             }
           ]
@@ -29001,7 +29647,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 467
+                  "Ref": 474
                 }
               }
             },
@@ -29011,7 +29657,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 469
+                  "Ref": 476
                 }
               }
             },
@@ -29021,7 +29667,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 469
+                  "Ref": 476
                 }
               }
             },
@@ -29052,7 +29698,7 @@
                 "some": "PaddingNone"
               },
               "algebraic_type": {
-                "Ref": 468
+                "Ref": 475
               }
             },
             {
@@ -29152,7 +29798,7 @@
                 "some": "PaddingNone"
               },
               "algebraic_type": {
-                "Ref": 468
+                "Ref": 475
               }
             },
             {
@@ -29293,7 +29939,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 472
+                  "Ref": 479
                 }
               }
             }
@@ -29308,7 +29954,7 @@
                 "some": "PaddingNone"
               },
               "algebraic_type": {
-                "Ref": 468
+                "Ref": 475
               }
             },
             {
@@ -29316,7 +29962,7 @@
                 "some": "ItemStack"
               },
               "algebraic_type": {
-                "Ref": 473
+                "Ref": 480
               }
             },
             {
@@ -29636,7 +30282,7 @@
                 "some": "subject_type"
               },
               "algebraic_type": {
-                "Ref": 484
+                "Ref": 491
               }
             },
             {
@@ -29644,7 +30290,7 @@
                 "some": "data"
               },
               "algebraic_type": {
-                "Ref": 485
+                "Ref": 492
               }
             },
             {
@@ -29701,7 +30347,7 @@
                 "some": "Reserved"
               },
               "algebraic_type": {
-                "Ref": 486
+                "Ref": 493
               }
             },
             {
@@ -29815,7 +30461,7 @@
                 "some": "placeholder_skill_type"
               },
               "algebraic_type": {
-                "Ref": 489
+                "Ref": 496
               }
             },
             {
@@ -29823,7 +30469,7 @@
                 "some": "placeholder_buff_category"
               },
               "algebraic_type": {
-                "Ref": 490
+                "Ref": 497
               }
             },
             {
@@ -29831,7 +30477,7 @@
                 "some": "placeholder"
               },
               "algebraic_type": {
-                "Ref": 491
+                "Ref": 498
               }
             },
             {
@@ -29855,7 +30501,7 @@
                 "some": "permission"
               },
               "algebraic_type": {
-                "Ref": 492
+                "Ref": 499
               }
             },
             {
@@ -29863,7 +30509,7 @@
                 "some": "permission_group"
               },
               "algebraic_type": {
-                "Ref": 493
+                "Ref": 500
               }
             },
             {
@@ -29871,7 +30517,7 @@
                 "some": "ability_type"
               },
               "algebraic_type": {
-                "Ref": 494
+                "Ref": 501
               }
             }
           ]
@@ -30891,7 +31537,7 @@
                 "some": "visibility"
               },
               "algebraic_type": {
-                "Ref": 477
+                "Ref": 484
               }
             }
           ]
@@ -43278,6 +43924,346 @@
       }
     },
     {
+      "name": "placeable_desc",
+      "product_type_ref": 444,
+      "primary_key": [
+        0
+      ],
+      "indexes": [
+        {
+          "name": {
+            "some": "placeable_desc_id_idx_btree"
+          },
+          "accessor_name": {
+            "some": "id"
+          },
+          "algorithm": {
+            "BTree": [
+              0
+            ]
+          }
+        }
+      ],
+      "constraints": [
+        {
+          "name": {
+            "some": "placeable_desc_id_key"
+          },
+          "data": {
+            "Unique": {
+              "columns": [
+                0
+              ]
+            }
+          }
+        }
+      ],
+      "sequences": [],
+      "schedule": {
+        "none": []
+      },
+      "table_type": {
+        "User": []
+      },
+      "table_access": {
+        "Public": []
+      }
+    },
+    {
+      "name": "placeable_group_desc",
+      "product_type_ref": 445,
+      "primary_key": [
+        0
+      ],
+      "indexes": [
+        {
+          "name": {
+            "some": "placeable_group_desc_id_idx_btree"
+          },
+          "accessor_name": {
+            "some": "id"
+          },
+          "algorithm": {
+            "BTree": [
+              0
+            ]
+          }
+        }
+      ],
+      "constraints": [
+        {
+          "name": {
+            "some": "placeable_group_desc_id_key"
+          },
+          "data": {
+            "Unique": {
+              "columns": [
+                0
+              ]
+            }
+          }
+        }
+      ],
+      "sequences": [],
+      "schedule": {
+        "none": []
+      },
+      "table_type": {
+        "User": []
+      },
+      "table_access": {
+        "Public": []
+      }
+    },
+    {
+      "name": "placeable_growth_desc",
+      "product_type_ref": 446,
+      "primary_key": [
+        0
+      ],
+      "indexes": [
+        {
+          "name": {
+            "some": "placeable_growth_desc_id_idx_btree"
+          },
+          "accessor_name": {
+            "some": "id"
+          },
+          "algorithm": {
+            "BTree": [
+              0
+            ]
+          }
+        },
+        {
+          "name": {
+            "some": "placeable_growth_desc_placeable_id_idx_btree"
+          },
+          "accessor_name": {
+            "some": "placeable_id"
+          },
+          "algorithm": {
+            "BTree": [
+              1
+            ]
+          }
+        }
+      ],
+      "constraints": [
+        {
+          "name": {
+            "some": "placeable_growth_desc_id_key"
+          },
+          "data": {
+            "Unique": {
+              "columns": [
+                0
+              ]
+            }
+          }
+        },
+        {
+          "name": {
+            "some": "placeable_growth_desc_placeable_id_key"
+          },
+          "data": {
+            "Unique": {
+              "columns": [
+                1
+              ]
+            }
+          }
+        }
+      ],
+      "sequences": [],
+      "schedule": {
+        "none": []
+      },
+      "table_type": {
+        "User": []
+      },
+      "table_access": {
+        "Public": []
+      }
+    },
+    {
+      "name": "placeable_interaction_desc",
+      "product_type_ref": 448,
+      "primary_key": [
+        0
+      ],
+      "indexes": [
+        {
+          "name": {
+            "some": "placeable_interaction_desc_id_idx_btree"
+          },
+          "accessor_name": {
+            "some": "id"
+          },
+          "algorithm": {
+            "BTree": [
+              0
+            ]
+          }
+        },
+        {
+          "name": {
+            "some": "placeable_interaction_desc_placeable_id_idx_btree"
+          },
+          "accessor_name": {
+            "some": "placeable_id"
+          },
+          "algorithm": {
+            "BTree": [
+              2
+            ]
+          }
+        }
+      ],
+      "constraints": [
+        {
+          "name": {
+            "some": "placeable_interaction_desc_id_key"
+          },
+          "data": {
+            "Unique": {
+              "columns": [
+                0
+              ]
+            }
+          }
+        }
+      ],
+      "sequences": [],
+      "schedule": {
+        "none": []
+      },
+      "table_type": {
+        "User": []
+      },
+      "table_access": {
+        "Public": []
+      }
+    },
+    {
+      "name": "placeable_placement_desc",
+      "product_type_ref": 449,
+      "primary_key": [
+        0
+      ],
+      "indexes": [
+        {
+          "name": {
+            "some": "placeable_placement_desc_id_idx_btree"
+          },
+          "accessor_name": {
+            "some": "id"
+          },
+          "algorithm": {
+            "BTree": [
+              0
+            ]
+          }
+        }
+      ],
+      "constraints": [
+        {
+          "name": {
+            "some": "placeable_placement_desc_id_key"
+          },
+          "data": {
+            "Unique": {
+              "columns": [
+                0
+              ]
+            }
+          }
+        }
+      ],
+      "sequences": [],
+      "schedule": {
+        "none": []
+      },
+      "table_type": {
+        "User": []
+      },
+      "table_access": {
+        "Public": []
+      }
+    },
+    {
+      "name": "placeable_state",
+      "product_type_ref": 450,
+      "primary_key": [
+        0
+      ],
+      "indexes": [
+        {
+          "name": {
+            "some": "placeable_state_entity_id_idx_btree"
+          },
+          "accessor_name": {
+            "some": "entity_id"
+          },
+          "algorithm": {
+            "BTree": [
+              0
+            ]
+          }
+        },
+        {
+          "name": {
+            "some": "placeable_state_owner_entity_id_idx_btree"
+          },
+          "accessor_name": {
+            "some": "owner_entity_id"
+          },
+          "algorithm": {
+            "BTree": [
+              1
+            ]
+          }
+        },
+        {
+          "name": {
+            "some": "placeable_state_placeable_id_idx_btree"
+          },
+          "accessor_name": {
+            "some": "placeable_id"
+          },
+          "algorithm": {
+            "BTree": [
+              2
+            ]
+          }
+        }
+      ],
+      "constraints": [
+        {
+          "name": {
+            "some": "placeable_state_entity_id_key"
+          },
+          "data": {
+            "Unique": {
+              "columns": [
+                0
+              ]
+            }
+          }
+        }
+      ],
+      "sequences": [],
+      "schedule": {
+        "none": []
+      },
+      "table_type": {
+        "User": []
+      },
+      "table_access": {
+        "Public": []
+      }
+    },
+    {
       "name": "player_action_desc",
       "product_type_ref": 272,
       "primary_key": [
@@ -43414,7 +44400,7 @@
     },
     {
       "name": "player_developer_notification_state",
-      "product_type_ref": 444,
+      "product_type_ref": 451,
       "primary_key": [
         0
       ],
@@ -43460,7 +44446,7 @@
     },
     {
       "name": "player_housing_customization_state",
-      "product_type_ref": 445,
+      "product_type_ref": 452,
       "primary_key": [
         0
       ],
@@ -43506,7 +44492,7 @@
     },
     {
       "name": "player_housing_desc",
-      "product_type_ref": 446,
+      "product_type_ref": 453,
       "primary_key": [
         0
       ],
@@ -43552,7 +44538,7 @@
     },
     {
       "name": "player_housing_moving_cost_state",
-      "product_type_ref": 447,
+      "product_type_ref": 454,
       "primary_key": [
         0
       ],
@@ -43682,7 +44668,7 @@
     },
     {
       "name": "player_lowercase_username_state",
-      "product_type_ref": 448,
+      "product_type_ref": 455,
       "primary_key": [
         0
       ],
@@ -43753,7 +44739,7 @@
     },
     {
       "name": "player_note_state",
-      "product_type_ref": 449,
+      "product_type_ref": 456,
       "primary_key": [
         0
       ],
@@ -43799,7 +44785,7 @@
     },
     {
       "name": "player_notification_event",
-      "product_type_ref": 450,
+      "product_type_ref": 457,
       "primary_key": [
         0
       ],
@@ -43914,7 +44900,7 @@
     },
     {
       "name": "player_queue_state",
-      "product_type_ref": 452,
+      "product_type_ref": 459,
       "primary_key": [
         0
       ],
@@ -44048,7 +45034,7 @@
     },
     {
       "name": "player_report_state_timestamp",
-      "product_type_ref": 453,
+      "product_type_ref": 460,
       "primary_key": [
         0
       ],
@@ -44140,7 +45126,7 @@
     },
     {
       "name": "player_shard_state",
-      "product_type_ref": 455,
+      "product_type_ref": 462,
       "primary_key": [
         0
       ],
@@ -44232,7 +45218,7 @@
     },
     {
       "name": "player_timestamp_state",
-      "product_type_ref": 456,
+      "product_type_ref": 463,
       "primary_key": [
         0
       ],
@@ -44349,7 +45335,7 @@
     },
     {
       "name": "player_vote_conclude_timer",
-      "product_type_ref": 458,
+      "product_type_ref": 465,
       "primary_key": [
         0
       ],
@@ -44582,7 +45568,7 @@
     },
     {
       "name": "premium_purchase_state",
-      "product_type_ref": 459,
+      "product_type_ref": 466,
       "primary_key": [
         0
       ],
@@ -44691,7 +45677,7 @@
     },
     {
       "name": "previous_empire_name_state",
-      "product_type_ref": 460,
+      "product_type_ref": 467,
       "primary_key": [
         0
       ],
@@ -44787,7 +45773,7 @@
     },
     {
       "name": "previous_player_skills_state",
-      "product_type_ref": 461,
+      "product_type_ref": 468,
       "primary_key": [
         0
       ],
@@ -44833,7 +45819,7 @@
     },
     {
       "name": "previous_player_username_state",
-      "product_type_ref": 462,
+      "product_type_ref": 469,
       "primary_key": [],
       "indexes": [
         {
@@ -45104,7 +46090,7 @@
     },
     {
       "name": "prospecting_desc",
-      "product_type_ref": 463,
+      "product_type_ref": 470,
       "primary_key": [
         0
       ],
@@ -45150,7 +46136,7 @@
     },
     {
       "name": "prospecting_state",
-      "product_type_ref": 464,
+      "product_type_ref": 471,
       "primary_key": [
         0
       ],
@@ -45209,7 +46195,7 @@
     },
     {
       "name": "public_progressive_action_state",
-      "product_type_ref": 465,
+      "product_type_ref": 472,
       "primary_key": [
         0
       ],
@@ -45268,7 +46254,7 @@
     },
     {
       "name": "quest_chain_desc",
-      "product_type_ref": 466,
+      "product_type_ref": 473,
       "primary_key": [
         0
       ],
@@ -45373,7 +46359,7 @@
     },
     {
       "name": "quest_drop_desc",
-      "product_type_ref": 470,
+      "product_type_ref": 477,
       "primary_key": [
         0
       ],
@@ -45458,7 +46444,7 @@
     },
     {
       "name": "quest_stage_desc",
-      "product_type_ref": 471,
+      "product_type_ref": 478,
       "primary_key": [
         0
       ],
@@ -45772,7 +46758,7 @@
     },
     {
       "name": "reserved_name_desc",
-      "product_type_ref": 474,
+      "product_type_ref": 481,
       "primary_key": [
         0
       ],
@@ -46015,7 +47001,7 @@
     },
     {
       "name": "resource_health_state",
-      "product_type_ref": 475,
+      "product_type_ref": 482,
       "primary_key": [
         0
       ],
@@ -46259,7 +47245,7 @@
     },
     {
       "name": "rez_sick_long_term_state",
-      "product_type_ref": 476,
+      "product_type_ref": 483,
       "primary_key": [
         0
       ],
@@ -46577,7 +47563,7 @@
     },
     {
       "name": "single_resource_to_clump_desc",
-      "product_type_ref": 479,
+      "product_type_ref": 486,
       "primary_key": [
         0
       ],
@@ -46719,7 +47705,7 @@
     },
     {
       "name": "stage_rewards_desc",
-      "product_type_ref": 480,
+      "product_type_ref": 487,
       "primary_key": [
         0
       ],
@@ -49997,6 +50983,261 @@
       }
     },
     {
+      "name": "staged_placeable_desc",
+      "product_type_ref": 444,
+      "primary_key": [
+        0
+      ],
+      "indexes": [
+        {
+          "name": {
+            "some": "staged_placeable_desc_id_idx_btree"
+          },
+          "accessor_name": {
+            "some": "id"
+          },
+          "algorithm": {
+            "BTree": [
+              0
+            ]
+          }
+        }
+      ],
+      "constraints": [
+        {
+          "name": {
+            "some": "staged_placeable_desc_id_key"
+          },
+          "data": {
+            "Unique": {
+              "columns": [
+                0
+              ]
+            }
+          }
+        }
+      ],
+      "sequences": [],
+      "schedule": {
+        "none": []
+      },
+      "table_type": {
+        "User": []
+      },
+      "table_access": {
+        "Private": []
+      }
+    },
+    {
+      "name": "staged_placeable_group_desc",
+      "product_type_ref": 445,
+      "primary_key": [
+        0
+      ],
+      "indexes": [
+        {
+          "name": {
+            "some": "staged_placeable_group_desc_id_idx_btree"
+          },
+          "accessor_name": {
+            "some": "id"
+          },
+          "algorithm": {
+            "BTree": [
+              0
+            ]
+          }
+        }
+      ],
+      "constraints": [
+        {
+          "name": {
+            "some": "staged_placeable_group_desc_id_key"
+          },
+          "data": {
+            "Unique": {
+              "columns": [
+                0
+              ]
+            }
+          }
+        }
+      ],
+      "sequences": [],
+      "schedule": {
+        "none": []
+      },
+      "table_type": {
+        "User": []
+      },
+      "table_access": {
+        "Private": []
+      }
+    },
+    {
+      "name": "staged_placeable_growth_desc",
+      "product_type_ref": 446,
+      "primary_key": [
+        0
+      ],
+      "indexes": [
+        {
+          "name": {
+            "some": "staged_placeable_growth_desc_id_idx_btree"
+          },
+          "accessor_name": {
+            "some": "id"
+          },
+          "algorithm": {
+            "BTree": [
+              0
+            ]
+          }
+        },
+        {
+          "name": {
+            "some": "staged_placeable_growth_desc_placeable_id_idx_btree"
+          },
+          "accessor_name": {
+            "some": "placeable_id"
+          },
+          "algorithm": {
+            "BTree": [
+              1
+            ]
+          }
+        }
+      ],
+      "constraints": [
+        {
+          "name": {
+            "some": "staged_placeable_growth_desc_id_key"
+          },
+          "data": {
+            "Unique": {
+              "columns": [
+                0
+              ]
+            }
+          }
+        },
+        {
+          "name": {
+            "some": "staged_placeable_growth_desc_placeable_id_key"
+          },
+          "data": {
+            "Unique": {
+              "columns": [
+                1
+              ]
+            }
+          }
+        }
+      ],
+      "sequences": [],
+      "schedule": {
+        "none": []
+      },
+      "table_type": {
+        "User": []
+      },
+      "table_access": {
+        "Private": []
+      }
+    },
+    {
+      "name": "staged_placeable_interaction_desc",
+      "product_type_ref": 448,
+      "primary_key": [
+        0
+      ],
+      "indexes": [
+        {
+          "name": {
+            "some": "staged_placeable_interaction_desc_id_idx_btree"
+          },
+          "accessor_name": {
+            "some": "id"
+          },
+          "algorithm": {
+            "BTree": [
+              0
+            ]
+          }
+        }
+      ],
+      "constraints": [
+        {
+          "name": {
+            "some": "staged_placeable_interaction_desc_id_key"
+          },
+          "data": {
+            "Unique": {
+              "columns": [
+                0
+              ]
+            }
+          }
+        }
+      ],
+      "sequences": [],
+      "schedule": {
+        "none": []
+      },
+      "table_type": {
+        "User": []
+      },
+      "table_access": {
+        "Private": []
+      }
+    },
+    {
+      "name": "staged_placeable_placement_desc",
+      "product_type_ref": 449,
+      "primary_key": [
+        0
+      ],
+      "indexes": [
+        {
+          "name": {
+            "some": "staged_placeable_placement_desc_id_idx_btree"
+          },
+          "accessor_name": {
+            "some": "id"
+          },
+          "algorithm": {
+            "BTree": [
+              0
+            ]
+          }
+        }
+      ],
+      "constraints": [
+        {
+          "name": {
+            "some": "staged_placeable_placement_desc_id_key"
+          },
+          "data": {
+            "Unique": {
+              "columns": [
+                0
+              ]
+            }
+          }
+        }
+      ],
+      "sequences": [],
+      "schedule": {
+        "none": []
+      },
+      "table_type": {
+        "User": []
+      },
+      "table_access": {
+        "Private": []
+      }
+    },
+    {
       "name": "staged_player_action_desc",
       "product_type_ref": 272,
       "primary_key": [
@@ -50044,7 +51285,7 @@
     },
     {
       "name": "staged_player_housing_desc",
-      "product_type_ref": 446,
+      "product_type_ref": 453,
       "primary_key": [
         0
       ],
@@ -50228,7 +51469,7 @@
     },
     {
       "name": "staged_prospecting_desc",
-      "product_type_ref": 463,
+      "product_type_ref": 470,
       "primary_key": [
         0
       ],
@@ -50274,7 +51515,7 @@
     },
     {
       "name": "staged_quest_chain_desc",
-      "product_type_ref": 466,
+      "product_type_ref": 473,
       "primary_key": [
         0
       ],
@@ -50320,7 +51561,7 @@
     },
     {
       "name": "staged_quest_drop_desc",
-      "product_type_ref": 470,
+      "product_type_ref": 477,
       "primary_key": [
         0
       ],
@@ -50366,7 +51607,7 @@
     },
     {
       "name": "staged_quest_stage_desc",
-      "product_type_ref": 471,
+      "product_type_ref": 478,
       "primary_key": [
         0
       ],
@@ -50412,7 +51653,7 @@
     },
     {
       "name": "staged_reserved_name_desc",
-      "product_type_ref": 474,
+      "product_type_ref": 481,
       "primary_key": [
         0
       ],
@@ -50759,7 +52000,7 @@
     },
     {
       "name": "staged_stage_rewards_desc",
-      "product_type_ref": 480,
+      "product_type_ref": 487,
       "primary_key": [
         0
       ],
@@ -51106,7 +52347,7 @@
     },
     {
       "name": "staged_traveler_task_knowledge_requirement_desc",
-      "product_type_ref": 481,
+      "product_type_ref": 488,
       "primary_key": [
         0
       ],
@@ -51428,7 +52669,7 @@
     },
     {
       "name": "starving_player_state",
-      "product_type_ref": 482,
+      "product_type_ref": 489,
       "primary_key": [
         0
       ],
@@ -51474,7 +52715,7 @@
     },
     {
       "name": "storage_log_state",
-      "product_type_ref": 483,
+      "product_type_ref": 490,
       "primary_key": [
         0
       ],
@@ -51806,7 +53047,7 @@
     },
     {
       "name": "terraform_progress_state",
-      "product_type_ref": 487,
+      "product_type_ref": 494,
       "primary_key": [
         0
       ],
@@ -51957,7 +53198,7 @@
     },
     {
       "name": "the_great_placeholder_table",
-      "product_type_ref": 488,
+      "product_type_ref": 495,
       "primary_key": [
         0
       ],
@@ -52003,7 +53244,7 @@
     },
     {
       "name": "threat_state",
-      "product_type_ref": 495,
+      "product_type_ref": 502,
       "primary_key": [
         0
       ],
@@ -52395,7 +53636,7 @@
     },
     {
       "name": "translation_corrections",
-      "product_type_ref": 496,
+      "product_type_ref": 503,
       "primary_key": [
         0
       ],
@@ -52530,7 +53771,7 @@
     },
     {
       "name": "traveler_task_knowledge_requirement_desc",
-      "product_type_ref": 481,
+      "product_type_ref": 488,
       "primary_key": [
         0
       ],
@@ -52741,7 +53982,7 @@
     },
     {
       "name": "unclaimed_shards_state",
-      "product_type_ref": 497,
+      "product_type_ref": 504,
       "primary_key": [
         0
       ],
@@ -52833,7 +54074,7 @@
     },
     {
       "name": "user_creation_timestamp_state",
-      "product_type_ref": 498,
+      "product_type_ref": 505,
       "primary_key": [
         0
       ],
@@ -52938,7 +54179,7 @@
     },
     {
       "name": "user_previous_region_state",
-      "product_type_ref": 500,
+      "product_type_ref": 507,
       "primary_key": [
         0
       ],
@@ -52984,7 +54225,7 @@
     },
     {
       "name": "user_region_state",
-      "product_type_ref": 501,
+      "product_type_ref": 508,
       "primary_key": [
         0
       ],
@@ -53160,7 +54401,7 @@
     },
     {
       "name": "visibility_state",
-      "product_type_ref": 502,
+      "product_type_ref": 509,
       "primary_key": [
         0
       ],
@@ -53252,7 +54493,7 @@
     },
     {
       "name": "waystone_state",
-      "product_type_ref": 503,
+      "product_type_ref": 510,
       "primary_key": [
         0
       ],
@@ -53403,7 +54644,7 @@
     },
     {
       "name": "wind_dbg_desc",
-      "product_type_ref": 504,
+      "product_type_ref": 511,
       "primary_key": [
         0
       ],
@@ -59577,7 +60818,7 @@
               "some": "_timer"
             },
             "algebraic_type": {
-              "Ref": 450
+              "Ref": 457
             }
           }
         ]
@@ -59613,7 +60854,7 @@
               "some": "request"
             },
             "algebraic_type": {
-              "Ref": 454
+              "Ref": 461
             }
           }
         ]
@@ -59631,7 +60872,7 @@
               "some": "request"
             },
             "algebraic_type": {
-              "Ref": 457
+              "Ref": 464
             }
           }
         ]
@@ -59649,7 +60890,7 @@
               "some": "timer"
             },
             "algebraic_type": {
-              "Ref": 458
+              "Ref": 465
             }
           }
         ]
@@ -59911,7 +61152,7 @@
               "some": "visibility"
             },
             "algebraic_type": {
-              "Ref": 477
+              "Ref": 484
             }
           }
         ]
@@ -59929,7 +61170,7 @@
               "some": "_request"
             },
             "algebraic_type": {
-              "Ref": 478
+              "Ref": 485
             }
           }
         ]
@@ -61319,6 +62560,106 @@
       }
     },
     {
+      "name": "stage_placeable_desc",
+      "params": {
+        "elements": [
+          {
+            "name": {
+              "some": "records"
+            },
+            "algebraic_type": {
+              "Array": {
+                "Ref": 444
+              }
+            }
+          }
+        ]
+      },
+      "lifecycle": {
+        "none": []
+      }
+    },
+    {
+      "name": "stage_placeable_group_desc",
+      "params": {
+        "elements": [
+          {
+            "name": {
+              "some": "records"
+            },
+            "algebraic_type": {
+              "Array": {
+                "Ref": 445
+              }
+            }
+          }
+        ]
+      },
+      "lifecycle": {
+        "none": []
+      }
+    },
+    {
+      "name": "stage_placeable_growth_desc",
+      "params": {
+        "elements": [
+          {
+            "name": {
+              "some": "records"
+            },
+            "algebraic_type": {
+              "Array": {
+                "Ref": 446
+              }
+            }
+          }
+        ]
+      },
+      "lifecycle": {
+        "none": []
+      }
+    },
+    {
+      "name": "stage_placeable_interaction_desc",
+      "params": {
+        "elements": [
+          {
+            "name": {
+              "some": "records"
+            },
+            "algebraic_type": {
+              "Array": {
+                "Ref": 448
+              }
+            }
+          }
+        ]
+      },
+      "lifecycle": {
+        "none": []
+      }
+    },
+    {
+      "name": "stage_placeable_placement_desc",
+      "params": {
+        "elements": [
+          {
+            "name": {
+              "some": "records"
+            },
+            "algebraic_type": {
+              "Array": {
+                "Ref": 449
+              }
+            }
+          }
+        ]
+      },
+      "lifecycle": {
+        "none": []
+      }
+    },
+    {
       "name": "stage_player_action_desc",
       "params": {
         "elements": [
@@ -61348,7 +62689,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 446
+                "Ref": 453
               }
             }
           }
@@ -61428,7 +62769,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 463
+                "Ref": 470
               }
             }
           }
@@ -61448,7 +62789,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 466
+                "Ref": 473
               }
             }
           }
@@ -61468,7 +62809,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 470
+                "Ref": 477
               }
             }
           }
@@ -61488,7 +62829,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 471
+                "Ref": 478
               }
             }
           }
@@ -61508,7 +62849,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 474
+                "Ref": 481
               }
             }
           }
@@ -61648,7 +62989,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 480
+                "Ref": 487
               }
             }
           }
@@ -61788,7 +63129,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 481
+                "Ref": 488
               }
             }
           }
@@ -61986,7 +63327,7 @@
               "some": "request"
             },
             "algebraic_type": {
-              "Ref": 499
+              "Ref": 506
             }
           }
         ]
@@ -62004,7 +63345,7 @@
               "some": "request"
             },
             "algebraic_type": {
-              "Ref": 499
+              "Ref": 506
             }
           }
         ]
@@ -62129,7 +63470,7 @@
         "scope": [],
         "name": "AbilityTypeEnum"
       },
-      "ty": 494,
+      "ty": 501,
       "custom_ordering": true
     },
     {
@@ -62169,7 +63510,7 @@
         "scope": [],
         "name": "ActionLogData"
       },
-      "ty": 485,
+      "ty": 492,
       "custom_ordering": true
     },
     {
@@ -62177,7 +63518,7 @@
         "scope": [],
         "name": "ActionLogDataSpaceAllocator"
       },
-      "ty": 486,
+      "ty": 493,
       "custom_ordering": true
     },
     {
@@ -62185,7 +63526,7 @@
         "scope": [],
         "name": "ActionLogState"
       },
-      "ty": 483,
+      "ty": 490,
       "custom_ordering": true
     },
     {
@@ -62193,7 +63534,7 @@
         "scope": [],
         "name": "ActionLogSubjectType"
       },
-      "ty": 484,
+      "ty": 491,
       "custom_ordering": true
     },
     {
@@ -62353,7 +63694,7 @@
         "scope": [],
         "name": "BuffCategory"
       },
-      "ty": 490,
+      "ty": 497,
       "custom_ordering": true
     },
     {
@@ -62849,7 +64190,7 @@
         "scope": [],
         "name": "ColumnPad4u64"
       },
-      "ty": 468,
+      "ty": 475,
       "custom_ordering": true
     },
     {
@@ -62897,7 +64238,7 @@
         "scope": [],
         "name": "CompletionCondition"
       },
-      "ty": 472,
+      "ty": 479,
       "custom_ordering": true
     },
     {
@@ -64185,7 +65526,7 @@
         "scope": [],
         "name": "ItemStackCompletionCondition"
       },
-      "ty": 473,
+      "ty": 480,
       "custom_ordering": true
     },
     {
@@ -64657,7 +65998,7 @@
         "scope": [],
         "name": "NotificationSeverity"
       },
-      "ty": 451,
+      "ty": 458,
       "custom_ordering": true
     },
     {
@@ -64881,7 +66222,7 @@
         "scope": [],
         "name": "Permission"
       },
-      "ty": 492,
+      "ty": 499,
       "custom_ordering": true
     },
     {
@@ -64889,7 +66230,7 @@
         "scope": [],
         "name": "PermissionGroup"
       },
-      "ty": 493,
+      "ty": 500,
       "custom_ordering": true
     },
     {
@@ -64914,6 +66255,62 @@
         "name": "PillarShapingState"
       },
       "ty": 443,
+      "custom_ordering": true
+    },
+    {
+      "name": {
+        "scope": [],
+        "name": "PlaceableDesc"
+      },
+      "ty": 444,
+      "custom_ordering": true
+    },
+    {
+      "name": {
+        "scope": [],
+        "name": "PlaceableGroupDesc"
+      },
+      "ty": 445,
+      "custom_ordering": true
+    },
+    {
+      "name": {
+        "scope": [],
+        "name": "PlaceableGrowthDesc"
+      },
+      "ty": 446,
+      "custom_ordering": true
+    },
+    {
+      "name": {
+        "scope": [],
+        "name": "PlaceableGrowthOutcome"
+      },
+      "ty": 447,
+      "custom_ordering": true
+    },
+    {
+      "name": {
+        "scope": [],
+        "name": "PlaceableInteractionDesc"
+      },
+      "ty": 448,
+      "custom_ordering": true
+    },
+    {
+      "name": {
+        "scope": [],
+        "name": "PlaceablePlacementDesc"
+      },
+      "ty": 449,
+      "custom_ordering": true
+    },
+    {
+      "name": {
+        "scope": [],
+        "name": "PlaceableState"
+      },
+      "ty": 450,
       "custom_ordering": true
     },
     {
@@ -64977,7 +66374,7 @@
         "scope": [],
         "name": "PlayerDeveloperNotificationState"
       },
-      "ty": 444,
+      "ty": 451,
       "custom_ordering": true
     },
     {
@@ -64985,7 +66382,7 @@
         "scope": [],
         "name": "PlayerHousingCustomizationState"
       },
-      "ty": 445,
+      "ty": 452,
       "custom_ordering": true
     },
     {
@@ -64993,7 +66390,7 @@
         "scope": [],
         "name": "PlayerHousingDesc"
       },
-      "ty": 446,
+      "ty": 453,
       "custom_ordering": true
     },
     {
@@ -65001,7 +66398,7 @@
         "scope": [],
         "name": "PlayerHousingMovingCostState"
       },
-      "ty": 447,
+      "ty": 454,
       "custom_ordering": true
     },
     {
@@ -65025,7 +66422,7 @@
         "scope": [],
         "name": "PlayerLowercaseUsernameState"
       },
-      "ty": 448,
+      "ty": 455,
       "custom_ordering": true
     },
     {
@@ -65033,7 +66430,7 @@
         "scope": [],
         "name": "PlayerNoteState"
       },
-      "ty": 449,
+      "ty": 456,
       "custom_ordering": true
     },
     {
@@ -65041,7 +66438,7 @@
         "scope": [],
         "name": "PlayerNotificationEvent"
       },
-      "ty": 450,
+      "ty": 457,
       "custom_ordering": true
     },
     {
@@ -65057,7 +66454,7 @@
         "scope": [],
         "name": "PlayerQueueState"
       },
-      "ty": 452,
+      "ty": 459,
       "custom_ordering": true
     },
     {
@@ -65081,7 +66478,7 @@
         "scope": [],
         "name": "PlayerReportStateTimestamp"
       },
-      "ty": 453,
+      "ty": 460,
       "custom_ordering": true
     },
     {
@@ -65089,7 +66486,7 @@
         "scope": [],
         "name": "PlayerSetNameRequest"
       },
-      "ty": 454,
+      "ty": 461,
       "custom_ordering": true
     },
     {
@@ -65105,7 +66502,7 @@
         "scope": [],
         "name": "PlayerShardState"
       },
-      "ty": 455,
+      "ty": 462,
       "custom_ordering": true
     },
     {
@@ -65113,7 +66510,7 @@
         "scope": [],
         "name": "PlayerSignInRequest"
       },
-      "ty": 478,
+      "ty": 485,
       "custom_ordering": true
     },
     {
@@ -65137,7 +66534,7 @@
         "scope": [],
         "name": "PlayerTimestampState"
       },
-      "ty": 456,
+      "ty": 463,
       "custom_ordering": true
     },
     {
@@ -65161,7 +66558,7 @@
         "scope": [],
         "name": "PlayerVoteAnswerRequest"
       },
-      "ty": 457,
+      "ty": 464,
       "custom_ordering": true
     },
     {
@@ -65169,7 +66566,7 @@
         "scope": [],
         "name": "PlayerVoteConcludeTimer"
       },
-      "ty": 458,
+      "ty": 465,
       "custom_ordering": true
     },
     {
@@ -65217,7 +66614,7 @@
         "scope": [],
         "name": "PremiumPurchaseState"
       },
-      "ty": 459,
+      "ty": 466,
       "custom_ordering": true
     },
     {
@@ -65241,7 +66638,7 @@
         "scope": [],
         "name": "PreviousEmpireNameState"
       },
-      "ty": 460,
+      "ty": 467,
       "custom_ordering": true
     },
     {
@@ -65249,7 +66646,7 @@
         "scope": [],
         "name": "PreviousPlayerSkillsState"
       },
-      "ty": 461,
+      "ty": 468,
       "custom_ordering": true
     },
     {
@@ -65257,7 +66654,7 @@
         "scope": [],
         "name": "PreviousPlayerUsernameState"
       },
-      "ty": 462,
+      "ty": 469,
       "custom_ordering": true
     },
     {
@@ -65289,7 +66686,7 @@
         "scope": [],
         "name": "ProgressiveActionStatus"
       },
-      "ty": 491,
+      "ty": 498,
       "custom_ordering": true
     },
     {
@@ -65305,7 +66702,7 @@
         "scope": [],
         "name": "ProspectingDesc"
       },
-      "ty": 463,
+      "ty": 470,
       "custom_ordering": true
     },
     {
@@ -65313,7 +66710,7 @@
         "scope": [],
         "name": "ProspectingState"
       },
-      "ty": 464,
+      "ty": 471,
       "custom_ordering": true
     },
     {
@@ -65321,7 +66718,7 @@
         "scope": [],
         "name": "PublicProgressiveActionState"
       },
-      "ty": 465,
+      "ty": 472,
       "custom_ordering": true
     },
     {
@@ -65329,7 +66726,7 @@
         "scope": [],
         "name": "QuestChainDesc"
       },
-      "ty": 466,
+      "ty": 473,
       "custom_ordering": true
     },
     {
@@ -65345,7 +66742,7 @@
         "scope": [],
         "name": "QuestDropDesc"
       },
-      "ty": 470,
+      "ty": 477,
       "custom_ordering": true
     },
     {
@@ -65353,7 +66750,7 @@
         "scope": [],
         "name": "QuestRequirement"
       },
-      "ty": 467,
+      "ty": 474,
       "custom_ordering": true
     },
     {
@@ -65361,7 +66758,7 @@
         "scope": [],
         "name": "QuestReward"
       },
-      "ty": 469,
+      "ty": 476,
       "custom_ordering": true
     },
     {
@@ -65369,7 +66766,7 @@
         "scope": [],
         "name": "QuestStageDesc"
       },
-      "ty": 471,
+      "ty": 478,
       "custom_ordering": true
     },
     {
@@ -65481,7 +66878,7 @@
         "scope": [],
         "name": "ReservedNameDesc"
       },
-      "ty": 474,
+      "ty": 481,
       "custom_ordering": true
     },
     {
@@ -65521,7 +66918,7 @@
         "scope": [],
         "name": "ResourceHealthState"
       },
-      "ty": 475,
+      "ty": 482,
       "custom_ordering": true
     },
     {
@@ -65553,7 +66950,7 @@
         "scope": [],
         "name": "RezSickLongTermState"
       },
-      "ty": 476,
+      "ty": 483,
       "custom_ordering": true
     },
     {
@@ -65609,7 +67006,7 @@
         "scope": [],
         "name": "SingleResourceToClumpDesc"
       },
-      "ty": 479,
+      "ty": 486,
       "custom_ordering": true
     },
     {
@@ -65633,7 +67030,7 @@
         "scope": [],
         "name": "SkillType"
       },
-      "ty": 489,
+      "ty": 496,
       "custom_ordering": true
     },
     {
@@ -65649,7 +67046,7 @@
         "scope": [],
         "name": "StageRewardsDesc"
       },
-      "ty": 480,
+      "ty": 487,
       "custom_ordering": true
     },
     {
@@ -65665,7 +67062,7 @@
         "scope": [],
         "name": "StarvingPlayerState"
       },
-      "ty": 482,
+      "ty": 489,
       "custom_ordering": true
     },
     {
@@ -65737,7 +67134,7 @@
         "scope": [],
         "name": "TerraformProgressState"
       },
-      "ty": 487,
+      "ty": 494,
       "custom_ordering": true
     },
     {
@@ -65769,7 +67166,7 @@
         "scope": [],
         "name": "TheGreatPlaceHolderTable"
       },
-      "ty": 488,
+      "ty": 495,
       "custom_ordering": true
     },
     {
@@ -65777,7 +67174,7 @@
         "scope": [],
         "name": "ThreatState"
       },
-      "ty": 495,
+      "ty": 502,
       "custom_ordering": true
     },
     {
@@ -65873,7 +67270,7 @@
         "scope": [],
         "name": "TranslationCorrections"
       },
-      "ty": 496,
+      "ty": 503,
       "custom_ordering": true
     },
     {
@@ -65889,7 +67286,7 @@
         "scope": [],
         "name": "TravelerTaskKnowledgeRequirementDesc"
       },
-      "ty": 481,
+      "ty": 488,
       "custom_ordering": true
     },
     {
@@ -65929,7 +67326,7 @@
         "scope": [],
         "name": "UnclaimedShardsState"
       },
-      "ty": 497,
+      "ty": 504,
       "custom_ordering": true
     },
     {
@@ -65953,7 +67350,7 @@
         "scope": [],
         "name": "UserCreationTimestampState"
       },
-      "ty": 498,
+      "ty": 505,
       "custom_ordering": true
     },
     {
@@ -65961,7 +67358,7 @@
         "scope": [],
         "name": "UserModerationCreateUserPolicyRequest"
       },
-      "ty": 499,
+      "ty": 506,
       "custom_ordering": true
     },
     {
@@ -65993,7 +67390,7 @@
         "scope": [],
         "name": "UserPreviousRegionState"
       },
-      "ty": 500,
+      "ty": 507,
       "custom_ordering": true
     },
     {
@@ -66001,7 +67398,7 @@
         "scope": [],
         "name": "UserRegionState"
       },
-      "ty": 501,
+      "ty": 508,
       "custom_ordering": true
     },
     {
@@ -66057,7 +67454,7 @@
         "scope": [],
         "name": "VisibilityState"
       },
-      "ty": 502,
+      "ty": 509,
       "custom_ordering": true
     },
     {
@@ -66065,7 +67462,7 @@
         "scope": [],
         "name": "VisibilityType"
       },
-      "ty": 477,
+      "ty": 484,
       "custom_ordering": true
     },
     {
@@ -66081,7 +67478,7 @@
         "scope": [],
         "name": "WaystoneState"
       },
-      "ty": 503,
+      "ty": 510,
       "custom_ordering": true
     },
     {
@@ -66105,7 +67502,7 @@
         "scope": [],
         "name": "WindDbgDesc"
       },
-      "ty": 504,
+      "ty": 511,
       "custom_ordering": true
     },
     {
@@ -66145,7 +67542,7 @@
         },
         "return_type": {
           "Array": {
-            "Ref": 460
+            "Ref": 467
           }
         }
       }
@@ -66161,7 +67558,7 @@
         },
         "return_type": {
           "Array": {
-            "Ref": 461
+            "Ref": 468
           }
         }
       }
@@ -66177,7 +67574,7 @@
         },
         "return_type": {
           "Array": {
-            "Ref": 462
+            "Ref": 469
           }
         }
       }
