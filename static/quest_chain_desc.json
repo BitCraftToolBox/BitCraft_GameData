@@ -3553,6 +3553,59 @@
     "is_secret": false
   },
   {
+    "id": 1535955629,
+    "name": "The Music of the Sea",
+    "is_hint": false,
+    "stages": [
+      1118114199,
+      158545492,
+      591809292,
+      1094961056,
+      1698425438,
+      1755695170,
+      1466531627,
+      1760804750
+    ],
+    "requirements": [
+      {
+        "QuestChain_": 1681156609
+      },
+      {
+        "Level_": {
+          "skill_id": 21,
+          "level": 70
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "ItemStack_": {
+          "item_id": 2000518635,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        }
+      },
+      {
+        "Experience_": {
+          "skill_id": 21,
+          "quantity": 99500.0
+        }
+      },
+      {
+        "ItemStack_": {
+          "item_id": 1431392819,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        }
+      }
+    ],
+    "implicit_rewards": [],
+    "unstartable": false,
+    "is_secret": false
+  },
+  {
     "id": 1536298064,
     "name": "Test Your Mettle",
     "is_hint": false,
@@ -3622,6 +3675,47 @@
         "Experience_": {
           "skill_id": 17,
           "quantity": 500.0
+        }
+      }
+    ],
+    "implicit_rewards": [],
+    "unstartable": false,
+    "is_secret": false
+  },
+  {
+    "id": 1544479269,
+    "name": "Banquet of the Great Hunt",
+    "is_hint": false,
+    "stages": [
+      2037760221,
+      1845805861,
+      1703027718,
+      1103571840
+    ],
+    "requirements": [
+      {
+        "QuestChain_": 765186915
+      },
+      {
+        "Level_": {
+          "skill_id": 17,
+          "level": 27
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "ItemStack_": {
+          "item_id": 909660971,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        }
+      },
+      {
+        "Experience_": {
+          "skill_id": 17,
+          "quantity": 800.0
         }
       }
     ],
@@ -4420,6 +4514,47 @@
     "implicit_rewards": [],
     "unstartable": false,
     "is_secret": false
+  },
+  {
+    "id": 1890317507,
+    "name": "The Sagi That Laid Auric Eggs",
+    "is_hint": false,
+    "stages": [
+      879410360,
+      659222196,
+      374321273
+    ],
+    "requirements": [
+      {
+        "ItemStack_": {
+          "item_id": 1988113489,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "ItemStack_": {
+          "item_id": 1935606783,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        }
+      },
+      {
+        "ItemStack_": {
+          "item_id": 1,
+          "quantity": 15000,
+          "item_type": "Item",
+          "durability": 0
+        }
+      }
+    ],
+    "implicit_rewards": [],
+    "unstartable": false,
+    "is_secret": true
   },
   {
     "id": 1892030667,

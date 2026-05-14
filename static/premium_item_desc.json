@@ -109,7 +109,7 @@
     "base_price": 7500,
     "quantity": 1,
     "sorting_priority": 12,
-    "is_enabled": true
+    "is_enabled": false
   },
   {
     "id": 113458506,
@@ -165,6 +165,25 @@
     "quantity": 1,
     "sorting_priority": 6,
     "is_enabled": false
+  },
+  {
+    "id": 149658260,
+    "name": "Wrangler Darling's Outfit",
+    "description": "Contains the full Wrangler Darling's Outfit. Includes a hat, shirt, gloves, pants, boots and belt.",
+    "image_address": "PremiumIcons/WranglerDarlingOutfit",
+    "collectible_ids": [
+      1125770971,
+      1237860370,
+      246853874,
+      244765425,
+      1740934149,
+      657737107
+    ],
+    "price": 5000,
+    "base_price": 5000,
+    "quantity": 1,
+    "sorting_priority": 5,
+    "is_enabled": true
   },
   {
     "id": 176953170,
@@ -223,7 +242,21 @@
     "price": 5000,
     "base_price": 5000,
     "quantity": 1,
-    "sorting_priority": 5,
+    "sorting_priority": 9,
+    "is_enabled": true
+  },
+  {
+    "id": 287385864,
+    "name": "Wrangler's Building Supplies",
+    "description": "A pack of 20 Wrangler's Building Supplies. Can be used to make a variety of cowboy themed decorations for your settlement or house. Most decorations cost 1 supply to make, with some larger decorations costing 2. ",
+    "image_address": "PremiumIcons/WranglerBuildingSupplies",
+    "collectible_ids": [
+      2097421639
+    ],
+    "price": 10000,
+    "base_price": 10000,
+    "quantity": 20,
+    "sorting_priority": 4,
     "is_enabled": true
   },
   {
@@ -255,7 +288,7 @@
     "price": 5000,
     "base_price": 5000,
     "quantity": 1,
-    "sorting_priority": 5,
+    "sorting_priority": 7,
     "is_enabled": true
   },
   {
@@ -288,7 +321,7 @@
     "price": 10000,
     "base_price": 10000,
     "quantity": 20,
-    "sorting_priority": 4,
+    "sorting_priority": 6,
     "is_enabled": true
   },
   {
@@ -338,6 +371,25 @@
     "is_enabled": true
   },
   {
+    "id": 355878903,
+    "name": "Wrangler Sweetheart's Outfit",
+    "description": "Contains the full Wrangler Sweetheart's Outfit. Includes a hat, shirt, gloves, pants, boots and belt.",
+    "image_address": "PremiumIcons/WranglerSweetheartOutfit",
+    "collectible_ids": [
+      1349485546,
+      709884300,
+      314675907,
+      1132047251,
+      1142971884,
+      1517709152
+    ],
+    "price": 5000,
+    "base_price": 5000,
+    "quantity": 1,
+    "sorting_priority": 5,
+    "is_enabled": true
+  },
+  {
     "id": 394165017,
     "name": "Leo",
     "description": "A ferocious and noble lion. It's also very cute. Once purchased, it can be summoned as a pet through your vault.",
@@ -349,7 +401,7 @@
     "base_price": 7500,
     "quantity": 1,
     "sorting_priority": 12,
-    "is_enabled": true
+    "is_enabled": false
   },
   {
     "id": 436804458,
@@ -366,7 +418,7 @@
     "price": 5000,
     "base_price": 5000,
     "quantity": 1,
-    "sorting_priority": 5,
+    "sorting_priority": 8,
     "is_enabled": true
   },
   {
@@ -393,7 +445,44 @@
     "price": 7500,
     "base_price": 10000,
     "quantity": 1,
-    "sorting_priority": 7,
+    "sorting_priority": 10,
+    "is_enabled": true
+  },
+  {
+    "id": 460594258,
+    "name": "Complete Wrangler's Outfit Bundle",
+    "description": "Get dressed up to deal with the Wild West of Starfell. Contains all the Wrangler Outfits.",
+    "image_address": "PremiumIcons/WranglerCompleteBundle",
+    "collectible_ids": [
+      713002804,
+      686106270,
+      1854135201,
+      1677631206,
+      1130578667,
+      1664897522,
+      1125770971,
+      1237860370,
+      246853874,
+      244765425,
+      1740934149,
+      657737107,
+      2020872567,
+      437208040,
+      622243768,
+      287865965,
+      55235385,
+      1924044931,
+      1349485546,
+      709884300,
+      314675907,
+      1132047251,
+      1142971884,
+      1517709152
+    ],
+    "price": 12500,
+    "base_price": 15000,
+    "quantity": 1,
+    "sorting_priority": 1,
     "is_enabled": true
   },
   {
@@ -426,7 +515,7 @@
     "price": 12500,
     "base_price": 15000,
     "quantity": 1,
-    "sorting_priority": 1,
+    "sorting_priority": 6,
     "is_enabled": true
   },
   {
@@ -440,7 +529,7 @@
     "price": 1000,
     "base_price": 1000,
     "quantity": 1,
-    "sorting_priority": 3,
+    "sorting_priority": 6,
     "is_enabled": true
   },
   {
@@ -454,7 +543,7 @@
     "price": 3500,
     "base_price": 3500,
     "quantity": 1,
-    "sorting_priority": 8,
+    "sorting_priority": 11,
     "is_enabled": true
   },
   {
@@ -474,6 +563,84 @@
     "is_enabled": false
   },
   {
+    "id": 591295842,
+    "name": "Wrangler Mega Bundle",
+    "description": "A bundle which the Wrangler's Roughrider, Cleancut, Darling and Sweetheart outfits. Additionally, this contains a Pet Bird named Plume and 40 Wrangler Building Supplies which can be used to make various Cowboy themed decorations.",
+    "image_address": "PremiumIcons/WranglerMegaBundle",
+    "collectible_ids": [
+      713002804,
+      686106270,
+      1854135201,
+      1677631206,
+      1130578667,
+      1664897522,
+      1125770971,
+      1237860370,
+      246853874,
+      244765425,
+      1740934149,
+      657737107,
+      2020872567,
+      437208040,
+      622243768,
+      287865965,
+      55235385,
+      1924044931,
+      1349485546,
+      709884300,
+      314675907,
+      1132047251,
+      1142971884,
+      1517709152,
+      2097421639,
+      2097421639,
+      2097421639,
+      2097421639,
+      2097421639,
+      2097421639,
+      2097421639,
+      2097421639,
+      2097421639,
+      2097421639,
+      2097421639,
+      2097421639,
+      2097421639,
+      2097421639,
+      2097421639,
+      2097421639,
+      2097421639,
+      2097421639,
+      2097421639,
+      2097421639,
+      2101150747,
+      2097421639,
+      2097421639,
+      2097421639,
+      2097421639,
+      2097421639,
+      2097421639,
+      2097421639,
+      2097421639,
+      2097421639,
+      2097421639,
+      2097421639,
+      2097421639,
+      2097421639,
+      2097421639,
+      2097421639,
+      2097421639,
+      2097421639,
+      2097421639,
+      2097421639,
+      2097421639
+    ],
+    "price": 25000,
+    "base_price": 35000,
+    "quantity": 1,
+    "sorting_priority": 0,
+    "is_enabled": true
+  },
+  {
     "id": 614615796,
     "name": "Extravagant Party Supplies",
     "description": "A pack of 50 party supplies. Can be used to make a variety of balloon, confetti and streamer decorations for your house or settlement. Decorations come in Black, White, Purple, Gold and Pink colors. Single Balloon decorations and Confetti paving costs 1 Party Supply, Multi Balloon Decorations cost 2 Party Supplies and Streamer Archways cost 3 Party Supplies.",
@@ -484,7 +651,7 @@
     "price": 20000,
     "base_price": 25000,
     "quantity": 50,
-    "sorting_priority": 4,
+    "sorting_priority": 6,
     "is_enabled": true
   },
   {
@@ -516,7 +683,7 @@
     "price": 5000,
     "base_price": 5000,
     "quantity": 1,
-    "sorting_priority": 5,
+    "sorting_priority": 8,
     "is_enabled": true
   },
   {
@@ -558,7 +725,21 @@
     "price": 7500,
     "base_price": 10000,
     "quantity": 1,
-    "sorting_priority": 2,
+    "sorting_priority": 7,
+    "is_enabled": true
+  },
+  {
+    "id": 656591499,
+    "name": "Plume",
+    "description": "A colorful pet bird to keep you company in the world of Starfell. Once purchased, it can be summoned as a pet through your vault.",
+    "image_address": "PremiumIcons/Plume",
+    "collectible_ids": [
+      2101150747
+    ],
+    "price": 7500,
+    "base_price": 7500,
+    "quantity": 1,
+    "sorting_priority": 1,
     "is_enabled": true
   },
   {
@@ -588,7 +769,7 @@
     "price": 20000,
     "base_price": 23500,
     "quantity": 1,
-    "sorting_priority": 6,
+    "sorting_priority": 9,
     "is_enabled": true
   },
   {
@@ -603,6 +784,100 @@
     "base_price": 7500,
     "quantity": 1,
     "sorting_priority": 10,
+    "is_enabled": true
+  },
+  {
+    "id": 734664968,
+    "name": "Ranch Wrangler's Bundle",
+    "description": "Get dressed up to deal with the Wild West of Starfell. Contains the Wrangler Roughrider's and Wrangler Sweetheart's outfits.",
+    "image_address": "PremiumIcons/RanchHandsBundle",
+    "collectible_ids": [
+      2020872567,
+      437208040,
+      622243768,
+      287865965,
+      55235385,
+      1924044931,
+      1349485546,
+      709884300,
+      314675907,
+      1132047251,
+      1142971884,
+      1517709152
+    ],
+    "price": 7500,
+    "base_price": 10000,
+    "quantity": 1,
+    "sorting_priority": 2,
+    "is_enabled": true
+  },
+  {
+    "id": 738676872,
+    "name": "Cowgirl Wrangler's Bundle",
+    "description": "Get dressed up to deal with the Wild West of Starfell. Contains the Wrangler Darling's and Wrangler Sweethearts outfits.",
+    "image_address": "PremiumIcons/WranglerCowgirlsBundle",
+    "collectible_ids": [
+      1125770971,
+      1237860370,
+      246853874,
+      244765425,
+      1740934149,
+      657737107,
+      1349485546,
+      709884300,
+      314675907,
+      1132047251,
+      1142971884,
+      1517709152
+    ],
+    "price": 7500,
+    "base_price": 10000,
+    "quantity": 1,
+    "sorting_priority": 2,
+    "is_enabled": true
+  },
+  {
+    "id": 747561879,
+    "name": "Hoedown Wrangler's Bundle",
+    "description": "Get dressed up to deal with the Wild West of Starfell. Contains the Wrangler's Cleancut and Wrangler Darling's outfits.",
+    "image_address": "PremiumIcons/WranglerHoedownBundle",
+    "collectible_ids": [
+      713002804,
+      686106270,
+      1854135201,
+      1677631206,
+      1130578667,
+      1664897522,
+      1125770971,
+      1237860370,
+      246853874,
+      244765425,
+      1740934149,
+      657737107
+    ],
+    "price": 7500,
+    "base_price": 10000,
+    "quantity": 1,
+    "sorting_priority": 2,
+    "is_enabled": true
+  },
+  {
+    "id": 772378426,
+    "name": "Wrangler's Cleancut Outfit",
+    "description": "Contains the full Wrangler's Cleancut Outfit. Includes a hat, shirt, gloves, pants, boots and belt.",
+    "image_address": "PremiumIcons/WranglerCleancutOutfit",
+    "collectible_ids": [
+      713002804,
+      686106270,
+      1854135201,
+      1677631206,
+      1130578667,
+      1664897522
+    ],
+    "price": 5000,
+    "base_price": 5000,
+    "quantity": 1,
+    "sorting_priority": 5,
     "is_enabled": true
   },
   {
@@ -726,7 +1001,7 @@
     "price": 15000,
     "base_price": 22500,
     "quantity": 1,
-    "sorting_priority": 9,
+    "sorting_priority": 12,
     "is_enabled": true
   },
   {
@@ -776,7 +1051,32 @@
     "price": 5000,
     "base_price": 5000,
     "quantity": 1,
-    "sorting_priority": 7,
+    "sorting_priority": 10,
+    "is_enabled": true
+  },
+  {
+    "id": 876323454,
+    "name": "Notorious Wrangler's Bundle",
+    "description": "Get dressed up to deal with the Wild West of Starfell. Contains the Wrangler Roughrider's and Wrangler's Cleancut outfits.",
+    "image_address": "PremiumIcons/WranglerPosseBundle",
+    "collectible_ids": [
+      713002804,
+      686106270,
+      1854135201,
+      1677631206,
+      1130578667,
+      1664897522,
+      2020872567,
+      437208040,
+      622243768,
+      287865965,
+      55235385,
+      1924044931
+    ],
+    "price": 7500,
+    "base_price": 10000,
+    "quantity": 1,
+    "sorting_priority": 2,
     "is_enabled": true
   },
   {
@@ -802,7 +1102,7 @@
     "base_price": 10000,
     "quantity": 1,
     "sorting_priority": 10,
-    "is_enabled": true
+    "is_enabled": false
   },
   {
     "id": 984336888,
@@ -852,7 +1152,7 @@
     "price": 7500,
     "base_price": 10000,
     "quantity": 1,
-    "sorting_priority": 2,
+    "sorting_priority": 7,
     "is_enabled": true
   },
   {
@@ -875,7 +1175,7 @@
     "price": 7500,
     "base_price": 10000,
     "quantity": 1,
-    "sorting_priority": 2,
+    "sorting_priority": 7,
     "is_enabled": true
   },
   {
@@ -922,7 +1222,7 @@
     "price": 5000,
     "base_price": 5000,
     "quantity": 1,
-    "sorting_priority": 11,
+    "sorting_priority": 14,
     "is_enabled": true
   },
   {
@@ -994,7 +1294,7 @@
     "price": 7500,
     "base_price": 7500,
     "quantity": 1,
-    "sorting_priority": 8,
+    "sorting_priority": 11,
     "is_enabled": true
   },
   {
@@ -1014,7 +1314,7 @@
     "price": 5000,
     "base_price": 5000,
     "quantity": 1,
-    "sorting_priority": 7,
+    "sorting_priority": 10,
     "is_enabled": true
   },
   {
@@ -1028,7 +1328,7 @@
     "price": 7500,
     "base_price": 7500,
     "quantity": 1,
-    "sorting_priority": 1,
+    "sorting_priority": 6,
     "is_enabled": true
   },
   {
@@ -1042,7 +1342,7 @@
     "price": 2500,
     "base_price": 2500,
     "quantity": 1,
-    "sorting_priority": 9,
+    "sorting_priority": 12,
     "is_enabled": true
   },
   {
@@ -1067,7 +1367,7 @@
     "price": 7500,
     "base_price": 10000,
     "quantity": 1,
-    "sorting_priority": 9,
+    "sorting_priority": 12,
     "is_enabled": true
   },
   {
@@ -1155,7 +1455,7 @@
     "base_price": 32500,
     "quantity": 1,
     "sorting_priority": 9,
-    "is_enabled": true
+    "is_enabled": false
   },
   {
     "id": 1700195784,
@@ -1241,7 +1541,7 @@
     "price": 25000,
     "base_price": 35000,
     "quantity": 1,
-    "sorting_priority": 0,
+    "sorting_priority": 6,
     "is_enabled": true
   },
   {
@@ -1274,6 +1574,25 @@
     "is_enabled": true
   },
   {
+    "id": 1945159732,
+    "name": "Wrangler Roughrider's Outfit",
+    "description": "Contains the full Wrangler Roughrider's Outfit. Includes a hat, shirt, gloves, pants, boots and belt.",
+    "image_address": "PremiumIcons/WranglerRoughriderOutfit",
+    "collectible_ids": [
+      2020872567,
+      437208040,
+      622243768,
+      287865965,
+      55235385,
+      1924044931
+    ],
+    "price": 5000,
+    "base_price": 5000,
+    "quantity": 1,
+    "sorting_priority": 5,
+    "is_enabled": true
+  },
+  {
     "id": 1998180850,
     "name": "Homespun Dreamer Outfit",
     "description": "A bundle which contains the Homespun Dreamer outfit. This outfit includes a head, torso, belt, hand, leg and feet slot clothing piece. ",
@@ -1289,7 +1608,7 @@
     "price": 5000,
     "base_price": 5000,
     "quantity": 1,
-    "sorting_priority": 11,
+    "sorting_priority": 14,
     "is_enabled": true
   },
   {
@@ -1317,7 +1636,7 @@
     "price": 1000,
     "base_price": 1000,
     "quantity": 1,
-    "sorting_priority": 5,
+    "sorting_priority": 8,
     "is_enabled": true
   },
   {
@@ -1340,7 +1659,7 @@
     "price": 7500,
     "base_price": 10000,
     "quantity": 1,
-    "sorting_priority": 2,
+    "sorting_priority": 7,
     "is_enabled": true
   },
   {
@@ -1374,7 +1693,7 @@
     "base_price": 5000,
     "quantity": 1,
     "sorting_priority": 11,
-    "is_enabled": true
+    "is_enabled": false
   },
   {
     "id": 2077792531,
@@ -1409,7 +1728,7 @@
     "base_price": 5000,
     "quantity": 1,
     "sorting_priority": 11,
-    "is_enabled": true
+    "is_enabled": false
   },
   {
     "id": 2090866813,

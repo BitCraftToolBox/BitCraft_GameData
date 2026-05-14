@@ -14670,6 +14670,40 @@
     "empire_permission_required": null
   },
   {
+    "id": 253423198,
+    "resource_id": 1804382655,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 1.6,
+    "stamina_requirement": 0.75,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [],
+    "consumed_item_stacks": [],
+    "range": 1,
+    "tool_requirements": [],
+    "allow_use_hands": true,
+    "level_requirements": [
+      {
+        "skill_id": 14,
+        "level": 33
+      }
+    ],
+    "experience_per_progress": [
+      {
+        "skill_id": 14,
+        "quantity": 0.0
+      }
+    ],
+    "verb_phrase": "Gather",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 403,
+    "empire_rank_requirement": null,
+    "show_in_progression": false,
+    "empire_permission_required": null
+  },
+  {
     "id": 263598971,
     "resource_id": 499397253,
     "cargo_id": 0,
@@ -20701,6 +20735,15 @@
           "durability": 0
         },
         "probability": 0.001
+      },
+      {
+        "item_stack": {
+          "item_id": 2142006878,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        },
+        "probability": 0.0005
       }
     ],
     "consumed_item_stacks": [],
@@ -22842,7 +22885,7 @@
           "item_type": "Item",
           "durability": 0
         },
-        "probability": 0.004375
+        "probability": 0.006125
       },
       {
         "item_stack": {
@@ -23123,6 +23166,65 @@
     "verb_phrase": "Mine",
     "tool_mesh_index": 0,
     "recipe_performance_id": 975,
+    "empire_rank_requirement": null,
+    "show_in_progression": false,
+    "empire_permission_required": null
+  },
+  {
+    "id": 1976321660,
+    "resource_id": 875828558,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 1.6,
+    "stamina_requirement": 1.03,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [
+      {
+        "item_stack": {
+          "item_id": 1534590561,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        },
+        "probability": 0.05835
+      },
+      {
+        "item_stack": {
+          "item_id": 1917615867,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        },
+        "probability": 0.0005
+      }
+    ],
+    "consumed_item_stacks": [],
+    "range": 1,
+    "tool_requirements": [
+      {
+        "tool_type": 12,
+        "level": 3,
+        "power": 1
+      }
+    ],
+    "allow_use_hands": false,
+    "level_requirements": [
+      {
+        "skill_id": 14,
+        "level": 30
+      }
+    ],
+    "experience_per_progress": [
+      {
+        "skill_id": 14,
+        "quantity": 1.5
+      }
+    ],
+    "verb_phrase": "Gather",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 725,
     "empire_rank_requirement": null,
     "show_in_progression": false,
     "empire_permission_required": null
