@@ -42952,6 +42952,55 @@
     "on_destroy_yield_resource_chance": 1.0
   },
   {
+    "id": 875828558,
+    "name": "Prickly Pear Cactus",
+    "description": "",
+    "flattenable": false,
+    "max_health": 685,
+    "ignore_damage": false,
+    "despawn_time": 0.0,
+    "model_asset_name": "Resources/PricklyPearCactus",
+    "icon_asset_name": "GeneratedIcons/Other/PricklyPearCactus",
+    "on_destroy_yield": [
+      [
+        1917615867,
+        1,
+        [
+          0,
+          []
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    ],
+    "on_destroy_yield_resource_id": 0,
+    "spawn_priority": 1,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          0,
+          []
+        ]
+      ]
+    ],
+    "tier": 3,
+    "tag": "Decorative",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": true,
+    "enemy_params_id": [],
+    "scheduled_respawn_time": 0.0,
+    "not_respawning": false,
+    "show_time_left": false,
+    "on_destroy_yield_resource_chance": 1.0
+  },
+  {
     "id": 876954498,
     "name": "Enraged Drone Nest",
     "description": "",
@@ -52880,6 +52929,55 @@
     "enemy_params_id": [],
     "scheduled_respawn_time": 600.0,
     "not_respawning": true,
+    "show_time_left": false,
+    "on_destroy_yield_resource_chance": 1.0
+  },
+  {
+    "id": 1804382655,
+    "name": "Animal Skull",
+    "description": "",
+    "flattenable": false,
+    "max_health": 1,
+    "ignore_damage": false,
+    "despawn_time": 0.0,
+    "model_asset_name": "Resources/AnimalSkull",
+    "icon_asset_name": "GeneratedIcons/Other/AnimalSkull",
+    "on_destroy_yield": [
+      [
+        738022354,
+        1,
+        [
+          0,
+          []
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    ],
+    "on_destroy_yield_resource_id": 0,
+    "spawn_priority": 1,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          0,
+          []
+        ]
+      ]
+    ],
+    "tier": 3,
+    "tag": "Decorative",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": true,
+    "enemy_params_id": [],
+    "scheduled_respawn_time": 0.0,
+    "not_respawning": false,
     "show_time_left": false,
     "on_destroy_yield_resource_chance": 1.0
   },

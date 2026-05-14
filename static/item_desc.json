@@ -894,8 +894,8 @@
   },
   {
     "id": 127,
-    "name": "Deed: Rideable Deer",
-    "description": "A deer that can be riden for faster traversal.",
+    "name": "Deed: Cervus (I)",
+    "description": "A cervus mount that can be ridden for faster traversal. Faster than the goat but not as good at traversing challenging terrain.",
     "volume": 6000,
     "durability": 0,
     "convert_to_on_durability_zero": 0,
@@ -22268,6 +22268,25 @@
     "item_list_id": 1056450360
   },
   {
+    "id": 11370110,
+    "name": "Domesticated Sagi Bird Breeding",
+    "description": "A domesticated Sagi Bird that you could place in a pen to produce materials for you or to be bred with another Sagi Bird of the same quality.",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "PremiumIcons/ChickenSagi",
+    "tier": -1,
+    "tag": "Tamed Animal",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": false,
+    "item_list_id": 2136718265
+  },
+  {
     "id": 12558844,
     "name": "Exquisite Ruby Fragment",
     "description": "This could be used to craft a gem.",
@@ -22364,8 +22383,8 @@
   },
   {
     "id": 13338385,
-    "name": "Deer Riding Training",
-    "description": "A scroll containing important knowledge on how to ride a deer.",
+    "name": "Cervus Riding Training",
+    "description": "A scroll containing important knowledge on how to ride a Cervus.",
     "volume": 6000,
     "durability": 0,
     "convert_to_on_durability_zero": 0,
@@ -23064,6 +23083,25 @@
     ],
     "compendium_entry": true,
     "item_list_id": 0
+  },
+  {
+    "id": 26604004,
+    "name": "Uncommon Sagi Bird Product",
+    "description": "The Output from Sagi Bird products",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Items/SagiBirdProducts",
+    "tier": -1,
+    "tag": "Animal Output",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": false,
+    "item_list_id": 1158934408
   },
   {
     "id": 26776280,
@@ -24966,6 +25004,25 @@
     "item_list_id": 2052365112
   },
   {
+    "id": 63190928,
+    "name": "Sagi Bird Vitamins",
+    "description": "Vitamins which can be used to make nutritious food for a sagi bird to breed or produce materials for you.",
+    "volume": 120,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Items/SagiVitamins",
+    "tier": -1,
+    "tag": "Animal Food",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
     "id": 63218406,
     "name": "Celestium Hammer",
     "description": "A hammer made from celestium.",
@@ -25040,6 +25097,25 @@
     ],
     "compendium_entry": false,
     "item_list_id": 1980880751
+  },
+  {
+    "id": 65289865,
+    "name": "Fertalized Sagi Bird Egg",
+    "description": "A fertalized Sagi Bird Egg that could be is about to hatch into a baby sagi bird.",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Items/SagiBirdEgg",
+    "tier": -1,
+    "tag": "Domesticated Animal Materials",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
   },
   {
     "id": 65688969,
@@ -26066,6 +26142,25 @@
     ],
     "compendium_entry": false,
     "item_list_id": 1989620153
+  },
+  {
+    "id": 83011527,
+    "name": "Domesticated Sagi Bird Breeding",
+    "description": "A domesticated Sagi Bird that you could place in a pen to produce materials for you or to be bred with another Sagi Bird of the same quality.",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "PremiumIcons/ChickenSagi",
+    "tier": -1,
+    "tag": "Tamed Animal",
+    "rarity": [
+      4,
+      {}
+    ],
+    "compendium_entry": false,
+    "item_list_id": 510013434
   },
   {
     "id": 83014486,
@@ -27341,6 +27436,25 @@
     "item_list_id": 2063133489
   },
   {
+    "id": 106642874,
+    "name": "Wrangler Roughrider's Shirt",
+    "description": "",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "PremiumIcons/TorsoWranglerMale1",
+    "tier": -1,
+    "tag": "Premium Cosmetic",
+    "rarity": [
+      6,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
     "id": 107249693,
     "name": "Divine Serra Experiment",
     "description": "",
@@ -27922,6 +28036,25 @@
     "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Items/Tools/AstraliteQuill",
     "tier": 10,
     "tag": "Scholar Tool",
+    "rarity": [
+      6,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
+    "id": 117106118,
+    "name": "Wrangler's Cleancut Pants",
+    "description": "",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "PremiumIcons/LegsWranglerMale2",
+    "tier": -1,
+    "tag": "Premium Cosmetic",
     "rarity": [
       6,
       {}
@@ -28764,6 +28897,25 @@
     ],
     "compendium_entry": false,
     "item_list_id": 1967122233
+  },
+  {
+    "id": 132985671,
+    "name": "Svim's Sheet Music",
+    "description": "Sheet music from the ancient times. This is what Svim was looking for.",
+    "volume": 300,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/AncientLorePage",
+    "tier": -1,
+    "tag": "Quest Item",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": false,
+    "item_list_id": 0
   },
   {
     "id": 133674104,
@@ -30609,6 +30761,25 @@
     "item_list_id": 790859053
   },
   {
+    "id": 166506365,
+    "name": "Mythic Sagi Bird Product",
+    "description": "The Output from Sagi Bird products",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Items/SagiBirdProducts",
+    "tier": -1,
+    "tag": "Animal Output",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": false,
+    "item_list_id": 1719969559
+  },
+  {
     "id": 166627524,
     "name": "Ornate Stamina Potion",
     "description": "A potion made by a scholar. Increases your active stamina regen, allowing you to regenerate stamina while taking other actions for a short time.",
@@ -31329,6 +31500,25 @@
     ],
     "compendium_entry": false,
     "item_list_id": 1099071527
+  },
+  {
+    "id": 179169038,
+    "name": "Deed: Mask Pattern - Enraged Bee",
+    "description": "A bee like mask pattern with a red color.",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Other/Cosmetics/MaskPattern/Pattern24Red",
+    "tier": -1,
+    "tag": "Deed",
+    "rarity": [
+      5,
+      {}
+    ],
+    "compendium_entry": false,
+    "item_list_id": 0
   },
   {
     "id": 179257939,
@@ -32604,6 +32794,25 @@
     "item_list_id": 0
   },
   {
+    "id": 199482011,
+    "name": "Sagi Bird Trap",
+    "description": "A trap that could be used to catch a Sagi Bird. Right click the trap to place an \"Unset Sagi Bird Trap\". Once placed, can be baited with Sagi Bird Food. The trap will then have a chance to catch a Sagi Bird every 10 minutes, or more rarely the Sagi Bird may escape with the traps food.\n\nCan be placed in the Calm Forest or Breezy Plain.",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Items/SagiBirdTrapItem",
+    "tier": -1,
+    "tag": "Animal Trap",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
     "id": 200135323,
     "name": "Deed: Rough Long Skirt - Refined Blue",
     "description": "",
@@ -32731,6 +32940,25 @@
     "tag": "Meal",
     "rarity": [
       3,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
+    "id": 202143430,
+    "name": "Sagi Bird Egg",
+    "description": "An unfertalized Sagi Bird Egg that could be used for cooking.",
+    "volume": 120,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Items/SagiEgg",
+    "tier": -1,
+    "tag": "Domesticated Animal Materials",
+    "rarity": [
+      1,
       {}
     ],
     "compendium_entry": true,
@@ -32997,6 +33225,25 @@
     "tag": "Meal",
     "rarity": [
       4,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
+    "id": 208065035,
+    "name": "Domesticated Sagi Bird",
+    "description": "A domesticated Sagi Bird that you could place in a pen to produce materials for you or to be bred with another Sagi Bird of the same quality.",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "PremiumIcons/ChickenSagi",
+    "tier": -1,
+    "tag": "Tamed Animal",
+    "rarity": [
+      5,
       {}
     ],
     "compendium_entry": true,
@@ -34865,6 +35112,25 @@
     "item_list_id": 0
   },
   {
+    "id": 241252587,
+    "name": "Wrangler's Cleancut Gloves",
+    "description": "",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "PremiumIcons/HandsWranglerMale2",
+    "tier": -1,
+    "tag": "Premium Cosmetic",
+    "rarity": [
+      6,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
     "id": 241601812,
     "name": "Rathium Plated Armor",
     "description": "",
@@ -35334,6 +35600,25 @@
     "tag": "Leather Clothing",
     "rarity": [
       4,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
+    "id": 249757505,
+    "name": "Wrangler Darling's Shirt",
+    "description": "",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "PremiumIcons/TorsoWranglerFemale1",
+    "tier": -1,
+    "tag": "Premium Cosmetic",
+    "rarity": [
+      6,
       {}
     ],
     "compendium_entry": true,
@@ -38931,6 +39216,25 @@
     "item_list_id": 0
   },
   {
+    "id": 320963075,
+    "name": "Wrangler Darling's Pants",
+    "description": "",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "PremiumIcons/LegsWranglerFemale1",
+    "tier": -1,
+    "tag": "Premium Cosmetic",
+    "rarity": [
+      6,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
     "id": 321169560,
     "name": "Building Speed Training VIII",
     "description": "A scroll which increases your knowledge of construction, allowing you to build more quickly. Increases construction speed by 2%. Requires level 80 construction to purchase.",
@@ -40679,6 +40983,25 @@
     "item_list_id": 1868580791
   },
   {
+    "id": 360642241,
+    "name": "Wrangler Roughrider's Boots",
+    "description": "",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "PremiumIcons/FeetWranglerMale1",
+    "tier": -1,
+    "tag": "Premium Cosmetic",
+    "rarity": [
+      6,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
     "id": 361093838,
     "name": "Umbracite Plated Bracers",
     "description": "",
@@ -41247,6 +41570,25 @@
     ],
     "compendium_entry": false,
     "item_list_id": 0
+  },
+  {
+    "id": 370118683,
+    "name": "Rare Sagi Bird Output",
+    "description": "The Output from Sagi Bird products",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Items/SagiBirdProducts",
+    "tier": -1,
+    "tag": "Animal Output",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": false,
+    "item_list_id": 1466994129
   },
   {
     "id": 370594479,
@@ -46303,6 +46645,25 @@
     "item_list_id": 0
   },
   {
+    "id": 469731390,
+    "name": "Landweaver's Down Feather Gloves",
+    "description": "",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Other/Cosmetics/Hands/Hands_BasicGloves_A",
+    "tier": 2,
+    "tag": "Clothing",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
     "id": 471537919,
     "name": "Rough Leather Gloves",
     "description": "",
@@ -47234,6 +47595,25 @@
     "item_list_id": 320115466
   },
   {
+    "id": 490348934,
+    "name": "Rare Sagi Bird Product",
+    "description": "The Output from Sagi Bird products",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Items/SagiBirdProducts",
+    "tier": -1,
+    "tag": "Animal Output",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": false,
+    "item_list_id": 1542713669
+  },
+  {
     "id": 490558384,
     "name": "Aurumite Plated Helm",
     "description": "",
@@ -47251,6 +47631,25 @@
     ],
     "compendium_entry": false,
     "item_list_id": 1503116329
+  },
+  {
+    "id": 490724663,
+    "name": "Mythic Sagi Bird Output",
+    "description": "The Output from Sagi Bird products",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Items/SagiBirdProducts",
+    "tier": -1,
+    "tag": "Animal Output",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": false,
+    "item_list_id": 155253620
   },
   {
     "id": 490887433,
@@ -48448,6 +48847,25 @@
     ],
     "compendium_entry": true,
     "item_list_id": 0
+  },
+  {
+    "id": 512226813,
+    "name": "Lost Shipment Loot Music Sheets",
+    "description": "Lost cargo from another ship. Could be opened at the sailing workbench.",
+    "volume": 300,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Items/LostShipment",
+    "tier": -1,
+    "tag": "Sailing Loot",
+    "rarity": [
+      2,
+      {}
+    ],
+    "compendium_entry": false,
+    "item_list_id": 853276672
   },
   {
     "id": 512370694,
@@ -49723,6 +50141,25 @@
     "item_list_id": 0
   },
   {
+    "id": 530942205,
+    "name": "Stonesmith's Down Feather Gloves",
+    "description": "",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Other/Cosmetics/Hands/Hands_BasicGloves_B",
+    "tier": 2,
+    "tag": "Clothing",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
     "id": 531558791,
     "name": "Succulent Deluxe Ocean Fish Sticks",
     "description": "Breaded ocean fish fried to a delicious crunchy meal.",
@@ -50046,6 +50483,25 @@
     "item_list_id": 0
   },
   {
+    "id": 537328337,
+    "name": "Common Sagi Bird Product",
+    "description": "The Output from Sagi Bird products",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Items/SagiBirdProducts",
+    "tier": -1,
+    "tag": "Animal Output",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": false,
+    "item_list_id": 736057412
+  },
+  {
     "id": 538064142,
     "name": "Ornate Woven Belt",
     "description": "",
@@ -50176,6 +50632,25 @@
       {}
     ],
     "compendium_entry": false,
+    "item_list_id": 0
+  },
+  {
+    "id": 539717221,
+    "name": "Wrangler Roughrider's Belt",
+    "description": "",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "PremiumIcons/BeltWranglerMale1",
+    "tier": -1,
+    "tag": "Premium Cosmetic",
+    "rarity": [
+      6,
+      {}
+    ],
+    "compendium_entry": true,
     "item_list_id": 0
   },
   {
@@ -50310,6 +50785,25 @@
     ],
     "compendium_entry": true,
     "item_list_id": 0
+  },
+  {
+    "id": 542241196,
+    "name": "Epic Sagi Bird Output",
+    "description": "The Output from Sagi Bird products",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Items/SagiBirdProducts",
+    "tier": -1,
+    "tag": "Animal Output",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": false,
+    "item_list_id": 245296863
   },
   {
     "id": 542378458,
@@ -53485,6 +53979,25 @@
     "item_list_id": 0
   },
   {
+    "id": 603652546,
+    "name": "Wrangler Sweetheart's Hat",
+    "description": "",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "PremiumIcons/HeadWranglerFemale2",
+    "tier": -1,
+    "tag": "Premium Cosmetic",
+    "rarity": [
+      6,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
     "id": 603991953,
     "name": "Uncut Pristine Emerald",
     "description": "A skilled mason could cut this.",
@@ -54845,6 +55358,25 @@
     "icon_asset_name": "GeneratedIcons/Other/Cosmetics/Head/Hat_BurlapBonnet",
     "tier": 8,
     "tag": "Cloth Clothing",
+    "rarity": [
+      6,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
+    "id": 628416855,
+    "name": "Wrangler's Cleancut Shirt",
+    "description": "",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "PremiumIcons/TorsoWranglerMale2",
+    "tier": -1,
+    "tag": "Premium Cosmetic",
     "rarity": [
       6,
       {}
@@ -61104,6 +61636,25 @@
     "item_list_id": 0
   },
   {
+    "id": 738022354,
+    "name": "Animal Skull",
+    "description": "An animal skull that you could use to decorate your house or settlement.",
+    "volume": 600,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Items/AnimalSkull",
+    "tier": 1,
+    "tag": "Decorative Item",
+    "rarity": [
+      2,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
     "id": 738107351,
     "name": "Celestium Saw",
     "description": "",
@@ -61918,6 +62469,25 @@
       {}
     ],
     "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
+    "id": 752527099,
+    "name": "Hunting Feast Knowledge",
+    "description": "Knowledge of how to craft a hunting feast for Alesi.",
+    "volume": 120,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/PrimeDeerMeatCooked",
+    "tier": -1,
+    "tag": "Quest Item",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": false,
     "item_list_id": 0
   },
   {
@@ -65018,6 +65588,25 @@
     "item_list_id": 0
   },
   {
+    "id": 811172796,
+    "name": "Sagi Egg Over-Easy",
+    "description": "A fried Sagi Bird egg. It smells delicious.",
+    "volume": 120,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Items/Food/SagiOvereasy",
+    "tier": 1,
+    "tag": "Food",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
     "id": 811686234,
     "name": "Midwinter Cabin Chair",
     "description": "An item that could be used to create a building to decorate your house.",
@@ -67469,6 +68058,25 @@
     "item_list_id": 0
   },
   {
+    "id": 856351205,
+    "name": "Verdant Down Feather Gloves",
+    "description": "",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Other/Cosmetics/Hands/Hands_BasicGloves_D",
+    "tier": 2,
+    "tag": "Clothing",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
     "id": 856445397,
     "name": "Luminite Plated Legguards",
     "description": "",
@@ -69407,6 +70015,25 @@
     "item_list_id": 0
   },
   {
+    "id": 896392824,
+    "name": "Wrangler Sweetheart's Gloves",
+    "description": "",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "PremiumIcons/HandsWranglerFemale2",
+    "tier": -1,
+    "tag": "Premium Cosmetic",
+    "rarity": [
+      6,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
     "id": 897153999,
     "name": "Clockwork Aristocrat Belt",
     "description": "",
@@ -69709,6 +70336,25 @@
     ],
     "compendium_entry": false,
     "item_list_id": 1707964573
+  },
+  {
+    "id": 902201305,
+    "name": "Wrangler Sweetheart's Pants",
+    "description": "",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "PremiumIcons/LegsWranglerFemale2",
+    "tier": -1,
+    "tag": "Premium Cosmetic",
+    "rarity": [
+      6,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
   },
   {
     "id": 902347969,
@@ -70165,6 +70811,25 @@
     ],
     "compendium_entry": false,
     "item_list_id": 1359954231
+  },
+  {
+    "id": 909660971,
+    "name": "Deed: Cervus (II)",
+    "description": "Stronger and faster than Cervus (I). Can carry items in it's saddle bags.",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 1864162311,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Other/Animals/DeerMale",
+    "tier": -1,
+    "tag": "Deployable Deed",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
   },
   {
     "id": 910078465,
@@ -71742,6 +72407,25 @@
     ],
     "compendium_entry": true,
     "item_list_id": 0
+  },
+  {
+    "id": 942080750,
+    "name": "Domesticated Sagi Bird Breeding",
+    "description": "A domesticated Sagi Bird that you could place in a pen to produce materials for you or to be bred with another Sagi Bird of the same quality.",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "PremiumIcons/ChickenSagi",
+    "tier": -1,
+    "tag": "Tamed Animal",
+    "rarity": [
+      5,
+      {}
+    ],
+    "compendium_entry": false,
+    "item_list_id": 1087358719
   },
   {
     "id": 942892298,
@@ -73433,6 +74117,25 @@
     ],
     "compendium_entry": false,
     "item_list_id": 1748263762
+  },
+  {
+    "id": 976183534,
+    "name": "Common Sagi Bird Output",
+    "description": "The Output from Sagi Bird products",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Items/SagiBirdProducts",
+    "tier": -1,
+    "tag": "Animal Output",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": false,
+    "item_list_id": 1076830324
   },
   {
     "id": 976266255,
@@ -75430,6 +76133,25 @@
     "item_list_id": 0
   },
   {
+    "id": 1011270010,
+    "name": "Hunting Feast",
+    "description": "A feast that you've cooked up for Alesi. Return to her for your reward!",
+    "volume": 120,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/PrimeDeerMeatCooked",
+    "tier": -1,
+    "tag": "Quest Item",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
     "id": 1011319265,
     "name": "Construction Power Training IX",
     "description": "A scroll which contains knowledge on to how to perform construction tasks more quickly. Increases your construction power by 2. Requires 90 construction to purchase.",
@@ -76013,6 +76735,25 @@
     "tag": "Metal Armor",
     "rarity": [
       5,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
+    "id": 1021498106,
+    "name": "Domesticated Sagi Bird",
+    "description": "A domesticated Sagi Bird that you could place in a pen to produce materials for you or to be bred with another Sagi Bird of the same quality.",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "PremiumIcons/ChickenSagi",
+    "tier": -1,
+    "tag": "Tamed Animal",
+    "rarity": [
+      6,
       {}
     ],
     "compendium_entry": true,
@@ -76681,6 +77422,25 @@
       {}
     ],
     "compendium_entry": false,
+    "item_list_id": 0
+  },
+  {
+    "id": 1032549545,
+    "name": "Wrangler Building Supplies",
+    "description": "Supplies which can allow you to build various Cowboy themed decorations.",
+    "volume": 0,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "PremiumIcons/WranglerBuildingSupplies",
+    "tier": -1,
+    "tag": "Premium Item",
+    "rarity": [
+      6,
+      {}
+    ],
+    "compendium_entry": true,
     "item_list_id": 0
   },
   {
@@ -77406,6 +78166,25 @@
     "item_list_id": 0
   },
   {
+    "id": 1044829912,
+    "name": "Uncommon Sagi Bird Output",
+    "description": "The Output from Sagi Bird products",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Items/SagiBirdProducts",
+    "tier": -1,
+    "tag": "Animal Output",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": false,
+    "item_list_id": 635583510
+  },
+  {
     "id": 1045011726,
     "name": "Astralite Plated Armor",
     "description": "",
@@ -77917,6 +78696,25 @@
     ],
     "compendium_entry": false,
     "item_list_id": 1485938725
+  },
+  {
+    "id": 1055065655,
+    "name": "Wrangler's Cleancut Boots",
+    "description": "",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "PremiumIcons/FeetWranglerMale2",
+    "tier": -1,
+    "tag": "Premium Cosmetic",
+    "rarity": [
+      6,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
   },
   {
     "id": 1055627272,
@@ -84075,6 +84873,25 @@
     "item_list_id": 1366037731
   },
   {
+    "id": 1165025953,
+    "name": "Legendary Sagi Bird Product",
+    "description": "The Output from Sagi Bird products",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Items/SagiBirdProducts",
+    "tier": -1,
+    "tag": "Animal Output",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": false,
+    "item_list_id": 344530508
+  },
+  {
     "id": 1165036582,
     "name": "Aurumite Quill",
     "description": "A quill made from aurumite.",
@@ -84814,6 +85631,25 @@
     ],
     "compendium_entry": true,
     "item_list_id": 0
+  },
+  {
+    "id": 1179478764,
+    "name": "Domesticated Sagi Bird Breeding",
+    "description": "A domesticated Sagi Bird that you could place in a pen to produce materials for you or to be bred with another Sagi Bird of the same quality.",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "PremiumIcons/ChickenSagi",
+    "tier": -1,
+    "tag": "Tamed Animal",
+    "rarity": [
+      3,
+      {}
+    ],
+    "compendium_entry": false,
+    "item_list_id": 1730886205
   },
   {
     "id": 1179717929,
@@ -86811,6 +87647,25 @@
     "item_list_id": 318719416
   },
   {
+    "id": 1212598568,
+    "name": "Prime Jakyl Meat",
+    "description": "A very high quality piece of meat from an Alpha Jakyl. Somewhat rare. Alesi said you'd need this for the hunter's feast.",
+    "volume": 120,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/DeerMeatRaw",
+    "tier": -1,
+    "tag": "Quest Item",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": false,
+    "item_list_id": 0
+  },
+  {
     "id": 1212627254,
     "name": "Astralite Shortsword",
     "description": "A skillfully smithed sword. Better to be on the giving end than the receiving end.",
@@ -87856,6 +88711,25 @@
     "item_list_id": 0
   },
   {
+    "id": 1230243654,
+    "name": "Wrangler Darling's Hat",
+    "description": "",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "PremiumIcons/HeadWranglerFemale1",
+    "tier": -1,
+    "tag": "Premium Cosmetic",
+    "rarity": [
+      6,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
     "id": 1230493129,
     "name": "Plain Deluxe Fish and Bulbs",
     "description": "Fish arranged in a dish with salty fried potatoes. Delicious and filling.",
@@ -88025,6 +88899,25 @@
     ],
     "compendium_entry": false,
     "item_list_id": 1485944506
+  },
+  {
+    "id": 1233074251,
+    "name": "Wrangler Sweetheart's Belt",
+    "description": "",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "PremiumIcons/BeltWranglerFemale2",
+    "tier": -1,
+    "tag": "Premium Cosmetic",
+    "rarity": [
+      6,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
   },
   {
     "id": 1233180020,
@@ -89298,6 +90191,25 @@
     ],
     "compendium_entry": false,
     "item_list_id": 1607065979
+  },
+  {
+    "id": 1257606098,
+    "name": "Domesticated Sagi Bird",
+    "description": "A domesticated Sagi Bird that you could place in a pen to produce materials for you or to be bred with another Sagi Bird of the same quality.",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "PremiumIcons/ChickenSagi",
+    "tier": -1,
+    "tag": "Tamed Animal",
+    "rarity": [
+      2,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
   },
   {
     "id": 1257732800,
@@ -92663,6 +93575,25 @@
     "item_list_id": 0
   },
   {
+    "id": 1328045740,
+    "name": "Wrangler Roughrider's Pants",
+    "description": "",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "PremiumIcons/LegsWranglerMale1",
+    "tier": -1,
+    "tag": "Premium Cosmetic",
+    "rarity": [
+      6,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
     "id": 1328307760,
     "name": "Elenvar Hoe",
     "description": "A hoe made from elenvar.",
@@ -92927,6 +93858,25 @@
     ],
     "compendium_entry": false,
     "item_list_id": 2052099941
+  },
+  {
+    "id": 1333714380,
+    "name": "Wrangler Roughrider's Hat",
+    "description": "",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "PremiumIcons/HeadWranglerMale1",
+    "tier": -1,
+    "tag": "Premium Cosmetic",
+    "rarity": [
+      6,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
   },
   {
     "id": 1333816601,
@@ -93537,6 +94487,25 @@
     "item_list_id": 0
   },
   {
+    "id": 1346680330,
+    "name": "Deed: Pet Plume",
+    "description": "An elegant and beautiful Bird Pet. Right Click and add to your vault to be able to summon him.",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "PremiumIcons/Plume",
+    "tier": -1,
+    "tag": "Deed",
+    "rarity": [
+      6,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
     "id": 1346847362,
     "name": "Deed: Mask - Cheery",
     "description": "A mask that makes you look more cheerful.",
@@ -93800,6 +94769,25 @@
       {}
     ],
     "compendium_entry": false,
+    "item_list_id": 0
+  },
+  {
+    "id": 1353540898,
+    "name": "Wrangler Darling's Belt",
+    "description": "",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "PremiumIcons/BeltWranglerFemale1",
+    "tier": -1,
+    "tag": "Premium Cosmetic",
+    "rarity": [
+      6,
+      {}
+    ],
+    "compendium_entry": true,
     "item_list_id": 0
   },
   {
@@ -94884,6 +95872,25 @@
     ],
     "compendium_entry": false,
     "item_list_id": 1660763357
+  },
+  {
+    "id": 1370979976,
+    "name": "Sagi Bird Down Feather",
+    "description": "A feather from a domesticated Sagi Bird. Could be used to make certain items or traded to Alesi.",
+    "volume": 120,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Items/DownFeather",
+    "tier": -1,
+    "tag": "Domesticated Animal Materials",
+    "rarity": [
+      3,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
   },
   {
     "id": 1371278217,
@@ -98493,6 +99500,25 @@
       {}
     ],
     "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
+    "id": 1431392819,
+    "name": "Unlock Sheet Music Trades",
+    "description": "Unlocks the ability for you to trade Lost Music Sheets to Svim for Hex Coins. Additionally, you can now find Lost Sheet Music when unpacking Lost Shipments and Lost Treasure. Svim's Sheet Music sells for slightly more than other sailing goods for Lost Shipments and Treasures.",
+    "volume": 300,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/AncientDeed",
+    "tier": -1,
+    "tag": "Knowledge",
+    "rarity": [
+      3,
+      {}
+    ],
+    "compendium_entry": false,
     "item_list_id": 0
   },
   {
@@ -102524,6 +103550,25 @@
     "item_list_id": 0
   },
   {
+    "id": 1504474097,
+    "name": "Wrangler's Cleancut Belt",
+    "description": "",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "PremiumIcons/BeltWranglerMale2",
+    "tier": -1,
+    "tag": "Premium Cosmetic",
+    "rarity": [
+      6,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
     "id": 1504635658,
     "name": "Magnificent Gathering Elixir",
     "description": "An elixir made by a scholar. Increases your gathering speed. Does not stack with other elixirs.",
@@ -103890,6 +104935,25 @@
     ],
     "compendium_entry": false,
     "item_list_id": 1192995280
+  },
+  {
+    "id": 1526240509,
+    "name": "Prime Hunting Spices",
+    "description": "Spices that Heimlich sells for use in the feast Alesi has requested. It sure isn't cheap...",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/RyeFlour",
+    "tier": -1,
+    "tag": "Quest Item",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": false,
+    "item_list_id": 0
   },
   {
     "id": 1526479068,
@@ -107578,6 +108642,25 @@
     "item_list_id": 0
   },
   {
+    "id": 1589296227,
+    "name": "Prime Sagi Meat",
+    "description": "A very high quality piece of meat from a Sagi Bird. Somewhat rare. Alesi said you'd need this for the hunter's feast.",
+    "volume": 120,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/PrimeDeerMeatRaw",
+    "tier": -1,
+    "tag": "Quest Item",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": false,
+    "item_list_id": 0
+  },
+  {
     "id": 1589358450,
     "name": "Umbracite Claymore",
     "description": "",
@@ -108319,6 +109402,25 @@
     "item_list_id": 0
   },
   {
+    "id": 1600358434,
+    "name": "Wrangler Sweetheart's Shirt",
+    "description": "",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "PremiumIcons/TorsoWranglerFemale2",
+    "tier": -1,
+    "tag": "Premium Cosmetic",
+    "rarity": [
+      6,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
     "id": 1600561783,
     "name": "Exquisite Leather Boots",
     "description": "",
@@ -108832,6 +109934,25 @@
     "item_list_id": 0
   },
   {
+    "id": 1611242643,
+    "name": "Lost Treasure Loot Sheet Music",
+    "description": "Lost cargo from another ship. Could be opened at the sailing workbench.",
+    "volume": 300,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Items/LostTreasure",
+    "tier": -1,
+    "tag": "Sailing Loot",
+    "rarity": [
+      4,
+      {}
+    ],
+    "compendium_entry": false,
+    "item_list_id": 586641474
+  },
+  {
     "id": 1611776313,
     "name": "Aurumite Daggers",
     "description": "Small, sharp daggers that could do some real damage if you're on the receiving end of them.",
@@ -109092,6 +110213,25 @@
     "tag": "Leather Clothing",
     "rarity": [
       6,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
+    "id": 1620832581,
+    "name": "Domesticated Sagi Bird",
+    "description": "A domesticated Sagi Bird that you could place in a pen to produce materials for you or to be bred with another Sagi Bird of the same quality.",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "PremiumIcons/ChickenSagi",
+    "tier": -1,
+    "tag": "Tamed Animal",
+    "rarity": [
+      3,
       {}
     ],
     "compendium_entry": true,
@@ -109643,6 +110783,25 @@
     "tag": "Weapon",
     "rarity": [
       6,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
+    "id": 1628602214,
+    "name": "Lost Sheet Music",
+    "description": "Sheet music from the ancient times. These are written in Svim's writing. ",
+    "volume": 300,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/AncientLorePage",
+    "tier": -1,
+    "tag": "Sailing Item",
+    "rarity": [
+      1,
       {}
     ],
     "compendium_entry": true,
@@ -110293,6 +111452,25 @@
     ],
     "compendium_entry": false,
     "item_list_id": 137984825
+  },
+  {
+    "id": 1643423656,
+    "name": "Captured Sagi Bird",
+    "description": "A sagi bird which has been captured in a trap. Right click this to place it near a Taming Workbench to complete the domestication process. Once placed, the Sagi Bird will need to be fed, given water or healing potions until it turns into a Domesticated Sagi Bird.",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Items/DomesticatedSagiBird",
+    "tier": -1,
+    "tag": "Tamed Animal",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
   },
   {
     "id": 1644025757,
@@ -112326,6 +113504,25 @@
     ],
     "compendium_entry": false,
     "item_list_id": 118005835
+  },
+  {
+    "id": 1682749014,
+    "name": "Wrangler Darling's Gloves",
+    "description": "",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "PremiumIcons/HandsWranglerFemale1",
+    "tier": -1,
+    "tag": "Premium Cosmetic",
+    "rarity": [
+      6,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
   },
   {
     "id": 1682820391,
@@ -114646,6 +115843,25 @@
     "item_list_id": 0
   },
   {
+    "id": 1721761325,
+    "name": "Legendary Sagi Bird Output",
+    "description": "The Output from Sagi Bird products",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Items/SagiBirdProducts",
+    "tier": -1,
+    "tag": "Animal Output",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": false,
+    "item_list_id": 614140609
+  },
+  {
     "id": 1721931439,
     "name": "Flawless Woven Shoes",
     "description": "",
@@ -115455,6 +116671,25 @@
     "icon_asset_name": "Items/WhiteOnionRolls",
     "tier": 10,
     "tag": "Meal",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
+    "id": 1737022575,
+    "name": "Survivalist's Down Feather Gloves",
+    "description": "",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Other/Cosmetics/Hands/Hands_BasicGloves_C",
+    "tier": 2,
+    "tag": "Clothing",
     "rarity": [
       1,
       {}
@@ -118083,6 +119318,25 @@
     ],
     "compendium_entry": false,
     "item_list_id": 1835861876
+  },
+  {
+    "id": 1780651102,
+    "name": "Animal Swill",
+    "description": "Food made from various organic materials that tamed animals would enjoy. Add Vitamins from Alesi to make this into proper food.",
+    "volume": 120,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Items/AnimalSwill",
+    "tier": -1,
+    "tag": "Animal Swill",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
   },
   {
     "id": 1780834971,
@@ -120815,6 +122069,25 @@
     "tag": "Leather Clothing",
     "rarity": [
       2,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
+    "id": 1830247303,
+    "name": "Wrangler's Poncho",
+    "description": "",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "PremiumIcons/CapeWrangler",
+    "tier": -1,
+    "tag": "Premium Cosmetic",
+    "rarity": [
+      6,
       {}
     ],
     "compendium_entry": true,
@@ -123614,6 +124887,25 @@
     "item_list_id": 0
   },
   {
+    "id": 1872456645,
+    "name": "Domesticated Sagi Bird Breeding",
+    "description": "A domesticated Sagi Bird that you could place in a pen to produce materials for you or to be bred with another Sagi Bird of the same quality.",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "PremiumIcons/ChickenSagi",
+    "tier": -1,
+    "tag": "Tamed Animal",
+    "rarity": [
+      2,
+      {}
+    ],
+    "compendium_entry": false,
+    "item_list_id": 444682921
+  },
+  {
     "id": 1873335807,
     "name": "Titan Room Divider",
     "description": "An item that could be used to create a building to decorate your house.",
@@ -124963,6 +126255,25 @@
     "item_list_id": 0
   },
   {
+    "id": 1899598764,
+    "name": "Domesticated Sagi Bird",
+    "description": "A domesticated Sagi Bird that you could place in a pen to produce materials for you or to be bred with another Sagi Bird of the same quality.",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "PremiumIcons/ChickenSagi",
+    "tier": -1,
+    "tag": "Tamed Animal",
+    "rarity": [
+      4,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
     "id": 1899938955,
     "name": "Rathium Plated Helm",
     "description": "",
@@ -125533,6 +126844,25 @@
     "item_list_id": 0
   },
   {
+    "id": 1909154564,
+    "name": "Wrangler Roughrider's Gloves",
+    "description": "",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "PremiumIcons/HandsWranglerMale1",
+    "tier": -1,
+    "tag": "Premium Cosmetic",
+    "rarity": [
+      6,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
     "id": 1909352014,
     "name": "Elenvar Duelist Helm",
     "description": "",
@@ -125869,6 +127199,25 @@
     "tag": "Interior Wall Deed",
     "rarity": [
       1,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
+    "id": 1917615867,
+    "name": "Prickly Cactus Seed",
+    "description": "A cactus seed that you could use to make a cactus in your settlement or house.",
+    "volume": 600,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Items/PricklyCactusSeed",
+    "tier": 1,
+    "tag": "Decorative Item",
+    "rarity": [
+      2,
       {}
     ],
     "compendium_entry": true,
@@ -126291,6 +127640,25 @@
     ],
     "compendium_entry": false,
     "item_list_id": 1129641712
+  },
+  {
+    "id": 1923990437,
+    "name": "Sagi Bird Food",
+    "description": "Food used to tame or feed a Sagi Bird.",
+    "volume": 120,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Items/SagiBirdFood",
+    "tier": -1,
+    "tag": "Animal Food",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
   },
   {
     "id": 1924337588,
@@ -127050,6 +128418,25 @@
       {}
     ],
     "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
+    "id": 1935606783,
+    "name": "Title Deed: Layer of Auric Eggs",
+    "description": "A deed which grants you the title \"Layer of Golden Eggs\".",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/AncientDeed",
+    "tier": -1,
+    "tag": "Deed",
+    "rarity": [
+      5,
+      {}
+    ],
+    "compendium_entry": false,
     "item_list_id": 0
   },
   {
@@ -128377,6 +129764,25 @@
     "tag": "Textile",
     "rarity": [
       4,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
+    "id": 1960486598,
+    "name": "Domesticated Sagi Bird",
+    "description": "A domesticated Sagi Bird that you could place in a pen to produce materials for you or to be bred with another Sagi Bird of the same quality.",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "PremiumIcons/ChickenSagi",
+    "tier": -1,
+    "tag": "Tamed Animal",
+    "rarity": [
+      1,
       {}
     ],
     "compendium_entry": true,
@@ -129865,6 +131271,25 @@
     "item_list_id": 0
   },
   {
+    "id": 1988113489,
+    "name": "Auric Sagi Bird Egg",
+    "description": "...is this real Auric? A smith might be able to smelt this down into Auric Nuggets or maybe Alesi would buy it?",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Items/AuricSagiEgg",
+    "tier": -1,
+    "tag": "Domesticated Animal Materials",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
     "id": 1988343429,
     "name": "Sturdy Weapon Scrap",
     "description": "Some scrap that can be used at a Scrap Bench to improve weapons.",
@@ -130532,7 +131957,7 @@
   {
     "id": 2000518635,
     "name": "Deed: Clipper (III)",
-    "description": "An upgraded version of the clipper. Has all the benefits of the last upgrade and contains more cargo space",
+    "description": "An upgraded version of the clipper. Has all the benefits of the Clipper (II) and contains more cargo space",
     "volume": 6000,
     "durability": 0,
     "convert_to_on_durability_zero": 0,
@@ -130619,6 +132044,25 @@
     "tag": "Metal Armor",
     "rarity": [
       5,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
+    "id": 2002637276,
+    "name": "Wrangler's Cleancut Hat",
+    "description": "",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "PremiumIcons/HeadWranglerMale2",
+    "tier": -1,
+    "tag": "Premium Cosmetic",
+    "rarity": [
+      6,
       {}
     ],
     "compendium_entry": true,
@@ -130813,6 +132257,25 @@
     ],
     "compendium_entry": true,
     "item_list_id": 0
+  },
+  {
+    "id": 2005667478,
+    "name": "Epic Sagi Bird Product",
+    "description": "The Output from Sagi Bird products",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Items/SagiBirdProducts",
+    "tier": -1,
+    "tag": "Animal Output",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": false,
+    "item_list_id": 488096082
   },
   {
     "id": 2006883412,
@@ -131987,6 +133450,25 @@
     "tag": "Scholar Tool",
     "rarity": [
       1,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
+    "id": 2024696991,
+    "name": "Wrangler Sweetheart's Boots",
+    "description": "",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "PremiumIcons/FeetWranglerFemale2",
+    "tier": -1,
+    "tag": "Premium Cosmetic",
+    "rarity": [
+      6,
       {}
     ],
     "compendium_entry": true,
@@ -135964,6 +137446,25 @@
     "item_list_id": 0
   },
   {
+    "id": 2102138868,
+    "name": "Wrangler Darling's Boots",
+    "description": "",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "PremiumIcons/FeetWranglerFemale1",
+    "tier": -1,
+    "tag": "Premium Cosmetic",
+    "rarity": [
+      6,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
     "id": 2102423504,
     "name": "Celestium Scissors",
     "description": "A pair of scissors made from celestium.",
@@ -138013,6 +139514,25 @@
       {}
     ],
     "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
+    "id": 2142006878,
+    "name": "Deed: Mask Pattern - Green Bee",
+    "description": "A bee like mask pattern with a green color.",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Other/Cosmetics/MaskPattern/Pattern24Green",
+    "tier": -1,
+    "tag": "Deed",
+    "rarity": [
+      3,
+      {}
+    ],
+    "compendium_entry": false,
     "item_list_id": 0
   },
   {

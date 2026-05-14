@@ -19947,6 +19947,46 @@
     ]
   },
   {
+    "id": 253423198,
+    "resource_id": 1804382655,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 1.6,
+    "stamina_requirement": 0.75,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [],
+    "consumed_item_stacks": [],
+    "range": 1,
+    "tool_requirements": [],
+    "allow_use_hands": true,
+    "level_requirements": [
+      [
+        14,
+        33
+      ]
+    ],
+    "experience_per_progress": [
+      [
+        14,
+        0.0
+      ]
+    ],
+    "verb_phrase": "Gather",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 403,
+    "empire_rank_requirement": [
+      1,
+      {}
+    ],
+    "show_in_progression": false,
+    "empire_permission_required": [
+      1,
+      {}
+    ]
+  },
+  {
     "id": 263598971,
     "resource_id": 499397253,
     "cargo_id": 0,
@@ -28144,6 +28184,24 @@
           ]
         ],
         0.001
+      ],
+      [
+        [
+          0,
+          [
+            2142006878,
+            1,
+            [
+              0,
+              []
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        ],
+        0.0005
       ]
     ],
     "consumed_item_stacks": [],
@@ -31041,7 +31099,7 @@
             ]
           ]
         ],
-        0.004375
+        0.006125
       ],
       [
         [
@@ -31430,6 +31488,89 @@
     "verb_phrase": "Mine",
     "tool_mesh_index": 0,
     "recipe_performance_id": 975,
+    "empire_rank_requirement": [
+      1,
+      {}
+    ],
+    "show_in_progression": false,
+    "empire_permission_required": [
+      1,
+      {}
+    ]
+  },
+  {
+    "id": 1976321660,
+    "resource_id": 875828558,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 1.6,
+    "stamina_requirement": 1.03,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [
+      [
+        [
+          0,
+          [
+            1534590561,
+            1,
+            [
+              0,
+              []
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        ],
+        0.05835
+      ],
+      [
+        [
+          0,
+          [
+            1917615867,
+            1,
+            [
+              0,
+              []
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        ],
+        0.0005
+      ]
+    ],
+    "consumed_item_stacks": [],
+    "range": 1,
+    "tool_requirements": [
+      [
+        12,
+        3,
+        1
+      ]
+    ],
+    "allow_use_hands": false,
+    "level_requirements": [
+      [
+        14,
+        30
+      ]
+    ],
+    "experience_per_progress": [
+      [
+        14,
+        1.5
+      ]
+    ],
+    "verb_phrase": "Gather",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 725,
     "empire_rank_requirement": [
       1,
       {}

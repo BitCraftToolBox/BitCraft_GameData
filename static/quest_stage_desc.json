@@ -593,6 +593,12 @@
     "completion_conditions": []
   },
   {
+    "id": 158545492,
+    "chain_desc_id": 1535955629,
+    "name": "Svim First Dialogue - Clipper III Unlock",
+    "completion_conditions": []
+  },
+  {
     "id": 159374862,
     "chain_desc_id": 104606097,
     "name": "Wisp Second Dialogue - Ship Unlock",
@@ -1341,6 +1347,12 @@
     "id": 373899008,
     "chain_desc_id": 618339395,
     "name": "BuildCampfireKit",
+    "completion_conditions": []
+  },
+  {
+    "id": 374321273,
+    "chain_desc_id": 1890317507,
+    "name": "Alesi Dialogue - Auric Egg Quest",
     "completion_conditions": []
   },
   {
@@ -2361,6 +2373,31 @@
     "completion_conditions": []
   },
   {
+    "id": 591809292,
+    "chain_desc_id": 1535955629,
+    "name": "Find Sheet Music - Clipper III Unlock",
+    "completion_conditions": [
+      [
+        1,
+        [
+          [
+            132985671,
+            20,
+            [
+              0,
+              []
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          true
+        ]
+      ]
+    ]
+  },
+  {
     "id": 595362906,
     "chain_desc_id": 1843874604,
     "name": "Second Svim Dialogue - First Skiff Upgrade",
@@ -2491,6 +2528,31 @@
     "chain_desc_id": 192373651,
     "name": "Speak to Brico - Level 30 Construction Experience Quest",
     "completion_conditions": []
+  },
+  {
+    "id": 659222196,
+    "chain_desc_id": 1890317507,
+    "name": "Bring Auric Egg to Alesi - Auric Egg Quest",
+    "completion_conditions": [
+      [
+        1,
+        [
+          [
+            1988113489,
+            1,
+            [
+              0,
+              []
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          true
+        ]
+      ]
+    ]
   },
   {
     "id": 660577421,
@@ -3353,6 +3415,12 @@
     "id": 877989986,
     "chain_desc_id": 731051392,
     "name": "Talk to Alesi - Owl Pet Unlock",
+    "completion_conditions": []
+  },
+  {
+    "id": 879410360,
+    "chain_desc_id": 1890317507,
+    "name": "Wisp Dialogue - Auric Egg",
     "completion_conditions": []
   },
   {
@@ -4285,9 +4353,21 @@
     "completion_conditions": []
   },
   {
+    "id": 1094961056,
+    "chain_desc_id": 1535955629,
+    "name": "Svim Second Dialogue - Clipper III Unlock",
+    "completion_conditions": []
+  },
+  {
     "id": 1099750803,
     "chain_desc_id": 1927636609,
     "name": "Jakyl Puppy Gnawed Bone Found Dialog",
+    "completion_conditions": []
+  },
+  {
+    "id": 1103571840,
+    "chain_desc_id": 1544479269,
+    "name": "Alesi Final Dialogue - Deer II Unlock",
     "completion_conditions": []
   },
   {
@@ -4403,6 +4483,12 @@
     "id": 1117003243,
     "chain_desc_id": 1409814184,
     "name": "Rumbagh Final Dialogue - Lost Shipment",
+    "completion_conditions": []
+  },
+  {
+    "id": 1118114199,
+    "chain_desc_id": 1535955629,
+    "name": "Talk to Svim - Clipper III Unlock",
     "completion_conditions": []
   },
   {
@@ -5838,6 +5924,103 @@
     "completion_conditions": []
   },
   {
+    "id": 1466531627,
+    "chain_desc_id": 1535955629,
+    "name": "Bring Svim Materials - Clipper III Unlock",
+    "completion_conditions": [
+      [
+        1,
+        [
+          [
+            884292413,
+            25,
+            [
+              1,
+              []
+            ],
+            [
+              1,
+              []
+            ]
+          ],
+          true
+        ]
+      ],
+      [
+        1,
+        [
+          [
+            701069699,
+            100,
+            [
+              0,
+              []
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          true
+        ]
+      ],
+      [
+        1,
+        [
+          [
+            448297337,
+            100,
+            [
+              0,
+              []
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          true
+        ]
+      ],
+      [
+        1,
+        [
+          [
+            1763886534,
+            500,
+            [
+              0,
+              []
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          true
+        ]
+      ],
+      [
+        1,
+        [
+          [
+            1,
+            20000,
+            [
+              0,
+              []
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          true
+        ]
+      ]
+    ]
+  },
+  {
     "id": 1468631158,
     "chain_desc_id": 583027027,
     "name": "Final Svim Dialogue - Level 40 Sailing",
@@ -6762,6 +6945,56 @@
     "completion_conditions": []
   },
   {
+    "id": 1698425438,
+    "chain_desc_id": 1535955629,
+    "name": "Gather Hexite Wood Fragments - Clipper III Unlock",
+    "completion_conditions": [
+      [
+        1,
+        [
+          [
+            1939049017,
+            200,
+            [
+              0,
+              []
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          true
+        ]
+      ]
+    ]
+  },
+  {
+    "id": 1703027718,
+    "chain_desc_id": 1544479269,
+    "name": "Craft Hunting Feast - Deer II Unlock",
+    "completion_conditions": [
+      [
+        1,
+        [
+          [
+            1011270010,
+            1,
+            [
+              0,
+              []
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          true
+        ]
+      ]
+    ]
+  },
+  {
     "id": 1708178472,
     "chain_desc_id": 1619095603,
     "name": "Second Alesi Dialogue - Level 50 Taming Exp Quest",
@@ -6947,6 +7180,12 @@
     "completion_conditions": []
   },
   {
+    "id": 1755695170,
+    "chain_desc_id": 1535955629,
+    "name": "Svim Third Dialogue - Clipper III Unlock",
+    "completion_conditions": []
+  },
+  {
     "id": 1756309784,
     "chain_desc_id": 315978683,
     "name": "Heimlich Final Dialogue - Level 80 Cooking Exp Quest",
@@ -6956,6 +7195,12 @@
     "id": 1760677436,
     "chain_desc_id": 1043927455,
     "name": "Get Achievement Points Quest",
+    "completion_conditions": []
+  },
+  {
+    "id": 1760804750,
+    "chain_desc_id": 1535955629,
+    "name": "Svim Final Dialogue - Clipper III Unlock",
     "completion_conditions": []
   },
   {
@@ -7246,6 +7491,12 @@
     "id": 1837391838,
     "chain_desc_id": 1523998557,
     "name": "Open Trade Finder",
+    "completion_conditions": []
+  },
+  {
+    "id": 1845805861,
+    "chain_desc_id": 1544479269,
+    "name": "Alesi First Dialogue - Deer II Unlock",
     "completion_conditions": []
   },
   {
@@ -7858,6 +8109,12 @@
     "id": 2033526812,
     "chain_desc_id": 566211269,
     "name": "Talk to Alesi First - Hunting Goat Unlock",
+    "completion_conditions": []
+  },
+  {
+    "id": 2037760221,
+    "chain_desc_id": 1544479269,
+    "name": "Talk to Alesi - Deer II Unlock",
     "completion_conditions": []
   },
   {

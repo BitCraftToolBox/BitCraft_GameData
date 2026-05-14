@@ -794,6 +794,48 @@
     "description": "A road made from stone. Fancier than a dirt road."
   },
   {
+    "id": 132592403,
+    "name": "Hay Paving",
+    "consumed_item_stacks": [
+      [
+        4130001,
+        25,
+        [
+          0,
+          []
+        ],
+        1,
+        1.0
+      ]
+    ],
+    "input_cargo_id": 0,
+    "input_cargo_discovery_score": 0,
+    "experience_per_progress": [
+      [
+        15,
+        1.125
+      ]
+    ],
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "full_discovery_score": 1,
+    "paving_duration": 1.0,
+    "prefab_address": "Pavings/HayThatchPavement",
+    "tier": -1,
+    "stat_effects": [
+      [
+        [
+          4,
+          []
+        ],
+        0.35,
+        true
+      ]
+    ],
+    "icon_address": "PremiumIcons/HayPavingPremium",
+    "description": "A road made from Hay."
+  },
+  {
     "id": 198660490,
     "name": "Cobblestone (Blue)",
     "consumed_item_stacks": [

@@ -356,7 +356,7 @@
   },
   {
     "id": 6,
-    "name": "Deer (I)",
+    "name": "Cervus (I)",
     "deploy_from_collectible_id": 127,
     "deploy_time": 3.0,
     "deployable_type": [
@@ -1221,7 +1221,7 @@
     "stockpile": 10,
     "barter": 0,
     "item_slot_size": 6000,
-    "cargo_slot_size": 600000,
+    "cargo_slot_size": 450000,
     "model_address": "Vehicles/Clipper",
     "stats": [],
     "player_animations_in_deployable_slots": [
@@ -1871,6 +1871,96 @@
     "allow_emote_while_driver": false,
     "allow_emote_while_passenger": false,
     "experience_per_progress": [],
+    "mounting_radius": 3.0,
+    "radius": 0.0,
+    "allow_hunting": false
+  },
+  {
+    "id": 1048214050,
+    "name": "Cervus (II)",
+    "deploy_from_collectible_id": 1044824437,
+    "deploy_time": 3.0,
+    "deployable_type": [
+      1,
+      {}
+    ],
+    "pathfinding_id": 309954853,
+    "movement_type": [
+      1,
+      {}
+    ],
+    "can_enter_portals": true,
+    "can_auto_follow": true,
+    "affected_by_wind": 0.0,
+    "speed": [
+      [
+        [
+          0,
+          []
+        ],
+        27.0
+      ],
+      [
+        [
+          1,
+          []
+        ],
+        27.0
+      ],
+      [
+        [
+          2,
+          []
+        ],
+        27.0
+      ],
+      [
+        [
+          3,
+          []
+        ],
+        27.0
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        27.0
+      ],
+      [
+        [
+          5,
+          []
+        ],
+        27.0
+      ]
+    ],
+    "use_player_speed_modifier": false,
+    "placeable_on_land": true,
+    "placeable_in_water": true,
+    "capacity": 1,
+    "storage": 6,
+    "stockpile": 1,
+    "barter": 0,
+    "item_slot_size": 6000,
+    "cargo_slot_size": 60000,
+    "model_address": "Vehicles/DeerMount",
+    "stats": [],
+    "player_animations_in_deployable_slots": [
+      2
+    ],
+    "allow_driver_extract": false,
+    "allow_passenger_extract": false,
+    "show_for_secs_after_owner_logout": 0,
+    "allow_emote_while_driver": false,
+    "allow_emote_while_passenger": false,
+    "experience_per_progress": [
+      [
+        17,
+        0.0
+      ]
+    ],
     "mounting_radius": 3.0,
     "radius": 0.0,
     "allow_hunting": false

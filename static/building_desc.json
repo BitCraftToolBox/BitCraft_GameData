@@ -36308,6 +36308,64 @@
     "destroy_on_unclaim": false
   },
   {
+    "id": 21511602,
+    "functions": [
+      [
+        1002,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6000,
+        6000,
+        0,
+        [],
+        0,
+        false,
+        0,
+        0
+      ]
+    ],
+    "name": "Animal Skull Decoration",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/Skull",
+    "icon_asset_name": "PremiumIcons/Skull",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          1,
+          []
+        ]
+      ]
+    ],
+    "max_health": 72,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 0.0,
+    "maintenance": 0.0,
+    "build_permission": [
+      1,
+      {}
+    ],
+    "interact_permission": [
+      1,
+      {}
+    ],
+    "has_action": true,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false,
+    "destroy_on_unclaim": false
+  },
+  {
     "id": 30245764,
     "functions": [
       [
@@ -64600,6 +64658,104 @@
     ],
     "has_action": false,
     "show_in_compendium": false,
+    "is_ruins": false,
+    "not_deconstructible": false,
+    "destroy_on_unclaim": false
+  },
+  {
+    "id": 285476164,
+    "functions": [
+      [
+        104950060,
+        1,
+        12,
+        0,
+        0,
+        0,
+        0,
+        6000,
+        6000,
+        0,
+        [],
+        1,
+        false,
+        0,
+        0
+      ]
+    ],
+    "name": "Taming Station",
+    "description": "A taming station that has all the tools you need to tend to your animals. ",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/TamingWorkbench",
+    "icon_asset_name": "GeneratedIcons/Other/Buildings/Crafting/TamingStation",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        -2,
+        0,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        -1,
+        0,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        0,
+        2,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        0,
+        1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        -1,
+        2,
+        [
+          0,
+          []
+        ]
+      ]
+    ],
+    "max_health": 120,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 1.0,
+    "maintenance": 0.0,
+    "build_permission": [
+      1,
+      {}
+    ],
+    "interact_permission": [
+      3,
+      {}
+    ],
+    "has_action": true,
+    "show_in_compendium": true,
     "is_ruins": false,
     "not_deconstructible": false,
     "destroy_on_unclaim": false
@@ -96750,6 +96906,64 @@
     "destroy_on_unclaim": false
   },
   {
+    "id": 483732917,
+    "functions": [
+      [
+        1002,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6000,
+        6000,
+        0,
+        [],
+        0,
+        false,
+        0,
+        0
+      ]
+    ],
+    "name": "Oil Lamp Decoration",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 10,
+    "model_asset_name": "Buildings/WranglerOilLamp",
+    "icon_asset_name": "PremiumIcons/WranglerOilLamp",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          0,
+          []
+        ]
+      ]
+    ],
+    "max_health": 72,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 0.0,
+    "maintenance": 0.0,
+    "build_permission": [
+      1,
+      {}
+    ],
+    "interact_permission": [
+      1,
+      {}
+    ],
+    "has_action": true,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false,
+    "destroy_on_unclaim": false
+  },
+  {
     "id": 487348714,
     "functions": [
       [
@@ -96831,6 +97045,64 @@
     ],
     "interact_permission": [
       3,
+      {}
+    ],
+    "has_action": true,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false,
+    "destroy_on_unclaim": false
+  },
+  {
+    "id": 487734202,
+    "functions": [
+      [
+        1002,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6000,
+        6000,
+        0,
+        [],
+        0,
+        false,
+        0,
+        0
+      ]
+    ],
+    "name": "Wagon Wheel Decorations",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/FlowerWagonWheel",
+    "icon_asset_name": "PremiumIcons/FlowerWagonWheel",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          0,
+          []
+        ]
+      ]
+    ],
+    "max_health": 72,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 0.0,
+    "maintenance": 0.0,
+    "build_permission": [
+      1,
+      {}
+    ],
+    "interact_permission": [
+      1,
       {}
     ],
     "has_action": true,
@@ -101295,6 +101567,80 @@
     ],
     "has_action": false,
     "show_in_compendium": false,
+    "is_ruins": false,
+    "not_deconstructible": false,
+    "destroy_on_unclaim": false
+  },
+  {
+    "id": 494628588,
+    "functions": [
+      [
+        1002,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6000,
+        6000,
+        0,
+        [],
+        0,
+        false,
+        0,
+        0
+      ]
+    ],
+    "name": "Windvane",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/WranglerWindVane",
+    "icon_asset_name": "PremiumIcons/WranglerWindVane",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        -1,
+        0,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        -1,
+        1,
+        [
+          0,
+          []
+        ]
+      ]
+    ],
+    "max_health": 72,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 0.0,
+    "maintenance": 0.0,
+    "build_permission": [
+      1,
+      {}
+    ],
+    "interact_permission": [
+      1,
+      {}
+    ],
+    "has_action": true,
+    "show_in_compendium": true,
     "is_ruins": false,
     "not_deconstructible": false,
     "destroy_on_unclaim": false
@@ -110037,6 +110383,64 @@
     "destroy_on_unclaim": false
   },
   {
+    "id": 920292553,
+    "functions": [
+      [
+        1002,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6000,
+        6000,
+        0,
+        [],
+        0,
+        false,
+        0,
+        0
+      ]
+    ],
+    "name": "Horse Shoe Decorations",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/HorseShoes",
+    "icon_asset_name": "PremiumIcons/HorseShoes",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          1,
+          []
+        ]
+      ]
+    ],
+    "max_health": 72,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 0.0,
+    "maintenance": 0.0,
+    "build_permission": [
+      1,
+      {}
+    ],
+    "interact_permission": [
+      1,
+      {}
+    ],
+    "has_action": true,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false,
+    "destroy_on_unclaim": false
+  },
+  {
     "id": 923757245,
     "functions": [
       [
@@ -118489,6 +118893,64 @@
     "destroy_on_unclaim": false
   },
   {
+    "id": 1072297628,
+    "functions": [
+      [
+        1002,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6000,
+        6000,
+        0,
+        [],
+        0,
+        false,
+        0,
+        0
+      ]
+    ],
+    "name": "Oil Lamp Post Decoration",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 10,
+    "model_asset_name": "Buildings/WranglerOilLampPost",
+    "icon_asset_name": "PremiumIcons/WranglerOilLampPost",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          0,
+          []
+        ]
+      ]
+    ],
+    "max_health": 72,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 0.0,
+    "maintenance": 0.0,
+    "build_permission": [
+      1,
+      {}
+    ],
+    "interact_permission": [
+      1,
+      {}
+    ],
+    "has_action": true,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false,
+    "destroy_on_unclaim": false
+  },
+  {
     "id": 1073998942,
     "functions": [
       [
@@ -125436,6 +125898,64 @@
     "destroy_on_unclaim": false
   },
   {
+    "id": 1287501053,
+    "functions": [
+      [
+        1002,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6000,
+        6000,
+        0,
+        [],
+        0,
+        false,
+        0,
+        0
+      ]
+    ],
+    "name": "Saloon Gate",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/SaloonGate",
+    "icon_asset_name": "PremiumIcons/SaloonGate",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          1,
+          []
+        ]
+      ]
+    ],
+    "max_health": 72,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 0.0,
+    "maintenance": 0.0,
+    "build_permission": [
+      1,
+      {}
+    ],
+    "interact_permission": [
+      1,
+      {}
+    ],
+    "has_action": true,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false,
+    "destroy_on_unclaim": false
+  },
+  {
     "id": 1288493332,
     "functions": [
       [
@@ -131363,6 +131883,64 @@
     "destroy_on_unclaim": false
   },
   {
+    "id": 1497026288,
+    "functions": [
+      [
+        848835411,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6000,
+        6000,
+        0,
+        [],
+        0,
+        false,
+        0,
+        0
+      ]
+    ],
+    "name": "Animal Skull Sign",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/SkullSign",
+    "icon_asset_name": "PremiumIcons/SkullSign",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          0,
+          []
+        ]
+      ]
+    ],
+    "max_health": 72,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 0.0,
+    "maintenance": 0.0,
+    "build_permission": [
+      1,
+      {}
+    ],
+    "interact_permission": [
+      1,
+      {}
+    ],
+    "has_action": true,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false,
+    "destroy_on_unclaim": false
+  },
+  {
     "id": 1499751082,
     "functions": [
       [
@@ -131478,6 +132056,64 @@
     ],
     "interact_permission": [
       3,
+      {}
+    ],
+    "has_action": true,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false,
+    "destroy_on_unclaim": false
+  },
+  {
+    "id": 1505881337,
+    "functions": [
+      [
+        1002,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6000,
+        6000,
+        0,
+        [],
+        0,
+        false,
+        0,
+        0
+      ]
+    ],
+    "name": "Prickley Pear Cactus Decoration",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/PricklyPearCactusDecoration",
+    "icon_asset_name": "PremiumIcons/PricklyPearCactusDecoration",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          1,
+          []
+        ]
+      ]
+    ],
+    "max_health": 72,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 0.0,
+    "maintenance": 0.0,
+    "build_permission": [
+      1,
+      {}
+    ],
+    "interact_permission": [
+      1,
       {}
     ],
     "has_action": true,
@@ -132952,6 +133588,64 @@
     "ignore_damage": false,
     "defense_level": 10000,
     "decay": 1.0,
+    "maintenance": 0.0,
+    "build_permission": [
+      1,
+      {}
+    ],
+    "interact_permission": [
+      1,
+      {}
+    ],
+    "has_action": true,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false,
+    "destroy_on_unclaim": false
+  },
+  {
+    "id": 1568399176,
+    "functions": [
+      [
+        1002,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6000,
+        6000,
+        0,
+        [],
+        0,
+        false,
+        0,
+        0
+      ]
+    ],
+    "name": "Barbed Wire Fencing",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/BarbedWireFencing",
+    "icon_asset_name": "PremiumIcons/BarbedWireFencing",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          1,
+          []
+        ]
+      ]
+    ],
+    "max_health": 72,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 0.0,
     "maintenance": 0.0,
     "build_permission": [
       1,
@@ -142778,6 +143472,64 @@
     "destroy_on_unclaim": false
   },
   {
+    "id": 1699557210,
+    "functions": [
+      [
+        1002,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6000,
+        6000,
+        0,
+        [],
+        0,
+        false,
+        0,
+        0
+      ]
+    ],
+    "name": "Barrel Table",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/DrinksBarrel",
+    "icon_asset_name": "PremiumIcons/DrinksBarrel",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          0,
+          []
+        ]
+      ]
+    ],
+    "max_health": 72,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 0.0,
+    "maintenance": 0.0,
+    "build_permission": [
+      1,
+      {}
+    ],
+    "interact_permission": [
+      1,
+      {}
+    ],
+    "has_action": true,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false,
+    "destroy_on_unclaim": false
+  },
+  {
     "id": 1702748660,
     "functions": [
       [
@@ -144284,6 +145036,64 @@
     "destroy_on_unclaim": false
   },
   {
+    "id": 1738829214,
+    "functions": [
+      [
+        1002,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6000,
+        6000,
+        0,
+        [],
+        0,
+        false,
+        0,
+        0
+      ]
+    ],
+    "name": "Cow Hide Rug",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/WranglerRug",
+    "icon_asset_name": "PremiumIcons/WranglerRug",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          1,
+          []
+        ]
+      ]
+    ],
+    "max_health": 72,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 0.0,
+    "maintenance": 0.0,
+    "build_permission": [
+      1,
+      {}
+    ],
+    "interact_permission": [
+      1,
+      {}
+    ],
+    "has_action": true,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false,
+    "destroy_on_unclaim": false
+  },
+  {
     "id": 1748167104,
     "functions": [
       [
@@ -144425,6 +145235,80 @@
     ],
     "has_action": false,
     "show_in_compendium": false,
+    "is_ruins": false,
+    "not_deconstructible": false,
+    "destroy_on_unclaim": false
+  },
+  {
+    "id": 1751803641,
+    "functions": [
+      [
+        1680198173,
+        1,
+        0,
+        0,
+        0,
+        400,
+        0,
+        6000,
+        6000,
+        0,
+        [],
+        2,
+        false,
+        0,
+        0
+      ]
+    ],
+    "name": "Animal Hutch",
+    "description": "Used to breed animals and also to give them somewhere to eat and produce various materials.",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/AnimalHutch",
+    "icon_asset_name": "GeneratedIcons/Other/Buildings/Crafting/AnimalHutch",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        0,
+        -1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        -1,
+        0,
+        [
+          0,
+          []
+        ]
+      ]
+    ],
+    "max_health": 120,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 1.0,
+    "maintenance": 0.0,
+    "build_permission": [
+      1,
+      {}
+    ],
+    "interact_permission": [
+      3,
+      {}
+    ],
+    "has_action": true,
+    "show_in_compendium": true,
     "is_ruins": false,
     "not_deconstructible": false,
     "destroy_on_unclaim": false
@@ -164259,6 +165143,88 @@
     ],
     "has_action": false,
     "show_in_compendium": false,
+    "is_ruins": false,
+    "not_deconstructible": false,
+    "destroy_on_unclaim": false
+  },
+  {
+    "id": 1969138941,
+    "functions": [
+      [
+        1002,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6000,
+        6000,
+        0,
+        [],
+        0,
+        false,
+        0,
+        0
+      ]
+    ],
+    "name": "Cowboy Archway",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/SkullArchway",
+    "icon_asset_name": "PremiumIcons/SkullArchway",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        -3,
+        0,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        -1,
+        0,
+        [
+          1,
+          []
+        ]
+      ],
+      [
+        -2,
+        0,
+        [
+          1,
+          []
+        ]
+      ]
+    ],
+    "max_health": 72,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 0.0,
+    "maintenance": 0.0,
+    "build_permission": [
+      1,
+      {}
+    ],
+    "interact_permission": [
+      1,
+      {}
+    ],
+    "has_action": true,
+    "show_in_compendium": true,
     "is_ruins": false,
     "not_deconstructible": false,
     "destroy_on_unclaim": false
