@@ -183,6 +183,51 @@
     "pct_nodes_for_max_contribution": 0.0
   },
   {
+    "id": 264816367,
+    "name": "Search for Brico's Buried Bucks",
+    "description": "Brico has buried his old coins and receipts in the Rocky Garden. You will need a Big Brico Key to open the cache once you find it.",
+    "resource_clump_id": 254214522,
+    "placeholder_resource_clump_id": 1010220448,
+    "enemy_ai_desc_id": 0,
+    "is_aquatic_resource": false,
+    "biome_requirements": [
+      9
+    ],
+    "equipment_requirements": [],
+    "required_items_to_start": [],
+    "required_items_to_interact_with_reward": [],
+    "consumed_items_by_ability_trigger": [],
+    "allow_aquatic_prospecting": false,
+    "bread_crumb_count": [
+      3,
+      3
+    ],
+    "bread_crumb_radius": [
+      10,
+      12
+    ],
+    "distance_between_bread_crumbs": [
+      180,
+      220
+    ],
+    "deadzone_angle_between_crumbs": 0.0,
+    "allow_aquatic_bread_crumb": false,
+    "pointer_duration": 4.0,
+    "prospecting_duration": 3.0,
+    "join_radius": 40,
+    "contribution_per_visited_bread_crumb": 1,
+    "breadcrumb_found_message": "You've found a trail to a clue",
+    "resource_uncovered_message": "You've found the final trail to the clue",
+    "breadcrumb_found_by_someone_else_message": "You are able to follow someone else's trail",
+    "resource_uncovered_by_someone_else_message": "You are able to follow someone else's trail to the clue",
+    "icon_asset_path": "5",
+    "experience_per_node": {
+      "skill_id": 0,
+      "quantity": 0.0
+    },
+    "pct_nodes_for_max_contribution": 0.0
+  },
+  {
     "id": 296926863,
     "name": "Beehive Hunt",
     "description": "Search the Calm Forest for a Beehive for Alesi",
