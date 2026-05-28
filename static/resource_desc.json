@@ -35725,6 +35725,36 @@
     "on_destroy_yield_resource_chance": 1.0
   },
   {
+    "id": 1702339460,
+    "name": "Brico's Buried Cache",
+    "description": "A cache containing Brico's old coins and receipts. Contains several compartments which each need their own key to unlock.",
+    "flattenable": false,
+    "max_health": 250000,
+    "ignore_damage": true,
+    "despawn_time": 0.0,
+    "model_asset_name": "Resources/Brico'sCache",
+    "icon_asset_name": "GeneratedIcons/Other/Buildings/Storage/ChestSmallT4",
+    "on_destroy_yield": [],
+    "on_destroy_yield_resource_id": 0,
+    "spawn_priority": 1,
+    "footprint": [
+      {
+        "x": 0,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      }
+    ],
+    "tier": 4,
+    "tag": "Quest",
+    "rarity": "Common",
+    "compendium_entry": true,
+    "enemy_params_id": [],
+    "scheduled_respawn_time": 0.0,
+    "not_respawning": false,
+    "show_time_left": false,
+    "on_destroy_yield_resource_chance": 1.0
+  },
+  {
     "id": 1709170104,
     "name": "Elenvar Outcrop Interior Depleted",
     "description": "",

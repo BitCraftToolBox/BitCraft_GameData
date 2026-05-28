@@ -28191,6 +28191,55 @@
     "destroy_on_unclaim": false
   },
   {
+    "id": 167574876,
+    "functions": [
+      {
+        "function_type": 1002,
+        "level": -1,
+        "crafting_slots": 0,
+        "storage_slots": 0,
+        "cargo_slots": 0,
+        "refining_slots": 0,
+        "refining_cargo_slots": 0,
+        "item_slot_size": 6000,
+        "cargo_slot_size": 6000,
+        "trade_orders": 0,
+        "allowed_item_id_per_slot": [],
+        "concurrent_crafts_per_player": 0,
+        "terraform": false,
+        "housing_slots": 0,
+        "housing_income": 0
+      }
+    ],
+    "name": "Everwoods Small Rug",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/EverwoodsRugB",
+    "icon_asset_name": "PremiumIcons/EverwoodsSmallrug",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      {
+        "x": 0,
+        "z": 0,
+        "footprint_type": "Walkable"
+      }
+    ],
+    "max_health": 72,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 0.0,
+    "maintenance": 0.0,
+    "build_permission": "Claim",
+    "interact_permission": "Claim",
+    "has_action": true,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false,
+    "destroy_on_unclaim": false
+  },
+  {
     "id": 167781550,
     "functions": [
       {
@@ -43286,6 +43335,55 @@
     "maintenance": 0.0,
     "build_permission": "Claim",
     "interact_permission": "All",
+    "has_action": true,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false,
+    "destroy_on_unclaim": false
+  },
+  {
+    "id": 228918709,
+    "functions": [
+      {
+        "function_type": 1002,
+        "level": -1,
+        "crafting_slots": 0,
+        "storage_slots": 0,
+        "cargo_slots": 0,
+        "refining_slots": 0,
+        "refining_cargo_slots": 0,
+        "item_slot_size": 6000,
+        "cargo_slot_size": 6000,
+        "trade_orders": 0,
+        "allowed_item_id_per_slot": [],
+        "concurrent_crafts_per_player": 0,
+        "terraform": false,
+        "housing_slots": 0,
+        "housing_income": 0
+      }
+    ],
+    "name": "Everwoods Shrine",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/EverwoodsShrine",
+    "icon_asset_name": "PremiumIcons/EverwoodsShrine",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      {
+        "x": 0,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      }
+    ],
+    "max_health": 72,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 0.0,
+    "maintenance": 0.0,
+    "build_permission": "Claim",
+    "interact_permission": "Claim",
     "has_action": true,
     "show_in_compendium": true,
     "is_ruins": false,
@@ -70420,6 +70518,70 @@
     "destroy_on_unclaim": false
   },
   {
+    "id": 578945729,
+    "functions": [
+      {
+        "function_type": 1002,
+        "level": -1,
+        "crafting_slots": 0,
+        "storage_slots": 0,
+        "cargo_slots": 0,
+        "refining_slots": 0,
+        "refining_cargo_slots": 0,
+        "item_slot_size": 6000,
+        "cargo_slot_size": 6000,
+        "trade_orders": 0,
+        "allowed_item_id_per_slot": [],
+        "concurrent_crafts_per_player": 0,
+        "terraform": false,
+        "housing_slots": 0,
+        "housing_income": 0
+      }
+    ],
+    "name": "Everwoods Archway",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/EverwoodsArch",
+    "icon_asset_name": "PremiumIcons/EverwoodsArchway",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      {
+        "x": 0,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": -3,
+        "z": 3,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": -2,
+        "z": 2,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": -1,
+        "z": 1,
+        "footprint_type": "Walkable"
+      }
+    ],
+    "max_health": 72,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 0.0,
+    "maintenance": 0.0,
+    "build_permission": "Claim",
+    "interact_permission": "Claim",
+    "has_action": true,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false,
+    "destroy_on_unclaim": false
+  },
+  {
     "id": 580345055,
     "functions": [],
     "name": "RuinDecorSmallBridge",
@@ -93151,6 +93313,55 @@
     "destroy_on_unclaim": false
   },
   {
+    "id": 1614067358,
+    "functions": [
+      {
+        "function_type": 1002,
+        "level": -1,
+        "crafting_slots": 0,
+        "storage_slots": 0,
+        "cargo_slots": 0,
+        "refining_slots": 0,
+        "refining_cargo_slots": 0,
+        "item_slot_size": 6000,
+        "cargo_slot_size": 6000,
+        "trade_orders": 0,
+        "allowed_item_id_per_slot": [],
+        "concurrent_crafts_per_player": 0,
+        "terraform": false,
+        "housing_slots": 0,
+        "housing_income": 0
+      }
+    ],
+    "name": "Everwoods Lamp",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 10,
+    "model_asset_name": "Buildings/EverwoodsLamp",
+    "icon_asset_name": "PremiumIcons/EverwoodsLamppost",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      {
+        "x": 0,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      }
+    ],
+    "max_health": 72,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 0.0,
+    "maintenance": 0.0,
+    "build_permission": "Claim",
+    "interact_permission": "Claim",
+    "has_action": true,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false,
+    "destroy_on_unclaim": false
+  },
+  {
     "id": 1615356491,
     "functions": [],
     "name": "TownDecorTownRuinsWallLong2",
@@ -99509,6 +99720,85 @@
     "ignore_damage": false,
     "defense_level": 10000,
     "decay": 1.0,
+    "maintenance": 0.0,
+    "build_permission": "Claim",
+    "interact_permission": "Claim",
+    "has_action": true,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false,
+    "destroy_on_unclaim": false
+  },
+  {
+    "id": 1704607580,
+    "functions": [
+      {
+        "function_type": 1002,
+        "level": -1,
+        "crafting_slots": 0,
+        "storage_slots": 0,
+        "cargo_slots": 0,
+        "refining_slots": 0,
+        "refining_cargo_slots": 0,
+        "item_slot_size": 6000,
+        "cargo_slot_size": 6000,
+        "trade_orders": 0,
+        "allowed_item_id_per_slot": [],
+        "concurrent_crafts_per_player": 0,
+        "terraform": false,
+        "housing_slots": 0,
+        "housing_income": 0
+      }
+    ],
+    "name": "Everwoods Large Rug",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/EverwoodsRugA",
+    "icon_asset_name": "PremiumIcons/EverwoodsLargerug",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      {
+        "x": 0,
+        "z": 0,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": 0,
+        "z": -1,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": -1,
+        "z": 0,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": 1,
+        "z": -1,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": 1,
+        "z": 0,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": 0,
+        "z": 1,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": -1,
+        "z": 1,
+        "footprint_type": "Walkable"
+      }
+    ],
+    "max_health": 72,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 0.0,
     "maintenance": 0.0,
     "build_permission": "Claim",
     "interact_permission": "Claim",

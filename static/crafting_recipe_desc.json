@@ -37054,6 +37054,74 @@
     "show_in_progression": false
   },
   {
+    "id": 8888937,
+    "name": "Breed {0}",
+    "time_requirement": 28800.0,
+    "stamina_requirement": 0.0,
+    "tool_durability_lost": 0,
+    "building_requirement": {
+      "building_type": 1680198173,
+      "tier": 1
+    },
+    "level_requirements": [
+      {
+        "skill_id": 17,
+        "level": 20
+      }
+    ],
+    "tool_requirements": [],
+    "consumed_item_stacks": [
+      {
+        "item_id": 2072931905,
+        "quantity": 1,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      },
+      {
+        "item_id": 224880567,
+        "quantity": 1,
+        "item_type": "Item",
+        "discovery_score": 0,
+        "consumption_chance": 1.0
+      },
+      {
+        "item_id": 11007,
+        "quantity": 1,
+        "item_type": "Item",
+        "discovery_score": 0,
+        "consumption_chance": 1.0
+      }
+    ],
+    "discovery_triggers": [],
+    "required_claim_tech_id": 0,
+    "full_discovery_score": 1,
+    "experience_per_progress": [
+      {
+        "skill_id": 17,
+        "quantity": 0.0
+      }
+    ],
+    "crafted_item_stacks": [
+      {
+        "item_id": 1592653184,
+        "quantity": 1,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "actions_required": 1,
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 0,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "hide_without_required_knowledge": false,
+    "hide_with_blocking_knowledges": false,
+    "allow_use_hands": true,
+    "is_passive": true,
+    "show_in_progression": false
+  },
+  {
     "id": 9690231,
     "name": "Craft {0}",
     "time_requirement": 1.6,
@@ -38108,6 +38176,55 @@
     "actions_required": 130,
     "tool_mesh_index": 0,
     "recipe_performance_id": 453,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "hide_without_required_knowledge": false,
+    "hide_with_blocking_knowledges": false,
+    "allow_use_hands": false,
+    "is_passive": false,
+    "show_in_progression": false
+  },
+  {
+    "id": 15469755,
+    "name": "Unpack {1}",
+    "time_requirement": 1.6,
+    "stamina_requirement": 1.86,
+    "tool_durability_lost": 0,
+    "building_requirement": {
+      "building_type": 33,
+      "tier": 1
+    },
+    "level_requirements": [
+      {
+        "skill_id": 11,
+        "level": 1
+      }
+    ],
+    "tool_requirements": [],
+    "consumed_item_stacks": [
+      {
+        "item_id": 1882210875,
+        "quantity": 1,
+        "item_type": "Cargo",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "discovery_triggers": [],
+    "required_claim_tech_id": 0,
+    "full_discovery_score": 1,
+    "experience_per_progress": [],
+    "crafted_item_stacks": [
+      {
+        "item_id": 845990900,
+        "quantity": 1000,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "actions_required": 1,
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 1,
     "required_knowledges": [],
     "blocking_knowledges": [],
     "hide_without_required_knowledge": false,
@@ -41295,6 +41412,55 @@
       }
     ],
     "actions_required": 10,
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 1,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "hide_without_required_knowledge": false,
+    "hide_with_blocking_knowledges": false,
+    "allow_use_hands": false,
+    "is_passive": false,
+    "show_in_progression": false
+  },
+  {
+    "id": 34299978,
+    "name": "Unpack {1}",
+    "time_requirement": 1.6,
+    "stamina_requirement": 1.52,
+    "tool_durability_lost": 0,
+    "building_requirement": {
+      "building_type": 33,
+      "tier": 1
+    },
+    "level_requirements": [
+      {
+        "skill_id": 11,
+        "level": 1
+      }
+    ],
+    "tool_requirements": [],
+    "consumed_item_stacks": [
+      {
+        "item_id": 1134051048,
+        "quantity": 1,
+        "item_type": "Cargo",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "discovery_triggers": [],
+    "required_claim_tech_id": 0,
+    "full_discovery_score": 1,
+    "experience_per_progress": [],
+    "crafted_item_stacks": [
+      {
+        "item_id": 466935552,
+        "quantity": 10000,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "actions_required": 1,
     "tool_mesh_index": 0,
     "recipe_performance_id": 1,
     "required_knowledges": [],
@@ -45633,6 +45799,74 @@
     "show_in_progression": false
   },
   {
+    "id": 55545946,
+    "name": "Craft",
+    "time_requirement": 1.6,
+    "stamina_requirement": 0.75,
+    "tool_durability_lost": 0,
+    "building_requirement": {
+      "building_type": 104950060,
+      "tier": 1
+    },
+    "level_requirements": [
+      {
+        "skill_id": 17,
+        "level": 20
+      }
+    ],
+    "tool_requirements": [],
+    "consumed_item_stacks": [
+      {
+        "item_id": 2020003,
+        "quantity": 4,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      },
+      {
+        "item_id": 362614434,
+        "quantity": 1,
+        "item_type": "Item",
+        "discovery_score": 0,
+        "consumption_chance": 1.0
+      },
+      {
+        "item_id": 2050002,
+        "quantity": 3,
+        "item_type": "Item",
+        "discovery_score": 0,
+        "consumption_chance": 1.0
+      }
+    ],
+    "discovery_triggers": [],
+    "required_claim_tech_id": 0,
+    "full_discovery_score": 1,
+    "experience_per_progress": [
+      {
+        "skill_id": 17,
+        "quantity": 20.0
+      }
+    ],
+    "crafted_item_stacks": [
+      {
+        "item_id": 1189482934,
+        "quantity": 1,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "actions_required": 10,
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 103,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "hide_without_required_knowledge": false,
+    "hide_with_blocking_knowledges": false,
+    "allow_use_hands": true,
+    "is_passive": false,
+    "show_in_progression": false
+  },
+  {
     "id": 56062210,
     "name": "Extract {0}",
     "time_requirement": 1.6,
@@ -46462,6 +46696,55 @@
     "actions_required": 220,
     "tool_mesh_index": 0,
     "recipe_performance_id": 650,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "hide_without_required_knowledge": false,
+    "hide_with_blocking_knowledges": false,
+    "allow_use_hands": false,
+    "is_passive": false,
+    "show_in_progression": false
+  },
+  {
+    "id": 60275166,
+    "name": "Package {1} into {0}",
+    "time_requirement": 1.6,
+    "stamina_requirement": 0.89,
+    "tool_durability_lost": 0,
+    "building_requirement": {
+      "building_type": 33,
+      "tier": 1
+    },
+    "level_requirements": [
+      {
+        "skill_id": 11,
+        "level": 1
+      }
+    ],
+    "tool_requirements": [],
+    "consumed_item_stacks": [
+      {
+        "item_id": 2100010,
+        "quantity": 1000,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "discovery_triggers": [],
+    "required_claim_tech_id": 0,
+    "full_discovery_score": 1,
+    "experience_per_progress": [],
+    "crafted_item_stacks": [
+      {
+        "item_id": 1500491996,
+        "quantity": 1,
+        "item_type": "Cargo",
+        "durability": null
+      }
+    ],
+    "actions_required": 1,
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 1,
     "required_knowledges": [],
     "blocking_knowledges": [],
     "hide_without_required_knowledge": false,
@@ -53636,6 +53919,74 @@
     "show_in_progression": false
   },
   {
+    "id": 92410670,
+    "name": "Breed {0}",
+    "time_requirement": 28800.0,
+    "stamina_requirement": 0.0,
+    "tool_durability_lost": 0,
+    "building_requirement": {
+      "building_type": 1680198173,
+      "tier": 1
+    },
+    "level_requirements": [
+      {
+        "skill_id": 17,
+        "level": 20
+      }
+    ],
+    "tool_requirements": [],
+    "consumed_item_stacks": [
+      {
+        "item_id": 2142920653,
+        "quantity": 1,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      },
+      {
+        "item_id": 224880567,
+        "quantity": 1,
+        "item_type": "Item",
+        "discovery_score": 0,
+        "consumption_chance": 1.0
+      },
+      {
+        "item_id": 11007,
+        "quantity": 1,
+        "item_type": "Item",
+        "discovery_score": 0,
+        "consumption_chance": 1.0
+      }
+    ],
+    "discovery_triggers": [],
+    "required_claim_tech_id": 0,
+    "full_discovery_score": 1,
+    "experience_per_progress": [
+      {
+        "skill_id": 17,
+        "quantity": 0.0
+      }
+    ],
+    "crafted_item_stacks": [
+      {
+        "item_id": 38847422,
+        "quantity": 1,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "actions_required": 1,
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 0,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "hide_without_required_knowledge": false,
+    "hide_with_blocking_knowledges": false,
+    "allow_use_hands": true,
+    "is_passive": true,
+    "show_in_progression": false
+  },
+  {
     "id": 92614706,
     "name": "Craft {0}",
     "time_requirement": 1.6,
@@ -57602,6 +57953,55 @@
       }
     ],
     "actions_required": 10,
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 1,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "hide_without_required_knowledge": false,
+    "hide_with_blocking_knowledges": false,
+    "allow_use_hands": false,
+    "is_passive": false,
+    "show_in_progression": false
+  },
+  {
+    "id": 111601291,
+    "name": "Unpack {1}",
+    "time_requirement": 1.6,
+    "stamina_requirement": 1.41,
+    "tool_durability_lost": 0,
+    "building_requirement": {
+      "building_type": 33,
+      "tier": 1
+    },
+    "level_requirements": [
+      {
+        "skill_id": 11,
+        "level": 1
+      }
+    ],
+    "tool_requirements": [],
+    "consumed_item_stacks": [
+      {
+        "item_id": 24700072,
+        "quantity": 1,
+        "item_type": "Cargo",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "discovery_triggers": [],
+    "required_claim_tech_id": 0,
+    "full_discovery_score": 1,
+    "experience_per_progress": [],
+    "crafted_item_stacks": [
+      {
+        "item_id": 6100007,
+        "quantity": 10000,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "actions_required": 1,
     "tool_mesh_index": 0,
     "recipe_performance_id": 1,
     "required_knowledges": [],
@@ -63984,6 +64384,55 @@
     "show_in_progression": false
   },
   {
+    "id": 146179495,
+    "name": "Unpack {1}",
+    "time_requirement": 1.6,
+    "stamina_requirement": 0.75,
+    "tool_durability_lost": 0,
+    "building_requirement": {
+      "building_type": 13,
+      "tier": 1
+    },
+    "level_requirements": [
+      {
+        "skill_id": 13,
+        "level": 1
+      }
+    ],
+    "tool_requirements": [],
+    "consumed_item_stacks": [
+      {
+        "item_id": 1198485806,
+        "quantity": 1,
+        "item_type": "Cargo",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "discovery_triggers": [],
+    "required_claim_tech_id": 0,
+    "full_discovery_score": 1,
+    "experience_per_progress": [],
+    "crafted_item_stacks": [
+      {
+        "item_id": 253606511,
+        "quantity": 1000,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "actions_required": 1,
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 1,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "hide_without_required_knowledge": false,
+    "hide_with_blocking_knowledges": false,
+    "allow_use_hands": false,
+    "is_passive": false,
+    "show_in_progression": false
+  },
+  {
     "id": 146274666,
     "name": "Scrap {1}",
     "time_requirement": 1.6,
@@ -64781,6 +65230,74 @@
     "hide_with_blocking_knowledges": false,
     "allow_use_hands": false,
     "is_passive": false,
+    "show_in_progression": false
+  },
+  {
+    "id": 151003744,
+    "name": "Breed {0}",
+    "time_requirement": 1800.0,
+    "stamina_requirement": 0.0,
+    "tool_durability_lost": 0,
+    "building_requirement": {
+      "building_type": 1680198173,
+      "tier": 1
+    },
+    "level_requirements": [
+      {
+        "skill_id": 17,
+        "level": 20
+      }
+    ],
+    "tool_requirements": [],
+    "consumed_item_stacks": [
+      {
+        "item_id": 2072931905,
+        "quantity": 2,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      },
+      {
+        "item_id": 224880567,
+        "quantity": 3,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      },
+      {
+        "item_id": 11007,
+        "quantity": 1,
+        "item_type": "Item",
+        "discovery_score": 0,
+        "consumption_chance": 1.0
+      }
+    ],
+    "discovery_triggers": [],
+    "required_claim_tech_id": 0,
+    "full_discovery_score": 2,
+    "experience_per_progress": [
+      {
+        "skill_id": 17,
+        "quantity": 0.0
+      }
+    ],
+    "crafted_item_stacks": [
+      {
+        "item_id": 2018476323,
+        "quantity": 1,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "actions_required": 1,
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 0,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "hide_without_required_knowledge": false,
+    "hide_with_blocking_knowledges": false,
+    "allow_use_hands": true,
+    "is_passive": true,
     "show_in_progression": false
   },
   {
@@ -79128,6 +79645,55 @@
     "show_in_progression": false
   },
   {
+    "id": 213788633,
+    "name": "Package {1} into {0}",
+    "time_requirement": 1.6,
+    "stamina_requirement": 1.41,
+    "tool_durability_lost": 0,
+    "building_requirement": {
+      "building_type": 33,
+      "tier": 1
+    },
+    "level_requirements": [
+      {
+        "skill_id": 11,
+        "level": 1
+      }
+    ],
+    "tool_requirements": [],
+    "consumed_item_stacks": [
+      {
+        "item_id": 6100007,
+        "quantity": 10000,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "discovery_triggers": [],
+    "required_claim_tech_id": 0,
+    "full_discovery_score": 1,
+    "experience_per_progress": [],
+    "crafted_item_stacks": [
+      {
+        "item_id": 24700072,
+        "quantity": 1,
+        "item_type": "Cargo",
+        "durability": null
+      }
+    ],
+    "actions_required": 1,
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 1,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "hide_without_required_knowledge": false,
+    "hide_with_blocking_knowledges": false,
+    "allow_use_hands": false,
+    "is_passive": false,
+    "show_in_progression": false
+  },
+  {
     "id": 213871789,
     "name": "Scrap {1}",
     "time_requirement": 1.6,
@@ -82184,6 +82750,55 @@
       }
     ],
     "actions_required": 10,
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 1,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "hide_without_required_knowledge": false,
+    "hide_with_blocking_knowledges": false,
+    "allow_use_hands": false,
+    "is_passive": false,
+    "show_in_progression": false
+  },
+  {
+    "id": 225399324,
+    "name": "Unpack {1}",
+    "time_requirement": 1.6,
+    "stamina_requirement": 1.28,
+    "tool_durability_lost": 0,
+    "building_requirement": {
+      "building_type": 33,
+      "tier": 1
+    },
+    "level_requirements": [
+      {
+        "skill_id": 11,
+        "level": 1
+      }
+    ],
+    "tool_requirements": [],
+    "consumed_item_stacks": [
+      {
+        "item_id": 1369134288,
+        "quantity": 1,
+        "item_type": "Cargo",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "discovery_triggers": [],
+    "required_claim_tech_id": 0,
+    "full_discovery_score": 1,
+    "experience_per_progress": [],
+    "crafted_item_stacks": [
+      {
+        "item_id": 5100007,
+        "quantity": 10000,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "actions_required": 1,
     "tool_mesh_index": 0,
     "recipe_performance_id": 1,
     "required_knowledges": [],
@@ -92790,6 +93405,55 @@
     "show_in_progression": false
   },
   {
+    "id": 270848330,
+    "name": "Unpack {1}",
+    "time_requirement": 1.6,
+    "stamina_requirement": 1.86,
+    "tool_durability_lost": 0,
+    "building_requirement": {
+      "building_type": 33,
+      "tier": 1
+    },
+    "level_requirements": [
+      {
+        "skill_id": 11,
+        "level": 1
+      }
+    ],
+    "tool_requirements": [],
+    "consumed_item_stacks": [
+      {
+        "item_id": 922646538,
+        "quantity": 1,
+        "item_type": "Cargo",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "discovery_triggers": [],
+    "required_claim_tech_id": 0,
+    "full_discovery_score": 1,
+    "experience_per_progress": [],
+    "crafted_item_stacks": [
+      {
+        "item_id": 185945650,
+        "quantity": 1000,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "actions_required": 1,
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 1,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "hide_without_required_knowledge": false,
+    "hide_with_blocking_knowledges": false,
+    "allow_use_hands": false,
+    "is_passive": false,
+    "show_in_progression": false
+  },
+  {
     "id": 271030930,
     "name": "Craft {0}",
     "time_requirement": 1.6,
@@ -94776,6 +95440,55 @@
     "crafted_item_stacks": [
       {
         "item_id": 320414617,
+        "quantity": 1,
+        "item_type": "Cargo",
+        "durability": null
+      }
+    ],
+    "actions_required": 1,
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 1,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "hide_without_required_knowledge": false,
+    "hide_with_blocking_knowledges": false,
+    "allow_use_hands": false,
+    "is_passive": false,
+    "show_in_progression": false
+  },
+  {
+    "id": 281000956,
+    "name": "Package {1} into {0}",
+    "time_requirement": 1.6,
+    "stamina_requirement": 1.28,
+    "tool_durability_lost": 0,
+    "building_requirement": {
+      "building_type": 33,
+      "tier": 1
+    },
+    "level_requirements": [
+      {
+        "skill_id": 11,
+        "level": 1
+      }
+    ],
+    "tool_requirements": [],
+    "consumed_item_stacks": [
+      {
+        "item_id": 5100010,
+        "quantity": 1000,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "discovery_triggers": [],
+    "required_claim_tech_id": 0,
+    "full_discovery_score": 1,
+    "experience_per_progress": [],
+    "crafted_item_stacks": [
+      {
+        "item_id": 1780846695,
         "quantity": 1,
         "item_type": "Cargo",
         "durability": null
@@ -98231,6 +98944,74 @@
     "show_in_progression": false
   },
   {
+    "id": 297842947,
+    "name": "Breed {0}",
+    "time_requirement": 28800.0,
+    "stamina_requirement": 0.0,
+    "tool_durability_lost": 0,
+    "building_requirement": {
+      "building_type": 1680198173,
+      "tier": 1
+    },
+    "level_requirements": [
+      {
+        "skill_id": 17,
+        "level": 20
+      }
+    ],
+    "tool_requirements": [],
+    "consumed_item_stacks": [
+      {
+        "item_id": 2089657221,
+        "quantity": 1,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      },
+      {
+        "item_id": 224880567,
+        "quantity": 1,
+        "item_type": "Item",
+        "discovery_score": 0,
+        "consumption_chance": 1.0
+      },
+      {
+        "item_id": 11007,
+        "quantity": 1,
+        "item_type": "Item",
+        "discovery_score": 0,
+        "consumption_chance": 1.0
+      }
+    ],
+    "discovery_triggers": [],
+    "required_claim_tech_id": 0,
+    "full_discovery_score": 1,
+    "experience_per_progress": [
+      {
+        "skill_id": 17,
+        "quantity": 0.0
+      }
+    ],
+    "crafted_item_stacks": [
+      {
+        "item_id": 110531716,
+        "quantity": 1,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "actions_required": 1,
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 0,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "hide_without_required_knowledge": false,
+    "hide_with_blocking_knowledges": false,
+    "allow_use_hands": true,
+    "is_passive": true,
+    "show_in_progression": false
+  },
+  {
     "id": 297897079,
     "name": "Recraft {1}",
     "time_requirement": 1.6,
@@ -98627,6 +99408,74 @@
     "hide_with_blocking_knowledges": false,
     "allow_use_hands": false,
     "is_passive": false,
+    "show_in_progression": false
+  },
+  {
+    "id": 299841040,
+    "name": "Breed {0}",
+    "time_requirement": 28800.0,
+    "stamina_requirement": 0.0,
+    "tool_durability_lost": 0,
+    "building_requirement": {
+      "building_type": 1680198173,
+      "tier": 1
+    },
+    "level_requirements": [
+      {
+        "skill_id": 17,
+        "level": 20
+      }
+    ],
+    "tool_requirements": [],
+    "consumed_item_stacks": [
+      {
+        "item_id": 429532539,
+        "quantity": 1,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      },
+      {
+        "item_id": 224880567,
+        "quantity": 1,
+        "item_type": "Item",
+        "discovery_score": 0,
+        "consumption_chance": 1.0
+      },
+      {
+        "item_id": 11007,
+        "quantity": 1,
+        "item_type": "Item",
+        "discovery_score": 0,
+        "consumption_chance": 1.0
+      }
+    ],
+    "discovery_triggers": [],
+    "required_claim_tech_id": 0,
+    "full_discovery_score": 1,
+    "experience_per_progress": [
+      {
+        "skill_id": 17,
+        "quantity": 0.0
+      }
+    ],
+    "crafted_item_stacks": [
+      {
+        "item_id": 1670725618,
+        "quantity": 1,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "actions_required": 1,
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 0,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "hide_without_required_knowledge": false,
+    "hide_with_blocking_knowledges": false,
+    "allow_use_hands": true,
+    "is_passive": true,
     "show_in_progression": false
   },
   {
@@ -106785,7 +107634,7 @@
       },
       {
         "item_id": 1923990437,
-        "quantity": 3,
+        "quantity": 1,
         "item_type": "Item",
         "discovery_score": 0,
         "consumption_chance": 1.0
@@ -110848,6 +111697,55 @@
       }
     ],
     "actions_required": 10,
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 1,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "hide_without_required_knowledge": false,
+    "hide_with_blocking_knowledges": false,
+    "allow_use_hands": false,
+    "is_passive": false,
+    "show_in_progression": false
+  },
+  {
+    "id": 361028367,
+    "name": "Unpack {1}",
+    "time_requirement": 1.6,
+    "stamina_requirement": 1.52,
+    "tool_durability_lost": 0,
+    "building_requirement": {
+      "building_type": 33,
+      "tier": 1
+    },
+    "level_requirements": [
+      {
+        "skill_id": 11,
+        "level": 1
+      }
+    ],
+    "tool_requirements": [],
+    "consumed_item_stacks": [
+      {
+        "item_id": 786765594,
+        "quantity": 1,
+        "item_type": "Cargo",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "discovery_triggers": [],
+    "required_claim_tech_id": 0,
+    "full_discovery_score": 1,
+    "experience_per_progress": [],
+    "crafted_item_stacks": [
+      {
+        "item_id": 817656467,
+        "quantity": 1000,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "actions_required": 1,
     "tool_mesh_index": 0,
     "recipe_performance_id": 1,
     "required_knowledges": [],
@@ -118015,6 +118913,55 @@
     ],
     "blocking_knowledges": [],
     "hide_without_required_knowledge": true,
+    "hide_with_blocking_knowledges": false,
+    "allow_use_hands": false,
+    "is_passive": false,
+    "show_in_progression": false
+  },
+  {
+    "id": 393136858,
+    "name": "Unpack {1}",
+    "time_requirement": 1.6,
+    "stamina_requirement": 0.75,
+    "tool_durability_lost": 0,
+    "building_requirement": {
+      "building_type": 33,
+      "tier": 1
+    },
+    "level_requirements": [
+      {
+        "skill_id": 11,
+        "level": 1
+      }
+    ],
+    "tool_requirements": [],
+    "consumed_item_stacks": [
+      {
+        "item_id": 1692150421,
+        "quantity": 1,
+        "item_type": "Cargo",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "discovery_triggers": [],
+    "required_claim_tech_id": 0,
+    "full_discovery_score": 1,
+    "experience_per_progress": [],
+    "crafted_item_stacks": [
+      {
+        "item_id": 1100007,
+        "quantity": 10000,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "actions_required": 1,
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 1,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "hide_without_required_knowledge": false,
     "hide_with_blocking_knowledges": false,
     "allow_use_hands": false,
     "is_passive": false,
@@ -137578,6 +138525,55 @@
     "show_in_progression": false
   },
   {
+    "id": 483877963,
+    "name": "Unpack {1}",
+    "time_requirement": 1.6,
+    "stamina_requirement": 1.03,
+    "tool_durability_lost": 0,
+    "building_requirement": {
+      "building_type": 33,
+      "tier": 1
+    },
+    "level_requirements": [
+      {
+        "skill_id": 11,
+        "level": 1
+      }
+    ],
+    "tool_requirements": [],
+    "consumed_item_stacks": [
+      {
+        "item_id": 1953656362,
+        "quantity": 1,
+        "item_type": "Cargo",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "discovery_triggers": [],
+    "required_claim_tech_id": 0,
+    "full_discovery_score": 1,
+    "experience_per_progress": [],
+    "crafted_item_stacks": [
+      {
+        "item_id": 3100017,
+        "quantity": 1000,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "actions_required": 1,
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 1,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "hide_without_required_knowledge": false,
+    "hide_with_blocking_knowledges": false,
+    "allow_use_hands": false,
+    "is_passive": false,
+    "show_in_progression": false
+  },
+  {
     "id": 484434876,
     "name": "Craft {0}",
     "time_requirement": 1.6,
@@ -137657,6 +138653,55 @@
     "actions_required": 745,
     "tool_mesh_index": 0,
     "recipe_performance_id": 18,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "hide_without_required_knowledge": false,
+    "hide_with_blocking_knowledges": false,
+    "allow_use_hands": false,
+    "is_passive": false,
+    "show_in_progression": false
+  },
+  {
+    "id": 484544477,
+    "name": "Package {1} into {0}",
+    "time_requirement": 1.6,
+    "stamina_requirement": 1.28,
+    "tool_durability_lost": 0,
+    "building_requirement": {
+      "building_type": 33,
+      "tier": 1
+    },
+    "level_requirements": [
+      {
+        "skill_id": 11,
+        "level": 1
+      }
+    ],
+    "tool_requirements": [],
+    "consumed_item_stacks": [
+      {
+        "item_id": 5100007,
+        "quantity": 10000,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "discovery_triggers": [],
+    "required_claim_tech_id": 0,
+    "full_discovery_score": 1,
+    "experience_per_progress": [],
+    "crafted_item_stacks": [
+      {
+        "item_id": 1369134288,
+        "quantity": 1,
+        "item_type": "Cargo",
+        "durability": null
+      }
+    ],
+    "actions_required": 1,
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 1,
     "required_knowledges": [],
     "blocking_knowledges": [],
     "hide_without_required_knowledge": false,
@@ -139199,6 +140244,55 @@
       }
     ],
     "actions_required": 10,
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 1,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "hide_without_required_knowledge": false,
+    "hide_with_blocking_knowledges": false,
+    "allow_use_hands": false,
+    "is_passive": false,
+    "show_in_progression": false
+  },
+  {
+    "id": 491374663,
+    "name": "Package {1} into {0}",
+    "time_requirement": 1.6,
+    "stamina_requirement": 1.86,
+    "tool_durability_lost": 0,
+    "building_requirement": {
+      "building_type": 33,
+      "tier": 1
+    },
+    "level_requirements": [
+      {
+        "skill_id": 11,
+        "level": 1
+      }
+    ],
+    "tool_requirements": [],
+    "consumed_item_stacks": [
+      {
+        "item_id": 845990900,
+        "quantity": 1000,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "discovery_triggers": [],
+    "required_claim_tech_id": 0,
+    "full_discovery_score": 1,
+    "experience_per_progress": [],
+    "crafted_item_stacks": [
+      {
+        "item_id": 1882210875,
+        "quantity": 1,
+        "item_type": "Cargo",
+        "durability": null
+      }
+    ],
+    "actions_required": 1,
     "tool_mesh_index": 0,
     "recipe_performance_id": 1,
     "required_knowledges": [],
@@ -150489,6 +151583,55 @@
     "show_in_progression": false
   },
   {
+    "id": 539656026,
+    "name": "Package {1} into {0}",
+    "time_requirement": 1.6,
+    "stamina_requirement": 0.75,
+    "tool_durability_lost": 0,
+    "building_requirement": {
+      "building_type": 33,
+      "tier": 1
+    },
+    "level_requirements": [
+      {
+        "skill_id": 11,
+        "level": 1
+      }
+    ],
+    "tool_requirements": [],
+    "consumed_item_stacks": [
+      {
+        "item_id": 1100007,
+        "quantity": 10000,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "discovery_triggers": [],
+    "required_claim_tech_id": 0,
+    "full_discovery_score": 1,
+    "experience_per_progress": [],
+    "crafted_item_stacks": [
+      {
+        "item_id": 1692150421,
+        "quantity": 1,
+        "item_type": "Cargo",
+        "durability": null
+      }
+    ],
+    "actions_required": 1,
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 1,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "hide_without_required_knowledge": false,
+    "hide_with_blocking_knowledges": false,
+    "allow_use_hands": false,
+    "is_passive": false,
+    "show_in_progression": false
+  },
+  {
     "id": 539733398,
     "name": "Scrap {1}",
     "time_requirement": 1.6,
@@ -154846,6 +155989,55 @@
     "show_in_progression": false
   },
   {
+    "id": 557835196,
+    "name": "Unpack {1}",
+    "time_requirement": 1.6,
+    "stamina_requirement": 1.64,
+    "tool_durability_lost": 0,
+    "building_requirement": {
+      "building_type": 33,
+      "tier": 1
+    },
+    "level_requirements": [
+      {
+        "skill_id": 11,
+        "level": 1
+      }
+    ],
+    "tool_requirements": [],
+    "consumed_item_stacks": [
+      {
+        "item_id": 1154310944,
+        "quantity": 1,
+        "item_type": "Cargo",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "discovery_triggers": [],
+    "required_claim_tech_id": 0,
+    "full_discovery_score": 1,
+    "experience_per_progress": [],
+    "crafted_item_stacks": [
+      {
+        "item_id": 1981238432,
+        "quantity": 1000,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "actions_required": 1,
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 1,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "hide_without_required_knowledge": false,
+    "hide_with_blocking_knowledges": false,
+    "allow_use_hands": false,
+    "is_passive": false,
+    "show_in_progression": false
+  },
+  {
     "id": 557971904,
     "name": "Recraft {1}",
     "time_requirement": 1.6,
@@ -156774,6 +157966,74 @@
     "hide_with_blocking_knowledges": false,
     "allow_use_hands": false,
     "is_passive": false,
+    "show_in_progression": false
+  },
+  {
+    "id": 565976704,
+    "name": "Breed {0}",
+    "time_requirement": 28800.0,
+    "stamina_requirement": 0.0,
+    "tool_durability_lost": 0,
+    "building_requirement": {
+      "building_type": 1680198173,
+      "tier": 1
+    },
+    "level_requirements": [
+      {
+        "skill_id": 17,
+        "level": 20
+      }
+    ],
+    "tool_requirements": [],
+    "consumed_item_stacks": [
+      {
+        "item_id": 87266989,
+        "quantity": 1,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      },
+      {
+        "item_id": 224880567,
+        "quantity": 1,
+        "item_type": "Item",
+        "discovery_score": 0,
+        "consumption_chance": 1.0
+      },
+      {
+        "item_id": 11007,
+        "quantity": 1,
+        "item_type": "Item",
+        "discovery_score": 0,
+        "consumption_chance": 1.0
+      }
+    ],
+    "discovery_triggers": [],
+    "required_claim_tech_id": 0,
+    "full_discovery_score": 1,
+    "experience_per_progress": [
+      {
+        "skill_id": 17,
+        "quantity": 0.0
+      }
+    ],
+    "crafted_item_stacks": [
+      {
+        "item_id": 1823122881,
+        "quantity": 1,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "actions_required": 1,
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 0,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "hide_without_required_knowledge": false,
+    "hide_with_blocking_knowledges": false,
+    "allow_use_hands": true,
+    "is_passive": true,
     "show_in_progression": false
   },
   {
@@ -159225,7 +160485,7 @@
       },
       {
         "item_id": 1923990437,
-        "quantity": 3,
+        "quantity": 1,
         "item_type": "Item",
         "discovery_score": 0,
         "consumption_chance": 1.0
@@ -166565,6 +167825,55 @@
     "show_in_progression": false
   },
   {
+    "id": 619144349,
+    "name": "Package {1} into {0}",
+    "time_requirement": 1.6,
+    "stamina_requirement": 1.75,
+    "tool_durability_lost": 0,
+    "building_requirement": {
+      "building_type": 33,
+      "tier": 1
+    },
+    "level_requirements": [
+      {
+        "skill_id": 11,
+        "level": 1
+      }
+    ],
+    "tool_requirements": [],
+    "consumed_item_stacks": [
+      {
+        "item_id": 1599513441,
+        "quantity": 1000,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "discovery_triggers": [],
+    "required_claim_tech_id": 0,
+    "full_discovery_score": 1,
+    "experience_per_progress": [],
+    "crafted_item_stacks": [
+      {
+        "item_id": 184799906,
+        "quantity": 1,
+        "item_type": "Cargo",
+        "durability": null
+      }
+    ],
+    "actions_required": 1,
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 1,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "hide_without_required_knowledge": false,
+    "hide_with_blocking_knowledges": false,
+    "allow_use_hands": false,
+    "is_passive": false,
+    "show_in_progression": false
+  },
+  {
     "id": 619290037,
     "name": "Scrap {1}",
     "time_requirement": 1.6,
@@ -169466,6 +170775,55 @@
       }
     ],
     "actions_required": 10,
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 1,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "hide_without_required_knowledge": false,
+    "hide_with_blocking_knowledges": false,
+    "allow_use_hands": false,
+    "is_passive": false,
+    "show_in_progression": false
+  },
+  {
+    "id": 631965324,
+    "name": "Package {1} into {0}",
+    "time_requirement": 1.6,
+    "stamina_requirement": 0.75,
+    "tool_durability_lost": 0,
+    "building_requirement": {
+      "building_type": 44,
+      "tier": 1
+    },
+    "level_requirements": [
+      {
+        "skill_id": 2,
+        "level": 1
+      }
+    ],
+    "tool_requirements": [],
+    "consumed_item_stacks": [
+      {
+        "item_id": 11012,
+        "quantity": 1000,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "discovery_triggers": [],
+    "required_claim_tech_id": 0,
+    "full_discovery_score": 1,
+    "experience_per_progress": [],
+    "crafted_item_stacks": [
+      {
+        "item_id": 1500634540,
+        "quantity": 1,
+        "item_type": "Cargo",
+        "durability": null
+      }
+    ],
+    "actions_required": 1,
     "tool_mesh_index": 0,
     "recipe_performance_id": 1,
     "required_knowledges": [],
@@ -177522,6 +178880,55 @@
     "show_in_progression": false
   },
   {
+    "id": 668230062,
+    "name": "Package {1} into {0}",
+    "time_requirement": 1.6,
+    "stamina_requirement": 1.03,
+    "tool_durability_lost": 0,
+    "building_requirement": {
+      "building_type": 33,
+      "tier": 1
+    },
+    "level_requirements": [
+      {
+        "skill_id": 11,
+        "level": 1
+      }
+    ],
+    "tool_requirements": [],
+    "consumed_item_stacks": [
+      {
+        "item_id": 3100017,
+        "quantity": 1000,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "discovery_triggers": [],
+    "required_claim_tech_id": 0,
+    "full_discovery_score": 1,
+    "experience_per_progress": [],
+    "crafted_item_stacks": [
+      {
+        "item_id": 1953656362,
+        "quantity": 1,
+        "item_type": "Cargo",
+        "durability": null
+      }
+    ],
+    "actions_required": 1,
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 1,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "hide_without_required_knowledge": false,
+    "hide_with_blocking_knowledges": false,
+    "allow_use_hands": false,
+    "is_passive": false,
+    "show_in_progression": false
+  },
+  {
     "id": 668308337,
     "name": "Scrap {1}",
     "time_requirement": 1.6,
@@ -178404,6 +179811,84 @@
     "required_knowledges": [],
     "blocking_knowledges": [],
     "hide_without_required_knowledge": false,
+    "hide_with_blocking_knowledges": false,
+    "allow_use_hands": false,
+    "is_passive": false,
+    "show_in_progression": false
+  },
+  {
+    "id": 673019754,
+    "name": "Craft {0}",
+    "time_requirement": 1.6,
+    "stamina_requirement": 1.16,
+    "tool_durability_lost": 0,
+    "building_requirement": {
+      "building_type": 937867074,
+      "tier": 1
+    },
+    "level_requirements": [
+      {
+        "skill_id": 15,
+        "level": 45
+      }
+    ],
+    "tool_requirements": [
+      {
+        "tool_type": 14,
+        "level": 1,
+        "power": 1
+      }
+    ],
+    "consumed_item_stacks": [
+      {
+        "item_id": 4050001,
+        "quantity": 10,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      },
+      {
+        "item_id": 1442354536,
+        "quantity": 5,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      },
+      {
+        "item_id": 1203,
+        "quantity": 1,
+        "item_type": "Cargo",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "discovery_triggers": [
+      1371260553
+    ],
+    "required_claim_tech_id": 0,
+    "full_discovery_score": 1,
+    "experience_per_progress": [
+      {
+        "skill_id": 15,
+        "quantity": 1.15
+      }
+    ],
+    "crafted_item_stacks": [
+      {
+        "item_id": 92169812,
+        "quantity": 1,
+        "item_type": "Cargo",
+        "durability": null
+      }
+    ],
+    "actions_required": 100,
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 538,
+    "required_knowledges": [
+      1371260553
+    ],
+    "blocking_knowledges": [],
+    "hide_without_required_knowledge": true,
     "hide_with_blocking_knowledges": false,
     "allow_use_hands": false,
     "is_passive": false,
@@ -186358,6 +187843,55 @@
     "actions_required": 1060,
     "tool_mesh_index": 0,
     "recipe_performance_id": 18,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "hide_without_required_knowledge": false,
+    "hide_with_blocking_knowledges": false,
+    "allow_use_hands": false,
+    "is_passive": false,
+    "show_in_progression": false
+  },
+  {
+    "id": 713968737,
+    "name": "Package {1} into {0}",
+    "time_requirement": 1.6,
+    "stamina_requirement": 1.75,
+    "tool_durability_lost": 0,
+    "building_requirement": {
+      "building_type": 33,
+      "tier": 1
+    },
+    "level_requirements": [
+      {
+        "skill_id": 11,
+        "level": 1
+      }
+    ],
+    "tool_requirements": [],
+    "consumed_item_stacks": [
+      {
+        "item_id": 2015361382,
+        "quantity": 10000,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "discovery_triggers": [],
+    "required_claim_tech_id": 0,
+    "full_discovery_score": 1,
+    "experience_per_progress": [],
+    "crafted_item_stacks": [
+      {
+        "item_id": 1749092890,
+        "quantity": 1,
+        "item_type": "Cargo",
+        "durability": null
+      }
+    ],
+    "actions_required": 1,
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 1,
     "required_knowledges": [],
     "blocking_knowledges": [],
     "hide_without_required_knowledge": false,
@@ -218214,6 +219748,55 @@
     "show_in_progression": false
   },
   {
+    "id": 869528957,
+    "name": "Unpack {1}",
+    "time_requirement": 1.6,
+    "stamina_requirement": 1.75,
+    "tool_durability_lost": 0,
+    "building_requirement": {
+      "building_type": 33,
+      "tier": 1
+    },
+    "level_requirements": [
+      {
+        "skill_id": 11,
+        "level": 1
+      }
+    ],
+    "tool_requirements": [],
+    "consumed_item_stacks": [
+      {
+        "item_id": 1912781121,
+        "quantity": 1,
+        "item_type": "Cargo",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "discovery_triggers": [],
+    "required_claim_tech_id": 0,
+    "full_discovery_score": 1,
+    "experience_per_progress": [],
+    "crafted_item_stacks": [
+      {
+        "item_id": 790622330,
+        "quantity": 1000,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "actions_required": 1,
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 1,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "hide_without_required_knowledge": false,
+    "hide_with_blocking_knowledges": false,
+    "allow_use_hands": false,
+    "is_passive": false,
+    "show_in_progression": false
+  },
+  {
     "id": 869579566,
     "name": "Scrap {1}",
     "time_requirement": 1.6,
@@ -219314,6 +220897,55 @@
     "actions_required": 185,
     "tool_mesh_index": 0,
     "recipe_performance_id": 650,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "hide_without_required_knowledge": false,
+    "hide_with_blocking_knowledges": false,
+    "allow_use_hands": false,
+    "is_passive": false,
+    "show_in_progression": false
+  },
+  {
+    "id": 876463101,
+    "name": "Package {1} into {0}",
+    "time_requirement": 1.6,
+    "stamina_requirement": 0.75,
+    "tool_durability_lost": 0,
+    "building_requirement": {
+      "building_type": 33,
+      "tier": 1
+    },
+    "level_requirements": [
+      {
+        "skill_id": 11,
+        "level": 1
+      }
+    ],
+    "tool_requirements": [],
+    "consumed_item_stacks": [
+      {
+        "item_id": 1100017,
+        "quantity": 1000,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "discovery_triggers": [],
+    "required_claim_tech_id": 0,
+    "full_discovery_score": 1,
+    "experience_per_progress": [],
+    "crafted_item_stacks": [
+      {
+        "item_id": 1349119383,
+        "quantity": 1,
+        "item_type": "Cargo",
+        "durability": null
+      }
+    ],
+    "actions_required": 1,
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 1,
     "required_knowledges": [],
     "blocking_knowledges": [],
     "hide_without_required_knowledge": false,
@@ -225724,6 +227356,80 @@
     "show_in_progression": false
   },
   {
+    "id": 913257310,
+    "name": "Craft {0}",
+    "time_requirement": 1.6,
+    "stamina_requirement": 1.03,
+    "tool_durability_lost": 0,
+    "building_requirement": {
+      "building_type": 16,
+      "tier": 3
+    },
+    "level_requirements": [
+      {
+        "skill_id": 8,
+        "level": 34
+      }
+    ],
+    "tool_requirements": [
+      {
+        "tool_type": 6,
+        "level": 3,
+        "power": 1
+      }
+    ],
+    "consumed_item_stacks": [
+      {
+        "item_id": 3070004,
+        "quantity": 10,
+        "item_type": "Item",
+        "discovery_score": 0,
+        "consumption_chance": 1.0
+      },
+      {
+        "item_id": 1257541511,
+        "quantity": 20,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      },
+      {
+        "item_id": 1959817225,
+        "quantity": 5,
+        "item_type": "Item",
+        "discovery_score": 0,
+        "consumption_chance": 1.0
+      }
+    ],
+    "discovery_triggers": [],
+    "required_claim_tech_id": 0,
+    "full_discovery_score": 1,
+    "experience_per_progress": [
+      {
+        "skill_id": 8,
+        "quantity": 1.92
+      }
+    ],
+    "crafted_item_stacks": [
+      {
+        "item_id": 1395357811,
+        "quantity": 1,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "actions_required": 340,
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 453,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "hide_without_required_knowledge": false,
+    "hide_with_blocking_knowledges": false,
+    "allow_use_hands": false,
+    "is_passive": false,
+    "show_in_progression": false
+  },
+  {
     "id": 913357384,
     "name": "Package {1} into {0}",
     "time_requirement": 1.6,
@@ -228610,6 +230316,55 @@
       }
     ],
     "actions_required": 10,
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 1,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "hide_without_required_knowledge": false,
+    "hide_with_blocking_knowledges": false,
+    "allow_use_hands": false,
+    "is_passive": false,
+    "show_in_progression": false
+  },
+  {
+    "id": 927100876,
+    "name": "Package {1} into {0}",
+    "time_requirement": 1.6,
+    "stamina_requirement": 1.03,
+    "tool_durability_lost": 0,
+    "building_requirement": {
+      "building_type": 33,
+      "tier": 1
+    },
+    "level_requirements": [
+      {
+        "skill_id": 11,
+        "level": 1
+      }
+    ],
+    "tool_requirements": [],
+    "consumed_item_stacks": [
+      {
+        "item_id": 3100007,
+        "quantity": 10000,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "discovery_triggers": [],
+    "required_claim_tech_id": 0,
+    "full_discovery_score": 1,
+    "experience_per_progress": [],
+    "crafted_item_stacks": [
+      {
+        "item_id": 1892109330,
+        "quantity": 1,
+        "item_type": "Cargo",
+        "durability": null
+      }
+    ],
+    "actions_required": 1,
     "tool_mesh_index": 0,
     "recipe_performance_id": 1,
     "required_knowledges": [],
@@ -235208,6 +236963,55 @@
     "actions_required": 410,
     "tool_mesh_index": 0,
     "recipe_performance_id": 975,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "hide_without_required_knowledge": false,
+    "hide_with_blocking_knowledges": false,
+    "allow_use_hands": false,
+    "is_passive": false,
+    "show_in_progression": false
+  },
+  {
+    "id": 955771653,
+    "name": "Unpack {1}",
+    "time_requirement": 1.6,
+    "stamina_requirement": 1.86,
+    "tool_durability_lost": 0,
+    "building_requirement": {
+      "building_type": 33,
+      "tier": 1
+    },
+    "level_requirements": [
+      {
+        "skill_id": 11,
+        "level": 1
+      }
+    ],
+    "tool_requirements": [],
+    "consumed_item_stacks": [
+      {
+        "item_id": 693137571,
+        "quantity": 1,
+        "item_type": "Cargo",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "discovery_triggers": [],
+    "required_claim_tech_id": 0,
+    "full_discovery_score": 1,
+    "experience_per_progress": [],
+    "crafted_item_stacks": [
+      {
+        "item_id": 4100007,
+        "quantity": 10000,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "actions_required": 1,
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 1,
     "required_knowledges": [],
     "blocking_knowledges": [],
     "hide_without_required_knowledge": false,
@@ -242762,6 +244566,55 @@
     "show_in_progression": false
   },
   {
+    "id": 987024634,
+    "name": "Unpack {1}",
+    "time_requirement": 1.6,
+    "stamina_requirement": 1.28,
+    "tool_durability_lost": 0,
+    "building_requirement": {
+      "building_type": 33,
+      "tier": 1
+    },
+    "level_requirements": [
+      {
+        "skill_id": 11,
+        "level": 1
+      }
+    ],
+    "tool_requirements": [],
+    "consumed_item_stacks": [
+      {
+        "item_id": 1780846695,
+        "quantity": 1,
+        "item_type": "Cargo",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "discovery_triggers": [],
+    "required_claim_tech_id": 0,
+    "full_discovery_score": 1,
+    "experience_per_progress": [],
+    "crafted_item_stacks": [
+      {
+        "item_id": 5100010,
+        "quantity": 1000,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "actions_required": 1,
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 1,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "hide_without_required_knowledge": false,
+    "hide_with_blocking_knowledges": false,
+    "allow_use_hands": false,
+    "is_passive": false,
+    "show_in_progression": false
+  },
+  {
     "id": 987042194,
     "name": "Scrap {1}",
     "time_requirement": 1.6,
@@ -244601,6 +246454,55 @@
     "required_knowledges": [],
     "blocking_knowledges": [],
     "hide_without_required_knowledge": true,
+    "hide_with_blocking_knowledges": false,
+    "allow_use_hands": false,
+    "is_passive": false,
+    "show_in_progression": false
+  },
+  {
+    "id": 997789763,
+    "name": "Unpack {1}",
+    "time_requirement": 1.6,
+    "stamina_requirement": 1.03,
+    "tool_durability_lost": 0,
+    "building_requirement": {
+      "building_type": 33,
+      "tier": 1
+    },
+    "level_requirements": [
+      {
+        "skill_id": 11,
+        "level": 1
+      }
+    ],
+    "tool_requirements": [],
+    "consumed_item_stacks": [
+      {
+        "item_id": 1892109330,
+        "quantity": 1,
+        "item_type": "Cargo",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "discovery_triggers": [],
+    "required_claim_tech_id": 0,
+    "full_discovery_score": 1,
+    "experience_per_progress": [],
+    "crafted_item_stacks": [
+      {
+        "item_id": 3100007,
+        "quantity": 10000,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "actions_required": 1,
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 1,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "hide_without_required_knowledge": false,
     "hide_with_blocking_knowledges": false,
     "allow_use_hands": false,
     "is_passive": false,
@@ -263115,7 +265017,7 @@
       },
       {
         "item_id": 1923990437,
-        "quantity": 3,
+        "quantity": 1,
         "item_type": "Item",
         "discovery_score": 0,
         "consumption_chance": 1.0
@@ -265256,6 +267158,55 @@
     "show_in_progression": false
   },
   {
+    "id": 1103554996,
+    "name": "Package {1} into {0}",
+    "time_requirement": 1.6,
+    "stamina_requirement": 1.64,
+    "tool_durability_lost": 0,
+    "building_requirement": {
+      "building_type": 33,
+      "tier": 1
+    },
+    "level_requirements": [
+      {
+        "skill_id": 11,
+        "level": 1
+      }
+    ],
+    "tool_requirements": [],
+    "consumed_item_stacks": [
+      {
+        "item_id": 1216633735,
+        "quantity": 1000,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "discovery_triggers": [],
+    "required_claim_tech_id": 0,
+    "full_discovery_score": 1,
+    "experience_per_progress": [],
+    "crafted_item_stacks": [
+      {
+        "item_id": 737250066,
+        "quantity": 1,
+        "item_type": "Cargo",
+        "durability": null
+      }
+    ],
+    "actions_required": 1,
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 1,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "hide_without_required_knowledge": false,
+    "hide_with_blocking_knowledges": false,
+    "allow_use_hands": false,
+    "is_passive": false,
+    "show_in_progression": false
+  },
+  {
     "id": 1103561824,
     "name": "Craft {0}",
     "time_requirement": 1.6,
@@ -266161,6 +268112,55 @@
       }
     ],
     "actions_required": 10,
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 1,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "hide_without_required_knowledge": false,
+    "hide_with_blocking_knowledges": false,
+    "allow_use_hands": false,
+    "is_passive": false,
+    "show_in_progression": false
+  },
+  {
+    "id": 1107110774,
+    "name": "Unpack {1}",
+    "time_requirement": 1.6,
+    "stamina_requirement": 1.64,
+    "tool_durability_lost": 0,
+    "building_requirement": {
+      "building_type": 33,
+      "tier": 1
+    },
+    "level_requirements": [
+      {
+        "skill_id": 11,
+        "level": 1
+      }
+    ],
+    "tool_requirements": [],
+    "consumed_item_stacks": [
+      {
+        "item_id": 1695046108,
+        "quantity": 1,
+        "item_type": "Cargo",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "discovery_triggers": [],
+    "required_claim_tech_id": 0,
+    "full_discovery_score": 1,
+    "experience_per_progress": [],
+    "crafted_item_stacks": [
+      {
+        "item_id": 1571291352,
+        "quantity": 10000,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "actions_required": 1,
     "tool_mesh_index": 0,
     "recipe_performance_id": 1,
     "required_knowledges": [],
@@ -269049,6 +271049,55 @@
     "actions_required": 75,
     "tool_mesh_index": 0,
     "recipe_performance_id": 651,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "hide_without_required_knowledge": false,
+    "hide_with_blocking_knowledges": false,
+    "allow_use_hands": false,
+    "is_passive": false,
+    "show_in_progression": false
+  },
+  {
+    "id": 1121119229,
+    "name": "Package {1} into {0}",
+    "time_requirement": 1.6,
+    "stamina_requirement": 0.89,
+    "tool_durability_lost": 0,
+    "building_requirement": {
+      "building_type": 33,
+      "tier": 1
+    },
+    "level_requirements": [
+      {
+        "skill_id": 11,
+        "level": 1
+      }
+    ],
+    "tool_requirements": [],
+    "consumed_item_stacks": [
+      {
+        "item_id": 2100017,
+        "quantity": 1000,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "discovery_triggers": [],
+    "required_claim_tech_id": 0,
+    "full_discovery_score": 1,
+    "experience_per_progress": [],
+    "crafted_item_stacks": [
+      {
+        "item_id": 350911320,
+        "quantity": 1,
+        "item_type": "Cargo",
+        "durability": null
+      }
+    ],
+    "actions_required": 1,
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 1,
     "required_knowledges": [],
     "blocking_knowledges": [],
     "hide_without_required_knowledge": false,
@@ -273324,6 +275373,80 @@
     "show_in_progression": false
   },
   {
+    "id": 1137541864,
+    "name": "Craft {0}",
+    "time_requirement": 1.6,
+    "stamina_requirement": 1.03,
+    "tool_durability_lost": 0,
+    "building_requirement": {
+      "building_type": 16,
+      "tier": 3
+    },
+    "level_requirements": [
+      {
+        "skill_id": 8,
+        "level": 34
+      }
+    ],
+    "tool_requirements": [
+      {
+        "tool_type": 6,
+        "level": 3,
+        "power": 1
+      }
+    ],
+    "consumed_item_stacks": [
+      {
+        "item_id": 3070004,
+        "quantity": 10,
+        "item_type": "Item",
+        "discovery_score": 0,
+        "consumption_chance": 1.0
+      },
+      {
+        "item_id": 1257541511,
+        "quantity": 20,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      },
+      {
+        "item_id": 1551049042,
+        "quantity": 5,
+        "item_type": "Item",
+        "discovery_score": 0,
+        "consumption_chance": 1.0
+      }
+    ],
+    "discovery_triggers": [],
+    "required_claim_tech_id": 0,
+    "full_discovery_score": 1,
+    "experience_per_progress": [
+      {
+        "skill_id": 8,
+        "quantity": 1.92
+      }
+    ],
+    "crafted_item_stacks": [
+      {
+        "item_id": 1353272922,
+        "quantity": 1,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "actions_required": 260,
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 453,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "hide_without_required_knowledge": false,
+    "hide_with_blocking_knowledges": false,
+    "allow_use_hands": false,
+    "is_passive": false,
+    "show_in_progression": false
+  },
+  {
     "id": 1138365442,
     "name": "Recraft {1}",
     "time_requirement": 1.6,
@@ -275048,6 +277171,74 @@
     "hide_with_blocking_knowledges": false,
     "allow_use_hands": false,
     "is_passive": false,
+    "show_in_progression": false
+  },
+  {
+    "id": 1146881149,
+    "name": "Breed {0}",
+    "time_requirement": 28800.0,
+    "stamina_requirement": 0.0,
+    "tool_durability_lost": 0,
+    "building_requirement": {
+      "building_type": 1680198173,
+      "tier": 1
+    },
+    "level_requirements": [
+      {
+        "skill_id": 17,
+        "level": 20
+      }
+    ],
+    "tool_requirements": [],
+    "consumed_item_stacks": [
+      {
+        "item_id": 106666710,
+        "quantity": 1,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      },
+      {
+        "item_id": 224880567,
+        "quantity": 1,
+        "item_type": "Item",
+        "discovery_score": 0,
+        "consumption_chance": 1.0
+      },
+      {
+        "item_id": 11007,
+        "quantity": 1,
+        "item_type": "Item",
+        "discovery_score": 0,
+        "consumption_chance": 1.0
+      }
+    ],
+    "discovery_triggers": [],
+    "required_claim_tech_id": 0,
+    "full_discovery_score": 1,
+    "experience_per_progress": [
+      {
+        "skill_id": 17,
+        "quantity": 0.0
+      }
+    ],
+    "crafted_item_stacks": [
+      {
+        "item_id": 1482270475,
+        "quantity": 1,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "actions_required": 1,
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 0,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "hide_without_required_knowledge": false,
+    "hide_with_blocking_knowledges": false,
+    "allow_use_hands": true,
+    "is_passive": true,
     "show_in_progression": false
   },
   {
@@ -280511,6 +282702,80 @@
     "actions_required": 10,
     "tool_mesh_index": 0,
     "recipe_performance_id": 1,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "hide_without_required_knowledge": false,
+    "hide_with_blocking_knowledges": false,
+    "allow_use_hands": false,
+    "is_passive": false,
+    "show_in_progression": false
+  },
+  {
+    "id": 1173220077,
+    "name": "Craft {0}",
+    "time_requirement": 1.6,
+    "stamina_requirement": 0.89,
+    "tool_durability_lost": 0,
+    "building_requirement": {
+      "building_type": 16,
+      "tier": 3
+    },
+    "level_requirements": [
+      {
+        "skill_id": 8,
+        "level": 34
+      }
+    ],
+    "tool_requirements": [
+      {
+        "tool_type": 6,
+        "level": 3,
+        "power": 1
+      }
+    ],
+    "consumed_item_stacks": [
+      {
+        "item_id": 3070004,
+        "quantity": 10,
+        "item_type": "Item",
+        "discovery_score": 0,
+        "consumption_chance": 1.0
+      },
+      {
+        "item_id": 1257541511,
+        "quantity": 20,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      },
+      {
+        "item_id": 1977029854,
+        "quantity": 5,
+        "item_type": "Item",
+        "discovery_score": 0,
+        "consumption_chance": 1.0
+      }
+    ],
+    "discovery_triggers": [],
+    "required_claim_tech_id": 0,
+    "full_discovery_score": 1,
+    "experience_per_progress": [
+      {
+        "skill_id": 8,
+        "quantity": 1.92
+      }
+    ],
+    "crafted_item_stacks": [
+      {
+        "item_id": 872648392,
+        "quantity": 1,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "actions_required": 260,
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 453,
     "required_knowledges": [],
     "blocking_knowledges": [],
     "hide_without_required_knowledge": false,
@@ -292378,6 +294643,55 @@
     "show_in_progression": false
   },
   {
+    "id": 1223364262,
+    "name": "Unpack {1}",
+    "time_requirement": 1.6,
+    "stamina_requirement": 1.41,
+    "tool_durability_lost": 0,
+    "building_requirement": {
+      "building_type": 33,
+      "tier": 1
+    },
+    "level_requirements": [
+      {
+        "skill_id": 11,
+        "level": 1
+      }
+    ],
+    "tool_requirements": [],
+    "consumed_item_stacks": [
+      {
+        "item_id": 371349565,
+        "quantity": 1,
+        "item_type": "Cargo",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "discovery_triggers": [],
+    "required_claim_tech_id": 0,
+    "full_discovery_score": 1,
+    "experience_per_progress": [],
+    "crafted_item_stacks": [
+      {
+        "item_id": 6100010,
+        "quantity": 1000,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "actions_required": 1,
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 1,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "hide_without_required_knowledge": false,
+    "hide_with_blocking_knowledges": false,
+    "allow_use_hands": false,
+    "is_passive": false,
+    "show_in_progression": false
+  },
+  {
     "id": 1223369704,
     "name": "Recraft {1}",
     "time_requirement": 1.6,
@@ -292826,6 +295140,74 @@
     "hide_with_blocking_knowledges": false,
     "allow_use_hands": false,
     "is_passive": false,
+    "show_in_progression": false
+  },
+  {
+    "id": 1225450161,
+    "name": "Breed {0}",
+    "time_requirement": 1800.0,
+    "stamina_requirement": 0.0,
+    "tool_durability_lost": 0,
+    "building_requirement": {
+      "building_type": 1680198173,
+      "tier": 1
+    },
+    "level_requirements": [
+      {
+        "skill_id": 17,
+        "level": 20
+      }
+    ],
+    "tool_requirements": [],
+    "consumed_item_stacks": [
+      {
+        "item_id": 429532539,
+        "quantity": 2,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      },
+      {
+        "item_id": 224880567,
+        "quantity": 3,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      },
+      {
+        "item_id": 11007,
+        "quantity": 1,
+        "item_type": "Item",
+        "discovery_score": 0,
+        "consumption_chance": 1.0
+      }
+    ],
+    "discovery_triggers": [],
+    "required_claim_tech_id": 0,
+    "full_discovery_score": 2,
+    "experience_per_progress": [
+      {
+        "skill_id": 17,
+        "quantity": 0.0
+      }
+    ],
+    "crafted_item_stacks": [
+      {
+        "item_id": 632762540,
+        "quantity": 1,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "actions_required": 1,
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 0,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "hide_without_required_knowledge": false,
+    "hide_with_blocking_knowledges": false,
+    "allow_use_hands": true,
+    "is_passive": true,
     "show_in_progression": false
   },
   {
@@ -294156,6 +296538,55 @@
     "show_in_progression": false
   },
   {
+    "id": 1231351831,
+    "name": "Unpack {1}",
+    "time_requirement": 1.6,
+    "stamina_requirement": 1.64,
+    "tool_durability_lost": 0,
+    "building_requirement": {
+      "building_type": 33,
+      "tier": 1
+    },
+    "level_requirements": [
+      {
+        "skill_id": 11,
+        "level": 1
+      }
+    ],
+    "tool_requirements": [],
+    "consumed_item_stacks": [
+      {
+        "item_id": 737250066,
+        "quantity": 1,
+        "item_type": "Cargo",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "discovery_triggers": [],
+    "required_claim_tech_id": 0,
+    "full_discovery_score": 1,
+    "experience_per_progress": [],
+    "crafted_item_stacks": [
+      {
+        "item_id": 1216633735,
+        "quantity": 1000,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "actions_required": 1,
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 1,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "hide_without_required_knowledge": false,
+    "hide_with_blocking_knowledges": false,
+    "allow_use_hands": false,
+    "is_passive": false,
+    "show_in_progression": false
+  },
+  {
     "id": 1231650677,
     "name": "Cook {0}",
     "time_requirement": 1.6,
@@ -294559,6 +296990,55 @@
     "actions_required": 1630,
     "tool_mesh_index": 0,
     "recipe_performance_id": 349,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "hide_without_required_knowledge": false,
+    "hide_with_blocking_knowledges": false,
+    "allow_use_hands": false,
+    "is_passive": false,
+    "show_in_progression": false
+  },
+  {
+    "id": 1233495336,
+    "name": "Unpack {1}",
+    "time_requirement": 1.6,
+    "stamina_requirement": 0.75,
+    "tool_durability_lost": 0,
+    "building_requirement": {
+      "building_type": 33,
+      "tier": 1
+    },
+    "level_requirements": [
+      {
+        "skill_id": 11,
+        "level": 1
+      }
+    ],
+    "tool_requirements": [],
+    "consumed_item_stacks": [
+      {
+        "item_id": 1349119383,
+        "quantity": 1,
+        "item_type": "Cargo",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "discovery_triggers": [],
+    "required_claim_tech_id": 0,
+    "full_discovery_score": 1,
+    "experience_per_progress": [],
+    "crafted_item_stacks": [
+      {
+        "item_id": 1100017,
+        "quantity": 1000,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "actions_required": 1,
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 1,
     "required_knowledges": [],
     "blocking_knowledges": [],
     "hide_without_required_knowledge": false,
@@ -298026,6 +300506,55 @@
     "show_in_progression": false
   },
   {
+    "id": 1249771128,
+    "name": "Package {1} into {0}",
+    "time_requirement": 1.6,
+    "stamina_requirement": 1.41,
+    "tool_durability_lost": 0,
+    "building_requirement": {
+      "building_type": 33,
+      "tier": 1
+    },
+    "level_requirements": [
+      {
+        "skill_id": 11,
+        "level": 1
+      }
+    ],
+    "tool_requirements": [],
+    "consumed_item_stacks": [
+      {
+        "item_id": 6100017,
+        "quantity": 1000,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "discovery_triggers": [],
+    "required_claim_tech_id": 0,
+    "full_discovery_score": 1,
+    "experience_per_progress": [],
+    "crafted_item_stacks": [
+      {
+        "item_id": 481368558,
+        "quantity": 1,
+        "item_type": "Cargo",
+        "durability": null
+      }
+    ],
+    "actions_required": 1,
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 1,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "hide_without_required_knowledge": false,
+    "hide_with_blocking_knowledges": false,
+    "allow_use_hands": false,
+    "is_passive": false,
+    "show_in_progression": false
+  },
+  {
     "id": 1250443782,
     "name": "Package {1} into {0}",
     "time_requirement": 1.6,
@@ -298356,6 +300885,55 @@
       }
     ],
     "actions_required": 10,
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 1,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "hide_without_required_knowledge": false,
+    "hide_with_blocking_knowledges": false,
+    "allow_use_hands": false,
+    "is_passive": false,
+    "show_in_progression": false
+  },
+  {
+    "id": 1252376152,
+    "name": "Unpack {1}",
+    "time_requirement": 1.6,
+    "stamina_requirement": 1.28,
+    "tool_durability_lost": 0,
+    "building_requirement": {
+      "building_type": 33,
+      "tier": 1
+    },
+    "level_requirements": [
+      {
+        "skill_id": 11,
+        "level": 1
+      }
+    ],
+    "tool_requirements": [],
+    "consumed_item_stacks": [
+      {
+        "item_id": 297693311,
+        "quantity": 1,
+        "item_type": "Cargo",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "discovery_triggers": [],
+    "required_claim_tech_id": 0,
+    "full_discovery_score": 1,
+    "experience_per_progress": [],
+    "crafted_item_stacks": [
+      {
+        "item_id": 5100017,
+        "quantity": 1000,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "actions_required": 1,
     "tool_mesh_index": 0,
     "recipe_performance_id": 1,
     "required_knowledges": [],
@@ -299273,6 +301851,55 @@
       }
     ],
     "actions_required": 10,
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 1,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "hide_without_required_knowledge": false,
+    "hide_with_blocking_knowledges": false,
+    "allow_use_hands": false,
+    "is_passive": false,
+    "show_in_progression": false
+  },
+  {
+    "id": 1257874488,
+    "name": "Unpack {1}",
+    "time_requirement": 1.6,
+    "stamina_requirement": 0.75,
+    "tool_durability_lost": 0,
+    "building_requirement": {
+      "building_type": 44,
+      "tier": 1
+    },
+    "level_requirements": [
+      {
+        "skill_id": 2,
+        "level": 1
+      }
+    ],
+    "tool_requirements": [],
+    "consumed_item_stacks": [
+      {
+        "item_id": 1500634540,
+        "quantity": 1,
+        "item_type": "Cargo",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "discovery_triggers": [],
+    "required_claim_tech_id": 0,
+    "full_discovery_score": 1,
+    "experience_per_progress": [],
+    "crafted_item_stacks": [
+      {
+        "item_id": 11012,
+        "quantity": 1000,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "actions_required": 1,
     "tool_mesh_index": 0,
     "recipe_performance_id": 1,
     "required_knowledges": [],
@@ -301378,7 +304005,7 @@
       },
       {
         "item_id": 1923990437,
-        "quantity": 3,
+        "quantity": 1,
         "item_type": "Item",
         "discovery_score": 0,
         "consumption_chance": 1.0
@@ -312027,6 +314654,80 @@
     "show_in_progression": false
   },
   {
+    "id": 1316309444,
+    "name": "Craft {0}",
+    "time_requirement": 1.6,
+    "stamina_requirement": 1.03,
+    "tool_durability_lost": 0,
+    "building_requirement": {
+      "building_type": 16,
+      "tier": 3
+    },
+    "level_requirements": [
+      {
+        "skill_id": 8,
+        "level": 34
+      }
+    ],
+    "tool_requirements": [
+      {
+        "tool_type": 6,
+        "level": 3,
+        "power": 1
+      }
+    ],
+    "consumed_item_stacks": [
+      {
+        "item_id": 3070004,
+        "quantity": 10,
+        "item_type": "Item",
+        "discovery_score": 0,
+        "consumption_chance": 1.0
+      },
+      {
+        "item_id": 1257541511,
+        "quantity": 20,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      },
+      {
+        "item_id": 2080336798,
+        "quantity": 5,
+        "item_type": "Item",
+        "discovery_score": 0,
+        "consumption_chance": 1.0
+      }
+    ],
+    "discovery_triggers": [],
+    "required_claim_tech_id": 0,
+    "full_discovery_score": 1,
+    "experience_per_progress": [
+      {
+        "skill_id": 8,
+        "quantity": 1.92
+      }
+    ],
+    "crafted_item_stacks": [
+      {
+        "item_id": 72590521,
+        "quantity": 1,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "actions_required": 340,
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 453,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "hide_without_required_knowledge": false,
+    "hide_with_blocking_knowledges": false,
+    "allow_use_hands": false,
+    "is_passive": false,
+    "show_in_progression": false
+  },
+  {
     "id": 1316525143,
     "name": "Craft {0}",
     "time_requirement": 1.6,
@@ -319819,6 +322520,55 @@
     "show_in_progression": false
   },
   {
+    "id": 1354816763,
+    "name": "Package {1} into {0}",
+    "time_requirement": 1.6,
+    "stamina_requirement": 1.28,
+    "tool_durability_lost": 0,
+    "building_requirement": {
+      "building_type": 33,
+      "tier": 1
+    },
+    "level_requirements": [
+      {
+        "skill_id": 11,
+        "level": 1
+      }
+    ],
+    "tool_requirements": [],
+    "consumed_item_stacks": [
+      {
+        "item_id": 5100017,
+        "quantity": 1000,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "discovery_triggers": [],
+    "required_claim_tech_id": 0,
+    "full_discovery_score": 1,
+    "experience_per_progress": [],
+    "crafted_item_stacks": [
+      {
+        "item_id": 297693311,
+        "quantity": 1,
+        "item_type": "Cargo",
+        "durability": null
+      }
+    ],
+    "actions_required": 1,
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 1,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "hide_without_required_knowledge": false,
+    "hide_with_blocking_knowledges": false,
+    "allow_use_hands": false,
+    "is_passive": false,
+    "show_in_progression": false
+  },
+  {
     "id": 1355924878,
     "name": "Craft {0}",
     "time_requirement": 1.6,
@@ -323794,6 +326544,55 @@
     "actions_required": 1255,
     "tool_mesh_index": 0,
     "recipe_performance_id": 349,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "hide_without_required_knowledge": false,
+    "hide_with_blocking_knowledges": false,
+    "allow_use_hands": false,
+    "is_passive": false,
+    "show_in_progression": false
+  },
+  {
+    "id": 1375347964,
+    "name": "Unpack {1}",
+    "time_requirement": 1.6,
+    "stamina_requirement": 0.75,
+    "tool_durability_lost": 0,
+    "building_requirement": {
+      "building_type": 33,
+      "tier": 1
+    },
+    "level_requirements": [
+      {
+        "skill_id": 11,
+        "level": 1
+      }
+    ],
+    "tool_requirements": [],
+    "consumed_item_stacks": [
+      {
+        "item_id": 1280399825,
+        "quantity": 1,
+        "item_type": "Cargo",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "discovery_triggers": [],
+    "required_claim_tech_id": 0,
+    "full_discovery_score": 1,
+    "experience_per_progress": [],
+    "crafted_item_stacks": [
+      {
+        "item_id": 1100010,
+        "quantity": 1000,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "actions_required": 1,
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 1,
     "required_knowledges": [],
     "blocking_knowledges": [],
     "hide_without_required_knowledge": false,
@@ -329251,6 +332050,55 @@
     "show_in_progression": false
   },
   {
+    "id": 1398984087,
+    "name": "Unpack {1}",
+    "time_requirement": 1.6,
+    "stamina_requirement": 0.75,
+    "tool_durability_lost": 0,
+    "building_requirement": {
+      "building_type": 13,
+      "tier": 1
+    },
+    "level_requirements": [
+      {
+        "skill_id": 13,
+        "level": 1
+      }
+    ],
+    "tool_requirements": [],
+    "consumed_item_stacks": [
+      {
+        "item_id": 1411517777,
+        "quantity": 1,
+        "item_type": "Cargo",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "discovery_triggers": [],
+    "required_claim_tech_id": 0,
+    "full_discovery_score": 1,
+    "experience_per_progress": [],
+    "crafted_item_stacks": [
+      {
+        "item_id": 1110015,
+        "quantity": 1000,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "actions_required": 1,
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 1,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "hide_without_required_knowledge": false,
+    "hide_with_blocking_knowledges": false,
+    "allow_use_hands": false,
+    "is_passive": false,
+    "show_in_progression": false
+  },
+  {
     "id": 1399034266,
     "name": "Scrap {1}",
     "time_requirement": 1.6,
@@ -330175,6 +333023,55 @@
     "actions_required": 75,
     "tool_mesh_index": 0,
     "recipe_performance_id": 651,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "hide_without_required_knowledge": false,
+    "hide_with_blocking_knowledges": false,
+    "allow_use_hands": false,
+    "is_passive": false,
+    "show_in_progression": false
+  },
+  {
+    "id": 1402391548,
+    "name": "Package {1} into {0}",
+    "time_requirement": 1.6,
+    "stamina_requirement": 1.03,
+    "tool_durability_lost": 0,
+    "building_requirement": {
+      "building_type": 33,
+      "tier": 1
+    },
+    "level_requirements": [
+      {
+        "skill_id": 11,
+        "level": 1
+      }
+    ],
+    "tool_requirements": [],
+    "consumed_item_stacks": [
+      {
+        "item_id": 3100010,
+        "quantity": 1000,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "discovery_triggers": [],
+    "required_claim_tech_id": 0,
+    "full_discovery_score": 1,
+    "experience_per_progress": [],
+    "crafted_item_stacks": [
+      {
+        "item_id": 413722591,
+        "quantity": 1,
+        "item_type": "Cargo",
+        "durability": null
+      }
+    ],
+    "actions_required": 1,
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 1,
     "required_knowledges": [],
     "blocking_knowledges": [],
     "hide_without_required_knowledge": false,
@@ -331307,6 +334204,55 @@
         "quantity": 500,
         "item_type": "Item",
         "durability": 0
+      }
+    ],
+    "actions_required": 1,
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 1,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "hide_without_required_knowledge": false,
+    "hide_with_blocking_knowledges": false,
+    "allow_use_hands": false,
+    "is_passive": false,
+    "show_in_progression": false
+  },
+  {
+    "id": 1409853778,
+    "name": "Package {1} into {0}",
+    "time_requirement": 1.6,
+    "stamina_requirement": 1.52,
+    "tool_durability_lost": 0,
+    "building_requirement": {
+      "building_type": 33,
+      "tier": 1
+    },
+    "level_requirements": [
+      {
+        "skill_id": 11,
+        "level": 1
+      }
+    ],
+    "tool_requirements": [],
+    "consumed_item_stacks": [
+      {
+        "item_id": 817656467,
+        "quantity": 1000,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "discovery_triggers": [],
+    "required_claim_tech_id": 0,
+    "full_discovery_score": 1,
+    "experience_per_progress": [],
+    "crafted_item_stacks": [
+      {
+        "item_id": 786765594,
+        "quantity": 1,
+        "item_type": "Cargo",
+        "durability": null
       }
     ],
     "actions_required": 1,
@@ -332829,6 +335775,55 @@
       }
     ],
     "actions_required": 10,
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 1,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "hide_without_required_knowledge": false,
+    "hide_with_blocking_knowledges": false,
+    "allow_use_hands": false,
+    "is_passive": false,
+    "show_in_progression": false
+  },
+  {
+    "id": 1415168966,
+    "name": "Package {1} into {0}",
+    "time_requirement": 1.6,
+    "stamina_requirement": 1.64,
+    "tool_durability_lost": 0,
+    "building_requirement": {
+      "building_type": 33,
+      "tier": 1
+    },
+    "level_requirements": [
+      {
+        "skill_id": 11,
+        "level": 1
+      }
+    ],
+    "tool_requirements": [],
+    "consumed_item_stacks": [
+      {
+        "item_id": 1571291352,
+        "quantity": 10000,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "discovery_triggers": [],
+    "required_claim_tech_id": 0,
+    "full_discovery_score": 1,
+    "experience_per_progress": [],
+    "crafted_item_stacks": [
+      {
+        "item_id": 1695046108,
+        "quantity": 1,
+        "item_type": "Cargo",
+        "durability": null
+      }
+    ],
+    "actions_required": 1,
     "tool_mesh_index": 0,
     "recipe_performance_id": 1,
     "required_knowledges": [],
@@ -338332,6 +341327,55 @@
     "show_in_progression": false
   },
   {
+    "id": 1438656632,
+    "name": "Unpack {1}",
+    "time_requirement": 1.6,
+    "stamina_requirement": 1.75,
+    "tool_durability_lost": 0,
+    "building_requirement": {
+      "building_type": 33,
+      "tier": 1
+    },
+    "level_requirements": [
+      {
+        "skill_id": 11,
+        "level": 1
+      }
+    ],
+    "tool_requirements": [],
+    "consumed_item_stacks": [
+      {
+        "item_id": 184799906,
+        "quantity": 1,
+        "item_type": "Cargo",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "discovery_triggers": [],
+    "required_claim_tech_id": 0,
+    "full_discovery_score": 1,
+    "experience_per_progress": [],
+    "crafted_item_stacks": [
+      {
+        "item_id": 1599513441,
+        "quantity": 1000,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "actions_required": 1,
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 1,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "hide_without_required_knowledge": false,
+    "hide_with_blocking_knowledges": false,
+    "allow_use_hands": false,
+    "is_passive": false,
+    "show_in_progression": false
+  },
+  {
     "id": 1438785961,
     "name": "Craft {0}",
     "time_requirement": 1.6,
@@ -340337,6 +343381,55 @@
     "actions_required": 485,
     "tool_mesh_index": 0,
     "recipe_performance_id": 568,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "hide_without_required_knowledge": false,
+    "hide_with_blocking_knowledges": false,
+    "allow_use_hands": false,
+    "is_passive": false,
+    "show_in_progression": false
+  },
+  {
+    "id": 1448467728,
+    "name": "Package {1} into {0}",
+    "time_requirement": 1.6,
+    "stamina_requirement": 1.16,
+    "tool_durability_lost": 0,
+    "building_requirement": {
+      "building_type": 33,
+      "tier": 1
+    },
+    "level_requirements": [
+      {
+        "skill_id": 11,
+        "level": 1
+      }
+    ],
+    "tool_requirements": [],
+    "consumed_item_stacks": [
+      {
+        "item_id": 4100010,
+        "quantity": 1000,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "discovery_triggers": [],
+    "required_claim_tech_id": 0,
+    "full_discovery_score": 1,
+    "experience_per_progress": [],
+    "crafted_item_stacks": [
+      {
+        "item_id": 636617166,
+        "quantity": 1,
+        "item_type": "Cargo",
+        "durability": null
+      }
+    ],
+    "actions_required": 1,
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 1,
     "required_knowledges": [],
     "blocking_knowledges": [],
     "hide_without_required_knowledge": false,
@@ -342819,6 +345912,55 @@
     "show_in_progression": false
   },
   {
+    "id": 1461556011,
+    "name": "Package {1} into {0}",
+    "time_requirement": 1.6,
+    "stamina_requirement": 0.75,
+    "tool_durability_lost": 0,
+    "building_requirement": {
+      "building_type": 33,
+      "tier": 1
+    },
+    "level_requirements": [
+      {
+        "skill_id": 11,
+        "level": 1
+      }
+    ],
+    "tool_requirements": [],
+    "consumed_item_stacks": [
+      {
+        "item_id": 1100010,
+        "quantity": 1000,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "discovery_triggers": [],
+    "required_claim_tech_id": 0,
+    "full_discovery_score": 1,
+    "experience_per_progress": [],
+    "crafted_item_stacks": [
+      {
+        "item_id": 1280399825,
+        "quantity": 1,
+        "item_type": "Cargo",
+        "durability": null
+      }
+    ],
+    "actions_required": 1,
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 1,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "hide_without_required_knowledge": false,
+    "hide_with_blocking_knowledges": false,
+    "allow_use_hands": false,
+    "is_passive": false,
+    "show_in_progression": false
+  },
+  {
     "id": 1461905235,
     "name": "Scrap {1}",
     "time_requirement": 1.6,
@@ -343043,6 +346185,55 @@
       }
     ],
     "actions_required": 10,
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 1,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "hide_without_required_knowledge": false,
+    "hide_with_blocking_knowledges": false,
+    "allow_use_hands": false,
+    "is_passive": false,
+    "show_in_progression": false
+  },
+  {
+    "id": 1463406804,
+    "name": "Package {1} into {0}",
+    "time_requirement": 1.6,
+    "stamina_requirement": 0.75,
+    "tool_durability_lost": 0,
+    "building_requirement": {
+      "building_type": 13,
+      "tier": 1
+    },
+    "level_requirements": [
+      {
+        "skill_id": 13,
+        "level": 1
+      }
+    ],
+    "tool_requirements": [],
+    "consumed_item_stacks": [
+      {
+        "item_id": 1110015,
+        "quantity": 1000,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "discovery_triggers": [],
+    "required_claim_tech_id": 0,
+    "full_discovery_score": 1,
+    "experience_per_progress": [],
+    "crafted_item_stacks": [
+      {
+        "item_id": 1411517777,
+        "quantity": 1,
+        "item_type": "Cargo",
+        "durability": null
+      }
+    ],
+    "actions_required": 1,
     "tool_mesh_index": 0,
     "recipe_performance_id": 1,
     "required_knowledges": [],
@@ -344599,6 +347790,55 @@
     "show_in_progression": false
   },
   {
+    "id": 1468445996,
+    "name": "Package {1} into {0}",
+    "time_requirement": 1.6,
+    "stamina_requirement": 1.52,
+    "tool_durability_lost": 0,
+    "building_requirement": {
+      "building_type": 33,
+      "tier": 1
+    },
+    "level_requirements": [
+      {
+        "skill_id": 11,
+        "level": 1
+      }
+    ],
+    "tool_requirements": [],
+    "consumed_item_stacks": [
+      {
+        "item_id": 466935552,
+        "quantity": 10000,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "discovery_triggers": [],
+    "required_claim_tech_id": 0,
+    "full_discovery_score": 1,
+    "experience_per_progress": [],
+    "crafted_item_stacks": [
+      {
+        "item_id": 1134051048,
+        "quantity": 1,
+        "item_type": "Cargo",
+        "durability": null
+      }
+    ],
+    "actions_required": 1,
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 1,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "hide_without_required_knowledge": false,
+    "hide_with_blocking_knowledges": false,
+    "allow_use_hands": false,
+    "is_passive": false,
+    "show_in_progression": false
+  },
+  {
     "id": 1468680223,
     "name": "Package {1} into {0}",
     "time_requirement": 1.6,
@@ -345576,6 +348816,55 @@
     "show_in_progression": false
   },
   {
+    "id": 1473934574,
+    "name": "Package {1} into {0}",
+    "time_requirement": 1.6,
+    "stamina_requirement": 1.52,
+    "tool_durability_lost": 0,
+    "building_requirement": {
+      "building_type": 33,
+      "tier": 1
+    },
+    "level_requirements": [
+      {
+        "skill_id": 11,
+        "level": 1
+      }
+    ],
+    "tool_requirements": [],
+    "consumed_item_stacks": [
+      {
+        "item_id": 354470331,
+        "quantity": 1000,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "discovery_triggers": [],
+    "required_claim_tech_id": 0,
+    "full_discovery_score": 1,
+    "experience_per_progress": [],
+    "crafted_item_stacks": [
+      {
+        "item_id": 662818971,
+        "quantity": 1,
+        "item_type": "Cargo",
+        "durability": null
+      }
+    ],
+    "actions_required": 1,
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 1,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "hide_without_required_knowledge": false,
+    "hide_with_blocking_knowledges": false,
+    "allow_use_hands": false,
+    "is_passive": false,
+    "show_in_progression": false
+  },
+  {
     "id": 1474107816,
     "name": "Craft {0}",
     "time_requirement": 1.6,
@@ -346494,6 +349783,55 @@
       }
     ],
     "actions_required": 10,
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 1,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "hide_without_required_knowledge": false,
+    "hide_with_blocking_knowledges": false,
+    "allow_use_hands": false,
+    "is_passive": false,
+    "show_in_progression": false
+  },
+  {
+    "id": 1477406800,
+    "name": "Unpack {1}",
+    "time_requirement": 1.6,
+    "stamina_requirement": 1.16,
+    "tool_durability_lost": 0,
+    "building_requirement": {
+      "building_type": 33,
+      "tier": 1
+    },
+    "level_requirements": [
+      {
+        "skill_id": 11,
+        "level": 1
+      }
+    ],
+    "tool_requirements": [],
+    "consumed_item_stacks": [
+      {
+        "item_id": 945711251,
+        "quantity": 1,
+        "item_type": "Cargo",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "discovery_triggers": [],
+    "required_claim_tech_id": 0,
+    "full_discovery_score": 1,
+    "experience_per_progress": [],
+    "crafted_item_stacks": [
+      {
+        "item_id": 4100017,
+        "quantity": 1000,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "actions_required": 1,
     "tool_mesh_index": 0,
     "recipe_performance_id": 1,
     "required_knowledges": [],
@@ -351882,6 +355220,55 @@
     "actions_required": 285,
     "tool_mesh_index": 0,
     "recipe_performance_id": 18,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "hide_without_required_knowledge": false,
+    "hide_with_blocking_knowledges": false,
+    "allow_use_hands": false,
+    "is_passive": false,
+    "show_in_progression": false
+  },
+  {
+    "id": 1499388769,
+    "name": "Unpack {1}",
+    "time_requirement": 1.6,
+    "stamina_requirement": 1.03,
+    "tool_durability_lost": 0,
+    "building_requirement": {
+      "building_type": 33,
+      "tier": 1
+    },
+    "level_requirements": [
+      {
+        "skill_id": 11,
+        "level": 1
+      }
+    ],
+    "tool_requirements": [],
+    "consumed_item_stacks": [
+      {
+        "item_id": 413722591,
+        "quantity": 1,
+        "item_type": "Cargo",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "discovery_triggers": [],
+    "required_claim_tech_id": 0,
+    "full_discovery_score": 1,
+    "experience_per_progress": [],
+    "crafted_item_stacks": [
+      {
+        "item_id": 3100010,
+        "quantity": 1000,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "actions_required": 1,
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 1,
     "required_knowledges": [],
     "blocking_knowledges": [],
     "hide_without_required_knowledge": false,
@@ -357416,6 +360803,55 @@
     "actions_required": 260,
     "tool_mesh_index": 0,
     "recipe_performance_id": 453,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "hide_without_required_knowledge": false,
+    "hide_with_blocking_knowledges": false,
+    "allow_use_hands": false,
+    "is_passive": false,
+    "show_in_progression": false
+  },
+  {
+    "id": 1524393578,
+    "name": "Unpack {1}",
+    "time_requirement": 1.6,
+    "stamina_requirement": 1.41,
+    "tool_durability_lost": 0,
+    "building_requirement": {
+      "building_type": 33,
+      "tier": 1
+    },
+    "level_requirements": [
+      {
+        "skill_id": 11,
+        "level": 1
+      }
+    ],
+    "tool_requirements": [],
+    "consumed_item_stacks": [
+      {
+        "item_id": 481368558,
+        "quantity": 1,
+        "item_type": "Cargo",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "discovery_triggers": [],
+    "required_claim_tech_id": 0,
+    "full_discovery_score": 1,
+    "experience_per_progress": [],
+    "crafted_item_stacks": [
+      {
+        "item_id": 6100017,
+        "quantity": 1000,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "actions_required": 1,
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 1,
     "required_knowledges": [],
     "blocking_knowledges": [],
     "hide_without_required_knowledge": false,
@@ -363674,6 +367110,55 @@
       }
     ],
     "actions_required": 10,
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 1,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "hide_without_required_knowledge": false,
+    "hide_with_blocking_knowledges": false,
+    "allow_use_hands": false,
+    "is_passive": false,
+    "show_in_progression": false
+  },
+  {
+    "id": 1560063864,
+    "name": "Unpack {1}",
+    "time_requirement": 1.6,
+    "stamina_requirement": 1.16,
+    "tool_durability_lost": 0,
+    "building_requirement": {
+      "building_type": 33,
+      "tier": 1
+    },
+    "level_requirements": [
+      {
+        "skill_id": 11,
+        "level": 1
+      }
+    ],
+    "tool_requirements": [],
+    "consumed_item_stacks": [
+      {
+        "item_id": 593912418,
+        "quantity": 1,
+        "item_type": "Cargo",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "discovery_triggers": [],
+    "required_claim_tech_id": 0,
+    "full_discovery_score": 1,
+    "experience_per_progress": [],
+    "crafted_item_stacks": [
+      {
+        "item_id": 4100007,
+        "quantity": 10000,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "actions_required": 1,
     "tool_mesh_index": 0,
     "recipe_performance_id": 1,
     "required_knowledges": [],
@@ -370815,6 +374300,55 @@
     "show_in_progression": false
   },
   {
+    "id": 1597961372,
+    "name": "Unpack {1}",
+    "time_requirement": 1.6,
+    "stamina_requirement": 1.75,
+    "tool_durability_lost": 0,
+    "building_requirement": {
+      "building_type": 33,
+      "tier": 1
+    },
+    "level_requirements": [
+      {
+        "skill_id": 11,
+        "level": 1
+      }
+    ],
+    "tool_requirements": [],
+    "consumed_item_stacks": [
+      {
+        "item_id": 1749092890,
+        "quantity": 1,
+        "item_type": "Cargo",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "discovery_triggers": [],
+    "required_claim_tech_id": 0,
+    "full_discovery_score": 1,
+    "experience_per_progress": [],
+    "crafted_item_stacks": [
+      {
+        "item_id": 2015361382,
+        "quantity": 10000,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "actions_required": 1,
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 1,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "hide_without_required_knowledge": false,
+    "hide_with_blocking_knowledges": false,
+    "allow_use_hands": false,
+    "is_passive": false,
+    "show_in_progression": false
+  },
+  {
     "id": 1597993245,
     "name": "Scrap {1}",
     "time_requirement": 1.6,
@@ -371912,6 +375446,55 @@
       }
     ],
     "actions_required": 10,
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 1,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "hide_without_required_knowledge": false,
+    "hide_with_blocking_knowledges": false,
+    "allow_use_hands": false,
+    "is_passive": false,
+    "show_in_progression": false
+  },
+  {
+    "id": 1606312868,
+    "name": "Unpack {1}",
+    "time_requirement": 1.6,
+    "stamina_requirement": 0.89,
+    "tool_durability_lost": 0,
+    "building_requirement": {
+      "building_type": 33,
+      "tier": 1
+    },
+    "level_requirements": [
+      {
+        "skill_id": 11,
+        "level": 1
+      }
+    ],
+    "tool_requirements": [],
+    "consumed_item_stacks": [
+      {
+        "item_id": 1103382146,
+        "quantity": 1,
+        "item_type": "Cargo",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "discovery_triggers": [],
+    "required_claim_tech_id": 0,
+    "full_discovery_score": 1,
+    "experience_per_progress": [],
+    "crafted_item_stacks": [
+      {
+        "item_id": 2100007,
+        "quantity": 10000,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "actions_required": 1,
     "tool_mesh_index": 0,
     "recipe_performance_id": 1,
     "required_knowledges": [],
@@ -373982,6 +377565,55 @@
     "show_in_progression": false
   },
   {
+    "id": 1618240835,
+    "name": "Unpack {1}",
+    "time_requirement": 1.6,
+    "stamina_requirement": 0.89,
+    "tool_durability_lost": 0,
+    "building_requirement": {
+      "building_type": 33,
+      "tier": 1
+    },
+    "level_requirements": [
+      {
+        "skill_id": 11,
+        "level": 1
+      }
+    ],
+    "tool_requirements": [],
+    "consumed_item_stacks": [
+      {
+        "item_id": 350911320,
+        "quantity": 1,
+        "item_type": "Cargo",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "discovery_triggers": [],
+    "required_claim_tech_id": 0,
+    "full_discovery_score": 1,
+    "experience_per_progress": [],
+    "crafted_item_stacks": [
+      {
+        "item_id": 2100017,
+        "quantity": 1000,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "actions_required": 1,
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 1,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "hide_without_required_knowledge": false,
+    "hide_with_blocking_knowledges": false,
+    "allow_use_hands": false,
+    "is_passive": false,
+    "show_in_progression": false
+  },
+  {
     "id": 1618281083,
     "name": "Scrap {1}",
     "time_requirement": 1.6,
@@ -374655,6 +378287,55 @@
       }
     ],
     "actions_required": 10,
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 1,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "hide_without_required_knowledge": false,
+    "hide_with_blocking_knowledges": false,
+    "allow_use_hands": false,
+    "is_passive": false,
+    "show_in_progression": false
+  },
+  {
+    "id": 1620400718,
+    "name": "Package {1} into {0}",
+    "time_requirement": 1.6,
+    "stamina_requirement": 0.89,
+    "tool_durability_lost": 0,
+    "building_requirement": {
+      "building_type": 33,
+      "tier": 1
+    },
+    "level_requirements": [
+      {
+        "skill_id": 11,
+        "level": 1
+      }
+    ],
+    "tool_requirements": [],
+    "consumed_item_stacks": [
+      {
+        "item_id": 2100007,
+        "quantity": 10000,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "discovery_triggers": [],
+    "required_claim_tech_id": 0,
+    "full_discovery_score": 1,
+    "experience_per_progress": [],
+    "crafted_item_stacks": [
+      {
+        "item_id": 1103382146,
+        "quantity": 1,
+        "item_type": "Cargo",
+        "durability": null
+      }
+    ],
+    "actions_required": 1,
     "tool_mesh_index": 0,
     "recipe_performance_id": 1,
     "required_knowledges": [],
@@ -388597,6 +392278,67 @@
     "show_in_progression": false
   },
   {
+    "id": 1683027889,
+    "name": "Craft",
+    "time_requirement": 1.6,
+    "stamina_requirement": 0.75,
+    "tool_durability_lost": 0,
+    "building_requirement": {
+      "building_type": 104950060,
+      "tier": 1
+    },
+    "level_requirements": [
+      {
+        "skill_id": 17,
+        "level": 20
+      }
+    ],
+    "tool_requirements": [],
+    "consumed_item_stacks": [
+      {
+        "item_id": 1780651102,
+        "quantity": 4,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      },
+      {
+        "item_id": 1926188482,
+        "quantity": 1,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "discovery_triggers": [],
+    "required_claim_tech_id": 0,
+    "full_discovery_score": 1,
+    "experience_per_progress": [
+      {
+        "skill_id": 17,
+        "quantity": 20.0
+      }
+    ],
+    "crafted_item_stacks": [
+      {
+        "item_id": 224880567,
+        "quantity": 1,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "actions_required": 10,
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 103,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "hide_without_required_knowledge": false,
+    "hide_with_blocking_knowledges": false,
+    "allow_use_hands": true,
+    "is_passive": false,
+    "show_in_progression": false
+  },
+  {
     "id": 1683461594,
     "name": "Unpack {1}",
     "time_requirement": 1.6,
@@ -388785,6 +392527,74 @@
     "hide_with_blocking_knowledges": false,
     "allow_use_hands": false,
     "is_passive": false,
+    "show_in_progression": false
+  },
+  {
+    "id": 1683646318,
+    "name": "Breed {0}",
+    "time_requirement": 1800.0,
+    "stamina_requirement": 0.0,
+    "tool_durability_lost": 0,
+    "building_requirement": {
+      "building_type": 1680198173,
+      "tier": 1
+    },
+    "level_requirements": [
+      {
+        "skill_id": 17,
+        "level": 20
+      }
+    ],
+    "tool_requirements": [],
+    "consumed_item_stacks": [
+      {
+        "item_id": 2089657221,
+        "quantity": 2,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      },
+      {
+        "item_id": 224880567,
+        "quantity": 3,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      },
+      {
+        "item_id": 11007,
+        "quantity": 1,
+        "item_type": "Item",
+        "discovery_score": 0,
+        "consumption_chance": 1.0
+      }
+    ],
+    "discovery_triggers": [],
+    "required_claim_tech_id": 0,
+    "full_discovery_score": 2,
+    "experience_per_progress": [
+      {
+        "skill_id": 17,
+        "quantity": 0.0
+      }
+    ],
+    "crafted_item_stacks": [
+      {
+        "item_id": 1211834975,
+        "quantity": 1,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "actions_required": 1,
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 0,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "hide_without_required_knowledge": false,
+    "hide_with_blocking_knowledges": false,
+    "allow_use_hands": true,
+    "is_passive": true,
     "show_in_progression": false
   },
   {
@@ -397989,7 +401799,7 @@
       },
       {
         "item_id": 1923990437,
-        "quantity": 3,
+        "quantity": 1,
         "item_type": "Item",
         "discovery_score": 0,
         "consumption_chance": 1.0
@@ -398028,6 +401838,55 @@
     "hide_with_blocking_knowledges": false,
     "allow_use_hands": true,
     "is_passive": true,
+    "show_in_progression": false
+  },
+  {
+    "id": 1725285439,
+    "name": "Package {1} into {0}",
+    "time_requirement": 1.6,
+    "stamina_requirement": 1.16,
+    "tool_durability_lost": 0,
+    "building_requirement": {
+      "building_type": 33,
+      "tier": 1
+    },
+    "level_requirements": [
+      {
+        "skill_id": 11,
+        "level": 1
+      }
+    ],
+    "tool_requirements": [],
+    "consumed_item_stacks": [
+      {
+        "item_id": 4100007,
+        "quantity": 10000,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "discovery_triggers": [],
+    "required_claim_tech_id": 0,
+    "full_discovery_score": 1,
+    "experience_per_progress": [],
+    "crafted_item_stacks": [
+      {
+        "item_id": 593912418,
+        "quantity": 1,
+        "item_type": "Cargo",
+        "durability": null
+      }
+    ],
+    "actions_required": 1,
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 1,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "hide_without_required_knowledge": false,
+    "hide_with_blocking_knowledges": false,
+    "allow_use_hands": false,
+    "is_passive": false,
     "show_in_progression": false
   },
   {
@@ -399841,6 +403700,55 @@
     "actions_required": 745,
     "tool_mesh_index": 0,
     "recipe_performance_id": 18,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "hide_without_required_knowledge": false,
+    "hide_with_blocking_knowledges": false,
+    "allow_use_hands": false,
+    "is_passive": false,
+    "show_in_progression": false
+  },
+  {
+    "id": 1731358681,
+    "name": "Unpack {1}",
+    "time_requirement": 1.6,
+    "stamina_requirement": 1.52,
+    "tool_durability_lost": 0,
+    "building_requirement": {
+      "building_type": 33,
+      "tier": 1
+    },
+    "level_requirements": [
+      {
+        "skill_id": 11,
+        "level": 1
+      }
+    ],
+    "tool_requirements": [],
+    "consumed_item_stacks": [
+      {
+        "item_id": 662818971,
+        "quantity": 1,
+        "item_type": "Cargo",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "discovery_triggers": [],
+    "required_claim_tech_id": 0,
+    "full_discovery_score": 1,
+    "experience_per_progress": [],
+    "crafted_item_stacks": [
+      {
+        "item_id": 354470331,
+        "quantity": 1000,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "actions_required": 1,
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 1,
     "required_knowledges": [],
     "blocking_knowledges": [],
     "hide_without_required_knowledge": false,
@@ -409748,6 +413656,74 @@
     "show_in_progression": false
   },
   {
+    "id": 1779655680,
+    "name": "Breed {0}",
+    "time_requirement": 1800.0,
+    "stamina_requirement": 0.0,
+    "tool_durability_lost": 0,
+    "building_requirement": {
+      "building_type": 1680198173,
+      "tier": 1
+    },
+    "level_requirements": [
+      {
+        "skill_id": 17,
+        "level": 20
+      }
+    ],
+    "tool_requirements": [],
+    "consumed_item_stacks": [
+      {
+        "item_id": 2142920653,
+        "quantity": 2,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      },
+      {
+        "item_id": 224880567,
+        "quantity": 3,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      },
+      {
+        "item_id": 11007,
+        "quantity": 1,
+        "item_type": "Item",
+        "discovery_score": 0,
+        "consumption_chance": 1.0
+      }
+    ],
+    "discovery_triggers": [],
+    "required_claim_tech_id": 0,
+    "full_discovery_score": 2,
+    "experience_per_progress": [
+      {
+        "skill_id": 17,
+        "quantity": 0.0
+      }
+    ],
+    "crafted_item_stacks": [
+      {
+        "item_id": 170774023,
+        "quantity": 1,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "actions_required": 1,
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 0,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "hide_without_required_knowledge": false,
+    "hide_with_blocking_knowledges": false,
+    "allow_use_hands": true,
+    "is_passive": true,
+    "show_in_progression": false
+  },
+  {
     "id": 1779752076,
     "name": "Craft {0}",
     "time_requirement": 1.6,
@@ -415948,6 +419924,55 @@
     "show_in_progression": false
   },
   {
+    "id": 1803230806,
+    "name": "Unpack {1}",
+    "time_requirement": 1.6,
+    "stamina_requirement": 1.16,
+    "tool_durability_lost": 0,
+    "building_requirement": {
+      "building_type": 33,
+      "tier": 1
+    },
+    "level_requirements": [
+      {
+        "skill_id": 11,
+        "level": 1
+      }
+    ],
+    "tool_requirements": [],
+    "consumed_item_stacks": [
+      {
+        "item_id": 636617166,
+        "quantity": 1,
+        "item_type": "Cargo",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "discovery_triggers": [],
+    "required_claim_tech_id": 0,
+    "full_discovery_score": 1,
+    "experience_per_progress": [],
+    "crafted_item_stacks": [
+      {
+        "item_id": 4100010,
+        "quantity": 1000,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "actions_required": 1,
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 1,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "hide_without_required_knowledge": false,
+    "hide_with_blocking_knowledges": false,
+    "allow_use_hands": false,
+    "is_passive": false,
+    "show_in_progression": false
+  },
+  {
     "id": 1803260274,
     "name": "Scrap {1}",
     "time_requirement": 1.6,
@@ -419726,6 +423751,55 @@
     "show_in_progression": false
   },
   {
+    "id": 1822856126,
+    "name": "Package {1} into {0}",
+    "time_requirement": 1.6,
+    "stamina_requirement": 0.75,
+    "tool_durability_lost": 0,
+    "building_requirement": {
+      "building_type": 13,
+      "tier": 1
+    },
+    "level_requirements": [
+      {
+        "skill_id": 13,
+        "level": 1
+      }
+    ],
+    "tool_requirements": [],
+    "consumed_item_stacks": [
+      {
+        "item_id": 253606511,
+        "quantity": 1000,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "discovery_triggers": [],
+    "required_claim_tech_id": 0,
+    "full_discovery_score": 1,
+    "experience_per_progress": [],
+    "crafted_item_stacks": [
+      {
+        "item_id": 1198485806,
+        "quantity": 1,
+        "item_type": "Cargo",
+        "durability": null
+      }
+    ],
+    "actions_required": 1,
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 1,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "hide_without_required_knowledge": false,
+    "hide_with_blocking_knowledges": false,
+    "allow_use_hands": false,
+    "is_passive": false,
+    "show_in_progression": false
+  },
+  {
     "id": 1822869202,
     "name": "Craft {0}",
     "time_requirement": 1.6,
@@ -421161,6 +425235,55 @@
     "show_in_progression": false
   },
   {
+    "id": 1829492203,
+    "name": "Package {1} into {0}",
+    "time_requirement": 1.6,
+    "stamina_requirement": 1.16,
+    "tool_durability_lost": 0,
+    "building_requirement": {
+      "building_type": 33,
+      "tier": 1
+    },
+    "level_requirements": [
+      {
+        "skill_id": 11,
+        "level": 1
+      }
+    ],
+    "tool_requirements": [],
+    "consumed_item_stacks": [
+      {
+        "item_id": 4100017,
+        "quantity": 1000,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "discovery_triggers": [],
+    "required_claim_tech_id": 0,
+    "full_discovery_score": 1,
+    "experience_per_progress": [],
+    "crafted_item_stacks": [
+      {
+        "item_id": 945711251,
+        "quantity": 1,
+        "item_type": "Cargo",
+        "durability": null
+      }
+    ],
+    "actions_required": 1,
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 1,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "hide_without_required_knowledge": false,
+    "hide_with_blocking_knowledges": false,
+    "allow_use_hands": false,
+    "is_passive": false,
+    "show_in_progression": false
+  },
+  {
     "id": 1830553020,
     "name": "Prepare {0}",
     "time_requirement": 1.6,
@@ -422156,6 +426279,55 @@
       }
     ],
     "actions_required": 10,
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 1,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "hide_without_required_knowledge": false,
+    "hide_with_blocking_knowledges": false,
+    "allow_use_hands": false,
+    "is_passive": false,
+    "show_in_progression": false
+  },
+  {
+    "id": 1835386342,
+    "name": "Package {1} into {0}",
+    "time_requirement": 1.6,
+    "stamina_requirement": 1.75,
+    "tool_durability_lost": 0,
+    "building_requirement": {
+      "building_type": 33,
+      "tier": 1
+    },
+    "level_requirements": [
+      {
+        "skill_id": 11,
+        "level": 1
+      }
+    ],
+    "tool_requirements": [],
+    "consumed_item_stacks": [
+      {
+        "item_id": 790622330,
+        "quantity": 1000,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "discovery_triggers": [],
+    "required_claim_tech_id": 0,
+    "full_discovery_score": 1,
+    "experience_per_progress": [],
+    "crafted_item_stacks": [
+      {
+        "item_id": 1912781121,
+        "quantity": 1,
+        "item_type": "Cargo",
+        "durability": null
+      }
+    ],
+    "actions_required": 1,
     "tool_mesh_index": 0,
     "recipe_performance_id": 1,
     "required_knowledges": [],
@@ -427173,6 +431345,55 @@
     "show_in_progression": false
   },
   {
+    "id": 1859404529,
+    "name": "Package {1} into {0}",
+    "time_requirement": 1.6,
+    "stamina_requirement": 1.41,
+    "tool_durability_lost": 0,
+    "building_requirement": {
+      "building_type": 33,
+      "tier": 1
+    },
+    "level_requirements": [
+      {
+        "skill_id": 11,
+        "level": 1
+      }
+    ],
+    "tool_requirements": [],
+    "consumed_item_stacks": [
+      {
+        "item_id": 6100010,
+        "quantity": 1000,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "discovery_triggers": [],
+    "required_claim_tech_id": 0,
+    "full_discovery_score": 1,
+    "experience_per_progress": [],
+    "crafted_item_stacks": [
+      {
+        "item_id": 371349565,
+        "quantity": 1,
+        "item_type": "Cargo",
+        "durability": null
+      }
+    ],
+    "actions_required": 1,
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 1,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "hide_without_required_knowledge": false,
+    "hide_with_blocking_knowledges": false,
+    "allow_use_hands": false,
+    "is_passive": false,
+    "show_in_progression": false
+  },
+  {
     "id": 1859515468,
     "name": "Scrap {1}",
     "time_requirement": 1.6,
@@ -427694,6 +431915,55 @@
     "actions_required": 625,
     "tool_mesh_index": 0,
     "recipe_performance_id": 18,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "hide_without_required_knowledge": false,
+    "hide_with_blocking_knowledges": false,
+    "allow_use_hands": false,
+    "is_passive": false,
+    "show_in_progression": false
+  },
+  {
+    "id": 1861092652,
+    "name": "Package {1} into {0}",
+    "time_requirement": 1.6,
+    "stamina_requirement": 1.64,
+    "tool_durability_lost": 0,
+    "building_requirement": {
+      "building_type": 33,
+      "tier": 1
+    },
+    "level_requirements": [
+      {
+        "skill_id": 11,
+        "level": 1
+      }
+    ],
+    "tool_requirements": [],
+    "consumed_item_stacks": [
+      {
+        "item_id": 1981238432,
+        "quantity": 1000,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "discovery_triggers": [],
+    "required_claim_tech_id": 0,
+    "full_discovery_score": 1,
+    "experience_per_progress": [],
+    "crafted_item_stacks": [
+      {
+        "item_id": 1154310944,
+        "quantity": 1,
+        "item_type": "Cargo",
+        "durability": null
+      }
+    ],
+    "actions_required": 1,
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 1,
     "required_knowledges": [],
     "blocking_knowledges": [],
     "hide_without_required_knowledge": false,
@@ -435052,6 +439322,74 @@
     "show_in_progression": false
   },
   {
+    "id": 1894191616,
+    "name": "Breed {0}",
+    "time_requirement": 1800.0,
+    "stamina_requirement": 0.0,
+    "tool_durability_lost": 0,
+    "building_requirement": {
+      "building_type": 1680198173,
+      "tier": 1
+    },
+    "level_requirements": [
+      {
+        "skill_id": 17,
+        "level": 20
+      }
+    ],
+    "tool_requirements": [],
+    "consumed_item_stacks": [
+      {
+        "item_id": 87266989,
+        "quantity": 2,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      },
+      {
+        "item_id": 224880567,
+        "quantity": 3,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      },
+      {
+        "item_id": 11007,
+        "quantity": 1,
+        "item_type": "Item",
+        "discovery_score": 0,
+        "consumption_chance": 1.0
+      }
+    ],
+    "discovery_triggers": [],
+    "required_claim_tech_id": 0,
+    "full_discovery_score": 2,
+    "experience_per_progress": [
+      {
+        "skill_id": 17,
+        "quantity": 0.0
+      }
+    ],
+    "crafted_item_stacks": [
+      {
+        "item_id": 583453037,
+        "quantity": 1,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "actions_required": 1,
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 0,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "hide_without_required_knowledge": false,
+    "hide_with_blocking_knowledges": false,
+    "allow_use_hands": true,
+    "is_passive": true,
+    "show_in_progression": false
+  },
+  {
     "id": 1894193268,
     "name": "Recraft {1}",
     "time_requirement": 1.6,
@@ -442088,7 +446426,7 @@
       },
       {
         "item_id": 1923990437,
-        "quantity": 3,
+        "quantity": 1,
         "item_type": "Item",
         "discovery_score": 0,
         "consumption_chance": 1.0
@@ -471061,6 +475399,55 @@
     "show_in_progression": false
   },
   {
+    "id": 2062494632,
+    "name": "Unpack {1}",
+    "time_requirement": 1.6,
+    "stamina_requirement": 0.89,
+    "tool_durability_lost": 0,
+    "building_requirement": {
+      "building_type": 33,
+      "tier": 1
+    },
+    "level_requirements": [
+      {
+        "skill_id": 11,
+        "level": 1
+      }
+    ],
+    "tool_requirements": [],
+    "consumed_item_stacks": [
+      {
+        "item_id": 1500491996,
+        "quantity": 1,
+        "item_type": "Cargo",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "discovery_triggers": [],
+    "required_claim_tech_id": 0,
+    "full_discovery_score": 1,
+    "experience_per_progress": [],
+    "crafted_item_stacks": [
+      {
+        "item_id": 2100010,
+        "quantity": 1000,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "actions_required": 1,
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 1,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "hide_without_required_knowledge": false,
+    "hide_with_blocking_knowledges": false,
+    "allow_use_hands": false,
+    "is_passive": false,
+    "show_in_progression": false
+  },
+  {
     "id": 2062550026,
     "name": "Recraft {1}",
     "time_requirement": 1.6,
@@ -476704,6 +481091,55 @@
         "quantity": 100,
         "item_type": "Item",
         "durability": 0
+      }
+    ],
+    "actions_required": 1,
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 1,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "hide_without_required_knowledge": false,
+    "hide_with_blocking_knowledges": false,
+    "allow_use_hands": false,
+    "is_passive": false,
+    "show_in_progression": false
+  },
+  {
+    "id": 2085207716,
+    "name": "Package {1} into {0}",
+    "time_requirement": 1.6,
+    "stamina_requirement": 1.86,
+    "tool_durability_lost": 0,
+    "building_requirement": {
+      "building_type": 33,
+      "tier": 1
+    },
+    "level_requirements": [
+      {
+        "skill_id": 11,
+        "level": 1
+      }
+    ],
+    "tool_requirements": [],
+    "consumed_item_stacks": [
+      {
+        "item_id": 185945650,
+        "quantity": 1000,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "discovery_triggers": [],
+    "required_claim_tech_id": 0,
+    "full_discovery_score": 1,
+    "experience_per_progress": [],
+    "crafted_item_stacks": [
+      {
+        "item_id": 922646538,
+        "quantity": 1,
+        "item_type": "Cargo",
+        "durability": null
       }
     ],
     "actions_required": 1,
@@ -482609,6 +487045,55 @@
       }
     ],
     "actions_required": 10,
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 1,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "hide_without_required_knowledge": false,
+    "hide_with_blocking_knowledges": false,
+    "allow_use_hands": false,
+    "is_passive": false,
+    "show_in_progression": false
+  },
+  {
+    "id": 2117268397,
+    "name": "Package {1} into {0}",
+    "time_requirement": 1.6,
+    "stamina_requirement": 1.86,
+    "tool_durability_lost": 0,
+    "building_requirement": {
+      "building_type": 33,
+      "tier": 1
+    },
+    "level_requirements": [
+      {
+        "skill_id": 11,
+        "level": 1
+      }
+    ],
+    "tool_requirements": [],
+    "consumed_item_stacks": [
+      {
+        "item_id": 4100007,
+        "quantity": 10000,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "discovery_triggers": [],
+    "required_claim_tech_id": 0,
+    "full_discovery_score": 1,
+    "experience_per_progress": [],
+    "crafted_item_stacks": [
+      {
+        "item_id": 693137571,
+        "quantity": 1,
+        "item_type": "Cargo",
+        "durability": null
+      }
+    ],
+    "actions_required": 1,
     "tool_mesh_index": 0,
     "recipe_performance_id": 1,
     "required_knowledges": [],

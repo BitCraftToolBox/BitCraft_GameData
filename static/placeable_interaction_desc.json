@@ -1,5 +1,72 @@
 [
   {
+    "id": 10,
+    "verb_phrase": "Bait",
+    "placeable_id": 1712526687,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "consumed_item_stacks": [
+      {
+        "item_id": 224880567,
+        "quantity": 1,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "output_item_stacks": [],
+    "tool_requirements": [],
+    "level_requirements": [],
+    "experience_per_progress": [
+      {
+        "skill_id": 17,
+        "quantity": 0.0
+      }
+    ],
+    "time_requirement": 1.0,
+    "stamina_requirement": 0.75,
+    "tool_durability_lost": 0,
+    "range": 1,
+    "allow_use_hands": true,
+    "power_multiplier": 1.0,
+    "recipe_performance_id": 403,
+    "on_destroy_spawned_placeable_id": 127458152,
+    "on_destroy_spawned_placeable_chance": 1.0
+  },
+  {
+    "id": 187141974,
+    "verb_phrase": "Pick Up",
+    "placeable_id": 1712526687,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "consumed_item_stacks": [],
+    "output_item_stacks": [
+      {
+        "item_id": 1189482934,
+        "quantity": 1,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "tool_requirements": [],
+    "level_requirements": [],
+    "experience_per_progress": [
+      {
+        "skill_id": 17,
+        "quantity": 0.0
+      }
+    ],
+    "time_requirement": 1.0,
+    "stamina_requirement": 0.75,
+    "tool_durability_lost": 0,
+    "range": 1,
+    "allow_use_hands": true,
+    "power_multiplier": 1.0,
+    "recipe_performance_id": 403,
+    "on_destroy_spawned_placeable_id": 0,
+    "on_destroy_spawned_placeable_chance": 0.0
+  },
+  {
     "id": 212288341,
     "verb_phrase": "Give Water",
     "placeable_id": 2063311627,
@@ -39,6 +106,123 @@
     "on_destroy_spawned_placeable_chance": 1.0
   },
   {
+    "id": 585482090,
+    "verb_phrase": "Give Water",
+    "placeable_id": 1095326978,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "consumed_item_stacks": [
+      {
+        "item_id": 11007,
+        "quantity": 5,
+        "item_type": "Item",
+        "discovery_score": 0,
+        "consumption_chance": 1.0
+      }
+    ],
+    "output_item_stacks": [],
+    "tool_requirements": [],
+    "level_requirements": [
+      {
+        "skill_id": 17,
+        "level": 20
+      }
+    ],
+    "experience_per_progress": [
+      {
+        "skill_id": 17,
+        "quantity": 165.0
+      }
+    ],
+    "time_requirement": 1.6,
+    "stamina_requirement": 0.75,
+    "tool_durability_lost": 0,
+    "range": 1,
+    "allow_use_hands": true,
+    "power_multiplier": 1.0,
+    "recipe_performance_id": 859,
+    "on_destroy_spawned_placeable_id": 1865483877,
+    "on_destroy_spawned_placeable_chance": 1.0
+  },
+  {
+    "id": 625059216,
+    "verb_phrase": "Give Medicine",
+    "placeable_id": 1837668428,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "consumed_item_stacks": [
+      {
+        "item_id": 231882109,
+        "quantity": 1,
+        "item_type": "Item",
+        "discovery_score": 0,
+        "consumption_chance": 1.0
+      }
+    ],
+    "output_item_stacks": [],
+    "tool_requirements": [],
+    "level_requirements": [
+      {
+        "skill_id": 17,
+        "level": 20
+      }
+    ],
+    "experience_per_progress": [
+      {
+        "skill_id": 17,
+        "quantity": 165.0
+      }
+    ],
+    "time_requirement": 1.6,
+    "stamina_requirement": 0.75,
+    "tool_durability_lost": 0,
+    "range": 1,
+    "allow_use_hands": true,
+    "power_multiplier": 1.0,
+    "recipe_performance_id": 859,
+    "on_destroy_spawned_placeable_id": 1865483877,
+    "on_destroy_spawned_placeable_chance": 1.0
+  },
+  {
+    "id": 657544873,
+    "verb_phrase": "Feed",
+    "placeable_id": 1860597546,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "consumed_item_stacks": [
+      {
+        "item_id": 224880567,
+        "quantity": 1,
+        "item_type": "Item",
+        "discovery_score": 0,
+        "consumption_chance": 1.0
+      }
+    ],
+    "output_item_stacks": [],
+    "tool_requirements": [],
+    "level_requirements": [
+      {
+        "skill_id": 17,
+        "level": 20
+      }
+    ],
+    "experience_per_progress": [
+      {
+        "skill_id": 17,
+        "quantity": 165.0
+      }
+    ],
+    "time_requirement": 1.6,
+    "stamina_requirement": 0.75,
+    "tool_durability_lost": 0,
+    "range": 1,
+    "allow_use_hands": true,
+    "power_multiplier": 1.0,
+    "recipe_performance_id": 859,
+    "on_destroy_spawned_placeable_id": 1865483877,
+    "on_destroy_spawned_placeable_chance": 1.0
+  },
+  {
     "id": 756390292,
     "verb_phrase": "Collect",
     "placeable_id": 1831837613,
@@ -73,6 +257,39 @@
     "allow_use_hands": true,
     "power_multiplier": 1.0,
     "recipe_performance_id": 859,
+    "on_destroy_spawned_placeable_id": 0,
+    "on_destroy_spawned_placeable_chance": 0.0
+  },
+  {
+    "id": 868031388,
+    "verb_phrase": "Collect",
+    "placeable_id": 1599986239,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "consumed_item_stacks": [],
+    "output_item_stacks": [
+      {
+        "item_id": 1425824682,
+        "quantity": 1,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "tool_requirements": [],
+    "level_requirements": [],
+    "experience_per_progress": [
+      {
+        "skill_id": 17,
+        "quantity": 165.0
+      }
+    ],
+    "time_requirement": 1.0,
+    "stamina_requirement": 0.75,
+    "tool_durability_lost": 0,
+    "range": 1,
+    "allow_use_hands": true,
+    "power_multiplier": 1.0,
+    "recipe_performance_id": 403,
     "on_destroy_spawned_placeable_id": 0,
     "on_destroy_spawned_placeable_chance": 0.0
   },
@@ -116,6 +333,44 @@
     "on_destroy_spawned_placeable_chance": 1.0
   },
   {
+    "id": 1247947706,
+    "verb_phrase": "Collect",
+    "placeable_id": 1210699808,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "consumed_item_stacks": [],
+    "output_item_stacks": [
+      {
+        "item_id": 87266989,
+        "quantity": 1,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "tool_requirements": [],
+    "level_requirements": [
+      {
+        "skill_id": 17,
+        "level": 20
+      }
+    ],
+    "experience_per_progress": [
+      {
+        "skill_id": 17,
+        "quantity": 165.0
+      }
+    ],
+    "time_requirement": 1.6,
+    "stamina_requirement": 0.75,
+    "tool_durability_lost": 0,
+    "range": 1,
+    "allow_use_hands": true,
+    "power_multiplier": 1.0,
+    "recipe_performance_id": 859,
+    "on_destroy_spawned_placeable_id": 0,
+    "on_destroy_spawned_placeable_chance": 0.0
+  },
+  {
     "id": 1377322492,
     "verb_phrase": "Collect",
     "placeable_id": 659234808,
@@ -149,6 +404,45 @@
     "on_destroy_spawned_placeable_chance": 0.0
   },
   {
+    "id": 1378541064,
+    "verb_phrase": "Pick Up Trap",
+    "placeable_id": 127458152,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "consumed_item_stacks": [],
+    "output_item_stacks": [
+      {
+        "item_id": 1189482934,
+        "quantity": 1,
+        "item_type": "Item",
+        "durability": 0
+      },
+      {
+        "item_id": 224880567,
+        "quantity": 1,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "tool_requirements": [],
+    "level_requirements": [],
+    "experience_per_progress": [
+      {
+        "skill_id": 17,
+        "quantity": 0.0
+      }
+    ],
+    "time_requirement": 1.0,
+    "stamina_requirement": 0.75,
+    "tool_durability_lost": 0,
+    "range": 1,
+    "allow_use_hands": true,
+    "power_multiplier": 1.0,
+    "recipe_performance_id": 403,
+    "on_destroy_spawned_placeable_id": 0,
+    "on_destroy_spawned_placeable_chance": 0.0
+  },
+  {
     "id": 1599928767,
     "verb_phrase": "Bait",
     "placeable_id": 870186474,
@@ -169,7 +463,7 @@
     "experience_per_progress": [
       {
         "skill_id": 17,
-        "quantity": 0.0
+        "quantity": 15.0
       }
     ],
     "time_requirement": 1.0,
@@ -280,7 +574,7 @@
     "experience_per_progress": [
       {
         "skill_id": 17,
-        "quantity": 0.0
+        "quantity": 15.0
       }
     ],
     "time_requirement": 1.0,

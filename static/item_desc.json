@@ -1041,8 +1041,8 @@
   },
   {
     "id": 604,
-    "name": "Mark of Brico",
-    "description": "A currency earned through selling various construction or ancient materials to Brico. Can be used to buy various goods from Brico.",
+    "name": "Brico Buck",
+    "description": "A currency of previous high value, burried by Brico. It's value has since decayed to a hundreth of a hex coin.",
     "volume": 0,
     "durability": 0,
     "convert_to_on_durability_zero": 0,
@@ -1052,7 +1052,7 @@
     "tier": -1,
     "tag": "Currency",
     "rarity": "Common",
-    "compendium_entry": false,
+    "compendium_entry": true,
     "item_list_id": 0
   },
   {
@@ -1571,7 +1571,7 @@
     "id": 11012,
     "name": "Tree Sap",
     "description": "A small amount of sticky tree resin.",
-    "volume": 120,
+    "volume": 60,
     "durability": 0,
     "convert_to_on_durability_zero": 0,
     "secondary_knowledge_id": 0,
@@ -3539,7 +3539,7 @@
     "id": 1110015,
     "name": "Salt",
     "description": "Sea salt. Could be used to cook something tasty.",
-    "volume": 300,
+    "volume": 60,
     "durability": 0,
     "convert_to_on_durability_zero": 0,
     "secondary_knowledge_id": 0,
@@ -19424,6 +19424,22 @@
     "item_list_id": 0
   },
   {
+    "id": 26165067,
+    "name": "Deed: Pet Dromai",
+    "description": "A small Sagi Bird that has feathers similar to the ones seen in the Desert. Will never grow. Right Click and add to your vault to be able to summon him.",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Items/SagiPetDesert",
+    "tier": -1,
+    "tag": "Deed",
+    "rarity": "Legendary",
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
     "id": 26203299,
     "name": "Celestium Spear & Shield",
     "description": "A skillfully smithed spear and shield. The tools for a fighter who wants to taunt enemies and take damage.",
@@ -19950,6 +19966,22 @@
     "rarity": "Rare",
     "compendium_entry": true,
     "item_list_id": 0
+  },
+  {
+    "id": 38847422,
+    "name": "Domesticated Nubi Goat Output",
+    "description": "Various materials from a Nubi Goat.",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Items/NubiGoatProducts",
+    "tier": -1,
+    "tag": "Animal Output",
+    "rarity": "Uncommon",
+    "compendium_entry": false,
+    "item_list_id": 427165872
   },
   {
     "id": 39593025,
@@ -21137,17 +21169,17 @@
   },
   {
     "id": 65289865,
-    "name": "Fertalized Sagi Bird Egg",
-    "description": "A fertalized Sagi Bird Egg that could be is about to hatch into a baby sagi bird.",
+    "name": "Fertilized Sagi Bird Egg",
+    "description": "A fertilized Sagi Bird Egg that could be is about to hatch into a baby sagi bird.",
     "volume": 6000,
     "durability": 0,
     "convert_to_on_durability_zero": 0,
     "secondary_knowledge_id": 0,
     "model_asset_name": "",
-    "icon_asset_name": "GeneratedIcons/Items/SagiBirdEgg",
+    "icon_asset_name": "GeneratedIcons/Items/SagiEgg",
     "tier": -1,
     "tag": "Domesticated Animal Materials",
-    "rarity": "Common",
+    "rarity": "Rare",
     "compendium_entry": true,
     "item_list_id": 0
   },
@@ -21548,6 +21580,22 @@
     "tier": 8,
     "tag": "Leather Clothing",
     "rarity": "Mythic",
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
+    "id": 72590521,
+    "name": "Stonesmith's Nubi Fur Gloves",
+    "description": "",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Other/Cosmetics/Hands/Hands_FingerlessGloves_B",
+    "tier": 3,
+    "tag": "Clothing",
+    "rarity": "Common",
     "compendium_entry": true,
     "item_list_id": 0
   },
@@ -22224,6 +22272,22 @@
     "item_list_id": 0
   },
   {
+    "id": 87266989,
+    "name": "Domesticated Nubi Goat",
+    "description": "A smaller, domesticated Nubi Goat. Small enough that you can carry it in your arms. Can be placed in an Animal Hutch to be bred or to produce various materials",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Items/DomesticatedNubi",
+    "tier": -1,
+    "tag": "Tamed Animal",
+    "rarity": "Common",
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
     "id": 87491119,
     "name": "Rathium Plated Legguards",
     "description": "",
@@ -22384,6 +22448,22 @@
     "item_list_id": 837327629
   },
   {
+    "id": 88838549,
+    "name": "Autumn Everwoods Healer's Boots",
+    "description": "A piece of premium clothing from the Autumn Everwoods Set. Can be added to you vault to wear as a cosmetic override.",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "PremiumIcons/Autumn_Healer_Boots",
+    "tier": -1,
+    "tag": "Autumn Everwoods Healer",
+    "rarity": "Mythic",
+    "compendium_entry": false,
+    "item_list_id": 0
+  },
+  {
     "id": 89488488,
     "name": "Handstand Emote Bundle Output",
     "description": "A bundle that contains the \"Handstand\" and \"Handstand Fail\" emotes.",
@@ -22444,6 +22524,22 @@
     "tier": 8,
     "tag": "Filament Plant",
     "rarity": "Common",
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
+    "id": 92144796,
+    "name": "Deed: Grass Nubi Appearance",
+    "description": "Overrides the appearances of your Nubi Goat mounts while keeping their stats the same.",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Other/Vehicles/Goat2",
+    "tier": -1,
+    "tag": "Deed",
+    "rarity": "Uncommon",
     "compendium_entry": true,
     "item_list_id": 0
   },
@@ -23120,6 +23216,22 @@
     "item_list_id": 0
   },
   {
+    "id": 106666710,
+    "name": "Domesticated Nubi Goat",
+    "description": "A smaller, domesticated Nubi Goat. Small enough that you can carry it in your arms. Can be placed in an Animal Hutch to be bred or to produce various materials",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Items/DomesticatedNubi",
+    "tier": -1,
+    "tag": "Tamed Animal",
+    "rarity": "Mythic",
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
     "id": 107249693,
     "name": "Divine Serra Experiment",
     "description": "",
@@ -23262,6 +23374,22 @@
     "rarity": "Common",
     "compendium_entry": true,
     "item_list_id": 0
+  },
+  {
+    "id": 110531716,
+    "name": "Domesticated Nubi Goat Output",
+    "description": "Various materials from a Nubi Goat.",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Items/NubiGoatProducts",
+    "tier": -1,
+    "tag": "Animal Output",
+    "rarity": "Epic",
+    "compendium_entry": false,
+    "item_list_id": 1264042338
   },
   {
     "id": 110659030,
@@ -24928,6 +25056,22 @@
     "item_list_id": 0
   },
   {
+    "id": 145740120,
+    "name": "Autumn Everwoods Healer's Bracers",
+    "description": "A piece of premium clothing from the Autumn Everwoods Set. Can be added to you vault to wear as a cosmetic override.",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "PremiumIcons/Autumn_Healer_Gloves",
+    "tier": -1,
+    "tag": "Autumn Everwoods Healer",
+    "rarity": "Mythic",
+    "compendium_entry": false,
+    "item_list_id": 0
+  },
+  {
     "id": 145771769,
     "name": "Ornate Woven Shorts",
     "description": "",
@@ -25021,6 +25165,22 @@
     "tag": "Metal Armor",
     "rarity": "Legendary",
     "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
+    "id": 148178193,
+    "name": "Brico's Buried Bucks Prospecting",
+    "description": "Prospecting for digging up Brico's buried caches.",
+    "volume": 300,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/AncientDeed",
+    "tier": -1,
+    "tag": "Quest Item",
+    "rarity": "Common",
+    "compendium_entry": false,
     "item_list_id": 0
   },
   {
@@ -25520,6 +25680,22 @@
     "item_list_id": 0
   },
   {
+    "id": 160430065,
+    "name": "Deed: Light Brown Nubi Appearance",
+    "description": "Overrides the appearances of your Nubi Goat mounts while keeping their stats the same.",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Other/Vehicles/Goat5",
+    "tier": -1,
+    "tag": "Deed",
+    "rarity": "Rare",
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
     "id": 160539862,
     "name": "Magnificent Building Elixir",
     "description": "An elixir made by a scholar. Increases your building speed. Does not stack with other elixirs.",
@@ -25736,7 +25912,7 @@
     "convert_to_on_durability_zero": 0,
     "secondary_knowledge_id": 0,
     "model_asset_name": "",
-    "icon_asset_name": "GeneratedIcons/Other/Animals/Goat",
+    "icon_asset_name": "GeneratedIcons/Other/Vehicles/Goat1",
     "tier": -1,
     "tag": "Deployable Deed",
     "rarity": "Common",
@@ -26158,6 +26334,22 @@
     "rarity": "Mythic",
     "compendium_entry": true,
     "item_list_id": 0
+  },
+  {
+    "id": 170774023,
+    "name": "Domesticated Nubi Goat Breeding",
+    "description": "",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Items/DomesticatedNubi",
+    "tier": -1,
+    "tag": "Tamed Animal",
+    "rarity": "Uncommon",
+    "compendium_entry": false,
+    "item_list_id": 1334615489
   },
   {
     "id": 170786119,
@@ -27746,7 +27938,7 @@
   {
     "id": 202143430,
     "name": "Sagi Bird Egg",
-    "description": "An unfertalized Sagi Bird Egg that could be used for cooking.",
+    "description": "An unfertilized Sagi Bird Egg that could be used for cooking.",
     "volume": 120,
     "durability": 0,
     "convert_to_on_durability_zero": 0,
@@ -28672,6 +28864,22 @@
     "item_list_id": 2032566327
   },
   {
+    "id": 224189184,
+    "name": "Autumn Everwoods Healer's Pants",
+    "description": "A piece of premium clothing from the Autumn Everwoods Set. Can be added to you vault to wear as a cosmetic override.",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "PremiumIcons/Autumn_Healer_Pants",
+    "tier": -1,
+    "tag": "Autumn Everwoods Healer",
+    "rarity": "Mythic",
+    "compendium_entry": false,
+    "item_list_id": 0
+  },
+  {
     "id": 224560239,
     "name": "Elenvar Hammer",
     "description": "",
@@ -28686,6 +28894,22 @@
     "rarity": "Uncommon",
     "compendium_entry": false,
     "item_list_id": 1762727334
+  },
+  {
+    "id": 224880567,
+    "name": "Nubi Goat Food",
+    "description": "Food used to tame or feed a Nubi Goat.",
+    "volume": 120,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Items/NubiGoatFood",
+    "tier": -1,
+    "tag": "Animal Food",
+    "rarity": "Common",
+    "compendium_entry": true,
+    "item_list_id": 0
   },
   {
     "id": 225033934,
@@ -30147,7 +30371,7 @@
     "id": 253606511,
     "name": "Sugar",
     "description": "Sugar made from boiled sap. Could be used to cook something tasty.",
-    "volume": 300,
+    "volume": 60,
     "durability": 0,
     "convert_to_on_durability_zero": 0,
     "secondary_knowledge_id": 0,
@@ -31504,6 +31728,22 @@
     "item_list_id": 2123454140
   },
   {
+    "id": 283861052,
+    "name": "Domesticated Nubi Goat Product",
+    "description": "Various materials from a Nubi Goat.",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Items/DomesticatedNubiProduct",
+    "tier": -1,
+    "tag": "Animal Output",
+    "rarity": "Epic",
+    "compendium_entry": false,
+    "item_list_id": 2018740685
+  },
+  {
     "id": 284489610,
     "name": "T7 Baitfish Output",
     "description": "",
@@ -32832,6 +33072,22 @@
     "item_list_id": 525130120
   },
   {
+    "id": 314390333,
+    "name": "Deed: Pet Grass Sagi Bird",
+    "description": "A small Sagi Bird that has feathers similar to the ones seen in the Safe Meadows. Will never grow. Right Click and add to your vault to be able to summon him.",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Items/SagiPetGrass",
+    "tier": -1,
+    "tag": "Deed",
+    "rarity": "Rare",
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
     "id": 314591419,
     "name": "Owl Taming Knowledge",
     "description": "This unlocks a trade with Alesi that lets you purchase Owl Eggs at a lower price.",
@@ -33293,6 +33549,22 @@
     "tag": "Metal Armor",
     "rarity": "Uncommon",
     "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
+    "id": 325059530,
+    "name": "Deed: Autumn Everwoods Cervus Appearance",
+    "description": "This would override the appearance of all of your Cervus mounts while keeping all the same stats while equipped. Can be accessed through your vault.",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "PremiumIcons/EverwoodsDeerAutumn",
+    "tier": -1,
+    "tag": "Deed",
+    "rarity": "Mythic",
+    "compendium_entry": false,
     "item_list_id": 0
   },
   {
@@ -34189,6 +34461,22 @@
     "tag": "Forester Tool",
     "rarity": "Epic",
     "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
+    "id": 346392155,
+    "name": "Deed: Summer Everwoods Cervus Appearance",
+    "description": "This would override the appearance of all of your Cervus mounts while keeping all the same stats while equipped. Can be accessed through your vault.",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "PremiumIcons/EverwoodsDeerSummer",
+    "tier": -1,
+    "tag": "Deed",
+    "rarity": "Mythic",
+    "compendium_entry": false,
     "item_list_id": 0
   },
   {
@@ -37600,6 +37888,22 @@
     "item_list_id": 45707152
   },
   {
+    "id": 429532539,
+    "name": "Domesticated Nubi Goat",
+    "description": "A smaller, domesticated Nubi Goat. Small enough that you can carry it in your arms. Can be placed in an Animal Hutch to be bred or to produce various materials",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Items/DomesticatedNubi",
+    "tier": -1,
+    "tag": "Tamed Animal",
+    "rarity": "Rare",
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
     "id": 429708710,
     "name": "Rathium Scissors",
     "description": "A pair of scissors made from rathium.",
@@ -39582,6 +39886,22 @@
     "rarity": "Uncommon",
     "compendium_entry": false,
     "item_list_id": 47139753
+  },
+  {
+    "id": 478186399,
+    "name": "Autumn Everwoods Warrior's Circlet",
+    "description": "A piece of premium clothing from the Autumn Everwoods Set. Can be added to you vault to wear as a cosmetic override.",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "PremiumIcons/Autumn_Warrior_Hat",
+    "tier": -1,
+    "tag": "Autumn Everwoods Warrior",
+    "rarity": "Mythic",
+    "compendium_entry": false,
+    "item_list_id": 0
   },
   {
     "id": 479135484,
@@ -42392,7 +42712,7 @@
     "convert_to_on_durability_zero": 0,
     "secondary_knowledge_id": 0,
     "model_asset_name": "",
-    "icon_asset_name": "GeneratedIcons/Other/Animals/Goat",
+    "icon_asset_name": "GeneratedIcons/Other/Vehicles/Goat1",
     "tier": -1,
     "tag": "Deployable Deed",
     "rarity": "Common",
@@ -43208,7 +43528,7 @@
     "convert_to_on_durability_zero": 0,
     "secondary_knowledge_id": 0,
     "model_asset_name": "",
-    "icon_asset_name": "GeneratedIcons/Other/Animals/Goat",
+    "icon_asset_name": "GeneratedIcons/Other/Vehicles/Goat1",
     "tier": -1,
     "tag": "Deployable Deed",
     "rarity": "Common",
@@ -43374,6 +43694,22 @@
     "rarity": "Rare",
     "compendium_entry": false,
     "item_list_id": 852236418
+  },
+  {
+    "id": 558774496,
+    "name": "Domesticated Nubi Goat Product",
+    "description": "Various materials from a Nubi Goat.",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Items/DomesticatedNubiProduct",
+    "tier": -1,
+    "tag": "Animal Output",
+    "rarity": "Uncommon",
+    "compendium_entry": false,
+    "item_list_id": 598053547
   },
   {
     "id": 558824246,
@@ -44590,6 +44926,22 @@
     "rarity": "Common",
     "compendium_entry": true,
     "item_list_id": 0
+  },
+  {
+    "id": 583453037,
+    "name": "Domesticated Nubi Goat Breeding",
+    "description": "",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Items/DomesticatedNubi",
+    "tier": -1,
+    "tag": "Tamed Animal",
+    "rarity": "Common",
+    "compendium_entry": false,
+    "item_list_id": 2072702152
   },
   {
     "id": 583668222,
@@ -46176,6 +46528,22 @@
     "item_list_id": 587675105
   },
   {
+    "id": 617482098,
+    "name": "Deed: Pet Swamp Sagi Bird",
+    "description": "A small Sagi Bird with feathers colored to blend in in the swamp. Will never grow. Right Click and add to your vault to be able to summon him.",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Items/SagiPetSwamp",
+    "tier": -1,
+    "tag": "Deed",
+    "rarity": "Epic",
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
     "id": 618237316,
     "name": "Luminite Bow",
     "description": "A bow made from luminite.",
@@ -46798,6 +47166,22 @@
     "rarity": "Legendary",
     "compendium_entry": true,
     "item_list_id": 0
+  },
+  {
+    "id": 632762540,
+    "name": "Domesticated Nubi Goat Breeding",
+    "description": "",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Items/DomesticatedNubi",
+    "tier": -1,
+    "tag": "Tamed Animal",
+    "rarity": "Rare",
+    "compendium_entry": false,
+    "item_list_id": 1719629852
   },
   {
     "id": 633219445,
@@ -48509,6 +48893,22 @@
     "tag": "Metal Armor",
     "rarity": "Epic",
     "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
+    "id": 667594035,
+    "name": "Autumn Everwoods Healer's Tunic",
+    "description": "A piece of premium clothing from the Autumn Everwoods Set. Can be added to you vault to wear as a cosmetic override.",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "PremiumIcons/Autumn_Healer_Torso",
+    "tier": -1,
+    "tag": "Autumn Everwoods Healer",
+    "rarity": "Mythic",
+    "compendium_entry": false,
     "item_list_id": 0
   },
   {
@@ -51934,6 +52334,22 @@
     "rarity": "Rare",
     "compendium_entry": false,
     "item_list_id": 1525660298
+  },
+  {
+    "id": 738117456,
+    "name": "Domesticated Nubi Goat Product",
+    "description": "Various materials from a Nubi Goat.",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Items/DomesticatedNubiProduct",
+    "tier": -1,
+    "tag": "Animal Output",
+    "rarity": "Rare",
+    "compendium_entry": false,
+    "item_list_id": 1572281539
   },
   {
     "id": 738757867,
@@ -57952,6 +58368,22 @@
     "item_list_id": 662889362
   },
   {
+    "id": 872648392,
+    "name": "Survivalist's Nubi Fur Gloves",
+    "description": "",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Other/Cosmetics/Hands/Hands_FingerlessGloves_C",
+    "tier": 3,
+    "tag": "Clothing",
+    "rarity": "Common",
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
     "id": 872712527,
     "name": "Rathium Duelist Armor",
     "description": "",
@@ -63008,6 +63440,22 @@
     "item_list_id": 1065428418
   },
   {
+    "id": 990163647,
+    "name": "Brico's Receipt",
+    "description": "A receipt showing an exchange of brico bucks and hex coins.",
+    "volume": 0,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Items/Brico'sReceipt",
+    "tier": -1,
+    "tag": "Quest Item",
+    "rarity": "Common",
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
     "id": 990415817,
     "name": "Recipe: Delicious Deluxe Bulb Roll",
     "description": "A recipe to learn Delicious Deluxe Bulb Roll",
@@ -66336,6 +66784,22 @@
     "item_list_id": 0
   },
   {
+    "id": 1055782194,
+    "name": "Everwoods Decor Tokens",
+    "description": "Tokens which can allow you to build various Everwoods themed decorations.",
+    "volume": 0,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "PremiumIcons/EverwoodsBuildingMaterials",
+    "tier": -1,
+    "tag": "Premium Item",
+    "rarity": "Mythic",
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
     "id": 1055985206,
     "name": "Flawless Ruby Fragment",
     "description": "This could be used to craft a gem.",
@@ -69456,6 +69920,22 @@
     "item_list_id": 269844233
   },
   {
+    "id": 1123616256,
+    "name": "Burried Brico Bucks",
+    "description": "A currency of previous high value, burried by Brico.",
+    "volume": 0,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Items/MarkOfBrico",
+    "tier": -1,
+    "tag": "Currency",
+    "rarity": "Common",
+    "compendium_entry": false,
+    "item_list_id": 986144653
+  },
+  {
     "id": 1124105212,
     "name": "Celestium Plated Legguards",
     "description": "",
@@ -71648,6 +72128,22 @@
     "item_list_id": 0
   },
   {
+    "id": 1168652367,
+    "name": "Domesticated Nubi Goat Product",
+    "description": "Various materials from a Nubi Goat.",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Items/DomesticatedNubiProduct",
+    "tier": -1,
+    "tag": "Animal Output",
+    "rarity": "Common",
+    "compendium_entry": false,
+    "item_list_id": 1240057393
+  },
+  {
     "id": 1168774134,
     "name": "Cook's Endurance Training I",
     "description": "This scroll contains knowledge that deepens your understanding of food so much that your automata stomach can hold more food. Increases your max hunger by 10. Requires level 10 cooking to purchase.",
@@ -72560,6 +73056,22 @@
     "item_list_id": 0
   },
   {
+    "id": 1189482934,
+    "name": "Nubi Goat Trap",
+    "description": "A trap that could be used to catch a Nubi Goat. Right click the trap to place an \"Unset Nubi Goat Trap\". Once placed, can be baited with Nubi Goat Food. The trap will then have a chance to catch a Tameable Nubi Goat every 10 minutes, or more rarely the Nubi Goat may escape with the traps food.\n\nCan be placed in the Calm Forest or Rocky Garden.",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Items/NubiGoatTrap",
+    "tier": -1,
+    "tag": "Animal Trap",
+    "rarity": "Common",
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
     "id": 1189638467,
     "name": "Mincemeat Pie",
     "description": "Mincemeat pie.",
@@ -72896,6 +73408,22 @@
     "item_list_id": 0
   },
   {
+    "id": 1196499057,
+    "name": "Deed: White Ears Brown Nubi Appearance",
+    "description": "Overrides the appearances of your Nubi Goat mounts while keeping their stats the same.",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Other/Vehicles/Goat3",
+    "tier": -1,
+    "tag": "Deed",
+    "rarity": "Epic",
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
     "id": 1196562363,
     "name": "Celestium Plated Belt",
     "description": "",
@@ -73117,6 +73645,22 @@
     "tag": "Cloth Clothing",
     "rarity": "Epic",
     "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
+    "id": 1199836318,
+    "name": "Autumn Everwoods Healer's Circlet",
+    "description": "A piece of premium clothing from the Autumn Everwoods Set. Can be added to you vault to wear as a cosmetic override.",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "PremiumIcons/Autumn_Healer_Hat",
+    "tier": -1,
+    "tag": "Autumn Everwoods Healer",
+    "rarity": "Mythic",
+    "compendium_entry": false,
     "item_list_id": 0
   },
   {
@@ -73808,6 +74352,22 @@
     "item_list_id": 318719416
   },
   {
+    "id": 1211834975,
+    "name": "Domesticated Nubi Goat Breeding",
+    "description": "",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Items/DomesticatedNubi",
+    "tier": -1,
+    "tag": "Tamed Animal",
+    "rarity": "Epic",
+    "compendium_entry": false,
+    "item_list_id": 2065647603
+  },
+  {
     "id": 1212598568,
     "name": "Prime Jakyl Meat",
     "description": "A very high quality piece of meat from an Alpha Jakyl. Somewhat rare. Alesi said you'd need this for the hunter's feast.",
@@ -73933,6 +74493,22 @@
     "tag": "Weapon",
     "rarity": "Uncommon",
     "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
+    "id": 1216065368,
+    "name": "Autumn Everwoods Warrior's Belt",
+    "description": "A piece of premium clothing from the Autumn Everwoods Set. Can be added to you vault to wear as a cosmetic override.",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "PremiumIcons/Autumn_Warrior_Belt",
+    "tier": -1,
+    "tag": "Autumn Everwoods Warrior",
+    "rarity": "Mythic",
+    "compendium_entry": false,
     "item_list_id": 0
   },
   {
@@ -75952,6 +76528,22 @@
     "item_list_id": 1607065979
   },
   {
+    "id": 1257541511,
+    "name": "Nubi Goat Fur",
+    "description": "Thick fur from a Domesticated Nubi Goat. Can be used to make various items or sold to Alesi.",
+    "volume": 120,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Items/NubiFur",
+    "tier": -1,
+    "tag": "Domesticated Animal Materials",
+    "rarity": "Rare",
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
     "id": 1257606098,
     "name": "Domesticated Sagi Bird",
     "description": "A domesticated Sagi Bird that you could place in a pen to produce materials for you or to be bred with another Sagi Bird of the same quality.",
@@ -77304,7 +77896,7 @@
     "convert_to_on_durability_zero": 0,
     "secondary_knowledge_id": 0,
     "model_asset_name": "",
-    "icon_asset_name": "GeneratedIcons/Other/Animals/Goat",
+    "icon_asset_name": "GeneratedIcons/Other/Vehicles/Goat1",
     "tier": -1,
     "tag": "Deployable Deed",
     "rarity": "Common",
@@ -77872,6 +78464,22 @@
     "item_list_id": 0
   },
   {
+    "id": 1305794675,
+    "name": "Deed: Daisy",
+    "description": "A cute little deer. Her hair is colored for the summer in the Everwoods. Right Click and add to your vault to summon her.",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "PremiumIcons/EverwoodsDaisy",
+    "tier": -1,
+    "tag": "Deed",
+    "rarity": "Mythic",
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
     "id": 1306099351,
     "name": "Rathium Plated Belt",
     "description": "",
@@ -78350,6 +78958,22 @@
     "rarity": "Common",
     "compendium_entry": false,
     "item_list_id": 1123654350
+  },
+  {
+    "id": 1315983200,
+    "name": "Deed: Maple",
+    "description": "A cute little deer. Her hair is colored for the autumn in the Everwoods. Right Click and add to your vault to summon her.",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "PremiumIcons/EverwoodsMaple",
+    "tier": -1,
+    "tag": "Deed",
+    "rarity": "Mythic",
+    "compendium_entry": true,
+    "item_list_id": 0
   },
   {
     "id": 1316254367,
@@ -79805,6 +80429,22 @@
     "tag": "Emote Deed",
     "rarity": "Common",
     "compendium_entry": false,
+    "item_list_id": 0
+  },
+  {
+    "id": 1353272922,
+    "name": "Verdant Nubi Fur Gloves",
+    "description": "",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Other/Cosmetics/Hands/Hands_FingerlessGloves_D",
+    "tier": 3,
+    "tag": "Clothing",
+    "rarity": "Common",
+    "compendium_entry": true,
     "item_list_id": 0
   },
   {
@@ -82032,6 +82672,22 @@
     "item_list_id": 0
   },
   {
+    "id": 1395357811,
+    "name": "Landweaver's Nubi Fur Gloves",
+    "description": "",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Other/Cosmetics/Hands/Hands_FingerlessGloves_A",
+    "tier": 3,
+    "tag": "Clothing",
+    "rarity": "Common",
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
     "id": 1395735228,
     "name": "Flawless Gem",
     "description": "A random gem.",
@@ -82736,6 +83392,22 @@
     "item_list_id": 714467723
   },
   {
+    "id": 1410667257,
+    "name": "Fertalized Sagi Bird Egg Output",
+    "description": "A fertalized Sagi Bird Egg that could be is about to hatch into a baby sagi bird.",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Items/SagiBirdEgg",
+    "tier": -1,
+    "tag": "Domesticated Animal Materials",
+    "rarity": "Rare",
+    "compendium_entry": false,
+    "item_list_id": 1311143196
+  },
+  {
     "id": 1411345788,
     "name": "Deed: Beach Shirt - Green",
     "description": "",
@@ -83436,6 +84108,22 @@
     "tier": 3,
     "tag": "Dungeon Equipment",
     "rarity": "Epic",
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
+    "id": 1425824682,
+    "name": "Captured Nubi Goat",
+    "description": "A small Nubi Goat which has been captured in a trap. Small enough to carry in your inventory. Right click this to place it near a Taming Workbench to complete the domestication process. Once placed, the Nubi Goat will need to be fed, given water or healing potions until it turns into a Domesticated Nubi Goat.",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Items/CapturedNubi",
+    "tier": -1,
+    "tag": "Tamed Animal",
+    "rarity": "Common",
     "compendium_entry": true,
     "item_list_id": 0
   },
@@ -84734,6 +85422,22 @@
     "rarity": "Legendary",
     "compendium_entry": false,
     "item_list_id": 2050699373
+  },
+  {
+    "id": 1450723702,
+    "name": "Deed: Pet Sagi Chick",
+    "description": "A small Sagi Bird with feathers colored similar to those of the domesticated Sagi. Will never grow and it can't lay eggs. Guess it'll make a cute companion at least Right Click and add to your vault to be able to summon him.",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Items/SagiPetChicken",
+    "tier": -1,
+    "tag": "Deed",
+    "rarity": "Common",
+    "compendium_entry": true,
+    "item_list_id": 0
   },
   {
     "id": 1451448571,
@@ -86238,6 +86942,22 @@
     "rarity": "Common",
     "compendium_entry": false,
     "item_list_id": 0
+  },
+  {
+    "id": 1482270475,
+    "name": "Domesticated Nubi Goat Output",
+    "description": "Various materials from a Nubi Goat.",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Items/NubiGoatProducts",
+    "tier": -1,
+    "tag": "Animal Output",
+    "rarity": "Mythic",
+    "compendium_entry": false,
+    "item_list_id": 1476110672
   },
   {
     "id": 1482290222,
@@ -88048,6 +88768,22 @@
     "item_list_id": 0
   },
   {
+    "id": 1519309582,
+    "name": "Autumn Everwoods Healer's Belt",
+    "description": "A piece of premium clothing from the Autumn Everwoods Set. Can be added to you vault to wear as a cosmetic override.",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "PremiumIcons/Autumn_Healer_Belt",
+    "tier": -1,
+    "tag": "Autumn Everwoods Healer",
+    "rarity": "Mythic",
+    "compendium_entry": false,
+    "item_list_id": 0
+  },
+  {
     "id": 1519379585,
     "name": "Lake Survey Unlock",
     "description": "",
@@ -88526,6 +89262,22 @@
     "rarity": "Common",
     "compendium_entry": false,
     "item_list_id": 1040986044
+  },
+  {
+    "id": 1529668091,
+    "name": "Domesticated Nubi Goat Product",
+    "description": "Various materials from a Nubi Goat.",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Items/DomesticatedNubiProduct",
+    "tier": -1,
+    "tag": "Animal Output",
+    "rarity": "Legendary",
+    "compendium_entry": false,
+    "item_list_id": 777287815
   },
   {
     "id": 1530245261,
@@ -91678,6 +92430,22 @@
     "rarity": "Uncommon",
     "compendium_entry": false,
     "item_list_id": 1133099379
+  },
+  {
+    "id": 1592653184,
+    "name": "Domesticated Nubi Goat Output",
+    "description": "Various materials from a Nubi Goat.",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Items/NubiGoatProducts",
+    "tier": -1,
+    "tag": "Animal Output",
+    "rarity": "Legendary",
+    "compendium_entry": false,
+    "item_list_id": 1054782781
   },
   {
     "id": 1592686038,
@@ -95070,6 +95838,22 @@
     "rarity": "Legendary",
     "compendium_entry": true,
     "item_list_id": 0
+  },
+  {
+    "id": 1670725618,
+    "name": "Domesticated Nubi Goat Output",
+    "description": "Various materials from a Nubi Goat.",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Items/NubiGoatProducts",
+    "tier": -1,
+    "tag": "Animal Output",
+    "rarity": "Rare",
+    "compendium_entry": false,
+    "item_list_id": 1838055371
   },
   {
     "id": 1671002796,
@@ -99664,6 +100448,22 @@
     "item_list_id": 0
   },
   {
+    "id": 1761068575,
+    "name": "Autumn Everwoods Warrior's Bracers",
+    "description": "A piece of premium clothing from the Autumn Everwoods Set. Can be added to you vault to wear as a cosmetic override.",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "PremiumIcons/Autumn_Warrior_Gloves",
+    "tier": -1,
+    "tag": "Autumn Everwoods Warrior",
+    "rarity": "Mythic",
+    "compendium_entry": false,
+    "item_list_id": 0
+  },
+  {
     "id": 1761330554,
     "name": "Umbracite Plated Bracers",
     "description": "",
@@ -101024,6 +101824,22 @@
     "item_list_id": 0
   },
   {
+    "id": 1792007909,
+    "name": "Autumn Everwoods Warrior's Pants",
+    "description": "A piece of premium clothing from the Autumn Everwoods Set. Can be added to you vault to wear as a cosmetic override.",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "PremiumIcons/Autumn_Warrior_Pants",
+    "tier": -1,
+    "tag": "Autumn Everwoods Warrior",
+    "rarity": "Mythic",
+    "compendium_entry": false,
+    "item_list_id": 0
+  },
+  {
     "id": 1792061518,
     "name": "Rathium Spear & Shield",
     "description": "A skillfully smithed spear and shield. The tools for a fighter who wants to taunt enemies and take damage.",
@@ -102368,6 +103184,22 @@
     "item_list_id": 0
   },
   {
+    "id": 1823122881,
+    "name": "Domesticated Nubi Goat Output",
+    "description": "Various materials from a Nubi Goat.",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Items/NubiGoatProducts",
+    "tier": -1,
+    "tag": "Animal Output",
+    "rarity": "Common",
+    "compendium_entry": false,
+    "item_list_id": 672710314
+  },
+  {
     "id": 1823166650,
     "name": "Magnificent Tannin",
     "description": "A material made from processing water and bark in a tanning tub. Used to tan leather.",
@@ -102766,6 +103598,22 @@
     "rarity": "Rare",
     "compendium_entry": true,
     "item_list_id": 0
+  },
+  {
+    "id": 1829008407,
+    "name": "Domesticated Nubi Goat Product",
+    "description": "Various materials from a Nubi Goat.",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Items/DomesticatedNubiProduct",
+    "tier": -1,
+    "tag": "Animal Output",
+    "rarity": "Mythic",
+    "compendium_entry": false,
+    "item_list_id": 848321432
   },
   {
     "id": 1829171061,
@@ -103805,6 +104653,22 @@
     "tag": "Skill Training",
     "rarity": "Common",
     "compendium_entry": false,
+    "item_list_id": 0
+  },
+  {
+    "id": 1850529478,
+    "name": "Deed: White Ears Gray Nubi Appearance",
+    "description": "Overrides the appearances of your Nubi Goat mounts while keeping their stats the same.",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Other/Vehicles/Goat4",
+    "tier": -1,
+    "tag": "Deed",
+    "rarity": "Epic",
+    "compendium_entry": true,
     "item_list_id": 0
   },
   {
@@ -106704,6 +107568,22 @@
     "item_list_id": 0
   },
   {
+    "id": 1907182407,
+    "name": "Autumn Everwoods Warrior's Boots",
+    "description": "A piece of premium clothing from the Autumn Everwoods Set. Can be added to you vault to wear as a cosmetic override.",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "PremiumIcons/Autumn_Warrior_Boots",
+    "tier": -1,
+    "tag": "Autumn Everwoods Warrior",
+    "rarity": "Mythic",
+    "compendium_entry": false,
+    "item_list_id": 0
+  },
+  {
     "id": 1907255116,
     "name": "Recipe: Plain Raw Berry Pie",
     "description": "A recipe to learn Plain Raw Berry Pie",
@@ -107661,6 +108541,22 @@
     "tag": "Bones",
     "rarity": "Legendary",
     "compendium_entry": false,
+    "item_list_id": 0
+  },
+  {
+    "id": 1926188482,
+    "name": "Nubi Goat Vitamins",
+    "description": "Vitamins which can be used to make nutritious food for a Nubi Goat to breed or produce materials for you.",
+    "volume": 120,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Items/NubiGoatVitamin",
+    "tier": -1,
+    "tag": "Animal Food",
+    "rarity": "Common",
+    "compendium_entry": true,
     "item_list_id": 0
   },
   {
@@ -109629,6 +110525,22 @@
     "tag": "Cloth Clothing",
     "rarity": "Legendary",
     "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
+    "id": 1968105418,
+    "name": "Autumn Everwoods Warrior's Tunic",
+    "description": "A piece of premium clothing from the Autumn Everwoods Set. Can be added to you vault to wear as a cosmetic override.",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "PremiumIcons/Autumn_Warrior_Torso",
+    "tier": -1,
+    "tag": "Autumn Everwoods Warrior",
+    "rarity": "Mythic",
+    "compendium_entry": false,
     "item_list_id": 0
   },
   {
@@ -111808,6 +112720,22 @@
     "item_list_id": 0
   },
   {
+    "id": 2015587422,
+    "name": "Nubi Milk",
+    "description": "Can be used to make various dairy goods.",
+    "volume": 120,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Items/NubiMilk",
+    "tier": -1,
+    "tag": "Domesticated Animal Materials",
+    "rarity": "Common",
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
     "id": 2015960047,
     "name": "Celestium Crossbow",
     "description": "",
@@ -111998,6 +112926,22 @@
     "rarity": "Rare",
     "compendium_entry": false,
     "item_list_id": 1839259569
+  },
+  {
+    "id": 2018476323,
+    "name": "Domesticated Nubi Goat Breeding",
+    "description": "",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Items/DomesticatedNubi",
+    "tier": -1,
+    "tag": "Tamed Animal",
+    "rarity": "Legendary",
+    "compendium_entry": false,
+    "item_list_id": 976567549
   },
   {
     "id": 2018511561,
@@ -114528,6 +115472,38 @@
     "item_list_id": 120736411
   },
   {
+    "id": 2072931905,
+    "name": "Domesticated Nubi Goat",
+    "description": "A smaller, domesticated Nubi Goat. Small enough that you can carry it in your arms. Can be placed in an Animal Hutch to be bred or to produce various materials",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Items/DomesticatedNubi",
+    "tier": -1,
+    "tag": "Tamed Animal",
+    "rarity": "Legendary",
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
+    "id": 2073949398,
+    "name": "Brico Buck Trading Permit",
+    "description": "Unlocks trading Brico Bucks with Rumbagh",
+    "volume": 300,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/AncientDeed",
+    "tier": -1,
+    "tag": "Quest Item",
+    "rarity": "Common",
+    "compendium_entry": false,
+    "item_list_id": 0
+  },
+  {
     "id": 2074279496,
     "name": "Deed: Ragged Dress - Red",
     "description": "",
@@ -115260,6 +116236,22 @@
     "tier": 2,
     "tag": "Metal Armor",
     "rarity": "Uncommon",
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
+    "id": 2089657221,
+    "name": "Domesticated Nubi Goat",
+    "description": "A smaller, domesticated Nubi Goat. Small enough that you can carry it in your arms. Can be placed in an Animal Hutch to be bred or to produce various materials",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Items/DomesticatedNubi",
+    "tier": -1,
+    "tag": "Tamed Animal",
+    "rarity": "Epic",
     "compendium_entry": true,
     "item_list_id": 0
   },
@@ -117520,6 +118512,22 @@
     "item_list_id": 0
   },
   {
+    "id": 2142920653,
+    "name": "Domesticated Nubi Goat",
+    "description": "A smaller, domesticated Nubi Goat. Small enough that you can carry it in your arms. Can be placed in an Animal Hutch to be bred or to produce various materials",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Items/DomesticatedNubi",
+    "tier": -1,
+    "tag": "Tamed Animal",
+    "rarity": "Uncommon",
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
     "id": 2143108117,
     "name": "Astralite Quill",
     "description": "A quill made from astralite.",
@@ -117612,6 +118620,22 @@
     "tier": 8,
     "tag": "Ore Concentrate",
     "rarity": "Common",
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
+    "id": 2145965353,
+    "name": "Domesticated Nubi Goat Breeding",
+    "description": "",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Items/DomesticatedNubi",
+    "tier": -1,
+    "tag": "Tamed Animal",
+    "rarity": "Mythic",
     "compendium_entry": true,
     "item_list_id": 0
   },

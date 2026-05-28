@@ -133,6 +133,39 @@
     "hide_with_blocking_knowledges": false
   },
   {
+    "id": 83997680,
+    "starting_stock": 2147483647,
+    "always_offered": true,
+    "traveler": "Rumbagh",
+    "offer_items": [
+      {
+        "item_id": 604,
+        "quantity": 100,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "offer_cargo_id": [],
+    "required_items": [
+      {
+        "item_id": 1,
+        "quantity": 1,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "required_cargo_id": [],
+    "level_requirements": [],
+    "achievement_requirements": [],
+    "hide_if_requirements_are_not_met": false,
+    "required_knowledges": [
+      438347055
+    ],
+    "hide_without_required_knowledge": true,
+    "blocking_knowledges": [],
+    "hide_with_blocking_knowledges": false
+  },
+  {
     "id": 93559232,
     "starting_stock": 2147483647,
     "always_offered": true,
@@ -248,6 +281,42 @@
     ],
     "required_cargo_id": [],
     "level_requirements": [],
+    "achievement_requirements": [],
+    "hide_if_requirements_are_not_met": false,
+    "required_knowledges": [],
+    "hide_without_required_knowledge": false,
+    "blocking_knowledges": [],
+    "hide_with_blocking_knowledges": false
+  },
+  {
+    "id": 130665642,
+    "starting_stock": 2147483647,
+    "always_offered": true,
+    "traveler": "Tamer",
+    "offer_items": [
+      {
+        "item_id": 1926188482,
+        "quantity": 1,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "offer_cargo_id": [],
+    "required_items": [
+      {
+        "item_id": 1,
+        "quantity": 65,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "required_cargo_id": [],
+    "level_requirements": [
+      {
+        "skill_id": 17,
+        "level": 20
+      }
+    ],
     "achievement_requirements": [],
     "hide_if_requirements_are_not_met": false,
     "required_knowledges": [],
@@ -456,6 +525,39 @@
     "hide_if_requirements_are_not_met": false,
     "required_knowledges": [
       1988059672
+    ],
+    "hide_without_required_knowledge": true,
+    "blocking_knowledges": [],
+    "hide_with_blocking_knowledges": false
+  },
+  {
+    "id": 186890368,
+    "starting_stock": 2147483647,
+    "always_offered": true,
+    "traveler": "Rumbagh",
+    "offer_items": [
+      {
+        "item_id": 1,
+        "quantity": 1,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "offer_cargo_id": [],
+    "required_items": [
+      {
+        "item_id": 604,
+        "quantity": 100,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "required_cargo_id": [],
+    "level_requirements": [],
+    "achievement_requirements": [],
+    "hide_if_requirements_are_not_met": false,
+    "required_knowledges": [
+      438347055
     ],
     "hide_without_required_knowledge": true,
     "blocking_knowledges": [],
@@ -3377,6 +3479,37 @@
       1848639773
     ],
     "hide_with_blocking_knowledges": true
+  },
+  {
+    "id": 1498080672,
+    "starting_stock": 2147483647,
+    "always_offered": true,
+    "traveler": "Tamer",
+    "offer_items": [
+      {
+        "item_id": 1,
+        "quantity": 260,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "offer_cargo_id": [],
+    "required_items": [
+      {
+        "item_id": 1257541511,
+        "quantity": 1,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "required_cargo_id": [],
+    "level_requirements": [],
+    "achievement_requirements": [],
+    "hide_if_requirements_are_not_met": false,
+    "required_knowledges": [],
+    "hide_without_required_knowledge": false,
+    "blocking_knowledges": [],
+    "hide_with_blocking_knowledges": false
   },
   {
     "id": 1503200915,
