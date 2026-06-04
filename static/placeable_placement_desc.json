@@ -1,5 +1,81 @@
 [
   {
+    "id": 338045196,
+    "placed_placeable_id": 1247297653,
+    "input_item": {
+      "item_id": 1340216711,
+      "quantity": 1,
+      "item_type": "Item",
+      "durability": 0
+    },
+    "required_time": 3.0,
+    "level_requirements": [
+      {
+        "skill_id": 8,
+        "level": 36
+      }
+    ],
+    "tool_requirements": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "required_biomes": [],
+    "place_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "place_on_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 0,
+    "required_paving_tier": -1,
+    "required_interior_tier": 0,
+    "required_claim_tier": 0,
+    "min_distance_to_player_claims": 15,
+    "min_distance_to_group": 4,
+    "min_distance_to_other_placeables": 1,
+    "min_distance_to_existing_footprints": 1,
+    "max_distance_to_buildings": 0,
+    "buildings": [],
+    "recipe_performance_id": 403
+  },
+  {
+    "id": 519030101,
+    "placed_placeable_id": 1905291369,
+    "input_item": {
+      "item_id": 1816326792,
+      "quantity": 1,
+      "item_type": "Item",
+      "durability": 0
+    },
+    "required_time": 3.0,
+    "level_requirements": [
+      {
+        "skill_id": 9,
+        "level": 33
+      }
+    ],
+    "tool_requirements": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "required_biomes": [],
+    "place_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "place_on_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 0,
+    "required_paving_tier": -1,
+    "required_interior_tier": 0,
+    "required_claim_tier": 0,
+    "min_distance_to_player_claims": 15,
+    "min_distance_to_group": 4,
+    "min_distance_to_other_placeables": 1,
+    "min_distance_to_existing_footprints": 1,
+    "max_distance_to_buildings": 10,
+    "buildings": [
+      1503293649
+    ],
+    "recipe_performance_id": 910
+  },
+  {
     "id": 774931176,
     "placed_placeable_id": 2141280508,
     "input_item": {
@@ -69,6 +145,45 @@
     "recipe_performance_id": 910
   },
   {
+    "id": 1766718559,
+    "placed_placeable_id": 994939277,
+    "input_item": {
+      "item_id": 1935960700,
+      "quantity": 1,
+      "item_type": "Item",
+      "durability": 0
+    },
+    "required_time": 2.0,
+    "level_requirements": [
+      {
+        "skill_id": 4,
+        "level": 42
+      }
+    ],
+    "tool_requirements": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "required_biomes": [],
+    "place_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "place_on_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 0,
+    "required_paving_tier": -1,
+    "required_interior_tier": 0,
+    "required_claim_tier": 0,
+    "min_distance_to_player_claims": 0,
+    "min_distance_to_group": 5,
+    "min_distance_to_other_placeables": 5,
+    "min_distance_to_existing_footprints": 1,
+    "max_distance_to_buildings": 10,
+    "buildings": [
+      719999256
+    ],
+    "recipe_performance_id": 315
+  },
+  {
     "id": 2078563352,
     "placed_placeable_id": 1712526687,
     "input_item": {
@@ -107,6 +222,51 @@
     "max_distance_to_buildings": 0,
     "buildings": [],
     "recipe_performance_id": 910
+  },
+  {
+    "id": 2110648549,
+    "placed_placeable_id": 1837737654,
+    "input_item": {
+      "item_id": 1283974284,
+      "quantity": 1,
+      "item_type": "Item",
+      "durability": 0
+    },
+    "required_time": 2.0,
+    "level_requirements": [
+      {
+        "skill_id": 2,
+        "level": 42
+      }
+    ],
+    "tool_requirements": [
+      {
+        "tool_type": 1,
+        "level": 0,
+        "power": 1
+      }
+    ],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "required_biomes": [
+      "DesertedBeach"
+    ],
+    "place_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "place_on_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 0,
+    "required_paving_tier": -1,
+    "required_interior_tier": 0,
+    "required_claim_tier": 0,
+    "min_distance_to_player_claims": 0,
+    "min_distance_to_group": 5,
+    "min_distance_to_other_placeables": 5,
+    "min_distance_to_existing_footprints": 2,
+    "max_distance_to_buildings": 0,
+    "buildings": [],
+    "recipe_performance_id": 641
   },
   {
     "id": 2135187451,
