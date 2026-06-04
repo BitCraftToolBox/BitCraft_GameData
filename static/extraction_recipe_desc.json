@@ -20389,6 +20389,107 @@
     ]
   },
   {
+    "id": 324053253,
+    "resource_id": 74824355,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 1.6,
+    "stamina_requirement": 1.16,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [
+      [
+        [
+          0,
+          [
+            11012,
+            1,
+            [
+              0,
+              []
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        ],
+        0.003108
+      ],
+      [
+        [
+          0,
+          [
+            4220025,
+            1,
+            [
+              0,
+              []
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        ],
+        0.00906
+      ],
+      [
+        [
+          0,
+          [
+            4220024,
+            1,
+            [
+              0,
+              []
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        ],
+        0.00777
+      ]
+    ],
+    "consumed_item_stacks": [],
+    "range": 1,
+    "tool_requirements": [
+      [
+        1,
+        4,
+        1
+      ]
+    ],
+    "allow_use_hands": false,
+    "level_requirements": [
+      [
+        2,
+        42
+      ]
+    ],
+    "experience_per_progress": [
+      [
+        2,
+        2.25
+      ]
+    ],
+    "verb_phrase": "Chop",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 777,
+    "empire_rank_requirement": [
+      1,
+      {}
+    ],
+    "show_in_progression": false,
+    "empire_permission_required": [
+      1,
+      {}
+    ]
+  },
+  {
     "id": 327421456,
     "resource_id": 61557407,
     "cargo_id": 0,
@@ -24041,6 +24142,71 @@
     ]
   },
   {
+    "id": 882675634,
+    "resource_id": 2058007491,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 1.6,
+    "stamina_requirement": 0.89,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [
+      [
+        [
+          0,
+          [
+            1854175100,
+            1,
+            [
+              0,
+              []
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        ],
+        0.02941
+      ]
+    ],
+    "consumed_item_stacks": [],
+    "range": 1,
+    "tool_requirements": [
+      [
+        12,
+        2,
+        1
+      ]
+    ],
+    "allow_use_hands": false,
+    "level_requirements": [
+      [
+        14,
+        20
+      ]
+    ],
+    "experience_per_progress": [
+      [
+        14,
+        2.0
+      ]
+    ],
+    "verb_phrase": "Dig",
+    "tool_mesh_index": 1,
+    "recipe_performance_id": 641,
+    "empire_rank_requirement": [
+      1,
+      {}
+    ],
+    "show_in_progression": false,
+    "empire_permission_required": [
+      1,
+      {}
+    ]
+  },
+  {
     "id": 885026581,
     "resource_id": 1691492474,
     "cargo_id": 0,
@@ -24456,6 +24622,71 @@
     "verb_phrase": "Mine",
     "tool_mesh_index": 0,
     "recipe_performance_id": 975,
+    "empire_rank_requirement": [
+      1,
+      {}
+    ],
+    "show_in_progression": false,
+    "empire_permission_required": [
+      1,
+      {}
+    ]
+  },
+  {
+    "id": 933159520,
+    "resource_id": 598609123,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 1.6,
+    "stamina_requirement": 0.75,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [
+      [
+        [
+          0,
+          [
+            395543749,
+            1,
+            [
+              0,
+              []
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        ],
+        0.01
+      ]
+    ],
+    "consumed_item_stacks": [],
+    "range": 5,
+    "tool_requirements": [
+      [
+        10,
+        1,
+        1
+      ]
+    ],
+    "allow_use_hands": false,
+    "level_requirements": [
+      [
+        12,
+        1
+      ]
+    ],
+    "experience_per_progress": [
+      [
+        12,
+        1.5
+      ]
+    ],
+    "verb_phrase": "Fish",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 143,
     "empire_rank_requirement": [
       1,
       {}
@@ -25737,6 +25968,57 @@
     "verb_phrase": "Chum",
     "tool_mesh_index": 1,
     "recipe_performance_id": 991,
+    "empire_rank_requirement": [
+      1,
+      {}
+    ],
+    "show_in_progression": false,
+    "empire_permission_required": [
+      1,
+      {}
+    ]
+  },
+  {
+    "id": 1205536806,
+    "resource_id": 906346149,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 1.6,
+    "stamina_requirement": 1.28,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [],
+    "consumed_item_stacks": [
+      [
+        1347379975,
+        1,
+        [
+          0,
+          []
+        ],
+        0,
+        1.0
+      ]
+    ],
+    "range": 1,
+    "tool_requirements": [],
+    "allow_use_hands": false,
+    "level_requirements": [
+      [
+        5,
+        53
+      ]
+    ],
+    "experience_per_progress": [
+      [
+        5,
+        1.75
+      ]
+    ],
+    "verb_phrase": "Mine",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 1,
     "empire_rank_requirement": [
       1,
       {}
@@ -30236,6 +30518,65 @@
     ]
   },
   {
+    "id": 1777701404,
+    "resource_id": 1250777859,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 1.6,
+    "stamina_requirement": 1.28,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [
+      [
+        [
+          0,
+          [
+            1347379975,
+            1,
+            [
+              0,
+              []
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        ],
+        1.0
+      ]
+    ],
+    "consumed_item_stacks": [],
+    "range": 1,
+    "tool_requirements": [],
+    "allow_use_hands": false,
+    "level_requirements": [
+      [
+        5,
+        53
+      ]
+    ],
+    "experience_per_progress": [
+      [
+        5,
+        0.0
+      ]
+    ],
+    "verb_phrase": "Mine",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 1,
+    "empire_rank_requirement": [
+      1,
+      {}
+    ],
+    "show_in_progression": false,
+    "empire_permission_required": [
+      1,
+      {}
+    ]
+  },
+  {
     "id": 1778168385,
     "resource_id": 1023127595,
     "cargo_id": 0,
@@ -32483,6 +32824,71 @@
     ]
   },
   {
+    "id": 2049487613,
+    "resource_id": 652425087,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 1.6,
+    "stamina_requirement": 1.41,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [
+      [
+        [
+          0,
+          [
+            787103248,
+            1,
+            [
+              0,
+              []
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        ],
+        0.00533
+      ]
+    ],
+    "consumed_item_stacks": [],
+    "range": 1,
+    "tool_requirements": [
+      [
+        3,
+        4,
+        1
+      ]
+    ],
+    "allow_use_hands": false,
+    "level_requirements": [
+      [
+        4,
+        46
+      ]
+    ],
+    "experience_per_progress": [
+      [
+        4,
+        2.25
+      ]
+    ],
+    "verb_phrase": "Chisel",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 568,
+    "empire_rank_requirement": [
+      1,
+      {}
+    ],
+    "show_in_progression": false,
+    "empire_permission_required": [
+      1,
+      {}
+    ]
+  },
+  {
     "id": 2070440793,
     "resource_id": 427032893,
     "cargo_id": 0,
@@ -32931,6 +33337,52 @@
     "verb_phrase": "Gather",
     "tool_mesh_index": 0,
     "recipe_performance_id": 632,
+    "empire_rank_requirement": [
+      1,
+      {}
+    ],
+    "show_in_progression": false,
+    "empire_permission_required": [
+      1,
+      {}
+    ]
+  },
+  {
+    "id": 2127585361,
+    "resource_id": 943104429,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 1.6,
+    "stamina_requirement": 1.28,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [],
+    "consumed_item_stacks": [],
+    "range": 1,
+    "tool_requirements": [
+      [
+        4,
+        5,
+        1
+      ]
+    ],
+    "allow_use_hands": false,
+    "level_requirements": [
+      [
+        5,
+        53
+      ]
+    ],
+    "experience_per_progress": [
+      [
+        5,
+        2.375
+      ]
+    ],
+    "verb_phrase": "Mine",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 975,
     "empire_rank_requirement": [
       1,
       {}

@@ -22124,6 +22124,55 @@
     "on_destroy_yield_resource_chance": 1.0
   },
   {
+    "id": 74824355,
+    "name": "Tropical Tree",
+    "description": "",
+    "flattenable": false,
+    "max_health": 4500,
+    "ignore_damage": false,
+    "despawn_time": 3.0,
+    "model_asset_name": "Resources/TreeBeechYoung",
+    "icon_asset_name": "GeneratedIcons/Other/BeechTreeYoung",
+    "on_destroy_yield": [
+      [
+        1003,
+        1,
+        [
+          1,
+          []
+        ],
+        [
+          1,
+          []
+        ]
+      ]
+    ],
+    "on_destroy_yield_resource_id": 0,
+    "spawn_priority": 1,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          0,
+          []
+        ]
+      ]
+    ],
+    "tier": 4,
+    "tag": "Tree",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": true,
+    "enemy_params_id": [],
+    "scheduled_respawn_time": 600.0,
+    "not_respawning": false,
+    "show_time_left": false,
+    "on_destroy_yield_resource_chance": 1.0
+  },
+  {
     "id": 92565503,
     "name": "Ancient Rubble",
     "description": "A pile of rubble from the crumbling walls around you. A miner could probably pull some useful materials from this.",
@@ -33680,6 +33729,90 @@
     "on_destroy_yield_resource_chance": 1.0
   },
   {
+    "id": 598609123,
+    "name": "School of Boot Fish",
+    "description": "",
+    "flattenable": false,
+    "max_health": 1500,
+    "ignore_damage": true,
+    "despawn_time": 0.0,
+    "model_asset_name": "Resources/BootFish",
+    "icon_asset_name": "GeneratedIcons/Other/SchoolOfWavecrestEel",
+    "on_destroy_yield": [],
+    "on_destroy_yield_resource_id": 0,
+    "spawn_priority": 1,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          3,
+          []
+        ]
+      ],
+      [
+        -1,
+        0,
+        [
+          3,
+          []
+        ]
+      ],
+      [
+        0,
+        -1,
+        [
+          3,
+          []
+        ]
+      ],
+      [
+        1,
+        -1,
+        [
+          3,
+          []
+        ]
+      ],
+      [
+        1,
+        0,
+        [
+          3,
+          []
+        ]
+      ],
+      [
+        0,
+        1,
+        [
+          3,
+          []
+        ]
+      ],
+      [
+        -1,
+        1,
+        [
+          3,
+          []
+        ]
+      ]
+    ],
+    "tier": 3,
+    "tag": "Boot Fish School",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": true,
+    "enemy_params_id": [],
+    "scheduled_respawn_time": 10800.0,
+    "not_respawning": false,
+    "show_time_left": false,
+    "on_destroy_yield_resource_chance": 1.0
+  },
+  {
     "id": 623041128,
     "name": "Sunflower",
     "description": "",
@@ -34021,6 +34154,218 @@
     "enemy_params_id": [],
     "scheduled_respawn_time": 600.0,
     "not_respawning": true,
+    "show_time_left": false,
+    "on_destroy_yield_resource_chance": 1.0
+  },
+  {
+    "id": 652425087,
+    "name": "Volcanic Rock",
+    "description": "",
+    "flattenable": false,
+    "max_health": 1500,
+    "ignore_damage": false,
+    "despawn_time": 0.0,
+    "model_asset_name": "Resources/ResourceSharedOreT6Small",
+    "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Other/OreVeinT6",
+    "on_destroy_yield": [],
+    "on_destroy_yield_resource_id": 0,
+    "spawn_priority": 1,
+    "footprint": [
+      [
+        0,
+        2,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        0,
+        -2,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        1,
+        -2,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        2,
+        -3,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        3,
+        -2,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        3,
+        -1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        2,
+        0,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        1,
+        1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        -1,
+        2,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        -2,
+        2,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        -2,
+        1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        -2,
+        0,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        -2,
+        -1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        -1,
+        -1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        -1,
+        0,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        -1,
+        1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        0,
+        1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        0,
+        0,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        0,
+        -1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        1,
+        -1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        1,
+        0,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        2,
+        -1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        2,
+        -2,
+        [
+          0,
+          []
+        ]
+      ]
+    ],
+    "tier": 4,
+    "tag": "Stone",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": true,
+    "enemy_params_id": [],
+    "scheduled_respawn_time": 0.0,
+    "not_respawning": false,
     "show_time_left": false,
     "on_destroy_yield_resource_chance": 1.0
   },
@@ -43201,6 +43546,170 @@
     "on_destroy_yield_resource_chance": 1.0
   },
   {
+    "id": 906346149,
+    "name": "Sparkstone Ore",
+    "description": "",
+    "flattenable": false,
+    "max_health": 50,
+    "ignore_damage": false,
+    "despawn_time": 0.0,
+    "model_asset_name": "Resources/resourcesSharedStoneT7",
+    "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Other/OutcropT7",
+    "on_destroy_yield": [],
+    "on_destroy_yield_resource_id": 943104429,
+    "spawn_priority": 1,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        -1,
+        1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        -1,
+        0,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        0,
+        -1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        1,
+        -1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        1,
+        0,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        0,
+        1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        0,
+        -2,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        -1,
+        -2,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        2,
+        -2,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        3,
+        -2,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        1,
+        -2,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        2,
+        -1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        -2,
+        1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        -2,
+        0,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        -2,
+        -1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        -1,
+        -1,
+        [
+          0,
+          []
+        ]
+      ]
+    ],
+    "tier": 5,
+    "tag": "Hardened Ore Node",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": true,
+    "enemy_params_id": [],
+    "scheduled_respawn_time": 0.0,
+    "not_respawning": false,
+    "show_time_left": false,
+    "on_destroy_yield_resource_chance": 1.0
+  },
+  {
     "id": 916586661,
     "name": "Rathium Outcrop Interior",
     "description": "",
@@ -44650,6 +45159,170 @@
     "scheduled_respawn_time": 0.0,
     "not_respawning": false,
     "show_time_left": false,
+    "on_destroy_yield_resource_chance": 1.0
+  },
+  {
+    "id": 943104429,
+    "name": "Active Sparkstone Ore",
+    "description": "",
+    "flattenable": false,
+    "max_health": 35000,
+    "ignore_damage": true,
+    "despawn_time": 0.0,
+    "model_asset_name": "Resources/resourcesSharedStoneT7",
+    "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Other/OutcropT7",
+    "on_destroy_yield": [],
+    "on_destroy_yield_resource_id": 0,
+    "spawn_priority": 1,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        -1,
+        1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        -1,
+        0,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        0,
+        -1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        1,
+        -1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        1,
+        0,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        0,
+        1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        0,
+        -2,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        -1,
+        -2,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        2,
+        -2,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        3,
+        -2,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        1,
+        -2,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        2,
+        -1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        -2,
+        1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        -2,
+        0,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        -2,
+        -1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        -1,
+        -1,
+        [
+          0,
+          []
+        ]
+      ]
+    ],
+    "tier": 5,
+    "tag": "Weakened Ore",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": true,
+    "enemy_params_id": [],
+    "scheduled_respawn_time": 0.0,
+    "not_respawning": false,
+    "show_time_left": true,
     "on_destroy_yield_resource_chance": 1.0
   },
   {
@@ -48592,6 +49265,90 @@
     "on_destroy_yield_resource_chance": 1.0
   },
   {
+    "id": 1250777859,
+    "name": "Lava Pool",
+    "description": "",
+    "flattenable": false,
+    "max_health": 1,
+    "ignore_damage": true,
+    "despawn_time": 0.0,
+    "model_asset_name": "Resources/ResourceSharedOreT6Small",
+    "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Other/OreVeinT6",
+    "on_destroy_yield": [],
+    "on_destroy_yield_resource_id": 0,
+    "spawn_priority": 1,
+    "footprint": [
+      [
+        -1,
+        1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        0,
+        1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        1,
+        0,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        1,
+        -1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        0,
+        0,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        0,
+        -1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        -1,
+        0,
+        [
+          0,
+          []
+        ]
+      ]
+    ],
+    "tier": -1,
+    "tag": "Lava",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": true,
+    "enemy_params_id": [],
+    "scheduled_respawn_time": 0.0,
+    "not_respawning": false,
+    "show_time_left": false,
+    "on_destroy_yield_resource_chance": 1.0
+  },
+  {
     "id": 1260515599,
     "name": "Large Ancient Rubble",
     "description": "A pile of rubble from the crumbling walls around you. A miner could probably pull some useful materials from this.",
@@ -48753,6 +49510,55 @@
     "compendium_entry": true,
     "enemy_params_id": [],
     "scheduled_respawn_time": 0.0,
+    "not_respawning": false,
+    "show_time_left": false,
+    "on_destroy_yield_resource_chance": 1.0
+  },
+  {
+    "id": 1265327797,
+    "name": "Tropical Grains",
+    "description": "",
+    "flattenable": true,
+    "max_health": 100,
+    "ignore_damage": false,
+    "despawn_time": 0.0,
+    "model_asset_name": "Resources/WildGrains",
+    "icon_asset_name": "GeneratedIcons/Other/WildGrains",
+    "on_destroy_yield": [
+      [
+        191100171,
+        5,
+        [
+          0,
+          []
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    ],
+    "on_destroy_yield_resource_id": 0,
+    "spawn_priority": 0,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          3,
+          []
+        ]
+      ]
+    ],
+    "tier": 1,
+    "tag": "Wild Grain",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": true,
+    "enemy_params_id": [],
+    "scheduled_respawn_time": 600.0,
     "not_respawning": false,
     "show_time_left": false,
     "on_destroy_yield_resource_chance": 1.0
@@ -55556,6 +56362,58 @@
     "enemy_params_id": [],
     "scheduled_respawn_time": 600.0,
     "not_respawning": true,
+    "show_time_left": false,
+    "on_destroy_yield_resource_chance": 1.0
+  },
+  {
+    "id": 2058007491,
+    "name": "Beach Sand",
+    "description": "Something might be buried within.",
+    "flattenable": true,
+    "max_health": 100,
+    "ignore_damage": false,
+    "despawn_time": 0.0,
+    "model_asset_name": "Resources/DesertSand",
+    "icon_asset_name": "GeneratedIcons/Other/MudMound",
+    "on_destroy_yield": [],
+    "on_destroy_yield_resource_id": 0,
+    "spawn_priority": 0,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          1,
+          []
+        ]
+      ],
+      [
+        0,
+        -1,
+        [
+          1,
+          []
+        ]
+      ],
+      [
+        -1,
+        0,
+        [
+          1,
+          []
+        ]
+      ]
+    ],
+    "tier": 2,
+    "tag": "Sand",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": true,
+    "enemy_params_id": [],
+    "scheduled_respawn_time": 60.0,
+    "not_respawning": false,
     "show_time_left": false,
     "on_destroy_yield_resource_chance": 1.0
   },

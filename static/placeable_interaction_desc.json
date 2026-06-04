@@ -37,6 +37,89 @@
     "on_destroy_spawned_placeable_chance": 1.0
   },
   {
+    "id": 34092599,
+    "verb_phrase": "Pick Up",
+    "placeable_id": 780825025,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "consumed_item_stacks": [],
+    "output_item_stacks": [
+      [
+        875762976,
+        1,
+        [
+          0,
+          []
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    ],
+    "tool_requirements": [],
+    "level_requirements": [
+      [
+        2,
+        1
+      ]
+    ],
+    "experience_per_progress": [
+      [
+        2,
+        250.0
+      ]
+    ],
+    "time_requirement": 1.6,
+    "stamina_requirement": 0.75,
+    "tool_durability_lost": 0,
+    "range": 1,
+    "allow_use_hands": true,
+    "power_multiplier": 1.0,
+    "recipe_performance_id": 403,
+    "on_destroy_spawned_placeable_id": 0,
+    "on_destroy_spawned_placeable_chance": 0.0
+  },
+  {
+    "id": 103601803,
+    "verb_phrase": "Collect",
+    "placeable_id": 2116751692,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "consumed_item_stacks": [],
+    "output_item_stacks": [
+      [
+        331848712,
+        1,
+        [
+          0,
+          []
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    ],
+    "tool_requirements": [],
+    "level_requirements": [],
+    "experience_per_progress": [
+      [
+        8,
+        1200.0
+      ]
+    ],
+    "time_requirement": 2.0,
+    "stamina_requirement": 0.75,
+    "tool_durability_lost": 0,
+    "range": 1,
+    "allow_use_hands": true,
+    "power_multiplier": 1.0,
+    "recipe_performance_id": 403,
+    "on_destroy_spawned_placeable_id": 0,
+    "on_destroy_spawned_placeable_chance": 0.0
+  },
+  {
     "id": 187141974,
     "verb_phrase": "Pick Up",
     "placeable_id": 1712526687,
@@ -158,6 +241,50 @@
     "recipe_performance_id": 859,
     "on_destroy_spawned_placeable_id": 1865483877,
     "on_destroy_spawned_placeable_chance": 1.0
+  },
+  {
+    "id": 619156893,
+    "verb_phrase": "Chisel Bricks",
+    "placeable_id": 129914962,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "consumed_item_stacks": [],
+    "output_item_stacks": [
+      [
+        4030002,
+        1,
+        [
+          0,
+          []
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    ],
+    "tool_requirements": [],
+    "level_requirements": [
+      [
+        4,
+        46
+      ]
+    ],
+    "experience_per_progress": [
+      [
+        4,
+        1000.0
+      ]
+    ],
+    "time_requirement": 5.0,
+    "stamina_requirement": 0.75,
+    "tool_durability_lost": 0,
+    "range": 1,
+    "allow_use_hands": true,
+    "power_multiplier": 1.0,
+    "recipe_performance_id": 568,
+    "on_destroy_spawned_placeable_id": 0,
+    "on_destroy_spawned_placeable_chance": 0.0
   },
   {
     "id": 625059216,
@@ -369,6 +496,148 @@
     "on_destroy_spawned_placeable_chance": 1.0
   },
   {
+    "id": 1080780570,
+    "verb_phrase": "Water",
+    "placeable_id": 362814723,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "consumed_item_stacks": [
+      [
+        11007,
+        5,
+        [
+          0,
+          []
+        ],
+        1,
+        1.0
+      ]
+    ],
+    "output_item_stacks": [],
+    "tool_requirements": [],
+    "level_requirements": [
+      [
+        2,
+        42
+      ]
+    ],
+    "experience_per_progress": [
+      [
+        2,
+        250.0
+      ]
+    ],
+    "time_requirement": 3.0,
+    "stamina_requirement": 0.75,
+    "tool_durability_lost": 0,
+    "range": 1,
+    "allow_use_hands": true,
+    "power_multiplier": 1.0,
+    "recipe_performance_id": 859,
+    "on_destroy_spawned_placeable_id": 50805079,
+    "on_destroy_spawned_placeable_chance": 1.0
+  },
+  {
+    "id": 1127667915,
+    "verb_phrase": "Mine",
+    "placeable_id": 774673932,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "consumed_item_stacks": [],
+    "output_item_stacks": [
+      [
+        5030004,
+        1,
+        [
+          0,
+          []
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    ],
+    "tool_requirements": [
+      [
+        4,
+        5,
+        1
+      ]
+    ],
+    "level_requirements": [
+      [
+        5,
+        53
+      ]
+    ],
+    "experience_per_progress": [
+      [
+        5,
+        300.0
+      ]
+    ],
+    "time_requirement": 1.6,
+    "stamina_requirement": 1.28,
+    "tool_durability_lost": 0,
+    "range": 1,
+    "allow_use_hands": false,
+    "power_multiplier": 1.0,
+    "recipe_performance_id": 975,
+    "on_destroy_spawned_placeable_id": 0,
+    "on_destroy_spawned_placeable_chance": 0.0
+  },
+  {
+    "id": 1220134861,
+    "verb_phrase": "Chop",
+    "placeable_id": 1960490731,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "consumed_item_stacks": [],
+    "output_item_stacks": [
+      [
+        1003,
+        10,
+        [
+          1,
+          []
+        ],
+        [
+          1,
+          []
+        ]
+      ]
+    ],
+    "tool_requirements": [
+      [
+        1,
+        4,
+        1
+      ]
+    ],
+    "level_requirements": [
+      [
+        2,
+        42
+      ]
+    ],
+    "experience_per_progress": [
+      [
+        2,
+        1000.0
+      ]
+    ],
+    "time_requirement": 3.0,
+    "stamina_requirement": 0.75,
+    "tool_durability_lost": 0,
+    "range": 1,
+    "allow_use_hands": false,
+    "power_multiplier": 1.0,
+    "recipe_performance_id": 777,
+    "on_destroy_spawned_placeable_id": 0,
+    "on_destroy_spawned_placeable_chance": 0.0
+  },
+  {
     "id": 1247947706,
     "verb_phrase": "Collect",
     "placeable_id": 1210699808,
@@ -409,6 +678,99 @@
     "allow_use_hands": true,
     "power_multiplier": 1.0,
     "recipe_performance_id": 859,
+    "on_destroy_spawned_placeable_id": 0,
+    "on_destroy_spawned_placeable_chance": 0.0
+  },
+  {
+    "id": 1292522386,
+    "verb_phrase": "Clear Out Bugs",
+    "placeable_id": 1478012945,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "consumed_item_stacks": [],
+    "output_item_stacks": [],
+    "tool_requirements": [],
+    "level_requirements": [
+      [
+        2,
+        42
+      ]
+    ],
+    "experience_per_progress": [
+      [
+        2,
+        250.0
+      ]
+    ],
+    "time_requirement": 10.0,
+    "stamina_requirement": 0.75,
+    "tool_durability_lost": 0,
+    "range": 1,
+    "allow_use_hands": true,
+    "power_multiplier": 1.0,
+    "recipe_performance_id": 859,
+    "on_destroy_spawned_placeable_id": 50805079,
+    "on_destroy_spawned_placeable_chance": 1.0
+  },
+  {
+    "id": 1358423488,
+    "verb_phrase": "Chop",
+    "placeable_id": 304616728,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "consumed_item_stacks": [],
+    "output_item_stacks": [
+      [
+        1003,
+        15,
+        [
+          1,
+          []
+        ],
+        [
+          1,
+          []
+        ]
+      ],
+      [
+        1283974284,
+        1,
+        [
+          0,
+          []
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    ],
+    "tool_requirements": [
+      [
+        1,
+        4,
+        1
+      ]
+    ],
+    "level_requirements": [
+      [
+        2,
+        42
+      ]
+    ],
+    "experience_per_progress": [
+      [
+        2,
+        1800.0
+      ]
+    ],
+    "time_requirement": 3.0,
+    "stamina_requirement": 0.75,
+    "tool_durability_lost": 0,
+    "range": 1,
+    "allow_use_hands": false,
+    "power_multiplier": 1.0,
+    "recipe_performance_id": 777,
     "on_destroy_spawned_placeable_id": 0,
     "on_destroy_spawned_placeable_chance": 0.0
   },
@@ -503,6 +865,155 @@
     "on_destroy_spawned_placeable_chance": 0.0
   },
   {
+    "id": 1472303987,
+    "verb_phrase": "Bait",
+    "placeable_id": 1905291369,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "consumed_item_stacks": [
+      [
+        3110003,
+        3,
+        [
+          0,
+          []
+        ],
+        1,
+        1.0
+      ]
+    ],
+    "output_item_stacks": [],
+    "tool_requirements": [],
+    "level_requirements": [],
+    "experience_per_progress": [
+      [
+        9,
+        0.0
+      ]
+    ],
+    "time_requirement": 1.0,
+    "stamina_requirement": 0.75,
+    "tool_durability_lost": 0,
+    "range": 1,
+    "allow_use_hands": true,
+    "power_multiplier": 1.0,
+    "recipe_performance_id": 403,
+    "on_destroy_spawned_placeable_id": 2070011221,
+    "on_destroy_spawned_placeable_chance": 1.0
+  },
+  {
+    "id": 1550579600,
+    "verb_phrase": "Pickup",
+    "placeable_id": 634771701,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "consumed_item_stacks": [],
+    "output_item_stacks": [
+      [
+        1884841467,
+        1,
+        [
+          0,
+          []
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    ],
+    "tool_requirements": [],
+    "level_requirements": [],
+    "experience_per_progress": [
+      [
+        9,
+        1500.0
+      ]
+    ],
+    "time_requirement": 1.0,
+    "stamina_requirement": 0.75,
+    "tool_durability_lost": 0,
+    "range": 1,
+    "allow_use_hands": true,
+    "power_multiplier": 1.0,
+    "recipe_performance_id": 403,
+    "on_destroy_spawned_placeable_id": 0,
+    "on_destroy_spawned_placeable_chance": 0.0
+  },
+  {
+    "id": 1561573941,
+    "verb_phrase": "Clear Out Bugs",
+    "placeable_id": 174734549,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "consumed_item_stacks": [],
+    "output_item_stacks": [],
+    "tool_requirements": [],
+    "level_requirements": [
+      [
+        2,
+        42
+      ]
+    ],
+    "experience_per_progress": [
+      [
+        2,
+        250.0
+      ]
+    ],
+    "time_requirement": 10.0,
+    "stamina_requirement": 0.75,
+    "tool_durability_lost": 0,
+    "range": 1,
+    "allow_use_hands": true,
+    "power_multiplier": 1.0,
+    "recipe_performance_id": 859,
+    "on_destroy_spawned_placeable_id": 473470491,
+    "on_destroy_spawned_placeable_chance": 1.0
+  },
+  {
+    "id": 1562830099,
+    "verb_phrase": "Douse Bricks",
+    "placeable_id": 1217203347,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "consumed_item_stacks": [
+      [
+        11007,
+        1,
+        [
+          0,
+          []
+        ],
+        0,
+        1.0
+      ]
+    ],
+    "output_item_stacks": [],
+    "tool_requirements": [],
+    "level_requirements": [
+      [
+        4,
+        46
+      ]
+    ],
+    "experience_per_progress": [
+      [
+        4,
+        500.0
+      ]
+    ],
+    "time_requirement": 5.0,
+    "stamina_requirement": 0.75,
+    "tool_durability_lost": 0,
+    "range": 1,
+    "allow_use_hands": true,
+    "power_multiplier": 1.0,
+    "recipe_performance_id": 315,
+    "on_destroy_spawned_placeable_id": 129914962,
+    "on_destroy_spawned_placeable_chance": 1.0
+  },
+  {
     "id": 1599928767,
     "verb_phrase": "Bait",
     "placeable_id": 870186474,
@@ -538,6 +1049,94 @@
     "recipe_performance_id": 403,
     "on_destroy_spawned_placeable_id": 1085581293,
     "on_destroy_spawned_placeable_chance": 1.0
+  },
+  {
+    "id": 1658379118,
+    "verb_phrase": "Pick Up",
+    "placeable_id": 1637541577,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "consumed_item_stacks": [],
+    "output_item_stacks": [
+      [
+        361301236,
+        1,
+        [
+          0,
+          []
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    ],
+    "tool_requirements": [],
+    "level_requirements": [
+      [
+        14,
+        1
+      ]
+    ],
+    "experience_per_progress": [
+      [
+        14,
+        100.0
+      ]
+    ],
+    "time_requirement": 1.6,
+    "stamina_requirement": 0.75,
+    "tool_durability_lost": 0,
+    "range": 1,
+    "allow_use_hands": true,
+    "power_multiplier": 1.0,
+    "recipe_performance_id": 403,
+    "on_destroy_spawned_placeable_id": 0,
+    "on_destroy_spawned_placeable_chance": 0.0
+  },
+  {
+    "id": 1699226452,
+    "verb_phrase": "Pick Up",
+    "placeable_id": 215920798,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "consumed_item_stacks": [],
+    "output_item_stacks": [
+      [
+        1561747505,
+        1,
+        [
+          0,
+          []
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    ],
+    "tool_requirements": [],
+    "level_requirements": [
+      [
+        14,
+        1
+      ]
+    ],
+    "experience_per_progress": [
+      [
+        14,
+        100.0
+      ]
+    ],
+    "time_requirement": 1.6,
+    "stamina_requirement": 0.75,
+    "tool_durability_lost": 0,
+    "range": 1,
+    "allow_use_hands": true,
+    "power_multiplier": 1.0,
+    "recipe_performance_id": 403,
+    "on_destroy_spawned_placeable_id": 0,
+    "on_destroy_spawned_placeable_chance": 0.0
   },
   {
     "id": 2007516388,
@@ -579,6 +1178,48 @@
     "power_multiplier": 1.0,
     "recipe_performance_id": 859,
     "on_destroy_spawned_placeable_id": 1173223928,
+    "on_destroy_spawned_placeable_chance": 1.0
+  },
+  {
+    "id": 2032567862,
+    "verb_phrase": "Water",
+    "placeable_id": 1513976478,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "consumed_item_stacks": [
+      [
+        11007,
+        5,
+        [
+          0,
+          []
+        ],
+        1,
+        1.0
+      ]
+    ],
+    "output_item_stacks": [],
+    "tool_requirements": [],
+    "level_requirements": [
+      [
+        2,
+        42
+      ]
+    ],
+    "experience_per_progress": [
+      [
+        2,
+        250.0
+      ]
+    ],
+    "time_requirement": 3.0,
+    "stamina_requirement": 0.75,
+    "tool_durability_lost": 0,
+    "range": 1,
+    "allow_use_hands": true,
+    "power_multiplier": 1.0,
+    "recipe_performance_id": 859,
+    "on_destroy_spawned_placeable_id": 473470491,
     "on_destroy_spawned_placeable_chance": 1.0
   },
   {

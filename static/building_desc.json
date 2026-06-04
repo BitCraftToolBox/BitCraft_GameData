@@ -106707,6 +106707,64 @@
     "destroy_on_unclaim": false
   },
   {
+    "id": 719999256,
+    "functions": [
+      [
+        1002,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6000,
+        6000,
+        0,
+        [],
+        0,
+        false,
+        0,
+        0
+      ]
+    ],
+    "name": "Volcanic Geyser",
+    "description": "A geyser which can be used to cook bricks.",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/DungeonBrazier1",
+    "icon_asset_name": "Buildings/StoneBrazier",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          0,
+          []
+        ]
+      ]
+    ],
+    "max_health": 336,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 0.0,
+    "maintenance": 0.0,
+    "build_permission": [
+      0,
+      {}
+    ],
+    "interact_permission": [
+      0,
+      {}
+    ],
+    "has_action": true,
+    "show_in_compendium": false,
+    "is_ruins": false,
+    "not_deconstructible": false,
+    "destroy_on_unclaim": false
+  },
+  {
     "id": 725568101,
     "functions": [
       [
@@ -132258,6 +132316,64 @@
     ],
     "has_action": true,
     "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false,
+    "destroy_on_unclaim": false
+  },
+  {
+    "id": 1503293649,
+    "functions": [
+      [
+        1002,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6000,
+        6000,
+        0,
+        [],
+        0,
+        false,
+        0,
+        0
+      ]
+    ],
+    "name": "Hermit Crab Den",
+    "description": "A den of various crab like creatures. Traps could be placed next to it to catch crabs.",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/HermitCrabDen",
+    "icon_asset_name": "Buildings/StoneBrazier",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          0,
+          []
+        ]
+      ]
+    ],
+    "max_health": 336,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 0.0,
+    "maintenance": 0.0,
+    "build_permission": [
+      0,
+      {}
+    ],
+    "interact_permission": [
+      0,
+      {}
+    ],
+    "has_action": true,
+    "show_in_compendium": false,
     "is_ruins": false,
     "not_deconstructible": false,
     "destroy_on_unclaim": false
