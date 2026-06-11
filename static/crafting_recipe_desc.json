@@ -50044,6 +50044,78 @@
     "show_in_progression": false
   },
   {
+    "id": 29809090,
+    "name": "Extract {0}",
+    "time_requirement": 1.6,
+    "stamina_requirement": 1.28,
+    "tool_durability_lost": 0,
+    "building_requirement": [
+      0,
+      {
+        "building_type": 25,
+        "tier": 5
+      }
+    ],
+    "level_requirements": [
+      [
+        6,
+        50
+      ]
+    ],
+    "tool_requirements": [
+      [
+        5,
+        5,
+        1
+      ]
+    ],
+    "consumed_item_stacks": [
+      [
+        5030004,
+        3,
+        [
+          0,
+          []
+        ],
+        1,
+        1.0
+      ]
+    ],
+    "discovery_triggers": [],
+    "required_claim_tech_id": 0,
+    "full_discovery_score": 1,
+    "experience_per_progress": [
+      [
+        6,
+        2.56
+      ]
+    ],
+    "crafted_item_stacks": [
+      [
+        5040003,
+        1,
+        [
+          0,
+          []
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    ],
+    "actions_required": 145,
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 18,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "hide_without_required_knowledge": false,
+    "hide_with_blocking_knowledges": false,
+    "allow_use_hands": false,
+    "is_passive": false,
+    "show_in_progression": false
+  },
+  {
     "id": 30361306,
     "name": "Scrap {1}",
     "time_requirement": 1.6,
