@@ -22668,6 +22668,38 @@
     "required_knowledges_to_convert": []
   },
   {
+    "id": 223837927,
+    "name": "Svim Ridealong Skiff Appearance",
+    "description": "Overrides the appearances of your Skiffs while keeping their stats the same.",
+    "collectible_type": [
+      23,
+      {}
+    ],
+    "invalidates_type": [
+      0,
+      {}
+    ],
+    "auto_collect": false,
+    "collectible_rarity": [
+      6,
+      {}
+    ],
+    "starting_loadout": false,
+    "locked": false,
+    "variant": 0,
+    "color": "",
+    "emission": "",
+    "max_equip_count": 1,
+    "model_asset_name": "",
+    "variant_material": "",
+    "icon_asset_name": "UI/TravelerTasksSvimPortrait",
+    "tag": "Nubi Mount Appearance",
+    "display_string": "",
+    "item_deed_id": 1386534891,
+    "required_knowledges_to_use": [],
+    "required_knowledges_to_convert": []
+  },
+  {
     "id": 224940800,
     "name": "Astralite Plated Helm (Epic)",
     "description": "",
@@ -27184,6 +27216,38 @@
     "required_knowledges_to_convert": []
   },
   {
+    "id": 383599808,
+    "name": "Treasure Hunter",
+    "description": "",
+    "collectible_type": [
+      15,
+      {}
+    ],
+    "invalidates_type": [
+      0,
+      {}
+    ],
+    "auto_collect": true,
+    "collectible_rarity": [
+      0,
+      {}
+    ],
+    "starting_loadout": false,
+    "locked": true,
+    "variant": 0,
+    "color": "",
+    "emission": "",
+    "max_equip_count": 1,
+    "model_asset_name": "",
+    "variant_material": "",
+    "icon_asset_name": "Items/AncientDeed",
+    "tag": "",
+    "display_string": "",
+    "item_deed_id": 1914688166,
+    "required_knowledges_to_use": [],
+    "required_knowledges_to_convert": []
+  },
+  {
     "id": 384027553,
     "name": "Fine Leather Shirt (Epic)",
     "description": "",
@@ -29224,7 +29288,7 @@
     "max_equip_count": 1,
     "model_asset_name": "Feet_SunkenBootsWaterlogged",
     "variant_material": "",
-    "icon_asset_name": "GeneratedIcons/Other/Cosmetics/Feet/Feet_SunkenBootsWaterlogged",
+    "icon_asset_name": "GeneratedIcons/Other/Cosmetics/Head/ForgottenCaptainsBoots",
     "tag": "Feet",
     "display_string": "",
     "item_deed_id": 1545465995,
@@ -54686,13 +54750,13 @@
     ],
     "starting_loadout": false,
     "locked": false,
-    "variant": 0,
+    "variant": 1,
     "color": "",
     "emission": "",
     "max_equip_count": 1,
     "model_asset_name": "Hat_Coconut",
     "variant_material": "",
-    "icon_asset_name": "GeneratedIcons/Other/Cosmetics/CoconutHat",
+    "icon_asset_name": "GeneratedIcons/Other/Cosmetics/Head/RipeCoconutHat",
     "tag": "",
     "display_string": "",
     "item_deed_id": 2127836081,
@@ -55528,6 +55592,38 @@
     "tag": "",
     "display_string": "",
     "item_deed_id": 774124643,
+    "required_knowledges_to_use": [],
+    "required_knowledges_to_convert": []
+  },
+  {
+    "id": 1339598225,
+    "name": "Bucket Helmet",
+    "description": "A larger bucket that you can't use for water or anything. It would fit on your head and provide absolutely no benefit or protection.",
+    "collectible_type": [
+      8,
+      {}
+    ],
+    "invalidates_type": [
+      0,
+      {}
+    ],
+    "auto_collect": false,
+    "collectible_rarity": [
+      4,
+      {}
+    ],
+    "starting_loadout": false,
+    "locked": false,
+    "variant": 0,
+    "color": "",
+    "emission": "",
+    "max_equip_count": 1,
+    "model_asset_name": "Hat_BucketHelm",
+    "variant_material": "",
+    "icon_asset_name": "GeneratedIcons/Other/Cosmetics/Head/BucketHelmet",
+    "tag": "Cosmetic Clothing",
+    "display_string": "",
+    "item_deed_id": 1281380439,
     "required_knowledges_to_use": [],
     "required_knowledges_to_convert": []
   },
@@ -78940,6 +79036,1158 @@
     "tag": "",
     "display_string": "",
     "item_deed_id": 332321387,
+    "required_knowledges_to_use": [],
+    "required_knowledges_to_convert": []
+  },
+  {
+    "id": 2146656618,
+    "name": "Swashbuckler Navigator's Hat",
+    "description": "",
+    "collectible_type": [
+      8,
+      {}
+    ],
+    "invalidates_type": [
+      0,
+      {}
+    ],
+    "auto_collect": false,
+    "collectible_rarity": [
+      6,
+      {}
+    ],
+    "starting_loadout": false,
+    "locked": false,
+    "variant": 0,
+    "color": "",
+    "emission": "",
+    "max_equip_count": 1,
+    "model_asset_name": "Hat_SwashbucklerMale",
+    "variant_material": "",
+    "icon_asset_name": "PremiumIcons/SwashbucklerNavigatorHat",
+    "tag": "Premium",
+    "display_string": "",
+    "item_deed_id": 2147483616,
+    "required_knowledges_to_use": [],
+    "required_knowledges_to_convert": []
+  },
+  {
+    "id": 2146656619,
+    "name": "Swashbuckler Navigator's Shirt",
+    "description": "",
+    "collectible_type": [
+      10,
+      {}
+    ],
+    "invalidates_type": [
+      0,
+      {}
+    ],
+    "auto_collect": false,
+    "collectible_rarity": [
+      6,
+      {}
+    ],
+    "starting_loadout": false,
+    "locked": false,
+    "variant": 0,
+    "color": "",
+    "emission": "",
+    "max_equip_count": 1,
+    "model_asset_name": "Torso_SwashbucklerMale",
+    "variant_material": "",
+    "icon_asset_name": "PremiumIcons/SwashbucklerNavigatorShirt",
+    "tag": "Premium",
+    "display_string": "",
+    "item_deed_id": 2147483612,
+    "required_knowledges_to_use": [],
+    "required_knowledges_to_convert": []
+  },
+  {
+    "id": 2146656620,
+    "name": "Swashbuckler Navigator's Pants",
+    "description": "",
+    "collectible_type": [
+      12,
+      {}
+    ],
+    "invalidates_type": [
+      0,
+      {}
+    ],
+    "auto_collect": false,
+    "collectible_rarity": [
+      6,
+      {}
+    ],
+    "starting_loadout": false,
+    "locked": false,
+    "variant": 0,
+    "color": "",
+    "emission": "",
+    "max_equip_count": 1,
+    "model_asset_name": "Legs_SwashbucklerMale",
+    "variant_material": "",
+    "icon_asset_name": "PremiumIcons/SwashbucklerNavigatorPants",
+    "tag": "Premium",
+    "display_string": "",
+    "item_deed_id": 2147483613,
+    "required_knowledges_to_use": [],
+    "required_knowledges_to_convert": []
+  },
+  {
+    "id": 2146656621,
+    "name": "Swashbuckler Navigator's Gloves",
+    "description": "",
+    "collectible_type": [
+      11,
+      {}
+    ],
+    "invalidates_type": [
+      0,
+      {}
+    ],
+    "auto_collect": false,
+    "collectible_rarity": [
+      6,
+      {}
+    ],
+    "starting_loadout": false,
+    "locked": false,
+    "variant": 0,
+    "color": "",
+    "emission": "",
+    "max_equip_count": 1,
+    "model_asset_name": "Hands_SwashbucklerMale",
+    "variant_material": "",
+    "icon_asset_name": "PremiumIcons/SwashbucklerNavigatorGloves",
+    "tag": "Premium",
+    "display_string": "",
+    "item_deed_id": 2147483617,
+    "required_knowledges_to_use": [],
+    "required_knowledges_to_convert": []
+  },
+  {
+    "id": 2146656622,
+    "name": "Swashbuckler Navigator's Boots",
+    "description": "",
+    "collectible_type": [
+      13,
+      {}
+    ],
+    "invalidates_type": [
+      0,
+      {}
+    ],
+    "auto_collect": false,
+    "collectible_rarity": [
+      6,
+      {}
+    ],
+    "starting_loadout": false,
+    "locked": false,
+    "variant": 0,
+    "color": "",
+    "emission": "",
+    "max_equip_count": 1,
+    "model_asset_name": "Feet_SwashbucklerMale",
+    "variant_material": "",
+    "icon_asset_name": "PremiumIcons/SwashbucklerNavigatorBoots",
+    "tag": "Premium",
+    "display_string": "",
+    "item_deed_id": 2147483618,
+    "required_knowledges_to_use": [],
+    "required_knowledges_to_convert": []
+  },
+  {
+    "id": 2146656623,
+    "name": "Swashbuckler Navigator's Belt",
+    "description": "",
+    "collectible_type": [
+      9,
+      {}
+    ],
+    "invalidates_type": [
+      0,
+      {}
+    ],
+    "auto_collect": false,
+    "collectible_rarity": [
+      6,
+      {}
+    ],
+    "starting_loadout": false,
+    "locked": false,
+    "variant": 0,
+    "color": "",
+    "emission": "",
+    "max_equip_count": 1,
+    "model_asset_name": "Belt_SwashbucklerMale",
+    "variant_material": "",
+    "icon_asset_name": "PremiumIcons/SwashbucklerNavigatorBelt",
+    "tag": "Premium",
+    "display_string": "",
+    "item_deed_id": 2147483619,
+    "required_knowledges_to_use": [],
+    "required_knowledges_to_convert": []
+  },
+  {
+    "id": 2146656625,
+    "name": "Swashbuckler Seafarer's Hat",
+    "description": "",
+    "collectible_type": [
+      8,
+      {}
+    ],
+    "invalidates_type": [
+      0,
+      {}
+    ],
+    "auto_collect": false,
+    "collectible_rarity": [
+      6,
+      {}
+    ],
+    "starting_loadout": false,
+    "locked": false,
+    "variant": 1,
+    "color": "",
+    "emission": "",
+    "max_equip_count": 1,
+    "model_asset_name": "Hat_SwashbucklerMale",
+    "variant_material": "",
+    "icon_asset_name": "PremiumIcons/SwashbucklerSeafarerHat",
+    "tag": "Premium",
+    "display_string": "",
+    "item_deed_id": 2147483608,
+    "required_knowledges_to_use": [],
+    "required_knowledges_to_convert": []
+  },
+  {
+    "id": 2146656626,
+    "name": "Swashbuckler Seafarer's Shirt",
+    "description": "",
+    "collectible_type": [
+      10,
+      {}
+    ],
+    "invalidates_type": [
+      0,
+      {}
+    ],
+    "auto_collect": false,
+    "collectible_rarity": [
+      6,
+      {}
+    ],
+    "starting_loadout": false,
+    "locked": false,
+    "variant": 1,
+    "color": "",
+    "emission": "",
+    "max_equip_count": 1,
+    "model_asset_name": "Torso_SwashbucklerMale",
+    "variant_material": "",
+    "icon_asset_name": "PremiumIcons/SwashbucklerSeafarerShirt",
+    "tag": "Premium",
+    "display_string": "",
+    "item_deed_id": 2147483604,
+    "required_knowledges_to_use": [],
+    "required_knowledges_to_convert": []
+  },
+  {
+    "id": 2146656627,
+    "name": "Swashbuckler Seafarer's Pants",
+    "description": "",
+    "collectible_type": [
+      12,
+      {}
+    ],
+    "invalidates_type": [
+      0,
+      {}
+    ],
+    "auto_collect": false,
+    "collectible_rarity": [
+      6,
+      {}
+    ],
+    "starting_loadout": false,
+    "locked": false,
+    "variant": 1,
+    "color": "",
+    "emission": "",
+    "max_equip_count": 1,
+    "model_asset_name": "Legs_SwashbucklerMale",
+    "variant_material": "",
+    "icon_asset_name": "PremiumIcons/SwashbucklerSeafarerPants",
+    "tag": "Premium",
+    "display_string": "",
+    "item_deed_id": 2147483605,
+    "required_knowledges_to_use": [],
+    "required_knowledges_to_convert": []
+  },
+  {
+    "id": 2146656628,
+    "name": "Swashbuckler Seafarer's Gloves",
+    "description": "",
+    "collectible_type": [
+      11,
+      {}
+    ],
+    "invalidates_type": [
+      0,
+      {}
+    ],
+    "auto_collect": false,
+    "collectible_rarity": [
+      6,
+      {}
+    ],
+    "starting_loadout": false,
+    "locked": false,
+    "variant": 1,
+    "color": "",
+    "emission": "",
+    "max_equip_count": 1,
+    "model_asset_name": "Hands_SwashbucklerMale",
+    "variant_material": "",
+    "icon_asset_name": "PremiumIcons/SwashbucklerSeafarerGloves",
+    "tag": "Premium",
+    "display_string": "",
+    "item_deed_id": 2147483609,
+    "required_knowledges_to_use": [],
+    "required_knowledges_to_convert": []
+  },
+  {
+    "id": 2146656629,
+    "name": "Swashbuckler Seafarer's Boots",
+    "description": "",
+    "collectible_type": [
+      13,
+      {}
+    ],
+    "invalidates_type": [
+      0,
+      {}
+    ],
+    "auto_collect": false,
+    "collectible_rarity": [
+      6,
+      {}
+    ],
+    "starting_loadout": false,
+    "locked": false,
+    "variant": 1,
+    "color": "",
+    "emission": "",
+    "max_equip_count": 1,
+    "model_asset_name": "Feet_SwashbucklerMale",
+    "variant_material": "",
+    "icon_asset_name": "PremiumIcons/SwashbucklerSeafarerBoots",
+    "tag": "Premium",
+    "display_string": "",
+    "item_deed_id": 2147483610,
+    "required_knowledges_to_use": [],
+    "required_knowledges_to_convert": []
+  },
+  {
+    "id": 2146656630,
+    "name": "Swashbuckler Seafarer's Belt",
+    "description": "",
+    "collectible_type": [
+      9,
+      {}
+    ],
+    "invalidates_type": [
+      0,
+      {}
+    ],
+    "auto_collect": false,
+    "collectible_rarity": [
+      6,
+      {}
+    ],
+    "starting_loadout": false,
+    "locked": false,
+    "variant": 1,
+    "color": "",
+    "emission": "",
+    "max_equip_count": 1,
+    "model_asset_name": "Belt_SwashbucklerMale",
+    "variant_material": "",
+    "icon_asset_name": "PremiumIcons/SwashbucklerSeafarerBelt",
+    "tag": "Premium",
+    "display_string": "",
+    "item_deed_id": 2147483611,
+    "required_knowledges_to_use": [],
+    "required_knowledges_to_convert": []
+  },
+  {
+    "id": 2146656632,
+    "name": "Swashbuckler Admiral's Hat",
+    "description": "",
+    "collectible_type": [
+      8,
+      {}
+    ],
+    "invalidates_type": [
+      0,
+      {}
+    ],
+    "auto_collect": false,
+    "collectible_rarity": [
+      6,
+      {}
+    ],
+    "starting_loadout": false,
+    "locked": false,
+    "variant": 0,
+    "color": "",
+    "emission": "",
+    "max_equip_count": 1,
+    "model_asset_name": "Hat_SwashbucklerFemale",
+    "variant_material": "",
+    "icon_asset_name": "PremiumIcons/SwashbucklerAdmiralHat",
+    "tag": "Premium",
+    "display_string": "",
+    "item_deed_id": 2147483632,
+    "required_knowledges_to_use": [],
+    "required_knowledges_to_convert": []
+  },
+  {
+    "id": 2146656633,
+    "name": "Swashbuckler Admiral's Shirt",
+    "description": "",
+    "collectible_type": [
+      10,
+      {}
+    ],
+    "invalidates_type": [
+      0,
+      {}
+    ],
+    "auto_collect": false,
+    "collectible_rarity": [
+      6,
+      {}
+    ],
+    "starting_loadout": false,
+    "locked": false,
+    "variant": 0,
+    "color": "",
+    "emission": "",
+    "max_equip_count": 1,
+    "model_asset_name": "Torso_SwashbucklerFemale",
+    "variant_material": "",
+    "icon_asset_name": "PremiumIcons/SwashbucklerAdmiralShirt",
+    "tag": "Premium",
+    "display_string": "",
+    "item_deed_id": 2147483628,
+    "required_knowledges_to_use": [],
+    "required_knowledges_to_convert": []
+  },
+  {
+    "id": 2146656634,
+    "name": "Swashbuckler Admiral's Pants",
+    "description": "",
+    "collectible_type": [
+      12,
+      {}
+    ],
+    "invalidates_type": [
+      0,
+      {}
+    ],
+    "auto_collect": false,
+    "collectible_rarity": [
+      6,
+      {}
+    ],
+    "starting_loadout": false,
+    "locked": false,
+    "variant": 0,
+    "color": "",
+    "emission": "",
+    "max_equip_count": 1,
+    "model_asset_name": "Legs_SwashbucklerFemale",
+    "variant_material": "",
+    "icon_asset_name": "PremiumIcons/SwashbucklerAdmiralPants",
+    "tag": "Premium",
+    "display_string": "",
+    "item_deed_id": 2147483629,
+    "required_knowledges_to_use": [],
+    "required_knowledges_to_convert": []
+  },
+  {
+    "id": 2146656635,
+    "name": "Swashbuckler Admiral's Gloves",
+    "description": "",
+    "collectible_type": [
+      11,
+      {}
+    ],
+    "invalidates_type": [
+      0,
+      {}
+    ],
+    "auto_collect": false,
+    "collectible_rarity": [
+      6,
+      {}
+    ],
+    "starting_loadout": false,
+    "locked": false,
+    "variant": 0,
+    "color": "",
+    "emission": "",
+    "max_equip_count": 1,
+    "model_asset_name": "Hands_SwashbucklerFemale",
+    "variant_material": "",
+    "icon_asset_name": "PremiumIcons/SwashbucklerAdmiralGloves",
+    "tag": "Premium",
+    "display_string": "",
+    "item_deed_id": 2147483633,
+    "required_knowledges_to_use": [],
+    "required_knowledges_to_convert": []
+  },
+  {
+    "id": 2146656636,
+    "name": "Swashbuckler Admiral's Boots",
+    "description": "",
+    "collectible_type": [
+      13,
+      {}
+    ],
+    "invalidates_type": [
+      0,
+      {}
+    ],
+    "auto_collect": false,
+    "collectible_rarity": [
+      6,
+      {}
+    ],
+    "starting_loadout": false,
+    "locked": false,
+    "variant": 0,
+    "color": "",
+    "emission": "",
+    "max_equip_count": 1,
+    "model_asset_name": "Feet_SwashbucklerFemale",
+    "variant_material": "",
+    "icon_asset_name": "PremiumIcons/SwashbucklerAdmiralBoots",
+    "tag": "Premium",
+    "display_string": "",
+    "item_deed_id": 2147483634,
+    "required_knowledges_to_use": [],
+    "required_knowledges_to_convert": []
+  },
+  {
+    "id": 2146656637,
+    "name": "Swashbuckler Admiral's Belt",
+    "description": "",
+    "collectible_type": [
+      9,
+      {}
+    ],
+    "invalidates_type": [
+      0,
+      {}
+    ],
+    "auto_collect": false,
+    "collectible_rarity": [
+      6,
+      {}
+    ],
+    "starting_loadout": false,
+    "locked": false,
+    "variant": 0,
+    "color": "",
+    "emission": "",
+    "max_equip_count": 1,
+    "model_asset_name": "Belt_SwashbucklerFemale",
+    "variant_material": "",
+    "icon_asset_name": "PremiumIcons/SwashbucklerAdmiralBelt",
+    "tag": "Premium",
+    "display_string": "",
+    "item_deed_id": 2147483636,
+    "required_knowledges_to_use": [],
+    "required_knowledges_to_convert": []
+  },
+  {
+    "id": 2146656639,
+    "name": "Swashbuckler Captain's Hat",
+    "description": "",
+    "collectible_type": [
+      8,
+      {}
+    ],
+    "invalidates_type": [
+      0,
+      {}
+    ],
+    "auto_collect": false,
+    "collectible_rarity": [
+      6,
+      {}
+    ],
+    "starting_loadout": false,
+    "locked": false,
+    "variant": 1,
+    "color": "",
+    "emission": "",
+    "max_equip_count": 1,
+    "model_asset_name": "Hat_SwashbucklerFemale",
+    "variant_material": "",
+    "icon_asset_name": "PremiumIcons/SwashbucklerCaptainHat",
+    "tag": "Premium",
+    "display_string": "",
+    "item_deed_id": 2147483624,
+    "required_knowledges_to_use": [],
+    "required_knowledges_to_convert": []
+  },
+  {
+    "id": 2146656640,
+    "name": "Swashbuckler Captain's Shirt",
+    "description": "",
+    "collectible_type": [
+      10,
+      {}
+    ],
+    "invalidates_type": [
+      0,
+      {}
+    ],
+    "auto_collect": false,
+    "collectible_rarity": [
+      6,
+      {}
+    ],
+    "starting_loadout": false,
+    "locked": false,
+    "variant": 1,
+    "color": "",
+    "emission": "",
+    "max_equip_count": 1,
+    "model_asset_name": "Torso_SwashbucklerFemale",
+    "variant_material": "",
+    "icon_asset_name": "PremiumIcons/SwashbucklerCaptainShirt",
+    "tag": "Premium",
+    "display_string": "",
+    "item_deed_id": 2147483620,
+    "required_knowledges_to_use": [],
+    "required_knowledges_to_convert": []
+  },
+  {
+    "id": 2146656641,
+    "name": "Swashbuckler Captain's Pants",
+    "description": "",
+    "collectible_type": [
+      12,
+      {}
+    ],
+    "invalidates_type": [
+      0,
+      {}
+    ],
+    "auto_collect": false,
+    "collectible_rarity": [
+      6,
+      {}
+    ],
+    "starting_loadout": false,
+    "locked": false,
+    "variant": 1,
+    "color": "",
+    "emission": "",
+    "max_equip_count": 1,
+    "model_asset_name": "Legs_SwashbucklerFemale",
+    "variant_material": "",
+    "icon_asset_name": "PremiumIcons/SwashbucklerCaptainPants",
+    "tag": "Premium",
+    "display_string": "",
+    "item_deed_id": 2147483621,
+    "required_knowledges_to_use": [],
+    "required_knowledges_to_convert": []
+  },
+  {
+    "id": 2146656642,
+    "name": "Swashbuckler Captain's Gloves",
+    "description": "",
+    "collectible_type": [
+      11,
+      {}
+    ],
+    "invalidates_type": [
+      0,
+      {}
+    ],
+    "auto_collect": false,
+    "collectible_rarity": [
+      6,
+      {}
+    ],
+    "starting_loadout": false,
+    "locked": false,
+    "variant": 1,
+    "color": "",
+    "emission": "",
+    "max_equip_count": 1,
+    "model_asset_name": "Hands_SwashbucklerFemale",
+    "variant_material": "",
+    "icon_asset_name": "PremiumIcons/SwashbucklerCaptainGloves",
+    "tag": "Premium",
+    "display_string": "",
+    "item_deed_id": 2147483625,
+    "required_knowledges_to_use": [],
+    "required_knowledges_to_convert": []
+  },
+  {
+    "id": 2146656643,
+    "name": "Swashbuckler Captain's Boots",
+    "description": "",
+    "collectible_type": [
+      13,
+      {}
+    ],
+    "invalidates_type": [
+      0,
+      {}
+    ],
+    "auto_collect": false,
+    "collectible_rarity": [
+      6,
+      {}
+    ],
+    "starting_loadout": false,
+    "locked": false,
+    "variant": 1,
+    "color": "",
+    "emission": "",
+    "max_equip_count": 1,
+    "model_asset_name": "Feet_SwashbucklerFemale",
+    "variant_material": "",
+    "icon_asset_name": "PremiumIcons/SwashbucklerCaptainBoots",
+    "tag": "Premium",
+    "display_string": "",
+    "item_deed_id": 2147483626,
+    "required_knowledges_to_use": [],
+    "required_knowledges_to_convert": []
+  },
+  {
+    "id": 2146656644,
+    "name": "Swashbuckler Captain's Belt",
+    "description": "",
+    "collectible_type": [
+      9,
+      {}
+    ],
+    "invalidates_type": [
+      0,
+      {}
+    ],
+    "auto_collect": false,
+    "collectible_rarity": [
+      6,
+      {}
+    ],
+    "starting_loadout": false,
+    "locked": false,
+    "variant": 1,
+    "color": "",
+    "emission": "",
+    "max_equip_count": 1,
+    "model_asset_name": "Belt_SwashbucklerFemale",
+    "variant_material": "",
+    "icon_asset_name": "PremiumIcons/SwashbucklerCaptainBelt",
+    "tag": "Premium",
+    "display_string": "",
+    "item_deed_id": 2147483627,
+    "required_knowledges_to_use": [],
+    "required_knowledges_to_convert": []
+  },
+  {
+    "id": 2146656646,
+    "name": "Biscuit",
+    "description": "A premium swashbuckler companion. Can be withdrawn to trade using \"Convert to deed\".",
+    "collectible_type": [
+      17,
+      {}
+    ],
+    "invalidates_type": [
+      0,
+      {}
+    ],
+    "auto_collect": false,
+    "collectible_rarity": [
+      6,
+      {}
+    ],
+    "starting_loadout": false,
+    "locked": false,
+    "variant": 0,
+    "color": "",
+    "emission": "",
+    "max_equip_count": 1,
+    "model_asset_name": "Pets/PetSwashbucklerBiscuit",
+    "variant_material": "",
+    "icon_asset_name": "PremiumIcons/SwashbucklerPetBiscuit",
+    "tag": "Premium Pet",
+    "display_string": "",
+    "item_deed_id": 2147483643,
+    "required_knowledges_to_use": [],
+    "required_knowledges_to_convert": []
+  },
+  {
+    "id": 2146656647,
+    "name": "Tiki",
+    "description": "A premium swashbuckler companion. Can be withdrawn to trade using \"Convert to deed\".",
+    "collectible_type": [
+      17,
+      {}
+    ],
+    "invalidates_type": [
+      0,
+      {}
+    ],
+    "auto_collect": false,
+    "collectible_rarity": [
+      6,
+      {}
+    ],
+    "starting_loadout": false,
+    "locked": false,
+    "variant": 0,
+    "color": "",
+    "emission": "",
+    "max_equip_count": 1,
+    "model_asset_name": "Pets/PetSwashbucklerTiki",
+    "variant_material": "",
+    "icon_asset_name": "PremiumIcons/SwashbucklerPetTiki",
+    "tag": "Premium Pet",
+    "display_string": "",
+    "item_deed_id": 2147483641,
+    "required_knowledges_to_use": [],
+    "required_knowledges_to_convert": []
+  },
+  {
+    "id": 2146656648,
+    "name": "Salsa",
+    "description": "A premium swashbuckler companion. Can be withdrawn to trade using \"Convert to deed\".",
+    "collectible_type": [
+      17,
+      {}
+    ],
+    "invalidates_type": [
+      0,
+      {}
+    ],
+    "auto_collect": false,
+    "collectible_rarity": [
+      6,
+      {}
+    ],
+    "starting_loadout": false,
+    "locked": false,
+    "variant": 0,
+    "color": "",
+    "emission": "",
+    "max_equip_count": 1,
+    "model_asset_name": "Pets/PetSwashbucklerSalsa",
+    "variant_material": "",
+    "icon_asset_name": "PremiumIcons/SwashbucklerPetSalsa",
+    "tag": "Premium Pet",
+    "display_string": "",
+    "item_deed_id": 2147483642,
+    "required_knowledges_to_use": [],
+    "required_knowledges_to_convert": []
+  },
+  {
+    "id": 2146656649,
+    "name": "Pirate Raft Appearance",
+    "description": "Changes the appearance of your raft deployables while maintaining their stats.",
+    "collectible_type": [
+      23,
+      {}
+    ],
+    "invalidates_type": [
+      0,
+      {}
+    ],
+    "auto_collect": false,
+    "collectible_rarity": [
+      6,
+      {}
+    ],
+    "starting_loadout": false,
+    "locked": false,
+    "variant": 0,
+    "color": "",
+    "emission": "",
+    "max_equip_count": 1,
+    "model_asset_name": "",
+    "variant_material": "",
+    "icon_asset_name": "PremiumIcons/SwashbucklerPirateRaftAppearance",
+    "tag": "Deployable Appearance",
+    "display_string": "",
+    "item_deed_id": 2147483639,
+    "required_knowledges_to_use": [],
+    "required_knowledges_to_convert": []
+  },
+  {
+    "id": 2146656650,
+    "name": "Pirate Skiff Appearance",
+    "description": "Changes the appearance of your skiff deployables while maintaining their stats.",
+    "collectible_type": [
+      23,
+      {}
+    ],
+    "invalidates_type": [
+      0,
+      {}
+    ],
+    "auto_collect": false,
+    "collectible_rarity": [
+      6,
+      {}
+    ],
+    "starting_loadout": false,
+    "locked": false,
+    "variant": 0,
+    "color": "",
+    "emission": "",
+    "max_equip_count": 1,
+    "model_asset_name": "",
+    "variant_material": "",
+    "icon_asset_name": "PremiumIcons/SwashbucklerPirateSkiffAppearance",
+    "tag": "Deployable Appearance",
+    "display_string": "",
+    "item_deed_id": 2147483637,
+    "required_knowledges_to_use": [],
+    "required_knowledges_to_convert": []
+  },
+  {
+    "id": 2146656651,
+    "name": "Pirate Clipper Appearance",
+    "description": "Changes the appearance of your clipper deployables while maintaining their stats.",
+    "collectible_type": [
+      23,
+      {}
+    ],
+    "invalidates_type": [
+      0,
+      {}
+    ],
+    "auto_collect": false,
+    "collectible_rarity": [
+      6,
+      {}
+    ],
+    "starting_loadout": false,
+    "locked": false,
+    "variant": 0,
+    "color": "",
+    "emission": "",
+    "max_equip_count": 1,
+    "model_asset_name": "",
+    "variant_material": "",
+    "icon_asset_name": "PremiumIcons/SwashbucklerPirateClipperAppearance",
+    "tag": "Deployable Appearance",
+    "display_string": "",
+    "item_deed_id": 2147483640,
+    "required_knowledges_to_use": [],
+    "required_knowledges_to_convert": []
+  },
+  {
+    "id": 2146656652,
+    "name": "Pirate Ship Appearance",
+    "description": "Changes the appearance of your ship deployables while maintaining their stats.",
+    "collectible_type": [
+      23,
+      {}
+    ],
+    "invalidates_type": [
+      0,
+      {}
+    ],
+    "auto_collect": false,
+    "collectible_rarity": [
+      6,
+      {}
+    ],
+    "starting_loadout": false,
+    "locked": false,
+    "variant": 0,
+    "color": "",
+    "emission": "",
+    "max_equip_count": 1,
+    "model_asset_name": "",
+    "variant_material": "",
+    "icon_asset_name": "PremiumIcons/SwashbucklerPirateShipAppearance",
+    "tag": "Deployable Appearance",
+    "display_string": "",
+    "item_deed_id": 2147483638,
+    "required_knowledges_to_use": [],
+    "required_knowledges_to_convert": []
+  },
+  {
+    "id": 2146656653,
+    "name": "Navy Raft Appearance",
+    "description": "Changes the appearance of your raft deployables while maintaining their stats.",
+    "collectible_type": [
+      23,
+      {}
+    ],
+    "invalidates_type": [
+      0,
+      {}
+    ],
+    "auto_collect": false,
+    "collectible_rarity": [
+      6,
+      {}
+    ],
+    "starting_loadout": false,
+    "locked": false,
+    "variant": 0,
+    "color": "",
+    "emission": "",
+    "max_equip_count": 1,
+    "model_asset_name": "",
+    "variant_material": "",
+    "icon_asset_name": "PremiumIcons/SwashbucklerNavyRaftAppearance",
+    "tag": "Deployable Appearance",
+    "display_string": "",
+    "item_deed_id": 2147483646,
+    "required_knowledges_to_use": [],
+    "required_knowledges_to_convert": []
+  },
+  {
+    "id": 2146656654,
+    "name": "Navy Skiff Appearance",
+    "description": "Changes the appearance of your skiff deployables while maintaining their stats.",
+    "collectible_type": [
+      23,
+      {}
+    ],
+    "invalidates_type": [
+      0,
+      {}
+    ],
+    "auto_collect": false,
+    "collectible_rarity": [
+      6,
+      {}
+    ],
+    "starting_loadout": false,
+    "locked": false,
+    "variant": 0,
+    "color": "",
+    "emission": "",
+    "max_equip_count": 1,
+    "model_asset_name": "",
+    "variant_material": "",
+    "icon_asset_name": "PremiumIcons/SwashbucklerNavySkiffAppearance",
+    "tag": "Deployable Appearance",
+    "display_string": "",
+    "item_deed_id": 2147483644,
+    "required_knowledges_to_use": [],
+    "required_knowledges_to_convert": []
+  },
+  {
+    "id": 2146656655,
+    "name": "Navy Clipper Appearance",
+    "description": "Changes the appearance of your clipper deployables while maintaining their stats.",
+    "collectible_type": [
+      23,
+      {}
+    ],
+    "invalidates_type": [
+      0,
+      {}
+    ],
+    "auto_collect": false,
+    "collectible_rarity": [
+      6,
+      {}
+    ],
+    "starting_loadout": false,
+    "locked": false,
+    "variant": 0,
+    "color": "",
+    "emission": "",
+    "max_equip_count": 1,
+    "model_asset_name": "",
+    "variant_material": "",
+    "icon_asset_name": "PremiumIcons/SwashbucklerNavyClipperAppearance",
+    "tag": "Deployable Appearance",
+    "display_string": "",
+    "item_deed_id": 2147483647,
+    "required_knowledges_to_use": [],
+    "required_knowledges_to_convert": []
+  },
+  {
+    "id": 2146656656,
+    "name": "Navy Ship Appearance",
+    "description": "Changes the appearance of your ship deployables while maintaining their stats.",
+    "collectible_type": [
+      23,
+      {}
+    ],
+    "invalidates_type": [
+      0,
+      {}
+    ],
+    "auto_collect": false,
+    "collectible_rarity": [
+      6,
+      {}
+    ],
+    "starting_loadout": false,
+    "locked": false,
+    "variant": 0,
+    "color": "",
+    "emission": "",
+    "max_equip_count": 1,
+    "model_asset_name": "",
+    "variant_material": "",
+    "icon_asset_name": "PremiumIcons/SwashbucklerNavyShipAppearance",
+    "tag": "Deployable Appearance",
+    "display_string": "",
+    "item_deed_id": 2147483645,
+    "required_knowledges_to_use": [],
+    "required_knowledges_to_convert": []
+  },
+  {
+    "id": 2146656657,
+    "name": "Wharf Decoration Materials",
+    "description": "Materials which will be used to build future Swashbuckler wharf decorations. Purchased from the premium store.",
+    "collectible_type": [
+      19,
+      {}
+    ],
+    "invalidates_type": [
+      0,
+      {}
+    ],
+    "auto_collect": false,
+    "collectible_rarity": [
+      6,
+      {}
+    ],
+    "starting_loadout": false,
+    "locked": false,
+    "variant": 0,
+    "color": "",
+    "emission": "",
+    "max_equip_count": 0,
+    "model_asset_name": "",
+    "variant_material": "",
+    "icon_asset_name": "PremiumIcons/SwashbucklerWharfDecorationMaterials",
+    "tag": "",
+    "display_string": "",
+    "item_deed_id": 2147483603,
     "required_knowledges_to_use": [],
     "required_knowledges_to_convert": []
   }

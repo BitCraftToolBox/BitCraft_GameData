@@ -9,8 +9,8 @@
       1,
       {}
     ],
-    "model_asset_name": "Buildings/BeechTreeYoungBuilding",
-    "icon_asset_name": "GeneratedIcons/Other/BeechTreeYoung",
+    "model_asset_name": "Placeables/TreePalmSeed",
+    "icon_asset_name": "GeneratedIcons/Other/TropicalTree",
     "max_health": 1,
     "visible_to_others": false
   },
@@ -54,8 +54,23 @@
       1,
       {}
     ],
-    "model_asset_name": "Buildings/BrickPile",
-    "icon_asset_name": "GeneratedIcons/Other/BeechTreeYoung",
+    "model_asset_name": "Buildings/CookedBrickPile",
+    "icon_asset_name": "GeneratedIcons/Other/Brick",
+    "max_health": 1,
+    "visible_to_others": false
+  },
+  {
+    "id": 145087621,
+    "name": "Simple Withered Tropical Rice Plant",
+    "tag": "Rice Farming",
+    "tier": 2,
+    "description": "A rice plant which has withered, unable to produce rice.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/RicePlantGrowing",
+    "icon_asset_name": "GeneratedIcons/Other/RicePlant",
     "max_health": 1,
     "visible_to_others": false
   },
@@ -69,8 +84,8 @@
       1,
       {}
     ],
-    "model_asset_name": "Buildings/BeechTreeYoungBuilding",
-    "icon_asset_name": "GeneratedIcons/Other/BeechTreeYoung",
+    "model_asset_name": "Placeables/TreePalmYoung",
+    "icon_asset_name": "GeneratedIcons/Other/TropicalTree",
     "max_health": 1,
     "visible_to_others": false
   },
@@ -90,6 +105,36 @@
     "visible_to_others": false
   },
   {
+    "id": 270767210,
+    "name": "Flawless Young Tropical Rice Seedling",
+    "tag": "Rice Farming",
+    "tier": 10,
+    "description": "A rice seedling which can grow into a rice plant.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/RicePlantSprout",
+    "icon_asset_name": "GeneratedIcons/Other/RicePlant",
+    "max_health": 10,
+    "visible_to_others": false
+  },
+  {
+    "id": 292137471,
+    "name": "Basic Young Tropical Rice Seedling",
+    "tag": "Rice Farming",
+    "tier": 1,
+    "description": "A rice seedling which can grow into a rice plant.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/RicePlantSprout",
+    "icon_asset_name": "GeneratedIcons/Other/RicePlant",
+    "max_health": 1,
+    "visible_to_others": false
+  },
+  {
     "id": 304616728,
     "name": "Mature Tropical Coconut Tree",
     "tag": "Planted Tree",
@@ -99,9 +144,39 @@
       1,
       {}
     ],
-    "model_asset_name": "Buildings/BeechTreeYoungBuilding",
-    "icon_asset_name": "GeneratedIcons/Other/BeechTreeYoung",
+    "model_asset_name": "Placeables/TreePalmMature",
+    "icon_asset_name": "GeneratedIcons/Other/TropicalTree",
     "max_health": 1,
+    "visible_to_others": false
+  },
+  {
+    "id": 325123389,
+    "name": "Simple Sick Tropical Rice Seedling",
+    "tag": "Rice Farming",
+    "tier": 2,
+    "description": "A sick rice seedling which will wither without treatment.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/RicePlantSprout",
+    "icon_asset_name": "GeneratedIcons/Other/RicePlant",
+    "max_health": 2,
+    "visible_to_others": false
+  },
+  {
+    "id": 325366671,
+    "name": "Magnificent Sick Tropical Rice Seedling",
+    "tag": "Rice Farming",
+    "tier": 9,
+    "description": "A sick rice seedling which will wither without treatment.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/RicePlantSprout",
+    "icon_asset_name": "GeneratedIcons/Other/RicePlant",
+    "max_health": 9,
     "visible_to_others": false
   },
   {
@@ -114,8 +189,83 @@
       1,
       {}
     ],
-    "model_asset_name": "Buildings/BeechTreeYoungBuilding",
-    "icon_asset_name": "GeneratedIcons/Other/BeechTreeYoung",
+    "model_asset_name": "Placeables/TreePalmSeed",
+    "icon_asset_name": "GeneratedIcons/Other/TropicalTree",
+    "max_health": 1,
+    "visible_to_others": false
+  },
+  {
+    "id": 367503847,
+    "name": "Peerless Young Tropical Rice Seedling",
+    "tag": "Rice Farming",
+    "tier": 6,
+    "description": "A rice seedling which can grow into a rice plant.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/RicePlantSprout",
+    "icon_asset_name": "GeneratedIcons/Other/RicePlant",
+    "max_health": 6,
+    "visible_to_others": false
+  },
+  {
+    "id": 399749745,
+    "name": "Magnificent Withered Tropical Rice Plant",
+    "tag": "Rice Farming",
+    "tier": 9,
+    "description": "A rice plant which has withered, unable to produce rice.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/RicePlantGrowing",
+    "icon_asset_name": "GeneratedIcons/Other/RicePlant",
+    "max_health": 1,
+    "visible_to_others": false
+  },
+  {
+    "id": 405997339,
+    "name": "Simple Healthy Tropical Rice Seedling",
+    "tag": "Rice Farming",
+    "tier": 2,
+    "description": "A healthy rice seedling which will grow into a rice plant.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/RicePlantSprout",
+    "icon_asset_name": "GeneratedIcons/Other/RicePlant",
+    "max_health": 1,
+    "visible_to_others": false
+  },
+  {
+    "id": 418902577,
+    "name": "Infused Tropical Rice Plant",
+    "tag": "Rice Farming",
+    "tier": 3,
+    "description": "A fully grown rice plant ready to be harvested.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/RicePlantMature",
+    "icon_asset_name": "GeneratedIcons/Other/RicePlant",
+    "max_health": 1,
+    "visible_to_others": false
+  },
+  {
+    "id": 445014296,
+    "name": "Pristine Healthy Tropical Rice Seedling",
+    "tag": "Rice Farming",
+    "tier": 8,
+    "description": "A healthy rice seedling which will grow into a rice plant.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/RicePlantSprout",
+    "icon_asset_name": "GeneratedIcons/Other/RicePlant",
     "max_health": 1,
     "visible_to_others": false
   },
@@ -129,8 +279,83 @@
       1,
       {}
     ],
-    "model_asset_name": "Buildings/BeechTreeYoungBuilding",
-    "icon_asset_name": "GeneratedIcons/Other/BeechTreeYoung",
+    "model_asset_name": "Placeables/TreePalmYoung",
+    "icon_asset_name": "GeneratedIcons/Other/TropicalTree",
+    "max_health": 1,
+    "visible_to_others": false
+  },
+  {
+    "id": 490172041,
+    "name": "Infused Healthy Tropical Rice Seedling",
+    "tag": "Rice Farming",
+    "tier": 3,
+    "description": "A healthy rice seedling which will grow into a rice plant.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/RicePlantSprout",
+    "icon_asset_name": "GeneratedIcons/Other/RicePlant",
+    "max_health": 1,
+    "visible_to_others": false
+  },
+  {
+    "id": 521005644,
+    "name": "Fine Healthy Tropical Rice Seedling",
+    "tag": "Rice Farming",
+    "tier": 4,
+    "description": "A healthy rice seedling which will grow into a rice plant.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/RicePlantSprout",
+    "icon_asset_name": "GeneratedIcons/Other/RicePlant",
+    "max_health": 1,
+    "visible_to_others": false
+  },
+  {
+    "id": 521794534,
+    "name": "Exquisite Sick Tropical Rice Seedling",
+    "tag": "Rice Farming",
+    "tier": 5,
+    "description": "A sick rice seedling which will wither without treatment.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/RicePlantSprout",
+    "icon_asset_name": "GeneratedIcons/Other/RicePlant",
+    "max_health": 5,
+    "visible_to_others": false
+  },
+  {
+    "id": 533878527,
+    "name": "Pristine Sick Tropical Rice Seedling",
+    "tag": "Rice Farming",
+    "tier": 8,
+    "description": "A sick rice seedling which will wither without treatment.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/RicePlantSprout",
+    "icon_asset_name": "GeneratedIcons/Other/RicePlant",
+    "max_health": 8,
+    "visible_to_others": false
+  },
+  {
+    "id": 569163641,
+    "name": "Ornate Tropical Rice Plant",
+    "tag": "Rice Farming",
+    "tier": 7,
+    "description": "A fully grown rice plant ready to be harvested.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/RicePlantMature",
+    "icon_asset_name": "GeneratedIcons/Other/RicePlant",
     "max_health": 1,
     "visible_to_others": false
   },
@@ -144,8 +369,8 @@
       1,
       {}
     ],
-    "model_asset_name": "Placeables/AnimalTrapSuccess",
-    "icon_asset_name": "GeneratedIcons/Other/Buildings/Crafting/SagiBirdTrap",
+    "model_asset_name": "Placeables/CrabTrapCaught",
+    "icon_asset_name": "GeneratedIcons/Items/HermitCrabTrap",
     "max_health": 1,
     "visible_to_others": false
   },
@@ -165,8 +390,38 @@
     "visible_to_others": false
   },
   {
+    "id": 731680705,
+    "name": "Fine Withered Tropical Rice Plant",
+    "tag": "Rice Farming",
+    "tier": 4,
+    "description": "A rice plant which has withered, unable to produce rice.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/RicePlantGrowing",
+    "icon_asset_name": "GeneratedIcons/Other/RicePlant",
+    "max_health": 1,
+    "visible_to_others": false
+  },
+  {
+    "id": 773754427,
+    "name": "Flawless Tropical Rice Plant",
+    "tag": "Rice Farming",
+    "tier": 10,
+    "description": "A fully grown rice plant ready to be harvested.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/RicePlantMature",
+    "icon_asset_name": "GeneratedIcons/Other/RicePlant",
+    "max_health": 1,
+    "visible_to_others": false
+  },
+  {
     "id": 774673932,
-    "name": "Pure Luminite Ore",
+    "name": "Sparkstone Ore Chunk",
     "tag": "Ore",
     "tier": 5,
     "description": "A chunk of pure Luminite Ore that's been broken off of the Sparkstone Ore node.",
@@ -176,6 +431,21 @@
     ],
     "model_asset_name": "Placeables/LuminiteChunk",
     "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Items/CrushedLuminiteOre",
+    "max_health": 1,
+    "visible_to_others": false
+  },
+  {
+    "id": 780421137,
+    "name": "Basic Healthy Tropical Rice Seedling",
+    "tag": "Rice Farming",
+    "tier": 1,
+    "description": "A healthy rice seedling which will grow into a rice plant.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/RicePlantSprout",
+    "icon_asset_name": "GeneratedIcons/Other/RicePlant",
     "max_health": 1,
     "visible_to_others": false
   },
@@ -195,6 +465,66 @@
     "visible_to_others": false
   },
   {
+    "id": 795396731,
+    "name": "Pristine Withered Tropical Rice Plant",
+    "tag": "Rice Farming",
+    "tier": 8,
+    "description": "A rice plant which has withered, unable to produce rice.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/RicePlantGrowing",
+    "icon_asset_name": "GeneratedIcons/Other/RicePlant",
+    "max_health": 1,
+    "visible_to_others": false
+  },
+  {
+    "id": 806364158,
+    "name": "Infused Sick Tropical Rice Seedling",
+    "tag": "Rice Farming",
+    "tier": 1,
+    "description": "A sick rice seedling which will wither without treatment.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/RicePlantSprout",
+    "icon_asset_name": "GeneratedIcons/Other/RicePlant",
+    "max_health": 3,
+    "visible_to_others": false
+  },
+  {
+    "id": 814362463,
+    "name": "Ornate Healthy Tropical Rice Seedling",
+    "tag": "Rice Farming",
+    "tier": 7,
+    "description": "A healthy rice seedling which will grow into a rice plant.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/RicePlantSprout",
+    "icon_asset_name": "GeneratedIcons/Other/RicePlant",
+    "max_health": 1,
+    "visible_to_others": false
+  },
+  {
+    "id": 838407654,
+    "name": "Simple Tropical Rice Plant",
+    "tag": "Rice Farming",
+    "tier": 2,
+    "description": "A fully grown rice plant ready to be harvested.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/RicePlantMature",
+    "icon_asset_name": "GeneratedIcons/Other/RicePlant",
+    "max_health": 1,
+    "visible_to_others": false
+  },
+  {
     "id": 870186474,
     "name": "Unset Sagi Bird Trap",
     "tag": "Traps",
@@ -210,6 +540,81 @@
     "visible_to_others": false
   },
   {
+    "id": 892609294,
+    "name": "Exquisite Young Tropical Rice Seedling",
+    "tag": "Rice Farming",
+    "tier": 5,
+    "description": "A rice seedling which can grow into a rice plant.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/RicePlantSprout",
+    "icon_asset_name": "GeneratedIcons/Other/RicePlant",
+    "max_health": 5,
+    "visible_to_others": false
+  },
+  {
+    "id": 925603670,
+    "name": "Pristine Young Tropical Rice Seedling",
+    "tag": "Rice Farming",
+    "tier": 8,
+    "description": "A rice seedling which can grow into a rice plant.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/RicePlantSprout",
+    "icon_asset_name": "GeneratedIcons/Other/RicePlant",
+    "max_health": 8,
+    "visible_to_others": false
+  },
+  {
+    "id": 950837977,
+    "name": "Basic Tropical Rice Plant",
+    "tag": "Rice Farming",
+    "tier": 1,
+    "description": "A fully grown rice plant ready to be harvested.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/RicePlantMature",
+    "icon_asset_name": "GeneratedIcons/Other/RicePlant",
+    "max_health": 1,
+    "visible_to_others": false
+  },
+  {
+    "id": 970794433,
+    "name": "Basic Sick Tropical Rice Seedling",
+    "tag": "Rice Farming",
+    "tier": 1,
+    "description": "A sick rice seedling which will wither without treatment.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/RicePlantSprout",
+    "icon_asset_name": "GeneratedIcons/Other/RicePlant",
+    "max_health": 1,
+    "visible_to_others": false
+  },
+  {
+    "id": 975117328,
+    "name": "Flawless Sick Tropical Rice Seedling",
+    "tag": "Rice Farming",
+    "tier": 10,
+    "description": "A sick rice seedling which will wither without treatment.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/RicePlantSprout",
+    "icon_asset_name": "GeneratedIcons/Other/RicePlant",
+    "max_health": 10,
+    "visible_to_others": false
+  },
+  {
     "id": 994939277,
     "name": "Unfinished Bricks",
     "tag": "Bricks",
@@ -219,8 +624,53 @@
       1,
       {}
     ],
-    "model_asset_name": "Buildings/BrickPile",
-    "icon_asset_name": "GeneratedIcons/Other/BeechTreeYoung",
+    "model_asset_name": "Buildings/UnfinishedBrickPile",
+    "icon_asset_name": "GeneratedIcons/Other/Brick",
+    "max_health": 1,
+    "visible_to_others": false
+  },
+  {
+    "id": 1018177634,
+    "name": "Ornate Withered Tropical Rice Plant",
+    "tag": "Rice Farming",
+    "tier": 7,
+    "description": "A rice plant which has withered, unable to produce rice.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/RicePlantGrowing",
+    "icon_asset_name": "GeneratedIcons/Other/RicePlant",
+    "max_health": 1,
+    "visible_to_others": false
+  },
+  {
+    "id": 1031658824,
+    "name": "Fine Young Tropical Rice Seedling",
+    "tag": "Rice Farming",
+    "tier": 4,
+    "description": "A rice seedling which can grow into a rice plant.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/RicePlantSprout",
+    "icon_asset_name": "GeneratedIcons/Other/RicePlant",
+    "max_health": 4,
+    "visible_to_others": false
+  },
+  {
+    "id": 1053931508,
+    "name": "Flawless Withered Tropical Rice Plant",
+    "tag": "Rice Farming",
+    "tier": 10,
+    "description": "A rice plant which has withered, unable to produce rice.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/RicePlantGrowing",
+    "icon_asset_name": "GeneratedIcons/Other/RicePlant",
     "max_health": 1,
     "visible_to_others": false
   },
@@ -240,6 +690,21 @@
     "visible_to_others": false
   },
   {
+    "id": 1092296231,
+    "name": "Fine Tropical Rice Plant",
+    "tag": "Rice Farming",
+    "tier": 4,
+    "description": "A fully grown rice plant ready to be harvested.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/RicePlantMature",
+    "icon_asset_name": "GeneratedIcons/Other/RicePlant",
+    "max_health": 1,
+    "visible_to_others": false
+  },
+  {
     "id": 1095326978,
     "name": "Thirsty Nubi Goat",
     "tag": "Tameable Animal",
@@ -251,6 +716,36 @@
     ],
     "model_asset_name": "Buildings/NubiGoatThirsty",
     "icon_asset_name": "GeneratedIcons/Items/CapturedNubiGoat",
+    "max_health": 1,
+    "visible_to_others": false
+  },
+  {
+    "id": 1133918458,
+    "name": "Flawless Healthy Tropical Rice Seedling",
+    "tag": "Rice Farming",
+    "tier": 10,
+    "description": "A healthy rice seedling which will grow into a rice plant.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/RicePlantSprout",
+    "icon_asset_name": "GeneratedIcons/Other/RicePlant",
+    "max_health": 1,
+    "visible_to_others": false
+  },
+  {
+    "id": 1155259010,
+    "name": "Exquisite Healthy Tropical Rice Seedling",
+    "tag": "Rice Farming",
+    "tier": 5,
+    "description": "A healthy rice seedling which will grow into a rice plant.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/RicePlantSprout",
+    "icon_asset_name": "GeneratedIcons/Other/RicePlant",
     "max_health": 1,
     "visible_to_others": false
   },
@@ -295,7 +790,7 @@
       {}
     ],
     "model_asset_name": "Buildings/BrickPile",
-    "icon_asset_name": "GeneratedIcons/Other/BeechTreeYoung",
+    "icon_asset_name": "GeneratedIcons/Other/Brick",
     "max_health": 1,
     "visible_to_others": false
   },
@@ -310,7 +805,82 @@
       {}
     ],
     "model_asset_name": "Placeables/UnchartedWetBoots",
-    "icon_asset_name": "GeneratedIcons/Other/UnchartedWetBoots",
+    "icon_asset_name": "GeneratedIcons/Items/WetBoot",
+    "max_health": 1,
+    "visible_to_others": false
+  },
+  {
+    "id": 1251500935,
+    "name": "Magnificent Young Tropical Rice Seedling",
+    "tag": "Rice Farming",
+    "tier": 9,
+    "description": "A rice seedling which can grow into a rice plant.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/RicePlantSprout",
+    "icon_asset_name": "GeneratedIcons/Other/RicePlant",
+    "max_health": 9,
+    "visible_to_others": false
+  },
+  {
+    "id": 1253646510,
+    "name": "Exquisite Withered Tropical Rice Plant",
+    "tag": "Rice Farming",
+    "tier": 5,
+    "description": "A rice plant which has withered, unable to produce rice.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/RicePlantGrowing",
+    "icon_asset_name": "GeneratedIcons/Other/RicePlant",
+    "max_health": 1,
+    "visible_to_others": false
+  },
+  {
+    "id": 1292061908,
+    "name": "Basic Withered Tropical Rice Plant",
+    "tag": "Rice Farming",
+    "tier": 1,
+    "description": "A rice plant which has withered, unable to produce rice.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/RicePlantGrowing",
+    "icon_asset_name": "GeneratedIcons/Other/RicePlant",
+    "max_health": 1,
+    "visible_to_others": false
+  },
+  {
+    "id": 1317480287,
+    "name": "Ornate Sick Tropical Rice Seedling",
+    "tag": "Rice Farming",
+    "tier": 7,
+    "description": "A sick rice seedling which will wither without treatment.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/RicePlantSprout",
+    "icon_asset_name": "GeneratedIcons/Other/RicePlant",
+    "max_health": 7,
+    "visible_to_others": false
+  },
+  {
+    "id": 1425024368,
+    "name": "Peerless Tropical Rice Plant",
+    "tag": "Rice Farming",
+    "tier": 6,
+    "description": "A fully grown rice plant ready to be harvested.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/RicePlantMature",
+    "icon_asset_name": "GeneratedIcons/Other/RicePlant",
     "max_health": 1,
     "visible_to_others": false
   },
@@ -324,14 +894,14 @@
       1,
       {}
     ],
-    "model_asset_name": "Buildings/BeechTreeYoungBuilding",
-    "icon_asset_name": "GeneratedIcons/Other/BeechTreeYoung",
+    "model_asset_name": "Placeables/TreePalmSeed",
+    "icon_asset_name": "GeneratedIcons/Other/TropicalTree",
     "max_health": 1,
     "visible_to_others": false
   },
   {
     "id": 1482516877,
-    "name": "Invisible Resource Sand Pile",
+    "name": "Something Buried in the Sand",
     "tag": "Resource",
     "tier": -1,
     "description": "",
@@ -345,6 +915,21 @@
     "visible_to_others": false
   },
   {
+    "id": 1496723881,
+    "name": "Peerless Withered Tropical Rice Plant",
+    "tag": "Rice Farming",
+    "tier": 6,
+    "description": "A rice plant which has withered, unable to produce rice.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/RicePlantGrowing",
+    "icon_asset_name": "GeneratedIcons/Other/RicePlant",
+    "max_health": 1,
+    "visible_to_others": false
+  },
+  {
     "id": 1513976478,
     "name": "Dried Out Young Tropical Coconut Tree",
     "tag": "Planted Tree",
@@ -354,9 +939,54 @@
       1,
       {}
     ],
-    "model_asset_name": "Buildings/BeechTreeYoungBuilding",
-    "icon_asset_name": "GeneratedIcons/Other/BeechTreeYoung",
+    "model_asset_name": "Placeables/TreePalmYoung",
+    "icon_asset_name": "GeneratedIcons/Other/TropicalTree",
     "max_health": 1,
+    "visible_to_others": false
+  },
+  {
+    "id": 1537562360,
+    "name": "Simple Young Tropical Rice Seedling",
+    "tag": "Rice Farming",
+    "tier": 2,
+    "description": "A rice seedling which can grow into a rice plant.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/RicePlantSprout",
+    "icon_asset_name": "GeneratedIcons/Other/RicePlant",
+    "max_health": 2,
+    "visible_to_others": false
+  },
+  {
+    "id": 1543627203,
+    "name": "Peerless Healthy Tropical Rice Seedling",
+    "tag": "Rice Farming",
+    "tier": 6,
+    "description": "A healthy rice seedling which will grow into a rice plant.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/RicePlantSprout",
+    "icon_asset_name": "GeneratedIcons/Other/RicePlant",
+    "max_health": 1,
+    "visible_to_others": false
+  },
+  {
+    "id": 1589752042,
+    "name": "Infused Young Tropical Rice Seedling",
+    "tag": "Rice Farming",
+    "tier": 3,
+    "description": "A rice seedling which can grow into a rice plant.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/RicePlantSprout",
+    "icon_asset_name": "GeneratedIcons/Other/RicePlant",
+    "max_health": 3,
     "visible_to_others": false
   },
   {
@@ -371,6 +1001,21 @@
     ],
     "model_asset_name": "Placeables/AnimalTrapSuccess",
     "icon_asset_name": "GeneratedIcons/Other/Buildings/Crafting/NubiGoatTrap",
+    "max_health": 1,
+    "visible_to_others": false
+  },
+  {
+    "id": 1607500114,
+    "name": "Magnificent Tropical Rice Plant",
+    "tag": "Rice Farming",
+    "tier": 9,
+    "description": "A fully grown rice plant ready to be harvested.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/RicePlantMature",
+    "icon_asset_name": "GeneratedIcons/Other/RicePlant",
     "max_health": 1,
     "visible_to_others": false
   },
@@ -401,6 +1046,51 @@
     ],
     "model_asset_name": "Placeables/AnimalTrapFail",
     "icon_asset_name": "GeneratedIcons/Other/Buildings/Crafting/NubiGoatTrap",
+    "max_health": 1,
+    "visible_to_others": false
+  },
+  {
+    "id": 1743055811,
+    "name": "Peerless Sick Tropical Rice Seedling",
+    "tag": "Rice Farming",
+    "tier": 6,
+    "description": "A sick rice seedling which will wither without treatment.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/RicePlantSprout",
+    "icon_asset_name": "GeneratedIcons/Other/RicePlant",
+    "max_health": 6,
+    "visible_to_others": false
+  },
+  {
+    "id": 1744221939,
+    "name": "Ornate Young Tropical Rice Seedling",
+    "tag": "Rice Farming",
+    "tier": 7,
+    "description": "A rice seedling which can grow into a rice plant.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/RicePlantSprout",
+    "icon_asset_name": "GeneratedIcons/Other/RicePlant",
+    "max_health": 7,
+    "visible_to_others": false
+  },
+  {
+    "id": 1756055553,
+    "name": "Pristine Tropical Rice Plant",
+    "tag": "Rice Farming",
+    "tier": 8,
+    "description": "A fully grown rice plant ready to be harvested.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/RicePlantMature",
+    "icon_asset_name": "GeneratedIcons/Other/RicePlant",
     "max_health": 1,
     "visible_to_others": false
   },
@@ -444,8 +1134,23 @@
       1,
       {}
     ],
-    "model_asset_name": "Buildings/BeechTreeYoungBuilding",
-    "icon_asset_name": "GeneratedIcons/Other/BeechTreeYoung",
+    "model_asset_name": "Placeables/TreePalmSeed",
+    "icon_asset_name": "GeneratedIcons/Other/TropicalTree",
+    "max_health": 1,
+    "visible_to_others": false
+  },
+  {
+    "id": 1857786217,
+    "name": "Uncharted Treasure",
+    "tag": "Treasure",
+    "tier": -1,
+    "description": "A pile of various treasures from an ancient civilization. There's not much here but it seems valuable.",
+    "rarity": [
+      2,
+      {}
+    ],
+    "model_asset_name": "Placeables/UnchartedTreasures",
+    "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Items/AncientRelic",
     "max_health": 1,
     "visible_to_others": false
   },
@@ -519,8 +1224,23 @@
       1,
       {}
     ],
-    "model_asset_name": "Placeables/AnimalTrapFail",
-    "icon_asset_name": "GeneratedIcons/Other/Buildings/Crafting/SagiBirdTrap",
+    "model_asset_name": "Placeables/CrabTrapCaught",
+    "icon_asset_name": "GeneratedIcons/Items/HermitCrabTrap",
+    "max_health": 1,
+    "visible_to_others": false
+  },
+  {
+    "id": 1906042971,
+    "name": "Magnificent Healthy Tropical Rice Seedling",
+    "tag": "Rice Farming",
+    "tier": 9,
+    "description": "A healthy rice seedling which will grow into a rice plant.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/RicePlantSprout",
+    "icon_asset_name": "GeneratedIcons/Other/RicePlant",
     "max_health": 1,
     "visible_to_others": false
   },
@@ -534,8 +1254,8 @@
       1,
       {}
     ],
-    "model_asset_name": "Buildings/BeechTreeYoungBuilding",
-    "icon_asset_name": "GeneratedIcons/Other/BeechTreeYoung",
+    "model_asset_name": "Placeables/TreePalmYoung",
+    "icon_asset_name": "GeneratedIcons/Other/TropicalTree",
     "max_health": 1,
     "visible_to_others": false
   },
@@ -555,6 +1275,36 @@
     "visible_to_others": false
   },
   {
+    "id": 2063813297,
+    "name": "Infused Withered Tropical Rice Plant",
+    "tag": "Rice Farming",
+    "tier": 3,
+    "description": "A rice plant which has withered, unable to produce rice.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/RicePlantGrowing",
+    "icon_asset_name": "GeneratedIcons/Other/RicePlant",
+    "max_health": 1,
+    "visible_to_others": false
+  },
+  {
+    "id": 2067132983,
+    "name": "Fine Sick Tropical Rice Seedling",
+    "tag": "Rice Farming",
+    "tier": 4,
+    "description": "A sick rice seedling which will wither without treatment.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/RicePlantSprout",
+    "icon_asset_name": "GeneratedIcons/Other/RicePlant",
+    "max_health": 4,
+    "visible_to_others": false
+  },
+  {
     "id": 2070011221,
     "name": "Baited Hermit Crab Trap",
     "tag": "Traps",
@@ -564,8 +1314,8 @@
       1,
       {}
     ],
-    "model_asset_name": "Placeables/AnimalTrapSet",
-    "icon_asset_name": "GeneratedIcons/Other/Buildings/Crafting/SagiBirdTrap",
+    "model_asset_name": "Placeables/CrabTrapBaited",
+    "icon_asset_name": "GeneratedIcons/Items/HermitCrabTrap",
     "max_health": 1,
     "visible_to_others": false
   },
@@ -580,7 +1330,22 @@
       {}
     ],
     "model_asset_name": "Placeables/UnchartedDryBoots",
-    "icon_asset_name": "GeneratedIcons/Other/UnchartedDryBoots",
+    "icon_asset_name": "GeneratedIcons/Items/DryBoot",
+    "max_health": 1,
+    "visible_to_others": false
+  },
+  {
+    "id": 2120990739,
+    "name": "Exquisite Tropical Rice Plant",
+    "tag": "Rice Farming",
+    "tier": 5,
+    "description": "A fully grown rice plant ready to be harvested.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/RicePlantMature",
+    "icon_asset_name": "GeneratedIcons/Other/RicePlant",
     "max_health": 1,
     "visible_to_others": false
   },
