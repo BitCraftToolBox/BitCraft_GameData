@@ -46691,6 +46691,66 @@
     "show_in_progression": false
   },
   {
+    "id": 58355469,
+    "name": "Forge {0}",
+    "time_requirement": 1.6,
+    "stamina_requirement": 1.03,
+    "tool_durability_lost": 0,
+    "building_requirement": {
+      "building_type": 25,
+      "tier": 3
+    },
+    "level_requirements": [
+      {
+        "skill_id": 6,
+        "level": 30
+      }
+    ],
+    "tool_requirements": [
+      {
+        "tool_type": 5,
+        "level": 3,
+        "power": 1
+      }
+    ],
+    "consumed_item_stacks": [
+      {
+        "item_id": 334095475,
+        "quantity": 1,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "discovery_triggers": [],
+    "required_claim_tech_id": 0,
+    "full_discovery_score": 1,
+    "experience_per_progress": [
+      {
+        "skill_id": 6,
+        "quantity": 1.92
+      }
+    ],
+    "crafted_item_stacks": [
+      {
+        "item_id": 3050001,
+        "quantity": 1,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "actions_required": 170,
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 18,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "hide_without_required_knowledge": false,
+    "hide_with_blocking_knowledges": false,
+    "allow_use_hands": false,
+    "is_passive": false,
+    "show_in_progression": false
+  },
+  {
     "id": 58764982,
     "name": "Craft {0}",
     "time_requirement": 1.6,
@@ -51876,6 +51936,66 @@
     "actions_required": 440,
     "tool_mesh_index": 0,
     "recipe_performance_id": 18,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "hide_without_required_knowledge": false,
+    "hide_with_blocking_knowledges": false,
+    "allow_use_hands": false,
+    "is_passive": false,
+    "show_in_progression": false
+  },
+  {
+    "id": 82156637,
+    "name": "Chop {0}",
+    "time_requirement": 1.6,
+    "stamina_requirement": 0.89,
+    "tool_durability_lost": 0,
+    "building_requirement": {
+      "building_type": 13,
+      "tier": 1
+    },
+    "level_requirements": [
+      {
+        "skill_id": 13,
+        "level": 20
+      }
+    ],
+    "tool_requirements": [
+      {
+        "tool_type": 11,
+        "level": 1,
+        "power": 1
+      }
+    ],
+    "consumed_item_stacks": [
+      {
+        "item_id": 2080002,
+        "quantity": 1,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "discovery_triggers": [],
+    "required_claim_tech_id": 0,
+    "full_discovery_score": 1,
+    "experience_per_progress": [
+      {
+        "skill_id": 13,
+        "quantity": 1.76
+      }
+    ],
+    "crafted_item_stacks": [
+      {
+        "item_id": 1686751445,
+        "quantity": 6,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "actions_required": 50,
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 651,
     "required_knowledges": [],
     "blocking_knowledges": [],
     "hide_without_required_knowledge": false,
@@ -58859,6 +58979,55 @@
     "hide_with_blocking_knowledges": false,
     "allow_use_hands": false,
     "is_passive": false,
+    "show_in_progression": false
+  },
+  {
+    "id": 113397106,
+    "name": "Macerate {0}",
+    "time_requirement": 300.0,
+    "stamina_requirement": 0.0,
+    "tool_durability_lost": 0,
+    "building_requirement": {
+      "building_type": 200031066,
+      "tier": 1
+    },
+    "level_requirements": [
+      {
+        "skill_id": 13,
+        "level": 1
+      }
+    ],
+    "tool_requirements": [],
+    "consumed_item_stacks": [
+      {
+        "item_id": 1608154701,
+        "quantity": 5,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "discovery_triggers": [],
+    "required_claim_tech_id": 0,
+    "full_discovery_score": 1,
+    "experience_per_progress": [],
+    "crafted_item_stacks": [
+      {
+        "item_id": 1893904106,
+        "quantity": 50,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "actions_required": 1,
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 0,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "hide_without_required_knowledge": false,
+    "hide_with_blocking_knowledges": false,
+    "allow_use_hands": true,
+    "is_passive": true,
     "show_in_progression": false
   },
   {
@@ -70518,6 +70687,66 @@
     "actions_required": 1255,
     "tool_mesh_index": 0,
     "recipe_performance_id": 18,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "hide_without_required_knowledge": false,
+    "hide_with_blocking_knowledges": false,
+    "allow_use_hands": false,
+    "is_passive": false,
+    "show_in_progression": false
+  },
+  {
+    "id": 172086293,
+    "name": "Chop {0}",
+    "time_requirement": 1.6,
+    "stamina_requirement": 1.52,
+    "tool_durability_lost": 0,
+    "building_requirement": {
+      "building_type": 13,
+      "tier": 1
+    },
+    "level_requirements": [
+      {
+        "skill_id": 13,
+        "level": 70
+      }
+    ],
+    "tool_requirements": [
+      {
+        "tool_type": 11,
+        "level": 1,
+        "power": 1
+      }
+    ],
+    "consumed_item_stacks": [
+      {
+        "item_id": 671494642,
+        "quantity": 1,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "discovery_triggers": [],
+    "required_claim_tech_id": 0,
+    "full_discovery_score": 1,
+    "experience_per_progress": [
+      {
+        "skill_id": 13,
+        "quantity": 2.56
+      }
+    ],
+    "crafted_item_stacks": [
+      {
+        "item_id": 1686751445,
+        "quantity": 25,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "actions_required": 50,
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 651,
     "required_knowledges": [],
     "blocking_knowledges": [],
     "hide_without_required_knowledge": false,
@@ -95716,6 +95945,55 @@
     "show_in_progression": false
   },
   {
+    "id": 279276341,
+    "name": "Macerate {0}",
+    "time_requirement": 300.0,
+    "stamina_requirement": 0.0,
+    "tool_durability_lost": 0,
+    "building_requirement": {
+      "building_type": 200031066,
+      "tier": 1
+    },
+    "level_requirements": [
+      {
+        "skill_id": 13,
+        "level": 1
+      }
+    ],
+    "tool_requirements": [],
+    "consumed_item_stacks": [
+      {
+        "item_id": 2130004,
+        "quantity": 5,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "discovery_triggers": [],
+    "required_claim_tech_id": 0,
+    "full_discovery_score": 1,
+    "experience_per_progress": [],
+    "crafted_item_stacks": [
+      {
+        "item_id": 1893904106,
+        "quantity": 6,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "actions_required": 1,
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 0,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "hide_without_required_knowledge": false,
+    "hide_with_blocking_knowledges": false,
+    "allow_use_hands": true,
+    "is_passive": true,
+    "show_in_progression": false
+  },
+  {
     "id": 280043834,
     "name": "Scrap {1}",
     "time_requirement": 1.6,
@@ -95981,6 +96259,55 @@
     "hide_with_blocking_knowledges": false,
     "allow_use_hands": false,
     "is_passive": false,
+    "show_in_progression": false
+  },
+  {
+    "id": 281428621,
+    "name": "Macerate {0}",
+    "time_requirement": 300.0,
+    "stamina_requirement": 0.0,
+    "tool_durability_lost": 0,
+    "building_requirement": {
+      "building_type": 200031066,
+      "tier": 1
+    },
+    "level_requirements": [
+      {
+        "skill_id": 13,
+        "level": 1
+      }
+    ],
+    "tool_requirements": [],
+    "consumed_item_stacks": [
+      {
+        "item_id": 4130004,
+        "quantity": 5,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "discovery_triggers": [],
+    "required_claim_tech_id": 0,
+    "full_discovery_score": 1,
+    "experience_per_progress": [],
+    "crafted_item_stacks": [
+      {
+        "item_id": 1893904106,
+        "quantity": 10,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "actions_required": 1,
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 0,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "hide_without_required_knowledge": false,
+    "hide_with_blocking_knowledges": false,
+    "allow_use_hands": true,
+    "is_passive": true,
     "show_in_progression": false
   },
   {
@@ -112663,6 +112990,80 @@
     "show_in_progression": false
   },
   {
+    "id": 362756557,
+    "name": "Cook {0}",
+    "time_requirement": 1.6,
+    "stamina_requirement": 1.16,
+    "tool_durability_lost": 0,
+    "building_requirement": {
+      "building_type": 13,
+      "tier": 1
+    },
+    "level_requirements": [
+      {
+        "skill_id": 13,
+        "level": 40
+      }
+    ],
+    "tool_requirements": [
+      {
+        "tool_type": 11,
+        "level": 1,
+        "power": 1
+      }
+    ],
+    "consumed_item_stacks": [
+      {
+        "item_id": 1100020,
+        "quantity": 50,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      },
+      {
+        "item_id": 176021769,
+        "quantity": 1,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      },
+      {
+        "item_id": 1110015,
+        "quantity": 1,
+        "item_type": "Item",
+        "discovery_score": 0,
+        "consumption_chance": 1.0
+      }
+    ],
+    "discovery_triggers": [],
+    "required_claim_tech_id": 0,
+    "full_discovery_score": 1,
+    "experience_per_progress": [
+      {
+        "skill_id": 13,
+        "quantity": 2.08
+      }
+    ],
+    "crafted_item_stacks": [
+      {
+        "item_id": 496454053,
+        "quantity": 1,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "actions_required": 100,
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 651,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "hide_without_required_knowledge": false,
+    "hide_with_blocking_knowledges": false,
+    "allow_use_hands": false,
+    "is_passive": false,
+    "show_in_progression": false
+  },
+  {
     "id": 363051459,
     "name": "Recraft {1}",
     "time_requirement": 1.6,
@@ -112795,6 +113196,55 @@
     "hide_with_blocking_knowledges": false,
     "allow_use_hands": false,
     "is_passive": false,
+    "show_in_progression": false
+  },
+  {
+    "id": 363397422,
+    "name": "Macerate {0}",
+    "time_requirement": 300.0,
+    "stamina_requirement": 0.0,
+    "tool_durability_lost": 0,
+    "building_requirement": {
+      "building_type": 200031066,
+      "tier": 1
+    },
+    "level_requirements": [
+      {
+        "skill_id": 13,
+        "level": 1
+      }
+    ],
+    "tool_requirements": [],
+    "consumed_item_stacks": [
+      {
+        "item_id": 1130004,
+        "quantity": 5,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "discovery_triggers": [],
+    "required_claim_tech_id": 0,
+    "full_discovery_score": 1,
+    "experience_per_progress": [],
+    "crafted_item_stacks": [
+      {
+        "item_id": 1893904106,
+        "quantity": 5,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "actions_required": 1,
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 0,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "hide_without_required_knowledge": false,
+    "hide_with_blocking_knowledges": false,
+    "allow_use_hands": true,
+    "is_passive": true,
     "show_in_progression": false
   },
   {
@@ -128567,6 +129017,66 @@
     "show_in_progression": false
   },
   {
+    "id": 435863221,
+    "name": "Chop {0}",
+    "time_requirement": 1.6,
+    "stamina_requirement": 1.75,
+    "tool_durability_lost": 0,
+    "building_requirement": {
+      "building_type": 13,
+      "tier": 1
+    },
+    "level_requirements": [
+      {
+        "skill_id": 13,
+        "level": 90
+      }
+    ],
+    "tool_requirements": [
+      {
+        "tool_type": 11,
+        "level": 1,
+        "power": 1
+      }
+    ],
+    "consumed_item_stacks": [
+      {
+        "item_id": 1623412821,
+        "quantity": 1,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "discovery_triggers": [],
+    "required_claim_tech_id": 0,
+    "full_discovery_score": 1,
+    "experience_per_progress": [
+      {
+        "skill_id": 13,
+        "quantity": 2.88
+      }
+    ],
+    "crafted_item_stacks": [
+      {
+        "item_id": 1686751445,
+        "quantity": 40,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "actions_required": 50,
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 651,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "hide_without_required_knowledge": false,
+    "hide_with_blocking_knowledges": false,
+    "allow_use_hands": false,
+    "is_passive": false,
+    "show_in_progression": false
+  },
+  {
     "id": 436232700,
     "name": "Craft {0}",
     "time_requirement": 1.6,
@@ -132953,6 +133463,66 @@
     "actions_required": 1,
     "tool_mesh_index": 0,
     "recipe_performance_id": 1,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "hide_without_required_knowledge": false,
+    "hide_with_blocking_knowledges": false,
+    "allow_use_hands": false,
+    "is_passive": false,
+    "show_in_progression": false
+  },
+  {
+    "id": 453873311,
+    "name": "Chop {0}",
+    "time_requirement": 1.6,
+    "stamina_requirement": 1.28,
+    "tool_durability_lost": 0,
+    "building_requirement": {
+      "building_type": 13,
+      "tier": 1
+    },
+    "level_requirements": [
+      {
+        "skill_id": 13,
+        "level": 50
+      }
+    ],
+    "tool_requirements": [
+      {
+        "tool_type": 11,
+        "level": 1,
+        "power": 1
+      }
+    ],
+    "consumed_item_stacks": [
+      {
+        "item_id": 5080002,
+        "quantity": 1,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "discovery_triggers": [],
+    "required_claim_tech_id": 0,
+    "full_discovery_score": 1,
+    "experience_per_progress": [
+      {
+        "skill_id": 13,
+        "quantity": 2.24
+      }
+    ],
+    "crafted_item_stacks": [
+      {
+        "item_id": 1686751445,
+        "quantity": 15,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "actions_required": 50,
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 651,
     "required_knowledges": [],
     "blocking_knowledges": [],
     "hide_without_required_knowledge": false,
@@ -149522,6 +150092,66 @@
     "actions_required": 10,
     "tool_mesh_index": 0,
     "recipe_performance_id": 1,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "hide_without_required_knowledge": false,
+    "hide_with_blocking_knowledges": false,
+    "allow_use_hands": false,
+    "is_passive": false,
+    "show_in_progression": false
+  },
+  {
+    "id": 527023051,
+    "name": "Chop {0}",
+    "time_requirement": 1.6,
+    "stamina_requirement": 1.64,
+    "tool_durability_lost": 0,
+    "building_requirement": {
+      "building_type": 13,
+      "tier": 1
+    },
+    "level_requirements": [
+      {
+        "skill_id": 13,
+        "level": 80
+      }
+    ],
+    "tool_requirements": [
+      {
+        "tool_type": 11,
+        "level": 1,
+        "power": 1
+      }
+    ],
+    "consumed_item_stacks": [
+      {
+        "item_id": 1197392727,
+        "quantity": 1,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "discovery_triggers": [],
+    "required_claim_tech_id": 0,
+    "full_discovery_score": 1,
+    "experience_per_progress": [
+      {
+        "skill_id": 13,
+        "quantity": 2.72
+      }
+    ],
+    "crafted_item_stacks": [
+      {
+        "item_id": 1686751445,
+        "quantity": 30,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "actions_required": 50,
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 651,
     "required_knowledges": [],
     "blocking_knowledges": [],
     "hide_without_required_knowledge": false,
@@ -183549,6 +184179,66 @@
     "show_in_progression": false
   },
   {
+    "id": 689592001,
+    "name": "Chop {0}",
+    "time_requirement": 1.6,
+    "stamina_requirement": 1.03,
+    "tool_durability_lost": 0,
+    "building_requirement": {
+      "building_type": 13,
+      "tier": 1
+    },
+    "level_requirements": [
+      {
+        "skill_id": 13,
+        "level": 30
+      }
+    ],
+    "tool_requirements": [
+      {
+        "tool_type": 11,
+        "level": 1,
+        "power": 1
+      }
+    ],
+    "consumed_item_stacks": [
+      {
+        "item_id": 3080002,
+        "quantity": 1,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "discovery_triggers": [],
+    "required_claim_tech_id": 0,
+    "full_discovery_score": 1,
+    "experience_per_progress": [
+      {
+        "skill_id": 13,
+        "quantity": 1.92
+      }
+    ],
+    "crafted_item_stacks": [
+      {
+        "item_id": 1686751445,
+        "quantity": 8,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "actions_required": 50,
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 651,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "hide_without_required_knowledge": false,
+    "hide_with_blocking_knowledges": false,
+    "allow_use_hands": false,
+    "is_passive": false,
+    "show_in_progression": false
+  },
+  {
     "id": 689630708,
     "name": "Recraft {1}",
     "time_requirement": 1.6,
@@ -193386,6 +194076,55 @@
     "show_in_progression": false
   },
   {
+    "id": 736007647,
+    "name": "Macerate {0}",
+    "time_requirement": 300.0,
+    "stamina_requirement": 0.0,
+    "tool_durability_lost": 0,
+    "building_requirement": {
+      "building_type": 200031066,
+      "tier": 1
+    },
+    "level_requirements": [
+      {
+        "skill_id": 13,
+        "level": 1
+      }
+    ],
+    "tool_requirements": [],
+    "consumed_item_stacks": [
+      {
+        "item_id": 5130004,
+        "quantity": 5,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "discovery_triggers": [],
+    "required_claim_tech_id": 0,
+    "full_discovery_score": 1,
+    "experience_per_progress": [],
+    "crafted_item_stacks": [
+      {
+        "item_id": 1893904106,
+        "quantity": 15,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "actions_required": 1,
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 0,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "hide_without_required_knowledge": false,
+    "hide_with_blocking_knowledges": false,
+    "allow_use_hands": true,
+    "is_passive": true,
+    "show_in_progression": false
+  },
+  {
     "id": 736425864,
     "name": "Recraft {1}",
     "time_requirement": 1.6,
@@ -202667,6 +203406,55 @@
     "show_in_progression": false
   },
   {
+    "id": 784231810,
+    "name": "Macerate {0}",
+    "time_requirement": 300.0,
+    "stamina_requirement": 0.0,
+    "tool_durability_lost": 0,
+    "building_requirement": {
+      "building_type": 200031066,
+      "tier": 1
+    },
+    "level_requirements": [
+      {
+        "skill_id": 13,
+        "level": 1
+      }
+    ],
+    "tool_requirements": [],
+    "consumed_item_stacks": [
+      {
+        "item_id": 1695618883,
+        "quantity": 5,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "discovery_triggers": [],
+    "required_claim_tech_id": 0,
+    "full_discovery_score": 1,
+    "experience_per_progress": [],
+    "crafted_item_stacks": [
+      {
+        "item_id": 1893904106,
+        "quantity": 25,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "actions_required": 1,
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 0,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "hide_without_required_knowledge": false,
+    "hide_with_blocking_knowledges": false,
+    "allow_use_hands": true,
+    "is_passive": true,
+    "show_in_progression": false
+  },
+  {
     "id": 784304323,
     "name": "Unpack {1}",
     "time_requirement": 1.6,
@@ -207147,6 +207935,80 @@
     "actions_required": 10,
     "tool_mesh_index": 0,
     "recipe_performance_id": 1,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "hide_without_required_knowledge": false,
+    "hide_with_blocking_knowledges": false,
+    "allow_use_hands": false,
+    "is_passive": false,
+    "show_in_progression": false
+  },
+  {
+    "id": 806612399,
+    "name": "Cook {0}",
+    "time_requirement": 1.6,
+    "stamina_requirement": 0.75,
+    "tool_durability_lost": 0,
+    "building_requirement": {
+      "building_type": 13,
+      "tier": 1
+    },
+    "level_requirements": [
+      {
+        "skill_id": 13,
+        "level": 15
+      }
+    ],
+    "tool_requirements": [
+      {
+        "tool_type": 11,
+        "level": 1,
+        "power": 1
+      }
+    ],
+    "consumed_item_stacks": [
+      {
+        "item_id": 1100020,
+        "quantity": 50,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      },
+      {
+        "item_id": 820437272,
+        "quantity": 1,
+        "item_type": "Item",
+        "discovery_score": 0,
+        "consumption_chance": 1.0
+      },
+      {
+        "item_id": 1686751445,
+        "quantity": 5,
+        "item_type": "Item",
+        "discovery_score": 0,
+        "consumption_chance": 1.0
+      }
+    ],
+    "discovery_triggers": [],
+    "required_claim_tech_id": 0,
+    "full_discovery_score": 1,
+    "experience_per_progress": [
+      {
+        "skill_id": 13,
+        "quantity": 2.08
+      }
+    ],
+    "crafted_item_stacks": [
+      {
+        "item_id": 1111346048,
+        "quantity": 1,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "actions_required": 40,
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 651,
     "required_knowledges": [],
     "blocking_knowledges": [],
     "hide_without_required_knowledge": false,
@@ -238182,6 +239044,55 @@
     "show_in_progression": false
   },
   {
+    "id": 955705270,
+    "name": "Macerate {0}",
+    "time_requirement": 300.0,
+    "stamina_requirement": 0.0,
+    "tool_durability_lost": 0,
+    "building_requirement": {
+      "building_type": 200031066,
+      "tier": 1
+    },
+    "level_requirements": [
+      {
+        "skill_id": 13,
+        "level": 1
+      }
+    ],
+    "tool_requirements": [],
+    "consumed_item_stacks": [
+      {
+        "item_id": 1971526319,
+        "quantity": 5,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "discovery_triggers": [],
+    "required_claim_tech_id": 0,
+    "full_discovery_score": 1,
+    "experience_per_progress": [],
+    "crafted_item_stacks": [
+      {
+        "item_id": 1893904106,
+        "quantity": 30,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "actions_required": 1,
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 0,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "hide_without_required_knowledge": false,
+    "hide_with_blocking_knowledges": false,
+    "allow_use_hands": true,
+    "is_passive": true,
+    "show_in_progression": false
+  },
+  {
     "id": 955771653,
     "name": "Unpack {1}",
     "time_requirement": 1.6,
@@ -241156,6 +242067,66 @@
     "actions_required": 1255,
     "tool_mesh_index": 0,
     "recipe_performance_id": 453,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "hide_without_required_knowledge": false,
+    "hide_with_blocking_knowledges": false,
+    "allow_use_hands": false,
+    "is_passive": false,
+    "show_in_progression": false
+  },
+  {
+    "id": 967415242,
+    "name": "Chop {0}",
+    "time_requirement": 1.6,
+    "stamina_requirement": 1.41,
+    "tool_durability_lost": 0,
+    "building_requirement": {
+      "building_type": 13,
+      "tier": 1
+    },
+    "level_requirements": [
+      {
+        "skill_id": 13,
+        "level": 60
+      }
+    ],
+    "tool_requirements": [
+      {
+        "tool_type": 11,
+        "level": 1,
+        "power": 1
+      }
+    ],
+    "consumed_item_stacks": [
+      {
+        "item_id": 6080002,
+        "quantity": 1,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "discovery_triggers": [],
+    "required_claim_tech_id": 0,
+    "full_discovery_score": 1,
+    "experience_per_progress": [
+      {
+        "skill_id": 13,
+        "quantity": 2.4
+      }
+    ],
+    "crafted_item_stacks": [
+      {
+        "item_id": 1686751445,
+        "quantity": 20,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "actions_required": 50,
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 651,
     "required_knowledges": [],
     "blocking_knowledges": [],
     "hide_without_required_knowledge": false,
@@ -280082,6 +281053,68 @@
     "show_in_progression": false
   },
   {
+    "id": 1154768960,
+    "name": "Make {0}",
+    "time_requirement": 1.6,
+    "stamina_requirement": 1.16,
+    "tool_durability_lost": 0,
+    "building_requirement": {
+      "building_type": 33,
+      "tier": 4
+    },
+    "level_requirements": [
+      {
+        "skill_id": 11,
+        "level": 40
+      }
+    ],
+    "tool_requirements": [
+      {
+        "tool_type": 9,
+        "level": 4,
+        "power": 1
+      }
+    ],
+    "consumed_item_stacks": [
+      {
+        "item_id": 176021769,
+        "quantity": 3,
+        "item_type": "Item",
+        "discovery_score": 0,
+        "consumption_chance": 1.0
+      }
+    ],
+    "discovery_triggers": [
+      754137264
+    ],
+    "required_claim_tech_id": 0,
+    "full_discovery_score": 1,
+    "experience_per_progress": [
+      {
+        "skill_id": 11,
+        "quantity": 2.08
+      }
+    ],
+    "crafted_item_stacks": [
+      {
+        "item_id": 4100001,
+        "quantity": 1,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "actions_required": 55,
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 882,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "hide_without_required_knowledge": false,
+    "hide_with_blocking_knowledges": false,
+    "allow_use_hands": false,
+    "is_passive": false,
+    "show_in_progression": false
+  },
+  {
     "id": 1155792750,
     "name": "Scrap {1}",
     "time_requirement": 1.6,
@@ -282520,6 +283553,66 @@
     "actions_required": 10,
     "tool_mesh_index": 0,
     "recipe_performance_id": 1,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "hide_without_required_knowledge": false,
+    "hide_with_blocking_knowledges": false,
+    "allow_use_hands": false,
+    "is_passive": false,
+    "show_in_progression": false
+  },
+  {
+    "id": 1165967638,
+    "name": "Salvage {0}",
+    "time_requirement": 1.6,
+    "stamina_requirement": 1.03,
+    "tool_durability_lost": 0,
+    "building_requirement": {
+      "building_type": 20,
+      "tier": 3
+    },
+    "level_requirements": [
+      {
+        "skill_id": 3,
+        "level": 30
+      }
+    ],
+    "tool_requirements": [
+      {
+        "tool_type": 2,
+        "level": 3,
+        "power": 1
+      }
+    ],
+    "consumed_item_stacks": [
+      {
+        "item_id": 515373071,
+        "quantity": 1,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "discovery_triggers": [],
+    "required_claim_tech_id": 0,
+    "full_discovery_score": 1,
+    "experience_per_progress": [
+      {
+        "skill_id": 3,
+        "quantity": 1.92
+      }
+    ],
+    "crafted_item_stacks": [
+      {
+        "item_id": 3020003,
+        "quantity": 20,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "actions_required": 70,
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 157,
     "required_knowledges": [],
     "blocking_knowledges": [],
     "hide_without_required_knowledge": false,
@@ -320362,6 +321455,66 @@
     "show_in_progression": false
   },
   {
+    "id": 1336700464,
+    "name": "Chop {0}",
+    "time_requirement": 1.6,
+    "stamina_requirement": 0.75,
+    "tool_durability_lost": 0,
+    "building_requirement": {
+      "building_type": 13,
+      "tier": 1
+    },
+    "level_requirements": [
+      {
+        "skill_id": 13,
+        "level": 1
+      }
+    ],
+    "tool_requirements": [
+      {
+        "tool_type": 11,
+        "level": 1,
+        "power": 1
+      }
+    ],
+    "consumed_item_stacks": [
+      {
+        "item_id": 1080002,
+        "quantity": 1,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "discovery_triggers": [],
+    "required_claim_tech_id": 0,
+    "full_discovery_score": 1,
+    "experience_per_progress": [
+      {
+        "skill_id": 13,
+        "quantity": 1.6
+      }
+    ],
+    "crafted_item_stacks": [
+      {
+        "item_id": 1686751445,
+        "quantity": 5,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "actions_required": 50,
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 651,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "hide_without_required_knowledge": false,
+    "hide_with_blocking_knowledges": false,
+    "allow_use_hands": false,
+    "is_passive": false,
+    "show_in_progression": false
+  },
+  {
     "id": 1337587940,
     "name": "Craft {0}",
     "time_requirement": 1.6,
@@ -346286,6 +347439,55 @@
     "hide_with_blocking_knowledges": false,
     "allow_use_hands": false,
     "is_passive": false,
+    "show_in_progression": false
+  },
+  {
+    "id": 1453765373,
+    "name": "Macerate {0}",
+    "time_requirement": 300.0,
+    "stamina_requirement": 0.0,
+    "tool_durability_lost": 0,
+    "building_requirement": {
+      "building_type": 200031066,
+      "tier": 1
+    },
+    "level_requirements": [
+      {
+        "skill_id": 13,
+        "level": 1
+      }
+    ],
+    "tool_requirements": [],
+    "consumed_item_stacks": [
+      {
+        "item_id": 1608154701,
+        "quantity": 5,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "discovery_triggers": [],
+    "required_claim_tech_id": 0,
+    "full_discovery_score": 1,
+    "experience_per_progress": [],
+    "crafted_item_stacks": [
+      {
+        "item_id": 1893904106,
+        "quantity": 40,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "actions_required": 1,
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 0,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "hide_without_required_knowledge": false,
+    "hide_with_blocking_knowledges": false,
+    "allow_use_hands": true,
+    "is_passive": true,
     "show_in_progression": false
   },
   {
@@ -390952,7 +392154,7 @@
     "crafted_item_stacks": [
       {
         "item_id": 1686751445,
-        "quantity": 8,
+        "quantity": 10,
         "item_type": "Item",
         "durability": 0
       }
@@ -428372,6 +429574,55 @@
     "show_in_progression": false
   },
   {
+    "id": 1834281092,
+    "name": "Macerate {0}",
+    "time_requirement": 300.0,
+    "stamina_requirement": 0.0,
+    "tool_durability_lost": 0,
+    "building_requirement": {
+      "building_type": 200031066,
+      "tier": 1
+    },
+    "level_requirements": [
+      {
+        "skill_id": 13,
+        "level": 1
+      }
+    ],
+    "tool_requirements": [],
+    "consumed_item_stacks": [
+      {
+        "item_id": 3130004,
+        "quantity": 5,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "discovery_triggers": [],
+    "required_claim_tech_id": 0,
+    "full_discovery_score": 1,
+    "experience_per_progress": [],
+    "crafted_item_stacks": [
+      {
+        "item_id": 1893904106,
+        "quantity": 8,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "actions_required": 1,
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 0,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "hide_without_required_knowledge": false,
+    "hide_with_blocking_knowledges": false,
+    "allow_use_hands": true,
+    "is_passive": true,
+    "show_in_progression": false
+  },
+  {
     "id": 1835176741,
     "name": "Scrap {1}",
     "time_requirement": 1.6,
@@ -434409,6 +435660,66 @@
     "actions_required": 10,
     "tool_mesh_index": 0,
     "recipe_performance_id": 1,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "hide_without_required_knowledge": false,
+    "hide_with_blocking_knowledges": false,
+    "allow_use_hands": false,
+    "is_passive": false,
+    "show_in_progression": false
+  },
+  {
+    "id": 1862655468,
+    "name": "Chop {0}",
+    "time_requirement": 1.6,
+    "stamina_requirement": 1.86,
+    "tool_durability_lost": 0,
+    "building_requirement": {
+      "building_type": 13,
+      "tier": 1
+    },
+    "level_requirements": [
+      {
+        "skill_id": 13,
+        "level": 100
+      }
+    ],
+    "tool_requirements": [
+      {
+        "tool_type": 11,
+        "level": 1,
+        "power": 1
+      }
+    ],
+    "consumed_item_stacks": [
+      {
+        "item_id": 580465059,
+        "quantity": 1,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "discovery_triggers": [],
+    "required_claim_tech_id": 0,
+    "full_discovery_score": 1,
+    "experience_per_progress": [
+      {
+        "skill_id": 13,
+        "quantity": 3.04
+      }
+    ],
+    "crafted_item_stacks": [
+      {
+        "item_id": 1686751445,
+        "quantity": 50,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "actions_required": 50,
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 651,
     "required_knowledges": [],
     "blocking_knowledges": [],
     "hide_without_required_knowledge": false,
@@ -471129,6 +472440,55 @@
     "show_in_progression": false
   },
   {
+    "id": 2025392846,
+    "name": "Macerate {0}",
+    "time_requirement": 300.0,
+    "stamina_requirement": 0.0,
+    "tool_durability_lost": 0,
+    "building_requirement": {
+      "building_type": 200031066,
+      "tier": 1
+    },
+    "level_requirements": [
+      {
+        "skill_id": 13,
+        "level": 1
+      }
+    ],
+    "tool_requirements": [],
+    "consumed_item_stacks": [
+      {
+        "item_id": 6130004,
+        "quantity": 5,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "discovery_triggers": [],
+    "required_claim_tech_id": 0,
+    "full_discovery_score": 1,
+    "experience_per_progress": [],
+    "crafted_item_stacks": [
+      {
+        "item_id": 1893904106,
+        "quantity": 20,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "actions_required": 1,
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 0,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "hide_without_required_knowledge": false,
+    "hide_with_blocking_knowledges": false,
+    "allow_use_hands": true,
+    "is_passive": true,
+    "show_in_progression": false
+  },
+  {
     "id": 2025421180,
     "name": "Scrap {1}",
     "time_requirement": 1.6,
@@ -484759,6 +486119,80 @@
     "actions_required": 10,
     "tool_mesh_index": 0,
     "recipe_performance_id": 1,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "hide_without_required_knowledge": false,
+    "hide_with_blocking_knowledges": false,
+    "allow_use_hands": false,
+    "is_passive": false,
+    "show_in_progression": false
+  },
+  {
+    "id": 2091098328,
+    "name": "Cook {0}",
+    "time_requirement": 1.6,
+    "stamina_requirement": 0.75,
+    "tool_durability_lost": 0,
+    "building_requirement": {
+      "building_type": 13,
+      "tier": 1
+    },
+    "level_requirements": [
+      {
+        "skill_id": 13,
+        "level": 15
+      }
+    ],
+    "tool_requirements": [
+      {
+        "tool_type": 11,
+        "level": 1,
+        "power": 1
+      }
+    ],
+    "consumed_item_stacks": [
+      {
+        "item_id": 1100020,
+        "quantity": 50,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      },
+      {
+        "item_id": 202143430,
+        "quantity": 1,
+        "item_type": "Item",
+        "discovery_score": 0,
+        "consumption_chance": 1.0
+      },
+      {
+        "item_id": 1686751445,
+        "quantity": 5,
+        "item_type": "Item",
+        "discovery_score": 0,
+        "consumption_chance": 1.0
+      }
+    ],
+    "discovery_triggers": [],
+    "required_claim_tech_id": 0,
+    "full_discovery_score": 1,
+    "experience_per_progress": [
+      {
+        "skill_id": 13,
+        "quantity": 1.6
+      }
+    ],
+    "crafted_item_stacks": [
+      {
+        "item_id": 142467609,
+        "quantity": 1,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "actions_required": 40,
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 651,
     "required_knowledges": [],
     "blocking_knowledges": [],
     "hide_without_required_knowledge": false,

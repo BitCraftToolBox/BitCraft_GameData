@@ -1,5 +1,34 @@
 [
   {
+    "id": 473369430,
+    "name": "Volcanic Rock",
+    "consumed_item_stacks": [
+      {
+        "item_id": 787103248,
+        "quantity": 10,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "input_cargo_id": 0,
+    "input_cargo_discovery_score": 0,
+    "experience_per_progress": [
+      {
+        "skill_id": 15,
+        "quantity": 1.125
+      }
+    ],
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "full_discovery_score": 1,
+    "duration": 3.0,
+    "prefab_address": "HexTileTemplates/stackBasaltVolcanic",
+    "tier": 1,
+    "icon_address": "GeneratedIcons/Items/VolcanicRock",
+    "description": "Alter the terrain to be made from volcanic rock."
+  },
+  {
     "id": 933712505,
     "name": "Framed Dirt Pillar",
     "consumed_item_stacks": [
@@ -34,6 +63,35 @@
     "tier": 1,
     "icon_address": "Pillars/Scaffolding",
     "description": "Alter the terrain to be a pillar of dirt framed with wood."
+  },
+  {
+    "id": 963475649,
+    "name": "Beach Sand",
+    "consumed_item_stacks": [
+      {
+        "item_id": 1854175100,
+        "quantity": 20,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "input_cargo_id": 0,
+    "input_cargo_discovery_score": 0,
+    "experience_per_progress": [
+      {
+        "skill_id": 15,
+        "quantity": 1.125
+      }
+    ],
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "full_discovery_score": 1,
+    "duration": 3.0,
+    "prefab_address": "HexTileTemplates/stackDesertRocksBeach",
+    "tier": 1,
+    "icon_address": "GeneratedIcons/Items/Sand",
+    "description": "Alter the terrain to be made from sand."
   },
   {
     "id": 1126273886,

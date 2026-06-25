@@ -168,6 +168,20 @@
     "is_enabled": true
   },
   {
+    "id": 111303174,
+    "name": "Hooded Cape",
+    "description": "A cosmetic cape for your character.",
+    "image_address": "PremiumIcons/HoodedCape",
+    "collectible_ids": [
+      318302737
+    ],
+    "price": 3000,
+    "base_price": 3000,
+    "quantity": 1,
+    "sorting_priority": 4,
+    "is_enabled": true
+  },
+  {
     "id": 113458506,
     "name": "Regal Fabric",
     "description": "A special piece of cloth which could be used to make empire banners to show off your empire's colors. Once purchased, this will go into your vault where it can be withdrawn to build the banners. Banners require either 1 or 2 cloth depending on the banner and you can check the recipes for these in the compendium.",
@@ -363,8 +377,22 @@
     "price": 5000,
     "base_price": 5000,
     "quantity": 1,
-    "sorting_priority": 8,
-    "is_enabled": false
+    "sorting_priority": 5,
+    "is_enabled": true
+  },
+  {
+    "id": 306369226,
+    "name": "Awakened Party Bundle",
+    "description": "Includes 10 Party Supplies.",
+    "image_address": "PremiumIcons/PartySupplies",
+    "collectible_ids": [
+      1148542279
+    ],
+    "price": 3000,
+    "base_price": 5000,
+    "quantity": 10,
+    "sorting_priority": 5,
+    "is_enabled": true
   },
   {
     "id": 325243315,
@@ -427,6 +455,43 @@
     "is_enabled": true
   },
   {
+    "id": 333760225,
+    "name": "Awakened Outfit Bundle",
+    "description": "Includes all 4 Awakened outfits.",
+    "image_address": "PremiumIcons/AwakenedOutfitBundle",
+    "collectible_ids": [
+      280034629,
+      2022080722,
+      179443189,
+      1235528145,
+      686593815,
+      325326067,
+      1782807741,
+      893620773,
+      1846376225,
+      932961869,
+      1933576312,
+      1907363265,
+      405271643,
+      390443662,
+      1114119388,
+      2047151718,
+      488738207,
+      903293625,
+      462086705,
+      968282629,
+      1499437404,
+      2090824871,
+      1490115530,
+      832903194
+    ],
+    "price": 12500,
+    "base_price": 20000,
+    "quantity": 1,
+    "sorting_priority": 3,
+    "is_enabled": true
+  },
+  {
     "id": 355878903,
     "name": "Wrangler Sweetheart's Outfit",
     "description": "Contains the full Wrangler Sweetheart's Outfit. Includes a hat, shirt, gloves, pants, boots and belt.",
@@ -472,6 +537,45 @@
     "quantity": 1,
     "sorting_priority": 12,
     "is_enabled": false
+  },
+  {
+    "id": 420140334,
+    "name": "Ribbon Cape",
+    "description": "A cosmetic cape for your character.",
+    "image_address": "PremiumIcons/RibbonCape",
+    "collectible_ids": [
+      857585237
+    ],
+    "price": 3000,
+    "base_price": 3000,
+    "quantity": 1,
+    "sorting_priority": 4,
+    "is_enabled": true
+  },
+  {
+    "id": 424455817,
+    "name": "Wilderness Awakened Pair",
+    "description": "Includes the Seaside Awakened and Forest Awakened outfits.",
+    "image_address": "PremiumIcons/WildernessAwakenedPair",
+    "collectible_ids": [
+      1782807741,
+      893620773,
+      1846376225,
+      932961869,
+      1933576312,
+      1907363265,
+      462086705,
+      968282629,
+      1499437404,
+      2090824871,
+      1490115530,
+      832903194
+    ],
+    "price": 7500,
+    "base_price": 10000,
+    "quantity": 1,
+    "sorting_priority": 4,
+    "is_enabled": true
   },
   {
     "id": 436804458,
@@ -556,6 +660,31 @@
     "is_enabled": true
   },
   {
+    "id": 462473509,
+    "name": "Second Awakened Pair",
+    "description": "Includes the Second Awakened and Forest Awakened outfits.",
+    "image_address": "PremiumIcons/SecondAwakenedOutfitPair",
+    "collectible_ids": [
+      405271643,
+      390443662,
+      1114119388,
+      2047151718,
+      488738207,
+      903293625,
+      462086705,
+      968282629,
+      1499437404,
+      2090824871,
+      1490115530,
+      832903194
+    ],
+    "price": 7500,
+    "base_price": 10000,
+    "quantity": 1,
+    "sorting_priority": 3,
+    "is_enabled": true
+  },
+  {
     "id": 473891541,
     "name": "Complete Soiree Outfit Set",
     "description": "A bundle which contains the Classic Suit, Classic Dress, Dapper Suit and Elegant Dress outfits.",
@@ -586,7 +715,7 @@
     "base_price": 15000,
     "quantity": 1,
     "sorting_priority": 6,
-    "is_enabled": true
+    "is_enabled": false
   },
   {
     "id": 483834783,
@@ -600,6 +729,50 @@
     "base_price": 1000,
     "quantity": 1,
     "sorting_priority": 6,
+    "is_enabled": false
+  },
+  {
+    "id": 500257507,
+    "name": "Seaside Awakened Outfit",
+    "description": "Unlock a set of cosmetic clothing for your character.",
+    "image_address": "PremiumIcons/SeasideAwakenedOutfit",
+    "collectible_ids": [
+      1782807741,
+      893620773,
+      1846376225,
+      932961869,
+      1933576312,
+      1907363265
+    ],
+    "price": 5000,
+    "base_price": 5000,
+    "quantity": 1,
+    "sorting_priority": 4,
+    "is_enabled": true
+  },
+  {
+    "id": 513987117,
+    "name": "First Awakened Pair",
+    "description": "Includes the First Awakened and Seaside Awakened outfits.",
+    "image_address": "PremiumIcons/FirstAwakenedPair",
+    "collectible_ids": [
+      280034629,
+      2022080722,
+      179443189,
+      1235528145,
+      686593815,
+      325326067,
+      1782807741,
+      893620773,
+      1846376225,
+      932961869,
+      1933576312,
+      1907363265
+    ],
+    "price": 7500,
+    "base_price": 10000,
+    "quantity": 1,
+    "sorting_priority": 2,
     "is_enabled": true
   },
   {
@@ -741,7 +914,7 @@
     "price": 12500,
     "base_price": 15000,
     "quantity": 1,
-    "sorting_priority": 4,
+    "sorting_priority": 7,
     "is_enabled": true
   },
   {
@@ -849,7 +1022,7 @@
     "base_price": 10000,
     "quantity": 1,
     "sorting_priority": 7,
-    "is_enabled": true
+    "is_enabled": false
   },
   {
     "id": 656591499,
@@ -894,6 +1067,25 @@
     "quantity": 1,
     "sorting_priority": 9,
     "is_enabled": false
+  },
+  {
+    "id": 687550246,
+    "name": "Second Awakened Outfit",
+    "description": "Unlock a set of cosmetic clothing for your character.",
+    "image_address": "PremiumIcons/SecondAwakenedOutfit",
+    "collectible_ids": [
+      405271643,
+      390443662,
+      1114119388,
+      2047151718,
+      488738207,
+      903293625
+    ],
+    "price": 5000,
+    "base_price": 5000,
+    "quantity": 1,
+    "sorting_priority": 4,
+    "is_enabled": true
   },
   {
     "id": 710814793,
@@ -1159,6 +1351,20 @@
     "is_enabled": false
   },
   {
+    "id": 838702697,
+    "name": "Second Awakened Cape",
+    "description": "A cosmetic awakened cape for your character.",
+    "image_address": "PremiumIcons/SecondAwakenedCape",
+    "collectible_ids": [
+      891015479
+    ],
+    "price": 3000,
+    "base_price": 3000,
+    "quantity": 1,
+    "sorting_priority": 4,
+    "is_enabled": true
+  },
+  {
     "id": 865037543,
     "name": "THIS MUST BE UPDATED TO USE COLLECTIBLE LISTS BEFORE RERELEASE",
     "description": "A bundle of various midwinter cabin furniture that could be used to decorate your house and town. Once this bundle is purchased, you can right click it and click \"Convert to Deed\" to receive it as an item in your inventory. It can then be unpacked into your items!",
@@ -1262,6 +1468,35 @@
     "is_enabled": true
   },
   {
+    "id": 914787047,
+    "name": "Rusty Automata Goat Mount Appearance",
+    "description": "A cosmetic mount appearance for your goat mounts.",
+    "image_address": "PremiumIcons/UnchartedAutomataGoatRusty",
+    "collectible_ids": [
+      1184043808
+    ],
+    "price": 7500,
+    "base_price": 7500,
+    "quantity": 1,
+    "sorting_priority": 19,
+    "is_enabled": true
+  },
+  {
+    "id": 948259679,
+    "name": "Automata Goat Appearance Pair",
+    "description": "Includes both Automata Goat mount appearances.",
+    "image_address": "PremiumIcons/AwakenedMountBundle",
+    "collectible_ids": [
+      1184043808,
+      1824485467
+    ],
+    "price": 12500,
+    "base_price": 15000,
+    "quantity": 1,
+    "sorting_priority": 9,
+    "is_enabled": true
+  },
+  {
     "id": 961233664,
     "name": "Everwoods Healer Outfit Pair Bundle",
     "description": "A full outfit of Everwoods Healer and Autumn Everwoods Healer equipment. These outfits are cosmetic and contain a piece for the torso, leg, belt, feet, hands and head slots.",
@@ -1284,6 +1519,91 @@
     "base_price": 1000,
     "quantity": 1,
     "sorting_priority": 4,
+    "is_enabled": true
+  },
+  {
+    "id": 971410433,
+    "name": "Awakened Complete Bundle",
+    "description": "Includes all 4 Awakened outfits, both pets, both mount appearances, both capes, and 40 Party Supplies.",
+    "image_address": "PremiumIcons/AwakenedBundleComplete",
+    "collectible_ids": [
+      280034629,
+      2022080722,
+      179443189,
+      1235528145,
+      686593815,
+      325326067,
+      1782807741,
+      893620773,
+      1846376225,
+      932961869,
+      1933576312,
+      1907363265,
+      405271643,
+      390443662,
+      1114119388,
+      2047151718,
+      488738207,
+      903293625,
+      462086705,
+      968282629,
+      1499437404,
+      2090824871,
+      1490115530,
+      832903194,
+      2084393435,
+      310235229,
+      1184043808,
+      1824485467,
+      278572638,
+      891015479,
+      1148542279,
+      1148542279,
+      1148542279,
+      1148542279,
+      1148542279,
+      1148542279,
+      1148542279,
+      1148542279,
+      1148542279,
+      1148542279,
+      1148542279,
+      1148542279,
+      1148542279,
+      1148542279,
+      1148542279,
+      1148542279,
+      1148542279,
+      1148542279,
+      1148542279,
+      1148542279,
+      1148542279,
+      1148542279,
+      1148542279,
+      1148542279,
+      1148542279,
+      1148542279,
+      1148542279,
+      1148542279,
+      1148542279,
+      1148542279,
+      1148542279,
+      1148542279,
+      1148542279,
+      1148542279,
+      1148542279,
+      1148542279,
+      1148542279,
+      1148542279,
+      1148542279,
+      1148542279,
+      318302737,
+      857585237
+    ],
+    "price": 32000,
+    "base_price": 43000,
+    "quantity": 1,
+    "sorting_priority": 0,
     "is_enabled": true
   },
   {
@@ -1432,7 +1752,7 @@
     "base_price": 10000,
     "quantity": 1,
     "sorting_priority": 7,
-    "is_enabled": true
+    "is_enabled": false
   },
   {
     "id": 1074386538,
@@ -1492,7 +1812,7 @@
     "price": 7500,
     "base_price": 7500,
     "quantity": 1,
-    "sorting_priority": 2,
+    "sorting_priority": 5,
     "is_enabled": true
   },
   {
@@ -1521,6 +1841,34 @@
     "base_price": 7500,
     "quantity": 1,
     "sorting_priority": 5,
+    "is_enabled": true
+  },
+  {
+    "id": 1299103045,
+    "name": "Geary",
+    "description": "A premium awakened pet companion.",
+    "image_address": "PremiumIcons/AwakenedPetGeary",
+    "collectible_ids": [
+      310235229
+    ],
+    "price": 7500,
+    "base_price": 7500,
+    "quantity": 1,
+    "sorting_priority": 3,
+    "is_enabled": true
+  },
+  {
+    "id": 1300071811,
+    "name": "Nubi Automata Goat Mount Appearance",
+    "description": "A cosmetic mount appearance for your goat mounts.",
+    "image_address": "PremiumIcons/UnchartedAutomataGoat",
+    "collectible_ids": [
+      1824485467
+    ],
+    "price": 7500,
+    "base_price": 7500,
+    "quantity": 1,
+    "sorting_priority": 20,
     "is_enabled": true
   },
   {
@@ -1629,6 +1977,25 @@
     "is_enabled": true
   },
   {
+    "id": 1514071251,
+    "name": "Forest Awakened Outfit",
+    "description": "Unlock a set of cosmetic clothing for your character.",
+    "image_address": "PremiumIcons/ForestAwakenedOutfit",
+    "collectible_ids": [
+      462086705,
+      968282629,
+      1499437404,
+      2090824871,
+      1490115530,
+      832903194
+    ],
+    "price": 5000,
+    "base_price": 5000,
+    "quantity": 1,
+    "sorting_priority": 4,
+    "is_enabled": true
+  },
+  {
     "id": 1523147251,
     "name": "THIS MUST BE UPDATED TO USE COLLECTIBLE LISTS BEFORE RERELEASE",
     "description": "A massive premium bundle containing many premium items.  Contains: both Everwoods Outfits, Snowball (Pet), an exclusive Golden Party Hat, the Complete Sweater Bundle, 2 sets of the Midwinter Cabin Furniture, 300 Gilded Tiles, and 4 Regal Fabric. Once purchased, you can find the bundle in the \"Premium Items\" section of your vault",
@@ -1677,6 +2044,20 @@
     "is_enabled": false
   },
   {
+    "id": 1553343509,
+    "name": "Tic",
+    "description": "A premium awakened pet companion.",
+    "image_address": "PremiumIcons/AwakenedPetTic",
+    "collectible_ids": [
+      2084393435
+    ],
+    "price": 7500,
+    "base_price": 7500,
+    "quantity": 1,
+    "sorting_priority": 3,
+    "is_enabled": true
+  },
+  {
     "id": 1572619784,
     "name": "Firefly Lantern",
     "description": "A strange paper lantern that will follow you everywhere you go. Like a pet...but it's a lantern?",
@@ -1688,7 +2069,7 @@
     "base_price": 7500,
     "quantity": 1,
     "sorting_priority": 6,
-    "is_enabled": true
+    "is_enabled": false
   },
   {
     "id": 1578850708,
@@ -1703,6 +2084,31 @@
     "quantity": 1,
     "sorting_priority": 12,
     "is_enabled": false
+  },
+  {
+    "id": 1589554243,
+    "name": "Early Awakened Pair",
+    "description": "Includes the First Awakened and Second Awakened outfits.",
+    "image_address": "PremiumIcons/EarlyAwakenedPair",
+    "collectible_ids": [
+      280034629,
+      2022080722,
+      179443189,
+      1235528145,
+      686593815,
+      325326067,
+      405271643,
+      390443662,
+      1114119388,
+      2047151718,
+      488738207,
+      903293625
+    ],
+    "price": 7500,
+    "base_price": 10000,
+    "quantity": 1,
+    "sorting_priority": 4,
+    "is_enabled": true
   },
   {
     "id": 1640628364,
@@ -1759,6 +2165,23 @@
     "quantity": 1,
     "sorting_priority": 12,
     "is_enabled": false
+  },
+  {
+    "id": 1660902009,
+    "name": "Awakened Cape Bundle",
+    "description": "A bundle of cosmetic capes for your character. Can be used to show off your empires colors.",
+    "image_address": "PremiumIcons/AwakenedCapeBundle",
+    "collectible_ids": [
+      278572638,
+      891015479,
+      857585237,
+      318302737
+    ],
+    "price": 10000,
+    "base_price": 12000,
+    "quantity": 1,
+    "sorting_priority": 3,
+    "is_enabled": true
   },
   {
     "id": 1695638959,
@@ -1901,7 +2324,7 @@
     "base_price": 35000,
     "quantity": 1,
     "sorting_priority": 6,
-    "is_enabled": true
+    "is_enabled": false
   },
   {
     "id": 1772562804,
@@ -1972,6 +2395,82 @@
     "is_enabled": true
   },
   {
+    "id": 1887206063,
+    "name": "Awakened Pet Pair",
+    "description": "Includes Tic and Geary.",
+    "image_address": "PremiumIcons/AwakenedPetPair",
+    "collectible_ids": [
+      2084393435,
+      310235229
+    ],
+    "price": 10000,
+    "base_price": 15000,
+    "quantity": 1,
+    "sorting_priority": 2,
+    "is_enabled": true
+  },
+  {
+    "id": 1925512065,
+    "name": "Awakened Mega Bundle",
+    "description": "Includes all 4 Awakened outfits, Tic, the Horned Automata Goat mount appearance, both capes, and 20 Party Supplies.",
+    "image_address": "PremiumIcons/AwakenedBundleMega",
+    "collectible_ids": [
+      280034629,
+      2022080722,
+      179443189,
+      1235528145,
+      686593815,
+      325326067,
+      1782807741,
+      893620773,
+      1846376225,
+      932961869,
+      1933576312,
+      1907363265,
+      405271643,
+      390443662,
+      1114119388,
+      2047151718,
+      488738207,
+      903293625,
+      462086705,
+      968282629,
+      1499437404,
+      2090824871,
+      1490115530,
+      832903194,
+      2084393435,
+      1824485467,
+      278572638,
+      891015479,
+      1148542279,
+      1148542279,
+      1148542279,
+      1148542279,
+      1148542279,
+      1148542279,
+      1148542279,
+      1148542279,
+      1148542279,
+      1148542279,
+      1148542279,
+      1148542279,
+      1148542279,
+      1148542279,
+      1148542279,
+      1148542279,
+      1148542279,
+      1148542279,
+      1148542279,
+      1148542279
+    ],
+    "price": 20000,
+    "base_price": 30500,
+    "quantity": 1,
+    "sorting_priority": 1,
+    "is_enabled": true
+  },
+  {
     "id": 1945159732,
     "name": "Wrangler Roughrider's Outfit",
     "description": "Contains the full Wrangler Roughrider's Outfit. Includes a hat, shirt, gloves, pants, boots and belt.",
@@ -1988,6 +2487,130 @@
     "base_price": 5000,
     "quantity": 1,
     "sorting_priority": 8,
+    "is_enabled": true
+  },
+  {
+    "id": 1946058278,
+    "name": "Awakened Outfit Top Off Bundle",
+    "description": "Includes the Seaside Awakened, Second Awakened, and Forest Awakened outfits.",
+    "image_address": "PremiumIcons/AwakenedOutfitTopoff",
+    "collectible_ids": [
+      1782807741,
+      893620773,
+      1846376225,
+      932961869,
+      1933576312,
+      1907363265,
+      405271643,
+      390443662,
+      1114119388,
+      2047151718,
+      488738207,
+      903293625,
+      462086705,
+      968282629,
+      1499437404,
+      2090824871,
+      1490115530,
+      832903194
+    ],
+    "price": 10000,
+    "base_price": 12500,
+    "quantity": 1,
+    "sorting_priority": 4,
+    "is_enabled": true
+  },
+  {
+    "id": 1966694828,
+    "name": "First Awakened Cape",
+    "description": "A cosmetic awakened cape for your character.",
+    "image_address": "PremiumIcons/FirstAwakenedCape",
+    "collectible_ids": [
+      278572638
+    ],
+    "price": 3000,
+    "base_price": 3000,
+    "quantity": 1,
+    "sorting_priority": 4,
+    "is_enabled": true
+  },
+  {
+    "id": 1989769663,
+    "name": "Awakened Top Off Bundle",
+    "description": "Includes the Seaside Awakened, Second Awakened, and Forest Awakened outfits, both pets, both mount appearances, both capes, and 40 Party Supplies.",
+    "image_address": "PremiumIcons/AwakenedBundleTopoff",
+    "collectible_ids": [
+      1782807741,
+      893620773,
+      1846376225,
+      932961869,
+      1933576312,
+      1907363265,
+      405271643,
+      390443662,
+      1114119388,
+      2047151718,
+      488738207,
+      903293625,
+      462086705,
+      968282629,
+      1499437404,
+      2090824871,
+      1490115530,
+      832903194,
+      2084393435,
+      310235229,
+      1184043808,
+      1824485467,
+      278572638,
+      891015479,
+      1148542279,
+      1148542279,
+      1148542279,
+      1148542279,
+      1148542279,
+      1148542279,
+      1148542279,
+      1148542279,
+      1148542279,
+      1148542279,
+      1148542279,
+      1148542279,
+      1148542279,
+      1148542279,
+      1148542279,
+      1148542279,
+      1148542279,
+      1148542279,
+      1148542279,
+      1148542279,
+      1148542279,
+      1148542279,
+      1148542279,
+      1148542279,
+      1148542279,
+      1148542279,
+      1148542279,
+      1148542279,
+      1148542279,
+      1148542279,
+      1148542279,
+      1148542279,
+      1148542279,
+      1148542279,
+      1148542279,
+      1148542279,
+      1148542279,
+      1148542279,
+      1148542279,
+      1148542279,
+      318302737,
+      857585237
+    ],
+    "price": 30000,
+    "base_price": 38000,
+    "quantity": 1,
+    "sorting_priority": 2,
     "is_enabled": true
   },
   {
@@ -2208,7 +2831,7 @@
     "price": 5000,
     "base_price": 5000,
     "quantity": 1,
-    "sorting_priority": 2,
+    "sorting_priority": 5,
     "is_enabled": true
   },
   {
@@ -2227,7 +2850,7 @@
     "price": 5000,
     "base_price": 5000,
     "quantity": 1,
-    "sorting_priority": 3,
+    "sorting_priority": 6,
     "is_enabled": true
   },
   {
@@ -2246,7 +2869,7 @@
     "price": 5000,
     "base_price": 5000,
     "quantity": 1,
-    "sorting_priority": 2,
+    "sorting_priority": 5,
     "is_enabled": true
   },
   {
@@ -2265,7 +2888,7 @@
     "price": 5000,
     "base_price": 5000,
     "quantity": 1,
-    "sorting_priority": 2,
+    "sorting_priority": 5,
     "is_enabled": true
   },
   {
@@ -2290,7 +2913,7 @@
     "price": 7500,
     "base_price": 10000,
     "quantity": 1,
-    "sorting_priority": 3,
+    "sorting_priority": 6,
     "is_enabled": true
   },
   {
@@ -2315,7 +2938,7 @@
     "price": 7500,
     "base_price": 10000,
     "quantity": 1,
-    "sorting_priority": 3,
+    "sorting_priority": 6,
     "is_enabled": true
   },
   {
@@ -2340,7 +2963,7 @@
     "price": 7500,
     "base_price": 10000,
     "quantity": 1,
-    "sorting_priority": 3,
+    "sorting_priority": 6,
     "is_enabled": true
   },
   {
@@ -2365,7 +2988,7 @@
     "price": 7500,
     "base_price": 10000,
     "quantity": 1,
-    "sorting_priority": 3,
+    "sorting_priority": 6,
     "is_enabled": true
   },
   {
@@ -2402,7 +3025,7 @@
     "price": 12500,
     "base_price": 15000,
     "quantity": 1,
-    "sorting_priority": 2,
+    "sorting_priority": 5,
     "is_enabled": true
   },
   {
@@ -2416,7 +3039,7 @@
     "price": 7500,
     "base_price": 7500,
     "quantity": 1,
-    "sorting_priority": 3,
+    "sorting_priority": 6,
     "is_enabled": true
   },
   {
@@ -2430,7 +3053,7 @@
     "price": 7500,
     "base_price": 7500,
     "quantity": 1,
-    "sorting_priority": 3,
+    "sorting_priority": 6,
     "is_enabled": true
   },
   {
@@ -2444,7 +3067,7 @@
     "price": 7500,
     "base_price": 7500,
     "quantity": 1,
-    "sorting_priority": 3,
+    "sorting_priority": 6,
     "is_enabled": true
   },
   {
@@ -2460,7 +3083,7 @@
     "price": 12500,
     "base_price": 17500,
     "quantity": 1,
-    "sorting_priority": 2,
+    "sorting_priority": 5,
     "is_enabled": true
   },
   {
@@ -2475,7 +3098,7 @@
     "price": 10000,
     "base_price": 15000,
     "quantity": 1,
-    "sorting_priority": 2,
+    "sorting_priority": 5,
     "is_enabled": true
   },
   {
@@ -2530,7 +3153,7 @@
     "price": 15000,
     "base_price": 20000,
     "quantity": 1,
-    "sorting_priority": 2,
+    "sorting_priority": 5,
     "is_enabled": true
   },
   {
@@ -2606,7 +3229,7 @@
     "price": 20000,
     "base_price": 36000,
     "quantity": 1,
-    "sorting_priority": 1,
+    "sorting_priority": 4,
     "is_enabled": true
   },
   {
@@ -2694,7 +3317,7 @@
     "price": 30000,
     "base_price": 52000,
     "quantity": 1,
-    "sorting_priority": 0,
+    "sorting_priority": 3,
     "is_enabled": true
   }
 ]

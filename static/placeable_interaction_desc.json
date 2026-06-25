@@ -84,6 +84,12 @@
         "quantity": 1,
         "item_type": "Item",
         "durability": 0
+      },
+      {
+        "item_id": 1888703220,
+        "quantity": 1,
+        "item_type": "Item",
+        "durability": 0
       }
     ],
     "tool_requirements": [],
@@ -284,6 +290,39 @@
     "on_destroy_spawned_placeable_chance": 1.0
   },
   {
+    "id": 278073995,
+    "verb_phrase": "Gather",
+    "placeable_id": 996244657,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "consumed_item_stacks": [],
+    "output_item_stacks": [
+      {
+        "item_id": 758533407,
+        "quantity": 1,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "tool_requirements": [],
+    "level_requirements": [],
+    "experience_per_progress": [
+      {
+        "skill_id": 3,
+        "quantity": 50.0
+      }
+    ],
+    "time_requirement": 2.0,
+    "stamina_requirement": 0.0,
+    "tool_durability_lost": 0,
+    "range": 1,
+    "allow_use_hands": true,
+    "power_multiplier": 1.0,
+    "recipe_performance_id": 403,
+    "on_destroy_spawned_placeable_id": 0,
+    "on_destroy_spawned_placeable_chance": 0.0
+  },
+  {
     "id": 320361076,
     "verb_phrase": "Harvest",
     "placeable_id": 418902577,
@@ -439,6 +478,12 @@
     "output_item_stacks": [
       {
         "item_id": 487807463,
+        "quantity": 1,
+        "item_type": "Item",
+        "durability": 0
+      },
+      {
+        "item_id": 245103615,
         "quantity": 1,
         "item_type": "Item",
         "durability": 0
@@ -676,6 +721,12 @@
         "quantity": 1,
         "item_type": "Item",
         "durability": 0
+      },
+      {
+        "item_id": 245103615,
+        "quantity": 1,
+        "item_type": "Item",
+        "durability": 0
       }
     ],
     "tool_requirements": [
@@ -786,6 +837,12 @@
       },
       {
         "item_id": 988490764,
+        "quantity": 1,
+        "item_type": "Item",
+        "durability": 0
+      },
+      {
+        "item_id": 559662826,
         "quantity": 1,
         "item_type": "Item",
         "durability": 0
@@ -939,6 +996,12 @@
         "quantity": 1,
         "item_type": "Item",
         "durability": 0
+      },
+      {
+        "item_id": 245103615,
+        "quantity": 1,
+        "item_type": "Item",
+        "durability": 0
       }
     ],
     "tool_requirements": [
@@ -1047,6 +1110,12 @@
     "output_item_stacks": [
       {
         "item_id": 328593851,
+        "quantity": 1,
+        "item_type": "Item",
+        "durability": 0
+      },
+      {
+        "item_id": 245103615,
         "quantity": 1,
         "item_type": "Item",
         "durability": 0
@@ -1268,6 +1337,12 @@
         "quantity": 1,
         "item_type": "Item",
         "durability": 0
+      },
+      {
+        "item_id": 245103615,
+        "quantity": 1,
+        "item_type": "Item",
+        "durability": 0
       }
     ],
     "tool_requirements": [
@@ -1380,6 +1455,12 @@
         "quantity": 1,
         "item_type": "Item",
         "durability": 0
+      },
+      {
+        "item_id": 1673213066,
+        "quantity": 1,
+        "item_type": "Item",
+        "durability": 0
       }
     ],
     "tool_requirements": [
@@ -1421,6 +1502,12 @@
     "output_item_stacks": [
       {
         "item_id": 1154551840,
+        "quantity": 1,
+        "item_type": "Item",
+        "durability": 0
+      },
+      {
+        "item_id": 245103615,
         "quantity": 1,
         "item_type": "Item",
         "durability": 0
@@ -1645,7 +1732,13 @@
     "consumed_item_stacks": [],
     "output_item_stacks": [
       {
-        "item_id": 1733972495,
+        "item_id": 772244452,
+        "quantity": 1,
+        "item_type": "Item",
+        "durability": 0
+      },
+      {
+        "item_id": 1110023549,
         "quantity": 1,
         "item_type": "Item",
         "durability": 0
@@ -1690,6 +1783,12 @@
       },
       {
         "item_id": 1254002276,
+        "quantity": 1,
+        "item_type": "Item",
+        "durability": 0
+      },
+      {
+        "item_id": 910433,
         "quantity": 1,
         "item_type": "Item",
         "durability": 0
@@ -1797,6 +1896,45 @@
     "on_destroy_spawned_placeable_chance": 0.0
   },
   {
+    "id": 1470136551,
+    "verb_phrase": "Collect",
+    "placeable_id": 462222848,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "consumed_item_stacks": [],
+    "output_item_stacks": [
+      {
+        "item_id": 515373071,
+        "quantity": 1,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "tool_requirements": [
+      {
+        "tool_type": 2,
+        "level": 3,
+        "power": 1
+      }
+    ],
+    "level_requirements": [],
+    "experience_per_progress": [
+      {
+        "skill_id": 3,
+        "quantity": 1000.0
+      }
+    ],
+    "time_requirement": 1.6,
+    "stamina_requirement": 1.03,
+    "tool_durability_lost": 0,
+    "range": 1,
+    "allow_use_hands": false,
+    "power_multiplier": 1.0,
+    "recipe_performance_id": 157,
+    "on_destroy_spawned_placeable_id": 0,
+    "on_destroy_spawned_placeable_chance": 0.0
+  },
+  {
     "id": 1472303987,
     "verb_phrase": "Bait",
     "placeable_id": 1905291369,
@@ -1879,6 +2017,12 @@
     "output_item_stacks": [
       {
         "item_id": 1884841467,
+        "quantity": 1,
+        "item_type": "Item",
+        "durability": 0
+      },
+      {
+        "item_id": 1260764931,
         "quantity": 1,
         "item_type": "Item",
         "durability": 0
@@ -2004,6 +2148,53 @@
     "power_multiplier": 1.0,
     "recipe_performance_id": 403,
     "on_destroy_spawned_placeable_id": 1085581293,
+    "on_destroy_spawned_placeable_chance": 1.0
+  },
+  {
+    "id": 1606534161,
+    "verb_phrase": "Repair",
+    "placeable_id": 1301922780,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "consumed_item_stacks": [
+      {
+        "item_id": 758533407,
+        "quantity": 1,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "output_item_stacks": [
+      {
+        "item_id": 1390264583,
+        "quantity": 1,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "tool_requirements": [
+      {
+        "tool_type": 2,
+        "level": 3,
+        "power": 1
+      }
+    ],
+    "level_requirements": [],
+    "experience_per_progress": [
+      {
+        "skill_id": 3,
+        "quantity": 3.0
+      }
+    ],
+    "time_requirement": 1.6,
+    "stamina_requirement": 1.03,
+    "tool_durability_lost": 0,
+    "range": 1,
+    "allow_use_hands": false,
+    "power_multiplier": 1.0,
+    "recipe_performance_id": 157,
+    "on_destroy_spawned_placeable_id": 462222848,
     "on_destroy_spawned_placeable_chance": 1.0
   },
   {

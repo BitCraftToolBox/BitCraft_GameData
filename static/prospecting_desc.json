@@ -42,7 +42,8 @@
       "skill_id": 0,
       "quantity": 0.0
     },
-    "pct_nodes_for_max_contribution": 0.0
+    "pct_nodes_for_max_contribution": 0.0,
+    "single_contribution_only": false
   },
   {
     "id": 126942728,
@@ -88,7 +89,8 @@
       "skill_id": 0,
       "quantity": 0.0
     },
-    "pct_nodes_for_max_contribution": 0.0
+    "pct_nodes_for_max_contribution": 0.0,
+    "single_contribution_only": false
   },
   {
     "id": 192697986,
@@ -135,7 +137,8 @@
       "skill_id": 9,
       "quantity": 0.0
     },
-    "pct_nodes_for_max_contribution": 0.5
+    "pct_nodes_for_max_contribution": 0.5,
+    "single_contribution_only": false
   },
   {
     "id": 262495756,
@@ -180,7 +183,8 @@
       "skill_id": 0,
       "quantity": 0.0
     },
-    "pct_nodes_for_max_contribution": 0.0
+    "pct_nodes_for_max_contribution": 0.0,
+    "single_contribution_only": false
   },
   {
     "id": 264816367,
@@ -225,7 +229,8 @@
       "skill_id": 0,
       "quantity": 0.0
     },
-    "pct_nodes_for_max_contribution": 0.0
+    "pct_nodes_for_max_contribution": 0.0,
+    "single_contribution_only": false
   },
   {
     "id": 296926863,
@@ -270,7 +275,8 @@
       "skill_id": 0,
       "quantity": 0.0
     },
-    "pct_nodes_for_max_contribution": 0.0
+    "pct_nodes_for_max_contribution": 0.0,
+    "single_contribution_only": false
   },
   {
     "id": 461794749,
@@ -315,7 +321,8 @@
       "skill_id": 0,
       "quantity": 0.0
     },
-    "pct_nodes_for_max_contribution": 0.0
+    "pct_nodes_for_max_contribution": 0.0,
+    "single_contribution_only": false
   },
   {
     "id": 481302758,
@@ -360,7 +367,8 @@
       "skill_id": 0,
       "quantity": 0.0
     },
-    "pct_nodes_for_max_contribution": 0.0
+    "pct_nodes_for_max_contribution": 0.0,
+    "single_contribution_only": false
   },
   {
     "id": 503462118,
@@ -405,7 +413,8 @@
       "skill_id": 0,
       "quantity": 0.0
     },
-    "pct_nodes_for_max_contribution": 0.0
+    "pct_nodes_for_max_contribution": 0.0,
+    "single_contribution_only": false
   },
   {
     "id": 578611094,
@@ -450,7 +459,69 @@
       "skill_id": 0,
       "quantity": 0.0
     },
-    "pct_nodes_for_max_contribution": 0.0
+    "pct_nodes_for_max_contribution": 0.0,
+    "single_contribution_only": false
+  },
+  {
+    "id": 823935719,
+    "name": "Search for Pirate's Treasure",
+    "description": "Use a Pirate's Map to search for a Lost Treasure.",
+    "resource_clump_id": 1805555480,
+    "placeholder_resource_clump_id": 1010220448,
+    "enemy_ai_desc_id": 0,
+    "is_aquatic_resource": false,
+    "biome_requirements": [
+      15,
+      16
+    ],
+    "equipment_requirements": [],
+    "required_items_to_start": [
+      {
+        "item_id": 1392782442,
+        "quantity": 1,
+        "item_type": "Item",
+        "durability": null
+      }
+    ],
+    "required_items_to_interact_with_reward": [
+      {
+        "item_id": 1392782442,
+        "quantity": 1,
+        "item_type": "Item",
+        "durability": null
+      }
+    ],
+    "consumed_items_by_ability_trigger": [],
+    "allow_aquatic_prospecting": false,
+    "bread_crumb_count": [
+      5,
+      6
+    ],
+    "bread_crumb_radius": [
+      15,
+      20
+    ],
+    "distance_between_bread_crumbs": [
+      60,
+      90
+    ],
+    "deadzone_angle_between_crumbs": 90.0,
+    "allow_aquatic_bread_crumb": false,
+    "pointer_duration": 4.0,
+    "prospecting_duration": 3.0,
+    "join_radius": 40,
+    "contribution_per_visited_bread_crumb": 1,
+    "breadcrumb_found_message": "You've found a point of interest from the map.",
+    "resource_uncovered_message": "You see the treasure in the distance.",
+    "breadcrumb_found_by_someone_else_message": "Someone else has found a point of interest from the map.",
+    "resource_uncovered_by_someone_else_message": "You are able to follow someone else's trail to the Baby Jakyl",
+    "icon_asset_path": "đ",
+    "experience_per_node": {
+      "skill_id": 5,
+      "quantity": 0.0
+    },
+    "pct_nodes_for_max_contribution": 0.0,
+    "single_contribution_only": true
   },
   {
     "id": 862405504,
@@ -495,7 +566,8 @@
       "skill_id": 0,
       "quantity": 0.0
     },
-    "pct_nodes_for_max_contribution": 0.0
+    "pct_nodes_for_max_contribution": 0.0,
+    "single_contribution_only": false
   },
   {
     "id": 866858010,
@@ -540,7 +612,8 @@
       "skill_id": 0,
       "quantity": 0.0
     },
-    "pct_nodes_for_max_contribution": 0.0
+    "pct_nodes_for_max_contribution": 0.0,
+    "single_contribution_only": false
   },
   {
     "id": 1023593297,
@@ -585,7 +658,8 @@
       "skill_id": 0,
       "quantity": 0.0
     },
-    "pct_nodes_for_max_contribution": 0.0
+    "pct_nodes_for_max_contribution": 0.0,
+    "single_contribution_only": false
   },
   {
     "id": 1050531390,
@@ -630,7 +704,8 @@
       "skill_id": 0,
       "quantity": 0.0
     },
-    "pct_nodes_for_max_contribution": 0.0
+    "pct_nodes_for_max_contribution": 0.0,
+    "single_contribution_only": false
   },
   {
     "id": 1100790073,
@@ -676,7 +751,8 @@
       "skill_id": 0,
       "quantity": 0.0
     },
-    "pct_nodes_for_max_contribution": 0.0
+    "pct_nodes_for_max_contribution": 0.0,
+    "single_contribution_only": false
   },
   {
     "id": 1134246347,
@@ -724,7 +800,8 @@
       "skill_id": 0,
       "quantity": 0.0
     },
-    "pct_nodes_for_max_contribution": 0.0
+    "pct_nodes_for_max_contribution": 0.0,
+    "single_contribution_only": false
   },
   {
     "id": 1249466124,
@@ -769,7 +846,8 @@
       "skill_id": 0,
       "quantity": 0.0
     },
-    "pct_nodes_for_max_contribution": 0.0
+    "pct_nodes_for_max_contribution": 0.0,
+    "single_contribution_only": false
   },
   {
     "id": 1257020574,
@@ -817,7 +895,8 @@
       "skill_id": 5,
       "quantity": 0.0
     },
-    "pct_nodes_for_max_contribution": 0.0
+    "pct_nodes_for_max_contribution": 0.0,
+    "single_contribution_only": false
   },
   {
     "id": 1318037307,
@@ -863,7 +942,8 @@
       "skill_id": 0,
       "quantity": 0.0
     },
-    "pct_nodes_for_max_contribution": 0.0
+    "pct_nodes_for_max_contribution": 0.0,
+    "single_contribution_only": false
   },
   {
     "id": 1556067471,
@@ -910,7 +990,8 @@
       "skill_id": 0,
       "quantity": 0.0
     },
-    "pct_nodes_for_max_contribution": 0.0
+    "pct_nodes_for_max_contribution": 0.0,
+    "single_contribution_only": false
   },
   {
     "id": 1616120186,
@@ -962,7 +1043,8 @@
       "skill_id": 0,
       "quantity": 0.0
     },
-    "pct_nodes_for_max_contribution": 0.0
+    "pct_nodes_for_max_contribution": 0.0,
+    "single_contribution_only": false
   },
   {
     "id": 1738314687,
@@ -1007,7 +1089,8 @@
       "skill_id": 0,
       "quantity": 0.0
     },
-    "pct_nodes_for_max_contribution": 0.0
+    "pct_nodes_for_max_contribution": 0.0,
+    "single_contribution_only": false
   },
   {
     "id": 1754161348,
@@ -1052,7 +1135,8 @@
       "skill_id": 0,
       "quantity": 0.0
     },
-    "pct_nodes_for_max_contribution": 0.0
+    "pct_nodes_for_max_contribution": 0.0,
+    "single_contribution_only": false
   },
   {
     "id": 1773234374,
@@ -1097,7 +1181,8 @@
       "skill_id": 0,
       "quantity": 0.0
     },
-    "pct_nodes_for_max_contribution": 0.0
+    "pct_nodes_for_max_contribution": 0.0,
+    "single_contribution_only": false
   },
   {
     "id": 1814863361,
@@ -1142,7 +1227,8 @@
       "skill_id": 0,
       "quantity": 0.0
     },
-    "pct_nodes_for_max_contribution": 0.0
+    "pct_nodes_for_max_contribution": 0.0,
+    "single_contribution_only": false
   },
   {
     "id": 1848550291,
@@ -1187,7 +1273,8 @@
       "skill_id": 0,
       "quantity": 0.0
     },
-    "pct_nodes_for_max_contribution": 0.0
+    "pct_nodes_for_max_contribution": 0.0,
+    "single_contribution_only": false
   },
   {
     "id": 1968795041,
@@ -1233,7 +1320,8 @@
       "skill_id": 0,
       "quantity": 0.0
     },
-    "pct_nodes_for_max_contribution": 0.0
+    "pct_nodes_for_max_contribution": 0.0,
+    "single_contribution_only": false
   },
   {
     "id": 2022634606,
@@ -1278,7 +1366,8 @@
       "skill_id": 0,
       "quantity": 0.0
     },
-    "pct_nodes_for_max_contribution": 0.0
+    "pct_nodes_for_max_contribution": 0.0,
+    "single_contribution_only": false
   },
   {
     "id": 2114508102,
@@ -1323,6 +1412,7 @@
       "skill_id": 0,
       "quantity": 0.0
     },
-    "pct_nodes_for_max_contribution": 0.0
+    "pct_nodes_for_max_contribution": 0.0,
+    "single_contribution_only": false
   }
 ]

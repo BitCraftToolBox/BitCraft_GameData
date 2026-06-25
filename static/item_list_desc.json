@@ -13033,6 +13033,27 @@
     ]
   },
   {
+    "id": 63797687,
+    "name": "Pirate's Map Drop Mining",
+    "possibilities": [
+      {
+        "probability": 95.0,
+        "items": []
+      },
+      {
+        "probability": 5.0,
+        "items": [
+          {
+            "item_id": 723635558,
+            "quantity": 1,
+            "item_type": "Item",
+            "durability": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": 65712733,
     "name": "Aurumite Mace",
     "possibilities": [
@@ -13080,6 +13101,27 @@
         "items": [
           {
             "item_id": 1608623608,
+            "quantity": 1,
+            "item_type": "Item",
+            "durability": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 67093391,
+    "name": "Pirate's Map Drop Smithing",
+    "possibilities": [
+      {
+        "probability": 90.0,
+        "items": []
+      },
+      {
+        "probability": 10.0,
+        "items": [
+          {
+            "item_id": 723635558,
             "quantity": 1,
             "item_type": "Item",
             "durability": 0
@@ -15479,6 +15521,27 @@
         "items": [
           {
             "item_id": 166632891,
+            "quantity": 1,
+            "item_type": "Item",
+            "durability": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 161593338,
+    "name": "Pirate's Map Drop Vault 4",
+    "possibilities": [
+      {
+        "probability": 98.0,
+        "items": []
+      },
+      {
+        "probability": 2.0,
+        "items": [
+          {
+            "item_id": 723635558,
             "quantity": 1,
             "item_type": "Item",
             "durability": 0
@@ -21125,6 +21188,45 @@
             "quantity": 1,
             "item_type": "Item",
             "durability": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 330408582,
+    "name": "Pirate Weapon Geyser Output",
+    "possibilities": [
+      {
+        "probability": 40.0,
+        "items": [
+          {
+            "item_id": 370161387,
+            "quantity": 1,
+            "item_type": "Cargo",
+            "durability": null
+          }
+        ]
+      },
+      {
+        "probability": 30.0,
+        "items": [
+          {
+            "item_id": 3496548,
+            "quantity": 1,
+            "item_type": "Cargo",
+            "durability": null
+          }
+        ]
+      },
+      {
+        "probability": 30.0,
+        "items": [
+          {
+            "item_id": 303296732,
+            "quantity": 1,
+            "item_type": "Cargo",
+            "durability": null
           }
         ]
       }
@@ -30552,6 +30654,55 @@
     ]
   },
   {
+    "id": 610055619,
+    "name": "Uncharted Shipment",
+    "possibilities": [
+      {
+        "probability": 58.0,
+        "items": [
+          {
+            "item_id": 477738712,
+            "quantity": 1,
+            "item_type": "Item",
+            "durability": 0
+          }
+        ]
+      },
+      {
+        "probability": 2.0,
+        "items": [
+          {
+            "item_id": 477738712,
+            "quantity": 1,
+            "item_type": "Item",
+            "durability": 0
+          },
+          {
+            "item_id": 723635558,
+            "quantity": 1,
+            "item_type": "Item",
+            "durability": 0
+          }
+        ]
+      },
+      {
+        "probability": 32.0,
+        "items": []
+      },
+      {
+        "probability": 8.0,
+        "items": [
+          {
+            "item_id": 1426801907,
+            "quantity": 1,
+            "item_type": "Item",
+            "durability": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": 610217470,
     "name": "Aurumite Hammer",
     "possibilities": [
@@ -34915,13 +35066,19 @@
         "items": [
           {
             "item_id": 176021769,
-            "quantity": 25,
+            "quantity": 12,
             "item_type": "Item",
             "durability": 0
           },
           {
             "item_id": 4110010,
-            "quantity": 15,
+            "quantity": 6,
+            "item_type": "Item",
+            "durability": 0
+          },
+          {
+            "item_id": 364728775,
+            "quantity": 1,
             "item_type": "Item",
             "durability": 0
           }
@@ -34932,13 +35089,19 @@
         "items": [
           {
             "item_id": 176021769,
-            "quantity": 20,
+            "quantity": 13,
             "item_type": "Item",
             "durability": 0
           },
           {
             "item_id": 4110010,
-            "quantity": 10,
+            "quantity": 7,
+            "item_type": "Item",
+            "durability": 0
+          },
+          {
+            "item_id": 364728775,
+            "quantity": 1,
             "item_type": "Item",
             "durability": 0
           }
@@ -34949,18 +35112,24 @@
         "items": [
           {
             "item_id": 176021769,
-            "quantity": 25,
+            "quantity": 14,
             "item_type": "Item",
             "durability": 0
           },
           {
             "item_id": 4110010,
-            "quantity": 15,
+            "quantity": 8,
             "item_type": "Item",
             "durability": 0
           },
           {
             "item_id": 367510376,
+            "quantity": 1,
+            "item_type": "Item",
+            "durability": 0
+          },
+          {
+            "item_id": 364728775,
             "quantity": 1,
             "item_type": "Item",
             "durability": 0
@@ -35245,6 +35414,34 @@
             "quantity": 1,
             "item_type": "Item",
             "durability": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 772278348,
+    "name": "Pirate Weapon Whetstone Output",
+    "possibilities": [
+      {
+        "probability": 40.0,
+        "items": [
+          {
+            "item_id": 370161387,
+            "quantity": 1,
+            "item_type": "Cargo",
+            "durability": null
+          }
+        ]
+      },
+      {
+        "probability": 60.0,
+        "items": [
+          {
+            "item_id": 3496548,
+            "quantity": 1,
+            "item_type": "Cargo",
+            "durability": null
           }
         ]
       }
@@ -38493,6 +38690,67 @@
           {
             "item_id": 61609764,
             "quantity": 1,
+            "item_type": "Item",
+            "durability": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 860666778,
+    "name": "RandomDoubloon1to5LostPiratesTreasure",
+    "possibilities": [
+      {
+        "probability": 33.0,
+        "items": [
+          {
+            "item_id": 1604227260,
+            "quantity": 1,
+            "item_type": "Item",
+            "durability": 0
+          }
+        ]
+      },
+      {
+        "probability": 33.0,
+        "items": [
+          {
+            "item_id": 1604227260,
+            "quantity": 2,
+            "item_type": "Item",
+            "durability": 0
+          }
+        ]
+      },
+      {
+        "probability": 33.0,
+        "items": [
+          {
+            "item_id": 1604227260,
+            "quantity": 3,
+            "item_type": "Item",
+            "durability": 0
+          }
+        ]
+      },
+      {
+        "probability": 33.0,
+        "items": [
+          {
+            "item_id": 1604227260,
+            "quantity": 4,
+            "item_type": "Item",
+            "durability": 0
+          }
+        ]
+      },
+      {
+        "probability": 33.0,
+        "items": [
+          {
+            "item_id": 1604227260,
+            "quantity": 5,
             "item_type": "Item",
             "durability": 0
           }
@@ -43078,6 +43336,27 @@
     ]
   },
   {
+    "id": 1021248815,
+    "name": "Pirate's Map Drop Fishing Average Fish",
+    "possibilities": [
+      {
+        "probability": 83.0,
+        "items": []
+      },
+      {
+        "probability": 17.0,
+        "items": [
+          {
+            "item_id": 723635558,
+            "quantity": 1,
+            "item_type": "Item",
+            "durability": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": 1022155182,
     "name": "Peerless Woven Belt",
     "possibilities": [
@@ -44656,6 +44935,62 @@
     ]
   },
   {
+    "id": 1077595549,
+    "name": "Pirate Weapon Anvil Output",
+    "possibilities": [
+      {
+        "probability": 60.0,
+        "items": [
+          {
+            "item_id": 334095475,
+            "quantity": 1,
+            "item_type": "Item",
+            "durability": 0
+          },
+          {
+            "item_id": 541078232,
+            "quantity": 1,
+            "item_type": "Item",
+            "durability": 0
+          }
+        ]
+      },
+      {
+        "probability": 13.33,
+        "items": [
+          {
+            "item_id": 3496548,
+            "quantity": 1,
+            "item_type": "Cargo",
+            "durability": null
+          }
+        ]
+      },
+      {
+        "probability": 13.33,
+        "items": [
+          {
+            "item_id": 303296732,
+            "quantity": 1,
+            "item_type": "Cargo",
+            "durability": null
+          }
+        ]
+      },
+      {
+        "probability": 13.33,
+        "items": [
+          {
+            "item_id": 498401240,
+            "quantity": 1,
+            "item_type": "Cargo",
+            "durability": null
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": 1079064521,
     "name": "Celestium Daggers",
     "possibilities": [
@@ -46226,6 +46561,27 @@
     ]
   },
   {
+    "id": 1136823989,
+    "name": "Pirate's Map Drop Carpentry",
+    "possibilities": [
+      {
+        "probability": 99.90835,
+        "items": []
+      },
+      {
+        "probability": 0.09165,
+        "items": [
+          {
+            "item_id": 723635558,
+            "quantity": 1,
+            "item_type": "Item",
+            "durability": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": 1136976535,
     "name": "Umbracite Scissors",
     "possibilities": [
@@ -47635,6 +47991,27 @@
     ]
   },
   {
+    "id": 1181622391,
+    "name": "Pirate's Map Drop Fishing Large Fish",
+    "possibilities": [
+      {
+        "probability": 65.0,
+        "items": []
+      },
+      {
+        "probability": 35.0,
+        "items": [
+          {
+            "item_id": 723635558,
+            "quantity": 1,
+            "item_type": "Item",
+            "durability": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": 1183088259,
     "name": "Rathium Spear & Shield",
     "possibilities": [
@@ -48459,6 +48836,27 @@
         "items": [
           {
             "item_id": 147675237,
+            "quantity": 1,
+            "item_type": "Item",
+            "durability": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1211026182,
+    "name": "Pirate's Map Drop Farming",
+    "possibilities": [
+      {
+        "probability": 90.0,
+        "items": []
+      },
+      {
+        "probability": 10.0,
+        "items": [
+          {
+            "item_id": 723635558,
             "quantity": 1,
             "item_type": "Item",
             "durability": 0
@@ -50462,6 +50860,27 @@
     ]
   },
   {
+    "id": 1288686917,
+    "name": "Pirate's Map Drop Forestry",
+    "possibilities": [
+      {
+        "probability": 70.0,
+        "items": []
+      },
+      {
+        "probability": 30.0,
+        "items": [
+          {
+            "item_id": 723635558,
+            "quantity": 1,
+            "item_type": "Item",
+            "durability": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": 1288693195,
     "name": "Tier 5 Berry Experimentation",
     "possibilities": [
@@ -51438,6 +51857,27 @@
     ]
   },
   {
+    "id": 1327555973,
+    "name": "Pirate's Map Drop Leatherworking",
+    "possibilities": [
+      {
+        "probability": 92.0,
+        "items": []
+      },
+      {
+        "probability": 8.0,
+        "items": [
+          {
+            "item_id": 723635558,
+            "quantity": 1,
+            "item_type": "Item",
+            "durability": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": 1328224038,
     "name": "Sturdy Woven Belt",
     "possibilities": [
@@ -52298,6 +52738,27 @@
     ]
   },
   {
+    "id": 1357475602,
+    "name": "Pirate's Map Drop Hunting",
+    "possibilities": [
+      {
+        "probability": 88.8,
+        "items": []
+      },
+      {
+        "probability": 11.2,
+        "items": [
+          {
+            "item_id": 723635558,
+            "quantity": 1,
+            "item_type": "Item",
+            "durability": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": 1358141924,
     "name": "Celestium Plated Boots",
     "possibilities": [
@@ -52995,6 +53456,80 @@
     ]
   },
   {
+    "id": 1377289048,
+    "name": "Lost Pirate's Treasure",
+    "possibilities": [
+      {
+        "probability": 65.0,
+        "items": [
+          {
+            "item_id": 799533372,
+            "quantity": 100,
+            "item_type": "Item",
+            "durability": 0
+          },
+          {
+            "item_id": 1980259973,
+            "quantity": 1,
+            "item_type": "Item",
+            "durability": 0
+          }
+        ]
+      },
+      {
+        "probability": 25.0,
+        "items": [
+          {
+            "item_id": 799533372,
+            "quantity": 100,
+            "item_type": "Item",
+            "durability": 0
+          },
+          {
+            "item_id": 516153303,
+            "quantity": 1,
+            "item_type": "Item",
+            "durability": 0
+          }
+        ]
+      },
+      {
+        "probability": 7.0,
+        "items": [
+          {
+            "item_id": 799533372,
+            "quantity": 100,
+            "item_type": "Item",
+            "durability": 0
+          },
+          {
+            "item_id": 516153303,
+            "quantity": 2,
+            "item_type": "Item",
+            "durability": 0
+          }
+        ]
+      },
+      {
+        "probability": 3.0,
+        "items": [
+          {
+            "item_id": 799533372,
+            "quantity": 100,
+            "item_type": "Item",
+            "durability": 0
+          },
+          {
+            "item_id": 1973457411,
+            "quantity": 1,
+            "item_type": "Item",
+            "durability": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": 1378742131,
     "name": "GiantSkitch Strength or Armor Upgrade",
     "possibilities": [
@@ -53584,6 +54119,27 @@
         "items": [
           {
             "item_id": 553121338,
+            "quantity": 1,
+            "item_type": "Item",
+            "durability": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1412537275,
+    "name": "Pirate's Map Drop Fishing Giant Fish",
+    "possibilities": [
+      {
+        "probability": 30.0,
+        "items": []
+      },
+      {
+        "probability": 70.0,
+        "items": [
+          {
+            "item_id": 723635558,
             "quantity": 1,
             "item_type": "Item",
             "durability": 0
@@ -55827,6 +56383,45 @@
     ]
   },
   {
+    "id": 1493362130,
+    "name": "Pirate Weapon Furnace Output",
+    "possibilities": [
+      {
+        "probability": 40.0,
+        "items": [
+          {
+            "item_id": 370161387,
+            "quantity": 1,
+            "item_type": "Cargo",
+            "durability": null
+          }
+        ]
+      },
+      {
+        "probability": 30.0,
+        "items": [
+          {
+            "item_id": 303296732,
+            "quantity": 1,
+            "item_type": "Cargo",
+            "durability": null
+          }
+        ]
+      },
+      {
+        "probability": 30.0,
+        "items": [
+          {
+            "item_id": 498401240,
+            "quantity": 1,
+            "item_type": "Cargo",
+            "durability": null
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": 1493928713,
     "name": "Astralite Duelist Helm",
     "possibilities": [
@@ -57333,6 +57928,27 @@
     ]
   },
   {
+    "id": 1548381668,
+    "name": "Pirate's Map Drop Sailing",
+    "possibilities": [
+      {
+        "probability": 98.2,
+        "items": []
+      },
+      {
+        "probability": 1.8,
+        "items": [
+          {
+            "item_id": 723635558,
+            "quantity": 1,
+            "item_type": "Item",
+            "durability": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": 1549160848,
     "name": "Astralite Daggers",
     "possibilities": [
@@ -58764,13 +59380,13 @@
         "items": [
           {
             "item_id": 176021769,
-            "quantity": 10,
+            "quantity": 6,
             "item_type": "Item",
             "durability": 0
           },
           {
             "item_id": 4110010,
-            "quantity": 2,
+            "quantity": 1,
             "item_type": "Item",
             "durability": 0
           }
@@ -58781,7 +59397,7 @@
         "items": [
           {
             "item_id": 176021769,
-            "quantity": 5,
+            "quantity": 4,
             "item_type": "Item",
             "durability": 0
           },
@@ -58798,13 +59414,13 @@
         "items": [
           {
             "item_id": 176021769,
-            "quantity": 15,
+            "quantity": 7,
             "item_type": "Item",
             "durability": 0
           },
           {
             "item_id": 4110010,
-            "quantity": 5,
+            "quantity": 2,
             "item_type": "Item",
             "durability": 0
           },
@@ -61902,13 +62518,19 @@
         "items": [
           {
             "item_id": 176021769,
-            "quantity": 20,
+            "quantity": 10,
             "item_type": "Item",
             "durability": 0
           },
           {
             "item_id": 4110010,
-            "quantity": 10,
+            "quantity": 4,
+            "item_type": "Item",
+            "durability": 0
+          },
+          {
+            "item_id": 364728775,
+            "quantity": 1,
             "item_type": "Item",
             "durability": 0
           }
@@ -61919,13 +62541,19 @@
         "items": [
           {
             "item_id": 176021769,
-            "quantity": 15,
+            "quantity": 11,
             "item_type": "Item",
             "durability": 0
           },
           {
             "item_id": 4110010,
-            "quantity": 10,
+            "quantity": 5,
+            "item_type": "Item",
+            "durability": 0
+          },
+          {
+            "item_id": 364728775,
+            "quantity": 1,
             "item_type": "Item",
             "durability": 0
           }
@@ -61936,18 +62564,24 @@
         "items": [
           {
             "item_id": 176021769,
-            "quantity": 20,
+            "quantity": 12,
             "item_type": "Item",
             "durability": 0
           },
           {
             "item_id": 4110010,
-            "quantity": 10,
+            "quantity": 6,
             "item_type": "Item",
             "durability": 0
           },
           {
             "item_id": 367510376,
+            "quantity": 1,
+            "item_type": "Item",
+            "durability": 0
+          },
+          {
+            "item_id": 364728775,
             "quantity": 1,
             "item_type": "Item",
             "durability": 0
@@ -64061,6 +64695,27 @@
     ]
   },
   {
+    "id": 1762513583,
+    "name": "Pirate's Map Drop Foraging",
+    "possibilities": [
+      {
+        "probability": 91.2,
+        "items": []
+      },
+      {
+        "probability": 8.8,
+        "items": [
+          {
+            "item_id": 723635558,
+            "quantity": 1,
+            "item_type": "Item",
+            "durability": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": 1762727334,
     "name": "Elenvar Hammer",
     "possibilities": [
@@ -64114,13 +64769,13 @@
         "items": [
           {
             "item_id": 176021769,
-            "quantity": 15,
+            "quantity": 7,
             "item_type": "Item",
             "durability": 0
           },
           {
             "item_id": 4110010,
-            "quantity": 10,
+            "quantity": 2,
             "item_type": "Item",
             "durability": 0
           }
@@ -64131,13 +64786,13 @@
         "items": [
           {
             "item_id": 176021769,
-            "quantity": 10,
+            "quantity": 8,
             "item_type": "Item",
             "durability": 0
           },
           {
             "item_id": 4110010,
-            "quantity": 5,
+            "quantity": 3,
             "item_type": "Item",
             "durability": 0
           }
@@ -64148,13 +64803,13 @@
         "items": [
           {
             "item_id": 176021769,
-            "quantity": 15,
+            "quantity": 9,
             "item_type": "Item",
             "durability": 0
           },
           {
             "item_id": 4110010,
-            "quantity": 10,
+            "quantity": 3,
             "item_type": "Item",
             "durability": 0
           },
@@ -64578,6 +65233,27 @@
         "items": [
           {
             "item_id": 1809560712,
+            "quantity": 1,
+            "item_type": "Item",
+            "durability": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1785253577,
+    "name": "Pirate's Map Drop Masonry",
+    "possibilities": [
+      {
+        "probability": 88.0,
+        "items": []
+      },
+      {
+        "probability": 12.0,
+        "items": [
+          {
+            "item_id": 723635558,
             "quantity": 1,
             "item_type": "Item",
             "durability": 0
@@ -65224,6 +65900,45 @@
           {
             "item_id": 7529329,
             "quantity": 1,
+            "item_type": "Item",
+            "durability": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1808388008,
+    "name": "RandomDoubloon4to6",
+    "possibilities": [
+      {
+        "probability": 20.0,
+        "items": [
+          {
+            "item_id": 1604227260,
+            "quantity": 4,
+            "item_type": "Item",
+            "durability": 0
+          }
+        ]
+      },
+      {
+        "probability": 20.0,
+        "items": [
+          {
+            "item_id": 1604227260,
+            "quantity": 5,
+            "item_type": "Item",
+            "durability": 0
+          }
+        ]
+      },
+      {
+        "probability": 20.0,
+        "items": [
+          {
+            "item_id": 1604227260,
+            "quantity": 6,
             "item_type": "Item",
             "durability": 0
           }
@@ -67658,13 +68373,19 @@
         "items": [
           {
             "item_id": 176021769,
-            "quantity": 25,
+            "quantity": 15,
             "item_type": "Item",
             "durability": 0
           },
           {
             "item_id": 4110010,
-            "quantity": 15,
+            "quantity": 8,
+            "item_type": "Item",
+            "durability": 0
+          },
+          {
+            "item_id": 364728775,
+            "quantity": 1,
             "item_type": "Item",
             "durability": 0
           }
@@ -67675,13 +68396,19 @@
         "items": [
           {
             "item_id": 176021769,
-            "quantity": 20,
+            "quantity": 16,
             "item_type": "Item",
             "durability": 0
           },
           {
             "item_id": 4110010,
-            "quantity": 10,
+            "quantity": 9,
+            "item_type": "Item",
+            "durability": 0
+          },
+          {
+            "item_id": 364728775,
+            "quantity": 1,
             "item_type": "Item",
             "durability": 0
           }
@@ -67692,19 +68419,25 @@
         "items": [
           {
             "item_id": 176021769,
-            "quantity": 30,
+            "quantity": 17,
             "item_type": "Item",
             "durability": 0
           },
           {
             "item_id": 4110010,
-            "quantity": 20,
+            "quantity": 10,
             "item_type": "Item",
             "durability": 0
           },
           {
             "item_id": 367510376,
             "quantity": 2,
+            "item_type": "Item",
+            "durability": 0
+          },
+          {
+            "item_id": 364728775,
+            "quantity": 1,
             "item_type": "Item",
             "durability": 0
           }
@@ -68913,6 +69646,27 @@
         "items": [
           {
             "item_id": 630016518,
+            "quantity": 1,
+            "item_type": "Item",
+            "durability": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1915935809,
+    "name": "Pirate's Map Drop Vault 5",
+    "possibilities": [
+      {
+        "probability": 96.0,
+        "items": []
+      },
+      {
+        "probability": 4.0,
+        "items": [
+          {
+            "item_id": 723635558,
             "quantity": 1,
             "item_type": "Item",
             "durability": 0
