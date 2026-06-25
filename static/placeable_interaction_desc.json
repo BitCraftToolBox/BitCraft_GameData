@@ -99,6 +99,18 @@
           0,
           0
         ]
+      ],
+      [
+        1888703220,
+        1,
+        [
+          0,
+          []
+        ],
+        [
+          0,
+          0
+        ]
       ]
     ],
     "tool_requirements": [],
@@ -320,6 +332,45 @@
     "on_destroy_spawned_placeable_chance": 1.0
   },
   {
+    "id": 278073995,
+    "verb_phrase": "Gather",
+    "placeable_id": 996244657,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "consumed_item_stacks": [],
+    "output_item_stacks": [
+      [
+        758533407,
+        1,
+        [
+          0,
+          []
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    ],
+    "tool_requirements": [],
+    "level_requirements": [],
+    "experience_per_progress": [
+      [
+        3,
+        50.0
+      ]
+    ],
+    "time_requirement": 2.0,
+    "stamina_requirement": 0.0,
+    "tool_durability_lost": 0,
+    "range": 1,
+    "allow_use_hands": true,
+    "power_multiplier": 1.0,
+    "recipe_performance_id": 403,
+    "on_destroy_spawned_placeable_id": 0,
+    "on_destroy_spawned_placeable_chance": 0.0
+  },
+  {
     "id": 320361076,
     "verb_phrase": "Harvest",
     "placeable_id": 418902577,
@@ -493,6 +544,18 @@
     "output_item_stacks": [
       [
         487807463,
+        1,
+        [
+          0,
+          []
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      [
+        245103615,
         1,
         [
           0,
@@ -769,6 +832,18 @@
           0,
           0
         ]
+      ],
+      [
+        245103615,
+        1,
+        [
+          0,
+          []
+        ],
+        [
+          0,
+          0
+        ]
       ]
     ],
     "tool_requirements": [
@@ -891,6 +966,18 @@
       ],
       [
         988490764,
+        1,
+        [
+          0,
+          []
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      [
+        559662826,
         1,
         [
           0,
@@ -1065,6 +1152,18 @@
           0,
           0
         ]
+      ],
+      [
+        245103615,
+        1,
+        [
+          0,
+          []
+        ],
+        [
+          0,
+          0
+        ]
       ]
     ],
     "tool_requirements": [
@@ -1182,6 +1281,18 @@
     "output_item_stacks": [
       [
         328593851,
+        1,
+        [
+          0,
+          []
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      [
+        245103615,
         1,
         [
           0,
@@ -1436,6 +1547,18 @@
           0,
           0
         ]
+      ],
+      [
+        245103615,
+        1,
+        [
+          0,
+          []
+        ],
+        [
+          0,
+          0
+        ]
       ]
     ],
     "tool_requirements": [
@@ -1560,6 +1683,18 @@
           0,
           0
         ]
+      ],
+      [
+        1673213066,
+        1,
+        [
+          0,
+          []
+        ],
+        [
+          0,
+          0
+        ]
       ]
     ],
     "tool_requirements": [
@@ -1601,6 +1736,18 @@
     "output_item_stacks": [
       [
         1154551840,
+        1,
+        [
+          0,
+          []
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      [
+        245103615,
         1,
         [
           0,
@@ -1852,7 +1999,19 @@
     "consumed_item_stacks": [],
     "output_item_stacks": [
       [
-        1733972495,
+        772244452,
+        1,
+        [
+          0,
+          []
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      [
+        1110023549,
         1,
         [
           0,
@@ -1909,6 +2068,18 @@
       ],
       [
         1254002276,
+        1,
+        [
+          0,
+          []
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      [
+        910433,
         1,
         [
           0,
@@ -2040,6 +2211,51 @@
     "on_destroy_spawned_placeable_chance": 0.0
   },
   {
+    "id": 1470136551,
+    "verb_phrase": "Collect",
+    "placeable_id": 462222848,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "consumed_item_stacks": [],
+    "output_item_stacks": [
+      [
+        515373071,
+        1,
+        [
+          0,
+          []
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    ],
+    "tool_requirements": [
+      [
+        2,
+        3,
+        1
+      ]
+    ],
+    "level_requirements": [],
+    "experience_per_progress": [
+      [
+        3,
+        1000.0
+      ]
+    ],
+    "time_requirement": 1.6,
+    "stamina_requirement": 1.03,
+    "tool_durability_lost": 0,
+    "range": 1,
+    "allow_use_hands": false,
+    "power_multiplier": 1.0,
+    "recipe_performance_id": 157,
+    "on_destroy_spawned_placeable_id": 0,
+    "on_destroy_spawned_placeable_chance": 0.0
+  },
+  {
     "id": 1472303987,
     "verb_phrase": "Bait",
     "placeable_id": 1905291369,
@@ -2131,6 +2347,18 @@
     "output_item_stacks": [
       [
         1884841467,
+        1,
+        [
+          0,
+          []
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      [
+        1260764931,
         1,
         [
           0,
@@ -2268,6 +2496,62 @@
     "power_multiplier": 1.0,
     "recipe_performance_id": 403,
     "on_destroy_spawned_placeable_id": 1085581293,
+    "on_destroy_spawned_placeable_chance": 1.0
+  },
+  {
+    "id": 1606534161,
+    "verb_phrase": "Repair",
+    "placeable_id": 1301922780,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "consumed_item_stacks": [
+      [
+        758533407,
+        1,
+        [
+          0,
+          []
+        ],
+        1,
+        1.0
+      ]
+    ],
+    "output_item_stacks": [
+      [
+        1390264583,
+        1,
+        [
+          0,
+          []
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    ],
+    "tool_requirements": [
+      [
+        2,
+        3,
+        1
+      ]
+    ],
+    "level_requirements": [],
+    "experience_per_progress": [
+      [
+        3,
+        3.0
+      ]
+    ],
+    "time_requirement": 1.6,
+    "stamina_requirement": 1.03,
+    "tool_durability_lost": 0,
+    "range": 1,
+    "allow_use_hands": false,
+    "power_multiplier": 1.0,
+    "recipe_performance_id": 157,
+    "on_destroy_spawned_placeable_id": 462222848,
     "on_destroy_spawned_placeable_chance": 1.0
   },
   {

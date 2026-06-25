@@ -27102,6 +27102,100 @@
     "light_radius": 0
   },
   {
+    "id": 256671959,
+    "name": "Old Anvil",
+    "description": "An old and simple anvil for forging weapons.",
+    "flattenable": false,
+    "max_health": 1,
+    "ignore_damage": true,
+    "despawn_time": 0.0,
+    "model_asset_name": "Resources/OldAnvil",
+    "icon_asset_name": "GeneratedIcons/Other/OldAnvil",
+    "on_destroy_yield": [],
+    "on_destroy_yield_resource_id": 0,
+    "spawn_priority": 100,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          0,
+          []
+        ]
+      ]
+    ],
+    "tier": 3,
+    "tag": "Uncharted Resource",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": true,
+    "enemy_params_id": [],
+    "scheduled_respawn_time": 0.0,
+    "not_respawning": false,
+    "show_time_left": false,
+    "on_destroy_yield_resource_chance": 1.0,
+    "on_destroy_yield_resource_min_radius": 0,
+    "on_destroy_yield_resource_max_radius": 0,
+    "light_radius": 0
+  },
+  {
+    "id": 278317122,
+    "name": "Uncharted Shipment",
+    "description": "",
+    "flattenable": false,
+    "max_health": 10,
+    "ignore_damage": false,
+    "despawn_time": 0.0,
+    "model_asset_name": "Resources/UnchartedShipment",
+    "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Other/T2FloatingCargo",
+    "on_destroy_yield": [],
+    "on_destroy_yield_resource_id": 976413177,
+    "spawn_priority": 0,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          1,
+          []
+        ]
+      ],
+      [
+        0,
+        -1,
+        [
+          1,
+          []
+        ]
+      ],
+      [
+        1,
+        -1,
+        [
+          1,
+          []
+        ]
+      ]
+    ],
+    "tier": -1,
+    "tag": "Sailing Cargo",
+    "rarity": [
+      0,
+      {}
+    ],
+    "compendium_entry": true,
+    "enemy_params_id": [],
+    "scheduled_respawn_time": 0.0,
+    "not_respawning": false,
+    "show_time_left": false,
+    "on_destroy_yield_resource_chance": 1.0,
+    "on_destroy_yield_resource_min_radius": 0,
+    "on_destroy_yield_resource_max_radius": 0,
+    "light_radius": 0
+  },
+  {
     "id": 284200468,
     "name": "Tier 9 Flower",
     "description": "",
@@ -36496,6 +36590,93 @@
     "light_radius": 0
   },
   {
+    "id": 463864520,
+    "name": "Beach Water Geyser",
+    "description": "Used to rapidly cool metal.",
+    "flattenable": false,
+    "max_health": 1,
+    "ignore_damage": true,
+    "despawn_time": 0.0,
+    "model_asset_name": "Resources/BeachGeyser",
+    "icon_asset_name": "GeneratedIcons/Other/WaterGeyser",
+    "on_destroy_yield": [],
+    "on_destroy_yield_resource_id": 0,
+    "spawn_priority": 100,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        0,
+        -1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        -1,
+        0,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        -1,
+        1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        0,
+        1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        1,
+        0,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        1,
+        -1,
+        [
+          0,
+          []
+        ]
+      ]
+    ],
+    "tier": 3,
+    "tag": "Uncharted Resource",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": true,
+    "enemy_params_id": [],
+    "scheduled_respawn_time": 0.0,
+    "not_respawning": false,
+    "show_time_left": false,
+    "on_destroy_yield_resource_chance": 1.0,
+    "on_destroy_yield_resource_min_radius": 0,
+    "on_destroy_yield_resource_max_radius": 0,
+    "light_radius": 0
+  },
+  {
     "id": 464034838,
     "name": "Olivine Sand",
     "description": "",
@@ -41003,7 +41184,7 @@
     "on_destroy_yield_resource_chance": 1.0,
     "on_destroy_yield_resource_min_radius": 0,
     "on_destroy_yield_resource_max_radius": 0,
-    "light_radius": 0
+    "light_radius": 20
   },
   {
     "id": 715451185,
@@ -41182,6 +41363,45 @@
     ],
     "tier": 7,
     "tag": "Flower",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": true,
+    "enemy_params_id": [],
+    "scheduled_respawn_time": 0.0,
+    "not_respawning": false,
+    "show_time_left": false,
+    "on_destroy_yield_resource_chance": 1.0,
+    "on_destroy_yield_resource_min_radius": 0,
+    "on_destroy_yield_resource_max_radius": 0,
+    "light_radius": 0
+  },
+  {
+    "id": 729444410,
+    "name": "Old Furnace",
+    "description": "A furnace which could be used to rapidly smelt metal.",
+    "flattenable": false,
+    "max_health": 1,
+    "ignore_damage": true,
+    "despawn_time": 0.0,
+    "model_asset_name": "Resources/OldFurnace",
+    "icon_asset_name": "GeneratedIcons/Other/OldFurnace",
+    "on_destroy_yield": [],
+    "on_destroy_yield_resource_id": 0,
+    "spawn_priority": 0,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          0,
+          []
+        ]
+      ]
+    ],
+    "tier": 3,
+    "tag": "Uncharted Resource",
     "rarity": [
       1,
       {}
@@ -52201,6 +52421,61 @@
     "light_radius": 0
   },
   {
+    "id": 976413177,
+    "name": "Open Uncharted Shipment",
+    "description": "",
+    "flattenable": false,
+    "max_health": 1,
+    "ignore_damage": true,
+    "despawn_time": 0.0,
+    "model_asset_name": "Resources/UnchartedShipmentOpen",
+    "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Other/T2FloatingCargo",
+    "on_destroy_yield": [],
+    "on_destroy_yield_resource_id": 0,
+    "spawn_priority": 0,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          1,
+          []
+        ]
+      ],
+      [
+        0,
+        -1,
+        [
+          1,
+          []
+        ]
+      ],
+      [
+        1,
+        -1,
+        [
+          1,
+          []
+        ]
+      ]
+    ],
+    "tier": -1,
+    "tag": "Sailing Cargo",
+    "rarity": [
+      0,
+      {}
+    ],
+    "compendium_entry": true,
+    "enemy_params_id": [],
+    "scheduled_respawn_time": 0.0,
+    "not_respawning": false,
+    "show_time_left": true,
+    "on_destroy_yield_resource_chance": 1.0,
+    "on_destroy_yield_resource_min_radius": 0,
+    "on_destroy_yield_resource_max_radius": 0,
+    "light_radius": 0
+  },
+  {
     "id": 986344159,
     "name": "Medium Emarium Vein Interior Depleted",
     "description": "",
@@ -54156,7 +54431,7 @@
     "on_destroy_yield_resource_chance": 1.0,
     "on_destroy_yield_resource_min_radius": 0,
     "on_destroy_yield_resource_max_radius": 0,
-    "light_radius": 0
+    "light_radius": 20
   },
   {
     "id": 999376882,
@@ -55146,6 +55421,45 @@
       {}
     ],
     "compendium_entry": false,
+    "enemy_params_id": [],
+    "scheduled_respawn_time": 0.0,
+    "not_respawning": false,
+    "show_time_left": false,
+    "on_destroy_yield_resource_chance": 1.0,
+    "on_destroy_yield_resource_min_radius": 0,
+    "on_destroy_yield_resource_max_radius": 0,
+    "light_radius": 0
+  },
+  {
+    "id": 1084956366,
+    "name": "Lost Pirate's Treasure",
+    "description": "",
+    "flattenable": false,
+    "max_health": 1,
+    "ignore_damage": true,
+    "despawn_time": 0.0,
+    "model_asset_name": "Resources/LostPiratesTreasure",
+    "icon_asset_name": "GeneratedIcons/Other/PiratesTreasure",
+    "on_destroy_yield": [],
+    "on_destroy_yield_resource_id": 0,
+    "spawn_priority": 1,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          0,
+          []
+        ]
+      ]
+    ],
+    "tier": -1,
+    "tag": "Treasure",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": true,
     "enemy_params_id": [],
     "scheduled_respawn_time": 0.0,
     "not_respawning": false,
@@ -58446,7 +58760,7 @@
     "on_destroy_yield_resource_chance": 1.0,
     "on_destroy_yield_resource_min_radius": 0,
     "on_destroy_yield_resource_max_radius": 0,
-    "light_radius": 0
+    "light_radius": 20
   },
   {
     "id": 1125409070,
@@ -65848,6 +66162,45 @@
     "light_radius": 0
   },
   {
+    "id": 1427096797,
+    "name": "Pirate's Footlocker",
+    "description": "A chest from a long forgotten pirate. Pop it open and see what you can find!",
+    "flattenable": false,
+    "max_health": 1,
+    "ignore_damage": true,
+    "despawn_time": 0.0,
+    "model_asset_name": "Resources/PiratesFootlocker",
+    "icon_asset_name": "",
+    "on_destroy_yield": [],
+    "on_destroy_yield_resource_id": 0,
+    "spawn_priority": 100,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          0,
+          []
+        ]
+      ]
+    ],
+    "tier": 3,
+    "tag": "Uncharted Resource",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": true,
+    "enemy_params_id": [],
+    "scheduled_respawn_time": 0.0,
+    "not_respawning": false,
+    "show_time_left": false,
+    "on_destroy_yield_resource_chance": 1.0,
+    "on_destroy_yield_resource_min_radius": 0,
+    "on_destroy_yield_resource_max_radius": 0,
+    "light_radius": 0
+  },
+  {
     "id": 1435874592,
     "name": "Traveler's Tree (Depleted)",
     "description": "",
@@ -71433,6 +71786,58 @@
     "light_radius": 0
   },
   {
+    "id": 1626015312,
+    "name": "Driftwood",
+    "description": "",
+    "flattenable": false,
+    "max_health": 1000,
+    "ignore_damage": false,
+    "despawn_time": 3.0,
+    "model_asset_name": "Resources/Driftwood",
+    "icon_asset_name": "GeneratedIcons/Other/Driftwood",
+    "on_destroy_yield": [
+      [
+        1002,
+        1,
+        [
+          1,
+          []
+        ],
+        [
+          1,
+          []
+        ]
+      ]
+    ],
+    "on_destroy_yield_resource_id": 0,
+    "spawn_priority": 1,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          0,
+          []
+        ]
+      ]
+    ],
+    "tier": 3,
+    "tag": "Wood",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": true,
+    "enemy_params_id": [],
+    "scheduled_respawn_time": 10800.0,
+    "not_respawning": false,
+    "show_time_left": false,
+    "on_destroy_yield_resource_chance": 1.0,
+    "on_destroy_yield_resource_min_radius": 0,
+    "on_destroy_yield_resource_max_radius": 0,
+    "light_radius": 0
+  },
+  {
     "id": 1637125903,
     "name": "Flawless Mushroom",
     "description": "",
@@ -74296,7 +74701,7 @@
     "on_destroy_yield_resource_chance": 1.0,
     "on_destroy_yield_resource_min_radius": 0,
     "on_destroy_yield_resource_max_radius": 0,
-    "light_radius": 0
+    "light_radius": 20
   },
   {
     "id": 1731709368,
@@ -78694,7 +79099,7 @@
     "on_destroy_yield_resource_chance": 1.0,
     "on_destroy_yield_resource_min_radius": 0,
     "on_destroy_yield_resource_max_radius": 0,
-    "light_radius": 0
+    "light_radius": 20
   },
   {
     "id": 1978029892,
@@ -79953,6 +80358,45 @@
     "light_radius": 0
   },
   {
+    "id": 2004989308,
+    "name": "Shipwreck Steering Wheel",
+    "description": "A damaged steering wheel from the nearby Shipwreck.",
+    "flattenable": false,
+    "max_health": 1,
+    "ignore_damage": true,
+    "despawn_time": 0.0,
+    "model_asset_name": "Resources/ShipwreckedSteeringWheel",
+    "icon_asset_name": "GeneratedIcons/Items/ShipwreckSteeringWheel",
+    "on_destroy_yield": [],
+    "on_destroy_yield_resource_id": 0,
+    "spawn_priority": 100,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          0,
+          []
+        ]
+      ]
+    ],
+    "tier": -1,
+    "tag": "Shipwreck Materials",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": true,
+    "enemy_params_id": [],
+    "scheduled_respawn_time": 0.0,
+    "not_respawning": false,
+    "show_time_left": false,
+    "on_destroy_yield_resource_chance": 1.0,
+    "on_destroy_yield_resource_min_radius": 0,
+    "on_destroy_yield_resource_max_radius": 0,
+    "light_radius": 0
+  },
+  {
     "id": 2018876609,
     "name": "Lightly Chummed Inactive Paranensis Pod",
     "description": "",
@@ -80582,6 +81026,45 @@
     "enemy_params_id": [],
     "scheduled_respawn_time": 600.0,
     "not_respawning": true,
+    "show_time_left": false,
+    "on_destroy_yield_resource_chance": 1.0,
+    "on_destroy_yield_resource_min_radius": 0,
+    "on_destroy_yield_resource_max_radius": 0,
+    "light_radius": 0
+  },
+  {
+    "id": 2055102471,
+    "name": "Shipwreck Woodpile",
+    "description": "A pile of wood from the nearby Shipwreck.",
+    "flattenable": false,
+    "max_health": 1,
+    "ignore_damage": true,
+    "despawn_time": 0.0,
+    "model_asset_name": "Resources/ShipwreckedPlanks",
+    "icon_asset_name": "GeneratedIcons/Other/ShipwreckedPlankResource",
+    "on_destroy_yield": [],
+    "on_destroy_yield_resource_id": 0,
+    "spawn_priority": 100,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          0,
+          []
+        ]
+      ]
+    ],
+    "tier": -1,
+    "tag": "Shipwreck Materials",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": true,
+    "enemy_params_id": [],
+    "scheduled_respawn_time": 0.0,
+    "not_respawning": false,
     "show_time_left": false,
     "on_destroy_yield_resource_chance": 1.0,
     "on_destroy_yield_resource_min_radius": 0,
@@ -81337,6 +81820,45 @@
     "compendium_entry": true,
     "enemy_params_id": [],
     "scheduled_respawn_time": 600.0,
+    "not_respawning": false,
+    "show_time_left": false,
+    "on_destroy_yield_resource_chance": 1.0,
+    "on_destroy_yield_resource_min_radius": 0,
+    "on_destroy_yield_resource_max_radius": 0,
+    "light_radius": 0
+  },
+  {
+    "id": 2111113095,
+    "name": "Beach Whetstone",
+    "description": "A simple stone that is extremely smooth. Could be used to smooth out metal equipment.",
+    "flattenable": false,
+    "max_health": 1,
+    "ignore_damage": true,
+    "despawn_time": 0.0,
+    "model_asset_name": "Resources/BeachWhetstone",
+    "icon_asset_name": "GeneratedIcons/Other/BeachWhetstone",
+    "on_destroy_yield": [],
+    "on_destroy_yield_resource_id": 0,
+    "spawn_priority": 100,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          0,
+          []
+        ]
+      ]
+    ],
+    "tier": 3,
+    "tag": "Uncharted Resource",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": true,
+    "enemy_params_id": [],
+    "scheduled_respawn_time": 0.0,
     "not_respawning": false,
     "show_time_left": false,
     "on_destroy_yield_resource_chance": 1.0,
