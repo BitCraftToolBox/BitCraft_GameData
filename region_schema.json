@@ -5922,6 +5922,22 @@
               "algebraic_type": {
                 "Bool": []
               }
+            },
+            {
+              "name": {
+                "some": "cannot_store_in_buildings"
+              },
+              "algebraic_type": {
+                "Bool": []
+              }
+            },
+            {
+              "name": {
+                "some": "cannot_store_in_deployables"
+              },
+              "algebraic_type": {
+                "Bool": []
+              }
             }
           ]
         }
@@ -24447,6 +24463,14 @@
               "algebraic_type": {
                 "F32": []
               }
+            },
+            {
+              "name": {
+                "some": "single_contribution_only"
+              },
+              "algebraic_type": {
+                "Bool": []
+              }
             }
           ]
         }
@@ -25275,6 +25299,14 @@
             {
               "name": {
                 "some": "on_destroy_yield_resource_max_radius"
+              },
+              "algebraic_type": {
+                "I32": []
+              }
+            },
+            {
+              "name": {
+                "some": "light_radius"
               },
               "algebraic_type": {
                 "I32": []
@@ -70117,6 +70149,15 @@
             }
           }
         ]
+      },
+      "lifecycle": {
+        "none": []
+      }
+    },
+    {
+      "name": "admin_update_resource_light_source_states",
+      "params": {
+        "elements": []
       },
       "lifecycle": {
         "none": []

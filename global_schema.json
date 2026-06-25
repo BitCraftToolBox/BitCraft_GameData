@@ -4809,6 +4809,22 @@
               "algebraic_type": {
                 "Bool": []
               }
+            },
+            {
+              "name": {
+                "some": "cannot_store_in_buildings"
+              },
+              "algebraic_type": {
+                "Bool": []
+              }
+            },
+            {
+              "name": {
+                "some": "cannot_store_in_deployables"
+              },
+              "algebraic_type": {
+                "Bool": []
+              }
             }
           ]
         }
@@ -19976,6 +19992,14 @@
               "algebraic_type": {
                 "I32": []
               }
+            },
+            {
+              "name": {
+                "some": "light_radius"
+              },
+              "algebraic_type": {
+                "I32": []
+              }
             }
           ]
         }
@@ -32494,6 +32518,14 @@
               },
               "algebraic_type": {
                 "F32": []
+              }
+            },
+            {
+              "name": {
+                "some": "single_contribution_only"
+              },
+              "algebraic_type": {
+                "Bool": []
               }
             }
           ]
