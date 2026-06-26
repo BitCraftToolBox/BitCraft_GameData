@@ -69483,6 +69483,40 @@
       }
     },
     {
+      "name": "admin_remove_collectible",
+      "params": {
+        "elements": [
+          {
+            "name": {
+              "some": "identity"
+            },
+            "algebraic_type": {
+              "String": []
+            }
+          },
+          {
+            "name": {
+              "some": "collectible_id"
+            },
+            "algebraic_type": {
+              "I32": []
+            }
+          },
+          {
+            "name": {
+              "some": "quantity"
+            },
+            "algebraic_type": {
+              "U32": []
+            }
+          }
+        ]
+      },
+      "lifecycle": {
+        "none": []
+      }
+    },
+    {
       "name": "admin_rename_building",
       "params": {
         "elements": [
