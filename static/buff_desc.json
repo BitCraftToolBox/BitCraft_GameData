@@ -1003,6 +1003,36 @@
     "vfx_attachment_point": "Origin"
   },
   {
+    "id": 399249690,
+    "buff_type_id": 2041496537,
+    "description": "Soda Strength",
+    "priority": 1,
+    "duration": 180,
+    "warn_time": 0.0,
+    "online_timestamp": true,
+    "beneficial": true,
+    "icon_asset_name": "\\u003D",
+    "stats": [
+      {
+        "id": "Strength",
+        "value": 0.1,
+        "is_pct": true
+      },
+      {
+        "id": "GatheringSpeed",
+        "value": -0.05,
+        "is_pct": true
+      },
+      {
+        "id": "CraftingSpeed",
+        "value": -0.05,
+        "is_pct": true
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
     "id": 414991515,
     "buff_type_id": 1482558529,
     "description": "Ancient Mining Inspiration",
@@ -1222,6 +1252,26 @@
     "vfx_attachment_point": "Origin"
   },
   {
+    "id": 477324431,
+    "buff_type_id": 895887071,
+    "description": "Lost Construction Power",
+    "priority": 0,
+    "duration": 60,
+    "warn_time": 5.0,
+    "online_timestamp": false,
+    "beneficial": true,
+    "icon_asset_name": "\\u005D",
+    "stats": [
+      {
+        "id": "ConstructionPower",
+        "value": 4.0,
+        "is_pct": false
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
     "id": 478954807,
     "buff_type_id": 861783812,
     "description": "Level 7 Deluxe Action Speed",
@@ -1427,6 +1477,36 @@
     "vfx_attachment_point": "Origin"
   },
   {
+    "id": 590786294,
+    "buff_type_id": 861783812,
+    "description": "Winner's Popsicle",
+    "priority": 0,
+    "duration": 180,
+    "warn_time": 15.0,
+    "online_timestamp": true,
+    "beneficial": true,
+    "icon_asset_name": "\\u0015",
+    "stats": [
+      {
+        "id": "ActiveStaminaRegenRate",
+        "value": 0.15,
+        "is_pct": false
+      },
+      {
+        "id": "HeatProtection",
+        "value": 10.0,
+        "is_pct": false
+      },
+      {
+        "id": "ExperienceRate",
+        "value": 0.025,
+        "is_pct": true
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
     "id": 594147339,
     "buff_type_id": 755187973,
     "description": "Pristine Building Speed Elixir",
@@ -1575,6 +1655,26 @@
       {
         "id": "GatheringSpeed",
         "value": 0.098,
+        "is_pct": true
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 650321800,
+    "buff_type_id": 2041496537,
+    "description": "Soda Movement Speed",
+    "priority": 1,
+    "duration": 180,
+    "warn_time": 0.0,
+    "online_timestamp": true,
+    "beneficial": true,
+    "icon_asset_name": "\\u003D",
+    "stats": [
+      {
+        "id": "MovementMultiplier",
+        "value": 0.02,
         "is_pct": true
       }
     ],
@@ -2656,6 +2756,31 @@
         "id": "Accuracy",
         "value": -1.0,
         "is_pct": true
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 1197563447,
+    "buff_type_id": 861783812,
+    "description": "Popsicle",
+    "priority": 0,
+    "duration": 180,
+    "warn_time": 15.0,
+    "online_timestamp": true,
+    "beneficial": true,
+    "icon_asset_name": "\\u0015",
+    "stats": [
+      {
+        "id": "ActiveStaminaRegenRate",
+        "value": 0.1,
+        "is_pct": false
+      },
+      {
+        "id": "HeatProtection",
+        "value": 10.0,
+        "is_pct": false
       }
     ],
     "vfx": "",
@@ -4798,6 +4923,26 @@
       }
     ],
     "vfx": "BerserkerBuff_PurpleSmokeUp",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 2069367650,
+    "buff_type_id": 2041496537,
+    "description": "Soda Armor Buff",
+    "priority": 0,
+    "duration": 10,
+    "warn_time": 2.0,
+    "online_timestamp": true,
+    "beneficial": true,
+    "icon_asset_name": "\\u0061",
+    "stats": [
+      {
+        "id": "Armor",
+        "value": 0.05,
+        "is_pct": true
+      }
+    ],
+    "vfx": "",
     "vfx_attachment_point": "Origin"
   },
   {

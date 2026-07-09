@@ -38467,6 +38467,31 @@
     "show_in_progression": false
   },
   {
+    "item_id": 1200968403,
+    "slots": [
+      "HandArtifact"
+    ],
+    "visual_type": "Clothing",
+    "level_requirement": {
+      "skill_id": 1,
+      "level": 25
+    },
+    "clothing_visual": {
+      "meshe_names": []
+    },
+    "hand_equipment_visual": null,
+    "stats": [
+      {
+        "id": "BoatSpeed",
+        "value": 0.05,
+        "is_pct": true
+      }
+    ],
+    "required_achievements": [],
+    "required_knowledges": [],
+    "show_in_progression": false
+  },
+  {
     "item_id": 1201067083,
     "slots": [
       "MainHand",
@@ -43031,6 +43056,31 @@
       {
         "id": "MasonryCritMultiplier",
         "value": 0.32,
+        "is_pct": false
+      }
+    ],
+    "required_achievements": [],
+    "required_knowledges": [],
+    "show_in_progression": false
+  },
+  {
+    "item_id": 1351310577,
+    "slots": [
+      "FeetArtifact"
+    ],
+    "visual_type": "Clothing",
+    "level_requirement": {
+      "skill_id": 1,
+      "level": 1
+    },
+    "clothing_visual": {
+      "meshe_names": []
+    },
+    "hand_equipment_visual": null,
+    "stats": [
+      {
+        "id": "ConstructionPower",
+        "value": 4.0,
         "is_pct": false
       }
     ],

@@ -15846,6 +15846,39 @@
     "light_radius": 0
   },
   {
+    "id": 6021784,
+    "name": "Pineapple Bush",
+    "description": "",
+    "flattenable": false,
+    "max_health": 2500,
+    "ignore_damage": false,
+    "despawn_time": 3.0,
+    "model_asset_name": "Resources/PineappleBush",
+    "icon_asset_name": "GeneratedIcons/Other/PineappleBush",
+    "on_destroy_yield": [],
+    "on_destroy_yield_resource_id": 0,
+    "spawn_priority": 1,
+    "footprint": [
+      {
+        "x": 0,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      }
+    ],
+    "tier": 2,
+    "tag": "Fruit Tree",
+    "rarity": "Common",
+    "compendium_entry": true,
+    "enemy_params_id": [],
+    "scheduled_respawn_time": 0.0,
+    "not_respawning": false,
+    "show_time_left": false,
+    "on_destroy_yield_resource_chance": 1.0,
+    "on_destroy_yield_resource_min_radius": 0,
+    "on_destroy_yield_resource_max_radius": 0,
+    "light_radius": 0
+  },
+  {
     "id": 6110000,
     "name": "Vibrant Nano",
     "description": "",
@@ -18118,6 +18151,39 @@
     "light_radius": 0
   },
   {
+    "id": 155980492,
+    "name": "Silkmoth Swarm",
+    "description": "",
+    "flattenable": false,
+    "max_health": 1,
+    "ignore_damage": true,
+    "despawn_time": 2.0,
+    "model_asset_name": "Resources/UnchartedSilkmoths",
+    "icon_asset_name": "GeneratedIcons/Other/SilkenHexmoths",
+    "on_destroy_yield": [],
+    "on_destroy_yield_resource_id": 0,
+    "spawn_priority": 100,
+    "footprint": [
+      {
+        "x": 0,
+        "z": 0,
+        "footprint_type": "WalkableResource"
+      }
+    ],
+    "tier": 1,
+    "tag": "Uncharted Tailoring Resource",
+    "rarity": "Common",
+    "compendium_entry": true,
+    "enemy_params_id": [],
+    "scheduled_respawn_time": 0.0,
+    "not_respawning": false,
+    "show_time_left": false,
+    "on_destroy_yield_resource_chance": 1.0,
+    "on_destroy_yield_resource_min_radius": 0,
+    "on_destroy_yield_resource_max_radius": 0,
+    "light_radius": 0
+  },
+  {
     "id": 158059491,
     "name": "King Jakyl Puppy Den",
     "description": "",
@@ -19112,6 +19178,39 @@
     "enemy_params_id": [],
     "scheduled_respawn_time": 600.0,
     "not_respawning": true,
+    "show_time_left": false,
+    "on_destroy_yield_resource_chance": 1.0,
+    "on_destroy_yield_resource_min_radius": 0,
+    "on_destroy_yield_resource_max_radius": 0,
+    "light_radius": 0
+  },
+  {
+    "id": 252230092,
+    "name": "Depleted Silk Moth",
+    "description": "",
+    "flattenable": false,
+    "max_health": 1,
+    "ignore_damage": false,
+    "despawn_time": 0.0,
+    "model_asset_name": "Resources/DepletedResource",
+    "icon_asset_name": "Resources/DepletedResource",
+    "on_destroy_yield": [],
+    "on_destroy_yield_resource_id": 0,
+    "spawn_priority": 100,
+    "footprint": [
+      {
+        "x": 0,
+        "z": 0,
+        "footprint_type": "WalkableResource"
+      }
+    ],
+    "tier": -1,
+    "tag": "Uncharted Tailoring Resource",
+    "rarity": "Common",
+    "compendium_entry": false,
+    "enemy_params_id": [],
+    "scheduled_respawn_time": 0.0,
+    "not_respawning": false,
     "show_time_left": false,
     "on_destroy_yield_resource_chance": 1.0,
     "on_destroy_yield_resource_min_radius": 0,
@@ -25168,6 +25267,49 @@
     "light_radius": 0
   },
   {
+    "id": 440044897,
+    "name": "Fully Stocked Study Desk",
+    "description": "A study desk stocked full of materials for researching the nearby ruins.",
+    "flattenable": false,
+    "max_health": 1,
+    "ignore_damage": true,
+    "despawn_time": 0.0,
+    "model_asset_name": "Resources/UnchartedScholarStudyDesk",
+    "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Other/Buildings/Crafting/AncientScholarWorkstation",
+    "on_destroy_yield": [],
+    "on_destroy_yield_resource_id": 0,
+    "spawn_priority": 100,
+    "footprint": [
+      {
+        "x": 0,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 0,
+        "z": -1,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 0,
+        "z": 1,
+        "footprint_type": "Hitbox"
+      }
+    ],
+    "tier": -1,
+    "tag": "Uncharted Scholar",
+    "rarity": "Common",
+    "compendium_entry": true,
+    "enemy_params_id": [],
+    "scheduled_respawn_time": 0.0,
+    "not_respawning": false,
+    "show_time_left": true,
+    "on_destroy_yield_resource_chance": 1.0,
+    "on_destroy_yield_resource_min_radius": 0,
+    "on_destroy_yield_resource_max_radius": 0,
+    "light_radius": 0
+  },
+  {
     "id": 451150522,
     "name": "Beehive",
     "description": "",
@@ -25810,6 +25952,39 @@
     ],
     "tier": -1,
     "tag": "Ore Vein",
+    "rarity": "Common",
+    "compendium_entry": true,
+    "enemy_params_id": [],
+    "scheduled_respawn_time": 0.0,
+    "not_respawning": false,
+    "show_time_left": false,
+    "on_destroy_yield_resource_chance": 1.0,
+    "on_destroy_yield_resource_min_radius": 0,
+    "on_destroy_yield_resource_max_radius": 0,
+    "light_radius": 0
+  },
+  {
+    "id": 499827637,
+    "name": "Ice Chest",
+    "description": "",
+    "flattenable": false,
+    "max_health": 1,
+    "ignore_damage": true,
+    "despawn_time": 0.0,
+    "model_asset_name": "Resources/IceTreasureChest",
+    "icon_asset_name": "GeneratedIcons/Other/IceChest",
+    "on_destroy_yield": [],
+    "on_destroy_yield_resource_id": 0,
+    "spawn_priority": 1,
+    "footprint": [
+      {
+        "x": 0,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      }
+    ],
+    "tier": -1,
+    "tag": "Treasure",
     "rarity": "Common",
     "compendium_entry": true,
     "enemy_params_id": [],
@@ -28838,6 +29013,39 @@
     "enemy_params_id": [
       1473991888
     ],
+    "scheduled_respawn_time": 0.0,
+    "not_respawning": false,
+    "show_time_left": false,
+    "on_destroy_yield_resource_chance": 1.0,
+    "on_destroy_yield_resource_min_radius": 0,
+    "on_destroy_yield_resource_max_radius": 0,
+    "light_radius": 0
+  },
+  {
+    "id": 770389327,
+    "name": "Immortal's Research Storage",
+    "description": "A place to drop off research from the nearby ruin.",
+    "flattenable": false,
+    "max_health": 1,
+    "ignore_damage": true,
+    "despawn_time": 0.0,
+    "model_asset_name": "Resources/UnchartedScholarScrollJarImmortals",
+    "icon_asset_name": "GeneratedIcons/Other/Buildings/Storage/ChestStoneT3",
+    "on_destroy_yield": [],
+    "on_destroy_yield_resource_id": 0,
+    "spawn_priority": 100,
+    "footprint": [
+      {
+        "x": 0,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      }
+    ],
+    "tier": -1,
+    "tag": "Uncharted Scholar",
+    "rarity": "Common",
+    "compendium_entry": true,
+    "enemy_params_id": [],
     "scheduled_respawn_time": 0.0,
     "not_respawning": false,
     "show_time_left": false,
@@ -34460,6 +34668,82 @@
     "light_radius": 0
   },
   {
+    "id": 908226880,
+    "name": "Uncharted Monument",
+    "description": "A monument from the ancient times that details various factions of the ancient civilizations.",
+    "flattenable": false,
+    "max_health": 1,
+    "ignore_damage": true,
+    "despawn_time": 0.0,
+    "model_asset_name": "Resources/UnchartedScholarTapestry",
+    "icon_asset_name": "GeneratedIcons/Other/UnchartedScholarStudyDeskTapestry",
+    "on_destroy_yield": [],
+    "on_destroy_yield_resource_id": 0,
+    "spawn_priority": 100,
+    "footprint": [
+      {
+        "x": 0,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      }
+    ],
+    "tier": -1,
+    "tag": "Uncharted Scholar",
+    "rarity": "Common",
+    "compendium_entry": true,
+    "enemy_params_id": [],
+    "scheduled_respawn_time": 0.0,
+    "not_respawning": false,
+    "show_time_left": false,
+    "on_destroy_yield_resource_chance": 1.0,
+    "on_destroy_yield_resource_min_radius": 0,
+    "on_destroy_yield_resource_max_radius": 0,
+    "light_radius": 0
+  },
+  {
+    "id": 910147429,
+    "name": "Empty Study Desk",
+    "description": "A study desk that requires materials.",
+    "flattenable": false,
+    "max_health": 500,
+    "ignore_damage": false,
+    "despawn_time": 0.0,
+    "model_asset_name": "Resources/UnchartedScholarStudyDeskEmpty",
+    "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Other/Buildings/Crafting/AncientScholarWorkstation",
+    "on_destroy_yield": [],
+    "on_destroy_yield_resource_id": 1500289490,
+    "spawn_priority": 100,
+    "footprint": [
+      {
+        "x": 0,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 0,
+        "z": -1,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 0,
+        "z": 1,
+        "footprint_type": "Hitbox"
+      }
+    ],
+    "tier": -1,
+    "tag": "Uncharted Scholar",
+    "rarity": "Common",
+    "compendium_entry": true,
+    "enemy_params_id": [],
+    "scheduled_respawn_time": 0.0,
+    "not_respawning": false,
+    "show_time_left": false,
+    "on_destroy_yield_resource_chance": 1.0,
+    "on_destroy_yield_resource_min_radius": 0,
+    "on_destroy_yield_resource_max_radius": 0,
+    "light_radius": 0
+  },
+  {
     "id": 916586661,
     "name": "Rathium Outcrop Interior",
     "description": "",
@@ -34597,6 +34881,39 @@
     "enemy_params_id": [],
     "scheduled_respawn_time": 600.0,
     "not_respawning": true,
+    "show_time_left": false,
+    "on_destroy_yield_resource_chance": 1.0,
+    "on_destroy_yield_resource_min_radius": 0,
+    "on_destroy_yield_resource_max_radius": 0,
+    "light_radius": 0
+  },
+  {
+    "id": 925275042,
+    "name": "Oyster Shell",
+    "description": "",
+    "flattenable": false,
+    "max_health": 5,
+    "ignore_damage": false,
+    "despawn_time": 3.0,
+    "model_asset_name": "Resources/OysterShell",
+    "icon_asset_name": "GeneratedIcons/Other/Oyster",
+    "on_destroy_yield": [],
+    "on_destroy_yield_resource_id": 1939036936,
+    "spawn_priority": 1,
+    "footprint": [
+      {
+        "x": 0,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      }
+    ],
+    "tier": 1,
+    "tag": "Summer Resource",
+    "rarity": "Common",
+    "compendium_entry": true,
+    "enemy_params_id": [],
+    "scheduled_respawn_time": 0.0,
+    "not_respawning": false,
     "show_time_left": false,
     "on_destroy_yield_resource_chance": 1.0,
     "on_destroy_yield_resource_min_radius": 0,
@@ -41821,6 +42138,39 @@
     "light_radius": 0
   },
   {
+    "id": 1225153871,
+    "name": "Starseeker's Research Storage",
+    "description": "A place to drop off research from the nearby ruin.",
+    "flattenable": false,
+    "max_health": 1,
+    "ignore_damage": true,
+    "despawn_time": 0.0,
+    "model_asset_name": "Resources/UnchartedScholarScrollJarStarseekers",
+    "icon_asset_name": "GeneratedIcons/Other/Buildings/Storage/ChestStoneT3",
+    "on_destroy_yield": [],
+    "on_destroy_yield_resource_id": 0,
+    "spawn_priority": 100,
+    "footprint": [
+      {
+        "x": 0,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      }
+    ],
+    "tier": -1,
+    "tag": "Uncharted Scholar",
+    "rarity": "Common",
+    "compendium_entry": true,
+    "enemy_params_id": [],
+    "scheduled_respawn_time": 0.0,
+    "not_respawning": false,
+    "show_time_left": false,
+    "on_destroy_yield_resource_chance": 1.0,
+    "on_destroy_yield_resource_min_radius": 0,
+    "on_destroy_yield_resource_max_radius": 0,
+    "light_radius": 0
+  },
+  {
     "id": 1235656080,
     "name": "Hidden Resource",
     "description": "",
@@ -42056,6 +42406,39 @@
     ],
     "tier": -1,
     "tag": "Lava",
+    "rarity": "Common",
+    "compendium_entry": true,
+    "enemy_params_id": [],
+    "scheduled_respawn_time": 0.0,
+    "not_respawning": false,
+    "show_time_left": false,
+    "on_destroy_yield_resource_chance": 1.0,
+    "on_destroy_yield_resource_min_radius": 0,
+    "on_destroy_yield_resource_max_radius": 0,
+    "light_radius": 0
+  },
+  {
+    "id": 1255593240,
+    "name": "Futuremaker's Research Storage",
+    "description": "A place to drop off research from the nearby ruin.",
+    "flattenable": false,
+    "max_health": 1,
+    "ignore_damage": true,
+    "despawn_time": 0.0,
+    "model_asset_name": "Resources/UnchartedScholarScrollJarFuturemakers",
+    "icon_asset_name": "GeneratedIcons/Other/Buildings/Storage/ChestStoneT3",
+    "on_destroy_yield": [],
+    "on_destroy_yield_resource_id": 0,
+    "spawn_priority": 100,
+    "footprint": [
+      {
+        "x": 0,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      }
+    ],
+    "tier": -1,
+    "tag": "Uncharted Scholar",
     "rarity": "Common",
     "compendium_entry": true,
     "enemy_params_id": [],
@@ -45356,6 +45739,49 @@
     ],
     "tier": 10,
     "tag": "Fiber Plant",
+    "rarity": "Common",
+    "compendium_entry": true,
+    "enemy_params_id": [],
+    "scheduled_respawn_time": 0.0,
+    "not_respawning": false,
+    "show_time_left": false,
+    "on_destroy_yield_resource_chance": 1.0,
+    "on_destroy_yield_resource_min_radius": 0,
+    "on_destroy_yield_resource_max_radius": 0,
+    "light_radius": 0
+  },
+  {
+    "id": 1500289490,
+    "name": "Partially Stocked Study Desk",
+    "description": "A study desk that requires materials.",
+    "flattenable": false,
+    "max_health": 500,
+    "ignore_damage": false,
+    "despawn_time": 0.0,
+    "model_asset_name": "Resources/UnchartedScholarStudyDeskParchment",
+    "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Other/Buildings/Crafting/AncientScholarWorkstation",
+    "on_destroy_yield": [],
+    "on_destroy_yield_resource_id": 440044897,
+    "spawn_priority": 100,
+    "footprint": [
+      {
+        "x": 0,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 0,
+        "z": -1,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 0,
+        "z": 1,
+        "footprint_type": "Hitbox"
+      }
+    ],
+    "tier": -1,
+    "tag": "Uncharted Scholar",
     "rarity": "Common",
     "compendium_entry": true,
     "enemy_params_id": [],
@@ -48864,6 +49290,49 @@
     "light_radius": 0
   },
   {
+    "id": 1690549080,
+    "name": "Overgrown Loom",
+    "description": "An old loom used for weaving Silkmoth Silk.",
+    "flattenable": false,
+    "max_health": 1,
+    "ignore_damage": true,
+    "despawn_time": 0.0,
+    "model_asset_name": "Resources/UnchartedAncientLoom",
+    "icon_asset_name": "GeneratedIcons/Other/Buildings/Crafting/LoomT1",
+    "on_destroy_yield": [],
+    "on_destroy_yield_resource_id": 0,
+    "spawn_priority": 100,
+    "footprint": [
+      {
+        "x": 0,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 0,
+        "z": 1,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 1,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      }
+    ],
+    "tier": 3,
+    "tag": "Uncharted Resource",
+    "rarity": "Common",
+    "compendium_entry": true,
+    "enemy_params_id": [],
+    "scheduled_respawn_time": 0.0,
+    "not_respawning": false,
+    "show_time_left": false,
+    "on_destroy_yield_resource_chance": 1.0,
+    "on_destroy_yield_resource_min_radius": 0,
+    "on_destroy_yield_resource_max_radius": 0,
+    "light_radius": 0
+  },
+  {
     "id": 1691492474,
     "name": "Coral Sand",
     "description": "",
@@ -48899,6 +49368,39 @@
     "compendium_entry": true,
     "enemy_params_id": [],
     "scheduled_respawn_time": 600.0,
+    "not_respawning": false,
+    "show_time_left": false,
+    "on_destroy_yield_resource_chance": 1.0,
+    "on_destroy_yield_resource_min_radius": 0,
+    "on_destroy_yield_resource_max_radius": 0,
+    "light_radius": 0
+  },
+  {
+    "id": 1693390912,
+    "name": "Rumbagh's Spare Ink",
+    "description": "Rumbagh's spare storage of ink. Use it to stock up the nearby Study Desk.",
+    "flattenable": false,
+    "max_health": 1,
+    "ignore_damage": true,
+    "despawn_time": 0.0,
+    "model_asset_name": "Resources/UnchartedScholarInkPile",
+    "icon_asset_name": "GeneratedIcons/Items/Ink",
+    "on_destroy_yield": [],
+    "on_destroy_yield_resource_id": 0,
+    "spawn_priority": 100,
+    "footprint": [
+      {
+        "x": 0,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      }
+    ],
+    "tier": -1,
+    "tag": "Uncharted Scholar",
+    "rarity": "Common",
+    "compendium_entry": true,
+    "enemy_params_id": [],
+    "scheduled_respawn_time": 0.0,
     "not_respawning": false,
     "show_time_left": false,
     "on_destroy_yield_resource_chance": 1.0,
@@ -51761,6 +52263,72 @@
     "light_radius": 0
   },
   {
+    "id": 1831266605,
+    "name": "Banana Tree",
+    "description": "",
+    "flattenable": false,
+    "max_health": 3000,
+    "ignore_damage": false,
+    "despawn_time": 3.0,
+    "model_asset_name": "Resources/BananaTree",
+    "icon_asset_name": "GeneratedIcons/Other/BananaTree",
+    "on_destroy_yield": [],
+    "on_destroy_yield_resource_id": 0,
+    "spawn_priority": 1,
+    "footprint": [
+      {
+        "x": 0,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      }
+    ],
+    "tier": 4,
+    "tag": "Fruit Tree",
+    "rarity": "Common",
+    "compendium_entry": true,
+    "enemy_params_id": [],
+    "scheduled_respawn_time": 0.0,
+    "not_respawning": false,
+    "show_time_left": false,
+    "on_destroy_yield_resource_chance": 1.0,
+    "on_destroy_yield_resource_min_radius": 0,
+    "on_destroy_yield_resource_max_radius": 0,
+    "light_radius": 0
+  },
+  {
+    "id": 1840475867,
+    "name": "Rumbagh's Spare Parchment",
+    "description": "Rumbagh's spare storage of parchment. Use it to stock up the nearby Study Desk.",
+    "flattenable": false,
+    "max_health": 1,
+    "ignore_damage": true,
+    "despawn_time": 0.0,
+    "model_asset_name": "Resources/UnchartedScholarParchmentPile",
+    "icon_asset_name": "GeneratedIcons/Items/Parchment",
+    "on_destroy_yield": [],
+    "on_destroy_yield_resource_id": 0,
+    "spawn_priority": 100,
+    "footprint": [
+      {
+        "x": 0,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      }
+    ],
+    "tier": -1,
+    "tag": "Uncharted Scholar",
+    "rarity": "Common",
+    "compendium_entry": true,
+    "enemy_params_id": [],
+    "scheduled_respawn_time": 0.0,
+    "not_respawning": false,
+    "show_time_left": false,
+    "on_destroy_yield_resource_chance": 1.0,
+    "on_destroy_yield_resource_min_radius": 0,
+    "on_destroy_yield_resource_max_radius": 0,
+    "light_radius": 0
+  },
+  {
     "id": 1842369948,
     "name": "Medium Pyrelite Vein Interior Depleted",
     "description": "",
@@ -52146,6 +52714,39 @@
     "enemy_params_id": [],
     "scheduled_respawn_time": 0.0,
     "not_respawning": true,
+    "show_time_left": false,
+    "on_destroy_yield_resource_chance": 1.0,
+    "on_destroy_yield_resource_min_radius": 0,
+    "on_destroy_yield_resource_max_radius": 0,
+    "light_radius": 0
+  },
+  {
+    "id": 1939036936,
+    "name": "Oyster Shell Open",
+    "description": "",
+    "flattenable": false,
+    "max_health": 1,
+    "ignore_damage": true,
+    "despawn_time": 3.0,
+    "model_asset_name": "Resources/OysterShellOpen",
+    "icon_asset_name": "GeneratedIcons/Other/Oyster",
+    "on_destroy_yield": [],
+    "on_destroy_yield_resource_id": 0,
+    "spawn_priority": 1,
+    "footprint": [
+      {
+        "x": 0,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      }
+    ],
+    "tier": 1,
+    "tag": "Summer Resource",
+    "rarity": "Common",
+    "compendium_entry": true,
+    "enemy_params_id": [],
+    "scheduled_respawn_time": 0.0,
+    "not_respawning": false,
     "show_time_left": false,
     "on_destroy_yield_resource_chance": 1.0,
     "on_destroy_yield_resource_min_radius": 0,
@@ -53402,6 +54003,39 @@
     "on_destroy_yield_resource_min_radius": 0,
     "on_destroy_yield_resource_max_radius": 0,
     "light_radius": 20
+  },
+  {
+    "id": 1977811738,
+    "name": "Packed Ice",
+    "description": "",
+    "flattenable": false,
+    "max_health": 20,
+    "ignore_damage": false,
+    "despawn_time": 3.0,
+    "model_asset_name": "Resources/PackedIce",
+    "icon_asset_name": "GeneratedIcons/Other/PackedIce",
+    "on_destroy_yield": [],
+    "on_destroy_yield_resource_id": 0,
+    "spawn_priority": 1,
+    "footprint": [
+      {
+        "x": 0,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      }
+    ],
+    "tier": 1,
+    "tag": "Summer Resource",
+    "rarity": "Common",
+    "compendium_entry": true,
+    "enemy_params_id": [],
+    "scheduled_respawn_time": 0.0,
+    "not_respawning": false,
+    "show_time_left": false,
+    "on_destroy_yield_resource_chance": 1.0,
+    "on_destroy_yield_resource_min_radius": 0,
+    "on_destroy_yield_resource_max_radius": 0,
+    "light_radius": 0
   },
   {
     "id": 1978029892,

@@ -2211,6 +2211,37 @@
     "hide_with_blocking_knowledges": false
   },
   {
+    "id": 666774860,
+    "starting_stock": 2147483647,
+    "always_offered": true,
+    "traveler": "Rumbagh",
+    "offer_items": [
+      {
+        "item_id": 1604227260,
+        "quantity": 8,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "offer_cargo_id": [],
+    "required_items": [
+      {
+        "item_id": 42024058,
+        "quantity": 1,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "required_cargo_id": [],
+    "level_requirements": [],
+    "achievement_requirements": [],
+    "hide_if_requirements_are_not_met": false,
+    "required_knowledges": [],
+    "hide_without_required_knowledge": false,
+    "blocking_knowledges": [],
+    "hide_with_blocking_knowledges": false
+  },
+  {
     "id": 672513404,
     "starting_stock": 2147483647,
     "always_offered": true,
@@ -3469,6 +3500,37 @@
       2141686838
     ],
     "hide_with_blocking_knowledges": true
+  },
+  {
+    "id": 957252901,
+    "starting_stock": 2147483647,
+    "always_offered": true,
+    "traveler": "Twins",
+    "offer_items": [
+      {
+        "item_id": 1604227260,
+        "quantity": 150,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "offer_cargo_id": [],
+    "required_items": [
+      {
+        "item_id": 1602337561,
+        "quantity": 1,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "required_cargo_id": [],
+    "level_requirements": [],
+    "achievement_requirements": [],
+    "hide_if_requirements_are_not_met": false,
+    "required_knowledges": [],
+    "hide_without_required_knowledge": false,
+    "blocking_knowledges": [],
+    "hide_with_blocking_knowledges": false
   },
   {
     "id": 965452167,
@@ -5055,7 +5117,7 @@
     "offer_items": [
       {
         "item_id": 1604227260,
-        "quantity": 10,
+        "quantity": 20,
         "item_type": "Item",
         "durability": 0
       }
@@ -6024,6 +6086,42 @@
       264186244
     ],
     "hide_with_blocking_knowledges": true
+  },
+  {
+    "id": 1705534862,
+    "starting_stock": 2147483647,
+    "always_offered": true,
+    "traveler": "Heimlich",
+    "offer_items": [
+      {
+        "item_id": 72870367,
+        "quantity": 10,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "offer_cargo_id": [],
+    "required_items": [
+      {
+        "item_id": 1,
+        "quantity": 10,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "required_cargo_id": [],
+    "level_requirements": [
+      {
+        "skill_id": 13,
+        "level": 20
+      }
+    ],
+    "achievement_requirements": [],
+    "hide_if_requirements_are_not_met": false,
+    "required_knowledges": [],
+    "hide_without_required_knowledge": false,
+    "blocking_knowledges": [],
+    "hide_with_blocking_knowledges": false
   },
   {
     "id": 1705785241,

@@ -19,6 +19,20 @@
     "is_enabled": false
   },
   {
+    "id": 34611822,
+    "name": "Cat-eye Sunglasses",
+    "description": "Premium face accessory cosmetic.",
+    "image_address": "PremiumIcons/CabanaCateyeSunglasses",
+    "collectible_ids": [
+      1920175308
+    ],
+    "price": 1500,
+    "base_price": 1500,
+    "quantity": 1,
+    "sorting_priority": 4,
+    "is_enabled": true
+  },
+  {
     "id": 48560198,
     "name": "Everwoods Healer's Outfit",
     "description": "A bundle which contains the Everwoods Hearler outfit. This outfit includes a head, torso, belt, hand, leg and feet slot clothing piece. ",
@@ -52,6 +66,24 @@
     "quantity": 1,
     "sorting_priority": 10,
     "is_enabled": false
+  },
+  {
+    "id": 71866248,
+    "name": "Cabana Islander",
+    "description": "Includes the full Cabana Islander outfit.",
+    "image_address": "PremiumIcons/CabanaIslanderOutfit",
+    "collectible_ids": [
+      1154587348,
+      1618294704,
+      814677646,
+      1068641478,
+      1894184772
+    ],
+    "price": 5000,
+    "base_price": 5000,
+    "quantity": 1,
+    "sorting_priority": 3,
+    "is_enabled": true
   },
   {
     "id": 75384237,
@@ -253,7 +285,7 @@
     "base_price": 5000,
     "quantity": 1,
     "sorting_priority": 8,
-    "is_enabled": true
+    "is_enabled": false
   },
   {
     "id": 176953170,
@@ -327,7 +359,7 @@
     "base_price": 10000,
     "quantity": 20,
     "sorting_priority": 7,
-    "is_enabled": true
+    "is_enabled": false
   },
   {
     "id": 287639193,
@@ -377,7 +409,7 @@
     "price": 5000,
     "base_price": 5000,
     "quantity": 1,
-    "sorting_priority": 5,
+    "sorting_priority": 9,
     "is_enabled": true
   },
   {
@@ -391,7 +423,7 @@
     "price": 3000,
     "base_price": 5000,
     "quantity": 10,
-    "sorting_priority": 5,
+    "sorting_priority": 9,
     "is_enabled": true
   },
   {
@@ -488,7 +520,30 @@
     "price": 12500,
     "base_price": 20000,
     "quantity": 1,
-    "sorting_priority": 3,
+    "sorting_priority": 7,
+    "is_enabled": true
+  },
+  {
+    "id": 347958014,
+    "name": "Cabana Vacationer Pair",
+    "description": "Includes Cabana Beachcomber and Cabana Islander.",
+    "image_address": "PremiumIcons/CabanaVacationerPairBundle",
+    "collectible_ids": [
+      2049971240,
+      1952036006,
+      465899228,
+      1380160037,
+      1967544741,
+      1154587348,
+      1618294704,
+      814677646,
+      1068641478,
+      1894184772
+    ],
+    "price": 7500,
+    "base_price": 10000,
+    "quantity": 1,
+    "sorting_priority": 2,
     "is_enabled": true
   },
   {
@@ -508,7 +563,7 @@
     "base_price": 5000,
     "quantity": 1,
     "sorting_priority": 8,
-    "is_enabled": true
+    "is_enabled": false
   },
   {
     "id": 365543061,
@@ -574,7 +629,7 @@
     "price": 7500,
     "base_price": 10000,
     "quantity": 1,
-    "sorting_priority": 4,
+    "sorting_priority": 8,
     "is_enabled": true
   },
   {
@@ -657,7 +712,7 @@
     "base_price": 15000,
     "quantity": 1,
     "sorting_priority": 4,
-    "is_enabled": true
+    "is_enabled": false
   },
   {
     "id": 462473509,
@@ -681,7 +736,22 @@
     "price": 7500,
     "base_price": 10000,
     "quantity": 1,
-    "sorting_priority": 3,
+    "sorting_priority": 7,
+    "is_enabled": true
+  },
+  {
+    "id": 463258523,
+    "name": "Inflatable Raft Appearances",
+    "description": "Includes both inflatable raft appearances.",
+    "image_address": "PremiumIcons/CabanaInflatableRaftBundle",
+    "collectible_ids": [
+      1173256737,
+      1837805849
+    ],
+    "price": 3750,
+    "base_price": 5000,
+    "quantity": 1,
+    "sorting_priority": 2,
     "is_enabled": true
   },
   {
@@ -747,7 +817,7 @@
     "price": 5000,
     "base_price": 5000,
     "quantity": 1,
-    "sorting_priority": 4,
+    "sorting_priority": 8,
     "is_enabled": true
   },
   {
@@ -771,6 +841,53 @@
     ],
     "price": 7500,
     "base_price": 10000,
+    "quantity": 1,
+    "sorting_priority": 6,
+    "is_enabled": true
+  },
+  {
+    "id": 529011559,
+    "name": "Inflatable Pink Raft Appearance",
+    "description": "Unlocks an alternate appearance for your raft deployables.",
+    "image_address": "PremiumIcons/CabanaInflatablePinkRaftAppearance",
+    "collectible_ids": [
+      1837805849
+    ],
+    "price": 2500,
+    "base_price": 2500,
+    "quantity": 1,
+    "sorting_priority": 3,
+    "is_enabled": true
+  },
+  {
+    "id": 531470121,
+    "name": "Cabana Beachcomber",
+    "description": "Includes the full Cabana Beachcomber outfit.",
+    "image_address": "PremiumIcons/CabanaBeachcomberOutfit",
+    "collectible_ids": [
+      2049971240,
+      1952036006,
+      465899228,
+      1380160037,
+      1967544741
+    ],
+    "price": 5000,
+    "base_price": 5000,
+    "quantity": 1,
+    "sorting_priority": 2,
+    "is_enabled": true
+  },
+  {
+    "id": 545530725,
+    "name": "Pet Pair",
+    "description": "Includes Krusty and Clawdia.",
+    "image_address": "PremiumIcons/CabanaPetPair",
+    "collectible_ids": [
+      583181721,
+      39379045
+    ],
+    "price": 10000,
+    "base_price": 15000,
     "quantity": 1,
     "sorting_priority": 2,
     "is_enabled": true
@@ -900,7 +1017,7 @@
     "base_price": 35000,
     "quantity": 1,
     "sorting_priority": 3,
-    "is_enabled": true
+    "is_enabled": false
   },
   {
     "id": 595151085,
@@ -1036,6 +1153,20 @@
     "base_price": 7500,
     "quantity": 1,
     "sorting_priority": 4,
+    "is_enabled": false
+  },
+  {
+    "id": 672883885,
+    "name": "Inflatable Blue Raft Appearance",
+    "description": "Unlocks an alternate appearance for your raft deployables.",
+    "image_address": "PremiumIcons/CabanaInflatableBlueRaftAppearance",
+    "collectible_ids": [
+      1173256737
+    ],
+    "price": 2500,
+    "base_price": 2500,
+    "quantity": 1,
+    "sorting_priority": 3,
     "is_enabled": true
   },
   {
@@ -1084,7 +1215,7 @@
     "price": 5000,
     "base_price": 5000,
     "quantity": 1,
-    "sorting_priority": 4,
+    "sorting_priority": 8,
     "is_enabled": true
   },
   {
@@ -1139,7 +1270,7 @@
     "base_price": 10000,
     "quantity": 1,
     "sorting_priority": 5,
-    "is_enabled": true
+    "is_enabled": false
   },
   {
     "id": 738676872,
@@ -1164,7 +1295,7 @@
     "base_price": 10000,
     "quantity": 1,
     "sorting_priority": 5,
-    "is_enabled": true
+    "is_enabled": false
   },
   {
     "id": 747561879,
@@ -1189,7 +1320,7 @@
     "base_price": 10000,
     "quantity": 1,
     "sorting_priority": 5,
-    "is_enabled": true
+    "is_enabled": false
   },
   {
     "id": 772378426,
@@ -1208,6 +1339,20 @@
     "base_price": 5000,
     "quantity": 1,
     "sorting_priority": 8,
+    "is_enabled": false
+  },
+  {
+    "id": 776168039,
+    "name": "Swimming Goggles",
+    "description": "Premium face accessory cosmetic.",
+    "image_address": "PremiumIcons/CabanaSwimmingGoggles",
+    "collectible_ids": [
+      1476711651
+    ],
+    "price": 2000,
+    "base_price": 2000,
+    "quantity": 1,
+    "sorting_priority": 4,
     "is_enabled": true
   },
   {
@@ -1361,7 +1506,7 @@
     "price": 3000,
     "base_price": 3000,
     "quantity": 1,
-    "sorting_priority": 4,
+    "sorting_priority": 8,
     "is_enabled": true
   },
   {
@@ -1421,6 +1566,20 @@
     "base_price": 10000,
     "quantity": 1,
     "sorting_priority": 5,
+    "is_enabled": false
+  },
+  {
+    "id": 882874888,
+    "name": "Aviator Sunglasses",
+    "description": "Premium face accessory cosmetic.",
+    "image_address": "PremiumIcons/CabanaAviatorSunglasses",
+    "collectible_ids": [
+      924042216
+    ],
+    "price": 2000,
+    "base_price": 2000,
+    "quantity": 1,
+    "sorting_priority": 4,
     "is_enabled": true
   },
   {
@@ -1603,7 +1762,7 @@
     "price": 32000,
     "base_price": 43000,
     "quantity": 1,
-    "sorting_priority": 0,
+    "sorting_priority": 4,
     "is_enabled": true
   },
   {
@@ -1769,6 +1928,29 @@
     "is_enabled": true
   },
   {
+    "id": 1083258050,
+    "name": "Cabana Lounger Pair",
+    "description": "Includes Cabana Icon and Cabana Islander.",
+    "image_address": "PremiumIcons/CabanaLoungerPairBundle",
+    "collectible_ids": [
+      944271032,
+      100592681,
+      758910392,
+      370161722,
+      2022073953,
+      1154587348,
+      1618294704,
+      814677646,
+      1068641478,
+      1894184772
+    ],
+    "price": 7500,
+    "base_price": 10000,
+    "quantity": 1,
+    "sorting_priority": 2,
+    "is_enabled": true
+  },
+  {
     "id": 1091957485,
     "name": "Emote: Twirl Dance",
     "description": "This provides you with a new dance for your character! Once purchased, it can be found in your vault",
@@ -1802,6 +1984,24 @@
     "is_enabled": false
   },
   {
+    "id": 1217687147,
+    "name": "Cabana Trendsetter",
+    "description": "Includes the full Cabana Trendsetter outfit.",
+    "image_address": "PremiumIcons/CabanaTrendsetterOutfit",
+    "collectible_ids": [
+      517422112,
+      1805855090,
+      191376461,
+      334679700,
+      1919559265
+    ],
+    "price": 5000,
+    "base_price": 5000,
+    "quantity": 1,
+    "sorting_priority": 3,
+    "is_enabled": true
+  },
+  {
     "id": 1218648291,
     "name": "Maple",
     "description": "A cute little deer pet that looks right at home in the Autumn Everwoods.",
@@ -1813,6 +2013,29 @@
     "base_price": 7500,
     "quantity": 1,
     "sorting_priority": 5,
+    "is_enabled": true
+  },
+  {
+    "id": 1262764715,
+    "name": "Cabana Curators Pair",
+    "description": "Includes Cabana Trendsetter and Cabana Icon.",
+    "image_address": "PremiumIcons/CabanaCuratorsPairBundle",
+    "collectible_ids": [
+      517422112,
+      1805855090,
+      191376461,
+      334679700,
+      1919559265,
+      944271032,
+      100592681,
+      758910392,
+      370161722,
+      2022073953
+    ],
+    "price": 7500,
+    "base_price": 10000,
+    "quantity": 1,
+    "sorting_priority": 2,
     "is_enabled": true
   },
   {
@@ -1854,7 +2077,7 @@
     "price": 7500,
     "base_price": 7500,
     "quantity": 1,
-    "sorting_priority": 3,
+    "sorting_priority": 6,
     "is_enabled": true
   },
   {
@@ -1870,6 +2093,34 @@
     "quantity": 1,
     "sorting_priority": 20,
     "is_enabled": true
+  },
+  {
+    "id": 1347498546,
+    "name": "Classic Sunglasses",
+    "description": "Premium face accessory cosmetic.",
+    "image_address": "PremiumIcons/CabanaClassicSunglasses",
+    "collectible_ids": [
+      1862022393
+    ],
+    "price": 1500,
+    "base_price": 1500,
+    "quantity": 1,
+    "sorting_priority": 4,
+    "is_enabled": true
+  },
+  {
+    "id": 1367162824,
+    "name": "Beach Decoration Set",
+    "description": "Contains 5 Beach Decoration Materials which will be used for Cabana beach decorations.",
+    "image_address": "PremiumIcons/CabanaBeachDecorationMaterials",
+    "collectible_ids": [
+      1684838489
+    ],
+    "price": 1500,
+    "base_price": 1500,
+    "quantity": 5,
+    "sorting_priority": 5,
+    "is_enabled": false
   },
   {
     "id": 1407050310,
@@ -1992,7 +2243,7 @@
     "price": 5000,
     "base_price": 5000,
     "quantity": 1,
-    "sorting_priority": 4,
+    "sorting_priority": 8,
     "is_enabled": true
   },
   {
@@ -2054,6 +2305,20 @@
     "price": 7500,
     "base_price": 7500,
     "quantity": 1,
+    "sorting_priority": 6,
+    "is_enabled": true
+  },
+  {
+    "id": 1571560067,
+    "name": "Krusty",
+    "description": "A premium Cabana companion.",
+    "image_address": "PremiumIcons/CabanaPetKrusty",
+    "collectible_ids": [
+      583181721
+    ],
+    "price": 7500,
+    "base_price": 7500,
+    "quantity": 1,
     "sorting_priority": 3,
     "is_enabled": true
   },
@@ -2107,7 +2372,7 @@
     "price": 7500,
     "base_price": 10000,
     "quantity": 1,
-    "sorting_priority": 4,
+    "sorting_priority": 8,
     "is_enabled": true
   },
   {
@@ -2180,7 +2445,7 @@
     "price": 10000,
     "base_price": 12000,
     "quantity": 1,
-    "sorting_priority": 3,
+    "sorting_priority": 7,
     "is_enabled": true
   },
   {
@@ -2327,6 +2592,64 @@
     "is_enabled": false
   },
   {
+    "id": 1771425728,
+    "name": "Cabana Mega Bundle",
+    "description": "Includes all 4 Cabana outfits, Krusty, the inflatable blue raft appearance, Classic Sunglasses, Cat-eye Sunglasses, Swimming Goggles, 5 Party Supplies, and 15 Beach Decoration Materials.",
+    "image_address": "PremiumIcons/CabanaMegaBundle",
+    "collectible_ids": [
+      517422112,
+      1805855090,
+      191376461,
+      334679700,
+      1919559265,
+      944271032,
+      100592681,
+      758910392,
+      370161722,
+      2022073953,
+      2049971240,
+      1952036006,
+      465899228,
+      1380160037,
+      1967544741,
+      1154587348,
+      1618294704,
+      814677646,
+      1068641478,
+      1894184772,
+      583181721,
+      1173256737,
+      1862022393,
+      1920175308,
+      1476711651,
+      1148542279,
+      1148542279,
+      1148542279,
+      1148542279,
+      1148542279,
+      1684838489,
+      1684838489,
+      1684838489,
+      1684838489,
+      1684838489,
+      1684838489,
+      1684838489,
+      1684838489,
+      1684838489,
+      1684838489,
+      1684838489,
+      1684838489,
+      1684838489,
+      1684838489,
+      1684838489
+    ],
+    "price": 20000,
+    "base_price": 39000,
+    "quantity": 1,
+    "sorting_priority": 1,
+    "is_enabled": true
+  },
+  {
     "id": 1772562804,
     "name": "Cloudwatching Emote",
     "description": "Teaches your character to use the \"Cloudwatching\" emote",
@@ -2352,6 +2675,29 @@
     "base_price": 1500,
     "quantity": 5,
     "sorting_priority": 6,
+    "is_enabled": true
+  },
+  {
+    "id": 1825729247,
+    "name": "Cabana Fashionista Pair",
+    "description": "Includes Cabana Trendsetter and Cabana Beachcomber.",
+    "image_address": "PremiumIcons/CabanaFashionistaPairBundle",
+    "collectible_ids": [
+      517422112,
+      1805855090,
+      191376461,
+      334679700,
+      1919559265,
+      2049971240,
+      1952036006,
+      465899228,
+      1380160037,
+      1967544741
+    ],
+    "price": 7500,
+    "base_price": 10000,
+    "quantity": 1,
+    "sorting_priority": 2,
     "is_enabled": true
   },
   {
@@ -2406,7 +2752,7 @@
     "price": 10000,
     "base_price": 15000,
     "quantity": 1,
-    "sorting_priority": 2,
+    "sorting_priority": 6,
     "is_enabled": true
   },
   {
@@ -2467,7 +2813,7 @@
     "price": 20000,
     "base_price": 30500,
     "quantity": 1,
-    "sorting_priority": 1,
+    "sorting_priority": 5,
     "is_enabled": true
   },
   {
@@ -2487,6 +2833,20 @@
     "base_price": 5000,
     "quantity": 1,
     "sorting_priority": 8,
+    "is_enabled": false
+  },
+  {
+    "id": 1945746375,
+    "name": "Clawdia",
+    "description": "A premium Cabana companion.",
+    "image_address": "PremiumIcons/CabanaPetClawdia",
+    "collectible_ids": [
+      39379045
+    ],
+    "price": 7500,
+    "base_price": 7500,
+    "quantity": 1,
+    "sorting_priority": 3,
     "is_enabled": true
   },
   {
@@ -2517,7 +2877,116 @@
     "price": 10000,
     "base_price": 12500,
     "quantity": 1,
-    "sorting_priority": 4,
+    "sorting_priority": 8,
+    "is_enabled": true
+  },
+  {
+    "id": 1947994225,
+    "name": "Cabana Complete Bundle",
+    "description": "Includes all 4 Cabana outfits, both pets, both inflatable raft appearances, all 3 sunglasses, Swimming Goggles, 10 Party Supplies, and 40 Beach Decoration Materials.",
+    "image_address": "PremiumIcons/CabanaCompleteBundle",
+    "collectible_ids": [
+      517422112,
+      1805855090,
+      191376461,
+      334679700,
+      1919559265,
+      944271032,
+      100592681,
+      758910392,
+      370161722,
+      2022073953,
+      2049971240,
+      1952036006,
+      465899228,
+      1380160037,
+      1967544741,
+      1154587348,
+      1618294704,
+      814677646,
+      1068641478,
+      1894184772,
+      583181721,
+      39379045,
+      1173256737,
+      1837805849,
+      1862022393,
+      1920175308,
+      924042216,
+      1476711651,
+      1148542279,
+      1148542279,
+      1148542279,
+      1148542279,
+      1148542279,
+      1148542279,
+      1148542279,
+      1148542279,
+      1148542279,
+      1148542279,
+      1684838489,
+      1684838489,
+      1684838489,
+      1684838489,
+      1684838489,
+      1684838489,
+      1684838489,
+      1684838489,
+      1684838489,
+      1684838489,
+      1684838489,
+      1684838489,
+      1684838489,
+      1684838489,
+      1684838489,
+      1684838489,
+      1684838489,
+      1684838489,
+      1684838489,
+      1684838489,
+      1684838489,
+      1684838489,
+      1684838489,
+      1684838489,
+      1684838489,
+      1684838489,
+      1684838489,
+      1684838489,
+      1684838489,
+      1684838489,
+      1684838489,
+      1684838489,
+      1684838489,
+      1684838489,
+      1684838489,
+      1684838489,
+      1684838489,
+      1684838489,
+      1684838489,
+      1684838489
+    ],
+    "price": 30000,
+    "base_price": 59000,
+    "quantity": 1,
+    "sorting_priority": 0,
+    "is_enabled": true
+  },
+  {
+    "id": 1953565500,
+    "name": "Cabana Icon",
+    "description": "Includes the full Cabana Icon outfit.",
+    "image_address": "PremiumIcons/CabanaIconOutfit",
+    "collectible_ids": [
+      944271032,
+      100592681,
+      758910392,
+      370161722,
+      2022073953
+    ],
+    "price": 5000,
+    "base_price": 5000,
+    "quantity": 1,
+    "sorting_priority": 3,
     "is_enabled": true
   },
   {
@@ -2531,7 +3000,7 @@
     "price": 3000,
     "base_price": 3000,
     "quantity": 1,
-    "sorting_priority": 4,
+    "sorting_priority": 8,
     "is_enabled": true
   },
   {
@@ -2610,7 +3079,7 @@
     "price": 30000,
     "base_price": 38000,
     "quantity": 1,
-    "sorting_priority": 2,
+    "sorting_priority": 6,
     "is_enabled": true
   },
   {
@@ -2645,6 +3114,39 @@
     "quantity": 1,
     "sorting_priority": 4,
     "is_enabled": false
+  },
+  {
+    "id": 2021055912,
+    "name": "Cabana Outfit Bundle",
+    "description": "Includes all 4 Cabana outfits.",
+    "image_address": "PremiumIcons/CabanaOutfitBundle",
+    "collectible_ids": [
+      517422112,
+      1805855090,
+      191376461,
+      334679700,
+      1919559265,
+      944271032,
+      100592681,
+      758910392,
+      370161722,
+      2022073953,
+      2049971240,
+      1952036006,
+      465899228,
+      1380160037,
+      1967544741,
+      1154587348,
+      1618294704,
+      814677646,
+      1068641478,
+      1894184772
+    ],
+    "price": 12500,
+    "base_price": 20000,
+    "quantity": 1,
+    "sorting_priority": 2,
+    "is_enabled": true
   },
   {
     "id": 2028482487,

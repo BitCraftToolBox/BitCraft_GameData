@@ -26124,6 +26124,520 @@
     "destroy_on_unclaim": false
   },
   {
+    "id": 26020371,
+    "functions": [
+      {
+        "function_type": 1,
+        "level": 1,
+        "crafting_slots": 0,
+        "storage_slots": 0,
+        "cargo_slots": 0,
+        "refining_slots": 0,
+        "refining_cargo_slots": 0,
+        "item_slot_size": 6000,
+        "cargo_slot_size": 6000,
+        "trade_orders": 0,
+        "allowed_item_id_per_slot": [],
+        "concurrent_crafts_per_player": 0,
+        "terraform": false,
+        "housing_slots": 0,
+        "housing_income": 0
+      }
+    ],
+    "name": "Uncharted Scholar's Ruin",
+    "description": "Ancient Ruins",
+    "rested_buff_duration": 0,
+    "light_radius": 20,
+    "model_asset_name": "Buildings/AncientRuinsUncharted",
+    "icon_asset_name": "",
+    "unenterable": false,
+    "wilderness": true,
+    "footprint": [
+      {
+        "x": -8,
+        "z": 2,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": -7,
+        "z": 2,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": -6,
+        "z": 2,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": -5,
+        "z": -1,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": -5,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": -4,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": -4,
+        "z": 1,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": -2,
+        "z": -3,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 0,
+        "z": -3,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 3,
+        "z": -3,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 5,
+        "z": -3,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 7,
+        "z": 1,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 7,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 6,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 6,
+        "z": 1,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 5,
+        "z": 1,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 4,
+        "z": 2,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 3,
+        "z": 2,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 2,
+        "z": 2,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 1,
+        "z": 2,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 0,
+        "z": 2,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": -1,
+        "z": 2,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": -2,
+        "z": 2,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": -3,
+        "z": 2,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": -4,
+        "z": 2,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": -5,
+        "z": 2,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": -3,
+        "z": 1,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": -2,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": -2,
+        "z": -1,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": -1,
+        "z": -1,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 0,
+        "z": -1,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 1,
+        "z": -1,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 2,
+        "z": -1,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 3,
+        "z": -1,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 2,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 3,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 3,
+        "z": 1,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 2,
+        "z": 1,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": -2,
+        "z": 1,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": -1,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": -1,
+        "z": 1,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 0,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 0,
+        "z": 1,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 1,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 1,
+        "z": 1,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": -3,
+        "z": 0,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": -3,
+        "z": -1,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": -5,
+        "z": 1,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": -6,
+        "z": 1,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": -7,
+        "z": 1,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": -6,
+        "z": 0,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": -4,
+        "z": -1,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": -3,
+        "z": -2,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": -2,
+        "z": -2,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": -1,
+        "z": -3,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": -1,
+        "z": -2,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": 0,
+        "z": -2,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": 1,
+        "z": -2,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": 2,
+        "z": -2,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": 3,
+        "z": -2,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": 4,
+        "z": 1,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": 5,
+        "z": 0,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": 4,
+        "z": 0,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": 4,
+        "z": -1,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": 4,
+        "z": -2,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": 4,
+        "z": -3,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": 5,
+        "z": -4,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": 5,
+        "z": -5,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": 6,
+        "z": -6,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": 5,
+        "z": -6,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": 4,
+        "z": -6,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": 3,
+        "z": -6,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": 2,
+        "z": -6,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": 1,
+        "z": -6,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": 0,
+        "z": -6,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": -1,
+        "z": -6,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": -2,
+        "z": -5,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": -2,
+        "z": -4,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": -3,
+        "z": -3,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": -1,
+        "z": -5,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": 0,
+        "z": -5,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": -1,
+        "z": -4,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": 0,
+        "z": -4,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": 1,
+        "z": -4,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": 1,
+        "z": -5,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": 2,
+        "z": -5,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": 3,
+        "z": -5,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": 4,
+        "z": -5,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": 4,
+        "z": -4,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": 3,
+        "z": -4,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": 2,
+        "z": -3,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": 1,
+        "z": -3,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": 2,
+        "z": -4,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": -4,
+        "z": -2,
+        "footprint_type": "Walkable"
+      }
+    ],
+    "max_health": -1,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 0.0,
+    "maintenance": 0.0,
+    "build_permission": "None",
+    "interact_permission": "None",
+    "has_action": false,
+    "show_in_compendium": false,
+    "is_ruins": true,
+    "not_deconstructible": false,
+    "destroy_on_unclaim": false
+  },
+  {
     "id": 30245764,
     "functions": [
       {
@@ -26608,6 +27122,55 @@
     "interact_permission": "All",
     "has_action": true,
     "show_in_compendium": false,
+    "is_ruins": false,
+    "not_deconstructible": false,
+    "destroy_on_unclaim": false
+  },
+  {
+    "id": 59167852,
+    "functions": [
+      {
+        "function_type": 1002,
+        "level": -1,
+        "crafting_slots": 0,
+        "storage_slots": 0,
+        "cargo_slots": 0,
+        "refining_slots": 0,
+        "refining_cargo_slots": 0,
+        "item_slot_size": 6000,
+        "cargo_slot_size": 6000,
+        "trade_orders": 0,
+        "allowed_item_id_per_slot": [],
+        "concurrent_crafts_per_player": 0,
+        "terraform": false,
+        "housing_slots": 0,
+        "housing_income": 0
+      }
+    ],
+    "name": "Beach Umbrella (Purple)",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/CabanaBeachUmbrellaPurple",
+    "icon_asset_name": "PremiumIcons/CabanaBeachUmbrellaPurple",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      {
+        "x": 0,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      }
+    ],
+    "max_health": 72,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 0.0,
+    "maintenance": 0.0,
+    "build_permission": "Claim",
+    "interact_permission": "Claim",
+    "has_action": true,
+    "show_in_compendium": true,
     "is_ruins": false,
     "not_deconstructible": false,
     "destroy_on_unclaim": false
@@ -28284,6 +28847,360 @@
     "interact_permission": "Claim",
     "has_action": true,
     "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false,
+    "destroy_on_unclaim": false
+  },
+  {
+    "id": 159732292,
+    "functions": [
+      {
+        "function_type": 1002,
+        "level": 1,
+        "crafting_slots": 0,
+        "storage_slots": 0,
+        "cargo_slots": 0,
+        "refining_slots": 0,
+        "refining_cargo_slots": 0,
+        "item_slot_size": 6000,
+        "cargo_slot_size": 6000,
+        "trade_orders": 0,
+        "allowed_item_id_per_slot": [],
+        "concurrent_crafts_per_player": 0,
+        "terraform": false,
+        "housing_slots": 0,
+        "housing_income": 0
+      }
+    ],
+    "name": "Silkmoth Breeding Grounds",
+    "description": "Dev object to place the silkmoth area.",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/SilkmothBreedingGrounds",
+    "icon_asset_name": "Buildings/StoneBrazier",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      {
+        "x": 0,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": -2,
+        "z": -2,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": -2,
+        "z": -1,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": -1,
+        "z": -2,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": -1,
+        "z": -3,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 0,
+        "z": -4,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 1,
+        "z": -5,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 1,
+        "z": -4,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 2,
+        "z": -5,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 2,
+        "z": -6,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 3,
+        "z": -7,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 3,
+        "z": -6,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 2,
+        "z": -4,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 2,
+        "z": -3,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 3,
+        "z": -3,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 3,
+        "z": -2,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 4,
+        "z": -3,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 5,
+        "z": -4,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 6,
+        "z": -4,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 5,
+        "z": -3,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 4,
+        "z": -2,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 3,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 4,
+        "z": -1,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 3,
+        "z": -1,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 2,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 2,
+        "z": 1,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 4,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 5,
+        "z": -1,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 3,
+        "z": 1,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 2,
+        "z": 2,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 3,
+        "z": 2,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 2,
+        "z": 3,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 1,
+        "z": 4,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 1,
+        "z": 3,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 0,
+        "z": 3,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 0,
+        "z": 2,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": -1,
+        "z": 2,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": -1,
+        "z": 3,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 1,
+        "z": 2,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": -3,
+        "z": 3,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": -2,
+        "z": 3,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": -4,
+        "z": 3,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": -4,
+        "z": 2,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": -3,
+        "z": 1,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": -3,
+        "z": 2,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": -2,
+        "z": 2,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": -2,
+        "z": 1,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": -2,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 0,
+        "z": 1,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": -1,
+        "z": 1,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 1,
+        "z": 1,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 1,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": -1,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": -1,
+        "z": -1,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 0,
+        "z": -1,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 1,
+        "z": -1,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 2,
+        "z": -1,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 2,
+        "z": -2,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 1,
+        "z": -2,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 0,
+        "z": -2,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 0,
+        "z": -3,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 1,
+        "z": -3,
+        "footprint_type": "Hitbox"
+      }
+    ],
+    "max_health": 336,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 0.0,
+    "maintenance": 0.0,
+    "build_permission": "None",
+    "interact_permission": "None",
+    "has_action": true,
+    "show_in_compendium": false,
     "is_ruins": false,
     "not_deconstructible": false,
     "destroy_on_unclaim": false
@@ -30115,6 +31032,55 @@
     "has_action": false,
     "show_in_compendium": false,
     "is_ruins": true,
+    "not_deconstructible": false,
+    "destroy_on_unclaim": false
+  },
+  {
+    "id": 205186439,
+    "functions": [
+      {
+        "function_type": 1002,
+        "level": -1,
+        "crafting_slots": 0,
+        "storage_slots": 0,
+        "cargo_slots": 0,
+        "refining_slots": 0,
+        "refining_cargo_slots": 0,
+        "item_slot_size": 6000,
+        "cargo_slot_size": 6000,
+        "trade_orders": 0,
+        "allowed_item_id_per_slot": [],
+        "concurrent_crafts_per_player": 0,
+        "terraform": false,
+        "housing_slots": 0,
+        "housing_income": 0
+      }
+    ],
+    "name": "Beach Umbrella (Blue)",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/CabanaBeachUmbrellaBlue",
+    "icon_asset_name": "PremiumIcons/CabanaBeachUmbrellaBlue",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      {
+        "x": 0,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      }
+    ],
+    "max_health": 72,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 0.0,
+    "maintenance": 0.0,
+    "build_permission": "Claim",
+    "interact_permission": "Claim",
+    "has_action": true,
+    "show_in_compendium": true,
+    "is_ruins": false,
     "not_deconstructible": false,
     "destroy_on_unclaim": false
   },
@@ -45530,6 +46496,60 @@
     "destroy_on_unclaim": false
   },
   {
+    "id": 289406036,
+    "functions": [
+      {
+        "function_type": 1002,
+        "level": -1,
+        "crafting_slots": 0,
+        "storage_slots": 0,
+        "cargo_slots": 0,
+        "refining_slots": 0,
+        "refining_cargo_slots": 0,
+        "item_slot_size": 6000,
+        "cargo_slot_size": 6000,
+        "trade_orders": 0,
+        "allowed_item_id_per_slot": [],
+        "concurrent_crafts_per_player": 0,
+        "terraform": false,
+        "housing_slots": 0,
+        "housing_income": 0
+      }
+    ],
+    "name": "Beach Towel (Green)",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/CabanaBeachTowelGreen",
+    "icon_asset_name": "PremiumIcons/CabanaBeachTowelGreen",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      {
+        "x": 0,
+        "z": 0,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": -1,
+        "z": 0,
+        "footprint_type": "Walkable"
+      }
+    ],
+    "max_health": 72,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 0.0,
+    "maintenance": 0.0,
+    "build_permission": "Claim",
+    "interact_permission": "Claim",
+    "has_action": true,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false,
+    "destroy_on_unclaim": false
+  },
+  {
     "id": 292245080,
     "functions": [
       {
@@ -55048,6 +56068,55 @@
     "destroy_on_unclaim": false
   },
   {
+    "id": 313278568,
+    "functions": [
+      {
+        "function_type": 1002,
+        "level": -1,
+        "crafting_slots": 0,
+        "storage_slots": 0,
+        "cargo_slots": 0,
+        "refining_slots": 0,
+        "refining_cargo_slots": 0,
+        "item_slot_size": 6000,
+        "cargo_slot_size": 6000,
+        "trade_orders": 0,
+        "allowed_item_id_per_slot": [],
+        "concurrent_crafts_per_player": 0,
+        "terraform": false,
+        "housing_slots": 0,
+        "housing_income": 0
+      }
+    ],
+    "name": "Beach Rug",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/CabanaBeachRug",
+    "icon_asset_name": "PremiumIcons/CabanaBeachRug",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      {
+        "x": 0,
+        "z": 0,
+        "footprint_type": "Walkable"
+      }
+    ],
+    "max_health": 72,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 0.0,
+    "maintenance": 0.0,
+    "build_permission": "Claim",
+    "interact_permission": "Claim",
+    "has_action": true,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false,
+    "destroy_on_unclaim": false
+  },
+  {
     "id": 315446579,
     "functions": [
       {
@@ -55130,6 +56199,55 @@
         "x": 0,
         "z": 0,
         "footprint_type": "Walkable"
+      }
+    ],
+    "max_health": 72,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 0.0,
+    "maintenance": 0.0,
+    "build_permission": "Claim",
+    "interact_permission": "Claim",
+    "has_action": true,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false,
+    "destroy_on_unclaim": false
+  },
+  {
+    "id": 316870968,
+    "functions": [
+      {
+        "function_type": 1002,
+        "level": -1,
+        "crafting_slots": 0,
+        "storage_slots": 0,
+        "cargo_slots": 0,
+        "refining_slots": 0,
+        "refining_cargo_slots": 0,
+        "item_slot_size": 6000,
+        "cargo_slot_size": 6000,
+        "trade_orders": 0,
+        "allowed_item_id_per_slot": [],
+        "concurrent_crafts_per_player": 0,
+        "terraform": false,
+        "housing_slots": 0,
+        "housing_income": 0
+      }
+    ],
+    "name": "Beach Umbrella (Pink)",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/CabanaBeachUmbrellaPink",
+    "icon_asset_name": "PremiumIcons/CabanaBeachUmbrellaPink",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      {
+        "x": 0,
+        "z": 0,
+        "footprint_type": "Hitbox"
       }
     ],
     "max_health": 72,
@@ -56946,6 +58064,55 @@
     "destroy_on_unclaim": false
   },
   {
+    "id": 374932690,
+    "functions": [
+      {
+        "function_type": 1002,
+        "level": 0,
+        "crafting_slots": 0,
+        "storage_slots": 0,
+        "cargo_slots": 0,
+        "refining_slots": 0,
+        "refining_cargo_slots": 0,
+        "item_slot_size": 6000,
+        "cargo_slot_size": 6000,
+        "trade_orders": 0,
+        "allowed_item_id_per_slot": [],
+        "concurrent_crafts_per_player": 0,
+        "terraform": false,
+        "housing_slots": 0,
+        "housing_income": 0
+      }
+    ],
+    "name": "Magic Conch Display",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/MagicConchDisplay",
+    "icon_asset_name": "GeneratedIcons/Items/MagicConch",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      {
+        "x": 0,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      }
+    ],
+    "max_health": 336,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 0.0,
+    "maintenance": 0.0,
+    "build_permission": "Claim",
+    "interact_permission": "Claim",
+    "has_action": true,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false,
+    "destroy_on_unclaim": false
+  },
+  {
     "id": 375498582,
     "functions": [
       {
@@ -57528,7 +58695,7 @@
     "decay": 0.0,
     "maintenance": 0.0,
     "build_permission": "Claim",
-    "interact_permission": "Claim",
+    "interact_permission": "All",
     "has_action": true,
     "show_in_compendium": true,
     "is_ruins": false,
@@ -66089,6 +67256,55 @@
     "destroy_on_unclaim": false
   },
   {
+    "id": 458432647,
+    "functions": [
+      {
+        "function_type": 1002,
+        "level": -1,
+        "crafting_slots": 0,
+        "storage_slots": 0,
+        "cargo_slots": 0,
+        "refining_slots": 0,
+        "refining_cargo_slots": 0,
+        "item_slot_size": 6000,
+        "cargo_slot_size": 6000,
+        "trade_orders": 0,
+        "allowed_item_id_per_slot": [],
+        "concurrent_crafts_per_player": 0,
+        "terraform": false,
+        "housing_slots": 0,
+        "housing_income": 0
+      }
+    ],
+    "name": "Beach Umbrella (Orange)",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/CabanaBeachUmbrellaOrange",
+    "icon_asset_name": "PremiumIcons/CabanaBeachUmbrellaOrange",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      {
+        "x": 0,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      }
+    ],
+    "max_health": 72,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 0.0,
+    "maintenance": 0.0,
+    "build_permission": "Claim",
+    "interact_permission": "Claim",
+    "has_action": true,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false,
+    "destroy_on_unclaim": false
+  },
+  {
     "id": 458767412,
     "functions": [
       {
@@ -70465,6 +71681,85 @@
     "destroy_on_unclaim": false
   },
   {
+    "id": 517297146,
+    "functions": [
+      {
+        "function_type": 1002,
+        "level": -1,
+        "crafting_slots": 0,
+        "storage_slots": 0,
+        "cargo_slots": 0,
+        "refining_slots": 0,
+        "refining_cargo_slots": 0,
+        "item_slot_size": 6000,
+        "cargo_slot_size": 6000,
+        "trade_orders": 0,
+        "allowed_item_id_per_slot": [],
+        "concurrent_crafts_per_player": 0,
+        "terraform": false,
+        "housing_slots": 0,
+        "housing_income": 0
+      }
+    ],
+    "name": "Shipwreck (Front)",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/ShipwreckFront",
+    "icon_asset_name": "GeneratedIcons/Other/Buildings/ShipwreckFront",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      {
+        "x": 0,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": -1,
+        "z": 1,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 0,
+        "z": 1,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 0,
+        "z": 2,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": -1,
+        "z": 2,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 1,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 1,
+        "z": 1,
+        "footprint_type": "Hitbox"
+      }
+    ],
+    "max_health": 72,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 0.0,
+    "maintenance": 0.0,
+    "build_permission": "Claim",
+    "interact_permission": "Claim",
+    "has_action": true,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false,
+    "destroy_on_unclaim": false
+  },
+  {
     "id": 517819121,
     "functions": [
       {
@@ -71286,6 +72581,60 @@
     "destroy_on_unclaim": false
   },
   {
+    "id": 553399875,
+    "functions": [
+      {
+        "function_type": 1002,
+        "level": -1,
+        "crafting_slots": 0,
+        "storage_slots": 0,
+        "cargo_slots": 0,
+        "refining_slots": 0,
+        "refining_cargo_slots": 0,
+        "item_slot_size": 6000,
+        "cargo_slot_size": 6000,
+        "trade_orders": 0,
+        "allowed_item_id_per_slot": [],
+        "concurrent_crafts_per_player": 0,
+        "terraform": false,
+        "housing_slots": 0,
+        "housing_income": 0
+      }
+    ],
+    "name": "Beach Towel (Purple)",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/CabanaBeachTowelPurple",
+    "icon_asset_name": "PremiumIcons/CabanaBeachTowelPurple",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      {
+        "x": 0,
+        "z": 0,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": -1,
+        "z": 0,
+        "footprint_type": "Walkable"
+      }
+    ],
+    "max_health": 72,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 0.0,
+    "maintenance": 0.0,
+    "build_permission": "Claim",
+    "interact_permission": "Claim",
+    "has_action": true,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false,
+    "destroy_on_unclaim": false
+  },
+  {
     "id": 555204504,
     "functions": [
       {
@@ -71865,6 +73214,55 @@
     "destroy_on_unclaim": false
   },
   {
+    "id": 587939918,
+    "functions": [
+      {
+        "function_type": 1002,
+        "level": -1,
+        "crafting_slots": 0,
+        "storage_slots": 0,
+        "cargo_slots": 0,
+        "refining_slots": 0,
+        "refining_cargo_slots": 0,
+        "item_slot_size": 6000,
+        "cargo_slot_size": 6000,
+        "trade_orders": 0,
+        "allowed_item_id_per_slot": [],
+        "concurrent_crafts_per_player": 0,
+        "terraform": false,
+        "housing_slots": 0,
+        "housing_income": 0
+      }
+    ],
+    "name": "Beach Umbrella (White)",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/CabanaBeachUmbrellaWhite",
+    "icon_asset_name": "PremiumIcons/CabanaBeachUmbrellaWhite",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      {
+        "x": 0,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      }
+    ],
+    "max_health": 72,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 0.0,
+    "maintenance": 0.0,
+    "build_permission": "Claim",
+    "interact_permission": "Claim",
+    "has_action": true,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false,
+    "destroy_on_unclaim": false
+  },
+  {
     "id": 594989789,
     "functions": [
       {
@@ -72306,6 +73704,60 @@
     "interact_permission": "None",
     "has_action": false,
     "show_in_compendium": false,
+    "is_ruins": false,
+    "not_deconstructible": false,
+    "destroy_on_unclaim": false
+  },
+  {
+    "id": 622262346,
+    "functions": [
+      {
+        "function_type": 1002,
+        "level": -1,
+        "crafting_slots": 0,
+        "storage_slots": 0,
+        "cargo_slots": 0,
+        "refining_slots": 0,
+        "refining_cargo_slots": 0,
+        "item_slot_size": 6000,
+        "cargo_slot_size": 6000,
+        "trade_orders": 0,
+        "allowed_item_id_per_slot": [],
+        "concurrent_crafts_per_player": 0,
+        "terraform": false,
+        "housing_slots": 0,
+        "housing_income": 0
+      }
+    ],
+    "name": "Beach Towel (Red)",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/CabanaBeachTowelRed",
+    "icon_asset_name": "PremiumIcons/CabanaBeachTowelRed",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      {
+        "x": 0,
+        "z": 0,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": -1,
+        "z": 0,
+        "footprint_type": "Walkable"
+      }
+    ],
+    "max_health": 72,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 0.0,
+    "maintenance": 0.0,
+    "build_permission": "Claim",
+    "interact_permission": "Claim",
+    "has_action": true,
+    "show_in_compendium": true,
     "is_ruins": false,
     "not_deconstructible": false,
     "destroy_on_unclaim": false
@@ -72811,6 +74263,55 @@
     "ignore_damage": false,
     "defense_level": 10000,
     "decay": 1.0,
+    "maintenance": 0.0,
+    "build_permission": "Claim",
+    "interact_permission": "Claim",
+    "has_action": true,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false,
+    "destroy_on_unclaim": false
+  },
+  {
+    "id": 638329217,
+    "functions": [
+      {
+        "function_type": 1002,
+        "level": 0,
+        "crafting_slots": 0,
+        "storage_slots": 0,
+        "cargo_slots": 0,
+        "refining_slots": 0,
+        "refining_cargo_slots": 0,
+        "item_slot_size": 6000,
+        "cargo_slot_size": 6000,
+        "trade_orders": 0,
+        "allowed_item_id_per_slot": [],
+        "concurrent_crafts_per_player": 0,
+        "terraform": false,
+        "housing_slots": 0,
+        "housing_income": 0
+      }
+    ],
+    "name": "Common Starfish Display",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/CommonStarfishDisplay",
+    "icon_asset_name": "GeneratedIcons/Items/CommonStarfish",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      {
+        "x": 0,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      }
+    ],
+    "max_health": 336,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 0.0,
     "maintenance": 0.0,
     "build_permission": "Claim",
     "interact_permission": "Claim",
@@ -73349,6 +74850,55 @@
         "x": 0,
         "z": 0,
         "footprint_type": "Walkable"
+      }
+    ],
+    "max_health": 72,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 0.0,
+    "maintenance": 0.0,
+    "build_permission": "Claim",
+    "interact_permission": "Claim",
+    "has_action": true,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false,
+    "destroy_on_unclaim": false
+  },
+  {
+    "id": 668414152,
+    "functions": [
+      {
+        "function_type": 1002,
+        "level": -1,
+        "crafting_slots": 0,
+        "storage_slots": 0,
+        "cargo_slots": 0,
+        "refining_slots": 0,
+        "refining_cargo_slots": 0,
+        "item_slot_size": 6000,
+        "cargo_slot_size": 6000,
+        "trade_orders": 0,
+        "allowed_item_id_per_slot": [],
+        "concurrent_crafts_per_player": 0,
+        "terraform": false,
+        "housing_slots": 0,
+        "housing_income": 0
+      }
+    ],
+    "name": "Beach Umbrella (Black)",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/CabanaBeachUmbrellaBlack",
+    "icon_asset_name": "PremiumIcons/CabanaBeachUmbrellaBlack",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      {
+        "x": 0,
+        "z": 0,
+        "footprint_type": "Hitbox"
       }
     ],
     "max_health": 72,
@@ -73976,6 +75526,139 @@
     "interact_permission": "None",
     "has_action": false,
     "show_in_compendium": false,
+    "is_ruins": false,
+    "not_deconstructible": false,
+    "destroy_on_unclaim": false
+  },
+  {
+    "id": 714361057,
+    "functions": [
+      {
+        "function_type": 1002,
+        "level": -1,
+        "crafting_slots": 0,
+        "storage_slots": 0,
+        "cargo_slots": 0,
+        "refining_slots": 0,
+        "refining_cargo_slots": 0,
+        "item_slot_size": 6000,
+        "cargo_slot_size": 6000,
+        "trade_orders": 0,
+        "allowed_item_id_per_slot": [],
+        "concurrent_crafts_per_player": 0,
+        "terraform": false,
+        "housing_slots": 0,
+        "housing_income": 0
+      }
+    ],
+    "name": "Shipwreck (Back)",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/ShipwreckBack",
+    "icon_asset_name": "GeneratedIcons/Other/Buildings/ShipwreckBack",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      {
+        "x": 1,
+        "z": -2,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": -1,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 1,
+        "z": -1,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 0,
+        "z": -2,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": -1,
+        "z": -1,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 0,
+        "z": -1,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 0,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      }
+    ],
+    "max_health": 72,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 0.0,
+    "maintenance": 0.0,
+    "build_permission": "Claim",
+    "interact_permission": "Claim",
+    "has_action": true,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false,
+    "destroy_on_unclaim": false
+  },
+  {
+    "id": 715220471,
+    "functions": [
+      {
+        "function_type": 1002,
+        "level": -1,
+        "crafting_slots": 0,
+        "storage_slots": 0,
+        "cargo_slots": 0,
+        "refining_slots": 0,
+        "refining_cargo_slots": 0,
+        "item_slot_size": 6000,
+        "cargo_slot_size": 6000,
+        "trade_orders": 0,
+        "allowed_item_id_per_slot": [],
+        "concurrent_crafts_per_player": 0,
+        "terraform": false,
+        "housing_slots": 0,
+        "housing_income": 0
+      }
+    ],
+    "name": "Beach Towel (Black)",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/CabanaBeachTowelBlack",
+    "icon_asset_name": "PremiumIcons/CabanaBeachTowelBlack",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      {
+        "x": 0,
+        "z": 0,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": -1,
+        "z": 0,
+        "footprint_type": "Walkable"
+      }
+    ],
+    "max_health": 72,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 0.0,
+    "maintenance": 0.0,
+    "build_permission": "Claim",
+    "interact_permission": "Claim",
+    "has_action": true,
+    "show_in_compendium": true,
     "is_ruins": false,
     "not_deconstructible": false,
     "destroy_on_unclaim": false
@@ -74728,6 +76411,55 @@
     "interact_permission": "All",
     "has_action": true,
     "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false,
+    "destroy_on_unclaim": false
+  },
+  {
+    "id": 778643920,
+    "functions": [
+      {
+        "function_type": 1002,
+        "level": 1,
+        "crafting_slots": 0,
+        "storage_slots": 0,
+        "cargo_slots": 0,
+        "refining_slots": 0,
+        "refining_cargo_slots": 0,
+        "item_slot_size": 6000,
+        "cargo_slot_size": 6000,
+        "trade_orders": 0,
+        "allowed_item_id_per_slot": [],
+        "concurrent_crafts_per_player": 0,
+        "terraform": false,
+        "housing_slots": 0,
+        "housing_income": 0
+      }
+    ],
+    "name": "Sandcastle",
+    "description": "A nice, cozy sand castle.",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/SandcastleBuilding",
+    "icon_asset_name": "GeneratedIcons/Other/Sandcastle",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      {
+        "x": 0,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      }
+    ],
+    "max_health": 336,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 0.0,
+    "maintenance": 0.0,
+    "build_permission": "Claim",
+    "interact_permission": "Claim",
+    "has_action": true,
+    "show_in_compendium": false,
     "is_ruins": false,
     "not_deconstructible": false,
     "destroy_on_unclaim": false
@@ -77498,6 +79230,55 @@
     "destroy_on_unclaim": false
   },
   {
+    "id": 916107607,
+    "functions": [
+      {
+        "function_type": 1002,
+        "level": -1,
+        "crafting_slots": 0,
+        "storage_slots": 0,
+        "cargo_slots": 0,
+        "refining_slots": 0,
+        "refining_cargo_slots": 0,
+        "item_slot_size": 6000,
+        "cargo_slot_size": 6000,
+        "trade_orders": 0,
+        "allowed_item_id_per_slot": [],
+        "concurrent_crafts_per_player": 0,
+        "terraform": false,
+        "housing_slots": 0,
+        "housing_income": 0
+      }
+    ],
+    "name": "String Light",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/CabanaStringLight",
+    "icon_asset_name": "PremiumIcons/CabanaStringLight",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      {
+        "x": 0,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      }
+    ],
+    "max_health": 72,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 0.0,
+    "maintenance": 0.0,
+    "build_permission": "Claim",
+    "interact_permission": "Claim",
+    "has_action": true,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false,
+    "destroy_on_unclaim": false
+  },
+  {
     "id": 918291195,
     "functions": [
       {
@@ -77583,6 +79364,55 @@
       }
     ],
     "max_health": 72,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 0.0,
+    "maintenance": 0.0,
+    "build_permission": "Claim",
+    "interact_permission": "Claim",
+    "has_action": true,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false,
+    "destroy_on_unclaim": false
+  },
+  {
+    "id": 923458316,
+    "functions": [
+      {
+        "function_type": 1002,
+        "level": 0,
+        "crafting_slots": 0,
+        "storage_slots": 0,
+        "cargo_slots": 0,
+        "refining_slots": 0,
+        "refining_cargo_slots": 0,
+        "item_slot_size": 6000,
+        "cargo_slot_size": 6000,
+        "trade_orders": 0,
+        "allowed_item_id_per_slot": [],
+        "concurrent_crafts_per_player": 0,
+        "terraform": false,
+        "housing_slots": 0,
+        "housing_income": 0
+      }
+    ],
+    "name": "Large Sanddollar Display",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/LargeSanddollarDisplay",
+    "icon_asset_name": "GeneratedIcons/Items/LargeSanddollar",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      {
+        "x": 0,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      }
+    ],
+    "max_health": 336,
     "ignore_damage": false,
     "defense_level": 10000,
     "decay": 0.0,
@@ -82850,6 +84680,55 @@
     "destroy_on_unclaim": false
   },
   {
+    "id": 1040524538,
+    "functions": [
+      {
+        "function_type": 1002,
+        "level": -1,
+        "crafting_slots": 0,
+        "storage_slots": 0,
+        "cargo_slots": 0,
+        "refining_slots": 0,
+        "refining_cargo_slots": 0,
+        "item_slot_size": 6000,
+        "cargo_slot_size": 6000,
+        "trade_orders": 0,
+        "allowed_item_id_per_slot": [],
+        "concurrent_crafts_per_player": 0,
+        "terraform": false,
+        "housing_slots": 0,
+        "housing_income": 0
+      }
+    ],
+    "name": "Beach Umbrella (Gold)",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/CabanaBeachUmbrellaGold",
+    "icon_asset_name": "PremiumIcons/CabanaBeachUmbrellaGold",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      {
+        "x": 0,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      }
+    ],
+    "max_health": 72,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 0.0,
+    "maintenance": 0.0,
+    "build_permission": "Claim",
+    "interact_permission": "Claim",
+    "has_action": true,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false,
+    "destroy_on_unclaim": false
+  },
+  {
     "id": 1042940491,
     "functions": [
       {
@@ -83265,6 +85144,55 @@
     "destroy_on_unclaim": false
   },
   {
+    "id": 1054899976,
+    "functions": [
+      {
+        "function_type": 1002,
+        "level": 0,
+        "crafting_slots": 0,
+        "storage_slots": 0,
+        "cargo_slots": 0,
+        "refining_slots": 0,
+        "refining_cargo_slots": 0,
+        "item_slot_size": 6000,
+        "cargo_slot_size": 6000,
+        "trade_orders": 0,
+        "allowed_item_id_per_slot": [],
+        "concurrent_crafts_per_player": 0,
+        "terraform": false,
+        "housing_slots": 0,
+        "housing_income": 0
+      }
+    ],
+    "name": "Vibrant Starfish Display",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/VibrantStarfishDisplay",
+    "icon_asset_name": "GeneratedIcons/Items/VibrantStarfish",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      {
+        "x": 0,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      }
+    ],
+    "max_health": 336,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 0.0,
+    "maintenance": 0.0,
+    "build_permission": "Claim",
+    "interact_permission": "Claim",
+    "has_action": true,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false,
+    "destroy_on_unclaim": false
+  },
+  {
     "id": 1057438638,
     "functions": [
       {
@@ -83527,6 +85455,55 @@
     "interact_permission": "None",
     "has_action": false,
     "show_in_compendium": false,
+    "is_ruins": false,
+    "not_deconstructible": false,
+    "destroy_on_unclaim": false
+  },
+  {
+    "id": 1064389737,
+    "functions": [
+      {
+        "function_type": 1002,
+        "level": 0,
+        "crafting_slots": 0,
+        "storage_slots": 0,
+        "cargo_slots": 0,
+        "refining_slots": 0,
+        "refining_cargo_slots": 0,
+        "item_slot_size": 6000,
+        "cargo_slot_size": 6000,
+        "trade_orders": 0,
+        "allowed_item_id_per_slot": [],
+        "concurrent_crafts_per_player": 0,
+        "terraform": false,
+        "housing_slots": 0,
+        "housing_income": 0
+      }
+    ],
+    "name": "Plain Conch Display",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/PlainConchDisplay",
+    "icon_asset_name": "GeneratedIcons/Items/PlainConch",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      {
+        "x": 0,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      }
+    ],
+    "max_health": 336,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 0.0,
+    "maintenance": 0.0,
+    "build_permission": "Claim",
+    "interact_permission": "Claim",
+    "has_action": true,
+    "show_in_compendium": true,
     "is_ruins": false,
     "not_deconstructible": false,
     "destroy_on_unclaim": false
@@ -83893,6 +85870,60 @@
     "ignore_damage": false,
     "defense_level": 10000,
     "decay": 1.0,
+    "maintenance": 0.0,
+    "build_permission": "Claim",
+    "interact_permission": "Claim",
+    "has_action": true,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false,
+    "destroy_on_unclaim": false
+  },
+  {
+    "id": 1076173540,
+    "functions": [
+      {
+        "function_type": 1002,
+        "level": -1,
+        "crafting_slots": 0,
+        "storage_slots": 0,
+        "cargo_slots": 0,
+        "refining_slots": 0,
+        "refining_cargo_slots": 0,
+        "item_slot_size": 6000,
+        "cargo_slot_size": 6000,
+        "trade_orders": 0,
+        "allowed_item_id_per_slot": [],
+        "concurrent_crafts_per_player": 0,
+        "terraform": false,
+        "housing_slots": 0,
+        "housing_income": 0
+      }
+    ],
+    "name": "Beach Towel (Yellow)",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/CabanaBeachTowelYellow",
+    "icon_asset_name": "PremiumIcons/CabanaBeachTowelYellow",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      {
+        "x": 0,
+        "z": 0,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": -1,
+        "z": 0,
+        "footprint_type": "Walkable"
+      }
+    ],
+    "max_health": 72,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 0.0,
     "maintenance": 0.0,
     "build_permission": "Claim",
     "interact_permission": "Claim",
@@ -84996,6 +87027,55 @@
     "destroy_on_unclaim": false
   },
   {
+    "id": 1104195112,
+    "functions": [
+      {
+        "function_type": 1002,
+        "level": -1,
+        "crafting_slots": 0,
+        "storage_slots": 0,
+        "cargo_slots": 0,
+        "refining_slots": 0,
+        "refining_cargo_slots": 0,
+        "item_slot_size": 6000,
+        "cargo_slot_size": 6000,
+        "trade_orders": 0,
+        "allowed_item_id_per_slot": [],
+        "concurrent_crafts_per_player": 0,
+        "terraform": false,
+        "housing_slots": 0,
+        "housing_income": 0
+      }
+    ],
+    "name": "Beach Table",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/CabanaBeachTable",
+    "icon_asset_name": "PremiumIcons/CabanaBeachTable",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      {
+        "x": 0,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      }
+    ],
+    "max_health": 72,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 0.0,
+    "maintenance": 0.0,
+    "build_permission": "Claim",
+    "interact_permission": "Claim",
+    "has_action": true,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false,
+    "destroy_on_unclaim": false
+  },
+  {
     "id": 1105687459,
     "functions": [
       {
@@ -85513,7 +87593,7 @@
     "decay": 0.0,
     "maintenance": 0.0,
     "build_permission": "Claim",
-    "interact_permission": "Claim",
+    "interact_permission": "All",
     "has_action": true,
     "show_in_compendium": true,
     "is_ruins": false,
@@ -85695,6 +87775,55 @@
     "interact_permission": "Claim",
     "has_action": true,
     "show_in_compendium": false,
+    "is_ruins": false,
+    "not_deconstructible": false,
+    "destroy_on_unclaim": false
+  },
+  {
+    "id": 1129445154,
+    "functions": [
+      {
+        "function_type": 1002,
+        "level": 0,
+        "crafting_slots": 0,
+        "storage_slots": 0,
+        "cargo_slots": 0,
+        "refining_slots": 0,
+        "refining_cargo_slots": 0,
+        "item_slot_size": 6000,
+        "cargo_slot_size": 6000,
+        "trade_orders": 0,
+        "allowed_item_id_per_slot": [],
+        "concurrent_crafts_per_player": 0,
+        "terraform": false,
+        "housing_slots": 0,
+        "housing_income": 0
+      }
+    ],
+    "name": "Small Sanddollar Display",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/SmallSanddollarDisplay",
+    "icon_asset_name": "GeneratedIcons/Items/SmallSanddollar",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      {
+        "x": 0,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      }
+    ],
+    "max_health": 336,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 0.0,
+    "maintenance": 0.0,
+    "build_permission": "Claim",
+    "interact_permission": "Claim",
+    "has_action": true,
+    "show_in_compendium": true,
     "is_ruins": false,
     "not_deconstructible": false,
     "destroy_on_unclaim": false
@@ -86394,7 +88523,7 @@
     "decay": 0.0,
     "maintenance": 0.0,
     "build_permission": "Claim",
-    "interact_permission": "Claim",
+    "interact_permission": "All",
     "has_action": true,
     "show_in_compendium": true,
     "is_ruins": false,
@@ -89432,6 +91561,60 @@
     "destroy_on_unclaim": false
   },
   {
+    "id": 1287864811,
+    "functions": [
+      {
+        "function_type": 1002,
+        "level": -1,
+        "crafting_slots": 0,
+        "storage_slots": 0,
+        "cargo_slots": 0,
+        "refining_slots": 0,
+        "refining_cargo_slots": 0,
+        "item_slot_size": 6000,
+        "cargo_slot_size": 6000,
+        "trade_orders": 0,
+        "allowed_item_id_per_slot": [],
+        "concurrent_crafts_per_player": 0,
+        "terraform": false,
+        "housing_slots": 0,
+        "housing_income": 0
+      }
+    ],
+    "name": "Beach Towel (White)",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/CabanaBeachTowelWhite",
+    "icon_asset_name": "PremiumIcons/CabanaBeachTowelWhite",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      {
+        "x": 0,
+        "z": 0,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": -1,
+        "z": 0,
+        "footprint_type": "Walkable"
+      }
+    ],
+    "max_health": 72,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 0.0,
+    "maintenance": 0.0,
+    "build_permission": "Claim",
+    "interact_permission": "Claim",
+    "has_action": true,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false,
+    "destroy_on_unclaim": false
+  },
+  {
     "id": 1288493332,
     "functions": [
       {
@@ -89667,6 +91850,55 @@
       }
     ],
     "max_health": 72,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 0.0,
+    "maintenance": 0.0,
+    "build_permission": "Claim",
+    "interact_permission": "Claim",
+    "has_action": true,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false,
+    "destroy_on_unclaim": false
+  },
+  {
+    "id": 1307944068,
+    "functions": [
+      {
+        "function_type": 1002,
+        "level": 0,
+        "crafting_slots": 0,
+        "storage_slots": 0,
+        "cargo_slots": 0,
+        "refining_slots": 0,
+        "refining_cargo_slots": 0,
+        "item_slot_size": 6000,
+        "cargo_slot_size": 6000,
+        "trade_orders": 0,
+        "allowed_item_id_per_slot": [],
+        "concurrent_crafts_per_player": 0,
+        "terraform": false,
+        "housing_slots": 0,
+        "housing_income": 0
+      }
+    ],
+    "name": "Common Scallop Display",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/CommonScallopDisplay",
+    "icon_asset_name": "GeneratedIcons/Items/CommonScallop",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      {
+        "x": 0,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      }
+    ],
+    "max_health": 336,
     "ignore_damage": false,
     "defense_level": 10000,
     "decay": 0.0,
@@ -90233,6 +92465,55 @@
         "x": 1,
         "z": -1,
         "footprint_type": "Walkable"
+      }
+    ],
+    "max_health": 72,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 0.0,
+    "maintenance": 0.0,
+    "build_permission": "Claim",
+    "interact_permission": "Claim",
+    "has_action": true,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false,
+    "destroy_on_unclaim": false
+  },
+  {
+    "id": 1348702771,
+    "functions": [
+      {
+        "function_type": 1002,
+        "level": -1,
+        "crafting_slots": 0,
+        "storage_slots": 0,
+        "cargo_slots": 0,
+        "refining_slots": 0,
+        "refining_cargo_slots": 0,
+        "item_slot_size": 6000,
+        "cargo_slot_size": 6000,
+        "trade_orders": 0,
+        "allowed_item_id_per_slot": [],
+        "concurrent_crafts_per_player": 0,
+        "terraform": false,
+        "housing_slots": 0,
+        "housing_income": 0
+      }
+    ],
+    "name": "Beach Umbrella (Yellow)",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/CabanaBeachUmbrellaYellow",
+    "icon_asset_name": "PremiumIcons/CabanaBeachUmbrellaYellow",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      {
+        "x": 0,
+        "z": 0,
+        "footprint_type": "Hitbox"
       }
     ],
     "max_health": 72,
@@ -91541,6 +93822,70 @@
     "destroy_on_unclaim": false
   },
   {
+    "id": 1388891285,
+    "functions": [
+      {
+        "function_type": 1002,
+        "level": -1,
+        "crafting_slots": 0,
+        "storage_slots": 0,
+        "cargo_slots": 0,
+        "refining_slots": 0,
+        "refining_cargo_slots": 0,
+        "item_slot_size": 6000,
+        "cargo_slot_size": 6000,
+        "trade_orders": 0,
+        "allowed_item_id_per_slot": [],
+        "concurrent_crafts_per_player": 0,
+        "terraform": false,
+        "housing_slots": 0,
+        "housing_income": 0
+      }
+    ],
+    "name": "Beach Arch",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/CabanaBeachArch",
+    "icon_asset_name": "PremiumIcons/CabanaBeachArch",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      {
+        "x": 0,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 0,
+        "z": 3,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 0,
+        "z": 2,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": 0,
+        "z": 1,
+        "footprint_type": "Walkable"
+      }
+    ],
+    "max_health": 72,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 0.0,
+    "maintenance": 0.0,
+    "build_permission": "Claim",
+    "interact_permission": "Claim",
+    "has_action": true,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false,
+    "destroy_on_unclaim": false
+  },
+  {
     "id": 1389266676,
     "functions": [
       {
@@ -92281,7 +94626,7 @@
     "decay": 0.0,
     "maintenance": 0.0,
     "build_permission": "Claim",
-    "interact_permission": "Claim",
+    "interact_permission": "All",
     "has_action": true,
     "show_in_compendium": true,
     "is_ruins": false,
@@ -94655,6 +97000,55 @@
     "destroy_on_unclaim": false
   },
   {
+    "id": 1514541088,
+    "functions": [
+      {
+        "function_type": 1002,
+        "level": 0,
+        "crafting_slots": 0,
+        "storage_slots": 0,
+        "cargo_slots": 0,
+        "refining_slots": 0,
+        "refining_cargo_slots": 0,
+        "item_slot_size": 6000,
+        "cargo_slot_size": 6000,
+        "trade_orders": 0,
+        "allowed_item_id_per_slot": [],
+        "concurrent_crafts_per_player": 0,
+        "terraform": false,
+        "housing_slots": 0,
+        "housing_income": 0
+      }
+    ],
+    "name": "Fancy Scallop Display",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/FancyScallopDisplay",
+    "icon_asset_name": "GeneratedIcons/Items/FancyScallop",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      {
+        "x": 0,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      }
+    ],
+    "max_health": 336,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 0.0,
+    "maintenance": 0.0,
+    "build_permission": "Claim",
+    "interact_permission": "Claim",
+    "has_action": true,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false,
+    "destroy_on_unclaim": false
+  },
+  {
     "id": 1515170243,
     "functions": [],
     "name": "TowerRuinPillarLarge1",
@@ -94680,6 +97074,55 @@
     "build_permission": "None",
     "interact_permission": "None",
     "has_action": false,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false,
+    "destroy_on_unclaim": false
+  },
+  {
+    "id": 1517325507,
+    "functions": [
+      {
+        "function_type": 1002,
+        "level": -1,
+        "crafting_slots": 0,
+        "storage_slots": 0,
+        "cargo_slots": 0,
+        "refining_slots": 0,
+        "refining_cargo_slots": 0,
+        "item_slot_size": 6000,
+        "cargo_slot_size": 6000,
+        "trade_orders": 0,
+        "allowed_item_id_per_slot": [],
+        "concurrent_crafts_per_player": 0,
+        "terraform": false,
+        "housing_slots": 0,
+        "housing_income": 0
+      }
+    ],
+    "name": "Beach Lamp",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/CabanaBeachLamp",
+    "icon_asset_name": "PremiumIcons/CabanaBeachLamp",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      {
+        "x": 0,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      }
+    ],
+    "max_health": 72,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 0.0,
+    "maintenance": 0.0,
+    "build_permission": "Claim",
+    "interact_permission": "Claim",
+    "has_action": true,
     "show_in_compendium": true,
     "is_ruins": false,
     "not_deconstructible": false,
@@ -95940,7 +98383,7 @@
     "decay": 0.0,
     "maintenance": 0.0,
     "build_permission": "Claim",
-    "interact_permission": "Claim",
+    "interact_permission": "All",
     "has_action": true,
     "show_in_compendium": true,
     "is_ruins": false,
@@ -99121,7 +101564,7 @@
     "decay": 0.0,
     "maintenance": 0.0,
     "build_permission": "Claim",
-    "interact_permission": "Claim",
+    "interact_permission": "All",
     "has_action": true,
     "show_in_compendium": true,
     "is_ruins": false,
@@ -99209,6 +101652,60 @@
     "footprint": [
       {
         "x": 0,
+        "z": 0,
+        "footprint_type": "Walkable"
+      }
+    ],
+    "max_health": 72,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 0.0,
+    "maintenance": 0.0,
+    "build_permission": "Claim",
+    "interact_permission": "Claim",
+    "has_action": true,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false,
+    "destroy_on_unclaim": false
+  },
+  {
+    "id": 1657192879,
+    "functions": [
+      {
+        "function_type": 1002,
+        "level": -1,
+        "crafting_slots": 0,
+        "storage_slots": 0,
+        "cargo_slots": 0,
+        "refining_slots": 0,
+        "refining_cargo_slots": 0,
+        "item_slot_size": 6000,
+        "cargo_slot_size": 6000,
+        "trade_orders": 0,
+        "allowed_item_id_per_slot": [],
+        "concurrent_crafts_per_player": 0,
+        "terraform": false,
+        "housing_slots": 0,
+        "housing_income": 0
+      }
+    ],
+    "name": "Beach Towel (Orange)",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/CabanaBeachTowelOrange",
+    "icon_asset_name": "PremiumIcons/CabanaBeachTowelOrange",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      {
+        "x": 0,
+        "z": 0,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": -1,
         "z": 0,
         "footprint_type": "Walkable"
       }
@@ -104055,6 +106552,104 @@
       },
       {
         "x": -1,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      }
+    ],
+    "max_health": 72,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 0.0,
+    "maintenance": 0.0,
+    "build_permission": "Claim",
+    "interact_permission": "Claim",
+    "has_action": true,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false,
+    "destroy_on_unclaim": false
+  },
+  {
+    "id": 1732257908,
+    "functions": [
+      {
+        "function_type": 1002,
+        "level": -1,
+        "crafting_slots": 0,
+        "storage_slots": 0,
+        "cargo_slots": 0,
+        "refining_slots": 0,
+        "refining_cargo_slots": 0,
+        "item_slot_size": 6000,
+        "cargo_slot_size": 6000,
+        "trade_orders": 0,
+        "allowed_item_id_per_slot": [],
+        "concurrent_crafts_per_player": 0,
+        "terraform": false,
+        "housing_slots": 0,
+        "housing_income": 0
+      }
+    ],
+    "name": "Beach Umbrella (Green)",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/CabanaBeachUmbrellaGreen",
+    "icon_asset_name": "PremiumIcons/CabanaBeachUmbrellaGreen",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      {
+        "x": 0,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      }
+    ],
+    "max_health": 72,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 0.0,
+    "maintenance": 0.0,
+    "build_permission": "Claim",
+    "interact_permission": "Claim",
+    "has_action": true,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false,
+    "destroy_on_unclaim": false
+  },
+  {
+    "id": 1735731320,
+    "functions": [
+      {
+        "function_type": 1002,
+        "level": -1,
+        "crafting_slots": 0,
+        "storage_slots": 0,
+        "cargo_slots": 0,
+        "refining_slots": 0,
+        "refining_cargo_slots": 0,
+        "item_slot_size": 6000,
+        "cargo_slot_size": 6000,
+        "trade_orders": 0,
+        "allowed_item_id_per_slot": [],
+        "concurrent_crafts_per_player": 0,
+        "terraform": false,
+        "housing_slots": 0,
+        "housing_income": 0
+      }
+    ],
+    "name": "Beach Umbrella (Red)",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/CabanaBeachUmbrellaRed",
+    "icon_asset_name": "PremiumIcons/CabanaBeachUmbrellaRed",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      {
+        "x": 0,
         "z": 0,
         "footprint_type": "Hitbox"
       }
@@ -116154,7 +118749,7 @@
     "decay": 0.0,
     "maintenance": 0.0,
     "build_permission": "Claim",
-    "interact_permission": "Claim",
+    "interact_permission": "All",
     "has_action": true,
     "show_in_compendium": true,
     "is_ruins": false,
@@ -116407,6 +119002,60 @@
     "footprint": [
       {
         "x": 0,
+        "z": 0,
+        "footprint_type": "Walkable"
+      }
+    ],
+    "max_health": 72,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 0.0,
+    "maintenance": 0.0,
+    "build_permission": "Claim",
+    "interact_permission": "Claim",
+    "has_action": true,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false,
+    "destroy_on_unclaim": false
+  },
+  {
+    "id": 1885482996,
+    "functions": [
+      {
+        "function_type": 1002,
+        "level": -1,
+        "crafting_slots": 0,
+        "storage_slots": 0,
+        "cargo_slots": 0,
+        "refining_slots": 0,
+        "refining_cargo_slots": 0,
+        "item_slot_size": 6000,
+        "cargo_slot_size": 6000,
+        "trade_orders": 0,
+        "allowed_item_id_per_slot": [],
+        "concurrent_crafts_per_player": 0,
+        "terraform": false,
+        "housing_slots": 0,
+        "housing_income": 0
+      }
+    ],
+    "name": "Beach Towel (Gold)",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/CabanaBeachTowelGold",
+    "icon_asset_name": "PremiumIcons/CabanaBeachTowelGold",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      {
+        "x": 0,
+        "z": 0,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": -1,
         "z": 0,
         "footprint_type": "Walkable"
       }
@@ -118397,6 +121046,60 @@
     "ignore_damage": false,
     "defense_level": 10000,
     "decay": 1.0,
+    "maintenance": 0.0,
+    "build_permission": "Claim",
+    "interact_permission": "Claim",
+    "has_action": true,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false,
+    "destroy_on_unclaim": false
+  },
+  {
+    "id": 1977463034,
+    "functions": [
+      {
+        "function_type": 1002,
+        "level": -1,
+        "crafting_slots": 0,
+        "storage_slots": 0,
+        "cargo_slots": 0,
+        "refining_slots": 0,
+        "refining_cargo_slots": 0,
+        "item_slot_size": 6000,
+        "cargo_slot_size": 6000,
+        "trade_orders": 0,
+        "allowed_item_id_per_slot": [],
+        "concurrent_crafts_per_player": 0,
+        "terraform": false,
+        "housing_slots": 0,
+        "housing_income": 0
+      }
+    ],
+    "name": "Beach Towel (Blue)",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/CabanaBeachTowelBlue",
+    "icon_asset_name": "PremiumIcons/CabanaBeachTowelBlue",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      {
+        "x": 0,
+        "z": 0,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": -1,
+        "z": 0,
+        "footprint_type": "Walkable"
+      }
+    ],
+    "max_health": 72,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 0.0,
     "maintenance": 0.0,
     "build_permission": "Claim",
     "interact_permission": "Claim",
@@ -129353,7 +132056,7 @@
     "decay": 0.0,
     "maintenance": 0.0,
     "build_permission": "Claim",
-    "interact_permission": "Claim",
+    "interact_permission": "All",
     "has_action": true,
     "show_in_compendium": true,
     "is_ruins": false,
@@ -130212,6 +132915,60 @@
     "interact_permission": "All",
     "has_action": true,
     "show_in_compendium": false,
+    "is_ruins": false,
+    "not_deconstructible": false,
+    "destroy_on_unclaim": false
+  },
+  {
+    "id": 2103799626,
+    "functions": [
+      {
+        "function_type": 1002,
+        "level": -1,
+        "crafting_slots": 0,
+        "storage_slots": 0,
+        "cargo_slots": 0,
+        "refining_slots": 0,
+        "refining_cargo_slots": 0,
+        "item_slot_size": 6000,
+        "cargo_slot_size": 6000,
+        "trade_orders": 0,
+        "allowed_item_id_per_slot": [],
+        "concurrent_crafts_per_player": 0,
+        "terraform": false,
+        "housing_slots": 0,
+        "housing_income": 0
+      }
+    ],
+    "name": "Beach Towel (Pink)",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/CabanaBeachTowelPink",
+    "icon_asset_name": "PremiumIcons/CabanaBeachTowelPink",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      {
+        "x": 0,
+        "z": 0,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": -1,
+        "z": 0,
+        "footprint_type": "Walkable"
+      }
+    ],
+    "max_health": 72,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 0.0,
+    "maintenance": 0.0,
+    "build_permission": "Claim",
+    "interact_permission": "Claim",
+    "has_action": true,
+    "show_in_compendium": true,
     "is_ruins": false,
     "not_deconstructible": false,
     "destroy_on_unclaim": false

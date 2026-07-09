@@ -13114,11 +13114,11 @@
     "name": "Pirate's Map Drop Smithing",
     "possibilities": [
       {
-        "probability": 90.0,
+        "probability": 80.0,
         "items": []
       },
       {
-        "probability": 10.0,
+        "probability": 20.0,
         "items": [
           {
             "item_id": 723635558,
@@ -28963,6 +28963,34 @@
     ]
   },
   {
+    "id": 566531243,
+    "name": "Popsicle Output",
+    "possibilities": [
+      {
+        "probability": 100.0,
+        "items": [
+          {
+            "item_id": 1959776115,
+            "quantity": 1,
+            "item_type": "Item",
+            "durability": 0
+          }
+        ]
+      },
+      {
+        "probability": 1.0,
+        "items": [
+          {
+            "item_id": 1497726966,
+            "quantity": 1,
+            "item_type": "Item",
+            "durability": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": 567396593,
     "name": "Umbracite Mace",
     "possibilities": [
@@ -33169,6 +33197,34 @@
     ]
   },
   {
+    "id": 680694552,
+    "name": "Random Silkmoth",
+    "possibilities": [
+      {
+        "probability": 50.0,
+        "items": [
+          {
+            "item_id": 625478333,
+            "quantity": 1,
+            "item_type": "Item",
+            "durability": 0
+          }
+        ]
+      },
+      {
+        "probability": 50.0,
+        "items": [
+          {
+            "item_id": 1338985344,
+            "quantity": 1,
+            "item_type": "Item",
+            "durability": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": 680933968,
     "name": "Ornate Geode",
     "possibilities": [
@@ -34091,6 +34147,12 @@
           {
             "item_id": 828972621,
             "quantity": 30,
+            "item_type": "Item",
+            "durability": 0
+          },
+          {
+            "item_id": 269265079,
+            "quantity": 1,
             "item_type": "Item",
             "durability": 0
           }
@@ -47201,6 +47263,27 @@
     ]
   },
   {
+    "id": 1158032596,
+    "name": "Ice Chest Map Drop",
+    "possibilities": [
+      {
+        "probability": 1999.0,
+        "items": []
+      },
+      {
+        "probability": 1.0,
+        "items": [
+          {
+            "item_id": 833741484,
+            "quantity": 1,
+            "item_type": "Item",
+            "durability": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": 1158934408,
     "name": "Uncommon Domesticated Sagi Product",
     "possibilities": [
@@ -48981,6 +49064,89 @@
           },
           {
             "item_id": 512996334,
+            "quantity": 1,
+            "item_type": "Item",
+            "durability": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1224018640,
+    "name": "Random Tube",
+    "possibilities": [
+      {
+        "probability": 30.0,
+        "items": [
+          {
+            "item_id": 1400318675,
+            "quantity": 1,
+            "item_type": "Item",
+            "durability": 0
+          }
+        ]
+      },
+      {
+        "probability": 25.0,
+        "items": [
+          {
+            "item_id": 933387935,
+            "quantity": 1,
+            "item_type": "Item",
+            "durability": 0
+          }
+        ]
+      },
+      {
+        "probability": 20.0,
+        "items": [
+          {
+            "item_id": 1798099781,
+            "quantity": 1,
+            "item_type": "Item",
+            "durability": 0
+          }
+        ]
+      },
+      {
+        "probability": 10.0,
+        "items": [
+          {
+            "item_id": 765071435,
+            "quantity": 1,
+            "item_type": "Item",
+            "durability": 0
+          }
+        ]
+      },
+      {
+        "probability": 7.0,
+        "items": [
+          {
+            "item_id": 1534843337,
+            "quantity": 1,
+            "item_type": "Item",
+            "durability": 0
+          }
+        ]
+      },
+      {
+        "probability": 4.0,
+        "items": [
+          {
+            "item_id": 669743823,
+            "quantity": 1,
+            "item_type": "Item",
+            "durability": 0
+          }
+        ]
+      },
+      {
+        "probability": 4.0,
+        "items": [
+          {
+            "item_id": 164460932,
             "quantity": 1,
             "item_type": "Item",
             "durability": 0
@@ -52244,6 +52410,27 @@
     ]
   },
   {
+    "id": 1334743283,
+    "name": "Pirate's Map Drop Tailor",
+    "possibilities": [
+      {
+        "probability": 35.0,
+        "items": []
+      },
+      {
+        "probability": 65.0,
+        "items": [
+          {
+            "item_id": 723635558,
+            "quantity": 1,
+            "item_type": "Item",
+            "durability": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": 1334839422,
     "name": "Ornate Leather Cap",
     "possibilities": [
@@ -55495,6 +55682,63 @@
     ]
   },
   {
+    "id": 1451883043,
+    "name": "Ice Chest Drops",
+    "possibilities": [
+      {
+        "probability": 20.0,
+        "items": [
+          {
+            "item_id": 918355157,
+            "quantity": 50,
+            "item_type": "Item",
+            "durability": 0
+          },
+          {
+            "item_id": 1687465900,
+            "quantity": 4,
+            "item_type": "Item",
+            "durability": 0
+          }
+        ]
+      },
+      {
+        "probability": 40.0,
+        "items": [
+          {
+            "item_id": 918355157,
+            "quantity": 40,
+            "item_type": "Item",
+            "durability": 0
+          },
+          {
+            "item_id": 1128042037,
+            "quantity": 1,
+            "item_type": "Item",
+            "durability": 0
+          }
+        ]
+      },
+      {
+        "probability": 40.0,
+        "items": [
+          {
+            "item_id": 918355157,
+            "quantity": 40,
+            "item_type": "Item",
+            "durability": 0
+          },
+          {
+            "item_id": 558243323,
+            "quantity": 1,
+            "item_type": "Item",
+            "durability": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": 1454457875,
     "name": "Exquisite Leather Boots",
     "possibilities": [
@@ -57029,6 +57273,45 @@
             "quantity": 1,
             "item_type": "Item",
             "durability": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1514769313,
+    "name": "Random Research Uncharted Scholar",
+    "possibilities": [
+      {
+        "probability": 1.0,
+        "items": [
+          {
+            "item_id": 199864514,
+            "quantity": 1,
+            "item_type": "Cargo",
+            "durability": null
+          }
+        ]
+      },
+      {
+        "probability": 1.0,
+        "items": [
+          {
+            "item_id": 566318030,
+            "quantity": 1,
+            "item_type": "Cargo",
+            "durability": null
+          }
+        ]
+      },
+      {
+        "probability": 1.0,
+        "items": [
+          {
+            "item_id": 618937817,
+            "quantity": 1,
+            "item_type": "Cargo",
+            "durability": null
           }
         ]
       }
@@ -60478,6 +60761,89 @@
     ]
   },
   {
+    "id": 1621268095,
+    "name": "Random Flipper",
+    "possibilities": [
+      {
+        "probability": 30.0,
+        "items": [
+          {
+            "item_id": 128834893,
+            "quantity": 1,
+            "item_type": "Item",
+            "durability": 0
+          }
+        ]
+      },
+      {
+        "probability": 25.0,
+        "items": [
+          {
+            "item_id": 1578183677,
+            "quantity": 1,
+            "item_type": "Item",
+            "durability": 0
+          }
+        ]
+      },
+      {
+        "probability": 20.0,
+        "items": [
+          {
+            "item_id": 2099112364,
+            "quantity": 1,
+            "item_type": "Item",
+            "durability": 0
+          }
+        ]
+      },
+      {
+        "probability": 10.0,
+        "items": [
+          {
+            "item_id": 494946901,
+            "quantity": 1,
+            "item_type": "Item",
+            "durability": 0
+          }
+        ]
+      },
+      {
+        "probability": 7.0,
+        "items": [
+          {
+            "item_id": 1699321116,
+            "quantity": 1,
+            "item_type": "Item",
+            "durability": 0
+          }
+        ]
+      },
+      {
+        "probability": 4.0,
+        "items": [
+          {
+            "item_id": 1966663483,
+            "quantity": 1,
+            "item_type": "Item",
+            "durability": 0
+          }
+        ]
+      },
+      {
+        "probability": 4.0,
+        "items": [
+          {
+            "item_id": 1871017899,
+            "quantity": 1,
+            "item_type": "Item",
+            "durability": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": 1622502936,
     "name": "Emarium Plated Boots",
     "possibilities": [
@@ -63435,6 +63801,27 @@
     ]
   },
   {
+    "id": 1709396729,
+    "name": "Uncharted Silk Cocoon Extract",
+    "possibilities": [
+      {
+        "probability": 190.0,
+        "items": []
+      },
+      {
+        "probability": 10.0,
+        "items": [
+          {
+            "item_id": 700541573,
+            "quantity": 1,
+            "item_type": "Item",
+            "durability": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": 1710632155,
     "name": "Luminite Duelist Belt",
     "possibilities": [
@@ -64344,7 +64731,7 @@
           },
           {
             "item_id": 1100020,
-            "quantity": 110,
+            "quantity": 1100,
             "item_type": "Item",
             "durability": 0
           }
@@ -65048,6 +65435,27 @@
           },
           {
             "item_id": 2113280563,
+            "quantity": 1,
+            "item_type": "Item",
+            "durability": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1775942693,
+    "name": "AncientGlassDrop",
+    "possibilities": [
+      {
+        "probability": 97.0,
+        "items": []
+      },
+      {
+        "probability": 3.0,
+        "items": [
+          {
+            "item_id": 1513590300,
             "quantity": 1,
             "item_type": "Item",
             "durability": 0
@@ -66415,6 +66823,27 @@
         "items": [
           {
             "item_id": 290870823,
+            "quantity": 1,
+            "item_type": "Item",
+            "durability": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1824346705,
+    "name": "Pirate's Map Drop Scholar",
+    "possibilities": [
+      {
+        "probability": 94.0,
+        "items": []
+      },
+      {
+        "probability": 6.0,
+        "items": [
+          {
+            "item_id": 723635558,
             "quantity": 1,
             "item_type": "Item",
             "durability": 0
@@ -70388,6 +70817,29 @@
     ]
   },
   {
+    "id": 1940719902,
+    "name": "Whole Banana Output",
+    "possibilities": [
+      {
+        "probability": 1.0,
+        "items": [
+          {
+            "item_id": 25110718,
+            "quantity": 1,
+            "item_type": "Item",
+            "durability": 0
+          },
+          {
+            "item_id": 1998773564,
+            "quantity": 1,
+            "item_type": "Item",
+            "durability": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": 1940932685,
     "name": "Emarium Plated Legguards",
     "possibilities": [
@@ -74300,6 +74752,56 @@
     ]
   },
   {
+    "id": 2049937525,
+    "name": "Random Shell",
+    "possibilities": [
+      {
+        "probability": 20.0,
+        "items": [
+          {
+            "item_id": 655491331,
+            "quantity": 1,
+            "item_type": "Item",
+            "durability": 0
+          }
+        ]
+      },
+      {
+        "probability": 15.0,
+        "items": [
+          {
+            "item_id": 233851066,
+            "quantity": 1,
+            "item_type": "Item",
+            "durability": 0
+          }
+        ]
+      },
+      {
+        "probability": 10.0,
+        "items": [
+          {
+            "item_id": 1516591189,
+            "quantity": 1,
+            "item_type": "Item",
+            "durability": 0
+          }
+        ]
+      },
+      {
+        "probability": 5.0,
+        "items": [
+          {
+            "item_id": 1456151366,
+            "quantity": 1,
+            "item_type": "Item",
+            "durability": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": 2050040376,
     "name": "T9 Berry",
     "possibilities": [
@@ -77094,6 +77596,67 @@
           {
             "item_id": 889873041,
             "quantity": 1,
+            "item_type": "Item",
+            "durability": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2147257660,
+    "name": "Hex Coins 1-5",
+    "possibilities": [
+      {
+        "probability": 1.0,
+        "items": [
+          {
+            "item_id": 1,
+            "quantity": 1,
+            "item_type": "Item",
+            "durability": 0
+          }
+        ]
+      },
+      {
+        "probability": 1.0,
+        "items": [
+          {
+            "item_id": 1,
+            "quantity": 2,
+            "item_type": "Item",
+            "durability": 0
+          }
+        ]
+      },
+      {
+        "probability": 1.0,
+        "items": [
+          {
+            "item_id": 1,
+            "quantity": 3,
+            "item_type": "Item",
+            "durability": 0
+          }
+        ]
+      },
+      {
+        "probability": 1.0,
+        "items": [
+          {
+            "item_id": 1,
+            "quantity": 4,
+            "item_type": "Item",
+            "durability": 0
+          }
+        ]
+      },
+      {
+        "probability": 1.0,
+        "items": [
+          {
+            "item_id": 1,
+            "quantity": 5,
             "item_type": "Item",
             "durability": 0
           }
