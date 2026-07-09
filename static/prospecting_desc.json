@@ -233,6 +233,81 @@
     "single_contribution_only": false
   },
   {
+    "id": 273164973,
+    "name": "Search for the Ice Chest",
+    "description": "Use a Map to the Ice Chest to search for a Lost Treasure.",
+    "resource_clump_id": 2063571694,
+    "placeholder_resource_clump_id": 1010220448,
+    "enemy_ai_desc_id": 0,
+    "is_aquatic_resource": false,
+    "biome_requirements": [
+      7,
+      3,
+      6,
+      1
+    ],
+    "equipment_requirements": [],
+    "required_items_to_start": [
+      [
+        833741484,
+        1,
+        [
+          0,
+          []
+        ],
+        [
+          1,
+          []
+        ]
+      ]
+    ],
+    "required_items_to_interact_with_reward": [
+      [
+        833741484,
+        1,
+        [
+          0,
+          []
+        ],
+        [
+          1,
+          []
+        ]
+      ]
+    ],
+    "consumed_items_by_ability_trigger": [],
+    "allow_aquatic_prospecting": false,
+    "bread_crumb_count": [
+      0,
+      0
+    ],
+    "bread_crumb_radius": [
+      15,
+      20
+    ],
+    "distance_between_bread_crumbs": [
+      120,
+      180
+    ],
+    "deadzone_angle_between_crumbs": 90.0,
+    "allow_aquatic_bread_crumb": false,
+    "pointer_duration": 4.0,
+    "prospecting_duration": 3.0,
+    "join_radius": 40,
+    "contribution_per_visited_bread_crumb": 1,
+    "breadcrumb_found_message": "You've found a point of interest from the map.",
+    "resource_uncovered_message": "You see the treasure in the distance.",
+    "breadcrumb_found_by_someone_else_message": "Someone else has found a point of interest from the map.",
+    "resource_uncovered_by_someone_else_message": "You are able to follow someone else's trail to the Ice Chest!",
+    "icon_asset_path": "\u0015",
+    "experience_per_node": {
+      "skill_id": 5,
+      "quantity": 0.0
+    },
+    "pct_nodes_for_max_contribution": 0.0,
+    "single_contribution_only": true
+  },
+  {
     "id": 296926863,
     "name": "Beehive Hunt",
     "description": "Search the Calm Forest for a Beehive for Alesi",
@@ -506,16 +581,16 @@
     "consumed_items_by_ability_trigger": [],
     "allow_aquatic_prospecting": false,
     "bread_crumb_count": [
-      5,
-      6
+      0,
+      0
     ],
     "bread_crumb_radius": [
       15,
       20
     ],
     "distance_between_bread_crumbs": [
-      60,
-      90
+      350,
+      450
     ],
     "deadzone_angle_between_crumbs": 90.0,
     "allow_aquatic_bread_crumb": false,
