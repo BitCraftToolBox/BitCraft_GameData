@@ -141,6 +141,54 @@
     "single_contribution_only": false
   },
   {
+    "id": 212904934,
+    "name": "Hidden Rocky Doimaach Spot Search",
+    "description": "Track down a Hidden Rocky Doimaach Spot",
+    "resource_clump_id": 765178357,
+    "placeholder_resource_clump_id": 173043466,
+    "enemy_ai_desc_id": 0,
+    "is_aquatic_resource": true,
+    "biome_requirements": [
+      9,
+      6,
+      14
+    ],
+    "equipment_requirements": [],
+    "required_items_to_start": [],
+    "required_items_to_interact_with_reward": [],
+    "consumed_items_by_ability_trigger": [],
+    "allow_aquatic_prospecting": true,
+    "bread_crumb_count": [
+      0,
+      0
+    ],
+    "bread_crumb_radius": [
+      25,
+      25
+    ],
+    "distance_between_bread_crumbs": [
+      75,
+      125
+    ],
+    "deadzone_angle_between_crumbs": 0.0,
+    "allow_aquatic_bread_crumb": true,
+    "pointer_duration": 0.0,
+    "prospecting_duration": 3.0,
+    "join_radius": 0,
+    "contribution_per_visited_bread_crumb": 1000,
+    "breadcrumb_found_message": "You are getting nearer to your target",
+    "resource_uncovered_message": "You see a hidden fishing spot in the distance.",
+    "breadcrumb_found_by_someone_else_message": "You are able to follow someone else's trail",
+    "resource_uncovered_by_someone_else_message": "You are able to follow someone else's trail to the target",
+    "icon_asset_path": "Č",
+    "experience_per_node": {
+      "skill_id": 0,
+      "quantity": 0.0
+    },
+    "pct_nodes_for_max_contribution": 0.0,
+    "single_contribution_only": false
+  },
+  {
     "id": 262495756,
     "name": "Search for Coconuts",
     "description": "Begin a hunt for some coconuts. Coconuts can be used by a scholar to make coconut essence.",
@@ -296,6 +344,55 @@
     "single_contribution_only": true
   },
   {
+    "id": 292648084,
+    "name": "Hidden Azure Sphyra Spot Search",
+    "description": "Track down a Hidden Azure Sphyra Spot",
+    "resource_clump_id": 976402171,
+    "placeholder_resource_clump_id": 173043466,
+    "enemy_ai_desc_id": 0,
+    "is_aquatic_resource": true,
+    "biome_requirements": [
+      9,
+      5,
+      8,
+      3
+    ],
+    "equipment_requirements": [],
+    "required_items_to_start": [],
+    "required_items_to_interact_with_reward": [],
+    "consumed_items_by_ability_trigger": [],
+    "allow_aquatic_prospecting": true,
+    "bread_crumb_count": [
+      0,
+      0
+    ],
+    "bread_crumb_radius": [
+      25,
+      25
+    ],
+    "distance_between_bread_crumbs": [
+      75,
+      125
+    ],
+    "deadzone_angle_between_crumbs": 0.0,
+    "allow_aquatic_bread_crumb": true,
+    "pointer_duration": 0.0,
+    "prospecting_duration": 3.0,
+    "join_radius": 0,
+    "contribution_per_visited_bread_crumb": 1000,
+    "breadcrumb_found_message": "You are getting nearer to your target",
+    "resource_uncovered_message": "You see a hidden fishing spot in the distance.",
+    "breadcrumb_found_by_someone_else_message": "You are able to follow someone else's trail",
+    "resource_uncovered_by_someone_else_message": "You are able to follow someone else's trail to the target",
+    "icon_asset_path": "Č",
+    "experience_per_node": {
+      "skill_id": 0,
+      "quantity": 0.0
+    },
+    "pct_nodes_for_max_contribution": 0.0,
+    "single_contribution_only": false
+  },
+  {
     "id": 296926863,
     "name": "Beehive Hunt",
     "description": "Search the Calm Forest for a Beehive for Alesi",
@@ -340,6 +437,144 @@
     },
     "pct_nodes_for_max_contribution": 0.0,
     "single_contribution_only": false
+  },
+  {
+    "id": 374429528,
+    "name": "Trask Hunt",
+    "description": "Hunt down a school of Tier 1 trophy fish. These fish are challenging to catch and don't provide much fish itself for the effort, but the experience you'll gain while catching them is well worth it. You'll have to carefull use your fishing abilities to secure more than a small fry of a catch.",
+    "resource_clump_id": 1261733750,
+    "placeholder_resource_clump_id": 63803867,
+    "enemy_ai_desc_id": 0,
+    "is_aquatic_resource": true,
+    "biome_requirements": [
+      10
+    ],
+    "equipment_requirements": [],
+    "required_items_to_start": [],
+    "required_items_to_interact_with_reward": [],
+    "consumed_items_by_ability_trigger": [],
+    "allow_aquatic_prospecting": true,
+    "bread_crumb_count": [
+      0,
+      0
+    ],
+    "bread_crumb_radius": [
+      25,
+      25
+    ],
+    "distance_between_bread_crumbs": [
+      160,
+      180
+    ],
+    "deadzone_angle_between_crumbs": 0.0,
+    "allow_aquatic_bread_crumb": true,
+    "pointer_duration": 0.0,
+    "prospecting_duration": 3.0,
+    "join_radius": 0,
+    "contribution_per_visited_bread_crumb": 0,
+    "breadcrumb_found_message": "You are getting nearer to your target",
+    "resource_uncovered_message": "You can sense the Trophy fish in the distance.",
+    "breadcrumb_found_by_someone_else_message": "You are able to follow someone else's trail",
+    "resource_uncovered_by_someone_else_message": "You are able to follow someone else's trail to the target",
+    "icon_asset_path": "Č",
+    "experience_per_node": {
+      "skill_id": 0,
+      "quantity": 0.0
+    },
+    "pct_nodes_for_max_contribution": 0.0,
+    "single_contribution_only": true
+  },
+  {
+    "id": 399655412,
+    "name": "Carbot Hunt",
+    "description": "Hunt down a school of Tier 2 trophy fish. These fish are challenging to catch and don't provide much fish itself for the effort, but the experience you'll gain while catching them is well worth it. You'll have to carefull use your fishing abilities to secure more than a small fry of a catch.",
+    "resource_clump_id": 1553201078,
+    "placeholder_resource_clump_id": 63803867,
+    "enemy_ai_desc_id": 0,
+    "is_aquatic_resource": true,
+    "biome_requirements": [
+      10
+    ],
+    "equipment_requirements": [],
+    "required_items_to_start": [],
+    "required_items_to_interact_with_reward": [],
+    "consumed_items_by_ability_trigger": [],
+    "allow_aquatic_prospecting": true,
+    "bread_crumb_count": [
+      0,
+      0
+    ],
+    "bread_crumb_radius": [
+      25,
+      25
+    ],
+    "distance_between_bread_crumbs": [
+      160,
+      180
+    ],
+    "deadzone_angle_between_crumbs": 0.0,
+    "allow_aquatic_bread_crumb": true,
+    "pointer_duration": 0.0,
+    "prospecting_duration": 3.0,
+    "join_radius": 0,
+    "contribution_per_visited_bread_crumb": 0,
+    "breadcrumb_found_message": "You are getting nearer to your target",
+    "resource_uncovered_message": "You can sense the Trophy fish in the distance.",
+    "breadcrumb_found_by_someone_else_message": "You are able to follow someone else's trail",
+    "resource_uncovered_by_someone_else_message": "You are able to follow someone else's trail to the target",
+    "icon_asset_path": "Č",
+    "experience_per_node": {
+      "skill_id": 0,
+      "quantity": 0.0
+    },
+    "pct_nodes_for_max_contribution": 0.0,
+    "single_contribution_only": true
+  },
+  {
+    "id": 446994655,
+    "name": "Naskel Hunt",
+    "description": "Hunt down a school of Tier 10 trophy fish. These fish are challenging to catch and don't provide much fish itself for the effort, but the experience you'll gain while catching them is well worth it. You'll have to carefull use your fishing abilities to secure more than a small fry of a catch.",
+    "resource_clump_id": 1284724684,
+    "placeholder_resource_clump_id": 63803867,
+    "enemy_ai_desc_id": 0,
+    "is_aquatic_resource": true,
+    "biome_requirements": [
+      10
+    ],
+    "equipment_requirements": [],
+    "required_items_to_start": [],
+    "required_items_to_interact_with_reward": [],
+    "consumed_items_by_ability_trigger": [],
+    "allow_aquatic_prospecting": true,
+    "bread_crumb_count": [
+      0,
+      0
+    ],
+    "bread_crumb_radius": [
+      25,
+      25
+    ],
+    "distance_between_bread_crumbs": [
+      160,
+      180
+    ],
+    "deadzone_angle_between_crumbs": 0.0,
+    "allow_aquatic_bread_crumb": true,
+    "pointer_duration": 0.0,
+    "prospecting_duration": 3.0,
+    "join_radius": 0,
+    "contribution_per_visited_bread_crumb": 0,
+    "breadcrumb_found_message": "You are getting nearer to your target",
+    "resource_uncovered_message": "You can sense the Trophy fish in the distance.",
+    "breadcrumb_found_by_someone_else_message": "You are able to follow someone else's trail",
+    "resource_uncovered_by_someone_else_message": "You are able to follow someone else's trail to the target",
+    "icon_asset_path": "Č",
+    "experience_per_node": {
+      "skill_id": 0,
+      "quantity": 0.0
+    },
+    "pct_nodes_for_max_contribution": 0.0,
+    "single_contribution_only": true
   },
   {
     "id": 461794749,
@@ -526,6 +761,53 @@
     "single_contribution_only": false
   },
   {
+    "id": 768572584,
+    "name": "Hidden Mossy Synan Spot Search",
+    "description": "Track down a Hidden Mossy Synan Spot",
+    "resource_clump_id": 1255448602,
+    "placeholder_resource_clump_id": 173043466,
+    "enemy_ai_desc_id": 0,
+    "is_aquatic_resource": true,
+    "biome_requirements": [
+      8,
+      13
+    ],
+    "equipment_requirements": [],
+    "required_items_to_start": [],
+    "required_items_to_interact_with_reward": [],
+    "consumed_items_by_ability_trigger": [],
+    "allow_aquatic_prospecting": true,
+    "bread_crumb_count": [
+      0,
+      0
+    ],
+    "bread_crumb_radius": [
+      25,
+      25
+    ],
+    "distance_between_bread_crumbs": [
+      75,
+      125
+    ],
+    "deadzone_angle_between_crumbs": 0.0,
+    "allow_aquatic_bread_crumb": true,
+    "pointer_duration": 0.0,
+    "prospecting_duration": 3.0,
+    "join_radius": 0,
+    "contribution_per_visited_bread_crumb": 1000,
+    "breadcrumb_found_message": "You are getting nearer to your target",
+    "resource_uncovered_message": "You see a hidden fishing spot in the distance.",
+    "breadcrumb_found_by_someone_else_message": "You are able to follow someone else's trail",
+    "resource_uncovered_by_someone_else_message": "You are able to follow someone else's trail to the target",
+    "icon_asset_path": "Č",
+    "experience_per_node": {
+      "skill_id": 0,
+      "quantity": 0.0
+    },
+    "pct_nodes_for_max_contribution": 0.0,
+    "single_contribution_only": false
+  },
+  {
     "id": 823935719,
     "name": "Search for Pirate's Treasure",
     "description": "Use a Pirate's Map to search for a Lost Treasure.",
@@ -679,6 +961,147 @@
     "single_contribution_only": false
   },
   {
+    "id": 925435540,
+    "name": "Hidden Greenhorn Dolo Spot Search",
+    "description": "Track down a Hidden Greenhorn Dolo Spot",
+    "resource_clump_id": 1371593942,
+    "placeholder_resource_clump_id": 173043466,
+    "enemy_ai_desc_id": 0,
+    "is_aquatic_resource": true,
+    "biome_requirements": [
+      4,
+      2,
+      5,
+      6
+    ],
+    "equipment_requirements": [],
+    "required_items_to_start": [],
+    "required_items_to_interact_with_reward": [],
+    "consumed_items_by_ability_trigger": [],
+    "allow_aquatic_prospecting": true,
+    "bread_crumb_count": [
+      0,
+      0
+    ],
+    "bread_crumb_radius": [
+      25,
+      25
+    ],
+    "distance_between_bread_crumbs": [
+      75,
+      125
+    ],
+    "deadzone_angle_between_crumbs": 0.0,
+    "allow_aquatic_bread_crumb": true,
+    "pointer_duration": 0.0,
+    "prospecting_duration": 3.0,
+    "join_radius": 0,
+    "contribution_per_visited_bread_crumb": 1000,
+    "breadcrumb_found_message": "You are getting nearer to your target",
+    "resource_uncovered_message": "You see a hidden fishing spot in the distance.",
+    "breadcrumb_found_by_someone_else_message": "You are able to follow someone else's trail",
+    "resource_uncovered_by_someone_else_message": "You are able to follow someone else's trail to the target",
+    "icon_asset_path": "Č",
+    "experience_per_node": {
+      "skill_id": 0,
+      "quantity": 0.0
+    },
+    "pct_nodes_for_max_contribution": 0.0,
+    "single_contribution_only": false
+  },
+  {
+    "id": 933459301,
+    "name": "Hidden Divine Serra Spot Search",
+    "description": "Track down a Hidden Divine Serra Spot",
+    "resource_clump_id": 1070008529,
+    "placeholder_resource_clump_id": 173043466,
+    "enemy_ai_desc_id": 0,
+    "is_aquatic_resource": true,
+    "biome_requirements": [
+      10
+    ],
+    "equipment_requirements": [],
+    "required_items_to_start": [],
+    "required_items_to_interact_with_reward": [],
+    "consumed_items_by_ability_trigger": [],
+    "allow_aquatic_prospecting": true,
+    "bread_crumb_count": [
+      0,
+      0
+    ],
+    "bread_crumb_radius": [
+      25,
+      25
+    ],
+    "distance_between_bread_crumbs": [
+      75,
+      125
+    ],
+    "deadzone_angle_between_crumbs": 0.0,
+    "allow_aquatic_bread_crumb": true,
+    "pointer_duration": 0.0,
+    "prospecting_duration": 3.0,
+    "join_radius": 0,
+    "contribution_per_visited_bread_crumb": 1000,
+    "breadcrumb_found_message": "You are getting nearer to your target",
+    "resource_uncovered_message": "You see a hidden fishing spot in the distance.",
+    "breadcrumb_found_by_someone_else_message": "You are able to follow someone else's trail",
+    "resource_uncovered_by_someone_else_message": "You are able to follow someone else's trail to the target",
+    "icon_asset_path": "Č",
+    "experience_per_node": {
+      "skill_id": 0,
+      "quantity": 0.0
+    },
+    "pct_nodes_for_max_contribution": 0.0,
+    "single_contribution_only": false
+  },
+  {
+    "id": 964622621,
+    "name": "Garbel Hunt",
+    "description": "Hunt down a school of Tier 7 trophy fish. These fish are challenging to catch and don't provide much fish itself for the effort, but the experience you'll gain while catching them is well worth it. You'll have to carefull use your fishing abilities to secure more than a small fry of a catch.",
+    "resource_clump_id": 1819259320,
+    "placeholder_resource_clump_id": 63803867,
+    "enemy_ai_desc_id": 0,
+    "is_aquatic_resource": true,
+    "biome_requirements": [
+      10
+    ],
+    "equipment_requirements": [],
+    "required_items_to_start": [],
+    "required_items_to_interact_with_reward": [],
+    "consumed_items_by_ability_trigger": [],
+    "allow_aquatic_prospecting": true,
+    "bread_crumb_count": [
+      0,
+      0
+    ],
+    "bread_crumb_radius": [
+      25,
+      25
+    ],
+    "distance_between_bread_crumbs": [
+      160,
+      180
+    ],
+    "deadzone_angle_between_crumbs": 0.0,
+    "allow_aquatic_bread_crumb": true,
+    "pointer_duration": 0.0,
+    "prospecting_duration": 3.0,
+    "join_radius": 0,
+    "contribution_per_visited_bread_crumb": 0,
+    "breadcrumb_found_message": "You are getting nearer to your target",
+    "resource_uncovered_message": "You can sense the Trophy fish in the distance.",
+    "breadcrumb_found_by_someone_else_message": "You are able to follow someone else's trail",
+    "resource_uncovered_by_someone_else_message": "You are able to follow someone else's trail to the target",
+    "icon_asset_path": "Č",
+    "experience_per_node": {
+      "skill_id": 0,
+      "quantity": 0.0
+    },
+    "pct_nodes_for_max_contribution": 0.0,
+    "single_contribution_only": true
+  },
+  {
     "id": 1023593297,
     "name": "Owl Feather Hunt",
     "description": "Search the Safe Meadows for owl feathers for Alesi",
@@ -717,6 +1140,55 @@
     "breadcrumb_found_by_someone_else_message": "You can follow someone elses trail to the clue",
     "resource_uncovered_by_someone_else_message": "Someone else uncovered the feathers, go get them!",
     "icon_asset_path": "ﾭ",
+    "experience_per_node": {
+      "skill_id": 0,
+      "quantity": 0.0
+    },
+    "pct_nodes_for_max_contribution": 0.0,
+    "single_contribution_only": false
+  },
+  {
+    "id": 1029426535,
+    "name": "Hidden Muddy Auratus Spot Search",
+    "description": "Track down a Hidden Muddy Auratus Spot",
+    "resource_clump_id": 548209355,
+    "placeholder_resource_clump_id": 173043466,
+    "enemy_ai_desc_id": 0,
+    "is_aquatic_resource": true,
+    "biome_requirements": [
+      1,
+      2,
+      5,
+      3
+    ],
+    "equipment_requirements": [],
+    "required_items_to_start": [],
+    "required_items_to_interact_with_reward": [],
+    "consumed_items_by_ability_trigger": [],
+    "allow_aquatic_prospecting": true,
+    "bread_crumb_count": [
+      0,
+      0
+    ],
+    "bread_crumb_radius": [
+      25,
+      25
+    ],
+    "distance_between_bread_crumbs": [
+      75,
+      125
+    ],
+    "deadzone_angle_between_crumbs": 0.0,
+    "allow_aquatic_bread_crumb": true,
+    "pointer_duration": 0.0,
+    "prospecting_duration": 3.0,
+    "join_radius": 0,
+    "contribution_per_visited_bread_crumb": 1000,
+    "breadcrumb_found_message": "You are getting nearer to your target",
+    "resource_uncovered_message": "You see a hidden fishing spot in the distance.",
+    "breadcrumb_found_by_someone_else_message": "You are able to follow someone else's trail",
+    "resource_uncovered_by_someone_else_message": "You are able to follow someone else's trail to the target",
+    "icon_asset_path": "Č",
     "experience_per_node": {
       "skill_id": 0,
       "quantity": 0.0
@@ -867,6 +1339,144 @@
     "single_contribution_only": false
   },
   {
+    "id": 1172090968,
+    "name": "Varkel Hunt",
+    "description": "Hunt down a school of Tier 4 trophy fish. These fish are challenging to catch and don't provide much fish itself for the effort, but the experience you'll gain while catching them is well worth it. You'll have to carefull use your fishing abilities to secure more than a small fry of a catch.",
+    "resource_clump_id": 2063975986,
+    "placeholder_resource_clump_id": 63803867,
+    "enemy_ai_desc_id": 0,
+    "is_aquatic_resource": true,
+    "biome_requirements": [
+      10
+    ],
+    "equipment_requirements": [],
+    "required_items_to_start": [],
+    "required_items_to_interact_with_reward": [],
+    "consumed_items_by_ability_trigger": [],
+    "allow_aquatic_prospecting": true,
+    "bread_crumb_count": [
+      0,
+      0
+    ],
+    "bread_crumb_radius": [
+      25,
+      25
+    ],
+    "distance_between_bread_crumbs": [
+      160,
+      180
+    ],
+    "deadzone_angle_between_crumbs": 0.0,
+    "allow_aquatic_bread_crumb": true,
+    "pointer_duration": 0.0,
+    "prospecting_duration": 3.0,
+    "join_radius": 0,
+    "contribution_per_visited_bread_crumb": 0,
+    "breadcrumb_found_message": "You are getting nearer to your target",
+    "resource_uncovered_message": "You can sense the Trophy fish in the distance.",
+    "breadcrumb_found_by_someone_else_message": "You are able to follow someone else's trail",
+    "resource_uncovered_by_someone_else_message": "You are able to follow someone else's trail to the target",
+    "icon_asset_path": "Č",
+    "experience_per_node": {
+      "skill_id": 0,
+      "quantity": 0.0
+    },
+    "pct_nodes_for_max_contribution": 0.0,
+    "single_contribution_only": true
+  },
+  {
+    "id": 1175000495,
+    "name": "Tharbel Hunt",
+    "description": "Hunt down a school of Tier 5 trophy fish. These fish are challenging to catch and don't provide much fish itself for the effort, but the experience you'll gain while catching them is well worth it. You'll have to carefull use your fishing abilities to secure more than a small fry of a catch.",
+    "resource_clump_id": 1190238094,
+    "placeholder_resource_clump_id": 63803867,
+    "enemy_ai_desc_id": 0,
+    "is_aquatic_resource": true,
+    "biome_requirements": [
+      10
+    ],
+    "equipment_requirements": [],
+    "required_items_to_start": [],
+    "required_items_to_interact_with_reward": [],
+    "consumed_items_by_ability_trigger": [],
+    "allow_aquatic_prospecting": true,
+    "bread_crumb_count": [
+      0,
+      0
+    ],
+    "bread_crumb_radius": [
+      25,
+      25
+    ],
+    "distance_between_bread_crumbs": [
+      160,
+      180
+    ],
+    "deadzone_angle_between_crumbs": 0.0,
+    "allow_aquatic_bread_crumb": true,
+    "pointer_duration": 0.0,
+    "prospecting_duration": 3.0,
+    "join_radius": 0,
+    "contribution_per_visited_bread_crumb": 0,
+    "breadcrumb_found_message": "You are getting nearer to your target",
+    "resource_uncovered_message": "You can sense the Trophy fish in the distance.",
+    "breadcrumb_found_by_someone_else_message": "You are able to follow someone else's trail",
+    "resource_uncovered_by_someone_else_message": "You are able to follow someone else's trail to the target",
+    "icon_asset_path": "Č",
+    "experience_per_node": {
+      "skill_id": 0,
+      "quantity": 0.0
+    },
+    "pct_nodes_for_max_contribution": 0.0,
+    "single_contribution_only": true
+  },
+  {
+    "id": 1186379110,
+    "name": "Velgrim Hunt",
+    "description": "Hunt down a school of Tier 9 trophy fish. These fish are challenging to catch and don't provide much fish itself for the effort, but the experience you'll gain while catching them is well worth it. You'll have to carefull use your fishing abilities to secure more than a small fry of a catch.",
+    "resource_clump_id": 2104159263,
+    "placeholder_resource_clump_id": 63803867,
+    "enemy_ai_desc_id": 0,
+    "is_aquatic_resource": true,
+    "biome_requirements": [
+      10
+    ],
+    "equipment_requirements": [],
+    "required_items_to_start": [],
+    "required_items_to_interact_with_reward": [],
+    "consumed_items_by_ability_trigger": [],
+    "allow_aquatic_prospecting": true,
+    "bread_crumb_count": [
+      0,
+      0
+    ],
+    "bread_crumb_radius": [
+      25,
+      25
+    ],
+    "distance_between_bread_crumbs": [
+      160,
+      180
+    ],
+    "deadzone_angle_between_crumbs": 0.0,
+    "allow_aquatic_bread_crumb": true,
+    "pointer_duration": 0.0,
+    "prospecting_duration": 3.0,
+    "join_radius": 0,
+    "contribution_per_visited_bread_crumb": 0,
+    "breadcrumb_found_message": "You are getting nearer to your target",
+    "resource_uncovered_message": "You can sense the Trophy fish in the distance.",
+    "breadcrumb_found_by_someone_else_message": "You are able to follow someone else's trail",
+    "resource_uncovered_by_someone_else_message": "You are able to follow someone else's trail to the target",
+    "icon_asset_path": "Č",
+    "experience_per_node": {
+      "skill_id": 0,
+      "quantity": 0.0
+    },
+    "pct_nodes_for_max_contribution": 0.0,
+    "single_contribution_only": true
+  },
+  {
     "id": 1249466124,
     "name": "Survey the Lake",
     "description": "Survey a lake in the calm forest to find a Lake Point of Interest",
@@ -1009,6 +1619,98 @@
     "single_contribution_only": false
   },
   {
+    "id": 1339854303,
+    "name": "Murrel Hunt",
+    "description": "Hunt down a school of Tier 3 trophy fish. These fish are challenging to catch and don't provide much fish itself for the effort, but the experience you'll gain while catching them is well worth it. You'll have to carefull use your fishing abilities to secure more than a small fry of a catch.",
+    "resource_clump_id": 249368553,
+    "placeholder_resource_clump_id": 63803867,
+    "enemy_ai_desc_id": 0,
+    "is_aquatic_resource": true,
+    "biome_requirements": [
+      10
+    ],
+    "equipment_requirements": [],
+    "required_items_to_start": [],
+    "required_items_to_interact_with_reward": [],
+    "consumed_items_by_ability_trigger": [],
+    "allow_aquatic_prospecting": true,
+    "bread_crumb_count": [
+      0,
+      0
+    ],
+    "bread_crumb_radius": [
+      25,
+      25
+    ],
+    "distance_between_bread_crumbs": [
+      160,
+      180
+    ],
+    "deadzone_angle_between_crumbs": 0.0,
+    "allow_aquatic_bread_crumb": true,
+    "pointer_duration": 0.0,
+    "prospecting_duration": 3.0,
+    "join_radius": 0,
+    "contribution_per_visited_bread_crumb": 0,
+    "breadcrumb_found_message": "You are getting nearer to your target",
+    "resource_uncovered_message": "You can sense the Trophy fish in the distance.",
+    "breadcrumb_found_by_someone_else_message": "You are able to follow someone else's trail",
+    "resource_uncovered_by_someone_else_message": "You are able to follow someone else's trail to the target",
+    "icon_asset_path": "Č",
+    "experience_per_node": {
+      "skill_id": 0,
+      "quantity": 0.0
+    },
+    "pct_nodes_for_max_contribution": 0.0,
+    "single_contribution_only": true
+  },
+  {
+    "id": 1555023519,
+    "name": "Hidden Abyssal Nobilis Spot Search",
+    "description": "Track down a Rich Abyssal Nobilis Spot",
+    "resource_clump_id": 340974741,
+    "placeholder_resource_clump_id": 173043466,
+    "enemy_ai_desc_id": 0,
+    "is_aquatic_resource": true,
+    "biome_requirements": [
+      7
+    ],
+    "equipment_requirements": [],
+    "required_items_to_start": [],
+    "required_items_to_interact_with_reward": [],
+    "consumed_items_by_ability_trigger": [],
+    "allow_aquatic_prospecting": true,
+    "bread_crumb_count": [
+      0,
+      0
+    ],
+    "bread_crumb_radius": [
+      25,
+      25
+    ],
+    "distance_between_bread_crumbs": [
+      75,
+      125
+    ],
+    "deadzone_angle_between_crumbs": 0.0,
+    "allow_aquatic_bread_crumb": true,
+    "pointer_duration": 0.0,
+    "prospecting_duration": 3.0,
+    "join_radius": 0,
+    "contribution_per_visited_bread_crumb": 1000,
+    "breadcrumb_found_message": "You are getting nearer to your target",
+    "resource_uncovered_message": "You see a hidden fishing spot in the distance.",
+    "breadcrumb_found_by_someone_else_message": "You are able to follow someone else's trail",
+    "resource_uncovered_by_someone_else_message": "You are able to follow someone else's trail to the target",
+    "icon_asset_path": "Č",
+    "experience_per_node": {
+      "skill_id": 0,
+      "quantity": 0.0
+    },
+    "pct_nodes_for_max_contribution": 0.0,
+    "single_contribution_only": false
+  },
+  {
     "id": 1556067471,
     "name": "Auric Ore Prospecting",
     "description": "Begin a hunt for Aruc Ore or join a nearby hunt that's in progress. Auric can be used to make or upgrade special jewelry and also gives a lot of experience when mined.",
@@ -1110,6 +1812,98 @@
     "single_contribution_only": false
   },
   {
+    "id": 1631046259,
+    "name": "Corven Hunt",
+    "description": "Hunt down a school of Tier 6 trophy fish. These fish are challenging to catch and don't provide much fish itself for the effort, but the experience you'll gain while catching them is well worth it. You'll have to carefull use your fishing abilities to secure more than a small fry of a catch.",
+    "resource_clump_id": 1542436764,
+    "placeholder_resource_clump_id": 63803867,
+    "enemy_ai_desc_id": 0,
+    "is_aquatic_resource": true,
+    "biome_requirements": [
+      10
+    ],
+    "equipment_requirements": [],
+    "required_items_to_start": [],
+    "required_items_to_interact_with_reward": [],
+    "consumed_items_by_ability_trigger": [],
+    "allow_aquatic_prospecting": true,
+    "bread_crumb_count": [
+      0,
+      0
+    ],
+    "bread_crumb_radius": [
+      25,
+      25
+    ],
+    "distance_between_bread_crumbs": [
+      160,
+      180
+    ],
+    "deadzone_angle_between_crumbs": 0.0,
+    "allow_aquatic_bread_crumb": true,
+    "pointer_duration": 0.0,
+    "prospecting_duration": 3.0,
+    "join_radius": 0,
+    "contribution_per_visited_bread_crumb": 0,
+    "breadcrumb_found_message": "You are getting nearer to your target",
+    "resource_uncovered_message": "You can sense the Trophy fish in the distance.",
+    "breadcrumb_found_by_someone_else_message": "You are able to follow someone else's trail",
+    "resource_uncovered_by_someone_else_message": "You are able to follow someone else's trail to the target",
+    "icon_asset_path": "Č",
+    "experience_per_node": {
+      "skill_id": 0,
+      "quantity": 0.0
+    },
+    "pct_nodes_for_max_contribution": 0.0,
+    "single_contribution_only": true
+  },
+  {
+    "id": 1679983554,
+    "name": "Dorbel Hunt",
+    "description": "Hunt down a school of Tier 8 trophy fish. These fish are challenging to catch and don't provide much fish itself for the effort, but the experience you'll gain while catching them is well worth it. You'll have to carefull use your fishing abilities to secure more than a small fry of a catch.",
+    "resource_clump_id": 1706265293,
+    "placeholder_resource_clump_id": 63803867,
+    "enemy_ai_desc_id": 0,
+    "is_aquatic_resource": true,
+    "biome_requirements": [
+      10
+    ],
+    "equipment_requirements": [],
+    "required_items_to_start": [],
+    "required_items_to_interact_with_reward": [],
+    "consumed_items_by_ability_trigger": [],
+    "allow_aquatic_prospecting": true,
+    "bread_crumb_count": [
+      0,
+      0
+    ],
+    "bread_crumb_radius": [
+      25,
+      25
+    ],
+    "distance_between_bread_crumbs": [
+      160,
+      180
+    ],
+    "deadzone_angle_between_crumbs": 0.0,
+    "allow_aquatic_bread_crumb": true,
+    "pointer_duration": 0.0,
+    "prospecting_duration": 3.0,
+    "join_radius": 0,
+    "contribution_per_visited_bread_crumb": 0,
+    "breadcrumb_found_message": "You are getting nearer to your target",
+    "resource_uncovered_message": "You can sense the Trophy fish in the distance.",
+    "breadcrumb_found_by_someone_else_message": "You are able to follow someone else's trail",
+    "resource_uncovered_by_someone_else_message": "You are able to follow someone else's trail to the target",
+    "icon_asset_path": "Č",
+    "experience_per_node": {
+      "skill_id": 0,
+      "quantity": 0.0
+    },
+    "pct_nodes_for_max_contribution": 0.0,
+    "single_contribution_only": true
+  },
+  {
     "id": 1738314687,
     "name": "Search for King Jakyl Puppy",
     "description": "Begin searching for clues to point you to the King Jakyl Puppy. King Jakyls migrate between regions so you'll likely have to do some traveling to find the Jakyl Puppy. This prospecting requires a King Jakyl Puppy Tracker to start.",
@@ -1148,6 +1942,54 @@
     "breadcrumb_found_by_someone_else_message": "You are able to follow someone else's trail",
     "resource_uncovered_by_someone_else_message": "You are able to follow someone else's trail to the clue",
     "icon_asset_path": "5",
+    "experience_per_node": {
+      "skill_id": 0,
+      "quantity": 0.0
+    },
+    "pct_nodes_for_max_contribution": 0.0,
+    "single_contribution_only": false
+  },
+  {
+    "id": 1753001697,
+    "name": "Hidden Vibrant Carangi Spot Search",
+    "description": "Track down a Hidden Vibrant Carangi Spot",
+    "resource_clump_id": 430085362,
+    "placeholder_resource_clump_id": 173043466,
+    "enemy_ai_desc_id": 0,
+    "is_aquatic_resource": true,
+    "biome_requirements": [
+      4,
+      13,
+      6
+    ],
+    "equipment_requirements": [],
+    "required_items_to_start": [],
+    "required_items_to_interact_with_reward": [],
+    "consumed_items_by_ability_trigger": [],
+    "allow_aquatic_prospecting": true,
+    "bread_crumb_count": [
+      0,
+      0
+    ],
+    "bread_crumb_radius": [
+      25,
+      25
+    ],
+    "distance_between_bread_crumbs": [
+      75,
+      125
+    ],
+    "deadzone_angle_between_crumbs": 0.0,
+    "allow_aquatic_bread_crumb": true,
+    "pointer_duration": 0.0,
+    "prospecting_duration": 3.0,
+    "join_radius": 0,
+    "contribution_per_visited_bread_crumb": 1000,
+    "breadcrumb_found_message": "You are getting nearer to your target",
+    "resource_uncovered_message": "You see a hidden fishing spot in the distance.",
+    "breadcrumb_found_by_someone_else_message": "You are able to follow someone else's trail",
+    "resource_uncovered_by_someone_else_message": "You are able to follow someone else's trail to the target",
+    "icon_asset_path": "Č",
     "experience_per_node": {
       "skill_id": 0,
       "quantity": 0.0
@@ -1340,6 +2182,55 @@
     "single_contribution_only": false
   },
   {
+    "id": 1874404716,
+    "name": "Hidden Briny Argus Spot Search",
+    "description": "Track down a Hidden Briny Argus Spot",
+    "resource_clump_id": 731766808,
+    "placeholder_resource_clump_id": 173043466,
+    "enemy_ai_desc_id": 0,
+    "is_aquatic_resource": true,
+    "biome_requirements": [
+      1,
+      11,
+      9,
+      13
+    ],
+    "equipment_requirements": [],
+    "required_items_to_start": [],
+    "required_items_to_interact_with_reward": [],
+    "consumed_items_by_ability_trigger": [],
+    "allow_aquatic_prospecting": true,
+    "bread_crumb_count": [
+      0,
+      0
+    ],
+    "bread_crumb_radius": [
+      25,
+      25
+    ],
+    "distance_between_bread_crumbs": [
+      75,
+      125
+    ],
+    "deadzone_angle_between_crumbs": 0.0,
+    "allow_aquatic_bread_crumb": true,
+    "pointer_duration": 0.0,
+    "prospecting_duration": 3.0,
+    "join_radius": 0,
+    "contribution_per_visited_bread_crumb": 1000,
+    "breadcrumb_found_message": "You are getting nearer to your target",
+    "resource_uncovered_message": "You see a hidden fishing spot in the distance.",
+    "breadcrumb_found_by_someone_else_message": "You are able to follow someone else's trail",
+    "resource_uncovered_by_someone_else_message": "You are able to follow someone else's trail to the target",
+    "icon_asset_path": "Č",
+    "experience_per_node": {
+      "skill_id": 0,
+      "quantity": 0.0
+    },
+    "pct_nodes_for_max_contribution": 0.0,
+    "single_contribution_only": false
+  },
+  {
     "id": 1968795041,
     "name": "Track Lusul Burrow",
     "description": "Search the Calm Forest or the Desert for Lusul Dens",
@@ -1425,6 +2316,53 @@
     "breadcrumb_found_by_someone_else_message": "You are able to follow someone else's trail",
     "resource_uncovered_by_someone_else_message": "You are able to follow someone else's trail to the clue",
     "icon_asset_path": "5",
+    "experience_per_node": {
+      "skill_id": 0,
+      "quantity": 0.0
+    },
+    "pct_nodes_for_max_contribution": 0.0,
+    "single_contribution_only": false
+  },
+  {
+    "id": 2102388677,
+    "name": "Hidden Murky Nemato Spot Search",
+    "description": "Track down a Hidden Murky Nemato Spot",
+    "resource_clump_id": 857227582,
+    "placeholder_resource_clump_id": 173043466,
+    "enemy_ai_desc_id": 0,
+    "is_aquatic_resource": true,
+    "biome_requirements": [
+      8,
+      14
+    ],
+    "equipment_requirements": [],
+    "required_items_to_start": [],
+    "required_items_to_interact_with_reward": [],
+    "consumed_items_by_ability_trigger": [],
+    "allow_aquatic_prospecting": true,
+    "bread_crumb_count": [
+      0,
+      0
+    ],
+    "bread_crumb_radius": [
+      25,
+      25
+    ],
+    "distance_between_bread_crumbs": [
+      75,
+      125
+    ],
+    "deadzone_angle_between_crumbs": 0.0,
+    "allow_aquatic_bread_crumb": true,
+    "pointer_duration": 0.0,
+    "prospecting_duration": 3.0,
+    "join_radius": 0,
+    "contribution_per_visited_bread_crumb": 1000,
+    "breadcrumb_found_message": "You are getting nearer to your target",
+    "resource_uncovered_message": "You see a hidden fishing spot in the distance.",
+    "breadcrumb_found_by_someone_else_message": "You are able to follow someone else's trail",
+    "resource_uncovered_by_someone_else_message": "You are able to follow someone else's trail to the target",
+    "icon_asset_path": "Č",
     "experience_per_node": {
       "skill_id": 0,
       "quantity": 0.0

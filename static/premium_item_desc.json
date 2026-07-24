@@ -118,7 +118,7 @@
     "base_price": 5000,
     "quantity": 1,
     "sorting_priority": 5,
-    "is_enabled": true
+    "is_enabled": false
   },
   {
     "id": 82977667,
@@ -137,7 +137,7 @@
   {
     "id": 91337368,
     "name": "Titan Furniture Set",
-    "description": "A set of furniture for your house. Once purchased, these items can be found in your vault. Right click them to withdraw them from your vault and use them in game!",
+    "description": "A set of furniture for your house.",
     "image_address": "PremiumIcons/TitanBundleFurniture",
     "collectible_ids": [
       1419483431,
@@ -159,8 +159,8 @@
     "price": 7500,
     "base_price": 7500,
     "quantity": 1,
-    "sorting_priority": 12,
-    "is_enabled": false
+    "sorting_priority": 48,
+    "is_enabled": true
   },
   {
     "id": 102257537,
@@ -197,7 +197,7 @@
     "base_price": 15000,
     "quantity": 1,
     "sorting_priority": 4,
-    "is_enabled": true
+    "is_enabled": false
   },
   {
     "id": 111303174,
@@ -242,6 +242,20 @@
     "quantity": 1,
     "sorting_priority": 10,
     "is_enabled": false
+  },
+  {
+    "id": 128602240,
+    "name": "Titan Cart Appearance",
+    "description": "Unlocks titan-themed alternate appearances for your cart deployables.",
+    "image_address": "GeneratedIcons/Items/Icon_Cart_Titan",
+    "collectible_ids": [
+      813694060
+    ],
+    "price": 7500,
+    "base_price": 7500,
+    "quantity": 1,
+    "sorting_priority": 41,
+    "is_enabled": true
   },
   {
     "id": 136157481,
@@ -304,7 +318,7 @@
   {
     "id": 179045334,
     "name": "Are You Not Entertained",
-    "description": "Teaches your character to use the \"Are you not Entertained?\" emote",
+    "description": "Teaches your character to use the Are You Not Entertained emote.",
     "image_address": "Emotes/AreYouNotEntertained",
     "collectible_ids": [
       1380307017
@@ -312,7 +326,69 @@
     "price": 1500,
     "base_price": 1500,
     "quantity": 1,
-    "sorting_priority": 20,
+    "sorting_priority": 26,
+    "is_enabled": true
+  },
+  {
+    "id": 221288640,
+    "name": "Titan Outfit Bundle",
+    "description": "Includes all 4 Titan outfits.",
+    "image_address": "GeneratedIcons/Items/Icon_Titan_4_Outfit_Bundle",
+    "collectible_ids": [
+      1670477335,
+      2062836429,
+      17072403,
+      64884356,
+      1834595207,
+      355406329,
+      1158538533,
+      1654591923,
+      151203170,
+      1959921257,
+      161198932,
+      1694529120,
+      1185028052,
+      218010080,
+      1078650360,
+      1372432633,
+      1174982432,
+      573484574,
+      324276690,
+      2137603351,
+      1851547334,
+      1072266184,
+      166844082,
+      1205733583
+    ],
+    "price": 12500,
+    "base_price": 20000,
+    "quantity": 1,
+    "sorting_priority": 49,
+    "is_enabled": true
+  },
+  {
+    "id": 268452089,
+    "name": "Titan Royal Pair",
+    "description": "Includes the Titan Royal Outfit and Titan Monarch Outfit.",
+    "image_address": "GeneratedIcons/Items/Icon_Titan_Imperials",
+    "collectible_ids": [
+      1158538533,
+      1654591923,
+      151203170,
+      1959921257,
+      161198932,
+      1694529120,
+      324276690,
+      2137603351,
+      1851547334,
+      1072266184,
+      166844082,
+      1205733583
+    ],
+    "price": 7500,
+    "base_price": 10000,
+    "quantity": 1,
+    "sorting_priority": 44,
     "is_enabled": true
   },
   {
@@ -345,7 +421,7 @@
     "base_price": 5000,
     "quantity": 1,
     "sorting_priority": 9,
-    "is_enabled": true
+    "is_enabled": false
   },
   {
     "id": 287385864,
@@ -391,7 +467,7 @@
     "base_price": 5000,
     "quantity": 1,
     "sorting_priority": 7,
-    "is_enabled": true
+    "is_enabled": false
   },
   {
     "id": 302328449,
@@ -577,12 +653,26 @@
     "base_price": 7500,
     "quantity": 1,
     "sorting_priority": 4,
+    "is_enabled": false
+  },
+  {
+    "id": 391343346,
+    "name": "Maximus",
+    "description": "A premium titan war puppy companion.",
+    "image_address": "GeneratedIcons/Items/Icon_Pet_Jakyl_Titan",
+    "collectible_ids": [
+      403485539
+    ],
+    "price": 7500,
+    "base_price": 7500,
+    "quantity": 1,
+    "sorting_priority": 39,
     "is_enabled": true
   },
   {
     "id": 394165017,
     "name": "Leo",
-    "description": "A ferocious and noble lion. It's also very cute. Once purchased, it can be summoned as a pet through your vault.",
+    "description": "A ferocious and noble lion. It is also very cute. Once purchased, it can be summoned as a pet through your vault.",
     "image_address": "PremiumIcons/TitanCatPet",
     "collectible_ids": [
       1361610330
@@ -590,8 +680,8 @@
     "price": 7500,
     "base_price": 7500,
     "quantity": 1,
-    "sorting_priority": 12,
-    "is_enabled": false
+    "sorting_priority": 40,
+    "is_enabled": true
   },
   {
     "id": 420140334,
@@ -648,7 +738,7 @@
     "base_price": 5000,
     "quantity": 1,
     "sorting_priority": 8,
-    "is_enabled": true
+    "is_enabled": false
   },
   {
     "id": 448216565,
@@ -923,7 +1013,7 @@
     "base_price": 5000,
     "quantity": 1,
     "sorting_priority": 5,
-    "is_enabled": true
+    "is_enabled": false
   },
   {
     "id": 577649825,
@@ -1032,7 +1122,7 @@
     "base_price": 15000,
     "quantity": 1,
     "sorting_priority": 7,
-    "is_enabled": true
+    "is_enabled": false
   },
   {
     "id": 614615796,
@@ -1046,6 +1136,49 @@
     "base_price": 25000,
     "quantity": 50,
     "sorting_priority": 6,
+    "is_enabled": true
+  },
+  {
+    "id": 619835057,
+    "name": "Braided Goatee",
+    "description": "A premium facial hair cosmetic for your character.",
+    "image_address": "GeneratedIcons/Items/Icon_FacialHair_BraidedGoatee",
+    "collectible_ids": [
+      558867450
+    ],
+    "price": 2000,
+    "base_price": 2000,
+    "quantity": 1,
+    "sorting_priority": 29,
+    "is_enabled": true
+  },
+  {
+    "id": 625483136,
+    "name": "Titan Top Off Bundle",
+    "description": "Includes the Titan Triumphator Pair, Maximus, titan cart appearances, and both capes.",
+    "image_address": "GeneratedIcons/Items/Icon_Titan_TopOff",
+    "collectible_ids": [
+      1185028052,
+      218010080,
+      1078650360,
+      1372432633,
+      1174982432,
+      573484574,
+      324276690,
+      2137603351,
+      1851547334,
+      1072266184,
+      166844082,
+      1205733583,
+      403485539,
+      813694060,
+      227405086,
+      1703816361
+    ],
+    "price": 20000,
+    "base_price": 28500,
+    "quantity": 1,
+    "sorting_priority": 50,
     "is_enabled": true
   },
   {
@@ -1079,7 +1212,7 @@
     "base_price": 5000,
     "quantity": 1,
     "sorting_priority": 4,
-    "is_enabled": true
+    "is_enabled": false
   },
   {
     "id": 654533053,
@@ -1097,7 +1230,7 @@
     "base_price": 5000,
     "quantity": 1,
     "sorting_priority": 8,
-    "is_enabled": true
+    "is_enabled": false
   },
   {
     "id": 654791202,
@@ -1219,6 +1352,22 @@
     "is_enabled": true
   },
   {
+    "id": 703822232,
+    "name": "Facial Hair Trio",
+    "description": "Includes Braided Beard, Braided Goatee, and Fancy Mustache.",
+    "image_address": "GeneratedIcons/Items/Icon_FacialHairTrio",
+    "collectible_ids": [
+      1457887450,
+      558867450,
+      867531735
+    ],
+    "price": 5000,
+    "base_price": 6000,
+    "quantity": 1,
+    "sorting_priority": 31,
+    "is_enabled": true
+  },
+  {
     "id": 710814793,
     "name": "Everwoods Cervus Appearance Pair",
     "description": "Appearances that when toggled, applyto all of your Cervus deployables. This appearance is purely cosmetic. You must have a Cervus Mount to use this appearance.",
@@ -1231,7 +1380,7 @@
     "base_price": 15000,
     "quantity": 1,
     "sorting_priority": 4,
-    "is_enabled": true
+    "is_enabled": false
   },
   {
     "id": 721391144,
@@ -1358,7 +1507,7 @@
   {
     "id": 781280625,
     "name": "Step on my Enemies",
-    "description": "Teaches your character to use the \"Step on my Enemies\" emote",
+    "description": "Teaches your character to use the Step on my Enemies emote.",
     "image_address": "Emotes/StepOnMyEnemies",
     "collectible_ids": [
       558308445
@@ -1366,7 +1515,7 @@
     "price": 1500,
     "base_price": 1500,
     "quantity": 1,
-    "sorting_priority": 20,
+    "sorting_priority": 25,
     "is_enabled": true
   },
   {
@@ -1584,28 +1733,28 @@
   },
   {
     "id": 883733185,
-    "name": "Titan Outfit Bundle",
-    "description": "This bundle contains both the Titan Gladiator outfit and the Titan Emperor outfit.",
-    "image_address": "PremiumIcons/TitanBundleOutfit",
+    "name": "Titan Regalis Pair",
+    "description": "Includes the Titan Gladiator Outfit and Titan Royal Outfit.",
+    "image_address": "GeneratedIcons/Items/Icon_Titan_Regalis",
     "collectible_ids": [
-      151203170,
-      1158538533,
-      1959921257,
-      161198932,
-      1694529120,
-      1654591923,
       1670477335,
       2062836429,
       17072403,
       64884356,
       1834595207,
-      355406329
+      355406329,
+      1158538533,
+      1654591923,
+      151203170,
+      1959921257,
+      161198932,
+      1694529120
     ],
     "price": 7500,
     "base_price": 10000,
     "quantity": 1,
-    "sorting_priority": 10,
-    "is_enabled": false
+    "sorting_priority": 47,
+    "is_enabled": true
   },
   {
     "id": 896616790,
@@ -1624,7 +1773,7 @@
     "base_price": 5000,
     "quantity": 1,
     "sorting_priority": 5,
-    "is_enabled": true
+    "is_enabled": false
   },
   {
     "id": 914787047,
@@ -1678,7 +1827,7 @@
     "base_price": 1000,
     "quantity": 1,
     "sorting_priority": 4,
-    "is_enabled": true
+    "is_enabled": false
   },
   {
     "id": 971410433,
@@ -1812,12 +1961,12 @@
     "base_price": 27500,
     "quantity": 1,
     "sorting_priority": 7,
-    "is_enabled": true
+    "is_enabled": false
   },
   {
     "id": 984336888,
     "name": "Pushups",
-    "description": "Teaches your character to use the \"Pushups\" emote",
+    "description": "Teaches your character to use the Pushups emote.",
     "image_address": "Emotes/PushUp",
     "collectible_ids": [
       476348776
@@ -1825,7 +1974,7 @@
     "price": 1500,
     "base_price": 1500,
     "quantity": 1,
-    "sorting_priority": 20,
+    "sorting_priority": 23,
     "is_enabled": true
   },
   {
@@ -1851,7 +2000,7 @@
     "base_price": 10000,
     "quantity": 1,
     "sorting_priority": 4,
-    "is_enabled": true
+    "is_enabled": false
   },
   {
     "id": 1013300154,
@@ -1888,7 +2037,7 @@
     "base_price": 10000,
     "quantity": 1,
     "sorting_priority": 7,
-    "is_enabled": true
+    "is_enabled": false
   },
   {
     "id": 1048579351,
@@ -1912,6 +2061,71 @@
     "quantity": 1,
     "sorting_priority": 7,
     "is_enabled": false
+  },
+  {
+    "id": 1072380882,
+    "name": "Titan Complete Bundle",
+    "description": "Includes all 4 Titan outfits, both pets, titan cart appearances, both capes, the Titan emote bundle, and 1 Titan furniture bundle.",
+    "image_address": "GeneratedIcons/Items/Icon_Titan_Complete",
+    "collectible_ids": [
+      1670477335,
+      2062836429,
+      17072403,
+      64884356,
+      1834595207,
+      355406329,
+      1158538533,
+      1654591923,
+      151203170,
+      1959921257,
+      161198932,
+      1694529120,
+      1185028052,
+      218010080,
+      1078650360,
+      1372432633,
+      1174982432,
+      573484574,
+      324276690,
+      2137603351,
+      1851547334,
+      1072266184,
+      166844082,
+      1205733583,
+      1361610330,
+      403485539,
+      813694060,
+      227405086,
+      1703816361,
+      1380307017,
+      558308445,
+      683671544,
+      476348776,
+      1132438200,
+      1245680886,
+      1816448611,
+      1977675867,
+      1419483431,
+      506590427,
+      1508410228,
+      619418361,
+      1103134173,
+      120333734,
+      1460016014,
+      478404813,
+      306568187,
+      75193798,
+      1007025487,
+      1520482761,
+      1452443901,
+      1508410228,
+      120333734
+    ],
+    "price": 32000,
+    "base_price": 53500,
+    "quantity": 1,
+    "sorting_priority": 52,
+    "is_enabled": true
   },
   {
     "id": 1074386538,
@@ -2013,7 +2227,7 @@
     "base_price": 7500,
     "quantity": 1,
     "sorting_priority": 5,
-    "is_enabled": true
+    "is_enabled": false
   },
   {
     "id": 1262764715,
@@ -2064,7 +2278,7 @@
     "base_price": 7500,
     "quantity": 1,
     "sorting_priority": 5,
-    "is_enabled": true
+    "is_enabled": false
   },
   {
     "id": 1299103045,
@@ -2150,6 +2364,20 @@
     "base_price": 7500,
     "quantity": 1,
     "sorting_priority": 4,
+    "is_enabled": false
+  },
+  {
+    "id": 1436162412,
+    "name": "Braided Beard",
+    "description": "A premium facial hair cosmetic for your character.",
+    "image_address": "GeneratedIcons/Items/Icon_FacialHair_BraidedBeard",
+    "collectible_ids": [
+      1457887450
+    ],
+    "price": 2000,
+    "base_price": 2000,
+    "quantity": 1,
+    "sorting_priority": 30,
     "is_enabled": true
   },
   {
@@ -2211,12 +2439,12 @@
     "base_price": 35000,
     "quantity": 1,
     "sorting_priority": 5,
-    "is_enabled": true
+    "is_enabled": false
   },
   {
     "id": 1463071784,
     "name": "Get Hyped",
-    "description": "Teaches your character to use the \"Get Hyped\" emote",
+    "description": "Teaches your character to use the Get Hyped emote.",
     "image_address": "Emotes/GetHyped",
     "collectible_ids": [
       1977675867
@@ -2224,7 +2452,7 @@
     "price": 1500,
     "base_price": 1500,
     "quantity": 1,
-    "sorting_priority": 20,
+    "sorting_priority": 21,
     "is_enabled": true
   },
   {
@@ -2293,6 +2521,20 @@
     "quantity": 1,
     "sorting_priority": 10,
     "is_enabled": false
+  },
+  {
+    "id": 1545619846,
+    "name": "War Torn Cape",
+    "description": "A cosmetic cape for your character.",
+    "image_address": "GeneratedIcons/Items/Icon_Cape_Tattered",
+    "collectible_ids": [
+      227405086
+    ],
+    "price": 3500,
+    "base_price": 3500,
+    "quantity": 1,
+    "sorting_priority": 33,
+    "is_enabled": true
   },
   {
     "id": 1553343509,
@@ -2376,6 +2618,20 @@
     "is_enabled": true
   },
   {
+    "id": 1627555562,
+    "name": "Fancy Mustache",
+    "description": "A premium facial hair cosmetic for your character.",
+    "image_address": "GeneratedIcons/Items/Icon_FacialHair_FancyMustache",
+    "collectible_ids": [
+      867531735
+    ],
+    "price": 2000,
+    "base_price": 2000,
+    "quantity": 1,
+    "sorting_priority": 28,
+    "is_enabled": true
+  },
+  {
     "id": 1640628364,
     "name": "Homespun Outfit Bundle",
     "description": "A bundle which contains the Homespun Artisan and Homespun Dreamer outfits. These outfits includes a head, torso, belt, hand, leg and feet slot clothing piece. ",
@@ -2399,6 +2655,25 @@
     "quantity": 1,
     "sorting_priority": 12,
     "is_enabled": false
+  },
+  {
+    "id": 1646981181,
+    "name": "Titan Monarch Outfit",
+    "description": "A full outfit of cosmetic clothing for your character.",
+    "image_address": "GeneratedIcons/Items/Icon_Titan_Monarch",
+    "collectible_ids": [
+      324276690,
+      2137603351,
+      1851547334,
+      1072266184,
+      166844082,
+      1205733583
+    ],
+    "price": 5000,
+    "base_price": 5000,
+    "quantity": 1,
+    "sorting_priority": 35,
+    "is_enabled": true
   },
   {
     "id": 1656364432,
@@ -2432,6 +2707,31 @@
     "is_enabled": false
   },
   {
+    "id": 1660726275,
+    "name": "Titan Gladiator Pair",
+    "description": "Includes the Titan Gladiator Outfit and Titan Fighter Outfit.",
+    "image_address": "GeneratedIcons/Items/Icon_Titan_Champions",
+    "collectible_ids": [
+      1670477335,
+      2062836429,
+      17072403,
+      64884356,
+      1834595207,
+      355406329,
+      1185028052,
+      218010080,
+      1078650360,
+      1372432633,
+      1174982432,
+      573484574
+    ],
+    "price": 7500,
+    "base_price": 10000,
+    "quantity": 1,
+    "sorting_priority": 45,
+    "is_enabled": true
+  },
+  {
     "id": 1660902009,
     "name": "Awakened Cape Bundle",
     "description": "A bundle of cosmetic capes for your character. Can be used to show off your empires colors.",
@@ -2451,21 +2751,42 @@
   {
     "id": 1695638959,
     "name": "Titan Mega Bundle",
-    "description": "A bundle which contains the Titan Gladiator Outfit, Titan Emperor Outfit, Leo the Lion and Two Titan Furniture Bundles.",
-    "image_address": "PremiumIcons/TitanBundleMega",
+    "description": "Includes all 4 Titan outfits, Maximus, both capes, Dramatic Thumbs Up/Down, Hype the Crowd, and 1 Titan furniture bundle.",
+    "image_address": "GeneratedIcons/Items/Icon_Titan_Mega",
     "collectible_ids": [
-      151203170,
-      1158538533,
-      1959921257,
-      161198932,
-      1694529120,
-      1654591923,
       1670477335,
       2062836429,
       17072403,
       64884356,
       1834595207,
       355406329,
+      1158538533,
+      1654591923,
+      151203170,
+      1959921257,
+      161198932,
+      1694529120,
+      1185028052,
+      218010080,
+      1078650360,
+      1372432633,
+      1174982432,
+      573484574,
+      324276690,
+      2137603351,
+      1851547334,
+      1072266184,
+      166844082,
+      1205733583,
+      403485539,
+      227405086,
+      1703816361,
+      1132438200,
+      1245680886,
+      1816448611,
+      1419483431,
+      506590427,
+      1508410228,
       619418361,
       1103134173,
       120333734,
@@ -2477,32 +2798,13 @@
       1520482761,
       1452443901,
       1508410228,
-      506590427,
-      1419483431,
-      619418361,
-      1103134173,
-      120333734,
-      1460016014,
-      478404813,
-      306568187,
-      75193798,
-      1007025487,
-      1520482761,
-      1452443901,
-      1508410228,
-      506590427,
-      1419483431,
-      1508410228,
-      1508410228,
-      120333734,
-      120333734,
-      1361610330
+      120333734
     ],
     "price": 20000,
-    "base_price": 32500,
+    "base_price": 36750,
     "quantity": 1,
-    "sorting_priority": 9,
-    "is_enabled": false
+    "sorting_priority": 51,
+    "is_enabled": true
   },
   {
     "id": 1700195784,
@@ -2519,9 +2821,24 @@
     "is_enabled": true
   },
   {
+    "id": 1714656189,
+    "name": "Titan Pet Pair",
+    "description": "Includes Leo and Maximus.",
+    "image_address": "GeneratedIcons/Items/Icon_Titan_Pet_Pair",
+    "collectible_ids": [
+      1361610330,
+      403485539
+    ],
+    "price": 10000,
+    "base_price": 15000,
+    "quantity": 1,
+    "sorting_priority": 43,
+    "is_enabled": true
+  },
+  {
     "id": 1748353069,
     "name": "Hype the Crowd",
-    "description": "Teaches your character to use the \"Hype the Crowd\" emote",
+    "description": "Teaches your character to use the Hype the Crowd emote.",
     "image_address": "Emotes/HypeTheCrowd",
     "collectible_ids": [
       1816448611
@@ -2529,7 +2846,7 @@
     "price": 1500,
     "base_price": 1500,
     "quantity": 1,
-    "sorting_priority": 20,
+    "sorting_priority": 22,
     "is_enabled": true
   },
   {
@@ -2675,6 +2992,31 @@
     "base_price": 1500,
     "quantity": 5,
     "sorting_priority": 6,
+    "is_enabled": false
+  },
+  {
+    "id": 1815404663,
+    "name": "Titan Triumphator Pair",
+    "description": "Includes the Titan Fighter Outfit and Titan Monarch Outfit.",
+    "image_address": "GeneratedIcons/Items/Icon_Titan_Triumphator",
+    "collectible_ids": [
+      1185028052,
+      218010080,
+      1078650360,
+      1372432633,
+      1174982432,
+      573484574,
+      324276690,
+      2137603351,
+      1851547334,
+      1072266184,
+      166844082,
+      1205733583
+    ],
+    "price": 7500,
+    "base_price": 10000,
+    "quantity": 1,
+    "sorting_priority": 46,
     "is_enabled": true
   },
   {
@@ -2703,7 +3045,7 @@
   {
     "id": 1838189477,
     "name": "Dramatic Thumbs Up/Down Bundle",
-    "description": "Teaches your character to use the \"Dramatic Thumbs Down\" and \"Dramatic Thumbs Up\" emotes.",
+    "description": "Teaches your character to use the Dramatic Thumbs Down and Dramatic Thumbs Up emotes.",
     "image_address": "PremiumIcons/TitanBundleEmotes",
     "collectible_ids": [
       1132438200,
@@ -2712,7 +3054,7 @@
     "price": 1750,
     "base_price": 1750,
     "quantity": 1,
-    "sorting_priority": 20,
+    "sorting_priority": 27,
     "is_enabled": true
   },
   {
@@ -2738,7 +3080,7 @@
     "base_price": 10000,
     "quantity": 1,
     "sorting_priority": 7,
-    "is_enabled": true
+    "is_enabled": false
   },
   {
     "id": 1887206063,
@@ -2753,6 +3095,21 @@
     "base_price": 15000,
     "quantity": 1,
     "sorting_priority": 6,
+    "is_enabled": true
+  },
+  {
+    "id": 1917940681,
+    "name": "Cape Pair",
+    "description": "Includes the War Torn Cape and Regal Cape.",
+    "image_address": "GeneratedIcons/Items/Icon_Titan_Cape_Pair",
+    "collectible_ids": [
+      227405086,
+      1703816361
+    ],
+    "price": 6000,
+    "base_price": 7000,
+    "quantity": 1,
+    "sorting_priority": 34,
     "is_enabled": true
   },
   {
@@ -2990,6 +3347,25 @@
     "is_enabled": true
   },
   {
+    "id": 1959099799,
+    "name": "Titan Fighter Outfit",
+    "description": "A full outfit of cosmetic clothing for your character.",
+    "image_address": "GeneratedIcons/Items/Icon_Titan_Fighter",
+    "collectible_ids": [
+      1185028052,
+      218010080,
+      1078650360,
+      1372432633,
+      1174982432,
+      573484574
+    ],
+    "price": 5000,
+    "base_price": 5000,
+    "quantity": 1,
+    "sorting_priority": 36,
+    "is_enabled": true
+  },
+  {
     "id": 1966694828,
     "name": "First Awakened Cape",
     "description": "A cosmetic awakened cape for your character.",
@@ -3183,12 +3559,12 @@
     "base_price": 10000,
     "quantity": 1,
     "sorting_priority": 7,
-    "is_enabled": true
+    "is_enabled": false
   },
   {
     "id": 2044189194,
     "name": "Flex",
-    "description": "Teaches your character to use the \"Flex\" emote",
+    "description": "Teaches your character to use the Flex emote.",
     "image_address": "Emotes/Flex",
     "collectible_ids": [
       683671544
@@ -3196,13 +3572,34 @@
     "price": 1500,
     "base_price": 1500,
     "quantity": 1,
-    "sorting_priority": 20,
+    "sorting_priority": 24,
+    "is_enabled": true
+  },
+  {
+    "id": 2057490184,
+    "name": "Titan Emote Bundle",
+    "description": "Includes all Titan emotes.",
+    "image_address": "GeneratedIcons/Items/Icon_Titan_Emote_Bundle",
+    "collectible_ids": [
+      1380307017,
+      558308445,
+      683671544,
+      476348776,
+      1132438200,
+      1245680886,
+      1816448611,
+      1977675867
+    ],
+    "price": 10000,
+    "base_price": 12250,
+    "quantity": 1,
+    "sorting_priority": 42,
     "is_enabled": true
   },
   {
     "id": 2060767110,
     "name": "Titan Gladiator Outfit",
-    "description": "A full outfit of cosmetic clothing for your character. This outfit includes a head, torso, belt, hand, leg and feet slot clothing piece. ",
+    "description": "A full outfit of cosmetic clothing for your character.",
     "image_address": "PremiumIcons/TitanGladiatorOutfit",
     "collectible_ids": [
       1670477335,
@@ -3215,8 +3612,8 @@
     "price": 5000,
     "base_price": 5000,
     "quantity": 1,
-    "sorting_priority": 11,
-    "is_enabled": false
+    "sorting_priority": 38,
+    "is_enabled": true
   },
   {
     "id": 2077792531,
@@ -3236,22 +3633,22 @@
   },
   {
     "id": 2085225284,
-    "name": "Titan Emperor Outfit",
-    "description": "A full outfit of cosmetic clothing for your character. This outfit includes head, torso, belt, hand, leg and feet slot clothing pieces. ",
+    "name": "Titan Royal Outfit",
+    "description": "A full outfit of cosmetic clothing for your character.",
     "image_address": "PremiumIcons/TitanRoyalOutfit",
     "collectible_ids": [
-      151203170,
       1158538533,
+      1654591923,
+      151203170,
       1959921257,
       161198932,
-      1694529120,
-      1654591923
+      1694529120
     ],
     "price": 5000,
     "base_price": 5000,
     "quantity": 1,
-    "sorting_priority": 11,
-    "is_enabled": false
+    "sorting_priority": 37,
+    "is_enabled": true
   },
   {
     "id": 2090866813,
@@ -3290,6 +3687,20 @@
     "base_price": 10000,
     "quantity": 1,
     "sorting_priority": 4,
+    "is_enabled": false
+  },
+  {
+    "id": 2135116663,
+    "name": "Regal Cape",
+    "description": "A cosmetic cape for your character.",
+    "image_address": "GeneratedIcons/Items/Icon_Cape_Regal",
+    "collectible_ids": [
+      1703816361
+    ],
+    "price": 3500,
+    "base_price": 3500,
+    "quantity": 1,
+    "sorting_priority": 32,
     "is_enabled": true
   },
   {

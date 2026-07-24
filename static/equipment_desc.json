@@ -1093,6 +1093,90 @@
     "show_in_progression": false
   },
   {
+    "item_id": 9000001,
+    "slots": [
+      "FishingInstrument"
+    ],
+    "visual_type": "MainHand",
+    "level_requirement": {
+      "skill_id": 12,
+      "level": 15
+    },
+    "clothing_visual": null,
+    "hand_equipment_visual": {
+      "main_hand": true,
+      "prefab_names": []
+    },
+    "stats": [
+      {
+        "id": "FishingPower",
+        "value": 1.0,
+        "is_pct": false
+      }
+    ],
+    "required_achievements": [],
+    "required_knowledges": [
+      9000101
+    ],
+    "show_in_progression": false
+  },
+  {
+    "item_id": 9000003,
+    "slots": [
+      "FishingInstrument"
+    ],
+    "visual_type": "MainHand",
+    "level_requirement": {
+      "skill_id": 12,
+      "level": 20
+    },
+    "clothing_visual": null,
+    "hand_equipment_visual": {
+      "main_hand": true,
+      "prefab_names": []
+    },
+    "stats": [
+      {
+        "id": "FishingPower",
+        "value": 2.0,
+        "is_pct": false
+      }
+    ],
+    "required_achievements": [],
+    "required_knowledges": [
+      9000102
+    ],
+    "show_in_progression": false
+  },
+  {
+    "item_id": 9000005,
+    "slots": [
+      "FishingInstrument"
+    ],
+    "visual_type": "MainHand",
+    "level_requirement": {
+      "skill_id": 12,
+      "level": 1
+    },
+    "clothing_visual": null,
+    "hand_equipment_visual": {
+      "main_hand": true,
+      "prefab_names": []
+    },
+    "stats": [
+      {
+        "id": "FishingCritChance",
+        "value": 0.025,
+        "is_pct": true
+      }
+    ],
+    "required_achievements": [],
+    "required_knowledges": [
+      9000103
+    ],
+    "show_in_progression": false
+  },
+  {
     "item_id": 9616252,
     "slots": [
       "MainHand",
@@ -26559,6 +26643,306 @@
         "id": "Strength",
         "value": 19.0,
         "is_pct": false
+      }
+    ],
+    "required_achievements": [],
+    "required_knowledges": [],
+    "show_in_progression": false
+  },
+  {
+    "item_id": 822614926,
+    "slots": [
+      "FishingCharm"
+    ],
+    "visual_type": "Clothing",
+    "level_requirement": {
+      "skill_id": 12,
+      "level": 18
+    },
+    "clothing_visual": {
+      "meshe_names": []
+    },
+    "hand_equipment_visual": null,
+    "stats": [
+      {
+        "id": "FishingPower",
+        "value": 1.0,
+        "is_pct": false
+      },
+      {
+        "id": "FishingSpeed",
+        "value": 0.03,
+        "is_pct": true
+      }
+    ],
+    "required_achievements": [],
+    "required_knowledges": [],
+    "show_in_progression": false
+  },
+  {
+    "item_id": 822614927,
+    "slots": [
+      "FishingCharm"
+    ],
+    "visual_type": "Clothing",
+    "level_requirement": {
+      "skill_id": 12,
+      "level": 28
+    },
+    "clothing_visual": {
+      "meshe_names": []
+    },
+    "hand_equipment_visual": null,
+    "stats": [
+      {
+        "id": "FishingPower",
+        "value": 1.0,
+        "is_pct": false
+      },
+      {
+        "id": "FishingSpeed",
+        "value": 0.036,
+        "is_pct": true
+      }
+    ],
+    "required_achievements": [],
+    "required_knowledges": [],
+    "show_in_progression": false
+  },
+  {
+    "item_id": 822614928,
+    "slots": [
+      "FishingCharm"
+    ],
+    "visual_type": "Clothing",
+    "level_requirement": {
+      "skill_id": 12,
+      "level": 38
+    },
+    "clothing_visual": {
+      "meshe_names": []
+    },
+    "hand_equipment_visual": null,
+    "stats": [
+      {
+        "id": "FishingPower",
+        "value": 1.0,
+        "is_pct": false
+      },
+      {
+        "id": "FishingSpeed",
+        "value": 0.042,
+        "is_pct": true
+      }
+    ],
+    "required_achievements": [],
+    "required_knowledges": [],
+    "show_in_progression": false
+  },
+  {
+    "item_id": 822614929,
+    "slots": [
+      "FishingCharm"
+    ],
+    "visual_type": "Clothing",
+    "level_requirement": {
+      "skill_id": 12,
+      "level": 48
+    },
+    "clothing_visual": {
+      "meshe_names": []
+    },
+    "hand_equipment_visual": null,
+    "stats": [
+      {
+        "id": "FishingPower",
+        "value": 2.0,
+        "is_pct": false
+      },
+      {
+        "id": "FishingSpeed",
+        "value": 0.048,
+        "is_pct": true
+      }
+    ],
+    "required_achievements": [],
+    "required_knowledges": [],
+    "show_in_progression": false
+  },
+  {
+    "item_id": 822614930,
+    "slots": [
+      "FishingCharm"
+    ],
+    "visual_type": "Clothing",
+    "level_requirement": {
+      "skill_id": 12,
+      "level": 58
+    },
+    "clothing_visual": {
+      "meshe_names": []
+    },
+    "hand_equipment_visual": null,
+    "stats": [
+      {
+        "id": "FishingPower",
+        "value": 2.0,
+        "is_pct": false
+      },
+      {
+        "id": "FishingSpeed",
+        "value": 0.054,
+        "is_pct": true
+      }
+    ],
+    "required_achievements": [],
+    "required_knowledges": [],
+    "show_in_progression": false
+  },
+  {
+    "item_id": 822614931,
+    "slots": [
+      "FishingCharm"
+    ],
+    "visual_type": "Clothing",
+    "level_requirement": {
+      "skill_id": 12,
+      "level": 68
+    },
+    "clothing_visual": {
+      "meshe_names": []
+    },
+    "hand_equipment_visual": null,
+    "stats": [
+      {
+        "id": "FishingPower",
+        "value": 2.0,
+        "is_pct": false
+      },
+      {
+        "id": "FishingSpeed",
+        "value": 0.06,
+        "is_pct": true
+      }
+    ],
+    "required_achievements": [],
+    "required_knowledges": [],
+    "show_in_progression": false
+  },
+  {
+    "item_id": 822614932,
+    "slots": [
+      "FishingCharm"
+    ],
+    "visual_type": "Clothing",
+    "level_requirement": {
+      "skill_id": 12,
+      "level": 78
+    },
+    "clothing_visual": {
+      "meshe_names": []
+    },
+    "hand_equipment_visual": null,
+    "stats": [
+      {
+        "id": "FishingPower",
+        "value": 2.0,
+        "is_pct": false
+      },
+      {
+        "id": "FishingSpeed",
+        "value": 0.066,
+        "is_pct": true
+      }
+    ],
+    "required_achievements": [],
+    "required_knowledges": [],
+    "show_in_progression": false
+  },
+  {
+    "item_id": 822614933,
+    "slots": [
+      "FishingCharm"
+    ],
+    "visual_type": "Clothing",
+    "level_requirement": {
+      "skill_id": 12,
+      "level": 88
+    },
+    "clothing_visual": {
+      "meshe_names": []
+    },
+    "hand_equipment_visual": null,
+    "stats": [
+      {
+        "id": "FishingPower",
+        "value": 3.0,
+        "is_pct": false
+      },
+      {
+        "id": "FishingSpeed",
+        "value": 0.072,
+        "is_pct": true
+      }
+    ],
+    "required_achievements": [],
+    "required_knowledges": [],
+    "show_in_progression": false
+  },
+  {
+    "item_id": 822614934,
+    "slots": [
+      "FishingCharm"
+    ],
+    "visual_type": "Clothing",
+    "level_requirement": {
+      "skill_id": 12,
+      "level": 98
+    },
+    "clothing_visual": {
+      "meshe_names": []
+    },
+    "hand_equipment_visual": null,
+    "stats": [
+      {
+        "id": "FishingPower",
+        "value": 3.0,
+        "is_pct": false
+      },
+      {
+        "id": "FishingSpeed",
+        "value": 0.078,
+        "is_pct": true
+      }
+    ],
+    "required_achievements": [],
+    "required_knowledges": [],
+    "show_in_progression": false
+  },
+  {
+    "item_id": 822614935,
+    "slots": [
+      "FishingCharm"
+    ],
+    "visual_type": "Clothing",
+    "level_requirement": {
+      "skill_id": 12,
+      "level": 100
+    },
+    "clothing_visual": {
+      "meshe_names": []
+    },
+    "hand_equipment_visual": null,
+    "stats": [
+      {
+        "id": "FishingPower",
+        "value": 4.0,
+        "is_pct": false
+      },
+      {
+        "id": "FishingSpeed",
+        "value": 0.08,
+        "is_pct": true
       }
     ],
     "required_achievements": [],

@@ -423,6 +423,26 @@
     "vfx_attachment_point": "Origin"
   },
   {
+    "id": 88760783,
+    "buff_type_id": 324187829,
+    "description": "Snapping The Line V",
+    "priority": 0,
+    "duration": 20,
+    "warn_time": 2.0,
+    "online_timestamp": false,
+    "beneficial": false,
+    "icon_asset_name": "\\uFFE8",
+    "stats": [
+      {
+        "id": "FishingPower",
+        "value": -21.0,
+        "is_pct": false
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
     "id": 124291392,
     "buff_type_id": 1204575210,
     "description": "Infused Healing Potion",
@@ -717,6 +737,26 @@
         "id": "BuildingSpeed",
         "value": 0.042,
         "is_pct": true
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 272299317,
+    "buff_type_id": 710013345,
+    "description": "Reel In",
+    "priority": 0,
+    "duration": 5,
+    "warn_time": 0.0,
+    "online_timestamp": false,
+    "beneficial": true,
+    "icon_asset_name": "\\uFFE8",
+    "stats": [
+      {
+        "id": "FishingSpeed",
+        "value": 0.05,
+        "is_pct": false
       }
     ],
     "vfx": "",
@@ -1297,6 +1337,256 @@
     "vfx_attachment_point": "Origin"
   },
   {
+    "id": 494773520,
+    "buff_type_id": 755187973,
+    "description": "Basic Fishing Elixir",
+    "priority": 0,
+    "duration": 3600,
+    "warn_time": 15.0,
+    "online_timestamp": false,
+    "beneficial": true,
+    "icon_asset_name": "\\u00C8",
+    "stats": [
+      {
+        "id": "GatheringSpeed",
+        "value": 0.03,
+        "is_pct": true
+      },
+      {
+        "id": "FishingPower",
+        "value": 1.0,
+        "is_pct": false
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 494773521,
+    "buff_type_id": 755187973,
+    "description": "Basic Fishing Elixir II",
+    "priority": 0,
+    "duration": 3600,
+    "warn_time": 15.0,
+    "online_timestamp": false,
+    "beneficial": true,
+    "icon_asset_name": "\\u00C8",
+    "stats": [
+      {
+        "id": "GatheringSpeed",
+        "value": 0.036,
+        "is_pct": true
+      },
+      {
+        "id": "FishingPower",
+        "value": 1.0,
+        "is_pct": false
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 494773522,
+    "buff_type_id": 755187973,
+    "description": "Basic Fishing Elixir III",
+    "priority": 0,
+    "duration": 3600,
+    "warn_time": 15.0,
+    "online_timestamp": false,
+    "beneficial": true,
+    "icon_asset_name": "\\u00C8",
+    "stats": [
+      {
+        "id": "GatheringSpeed",
+        "value": 0.042,
+        "is_pct": true
+      },
+      {
+        "id": "FishingPower",
+        "value": 1.0,
+        "is_pct": false
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 494773523,
+    "buff_type_id": 755187973,
+    "description": "Basic Fishing Elixir IV",
+    "priority": 0,
+    "duration": 3600,
+    "warn_time": 15.0,
+    "online_timestamp": false,
+    "beneficial": true,
+    "icon_asset_name": "\\u00C8",
+    "stats": [
+      {
+        "id": "GatheringSpeed",
+        "value": 0.048,
+        "is_pct": true
+      },
+      {
+        "id": "FishingPower",
+        "value": 2.0,
+        "is_pct": false
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 494773524,
+    "buff_type_id": 755187973,
+    "description": "Basic Fishing Elixir V",
+    "priority": 0,
+    "duration": 3600,
+    "warn_time": 15.0,
+    "online_timestamp": false,
+    "beneficial": true,
+    "icon_asset_name": "\\u00C8",
+    "stats": [
+      {
+        "id": "GatheringSpeed",
+        "value": 0.054,
+        "is_pct": true
+      },
+      {
+        "id": "FishingPower",
+        "value": 2.0,
+        "is_pct": false
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 494773525,
+    "buff_type_id": 755187973,
+    "description": "Basic Fishing Elixir VI",
+    "priority": 0,
+    "duration": 3600,
+    "warn_time": 15.0,
+    "online_timestamp": false,
+    "beneficial": true,
+    "icon_asset_name": "\\u00C8",
+    "stats": [
+      {
+        "id": "GatheringSpeed",
+        "value": 0.06,
+        "is_pct": true
+      },
+      {
+        "id": "FishingPower",
+        "value": 2.0,
+        "is_pct": false
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 494773526,
+    "buff_type_id": 755187973,
+    "description": "Basic Fishing Elixir VII",
+    "priority": 0,
+    "duration": 3600,
+    "warn_time": 15.0,
+    "online_timestamp": false,
+    "beneficial": true,
+    "icon_asset_name": "\\u00C8",
+    "stats": [
+      {
+        "id": "GatheringSpeed",
+        "value": 0.066,
+        "is_pct": true
+      },
+      {
+        "id": "FishingPower",
+        "value": 2.0,
+        "is_pct": false
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 494773527,
+    "buff_type_id": 755187973,
+    "description": "Basic Fishing Elixir VIII",
+    "priority": 0,
+    "duration": 3600,
+    "warn_time": 15.0,
+    "online_timestamp": false,
+    "beneficial": true,
+    "icon_asset_name": "\\u00C8",
+    "stats": [
+      {
+        "id": "GatheringSpeed",
+        "value": 0.072,
+        "is_pct": true
+      },
+      {
+        "id": "FishingPower",
+        "value": 3.0,
+        "is_pct": false
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 494773528,
+    "buff_type_id": 755187973,
+    "description": "Basic Fishing Elixir IX",
+    "priority": 0,
+    "duration": 3600,
+    "warn_time": 15.0,
+    "online_timestamp": false,
+    "beneficial": true,
+    "icon_asset_name": "\\u00C8",
+    "stats": [
+      {
+        "id": "GatheringSpeed",
+        "value": 0.078,
+        "is_pct": true
+      },
+      {
+        "id": "FishingPower",
+        "value": 3.0,
+        "is_pct": false
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 494773529,
+    "buff_type_id": 755187973,
+    "description": "Basic Fishing Elixir X",
+    "priority": 0,
+    "duration": 3600,
+    "warn_time": 15.0,
+    "online_timestamp": false,
+    "beneficial": true,
+    "icon_asset_name": "\\u00C8",
+    "stats": [
+      {
+        "id": "GatheringSpeed",
+        "value": 0.084,
+        "is_pct": true
+      },
+      {
+        "id": "FishingPower",
+        "value": 4.0,
+        "is_pct": false
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
     "id": 541849230,
     "buff_type_id": 1204575210,
     "description": "Ornate Healing Potion",
@@ -1331,6 +1621,26 @@
         "id": "MovementMultiplier",
         "value": 0.046,
         "is_pct": true
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 546413503,
+    "buff_type_id": 324187829,
+    "description": "Snapping The Line X",
+    "priority": 0,
+    "duration": 20,
+    "warn_time": 2.0,
+    "online_timestamp": false,
+    "beneficial": false,
+    "icon_asset_name": "\\uFFE8",
+    "stats": [
+      {
+        "id": "FishingPower",
+        "value": -35.0,
+        "is_pct": false
       }
     ],
     "vfx": "",
@@ -1777,6 +2087,26 @@
     "vfx_attachment_point": "Origin"
   },
   {
+    "id": 696939404,
+    "buff_type_id": 1415437407,
+    "description": "Enormous Trask Inspiration",
+    "priority": 0,
+    "duration": 3600,
+    "warn_time": 15.0,
+    "online_timestamp": false,
+    "beneficial": true,
+    "icon_asset_name": "\\uFFE8",
+    "stats": [
+      {
+        "id": "FishingCritChance",
+        "value": 0.05,
+        "is_pct": false
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
     "id": 699031322,
     "buff_type_id": 755187973,
     "description": "Simple Building Speed Elixir",
@@ -1877,6 +2207,166 @@
     "vfx_attachment_point": "Origin"
   },
   {
+    "id": 719678292,
+    "buff_type_id": 710013345,
+    "description": "It's Getting Away II",
+    "priority": 0,
+    "duration": 20,
+    "warn_time": 2.0,
+    "online_timestamp": false,
+    "beneficial": false,
+    "icon_asset_name": "\\uFFE8",
+    "stats": [
+      {
+        "id": "FishingPower",
+        "value": -12.0,
+        "is_pct": false
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 719678293,
+    "buff_type_id": 710013345,
+    "description": "It's Getting Away IV",
+    "priority": 0,
+    "duration": 20,
+    "warn_time": 2.0,
+    "online_timestamp": false,
+    "beneficial": false,
+    "icon_asset_name": "\\uFFE8",
+    "stats": [
+      {
+        "id": "FishingPower",
+        "value": -18.0,
+        "is_pct": false
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 719678294,
+    "buff_type_id": 710013345,
+    "description": "It's Getting Away V",
+    "priority": 0,
+    "duration": 20,
+    "warn_time": 2.0,
+    "online_timestamp": false,
+    "beneficial": false,
+    "icon_asset_name": "\\uFFE8",
+    "stats": [
+      {
+        "id": "FishingPower",
+        "value": -21.0,
+        "is_pct": false
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 719678295,
+    "buff_type_id": 710013345,
+    "description": "It's Getting Away VI",
+    "priority": 0,
+    "duration": 20,
+    "warn_time": 2.0,
+    "online_timestamp": false,
+    "beneficial": false,
+    "icon_asset_name": "\\uFFE8",
+    "stats": [
+      {
+        "id": "FishingPower",
+        "value": -24.0,
+        "is_pct": false
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 719678296,
+    "buff_type_id": 710013345,
+    "description": "It's Getting Away VII",
+    "priority": 0,
+    "duration": 20,
+    "warn_time": 2.0,
+    "online_timestamp": false,
+    "beneficial": false,
+    "icon_asset_name": "\\uFFE8",
+    "stats": [
+      {
+        "id": "FishingPower",
+        "value": -27.0,
+        "is_pct": false
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 719678297,
+    "buff_type_id": 710013345,
+    "description": "It's Getting Away VIII",
+    "priority": 0,
+    "duration": 20,
+    "warn_time": 2.0,
+    "online_timestamp": false,
+    "beneficial": false,
+    "icon_asset_name": "\\uFFE8",
+    "stats": [
+      {
+        "id": "FishingPower",
+        "value": -30.0,
+        "is_pct": false
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 719678298,
+    "buff_type_id": 710013345,
+    "description": "It's Getting Away IX",
+    "priority": 0,
+    "duration": 20,
+    "warn_time": 2.0,
+    "online_timestamp": false,
+    "beneficial": false,
+    "icon_asset_name": "\\uFFE8",
+    "stats": [
+      {
+        "id": "FishingPower",
+        "value": -33.0,
+        "is_pct": false
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 719678299,
+    "buff_type_id": 710013345,
+    "description": "It's Getting Away X",
+    "priority": 0,
+    "duration": 20,
+    "warn_time": 2.0,
+    "online_timestamp": false,
+    "beneficial": false,
+    "icon_asset_name": "\\uFFE8",
+    "stats": [
+      {
+        "id": "FishingPower",
+        "value": -35.0,
+        "is_pct": false
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
     "id": 749675367,
     "buff_type_id": 755187973,
     "description": "Exquisite Building Speed Elixir",
@@ -1891,6 +2381,26 @@
         "id": "BuildingSpeed",
         "value": 0.066,
         "is_pct": true
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 761070906,
+    "buff_type_id": 324187829,
+    "description": "Snapping The Line VIII",
+    "priority": 0,
+    "duration": 20,
+    "warn_time": 2.0,
+    "online_timestamp": false,
+    "beneficial": false,
+    "icon_asset_name": "\\uFFE8",
+    "stats": [
+      {
+        "id": "FishingPower",
+        "value": -30.0,
+        "is_pct": false
       }
     ],
     "vfx": "",
@@ -1981,6 +2491,26 @@
         "id": "GatheringSpeed",
         "value": 0.039,
         "is_pct": true
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 810698501,
+    "buff_type_id": 324187829,
+    "description": "Snapping The Line",
+    "priority": 0,
+    "duration": 20,
+    "warn_time": 2.0,
+    "online_timestamp": false,
+    "beneficial": false,
+    "icon_asset_name": "\\uFFE8",
+    "stats": [
+      {
+        "id": "FishingPower",
+        "value": -9.0,
+        "is_pct": false
       }
     ],
     "vfx": "",
@@ -2331,6 +2861,26 @@
         "id": "Strength",
         "value": 0.07,
         "is_pct": true
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 1002263621,
+    "buff_type_id": 324187829,
+    "description": "Snapping The Line IX",
+    "priority": 0,
+    "duration": 20,
+    "warn_time": 2.0,
+    "online_timestamp": false,
+    "beneficial": false,
+    "icon_asset_name": "\\uFFE8",
+    "stats": [
+      {
+        "id": "FishingPower",
+        "value": -33.0,
+        "is_pct": false
       }
     ],
     "vfx": "",
@@ -2715,6 +3265,56 @@
       {
         "id": "ForagingCritChance",
         "value": 0.2,
+        "is_pct": false
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 1167848123,
+    "buff_type_id": 324187829,
+    "description": "Let It Run",
+    "priority": 0,
+    "duration": 5,
+    "warn_time": 0.0,
+    "online_timestamp": false,
+    "beneficial": true,
+    "icon_asset_name": "\\uFFE8",
+    "stats": [
+      {
+        "id": "CraftingSpeed",
+        "value": -0.15,
+        "is_pct": true
+      },
+      {
+        "id": "GatheringSpeed",
+        "value": -0.15,
+        "is_pct": true
+      },
+      {
+        "id": "FishingPower",
+        "value": 2.0,
+        "is_pct": false
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 1177454758,
+    "buff_type_id": 324187829,
+    "description": "Snapping The Line II",
+    "priority": 0,
+    "duration": 20,
+    "warn_time": 2.0,
+    "online_timestamp": false,
+    "beneficial": false,
+    "icon_asset_name": "\\uFFE8",
+    "stats": [
+      {
+        "id": "FishingPower",
+        "value": -12.0,
         "is_pct": false
       }
     ],
@@ -3667,6 +4267,26 @@
     "vfx_attachment_point": "Origin"
   },
   {
+    "id": 1503868071,
+    "buff_type_id": 324187829,
+    "description": "Snapping The Line IV",
+    "priority": 0,
+    "duration": 20,
+    "warn_time": 2.0,
+    "online_timestamp": false,
+    "beneficial": false,
+    "icon_asset_name": "\\uFFE8",
+    "stats": [
+      {
+        "id": "FishingPower",
+        "value": -18.0,
+        "is_pct": false
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
     "id": 1509772875,
     "buff_type_id": 861783812,
     "description": "Level 4 Deluxe Combat Cooldown",
@@ -4071,6 +4691,26 @@
     "vfx_attachment_point": "Origin"
   },
   {
+    "id": 1611072793,
+    "buff_type_id": 324187829,
+    "description": "Snapping The Line VII",
+    "priority": 0,
+    "duration": 20,
+    "warn_time": 2.0,
+    "online_timestamp": false,
+    "beneficial": false,
+    "icon_asset_name": "\\uFFE8",
+    "stats": [
+      {
+        "id": "FishingPower",
+        "value": -27.0,
+        "is_pct": false
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
     "id": 1625755612,
     "buff_type_id": 1482558529,
     "description": "Ancient Tailoring Inspiration",
@@ -4401,6 +5041,26 @@
     "vfx_attachment_point": "Origin"
   },
   {
+    "id": 1795550432,
+    "buff_type_id": 710013345,
+    "description": "It's Getting Away",
+    "priority": 0,
+    "duration": 20,
+    "warn_time": 2.0,
+    "online_timestamp": false,
+    "beneficial": false,
+    "icon_asset_name": "\\u010C",
+    "stats": [
+      {
+        "id": "FishingPower",
+        "value": -9.0,
+        "is_pct": false
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
     "id": 1811669941,
     "buff_type_id": 1482558529,
     "description": "Ancient Hunting Inspiration",
@@ -4565,6 +5225,26 @@
         "id": "CooldownMultiplier",
         "value": 0.1,
         "is_pct": true
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 1873517122,
+    "buff_type_id": 710013345,
+    "description": "It's Getting Away III",
+    "priority": 0,
+    "duration": 20,
+    "warn_time": 2.0,
+    "online_timestamp": false,
+    "beneficial": false,
+    "icon_asset_name": "\\uFFE8",
+    "stats": [
+      {
+        "id": "FishingPower",
+        "value": -15.0,
+        "is_pct": false
       }
     ],
     "vfx": "",
@@ -4796,6 +5476,26 @@
     "vfx_attachment_point": "Origin"
   },
   {
+    "id": 1950394981,
+    "buff_type_id": 324187829,
+    "description": "Snapping The Line III",
+    "priority": 0,
+    "duration": 20,
+    "warn_time": 2.0,
+    "online_timestamp": false,
+    "beneficial": false,
+    "icon_asset_name": "\\uFFE8",
+    "stats": [
+      {
+        "id": "FishingPower",
+        "value": -15.0,
+        "is_pct": false
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
     "id": 1958258156,
     "buff_type_id": 1204575210,
     "description": "Flawless Healing Potion",
@@ -5015,6 +5715,26 @@
         "id": "MovementMultiplier",
         "value": -0.8,
         "is_pct": true
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 2099523184,
+    "buff_type_id": 324187829,
+    "description": "Snapping The Line VI",
+    "priority": 0,
+    "duration": 20,
+    "warn_time": 2.0,
+    "online_timestamp": false,
+    "beneficial": false,
+    "icon_asset_name": "\\uFFE8",
+    "stats": [
+      {
+        "id": "FishingPower",
+        "value": -24.0,
+        "is_pct": false
       }
     ],
     "vfx": "",

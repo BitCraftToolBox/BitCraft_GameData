@@ -143,7 +143,10 @@
     ],
     "requirements": [
       {
-        "QuestChain_": 751817487
+        "Level_": {
+          "skill_id": 1,
+          "level": 130
+        }
       }
     ],
     "rewards": [
@@ -164,8 +167,8 @@
         }
       }
     ],
-    "unstartable": false,
-    "is_secret": false
+    "unstartable": true,
+    "is_secret": true
   },
   {
     "id": 69611471,
@@ -286,7 +289,7 @@
         }
       },
       {
-        "QuestChain_": 51088672
+        "QuestChain_": 134027433
       }
     ],
     "rewards": [
@@ -314,6 +317,49 @@
       }
     ],
     "implicit_rewards": [],
+    "unstartable": false,
+    "is_secret": false
+  },
+  {
+    "id": 134027433,
+    "name": "Fishing I: Receiving your Raft",
+    "is_hint": false,
+    "stages": [
+      798978335,
+      1360976523,
+      1900895114,
+      778529659,
+      1140618609,
+      752077466,
+      1571696777,
+      1690917174,
+      25255080,
+      1958122328,
+      1916951523
+    ],
+    "requirements": [
+      {
+        "QuestChain_": 1473099082
+      }
+    ],
+    "rewards": [
+      {
+        "Experience_": {
+          "skill_id": 12,
+          "quantity": 500.0
+        }
+      }
+    ],
+    "implicit_rewards": [
+      {
+        "ItemStack_": {
+          "item_id": 130,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        }
+      }
+    ],
     "unstartable": false,
     "is_secret": false
   },
@@ -1677,7 +1723,7 @@
         }
       },
       {
-        "QuestChain_": 51088672
+        "QuestChain_": 134027433
       }
     ],
     "rewards": [
@@ -2193,6 +2239,74 @@
     "is_secret": false
   },
   {
+    "id": 862267397,
+    "name": "Fishing II: Bigger Fish to Fry",
+    "is_hint": false,
+    "stages": [
+      1234292540,
+      1123523557,
+      1615764108,
+      1129801956,
+      1960014306,
+      834546397,
+      999414367,
+      1552637906,
+      331245040,
+      449463223,
+      1820454225,
+      430201929,
+      1894631489,
+      973597172,
+      1883536066
+    ],
+    "requirements": [
+      {
+        "QuestChain_": 134027433
+      },
+      {
+        "Level_": {
+          "skill_id": 12,
+          "level": 2
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "Experience_": {
+          "skill_id": 12,
+          "quantity": 1000.0
+        }
+      },
+      {
+        "ItemStack_": {
+          "item_id": 1230493129,
+          "quantity": 5,
+          "item_type": "Item",
+          "durability": 0
+        }
+      },
+      {
+        "ItemStack_": {
+          "item_id": 9000005,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        }
+      },
+      {
+        "ItemStack_": {
+          "item_id": 9000006,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        }
+      }
+    ],
+    "implicit_rewards": [],
+    "unstartable": false,
+    "is_secret": false
+  },
+  {
     "id": 871400259,
     "name": "Hunters and Gatherers",
     "is_hint": false,
@@ -2224,6 +2338,57 @@
       {
         "ItemStack_": {
           "item_id": 471537919,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        }
+      }
+    ],
+    "implicit_rewards": [],
+    "unstartable": false,
+    "is_secret": false
+  },
+  {
+    "id": 900932728,
+    "name": "Fishing III: A Net Worth",
+    "is_hint": false,
+    "stages": [
+      953887250,
+      1643692578,
+      1176420498,
+      726170434,
+      1583764741,
+      1473359886
+    ],
+    "requirements": [
+      {
+        "QuestChain_": 862267397
+      },
+      {
+        "Level_": {
+          "skill_id": 12,
+          "level": 14
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "Experience_": {
+          "skill_id": 12,
+          "quantity": 1500.0
+        }
+      },
+      {
+        "ItemStack_": {
+          "item_id": 9000001,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        }
+      },
+      {
+        "ItemStack_": {
+          "item_id": 9000002,
           "quantity": 1,
           "item_type": "Item",
           "durability": 0
@@ -3005,7 +3170,7 @@
         }
       },
       {
-        "QuestChain_": 51088672
+        "QuestChain_": 134027433
       }
     ],
     "rewards": [
@@ -4422,7 +4587,7 @@
         }
       },
       {
-        "QuestChain_": 51088672
+        "QuestChain_": 134027433
       }
     ],
     "rewards": [
@@ -5120,6 +5285,57 @@
     "is_secret": false
   },
   {
+    "id": 2030167828,
+    "name": "Fishing IV: A Runaway Lead",
+    "is_hint": false,
+    "stages": [
+      177479160,
+      1881746948,
+      1206477150,
+      1071455595,
+      1814540983,
+      1742113685
+    ],
+    "requirements": [
+      {
+        "QuestChain_": 862267397
+      },
+      {
+        "Level_": {
+          "skill_id": 12,
+          "level": 17
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "Experience_": {
+          "skill_id": 12,
+          "quantity": 2000.0
+        }
+      },
+      {
+        "ItemStack_": {
+          "item_id": 9000003,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        }
+      },
+      {
+        "ItemStack_": {
+          "item_id": 9000004,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        }
+      }
+    ],
+    "implicit_rewards": [],
+    "unstartable": false,
+    "is_secret": false
+  },
+  {
     "id": 2053821083,
     "name": "Sharing History",
     "is_hint": false,
@@ -5178,7 +5394,7 @@
       }
     ],
     "implicit_rewards": [],
-    "unstartable": false,
+    "unstartable": true,
     "is_secret": true
   },
   {
