@@ -14851,7 +14851,7 @@
     "experience_per_progress": [
       [
         12,
-        1.25
+        2.0
       ]
     ],
     "verb_phrase": "Fish",
@@ -14861,7 +14861,7 @@
       1,
       {}
     ],
-    "show_in_progression": false,
+    "show_in_progression": true,
     "empire_permission_required": [
       1,
       {}
@@ -14873,7 +14873,7 @@
   },
   {
     "id": 1110001,
-    "resource_id": 1110001,
+    "resource_id": 2064671495,
     "cargo_id": 0,
     "discovery_triggers": [],
     "required_knowledges": [],
@@ -14898,7 +14898,7 @@
             ]
           ]
         ],
-        0.02
+        0.015
       ],
       [
         [
@@ -14919,18 +14919,7 @@
         1.0
       ]
     ],
-    "consumed_item_stacks": [
-      [
-        1110003,
-        1,
-        [
-          0,
-          []
-        ],
-        0,
-        0.1
-      ]
-    ],
+    "consumed_item_stacks": [],
     "range": 5,
     "tool_requirements": [
       [
@@ -14943,13 +14932,13 @@
     "level_requirements": [
       [
         12,
-        1
+        3
       ]
     ],
     "experience_per_progress": [
       [
         12,
-        1.25
+        1.4
       ]
     ],
     "verb_phrase": "Fish",
@@ -14959,7 +14948,7 @@
       1,
       {}
     ],
-    "show_in_progression": false,
+    "show_in_progression": true,
     "empire_permission_required": [
       1,
       {}
@@ -14992,7 +14981,7 @@
         1.0
       ]
     ],
-    "range": 1,
+    "range": 5,
     "tool_requirements": [
       [
         10,
@@ -15004,7 +14993,7 @@
     "level_requirements": [
       [
         12,
-        1
+        16
       ]
     ],
     "experience_per_progress": [
@@ -15091,7 +15080,7 @@
     "level_requirements": [
       [
         12,
-        1
+        17
       ]
     ],
     "experience_per_progress": [
@@ -15107,14 +15096,21 @@
       1,
       {}
     ],
-    "show_in_progression": false,
+    "show_in_progression": true,
     "empire_permission_required": [
       1,
       {}
     ],
     "spawned_placeables": [
       0,
-      []
+      [
+        [
+          1977288076,
+          0.0026,
+          7,
+          9
+        ]
+      ]
     ]
   },
   {
@@ -15698,56 +15694,19 @@
     "required_knowledges": [],
     "blocking_knowledges": [],
     "time_requirement": 1.6,
-    "stamina_requirement": 0.89,
+    "stamina_requirement": 0.0,
     "tool_durability_lost": 0,
-    "extracted_item_stacks": [
-      [
-        [
-          0,
-          [
-            2220030,
-            1,
-            [
-              0,
-              []
-            ],
-            [
-              0,
-              0
-            ]
-          ]
-        ],
-        0.01681
-      ],
-      [
-        [
-          0,
-          [
-            1144178709,
-            1,
-            [
-              0,
-              []
-            ],
-            [
-              0,
-              0
-            ]
-          ]
-        ],
-        1.0
-      ]
-    ],
+    "extracted_item_stacks": [],
     "consumed_item_stacks": [
       [
         2110003,
-        1,
+        10,
         [
           0,
           []
         ],
         0,
-        0.1
+        1.0
       ]
     ],
     "range": 5,
@@ -15762,18 +15721,18 @@
     "level_requirements": [
       [
         12,
-        20
+        23
       ]
     ],
     "experience_per_progress": [
       [
         12,
-        1.375
+        55.0
       ]
     ],
-    "verb_phrase": "Fish",
+    "verb_phrase": "Bait",
     "tool_mesh_index": 0,
-    "recipe_performance_id": 143,
+    "recipe_performance_id": 403,
     "empire_rank_requirement": [
       1,
       {}
@@ -15811,7 +15770,7 @@
         1.0
       ]
     ],
-    "range": 1,
+    "range": 5,
     "tool_requirements": [
       [
         10,
@@ -15933,7 +15892,14 @@
     ],
     "spawned_placeables": [
       0,
-      []
+      [
+        [
+          904552807,
+          0.002184,
+          7,
+          9
+        ]
+      ]
     ]
   },
   {
@@ -17444,38 +17410,19 @@
     "required_knowledges": [],
     "blocking_knowledges": [],
     "time_requirement": 1.6,
-    "stamina_requirement": 1.03,
+    "stamina_requirement": 0.0,
     "tool_durability_lost": 0,
-    "extracted_item_stacks": [
-      [
-        [
-          0,
-          [
-            3220030,
-            1,
-            [
-              0,
-              []
-            ],
-            [
-              0,
-              0
-            ]
-          ]
-        ],
-        0.01459
-      ]
-    ],
+    "extracted_item_stacks": [],
     "consumed_item_stacks": [
       [
         3110003,
-        1,
+        10,
         [
           0,
           []
         ],
         0,
-        0.1
+        1.0
       ]
     ],
     "range": 5,
@@ -17490,18 +17437,18 @@
     "level_requirements": [
       [
         12,
-        30
+        33
       ]
     ],
     "experience_per_progress": [
       [
         12,
-        1.5
+        60.0
       ]
     ],
-    "verb_phrase": "Fish",
+    "verb_phrase": "Bait",
     "tool_mesh_index": 0,
-    "recipe_performance_id": 143,
+    "recipe_performance_id": 403,
     "empire_rank_requirement": [
       1,
       {}
@@ -17539,7 +17486,7 @@
         1.0
       ]
     ],
-    "range": 1,
+    "range": 5,
     "tool_requirements": [
       [
         10,
@@ -17643,7 +17590,14 @@
     ],
     "spawned_placeables": [
       0,
-      []
+      [
+        [
+          546548972,
+          0.001898,
+          7,
+          9
+        ]
+      ]
     ]
   },
   {
@@ -18779,62 +18733,25 @@
   },
   {
     "id": 4110001,
-    "resource_id": 4110001,
+    "resource_id": 1696878184,
     "cargo_id": 0,
     "discovery_triggers": [],
     "required_knowledges": [],
     "blocking_knowledges": [],
     "time_requirement": 1.6,
-    "stamina_requirement": 1.16,
+    "stamina_requirement": 0.0,
     "tool_durability_lost": 0,
-    "extracted_item_stacks": [
-      [
-        [
-          0,
-          [
-            4220030,
-            1,
-            [
-              0,
-              []
-            ],
-            [
-              0,
-              0
-            ]
-          ]
-        ],
-        0.01295
-      ],
-      [
-        [
-          0,
-          [
-            1514659172,
-            1,
-            [
-              0,
-              []
-            ],
-            [
-              0,
-              0
-            ]
-          ]
-        ],
-        2.4e-06
-      ]
-    ],
+    "extracted_item_stacks": [],
     "consumed_item_stacks": [
       [
         4110003,
-        1,
+        10,
         [
           0,
           []
         ],
         0,
-        0.1
+        1.0
       ]
     ],
     "range": 5,
@@ -18849,18 +18766,18 @@
     "level_requirements": [
       [
         12,
-        40
+        43
       ]
     ],
     "experience_per_progress": [
       [
         12,
-        1.625
+        65.0
       ]
     ],
-    "verb_phrase": "Fish",
+    "verb_phrase": "Bait",
     "tool_mesh_index": 0,
-    "recipe_performance_id": 143,
+    "recipe_performance_id": 403,
     "empire_rank_requirement": [
       1,
       {}
@@ -18898,7 +18815,7 @@
         1.0
       ]
     ],
-    "range": 1,
+    "range": 5,
     "tool_requirements": [
       [
         10,
@@ -19002,7 +18919,14 @@
     ],
     "spawned_placeables": [
       0,
-      []
+      [
+        [
+          333807239,
+          0.001677,
+          7,
+          9
+        ]
+      ]
     ]
   },
   {
@@ -19412,56 +19336,19 @@
     "required_knowledges": [],
     "blocking_knowledges": [],
     "time_requirement": 1.6,
-    "stamina_requirement": 1.28,
+    "stamina_requirement": 0.0,
     "tool_durability_lost": 0,
-    "extracted_item_stacks": [
-      [
-        [
-          0,
-          [
-            5220030,
-            1,
-            [
-              0,
-              []
-            ],
-            [
-              0,
-              0
-            ]
-          ]
-        ],
-        0.01168
-      ],
-      [
-        [
-          0,
-          [
-            1514659172,
-            1,
-            [
-              0,
-              []
-            ],
-            [
-              0,
-              0
-            ]
-          ]
-        ],
-        2.4e-06
-      ]
-    ],
+    "extracted_item_stacks": [],
     "consumed_item_stacks": [
       [
         5110003,
-        1,
+        10,
         [
           0,
           []
         ],
         0,
-        0.1
+        1.0
       ]
     ],
     "range": 5,
@@ -19476,18 +19363,18 @@
     "level_requirements": [
       [
         12,
-        50
+        53
       ]
     ],
     "experience_per_progress": [
       [
         12,
-        1.75
+        70.0
       ]
     ],
-    "verb_phrase": "Fish",
+    "verb_phrase": "Bait",
     "tool_mesh_index": 0,
-    "recipe_performance_id": 143,
+    "recipe_performance_id": 403,
     "empire_rank_requirement": [
       1,
       {}
@@ -19525,7 +19412,7 @@
         1.0
       ]
     ],
-    "range": 1,
+    "range": 5,
     "tool_requirements": [
       [
         10,
@@ -19629,7 +19516,14 @@
     ],
     "spawned_placeables": [
       0,
-      []
+      [
+        [
+          2080443477,
+          0.001521,
+          7,
+          9
+        ]
+      ]
     ]
   },
   {
@@ -19772,44 +19666,25 @@
   },
   {
     "id": 6110001,
-    "resource_id": 6110001,
+    "resource_id": 808355905,
     "cargo_id": 0,
     "discovery_triggers": [],
     "required_knowledges": [],
     "blocking_knowledges": [],
     "time_requirement": 1.6,
-    "stamina_requirement": 1.41,
+    "stamina_requirement": 0.0,
     "tool_durability_lost": 0,
-    "extracted_item_stacks": [
-      [
-        [
-          0,
-          [
-            6220030,
-            1,
-            [
-              0,
-              []
-            ],
-            [
-              0,
-              0
-            ]
-          ]
-        ],
-        0.01067
-      ]
-    ],
+    "extracted_item_stacks": [],
     "consumed_item_stacks": [
       [
         6110003,
-        1,
+        10,
         [
           0,
           []
         ],
         0,
-        0.1
+        1.0
       ]
     ],
     "range": 5,
@@ -19824,18 +19699,18 @@
     "level_requirements": [
       [
         12,
-        60
+        63
       ]
     ],
     "experience_per_progress": [
       [
         12,
-        1.875
+        75.0
       ]
     ],
-    "verb_phrase": "Fish",
+    "verb_phrase": "Bait",
     "tool_mesh_index": 0,
-    "recipe_performance_id": 143,
+    "recipe_performance_id": 403,
     "empire_rank_requirement": [
       1,
       {}
@@ -19873,7 +19748,7 @@
         1.0
       ]
     ],
-    "range": 1,
+    "range": 5,
     "tool_requirements": [
       [
         10,
@@ -19977,7 +19852,14 @@
     ],
     "spawned_placeables": [
       0,
-      []
+      [
+        [
+          449312555,
+          0.001391,
+          7,
+          9
+        ]
+      ]
     ]
   },
   {
@@ -21713,6 +21595,75 @@
     ]
   },
   {
+    "id": 154472857,
+    "resource_id": 1939455158,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 1.6,
+    "stamina_requirement": 1.28,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [
+      [
+        [
+          0,
+          [
+            5220030,
+            1,
+            [
+              0,
+              []
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        ],
+        0.01755
+      ]
+    ],
+    "consumed_item_stacks": [],
+    "range": 5,
+    "tool_requirements": [
+      [
+        10,
+        5,
+        1
+      ]
+    ],
+    "allow_use_hands": false,
+    "level_requirements": [
+      [
+        12,
+        52
+      ]
+    ],
+    "experience_per_progress": [
+      [
+        12,
+        4.2
+      ]
+    ],
+    "verb_phrase": "Fish",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 143,
+    "empire_rank_requirement": [
+      1,
+      {}
+    ],
+    "show_in_progression": true,
+    "empire_permission_required": [
+      1,
+      {}
+    ],
+    "spawned_placeables": [
+      0,
+      []
+    ]
+  },
+  {
     "id": 173251562,
     "resource_id": 1502935362,
     "cargo_id": 0,
@@ -21834,6 +21785,57 @@
     "spawned_placeables": [
       0,
       []
+    ]
+  },
+  {
+    "id": 198407116,
+    "resource_id": 1613056504,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 1.6,
+    "stamina_requirement": 0.0,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [],
+    "consumed_item_stacks": [],
+    "range": 3,
+    "tool_requirements": [],
+    "allow_use_hands": true,
+    "level_requirements": [
+      [
+        12,
+        38
+      ]
+    ],
+    "experience_per_progress": [
+      [
+        12,
+        0.0
+      ]
+    ],
+    "verb_phrase": "Agitate",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 991,
+    "empire_rank_requirement": [
+      1,
+      {}
+    ],
+    "show_in_progression": false,
+    "empire_permission_required": [
+      1,
+      {}
+    ],
+    "spawned_placeables": [
+      0,
+      [
+        [
+          1520052172,
+          1.0,
+          0,
+          0
+        ]
+      ]
     ]
   },
   {
@@ -22588,7 +22590,14 @@
     ],
     "spawned_placeables": [
       0,
-      []
+      [
+        [
+          1012740885,
+          0.00104,
+          7,
+          9
+        ]
+      ]
     ]
   },
   {
@@ -22899,6 +22908,75 @@
       {}
     ],
     "show_in_progression": false,
+    "empire_permission_required": [
+      1,
+      {}
+    ],
+    "spawned_placeables": [
+      0,
+      []
+    ]
+  },
+  {
+    "id": 328711500,
+    "resource_id": 1791475915,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 1.6,
+    "stamina_requirement": 0.75,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [
+      [
+        [
+          0,
+          [
+            1110017,
+            1,
+            [
+              0,
+              []
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        ],
+        0.03
+      ]
+    ],
+    "consumed_item_stacks": [],
+    "range": 5,
+    "tool_requirements": [
+      [
+        10,
+        1,
+        1
+      ]
+    ],
+    "allow_use_hands": false,
+    "level_requirements": [
+      [
+        12,
+        2
+      ]
+    ],
+    "experience_per_progress": [
+      [
+        12,
+        3.0
+      ]
+    ],
+    "verb_phrase": "Fish",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 143,
+    "empire_rank_requirement": [
+      1,
+      {}
+    ],
+    "show_in_progression": true,
     "empire_permission_required": [
       1,
       {}
@@ -23335,6 +23413,136 @@
     "verb_phrase": "Mine",
     "tool_mesh_index": 0,
     "recipe_performance_id": 975,
+    "empire_rank_requirement": [
+      1,
+      {}
+    ],
+    "show_in_progression": false,
+    "empire_permission_required": [
+      1,
+      {}
+    ],
+    "spawned_placeables": [
+      0,
+      []
+    ]
+  },
+  {
+    "id": 356216091,
+    "resource_id": 769107383,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 1.6,
+    "stamina_requirement": 1.41,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [
+      [
+        [
+          0,
+          [
+            6220030,
+            1,
+            [
+              0,
+              []
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        ],
+        0.01605
+      ]
+    ],
+    "consumed_item_stacks": [],
+    "range": 5,
+    "tool_requirements": [
+      [
+        10,
+        6,
+        1
+      ]
+    ],
+    "allow_use_hands": false,
+    "level_requirements": [
+      [
+        12,
+        62
+      ]
+    ],
+    "experience_per_progress": [
+      [
+        12,
+        4.5
+      ]
+    ],
+    "verb_phrase": "Fish",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 143,
+    "empire_rank_requirement": [
+      1,
+      {}
+    ],
+    "show_in_progression": true,
+    "empire_permission_required": [
+      1,
+      {}
+    ],
+    "spawned_placeables": [
+      0,
+      []
+    ]
+  },
+  {
+    "id": 366152789,
+    "resource_id": 1307591988,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 1.6,
+    "stamina_requirement": 0.0,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [],
+    "consumed_item_stacks": [
+      [
+        94044442,
+        5,
+        [
+          0,
+          []
+        ],
+        0,
+        1.0
+      ]
+    ],
+    "range": 5,
+    "tool_requirements": [
+      [
+        10,
+        10,
+        1
+      ]
+    ],
+    "allow_use_hands": true,
+    "level_requirements": [
+      [
+        12,
+        100
+      ]
+    ],
+    "experience_per_progress": [
+      [
+        12,
+        95.0
+      ]
+    ],
+    "verb_phrase": "Bait",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 403,
     "empire_rank_requirement": [
       1,
       {}
@@ -23792,6 +24000,75 @@
     ]
   },
   {
+    "id": 415076000,
+    "resource_id": 2089325907,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 1.6,
+    "stamina_requirement": 0.89,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [
+      [
+        [
+          0,
+          [
+            2220030,
+            1,
+            [
+              0,
+              []
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        ],
+        0.0126
+      ]
+    ],
+    "consumed_item_stacks": [],
+    "range": 5,
+    "tool_requirements": [
+      [
+        10,
+        2,
+        1
+      ]
+    ],
+    "allow_use_hands": false,
+    "level_requirements": [
+      [
+        12,
+        23
+      ]
+    ],
+    "experience_per_progress": [
+      [
+        12,
+        1.54
+      ]
+    ],
+    "verb_phrase": "Fish",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 143,
+    "empire_rank_requirement": [
+      1,
+      {}
+    ],
+    "show_in_progression": true,
+    "empire_permission_required": [
+      1,
+      {}
+    ],
+    "spawned_placeables": [
+      0,
+      []
+    ]
+  },
+  {
     "id": 441839176,
     "resource_id": 1840475867,
     "cargo_id": 0,
@@ -24032,6 +24309,67 @@
     "verb_phrase": "Mine",
     "tool_mesh_index": 0,
     "recipe_performance_id": 975,
+    "empire_rank_requirement": [
+      1,
+      {}
+    ],
+    "show_in_progression": false,
+    "empire_permission_required": [
+      1,
+      {}
+    ],
+    "spawned_placeables": [
+      0,
+      []
+    ]
+  },
+  {
+    "id": 464949254,
+    "resource_id": 1062382109,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 1.6,
+    "stamina_requirement": 0.0,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [],
+    "consumed_item_stacks": [
+      [
+        1047327336,
+        5,
+        [
+          0,
+          []
+        ],
+        0,
+        1.0
+      ]
+    ],
+    "range": 5,
+    "tool_requirements": [
+      [
+        10,
+        9,
+        1
+      ]
+    ],
+    "allow_use_hands": true,
+    "level_requirements": [
+      [
+        12,
+        92
+      ]
+    ],
+    "experience_per_progress": [
+      [
+        12,
+        90.0
+      ]
+    ],
+    "verb_phrase": "Bait",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 403,
     "empire_rank_requirement": [
       1,
       {}
@@ -25852,7 +26190,14 @@
     ],
     "spawned_placeables": [
       0,
-      []
+      [
+        [
+          1616375963,
+          0.001274,
+          7,
+          9
+        ]
+      ]
     ]
   },
   {
@@ -25978,6 +26323,75 @@
       {}
     ],
     "show_in_progression": false,
+    "empire_permission_required": [
+      1,
+      {}
+    ],
+    "spawned_placeables": [
+      0,
+      []
+    ]
+  },
+  {
+    "id": 682106952,
+    "resource_id": 374159821,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 1.6,
+    "stamina_requirement": 1.86,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [
+      [
+        [
+          0,
+          [
+            426552137,
+            1,
+            [
+              0,
+              []
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        ],
+        0.006
+      ]
+    ],
+    "consumed_item_stacks": [],
+    "range": 5,
+    "tool_requirements": [
+      [
+        10,
+        10,
+        1
+      ]
+    ],
+    "allow_use_hands": false,
+    "level_requirements": [
+      [
+        12,
+        100
+      ]
+    ],
+    "experience_per_progress": [
+      [
+        12,
+        2.66
+      ]
+    ],
+    "verb_phrase": "Fish",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 143,
+    "empire_rank_requirement": [
+      1,
+      {}
+    ],
+    "show_in_progression": true,
     "empire_permission_required": [
       1,
       {}
@@ -26199,6 +26613,75 @@
       {}
     ],
     "show_in_progression": false,
+    "empire_permission_required": [
+      1,
+      {}
+    ],
+    "spawned_placeables": [
+      0,
+      []
+    ]
+  },
+  {
+    "id": 722506673,
+    "resource_id": 722506673,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 1.6,
+    "stamina_requirement": 1.64,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [
+      [
+        [
+          0,
+          [
+            126302392,
+            1,
+            [
+              0,
+              []
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        ],
+        0.006825
+      ]
+    ],
+    "consumed_item_stacks": [],
+    "range": 5,
+    "tool_requirements": [
+      [
+        10,
+        8,
+        1
+      ]
+    ],
+    "allow_use_hands": false,
+    "level_requirements": [
+      [
+        12,
+        83
+      ]
+    ],
+    "experience_per_progress": [
+      [
+        12,
+        2.38
+      ]
+    ],
+    "verb_phrase": "Fish",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 143,
+    "empire_rank_requirement": [
+      1,
+      {}
+    ],
+    "show_in_progression": true,
     "empire_permission_required": [
       1,
       {}
@@ -26470,6 +26953,75 @@
     ]
   },
   {
+    "id": 765529296,
+    "resource_id": 2013555925,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 1.6,
+    "stamina_requirement": 0.89,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [
+      [
+        [
+          0,
+          [
+            2220030,
+            1,
+            [
+              0,
+              []
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        ],
+        0.0252
+      ]
+    ],
+    "consumed_item_stacks": [],
+    "range": 5,
+    "tool_requirements": [
+      [
+        10,
+        2,
+        1
+      ]
+    ],
+    "allow_use_hands": false,
+    "level_requirements": [
+      [
+        12,
+        22
+      ]
+    ],
+    "experience_per_progress": [
+      [
+        12,
+        3.3
+      ]
+    ],
+    "verb_phrase": "Fish",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 143,
+    "empire_rank_requirement": [
+      1,
+      {}
+    ],
+    "show_in_progression": true,
+    "empire_permission_required": [
+      1,
+      {}
+    ],
+    "spawned_placeables": [
+      0,
+      []
+    ]
+  },
+  {
     "id": 771982743,
     "resource_id": 1264935363,
     "cargo_id": 0,
@@ -26536,6 +27088,57 @@
     "spawned_placeables": [
       0,
       []
+    ]
+  },
+  {
+    "id": 773461213,
+    "resource_id": 230905381,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 1.6,
+    "stamina_requirement": 0.0,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [],
+    "consumed_item_stacks": [],
+    "range": 3,
+    "tool_requirements": [],
+    "allow_use_hands": true,
+    "level_requirements": [
+      [
+        12,
+        88
+      ]
+    ],
+    "experience_per_progress": [
+      [
+        12,
+        0.0
+      ]
+    ],
+    "verb_phrase": "Agitate",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 991,
+    "empire_rank_requirement": [
+      1,
+      {}
+    ],
+    "show_in_progression": false,
+    "empire_permission_required": [
+      1,
+      {}
+    ],
+    "spawned_placeables": [
+      0,
+      [
+        [
+          222761493,
+          1.0,
+          0,
+          0
+        ]
+      ]
     ]
   },
   {
@@ -26766,7 +27369,7 @@
         1.0
       ]
     ],
-    "range": 1,
+    "range": 5,
     "tool_requirements": [
       [
         10,
@@ -27086,6 +27689,57 @@
     ]
   },
   {
+    "id": 849490764,
+    "resource_id": 384448308,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 1.6,
+    "stamina_requirement": 0.0,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [],
+    "consumed_item_stacks": [],
+    "range": 3,
+    "tool_requirements": [],
+    "allow_use_hands": true,
+    "level_requirements": [
+      [
+        12,
+        98
+      ]
+    ],
+    "experience_per_progress": [
+      [
+        12,
+        0.0
+      ]
+    ],
+    "verb_phrase": "Agitate",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 991,
+    "empire_rank_requirement": [
+      1,
+      {}
+    ],
+    "show_in_progression": false,
+    "empire_permission_required": [
+      1,
+      {}
+    ],
+    "spawned_placeables": [
+      0,
+      [
+        [
+          1991641408,
+          1.0,
+          0,
+          0
+        ]
+      ]
+    ]
+  },
+  {
     "id": 854631002,
     "resource_id": 1812221896,
     "cargo_id": 0,
@@ -27108,7 +27762,7 @@
         1.0
       ]
     ],
-    "range": 1,
+    "range": 5,
     "tool_requirements": [
       [
         10,
@@ -27374,6 +28028,75 @@
       {}
     ],
     "show_in_progression": false,
+    "empire_permission_required": [
+      1,
+      {}
+    ],
+    "spawned_placeables": [
+      0,
+      []
+    ]
+  },
+  {
+    "id": 868391934,
+    "resource_id": 1245200288,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 1.6,
+    "stamina_requirement": 1.86,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [
+      [
+        [
+          0,
+          [
+            426552137,
+            1,
+            [
+              0,
+              []
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        ],
+        0.012
+      ]
+    ],
+    "consumed_item_stacks": [],
+    "range": 5,
+    "tool_requirements": [
+      [
+        10,
+        10,
+        1
+      ]
+    ],
+    "allow_use_hands": false,
+    "level_requirements": [
+      [
+        12,
+        100
+      ]
+    ],
+    "experience_per_progress": [
+      [
+        12,
+        5.7
+      ]
+    ],
+    "verb_phrase": "Fish",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 143,
+    "empire_rank_requirement": [
+      1,
+      {}
+    ],
+    "show_in_progression": true,
     "empire_permission_required": [
       1,
       {}
@@ -27758,6 +28481,75 @@
     ]
   },
   {
+    "id": 896099401,
+    "resource_id": 1955898021,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 1.6,
+    "stamina_requirement": 1.03,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [
+      [
+        [
+          0,
+          [
+            3220030,
+            1,
+            [
+              0,
+              []
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        ],
+        0.0219
+      ]
+    ],
+    "consumed_item_stacks": [],
+    "range": 5,
+    "tool_requirements": [
+      [
+        10,
+        3,
+        1
+      ]
+    ],
+    "allow_use_hands": false,
+    "level_requirements": [
+      [
+        12,
+        32
+      ]
+    ],
+    "experience_per_progress": [
+      [
+        12,
+        3.6
+      ]
+    ],
+    "verb_phrase": "Fish",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 143,
+    "empire_rank_requirement": [
+      1,
+      {}
+    ],
+    "show_in_progression": true,
+    "empire_permission_required": [
+      1,
+      {}
+    ],
+    "spawned_placeables": [
+      0,
+      []
+    ]
+  },
+  {
     "id": 898184037,
     "resource_id": 1954847232,
     "cargo_id": 0,
@@ -27817,6 +28609,75 @@
       {}
     ],
     "show_in_progression": false,
+    "empire_permission_required": [
+      1,
+      {}
+    ],
+    "spawned_placeables": [
+      0,
+      []
+    ]
+  },
+  {
+    "id": 904022325,
+    "resource_id": 817308838,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 1.6,
+    "stamina_requirement": 1.52,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [
+      [
+        [
+          0,
+          [
+            750073180,
+            1,
+            [
+              0,
+              []
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        ],
+        0.00735
+      ]
+    ],
+    "consumed_item_stacks": [],
+    "range": 5,
+    "tool_requirements": [
+      [
+        10,
+        7,
+        1
+      ]
+    ],
+    "allow_use_hands": false,
+    "level_requirements": [
+      [
+        12,
+        73
+      ]
+    ],
+    "experience_per_progress": [
+      [
+        12,
+        2.24
+      ]
+    ],
+    "verb_phrase": "Fish",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 143,
+    "empire_rank_requirement": [
+      1,
+      {}
+    ],
+    "show_in_progression": true,
     "empire_permission_required": [
       1,
       {}
@@ -28035,6 +28896,75 @@
       {}
     ],
     "show_in_progression": false,
+    "empire_permission_required": [
+      1,
+      {}
+    ],
+    "spawned_placeables": [
+      0,
+      []
+    ]
+  },
+  {
+    "id": 927418633,
+    "resource_id": 2146782542,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 1.6,
+    "stamina_requirement": 1.75,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [
+      [
+        [
+          0,
+          [
+            1831764501,
+            1,
+            [
+              0,
+              []
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        ],
+        0.00645
+      ]
+    ],
+    "consumed_item_stacks": [],
+    "range": 5,
+    "tool_requirements": [
+      [
+        10,
+        9,
+        1
+      ]
+    ],
+    "allow_use_hands": false,
+    "level_requirements": [
+      [
+        12,
+        93
+      ]
+    ],
+    "experience_per_progress": [
+      [
+        12,
+        2.52
+      ]
+    ],
+    "verb_phrase": "Fish",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 143,
+    "empire_rank_requirement": [
+      1,
+      {}
+    ],
+    "show_in_progression": true,
     "empire_permission_required": [
       1,
       {}
@@ -28716,6 +29646,136 @@
     ]
   },
   {
+    "id": 989915497,
+    "resource_id": 6110001,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 1.6,
+    "stamina_requirement": 1.41,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [
+      [
+        [
+          0,
+          [
+            6220030,
+            1,
+            [
+              0,
+              []
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        ],
+        0.008025
+      ]
+    ],
+    "consumed_item_stacks": [],
+    "range": 5,
+    "tool_requirements": [
+      [
+        10,
+        6,
+        1
+      ]
+    ],
+    "allow_use_hands": false,
+    "level_requirements": [
+      [
+        12,
+        63
+      ]
+    ],
+    "experience_per_progress": [
+      [
+        12,
+        2.1
+      ]
+    ],
+    "verb_phrase": "Fish",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 143,
+    "empire_rank_requirement": [
+      1,
+      {}
+    ],
+    "show_in_progression": true,
+    "empire_permission_required": [
+      1,
+      {}
+    ],
+    "spawned_placeables": [
+      0,
+      []
+    ]
+  },
+  {
+    "id": 1009100253,
+    "resource_id": 2065399163,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 1.6,
+    "stamina_requirement": 0.0,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [],
+    "consumed_item_stacks": [
+      [
+        5110003,
+        5,
+        [
+          0,
+          []
+        ],
+        0,
+        1.0
+      ]
+    ],
+    "range": 5,
+    "tool_requirements": [
+      [
+        10,
+        5,
+        1
+      ]
+    ],
+    "allow_use_hands": true,
+    "level_requirements": [
+      [
+        12,
+        52
+      ]
+    ],
+    "experience_per_progress": [
+      [
+        12,
+        70.0
+      ]
+    ],
+    "verb_phrase": "Bait",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 403,
+    "empire_rank_requirement": [
+      1,
+      {}
+    ],
+    "show_in_progression": false,
+    "empire_permission_required": [
+      1,
+      {}
+    ],
+    "spawned_placeables": [
+      0,
+      []
+    ]
+  },
+  {
     "id": 1012559172,
     "resource_id": 218270468,
     "cargo_id": 0,
@@ -28806,6 +29866,67 @@
     "verb_phrase": "Mine",
     "tool_mesh_index": 0,
     "recipe_performance_id": 975,
+    "empire_rank_requirement": [
+      1,
+      {}
+    ],
+    "show_in_progression": false,
+    "empire_permission_required": [
+      1,
+      {}
+    ],
+    "spawned_placeables": [
+      0,
+      []
+    ]
+  },
+  {
+    "id": 1015612984,
+    "resource_id": 1458193337,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 1.6,
+    "stamina_requirement": 0.0,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [],
+    "consumed_item_stacks": [
+      [
+        6110003,
+        5,
+        [
+          0,
+          []
+        ],
+        0,
+        1.0
+      ]
+    ],
+    "range": 5,
+    "tool_requirements": [
+      [
+        10,
+        6,
+        1
+      ]
+    ],
+    "allow_use_hands": true,
+    "level_requirements": [
+      [
+        12,
+        62
+      ]
+    ],
+    "experience_per_progress": [
+      [
+        12,
+        75.0
+      ]
+    ],
+    "verb_phrase": "Bait",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 403,
     "empire_rank_requirement": [
       1,
       {}
@@ -29151,7 +30272,7 @@
         1.0
       ]
     ],
-    "range": 1,
+    "range": 5,
     "tool_requirements": [
       [
         10,
@@ -29267,6 +30388,144 @@
       {}
     ],
     "show_in_progression": false,
+    "empire_permission_required": [
+      1,
+      {}
+    ],
+    "spawned_placeables": [
+      0,
+      []
+    ]
+  },
+  {
+    "id": 1066472689,
+    "resource_id": 1885803555,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 1.6,
+    "stamina_requirement": 1.64,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [
+      [
+        [
+          0,
+          [
+            126302392,
+            1,
+            [
+              0,
+              []
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        ],
+        0.01365
+      ]
+    ],
+    "consumed_item_stacks": [],
+    "range": 5,
+    "tool_requirements": [
+      [
+        10,
+        8,
+        1
+      ]
+    ],
+    "allow_use_hands": false,
+    "level_requirements": [
+      [
+        12,
+        82
+      ]
+    ],
+    "experience_per_progress": [
+      [
+        12,
+        5.1
+      ]
+    ],
+    "verb_phrase": "Fish",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 143,
+    "empire_rank_requirement": [
+      1,
+      {}
+    ],
+    "show_in_progression": true,
+    "empire_permission_required": [
+      1,
+      {}
+    ],
+    "spawned_placeables": [
+      0,
+      []
+    ]
+  },
+  {
+    "id": 1066494682,
+    "resource_id": 1831667492,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 1.6,
+    "stamina_requirement": 1.52,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [
+      [
+        [
+          0,
+          [
+            750073180,
+            1,
+            [
+              0,
+              []
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        ],
+        0.0147
+      ]
+    ],
+    "consumed_item_stacks": [],
+    "range": 5,
+    "tool_requirements": [
+      [
+        10,
+        7,
+        1
+      ]
+    ],
+    "allow_use_hands": false,
+    "level_requirements": [
+      [
+        12,
+        72
+      ]
+    ],
+    "experience_per_progress": [
+      [
+        12,
+        4.8
+      ]
+    ],
+    "verb_phrase": "Fish",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 143,
+    "empire_rank_requirement": [
+      1,
+      {}
+    ],
+    "show_in_progression": true,
     "empire_permission_required": [
       1,
       {}
@@ -29924,6 +31183,136 @@
     ]
   },
   {
+    "id": 1173934735,
+    "resource_id": 367785441,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 1.6,
+    "stamina_requirement": 0.0,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [],
+    "consumed_item_stacks": [
+      [
+        456832545,
+        5,
+        [
+          0,
+          []
+        ],
+        0,
+        1.0
+      ]
+    ],
+    "range": 5,
+    "tool_requirements": [
+      [
+        10,
+        8,
+        1
+      ]
+    ],
+    "allow_use_hands": true,
+    "level_requirements": [
+      [
+        12,
+        82
+      ]
+    ],
+    "experience_per_progress": [
+      [
+        12,
+        85.0
+      ]
+    ],
+    "verb_phrase": "Bait",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 403,
+    "empire_rank_requirement": [
+      1,
+      {}
+    ],
+    "show_in_progression": false,
+    "empire_permission_required": [
+      1,
+      {}
+    ],
+    "spawned_placeables": [
+      0,
+      []
+    ]
+  },
+  {
+    "id": 1191039723,
+    "resource_id": 1023037075,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 1.6,
+    "stamina_requirement": 1.03,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [
+      [
+        [
+          0,
+          [
+            3220030,
+            1,
+            [
+              0,
+              []
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        ],
+        0.01095
+      ]
+    ],
+    "consumed_item_stacks": [],
+    "range": 5,
+    "tool_requirements": [
+      [
+        10,
+        3,
+        1
+      ]
+    ],
+    "allow_use_hands": false,
+    "level_requirements": [
+      [
+        12,
+        33
+      ]
+    ],
+    "experience_per_progress": [
+      [
+        12,
+        1.68
+      ]
+    ],
+    "verb_phrase": "Fish",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 143,
+    "empire_rank_requirement": [
+      1,
+      {}
+    ],
+    "show_in_progression": true,
+    "empire_permission_required": [
+      1,
+      {}
+    ],
+    "spawned_placeables": [
+      0,
+      []
+    ]
+  },
+  {
     "id": 1197518668,
     "resource_id": 384211022,
     "cargo_id": 0,
@@ -30009,7 +31398,7 @@
         1.0
       ]
     ],
-    "range": 1,
+    "range": 5,
     "tool_requirements": [
       [
         10,
@@ -32601,6 +33990,67 @@
     ]
   },
   {
+    "id": 1386752895,
+    "resource_id": 915617852,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 1.6,
+    "stamina_requirement": 0.0,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [],
+    "consumed_item_stacks": [
+      [
+        1997986205,
+        5,
+        [
+          0,
+          []
+        ],
+        0,
+        1.0
+      ]
+    ],
+    "range": 5,
+    "tool_requirements": [
+      [
+        10,
+        7,
+        1
+      ]
+    ],
+    "allow_use_hands": true,
+    "level_requirements": [
+      [
+        12,
+        72
+      ]
+    ],
+    "experience_per_progress": [
+      [
+        12,
+        80.0
+      ]
+    ],
+    "verb_phrase": "Bait",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 403,
+    "empire_rank_requirement": [
+      1,
+      {}
+    ],
+    "show_in_progression": false,
+    "empire_permission_required": [
+      1,
+      {}
+    ],
+    "spawned_placeables": [
+      0,
+      []
+    ]
+  },
+  {
     "id": 1389008737,
     "resource_id": 2110330714,
     "cargo_id": 0,
@@ -32822,6 +34272,93 @@
       {}
     ],
     "show_in_progression": false,
+    "empire_permission_required": [
+      1,
+      {}
+    ],
+    "spawned_placeables": [
+      0,
+      []
+    ]
+  },
+  {
+    "id": 1413437162,
+    "resource_id": 4110001,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 1.6,
+    "stamina_requirement": 1.16,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [
+      [
+        [
+          0,
+          [
+            4220030,
+            1,
+            [
+              0,
+              []
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        ],
+        0.009675
+      ],
+      [
+        [
+          0,
+          [
+            1514659172,
+            1,
+            [
+              0,
+              []
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        ],
+        2.4e-06
+      ]
+    ],
+    "consumed_item_stacks": [],
+    "range": 5,
+    "tool_requirements": [
+      [
+        10,
+        4,
+        1
+      ]
+    ],
+    "allow_use_hands": false,
+    "level_requirements": [
+      [
+        12,
+        43
+      ]
+    ],
+    "experience_per_progress": [
+      [
+        12,
+        1.82
+      ]
+    ],
+    "verb_phrase": "Fish",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 143,
+    "empire_rank_requirement": [
+      1,
+      {}
+    ],
+    "show_in_progression": true,
     "empire_permission_required": [
       1,
       {}
@@ -33337,6 +34874,57 @@
     ]
   },
   {
+    "id": 1480513881,
+    "resource_id": 1999842598,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 1.6,
+    "stamina_requirement": 0.0,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [],
+    "consumed_item_stacks": [],
+    "range": 3,
+    "tool_requirements": [],
+    "allow_use_hands": true,
+    "level_requirements": [
+      [
+        12,
+        48
+      ]
+    ],
+    "experience_per_progress": [
+      [
+        12,
+        0.0
+      ]
+    ],
+    "verb_phrase": "Agitate",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 991,
+    "empire_rank_requirement": [
+      1,
+      {}
+    ],
+    "show_in_progression": false,
+    "empire_permission_required": [
+      1,
+      {}
+    ],
+    "spawned_placeables": [
+      0,
+      [
+        [
+          1085376852,
+          1.0,
+          0,
+          0
+        ]
+      ]
+    ]
+  },
+  {
     "id": 1482311916,
     "resource_id": 93152192,
     "cargo_id": 0,
@@ -33403,6 +34991,112 @@
     "spawned_placeables": [
       0,
       []
+    ]
+  },
+  {
+    "id": 1482761314,
+    "resource_id": 1554989778,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 1.6,
+    "stamina_requirement": 0.0,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [],
+    "consumed_item_stacks": [
+      [
+        1110003,
+        5,
+        [
+          0,
+          []
+        ],
+        0,
+        1.0
+      ]
+    ],
+    "range": 5,
+    "tool_requirements": [],
+    "allow_use_hands": true,
+    "level_requirements": [
+      [
+        12,
+        2
+      ]
+    ],
+    "experience_per_progress": [
+      [
+        12,
+        75.0
+      ]
+    ],
+    "verb_phrase": "Bait",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 403,
+    "empire_rank_requirement": [
+      1,
+      {}
+    ],
+    "show_in_progression": false,
+    "empire_permission_required": [
+      1,
+      {}
+    ],
+    "spawned_placeables": [
+      0,
+      []
+    ]
+  },
+  {
+    "id": 1495602503,
+    "resource_id": 956829437,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 1.6,
+    "stamina_requirement": 0.0,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [],
+    "consumed_item_stacks": [],
+    "range": 3,
+    "tool_requirements": [],
+    "allow_use_hands": true,
+    "level_requirements": [
+      [
+        12,
+        68
+      ]
+    ],
+    "experience_per_progress": [
+      [
+        12,
+        0.0
+      ]
+    ],
+    "verb_phrase": "Agitate",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 991,
+    "empire_rank_requirement": [
+      1,
+      {}
+    ],
+    "show_in_progression": false,
+    "empire_permission_required": [
+      1,
+      {}
+    ],
+    "spawned_placeables": [
+      0,
+      [
+        [
+          901914424,
+          1.0,
+          0,
+          0
+        ]
+      ]
     ]
   },
   {
@@ -33618,6 +35312,67 @@
     ]
   },
   {
+    "id": 1527959845,
+    "resource_id": 1376234165,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 1.6,
+    "stamina_requirement": 0.0,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [],
+    "consumed_item_stacks": [
+      [
+        3110003,
+        5,
+        [
+          0,
+          []
+        ],
+        0,
+        1.0
+      ]
+    ],
+    "range": 5,
+    "tool_requirements": [
+      [
+        10,
+        3,
+        1
+      ]
+    ],
+    "allow_use_hands": true,
+    "level_requirements": [
+      [
+        12,
+        32
+      ]
+    ],
+    "experience_per_progress": [
+      [
+        12,
+        60.0
+      ]
+    ],
+    "verb_phrase": "Bait",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 403,
+    "empire_rank_requirement": [
+      1,
+      {}
+    ],
+    "show_in_progression": false,
+    "empire_permission_required": [
+      1,
+      {}
+    ],
+    "spawned_placeables": [
+      0,
+      []
+    ]
+  },
+  {
     "id": 1534389193,
     "resource_id": 509854054,
     "cargo_id": 0,
@@ -33683,7 +35438,14 @@
     ],
     "spawned_placeables": [
       0,
-      []
+      [
+        [
+          329753010,
+          0.001183,
+          7,
+          9
+        ]
+      ]
     ]
   },
   {
@@ -34100,6 +35862,57 @@
     "spawned_placeables": [
       0,
       []
+    ]
+  },
+  {
+    "id": 1615409310,
+    "resource_id": 1048834532,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 1.6,
+    "stamina_requirement": 0.0,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [],
+    "consumed_item_stacks": [],
+    "range": 3,
+    "tool_requirements": [],
+    "allow_use_hands": true,
+    "level_requirements": [
+      [
+        12,
+        108
+      ]
+    ],
+    "experience_per_progress": [
+      [
+        12,
+        0.0
+      ]
+    ],
+    "verb_phrase": "Agitate",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 991,
+    "empire_rank_requirement": [
+      1,
+      {}
+    ],
+    "show_in_progression": false,
+    "empire_permission_required": [
+      1,
+      {}
+    ],
+    "spawned_placeables": [
+      0,
+      [
+        [
+          1018450660,
+          1.0,
+          0,
+          0
+        ]
+      ]
     ]
   },
   {
@@ -34764,44 +36577,25 @@
   },
   {
     "id": 1664207130,
-    "resource_id": 722506673,
+    "resource_id": 1946631068,
     "cargo_id": 0,
     "discovery_triggers": [],
     "required_knowledges": [],
     "blocking_knowledges": [],
     "time_requirement": 1.6,
-    "stamina_requirement": 1.64,
+    "stamina_requirement": 0.0,
     "tool_durability_lost": 0,
-    "extracted_item_stacks": [
-      [
-        [
-          0,
-          [
-            126302392,
-            1,
-            [
-              0,
-              []
-            ],
-            [
-              0,
-              0
-            ]
-          ]
-        ],
-        0.00914
-      ]
-    ],
+    "extracted_item_stacks": [],
     "consumed_item_stacks": [
       [
         456832545,
-        1,
+        10,
         [
           0,
           []
         ],
         0,
-        0.1
+        1.0
       ]
     ],
     "range": 5,
@@ -34816,18 +36610,18 @@
     "level_requirements": [
       [
         12,
-        80
+        83
       ]
     ],
     "experience_per_progress": [
       [
         12,
-        2.125
+        85.0
       ]
     ],
-    "verb_phrase": "Fish",
+    "verb_phrase": "Bait",
     "tool_mesh_index": 0,
-    "recipe_performance_id": 143,
+    "recipe_performance_id": 403,
     "empire_rank_requirement": [
       1,
       {}
@@ -35166,6 +36960,57 @@
     "spawned_placeables": [
       0,
       []
+    ]
+  },
+  {
+    "id": 1690571865,
+    "resource_id": 320106707,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 1.6,
+    "stamina_requirement": 0.0,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [],
+    "consumed_item_stacks": [],
+    "range": 3,
+    "tool_requirements": [],
+    "allow_use_hands": true,
+    "level_requirements": [
+      [
+        12,
+        28
+      ]
+    ],
+    "experience_per_progress": [
+      [
+        12,
+        0.0
+      ]
+    ],
+    "verb_phrase": "Agitate",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 991,
+    "empire_rank_requirement": [
+      1,
+      {}
+    ],
+    "show_in_progression": false,
+    "empire_permission_required": [
+      1,
+      {}
+    ],
+    "spawned_placeables": [
+      0,
+      [
+        [
+          2015941032,
+          1.0,
+          0,
+          0
+        ]
+      ]
     ]
   },
   {
@@ -36056,6 +37901,93 @@
     ]
   },
   {
+    "id": 1752311393,
+    "resource_id": 1005820274,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 1.6,
+    "stamina_requirement": 1.28,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [
+      [
+        [
+          0,
+          [
+            5220030,
+            1,
+            [
+              0,
+              []
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        ],
+        0.008775
+      ],
+      [
+        [
+          0,
+          [
+            1514659172,
+            1,
+            [
+              0,
+              []
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        ],
+        2.4e-06
+      ]
+    ],
+    "consumed_item_stacks": [],
+    "range": 5,
+    "tool_requirements": [
+      [
+        10,
+        5,
+        1
+      ]
+    ],
+    "allow_use_hands": false,
+    "level_requirements": [
+      [
+        12,
+        53
+      ]
+    ],
+    "experience_per_progress": [
+      [
+        12,
+        1.96
+      ]
+    ],
+    "verb_phrase": "Fish",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 143,
+    "empire_rank_requirement": [
+      1,
+      {}
+    ],
+    "show_in_progression": true,
+    "empire_permission_required": [
+      1,
+      {}
+    ],
+    "spawned_placeables": [
+      0,
+      []
+    ]
+  },
+  {
     "id": 1769717194,
     "resource_id": 1996878923,
     "cargo_id": 0,
@@ -36194,6 +38126,57 @@
     "spawned_placeables": [
       0,
       []
+    ]
+  },
+  {
+    "id": 1773739373,
+    "resource_id": 1559345906,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 1.6,
+    "stamina_requirement": 0.0,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [],
+    "consumed_item_stacks": [],
+    "range": 3,
+    "tool_requirements": [],
+    "allow_use_hands": true,
+    "level_requirements": [
+      [
+        12,
+        18
+      ]
+    ],
+    "experience_per_progress": [
+      [
+        12,
+        0.0
+      ]
+    ],
+    "verb_phrase": "Agitate",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 991,
+    "empire_rank_requirement": [
+      1,
+      {}
+    ],
+    "show_in_progression": false,
+    "empire_permission_required": [
+      1,
+      {}
+    ],
+    "spawned_placeables": [
+      0,
+      [
+        [
+          900127194,
+          1.0,
+          0,
+          0
+        ]
+      ]
     ]
   },
   {
@@ -36806,6 +38789,67 @@
     ]
   },
   {
+    "id": 1813642974,
+    "resource_id": 1902575241,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 1.6,
+    "stamina_requirement": 0.0,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [],
+    "consumed_item_stacks": [
+      [
+        2110003,
+        5,
+        [
+          0,
+          []
+        ],
+        0,
+        1.0
+      ]
+    ],
+    "range": 5,
+    "tool_requirements": [
+      [
+        10,
+        2,
+        1
+      ]
+    ],
+    "allow_use_hands": true,
+    "level_requirements": [
+      [
+        12,
+        22
+      ]
+    ],
+    "experience_per_progress": [
+      [
+        12,
+        55.0
+      ]
+    ],
+    "verb_phrase": "Bait",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 403,
+    "empire_rank_requirement": [
+      1,
+      {}
+    ],
+    "show_in_progression": false,
+    "empire_permission_required": [
+      1,
+      {}
+    ],
+    "spawned_placeables": [
+      0,
+      []
+    ]
+  },
+  {
     "id": 1814132892,
     "resource_id": 1141184831,
     "cargo_id": 0,
@@ -36871,7 +38915,14 @@
     ],
     "spawned_placeables": [
       0,
-      []
+      [
+        [
+          592421078,
+          0.001118,
+          7,
+          9
+        ]
+      ]
     ]
   },
   {
@@ -37163,6 +39214,61 @@
     ]
   },
   {
+    "id": 1851709031,
+    "resource_id": 1110001,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 1.6,
+    "stamina_requirement": 0.0,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [],
+    "consumed_item_stacks": [
+      [
+        1110003,
+        10,
+        [
+          0,
+          []
+        ],
+        0,
+        1.0
+      ]
+    ],
+    "range": 5,
+    "tool_requirements": [],
+    "allow_use_hands": true,
+    "level_requirements": [
+      [
+        12,
+        3
+      ]
+    ],
+    "experience_per_progress": [
+      [
+        12,
+        50.0
+      ]
+    ],
+    "verb_phrase": "Bait",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 403,
+    "empire_rank_requirement": [
+      1,
+      {}
+    ],
+    "show_in_progression": false,
+    "empire_permission_required": [
+      1,
+      {}
+    ],
+    "spawned_placeables": [
+      0,
+      []
+    ]
+  },
+  {
     "id": 1869601232,
     "resource_id": 463864520,
     "cargo_id": 0,
@@ -37302,6 +39408,67 @@
         8,
         {}
       ]
+    ],
+    "spawned_placeables": [
+      0,
+      []
+    ]
+  },
+  {
+    "id": 1870621564,
+    "resource_id": 1592653082,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 1.6,
+    "stamina_requirement": 0.0,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [],
+    "consumed_item_stacks": [
+      [
+        4110003,
+        5,
+        [
+          0,
+          []
+        ],
+        0,
+        1.0
+      ]
+    ],
+    "range": 5,
+    "tool_requirements": [
+      [
+        10,
+        4,
+        1
+      ]
+    ],
+    "allow_use_hands": true,
+    "level_requirements": [
+      [
+        12,
+        42
+      ]
+    ],
+    "experience_per_progress": [
+      [
+        12,
+        65.0
+      ]
+    ],
+    "verb_phrase": "Bait",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 403,
+    "empire_rank_requirement": [
+      1,
+      {}
+    ],
+    "show_in_progression": false,
+    "empire_permission_required": [
+      1,
+      {}
     ],
     "spawned_placeables": [
       0,
@@ -37460,6 +39627,75 @@
       {}
     ],
     "show_in_progression": false,
+    "empire_permission_required": [
+      1,
+      {}
+    ],
+    "spawned_placeables": [
+      0,
+      []
+    ]
+  },
+  {
+    "id": 1890447447,
+    "resource_id": 859772632,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 1.6,
+    "stamina_requirement": 1.16,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [
+      [
+        [
+          0,
+          [
+            4220030,
+            1,
+            [
+              0,
+              []
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        ],
+        0.01935
+      ]
+    ],
+    "consumed_item_stacks": [],
+    "range": 5,
+    "tool_requirements": [
+      [
+        10,
+        4,
+        1
+      ]
+    ],
+    "allow_use_hands": false,
+    "level_requirements": [
+      [
+        12,
+        42
+      ]
+    ],
+    "experience_per_progress": [
+      [
+        12,
+        3.9
+      ]
+    ],
+    "verb_phrase": "Fish",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 143,
+    "empire_rank_requirement": [
+      1,
+      {}
+    ],
+    "show_in_progression": true,
     "empire_permission_required": [
       1,
       {}
@@ -37887,38 +40123,19 @@
     "required_knowledges": [],
     "blocking_knowledges": [],
     "time_requirement": 1.6,
-    "stamina_requirement": 1.75,
+    "stamina_requirement": 0.0,
     "tool_durability_lost": 0,
-    "extracted_item_stacks": [
-      [
-        [
-          0,
-          [
-            1831764501,
-            1,
-            [
-              0,
-              []
-            ],
-            [
-              0,
-              0
-            ]
-          ]
-        ],
-        0.00856
-      ]
-    ],
+    "extracted_item_stacks": [],
     "consumed_item_stacks": [
       [
         1047327336,
-        1,
+        10,
         [
           0,
           []
         ],
         0,
-        0.1
+        1.0
       ]
     ],
     "range": 5,
@@ -37933,18 +40150,18 @@
     "level_requirements": [
       [
         12,
-        90
+        93
       ]
     ],
     "experience_per_progress": [
       [
         12,
-        2.25
+        90.0
       ]
     ],
-    "verb_phrase": "Fish",
+    "verb_phrase": "Bait",
     "tool_mesh_index": 0,
-    "recipe_performance_id": 143,
+    "recipe_performance_id": 403,
     "empire_rank_requirement": [
       1,
       {}
@@ -38065,6 +40282,57 @@
     ]
   },
   {
+    "id": 1950427695,
+    "resource_id": 828646787,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 1.6,
+    "stamina_requirement": 0.0,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [],
+    "consumed_item_stacks": [],
+    "range": 3,
+    "tool_requirements": [],
+    "allow_use_hands": true,
+    "level_requirements": [
+      [
+        12,
+        78
+      ]
+    ],
+    "experience_per_progress": [
+      [
+        12,
+        0.0
+      ]
+    ],
+    "verb_phrase": "Agitate",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 991,
+    "empire_rank_requirement": [
+      1,
+      {}
+    ],
+    "show_in_progression": false,
+    "empire_permission_required": [
+      1,
+      {}
+    ],
+    "spawned_placeables": [
+      0,
+      [
+        [
+          334653459,
+          1.0,
+          0,
+          0
+        ]
+      ]
+    ]
+  },
+  {
     "id": 1959014177,
     "resource_id": 904022325,
     "cargo_id": 0,
@@ -38072,38 +40340,19 @@
     "required_knowledges": [],
     "blocking_knowledges": [],
     "time_requirement": 1.6,
-    "stamina_requirement": 1.52,
+    "stamina_requirement": 0.0,
     "tool_durability_lost": 0,
-    "extracted_item_stacks": [
-      [
-        [
-          0,
-          [
-            750073180,
-            1,
-            [
-              0,
-              []
-            ],
-            [
-              0,
-              0
-            ]
-          ]
-        ],
-        0.00984
-      ]
-    ],
+    "extracted_item_stacks": [],
     "consumed_item_stacks": [
       [
         1997986205,
-        1,
+        10,
         [
           0,
           []
         ],
         0,
-        0.1
+        1.0
       ]
     ],
     "range": 5,
@@ -38118,18 +40367,18 @@
     "level_requirements": [
       [
         12,
-        70
+        73
       ]
     ],
     "experience_per_progress": [
       [
         12,
-        2.0
+        80.0
       ]
     ],
-    "verb_phrase": "Fish",
+    "verb_phrase": "Bait",
     "tool_mesh_index": 0,
-    "recipe_performance_id": 143,
+    "recipe_performance_id": 403,
     "empire_rank_requirement": [
       1,
       {}
@@ -39662,44 +41911,25 @@
   },
   {
     "id": 2046456984,
-    "resource_id": 374159821,
+    "resource_id": 1027707457,
     "cargo_id": 0,
     "discovery_triggers": [],
     "required_knowledges": [],
     "blocking_knowledges": [],
     "time_requirement": 1.6,
-    "stamina_requirement": 1.86,
+    "stamina_requirement": 0.0,
     "tool_durability_lost": 0,
-    "extracted_item_stacks": [
-      [
-        [
-          0,
-          [
-            426552137,
-            1,
-            [
-              0,
-              []
-            ],
-            [
-              0,
-              0
-            ]
-          ]
-        ],
-        0.00805
-      ]
-    ],
+    "extracted_item_stacks": [],
     "consumed_item_stacks": [
       [
         94044442,
-        1,
+        10,
         [
           0,
           []
         ],
         0,
-        0.1
+        1.0
       ]
     ],
     "range": 5,
@@ -39720,12 +41950,12 @@
     "experience_per_progress": [
       [
         12,
-        2.375
+        95.0
       ]
     ],
-    "verb_phrase": "Fish",
+    "verb_phrase": "Bait",
     "tool_mesh_index": 0,
-    "recipe_performance_id": 143,
+    "recipe_performance_id": 403,
     "empire_rank_requirement": [
       1,
       {}
@@ -39807,6 +42037,57 @@
     "spawned_placeables": [
       0,
       []
+    ]
+  },
+  {
+    "id": 2059853367,
+    "resource_id": 483651994,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 1.6,
+    "stamina_requirement": 0.0,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [],
+    "consumed_item_stacks": [],
+    "range": 3,
+    "tool_requirements": [],
+    "allow_use_hands": true,
+    "level_requirements": [
+      [
+        12,
+        58
+      ]
+    ],
+    "experience_per_progress": [
+      [
+        12,
+        0.0
+      ]
+    ],
+    "verb_phrase": "Agitate",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 991,
+    "empire_rank_requirement": [
+      1,
+      {}
+    ],
+    "show_in_progression": false,
+    "empire_permission_required": [
+      1,
+      {}
+    ],
+    "spawned_placeables": [
+      0,
+      [
+        [
+          328515502,
+          1.0,
+          0,
+          0
+        ]
+      ]
     ]
   },
   {
@@ -40850,6 +43131,75 @@
       {}
     ],
     "show_in_progression": false,
+    "empire_permission_required": [
+      1,
+      {}
+    ],
+    "spawned_placeables": [
+      0,
+      []
+    ]
+  },
+  {
+    "id": 2131877706,
+    "resource_id": 159322791,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 1.6,
+    "stamina_requirement": 1.75,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [
+      [
+        [
+          0,
+          [
+            1831764501,
+            1,
+            [
+              0,
+              []
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        ],
+        0.0129
+      ]
+    ],
+    "consumed_item_stacks": [],
+    "range": 5,
+    "tool_requirements": [
+      [
+        10,
+        9,
+        1
+      ]
+    ],
+    "allow_use_hands": false,
+    "level_requirements": [
+      [
+        12,
+        92
+      ]
+    ],
+    "experience_per_progress": [
+      [
+        12,
+        5.4
+      ]
+    ],
+    "verb_phrase": "Fish",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 143,
+    "empire_rank_requirement": [
+      1,
+      {}
+    ],
+    "show_in_progression": true,
     "empire_permission_required": [
       1,
       {}

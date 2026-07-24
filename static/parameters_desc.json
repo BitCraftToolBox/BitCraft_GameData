@@ -113,7 +113,7 @@
     "terraform_experience_per_progress": 1.0,
     "dropped_inventory_ownership_seconds": 300,
     "dropped_inventory_despawn_seconds": 3600,
-    "traveler_tasks_per_npc": 3,
+    "traveler_tasks_per_npc": 4,
     "traveler_tasks_times_of_day": [
       0,
       4,
@@ -145,9 +145,52 @@
     "prospecting_herd_immunity_secs": 20,
     "rp_walk_speed": 9.0,
     "traveler_task_weekly_credits": [
-      1,
-      {}
+      0,
+      [
+        [
+          [
+            1,
+            []
+          ],
+          50
+        ],
+        [
+          [
+            2,
+            []
+          ],
+          50
+        ],
+        [
+          [
+            3,
+            []
+          ],
+          50
+        ],
+        [
+          [
+            5,
+            []
+          ],
+          50
+        ],
+        [
+          [
+            6,
+            []
+          ],
+          50
+        ],
+        [
+          [
+            7,
+            []
+          ],
+          50
+        ]
+      ]
     ],
-    "traveler_task_reroll_credit_cost": 0
+    "traveler_task_reroll_credit_cost": 2
   }
 ]
