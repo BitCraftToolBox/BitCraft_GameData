@@ -71764,6 +71764,15 @@
       }
     },
     {
+      "name": "admin_migrate_traveler_tasks",
+      "params": {
+        "elements": []
+      },
+      "lifecycle": {
+        "none": []
+      }
+    },
+    {
       "name": "admin_modify_chat_message",
       "params": {
         "elements": [
@@ -72164,6 +72173,58 @@
             },
             "algebraic_type": {
               "F32": []
+            }
+          }
+        ]
+      },
+      "lifecycle": {
+        "none": []
+      }
+    },
+    {
+      "name": "admin_respawn_building_spawn_desc",
+      "params": {
+        "elements": [
+          {
+            "name": {
+              "some": "building_spawn_desc_id"
+            },
+            "algebraic_type": {
+              "I32": []
+            }
+          },
+          {
+            "name": {
+              "some": "commit"
+            },
+            "algebraic_type": {
+              "Bool": []
+            }
+          }
+        ]
+      },
+      "lifecycle": {
+        "none": []
+      }
+    },
+    {
+      "name": "admin_respawn_interior_spawn_desc",
+      "params": {
+        "elements": [
+          {
+            "name": {
+              "some": "interior_spawn_desc_id"
+            },
+            "algebraic_type": {
+              "I32": []
+            }
+          },
+          {
+            "name": {
+              "some": "commit"
+            },
+            "algebraic_type": {
+              "Bool": []
             }
           }
         ]
