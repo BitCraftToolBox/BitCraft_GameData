@@ -72182,6 +72182,58 @@
       }
     },
     {
+      "name": "admin_respawn_building_spawn_desc",
+      "params": {
+        "elements": [
+          {
+            "name": {
+              "some": "building_spawn_desc_id"
+            },
+            "algebraic_type": {
+              "I32": []
+            }
+          },
+          {
+            "name": {
+              "some": "commit"
+            },
+            "algebraic_type": {
+              "Bool": []
+            }
+          }
+        ]
+      },
+      "lifecycle": {
+        "none": []
+      }
+    },
+    {
+      "name": "admin_respawn_interior_spawn_desc",
+      "params": {
+        "elements": [
+          {
+            "name": {
+              "some": "interior_spawn_desc_id"
+            },
+            "algebraic_type": {
+              "I32": []
+            }
+          },
+          {
+            "name": {
+              "some": "commit"
+            },
+            "algebraic_type": {
+              "Bool": []
+            }
+          }
+        ]
+      },
+      "lifecycle": {
+        "none": []
+      }
+    },
+    {
       "name": "admin_restore_all_buildings_health",
       "params": {
         "elements": []
