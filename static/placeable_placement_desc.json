@@ -80,8 +80,51 @@
     "required_interior_tier": 0,
     "required_claim_tier": 0,
     "min_distance_to_player_claims": 0,
-    "min_distance_to_group": 150,
+    "min_distance_to_group": 75,
     "min_distance_to_other_placeables": 1,
+    "min_distance_to_existing_footprints": 1,
+    "max_distance_to_buildings": 0,
+    "buildings": [],
+    "recipe_performance_id": 261,
+    "self_buffs": []
+  },
+  {
+    "id": 184048385,
+    "placed_placeable_id": 549161991,
+    "input_item": {
+      "item_id": 1760089475,
+      "quantity": 1,
+      "item_type": "Item",
+      "durability": 0
+    },
+    "required_time": 2.0,
+    "level_requirements": [
+      {
+        "skill_id": 5,
+        "level": 100
+      }
+    ],
+    "tool_requirements": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "required_biomes": [
+      "Swamp",
+      "Tundra",
+      "SnowyPeaks",
+      "Desert"
+    ],
+    "place_on_land": false,
+    "land_elevation_min": 0,
+    "land_elevation_max": 0,
+    "place_on_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 0,
+    "required_paving_tier": -1,
+    "required_interior_tier": 0,
+    "required_claim_tier": 0,
+    "min_distance_to_player_claims": 0,
+    "min_distance_to_group": 25,
+    "min_distance_to_other_placeables": 0,
     "min_distance_to_existing_footprints": 1,
     "max_distance_to_buildings": 0,
     "buildings": [],
@@ -120,7 +163,7 @@
     "required_interior_tier": 0,
     "required_claim_tier": 0,
     "min_distance_to_player_claims": 0,
-    "min_distance_to_group": 250,
+    "min_distance_to_group": 125,
     "min_distance_to_other_placeables": 1,
     "min_distance_to_existing_footprints": 1,
     "max_distance_to_buildings": 0,
@@ -163,7 +206,7 @@
     "required_interior_tier": 0,
     "required_claim_tier": 0,
     "min_distance_to_player_claims": 0,
-    "min_distance_to_group": 150,
+    "min_distance_to_group": 75,
     "min_distance_to_other_placeables": 1,
     "min_distance_to_existing_footprints": 1,
     "max_distance_to_buildings": 0,
@@ -291,7 +334,7 @@
     "required_interior_tier": 0,
     "required_claim_tier": 0,
     "min_distance_to_player_claims": 0,
-    "min_distance_to_group": 250,
+    "min_distance_to_group": 125,
     "min_distance_to_other_placeables": 1,
     "min_distance_to_existing_footprints": 1,
     "max_distance_to_buildings": 0,
@@ -345,6 +388,48 @@
     "max_distance_to_buildings": 0,
     "buildings": [],
     "recipe_performance_id": 403,
+    "self_buffs": []
+  },
+  {
+    "id": 381100028,
+    "placed_placeable_id": 908683026,
+    "input_item": {
+      "item_id": 303474458,
+      "quantity": 1,
+      "item_type": "Item",
+      "durability": 0
+    },
+    "required_time": 2.0,
+    "level_requirements": [
+      {
+        "skill_id": 5,
+        "level": 78
+      }
+    ],
+    "tool_requirements": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "required_biomes": [
+      "Tundra",
+      "Canyon",
+      "Desert"
+    ],
+    "place_on_land": false,
+    "land_elevation_min": 0,
+    "land_elevation_max": 0,
+    "place_on_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 0,
+    "required_paving_tier": -1,
+    "required_interior_tier": 0,
+    "required_claim_tier": 0,
+    "min_distance_to_player_claims": 0,
+    "min_distance_to_group": 25,
+    "min_distance_to_other_placeables": 0,
+    "min_distance_to_existing_footprints": 1,
+    "max_distance_to_buildings": 0,
+    "buildings": [],
+    "recipe_performance_id": 261,
     "self_buffs": []
   },
   {
@@ -467,8 +552,51 @@
     "required_interior_tier": 0,
     "required_claim_tier": 0,
     "min_distance_to_player_claims": 0,
-    "min_distance_to_group": 250,
+    "min_distance_to_group": 125,
     "min_distance_to_other_placeables": 1,
+    "min_distance_to_existing_footprints": 1,
+    "max_distance_to_buildings": 0,
+    "buildings": [],
+    "recipe_performance_id": 261,
+    "self_buffs": []
+  },
+  {
+    "id": 628580476,
+    "placed_placeable_id": 1282004899,
+    "input_item": {
+      "item_id": 296604229,
+      "quantity": 1,
+      "item_type": "Item",
+      "durability": 0
+    },
+    "required_time": 2.0,
+    "level_requirements": [
+      {
+        "skill_id": 5,
+        "level": 38
+      }
+    ],
+    "tool_requirements": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "required_biomes": [
+      "AutumnForest",
+      "PineWoods",
+      "Tundra",
+      "SnowyPeaks"
+    ],
+    "place_on_land": false,
+    "land_elevation_min": 0,
+    "land_elevation_max": 0,
+    "place_on_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 0,
+    "required_paving_tier": -1,
+    "required_interior_tier": 0,
+    "required_claim_tier": 0,
+    "min_distance_to_player_claims": 0,
+    "min_distance_to_group": 25,
+    "min_distance_to_other_placeables": 0,
     "min_distance_to_existing_footprints": 1,
     "max_distance_to_buildings": 0,
     "buildings": [],
@@ -521,6 +649,50 @@
     "max_distance_to_buildings": 0,
     "buildings": [],
     "recipe_performance_id": 403,
+    "self_buffs": []
+  },
+  {
+    "id": 641869117,
+    "placed_placeable_id": 1938838237,
+    "input_item": {
+      "item_id": 125393350,
+      "quantity": 1,
+      "item_type": "Item",
+      "durability": 0
+    },
+    "required_time": 2.0,
+    "level_requirements": [
+      {
+        "skill_id": 5,
+        "level": 28
+      }
+    ],
+    "tool_requirements": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "required_biomes": [
+      "AutumnForest",
+      "CalmForest",
+      "PineWoods",
+      "Canyon",
+      "Desert"
+    ],
+    "place_on_land": false,
+    "land_elevation_min": 0,
+    "land_elevation_max": 0,
+    "place_on_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 0,
+    "required_paving_tier": -1,
+    "required_interior_tier": 0,
+    "required_claim_tier": 0,
+    "min_distance_to_player_claims": 0,
+    "min_distance_to_group": 25,
+    "min_distance_to_other_placeables": 0,
+    "min_distance_to_existing_footprints": 1,
+    "max_distance_to_buildings": 0,
+    "buildings": [],
+    "recipe_performance_id": 261,
     "self_buffs": []
   },
   {
@@ -603,7 +775,7 @@
     "required_interior_tier": 0,
     "required_claim_tier": 0,
     "min_distance_to_player_claims": 0,
-    "min_distance_to_group": 150,
+    "min_distance_to_group": 75,
     "min_distance_to_other_placeables": 1,
     "min_distance_to_existing_footprints": 1,
     "max_distance_to_buildings": 0,
@@ -643,7 +815,7 @@
     "required_interior_tier": 0,
     "required_claim_tier": 0,
     "min_distance_to_player_claims": 0,
-    "min_distance_to_group": 250,
+    "min_distance_to_group": 125,
     "min_distance_to_other_placeables": 1,
     "min_distance_to_existing_footprints": 1,
     "max_distance_to_buildings": 0,
@@ -721,8 +893,50 @@
     "required_interior_tier": 0,
     "required_claim_tier": 0,
     "min_distance_to_player_claims": 0,
-    "min_distance_to_group": 150,
+    "min_distance_to_group": 75,
     "min_distance_to_other_placeables": 1,
+    "min_distance_to_existing_footprints": 1,
+    "max_distance_to_buildings": 0,
+    "buildings": [],
+    "recipe_performance_id": 261,
+    "self_buffs": []
+  },
+  {
+    "id": 802810768,
+    "placed_placeable_id": 465090897,
+    "input_item": {
+      "item_id": 772702954,
+      "quantity": 1,
+      "item_type": "Item",
+      "durability": 0
+    },
+    "required_time": 2.0,
+    "level_requirements": [
+      {
+        "skill_id": 5,
+        "level": 48
+      }
+    ],
+    "tool_requirements": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "required_biomes": [
+      "Canyon",
+      "Tundra",
+      "SnowyPeaks"
+    ],
+    "place_on_land": false,
+    "land_elevation_min": 0,
+    "land_elevation_max": 0,
+    "place_on_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 0,
+    "required_paving_tier": -1,
+    "required_interior_tier": 0,
+    "required_claim_tier": 0,
+    "min_distance_to_player_claims": 0,
+    "min_distance_to_group": 25,
+    "min_distance_to_other_placeables": 0,
     "min_distance_to_existing_footprints": 1,
     "max_distance_to_buildings": 0,
     "buildings": [],
@@ -764,7 +978,7 @@
     "required_interior_tier": 0,
     "required_claim_tier": 0,
     "min_distance_to_player_claims": 0,
-    "min_distance_to_group": 150,
+    "min_distance_to_group": 75,
     "min_distance_to_other_placeables": 1,
     "min_distance_to_existing_footprints": 1,
     "max_distance_to_buildings": 0,
@@ -978,7 +1192,7 @@
     "required_interior_tier": 0,
     "required_claim_tier": 0,
     "min_distance_to_player_claims": 0,
-    "min_distance_to_group": 250,
+    "min_distance_to_group": 125,
     "min_distance_to_other_placeables": 1,
     "min_distance_to_existing_footprints": 1,
     "max_distance_to_buildings": 0,
@@ -1035,6 +1249,47 @@
     "self_buffs": []
   },
   {
+    "id": 1428983390,
+    "placed_placeable_id": 1940086980,
+    "input_item": {
+      "item_id": 1474261078,
+      "quantity": 1,
+      "item_type": "Item",
+      "durability": 0
+    },
+    "required_time": 2.0,
+    "level_requirements": [
+      {
+        "skill_id": 5,
+        "level": 68
+      }
+    ],
+    "tool_requirements": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "required_biomes": [
+      "PineWoods",
+      "Jungle"
+    ],
+    "place_on_land": false,
+    "land_elevation_min": 0,
+    "land_elevation_max": 0,
+    "place_on_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 0,
+    "required_paving_tier": -1,
+    "required_interior_tier": 0,
+    "required_claim_tier": 0,
+    "min_distance_to_player_claims": 0,
+    "min_distance_to_group": 25,
+    "min_distance_to_other_placeables": 0,
+    "min_distance_to_existing_footprints": 1,
+    "max_distance_to_buildings": 0,
+    "buildings": [],
+    "recipe_performance_id": 261,
+    "self_buffs": []
+  },
+  {
     "id": 1442684992,
     "placed_placeable_id": 880165855,
     "input_item": {
@@ -1066,7 +1321,7 @@
     "required_interior_tier": 0,
     "required_claim_tier": 0,
     "min_distance_to_player_claims": 0,
-    "min_distance_to_group": 150,
+    "min_distance_to_group": 75,
     "min_distance_to_other_placeables": 1,
     "min_distance_to_existing_footprints": 1,
     "max_distance_to_buildings": 0,
@@ -1108,7 +1363,7 @@
     "required_interior_tier": 0,
     "required_claim_tier": 0,
     "min_distance_to_player_claims": 0,
-    "min_distance_to_group": 150,
+    "min_distance_to_group": 75,
     "min_distance_to_other_placeables": 1,
     "min_distance_to_existing_footprints": 1,
     "max_distance_to_buildings": 0,
@@ -1151,7 +1406,7 @@
     "required_interior_tier": 0,
     "required_claim_tier": 0,
     "min_distance_to_player_claims": 0,
-    "min_distance_to_group": 150,
+    "min_distance_to_group": 75,
     "min_distance_to_other_placeables": 1,
     "min_distance_to_existing_footprints": 1,
     "max_distance_to_buildings": 0,
@@ -1191,7 +1446,7 @@
     "required_interior_tier": 0,
     "required_claim_tier": 0,
     "min_distance_to_player_claims": 0,
-    "min_distance_to_group": 250,
+    "min_distance_to_group": 125,
     "min_distance_to_other_placeables": 1,
     "min_distance_to_existing_footprints": 1,
     "max_distance_to_buildings": 0,
@@ -1328,6 +1583,47 @@
     "self_buffs": []
   },
   {
+    "id": 1689435314,
+    "placed_placeable_id": 886662012,
+    "input_item": {
+      "item_id": 366737445,
+      "quantity": 1,
+      "item_type": "Item",
+      "durability": 0
+    },
+    "required_time": 2.0,
+    "level_requirements": [
+      {
+        "skill_id": 5,
+        "level": 88
+      }
+    ],
+    "tool_requirements": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "required_biomes": [
+      "SnowyPeaks",
+      "Sapwoods"
+    ],
+    "place_on_land": false,
+    "land_elevation_min": 0,
+    "land_elevation_max": 0,
+    "place_on_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 0,
+    "required_paving_tier": -1,
+    "required_interior_tier": 0,
+    "required_claim_tier": 0,
+    "min_distance_to_player_claims": 0,
+    "min_distance_to_group": 25,
+    "min_distance_to_other_placeables": 0,
+    "min_distance_to_existing_footprints": 1,
+    "max_distance_to_buildings": 0,
+    "buildings": [],
+    "recipe_performance_id": 261,
+    "self_buffs": []
+  },
+  {
     "id": 1766718559,
     "placed_placeable_id": 994939277,
     "input_item": {
@@ -1368,6 +1664,89 @@
     "self_buffs": []
   },
   {
+    "id": 1767353438,
+    "placed_placeable_id": 1279154519,
+    "input_item": {
+      "item_id": 498594607,
+      "quantity": 1,
+      "item_type": "Item",
+      "durability": 0
+    },
+    "required_time": 2.0,
+    "level_requirements": [
+      {
+        "skill_id": 5,
+        "level": 8
+      }
+    ],
+    "tool_requirements": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "required_biomes": [
+      "AutumnForest",
+      "CalmForest",
+      "SafeMeadows",
+      "SnowyPeaks"
+    ],
+    "place_on_land": false,
+    "land_elevation_min": 0,
+    "land_elevation_max": 0,
+    "place_on_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 0,
+    "required_paving_tier": -1,
+    "required_interior_tier": 0,
+    "required_claim_tier": 0,
+    "min_distance_to_player_claims": 0,
+    "min_distance_to_group": 25,
+    "min_distance_to_other_placeables": 0,
+    "min_distance_to_existing_footprints": 1,
+    "max_distance_to_buildings": 0,
+    "buildings": [],
+    "recipe_performance_id": 261,
+    "self_buffs": []
+  },
+  {
+    "id": 1817624989,
+    "placed_placeable_id": 1944152230,
+    "input_item": {
+      "item_id": 1884902154,
+      "quantity": 1,
+      "item_type": "Item",
+      "durability": 0
+    },
+    "required_time": 2.0,
+    "level_requirements": [
+      {
+        "skill_id": 5,
+        "level": 98
+      }
+    ],
+    "tool_requirements": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "required_biomes": [
+      "SnowyPeaks"
+    ],
+    "place_on_land": false,
+    "land_elevation_min": 0,
+    "land_elevation_max": 0,
+    "place_on_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 0,
+    "required_paving_tier": -1,
+    "required_interior_tier": 0,
+    "required_claim_tier": 0,
+    "min_distance_to_player_claims": 0,
+    "min_distance_to_group": 25,
+    "min_distance_to_other_placeables": 0,
+    "min_distance_to_existing_footprints": 1,
+    "max_distance_to_buildings": 0,
+    "buildings": [],
+    "recipe_performance_id": 261,
+    "self_buffs": []
+  },
+  {
     "id": 1831106550,
     "placed_placeable_id": 714916331,
     "input_item": {
@@ -1400,8 +1779,50 @@
     "required_interior_tier": 0,
     "required_claim_tier": 0,
     "min_distance_to_player_claims": 0,
-    "min_distance_to_group": 150,
+    "min_distance_to_group": 75,
     "min_distance_to_other_placeables": 1,
+    "min_distance_to_existing_footprints": 1,
+    "max_distance_to_buildings": 0,
+    "buildings": [],
+    "recipe_performance_id": 261,
+    "self_buffs": []
+  },
+  {
+    "id": 1860087904,
+    "placed_placeable_id": 342772840,
+    "input_item": {
+      "item_id": 303213096,
+      "quantity": 1,
+      "item_type": "Item",
+      "durability": 0
+    },
+    "required_time": 2.0,
+    "level_requirements": [
+      {
+        "skill_id": 5,
+        "level": 58
+      }
+    ],
+    "tool_requirements": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "required_biomes": [
+      "Canyon",
+      "Swamp",
+      "Sapwoods"
+    ],
+    "place_on_land": false,
+    "land_elevation_min": 0,
+    "land_elevation_max": 0,
+    "place_on_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 0,
+    "required_paving_tier": -1,
+    "required_interior_tier": 0,
+    "required_claim_tier": 0,
+    "min_distance_to_player_claims": 0,
+    "min_distance_to_group": 25,
+    "min_distance_to_other_placeables": 0,
     "min_distance_to_existing_footprints": 1,
     "max_distance_to_buildings": 0,
     "buildings": [],
@@ -1440,7 +1861,7 @@
     "required_interior_tier": 0,
     "required_claim_tier": 0,
     "min_distance_to_player_claims": 0,
-    "min_distance_to_group": 250,
+    "min_distance_to_group": 125,
     "min_distance_to_other_placeables": 1,
     "min_distance_to_existing_footprints": 1,
     "max_distance_to_buildings": 0,
@@ -1482,7 +1903,7 @@
     "required_interior_tier": 0,
     "required_claim_tier": 0,
     "min_distance_to_player_claims": 0,
-    "min_distance_to_group": 150,
+    "min_distance_to_group": 75,
     "min_distance_to_other_placeables": 1,
     "min_distance_to_existing_footprints": 1,
     "max_distance_to_buildings": 0,
@@ -1522,7 +1943,7 @@
     "required_interior_tier": 0,
     "required_claim_tier": 0,
     "min_distance_to_player_claims": 0,
-    "min_distance_to_group": 250,
+    "min_distance_to_group": 125,
     "min_distance_to_other_placeables": 1,
     "min_distance_to_existing_footprints": 1,
     "max_distance_to_buildings": 0,
@@ -1562,7 +1983,7 @@
     "required_interior_tier": 0,
     "required_claim_tier": 0,
     "min_distance_to_player_claims": 0,
-    "min_distance_to_group": 250,
+    "min_distance_to_group": 125,
     "min_distance_to_other_placeables": 1,
     "min_distance_to_existing_footprints": 1,
     "max_distance_to_buildings": 0,
@@ -1690,7 +2111,7 @@
     "required_interior_tier": 0,
     "required_claim_tier": 0,
     "min_distance_to_player_claims": 0,
-    "min_distance_to_group": 250,
+    "min_distance_to_group": 125,
     "min_distance_to_other_placeables": 1,
     "min_distance_to_existing_footprints": 1,
     "max_distance_to_buildings": 0,

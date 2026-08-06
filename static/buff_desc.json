@@ -431,7 +431,7 @@
     "warn_time": 2.0,
     "online_timestamp": false,
     "beneficial": false,
-    "icon_asset_name": "\\uFFE8",
+    "icon_asset_name": "\\u0119",
     "stats": [
       {
         "id": "FishingPower",
@@ -751,7 +751,7 @@
     "warn_time": 0.0,
     "online_timestamp": false,
     "beneficial": true,
-    "icon_asset_name": "\\u010C",
+    "icon_asset_name": "\\u0118",
     "stats": [
       {
         "id": "FishingSpeed",
@@ -1067,6 +1067,11 @@
         "id": "CraftingSpeed",
         "value": -0.05,
         "is_pct": true
+      },
+      {
+        "id": "HeatProtection",
+        "value": 10.0,
+        "is_pct": false
       }
     ],
     "vfx": "",
@@ -1587,6 +1592,26 @@
     "vfx_attachment_point": "Origin"
   },
   {
+    "id": 537057824,
+    "buff_type_id": 1304027385,
+    "description": "Heavy Swings",
+    "priority": 0,
+    "duration": 20,
+    "warn_time": 3.0,
+    "online_timestamp": false,
+    "beneficial": true,
+    "icon_asset_name": "\\u003B",
+    "stats": [
+      {
+        "id": "MiningPower",
+        "value": 8.0,
+        "is_pct": false
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
     "id": 541849230,
     "buff_type_id": 1204575210,
     "description": "Ornate Healing Potion",
@@ -1635,7 +1660,7 @@
     "warn_time": 2.0,
     "online_timestamp": false,
     "beneficial": false,
-    "icon_asset_name": "\\uFFE8",
+    "icon_asset_name": "\\u0119",
     "stats": [
       {
         "id": "FishingPower",
@@ -1986,6 +2011,11 @@
         "id": "MovementMultiplier",
         "value": 0.02,
         "is_pct": true
+      },
+      {
+        "id": "HeatProtection",
+        "value": 10.0,
+        "is_pct": false
       }
     ],
     "vfx": "",
@@ -2215,7 +2245,7 @@
     "warn_time": 2.0,
     "online_timestamp": false,
     "beneficial": false,
-    "icon_asset_name": "\\u010C",
+    "icon_asset_name": "\\u0116",
     "stats": [
       {
         "id": "FishingPower",
@@ -2235,7 +2265,7 @@
     "warn_time": 2.0,
     "online_timestamp": false,
     "beneficial": false,
-    "icon_asset_name": "\\u010C",
+    "icon_asset_name": "\\u0116",
     "stats": [
       {
         "id": "FishingPower",
@@ -2255,7 +2285,7 @@
     "warn_time": 2.0,
     "online_timestamp": false,
     "beneficial": false,
-    "icon_asset_name": "\\u010C",
+    "icon_asset_name": "\\u0116",
     "stats": [
       {
         "id": "FishingPower",
@@ -2275,7 +2305,7 @@
     "warn_time": 2.0,
     "online_timestamp": false,
     "beneficial": false,
-    "icon_asset_name": "\\u010C",
+    "icon_asset_name": "\\u0116",
     "stats": [
       {
         "id": "FishingPower",
@@ -2295,7 +2325,7 @@
     "warn_time": 2.0,
     "online_timestamp": false,
     "beneficial": false,
-    "icon_asset_name": "\\u010C",
+    "icon_asset_name": "\\u0116",
     "stats": [
       {
         "id": "FishingPower",
@@ -2315,7 +2345,7 @@
     "warn_time": 2.0,
     "online_timestamp": false,
     "beneficial": false,
-    "icon_asset_name": "\\u010C",
+    "icon_asset_name": "\\u0116",
     "stats": [
       {
         "id": "FishingPower",
@@ -2335,7 +2365,7 @@
     "warn_time": 2.0,
     "online_timestamp": false,
     "beneficial": false,
-    "icon_asset_name": "\\u010C",
+    "icon_asset_name": "\\u0116",
     "stats": [
       {
         "id": "FishingPower",
@@ -2355,7 +2385,7 @@
     "warn_time": 2.0,
     "online_timestamp": false,
     "beneficial": false,
-    "icon_asset_name": "\\u010C",
+    "icon_asset_name": "\\u0116",
     "stats": [
       {
         "id": "FishingPower",
@@ -2395,7 +2425,7 @@
     "warn_time": 2.0,
     "online_timestamp": false,
     "beneficial": false,
-    "icon_asset_name": "\\uFFE8",
+    "icon_asset_name": "\\u0119",
     "stats": [
       {
         "id": "FishingPower",
@@ -2505,7 +2535,7 @@
     "warn_time": 2.0,
     "online_timestamp": false,
     "beneficial": false,
-    "icon_asset_name": "\\uFFE8",
+    "icon_asset_name": "\\u0119",
     "stats": [
       {
         "id": "FishingPower",
@@ -2875,7 +2905,7 @@
     "warn_time": 2.0,
     "online_timestamp": false,
     "beneficial": false,
-    "icon_asset_name": "\\uFFE8",
+    "icon_asset_name": "\\u0119",
     "stats": [
       {
         "id": "FishingPower",
@@ -3280,7 +3310,7 @@
     "warn_time": 0.0,
     "online_timestamp": false,
     "beneficial": true,
-    "icon_asset_name": "\\uFFE8",
+    "icon_asset_name": "\\u0117",
     "stats": [
       {
         "id": "CraftingSpeed",
@@ -3310,7 +3340,7 @@
     "warn_time": 2.0,
     "online_timestamp": false,
     "beneficial": false,
-    "icon_asset_name": "\\uFFE8",
+    "icon_asset_name": "\\u0119",
     "stats": [
       {
         "id": "FishingPower",
@@ -3535,6 +3565,26 @@
       {
         "id": "ActiveHealthRegenRate",
         "value": 10.0,
+        "is_pct": false
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 1247360122,
+    "buff_type_id": 1530507785,
+    "description": "Sturdy Quarrystone Mining",
+    "priority": 0,
+    "duration": 1500,
+    "warn_time": 0.0,
+    "online_timestamp": false,
+    "beneficial": true,
+    "icon_asset_name": "\\u003B",
+    "stats": [
+      {
+        "id": "MiningPower",
+        "value": 1.0,
         "is_pct": false
       }
     ],
@@ -4275,7 +4325,7 @@
     "warn_time": 2.0,
     "online_timestamp": false,
     "beneficial": false,
-    "icon_asset_name": "\\uFFE8",
+    "icon_asset_name": "\\u0119",
     "stats": [
       {
         "id": "FishingPower",
@@ -4699,11 +4749,31 @@
     "warn_time": 2.0,
     "online_timestamp": false,
     "beneficial": false,
-    "icon_asset_name": "\\uFFE8",
+    "icon_asset_name": "\\u0119",
     "stats": [
       {
         "id": "FishingPower",
         "value": -27.0,
+        "is_pct": false
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 1614309829,
+    "buff_type_id": 1530507785,
+    "description": "Simple Quarrystone Mining",
+    "priority": 0,
+    "duration": 1200,
+    "warn_time": 0.0,
+    "online_timestamp": false,
+    "beneficial": true,
+    "icon_asset_name": "\\u003B",
+    "stats": [
+      {
+        "id": "MiningPower",
+        "value": 1.0,
         "is_pct": false
       }
     ],
@@ -4834,6 +4904,41 @@
       {
         "id": "BuildingSpeed",
         "value": 0.048,
+        "is_pct": true
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 1701541091,
+    "buff_type_id": 2041496537,
+    "description": "Pina Colada",
+    "priority": 1,
+    "duration": 180,
+    "warn_time": 0.0,
+    "online_timestamp": true,
+    "beneficial": true,
+    "icon_asset_name": "\\uFF7F",
+    "stats": [
+      {
+        "id": "Strength",
+        "value": 0.1,
+        "is_pct": true
+      },
+      {
+        "id": "GatheringSpeed",
+        "value": -0.05,
+        "is_pct": true
+      },
+      {
+        "id": "CraftingSpeed",
+        "value": -0.05,
+        "is_pct": true
+      },
+      {
+        "id": "Armor",
+        "value": 0.05,
         "is_pct": true
       }
     ],
@@ -5021,6 +5126,26 @@
     "vfx_attachment_point": "Origin"
   },
   {
+    "id": 1790751090,
+    "buff_type_id": 1530507785,
+    "description": "Rough Quarrystone Mining",
+    "priority": 0,
+    "duration": 900,
+    "warn_time": 0.0,
+    "online_timestamp": false,
+    "beneficial": true,
+    "icon_asset_name": "\\u003B",
+    "stats": [
+      {
+        "id": "MiningPower",
+        "value": 1.0,
+        "is_pct": false
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
     "id": 1793037679,
     "buff_type_id": 755187973,
     "description": "Infused Crafting Speed Elixir",
@@ -5049,7 +5174,7 @@
     "warn_time": 2.0,
     "online_timestamp": false,
     "beneficial": false,
-    "icon_asset_name": "\\u010C",
+    "icon_asset_name": "\\u0116",
     "stats": [
       {
         "id": "FishingPower",
@@ -5239,7 +5364,7 @@
     "warn_time": 2.0,
     "online_timestamp": false,
     "beneficial": false,
-    "icon_asset_name": "\\u010C",
+    "icon_asset_name": "\\u0116",
     "stats": [
       {
         "id": "FishingPower",
@@ -5484,7 +5609,7 @@
     "warn_time": 2.0,
     "online_timestamp": false,
     "beneficial": false,
-    "icon_asset_name": "\\uFFE8",
+    "icon_asset_name": "\\u0119",
     "stats": [
       {
         "id": "FishingPower",
@@ -5640,6 +5765,11 @@
         "id": "Armor",
         "value": 0.05,
         "is_pct": true
+      },
+      {
+        "id": "HeatProtection",
+        "value": 10.0,
+        "is_pct": false
       }
     ],
     "vfx": "",
@@ -5729,7 +5859,7 @@
     "warn_time": 2.0,
     "online_timestamp": false,
     "beneficial": false,
-    "icon_asset_name": "\\uFFE8",
+    "icon_asset_name": "\\u0119",
     "stats": [
       {
         "id": "FishingPower",

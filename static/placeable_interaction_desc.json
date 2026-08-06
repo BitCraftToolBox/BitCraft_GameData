@@ -98,6 +98,12 @@
         "quantity": 1,
         "item_type": "Item",
         "durability": 0
+      },
+      {
+        "item_id": 977388886,
+        "quantity": 1,
+        "item_type": "Item",
+        "durability": 0
       }
     ],
     "tool_requirements": [
@@ -181,6 +187,12 @@
     "output_item_stacks": [
       {
         "item_id": 1387829552,
+        "quantity": 1,
+        "item_type": "Item",
+        "durability": 0
+      },
+      {
+        "item_id": 1816913950,
         "quantity": 1,
         "item_type": "Item",
         "durability": 0
@@ -414,6 +426,12 @@
       {
         "item_id": 4110017,
         "quantity": 8,
+        "item_type": "Item",
+        "durability": 0
+      },
+      {
+        "item_id": 671381623,
+        "quantity": 1,
         "item_type": "Item",
         "durability": 0
       }
@@ -757,6 +775,41 @@
     "self_buffs": []
   },
   {
+    "id": 144210861,
+    "verb_phrase": "Collect",
+    "placeable_id": 1282004899,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "consumed_item_stacks": [],
+    "output_item_stacks": [
+      {
+        "item_id": 296604229,
+        "quantity": 1,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "tool_requirements": [],
+    "level_requirements": [],
+    "experience_per_progress": [
+      {
+        "skill_id": 5,
+        "quantity": 0.0
+      }
+    ],
+    "time_requirement": 1.6,
+    "stamina_requirement": 1.03,
+    "tool_durability_lost": 0,
+    "range": 1,
+    "allow_use_hands": true,
+    "power_multiplier": 1.0,
+    "recipe_performance_id": 403,
+    "on_destroy_spawned_placeable_id": 0,
+    "on_destroy_spawned_placeable_chance": 0.0,
+    "on_destroy_outcomes": [],
+    "self_buffs": []
+  },
+  {
     "id": 159119333,
     "verb_phrase": "Fish",
     "placeable_id": 1900917729,
@@ -809,6 +862,48 @@
       {
         "probability": 1.0,
         "placeable_id": 0,
+        "radius_min": 0,
+        "radius_max": 0
+      }
+    ],
+    "self_buffs": []
+  },
+  {
+    "id": 161960958,
+    "verb_phrase": "Collect",
+    "placeable_id": 891583239,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "consumed_item_stacks": [],
+    "output_item_stacks": [
+      {
+        "item_id": 788116506,
+        "quantity": 1,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "tool_requirements": [],
+    "level_requirements": [],
+    "experience_per_progress": [
+      {
+        "skill_id": 5,
+        "quantity": 315.0
+      }
+    ],
+    "time_requirement": 1.6,
+    "stamina_requirement": 1.64,
+    "tool_durability_lost": 0,
+    "range": 1,
+    "allow_use_hands": true,
+    "power_multiplier": 1.0,
+    "recipe_performance_id": 403,
+    "on_destroy_spawned_placeable_id": 0,
+    "on_destroy_spawned_placeable_chance": 0.0,
+    "on_destroy_outcomes": [
+      {
+        "probability": 1.0,
+        "placeable_id": 886662012,
         "radius_min": 0,
         "radius_max": 0
       }
@@ -911,6 +1006,12 @@
     "output_item_stacks": [
       {
         "item_id": 465028736,
+        "quantity": 1,
+        "item_type": "Item",
+        "durability": 0
+      },
+      {
+        "item_id": 505642618,
         "quantity": 1,
         "item_type": "Item",
         "durability": 0
@@ -1207,6 +1308,12 @@
         "quantity": 1,
         "item_type": "Cargo",
         "durability": null
+      },
+      {
+        "item_id": 1496634419,
+        "quantity": 1,
+        "item_type": "Item",
+        "durability": 0
       }
     ],
     "tool_requirements": [
@@ -1235,6 +1342,58 @@
     "allow_use_hands": false,
     "power_multiplier": 1.0,
     "recipe_performance_id": 143,
+    "on_destroy_spawned_placeable_id": 0,
+    "on_destroy_spawned_placeable_chance": 0.0,
+    "on_destroy_outcomes": [],
+    "self_buffs": []
+  },
+  {
+    "id": 209208786,
+    "verb_phrase": "Mine",
+    "placeable_id": 466232540,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "consumed_item_stacks": [],
+    "output_item_stacks": [
+      {
+        "item_id": 1855277511,
+        "quantity": 1,
+        "item_type": "Item",
+        "durability": 0
+      },
+      {
+        "item_id": 2101010540,
+        "quantity": 1,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "tool_requirements": [
+      {
+        "tool_type": 4,
+        "level": 6,
+        "power": 1
+      }
+    ],
+    "level_requirements": [
+      {
+        "skill_id": 5,
+        "level": 60
+      }
+    ],
+    "experience_per_progress": [
+      {
+        "skill_id": 5,
+        "quantity": 75.0
+      }
+    ],
+    "time_requirement": 3.0,
+    "stamina_requirement": 1.41,
+    "tool_durability_lost": 0,
+    "range": 1,
+    "allow_use_hands": false,
+    "power_multiplier": 1.0,
+    "recipe_performance_id": 975,
     "on_destroy_spawned_placeable_id": 0,
     "on_destroy_spawned_placeable_chance": 0.0,
     "on_destroy_outcomes": [],
@@ -1594,6 +1753,48 @@
         "duration": null
       }
     ]
+  },
+  {
+    "id": 253149413,
+    "verb_phrase": "Collect",
+    "placeable_id": 749315332,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "consumed_item_stacks": [],
+    "output_item_stacks": [
+      {
+        "item_id": 336329703,
+        "quantity": 1,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "tool_requirements": [],
+    "level_requirements": [],
+    "experience_per_progress": [
+      {
+        "skill_id": 5,
+        "quantity": 410.0
+      }
+    ],
+    "time_requirement": 1.6,
+    "stamina_requirement": 1.75,
+    "tool_durability_lost": 0,
+    "range": 1,
+    "allow_use_hands": true,
+    "power_multiplier": 1.0,
+    "recipe_performance_id": 403,
+    "on_destroy_spawned_placeable_id": 0,
+    "on_destroy_spawned_placeable_chance": 0.0,
+    "on_destroy_outcomes": [
+      {
+        "probability": 1.0,
+        "placeable_id": 1944152230,
+        "radius_min": 0,
+        "radius_max": 0
+      }
+    ],
+    "self_buffs": []
   },
   {
     "id": 253656224,
@@ -2243,6 +2444,12 @@
         "quantity": 1,
         "item_type": "Item",
         "durability": 0
+      },
+      {
+        "item_id": 144882486,
+        "quantity": 1,
+        "item_type": "Item",
+        "durability": 0
       }
     ],
     "tool_requirements": [
@@ -2566,6 +2773,12 @@
         "quantity": 1,
         "item_type": "Cargo",
         "durability": null
+      },
+      {
+        "item_id": 579355082,
+        "quantity": 1,
+        "item_type": "Item",
+        "durability": 0
       }
     ],
     "tool_requirements": [
@@ -2798,6 +3011,87 @@
     "self_buffs": []
   },
   {
+    "id": 507298236,
+    "verb_phrase": "Collect",
+    "placeable_id": 342772840,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "consumed_item_stacks": [],
+    "output_item_stacks": [
+      {
+        "item_id": 303213096,
+        "quantity": 1,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "tool_requirements": [],
+    "level_requirements": [],
+    "experience_per_progress": [
+      {
+        "skill_id": 5,
+        "quantity": 0.0
+      }
+    ],
+    "time_requirement": 1.6,
+    "stamina_requirement": 1.28,
+    "tool_durability_lost": 0,
+    "range": 1,
+    "allow_use_hands": true,
+    "power_multiplier": 1.0,
+    "recipe_performance_id": 403,
+    "on_destroy_spawned_placeable_id": 0,
+    "on_destroy_spawned_placeable_chance": 0.0,
+    "on_destroy_outcomes": [],
+    "self_buffs": []
+  },
+  {
+    "id": 514577932,
+    "verb_phrase": "Mine",
+    "placeable_id": 745670695,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "consumed_item_stacks": [],
+    "output_item_stacks": [
+      {
+        "item_id": 2220009,
+        "quantity": 1,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "tool_requirements": [
+      {
+        "tool_type": 4,
+        "level": 2,
+        "power": 1
+      }
+    ],
+    "level_requirements": [
+      {
+        "skill_id": 5,
+        "level": 20
+      }
+    ],
+    "experience_per_progress": [
+      {
+        "skill_id": 5,
+        "quantity": 110.0
+      }
+    ],
+    "time_requirement": 3.0,
+    "stamina_requirement": 0.89,
+    "tool_durability_lost": 0,
+    "range": 1,
+    "allow_use_hands": false,
+    "power_multiplier": 1.0,
+    "recipe_performance_id": 975,
+    "on_destroy_spawned_placeable_id": 0,
+    "on_destroy_spawned_placeable_chance": 0.0,
+    "on_destroy_outcomes": [],
+    "self_buffs": []
+  },
+  {
     "id": 518367743,
     "verb_phrase": "Fish",
     "placeable_id": 1698569422,
@@ -2898,6 +3192,52 @@
     "self_buffs": []
   },
   {
+    "id": 526783391,
+    "verb_phrase": "Mine",
+    "placeable_id": 822056761,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "consumed_item_stacks": [],
+    "output_item_stacks": [
+      {
+        "item_id": 6220009,
+        "quantity": 1,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "tool_requirements": [
+      {
+        "tool_type": 4,
+        "level": 6,
+        "power": 1
+      }
+    ],
+    "level_requirements": [
+      {
+        "skill_id": 5,
+        "level": 60
+      }
+    ],
+    "experience_per_progress": [
+      {
+        "skill_id": 5,
+        "quantity": 150.0
+      }
+    ],
+    "time_requirement": 3.0,
+    "stamina_requirement": 1.41,
+    "tool_durability_lost": 0,
+    "range": 1,
+    "allow_use_hands": false,
+    "power_multiplier": 1.0,
+    "recipe_performance_id": 975,
+    "on_destroy_spawned_placeable_id": 0,
+    "on_destroy_spawned_placeable_chance": 0.0,
+    "on_destroy_outcomes": [],
+    "self_buffs": []
+  },
+  {
     "id": 527000596,
     "verb_phrase": "Fish",
     "placeable_id": 1305264595,
@@ -2990,6 +3330,52 @@
     "self_buffs": []
   },
   {
+    "id": 549376978,
+    "verb_phrase": "Mine",
+    "placeable_id": 1318312417,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "consumed_item_stacks": [],
+    "output_item_stacks": [
+      {
+        "item_id": 1395735228,
+        "quantity": 1,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "tool_requirements": [
+      {
+        "tool_type": 4,
+        "level": 10,
+        "power": 1
+      }
+    ],
+    "level_requirements": [
+      {
+        "skill_id": 5,
+        "level": 100
+      }
+    ],
+    "experience_per_progress": [
+      {
+        "skill_id": 5,
+        "quantity": 190.0
+      }
+    ],
+    "time_requirement": 3.0,
+    "stamina_requirement": 1.86,
+    "tool_durability_lost": 0,
+    "range": 1,
+    "allow_use_hands": false,
+    "power_multiplier": 1.0,
+    "recipe_performance_id": 975,
+    "on_destroy_spawned_placeable_id": 0,
+    "on_destroy_spawned_placeable_chance": 0.0,
+    "on_destroy_outcomes": [],
+    "self_buffs": []
+  },
+  {
     "id": 554750805,
     "verb_phrase": "Bait",
     "placeable_id": 1375715531,
@@ -3071,6 +3457,48 @@
     "on_destroy_spawned_placeable_id": 0,
     "on_destroy_spawned_placeable_chance": 0.0,
     "on_destroy_outcomes": [],
+    "self_buffs": []
+  },
+  {
+    "id": 574068810,
+    "verb_phrase": "Collect",
+    "placeable_id": 1278464602,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "consumed_item_stacks": [],
+    "output_item_stacks": [
+      {
+        "item_id": 1390779373,
+        "quantity": 1,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "tool_requirements": [],
+    "level_requirements": [],
+    "experience_per_progress": [
+      {
+        "skill_id": 5,
+        "quantity": 530.0
+      }
+    ],
+    "time_requirement": 1.6,
+    "stamina_requirement": 1.86,
+    "tool_durability_lost": 0,
+    "range": 1,
+    "allow_use_hands": true,
+    "power_multiplier": 1.0,
+    "recipe_performance_id": 403,
+    "on_destroy_spawned_placeable_id": 0,
+    "on_destroy_spawned_placeable_chance": 0.0,
+    "on_destroy_outcomes": [
+      {
+        "probability": 1.0,
+        "placeable_id": 549161991,
+        "radius_min": 0,
+        "radius_max": 0
+      }
+    ],
     "self_buffs": []
   },
   {
@@ -3721,6 +4149,41 @@
     "self_buffs": []
   },
   {
+    "id": 631010189,
+    "verb_phrase": "Collect",
+    "placeable_id": 549161991,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "consumed_item_stacks": [],
+    "output_item_stacks": [
+      {
+        "item_id": 1760089475,
+        "quantity": 1,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "tool_requirements": [],
+    "level_requirements": [],
+    "experience_per_progress": [
+      {
+        "skill_id": 5,
+        "quantity": 0.0
+      }
+    ],
+    "time_requirement": 1.6,
+    "stamina_requirement": 1.86,
+    "tool_durability_lost": 0,
+    "range": 1,
+    "allow_use_hands": true,
+    "power_multiplier": 1.0,
+    "recipe_performance_id": 403,
+    "on_destroy_spawned_placeable_id": 0,
+    "on_destroy_spawned_placeable_chance": 0.0,
+    "on_destroy_outcomes": [],
+    "self_buffs": []
+  },
+  {
     "id": 633447025,
     "verb_phrase": "Treat",
     "placeable_id": 270767210,
@@ -4312,6 +4775,12 @@
         "quantity": 8,
         "item_type": "Item",
         "durability": 0
+      },
+      {
+        "item_id": 2068100082,
+        "quantity": 1,
+        "item_type": "Item",
+        "durability": 0
       }
     ],
     "tool_requirements": [],
@@ -4418,6 +4887,12 @@
         "quantity": 1,
         "item_type": "Item",
         "durability": 0
+      },
+      {
+        "item_id": 1424420442,
+        "quantity": 1,
+        "item_type": "Item",
+        "durability": 0
       }
     ],
     "tool_requirements": [
@@ -4464,6 +4939,12 @@
         "quantity": 1,
         "item_type": "Item",
         "durability": 0
+      },
+      {
+        "item_id": 1728412952,
+        "quantity": 1,
+        "item_type": "Item",
+        "durability": 0
       }
     ],
     "tool_requirements": [
@@ -4492,6 +4973,58 @@
     "allow_use_hands": false,
     "power_multiplier": 1.0,
     "recipe_performance_id": 143,
+    "on_destroy_spawned_placeable_id": 0,
+    "on_destroy_spawned_placeable_chance": 0.0,
+    "on_destroy_outcomes": [],
+    "self_buffs": []
+  },
+  {
+    "id": 720435216,
+    "verb_phrase": "Mine",
+    "placeable_id": 307492853,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "consumed_item_stacks": [],
+    "output_item_stacks": [
+      {
+        "item_id": 4220009,
+        "quantity": 1,
+        "item_type": "Item",
+        "durability": 0
+      },
+      {
+        "item_id": 1819030496,
+        "quantity": 1,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "tool_requirements": [
+      {
+        "tool_type": 4,
+        "level": 4,
+        "power": 1
+      }
+    ],
+    "level_requirements": [
+      {
+        "skill_id": 5,
+        "level": 40
+      }
+    ],
+    "experience_per_progress": [
+      {
+        "skill_id": 5,
+        "quantity": 130.0
+      }
+    ],
+    "time_requirement": 3.0,
+    "stamina_requirement": 1.16,
+    "tool_durability_lost": 0,
+    "range": 1,
+    "allow_use_hands": false,
+    "power_multiplier": 1.0,
+    "recipe_performance_id": 975,
     "on_destroy_spawned_placeable_id": 0,
     "on_destroy_spawned_placeable_chance": 0.0,
     "on_destroy_outcomes": [],
@@ -4597,6 +5130,52 @@
         "radius_max": 0
       }
     ],
+    "self_buffs": []
+  },
+  {
+    "id": 746996309,
+    "verb_phrase": "Mine",
+    "placeable_id": 465265409,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "consumed_item_stacks": [],
+    "output_item_stacks": [
+      {
+        "item_id": 296380618,
+        "quantity": 1,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "tool_requirements": [
+      {
+        "tool_type": 4,
+        "level": 10,
+        "power": 1
+      }
+    ],
+    "level_requirements": [
+      {
+        "skill_id": 5,
+        "level": 100
+      }
+    ],
+    "experience_per_progress": [
+      {
+        "skill_id": 5,
+        "quantity": 95.0
+      }
+    ],
+    "time_requirement": 3.0,
+    "stamina_requirement": 1.86,
+    "tool_durability_lost": 0,
+    "range": 1,
+    "allow_use_hands": false,
+    "power_multiplier": 1.0,
+    "recipe_performance_id": 975,
+    "on_destroy_spawned_placeable_id": 0,
+    "on_destroy_spawned_placeable_chance": 0.0,
+    "on_destroy_outcomes": [],
     "self_buffs": []
   },
   {
@@ -4874,6 +5453,48 @@
     "self_buffs": []
   },
   {
+    "id": 770198306,
+    "verb_phrase": "Collect",
+    "placeable_id": 320216646,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "consumed_item_stacks": [],
+    "output_item_stacks": [
+      {
+        "item_id": 1128044842,
+        "quantity": 1,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "tool_requirements": [],
+    "level_requirements": [],
+    "experience_per_progress": [
+      {
+        "skill_id": 5,
+        "quantity": 240.0
+      }
+    ],
+    "time_requirement": 1.6,
+    "stamina_requirement": 1.52,
+    "tool_durability_lost": 0,
+    "range": 1,
+    "allow_use_hands": true,
+    "power_multiplier": 1.0,
+    "recipe_performance_id": 403,
+    "on_destroy_spawned_placeable_id": 0,
+    "on_destroy_spawned_placeable_chance": 0.0,
+    "on_destroy_outcomes": [
+      {
+        "probability": 1.0,
+        "placeable_id": 908683026,
+        "radius_min": 0,
+        "radius_max": 0
+      }
+    ],
+    "self_buffs": []
+  },
+  {
     "id": 777430270,
     "verb_phrase": "Fish",
     "placeable_id": 1828822695,
@@ -4886,6 +5507,12 @@
         "quantity": 1,
         "item_type": "Cargo",
         "durability": null
+      },
+      {
+        "item_id": 543277663,
+        "quantity": 1,
+        "item_type": "Item",
+        "durability": 0
       }
     ],
     "tool_requirements": [
@@ -4979,6 +5606,12 @@
         "quantity": 1,
         "item_type": "Cargo",
         "durability": null
+      },
+      {
+        "item_id": 1453612356,
+        "quantity": 1,
+        "item_type": "Item",
+        "durability": 0
       }
     ],
     "tool_requirements": [
@@ -5211,6 +5844,48 @@
     "self_buffs": []
   },
   {
+    "id": 816384204,
+    "verb_phrase": "Collect",
+    "placeable_id": 1171866085,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "consumed_item_stacks": [],
+    "output_item_stacks": [
+      {
+        "item_id": 448212639,
+        "quantity": 1,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "tool_requirements": [],
+    "level_requirements": [],
+    "experience_per_progress": [
+      {
+        "skill_id": 5,
+        "quantity": 85.0
+      }
+    ],
+    "time_requirement": 1.6,
+    "stamina_requirement": 1.03,
+    "tool_durability_lost": 0,
+    "range": 1,
+    "allow_use_hands": true,
+    "power_multiplier": 1.0,
+    "recipe_performance_id": 403,
+    "on_destroy_spawned_placeable_id": 0,
+    "on_destroy_spawned_placeable_chance": 0.0,
+    "on_destroy_outcomes": [
+      {
+        "probability": 1.0,
+        "placeable_id": 1282004899,
+        "radius_min": 0,
+        "radius_max": 0
+      }
+    ],
+    "self_buffs": []
+  },
+  {
     "id": 819210464,
     "verb_phrase": "Fish",
     "placeable_id": 143502006,
@@ -5270,6 +5945,52 @@
     "self_buffs": []
   },
   {
+    "id": 822441093,
+    "verb_phrase": "Mine",
+    "placeable_id": 1107007590,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "consumed_item_stacks": [],
+    "output_item_stacks": [
+      {
+        "item_id": 631031460,
+        "quantity": 1,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "tool_requirements": [
+      {
+        "tool_type": 4,
+        "level": 9,
+        "power": 1
+      }
+    ],
+    "level_requirements": [
+      {
+        "skill_id": 5,
+        "level": 90
+      }
+    ],
+    "experience_per_progress": [
+      {
+        "skill_id": 5,
+        "quantity": 90.0
+      }
+    ],
+    "time_requirement": 3.0,
+    "stamina_requirement": 1.75,
+    "tool_durability_lost": 0,
+    "range": 1,
+    "allow_use_hands": false,
+    "power_multiplier": 1.0,
+    "recipe_performance_id": 975,
+    "on_destroy_spawned_placeable_id": 0,
+    "on_destroy_spawned_placeable_chance": 0.0,
+    "on_destroy_outcomes": [],
+    "self_buffs": []
+  },
+  {
     "id": 823197554,
     "verb_phrase": "Collect",
     "placeable_id": 1144564697,
@@ -5280,6 +6001,12 @@
       {
         "item_id": 126302392,
         "quantity": 8,
+        "item_type": "Item",
+        "durability": 0
+      },
+      {
+        "item_id": 423390134,
+        "quantity": 1,
         "item_type": "Item",
         "durability": 0
       }
@@ -5376,6 +6103,12 @@
         "quantity": 8,
         "item_type": "Item",
         "durability": 0
+      },
+      {
+        "item_id": 1426063622,
+        "quantity": 1,
+        "item_type": "Item",
+        "durability": 0
       }
     ],
     "tool_requirements": [],
@@ -5451,6 +6184,41 @@
     "allow_use_hands": false,
     "power_multiplier": 1.0,
     "recipe_performance_id": 143,
+    "on_destroy_spawned_placeable_id": 0,
+    "on_destroy_spawned_placeable_chance": 0.0,
+    "on_destroy_outcomes": [],
+    "self_buffs": []
+  },
+  {
+    "id": 848852913,
+    "verb_phrase": "Collect",
+    "placeable_id": 1279154519,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "consumed_item_stacks": [],
+    "output_item_stacks": [
+      {
+        "item_id": 498594607,
+        "quantity": 1,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "tool_requirements": [],
+    "level_requirements": [],
+    "experience_per_progress": [
+      {
+        "skill_id": 5,
+        "quantity": 0.0
+      }
+    ],
+    "time_requirement": 1.6,
+    "stamina_requirement": 0.75,
+    "tool_durability_lost": 0,
+    "range": 1,
+    "allow_use_hands": true,
+    "power_multiplier": 1.0,
+    "recipe_performance_id": 403,
     "on_destroy_spawned_placeable_id": 0,
     "on_destroy_spawned_placeable_chance": 0.0,
     "on_destroy_outcomes": [],
@@ -6139,6 +6907,52 @@
     "self_buffs": []
   },
   {
+    "id": 912867367,
+    "verb_phrase": "Mine",
+    "placeable_id": 1751226248,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "consumed_item_stacks": [],
+    "output_item_stacks": [
+      {
+        "item_id": 1396694409,
+        "quantity": 1,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "tool_requirements": [
+      {
+        "tool_type": 4,
+        "level": 9,
+        "power": 1
+      }
+    ],
+    "level_requirements": [
+      {
+        "skill_id": 5,
+        "level": 90
+      }
+    ],
+    "experience_per_progress": [
+      {
+        "skill_id": 5,
+        "quantity": 180.0
+      }
+    ],
+    "time_requirement": 3.0,
+    "stamina_requirement": 1.75,
+    "tool_durability_lost": 0,
+    "range": 1,
+    "allow_use_hands": false,
+    "power_multiplier": 1.0,
+    "recipe_performance_id": 975,
+    "on_destroy_spawned_placeable_id": 0,
+    "on_destroy_spawned_placeable_chance": 0.0,
+    "on_destroy_outcomes": [],
+    "self_buffs": []
+  },
+  {
     "id": 913838577,
     "verb_phrase": "Fish",
     "placeable_id": 453555524,
@@ -6371,6 +7185,41 @@
     "self_buffs": []
   },
   {
+    "id": 954487352,
+    "verb_phrase": "Collect",
+    "placeable_id": 1938838237,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "consumed_item_stacks": [],
+    "output_item_stacks": [
+      {
+        "item_id": 125393350,
+        "quantity": 1,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "tool_requirements": [],
+    "level_requirements": [],
+    "experience_per_progress": [
+      {
+        "skill_id": 5,
+        "quantity": 0.0
+      }
+    ],
+    "time_requirement": 1.6,
+    "stamina_requirement": 0.89,
+    "tool_durability_lost": 0,
+    "range": 1,
+    "allow_use_hands": true,
+    "power_multiplier": 1.0,
+    "recipe_performance_id": 403,
+    "on_destroy_spawned_placeable_id": 0,
+    "on_destroy_spawned_placeable_chance": 0.0,
+    "on_destroy_outcomes": [],
+    "self_buffs": []
+  },
+  {
     "id": 957706059,
     "verb_phrase": "Fish",
     "placeable_id": 1353127416,
@@ -6535,6 +7384,58 @@
     "allow_use_hands": false,
     "power_multiplier": 1.0,
     "recipe_performance_id": 632,
+    "on_destroy_spawned_placeable_id": 0,
+    "on_destroy_spawned_placeable_chance": 0.0,
+    "on_destroy_outcomes": [],
+    "self_buffs": []
+  },
+  {
+    "id": 981748158,
+    "verb_phrase": "Mine",
+    "placeable_id": 216780890,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "consumed_item_stacks": [],
+    "output_item_stacks": [
+      {
+        "item_id": 846939417,
+        "quantity": 1,
+        "item_type": "Item",
+        "durability": 0
+      },
+      {
+        "item_id": 2101010540,
+        "quantity": 1,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "tool_requirements": [
+      {
+        "tool_type": 4,
+        "level": 5,
+        "power": 1
+      }
+    ],
+    "level_requirements": [
+      {
+        "skill_id": 5,
+        "level": 50
+      }
+    ],
+    "experience_per_progress": [
+      {
+        "skill_id": 5,
+        "quantity": 70.0
+      }
+    ],
+    "time_requirement": 3.0,
+    "stamina_requirement": 1.28,
+    "tool_durability_lost": 0,
+    "range": 1,
+    "allow_use_hands": false,
+    "power_multiplier": 1.0,
+    "recipe_performance_id": 975,
     "on_destroy_spawned_placeable_id": 0,
     "on_destroy_spawned_placeable_chance": 0.0,
     "on_destroy_outcomes": [],
@@ -6952,6 +7853,58 @@
     ]
   },
   {
+    "id": 1009306049,
+    "verb_phrase": "Mine",
+    "placeable_id": 137273155,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "consumed_item_stacks": [],
+    "output_item_stacks": [
+      {
+        "item_id": 3220009,
+        "quantity": 1,
+        "item_type": "Item",
+        "durability": 0
+      },
+      {
+        "item_id": 1819030496,
+        "quantity": 1,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "tool_requirements": [
+      {
+        "tool_type": 4,
+        "level": 3,
+        "power": 1
+      }
+    ],
+    "level_requirements": [
+      {
+        "skill_id": 5,
+        "level": 30
+      }
+    ],
+    "experience_per_progress": [
+      {
+        "skill_id": 5,
+        "quantity": 120.0
+      }
+    ],
+    "time_requirement": 3.0,
+    "stamina_requirement": 1.03,
+    "tool_durability_lost": 0,
+    "range": 1,
+    "allow_use_hands": false,
+    "power_multiplier": 1.0,
+    "recipe_performance_id": 975,
+    "on_destroy_spawned_placeable_id": 0,
+    "on_destroy_spawned_placeable_chance": 0.0,
+    "on_destroy_outcomes": [],
+    "self_buffs": []
+  },
+  {
     "id": 1011968903,
     "verb_phrase": "Collect",
     "placeable_id": 1155054166,
@@ -7108,6 +8061,12 @@
         "quantity": 1,
         "item_type": "Cargo",
         "durability": null
+      },
+      {
+        "item_id": 1447020290,
+        "quantity": 1,
+        "item_type": "Item",
+        "durability": 0
       }
     ],
     "tool_requirements": [
@@ -7151,6 +8110,12 @@
     "output_item_stacks": [
       {
         "item_id": 2053932554,
+        "quantity": 1,
+        "item_type": "Item",
+        "durability": 0
+      },
+      {
+        "item_id": 1895810876,
         "quantity": 1,
         "item_type": "Item",
         "durability": 0
@@ -7276,6 +8241,41 @@
     "allow_use_hands": false,
     "power_multiplier": 1.0,
     "recipe_performance_id": 632,
+    "on_destroy_spawned_placeable_id": 0,
+    "on_destroy_spawned_placeable_chance": 0.0,
+    "on_destroy_outcomes": [],
+    "self_buffs": []
+  },
+  {
+    "id": 1037513215,
+    "verb_phrase": "Collect",
+    "placeable_id": 1944152230,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "consumed_item_stacks": [],
+    "output_item_stacks": [
+      {
+        "item_id": 1884902154,
+        "quantity": 1,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "tool_requirements": [],
+    "level_requirements": [],
+    "experience_per_progress": [
+      {
+        "skill_id": 5,
+        "quantity": 0.0
+      }
+    ],
+    "time_requirement": 1.6,
+    "stamina_requirement": 1.75,
+    "tool_durability_lost": 0,
+    "range": 1,
+    "allow_use_hands": true,
+    "power_multiplier": 1.0,
+    "recipe_performance_id": 403,
     "on_destroy_spawned_placeable_id": 0,
     "on_destroy_spawned_placeable_chance": 0.0,
     "on_destroy_outcomes": [],
@@ -7513,6 +8513,12 @@
         "quantity": 1,
         "item_type": "Item",
         "durability": 0
+      },
+      {
+        "item_id": 561700003,
+        "quantity": 1,
+        "item_type": "Item",
+        "durability": 0
       }
     ],
     "tool_requirements": [
@@ -7723,6 +8729,12 @@
         "quantity": 1,
         "item_type": "Item",
         "durability": 0
+      },
+      {
+        "item_id": 1563853060,
+        "quantity": 1,
+        "item_type": "Item",
+        "durability": 0
       }
     ],
     "tool_requirements": [
@@ -7791,6 +8803,100 @@
     "allow_use_hands": true,
     "power_multiplier": 1.0,
     "recipe_performance_id": 403,
+    "on_destroy_spawned_placeable_id": 0,
+    "on_destroy_spawned_placeable_chance": 0.0,
+    "on_destroy_outcomes": [],
+    "self_buffs": []
+  },
+  {
+    "id": 1108073553,
+    "verb_phrase": "Collect",
+    "placeable_id": 1768585595,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "consumed_item_stacks": [],
+    "output_item_stacks": [
+      {
+        "item_id": 574092491,
+        "quantity": 1,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "tool_requirements": [],
+    "level_requirements": [],
+    "experience_per_progress": [
+      {
+        "skill_id": 5,
+        "quantity": 65.0
+      }
+    ],
+    "time_requirement": 1.6,
+    "stamina_requirement": 0.89,
+    "tool_durability_lost": 0,
+    "range": 1,
+    "allow_use_hands": true,
+    "power_multiplier": 1.0,
+    "recipe_performance_id": 403,
+    "on_destroy_spawned_placeable_id": 0,
+    "on_destroy_spawned_placeable_chance": 0.0,
+    "on_destroy_outcomes": [
+      {
+        "probability": 1.0,
+        "placeable_id": 1938838237,
+        "radius_min": 0,
+        "radius_max": 0
+      }
+    ],
+    "self_buffs": []
+  },
+  {
+    "id": 1108428598,
+    "verb_phrase": "Mine",
+    "placeable_id": 1567548090,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "consumed_item_stacks": [],
+    "output_item_stacks": [
+      {
+        "item_id": 1253679667,
+        "quantity": 1,
+        "item_type": "Item",
+        "durability": 0
+      },
+      {
+        "item_id": 1988353175,
+        "quantity": 1,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "tool_requirements": [
+      {
+        "tool_type": 4,
+        "level": 4,
+        "power": 1
+      }
+    ],
+    "level_requirements": [
+      {
+        "skill_id": 5,
+        "level": 40
+      }
+    ],
+    "experience_per_progress": [
+      {
+        "skill_id": 5,
+        "quantity": 65.0
+      }
+    ],
+    "time_requirement": 3.0,
+    "stamina_requirement": 1.16,
+    "tool_durability_lost": 0,
+    "range": 1,
+    "allow_use_hands": false,
+    "power_multiplier": 1.0,
+    "recipe_performance_id": 975,
     "on_destroy_spawned_placeable_id": 0,
     "on_destroy_spawned_placeable_chance": 0.0,
     "on_destroy_outcomes": [],
@@ -7940,6 +9046,48 @@
     "on_destroy_spawned_placeable_id": 0,
     "on_destroy_spawned_placeable_chance": 0.0,
     "on_destroy_outcomes": [],
+    "self_buffs": []
+  },
+  {
+    "id": 1123422078,
+    "verb_phrase": "Collect",
+    "placeable_id": 1333502377,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "consumed_item_stacks": [],
+    "output_item_stacks": [
+      {
+        "item_id": 1118028155,
+        "quantity": 1,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "tool_requirements": [],
+    "level_requirements": [],
+    "experience_per_progress": [
+      {
+        "skill_id": 5,
+        "quantity": 145.0
+      }
+    ],
+    "time_requirement": 1.6,
+    "stamina_requirement": 1.28,
+    "tool_durability_lost": 0,
+    "range": 1,
+    "allow_use_hands": true,
+    "power_multiplier": 1.0,
+    "recipe_performance_id": 403,
+    "on_destroy_spawned_placeable_id": 0,
+    "on_destroy_spawned_placeable_chance": 0.0,
+    "on_destroy_outcomes": [
+      {
+        "probability": 1.0,
+        "placeable_id": 342772840,
+        "radius_min": 0,
+        "radius_max": 0
+      }
+    ],
     "self_buffs": []
   },
   {
@@ -8299,6 +9447,52 @@
     "self_buffs": []
   },
   {
+    "id": 1169627933,
+    "verb_phrase": "Mine",
+    "placeable_id": 496823873,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "consumed_item_stacks": [],
+    "output_item_stacks": [
+      {
+        "item_id": 251620386,
+        "quantity": 1,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "tool_requirements": [
+      {
+        "tool_type": 4,
+        "level": 7,
+        "power": 1
+      }
+    ],
+    "level_requirements": [
+      {
+        "skill_id": 5,
+        "level": 70
+      }
+    ],
+    "experience_per_progress": [
+      {
+        "skill_id": 5,
+        "quantity": 80.0
+      }
+    ],
+    "time_requirement": 3.0,
+    "stamina_requirement": 1.52,
+    "tool_durability_lost": 0,
+    "range": 1,
+    "allow_use_hands": false,
+    "power_multiplier": 1.0,
+    "recipe_performance_id": 975,
+    "on_destroy_spawned_placeable_id": 0,
+    "on_destroy_spawned_placeable_chance": 0.0,
+    "on_destroy_outcomes": [],
+    "self_buffs": []
+  },
+  {
     "id": 1178661840,
     "verb_phrase": "Collect",
     "placeable_id": 1454509872,
@@ -8309,6 +9503,12 @@
       {
         "item_id": 5110017,
         "quantity": 8,
+        "item_type": "Item",
+        "durability": 0
+      },
+      {
+        "item_id": 1684471418,
+        "quantity": 1,
         "item_type": "Item",
         "durability": 0
       }
@@ -8857,6 +10057,12 @@
         "quantity": 1,
         "item_type": "Cargo",
         "durability": null
+      },
+      {
+        "item_id": 940718921,
+        "quantity": 1,
+        "item_type": "Item",
+        "durability": 0
       }
     ],
     "tool_requirements": [
@@ -9038,6 +10244,41 @@
         "duration": null
       }
     ]
+  },
+  {
+    "id": 1275492129,
+    "verb_phrase": "Collect",
+    "placeable_id": 886662012,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "consumed_item_stacks": [],
+    "output_item_stacks": [
+      {
+        "item_id": 366737445,
+        "quantity": 1,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "tool_requirements": [],
+    "level_requirements": [],
+    "experience_per_progress": [
+      {
+        "skill_id": 5,
+        "quantity": 0.0
+      }
+    ],
+    "time_requirement": 1.6,
+    "stamina_requirement": 1.64,
+    "tool_durability_lost": 0,
+    "range": 1,
+    "allow_use_hands": true,
+    "power_multiplier": 1.0,
+    "recipe_performance_id": 403,
+    "on_destroy_spawned_placeable_id": 0,
+    "on_destroy_spawned_placeable_chance": 0.0,
+    "on_destroy_outcomes": [],
+    "self_buffs": []
   },
   {
     "id": 1292522386,
@@ -9511,6 +10752,41 @@
         "radius_max": 0
       }
     ],
+    "self_buffs": []
+  },
+  {
+    "id": 1338377047,
+    "verb_phrase": "Collect",
+    "placeable_id": 1940086980,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "consumed_item_stacks": [],
+    "output_item_stacks": [
+      {
+        "item_id": 1474261078,
+        "quantity": 1,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "tool_requirements": [],
+    "level_requirements": [],
+    "experience_per_progress": [
+      {
+        "skill_id": 5,
+        "quantity": 0.0
+      }
+    ],
+    "time_requirement": 1.6,
+    "stamina_requirement": 1.41,
+    "tool_durability_lost": 0,
+    "range": 1,
+    "allow_use_hands": true,
+    "power_multiplier": 1.0,
+    "recipe_performance_id": 403,
+    "on_destroy_spawned_placeable_id": 0,
+    "on_destroy_spawned_placeable_chance": 0.0,
+    "on_destroy_outcomes": [],
     "self_buffs": []
   },
   {
@@ -10091,6 +11367,52 @@
     "self_buffs": []
   },
   {
+    "id": 1414716069,
+    "verb_phrase": "Mine",
+    "placeable_id": 381832014,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "consumed_item_stacks": [],
+    "output_item_stacks": [
+      {
+        "item_id": 713667012,
+        "quantity": 1,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "tool_requirements": [
+      {
+        "tool_type": 4,
+        "level": 8,
+        "power": 1
+      }
+    ],
+    "level_requirements": [
+      {
+        "skill_id": 5,
+        "level": 80
+      }
+    ],
+    "experience_per_progress": [
+      {
+        "skill_id": 5,
+        "quantity": 85.0
+      }
+    ],
+    "time_requirement": 3.0,
+    "stamina_requirement": 1.64,
+    "tool_durability_lost": 0,
+    "range": 1,
+    "allow_use_hands": false,
+    "power_multiplier": 1.0,
+    "recipe_performance_id": 975,
+    "on_destroy_spawned_placeable_id": 0,
+    "on_destroy_spawned_placeable_chance": 0.0,
+    "on_destroy_outcomes": [],
+    "self_buffs": []
+  },
+  {
     "id": 1416321190,
     "verb_phrase": "Collect",
     "placeable_id": 956472656,
@@ -10125,6 +11447,52 @@
     "allow_use_hands": true,
     "power_multiplier": 1.0,
     "recipe_performance_id": 403,
+    "on_destroy_spawned_placeable_id": 0,
+    "on_destroy_spawned_placeable_chance": 0.0,
+    "on_destroy_outcomes": [],
+    "self_buffs": []
+  },
+  {
+    "id": 1423821359,
+    "verb_phrase": "Mine",
+    "placeable_id": 191385367,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "consumed_item_stacks": [],
+    "output_item_stacks": [
+      {
+        "item_id": 406807204,
+        "quantity": 1,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "tool_requirements": [
+      {
+        "tool_type": 4,
+        "level": 8,
+        "power": 1
+      }
+    ],
+    "level_requirements": [
+      {
+        "skill_id": 5,
+        "level": 80
+      }
+    ],
+    "experience_per_progress": [
+      {
+        "skill_id": 5,
+        "quantity": 170.0
+      }
+    ],
+    "time_requirement": 3.0,
+    "stamina_requirement": 1.64,
+    "tool_durability_lost": 0,
+    "range": 1,
+    "allow_use_hands": false,
+    "power_multiplier": 1.0,
+    "recipe_performance_id": 975,
     "on_destroy_spawned_placeable_id": 0,
     "on_destroy_spawned_placeable_chance": 0.0,
     "on_destroy_outcomes": [],
@@ -10187,6 +11555,52 @@
         "radius_max": 0
       }
     ],
+    "self_buffs": []
+  },
+  {
+    "id": 1439511845,
+    "verb_phrase": "Mine",
+    "placeable_id": 683530780,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "consumed_item_stacks": [],
+    "output_item_stacks": [
+      {
+        "item_id": 71143585,
+        "quantity": 1,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "tool_requirements": [
+      {
+        "tool_type": 4,
+        "level": 7,
+        "power": 1
+      }
+    ],
+    "level_requirements": [
+      {
+        "skill_id": 5,
+        "level": 70
+      }
+    ],
+    "experience_per_progress": [
+      {
+        "skill_id": 5,
+        "quantity": 160.0
+      }
+    ],
+    "time_requirement": 3.0,
+    "stamina_requirement": 1.52,
+    "tool_durability_lost": 0,
+    "range": 1,
+    "allow_use_hands": false,
+    "power_multiplier": 1.0,
+    "recipe_performance_id": 975,
+    "on_destroy_spawned_placeable_id": 0,
+    "on_destroy_spawned_placeable_chance": 0.0,
+    "on_destroy_outcomes": [],
     "self_buffs": []
   },
   {
@@ -10257,6 +11671,12 @@
       {
         "item_id": 750073180,
         "quantity": 8,
+        "item_type": "Item",
+        "durability": 0
+      },
+      {
+        "item_id": 1773410074,
+        "quantity": 1,
         "item_type": "Item",
         "durability": 0
       }
@@ -10334,6 +11754,41 @@
     "self_buffs": []
   },
   {
+    "id": 1464409660,
+    "verb_phrase": "Collect",
+    "placeable_id": 908683026,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "consumed_item_stacks": [],
+    "output_item_stacks": [
+      {
+        "item_id": 303474458,
+        "quantity": 1,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "tool_requirements": [],
+    "level_requirements": [],
+    "experience_per_progress": [
+      {
+        "skill_id": 5,
+        "quantity": 0.0
+      }
+    ],
+    "time_requirement": 1.6,
+    "stamina_requirement": 1.52,
+    "tool_durability_lost": 0,
+    "range": 1,
+    "allow_use_hands": true,
+    "power_multiplier": 1.0,
+    "recipe_performance_id": 403,
+    "on_destroy_spawned_placeable_id": 0,
+    "on_destroy_spawned_placeable_chance": 0.0,
+    "on_destroy_outcomes": [],
+    "self_buffs": []
+  },
+  {
     "id": 1470136551,
     "verb_phrase": "Collect",
     "placeable_id": 462222848,
@@ -10369,6 +11824,52 @@
     "allow_use_hands": false,
     "power_multiplier": 1.0,
     "recipe_performance_id": 157,
+    "on_destroy_spawned_placeable_id": 0,
+    "on_destroy_spawned_placeable_chance": 0.0,
+    "on_destroy_outcomes": [],
+    "self_buffs": []
+  },
+  {
+    "id": 1470580893,
+    "verb_phrase": "Mine",
+    "placeable_id": 543204533,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "consumed_item_stacks": [],
+    "output_item_stacks": [
+      {
+        "item_id": 1220009,
+        "quantity": 1,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "tool_requirements": [
+      {
+        "tool_type": 4,
+        "level": 1,
+        "power": 1
+      }
+    ],
+    "level_requirements": [
+      {
+        "skill_id": 5,
+        "level": 1
+      }
+    ],
+    "experience_per_progress": [
+      {
+        "skill_id": 5,
+        "quantity": 100.0
+      }
+    ],
+    "time_requirement": 3.0,
+    "stamina_requirement": 0.75,
+    "tool_durability_lost": 0,
+    "range": 1,
+    "allow_use_hands": false,
+    "power_multiplier": 1.0,
+    "recipe_performance_id": 975,
     "on_destroy_spawned_placeable_id": 0,
     "on_destroy_spawned_placeable_chance": 0.0,
     "on_destroy_outcomes": [],
@@ -10464,6 +11965,48 @@
     "self_buffs": []
   },
   {
+    "id": 1502157117,
+    "verb_phrase": "Collect",
+    "placeable_id": 1517062522,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "consumed_item_stacks": [],
+    "output_item_stacks": [
+      {
+        "item_id": 108963576,
+        "quantity": 1,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "tool_requirements": [],
+    "level_requirements": [],
+    "experience_per_progress": [
+      {
+        "skill_id": 5,
+        "quantity": 50.0
+      }
+    ],
+    "time_requirement": 1.6,
+    "stamina_requirement": 0.75,
+    "tool_durability_lost": 0,
+    "range": 1,
+    "allow_use_hands": true,
+    "power_multiplier": 1.0,
+    "recipe_performance_id": 403,
+    "on_destroy_spawned_placeable_id": 0,
+    "on_destroy_spawned_placeable_chance": 0.0,
+    "on_destroy_outcomes": [
+      {
+        "probability": 1.0,
+        "placeable_id": 1279154519,
+        "radius_min": 0,
+        "radius_max": 0
+      }
+    ],
+    "self_buffs": []
+  },
+  {
     "id": 1504403443,
     "verb_phrase": "Fish",
     "placeable_id": 1833233928,
@@ -10504,6 +12047,58 @@
     "allow_use_hands": false,
     "power_multiplier": 1.0,
     "recipe_performance_id": 143,
+    "on_destroy_spawned_placeable_id": 0,
+    "on_destroy_spawned_placeable_chance": 0.0,
+    "on_destroy_outcomes": [],
+    "self_buffs": []
+  },
+  {
+    "id": 1515547907,
+    "verb_phrase": "Mine",
+    "placeable_id": 945670970,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "consumed_item_stacks": [],
+    "output_item_stacks": [
+      {
+        "item_id": 5220009,
+        "quantity": 1,
+        "item_type": "Item",
+        "durability": 0
+      },
+      {
+        "item_id": 1819030496,
+        "quantity": 1,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "tool_requirements": [
+      {
+        "tool_type": 4,
+        "level": 5,
+        "power": 1
+      }
+    ],
+    "level_requirements": [
+      {
+        "skill_id": 5,
+        "level": 50
+      }
+    ],
+    "experience_per_progress": [
+      {
+        "skill_id": 5,
+        "quantity": 140.0
+      }
+    ],
+    "time_requirement": 3.0,
+    "stamina_requirement": 1.28,
+    "tool_durability_lost": 0,
+    "range": 1,
+    "allow_use_hands": false,
+    "power_multiplier": 1.0,
+    "recipe_performance_id": 975,
     "on_destroy_spawned_placeable_id": 0,
     "on_destroy_spawned_placeable_chance": 0.0,
     "on_destroy_outcomes": [],
@@ -10962,6 +12557,12 @@
         "quantity": 1,
         "item_type": "Cargo",
         "durability": null
+      },
+      {
+        "item_id": 1511626325,
+        "quantity": 1,
+        "item_type": "Item",
+        "durability": 0
       }
     ],
     "tool_requirements": [
@@ -11870,6 +13471,48 @@
     "self_buffs": []
   },
   {
+    "id": 1729799322,
+    "verb_phrase": "Collect",
+    "placeable_id": 1372287960,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "consumed_item_stacks": [],
+    "output_item_stacks": [
+      {
+        "item_id": 1534215907,
+        "quantity": 1,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "tool_requirements": [],
+    "level_requirements": [],
+    "experience_per_progress": [
+      {
+        "skill_id": 5,
+        "quantity": 185.0
+      }
+    ],
+    "time_requirement": 1.6,
+    "stamina_requirement": 1.41,
+    "tool_durability_lost": 0,
+    "range": 1,
+    "allow_use_hands": true,
+    "power_multiplier": 1.0,
+    "recipe_performance_id": 403,
+    "on_destroy_spawned_placeable_id": 0,
+    "on_destroy_spawned_placeable_chance": 0.0,
+    "on_destroy_outcomes": [
+      {
+        "probability": 1.0,
+        "placeable_id": 1940086980,
+        "radius_min": 0,
+        "radius_max": 0
+      }
+    ],
+    "self_buffs": []
+  },
+  {
     "id": 1737479472,
     "verb_phrase": "Fish",
     "placeable_id": 902973878,
@@ -12117,6 +13760,12 @@
         "quantity": 1,
         "item_type": "Cargo",
         "durability": null
+      },
+      {
+        "item_id": 1397494579,
+        "quantity": 1,
+        "item_type": "Item",
+        "durability": 0
       }
     ],
     "tool_requirements": [
@@ -12237,6 +13886,100 @@
     "on_destroy_spawned_placeable_id": 0,
     "on_destroy_spawned_placeable_chance": 0.0,
     "on_destroy_outcomes": [],
+    "self_buffs": []
+  },
+  {
+    "id": 1773937500,
+    "verb_phrase": "Mine",
+    "placeable_id": 312052764,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "consumed_item_stacks": [],
+    "output_item_stacks": [
+      {
+        "item_id": 1628651681,
+        "quantity": 1,
+        "item_type": "Item",
+        "durability": 0
+      },
+      {
+        "item_id": 2101010540,
+        "quantity": 1,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "tool_requirements": [
+      {
+        "tool_type": 4,
+        "level": 1,
+        "power": 1
+      }
+    ],
+    "level_requirements": [
+      {
+        "skill_id": 5,
+        "level": 1
+      }
+    ],
+    "experience_per_progress": [
+      {
+        "skill_id": 5,
+        "quantity": 50.0
+      }
+    ],
+    "time_requirement": 3.0,
+    "stamina_requirement": 0.75,
+    "tool_durability_lost": 0,
+    "range": 1,
+    "allow_use_hands": false,
+    "power_multiplier": 1.0,
+    "recipe_performance_id": 975,
+    "on_destroy_spawned_placeable_id": 0,
+    "on_destroy_spawned_placeable_chance": 0.0,
+    "on_destroy_outcomes": [],
+    "self_buffs": []
+  },
+  {
+    "id": 1775370941,
+    "verb_phrase": "Collect",
+    "placeable_id": 966627292,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "consumed_item_stacks": [],
+    "output_item_stacks": [
+      {
+        "item_id": 382801902,
+        "quantity": 1,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "tool_requirements": [],
+    "level_requirements": [],
+    "experience_per_progress": [
+      {
+        "skill_id": 5,
+        "quantity": 110.0
+      }
+    ],
+    "time_requirement": 1.6,
+    "stamina_requirement": 1.16,
+    "tool_durability_lost": 0,
+    "range": 1,
+    "allow_use_hands": true,
+    "power_multiplier": 1.0,
+    "recipe_performance_id": 403,
+    "on_destroy_spawned_placeable_id": 0,
+    "on_destroy_spawned_placeable_chance": 0.0,
+    "on_destroy_outcomes": [
+      {
+        "probability": 1.0,
+        "placeable_id": 465090897,
+        "radius_min": 0,
+        "radius_max": 0
+      }
+    ],
     "self_buffs": []
   },
   {
@@ -12444,6 +14187,58 @@
     "self_buffs": []
   },
   {
+    "id": 1813262956,
+    "verb_phrase": "Mine",
+    "placeable_id": 135703562,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "consumed_item_stacks": [],
+    "output_item_stacks": [
+      {
+        "item_id": 2070339934,
+        "quantity": 1,
+        "item_type": "Item",
+        "durability": 0
+      },
+      {
+        "item_id": 2101010540,
+        "quantity": 1,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "tool_requirements": [
+      {
+        "tool_type": 4,
+        "level": 2,
+        "power": 1
+      }
+    ],
+    "level_requirements": [
+      {
+        "skill_id": 5,
+        "level": 20
+      }
+    ],
+    "experience_per_progress": [
+      {
+        "skill_id": 5,
+        "quantity": 55.0
+      }
+    ],
+    "time_requirement": 3.0,
+    "stamina_requirement": 0.89,
+    "tool_durability_lost": 0,
+    "range": 1,
+    "allow_use_hands": false,
+    "power_multiplier": 1.0,
+    "recipe_performance_id": 975,
+    "on_destroy_spawned_placeable_id": 0,
+    "on_destroy_spawned_placeable_chance": 0.0,
+    "on_destroy_outcomes": [],
+    "self_buffs": []
+  },
+  {
     "id": 1832248670,
     "verb_phrase": "Fish",
     "placeable_id": 185525572,
@@ -12453,6 +14248,12 @@
     "output_item_stacks": [
       {
         "item_id": 210962591,
+        "quantity": 1,
+        "item_type": "Item",
+        "durability": 0
+      },
+      {
+        "item_id": 1929252797,
         "quantity": 1,
         "item_type": "Item",
         "durability": 0
@@ -12546,6 +14347,12 @@
       {
         "item_id": 6110017,
         "quantity": 8,
+        "item_type": "Item",
+        "durability": 0
+      },
+      {
+        "item_id": 1048373137,
+        "quantity": 1,
         "item_type": "Item",
         "durability": 0
       }
@@ -12698,6 +14505,93 @@
         "radius_max": 0
       }
     ],
+    "self_buffs": []
+  },
+  {
+    "id": 1885130946,
+    "verb_phrase": "Collect",
+    "placeable_id": 465090897,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "consumed_item_stacks": [],
+    "output_item_stacks": [
+      {
+        "item_id": 772702954,
+        "quantity": 1,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "tool_requirements": [],
+    "level_requirements": [],
+    "experience_per_progress": [
+      {
+        "skill_id": 5,
+        "quantity": 0.0
+      }
+    ],
+    "time_requirement": 1.6,
+    "stamina_requirement": 1.16,
+    "tool_durability_lost": 0,
+    "range": 1,
+    "allow_use_hands": true,
+    "power_multiplier": 1.0,
+    "recipe_performance_id": 403,
+    "on_destroy_spawned_placeable_id": 0,
+    "on_destroy_spawned_placeable_chance": 0.0,
+    "on_destroy_outcomes": [],
+    "self_buffs": []
+  },
+  {
+    "id": 1892472450,
+    "verb_phrase": "Mine",
+    "placeable_id": 1012062624,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "consumed_item_stacks": [],
+    "output_item_stacks": [
+      {
+        "item_id": 1459215628,
+        "quantity": 1,
+        "item_type": "Item",
+        "durability": 0
+      },
+      {
+        "item_id": 2101010540,
+        "quantity": 1,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "tool_requirements": [
+      {
+        "tool_type": 4,
+        "level": 3,
+        "power": 1
+      }
+    ],
+    "level_requirements": [
+      {
+        "skill_id": 5,
+        "level": 30
+      }
+    ],
+    "experience_per_progress": [
+      {
+        "skill_id": 5,
+        "quantity": 60.0
+      }
+    ],
+    "time_requirement": 3.0,
+    "stamina_requirement": 1.03,
+    "tool_durability_lost": 0,
+    "range": 1,
+    "allow_use_hands": false,
+    "power_multiplier": 1.0,
+    "recipe_performance_id": 975,
+    "on_destroy_spawned_placeable_id": 0,
+    "on_destroy_spawned_placeable_chance": 0.0,
+    "on_destroy_outcomes": [],
     "self_buffs": []
   },
   {
@@ -13212,6 +15106,12 @@
         "quantity": 1,
         "item_type": "Cargo",
         "durability": null
+      },
+      {
+        "item_id": 1995457685,
+        "quantity": 1,
+        "item_type": "Item",
+        "durability": 0
       }
     ],
     "tool_requirements": [

@@ -5581,5 +5581,60 @@
     "implicit_rewards": [],
     "unstartable": false,
     "is_secret": false
+  },
+  {
+    "id": 2127157114,
+    "name": "Fishing V: This Is Where I'd Put My Trophy",
+    "is_hint": false,
+    "stages": [
+      613568272,
+      1060959079,
+      1555247364,
+      519389527,
+      554618048,
+      1533932495,
+      628862090
+    ],
+    "requirements": [
+      {
+        "QuestChain_": 2030167828
+      },
+      {
+        "QuestChain_": 900932728
+      },
+      {
+        "Level_": {
+          "skill_id": 12,
+          "level": 28
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "Experience_": {
+          "skill_id": 12,
+          "quantity": 2000.0
+        }
+      },
+      {
+        "ItemStack_": {
+          "item_id": 146014242,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        }
+      },
+      {
+        "ItemStack_": {
+          "item_id": 1481855641,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        }
+      }
+    ],
+    "implicit_rewards": [],
+    "unstartable": false,
+    "is_secret": false
   }
 ]

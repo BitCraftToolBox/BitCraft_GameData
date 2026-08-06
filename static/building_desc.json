@@ -27901,6 +27901,55 @@
     "destroy_on_unclaim": false
   },
   {
+    "id": 107707572,
+    "functions": [
+      {
+        "function_type": 1002,
+        "level": -1,
+        "crafting_slots": 0,
+        "storage_slots": 0,
+        "cargo_slots": 0,
+        "refining_slots": 0,
+        "refining_cargo_slots": 0,
+        "item_slot_size": 6000,
+        "cargo_slot_size": 6000,
+        "trade_orders": 0,
+        "allowed_item_id_per_slot": [],
+        "concurrent_crafts_per_player": 0,
+        "terraform": false,
+        "housing_slots": 0,
+        "housing_income": 0
+      }
+    ],
+    "name": "Homespun Side Table",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/HomespunSideTable",
+    "icon_asset_name": "PremiumIcons/HomespunSideTable",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      {
+        "x": 0,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      }
+    ],
+    "max_health": 72,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 0.0,
+    "maintenance": 0.0,
+    "build_permission": "Claim",
+    "interact_permission": "Claim",
+    "has_action": true,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false,
+    "destroy_on_unclaim": false
+  },
+  {
     "id": 108518190,
     "functions": [
       {
@@ -29855,6 +29904,85 @@
       {
         "x": 1,
         "z": -1,
+        "footprint_type": "Hitbox"
+      }
+    ],
+    "max_health": 72,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 0.0,
+    "maintenance": 0.0,
+    "build_permission": "Claim",
+    "interact_permission": "Claim",
+    "has_action": true,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false,
+    "destroy_on_unclaim": false
+  },
+  {
+    "id": 183568338,
+    "functions": [
+      {
+        "function_type": 1002,
+        "level": -1,
+        "crafting_slots": 0,
+        "storage_slots": 0,
+        "cargo_slots": 0,
+        "refining_slots": 0,
+        "refining_cargo_slots": 0,
+        "item_slot_size": 6000,
+        "cargo_slot_size": 6000,
+        "trade_orders": 0,
+        "allowed_item_id_per_slot": [],
+        "concurrent_crafts_per_player": 0,
+        "terraform": false,
+        "housing_slots": 0,
+        "housing_income": 0
+      }
+    ],
+    "name": "Homespun Gazebo",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/HomespunGazebo",
+    "icon_asset_name": "PremiumIcons/HomespunGazebo",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      {
+        "x": 0,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 0,
+        "z": -1,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": -1,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 0,
+        "z": 1,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 1,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 1,
+        "z": -1,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": -1,
+        "z": 1,
         "footprint_type": "Hitbox"
       }
     ],
@@ -80798,7 +80926,7 @@
     "light_radius": 0,
     "model_asset_name": "Buildings/T5Building_Chest",
     "icon_asset_name": "GeneratedIcons/Other/Buildings/Storage/ChestSmallT5",
-    "unenterable": false,
+    "unenterable": true,
     "wilderness": false,
     "footprint": [
       {
@@ -84019,6 +84147,55 @@
     "show_in_compendium": false,
     "is_ruins": true,
     "not_deconstructible": false,
+    "destroy_on_unclaim": false
+  },
+  {
+    "id": 1008512330,
+    "functions": [
+      {
+        "function_type": 1,
+        "level": 1,
+        "crafting_slots": 0,
+        "storage_slots": 0,
+        "cargo_slots": 0,
+        "refining_slots": 0,
+        "refining_cargo_slots": 0,
+        "item_slot_size": 6000,
+        "cargo_slot_size": 6000,
+        "trade_orders": 0,
+        "allowed_item_id_per_slot": [],
+        "concurrent_crafts_per_player": 0,
+        "terraform": false,
+        "housing_slots": 0,
+        "housing_income": 0
+      }
+    ],
+    "name": "T1 Quarry Building Center",
+    "description": "Ancient Ruins",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/InvisiblePortal",
+    "icon_asset_name": "",
+    "unenterable": false,
+    "wilderness": true,
+    "footprint": [
+      {
+        "x": 0,
+        "z": 0,
+        "footprint_type": "Walkable"
+      }
+    ],
+    "max_health": 10000,
+    "ignore_damage": true,
+    "defense_level": 10000,
+    "decay": 0.0,
+    "maintenance": 0.0,
+    "build_permission": "None",
+    "interact_permission": "None",
+    "has_action": false,
+    "show_in_compendium": false,
+    "is_ruins": true,
+    "not_deconstructible": true,
     "destroy_on_unclaim": false
   },
   {
@@ -105315,6 +105492,55 @@
     "destroy_on_unclaim": false
   },
   {
+    "id": 1685989390,
+    "functions": [
+      {
+        "function_type": 1002,
+        "level": -1,
+        "crafting_slots": 0,
+        "storage_slots": 0,
+        "cargo_slots": 0,
+        "refining_slots": 0,
+        "refining_cargo_slots": 0,
+        "item_slot_size": 6000,
+        "cargo_slot_size": 6000,
+        "trade_orders": 0,
+        "allowed_item_id_per_slot": [],
+        "concurrent_crafts_per_player": 0,
+        "terraform": false,
+        "housing_slots": 0,
+        "housing_income": 0
+      }
+    ],
+    "name": "Homespun Rug",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/HomespunRug",
+    "icon_asset_name": "PremiumIcons/HomespunRug",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      {
+        "x": 0,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      }
+    ],
+    "max_health": 72,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 0.0,
+    "maintenance": 0.0,
+    "build_permission": "Claim",
+    "interact_permission": "Claim",
+    "has_action": true,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false,
+    "destroy_on_unclaim": false
+  },
+  {
     "id": 1686039573,
     "functions": [
       {
@@ -123874,6 +124100,55 @@
     "build_permission": "Claim",
     "interact_permission": "Claim",
     "has_action": false,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false,
+    "destroy_on_unclaim": false
+  },
+  {
+    "id": 2016384794,
+    "functions": [
+      {
+        "function_type": 1002,
+        "level": -1,
+        "crafting_slots": 0,
+        "storage_slots": 0,
+        "cargo_slots": 0,
+        "refining_slots": 0,
+        "refining_cargo_slots": 0,
+        "item_slot_size": 6000,
+        "cargo_slot_size": 6000,
+        "trade_orders": 0,
+        "allowed_item_id_per_slot": [],
+        "concurrent_crafts_per_player": 0,
+        "terraform": false,
+        "housing_slots": 0,
+        "housing_income": 0
+      }
+    ],
+    "name": "Homespun Lamp",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 10,
+    "model_asset_name": "Buildings/HomespunLamp",
+    "icon_asset_name": "PremiumIcons/HomespunLamp",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      {
+        "x": 0,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      }
+    ],
+    "max_health": 72,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 0.0,
+    "maintenance": 0.0,
+    "build_permission": "Claim",
+    "interact_permission": "Claim",
+    "has_action": true,
     "show_in_compendium": true,
     "is_ruins": false,
     "not_deconstructible": false,
