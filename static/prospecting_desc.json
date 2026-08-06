@@ -45,8 +45,8 @@
     "pct_nodes_for_max_contribution": 0.0,
     "single_contribution_only": false,
     "step_item_stacks": [
-      1,
-      {}
+      0,
+      []
     ]
   },
   {
@@ -96,8 +96,8 @@
     "pct_nodes_for_max_contribution": 0.0,
     "single_contribution_only": false,
     "step_item_stacks": [
-      1,
-      {}
+      0,
+      []
     ]
   },
   {
@@ -148,8 +148,86 @@
     "pct_nodes_for_max_contribution": 0.5,
     "single_contribution_only": false,
     "step_item_stacks": [
-      1,
-      {}
+      0,
+      []
+    ]
+  },
+  {
+    "id": 210654726,
+    "name": "Magnetic Search for Luminite",
+    "description": "Use the magnetic rock to search for a rich luminite deposit. One Magnetic Rock is consumed per use.",
+    "resource_clump_id": 736502665,
+    "placeholder_resource_clump_id": 1776950272,
+    "enemy_ai_desc_id": 0,
+    "is_aquatic_resource": false,
+    "biome_requirements": [
+      9,
+      8,
+      14
+    ],
+    "equipment_requirements": [],
+    "required_items_to_start": [
+      [
+        846939417,
+        1,
+        [
+          0,
+          []
+        ],
+        [
+          1,
+          []
+        ]
+      ]
+    ],
+    "required_items_to_interact_with_reward": [],
+    "consumed_items_by_ability_trigger": [
+      [
+        846939417,
+        1,
+        [
+          0,
+          []
+        ],
+        [
+          1,
+          []
+        ]
+      ]
+    ],
+    "allow_aquatic_prospecting": false,
+    "bread_crumb_count": [
+      0,
+      0
+    ],
+    "bread_crumb_radius": [
+      0,
+      0
+    ],
+    "distance_between_bread_crumbs": [
+      65,
+      80
+    ],
+    "deadzone_angle_between_crumbs": 0.0,
+    "allow_aquatic_bread_crumb": false,
+    "pointer_duration": 0.0,
+    "prospecting_duration": 3.0,
+    "join_radius": 0,
+    "contribution_per_visited_bread_crumb": 100,
+    "breadcrumb_found_message": "You are getting nearer to your target",
+    "resource_uncovered_message": "You see the luminite deposit in the distance",
+    "breadcrumb_found_by_someone_else_message": "You are able to follow someone else's trail",
+    "resource_uncovered_by_someone_else_message": "You are able to follow someone else's trail to the target",
+    "icon_asset_path": "_",
+    "experience_per_node": {
+      "skill_id": 0,
+      "quantity": 0.0
+    },
+    "pct_nodes_for_max_contribution": 0.0,
+    "single_contribution_only": false,
+    "step_item_stacks": [
+      0,
+      []
     ]
   },
   {
@@ -200,8 +278,8 @@
     "pct_nodes_for_max_contribution": 0.0,
     "single_contribution_only": false,
     "step_item_stacks": [
-      1,
-      {}
+      0,
+      []
     ]
   },
   {
@@ -250,8 +328,87 @@
     "pct_nodes_for_max_contribution": 0.0,
     "single_contribution_only": false,
     "step_item_stacks": [
-      1,
-      {}
+      0,
+      []
+    ]
+  },
+  {
+    "id": 264055754,
+    "name": "Magnetic Search for Astralite",
+    "description": "Use the magnetic rock to search for a rich astralite deposit. One Magnetic Rock is consumed per use.",
+    "resource_clump_id": 1747753105,
+    "placeholder_resource_clump_id": 1776950272,
+    "enemy_ai_desc_id": 0,
+    "is_aquatic_resource": false,
+    "biome_requirements": [
+      8,
+      6,
+      3,
+      7
+    ],
+    "equipment_requirements": [],
+    "required_items_to_start": [
+      [
+        296380618,
+        1,
+        [
+          0,
+          []
+        ],
+        [
+          1,
+          []
+        ]
+      ]
+    ],
+    "required_items_to_interact_with_reward": [],
+    "consumed_items_by_ability_trigger": [
+      [
+        296380618,
+        1,
+        [
+          0,
+          []
+        ],
+        [
+          1,
+          []
+        ]
+      ]
+    ],
+    "allow_aquatic_prospecting": false,
+    "bread_crumb_count": [
+      0,
+      0
+    ],
+    "bread_crumb_radius": [
+      0,
+      0
+    ],
+    "distance_between_bread_crumbs": [
+      65,
+      80
+    ],
+    "deadzone_angle_between_crumbs": 0.0,
+    "allow_aquatic_bread_crumb": false,
+    "pointer_duration": 0.0,
+    "prospecting_duration": 3.0,
+    "join_radius": 0,
+    "contribution_per_visited_bread_crumb": 100,
+    "breadcrumb_found_message": "You are getting nearer to your target",
+    "resource_uncovered_message": "You see the astralite deposit in the distance",
+    "breadcrumb_found_by_someone_else_message": "You are able to follow someone else's trail",
+    "resource_uncovered_by_someone_else_message": "You are able to follow someone else's trail to the target",
+    "icon_asset_path": "_",
+    "experience_per_node": {
+      "skill_id": 0,
+      "quantity": 0.0
+    },
+    "pct_nodes_for_max_contribution": 0.0,
+    "single_contribution_only": false,
+    "step_item_stacks": [
+      0,
+      []
     ]
   },
   {
@@ -300,8 +457,8 @@
     "pct_nodes_for_max_contribution": 0.0,
     "single_contribution_only": false,
     "step_item_stacks": [
-      1,
-      {}
+      0,
+      []
     ]
   },
   {
@@ -379,8 +536,86 @@
     "pct_nodes_for_max_contribution": 0.0,
     "single_contribution_only": true,
     "step_item_stacks": [
-      1,
-      {}
+      0,
+      []
+    ]
+  },
+  {
+    "id": 288091159,
+    "name": "Magnetic Search for Elenvar",
+    "description": "Use the magnetic rock to search for a rich elenvar deposit. One Magnetic Rock is consumed per use.",
+    "resource_clump_id": 804852027,
+    "placeholder_resource_clump_id": 1776950272,
+    "enemy_ai_desc_id": 0,
+    "is_aquatic_resource": false,
+    "biome_requirements": [
+      9,
+      6,
+      3
+    ],
+    "equipment_requirements": [],
+    "required_items_to_start": [
+      [
+        1253679667,
+        1,
+        [
+          0,
+          []
+        ],
+        [
+          1,
+          []
+        ]
+      ]
+    ],
+    "required_items_to_interact_with_reward": [],
+    "consumed_items_by_ability_trigger": [
+      [
+        1253679667,
+        1,
+        [
+          0,
+          []
+        ],
+        [
+          1,
+          []
+        ]
+      ]
+    ],
+    "allow_aquatic_prospecting": false,
+    "bread_crumb_count": [
+      0,
+      0
+    ],
+    "bread_crumb_radius": [
+      0,
+      0
+    ],
+    "distance_between_bread_crumbs": [
+      65,
+      80
+    ],
+    "deadzone_angle_between_crumbs": 0.0,
+    "allow_aquatic_bread_crumb": false,
+    "pointer_duration": 0.0,
+    "prospecting_duration": 3.0,
+    "join_radius": 0,
+    "contribution_per_visited_bread_crumb": 100,
+    "breadcrumb_found_message": "You are getting nearer to your target",
+    "resource_uncovered_message": "You see the elenvar deposit in the distance",
+    "breadcrumb_found_by_someone_else_message": "You are able to follow someone else's trail",
+    "resource_uncovered_by_someone_else_message": "You are able to follow someone else's trail to the target",
+    "icon_asset_path": "_",
+    "experience_per_node": {
+      "skill_id": 0,
+      "quantity": 0.0
+    },
+    "pct_nodes_for_max_contribution": 0.0,
+    "single_contribution_only": false,
+    "step_item_stacks": [
+      0,
+      []
     ]
   },
   {
@@ -432,8 +667,8 @@
     "pct_nodes_for_max_contribution": 0.0,
     "single_contribution_only": false,
     "step_item_stacks": [
-      1,
-      {}
+      0,
+      []
     ]
   },
   {
@@ -482,8 +717,138 @@
     "pct_nodes_for_max_contribution": 0.0,
     "single_contribution_only": false,
     "step_item_stacks": [
+      0,
+      []
+    ]
+  },
+  {
+    "id": 307664651,
+    "name": "Magnetic Search for Emarium",
+    "description": "Use the magnetic rock to search for a rich emarium deposit. One Magnetic Rock is consumed per use.",
+    "resource_clump_id": 290131416,
+    "placeholder_resource_clump_id": 1776950272,
+    "enemy_ai_desc_id": 0,
+    "is_aquatic_resource": false,
+    "biome_requirements": [
+      5,
+      2,
+      6,
+      3
+    ],
+    "equipment_requirements": [],
+    "required_items_to_start": [
+      [
+        1459215628,
+        1,
+        [
+          0,
+          []
+        ],
+        [
+          1,
+          []
+        ]
+      ]
+    ],
+    "required_items_to_interact_with_reward": [],
+    "consumed_items_by_ability_trigger": [
+      [
+        1459215628,
+        1,
+        [
+          0,
+          []
+        ],
+        [
+          1,
+          []
+        ]
+      ]
+    ],
+    "allow_aquatic_prospecting": false,
+    "bread_crumb_count": [
+      0,
+      0
+    ],
+    "bread_crumb_radius": [
+      0,
+      0
+    ],
+    "distance_between_bread_crumbs": [
+      65,
+      80
+    ],
+    "deadzone_angle_between_crumbs": 0.0,
+    "allow_aquatic_bread_crumb": false,
+    "pointer_duration": 0.0,
+    "prospecting_duration": 3.0,
+    "join_radius": 0,
+    "contribution_per_visited_bread_crumb": 100,
+    "breadcrumb_found_message": "You are getting nearer to your target",
+    "resource_uncovered_message": "You see the emarium deposit in the distance",
+    "breadcrumb_found_by_someone_else_message": "You are able to follow someone else's trail",
+    "resource_uncovered_by_someone_else_message": "You are able to follow someone else's trail to the target",
+    "icon_asset_path": "_",
+    "experience_per_node": {
+      "skill_id": 0,
+      "quantity": 0.0
+    },
+    "pct_nodes_for_max_contribution": 0.0,
+    "single_contribution_only": false,
+    "step_item_stacks": [
+      0,
+      []
+    ]
+  },
+  {
+    "id": 363660743,
+    "name": "Calcic Ore Prospecting",
+    "description": "Begin a hunt for Calcic Ore or join a nearby hunt that's in progress. Calcic ore can be used to make special jewelry and also gives a lot of experience when mined.",
+    "resource_clump_id": 1750714098,
+    "placeholder_resource_clump_id": 1776950272,
+    "enemy_ai_desc_id": 0,
+    "is_aquatic_resource": false,
+    "biome_requirements": [
       1,
-      {}
+      11
+    ],
+    "equipment_requirements": [],
+    "required_items_to_start": [],
+    "required_items_to_interact_with_reward": [],
+    "consumed_items_by_ability_trigger": [],
+    "allow_aquatic_prospecting": false,
+    "bread_crumb_count": [
+      3,
+      4
+    ],
+    "bread_crumb_radius": [
+      10,
+      12
+    ],
+    "distance_between_bread_crumbs": [
+      90,
+      105
+    ],
+    "deadzone_angle_between_crumbs": 90.0,
+    "allow_aquatic_bread_crumb": false,
+    "pointer_duration": 4.0,
+    "prospecting_duration": 3.0,
+    "join_radius": 40,
+    "contribution_per_visited_bread_crumb": 3,
+    "breadcrumb_found_message": "You're closer to the precious metal!",
+    "resource_uncovered_message": "You found the Calcic ore!",
+    "breadcrumb_found_by_someone_else_message": "You are able to follow someone else's trail",
+    "resource_uncovered_by_someone_else_message": "You are able to follow someone else's trail to the Calcic ore!",
+    "icon_asset_path": ";",
+    "experience_per_node": {
+      "skill_id": 5,
+      "quantity": 50.0
+    },
+    "pct_nodes_for_max_contribution": 0.0,
+    "single_contribution_only": false,
+    "step_item_stacks": [
+      0,
+      []
     ]
   },
   {
@@ -532,8 +897,8 @@
     "pct_nodes_for_max_contribution": 0.0,
     "single_contribution_only": true,
     "step_item_stacks": [
-      1,
-      {}
+      0,
+      []
     ]
   },
   {
@@ -582,8 +947,8 @@
     "pct_nodes_for_max_contribution": 0.0,
     "single_contribution_only": true,
     "step_item_stacks": [
-      1,
-      {}
+      0,
+      []
     ]
   },
   {
@@ -632,8 +997,8 @@
     "pct_nodes_for_max_contribution": 0.0,
     "single_contribution_only": true,
     "step_item_stacks": [
-      1,
-      {}
+      0,
+      []
     ]
   },
   {
@@ -682,8 +1047,8 @@
     "pct_nodes_for_max_contribution": 0.0,
     "single_contribution_only": false,
     "step_item_stacks": [
-      1,
-      {}
+      0,
+      []
     ]
   },
   {
@@ -732,8 +1097,8 @@
     "pct_nodes_for_max_contribution": 0.0,
     "single_contribution_only": false,
     "step_item_stacks": [
-      1,
-      {}
+      0,
+      []
     ]
   },
   {
@@ -782,8 +1147,8 @@
     "pct_nodes_for_max_contribution": 0.0,
     "single_contribution_only": false,
     "step_item_stacks": [
-      1,
-      {}
+      0,
+      []
     ]
   },
   {
@@ -832,8 +1197,167 @@
     "pct_nodes_for_max_contribution": 0.0,
     "single_contribution_only": false,
     "step_item_stacks": [
+      0,
+      []
+    ]
+  },
+  {
+    "id": 596683552,
+    "name": "Magnetic Search for Ferralith",
+    "description": "Use the magnetic rock to search for a rich ferralith vein. One Magnetic Rock is consumed per use.",
+    "resource_clump_id": 1614373956,
+    "placeholder_resource_clump_id": 1776950272,
+    "enemy_ai_desc_id": 0,
+    "is_aquatic_resource": false,
+    "biome_requirements": [
+      5,
       1,
-      {}
+      11,
+      3
+    ],
+    "equipment_requirements": [],
+    "required_items_to_start": [
+      [
+        1628651681,
+        1,
+        [
+          0,
+          []
+        ],
+        [
+          1,
+          []
+        ]
+      ]
+    ],
+    "required_items_to_interact_with_reward": [],
+    "consumed_items_by_ability_trigger": [
+      [
+        1628651681,
+        1,
+        [
+          0,
+          []
+        ],
+        [
+          1,
+          []
+        ]
+      ]
+    ],
+    "allow_aquatic_prospecting": false,
+    "bread_crumb_count": [
+      0,
+      0
+    ],
+    "bread_crumb_radius": [
+      0,
+      0
+    ],
+    "distance_between_bread_crumbs": [
+      65,
+      80
+    ],
+    "deadzone_angle_between_crumbs": 0.0,
+    "allow_aquatic_bread_crumb": false,
+    "pointer_duration": 0.0,
+    "prospecting_duration": 3.0,
+    "join_radius": 0,
+    "contribution_per_visited_bread_crumb": 100,
+    "breadcrumb_found_message": "You are getting nearer to your target",
+    "resource_uncovered_message": "You see the ferralith vein in the distance",
+    "breadcrumb_found_by_someone_else_message": "You are able to follow someone else's trail",
+    "resource_uncovered_by_someone_else_message": "You are able to follow someone else's trail to the target",
+    "icon_asset_path": "_",
+    "experience_per_node": {
+      "skill_id": 0,
+      "quantity": 0.0
+    },
+    "pct_nodes_for_max_contribution": 0.0,
+    "single_contribution_only": false,
+    "step_item_stacks": [
+      0,
+      []
+    ]
+  },
+  {
+    "id": 635834362,
+    "name": "Magnetic Search for Pyrelite",
+    "description": "Use the magnetic rock to search for a rich pyrelite deposit. One Magnetic Rock is consumed per use.",
+    "resource_clump_id": 636377548,
+    "placeholder_resource_clump_id": 1776950272,
+    "enemy_ai_desc_id": 0,
+    "is_aquatic_resource": false,
+    "biome_requirements": [
+      5,
+      1,
+      2,
+      9,
+      7
+    ],
+    "equipment_requirements": [],
+    "required_items_to_start": [
+      [
+        2070339934,
+        1,
+        [
+          0,
+          []
+        ],
+        [
+          1,
+          []
+        ]
+      ]
+    ],
+    "required_items_to_interact_with_reward": [],
+    "consumed_items_by_ability_trigger": [
+      [
+        2070339934,
+        1,
+        [
+          0,
+          []
+        ],
+        [
+          1,
+          []
+        ]
+      ]
+    ],
+    "allow_aquatic_prospecting": false,
+    "bread_crumb_count": [
+      0,
+      0
+    ],
+    "bread_crumb_radius": [
+      0,
+      0
+    ],
+    "distance_between_bread_crumbs": [
+      65,
+      80
+    ],
+    "deadzone_angle_between_crumbs": 0.0,
+    "allow_aquatic_bread_crumb": false,
+    "pointer_duration": 0.0,
+    "prospecting_duration": 3.0,
+    "join_radius": 0,
+    "contribution_per_visited_bread_crumb": 100,
+    "breadcrumb_found_message": "You are getting nearer to your target",
+    "resource_uncovered_message": "You see the pyrelite deposit in the distance",
+    "breadcrumb_found_by_someone_else_message": "You are able to follow someone else's trail",
+    "resource_uncovered_by_someone_else_message": "You are able to follow someone else's trail to the target",
+    "icon_asset_path": "_",
+    "experience_per_node": {
+      "skill_id": 0,
+      "quantity": 0.0
+    },
+    "pct_nodes_for_max_contribution": 0.0,
+    "single_contribution_only": false,
+    "step_item_stacks": [
+      0,
+      []
     ]
   },
   {
@@ -883,8 +1407,8 @@
     "pct_nodes_for_max_contribution": 0.0,
     "single_contribution_only": false,
     "step_item_stacks": [
-      1,
-      {}
+      0,
+      []
     ]
   },
   {
@@ -960,8 +1484,8 @@
     "pct_nodes_for_max_contribution": 0.0,
     "single_contribution_only": true,
     "step_item_stacks": [
-      1,
-      {}
+      0,
+      []
     ]
   },
   {
@@ -1010,8 +1534,8 @@
     "pct_nodes_for_max_contribution": 0.0,
     "single_contribution_only": false,
     "step_item_stacks": [
-      1,
-      {}
+      0,
+      []
     ]
   },
   {
@@ -1060,8 +1584,8 @@
     "pct_nodes_for_max_contribution": 0.0,
     "single_contribution_only": false,
     "step_item_stacks": [
-      1,
-      {}
+      0,
+      []
     ]
   },
   {
@@ -1113,8 +1637,8 @@
     "pct_nodes_for_max_contribution": 0.0,
     "single_contribution_only": false,
     "step_item_stacks": [
-      1,
-      {}
+      0,
+      []
     ]
   },
   {
@@ -1163,8 +1687,8 @@
     "pct_nodes_for_max_contribution": 0.0,
     "single_contribution_only": false,
     "step_item_stacks": [
-      1,
-      {}
+      0,
+      []
     ]
   },
   {
@@ -1213,8 +1737,8 @@
     "pct_nodes_for_max_contribution": 0.0,
     "single_contribution_only": true,
     "step_item_stacks": [
-      1,
-      {}
+      0,
+      []
     ]
   },
   {
@@ -1263,8 +1787,8 @@
     "pct_nodes_for_max_contribution": 0.0,
     "single_contribution_only": false,
     "step_item_stacks": [
-      1,
-      {}
+      0,
+      []
     ]
   },
   {
@@ -1316,8 +1840,8 @@
     "pct_nodes_for_max_contribution": 0.0,
     "single_contribution_only": false,
     "step_item_stacks": [
-      1,
-      {}
+      0,
+      []
     ]
   },
   {
@@ -1366,8 +1890,85 @@
     "pct_nodes_for_max_contribution": 0.0,
     "single_contribution_only": false,
     "step_item_stacks": [
-      1,
-      {}
+      0,
+      []
+    ]
+  },
+  {
+    "id": 1051596996,
+    "name": "Magnetic Search for Rathium",
+    "description": "Use the magnetic rock to search for a rich rathium deposit. One Magnetic Rock is consumed per use.",
+    "resource_clump_id": 1077429311,
+    "placeholder_resource_clump_id": 1776950272,
+    "enemy_ai_desc_id": 0,
+    "is_aquatic_resource": false,
+    "biome_requirements": [
+      2,
+      13
+    ],
+    "equipment_requirements": [],
+    "required_items_to_start": [
+      [
+        1855277511,
+        1,
+        [
+          0,
+          []
+        ],
+        [
+          1,
+          []
+        ]
+      ]
+    ],
+    "required_items_to_interact_with_reward": [],
+    "consumed_items_by_ability_trigger": [
+      [
+        1855277511,
+        1,
+        [
+          0,
+          []
+        ],
+        [
+          1,
+          []
+        ]
+      ]
+    ],
+    "allow_aquatic_prospecting": false,
+    "bread_crumb_count": [
+      0,
+      0
+    ],
+    "bread_crumb_radius": [
+      0,
+      0
+    ],
+    "distance_between_bread_crumbs": [
+      65,
+      80
+    ],
+    "deadzone_angle_between_crumbs": 0.0,
+    "allow_aquatic_bread_crumb": false,
+    "pointer_duration": 0.0,
+    "prospecting_duration": 3.0,
+    "join_radius": 0,
+    "contribution_per_visited_bread_crumb": 100,
+    "breadcrumb_found_message": "You are getting nearer to your target",
+    "resource_uncovered_message": "You see the rathium deposit in the distance",
+    "breadcrumb_found_by_someone_else_message": "You are able to follow someone else's trail",
+    "resource_uncovered_by_someone_else_message": "You are able to follow someone else's trail to the target",
+    "icon_asset_path": "_",
+    "experience_per_node": {
+      "skill_id": 0,
+      "quantity": 0.0
+    },
+    "pct_nodes_for_max_contribution": 0.0,
+    "single_contribution_only": false,
+    "step_item_stacks": [
+      0,
+      []
     ]
   },
   {
@@ -1417,8 +2018,8 @@
     "pct_nodes_for_max_contribution": 0.0,
     "single_contribution_only": false,
     "step_item_stacks": [
-      1,
-      {}
+      0,
+      []
     ]
   },
   {
@@ -1470,8 +2071,8 @@
     "pct_nodes_for_max_contribution": 0.0,
     "single_contribution_only": false,
     "step_item_stacks": [
-      1,
-      {}
+      0,
+      []
     ]
   },
   {
@@ -1520,8 +2121,8 @@
     "pct_nodes_for_max_contribution": 0.0,
     "single_contribution_only": true,
     "step_item_stacks": [
-      1,
-      {}
+      0,
+      []
     ]
   },
   {
@@ -1570,8 +2171,8 @@
     "pct_nodes_for_max_contribution": 0.0,
     "single_contribution_only": true,
     "step_item_stacks": [
-      1,
-      {}
+      0,
+      []
     ]
   },
   {
@@ -1620,8 +2221,8 @@
     "pct_nodes_for_max_contribution": 0.0,
     "single_contribution_only": true,
     "step_item_stacks": [
-      1,
-      {}
+      0,
+      []
     ]
   },
   {
@@ -1670,8 +2271,8 @@
     "pct_nodes_for_max_contribution": 0.0,
     "single_contribution_only": false,
     "step_item_stacks": [
-      1,
-      {}
+      0,
+      []
     ]
   },
   {
@@ -1723,8 +2324,8 @@
     "pct_nodes_for_max_contribution": 0.0,
     "single_contribution_only": false,
     "step_item_stacks": [
-      1,
-      {}
+      0,
+      []
     ]
   },
   {
@@ -1774,8 +2375,8 @@
     "pct_nodes_for_max_contribution": 0.0,
     "single_contribution_only": false,
     "step_item_stacks": [
-      1,
-      {}
+      0,
+      []
     ]
   },
   {
@@ -1824,8 +2425,84 @@
     "pct_nodes_for_max_contribution": 0.0,
     "single_contribution_only": true,
     "step_item_stacks": [
-      1,
-      {}
+      0,
+      []
+    ]
+  },
+  {
+    "id": 1431508122,
+    "name": "Magnetic Search for Umbracite",
+    "description": "Use the magnetic rock to search for a rich umbracite deposit. One Magnetic Rock is consumed per use.",
+    "resource_clump_id": 1198511477,
+    "placeholder_resource_clump_id": 1776950272,
+    "enemy_ai_desc_id": 0,
+    "is_aquatic_resource": false,
+    "biome_requirements": [
+      3
+    ],
+    "equipment_requirements": [],
+    "required_items_to_start": [
+      [
+        631031460,
+        1,
+        [
+          0,
+          []
+        ],
+        [
+          1,
+          []
+        ]
+      ]
+    ],
+    "required_items_to_interact_with_reward": [],
+    "consumed_items_by_ability_trigger": [
+      [
+        631031460,
+        1,
+        [
+          0,
+          []
+        ],
+        [
+          1,
+          []
+        ]
+      ]
+    ],
+    "allow_aquatic_prospecting": false,
+    "bread_crumb_count": [
+      0,
+      0
+    ],
+    "bread_crumb_radius": [
+      0,
+      0
+    ],
+    "distance_between_bread_crumbs": [
+      65,
+      80
+    ],
+    "deadzone_angle_between_crumbs": 0.0,
+    "allow_aquatic_bread_crumb": false,
+    "pointer_duration": 0.0,
+    "prospecting_duration": 3.0,
+    "join_radius": 0,
+    "contribution_per_visited_bread_crumb": 100,
+    "breadcrumb_found_message": "You are getting nearer to your target",
+    "resource_uncovered_message": "You see the umbracite deposit in the distance",
+    "breadcrumb_found_by_someone_else_message": "You are able to follow someone else's trail",
+    "resource_uncovered_by_someone_else_message": "You are able to follow someone else's trail to the target",
+    "icon_asset_path": "_",
+    "experience_per_node": {
+      "skill_id": 0,
+      "quantity": 0.0
+    },
+    "pct_nodes_for_max_contribution": 0.0,
+    "single_contribution_only": false,
+    "step_item_stacks": [
+      0,
+      []
     ]
   },
   {
@@ -1874,8 +2551,8 @@
     "pct_nodes_for_max_contribution": 0.0,
     "single_contribution_only": false,
     "step_item_stacks": [
-      1,
-      {}
+      0,
+      []
     ]
   },
   {
@@ -1926,8 +2603,8 @@
     "pct_nodes_for_max_contribution": 0.0,
     "single_contribution_only": false,
     "step_item_stacks": [
-      1,
-      {}
+      0,
+      []
     ]
   },
   {
@@ -1989,8 +2666,8 @@
     "pct_nodes_for_max_contribution": 0.0,
     "single_contribution_only": false,
     "step_item_stacks": [
-      1,
-      {}
+      0,
+      []
     ]
   },
   {
@@ -2039,8 +2716,8 @@
     "pct_nodes_for_max_contribution": 0.0,
     "single_contribution_only": true,
     "step_item_stacks": [
-      1,
-      {}
+      0,
+      []
     ]
   },
   {
@@ -2089,8 +2766,85 @@
     "pct_nodes_for_max_contribution": 0.0,
     "single_contribution_only": true,
     "step_item_stacks": [
-      1,
-      {}
+      0,
+      []
+    ]
+  },
+  {
+    "id": 1713970676,
+    "name": "Magnetic Search for Celestium",
+    "description": "Use the magnetic rock to search for a rich celestium deposit. One Magnetic Rock is consumed per use.",
+    "resource_clump_id": 1242524766,
+    "placeholder_resource_clump_id": 1776950272,
+    "enemy_ai_desc_id": 0,
+    "is_aquatic_resource": false,
+    "biome_requirements": [
+      3,
+      14
+    ],
+    "equipment_requirements": [],
+    "required_items_to_start": [
+      [
+        713667012,
+        1,
+        [
+          0,
+          []
+        ],
+        [
+          1,
+          []
+        ]
+      ]
+    ],
+    "required_items_to_interact_with_reward": [],
+    "consumed_items_by_ability_trigger": [
+      [
+        713667012,
+        1,
+        [
+          0,
+          []
+        ],
+        [
+          1,
+          []
+        ]
+      ]
+    ],
+    "allow_aquatic_prospecting": false,
+    "bread_crumb_count": [
+      0,
+      0
+    ],
+    "bread_crumb_radius": [
+      0,
+      0
+    ],
+    "distance_between_bread_crumbs": [
+      65,
+      80
+    ],
+    "deadzone_angle_between_crumbs": 0.0,
+    "allow_aquatic_bread_crumb": false,
+    "pointer_duration": 0.0,
+    "prospecting_duration": 3.0,
+    "join_radius": 0,
+    "contribution_per_visited_bread_crumb": 100,
+    "breadcrumb_found_message": "You are getting nearer to your target",
+    "resource_uncovered_message": "You see the celestium deposit in the distance",
+    "breadcrumb_found_by_someone_else_message": "You are able to follow someone else's trail",
+    "resource_uncovered_by_someone_else_message": "You are able to follow someone else's trail to the target",
+    "icon_asset_path": "_",
+    "experience_per_node": {
+      "skill_id": 0,
+      "quantity": 0.0
+    },
+    "pct_nodes_for_max_contribution": 0.0,
+    "single_contribution_only": false,
+    "step_item_stacks": [
+      0,
+      []
     ]
   },
   {
@@ -2139,8 +2893,8 @@
     "pct_nodes_for_max_contribution": 0.0,
     "single_contribution_only": false,
     "step_item_stacks": [
-      1,
-      {}
+      0,
+      []
     ]
   },
   {
@@ -2191,8 +2945,8 @@
     "pct_nodes_for_max_contribution": 0.0,
     "single_contribution_only": false,
     "step_item_stacks": [
-      1,
-      {}
+      0,
+      []
     ]
   },
   {
@@ -2241,8 +2995,8 @@
     "pct_nodes_for_max_contribution": 0.0,
     "single_contribution_only": false,
     "step_item_stacks": [
-      1,
-      {}
+      0,
+      []
     ]
   },
   {
@@ -2291,8 +3045,8 @@
     "pct_nodes_for_max_contribution": 0.0,
     "single_contribution_only": false,
     "step_item_stacks": [
-      1,
-      {}
+      0,
+      []
     ]
   },
   {
@@ -2341,8 +3095,86 @@
     "pct_nodes_for_max_contribution": 0.0,
     "single_contribution_only": false,
     "step_item_stacks": [
-      1,
-      {}
+      0,
+      []
+    ]
+  },
+  {
+    "id": 1825219575,
+    "name": "Magnetic Search for Aurumite",
+    "description": "Use the magnetic rock to search for a rich aurumite deposit. One Magnetic Rock is consumed per use.",
+    "resource_clump_id": 1216104817,
+    "placeholder_resource_clump_id": 1776950272,
+    "enemy_ai_desc_id": 0,
+    "is_aquatic_resource": false,
+    "biome_requirements": [
+      6,
+      9,
+      7
+    ],
+    "equipment_requirements": [],
+    "required_items_to_start": [
+      [
+        251620386,
+        1,
+        [
+          0,
+          []
+        ],
+        [
+          1,
+          []
+        ]
+      ]
+    ],
+    "required_items_to_interact_with_reward": [],
+    "consumed_items_by_ability_trigger": [
+      [
+        251620386,
+        1,
+        [
+          0,
+          []
+        ],
+        [
+          1,
+          []
+        ]
+      ]
+    ],
+    "allow_aquatic_prospecting": false,
+    "bread_crumb_count": [
+      0,
+      0
+    ],
+    "bread_crumb_radius": [
+      0,
+      0
+    ],
+    "distance_between_bread_crumbs": [
+      65,
+      80
+    ],
+    "deadzone_angle_between_crumbs": 0.0,
+    "allow_aquatic_bread_crumb": false,
+    "pointer_duration": 0.0,
+    "prospecting_duration": 3.0,
+    "join_radius": 0,
+    "contribution_per_visited_bread_crumb": 100,
+    "breadcrumb_found_message": "You are getting nearer to your target",
+    "resource_uncovered_message": "You see the aurumite deposit in the distance",
+    "breadcrumb_found_by_someone_else_message": "You are able to follow someone else's trail",
+    "resource_uncovered_by_someone_else_message": "You are able to follow someone else's trail to the target",
+    "icon_asset_path": "_",
+    "experience_per_node": {
+      "skill_id": 0,
+      "quantity": 0.0
+    },
+    "pct_nodes_for_max_contribution": 0.0,
+    "single_contribution_only": false,
+    "step_item_stacks": [
+      0,
+      []
     ]
   },
   {
@@ -2391,8 +3223,8 @@
     "pct_nodes_for_max_contribution": 0.0,
     "single_contribution_only": false,
     "step_item_stacks": [
-      1,
-      {}
+      0,
+      []
     ]
   },
   {
@@ -2444,8 +3276,8 @@
     "pct_nodes_for_max_contribution": 0.0,
     "single_contribution_only": false,
     "step_item_stacks": [
-      1,
-      {}
+      0,
+      []
     ]
   },
   {
@@ -2495,8 +3327,8 @@
     "pct_nodes_for_max_contribution": 0.0,
     "single_contribution_only": false,
     "step_item_stacks": [
-      1,
-      {}
+      0,
+      []
     ]
   },
   {
@@ -2545,8 +3377,8 @@
     "pct_nodes_for_max_contribution": 0.0,
     "single_contribution_only": false,
     "step_item_stacks": [
-      1,
-      {}
+      0,
+      []
     ]
   },
   {
@@ -2596,8 +3428,8 @@
     "pct_nodes_for_max_contribution": 0.0,
     "single_contribution_only": false,
     "step_item_stacks": [
-      1,
-      {}
+      0,
+      []
     ]
   },
   {
@@ -2646,8 +3478,8 @@
     "pct_nodes_for_max_contribution": 0.0,
     "single_contribution_only": false,
     "step_item_stacks": [
-      1,
-      {}
+      0,
+      []
     ]
   }
 ]
