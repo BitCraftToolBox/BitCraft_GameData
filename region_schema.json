@@ -16823,6 +16823,37 @@
                   ]
                 }
               }
+            },
+            {
+              "name": {
+                "some": "self_buffs"
+              },
+              "algebraic_type": {
+                "Sum": {
+                  "variants": [
+                    {
+                      "name": {
+                        "some": "some"
+                      },
+                      "algebraic_type": {
+                        "Array": {
+                          "Ref": 276
+                        }
+                      }
+                    },
+                    {
+                      "name": {
+                        "some": "none"
+                      },
+                      "algebraic_type": {
+                        "Product": {
+                          "elements": []
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
             }
           ]
         }
@@ -16976,6 +17007,57 @@
           "elements": [
             {
               "name": {
+                "some": "buff_id"
+              },
+              "algebraic_type": {
+                "I32": []
+              }
+            },
+            {
+              "name": {
+                "some": "chance"
+              },
+              "algebraic_type": {
+                "F32": []
+              }
+            },
+            {
+              "name": {
+                "some": "duration"
+              },
+              "algebraic_type": {
+                "Sum": {
+                  "variants": [
+                    {
+                      "name": {
+                        "some": "some"
+                      },
+                      "algebraic_type": {
+                        "I32": []
+                      }
+                    },
+                    {
+                      "name": {
+                        "some": "none"
+                      },
+                      "algebraic_type": {
+                        "Product": {
+                          "elements": []
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Product": {
+          "elements": [
+            {
+              "name": {
                 "some": "item_id"
               },
               "algebraic_type": {
@@ -17047,6 +17129,45 @@
                   "Ref": 3
                 }
               }
+            },
+            {
+              "name": {
+                "some": "auto_consume"
+              },
+              "algebraic_type": {
+                "Bool": []
+              }
+            },
+            {
+              "name": {
+                "some": "output_item_stacks"
+              },
+              "algebraic_type": {
+                "Sum": {
+                  "variants": [
+                    {
+                      "name": {
+                        "some": "some"
+                      },
+                      "algebraic_type": {
+                        "Array": {
+                          "Ref": 41
+                        }
+                      }
+                    },
+                    {
+                      "name": {
+                        "some": "none"
+                      },
+                      "algebraic_type": {
+                        "Product": {
+                          "elements": []
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
             }
           ]
         }
@@ -17089,7 +17210,7 @@
                 "some": "hex_direction"
               },
               "algebraic_type": {
-                "Ref": 279
+                "Ref": 280
               }
             },
             {
@@ -17097,7 +17218,7 @@
                 "some": "float_hex_tile"
               },
               "algebraic_type": {
-                "Ref": 280
+                "Ref": 281
               }
             },
             {
@@ -17105,7 +17226,7 @@
                 "some": "chunk_coordinates_message"
               },
               "algebraic_type": {
-                "Ref": 281
+                "Ref": 282
               }
             },
             {
@@ -17113,7 +17234,7 @@
                 "some": "claim_permission"
               },
               "algebraic_type": {
-                "Ref": 282
+                "Ref": 283
               }
             },
             {
@@ -17121,7 +17242,7 @@
                 "some": "large_hex_tile_message"
               },
               "algebraic_type": {
-                "Ref": 283
+                "Ref": 284
               }
             },
             {
@@ -17129,7 +17250,7 @@
                 "some": "terrain_cell"
               },
               "algebraic_type": {
-                "Ref": 284
+                "Ref": 285
               }
             },
             {
@@ -17137,7 +17258,7 @@
                 "some": "item_conversion_locatin_context"
               },
               "algebraic_type": {
-                "Ref": 285
+                "Ref": 286
               }
             }
           ]
@@ -17551,7 +17672,7 @@
                 "some": "size"
               },
               "algebraic_type": {
-                "Ref": 289
+                "Ref": 290
               }
             },
             {
@@ -17559,7 +17680,7 @@
                 "some": "land_curve"
               },
               "algebraic_type": {
-                "Ref": 290
+                "Ref": 291
               }
             },
             {
@@ -17583,7 +17704,7 @@
                 "some": "world_map"
               },
               "algebraic_type": {
-                "Ref": 292
+                "Ref": 293
               }
             },
             {
@@ -17591,7 +17712,7 @@
                 "some": "biomes_map"
               },
               "algebraic_type": {
-                "Ref": 296
+                "Ref": 297
               }
             },
             {
@@ -17599,7 +17720,7 @@
                 "some": "mountains_map"
               },
               "algebraic_type": {
-                "Ref": 302
+                "Ref": 303
               }
             },
             {
@@ -17607,7 +17728,7 @@
                 "some": "buildings_map"
               },
               "algebraic_type": {
-                "Ref": 305
+                "Ref": 306
               }
             },
             {
@@ -17615,7 +17736,7 @@
                 "some": "resources_map"
               },
               "algebraic_type": {
-                "Ref": 307
+                "Ref": 308
               }
             }
           ]
@@ -17652,7 +17773,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 291
+                  "Ref": 292
                 }
               }
             }
@@ -17714,7 +17835,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 293
+                  "Ref": 294
                 }
               }
             }
@@ -17729,7 +17850,7 @@
                 "some": "noise_specs"
               },
               "algebraic_type": {
-                "Ref": 294
+                "Ref": 295
               }
             },
             {
@@ -17737,7 +17858,7 @@
                 "some": "bounds"
               },
               "algebraic_type": {
-                "Ref": 295
+                "Ref": 296
               }
             },
             {
@@ -17844,7 +17965,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 297
+                  "Ref": 298
                 }
               }
             },
@@ -17869,7 +17990,7 @@
                 "some": "distance_to_sea_curve"
               },
               "algebraic_type": {
-                "Ref": 290
+                "Ref": 291
               }
             },
             {
@@ -17877,7 +17998,7 @@
                 "some": "distance_to_biomes_curve"
               },
               "algebraic_type": {
-                "Ref": 290
+                "Ref": 291
               }
             },
             {
@@ -17893,7 +18014,7 @@
                 "some": "noise_sea_multiplier"
               },
               "algebraic_type": {
-                "Ref": 290
+                "Ref": 291
               }
             },
             {
@@ -17902,7 +18023,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 298
+                  "Ref": 299
                 }
               }
             },
@@ -17935,7 +18056,7 @@
                 "some": "lake_noise_specs"
               },
               "algebraic_type": {
-                "Ref": 294
+                "Ref": 295
               }
             },
             {
@@ -17982,7 +18103,7 @@
                         "some": "some"
                       },
                       "algebraic_type": {
-                        "Ref": 300
+                        "Ref": 301
                       }
                     },
                     {
@@ -18010,7 +18131,7 @@
                 "some": "blending_mode"
               },
               "algebraic_type": {
-                "Ref": 299
+                "Ref": 300
               }
             },
             {
@@ -18026,7 +18147,7 @@
                 "some": "range"
               },
               "algebraic_type": {
-                "Ref": 289
+                "Ref": 290
               }
             },
             {
@@ -18034,7 +18155,7 @@
                 "some": "noise"
               },
               "algebraic_type": {
-                "Ref": 294
+                "Ref": 295
               }
             }
           ]
@@ -18082,7 +18203,7 @@
                 "some": "depth_curve"
               },
               "algebraic_type": {
-                "Ref": 290
+                "Ref": 291
               }
             },
             {
@@ -18115,7 +18236,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 301
+                  "Ref": 302
                 }
               }
             }
@@ -18130,7 +18251,7 @@
                 "some": "elevation_difference_range"
               },
               "algebraic_type": {
-                "Ref": 289
+                "Ref": 290
               }
             },
             {
@@ -18153,7 +18274,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 303
+                  "Ref": 304
                 }
               }
             }
@@ -18168,7 +18289,7 @@
                 "some": "center"
               },
               "algebraic_type": {
-                "Ref": 304
+                "Ref": 305
               }
             },
             {
@@ -18192,7 +18313,7 @@
                 "some": "peak_offset"
               },
               "algebraic_type": {
-                "Ref": 304
+                "Ref": 305
               }
             },
             {
@@ -18200,7 +18321,7 @@
                 "some": "shape"
               },
               "algebraic_type": {
-                "Ref": 290
+                "Ref": 291
               }
             }
           ]
@@ -18237,7 +18358,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 306
+                  "Ref": 307
                 }
               }
             }
@@ -18291,7 +18412,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 308
+                  "Ref": 309
                 }
               }
             }
@@ -18306,7 +18427,7 @@
                 "some": "resource_details"
               },
               "algebraic_type": {
-                "Ref": 309
+                "Ref": 310
               }
             },
             {
@@ -18315,7 +18436,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 310
+                  "Ref": 311
                 }
               }
             }
@@ -18346,7 +18467,7 @@
                 "some": "land_elevation_range"
               },
               "algebraic_type": {
-                "Ref": 289
+                "Ref": 290
               }
             },
             {
@@ -18362,7 +18483,7 @@
                 "some": "water_depth_range"
               },
               "algebraic_type": {
-                "Ref": 289
+                "Ref": 290
               }
             },
             {
@@ -18400,7 +18521,7 @@
                 "some": "noise_threshold"
               },
               "algebraic_type": {
-                "Ref": 304
+                "Ref": 305
               }
             },
             {
@@ -18408,7 +18529,7 @@
                 "some": "noise_specs"
               },
               "algebraic_type": {
-                "Ref": 294
+                "Ref": 295
               }
             }
           ]
@@ -18886,7 +19007,7 @@
                 "some": "role"
               },
               "algebraic_type": {
-                "Ref": 320
+                "Ref": 321
               }
             }
           ]
@@ -19485,7 +19606,7 @@
                 "some": "spawn_type"
               },
               "algebraic_type": {
-                "Ref": 328
+                "Ref": 329
               }
             },
             {
@@ -19658,7 +19779,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 330
+                  "Ref": 331
                 }
               }
             },
@@ -20016,7 +20137,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 334
+                  "Ref": 335
                 }
               }
             }
@@ -20064,7 +20185,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 336
+                  "Ref": 337
                 }
               }
             }
@@ -20087,7 +20208,7 @@
                 "some": "state"
               },
               "algebraic_type": {
-                "Ref": 337
+                "Ref": 338
               }
             }
           ]
@@ -20146,7 +20267,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 336
+                  "Ref": 337
                 }
               }
             }
@@ -20170,7 +20291,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 336
+                  "Ref": 337
                 }
               }
             }
@@ -20194,7 +20315,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 336
+                  "Ref": 337
                 }
               }
             }
@@ -20218,7 +20339,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 336
+                  "Ref": 337
                 }
               }
             }
@@ -20242,7 +20363,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 336
+                  "Ref": 337
                 }
               }
             }
@@ -20266,7 +20387,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 336
+                  "Ref": 337
                 }
               }
             }
@@ -20290,7 +20411,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 336
+                  "Ref": 337
                 }
               }
             }
@@ -20314,7 +20435,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 336
+                  "Ref": 337
                 }
               }
             }
@@ -20338,7 +20459,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 336
+                  "Ref": 337
                 }
               }
             }
@@ -20362,7 +20483,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 336
+                  "Ref": 337
                 }
               }
             }
@@ -20386,7 +20507,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 336
+                  "Ref": 337
                 }
               }
             }
@@ -20410,7 +20531,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 336
+                  "Ref": 337
                 }
               }
             }
@@ -20434,7 +20555,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 336
+                  "Ref": 337
                 }
               }
             }
@@ -20458,7 +20579,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 336
+                  "Ref": 337
                 }
               }
             }
@@ -20482,7 +20603,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 336
+                  "Ref": 337
                 }
               }
             }
@@ -20506,7 +20627,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 354
+                  "Ref": 355
                 }
               }
             }
@@ -20529,7 +20650,7 @@
                 "some": "state"
               },
               "algebraic_type": {
-                "Ref": 337
+                "Ref": 338
               }
             }
           ]
@@ -20644,7 +20765,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 336
+                  "Ref": 337
                 }
               }
             }
@@ -20692,7 +20813,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 336
+                  "Ref": 337
                 }
               }
             }
@@ -20726,7 +20847,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 361
+                  "Ref": 362
                 }
               }
             },
@@ -20736,7 +20857,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 361
+                  "Ref": 362
                 }
               }
             },
@@ -22162,7 +22283,7 @@
                       },
                       "algebraic_type": {
                         "Array": {
-                          "Ref": 374
+                          "Ref": 375
                         }
                       }
                     },
@@ -22286,7 +22407,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 376
+                  "Ref": 377
                 }
               }
             },
@@ -22296,7 +22417,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 376
+                  "Ref": 377
                 }
               }
             }
@@ -22319,7 +22440,7 @@
                 "some": "move_type"
               },
               "algebraic_type": {
-                "Ref": 377
+                "Ref": 378
               }
             }
           ]
@@ -22922,7 +23043,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 384
+                  "Ref": 385
                 }
               }
             },
@@ -22947,7 +23068,7 @@
                       },
                       "algebraic_type": {
                         "Array": {
-                          "Ref": 385
+                          "Ref": 386
                         }
                       }
                     },
@@ -23210,7 +23331,7 @@
                       },
                       "algebraic_type": {
                         "Array": {
-                          "Ref": 385
+                          "Ref": 386
                         }
                       }
                     },
@@ -23241,59 +23362,8 @@
                       },
                       "algebraic_type": {
                         "Array": {
-                          "Ref": 387
+                          "Ref": 276
                         }
-                      }
-                    },
-                    {
-                      "name": {
-                        "some": "none"
-                      },
-                      "algebraic_type": {
-                        "Product": {
-                          "elements": []
-                        }
-                      }
-                    }
-                  ]
-                }
-              }
-            }
-          ]
-        }
-      },
-      {
-        "Product": {
-          "elements": [
-            {
-              "name": {
-                "some": "buff_id"
-              },
-              "algebraic_type": {
-                "I32": []
-              }
-            },
-            {
-              "name": {
-                "some": "chance"
-              },
-              "algebraic_type": {
-                "F32": []
-              }
-            },
-            {
-              "name": {
-                "some": "duration"
-              },
-              "algebraic_type": {
-                "Sum": {
-                  "variants": [
-                    {
-                      "name": {
-                        "some": "some"
-                      },
-                      "algebraic_type": {
-                        "I32": []
                       }
                     },
                     {
@@ -23541,7 +23611,7 @@
                       },
                       "algebraic_type": {
                         "Array": {
-                          "Ref": 387
+                          "Ref": 276
                         }
                       }
                     },
@@ -25123,6 +25193,37 @@
               },
               "algebraic_type": {
                 "Bool": []
+              }
+            },
+            {
+              "name": {
+                "some": "step_item_stacks"
+              },
+              "algebraic_type": {
+                "Sum": {
+                  "variants": [
+                    {
+                      "name": {
+                        "some": "some"
+                      },
+                      "algebraic_type": {
+                        "Array": {
+                          "Ref": 41
+                        }
+                      }
+                    },
+                    {
+                      "name": {
+                        "some": "none"
+                      },
+                      "algebraic_type": {
+                        "Product": {
+                          "elements": []
+                        }
+                      }
+                    }
+                  ]
+                }
               }
             }
           ]
@@ -29809,7 +29910,7 @@
                 "some": "Insert"
               },
               "algebraic_type": {
-                "Ref": 319
+                "Ref": 320
               }
             },
             {
@@ -29817,7 +29918,7 @@
                 "some": "Delete"
               },
               "algebraic_type": {
-                "Ref": 319
+                "Ref": 320
               }
             }
           ]
@@ -29831,7 +29932,7 @@
                 "some": "Insert"
               },
               "algebraic_type": {
-                "Ref": 362
+                "Ref": 363
               }
             },
             {
@@ -29839,7 +29940,7 @@
                 "some": "Delete"
               },
               "algebraic_type": {
-                "Ref": 362
+                "Ref": 363
               }
             }
           ]
@@ -30481,7 +30582,7 @@
                 "some": "original_location"
               },
               "algebraic_type": {
-                "Ref": 280
+                "Ref": 281
               }
             },
             {
@@ -30489,7 +30590,7 @@
                 "some": "destination_location"
               },
               "algebraic_type": {
-                "Ref": 280
+                "Ref": 281
               }
             },
             {
@@ -30549,7 +30650,7 @@
                         "some": "some"
                       },
                       "algebraic_type": {
-                        "Ref": 329
+                        "Ref": 330
                       }
                     },
                     {
@@ -30595,7 +30696,7 @@
                 "some": "health_state"
               },
               "algebraic_type": {
-                "Ref": 315
+                "Ref": 316
               }
             },
             {
@@ -30627,7 +30728,7 @@
                 "some": "knowledge_achievement_state"
               },
               "algebraic_type": {
-                "Ref": 335
+                "Ref": 336
               }
             },
             {
@@ -30635,7 +30736,7 @@
                 "some": "knowledge_battle_action_state"
               },
               "algebraic_type": {
-                "Ref": 338
+                "Ref": 339
               }
             },
             {
@@ -30643,7 +30744,7 @@
                 "some": "knowledge_building_state"
               },
               "algebraic_type": {
-                "Ref": 339
+                "Ref": 340
               }
             },
             {
@@ -30651,7 +30752,7 @@
                 "some": "knowledge_cargo_state"
               },
               "algebraic_type": {
-                "Ref": 340
+                "Ref": 341
               }
             },
             {
@@ -30659,7 +30760,7 @@
                 "some": "knowledge_construction_state"
               },
               "algebraic_type": {
-                "Ref": 341
+                "Ref": 342
               }
             },
             {
@@ -30667,7 +30768,7 @@
                 "some": "knowledge_resource_placement_state"
               },
               "algebraic_type": {
-                "Ref": 351
+                "Ref": 352
               }
             },
             {
@@ -30675,7 +30776,7 @@
                 "some": "knowledge_craft_state"
               },
               "algebraic_type": {
-                "Ref": 342
+                "Ref": 343
               }
             },
             {
@@ -30683,7 +30784,7 @@
                 "some": "knowledge_enemy_state"
               },
               "algebraic_type": {
-                "Ref": 344
+                "Ref": 345
               }
             },
             {
@@ -30691,7 +30792,7 @@
                 "some": "knowledge_extract_state"
               },
               "algebraic_type": {
-                "Ref": 345
+                "Ref": 346
               }
             },
             {
@@ -30699,7 +30800,7 @@
                 "some": "knowledge_item_state"
               },
               "algebraic_type": {
-                "Ref": 346
+                "Ref": 347
               }
             },
             {
@@ -30707,7 +30808,7 @@
                 "some": "knowledge_lore_state"
               },
               "algebraic_type": {
-                "Ref": 347
+                "Ref": 348
               }
             },
             {
@@ -30715,7 +30816,7 @@
                 "some": "knowledge_npc_state"
               },
               "algebraic_type": {
-                "Ref": 348
+                "Ref": 349
               }
             },
             {
@@ -30723,7 +30824,7 @@
                 "some": "knowledge_resource_state"
               },
               "algebraic_type": {
-                "Ref": 352
+                "Ref": 353
               }
             },
             {
@@ -30731,7 +30832,7 @@
                 "some": "knowledge_ruins_state"
               },
               "algebraic_type": {
-                "Ref": 353
+                "Ref": 354
               }
             },
             {
@@ -30739,7 +30840,7 @@
                 "some": "knowledge_secondary_state"
               },
               "algebraic_type": {
-                "Ref": 357
+                "Ref": 358
               }
             },
             {
@@ -30747,7 +30848,7 @@
                 "some": "knowledge_vault_state"
               },
               "algebraic_type": {
-                "Ref": 359
+                "Ref": 360
               }
             },
             {
@@ -30755,7 +30856,7 @@
                 "some": "knowledge_deployable_state"
               },
               "algebraic_type": {
-                "Ref": 343
+                "Ref": 344
               }
             },
             {
@@ -30763,7 +30864,7 @@
                 "some": "knowledge_paving_state"
               },
               "algebraic_type": {
-                "Ref": 349
+                "Ref": 350
               }
             },
             {
@@ -30779,7 +30880,7 @@
                 "some": "knowledge_pillar_shaping_state"
               },
               "algebraic_type": {
-                "Ref": 350
+                "Ref": 351
               }
             },
             {
@@ -30796,7 +30897,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 329
+                  "Ref": 330
                 }
               }
             },
@@ -30929,7 +31030,7 @@
                 "some": "onboarding_state"
               },
               "algebraic_type": {
-                "Ref": 372
+                "Ref": 373
               }
             },
             {
@@ -31143,7 +31244,7 @@
                 "some": "state"
               },
               "algebraic_type": {
-                "Ref": 337
+                "Ref": 338
               }
             }
           ]
@@ -33011,7 +33112,7 @@
                 "some": "original_location"
               },
               "algebraic_type": {
-                "Ref": 280
+                "Ref": 281
               }
             },
             {
@@ -33019,7 +33120,7 @@
                 "some": "destination_location"
               },
               "algebraic_type": {
-                "Ref": 280
+                "Ref": 281
               }
             },
             {
@@ -33079,7 +33180,7 @@
                         "some": "some"
                       },
                       "algebraic_type": {
-                        "Ref": 329
+                        "Ref": 330
                       }
                     },
                     {
@@ -33125,7 +33226,7 @@
                 "some": "health_state"
               },
               "algebraic_type": {
-                "Ref": 315
+                "Ref": 316
               }
             },
             {
@@ -33157,7 +33258,7 @@
                 "some": "knowledge_achievement_state"
               },
               "algebraic_type": {
-                "Ref": 335
+                "Ref": 336
               }
             },
             {
@@ -33165,7 +33266,7 @@
                 "some": "knowledge_battle_action_state"
               },
               "algebraic_type": {
-                "Ref": 338
+                "Ref": 339
               }
             },
             {
@@ -33173,7 +33274,7 @@
                 "some": "knowledge_building_state"
               },
               "algebraic_type": {
-                "Ref": 339
+                "Ref": 340
               }
             },
             {
@@ -33181,7 +33282,7 @@
                 "some": "knowledge_cargo_state"
               },
               "algebraic_type": {
-                "Ref": 340
+                "Ref": 341
               }
             },
             {
@@ -33189,7 +33290,7 @@
                 "some": "knowledge_construction_state"
               },
               "algebraic_type": {
-                "Ref": 341
+                "Ref": 342
               }
             },
             {
@@ -33197,7 +33298,7 @@
                 "some": "knowledge_resource_placement_state"
               },
               "algebraic_type": {
-                "Ref": 351
+                "Ref": 352
               }
             },
             {
@@ -33205,7 +33306,7 @@
                 "some": "knowledge_craft_state"
               },
               "algebraic_type": {
-                "Ref": 342
+                "Ref": 343
               }
             },
             {
@@ -33213,7 +33314,7 @@
                 "some": "knowledge_enemy_state"
               },
               "algebraic_type": {
-                "Ref": 344
+                "Ref": 345
               }
             },
             {
@@ -33221,7 +33322,7 @@
                 "some": "knowledge_extract_state"
               },
               "algebraic_type": {
-                "Ref": 345
+                "Ref": 346
               }
             },
             {
@@ -33229,7 +33330,7 @@
                 "some": "knowledge_item_state"
               },
               "algebraic_type": {
-                "Ref": 346
+                "Ref": 347
               }
             },
             {
@@ -33237,7 +33338,7 @@
                 "some": "knowledge_lore_state"
               },
               "algebraic_type": {
-                "Ref": 347
+                "Ref": 348
               }
             },
             {
@@ -33245,7 +33346,7 @@
                 "some": "knowledge_npc_state"
               },
               "algebraic_type": {
-                "Ref": 348
+                "Ref": 349
               }
             },
             {
@@ -33253,7 +33354,7 @@
                 "some": "knowledge_resource_state"
               },
               "algebraic_type": {
-                "Ref": 352
+                "Ref": 353
               }
             },
             {
@@ -33261,7 +33362,7 @@
                 "some": "knowledge_ruins_state"
               },
               "algebraic_type": {
-                "Ref": 353
+                "Ref": 354
               }
             },
             {
@@ -33269,7 +33370,7 @@
                 "some": "knowledge_secondary_state"
               },
               "algebraic_type": {
-                "Ref": 357
+                "Ref": 358
               }
             },
             {
@@ -33277,7 +33378,7 @@
                 "some": "knowledge_vault_state"
               },
               "algebraic_type": {
-                "Ref": 359
+                "Ref": 360
               }
             },
             {
@@ -33285,7 +33386,7 @@
                 "some": "knowledge_deployable_state"
               },
               "algebraic_type": {
-                "Ref": 343
+                "Ref": 344
               }
             },
             {
@@ -33293,7 +33394,7 @@
                 "some": "knowledge_paving_state"
               },
               "algebraic_type": {
-                "Ref": 349
+                "Ref": 350
               }
             },
             {
@@ -33309,7 +33410,7 @@
                 "some": "knowledge_pillar_shaping_state"
               },
               "algebraic_type": {
-                "Ref": 350
+                "Ref": 351
               }
             },
             {
@@ -33336,7 +33437,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 329
+                  "Ref": 330
                 }
               }
             },
@@ -33469,7 +33570,7 @@
                 "some": "onboarding_state"
               },
               "algebraic_type": {
-                "Ref": 372
+                "Ref": 373
               }
             },
             {
@@ -33986,7 +34087,7 @@
                 "some": "original_location"
               },
               "algebraic_type": {
-                "Ref": 280
+                "Ref": 281
               }
             },
             {
@@ -33994,7 +34095,7 @@
                 "some": "destination_location"
               },
               "algebraic_type": {
-                "Ref": 280
+                "Ref": 281
               }
             },
             {
@@ -34054,7 +34155,7 @@
                         "some": "some"
                       },
                       "algebraic_type": {
-                        "Ref": 329
+                        "Ref": 330
                       }
                     },
                     {
@@ -34100,7 +34201,7 @@
                 "some": "health_state"
               },
               "algebraic_type": {
-                "Ref": 315
+                "Ref": 316
               }
             },
             {
@@ -34132,7 +34233,7 @@
                 "some": "knowledge_achievement_state"
               },
               "algebraic_type": {
-                "Ref": 335
+                "Ref": 336
               }
             },
             {
@@ -34140,7 +34241,7 @@
                 "some": "knowledge_battle_action_state"
               },
               "algebraic_type": {
-                "Ref": 338
+                "Ref": 339
               }
             },
             {
@@ -34148,7 +34249,7 @@
                 "some": "knowledge_building_state"
               },
               "algebraic_type": {
-                "Ref": 339
+                "Ref": 340
               }
             },
             {
@@ -34156,7 +34257,7 @@
                 "some": "knowledge_cargo_state"
               },
               "algebraic_type": {
-                "Ref": 340
+                "Ref": 341
               }
             },
             {
@@ -34164,7 +34265,7 @@
                 "some": "knowledge_construction_state"
               },
               "algebraic_type": {
-                "Ref": 341
+                "Ref": 342
               }
             },
             {
@@ -34172,7 +34273,7 @@
                 "some": "knowledge_resource_placement_state"
               },
               "algebraic_type": {
-                "Ref": 351
+                "Ref": 352
               }
             },
             {
@@ -34180,7 +34281,7 @@
                 "some": "knowledge_craft_state"
               },
               "algebraic_type": {
-                "Ref": 342
+                "Ref": 343
               }
             },
             {
@@ -34188,7 +34289,7 @@
                 "some": "knowledge_enemy_state"
               },
               "algebraic_type": {
-                "Ref": 344
+                "Ref": 345
               }
             },
             {
@@ -34196,7 +34297,7 @@
                 "some": "knowledge_extract_state"
               },
               "algebraic_type": {
-                "Ref": 345
+                "Ref": 346
               }
             },
             {
@@ -34204,7 +34305,7 @@
                 "some": "knowledge_item_state"
               },
               "algebraic_type": {
-                "Ref": 346
+                "Ref": 347
               }
             },
             {
@@ -34212,7 +34313,7 @@
                 "some": "knowledge_lore_state"
               },
               "algebraic_type": {
-                "Ref": 347
+                "Ref": 348
               }
             },
             {
@@ -34220,7 +34321,7 @@
                 "some": "knowledge_npc_state"
               },
               "algebraic_type": {
-                "Ref": 348
+                "Ref": 349
               }
             },
             {
@@ -34228,7 +34329,7 @@
                 "some": "knowledge_resource_state"
               },
               "algebraic_type": {
-                "Ref": 352
+                "Ref": 353
               }
             },
             {
@@ -34236,7 +34337,7 @@
                 "some": "knowledge_ruins_state"
               },
               "algebraic_type": {
-                "Ref": 353
+                "Ref": 354
               }
             },
             {
@@ -34244,7 +34345,7 @@
                 "some": "knowledge_secondary_state"
               },
               "algebraic_type": {
-                "Ref": 357
+                "Ref": 358
               }
             },
             {
@@ -34252,7 +34353,7 @@
                 "some": "knowledge_vault_state"
               },
               "algebraic_type": {
-                "Ref": 359
+                "Ref": 360
               }
             },
             {
@@ -34260,7 +34361,7 @@
                 "some": "knowledge_deployable_state"
               },
               "algebraic_type": {
-                "Ref": 343
+                "Ref": 344
               }
             },
             {
@@ -34268,7 +34369,7 @@
                 "some": "knowledge_paving_state"
               },
               "algebraic_type": {
-                "Ref": 349
+                "Ref": 350
               }
             },
             {
@@ -34284,7 +34385,7 @@
                 "some": "knowledge_pillar_shaping_state"
               },
               "algebraic_type": {
-                "Ref": 350
+                "Ref": 351
               }
             },
             {
@@ -34311,7 +34412,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 329
+                  "Ref": 330
                 }
               }
             },
@@ -34444,7 +34545,7 @@
                 "some": "onboarding_state"
               },
               "algebraic_type": {
-                "Ref": 372
+                "Ref": 373
               }
             },
             {
@@ -35796,7 +35897,7 @@
                 "some": "original_location"
               },
               "algebraic_type": {
-                "Ref": 280
+                "Ref": 281
               }
             },
             {
@@ -35804,7 +35905,7 @@
                 "some": "destination_location"
               },
               "algebraic_type": {
-                "Ref": 280
+                "Ref": 281
               }
             },
             {
@@ -35864,7 +35965,7 @@
                         "some": "some"
                       },
                       "algebraic_type": {
-                        "Ref": 329
+                        "Ref": 330
                       }
                     },
                     {
@@ -35910,7 +36011,7 @@
                 "some": "health_state"
               },
               "algebraic_type": {
-                "Ref": 315
+                "Ref": 316
               }
             },
             {
@@ -35942,7 +36043,7 @@
                 "some": "knowledge_achievement_state"
               },
               "algebraic_type": {
-                "Ref": 335
+                "Ref": 336
               }
             },
             {
@@ -35950,7 +36051,7 @@
                 "some": "knowledge_battle_action_state"
               },
               "algebraic_type": {
-                "Ref": 338
+                "Ref": 339
               }
             },
             {
@@ -35958,7 +36059,7 @@
                 "some": "knowledge_building_state"
               },
               "algebraic_type": {
-                "Ref": 339
+                "Ref": 340
               }
             },
             {
@@ -35966,7 +36067,7 @@
                 "some": "knowledge_cargo_state"
               },
               "algebraic_type": {
-                "Ref": 340
+                "Ref": 341
               }
             },
             {
@@ -35974,7 +36075,7 @@
                 "some": "knowledge_construction_state"
               },
               "algebraic_type": {
-                "Ref": 341
+                "Ref": 342
               }
             },
             {
@@ -35982,7 +36083,7 @@
                 "some": "knowledge_resource_placement_state"
               },
               "algebraic_type": {
-                "Ref": 351
+                "Ref": 352
               }
             },
             {
@@ -35990,7 +36091,7 @@
                 "some": "knowledge_craft_state"
               },
               "algebraic_type": {
-                "Ref": 342
+                "Ref": 343
               }
             },
             {
@@ -35998,7 +36099,7 @@
                 "some": "knowledge_enemy_state"
               },
               "algebraic_type": {
-                "Ref": 344
+                "Ref": 345
               }
             },
             {
@@ -36006,7 +36107,7 @@
                 "some": "knowledge_extract_state"
               },
               "algebraic_type": {
-                "Ref": 345
+                "Ref": 346
               }
             },
             {
@@ -36014,7 +36115,7 @@
                 "some": "knowledge_item_state"
               },
               "algebraic_type": {
-                "Ref": 346
+                "Ref": 347
               }
             },
             {
@@ -36022,7 +36123,7 @@
                 "some": "knowledge_lore_state"
               },
               "algebraic_type": {
-                "Ref": 347
+                "Ref": 348
               }
             },
             {
@@ -36030,7 +36131,7 @@
                 "some": "knowledge_npc_state"
               },
               "algebraic_type": {
-                "Ref": 348
+                "Ref": 349
               }
             },
             {
@@ -36038,7 +36139,7 @@
                 "some": "knowledge_resource_state"
               },
               "algebraic_type": {
-                "Ref": 352
+                "Ref": 353
               }
             },
             {
@@ -36046,7 +36147,7 @@
                 "some": "knowledge_ruins_state"
               },
               "algebraic_type": {
-                "Ref": 353
+                "Ref": 354
               }
             },
             {
@@ -36054,7 +36155,7 @@
                 "some": "knowledge_secondary_state"
               },
               "algebraic_type": {
-                "Ref": 357
+                "Ref": 358
               }
             },
             {
@@ -36062,7 +36163,7 @@
                 "some": "knowledge_vault_state"
               },
               "algebraic_type": {
-                "Ref": 359
+                "Ref": 360
               }
             },
             {
@@ -36070,7 +36171,7 @@
                 "some": "knowledge_deployable_state"
               },
               "algebraic_type": {
-                "Ref": 343
+                "Ref": 344
               }
             },
             {
@@ -36078,7 +36179,7 @@
                 "some": "knowledge_paving_state"
               },
               "algebraic_type": {
-                "Ref": 349
+                "Ref": 350
               }
             },
             {
@@ -36094,7 +36195,7 @@
                 "some": "knowledge_pillar_shaping_state"
               },
               "algebraic_type": {
-                "Ref": 350
+                "Ref": 351
               }
             },
             {
@@ -36121,7 +36222,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 329
+                  "Ref": 330
                 }
               }
             },
@@ -36254,7 +36355,7 @@
                 "some": "onboarding_state"
               },
               "algebraic_type": {
-                "Ref": 372
+                "Ref": 373
               }
             },
             {
@@ -36733,7 +36834,7 @@
                 "some": "original_location"
               },
               "algebraic_type": {
-                "Ref": 280
+                "Ref": 281
               }
             },
             {
@@ -36741,7 +36842,7 @@
                 "some": "destination_location"
               },
               "algebraic_type": {
-                "Ref": 280
+                "Ref": 281
               }
             },
             {
@@ -36801,7 +36902,7 @@
                         "some": "some"
                       },
                       "algebraic_type": {
-                        "Ref": 329
+                        "Ref": 330
                       }
                     },
                     {
@@ -36847,7 +36948,7 @@
                 "some": "health_state"
               },
               "algebraic_type": {
-                "Ref": 315
+                "Ref": 316
               }
             },
             {
@@ -36879,7 +36980,7 @@
                 "some": "knowledge_achievement_state"
               },
               "algebraic_type": {
-                "Ref": 335
+                "Ref": 336
               }
             },
             {
@@ -36887,7 +36988,7 @@
                 "some": "knowledge_battle_action_state"
               },
               "algebraic_type": {
-                "Ref": 338
+                "Ref": 339
               }
             },
             {
@@ -36895,7 +36996,7 @@
                 "some": "knowledge_building_state"
               },
               "algebraic_type": {
-                "Ref": 339
+                "Ref": 340
               }
             },
             {
@@ -36903,7 +37004,7 @@
                 "some": "knowledge_cargo_state"
               },
               "algebraic_type": {
-                "Ref": 340
+                "Ref": 341
               }
             },
             {
@@ -36911,7 +37012,7 @@
                 "some": "knowledge_construction_state"
               },
               "algebraic_type": {
-                "Ref": 341
+                "Ref": 342
               }
             },
             {
@@ -36919,7 +37020,7 @@
                 "some": "knowledge_resource_placement_state"
               },
               "algebraic_type": {
-                "Ref": 351
+                "Ref": 352
               }
             },
             {
@@ -36927,7 +37028,7 @@
                 "some": "knowledge_craft_state"
               },
               "algebraic_type": {
-                "Ref": 342
+                "Ref": 343
               }
             },
             {
@@ -36935,7 +37036,7 @@
                 "some": "knowledge_enemy_state"
               },
               "algebraic_type": {
-                "Ref": 344
+                "Ref": 345
               }
             },
             {
@@ -36943,7 +37044,7 @@
                 "some": "knowledge_extract_state"
               },
               "algebraic_type": {
-                "Ref": 345
+                "Ref": 346
               }
             },
             {
@@ -36951,7 +37052,7 @@
                 "some": "knowledge_item_state"
               },
               "algebraic_type": {
-                "Ref": 346
+                "Ref": 347
               }
             },
             {
@@ -36959,7 +37060,7 @@
                 "some": "knowledge_lore_state"
               },
               "algebraic_type": {
-                "Ref": 347
+                "Ref": 348
               }
             },
             {
@@ -36967,7 +37068,7 @@
                 "some": "knowledge_npc_state"
               },
               "algebraic_type": {
-                "Ref": 348
+                "Ref": 349
               }
             },
             {
@@ -36975,7 +37076,7 @@
                 "some": "knowledge_resource_state"
               },
               "algebraic_type": {
-                "Ref": 352
+                "Ref": 353
               }
             },
             {
@@ -36983,7 +37084,7 @@
                 "some": "knowledge_ruins_state"
               },
               "algebraic_type": {
-                "Ref": 353
+                "Ref": 354
               }
             },
             {
@@ -36991,7 +37092,7 @@
                 "some": "knowledge_secondary_state"
               },
               "algebraic_type": {
-                "Ref": 357
+                "Ref": 358
               }
             },
             {
@@ -36999,7 +37100,7 @@
                 "some": "knowledge_vault_state"
               },
               "algebraic_type": {
-                "Ref": 359
+                "Ref": 360
               }
             },
             {
@@ -37007,7 +37108,7 @@
                 "some": "knowledge_deployable_state"
               },
               "algebraic_type": {
-                "Ref": 343
+                "Ref": 344
               }
             },
             {
@@ -37015,7 +37116,7 @@
                 "some": "knowledge_paving_state"
               },
               "algebraic_type": {
-                "Ref": 349
+                "Ref": 350
               }
             },
             {
@@ -37031,7 +37132,7 @@
                 "some": "knowledge_pillar_shaping_state"
               },
               "algebraic_type": {
-                "Ref": 350
+                "Ref": 351
               }
             },
             {
@@ -37058,7 +37159,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 329
+                  "Ref": 330
                 }
               }
             },
@@ -37191,7 +37292,7 @@
                 "some": "onboarding_state"
               },
               "algebraic_type": {
-                "Ref": 372
+                "Ref": 373
               }
             },
             {
@@ -43782,7 +43883,7 @@
                 "some": "destination"
               },
               "algebraic_type": {
-                "Ref": 280
+                "Ref": 281
               }
             },
             {
@@ -43935,7 +44036,7 @@
                 "some": "previous_region_location"
               },
               "algebraic_type": {
-                "Ref": 280
+                "Ref": 281
               }
             },
             {
@@ -52796,7 +52897,7 @@
     },
     {
       "name": "food_desc",
-      "product_type_ref": 276,
+      "product_type_ref": 277,
       "primary_key": [
         0
       ],
@@ -52842,7 +52943,7 @@
     },
     {
       "name": "footprint_tile_state",
-      "product_type_ref": 277,
+      "product_type_ref": 278,
       "primary_key": [
         0
       ],
@@ -52901,7 +53002,7 @@
     },
     {
       "name": "force_generate_types",
-      "product_type_ref": 278,
+      "product_type_ref": 279,
       "primary_key": [],
       "indexes": [],
       "constraints": [],
@@ -52918,7 +53019,7 @@
     },
     {
       "name": "gate_desc",
-      "product_type_ref": 286,
+      "product_type_ref": 287,
       "primary_key": [
         0
       ],
@@ -52964,7 +53065,7 @@
     },
     {
       "name": "gated_features",
-      "product_type_ref": 287,
+      "product_type_ref": 288,
       "primary_key": [
         0
       ],
@@ -53010,7 +53111,7 @@
     },
     {
       "name": "global_search_state",
-      "product_type_ref": 311,
+      "product_type_ref": 312,
       "primary_key": [
         0
       ],
@@ -53056,7 +53157,7 @@
     },
     {
       "name": "globals",
-      "product_type_ref": 312,
+      "product_type_ref": 313,
       "primary_key": [
         0
       ],
@@ -53102,7 +53203,7 @@
     },
     {
       "name": "growth_loop_timer",
-      "product_type_ref": 313,
+      "product_type_ref": 314,
       "primary_key": [
         0
       ],
@@ -53171,7 +53272,7 @@
     },
     {
       "name": "growth_state",
-      "product_type_ref": 314,
+      "product_type_ref": 315,
       "primary_key": [
         0
       ],
@@ -53217,7 +53318,7 @@
     },
     {
       "name": "health_state",
-      "product_type_ref": 315,
+      "product_type_ref": 316,
       "primary_key": [
         0
       ],
@@ -53263,7 +53364,7 @@
     },
     {
       "name": "herd_state",
-      "product_type_ref": 316,
+      "product_type_ref": 317,
       "primary_key": [
         0
       ],
@@ -53322,7 +53423,7 @@
     },
     {
       "name": "hexite_exchange_entry_desc",
-      "product_type_ref": 317,
+      "product_type_ref": 318,
       "primary_key": [
         0
       ],
@@ -53368,7 +53469,7 @@
     },
     {
       "name": "hide_deployable_timer",
-      "product_type_ref": 318,
+      "product_type_ref": 319,
       "primary_key": [
         0
       ],
@@ -53462,7 +53563,7 @@
     },
     {
       "name": "identity_role",
-      "product_type_ref": 319,
+      "product_type_ref": 320,
       "primary_key": [
         0
       ],
@@ -53975,7 +54076,7 @@
     },
     {
       "name": "interior_collapse_trigger_state",
-      "product_type_ref": 321,
+      "product_type_ref": 322,
       "primary_key": [
         0
       ],
@@ -54021,7 +54122,7 @@
     },
     {
       "name": "interior_environment_desc",
-      "product_type_ref": 322,
+      "product_type_ref": 323,
       "primary_key": [
         0
       ],
@@ -54067,7 +54168,7 @@
     },
     {
       "name": "interior_instance_desc",
-      "product_type_ref": 323,
+      "product_type_ref": 324,
       "primary_key": [
         0
       ],
@@ -54113,7 +54214,7 @@
     },
     {
       "name": "interior_network_desc",
-      "product_type_ref": 324,
+      "product_type_ref": 325,
       "primary_key": [
         0
       ],
@@ -54230,7 +54331,7 @@
     },
     {
       "name": "interior_portal_connections_desc",
-      "product_type_ref": 325,
+      "product_type_ref": 326,
       "primary_key": [
         0
       ],
@@ -54371,7 +54472,7 @@
     },
     {
       "name": "interior_shape_desc",
-      "product_type_ref": 326,
+      "product_type_ref": 327,
       "primary_key": [
         0
       ],
@@ -54417,7 +54518,7 @@
     },
     {
       "name": "interior_spawn_desc",
-      "product_type_ref": 327,
+      "product_type_ref": 328,
       "primary_key": [
         0
       ],
@@ -54476,7 +54577,7 @@
     },
     {
       "name": "inventory_state",
-      "product_type_ref": 329,
+      "product_type_ref": 330,
       "primary_key": [
         0
       ],
@@ -54548,7 +54649,7 @@
     },
     {
       "name": "item_conversion_recipe_desc",
-      "product_type_ref": 331,
+      "product_type_ref": 332,
       "primary_key": [
         0
       ],
@@ -54594,7 +54695,7 @@
     },
     {
       "name": "item_desc",
-      "product_type_ref": 332,
+      "product_type_ref": 333,
       "primary_key": [
         0
       ],
@@ -54653,7 +54754,7 @@
     },
     {
       "name": "item_list_desc",
-      "product_type_ref": 333,
+      "product_type_ref": 334,
       "primary_key": [
         0
       ],
@@ -54699,7 +54800,7 @@
     },
     {
       "name": "knowledge_achievement_state",
-      "product_type_ref": 335,
+      "product_type_ref": 336,
       "primary_key": [
         0
       ],
@@ -54745,7 +54846,7 @@
     },
     {
       "name": "knowledge_battle_action_state",
-      "product_type_ref": 338,
+      "product_type_ref": 339,
       "primary_key": [
         0
       ],
@@ -54791,7 +54892,7 @@
     },
     {
       "name": "knowledge_building_state",
-      "product_type_ref": 339,
+      "product_type_ref": 340,
       "primary_key": [
         0
       ],
@@ -54837,7 +54938,7 @@
     },
     {
       "name": "knowledge_cargo_state",
-      "product_type_ref": 340,
+      "product_type_ref": 341,
       "primary_key": [
         0
       ],
@@ -54929,7 +55030,7 @@
     },
     {
       "name": "knowledge_construction_state",
-      "product_type_ref": 341,
+      "product_type_ref": 342,
       "primary_key": [
         0
       ],
@@ -54975,7 +55076,7 @@
     },
     {
       "name": "knowledge_craft_state",
-      "product_type_ref": 342,
+      "product_type_ref": 343,
       "primary_key": [
         0
       ],
@@ -55021,7 +55122,7 @@
     },
     {
       "name": "knowledge_deployable_state",
-      "product_type_ref": 343,
+      "product_type_ref": 344,
       "primary_key": [
         0
       ],
@@ -55067,7 +55168,7 @@
     },
     {
       "name": "knowledge_enemy_state",
-      "product_type_ref": 344,
+      "product_type_ref": 345,
       "primary_key": [
         0
       ],
@@ -55113,7 +55214,7 @@
     },
     {
       "name": "knowledge_extract_state",
-      "product_type_ref": 345,
+      "product_type_ref": 346,
       "primary_key": [
         0
       ],
@@ -55159,7 +55260,7 @@
     },
     {
       "name": "knowledge_item_state",
-      "product_type_ref": 346,
+      "product_type_ref": 347,
       "primary_key": [
         0
       ],
@@ -55205,7 +55306,7 @@
     },
     {
       "name": "knowledge_lore_state",
-      "product_type_ref": 347,
+      "product_type_ref": 348,
       "primary_key": [
         0
       ],
@@ -55251,7 +55352,7 @@
     },
     {
       "name": "knowledge_npc_state",
-      "product_type_ref": 348,
+      "product_type_ref": 349,
       "primary_key": [
         0
       ],
@@ -55297,7 +55398,7 @@
     },
     {
       "name": "knowledge_paving_state",
-      "product_type_ref": 349,
+      "product_type_ref": 350,
       "primary_key": [
         0
       ],
@@ -55343,7 +55444,7 @@
     },
     {
       "name": "knowledge_pillar_shaping_state",
-      "product_type_ref": 350,
+      "product_type_ref": 351,
       "primary_key": [
         0
       ],
@@ -55389,7 +55490,7 @@
     },
     {
       "name": "knowledge_resource_placement_state",
-      "product_type_ref": 351,
+      "product_type_ref": 352,
       "primary_key": [
         0
       ],
@@ -55435,7 +55536,7 @@
     },
     {
       "name": "knowledge_resource_state",
-      "product_type_ref": 352,
+      "product_type_ref": 353,
       "primary_key": [
         0
       ],
@@ -55481,7 +55582,7 @@
     },
     {
       "name": "knowledge_ruins_state",
-      "product_type_ref": 353,
+      "product_type_ref": 354,
       "primary_key": [
         0
       ],
@@ -55527,7 +55628,7 @@
     },
     {
       "name": "knowledge_scroll_desc",
-      "product_type_ref": 355,
+      "product_type_ref": 356,
       "primary_key": [
         0
       ],
@@ -55586,7 +55687,7 @@
     },
     {
       "name": "knowledge_scroll_type_desc",
-      "product_type_ref": 356,
+      "product_type_ref": 357,
       "primary_key": [
         0
       ],
@@ -55632,7 +55733,7 @@
     },
     {
       "name": "knowledge_secondary_state",
-      "product_type_ref": 357,
+      "product_type_ref": 358,
       "primary_key": [
         0
       ],
@@ -55678,7 +55779,7 @@
     },
     {
       "name": "knowledge_stat_modifier_desc",
-      "product_type_ref": 358,
+      "product_type_ref": 359,
       "primary_key": [
         0
       ],
@@ -55724,7 +55825,7 @@
     },
     {
       "name": "knowledge_vault_state",
-      "product_type_ref": 359,
+      "product_type_ref": 360,
       "primary_key": [
         0
       ],
@@ -55816,7 +55917,7 @@
     },
     {
       "name": "location_cache",
-      "product_type_ref": 360,
+      "product_type_ref": 361,
       "primary_key": [
         0
       ],
@@ -55862,7 +55963,7 @@
     },
     {
       "name": "location_state",
-      "product_type_ref": 362,
+      "product_type_ref": 363,
       "primary_key": [
         0
       ],
@@ -55936,7 +56037,7 @@
     },
     {
       "name": "loot_chest_desc",
-      "product_type_ref": 363,
+      "product_type_ref": 364,
       "primary_key": [
         0
       ],
@@ -56120,7 +56221,7 @@
     },
     {
       "name": "loot_chest_state",
-      "product_type_ref": 364,
+      "product_type_ref": 365,
       "primary_key": [
         0
       ],
@@ -56166,7 +56267,7 @@
     },
     {
       "name": "loot_rarity_desc",
-      "product_type_ref": 365,
+      "product_type_ref": 366,
       "primary_key": [
         0
       ],
@@ -56212,7 +56313,7 @@
     },
     {
       "name": "loot_table_desc",
-      "product_type_ref": 366,
+      "product_type_ref": 367,
       "primary_key": [
         0
       ],
@@ -56468,7 +56569,7 @@
     },
     {
       "name": "mobile_entity_state",
-      "product_type_ref": 367,
+      "product_type_ref": 368,
       "primary_key": [
         0
       ],
@@ -56612,7 +56713,7 @@
     },
     {
       "name": "mounting_state",
-      "product_type_ref": 368,
+      "product_type_ref": 369,
       "primary_key": [
         0
       ],
@@ -56786,7 +56887,7 @@
     },
     {
       "name": "npc_desc",
-      "product_type_ref": 369,
+      "product_type_ref": 370,
       "primary_key": [
         0
       ],
@@ -56832,7 +56933,7 @@
     },
     {
       "name": "npc_state",
-      "product_type_ref": 370,
+      "product_type_ref": 371,
       "primary_key": [
         0
       ],
@@ -56973,7 +57074,7 @@
     },
     {
       "name": "onboarding_reward_desc",
-      "product_type_ref": 371,
+      "product_type_ref": 372,
       "primary_key": [
         0
       ],
@@ -57019,7 +57120,7 @@
     },
     {
       "name": "onboarding_state",
-      "product_type_ref": 372,
+      "product_type_ref": 373,
       "primary_key": [
         0
       ],
@@ -57065,7 +57166,7 @@
     },
     {
       "name": "parameters_desc",
-      "product_type_ref": 373,
+      "product_type_ref": 374,
       "primary_key": [
         0
       ],
@@ -57369,7 +57470,7 @@
     },
     {
       "name": "pathfinding_desc",
-      "product_type_ref": 375,
+      "product_type_ref": 376,
       "primary_key": [
         0
       ],
@@ -57415,7 +57516,7 @@
     },
     {
       "name": "paved_tile_state",
-      "product_type_ref": 378,
+      "product_type_ref": 379,
       "primary_key": [
         0
       ],
@@ -57554,7 +57655,7 @@
     },
     {
       "name": "paving_tile_desc",
-      "product_type_ref": 379,
+      "product_type_ref": 380,
       "primary_key": [
         0
       ],
@@ -57686,7 +57787,7 @@
     },
     {
       "name": "pillar_shaping_desc",
-      "product_type_ref": 380,
+      "product_type_ref": 381,
       "primary_key": [
         0
       ],
@@ -57871,7 +57972,7 @@
     },
     {
       "name": "placeable_desc",
-      "product_type_ref": 381,
+      "product_type_ref": 382,
       "primary_key": [
         0
       ],
@@ -57917,7 +58018,7 @@
     },
     {
       "name": "placeable_group_desc",
-      "product_type_ref": 382,
+      "product_type_ref": 383,
       "primary_key": [
         0
       ],
@@ -57963,7 +58064,7 @@
     },
     {
       "name": "placeable_growth_desc",
-      "product_type_ref": 383,
+      "product_type_ref": 384,
       "primary_key": [
         0
       ],
@@ -58128,7 +58229,7 @@
     },
     {
       "name": "placeable_interaction_desc",
-      "product_type_ref": 386,
+      "product_type_ref": 387,
       "primary_key": [
         0
       ],
@@ -65308,7 +65409,7 @@
     },
     {
       "name": "staged_food_desc",
-      "product_type_ref": 276,
+      "product_type_ref": 277,
       "primary_key": [
         0
       ],
@@ -65354,7 +65455,7 @@
     },
     {
       "name": "staged_gate_desc",
-      "product_type_ref": 286,
+      "product_type_ref": 287,
       "primary_key": [
         0
       ],
@@ -65400,7 +65501,7 @@
     },
     {
       "name": "staged_hexite_exchange_entry_desc",
-      "product_type_ref": 317,
+      "product_type_ref": 318,
       "primary_key": [
         0
       ],
@@ -65446,7 +65547,7 @@
     },
     {
       "name": "staged_interior_environment_desc",
-      "product_type_ref": 322,
+      "product_type_ref": 323,
       "primary_key": [
         0
       ],
@@ -65492,7 +65593,7 @@
     },
     {
       "name": "staged_interior_instance_desc",
-      "product_type_ref": 323,
+      "product_type_ref": 324,
       "primary_key": [
         0
       ],
@@ -65538,7 +65639,7 @@
     },
     {
       "name": "staged_interior_network_desc",
-      "product_type_ref": 324,
+      "product_type_ref": 325,
       "primary_key": [
         0
       ],
@@ -65584,7 +65685,7 @@
     },
     {
       "name": "staged_interior_portal_connections_desc",
-      "product_type_ref": 325,
+      "product_type_ref": 326,
       "primary_key": [
         0
       ],
@@ -65630,7 +65731,7 @@
     },
     {
       "name": "staged_interior_shape_desc",
-      "product_type_ref": 326,
+      "product_type_ref": 327,
       "primary_key": [
         0
       ],
@@ -65676,7 +65777,7 @@
     },
     {
       "name": "staged_interior_spawn_desc",
-      "product_type_ref": 327,
+      "product_type_ref": 328,
       "primary_key": [
         0
       ],
@@ -65722,7 +65823,7 @@
     },
     {
       "name": "staged_item_conversion_recipe_desc",
-      "product_type_ref": 331,
+      "product_type_ref": 332,
       "primary_key": [
         0
       ],
@@ -65768,7 +65869,7 @@
     },
     {
       "name": "staged_item_desc",
-      "product_type_ref": 332,
+      "product_type_ref": 333,
       "primary_key": [
         0
       ],
@@ -65814,7 +65915,7 @@
     },
     {
       "name": "staged_item_list_desc",
-      "product_type_ref": 333,
+      "product_type_ref": 334,
       "primary_key": [
         0
       ],
@@ -65860,7 +65961,7 @@
     },
     {
       "name": "staged_knowledge_scroll_desc",
-      "product_type_ref": 355,
+      "product_type_ref": 356,
       "primary_key": [
         0
       ],
@@ -65906,7 +66007,7 @@
     },
     {
       "name": "staged_knowledge_scroll_type_desc",
-      "product_type_ref": 356,
+      "product_type_ref": 357,
       "primary_key": [
         0
       ],
@@ -65952,7 +66053,7 @@
     },
     {
       "name": "staged_knowledge_stat_modifier_desc",
-      "product_type_ref": 358,
+      "product_type_ref": 359,
       "primary_key": [
         0
       ],
@@ -65998,7 +66099,7 @@
     },
     {
       "name": "staged_loot_chest_desc",
-      "product_type_ref": 363,
+      "product_type_ref": 364,
       "primary_key": [
         0
       ],
@@ -66044,7 +66145,7 @@
     },
     {
       "name": "staged_loot_rarity_desc",
-      "product_type_ref": 365,
+      "product_type_ref": 366,
       "primary_key": [
         0
       ],
@@ -66090,7 +66191,7 @@
     },
     {
       "name": "staged_loot_table_desc",
-      "product_type_ref": 366,
+      "product_type_ref": 367,
       "primary_key": [
         0
       ],
@@ -66136,7 +66237,7 @@
     },
     {
       "name": "staged_npc_desc",
-      "product_type_ref": 369,
+      "product_type_ref": 370,
       "primary_key": [
         0
       ],
@@ -66182,7 +66283,7 @@
     },
     {
       "name": "staged_onboarding_reward_desc",
-      "product_type_ref": 371,
+      "product_type_ref": 372,
       "primary_key": [
         0
       ],
@@ -66228,7 +66329,7 @@
     },
     {
       "name": "staged_parameters_desc",
-      "product_type_ref": 373,
+      "product_type_ref": 374,
       "primary_key": [
         0
       ],
@@ -66274,7 +66375,7 @@
     },
     {
       "name": "staged_pathfinding_desc",
-      "product_type_ref": 375,
+      "product_type_ref": 376,
       "primary_key": [
         0
       ],
@@ -66320,7 +66421,7 @@
     },
     {
       "name": "staged_paving_tile_desc",
-      "product_type_ref": 379,
+      "product_type_ref": 380,
       "primary_key": [
         0
       ],
@@ -66366,7 +66467,7 @@
     },
     {
       "name": "staged_pillar_shaping_desc",
-      "product_type_ref": 380,
+      "product_type_ref": 381,
       "primary_key": [
         0
       ],
@@ -66412,7 +66513,7 @@
     },
     {
       "name": "staged_placeable_desc",
-      "product_type_ref": 381,
+      "product_type_ref": 382,
       "primary_key": [
         0
       ],
@@ -66458,7 +66559,7 @@
     },
     {
       "name": "staged_placeable_group_desc",
-      "product_type_ref": 382,
+      "product_type_ref": 383,
       "primary_key": [
         0
       ],
@@ -66504,7 +66605,7 @@
     },
     {
       "name": "staged_placeable_growth_desc",
-      "product_type_ref": 383,
+      "product_type_ref": 384,
       "primary_key": [
         0
       ],
@@ -66575,7 +66676,7 @@
     },
     {
       "name": "staged_placeable_interaction_desc",
-      "product_type_ref": 386,
+      "product_type_ref": 387,
       "primary_key": [
         0
       ],
@@ -76391,7 +76492,7 @@
               "some": "world_definition"
             },
             "algebraic_type": {
-              "Ref": 288
+              "Ref": 289
             }
           }
         ]
@@ -76409,7 +76510,7 @@
               "some": "_timer"
             },
             "algebraic_type": {
-              "Ref": 313
+              "Ref": 314
             }
           }
         ]
@@ -76427,7 +76528,7 @@
               "some": "timer"
             },
             "algebraic_type": {
-              "Ref": 318
+              "Ref": 319
             }
           }
         ]
@@ -77848,7 +77949,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 276
+                "Ref": 277
               }
             }
           }
@@ -77868,7 +77969,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 277
+                "Ref": 278
               }
             }
           }
@@ -77888,7 +77989,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 286
+                "Ref": 287
               }
             }
           }
@@ -77908,7 +78009,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 312
+                "Ref": 313
               }
             }
           }
@@ -77928,7 +78029,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 314
+                "Ref": 315
               }
             }
           }
@@ -77948,7 +78049,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 315
+                "Ref": 316
               }
             }
           }
@@ -77968,7 +78069,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 316
+                "Ref": 317
               }
             }
           }
@@ -77988,7 +78089,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 317
+                "Ref": 318
               }
             }
           }
@@ -78008,7 +78109,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 319
+                "Ref": 320
               }
             }
           }
@@ -78028,7 +78129,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 321
+                "Ref": 322
               }
             }
           }
@@ -78048,7 +78149,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 322
+                "Ref": 323
               }
             }
           }
@@ -78068,7 +78169,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 323
+                "Ref": 324
               }
             }
           }
@@ -78088,7 +78189,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 324
+                "Ref": 325
               }
             }
           }
@@ -78108,7 +78209,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 325
+                "Ref": 326
               }
             }
           }
@@ -78128,7 +78229,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 326
+                "Ref": 327
               }
             }
           }
@@ -78148,7 +78249,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 327
+                "Ref": 328
               }
             }
           }
@@ -78168,7 +78269,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 329
+                "Ref": 330
               }
             }
           }
@@ -78188,7 +78289,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 331
+                "Ref": 332
               }
             }
           }
@@ -78208,7 +78309,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 332
+                "Ref": 333
               }
             }
           }
@@ -78228,7 +78329,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 333
+                "Ref": 334
               }
             }
           }
@@ -78248,7 +78349,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 335
+                "Ref": 336
               }
             }
           }
@@ -78268,7 +78369,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 338
+                "Ref": 339
               }
             }
           }
@@ -78288,7 +78389,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 339
+                "Ref": 340
               }
             }
           }
@@ -78308,7 +78409,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 340
+                "Ref": 341
               }
             }
           }
@@ -78328,7 +78429,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 341
+                "Ref": 342
               }
             }
           }
@@ -78348,7 +78449,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 342
+                "Ref": 343
               }
             }
           }
@@ -78368,7 +78469,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 343
+                "Ref": 344
               }
             }
           }
@@ -78388,7 +78489,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 344
+                "Ref": 345
               }
             }
           }
@@ -78408,7 +78509,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 345
+                "Ref": 346
               }
             }
           }
@@ -78428,7 +78529,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 346
+                "Ref": 347
               }
             }
           }
@@ -78448,7 +78549,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 347
+                "Ref": 348
               }
             }
           }
@@ -78468,7 +78569,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 348
+                "Ref": 349
               }
             }
           }
@@ -78488,7 +78589,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 349
+                "Ref": 350
               }
             }
           }
@@ -78508,7 +78609,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 350
+                "Ref": 351
               }
             }
           }
@@ -78528,7 +78629,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 351
+                "Ref": 352
               }
             }
           }
@@ -78548,7 +78649,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 352
+                "Ref": 353
               }
             }
           }
@@ -78568,7 +78669,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 353
+                "Ref": 354
               }
             }
           }
@@ -78588,7 +78689,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 355
+                "Ref": 356
               }
             }
           }
@@ -78608,7 +78709,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 356
+                "Ref": 357
               }
             }
           }
@@ -78628,7 +78729,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 357
+                "Ref": 358
               }
             }
           }
@@ -78648,7 +78749,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 358
+                "Ref": 359
               }
             }
           }
@@ -78668,7 +78769,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 359
+                "Ref": 360
               }
             }
           }
@@ -78688,7 +78789,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 360
+                "Ref": 361
               }
             }
           }
@@ -78708,7 +78809,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 362
+                "Ref": 363
               }
             }
           }
@@ -78728,7 +78829,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 363
+                "Ref": 364
               }
             }
           }
@@ -78748,7 +78849,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 364
+                "Ref": 365
               }
             }
           }
@@ -78768,7 +78869,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 365
+                "Ref": 366
               }
             }
           }
@@ -78788,7 +78889,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 366
+                "Ref": 367
               }
             }
           }
@@ -78808,7 +78909,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 367
+                "Ref": 368
               }
             }
           }
@@ -78828,7 +78929,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 368
+                "Ref": 369
               }
             }
           }
@@ -78848,7 +78949,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 369
+                "Ref": 370
               }
             }
           }
@@ -78868,7 +78969,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 370
+                "Ref": 371
               }
             }
           }
@@ -78888,7 +78989,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 371
+                "Ref": 372
               }
             }
           }
@@ -78908,7 +79009,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 372
+                "Ref": 373
               }
             }
           }
@@ -78928,7 +79029,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 373
+                "Ref": 374
               }
             }
           }
@@ -78948,7 +79049,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 375
+                "Ref": 376
               }
             }
           }
@@ -78968,7 +79069,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 378
+                "Ref": 379
               }
             }
           }
@@ -78988,7 +79089,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 379
+                "Ref": 380
               }
             }
           }
@@ -79008,7 +79109,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 380
+                "Ref": 381
               }
             }
           }
@@ -79028,7 +79129,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 381
+                "Ref": 382
               }
             }
           }
@@ -79048,7 +79149,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 382
+                "Ref": 383
               }
             }
           }
@@ -79068,7 +79169,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 383
+                "Ref": 384
               }
             }
           }
@@ -79088,7 +79189,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 386
+                "Ref": 387
               }
             }
           }
@@ -83802,7 +83903,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 276
+                "Ref": 277
               }
             }
           }
@@ -83822,7 +83923,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 286
+                "Ref": 287
               }
             }
           }
@@ -83842,7 +83943,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 317
+                "Ref": 318
               }
             }
           }
@@ -83862,7 +83963,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 322
+                "Ref": 323
               }
             }
           }
@@ -83882,7 +83983,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 323
+                "Ref": 324
               }
             }
           }
@@ -83902,7 +84003,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 324
+                "Ref": 325
               }
             }
           }
@@ -83922,7 +84023,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 325
+                "Ref": 326
               }
             }
           }
@@ -83942,7 +84043,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 326
+                "Ref": 327
               }
             }
           }
@@ -83962,7 +84063,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 327
+                "Ref": 328
               }
             }
           }
@@ -83982,7 +84083,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 331
+                "Ref": 332
               }
             }
           }
@@ -84002,7 +84103,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 332
+                "Ref": 333
               }
             }
           }
@@ -84022,7 +84123,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 333
+                "Ref": 334
               }
             }
           }
@@ -84042,7 +84143,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 355
+                "Ref": 356
               }
             }
           }
@@ -84062,7 +84163,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 356
+                "Ref": 357
               }
             }
           }
@@ -84082,7 +84183,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 358
+                "Ref": 359
               }
             }
           }
@@ -84102,7 +84203,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 363
+                "Ref": 364
               }
             }
           }
@@ -84122,7 +84223,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 365
+                "Ref": 366
               }
             }
           }
@@ -84142,7 +84243,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 366
+                "Ref": 367
               }
             }
           }
@@ -84162,7 +84263,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 369
+                "Ref": 370
               }
             }
           }
@@ -84182,7 +84283,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 371
+                "Ref": 372
               }
             }
           }
@@ -84202,7 +84303,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 373
+                "Ref": 374
               }
             }
           }
@@ -84222,7 +84323,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 375
+                "Ref": 376
               }
             }
           }
@@ -84242,7 +84343,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 379
+                "Ref": 380
               }
             }
           }
@@ -84262,7 +84363,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 380
+                "Ref": 381
               }
             }
           }
@@ -84282,7 +84383,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 381
+                "Ref": 382
               }
             }
           }
@@ -84302,7 +84403,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 382
+                "Ref": 383
               }
             }
           }
@@ -84322,7 +84423,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 383
+                "Ref": 384
               }
             }
           }
@@ -84342,7 +84443,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 386
+                "Ref": 387
               }
             }
           }
@@ -86368,7 +86469,7 @@
         "scope": [],
         "name": "ChunkCoordinatesMessage"
       },
-      "ty": 281,
+      "ty": 282,
       "custom_ordering": true
     },
     {
@@ -86432,7 +86533,7 @@
         "scope": [],
         "name": "ClaimPermission"
       },
-      "ty": 282,
+      "ty": 283,
       "custom_ordering": true
     },
     {
@@ -87664,7 +87765,7 @@
         "scope": [],
         "name": "FloatHexTileMessage"
       },
-      "ty": 280,
+      "ty": 281,
       "custom_ordering": true
     },
     {
@@ -87672,7 +87773,7 @@
         "scope": [],
         "name": "FoodDesc"
       },
-      "ty": 276,
+      "ty": 277,
       "custom_ordering": true
     },
     {
@@ -87688,7 +87789,7 @@
         "scope": [],
         "name": "FootprintTileState"
       },
-      "ty": 277,
+      "ty": 278,
       "custom_ordering": true
     },
     {
@@ -87704,7 +87805,7 @@
         "scope": [],
         "name": "ForceGenerateTypes"
       },
-      "ty": 278,
+      "ty": 279,
       "custom_ordering": true
     },
     {
@@ -87712,7 +87813,7 @@
         "scope": [],
         "name": "GateDesc"
       },
-      "ty": 286,
+      "ty": 287,
       "custom_ordering": true
     },
     {
@@ -87720,7 +87821,7 @@
         "scope": [],
         "name": "GatedFeature"
       },
-      "ty": 287,
+      "ty": 288,
       "custom_ordering": true
     },
     {
@@ -87736,7 +87837,7 @@
         "scope": [],
         "name": "GlobalSearchState"
       },
-      "ty": 311,
+      "ty": 312,
       "custom_ordering": true
     },
     {
@@ -87744,7 +87845,7 @@
         "scope": [],
         "name": "Globals"
       },
-      "ty": 312,
+      "ty": 313,
       "custom_ordering": true
     },
     {
@@ -87768,7 +87869,7 @@
         "scope": [],
         "name": "GrowthLoopTimer"
       },
-      "ty": 313,
+      "ty": 314,
       "custom_ordering": true
     },
     {
@@ -87776,7 +87877,7 @@
         "scope": [],
         "name": "GrowthState"
       },
-      "ty": 314,
+      "ty": 315,
       "custom_ordering": true
     },
     {
@@ -87800,7 +87901,7 @@
         "scope": [],
         "name": "HealthState"
       },
-      "ty": 315,
+      "ty": 316,
       "custom_ordering": true
     },
     {
@@ -87808,7 +87909,7 @@
         "scope": [],
         "name": "HerdState"
       },
-      "ty": 316,
+      "ty": 317,
       "custom_ordering": true
     },
     {
@@ -87816,7 +87917,7 @@
         "scope": [],
         "name": "HexDirection"
       },
-      "ty": 279,
+      "ty": 280,
       "custom_ordering": true
     },
     {
@@ -87824,7 +87925,7 @@
         "scope": [],
         "name": "HexiteExchangeEntryDesc"
       },
-      "ty": 317,
+      "ty": 318,
       "custom_ordering": true
     },
     {
@@ -87832,7 +87933,7 @@
         "scope": [],
         "name": "HideDeployableTimer"
       },
-      "ty": 318,
+      "ty": 319,
       "custom_ordering": true
     },
     {
@@ -87848,7 +87949,7 @@
         "scope": [],
         "name": "IdentityRole"
       },
-      "ty": 319,
+      "ty": 320,
       "custom_ordering": true
     },
     {
@@ -87952,7 +88053,7 @@
         "scope": [],
         "name": "InteriorCollapseTriggerState"
       },
-      "ty": 321,
+      "ty": 322,
       "custom_ordering": true
     },
     {
@@ -87960,7 +88061,7 @@
         "scope": [],
         "name": "InteriorEnvironmentDesc"
       },
-      "ty": 322,
+      "ty": 323,
       "custom_ordering": true
     },
     {
@@ -87968,7 +88069,7 @@
         "scope": [],
         "name": "InteriorInstanceDesc"
       },
-      "ty": 323,
+      "ty": 324,
       "custom_ordering": true
     },
     {
@@ -87976,7 +88077,7 @@
         "scope": [],
         "name": "InteriorNetworkDesc"
       },
-      "ty": 324,
+      "ty": 325,
       "custom_ordering": true
     },
     {
@@ -87992,7 +88093,7 @@
         "scope": [],
         "name": "InteriorPortalConnectionsDesc"
       },
-      "ty": 325,
+      "ty": 326,
       "custom_ordering": true
     },
     {
@@ -88008,7 +88109,7 @@
         "scope": [],
         "name": "InteriorShapeDesc"
       },
-      "ty": 326,
+      "ty": 327,
       "custom_ordering": true
     },
     {
@@ -88016,7 +88117,7 @@
         "scope": [],
         "name": "InteriorSpawnDesc"
       },
-      "ty": 327,
+      "ty": 328,
       "custom_ordering": true
     },
     {
@@ -88024,7 +88125,7 @@
         "scope": [],
         "name": "InteriorSpawnType"
       },
-      "ty": 328,
+      "ty": 329,
       "custom_ordering": true
     },
     {
@@ -88032,7 +88133,7 @@
         "scope": [],
         "name": "InventoryState"
       },
-      "ty": 329,
+      "ty": 330,
       "custom_ordering": true
     },
     {
@@ -88040,7 +88141,7 @@
         "scope": [],
         "name": "ItemConversionLocationContext"
       },
-      "ty": 285,
+      "ty": 286,
       "custom_ordering": true
     },
     {
@@ -88048,7 +88149,7 @@
         "scope": [],
         "name": "ItemConversionRecipeDesc"
       },
-      "ty": 331,
+      "ty": 332,
       "custom_ordering": true
     },
     {
@@ -88056,7 +88157,7 @@
         "scope": [],
         "name": "ItemDesc"
       },
-      "ty": 332,
+      "ty": 333,
       "custom_ordering": true
     },
     {
@@ -88064,7 +88165,7 @@
         "scope": [],
         "name": "ItemListDesc"
       },
-      "ty": 333,
+      "ty": 334,
       "custom_ordering": true
     },
     {
@@ -88072,7 +88173,7 @@
         "scope": [],
         "name": "ItemListPossibility"
       },
-      "ty": 334,
+      "ty": 335,
       "custom_ordering": true
     },
     {
@@ -88104,7 +88205,7 @@
         "scope": [],
         "name": "KnowledgeAchievementState"
       },
-      "ty": 335,
+      "ty": 336,
       "custom_ordering": true
     },
     {
@@ -88112,7 +88213,7 @@
         "scope": [],
         "name": "KnowledgeBattleActionState"
       },
-      "ty": 338,
+      "ty": 339,
       "custom_ordering": true
     },
     {
@@ -88120,7 +88221,7 @@
         "scope": [],
         "name": "KnowledgeBuildingState"
       },
-      "ty": 339,
+      "ty": 340,
       "custom_ordering": true
     },
     {
@@ -88128,7 +88229,7 @@
         "scope": [],
         "name": "KnowledgeCargoState"
       },
-      "ty": 340,
+      "ty": 341,
       "custom_ordering": true
     },
     {
@@ -88144,7 +88245,7 @@
         "scope": [],
         "name": "KnowledgeConstructionState"
       },
-      "ty": 341,
+      "ty": 342,
       "custom_ordering": true
     },
     {
@@ -88152,7 +88253,7 @@
         "scope": [],
         "name": "KnowledgeCraftState"
       },
-      "ty": 342,
+      "ty": 343,
       "custom_ordering": true
     },
     {
@@ -88160,7 +88261,7 @@
         "scope": [],
         "name": "KnowledgeDeployableState"
       },
-      "ty": 343,
+      "ty": 344,
       "custom_ordering": true
     },
     {
@@ -88168,7 +88269,7 @@
         "scope": [],
         "name": "KnowledgeEnemyState"
       },
-      "ty": 344,
+      "ty": 345,
       "custom_ordering": true
     },
     {
@@ -88184,7 +88285,7 @@
         "scope": [],
         "name": "KnowledgeEntry"
       },
-      "ty": 336,
+      "ty": 337,
       "custom_ordering": true
     },
     {
@@ -88192,7 +88293,7 @@
         "scope": [],
         "name": "KnowledgeExtractState"
       },
-      "ty": 345,
+      "ty": 346,
       "custom_ordering": true
     },
     {
@@ -88200,7 +88301,7 @@
         "scope": [],
         "name": "KnowledgeItemState"
       },
-      "ty": 346,
+      "ty": 347,
       "custom_ordering": true
     },
     {
@@ -88208,7 +88309,7 @@
         "scope": [],
         "name": "KnowledgeLocationEntry"
       },
-      "ty": 354,
+      "ty": 355,
       "custom_ordering": true
     },
     {
@@ -88216,7 +88317,7 @@
         "scope": [],
         "name": "KnowledgeLoreState"
       },
-      "ty": 347,
+      "ty": 348,
       "custom_ordering": true
     },
     {
@@ -88224,7 +88325,7 @@
         "scope": [],
         "name": "KnowledgeNpcState"
       },
-      "ty": 348,
+      "ty": 349,
       "custom_ordering": true
     },
     {
@@ -88232,7 +88333,7 @@
         "scope": [],
         "name": "KnowledgePavingState"
       },
-      "ty": 349,
+      "ty": 350,
       "custom_ordering": true
     },
     {
@@ -88240,7 +88341,7 @@
         "scope": [],
         "name": "KnowledgePillarShapingState"
       },
-      "ty": 350,
+      "ty": 351,
       "custom_ordering": true
     },
     {
@@ -88248,7 +88349,7 @@
         "scope": [],
         "name": "KnowledgeResourcePlacementState"
       },
-      "ty": 351,
+      "ty": 352,
       "custom_ordering": true
     },
     {
@@ -88256,7 +88357,7 @@
         "scope": [],
         "name": "KnowledgeResourceState"
       },
-      "ty": 352,
+      "ty": 353,
       "custom_ordering": true
     },
     {
@@ -88264,7 +88365,7 @@
         "scope": [],
         "name": "KnowledgeRuinsState"
       },
-      "ty": 353,
+      "ty": 354,
       "custom_ordering": true
     },
     {
@@ -88272,7 +88373,7 @@
         "scope": [],
         "name": "KnowledgeScrollDesc"
       },
-      "ty": 355,
+      "ty": 356,
       "custom_ordering": true
     },
     {
@@ -88280,7 +88381,7 @@
         "scope": [],
         "name": "KnowledgeScrollTypeDesc"
       },
-      "ty": 356,
+      "ty": 357,
       "custom_ordering": true
     },
     {
@@ -88288,7 +88389,7 @@
         "scope": [],
         "name": "KnowledgeSecondaryState"
       },
-      "ty": 357,
+      "ty": 358,
       "custom_ordering": true
     },
     {
@@ -88296,7 +88397,7 @@
         "scope": [],
         "name": "KnowledgeStatModifierDesc"
       },
-      "ty": 358,
+      "ty": 359,
       "custom_ordering": true
     },
     {
@@ -88304,7 +88405,7 @@
         "scope": [],
         "name": "KnowledgeState"
       },
-      "ty": 337,
+      "ty": 338,
       "custom_ordering": true
     },
     {
@@ -88312,7 +88413,7 @@
         "scope": [],
         "name": "KnowledgeVaultState"
       },
-      "ty": 359,
+      "ty": 360,
       "custom_ordering": true
     },
     {
@@ -88320,7 +88421,7 @@
         "scope": [],
         "name": "LargeHexTileMessage"
       },
-      "ty": 283,
+      "ty": 284,
       "custom_ordering": true
     },
     {
@@ -88344,7 +88445,7 @@
         "scope": [],
         "name": "LocationCache"
       },
-      "ty": 360,
+      "ty": 361,
       "custom_ordering": true
     },
     {
@@ -88352,7 +88453,7 @@
         "scope": [],
         "name": "LocationState"
       },
-      "ty": 362,
+      "ty": 363,
       "custom_ordering": true
     },
     {
@@ -88368,7 +88469,7 @@
         "scope": [],
         "name": "LootChestDesc"
       },
-      "ty": 363,
+      "ty": 364,
       "custom_ordering": true
     },
     {
@@ -88392,7 +88493,7 @@
         "scope": [],
         "name": "LootChestState"
       },
-      "ty": 364,
+      "ty": 365,
       "custom_ordering": true
     },
     {
@@ -88400,7 +88501,7 @@
         "scope": [],
         "name": "LootRarityDesc"
       },
-      "ty": 365,
+      "ty": 366,
       "custom_ordering": true
     },
     {
@@ -88408,7 +88509,7 @@
         "scope": [],
         "name": "LootTableDesc"
       },
-      "ty": 366,
+      "ty": 367,
       "custom_ordering": true
     },
     {
@@ -88488,7 +88589,7 @@
         "scope": [],
         "name": "MobileEntityState"
       },
-      "ty": 367,
+      "ty": 368,
       "custom_ordering": true
     },
     {
@@ -88504,7 +88605,7 @@
         "scope": [],
         "name": "MountingState"
       },
-      "ty": 368,
+      "ty": 369,
       "custom_ordering": true
     },
     {
@@ -88560,7 +88661,7 @@
         "scope": [],
         "name": "NpcDesc"
       },
-      "ty": 369,
+      "ty": 370,
       "custom_ordering": true
     },
     {
@@ -88576,7 +88677,7 @@
         "scope": [],
         "name": "NpcState"
       },
-      "ty": 370,
+      "ty": 371,
       "custom_ordering": true
     },
     {
@@ -88696,7 +88797,7 @@
         "scope": [],
         "name": "OnboardingRewardDesc"
       },
-      "ty": 371,
+      "ty": 372,
       "custom_ordering": true
     },
     {
@@ -88704,7 +88805,7 @@
         "scope": [],
         "name": "OnboardingState"
       },
-      "ty": 372,
+      "ty": 373,
       "custom_ordering": true
     },
     {
@@ -88720,7 +88821,7 @@
         "scope": [],
         "name": "ParametersDesc"
       },
-      "ty": 373,
+      "ty": 374,
       "custom_ordering": true
     },
     {
@@ -88768,7 +88869,7 @@
         "scope": [],
         "name": "PathfindingDesc"
       },
-      "ty": 375,
+      "ty": 376,
       "custom_ordering": true
     },
     {
@@ -88776,7 +88877,7 @@
         "scope": [],
         "name": "PathfindingTraversalOption"
       },
-      "ty": 376,
+      "ty": 377,
       "custom_ordering": true
     },
     {
@@ -88784,7 +88885,7 @@
         "scope": [],
         "name": "PavedTileState"
       },
-      "ty": 378,
+      "ty": 379,
       "custom_ordering": true
     },
     {
@@ -88792,7 +88893,7 @@
         "scope": [],
         "name": "PavingTileDesc"
       },
-      "ty": 379,
+      "ty": 380,
       "custom_ordering": true
     },
     {
@@ -88824,7 +88925,7 @@
         "scope": [],
         "name": "PillarShapingDesc"
       },
-      "ty": 380,
+      "ty": 381,
       "custom_ordering": true
     },
     {
@@ -88840,7 +88941,7 @@
         "scope": [],
         "name": "PlaceableDesc"
       },
-      "ty": 381,
+      "ty": 382,
       "custom_ordering": true
     },
     {
@@ -88848,7 +88949,7 @@
         "scope": [],
         "name": "PlaceableGroupDesc"
       },
-      "ty": 382,
+      "ty": 383,
       "custom_ordering": true
     },
     {
@@ -88856,7 +88957,7 @@
         "scope": [],
         "name": "PlaceableGrowthDesc"
       },
-      "ty": 383,
+      "ty": 384,
       "custom_ordering": true
     },
     {
@@ -88864,7 +88965,7 @@
         "scope": [],
         "name": "PlaceableGrowthOutcome"
       },
-      "ty": 384,
+      "ty": 385,
       "custom_ordering": true
     },
     {
@@ -88872,7 +88973,7 @@
         "scope": [],
         "name": "PlaceableGrowthOutcomeV2"
       },
-      "ty": 385,
+      "ty": 386,
       "custom_ordering": true
     },
     {
@@ -88880,7 +88981,7 @@
         "scope": [],
         "name": "PlaceableInteractionDesc"
       },
-      "ty": 386,
+      "ty": 387,
       "custom_ordering": true
     },
     {
@@ -88896,7 +88997,7 @@
         "scope": [],
         "name": "PlaceableSelfBuffChance"
       },
-      "ty": 387,
+      "ty": 276,
       "custom_ordering": true
     },
     {
@@ -89968,7 +90069,7 @@
         "scope": [],
         "name": "Pocket"
       },
-      "ty": 330,
+      "ty": 331,
       "custom_ordering": true
     },
     {
@@ -90560,7 +90661,7 @@
         "scope": [],
         "name": "Role"
       },
-      "ty": 320,
+      "ty": 321,
       "custom_ordering": true
     },
     {
@@ -90568,7 +90669,7 @@
         "scope": [],
         "name": "RuinsEntityValuePair"
       },
-      "ty": 361,
+      "ty": 362,
       "custom_ordering": true
     },
     {
@@ -90832,7 +90933,7 @@
         "scope": [],
         "name": "TerrainCell"
       },
-      "ty": 284,
+      "ty": 285,
       "custom_ordering": true
     },
     {
@@ -91040,7 +91141,7 @@
         "scope": [],
         "name": "TravelerWeeklyTaskCredits"
       },
-      "ty": 374,
+      "ty": 375,
       "custom_ordering": true
     },
     {
@@ -91048,7 +91149,7 @@
         "scope": [],
         "name": "TraversalSettings"
       },
-      "ty": 377,
+      "ty": 378,
       "custom_ordering": true
     },
     {
@@ -91232,7 +91333,7 @@
         "scope": [],
         "name": "WorldGenAnimationCurve"
       },
-      "ty": 290,
+      "ty": 291,
       "custom_ordering": true
     },
     {
@@ -91240,7 +91341,7 @@
         "scope": [],
         "name": "WorldGenAnimationCurveKeyframe"
       },
-      "ty": 291,
+      "ty": 292,
       "custom_ordering": true
     },
     {
@@ -91248,7 +91349,7 @@
         "scope": [],
         "name": "WorldGenBiomeDefinition"
       },
-      "ty": 297,
+      "ty": 298,
       "custom_ordering": true
     },
     {
@@ -91256,7 +91357,7 @@
         "scope": [],
         "name": "WorldGenBiomesMapDefinition"
       },
-      "ty": 296,
+      "ty": 297,
       "custom_ordering": true
     },
     {
@@ -91264,7 +91365,7 @@
         "scope": [],
         "name": "WorldGenBuildingDetails"
       },
-      "ty": 306,
+      "ty": 307,
       "custom_ordering": true
     },
     {
@@ -91272,7 +91373,7 @@
         "scope": [],
         "name": "WorldGenBuildingsMapDefinition"
       },
-      "ty": 305,
+      "ty": 306,
       "custom_ordering": true
     },
     {
@@ -91296,7 +91397,7 @@
         "scope": [],
         "name": "WorldGenLandShapeDefinition"
       },
-      "ty": 293,
+      "ty": 294,
       "custom_ordering": true
     },
     {
@@ -91304,7 +91405,7 @@
         "scope": [],
         "name": "WorldGenMountain"
       },
-      "ty": 303,
+      "ty": 304,
       "custom_ordering": true
     },
     {
@@ -91312,7 +91413,7 @@
         "scope": [],
         "name": "WorldGenMountainsMapDefinition"
       },
-      "ty": 302,
+      "ty": 303,
       "custom_ordering": true
     },
     {
@@ -91320,7 +91421,7 @@
         "scope": [],
         "name": "WorldGenNoiseBasedElevationLayer"
       },
-      "ty": 298,
+      "ty": 299,
       "custom_ordering": true
     },
     {
@@ -91328,7 +91429,7 @@
         "scope": [],
         "name": "WorldGenNoiseBasedElevationLayerBlendingMode"
       },
-      "ty": 299,
+      "ty": 300,
       "custom_ordering": true
     },
     {
@@ -91336,7 +91437,7 @@
         "scope": [],
         "name": "WorldGenNoiseSpecs"
       },
-      "ty": 294,
+      "ty": 295,
       "custom_ordering": true
     },
     {
@@ -91344,7 +91445,7 @@
         "scope": [],
         "name": "WorldGenRectInt"
       },
-      "ty": 295,
+      "ty": 296,
       "custom_ordering": true
     },
     {
@@ -91352,7 +91453,7 @@
         "scope": [],
         "name": "WorldGenResourceBiome"
       },
-      "ty": 310,
+      "ty": 311,
       "custom_ordering": true
     },
     {
@@ -91360,7 +91461,7 @@
         "scope": [],
         "name": "WorldGenResourceDefinition"
       },
-      "ty": 308,
+      "ty": 309,
       "custom_ordering": true
     },
     {
@@ -91368,7 +91469,7 @@
         "scope": [],
         "name": "WorldGenResourceDetails"
       },
-      "ty": 309,
+      "ty": 310,
       "custom_ordering": true
     },
     {
@@ -91376,7 +91477,7 @@
         "scope": [],
         "name": "WorldGenResourcesMapDefinition"
       },
-      "ty": 307,
+      "ty": 308,
       "custom_ordering": true
     },
     {
@@ -91384,7 +91485,7 @@
         "scope": [],
         "name": "WorldGenRiverGenerationSettings"
       },
-      "ty": 300,
+      "ty": 301,
       "custom_ordering": true
     },
     {
@@ -91392,7 +91493,7 @@
         "scope": [],
         "name": "WorldGenRiverPathfindingCosts"
       },
-      "ty": 301,
+      "ty": 302,
       "custom_ordering": true
     },
     {
@@ -91400,7 +91501,7 @@
         "scope": [],
         "name": "WorldGenVector2"
       },
-      "ty": 304,
+      "ty": 305,
       "custom_ordering": true
     },
     {
@@ -91408,7 +91509,7 @@
         "scope": [],
         "name": "WorldGenVector2Int"
       },
-      "ty": 289,
+      "ty": 290,
       "custom_ordering": true
     },
     {
@@ -91416,7 +91517,7 @@
         "scope": [],
         "name": "WorldGenWorldDefinition"
       },
-      "ty": 288,
+      "ty": 289,
       "custom_ordering": true
     },
     {
@@ -91424,7 +91525,7 @@
         "scope": [],
         "name": "WorldGenWorldMapDefinition"
       },
-      "ty": 292,
+      "ty": 293,
       "custom_ordering": true
     },
     {
