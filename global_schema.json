@@ -6533,6 +6533,16 @@
                   "elements": []
                 }
               }
+            },
+            {
+              "name": {
+                "some": "Bald"
+              },
+              "algebraic_type": {
+                "Product": {
+                  "elements": []
+                }
+              }
             }
           ]
         }
@@ -12845,6 +12855,30 @@
               },
               "algebraic_type": {
                 "Bool": []
+              }
+            },
+            {
+              "name": {
+                "some": "equipment_buff_id"
+              },
+              "algebraic_type": {
+                "I32": []
+              }
+            },
+            {
+              "name": {
+                "some": "equipment_buff_chance_per_hit"
+              },
+              "algebraic_type": {
+                "F32": []
+              }
+            },
+            {
+              "name": {
+                "some": "equipment_buff_skill_id"
+              },
+              "algebraic_type": {
+                "I32": []
               }
             }
           ]
@@ -35089,6 +35123,44 @@
             },
             {
               "name": {
+                "some": "skill_id"
+              },
+              "algebraic_type": {
+                "I32": []
+              }
+            },
+            {
+              "name": {
+                "some": "level"
+              },
+              "algebraic_type": {
+                "I32": []
+              }
+            },
+            {
+              "name": {
+                "some": "secondary_knowledge_id"
+              },
+              "algebraic_type": {
+                "I32": []
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Product": {
+          "elements": [
+            {
+              "name": {
+                "some": "id"
+              },
+              "algebraic_type": {
+                "I32": []
+              }
+            },
+            {
+              "name": {
                 "some": "chain_desc_id"
               },
               "algebraic_type": {
@@ -35196,7 +35268,7 @@
                 "some": "subject_type"
               },
               "algebraic_type": {
-                "Ref": 513
+                "Ref": 514
               }
             },
             {
@@ -35204,7 +35276,7 @@
                 "some": "data"
               },
               "algebraic_type": {
-                "Ref": 514
+                "Ref": 515
               }
             },
             {
@@ -35261,7 +35333,7 @@
                 "some": "Reserved"
               },
               "algebraic_type": {
-                "Ref": 515
+                "Ref": 516
               }
             },
             {
@@ -35375,7 +35447,7 @@
                 "some": "placeholder_skill_type"
               },
               "algebraic_type": {
-                "Ref": 518
+                "Ref": 519
               }
             },
             {
@@ -35383,7 +35455,7 @@
                 "some": "placeholder_buff_category"
               },
               "algebraic_type": {
-                "Ref": 519
+                "Ref": 520
               }
             },
             {
@@ -35391,7 +35463,7 @@
                 "some": "placeholder"
               },
               "algebraic_type": {
-                "Ref": 520
+                "Ref": 521
               }
             },
             {
@@ -35415,7 +35487,7 @@
                 "some": "permission"
               },
               "algebraic_type": {
-                "Ref": 521
+                "Ref": 522
               }
             },
             {
@@ -35423,7 +35495,7 @@
                 "some": "permission_group"
               },
               "algebraic_type": {
-                "Ref": 522
+                "Ref": 523
               }
             },
             {
@@ -35431,7 +35503,7 @@
                 "some": "ability_type"
               },
               "algebraic_type": {
-                "Ref": 523
+                "Ref": 524
               }
             }
           ]
@@ -53147,8 +53219,81 @@
       }
     },
     {
-      "name": "stage_rewards_desc",
+      "name": "skill_level_knowledge_desc",
       "product_type_ref": 509,
+      "primary_key": [
+        0
+      ],
+      "indexes": [
+        {
+          "name": {
+            "some": "skill_level_knowledge_desc_id_idx_btree"
+          },
+          "accessor_name": {
+            "some": "id"
+          },
+          "algorithm": {
+            "BTree": [
+              0
+            ]
+          }
+        },
+        {
+          "name": {
+            "some": "skill_level_knowledge_desc_skill_id_idx_btree"
+          },
+          "accessor_name": {
+            "some": "skill_id"
+          },
+          "algorithm": {
+            "BTree": [
+              1
+            ]
+          }
+        },
+        {
+          "name": {
+            "some": "skill_level_knowledge_desc_skill_id_level_idx_btree"
+          },
+          "accessor_name": {
+            "some": "skill_level"
+          },
+          "algorithm": {
+            "BTree": [
+              1,
+              2
+            ]
+          }
+        }
+      ],
+      "constraints": [
+        {
+          "name": {
+            "some": "skill_level_knowledge_desc_id_key"
+          },
+          "data": {
+            "Unique": {
+              "columns": [
+                0
+              ]
+            }
+          }
+        }
+      ],
+      "sequences": [],
+      "schedule": {
+        "none": []
+      },
+      "table_type": {
+        "User": []
+      },
+      "table_access": {
+        "Public": []
+      }
+    },
+    {
+      "name": "stage_rewards_desc",
+      "product_type_ref": 510,
       "primary_key": [
         0
       ],
@@ -57559,8 +57704,54 @@
       }
     },
     {
-      "name": "staged_stage_rewards_desc",
+      "name": "staged_skill_level_knowledge_desc",
       "product_type_ref": 509,
+      "primary_key": [
+        0
+      ],
+      "indexes": [
+        {
+          "name": {
+            "some": "staged_skill_level_knowledge_desc_id_idx_btree"
+          },
+          "accessor_name": {
+            "some": "id"
+          },
+          "algorithm": {
+            "BTree": [
+              0
+            ]
+          }
+        }
+      ],
+      "constraints": [
+        {
+          "name": {
+            "some": "staged_skill_level_knowledge_desc_id_key"
+          },
+          "data": {
+            "Unique": {
+              "columns": [
+                0
+              ]
+            }
+          }
+        }
+      ],
+      "sequences": [],
+      "schedule": {
+        "none": []
+      },
+      "table_type": {
+        "User": []
+      },
+      "table_access": {
+        "Private": []
+      }
+    },
+    {
+      "name": "staged_stage_rewards_desc",
+      "product_type_ref": 510,
       "primary_key": [
         0
       ],
@@ -57907,7 +58098,7 @@
     },
     {
       "name": "staged_traveler_task_knowledge_requirement_desc",
-      "product_type_ref": 510,
+      "product_type_ref": 511,
       "primary_key": [
         0
       ],
@@ -58229,7 +58420,7 @@
     },
     {
       "name": "starving_player_state",
-      "product_type_ref": 511,
+      "product_type_ref": 512,
       "primary_key": [
         0
       ],
@@ -58275,7 +58466,7 @@
     },
     {
       "name": "storage_log_state",
-      "product_type_ref": 512,
+      "product_type_ref": 513,
       "primary_key": [
         0
       ],
@@ -58607,7 +58798,7 @@
     },
     {
       "name": "terraform_progress_state",
-      "product_type_ref": 516,
+      "product_type_ref": 517,
       "primary_key": [
         0
       ],
@@ -58758,7 +58949,7 @@
     },
     {
       "name": "the_great_placeholder_table",
-      "product_type_ref": 517,
+      "product_type_ref": 518,
       "primary_key": [
         0
       ],
@@ -58804,7 +58995,7 @@
     },
     {
       "name": "threat_state",
-      "product_type_ref": 524,
+      "product_type_ref": 525,
       "primary_key": [
         0
       ],
@@ -59196,7 +59387,7 @@
     },
     {
       "name": "translation_corrections",
-      "product_type_ref": 525,
+      "product_type_ref": 526,
       "primary_key": [
         0
       ],
@@ -59404,7 +59595,7 @@
     },
     {
       "name": "traveler_task_knowledge_requirement_desc",
-      "product_type_ref": 510,
+      "product_type_ref": 511,
       "primary_key": [
         0
       ],
@@ -59615,7 +59806,7 @@
     },
     {
       "name": "unclaimed_shards_state",
-      "product_type_ref": 526,
+      "product_type_ref": 527,
       "primary_key": [
         0
       ],
@@ -59707,7 +59898,7 @@
     },
     {
       "name": "user_creation_timestamp_state",
-      "product_type_ref": 527,
+      "product_type_ref": 528,
       "primary_key": [
         0
       ],
@@ -59812,7 +60003,7 @@
     },
     {
       "name": "user_previous_region_state",
-      "product_type_ref": 529,
+      "product_type_ref": 530,
       "primary_key": [
         0
       ],
@@ -59858,7 +60049,7 @@
     },
     {
       "name": "user_region_state",
-      "product_type_ref": 530,
+      "product_type_ref": 531,
       "primary_key": [
         0
       ],
@@ -60034,7 +60225,7 @@
     },
     {
       "name": "visibility_state",
-      "product_type_ref": 531,
+      "product_type_ref": 532,
       "primary_key": [
         0
       ],
@@ -60126,7 +60317,7 @@
     },
     {
       "name": "waystone_state",
-      "product_type_ref": 532,
+      "product_type_ref": 533,
       "primary_key": [
         0
       ],
@@ -60277,7 +60468,7 @@
     },
     {
       "name": "wind_dbg_desc",
-      "product_type_ref": 533,
+      "product_type_ref": 534,
       "primary_key": [
         0
       ],
@@ -68721,7 +68912,7 @@
       }
     },
     {
-      "name": "stage_stage_rewards_desc",
+      "name": "stage_skill_level_knowledge_desc",
       "params": {
         "elements": [
           {
@@ -68731,6 +68922,26 @@
             "algebraic_type": {
               "Array": {
                 "Ref": 509
+              }
+            }
+          }
+        ]
+      },
+      "lifecycle": {
+        "none": []
+      }
+    },
+    {
+      "name": "stage_stage_rewards_desc",
+      "params": {
+        "elements": [
+          {
+            "name": {
+              "some": "records"
+            },
+            "algebraic_type": {
+              "Array": {
+                "Ref": 510
               }
             }
           }
@@ -68870,7 +69081,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 510
+                "Ref": 511
               }
             }
           }
@@ -69068,7 +69279,7 @@
               "some": "request"
             },
             "algebraic_type": {
-              "Ref": 528
+              "Ref": 529
             }
           }
         ]
@@ -69086,7 +69297,7 @@
               "some": "request"
             },
             "algebraic_type": {
-              "Ref": 528
+              "Ref": 529
             }
           }
         ]
@@ -69211,7 +69422,7 @@
         "scope": [],
         "name": "AbilityTypeEnum"
       },
-      "ty": 523,
+      "ty": 524,
       "custom_ordering": true
     },
     {
@@ -69251,7 +69462,7 @@
         "scope": [],
         "name": "ActionLogData"
       },
-      "ty": 514,
+      "ty": 515,
       "custom_ordering": true
     },
     {
@@ -69259,7 +69470,7 @@
         "scope": [],
         "name": "ActionLogDataSpaceAllocator"
       },
-      "ty": 515,
+      "ty": 516,
       "custom_ordering": true
     },
     {
@@ -69267,7 +69478,7 @@
         "scope": [],
         "name": "ActionLogState"
       },
-      "ty": 512,
+      "ty": 513,
       "custom_ordering": true
     },
     {
@@ -69275,7 +69486,7 @@
         "scope": [],
         "name": "ActionLogSubjectType"
       },
-      "ty": 513,
+      "ty": 514,
       "custom_ordering": true
     },
     {
@@ -69443,7 +69654,7 @@
         "scope": [],
         "name": "BuffCategory"
       },
-      "ty": 519,
+      "ty": 520,
       "custom_ordering": true
     },
     {
@@ -72067,7 +72278,7 @@
         "scope": [],
         "name": "Permission"
       },
-      "ty": 521,
+      "ty": 522,
       "custom_ordering": true
     },
     {
@@ -72075,7 +72286,7 @@
         "scope": [],
         "name": "PermissionGroup"
       },
-      "ty": 522,
+      "ty": 523,
       "custom_ordering": true
     },
     {
@@ -72547,7 +72758,7 @@
         "scope": [],
         "name": "ProgressiveActionStatus"
       },
-      "ty": 520,
+      "ty": 521,
       "custom_ordering": true
     },
     {
@@ -72905,9 +73116,17 @@
     {
       "name": {
         "scope": [],
+        "name": "SkillLevelKnowledgeDesc"
+      },
+      "ty": 509,
+      "custom_ordering": true
+    },
+    {
+      "name": {
+        "scope": [],
         "name": "SkillType"
       },
-      "ty": 518,
+      "ty": 519,
       "custom_ordering": true
     },
     {
@@ -72923,7 +73142,7 @@
         "scope": [],
         "name": "StageRewardsDesc"
       },
-      "ty": 509,
+      "ty": 510,
       "custom_ordering": true
     },
     {
@@ -72939,7 +73158,7 @@
         "scope": [],
         "name": "StarvingPlayerState"
       },
-      "ty": 511,
+      "ty": 512,
       "custom_ordering": true
     },
     {
@@ -73011,7 +73230,7 @@
         "scope": [],
         "name": "TerraformProgressState"
       },
-      "ty": 516,
+      "ty": 517,
       "custom_ordering": true
     },
     {
@@ -73043,7 +73262,7 @@
         "scope": [],
         "name": "TheGreatPlaceHolderTable"
       },
-      "ty": 517,
+      "ty": 518,
       "custom_ordering": true
     },
     {
@@ -73051,7 +73270,7 @@
         "scope": [],
         "name": "ThreatState"
       },
-      "ty": 524,
+      "ty": 525,
       "custom_ordering": true
     },
     {
@@ -73171,7 +73390,7 @@
         "scope": [],
         "name": "TranslationCorrections"
       },
-      "ty": 525,
+      "ty": 526,
       "custom_ordering": true
     },
     {
@@ -73195,7 +73414,7 @@
         "scope": [],
         "name": "TravelerTaskKnowledgeRequirementDesc"
       },
-      "ty": 510,
+      "ty": 511,
       "custom_ordering": true
     },
     {
@@ -73243,7 +73462,7 @@
         "scope": [],
         "name": "UnclaimedShardsState"
       },
-      "ty": 526,
+      "ty": 527,
       "custom_ordering": true
     },
     {
@@ -73267,7 +73486,7 @@
         "scope": [],
         "name": "UserCreationTimestampState"
       },
-      "ty": 527,
+      "ty": 528,
       "custom_ordering": true
     },
     {
@@ -73275,7 +73494,7 @@
         "scope": [],
         "name": "UserModerationCreateUserPolicyRequest"
       },
-      "ty": 528,
+      "ty": 529,
       "custom_ordering": true
     },
     {
@@ -73307,7 +73526,7 @@
         "scope": [],
         "name": "UserPreviousRegionState"
       },
-      "ty": 529,
+      "ty": 530,
       "custom_ordering": true
     },
     {
@@ -73315,7 +73534,7 @@
         "scope": [],
         "name": "UserRegionState"
       },
-      "ty": 530,
+      "ty": 531,
       "custom_ordering": true
     },
     {
@@ -73371,7 +73590,7 @@
         "scope": [],
         "name": "VisibilityState"
       },
-      "ty": 531,
+      "ty": 532,
       "custom_ordering": true
     },
     {
@@ -73395,7 +73614,7 @@
         "scope": [],
         "name": "WaystoneState"
       },
-      "ty": 532,
+      "ty": 533,
       "custom_ordering": true
     },
     {
@@ -73419,7 +73638,7 @@
         "scope": [],
         "name": "WindDbgDesc"
       },
-      "ty": 533,
+      "ty": 534,
       "custom_ordering": true
     },
     {
