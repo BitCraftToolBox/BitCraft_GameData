@@ -299,10 +299,10 @@
     "placeable_on_land": true,
     "placeable_in_water": true,
     "capacity": 2,
-    "storage": 0,
+    "storage": 4,
     "stockpile": 1,
     "barter": 0,
-    "item_slot_size": 6000,
+    "item_slot_size": 60000,
     "cargo_slot_size": 60000,
     "model_address": "Vehicles/DeerMount",
     "stats": [],
@@ -1037,6 +1037,72 @@
     "allow_hunting": false
   },
   {
+    "id": 594823119,
+    "name": "Equous (I)",
+    "deploy_from_collectible_id": 542958663,
+    "deploy_time": 3.0,
+    "deployable_type": "Mount",
+    "pathfinding_id": 1534240652,
+    "movement_type": "Ground",
+    "can_enter_portals": true,
+    "can_auto_follow": true,
+    "affected_by_wind": 0.0,
+    "speed": [
+      {
+        "surface_type": "Ground",
+        "speed": 27.0
+      },
+      {
+        "surface_type": "Lake",
+        "speed": 27.0
+      },
+      {
+        "surface_type": "River",
+        "speed": 27.0
+      },
+      {
+        "surface_type": "Ocean",
+        "speed": 27.0
+      },
+      {
+        "surface_type": "OceanBiome",
+        "speed": 27.0
+      },
+      {
+        "surface_type": "Swamp",
+        "speed": 27.0
+      }
+    ],
+    "use_player_speed_modifier": false,
+    "placeable_on_land": true,
+    "placeable_in_water": true,
+    "capacity": 1,
+    "storage": 12,
+    "stockpile": 2,
+    "barter": 0,
+    "item_slot_size": 6000,
+    "cargo_slot_size": 60000,
+    "model_address": "Vehicles/StandardEquousMount",
+    "stats": [],
+    "player_animations_in_deployable_slots": [
+      2
+    ],
+    "allow_driver_extract": false,
+    "allow_passenger_extract": false,
+    "show_for_secs_after_owner_logout": 0,
+    "allow_emote_while_driver": false,
+    "allow_emote_while_passenger": false,
+    "experience_per_progress": [
+      {
+        "skill_id": 17,
+        "quantity": 0.0
+      }
+    ],
+    "mounting_radius": 3.0,
+    "radius": 0.0,
+    "allow_hunting": false
+  },
+  {
     "id": 634088959,
     "name": "Personal Cache (III)",
     "deploy_from_collectible_id": 693157662,
@@ -1406,10 +1472,10 @@
     "placeable_on_land": true,
     "placeable_in_water": true,
     "capacity": 2,
-    "storage": 6,
+    "storage": 8,
     "stockpile": 1,
     "barter": 0,
-    "item_slot_size": 6000,
+    "item_slot_size": 60000,
     "cargo_slot_size": 60000,
     "model_address": "Vehicles/DeerMount",
     "stats": [],
@@ -2106,6 +2172,72 @@
     "allow_hunting": false
   },
   {
+    "id": 1851331701,
+    "name": "Equous (II)",
+    "deploy_from_collectible_id": 605095993,
+    "deploy_time": 3.0,
+    "deployable_type": "Mount",
+    "pathfinding_id": 1534240652,
+    "movement_type": "Ground",
+    "can_enter_portals": true,
+    "can_auto_follow": true,
+    "affected_by_wind": 0.0,
+    "speed": [
+      {
+        "surface_type": "Ground",
+        "speed": 28.0
+      },
+      {
+        "surface_type": "Lake",
+        "speed": 28.0
+      },
+      {
+        "surface_type": "River",
+        "speed": 28.0
+      },
+      {
+        "surface_type": "Ocean",
+        "speed": 28.0
+      },
+      {
+        "surface_type": "OceanBiome",
+        "speed": 28.0
+      },
+      {
+        "surface_type": "Swamp",
+        "speed": 28.0
+      }
+    ],
+    "use_player_speed_modifier": false,
+    "placeable_on_land": true,
+    "placeable_in_water": true,
+    "capacity": 1,
+    "storage": 12,
+    "stockpile": 2,
+    "barter": 0,
+    "item_slot_size": 6000,
+    "cargo_slot_size": 60000,
+    "model_address": "Vehicles/StandardEquousMount",
+    "stats": [],
+    "player_animations_in_deployable_slots": [
+      2
+    ],
+    "allow_driver_extract": false,
+    "allow_passenger_extract": false,
+    "show_for_secs_after_owner_logout": 0,
+    "allow_emote_while_driver": false,
+    "allow_emote_while_passenger": false,
+    "experience_per_progress": [
+      {
+        "skill_id": 17,
+        "quantity": 0.0
+      }
+    ],
+    "mounting_radius": 3.0,
+    "radius": 0.0,
+    "allow_hunting": false
+  },
+  {
     "id": 1855409370,
     "name": "Skiff (III)",
     "deploy_from_collectible_id": 1649953465,
@@ -2171,6 +2303,72 @@
       }
     ],
     "mounting_radius": 5.0,
+    "radius": 0.0,
+    "allow_hunting": false
+  },
+  {
+    "id": 1894527632,
+    "name": "Equous (III)",
+    "deploy_from_collectible_id": 2106909126,
+    "deploy_time": 3.0,
+    "deployable_type": "Mount",
+    "pathfinding_id": 1534240652,
+    "movement_type": "Ground",
+    "can_enter_portals": true,
+    "can_auto_follow": true,
+    "affected_by_wind": 0.0,
+    "speed": [
+      {
+        "surface_type": "Ground",
+        "speed": 30.0
+      },
+      {
+        "surface_type": "Lake",
+        "speed": 30.0
+      },
+      {
+        "surface_type": "River",
+        "speed": 30.0
+      },
+      {
+        "surface_type": "Ocean",
+        "speed": 30.0
+      },
+      {
+        "surface_type": "OceanBiome",
+        "speed": 30.0
+      },
+      {
+        "surface_type": "Swamp",
+        "speed": 30.0
+      }
+    ],
+    "use_player_speed_modifier": false,
+    "placeable_on_land": true,
+    "placeable_in_water": true,
+    "capacity": 1,
+    "storage": 12,
+    "stockpile": 2,
+    "barter": 0,
+    "item_slot_size": 6000,
+    "cargo_slot_size": 60000,
+    "model_address": "Vehicles/StandardEquousMount",
+    "stats": [],
+    "player_animations_in_deployable_slots": [
+      2
+    ],
+    "allow_driver_extract": false,
+    "allow_passenger_extract": false,
+    "show_for_secs_after_owner_logout": 0,
+    "allow_emote_while_driver": false,
+    "allow_emote_while_passenger": false,
+    "experience_per_progress": [
+      {
+        "skill_id": 17,
+        "quantity": 0.0
+      }
+    ],
+    "mounting_radius": 3.0,
     "radius": 0.0,
     "allow_hunting": false
   },

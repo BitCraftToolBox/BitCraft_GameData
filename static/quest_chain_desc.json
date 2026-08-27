@@ -1695,6 +1695,64 @@
     "is_secret": false
   },
   {
+    "id": 678054810,
+    "name": "An Equous Opportunity",
+    "is_hint": false,
+    "stages": [
+      377499008,
+      352584780,
+      301748487,
+      1277091233,
+      892412999,
+      634474382,
+      1681366295,
+      504559742,
+      903013475,
+      1396887020,
+      378342488,
+      1497887213,
+      1549276593
+    ],
+    "requirements": [
+      {
+        "Level_": {
+          "skill_id": 17,
+          "level": 22
+        }
+      },
+      {
+        "QuestChain_": 1537415686
+      }
+    ],
+    "rewards": [
+      {
+        "ItemStack_": {
+          "item_id": 1829757609,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        }
+      },
+      {
+        "ItemStack_": {
+          "item_id": 1587038476,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        }
+      },
+      {
+        "Experience_": {
+          "skill_id": 17,
+          "quantity": 5000.0
+        }
+      }
+    ],
+    "implicit_rewards": [],
+    "unstartable": false,
+    "is_secret": false
+  },
+  {
     "id": 679715144,
     "name": "Knocked out hint",
     "is_hint": true,
@@ -1970,7 +2028,7 @@
       {
         "Level_": {
           "skill_id": 17,
-          "level": 20
+          "level": 30
         }
       },
       {
@@ -3285,7 +3343,7 @@
       {
         "Level_": {
           "skill_id": 17,
-          "level": 33
+          "level": 28
         }
       },
       {
@@ -3912,7 +3970,7 @@
       {
         "Level_": {
           "skill_id": 17,
-          "level": 27
+          "level": 35
         }
       }
     ],
@@ -4459,6 +4517,41 @@
           "quantity": 1,
           "item_type": "Item",
           "durability": 0
+        }
+      }
+    ],
+    "implicit_rewards": [],
+    "unstartable": false,
+    "is_secret": false
+  },
+  {
+    "id": 1817111515,
+    "name": "Mining I: All that glitters",
+    "is_hint": false,
+    "stages": [
+      396754565,
+      612584283,
+      1625978823,
+      1096740690,
+      1199523852,
+      1926190111
+    ],
+    "requirements": [
+      {
+        "Level_": {
+          "skill_id": 5,
+          "level": 6
+        }
+      },
+      {
+        "QuestChain_": 371815384
+      }
+    ],
+    "rewards": [
+      {
+        "Experience_": {
+          "skill_id": 5,
+          "quantity": 500.0
         }
       }
     ],
@@ -5501,7 +5594,7 @@
       {
         "Level_": {
           "skill_id": 17,
-          "level": 25
+          "level": 15
         }
       }
     ],

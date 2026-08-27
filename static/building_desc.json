@@ -75446,6 +75446,85 @@
     "destroy_on_unclaim": false
   },
   {
+    "id": 690771873,
+    "functions": [
+      {
+        "function_type": 1002,
+        "level": -1,
+        "crafting_slots": 0,
+        "storage_slots": 0,
+        "cargo_slots": 0,
+        "refining_slots": 0,
+        "refining_cargo_slots": 0,
+        "item_slot_size": 6000,
+        "cargo_slot_size": 6000,
+        "trade_orders": 0,
+        "allowed_item_id_per_slot": [],
+        "concurrent_crafts_per_player": 0,
+        "terraform": false,
+        "housing_slots": 0,
+        "housing_income": 0
+      }
+    ],
+    "name": "Faire Rug Red Circle",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/FaireRug1",
+    "icon_asset_name": "GeneratedIcons/Items/Icon_DecoFaireRug1",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      {
+        "x": 0,
+        "z": 0,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": 0,
+        "z": -1,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": -1,
+        "z": 0,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": 1,
+        "z": -1,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": 1,
+        "z": 0,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": 0,
+        "z": 1,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": -1,
+        "z": 1,
+        "footprint_type": "Walkable"
+      }
+    ],
+    "max_health": 72,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 0.0,
+    "maintenance": 0.0,
+    "build_permission": "Claim",
+    "interact_permission": "Claim",
+    "has_action": true,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false,
+    "destroy_on_unclaim": false
+  },
+  {
     "id": 695978337,
     "functions": [
       {
@@ -75726,6 +75805,145 @@
     "interact_permission": "None",
     "has_action": false,
     "show_in_compendium": false,
+    "is_ruins": false,
+    "not_deconstructible": false,
+    "destroy_on_unclaim": false
+  },
+  {
+    "id": 707545745,
+    "functions": [
+      {
+        "function_type": 1002,
+        "level": -1,
+        "crafting_slots": 0,
+        "storage_slots": 0,
+        "cargo_slots": 0,
+        "refining_slots": 0,
+        "refining_cargo_slots": 0,
+        "item_slot_size": 6000,
+        "cargo_slot_size": 6000,
+        "trade_orders": 0,
+        "allowed_item_id_per_slot": [],
+        "concurrent_crafts_per_player": 0,
+        "terraform": false,
+        "housing_slots": 0,
+        "housing_income": 0
+      }
+    ],
+    "name": "Faire Round Table",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/FaireRoundTable",
+    "icon_asset_name": "GeneratedIcons/Items/Icon_Deco_Faire_Table",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      {
+        "x": 0,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": -1,
+        "z": -1,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 0,
+        "z": -1,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 0,
+        "z": -2,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 1,
+        "z": -2,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 2,
+        "z": -2,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 1,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 2,
+        "z": -1,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 2,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 1,
+        "z": 1,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 0,
+        "z": 2,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": -1,
+        "z": 2,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": -2,
+        "z": 2,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": -2,
+        "z": 1,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": -2,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 1,
+        "z": -1,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": -1,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": -1,
+        "z": 1,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 0,
+        "z": 1,
+        "footprint_type": "Hitbox"
+      }
+    ],
+    "max_health": 72,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 0.0,
+    "maintenance": 0.0,
+    "build_permission": "Claim",
+    "interact_permission": "Claim",
+    "has_action": true,
+    "show_in_compendium": true,
     "is_ruins": false,
     "not_deconstructible": false,
     "destroy_on_unclaim": false
@@ -92315,6 +92533,170 @@
     "destroy_on_unclaim": false
   },
   {
+    "id": 1304212208,
+    "functions": [
+      {
+        "function_type": 1002,
+        "level": -1,
+        "crafting_slots": 0,
+        "storage_slots": 0,
+        "cargo_slots": 0,
+        "refining_slots": 0,
+        "refining_cargo_slots": 0,
+        "item_slot_size": 6000,
+        "cargo_slot_size": 6000,
+        "trade_orders": 0,
+        "allowed_item_id_per_slot": [],
+        "concurrent_crafts_per_player": 0,
+        "terraform": false,
+        "housing_slots": 0,
+        "housing_income": 0
+      }
+    ],
+    "name": "Faire Pavilion",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/FairePavilion",
+    "icon_asset_name": "GeneratedIcons/Items/Icon_Deco_Faire_Pavillion",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      {
+        "x": 2,
+        "z": -4,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 4,
+        "z": -2,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": -4,
+        "z": 2,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": -2,
+        "z": 4,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": 2,
+        "z": 2,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": -2,
+        "z": -2,
+        "footprint_type": "Hitbox"
+      },
+      {
+        "x": -1,
+        "z": -3,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": 0,
+        "z": -4,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": 1,
+        "z": -4,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": 3,
+        "z": -4,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": 4,
+        "z": -4,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": 4,
+        "z": -3,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": 4,
+        "z": -1,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": 4,
+        "z": 0,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": 3,
+        "z": 1,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": 1,
+        "z": 3,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": 0,
+        "z": 4,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": -1,
+        "z": 4,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": -3,
+        "z": 4,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": -4,
+        "z": 4,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": -4,
+        "z": 3,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": -4,
+        "z": 1,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": -4,
+        "z": 0,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": -3,
+        "z": -1,
+        "footprint_type": "Walkable"
+      }
+    ],
+    "max_health": 72,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 0.0,
+    "maintenance": 0.0,
+    "build_permission": "Claim",
+    "interact_permission": "Claim",
+    "has_action": true,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false,
+    "destroy_on_unclaim": false
+  },
+  {
     "id": 1306664196,
     "functions": [
       {
@@ -96543,6 +96925,55 @@
     "show_in_compendium": false,
     "is_ruins": false,
     "not_deconstructible": true,
+    "destroy_on_unclaim": false
+  },
+  {
+    "id": 1478982353,
+    "functions": [
+      {
+        "function_type": 1002,
+        "level": -1,
+        "crafting_slots": 0,
+        "storage_slots": 0,
+        "cargo_slots": 0,
+        "refining_slots": 0,
+        "refining_cargo_slots": 0,
+        "item_slot_size": 6000,
+        "cargo_slot_size": 6000,
+        "trade_orders": 0,
+        "allowed_item_id_per_slot": [],
+        "concurrent_crafts_per_player": 0,
+        "terraform": false,
+        "housing_slots": 0,
+        "housing_income": 0
+      }
+    ],
+    "name": "Faire Lamp",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 10,
+    "model_asset_name": "Buildings/FaireLamp",
+    "icon_asset_name": "GeneratedIcons/Items/Icon_Deco_Faire_Lamp",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      {
+        "x": 0,
+        "z": 0,
+        "footprint_type": "Hitbox"
+      }
+    ],
+    "max_health": 72,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 0.0,
+    "maintenance": 0.0,
+    "build_permission": "Claim",
+    "interact_permission": "Claim",
+    "has_action": true,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false,
     "destroy_on_unclaim": false
   },
   {
@@ -111501,6 +111932,55 @@
     "destroy_on_unclaim": false
   },
   {
+    "id": 1808296021,
+    "functions": [
+      {
+        "function_type": 1002,
+        "level": -1,
+        "crafting_slots": 0,
+        "storage_slots": 0,
+        "cargo_slots": 0,
+        "refining_slots": 0,
+        "refining_cargo_slots": 0,
+        "item_slot_size": 6000,
+        "cargo_slot_size": 6000,
+        "trade_orders": 0,
+        "allowed_item_id_per_slot": [],
+        "concurrent_crafts_per_player": 0,
+        "terraform": false,
+        "housing_slots": 0,
+        "housing_income": 0
+      }
+    ],
+    "name": "Faire Rug Purple Circle",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/FaireRug2",
+    "icon_asset_name": "GeneratedIcons/Items/Icon_DecoFaireRug2",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      {
+        "x": 0,
+        "z": 0,
+        "footprint_type": "Walkable"
+      }
+    ],
+    "max_health": 72,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 0.0,
+    "maintenance": 0.0,
+    "build_permission": "Claim",
+    "interact_permission": "Claim",
+    "has_action": true,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false,
+    "destroy_on_unclaim": false
+  },
+  {
     "id": 1811669941,
     "functions": [
       {
@@ -118735,6 +119215,65 @@
     "show_in_compendium": false,
     "is_ruins": false,
     "not_deconstructible": true,
+    "destroy_on_unclaim": false
+  },
+  {
+    "id": 1846357094,
+    "functions": [
+      {
+        "function_type": 1002,
+        "level": -1,
+        "crafting_slots": 0,
+        "storage_slots": 0,
+        "cargo_slots": 0,
+        "refining_slots": 0,
+        "refining_cargo_slots": 0,
+        "item_slot_size": 6000,
+        "cargo_slot_size": 6000,
+        "trade_orders": 0,
+        "allowed_item_id_per_slot": [],
+        "concurrent_crafts_per_player": 0,
+        "terraform": false,
+        "housing_slots": 0,
+        "housing_income": 0
+      }
+    ],
+    "name": "Faire Rug Red Rectangle",
+    "description": "",
+    "rested_buff_duration": 0,
+    "light_radius": 0,
+    "model_asset_name": "Buildings/FaireRug3",
+    "icon_asset_name": "GeneratedIcons/Items/Icon_DecoFaireRug3",
+    "unenterable": true,
+    "wilderness": true,
+    "footprint": [
+      {
+        "x": 0,
+        "z": 0,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": -1,
+        "z": 0,
+        "footprint_type": "Walkable"
+      },
+      {
+        "x": 1,
+        "z": 0,
+        "footprint_type": "Walkable"
+      }
+    ],
+    "max_health": 72,
+    "ignore_damage": false,
+    "defense_level": 10000,
+    "decay": 0.0,
+    "maintenance": 0.0,
+    "build_permission": "Claim",
+    "interact_permission": "Claim",
+    "has_action": true,
+    "show_in_compendium": true,
+    "is_ruins": false,
+    "not_deconstructible": false,
     "destroy_on_unclaim": false
   },
   {
