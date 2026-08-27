@@ -419,10 +419,10 @@
     "placeable_on_land": true,
     "placeable_in_water": true,
     "capacity": 2,
-    "storage": 0,
+    "storage": 4,
     "stockpile": 1,
     "barter": 0,
-    "item_slot_size": 6000,
+    "item_slot_size": 60000,
     "cargo_slot_size": 60000,
     "model_address": "Vehicles/DeerMount",
     "stats": [],
@@ -1424,6 +1424,96 @@
     "allow_hunting": false
   },
   {
+    "id": 594823119,
+    "name": "Equous (I)",
+    "deploy_from_collectible_id": 542958663,
+    "deploy_time": 3.0,
+    "deployable_type": [
+      1,
+      {}
+    ],
+    "pathfinding_id": 1534240652,
+    "movement_type": [
+      1,
+      {}
+    ],
+    "can_enter_portals": true,
+    "can_auto_follow": true,
+    "affected_by_wind": 0.0,
+    "speed": [
+      [
+        [
+          0,
+          []
+        ],
+        27.0
+      ],
+      [
+        [
+          1,
+          []
+        ],
+        27.0
+      ],
+      [
+        [
+          2,
+          []
+        ],
+        27.0
+      ],
+      [
+        [
+          3,
+          []
+        ],
+        27.0
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        27.0
+      ],
+      [
+        [
+          5,
+          []
+        ],
+        27.0
+      ]
+    ],
+    "use_player_speed_modifier": false,
+    "placeable_on_land": true,
+    "placeable_in_water": true,
+    "capacity": 1,
+    "storage": 12,
+    "stockpile": 2,
+    "barter": 0,
+    "item_slot_size": 6000,
+    "cargo_slot_size": 60000,
+    "model_address": "Vehicles/StandardEquousMount",
+    "stats": [],
+    "player_animations_in_deployable_slots": [
+      2
+    ],
+    "allow_driver_extract": false,
+    "allow_passenger_extract": false,
+    "show_for_secs_after_owner_logout": 0,
+    "allow_emote_while_driver": false,
+    "allow_emote_while_passenger": false,
+    "experience_per_progress": [
+      [
+        17,
+        0.0
+      ]
+    ],
+    "mounting_radius": 3.0,
+    "radius": 0.0,
+    "allow_hunting": false
+  },
+  {
     "id": 634088959,
     "name": "Personal Cache (III)",
     "deploy_from_collectible_id": 693157662,
@@ -1940,10 +2030,10 @@
     "placeable_on_land": true,
     "placeable_in_water": true,
     "capacity": 2,
-    "storage": 6,
+    "storage": 8,
     "stockpile": 1,
     "barter": 0,
-    "item_slot_size": 6000,
+    "item_slot_size": 60000,
     "cargo_slot_size": 60000,
     "model_address": "Vehicles/DeerMount",
     "stats": [],
@@ -2889,6 +2979,96 @@
     "allow_hunting": false
   },
   {
+    "id": 1851331701,
+    "name": "Equous (II)",
+    "deploy_from_collectible_id": 605095993,
+    "deploy_time": 3.0,
+    "deployable_type": [
+      1,
+      {}
+    ],
+    "pathfinding_id": 1534240652,
+    "movement_type": [
+      1,
+      {}
+    ],
+    "can_enter_portals": true,
+    "can_auto_follow": true,
+    "affected_by_wind": 0.0,
+    "speed": [
+      [
+        [
+          0,
+          []
+        ],
+        28.0
+      ],
+      [
+        [
+          1,
+          []
+        ],
+        28.0
+      ],
+      [
+        [
+          2,
+          []
+        ],
+        28.0
+      ],
+      [
+        [
+          3,
+          []
+        ],
+        28.0
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        28.0
+      ],
+      [
+        [
+          5,
+          []
+        ],
+        28.0
+      ]
+    ],
+    "use_player_speed_modifier": false,
+    "placeable_on_land": true,
+    "placeable_in_water": true,
+    "capacity": 1,
+    "storage": 12,
+    "stockpile": 2,
+    "barter": 0,
+    "item_slot_size": 6000,
+    "cargo_slot_size": 60000,
+    "model_address": "Vehicles/StandardEquousMount",
+    "stats": [],
+    "player_animations_in_deployable_slots": [
+      2
+    ],
+    "allow_driver_extract": false,
+    "allow_passenger_extract": false,
+    "show_for_secs_after_owner_logout": 0,
+    "allow_emote_while_driver": false,
+    "allow_emote_while_passenger": false,
+    "experience_per_progress": [
+      [
+        17,
+        0.0
+      ]
+    ],
+    "mounting_radius": 3.0,
+    "radius": 0.0,
+    "allow_hunting": false
+  },
+  {
     "id": 1855409370,
     "name": "Skiff (III)",
     "deploy_from_collectible_id": 1649953465,
@@ -2978,6 +3158,96 @@
       ]
     ],
     "mounting_radius": 5.0,
+    "radius": 0.0,
+    "allow_hunting": false
+  },
+  {
+    "id": 1894527632,
+    "name": "Equous (III)",
+    "deploy_from_collectible_id": 2106909126,
+    "deploy_time": 3.0,
+    "deployable_type": [
+      1,
+      {}
+    ],
+    "pathfinding_id": 1534240652,
+    "movement_type": [
+      1,
+      {}
+    ],
+    "can_enter_portals": true,
+    "can_auto_follow": true,
+    "affected_by_wind": 0.0,
+    "speed": [
+      [
+        [
+          0,
+          []
+        ],
+        30.0
+      ],
+      [
+        [
+          1,
+          []
+        ],
+        30.0
+      ],
+      [
+        [
+          2,
+          []
+        ],
+        30.0
+      ],
+      [
+        [
+          3,
+          []
+        ],
+        30.0
+      ],
+      [
+        [
+          4,
+          []
+        ],
+        30.0
+      ],
+      [
+        [
+          5,
+          []
+        ],
+        30.0
+      ]
+    ],
+    "use_player_speed_modifier": false,
+    "placeable_on_land": true,
+    "placeable_in_water": true,
+    "capacity": 1,
+    "storage": 12,
+    "stockpile": 2,
+    "barter": 0,
+    "item_slot_size": 6000,
+    "cargo_slot_size": 60000,
+    "model_address": "Vehicles/StandardEquousMount",
+    "stats": [],
+    "player_animations_in_deployable_slots": [
+      2
+    ],
+    "allow_driver_extract": false,
+    "allow_passenger_extract": false,
+    "show_for_secs_after_owner_logout": 0,
+    "allow_emote_while_driver": false,
+    "allow_emote_while_passenger": false,
+    "experience_per_progress": [
+      [
+        17,
+        0.0
+      ]
+    ],
+    "mounting_radius": 3.0,
     "radius": 0.0,
     "allow_hunting": false
   },

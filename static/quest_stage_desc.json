@@ -447,7 +447,7 @@
         1,
         [
           [
-            2070004,
+            1070004,
             15,
             [
               0,
@@ -465,7 +465,7 @@
         1,
         [
           [
-            2090004,
+            1090004,
             5,
             [
               0,
@@ -1199,6 +1199,31 @@
     ]
   },
   {
+    "id": 301748487,
+    "chain_desc_id": 678054810,
+    "name": "Acquire Lump of Sugar Ingredients",
+    "completion_conditions": [
+      [
+        1,
+        [
+          [
+            253606511,
+            5,
+            [
+              0,
+              []
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          false
+        ]
+      ]
+    ]
+  },
+  {
     "id": 306349279,
     "chain_desc_id": 985054074,
     "name": "Ramparte Says Well Done",
@@ -1320,6 +1345,12 @@
     "completion_conditions": []
   },
   {
+    "id": 352584780,
+    "chain_desc_id": 678054810,
+    "name": "Alesi Explains Wild Equous",
+    "completion_conditions": []
+  },
+  {
     "id": 353291895,
     "chain_desc_id": 1043927455,
     "name": "Wisp says Good Job",
@@ -1429,6 +1460,18 @@
     "completion_conditions": []
   },
   {
+    "id": 377499008,
+    "chain_desc_id": 678054810,
+    "name": "Talk to Alesi",
+    "completion_conditions": []
+  },
+  {
+    "id": 378342488,
+    "chain_desc_id": 678054810,
+    "name": "Feed Standard Equous",
+    "completion_conditions": []
+  },
+  {
     "id": 380075472,
     "chain_desc_id": 751817487,
     "name": "Ramparte Tells you to use an ability Dialogue",
@@ -1523,6 +1566,12 @@
     "id": 393963710,
     "chain_desc_id": 871400259,
     "name": "Process Tanned Pelts",
+    "completion_conditions": []
+  },
+  {
+    "id": 396754565,
+    "chain_desc_id": 1817111515,
+    "name": "Wisp Quarry First Dialogue",
     "completion_conditions": []
   },
   {
@@ -2166,6 +2215,12 @@
     "completion_conditions": []
   },
   {
+    "id": 504559742,
+    "chain_desc_id": 678054810,
+    "name": "Find Spooked Standard Equous",
+    "completion_conditions": []
+  },
+  {
     "id": 507534648,
     "chain_desc_id": 1536298064,
     "name": "Ramparte says well done",
@@ -2543,6 +2598,12 @@
     "completion_conditions": []
   },
   {
+    "id": 612584283,
+    "chain_desc_id": 1817111515,
+    "name": "Find A Quarry",
+    "completion_conditions": []
+  },
+  {
     "id": 613190187,
     "chain_desc_id": 1687982095,
     "name": "Alpha Jakyl Alesi First Dialog",
@@ -2589,6 +2650,31 @@
     "chain_desc_id": 1,
     "name": "Equip Tools Dialogue",
     "completion_conditions": []
+  },
+  {
+    "id": 634474382,
+    "chain_desc_id": 678054810,
+    "name": "Craft Standard Equous Food",
+    "completion_conditions": [
+      [
+        1,
+        [
+          [
+            942086550,
+            1,
+            [
+              0,
+              []
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          false
+        ]
+      ]
+    ]
   },
   {
     "id": 636403467,
@@ -3604,9 +3690,58 @@
     "completion_conditions": []
   },
   {
+    "id": 892412999,
+    "chain_desc_id": 678054810,
+    "name": "Acquire Standard Equous Food Ingredients",
+    "completion_conditions": [
+      [
+        1,
+        [
+          [
+            1780651102,
+            5,
+            [
+              0,
+              []
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          false
+        ]
+      ],
+      [
+        1,
+        [
+          [
+            1088551081,
+            1,
+            [
+              0,
+              []
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          false
+        ]
+      ]
+    ]
+  },
+  {
     "id": 902998530,
     "chain_desc_id": 1918226120,
     "name": "Heimlich Explains Foods",
+    "completion_conditions": []
+  },
+  {
+    "id": 903013475,
+    "chain_desc_id": 678054810,
+    "name": "Calm Standard Equous",
     "completion_conditions": []
   },
   {
@@ -4540,6 +4675,12 @@
     "completion_conditions": []
   },
   {
+    "id": 1096740690,
+    "chain_desc_id": 1817111515,
+    "name": "Obtain Magnetic Rock",
+    "completion_conditions": []
+  },
+  {
     "id": 1099750803,
     "chain_desc_id": 1927636609,
     "name": "Jakyl Puppy Gnawed Bone Found Dialog",
@@ -5067,6 +5208,12 @@
     "completion_conditions": []
   },
   {
+    "id": 1199523852,
+    "chain_desc_id": 1817111515,
+    "name": "Prospect for Rich Vein",
+    "completion_conditions": []
+  },
+  {
     "id": 1202128155,
     "chain_desc_id": 613811784,
     "name": "Talk to the Twins - Bug Mask Unlock",
@@ -5251,6 +5398,31 @@
     "chain_desc_id": 1681156609,
     "name": "Speak to Svim - First Clipper Upgrade",
     "completion_conditions": []
+  },
+  {
+    "id": 1277091233,
+    "chain_desc_id": 678054810,
+    "name": "Craft Lump of Sugar",
+    "completion_conditions": [
+      [
+        1,
+        [
+          [
+            1012948676,
+            1,
+            [
+              0,
+              []
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          false
+        ]
+      ]
+    ]
   },
   {
     "id": 1279011476,
@@ -5698,6 +5870,12 @@
     "id": 1393385824,
     "chain_desc_id": 618339395,
     "name": "WispBeehiveWarning",
+    "completion_conditions": []
+  },
+  {
+    "id": 1396887020,
+    "chain_desc_id": 678054810,
+    "name": "Brush Standard Equous",
     "completion_conditions": []
   },
   {
@@ -6424,6 +6602,12 @@
     "completion_conditions": []
   },
   {
+    "id": 1497887213,
+    "chain_desc_id": 678054810,
+    "name": "Return to Alesi",
+    "completion_conditions": []
+  },
+  {
     "id": 1508756354,
     "chain_desc_id": 1905626394,
     "name": "Ramparte Says Well Done",
@@ -6599,6 +6783,12 @@
     "id": 1548478311,
     "chain_desc_id": 618339395,
     "name": "Quest Complete Dialogue",
+    "completion_conditions": []
+  },
+  {
+    "id": 1549276593,
+    "chain_desc_id": 678054810,
+    "name": "Alesi Final Dialogue",
     "completion_conditions": []
   },
   {
@@ -7016,6 +7206,12 @@
     ]
   },
   {
+    "id": 1625978823,
+    "chain_desc_id": 1817111515,
+    "name": "Wisp Explains Quarries",
+    "completion_conditions": []
+  },
+  {
     "id": 1630777465,
     "chain_desc_id": 1463250815,
     "name": "Speak to Brico - Feline Mask Unlock",
@@ -7042,7 +7238,7 @@
         1,
         [
           [
-            2130005,
+            3130005,
             50,
             [
               0,
@@ -7060,7 +7256,7 @@
         1,
         [
           [
-            2130004,
+            3130004,
             20,
             [
               0,
@@ -7271,6 +7467,12 @@
     "completion_conditions": []
   },
   {
+    "id": 1681366295,
+    "chain_desc_id": 678054810,
+    "name": "Begin Standard Wild Equous Prospecting",
+    "completion_conditions": []
+  },
+  {
     "id": 1686803923,
     "chain_desc_id": 1958755356,
     "name": "Svim First Dialogue - Level 60 Sailing Exp Quest",
@@ -7364,7 +7566,7 @@
         1,
         [
           [
-            3070004,
+            2070004,
             40,
             [
               0,
@@ -7382,7 +7584,7 @@
         1,
         [
           [
-            1977029854,
+            562238507,
             5,
             [
               0,
@@ -8175,6 +8377,12 @@
     "id": 1919471920,
     "chain_desc_id": 1704867030,
     "name": "Talk to Rumbagh - Default Cache Unlock",
+    "completion_conditions": []
+  },
+  {
+    "id": 1926190111,
+    "chain_desc_id": 1817111515,
+    "name": "Wisp Quarry Quest Complete Dialogue",
     "completion_conditions": []
   },
   {
