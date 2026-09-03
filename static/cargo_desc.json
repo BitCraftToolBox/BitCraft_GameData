@@ -3840,6 +3840,36 @@
     "cannot_store_in_deployables": true
   },
   {
+    "id": 5158668,
+    "name": "Nutrient Rich Water",
+    "description": "A large pack of nutrient rich water from the natural spring. Could be used to hydrate the nearby Giant Berry Bush.",
+    "volume": 6000,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "Cargo/Package",
+    "icon_asset_name": "GeneratedIcons/Items/BucketWater",
+    "carried_model_asset_name": "Cargo/Carried/CargoPackSupplies",
+    "pick_up_animation_start": "Gather-Start",
+    "pick_up_animation_end": "Gather-Finish",
+    "drop_animation_start": "Gather-Start",
+    "drop_animation_end": "Gather-Finish",
+    "pick_up_time": 0.5,
+    "place_time": 0.3,
+    "animator_state": "",
+    "movement_modifier": 0.0,
+    "blocks_path": false,
+    "on_destroy_yield_cargos": [],
+    "despawn_time": 86400.0,
+    "tier": -1,
+    "tag": "Foraging Event Item",
+    "rarity": [
+      1,
+      {}
+    ],
+    "not_pickupable": false,
+    "cannot_store_in_buildings": true,
+    "cannot_store_in_deployables": true
+  },
+  {
     "id": 14878832,
     "name": "Umbura",
     "description": "An animal body that could be processed for monster parts",

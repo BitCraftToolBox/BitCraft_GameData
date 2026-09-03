@@ -7994,8 +7994,21 @@
     "water_depth_max": 1000,
     "max_elevation_delta": 0,
     "on_destroy_building_outcomes": [
-      1,
-      {}
+      0,
+      [
+        [
+          12.0,
+          1829010548,
+          0,
+          0
+        ],
+        [
+          88.0,
+          0,
+          0,
+          0
+        ]
+      ]
     ]
   },
   {
@@ -8060,8 +8073,21 @@
     "water_depth_max": 1000,
     "max_elevation_delta": 0,
     "on_destroy_building_outcomes": [
-      1,
-      {}
+      0,
+      [
+        [
+          12.0,
+          831323007,
+          0,
+          0
+        ],
+        [
+          88.0,
+          0,
+          0,
+          0
+        ]
+      ]
     ]
   },
   {
@@ -8126,8 +8152,21 @@
     "water_depth_max": 1000,
     "max_elevation_delta": 0,
     "on_destroy_building_outcomes": [
-      1,
-      {}
+      0,
+      [
+        [
+          12.0,
+          2081797170,
+          0,
+          0
+        ],
+        [
+          88.0,
+          0,
+          0,
+          0
+        ]
+      ]
     ]
   },
   {
@@ -8192,8 +8231,21 @@
     "water_depth_max": 1000,
     "max_elevation_delta": 0,
     "on_destroy_building_outcomes": [
-      1,
-      {}
+      0,
+      [
+        [
+          12.0,
+          1016042945,
+          0,
+          0
+        ],
+        [
+          88.0,
+          0,
+          0,
+          0
+        ]
+      ]
     ]
   },
   {
@@ -8258,8 +8310,21 @@
     "water_depth_max": 1000,
     "max_elevation_delta": 0,
     "on_destroy_building_outcomes": [
-      1,
-      {}
+      0,
+      [
+        [
+          12.0,
+          922169463,
+          0,
+          0
+        ],
+        [
+          88.0,
+          0,
+          0,
+          0
+        ]
+      ]
     ]
   },
   {
@@ -8324,8 +8389,21 @@
     "water_depth_max": 1000,
     "max_elevation_delta": 0,
     "on_destroy_building_outcomes": [
-      1,
-      {}
+      0,
+      [
+        [
+          12.0,
+          920357513,
+          0,
+          0
+        ],
+        [
+          88.0,
+          0,
+          0,
+          0
+        ]
+      ]
     ]
   },
   {
@@ -24120,6 +24198,56 @@
     ]
   },
   {
+    "id": 4351006,
+    "name": "Exquisite Deep Roots",
+    "description": "",
+    "flattenable": false,
+    "max_health": 200,
+    "ignore_damage": true,
+    "despawn_time": 0.0,
+    "model_asset_name": "Resources/UndergroundRootsT1",
+    "icon_asset_name": "GeneratedIcons/Other/AncientThorns",
+    "on_destroy_yield": [],
+    "on_destroy_yield_resource_id": 0,
+    "spawn_priority": 1,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          0,
+          []
+        ]
+      ]
+    ],
+    "tier": 5,
+    "tag": "Fiber Plant",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": true,
+    "enemy_params_id": [],
+    "scheduled_respawn_time": 0.0,
+    "not_respawning": false,
+    "show_time_left": false,
+    "on_destroy_yield_resource_chance": 1.0,
+    "on_destroy_yield_resource_min_radius": 0,
+    "on_destroy_yield_resource_max_radius": 0,
+    "light_radius": 0,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 5,
+    "max_elevation_delta": 0,
+    "on_destroy_building_outcomes": [
+      1,
+      {}
+    ]
+  },
+  {
     "id": 5045122,
     "name": "School Of Mossy Amia",
     "description": "",
@@ -26010,6 +26138,72 @@
     ]
   },
   {
+    "id": 45429119,
+    "name": "Inactive Infused Gypsite Pit",
+    "description": "",
+    "flattenable": false,
+    "max_health": 1000,
+    "ignore_damage": true,
+    "despawn_time": 0.0,
+    "model_asset_name": "Resources/GypsitePitInactive",
+    "icon_asset_name": "GeneratedIcons/Other/MudMound",
+    "on_destroy_yield": [],
+    "on_destroy_yield_resource_id": 0,
+    "spawn_priority": 0,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          1,
+          []
+        ]
+      ],
+      [
+        0,
+        -1,
+        [
+          1,
+          []
+        ]
+      ],
+      [
+        -1,
+        0,
+        [
+          1,
+          []
+        ]
+      ]
+    ],
+    "tier": 3,
+    "tag": "Sand",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": true,
+    "enemy_params_id": [],
+    "scheduled_respawn_time": 0.0,
+    "not_respawning": false,
+    "show_time_left": true,
+    "on_destroy_yield_resource_chance": 1.0,
+    "on_destroy_yield_resource_min_radius": 0,
+    "on_destroy_yield_resource_max_radius": 0,
+    "light_radius": 0,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "max_elevation_delta": 0,
+    "on_destroy_building_outcomes": [
+      1,
+      {}
+    ]
+  },
+  {
     "id": 49710228,
     "name": "Luminite Outcrop Interior Depleted",
     "description": "",
@@ -26170,6 +26364,56 @@
     "enemy_params_id": [],
     "scheduled_respawn_time": 600.0,
     "not_respawning": true,
+    "show_time_left": false,
+    "on_destroy_yield_resource_chance": 1.0,
+    "on_destroy_yield_resource_min_radius": 0,
+    "on_destroy_yield_resource_max_radius": 0,
+    "light_radius": 0,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "max_elevation_delta": 0,
+    "on_destroy_building_outcomes": [
+      1,
+      {}
+    ]
+  },
+  {
+    "id": 53225446,
+    "name": "Subterranean Ghost Mushroom",
+    "description": "",
+    "flattenable": false,
+    "max_health": 200,
+    "ignore_damage": true,
+    "despawn_time": 0.0,
+    "model_asset_name": "Resources/T1UndergroundMushroom",
+    "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Other/MushroomT1",
+    "on_destroy_yield": [],
+    "on_destroy_yield_resource_id": 0,
+    "spawn_priority": 1,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          3,
+          []
+        ]
+      ]
+    ],
+    "tier": 8,
+    "tag": "Mushroom",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": false,
+    "enemy_params_id": [],
+    "scheduled_respawn_time": 0.0,
+    "not_respawning": false,
     "show_time_left": false,
     "on_destroy_yield_resource_chance": 1.0,
     "on_destroy_yield_resource_min_radius": 0,
@@ -28054,6 +28298,72 @@
     ]
   },
   {
+    "id": 60513246,
+    "name": "Magnificent Gypsite Pit",
+    "description": "",
+    "flattenable": false,
+    "max_health": 1000,
+    "ignore_damage": true,
+    "despawn_time": 0.0,
+    "model_asset_name": "Resources/GypsitePit",
+    "icon_asset_name": "GeneratedIcons/Other/MudMound",
+    "on_destroy_yield": [],
+    "on_destroy_yield_resource_id": 0,
+    "spawn_priority": 0,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          1,
+          []
+        ]
+      ],
+      [
+        0,
+        -1,
+        [
+          1,
+          []
+        ]
+      ],
+      [
+        -1,
+        0,
+        [
+          1,
+          []
+        ]
+      ]
+    ],
+    "tier": 9,
+    "tag": "Sand",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": true,
+    "enemy_params_id": [],
+    "scheduled_respawn_time": 0.0,
+    "not_respawning": false,
+    "show_time_left": true,
+    "on_destroy_yield_resource_chance": 1.0,
+    "on_destroy_yield_resource_min_radius": 0,
+    "on_destroy_yield_resource_max_radius": 0,
+    "light_radius": 0,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "max_elevation_delta": 0,
+    "on_destroy_building_outcomes": [
+      1,
+      {}
+    ]
+  },
+  {
     "id": 61557407,
     "name": "Web Covered Chest",
     "description": "A chest from the ancient times that the creatures in this cave have encased in web. Filled to the brim with hex coins and webs.",
@@ -28174,6 +28484,104 @@
     "scheduled_respawn_time": 600.0,
     "not_respawning": true,
     "show_time_left": false,
+    "on_destroy_yield_resource_chance": 1.0,
+    "on_destroy_yield_resource_min_radius": 0,
+    "on_destroy_yield_resource_max_radius": 0,
+    "light_radius": 0,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "max_elevation_delta": 0,
+    "on_destroy_building_outcomes": [
+      1,
+      {}
+    ]
+  },
+  {
+    "id": 65901922,
+    "name": "Citric Giant Savory Berry Bush",
+    "description": "",
+    "flattenable": false,
+    "max_health": 500,
+    "ignore_damage": true,
+    "despawn_time": 0.0,
+    "model_asset_name": "Resources/CitricGiantBerryBushT2",
+    "icon_asset_name": "GeneratedIcons/Other/BushStrawberry",
+    "on_destroy_yield": [],
+    "on_destroy_yield_resource_id": 0,
+    "spawn_priority": 100,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        -1,
+        0,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        -1,
+        1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        0,
+        1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        1,
+        0,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        1,
+        -1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        0,
+        -1,
+        [
+          0,
+          []
+        ]
+      ]
+    ],
+    "tier": 2,
+    "tag": "Bountiful Berry Bush",
+    "rarity": [
+      2,
+      {}
+    ],
+    "compendium_entry": true,
+    "enemy_params_id": [],
+    "scheduled_respawn_time": 0.0,
+    "not_respawning": false,
+    "show_time_left": true,
     "on_destroy_yield_resource_chance": 1.0,
     "on_destroy_yield_resource_min_radius": 0,
     "on_destroy_yield_resource_max_radius": 0,
@@ -28505,6 +28913,254 @@
     "spawns_in_water": false,
     "water_depth_min": 0,
     "water_depth_max": 1000,
+    "max_elevation_delta": 0,
+    "on_destroy_building_outcomes": [
+      1,
+      {}
+    ]
+  },
+  {
+    "id": 93502474,
+    "name": "Inactive Fine Gypsite Pit",
+    "description": "",
+    "flattenable": false,
+    "max_health": 1000,
+    "ignore_damage": true,
+    "despawn_time": 0.0,
+    "model_asset_name": "Resources/GypsitePitInactive",
+    "icon_asset_name": "GeneratedIcons/Other/MudMound",
+    "on_destroy_yield": [],
+    "on_destroy_yield_resource_id": 0,
+    "spawn_priority": 0,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          1,
+          []
+        ]
+      ],
+      [
+        0,
+        -1,
+        [
+          1,
+          []
+        ]
+      ],
+      [
+        -1,
+        0,
+        [
+          1,
+          []
+        ]
+      ]
+    ],
+    "tier": 4,
+    "tag": "Sand",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": true,
+    "enemy_params_id": [],
+    "scheduled_respawn_time": 0.0,
+    "not_respawning": false,
+    "show_time_left": true,
+    "on_destroy_yield_resource_chance": 1.0,
+    "on_destroy_yield_resource_min_radius": 0,
+    "on_destroy_yield_resource_max_radius": 0,
+    "light_radius": 0,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "max_elevation_delta": 0,
+    "on_destroy_building_outcomes": [
+      1,
+      {}
+    ]
+  },
+  {
+    "id": 100197889,
+    "name": "Ornate Gypsite Pit",
+    "description": "",
+    "flattenable": false,
+    "max_health": 1000,
+    "ignore_damage": true,
+    "despawn_time": 0.0,
+    "model_asset_name": "Resources/GypsitePit",
+    "icon_asset_name": "GeneratedIcons/Other/MudMound",
+    "on_destroy_yield": [],
+    "on_destroy_yield_resource_id": 0,
+    "spawn_priority": 0,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          1,
+          []
+        ]
+      ],
+      [
+        0,
+        -1,
+        [
+          1,
+          []
+        ]
+      ],
+      [
+        -1,
+        0,
+        [
+          1,
+          []
+        ]
+      ]
+    ],
+    "tier": 7,
+    "tag": "Sand",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": true,
+    "enemy_params_id": [],
+    "scheduled_respawn_time": 0.0,
+    "not_respawning": false,
+    "show_time_left": true,
+    "on_destroy_yield_resource_chance": 1.0,
+    "on_destroy_yield_resource_min_radius": 0,
+    "on_destroy_yield_resource_max_radius": 0,
+    "light_radius": 0,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "max_elevation_delta": 0,
+    "on_destroy_building_outcomes": [
+      1,
+      {}
+    ]
+  },
+  {
+    "id": 100555377,
+    "name": "Inactive Pristine Gypsite Pit",
+    "description": "",
+    "flattenable": false,
+    "max_health": 1000,
+    "ignore_damage": true,
+    "despawn_time": 0.0,
+    "model_asset_name": "Resources/GypsitePitInactive",
+    "icon_asset_name": "GeneratedIcons/Other/MudMound",
+    "on_destroy_yield": [],
+    "on_destroy_yield_resource_id": 0,
+    "spawn_priority": 0,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          1,
+          []
+        ]
+      ],
+      [
+        0,
+        -1,
+        [
+          1,
+          []
+        ]
+      ],
+      [
+        -1,
+        0,
+        [
+          1,
+          []
+        ]
+      ]
+    ],
+    "tier": 8,
+    "tag": "Sand",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": true,
+    "enemy_params_id": [],
+    "scheduled_respawn_time": 0.0,
+    "not_respawning": false,
+    "show_time_left": true,
+    "on_destroy_yield_resource_chance": 1.0,
+    "on_destroy_yield_resource_min_radius": 0,
+    "on_destroy_yield_resource_max_radius": 0,
+    "light_radius": 0,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "max_elevation_delta": 0,
+    "on_destroy_building_outcomes": [
+      1,
+      {}
+    ]
+  },
+  {
+    "id": 101510285,
+    "name": "Flawless Deep Roots",
+    "description": "",
+    "flattenable": false,
+    "max_health": 200,
+    "ignore_damage": true,
+    "despawn_time": 0.0,
+    "model_asset_name": "Resources/UndergroundRootsT1",
+    "icon_asset_name": "GeneratedIcons/Other/AncientThorns",
+    "on_destroy_yield": [],
+    "on_destroy_yield_resource_id": 0,
+    "spawn_priority": 1,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          0,
+          []
+        ]
+      ]
+    ],
+    "tier": 10,
+    "tag": "Fiber Plant",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": true,
+    "enemy_params_id": [],
+    "scheduled_respawn_time": 0.0,
+    "not_respawning": false,
+    "show_time_left": false,
+    "on_destroy_yield_resource_chance": 1.0,
+    "on_destroy_yield_resource_min_radius": 0,
+    "on_destroy_yield_resource_max_radius": 0,
+    "light_radius": 0,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 5,
     "max_elevation_delta": 0,
     "on_destroy_building_outcomes": [
       1,
@@ -29884,7 +30540,7 @@
     "model_asset_name": "Resources/RoughSandPile",
     "icon_asset_name": "GeneratedIcons/Other/MudMound",
     "on_destroy_yield": [],
-    "on_destroy_yield_resource_id": 0,
+    "on_destroy_yield_resource_id": 938536485,
     "spawn_priority": 0,
     "footprint": [
       [
@@ -29923,7 +30579,7 @@
     "scheduled_respawn_time": 600.0,
     "not_respawning": false,
     "show_time_left": false,
-    "on_destroy_yield_resource_chance": 1.0,
+    "on_destroy_yield_resource_chance": 0.06,
     "on_destroy_yield_resource_min_radius": 0,
     "on_destroy_yield_resource_max_radius": 0,
     "light_radius": 0,
@@ -30038,6 +30694,104 @@
     ]
   },
   {
+    "id": 206224604,
+    "name": "Withering Giant Zesty Berry Bush",
+    "description": "",
+    "flattenable": false,
+    "max_health": 90,
+    "ignore_damage": false,
+    "despawn_time": 0.0,
+    "model_asset_name": "Resources/WitheringGiantBerryBushT3",
+    "icon_asset_name": "GeneratedIcons/Other/BushStrawberry",
+    "on_destroy_yield": [],
+    "on_destroy_yield_resource_id": 1713099134,
+    "spawn_priority": 100,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        -1,
+        0,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        -1,
+        1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        0,
+        1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        1,
+        0,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        1,
+        -1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        0,
+        -1,
+        [
+          0,
+          []
+        ]
+      ]
+    ],
+    "tier": 3,
+    "tag": "Bountiful Berry Bush",
+    "rarity": [
+      2,
+      {}
+    ],
+    "compendium_entry": true,
+    "enemy_params_id": [],
+    "scheduled_respawn_time": 0.0,
+    "not_respawning": false,
+    "show_time_left": false,
+    "on_destroy_yield_resource_chance": 1.0,
+    "on_destroy_yield_resource_min_radius": 0,
+    "on_destroy_yield_resource_max_radius": 0,
+    "light_radius": 0,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "max_elevation_delta": 0,
+    "on_destroy_building_outcomes": [
+      1,
+      {}
+    ]
+  },
+  {
     "id": 208912710,
     "name": "Basic Hexite Infused Stump",
     "description": "A hexite infused stump that yields a higher amount of wood. The energy in it makes chopping it harder.",
@@ -30071,6 +30825,72 @@
     "scheduled_respawn_time": 0.0,
     "not_respawning": true,
     "show_time_left": false,
+    "on_destroy_yield_resource_chance": 1.0,
+    "on_destroy_yield_resource_min_radius": 0,
+    "on_destroy_yield_resource_max_radius": 0,
+    "light_radius": 0,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "max_elevation_delta": 0,
+    "on_destroy_building_outcomes": [
+      1,
+      {}
+    ]
+  },
+  {
+    "id": 209048760,
+    "name": "Inactive Flawless Gypsite Pit",
+    "description": "",
+    "flattenable": false,
+    "max_health": 1000,
+    "ignore_damage": true,
+    "despawn_time": 0.0,
+    "model_asset_name": "Resources/GypsitePitInactive",
+    "icon_asset_name": "GeneratedIcons/Other/MudMound",
+    "on_destroy_yield": [],
+    "on_destroy_yield_resource_id": 0,
+    "spawn_priority": 0,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          1,
+          []
+        ]
+      ],
+      [
+        0,
+        -1,
+        [
+          1,
+          []
+        ]
+      ],
+      [
+        -1,
+        0,
+        [
+          1,
+          []
+        ]
+      ]
+    ],
+    "tier": 10,
+    "tag": "Sand",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": true,
+    "enemy_params_id": [],
+    "scheduled_respawn_time": 0.0,
+    "not_respawning": false,
+    "show_time_left": true,
     "on_destroy_yield_resource_chance": 1.0,
     "on_destroy_yield_resource_min_radius": 0,
     "on_destroy_yield_resource_max_radius": 0,
@@ -30137,6 +30957,72 @@
     "scheduled_respawn_time": 0.0,
     "not_respawning": true,
     "show_time_left": false,
+    "on_destroy_yield_resource_chance": 1.0,
+    "on_destroy_yield_resource_min_radius": 0,
+    "on_destroy_yield_resource_max_radius": 0,
+    "light_radius": 0,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "max_elevation_delta": 0,
+    "on_destroy_building_outcomes": [
+      1,
+      {}
+    ]
+  },
+  {
+    "id": 214913961,
+    "name": "Inactive Peerless Gypsite Pit",
+    "description": "",
+    "flattenable": false,
+    "max_health": 1000,
+    "ignore_damage": true,
+    "despawn_time": 0.0,
+    "model_asset_name": "Resources/GypsitePitInactive",
+    "icon_asset_name": "GeneratedIcons/Other/MudMound",
+    "on_destroy_yield": [],
+    "on_destroy_yield_resource_id": 0,
+    "spawn_priority": 0,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          1,
+          []
+        ]
+      ],
+      [
+        0,
+        -1,
+        [
+          1,
+          []
+        ]
+      ],
+      [
+        -1,
+        0,
+        [
+          1,
+          []
+        ]
+      ]
+    ],
+    "tier": 6,
+    "tag": "Sand",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": true,
+    "enemy_params_id": [],
+    "scheduled_respawn_time": 0.0,
+    "not_respawning": false,
+    "show_time_left": true,
     "on_destroy_yield_resource_chance": 1.0,
     "on_destroy_yield_resource_min_radius": 0,
     "on_destroy_yield_resource_max_radius": 0,
@@ -39810,6 +40696,104 @@
     ]
   },
   {
+    "id": 353689546,
+    "name": "Giant Bountiful Savory Berry Bush",
+    "description": "",
+    "flattenable": false,
+    "max_health": 500,
+    "ignore_damage": true,
+    "despawn_time": 0.0,
+    "model_asset_name": "Resources/GiantBountifulBerryBushT2",
+    "icon_asset_name": "GeneratedIcons/Other/BushStrawberry",
+    "on_destroy_yield": [],
+    "on_destroy_yield_resource_id": 0,
+    "spawn_priority": 100,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        -1,
+        0,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        -1,
+        1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        0,
+        1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        1,
+        0,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        1,
+        -1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        0,
+        -1,
+        [
+          0,
+          []
+        ]
+      ]
+    ],
+    "tier": 2,
+    "tag": "Bountiful Berry Bush",
+    "rarity": [
+      2,
+      {}
+    ],
+    "compendium_entry": true,
+    "enemy_params_id": [],
+    "scheduled_respawn_time": 0.0,
+    "not_respawning": false,
+    "show_time_left": true,
+    "on_destroy_yield_resource_chance": 1.0,
+    "on_destroy_yield_resource_min_radius": 0,
+    "on_destroy_yield_resource_max_radius": 0,
+    "light_radius": 0,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "max_elevation_delta": 0,
+    "on_destroy_building_outcomes": [
+      1,
+      {}
+    ]
+  },
+  {
     "id": 367785441,
     "name": "Hidden Murky Nemato Spot",
     "description": "",
@@ -40473,6 +41457,104 @@
     "enemy_params_id": [],
     "scheduled_respawn_time": 600.0,
     "not_respawning": true,
+    "show_time_left": false,
+    "on_destroy_yield_resource_chance": 1.0,
+    "on_destroy_yield_resource_min_radius": 0,
+    "on_destroy_yield_resource_max_radius": 0,
+    "light_radius": 0,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "max_elevation_delta": 0,
+    "on_destroy_building_outcomes": [
+      1,
+      {}
+    ]
+  },
+  {
+    "id": 379556870,
+    "name": "Withering Giant Savory Berry Bush",
+    "description": "",
+    "flattenable": false,
+    "max_health": 75,
+    "ignore_damage": false,
+    "despawn_time": 0.0,
+    "model_asset_name": "Resources/WitheringGiantBerryBushT2",
+    "icon_asset_name": "GeneratedIcons/Other/BushStrawberry",
+    "on_destroy_yield": [],
+    "on_destroy_yield_resource_id": 353689546,
+    "spawn_priority": 100,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        -1,
+        0,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        -1,
+        1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        0,
+        1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        1,
+        0,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        1,
+        -1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        0,
+        -1,
+        [
+          0,
+          []
+        ]
+      ]
+    ],
+    "tier": 2,
+    "tag": "Bountiful Berry Bush",
+    "rarity": [
+      2,
+      {}
+    ],
+    "compendium_entry": true,
+    "enemy_params_id": [],
+    "scheduled_respawn_time": 0.0,
+    "not_respawning": false,
     "show_time_left": false,
     "on_destroy_yield_resource_chance": 1.0,
     "on_destroy_yield_resource_min_radius": 0,
@@ -42524,7 +43606,7 @@
     "model_asset_name": "Resources/PristineSand",
     "icon_asset_name": "GeneratedIcons/Other/MudMound",
     "on_destroy_yield": [],
-    "on_destroy_yield_resource_id": 0,
+    "on_destroy_yield_resource_id": 100555377,
     "spawn_priority": 0,
     "footprint": [
       [
@@ -42563,7 +43645,7 @@
     "scheduled_respawn_time": 600.0,
     "not_respawning": false,
     "show_time_left": false,
-    "on_destroy_yield_resource_chance": 1.0,
+    "on_destroy_yield_resource_chance": 0.06,
     "on_destroy_yield_resource_min_radius": 0,
     "on_destroy_yield_resource_max_radius": 0,
     "light_radius": 0,
@@ -42688,7 +43770,7 @@
     "model_asset_name": "Resources/OlivineSandPile",
     "icon_asset_name": "GeneratedIcons/Other/MudMound",
     "on_destroy_yield": [],
-    "on_destroy_yield_resource_id": 0,
+    "on_destroy_yield_resource_id": 1450830612,
     "spawn_priority": 0,
     "footprint": [
       [
@@ -42727,7 +43809,7 @@
     "scheduled_respawn_time": 600.0,
     "not_respawning": false,
     "show_time_left": false,
-    "on_destroy_yield_resource_chance": 1.0,
+    "on_destroy_yield_resource_chance": 0.06,
     "on_destroy_yield_resource_min_radius": 0,
     "on_destroy_yield_resource_max_radius": 0,
     "light_radius": 0,
@@ -43993,8 +45075,21 @@
     "water_depth_max": 1000,
     "max_elevation_delta": 0,
     "on_destroy_building_outcomes": [
-      1,
-      {}
+      0,
+      [
+        [
+          12.0,
+          1385132431,
+          0,
+          0
+        ],
+        [
+          88.0,
+          0,
+          0,
+          0
+        ]
+      ]
     ]
   },
   {
@@ -44139,6 +45234,56 @@
     "spawns_in_water": false,
     "water_depth_min": 0,
     "water_depth_max": 1000,
+    "max_elevation_delta": 0,
+    "on_destroy_building_outcomes": [
+      1,
+      {}
+    ]
+  },
+  {
+    "id": 529252257,
+    "name": "Pristine Deep Roots",
+    "description": "",
+    "flattenable": false,
+    "max_health": 200,
+    "ignore_damage": true,
+    "despawn_time": 0.0,
+    "model_asset_name": "Resources/UndergroundRootsT1",
+    "icon_asset_name": "GeneratedIcons/Other/AncientThorns",
+    "on_destroy_yield": [],
+    "on_destroy_yield_resource_id": 0,
+    "spawn_priority": 1,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          0,
+          []
+        ]
+      ]
+    ],
+    "tier": 8,
+    "tag": "Fiber Plant",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": true,
+    "enemy_params_id": [],
+    "scheduled_respawn_time": 0.0,
+    "not_respawning": false,
+    "show_time_left": false,
+    "on_destroy_yield_resource_chance": 1.0,
+    "on_destroy_yield_resource_min_radius": 0,
+    "on_destroy_yield_resource_max_radius": 0,
+    "light_radius": 0,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 5,
     "max_elevation_delta": 0,
     "on_destroy_building_outcomes": [
       1,
@@ -44319,7 +45464,7 @@
     "model_asset_name": "Resources/GarnetSand",
     "icon_asset_name": "GeneratedIcons/Other/MudMound",
     "on_destroy_yield": [],
-    "on_destroy_yield_resource_id": 0,
+    "on_destroy_yield_resource_id": 93502474,
     "spawn_priority": 0,
     "footprint": [
       [
@@ -44358,7 +45503,7 @@
     "scheduled_respawn_time": 600.0,
     "not_respawning": false,
     "show_time_left": false,
-    "on_destroy_yield_resource_chance": 1.0,
+    "on_destroy_yield_resource_chance": 0.06,
     "on_destroy_yield_resource_min_radius": 0,
     "on_destroy_yield_resource_max_radius": 0,
     "light_radius": 0,
@@ -44585,7 +45730,7 @@
     "model_asset_name": "Resources/MagnificentSand",
     "icon_asset_name": "GeneratedIcons/Other/MudMound",
     "on_destroy_yield": [],
-    "on_destroy_yield_resource_id": 0,
+    "on_destroy_yield_resource_id": 1333399073,
     "spawn_priority": 0,
     "footprint": [
       [
@@ -44624,7 +45769,7 @@
     "scheduled_respawn_time": 600.0,
     "not_respawning": false,
     "show_time_left": false,
-    "on_destroy_yield_resource_chance": 1.0,
+    "on_destroy_yield_resource_chance": 0.06,
     "on_destroy_yield_resource_min_radius": 0,
     "on_destroy_yield_resource_max_radius": 0,
     "light_radius": 0,
@@ -45054,6 +46199,56 @@
     ]
   },
   {
+    "id": 599602020,
+    "name": "Ornate Deep Roots",
+    "description": "",
+    "flattenable": false,
+    "max_health": 200,
+    "ignore_damage": true,
+    "despawn_time": 0.0,
+    "model_asset_name": "Resources/UndergroundRootsT1",
+    "icon_asset_name": "GeneratedIcons/Other/AncientThorns",
+    "on_destroy_yield": [],
+    "on_destroy_yield_resource_id": 0,
+    "spawn_priority": 1,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          0,
+          []
+        ]
+      ]
+    ],
+    "tier": 7,
+    "tag": "Fiber Plant",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": true,
+    "enemy_params_id": [],
+    "scheduled_respawn_time": 0.0,
+    "not_respawning": false,
+    "show_time_left": false,
+    "on_destroy_yield_resource_chance": 1.0,
+    "on_destroy_yield_resource_min_radius": 0,
+    "on_destroy_yield_resource_max_radius": 0,
+    "light_radius": 0,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 5,
+    "max_elevation_delta": 0,
+    "on_destroy_building_outcomes": [
+      1,
+      {}
+    ]
+  },
+  {
     "id": 616268871,
     "name": "Rich Umbracite Deposit",
     "description": "",
@@ -45153,6 +46348,72 @@
     "scheduled_respawn_time": 600.0,
     "not_respawning": false,
     "show_time_left": false,
+    "on_destroy_yield_resource_chance": 1.0,
+    "on_destroy_yield_resource_min_radius": 0,
+    "on_destroy_yield_resource_max_radius": 0,
+    "light_radius": 0,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "max_elevation_delta": 0,
+    "on_destroy_building_outcomes": [
+      1,
+      {}
+    ]
+  },
+  {
+    "id": 640884139,
+    "name": "Infused Gypsite Pit",
+    "description": "",
+    "flattenable": false,
+    "max_health": 1000,
+    "ignore_damage": true,
+    "despawn_time": 0.0,
+    "model_asset_name": "Resources/GypsitePit",
+    "icon_asset_name": "GeneratedIcons/Other/MudMound",
+    "on_destroy_yield": [],
+    "on_destroy_yield_resource_id": 0,
+    "spawn_priority": 0,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          1,
+          []
+        ]
+      ],
+      [
+        0,
+        -1,
+        [
+          1,
+          []
+        ]
+      ],
+      [
+        -1,
+        0,
+        [
+          1,
+          []
+        ]
+      ]
+    ],
+    "tier": 3,
+    "tag": "Sand",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": true,
+    "enemy_params_id": [],
+    "scheduled_respawn_time": 0.0,
+    "not_respawning": false,
+    "show_time_left": true,
     "on_destroy_yield_resource_chance": 1.0,
     "on_destroy_yield_resource_min_radius": 0,
     "on_destroy_yield_resource_max_radius": 0,
@@ -46211,6 +47472,56 @@
     ]
   },
   {
+    "id": 687249632,
+    "name": "Subterranean Button Mushrooms",
+    "description": "",
+    "flattenable": false,
+    "max_health": 200,
+    "ignore_damage": true,
+    "despawn_time": 0.0,
+    "model_asset_name": "Resources/T1UndergroundMushroom",
+    "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Other/MushroomT1",
+    "on_destroy_yield": [],
+    "on_destroy_yield_resource_id": 0,
+    "spawn_priority": 1,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          3,
+          []
+        ]
+      ]
+    ],
+    "tier": 1,
+    "tag": "Mushroom",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": false,
+    "enemy_params_id": [],
+    "scheduled_respawn_time": 0.0,
+    "not_respawning": false,
+    "show_time_left": false,
+    "on_destroy_yield_resource_chance": 1.0,
+    "on_destroy_yield_resource_min_radius": 0,
+    "on_destroy_yield_resource_max_radius": 0,
+    "light_radius": 0,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "max_elevation_delta": 0,
+    "on_destroy_building_outcomes": [
+      1,
+      {}
+    ]
+  },
+  {
     "id": 699727318,
     "name": "Medium Pyrelite Vein Interior",
     "description": "",
@@ -46452,8 +47763,21 @@
     "water_depth_max": 1000,
     "max_elevation_delta": 0,
     "on_destroy_building_outcomes": [
-      1,
-      {}
+      0,
+      [
+        [
+          12.0,
+          920357513,
+          0,
+          0
+        ],
+        [
+          88.0,
+          0,
+          0,
+          0
+        ]
+      ]
     ]
   },
   {
@@ -51158,8 +52482,21 @@
     "water_depth_max": 1000,
     "max_elevation_delta": 0,
     "on_destroy_building_outcomes": [
-      1,
-      {}
+      0,
+      [
+        [
+          12.0,
+          1858602824,
+          0,
+          0
+        ],
+        [
+          88.0,
+          0,
+          0,
+          0
+        ]
+      ]
     ]
   },
   {
@@ -59161,6 +60498,72 @@
     ]
   },
   {
+    "id": 889481955,
+    "name": "Simple Gypsite Pit",
+    "description": "",
+    "flattenable": false,
+    "max_health": 1000,
+    "ignore_damage": true,
+    "despawn_time": 0.0,
+    "model_asset_name": "Resources/GypsitePit",
+    "icon_asset_name": "GeneratedIcons/Other/MudMound",
+    "on_destroy_yield": [],
+    "on_destroy_yield_resource_id": 0,
+    "spawn_priority": 0,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          1,
+          []
+        ]
+      ],
+      [
+        0,
+        -1,
+        [
+          1,
+          []
+        ]
+      ],
+      [
+        -1,
+        0,
+        [
+          1,
+          []
+        ]
+      ]
+    ],
+    "tier": 2,
+    "tag": "Sand",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": true,
+    "enemy_params_id": [],
+    "scheduled_respawn_time": 0.0,
+    "not_respawning": false,
+    "show_time_left": true,
+    "on_destroy_yield_resource_chance": 1.0,
+    "on_destroy_yield_resource_min_radius": 0,
+    "on_destroy_yield_resource_max_radius": 0,
+    "light_radius": 0,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "max_elevation_delta": 0,
+    "on_destroy_building_outcomes": [
+      1,
+      {}
+    ]
+  },
+  {
     "id": 894948018,
     "name": "Infused Hexite Infused Tree",
     "description": "A hexite tree that's been infused with Hexite Energy. The stump is extremely resilient and contains massive amounts of wood.",
@@ -60222,6 +61625,72 @@
     "scheduled_respawn_time": 0.0,
     "not_respawning": false,
     "show_time_left": false,
+    "on_destroy_yield_resource_chance": 1.0,
+    "on_destroy_yield_resource_min_radius": 0,
+    "on_destroy_yield_resource_max_radius": 0,
+    "light_radius": 0,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "max_elevation_delta": 0,
+    "on_destroy_building_outcomes": [
+      1,
+      {}
+    ]
+  },
+  {
+    "id": 938536485,
+    "name": "Inactive Rough Gypsite Pit",
+    "description": "",
+    "flattenable": false,
+    "max_health": 1000,
+    "ignore_damage": true,
+    "despawn_time": 0.0,
+    "model_asset_name": "Resources/GypsitePitInactive",
+    "icon_asset_name": "GeneratedIcons/Other/MudMound",
+    "on_destroy_yield": [],
+    "on_destroy_yield_resource_id": 0,
+    "spawn_priority": 0,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          1,
+          []
+        ]
+      ],
+      [
+        0,
+        -1,
+        [
+          1,
+          []
+        ]
+      ],
+      [
+        -1,
+        0,
+        [
+          1,
+          []
+        ]
+      ]
+    ],
+    "tier": 1,
+    "tag": "Sand",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": true,
+    "enemy_params_id": [],
+    "scheduled_respawn_time": 0.0,
+    "not_respawning": false,
+    "show_time_left": true,
     "on_destroy_yield_resource_chance": 1.0,
     "on_destroy_yield_resource_min_radius": 0,
     "on_destroy_yield_resource_max_radius": 0,
@@ -62238,6 +63707,122 @@
     "scheduled_respawn_time": 600.0,
     "not_respawning": false,
     "show_time_left": false,
+    "on_destroy_yield_resource_chance": 1.0,
+    "on_destroy_yield_resource_min_radius": 0,
+    "on_destroy_yield_resource_max_radius": 0,
+    "light_radius": 0,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "max_elevation_delta": 0,
+    "on_destroy_building_outcomes": [
+      1,
+      {}
+    ]
+  },
+  {
+    "id": 968561419,
+    "name": "Subterranean Oyster Mushroom",
+    "description": "",
+    "flattenable": false,
+    "max_health": 200,
+    "ignore_damage": true,
+    "despawn_time": 0.0,
+    "model_asset_name": "Resources/T1UndergroundMushroom",
+    "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Other/MushroomT1",
+    "on_destroy_yield": [],
+    "on_destroy_yield_resource_id": 0,
+    "spawn_priority": 1,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          3,
+          []
+        ]
+      ]
+    ],
+    "tier": 7,
+    "tag": "Mushroom",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": false,
+    "enemy_params_id": [],
+    "scheduled_respawn_time": 0.0,
+    "not_respawning": false,
+    "show_time_left": false,
+    "on_destroy_yield_resource_chance": 1.0,
+    "on_destroy_yield_resource_min_radius": 0,
+    "on_destroy_yield_resource_max_radius": 0,
+    "light_radius": 0,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "max_elevation_delta": 0,
+    "on_destroy_building_outcomes": [
+      1,
+      {}
+    ]
+  },
+  {
+    "id": 974225980,
+    "name": "Rough Gypsite Pit",
+    "description": "",
+    "flattenable": false,
+    "max_health": 1000,
+    "ignore_damage": true,
+    "despawn_time": 0.0,
+    "model_asset_name": "Resources/GypsitePit",
+    "icon_asset_name": "GeneratedIcons/Other/MudMound",
+    "on_destroy_yield": [],
+    "on_destroy_yield_resource_id": 0,
+    "spawn_priority": 0,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          1,
+          []
+        ]
+      ],
+      [
+        0,
+        -1,
+        [
+          1,
+          []
+        ]
+      ],
+      [
+        -1,
+        0,
+        [
+          1,
+          []
+        ]
+      ]
+    ],
+    "tier": 1,
+    "tag": "Sand",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": true,
+    "enemy_params_id": [],
+    "scheduled_respawn_time": 0.0,
+    "not_respawning": false,
+    "show_time_left": true,
     "on_destroy_yield_resource_chance": 1.0,
     "on_destroy_yield_resource_min_radius": 0,
     "on_destroy_yield_resource_max_radius": 0,
@@ -64351,6 +65936,56 @@
     ]
   },
   {
+    "id": 998944900,
+    "name": "Subterranean Morel Mushroom",
+    "description": "",
+    "flattenable": false,
+    "max_health": 200,
+    "ignore_damage": true,
+    "despawn_time": 0.0,
+    "model_asset_name": "Resources/T1UndergroundMushroom",
+    "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Other/MushroomT1",
+    "on_destroy_yield": [],
+    "on_destroy_yield_resource_id": 0,
+    "spawn_priority": 1,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          3,
+          []
+        ]
+      ]
+    ],
+    "tier": 6,
+    "tag": "Mushroom",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": false,
+    "enemy_params_id": [],
+    "scheduled_respawn_time": 0.0,
+    "not_respawning": false,
+    "show_time_left": false,
+    "on_destroy_yield_resource_chance": 1.0,
+    "on_destroy_yield_resource_min_radius": 0,
+    "on_destroy_yield_resource_max_radius": 0,
+    "light_radius": 0,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "max_elevation_delta": 0,
+    "on_destroy_building_outcomes": [
+      1,
+      {}
+    ]
+  },
+  {
     "id": 999376882,
     "name": "Desert Sand",
     "description": "",
@@ -64361,7 +65996,7 @@
     "model_asset_name": "Resources/DesertSand",
     "icon_asset_name": "GeneratedIcons/Other/MudMound",
     "on_destroy_yield": [],
-    "on_destroy_yield_resource_id": 0,
+    "on_destroy_yield_resource_id": 214913961,
     "spawn_priority": 0,
     "footprint": [
       [
@@ -64398,6 +66033,56 @@
     "compendium_entry": true,
     "enemy_params_id": [],
     "scheduled_respawn_time": 600.0,
+    "not_respawning": false,
+    "show_time_left": false,
+    "on_destroy_yield_resource_chance": 0.06,
+    "on_destroy_yield_resource_min_radius": 0,
+    "on_destroy_yield_resource_max_radius": 0,
+    "light_radius": 0,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "max_elevation_delta": 0,
+    "on_destroy_building_outcomes": [
+      1,
+      {}
+    ]
+  },
+  {
+    "id": 1001049055,
+    "name": "Gentle Spring",
+    "description": "Has some nutrient rich water that can be used to restore the withering berry bush to a healthy state.",
+    "flattenable": false,
+    "max_health": 1,
+    "ignore_damage": true,
+    "despawn_time": 0.0,
+    "model_asset_name": "Resources/GentleSpring",
+    "icon_asset_name": "GeneratedIcons/Other/WaterGeyser",
+    "on_destroy_yield": [],
+    "on_destroy_yield_resource_id": 0,
+    "spawn_priority": 100,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          0,
+          []
+        ]
+      ]
+    ],
+    "tier": -1,
+    "tag": "Foraging Resource",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": true,
+    "enemy_params_id": [],
+    "scheduled_respawn_time": 0.0,
     "not_respawning": false,
     "show_time_left": false,
     "on_destroy_yield_resource_chance": 1.0,
@@ -64835,8 +66520,21 @@
     "water_depth_max": 1000,
     "max_elevation_delta": 0,
     "on_destroy_building_outcomes": [
-      1,
-      {}
+      0,
+      [
+        [
+          12.0,
+          1726224479,
+          0,
+          0
+        ],
+        [
+          88.0,
+          0,
+          0,
+          0
+        ]
+      ]
     ]
   },
   {
@@ -65324,6 +67022,72 @@
     "scheduled_respawn_time": 600.0,
     "not_respawning": true,
     "show_time_left": false,
+    "on_destroy_yield_resource_chance": 1.0,
+    "on_destroy_yield_resource_min_radius": 0,
+    "on_destroy_yield_resource_max_radius": 0,
+    "light_radius": 0,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "max_elevation_delta": 0,
+    "on_destroy_building_outcomes": [
+      1,
+      {}
+    ]
+  },
+  {
+    "id": 1047539391,
+    "name": "Inactive Ornate Gypsite Pit",
+    "description": "",
+    "flattenable": false,
+    "max_health": 1000,
+    "ignore_damage": true,
+    "despawn_time": 0.0,
+    "model_asset_name": "Resources/GypsitePitInactive",
+    "icon_asset_name": "GeneratedIcons/Other/MudMound",
+    "on_destroy_yield": [],
+    "on_destroy_yield_resource_id": 0,
+    "spawn_priority": 0,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          1,
+          []
+        ]
+      ],
+      [
+        0,
+        -1,
+        [
+          1,
+          []
+        ]
+      ],
+      [
+        -1,
+        0,
+        [
+          1,
+          []
+        ]
+      ]
+    ],
+    "tier": 7,
+    "tag": "Sand",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": true,
+    "enemy_params_id": [],
+    "scheduled_respawn_time": 0.0,
+    "not_respawning": false,
+    "show_time_left": true,
     "on_destroy_yield_resource_chance": 1.0,
     "on_destroy_yield_resource_min_radius": 0,
     "on_destroy_yield_resource_max_radius": 0,
@@ -66361,6 +68125,56 @@
     ],
     "tier": -1,
     "tag": "Injured Animal",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": false,
+    "enemy_params_id": [],
+    "scheduled_respawn_time": 0.0,
+    "not_respawning": false,
+    "show_time_left": false,
+    "on_destroy_yield_resource_chance": 1.0,
+    "on_destroy_yield_resource_min_radius": 0,
+    "on_destroy_yield_resource_max_radius": 0,
+    "light_radius": 0,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "max_elevation_delta": 0,
+    "on_destroy_building_outcomes": [
+      1,
+      {}
+    ]
+  },
+  {
+    "id": 1078881972,
+    "name": "Subterranean Russala",
+    "description": "",
+    "flattenable": false,
+    "max_health": 200,
+    "ignore_damage": true,
+    "despawn_time": 0.0,
+    "model_asset_name": "Resources/T1UndergroundMushroom",
+    "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Other/MushroomT1",
+    "on_destroy_yield": [],
+    "on_destroy_yield_resource_id": 0,
+    "spawn_priority": 1,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          3,
+          []
+        ]
+      ]
+    ],
+    "tier": 3,
+    "tag": "Mushroom",
     "rarity": [
       1,
       {}
@@ -68028,6 +69842,56 @@
     "spawns_in_water": false,
     "water_depth_min": 0,
     "water_depth_max": 1000,
+    "max_elevation_delta": 0,
+    "on_destroy_building_outcomes": [
+      1,
+      {}
+    ]
+  },
+  {
+    "id": 1115571382,
+    "name": "Basic Deep Roots",
+    "description": "",
+    "flattenable": false,
+    "max_health": 100,
+    "ignore_damage": true,
+    "despawn_time": 0.0,
+    "model_asset_name": "Resources/UndergroundRootsT1",
+    "icon_asset_name": "GeneratedIcons/Other/AncientThorns",
+    "on_destroy_yield": [],
+    "on_destroy_yield_resource_id": 0,
+    "spawn_priority": 1,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          0,
+          []
+        ]
+      ]
+    ],
+    "tier": 1,
+    "tag": "Fiber Plant",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": true,
+    "enemy_params_id": [],
+    "scheduled_respawn_time": 0.0,
+    "not_respawning": false,
+    "show_time_left": false,
+    "on_destroy_yield_resource_chance": 1.0,
+    "on_destroy_yield_resource_min_radius": 0,
+    "on_destroy_yield_resource_max_radius": 0,
+    "light_radius": 0,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 5,
     "max_elevation_delta": 0,
     "on_destroy_building_outcomes": [
       1,
@@ -72916,7 +74780,7 @@
     "model_asset_name": "Resources/CrystalizedSand",
     "icon_asset_name": "GeneratedIcons/Other/MudMound",
     "on_destroy_yield": [],
-    "on_destroy_yield_resource_id": 0,
+    "on_destroy_yield_resource_id": 45429119,
     "spawn_priority": 0,
     "footprint": [
       [
@@ -72955,7 +74819,7 @@
     "scheduled_respawn_time": 600.0,
     "not_respawning": false,
     "show_time_left": false,
-    "on_destroy_yield_resource_chance": 1.0,
+    "on_destroy_yield_resource_chance": 0.06,
     "on_destroy_yield_resource_min_radius": 0,
     "on_destroy_yield_resource_max_radius": 0,
     "light_radius": 0,
@@ -74203,6 +76067,56 @@
     ]
   },
   {
+    "id": 1278209224,
+    "name": "Subterranean Indigo Cap",
+    "description": "",
+    "flattenable": false,
+    "max_health": 200,
+    "ignore_damage": true,
+    "despawn_time": 0.0,
+    "model_asset_name": "Resources/T1UndergroundMushroom",
+    "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Other/MushroomT1",
+    "on_destroy_yield": [],
+    "on_destroy_yield_resource_id": 0,
+    "spawn_priority": 1,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          3,
+          []
+        ]
+      ]
+    ],
+    "tier": 4,
+    "tag": "Mushroom",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": false,
+    "enemy_params_id": [],
+    "scheduled_respawn_time": 0.0,
+    "not_respawning": false,
+    "show_time_left": false,
+    "on_destroy_yield_resource_chance": 1.0,
+    "on_destroy_yield_resource_min_radius": 0,
+    "on_destroy_yield_resource_max_radius": 0,
+    "light_radius": 0,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "max_elevation_delta": 0,
+    "on_destroy_building_outcomes": [
+      1,
+      {}
+    ]
+  },
+  {
     "id": 1283632905,
     "name": "Traveler's Fruit (Depleted)",
     "description": "",
@@ -74979,6 +76893,72 @@
     ]
   },
   {
+    "id": 1324294934,
+    "name": "Peerless Gypsite Pit",
+    "description": "",
+    "flattenable": false,
+    "max_health": 1000,
+    "ignore_damage": true,
+    "despawn_time": 0.0,
+    "model_asset_name": "Resources/GypsitePit",
+    "icon_asset_name": "GeneratedIcons/Other/MudMound",
+    "on_destroy_yield": [],
+    "on_destroy_yield_resource_id": 0,
+    "spawn_priority": 0,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          1,
+          []
+        ]
+      ],
+      [
+        0,
+        -1,
+        [
+          1,
+          []
+        ]
+      ],
+      [
+        -1,
+        0,
+        [
+          1,
+          []
+        ]
+      ]
+    ],
+    "tier": 6,
+    "tag": "Sand",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": true,
+    "enemy_params_id": [],
+    "scheduled_respawn_time": 0.0,
+    "not_respawning": false,
+    "show_time_left": true,
+    "on_destroy_yield_resource_chance": 1.0,
+    "on_destroy_yield_resource_min_radius": 0,
+    "on_destroy_yield_resource_max_radius": 0,
+    "light_radius": 0,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "max_elevation_delta": 0,
+    "on_destroy_building_outcomes": [
+      1,
+      {}
+    ]
+  },
+  {
     "id": 1332535555,
     "name": "Ornate Sand",
     "description": "",
@@ -74989,7 +76969,7 @@
     "model_asset_name": "Resources/OrnateSand",
     "icon_asset_name": "GeneratedIcons/Other/MudMound",
     "on_destroy_yield": [],
-    "on_destroy_yield_resource_id": 0,
+    "on_destroy_yield_resource_id": 1047539391,
     "spawn_priority": 0,
     "footprint": [
       [
@@ -75028,7 +77008,7 @@
     "scheduled_respawn_time": 600.0,
     "not_respawning": false,
     "show_time_left": false,
-    "on_destroy_yield_resource_chance": 1.0,
+    "on_destroy_yield_resource_chance": 0.06,
     "on_destroy_yield_resource_min_radius": 0,
     "on_destroy_yield_resource_max_radius": 0,
     "light_radius": 0,
@@ -75134,7 +77114,7 @@
     "model_asset_name": "Resources/FlawlessSand",
     "icon_asset_name": "GeneratedIcons/Other/MudMound",
     "on_destroy_yield": [],
-    "on_destroy_yield_resource_id": 0,
+    "on_destroy_yield_resource_id": 209048760,
     "spawn_priority": 0,
     "footprint": [
       [
@@ -75173,6 +77153,72 @@
     "scheduled_respawn_time": 600.0,
     "not_respawning": false,
     "show_time_left": false,
+    "on_destroy_yield_resource_chance": 0.06,
+    "on_destroy_yield_resource_min_radius": 0,
+    "on_destroy_yield_resource_max_radius": 0,
+    "light_radius": 0,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "max_elevation_delta": 0,
+    "on_destroy_building_outcomes": [
+      1,
+      {}
+    ]
+  },
+  {
+    "id": 1333399073,
+    "name": "Inactive Magnificent Gypsite Pit",
+    "description": "",
+    "flattenable": false,
+    "max_health": 1000,
+    "ignore_damage": true,
+    "despawn_time": 0.0,
+    "model_asset_name": "Resources/GypsitePitInactive",
+    "icon_asset_name": "GeneratedIcons/Other/MudMound",
+    "on_destroy_yield": [],
+    "on_destroy_yield_resource_id": 0,
+    "spawn_priority": 0,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          1,
+          []
+        ]
+      ],
+      [
+        0,
+        -1,
+        [
+          1,
+          []
+        ]
+      ],
+      [
+        -1,
+        0,
+        [
+          1,
+          []
+        ]
+      ]
+    ],
+    "tier": 9,
+    "tag": "Sand",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": true,
+    "enemy_params_id": [],
+    "scheduled_respawn_time": 0.0,
+    "not_respawning": false,
+    "show_time_left": true,
     "on_destroy_yield_resource_chance": 1.0,
     "on_destroy_yield_resource_min_radius": 0,
     "on_destroy_yield_resource_max_radius": 0,
@@ -77702,6 +79748,56 @@
     ]
   },
   {
+    "id": 1384427485,
+    "name": "Subterranean Enoki",
+    "description": "",
+    "flattenable": false,
+    "max_health": 200,
+    "ignore_damage": true,
+    "despawn_time": 0.0,
+    "model_asset_name": "Resources/T1UndergroundMushroom",
+    "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Other/MushroomT1",
+    "on_destroy_yield": [],
+    "on_destroy_yield_resource_id": 0,
+    "spawn_priority": 1,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          3,
+          []
+        ]
+      ]
+    ],
+    "tier": 10,
+    "tag": "Mushroom",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": false,
+    "enemy_params_id": [],
+    "scheduled_respawn_time": 0.0,
+    "not_respawning": false,
+    "show_time_left": false,
+    "on_destroy_yield_resource_chance": 1.0,
+    "on_destroy_yield_resource_min_radius": 0,
+    "on_destroy_yield_resource_max_radius": 0,
+    "light_radius": 0,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "max_elevation_delta": 0,
+    "on_destroy_building_outcomes": [
+      1,
+      {}
+    ]
+  },
+  {
     "id": 1384946093,
     "name": "Medium Umbracite Vein Interior",
     "description": "",
@@ -77858,6 +79954,56 @@
       {}
     ],
     "compendium_entry": true,
+    "enemy_params_id": [],
+    "scheduled_respawn_time": 0.0,
+    "not_respawning": false,
+    "show_time_left": false,
+    "on_destroy_yield_resource_chance": 1.0,
+    "on_destroy_yield_resource_min_radius": 0,
+    "on_destroy_yield_resource_max_radius": 0,
+    "light_radius": 0,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "max_elevation_delta": 0,
+    "on_destroy_building_outcomes": [
+      1,
+      {}
+    ]
+  },
+  {
+    "id": 1395310625,
+    "name": "Subterranean Chanterelle",
+    "description": "",
+    "flattenable": false,
+    "max_health": 200,
+    "ignore_damage": true,
+    "despawn_time": 0.0,
+    "model_asset_name": "Resources/T1UndergroundMushroom",
+    "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Other/MushroomT1",
+    "on_destroy_yield": [],
+    "on_destroy_yield_resource_id": 0,
+    "spawn_priority": 1,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          3,
+          []
+        ]
+      ]
+    ],
+    "tier": 2,
+    "tag": "Mushroom",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": false,
     "enemy_params_id": [],
     "scheduled_respawn_time": 0.0,
     "not_respawning": false,
@@ -78422,6 +80568,56 @@
     ]
   },
   {
+    "id": 1426567739,
+    "name": "Magnificent Deep Roots",
+    "description": "",
+    "flattenable": false,
+    "max_health": 200,
+    "ignore_damage": true,
+    "despawn_time": 0.0,
+    "model_asset_name": "Resources/UndergroundRootsT1",
+    "icon_asset_name": "GeneratedIcons/Other/AncientThorns",
+    "on_destroy_yield": [],
+    "on_destroy_yield_resource_id": 0,
+    "spawn_priority": 1,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          0,
+          []
+        ]
+      ]
+    ],
+    "tier": 9,
+    "tag": "Fiber Plant",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": true,
+    "enemy_params_id": [],
+    "scheduled_respawn_time": 0.0,
+    "not_respawning": false,
+    "show_time_left": false,
+    "on_destroy_yield_resource_chance": 1.0,
+    "on_destroy_yield_resource_min_radius": 0,
+    "on_destroy_yield_resource_max_radius": 0,
+    "light_radius": 0,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 5,
+    "max_elevation_delta": 0,
+    "on_destroy_building_outcomes": [
+      1,
+      {}
+    ]
+  },
+  {
     "id": 1427096797,
     "name": "Pirate's Footlocker",
     "description": "A chest from a long forgotten pirate. Pop it open and see what you can find!",
@@ -78871,6 +81067,72 @@
     "scheduled_respawn_time": 600.0,
     "not_respawning": true,
     "show_time_left": false,
+    "on_destroy_yield_resource_chance": 1.0,
+    "on_destroy_yield_resource_min_radius": 0,
+    "on_destroy_yield_resource_max_radius": 0,
+    "light_radius": 0,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "max_elevation_delta": 0,
+    "on_destroy_building_outcomes": [
+      1,
+      {}
+    ]
+  },
+  {
+    "id": 1450830612,
+    "name": "Inactive Simple Gypsite Pit",
+    "description": "",
+    "flattenable": false,
+    "max_health": 1000,
+    "ignore_damage": true,
+    "despawn_time": 0.0,
+    "model_asset_name": "Resources/GypsitePitInactive",
+    "icon_asset_name": "GeneratedIcons/Other/MudMound",
+    "on_destroy_yield": [],
+    "on_destroy_yield_resource_id": 0,
+    "spawn_priority": 0,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          1,
+          []
+        ]
+      ],
+      [
+        0,
+        -1,
+        [
+          1,
+          []
+        ]
+      ],
+      [
+        -1,
+        0,
+        [
+          1,
+          []
+        ]
+      ]
+    ],
+    "tier": 2,
+    "tag": "Sand",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": true,
+    "enemy_params_id": [],
+    "scheduled_respawn_time": 0.0,
+    "not_respawning": false,
+    "show_time_left": true,
     "on_destroy_yield_resource_chance": 1.0,
     "on_destroy_yield_resource_min_radius": 0,
     "on_destroy_yield_resource_max_radius": 0,
@@ -81344,6 +83606,56 @@
     ]
   },
   {
+    "id": 1508217481,
+    "name": "Subterranean King Trumpet",
+    "description": "",
+    "flattenable": false,
+    "max_health": 200,
+    "ignore_damage": true,
+    "despawn_time": 0.0,
+    "model_asset_name": "Resources/T1UndergroundMushroom",
+    "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Other/MushroomT1",
+    "on_destroy_yield": [],
+    "on_destroy_yield_resource_id": 0,
+    "spawn_priority": 1,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          3,
+          []
+        ]
+      ]
+    ],
+    "tier": 9,
+    "tag": "Mushroom",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": false,
+    "enemy_params_id": [],
+    "scheduled_respawn_time": 0.0,
+    "not_respawning": false,
+    "show_time_left": false,
+    "on_destroy_yield_resource_chance": 1.0,
+    "on_destroy_yield_resource_min_radius": 0,
+    "on_destroy_yield_resource_max_radius": 0,
+    "light_radius": 0,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "max_elevation_delta": 0,
+    "on_destroy_building_outcomes": [
+      1,
+      {}
+    ]
+  },
+  {
     "id": 1526038154,
     "name": "Magnificent Clay",
     "description": "",
@@ -81405,8 +83717,21 @@
     "water_depth_max": 1000,
     "max_elevation_delta": 0,
     "on_destroy_building_outcomes": [
-      1,
-      {}
+      0,
+      [
+        [
+          12.0,
+          567568259,
+          0,
+          0
+        ],
+        [
+          88.0,
+          0,
+          0,
+          0
+        ]
+      ]
     ]
   },
   {
@@ -81555,6 +83880,72 @@
     "scheduled_respawn_time": 600.0,
     "not_respawning": true,
     "show_time_left": false,
+    "on_destroy_yield_resource_chance": 1.0,
+    "on_destroy_yield_resource_min_radius": 0,
+    "on_destroy_yield_resource_max_radius": 0,
+    "light_radius": 0,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "max_elevation_delta": 0,
+    "on_destroy_building_outcomes": [
+      1,
+      {}
+    ]
+  },
+  {
+    "id": 1536772145,
+    "name": "Pristine Gypsite Pit",
+    "description": "",
+    "flattenable": false,
+    "max_health": 1000,
+    "ignore_damage": true,
+    "despawn_time": 0.0,
+    "model_asset_name": "Resources/GypsitePit",
+    "icon_asset_name": "GeneratedIcons/Other/MudMound",
+    "on_destroy_yield": [],
+    "on_destroy_yield_resource_id": 0,
+    "spawn_priority": 0,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          1,
+          []
+        ]
+      ],
+      [
+        0,
+        -1,
+        [
+          1,
+          []
+        ]
+      ],
+      [
+        -1,
+        0,
+        [
+          1,
+          []
+        ]
+      ]
+    ],
+    "tier": 8,
+    "tag": "Sand",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": true,
+    "enemy_params_id": [],
+    "scheduled_respawn_time": 0.0,
+    "not_respawning": false,
+    "show_time_left": true,
     "on_destroy_yield_resource_chance": 1.0,
     "on_destroy_yield_resource_min_radius": 0,
     "on_destroy_yield_resource_max_radius": 0,
@@ -85743,6 +88134,72 @@
     ]
   },
   {
+    "id": 1636401484,
+    "name": "Flawless Gypsite Pit",
+    "description": "",
+    "flattenable": false,
+    "max_health": 1000,
+    "ignore_damage": true,
+    "despawn_time": 0.0,
+    "model_asset_name": "Resources/GypsitePit",
+    "icon_asset_name": "GeneratedIcons/Other/MudMound",
+    "on_destroy_yield": [],
+    "on_destroy_yield_resource_id": 0,
+    "spawn_priority": 0,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          1,
+          []
+        ]
+      ],
+      [
+        0,
+        -1,
+        [
+          1,
+          []
+        ]
+      ],
+      [
+        -1,
+        0,
+        [
+          1,
+          []
+        ]
+      ]
+    ],
+    "tier": 10,
+    "tag": "Sand",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": true,
+    "enemy_params_id": [],
+    "scheduled_respawn_time": 0.0,
+    "not_respawning": false,
+    "show_time_left": true,
+    "on_destroy_yield_resource_chance": 1.0,
+    "on_destroy_yield_resource_min_radius": 0,
+    "on_destroy_yield_resource_max_radius": 0,
+    "light_radius": 0,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "max_elevation_delta": 0,
+    "on_destroy_building_outcomes": [
+      1,
+      {}
+    ]
+  },
+  {
     "id": 1637125903,
     "name": "Flawless Mushroom",
     "description": "",
@@ -85839,6 +88296,72 @@
     "scheduled_respawn_time": 0.0,
     "not_respawning": false,
     "show_time_left": false,
+    "on_destroy_yield_resource_chance": 1.0,
+    "on_destroy_yield_resource_min_radius": 0,
+    "on_destroy_yield_resource_max_radius": 0,
+    "light_radius": 0,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "max_elevation_delta": 0,
+    "on_destroy_building_outcomes": [
+      1,
+      {}
+    ]
+  },
+  {
+    "id": 1644972108,
+    "name": "Exquisite Gypsite Pit",
+    "description": "",
+    "flattenable": false,
+    "max_health": 1000,
+    "ignore_damage": true,
+    "despawn_time": 0.0,
+    "model_asset_name": "Resources/GypsitePit",
+    "icon_asset_name": "GeneratedIcons/Other/MudMound",
+    "on_destroy_yield": [],
+    "on_destroy_yield_resource_id": 0,
+    "spawn_priority": 0,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          1,
+          []
+        ]
+      ],
+      [
+        0,
+        -1,
+        [
+          1,
+          []
+        ]
+      ],
+      [
+        -1,
+        0,
+        [
+          1,
+          []
+        ]
+      ]
+    ],
+    "tier": 5,
+    "tag": "Sand",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": true,
+    "enemy_params_id": [],
+    "scheduled_respawn_time": 0.0,
+    "not_respawning": false,
+    "show_time_left": true,
     "on_destroy_yield_resource_chance": 1.0,
     "on_destroy_yield_resource_min_radius": 0,
     "on_destroy_yield_resource_max_radius": 0,
@@ -86081,6 +88604,104 @@
     "scheduled_respawn_time": 0.0,
     "not_respawning": false,
     "show_time_left": false,
+    "on_destroy_yield_resource_chance": 1.0,
+    "on_destroy_yield_resource_min_radius": 0,
+    "on_destroy_yield_resource_max_radius": 0,
+    "light_radius": 0,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "max_elevation_delta": 0,
+    "on_destroy_building_outcomes": [
+      1,
+      {}
+    ]
+  },
+  {
+    "id": 1688062540,
+    "name": "Citric Giant Strawberry Bush",
+    "description": "",
+    "flattenable": false,
+    "max_health": 500,
+    "ignore_damage": true,
+    "despawn_time": 0.0,
+    "model_asset_name": "Resources/CitricGiantBerryBushT1",
+    "icon_asset_name": "GeneratedIcons/Other/BushStrawberry",
+    "on_destroy_yield": [],
+    "on_destroy_yield_resource_id": 0,
+    "spawn_priority": 100,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        -1,
+        0,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        -1,
+        1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        0,
+        1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        1,
+        0,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        1,
+        -1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        0,
+        -1,
+        [
+          0,
+          []
+        ]
+      ]
+    ],
+    "tier": 1,
+    "tag": "Bountiful Berry Bush",
+    "rarity": [
+      2,
+      {}
+    ],
+    "compendium_entry": true,
+    "enemy_params_id": [],
+    "scheduled_respawn_time": 0.0,
+    "not_respawning": false,
+    "show_time_left": true,
     "on_destroy_yield_resource_chance": 1.0,
     "on_destroy_yield_resource_min_radius": 0,
     "on_destroy_yield_resource_max_radius": 0,
@@ -86548,7 +89169,7 @@
     "model_asset_name": "Resources/CoralSand",
     "icon_asset_name": "GeneratedIcons/Other/MudMound",
     "on_destroy_yield": [],
-    "on_destroy_yield_resource_id": 0,
+    "on_destroy_yield_resource_id": 1997096210,
     "spawn_priority": 0,
     "footprint": [
       [
@@ -86587,7 +89208,7 @@
     "scheduled_respawn_time": 600.0,
     "not_respawning": false,
     "show_time_left": false,
-    "on_destroy_yield_resource_chance": 1.0,
+    "on_destroy_yield_resource_chance": 0.06,
     "on_destroy_yield_resource_min_radius": 0,
     "on_destroy_yield_resource_max_radius": 0,
     "light_radius": 0,
@@ -87553,6 +90174,104 @@
     "scheduled_respawn_time": 0.0,
     "not_respawning": false,
     "show_time_left": false,
+    "on_destroy_yield_resource_chance": 1.0,
+    "on_destroy_yield_resource_min_radius": 0,
+    "on_destroy_yield_resource_max_radius": 0,
+    "light_radius": 0,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "max_elevation_delta": 0,
+    "on_destroy_building_outcomes": [
+      1,
+      {}
+    ]
+  },
+  {
+    "id": 1713099134,
+    "name": "Giant Bountiful Zesty Berry Bush",
+    "description": "",
+    "flattenable": false,
+    "max_health": 500,
+    "ignore_damage": true,
+    "despawn_time": 0.0,
+    "model_asset_name": "Resources/GiantBountifulBerryBushT3",
+    "icon_asset_name": "GeneratedIcons/Other/BushStrawberry",
+    "on_destroy_yield": [],
+    "on_destroy_yield_resource_id": 0,
+    "spawn_priority": 100,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        -1,
+        0,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        -1,
+        1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        0,
+        1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        1,
+        0,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        1,
+        -1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        0,
+        -1,
+        [
+          0,
+          []
+        ]
+      ]
+    ],
+    "tier": 3,
+    "tag": "Bountiful Berry Bush",
+    "rarity": [
+      2,
+      {}
+    ],
+    "compendium_entry": true,
+    "enemy_params_id": [],
+    "scheduled_respawn_time": 0.0,
+    "not_respawning": false,
+    "show_time_left": true,
     "on_destroy_yield_resource_chance": 1.0,
     "on_destroy_yield_resource_min_radius": 0,
     "on_destroy_yield_resource_max_radius": 0,
@@ -91755,6 +94474,104 @@
     ]
   },
   {
+    "id": 1822942131,
+    "name": "Giant Bountiful Strawberry Bush",
+    "description": "",
+    "flattenable": false,
+    "max_health": 500,
+    "ignore_damage": true,
+    "despawn_time": 0.0,
+    "model_asset_name": "Resources/GiantBountifulBerryBushT1",
+    "icon_asset_name": "GeneratedIcons/Other/BushStrawberry",
+    "on_destroy_yield": [],
+    "on_destroy_yield_resource_id": 0,
+    "spawn_priority": 100,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        -1,
+        0,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        -1,
+        1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        0,
+        1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        1,
+        0,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        1,
+        -1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        0,
+        -1,
+        [
+          0,
+          []
+        ]
+      ]
+    ],
+    "tier": 1,
+    "tag": "Bountiful Berry Bush",
+    "rarity": [
+      2,
+      {}
+    ],
+    "compendium_entry": true,
+    "enemy_params_id": [],
+    "scheduled_respawn_time": 0.0,
+    "not_respawning": false,
+    "show_time_left": true,
+    "on_destroy_yield_resource_chance": 1.0,
+    "on_destroy_yield_resource_min_radius": 0,
+    "on_destroy_yield_resource_max_radius": 0,
+    "light_radius": 0,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "max_elevation_delta": 0,
+    "on_destroy_building_outcomes": [
+      1,
+      {}
+    ]
+  },
+  {
     "id": 1823420883,
     "name": "Decayed Ancient Pots",
     "description": "A pot from the ancient times. Contains hex coins and various goods from the ancient times.",
@@ -92327,6 +95144,56 @@
     ]
   },
   {
+    "id": 1856494514,
+    "name": "Peerless Deep Roots",
+    "description": "",
+    "flattenable": false,
+    "max_health": 200,
+    "ignore_damage": true,
+    "despawn_time": 0.0,
+    "model_asset_name": "Resources/UndergroundRootsT1",
+    "icon_asset_name": "GeneratedIcons/Other/AncientThorns",
+    "on_destroy_yield": [],
+    "on_destroy_yield_resource_id": 0,
+    "spawn_priority": 1,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          0,
+          []
+        ]
+      ]
+    ],
+    "tier": 6,
+    "tag": "Fiber Plant",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": true,
+    "enemy_params_id": [],
+    "scheduled_respawn_time": 0.0,
+    "not_respawning": false,
+    "show_time_left": false,
+    "on_destroy_yield_resource_chance": 1.0,
+    "on_destroy_yield_resource_min_radius": 0,
+    "on_destroy_yield_resource_max_radius": 0,
+    "light_radius": 0,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 5,
+    "max_elevation_delta": 0,
+    "on_destroy_building_outcomes": [
+      1,
+      {}
+    ]
+  },
+  {
     "id": 1869364824,
     "name": "Magnificent Hexite Infused Tree",
     "description": "A hexite tree that's been infused with Hexite Energy. The stump is extremely resilient and contains massive amounts of wood.",
@@ -92370,6 +95237,154 @@
     "spawns_in_water": false,
     "water_depth_min": 0,
     "water_depth_max": 1000,
+    "max_elevation_delta": 0,
+    "on_destroy_building_outcomes": [
+      1,
+      {}
+    ]
+  },
+  {
+    "id": 1875092977,
+    "name": "Citric Giant Zesty Berry Bush",
+    "description": "",
+    "flattenable": false,
+    "max_health": 500,
+    "ignore_damage": true,
+    "despawn_time": 0.0,
+    "model_asset_name": "Resources/CitricGiantBerryBushT3",
+    "icon_asset_name": "GeneratedIcons/Other/BushStrawberry",
+    "on_destroy_yield": [],
+    "on_destroy_yield_resource_id": 0,
+    "spawn_priority": 100,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        -1,
+        0,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        -1,
+        1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        0,
+        1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        1,
+        0,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        1,
+        -1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        0,
+        -1,
+        [
+          0,
+          []
+        ]
+      ]
+    ],
+    "tier": 3,
+    "tag": "Bountiful Berry Bush",
+    "rarity": [
+      2,
+      {}
+    ],
+    "compendium_entry": true,
+    "enemy_params_id": [],
+    "scheduled_respawn_time": 0.0,
+    "not_respawning": false,
+    "show_time_left": true,
+    "on_destroy_yield_resource_chance": 1.0,
+    "on_destroy_yield_resource_min_radius": 0,
+    "on_destroy_yield_resource_max_radius": 0,
+    "light_radius": 0,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "max_elevation_delta": 0,
+    "on_destroy_building_outcomes": [
+      1,
+      {}
+    ]
+  },
+  {
+    "id": 1876238623,
+    "name": "Simple Deep Roots",
+    "description": "",
+    "flattenable": false,
+    "max_health": 200,
+    "ignore_damage": true,
+    "despawn_time": 0.0,
+    "model_asset_name": "Resources/UndergroundRootsT1",
+    "icon_asset_name": "GeneratedIcons/Other/AncientThorns",
+    "on_destroy_yield": [],
+    "on_destroy_yield_resource_id": 0,
+    "spawn_priority": 1,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          0,
+          []
+        ]
+      ]
+    ],
+    "tier": 2,
+    "tag": "Fiber Plant",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": true,
+    "enemy_params_id": [],
+    "scheduled_respawn_time": 0.0,
+    "not_respawning": false,
+    "show_time_left": false,
+    "on_destroy_yield_resource_chance": 1.0,
+    "on_destroy_yield_resource_min_radius": 0,
+    "on_destroy_yield_resource_max_radius": 0,
+    "light_radius": 0,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 5,
     "max_elevation_delta": 0,
     "on_destroy_building_outcomes": [
       1,
@@ -95593,6 +98608,56 @@
     ]
   },
   {
+    "id": 1964258267,
+    "name": "Subterranean Truffle Patch",
+    "description": "",
+    "flattenable": false,
+    "max_health": 200,
+    "ignore_damage": true,
+    "despawn_time": 0.0,
+    "model_asset_name": "Resources/T1UndergroundMushroom",
+    "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Other/MushroomT1",
+    "on_destroy_yield": [],
+    "on_destroy_yield_resource_id": 0,
+    "spawn_priority": 1,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          3,
+          []
+        ]
+      ]
+    ],
+    "tier": 5,
+    "tag": "Mushroom",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": false,
+    "enemy_params_id": [],
+    "scheduled_respawn_time": 0.0,
+    "not_respawning": false,
+    "show_time_left": false,
+    "on_destroy_yield_resource_chance": 1.0,
+    "on_destroy_yield_resource_min_radius": 0,
+    "on_destroy_yield_resource_max_radius": 0,
+    "light_radius": 0,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "max_elevation_delta": 0,
+    "on_destroy_building_outcomes": [
+      1,
+      {}
+    ]
+  },
+  {
     "id": 1977811738,
     "name": "Packed Ice",
     "description": "",
@@ -97388,6 +100453,138 @@
     ]
   },
   {
+    "id": 1997096210,
+    "name": "Inactive Exquisite Gypsite Pit",
+    "description": "",
+    "flattenable": false,
+    "max_health": 1000,
+    "ignore_damage": true,
+    "despawn_time": 0.0,
+    "model_asset_name": "Resources/GypsitePitInactive",
+    "icon_asset_name": "GeneratedIcons/Other/MudMound",
+    "on_destroy_yield": [],
+    "on_destroy_yield_resource_id": 0,
+    "spawn_priority": 0,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          1,
+          []
+        ]
+      ],
+      [
+        0,
+        -1,
+        [
+          1,
+          []
+        ]
+      ],
+      [
+        -1,
+        0,
+        [
+          1,
+          []
+        ]
+      ]
+    ],
+    "tier": 5,
+    "tag": "Sand",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": true,
+    "enemy_params_id": [],
+    "scheduled_respawn_time": 0.0,
+    "not_respawning": false,
+    "show_time_left": true,
+    "on_destroy_yield_resource_chance": 1.0,
+    "on_destroy_yield_resource_min_radius": 0,
+    "on_destroy_yield_resource_max_radius": 0,
+    "light_radius": 0,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "max_elevation_delta": 0,
+    "on_destroy_building_outcomes": [
+      1,
+      {}
+    ]
+  },
+  {
+    "id": 1999373592,
+    "name": "Fine Gypsite Pit",
+    "description": "",
+    "flattenable": false,
+    "max_health": 1000,
+    "ignore_damage": true,
+    "despawn_time": 0.0,
+    "model_asset_name": "Resources/GypsitePit",
+    "icon_asset_name": "GeneratedIcons/Other/MudMound",
+    "on_destroy_yield": [],
+    "on_destroy_yield_resource_id": 0,
+    "spawn_priority": 0,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          1,
+          []
+        ]
+      ],
+      [
+        0,
+        -1,
+        [
+          1,
+          []
+        ]
+      ],
+      [
+        -1,
+        0,
+        [
+          1,
+          []
+        ]
+      ]
+    ],
+    "tier": 4,
+    "tag": "Sand",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": true,
+    "enemy_params_id": [],
+    "scheduled_respawn_time": 0.0,
+    "not_respawning": false,
+    "show_time_left": true,
+    "on_destroy_yield_resource_chance": 1.0,
+    "on_destroy_yield_resource_min_radius": 0,
+    "on_destroy_yield_resource_max_radius": 0,
+    "light_radius": 0,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "max_elevation_delta": 0,
+    "on_destroy_building_outcomes": [
+      1,
+      {}
+    ]
+  },
+  {
     "id": 1999842598,
     "name": "Inactive Varkel Pod",
     "description": "...give it a poke.",
@@ -98228,6 +101425,154 @@
     ]
   },
   {
+    "id": 2019628526,
+    "name": "Fine Deep Roots",
+    "description": "",
+    "flattenable": false,
+    "max_health": 200,
+    "ignore_damage": true,
+    "despawn_time": 0.0,
+    "model_asset_name": "Resources/UndergroundRootsT1",
+    "icon_asset_name": "GeneratedIcons/Other/AncientThorns",
+    "on_destroy_yield": [],
+    "on_destroy_yield_resource_id": 0,
+    "spawn_priority": 1,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          0,
+          []
+        ]
+      ]
+    ],
+    "tier": 4,
+    "tag": "Fiber Plant",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": true,
+    "enemy_params_id": [],
+    "scheduled_respawn_time": 0.0,
+    "not_respawning": false,
+    "show_time_left": false,
+    "on_destroy_yield_resource_chance": 1.0,
+    "on_destroy_yield_resource_min_radius": 0,
+    "on_destroy_yield_resource_max_radius": 0,
+    "light_radius": 0,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 5,
+    "max_elevation_delta": 0,
+    "on_destroy_building_outcomes": [
+      1,
+      {}
+    ]
+  },
+  {
+    "id": 2022069397,
+    "name": "Withering Giant Strawberry Bush",
+    "description": "",
+    "flattenable": false,
+    "max_health": 60,
+    "ignore_damage": false,
+    "despawn_time": 0.0,
+    "model_asset_name": "Resources/WitheringGiantBerryBushT1",
+    "icon_asset_name": "GeneratedIcons/Other/BushStrawberry",
+    "on_destroy_yield": [],
+    "on_destroy_yield_resource_id": 1822942131,
+    "spawn_priority": 100,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        -1,
+        0,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        -1,
+        1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        0,
+        1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        1,
+        0,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        1,
+        -1,
+        [
+          0,
+          []
+        ]
+      ],
+      [
+        0,
+        -1,
+        [
+          0,
+          []
+        ]
+      ]
+    ],
+    "tier": 1,
+    "tag": "Bountiful Berry Bush",
+    "rarity": [
+      2,
+      {}
+    ],
+    "compendium_entry": true,
+    "enemy_params_id": [],
+    "scheduled_respawn_time": 0.0,
+    "not_respawning": false,
+    "show_time_left": false,
+    "on_destroy_yield_resource_chance": 1.0,
+    "on_destroy_yield_resource_min_radius": 0,
+    "on_destroy_yield_resource_max_radius": 0,
+    "light_radius": 0,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "max_elevation_delta": 0,
+    "on_destroy_building_outcomes": [
+      1,
+      {}
+    ]
+  },
+  {
     "id": 2022104490,
     "name": "Broken Ancient Pots",
     "description": "An pot from the ancient times. The pot could be salvaged for clay and potter's mix.",
@@ -98780,6 +102125,56 @@
     "water_depth_min": 0,
     "water_depth_max": 1000,
     "max_elevation_delta": 1,
+    "on_destroy_building_outcomes": [
+      1,
+      {}
+    ]
+  },
+  {
+    "id": 2054412952,
+    "name": "Sturdy Deep Roots",
+    "description": "",
+    "flattenable": false,
+    "max_health": 200,
+    "ignore_damage": true,
+    "despawn_time": 0.0,
+    "model_asset_name": "Resources/UndergroundRootsT1",
+    "icon_asset_name": "GeneratedIcons/Other/AncientThorns",
+    "on_destroy_yield": [],
+    "on_destroy_yield_resource_id": 0,
+    "spawn_priority": 1,
+    "footprint": [
+      [
+        0,
+        0,
+        [
+          0,
+          []
+        ]
+      ]
+    ],
+    "tier": 3,
+    "tag": "Fiber Plant",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": true,
+    "enemy_params_id": [],
+    "scheduled_respawn_time": 0.0,
+    "not_respawning": false,
+    "show_time_left": false,
+    "on_destroy_yield_resource_chance": 1.0,
+    "on_destroy_yield_resource_min_radius": 0,
+    "on_destroy_yield_resource_max_radius": 0,
+    "light_radius": 0,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 5,
+    "max_elevation_delta": 0,
     "on_destroy_building_outcomes": [
       1,
       {}

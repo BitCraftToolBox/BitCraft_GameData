@@ -90894,6 +90894,98 @@
     "show_in_progression": false
   },
   {
+    "id": 185620108,
+    "name": "Craft {0}",
+    "time_requirement": 1.6,
+    "stamina_requirement": 0.75,
+    "tool_durability_lost": 0,
+    "building_requirement": [
+      0,
+      {
+        "building_type": 2012420824,
+        "tier": 4
+      }
+    ],
+    "level_requirements": [
+      [
+        14,
+        43
+      ]
+    ],
+    "tool_requirements": [
+      [
+        12,
+        4,
+        1
+      ]
+    ],
+    "consumed_item_stacks": [
+      [
+        706688339,
+        1,
+        [
+          0,
+          []
+        ],
+        1,
+        1.0
+      ],
+      [
+        585162700,
+        4,
+        [
+          0,
+          []
+        ],
+        0,
+        1.0
+      ],
+      [
+        4050001,
+        2,
+        [
+          0,
+          []
+        ],
+        0,
+        1.0
+      ]
+    ],
+    "discovery_triggers": [],
+    "required_claim_tech_id": 0,
+    "full_discovery_score": 1,
+    "experience_per_progress": [
+      [
+        14,
+        2.08
+      ]
+    ],
+    "crafted_item_stacks": [
+      [
+        293795845,
+        1,
+        [
+          0,
+          []
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    ],
+    "actions_required": 200,
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 663,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "hide_without_required_knowledge": false,
+    "hide_with_blocking_knowledges": false,
+    "allow_use_hands": false,
+    "is_passive": false,
+    "show_in_progression": false
+  },
+  {
     "id": 185870527,
     "name": "Refine {0}",
     "time_requirement": 1.6,
@@ -91635,6 +91727,78 @@
     "allow_use_hands": false,
     "is_passive": false,
     "show_in_progression": false
+  },
+  {
+    "id": 187339786,
+    "name": "Identify {0}",
+    "time_requirement": 1.6,
+    "stamina_requirement": 1.75,
+    "tool_durability_lost": 0,
+    "building_requirement": [
+      0,
+      {
+        "building_type": 2012420824,
+        "tier": 9
+      }
+    ],
+    "level_requirements": [
+      [
+        14,
+        92
+      ]
+    ],
+    "tool_requirements": [
+      [
+        12,
+        9,
+        1
+      ]
+    ],
+    "consumed_item_stacks": [
+      [
+        1838043075,
+        1,
+        [
+          0,
+          []
+        ],
+        1,
+        1.0
+      ]
+    ],
+    "discovery_triggers": [],
+    "required_claim_tech_id": 0,
+    "full_discovery_score": 1,
+    "experience_per_progress": [
+      [
+        14,
+        2.88
+      ]
+    ],
+    "crafted_item_stacks": [
+      [
+        1455736622,
+        1,
+        [
+          0,
+          []
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    ],
+    "actions_required": 80,
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 567,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "hide_without_required_knowledge": false,
+    "hide_with_blocking_knowledges": false,
+    "allow_use_hands": false,
+    "is_passive": false,
+    "show_in_progression": true
   },
   {
     "id": 187409900,
@@ -116905,6 +117069,98 @@
     "actions_required": 10,
     "tool_mesh_index": 0,
     "recipe_performance_id": 1,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "hide_without_required_knowledge": false,
+    "hide_with_blocking_knowledges": false,
+    "allow_use_hands": false,
+    "is_passive": false,
+    "show_in_progression": false
+  },
+  {
+    "id": 269037385,
+    "name": "Craft {0}",
+    "time_requirement": 1.6,
+    "stamina_requirement": 0.75,
+    "tool_durability_lost": 0,
+    "building_requirement": [
+      0,
+      {
+        "building_type": 2012420824,
+        "tier": 1
+      }
+    ],
+    "level_requirements": [
+      [
+        14,
+        3
+      ]
+    ],
+    "tool_requirements": [
+      [
+        12,
+        1,
+        1
+      ]
+    ],
+    "consumed_item_stacks": [
+      [
+        1130001,
+        50,
+        [
+          0,
+          []
+        ],
+        1,
+        1.0
+      ],
+      [
+        1320886430,
+        4,
+        [
+          0,
+          []
+        ],
+        0,
+        1.0
+      ],
+      [
+        1020003,
+        1,
+        [
+          0,
+          []
+        ],
+        0,
+        1.0
+      ]
+    ],
+    "discovery_triggers": [],
+    "required_claim_tech_id": 0,
+    "full_discovery_score": 1,
+    "experience_per_progress": [
+      [
+        14,
+        0.0
+      ]
+    ],
+    "crafted_item_stacks": [
+      [
+        967475124,
+        1,
+        [
+          0,
+          []
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    ],
+    "actions_required": 50,
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 663,
     "required_knowledges": [],
     "blocking_knowledges": [],
     "hide_without_required_knowledge": false,
@@ -191766,6 +192022,78 @@
     "allow_use_hands": false,
     "is_passive": false,
     "show_in_progression": false
+  },
+  {
+    "id": 539629399,
+    "name": "Identify {0}",
+    "time_requirement": 1.6,
+    "stamina_requirement": 1.64,
+    "tool_durability_lost": 0,
+    "building_requirement": [
+      0,
+      {
+        "building_type": 2012420824,
+        "tier": 8
+      }
+    ],
+    "level_requirements": [
+      [
+        14,
+        82
+      ]
+    ],
+    "tool_requirements": [
+      [
+        12,
+        8,
+        1
+      ]
+    ],
+    "consumed_item_stacks": [
+      [
+        388732176,
+        1,
+        [
+          0,
+          []
+        ],
+        1,
+        1.0
+      ]
+    ],
+    "discovery_triggers": [],
+    "required_claim_tech_id": 0,
+    "full_discovery_score": 1,
+    "experience_per_progress": [
+      [
+        14,
+        2.72
+      ]
+    ],
+    "crafted_item_stacks": [
+      [
+        726651766,
+        1,
+        [
+          0,
+          []
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    ],
+    "actions_required": 60,
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 567,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "hide_without_required_knowledge": false,
+    "hide_with_blocking_knowledges": false,
+    "allow_use_hands": false,
+    "is_passive": false,
+    "show_in_progression": true
   },
   {
     "id": 539656026,
@@ -294667,6 +294995,78 @@
     "allow_use_hands": false,
     "is_passive": false,
     "show_in_progression": false
+  },
+  {
+    "id": 935096574,
+    "name": "Identify {0}",
+    "time_requirement": 1.6,
+    "stamina_requirement": 1.52,
+    "tool_durability_lost": 0,
+    "building_requirement": [
+      0,
+      {
+        "building_type": 2012420824,
+        "tier": 7
+      }
+    ],
+    "level_requirements": [
+      [
+        14,
+        72
+      ]
+    ],
+    "tool_requirements": [
+      [
+        12,
+        7,
+        1
+      ]
+    ],
+    "consumed_item_stacks": [
+      [
+        1386745763,
+        1,
+        [
+          0,
+          []
+        ],
+        1,
+        1.0
+      ]
+    ],
+    "discovery_triggers": [],
+    "required_claim_tech_id": 0,
+    "full_discovery_score": 1,
+    "experience_per_progress": [
+      [
+        14,
+        2.56
+      ]
+    ],
+    "crafted_item_stacks": [
+      [
+        1564573306,
+        1,
+        [
+          0,
+          []
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    ],
+    "actions_required": 50,
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 567,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "hide_without_required_knowledge": false,
+    "hide_with_blocking_knowledges": false,
+    "allow_use_hands": false,
+    "is_passive": false,
+    "show_in_progression": true
   },
   {
     "id": 935200146,
@@ -407783,6 +408183,78 @@
     "show_in_progression": false
   },
   {
+    "id": 1341859690,
+    "name": "Identify {0}",
+    "time_requirement": 1.6,
+    "stamina_requirement": 0.89,
+    "tool_durability_lost": 0,
+    "building_requirement": [
+      0,
+      {
+        "building_type": 2012420824,
+        "tier": 2
+      }
+    ],
+    "level_requirements": [
+      [
+        14,
+        22
+      ]
+    ],
+    "tool_requirements": [
+      [
+        12,
+        2,
+        1
+      ]
+    ],
+    "consumed_item_stacks": [
+      [
+        845762855,
+        1,
+        [
+          0,
+          []
+        ],
+        1,
+        1.0
+      ]
+    ],
+    "discovery_triggers": [],
+    "required_claim_tech_id": 0,
+    "full_discovery_score": 1,
+    "experience_per_progress": [
+      [
+        14,
+        1.76
+      ]
+    ],
+    "crafted_item_stacks": [
+      [
+        1423606574,
+        1,
+        [
+          0,
+          []
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    ],
+    "actions_required": 15,
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 567,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "hide_without_required_knowledge": false,
+    "hide_with_blocking_knowledges": false,
+    "allow_use_hands": false,
+    "is_passive": false,
+    "show_in_progression": true
+  },
+  {
     "id": 1342165753,
     "name": "Recraft {1}",
     "time_requirement": 1.6,
@@ -413965,6 +414437,78 @@
     "allow_use_hands": false,
     "is_passive": false,
     "show_in_progression": false
+  },
+  {
+    "id": 1366814172,
+    "name": "Identify {0}",
+    "time_requirement": 1.6,
+    "stamina_requirement": 1.86,
+    "tool_durability_lost": 0,
+    "building_requirement": [
+      0,
+      {
+        "building_type": 2012420824,
+        "tier": 10
+      }
+    ],
+    "level_requirements": [
+      [
+        14,
+        100
+      ]
+    ],
+    "tool_requirements": [
+      [
+        12,
+        10,
+        1
+      ]
+    ],
+    "consumed_item_stacks": [
+      [
+        646617058,
+        1,
+        [
+          0,
+          []
+        ],
+        1,
+        1.0
+      ]
+    ],
+    "discovery_triggers": [],
+    "required_claim_tech_id": 0,
+    "full_discovery_score": 1,
+    "experience_per_progress": [
+      [
+        14,
+        3.04
+      ]
+    ],
+    "crafted_item_stacks": [
+      [
+        575516012,
+        1,
+        [
+          0,
+          []
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    ],
+    "actions_required": 105,
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 567,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "hide_without_required_knowledge": false,
+    "hide_with_blocking_knowledges": false,
+    "allow_use_hands": false,
+    "is_passive": false,
+    "show_in_progression": true
   },
   {
     "id": 1367067137,
@@ -439712,6 +440256,78 @@
     "allow_use_hands": false,
     "is_passive": false,
     "show_in_progression": false
+  },
+  {
+    "id": 1455464456,
+    "name": "Identify {0}",
+    "time_requirement": 1.6,
+    "stamina_requirement": 1.28,
+    "tool_durability_lost": 0,
+    "building_requirement": [
+      0,
+      {
+        "building_type": 2012420824,
+        "tier": 5
+      }
+    ],
+    "level_requirements": [
+      [
+        14,
+        52
+      ]
+    ],
+    "tool_requirements": [
+      [
+        12,
+        5,
+        1
+      ]
+    ],
+    "consumed_item_stacks": [
+      [
+        152287485,
+        1,
+        [
+          0,
+          []
+        ],
+        1,
+        1.0
+      ]
+    ],
+    "discovery_triggers": [],
+    "required_claim_tech_id": 0,
+    "full_discovery_score": 1,
+    "experience_per_progress": [
+      [
+        14,
+        2.24
+      ]
+    ],
+    "crafted_item_stacks": [
+      [
+        1657831309,
+        1,
+        [
+          0,
+          []
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    ],
+    "actions_required": 30,
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 567,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "hide_without_required_knowledge": false,
+    "hide_with_blocking_knowledges": false,
+    "allow_use_hands": false,
+    "is_passive": false,
+    "show_in_progression": true
   },
   {
     "id": 1455698819,
@@ -474913,6 +475529,78 @@
     "allow_use_hands": false,
     "is_passive": false,
     "show_in_progression": false
+  },
+  {
+    "id": 1586323098,
+    "name": "Identify {0}",
+    "time_requirement": 1.6,
+    "stamina_requirement": 1.16,
+    "tool_durability_lost": 0,
+    "building_requirement": [
+      0,
+      {
+        "building_type": 2012420824,
+        "tier": 4
+      }
+    ],
+    "level_requirements": [
+      [
+        14,
+        42
+      ]
+    ],
+    "tool_requirements": [
+      [
+        12,
+        4,
+        1
+      ]
+    ],
+    "consumed_item_stacks": [
+      [
+        1207892531,
+        1,
+        [
+          0,
+          []
+        ],
+        1,
+        1.0
+      ]
+    ],
+    "discovery_triggers": [],
+    "required_claim_tech_id": 0,
+    "full_discovery_score": 1,
+    "experience_per_progress": [
+      [
+        14,
+        2.08
+      ]
+    ],
+    "crafted_item_stacks": [
+      [
+        767765366,
+        1,
+        [
+          0,
+          []
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    ],
+    "actions_required": 25,
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 567,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "hide_without_required_knowledge": false,
+    "hide_with_blocking_knowledges": false,
+    "allow_use_hands": false,
+    "is_passive": false,
+    "show_in_progression": true
   },
   {
     "id": 1586705605,
@@ -542897,6 +543585,78 @@
     "show_in_progression": false
   },
   {
+    "id": 1833719259,
+    "name": "Identify {0}",
+    "time_requirement": 1.6,
+    "stamina_requirement": 1.41,
+    "tool_durability_lost": 0,
+    "building_requirement": [
+      0,
+      {
+        "building_type": 2012420824,
+        "tier": 6
+      }
+    ],
+    "level_requirements": [
+      [
+        14,
+        62
+      ]
+    ],
+    "tool_requirements": [
+      [
+        12,
+        6,
+        1
+      ]
+    ],
+    "consumed_item_stacks": [
+      [
+        1614880627,
+        1,
+        [
+          0,
+          []
+        ],
+        1,
+        1.0
+      ]
+    ],
+    "discovery_triggers": [],
+    "required_claim_tech_id": 0,
+    "full_discovery_score": 1,
+    "experience_per_progress": [
+      [
+        14,
+        2.4
+      ]
+    ],
+    "crafted_item_stacks": [
+      [
+        77732321,
+        1,
+        [
+          0,
+          []
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    ],
+    "actions_required": 35,
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 567,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "hide_without_required_knowledge": false,
+    "hide_with_blocking_knowledges": false,
+    "allow_use_hands": false,
+    "is_passive": false,
+    "show_in_progression": true
+  },
+  {
     "id": 1833735996,
     "name": "Craft {0}",
     "time_requirement": 1.6,
@@ -551806,6 +552566,78 @@
     "show_in_progression": false
   },
   {
+    "id": 1864254862,
+    "name": "Identify {0}",
+    "time_requirement": 1.6,
+    "stamina_requirement": 0.75,
+    "tool_durability_lost": 0,
+    "building_requirement": [
+      0,
+      {
+        "building_type": 2012420824,
+        "tier": 1
+      }
+    ],
+    "level_requirements": [
+      [
+        14,
+        2
+      ]
+    ],
+    "tool_requirements": [
+      [
+        12,
+        1,
+        1
+      ]
+    ],
+    "consumed_item_stacks": [
+      [
+        523443621,
+        1,
+        [
+          0,
+          []
+        ],
+        1,
+        1.0
+      ]
+    ],
+    "discovery_triggers": [],
+    "required_claim_tech_id": 0,
+    "full_discovery_score": 1,
+    "experience_per_progress": [
+      [
+        14,
+        1.6
+      ]
+    ],
+    "crafted_item_stacks": [
+      [
+        1968720282,
+        1,
+        [
+          0,
+          []
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    ],
+    "actions_required": 10,
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 567,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "hide_without_required_knowledge": false,
+    "hide_with_blocking_knowledges": false,
+    "allow_use_hands": false,
+    "is_passive": false,
+    "show_in_progression": true
+  },
+  {
     "id": 1864535320,
     "name": "Recraft {1}",
     "time_requirement": 1.6,
@@ -556664,6 +557496,78 @@
     "allow_use_hands": false,
     "is_passive": false,
     "show_in_progression": false
+  },
+  {
+    "id": 1882920113,
+    "name": "Identify {0}",
+    "time_requirement": 1.6,
+    "stamina_requirement": 1.03,
+    "tool_durability_lost": 0,
+    "building_requirement": [
+      0,
+      {
+        "building_type": 2012420824,
+        "tier": 3
+      }
+    ],
+    "level_requirements": [
+      [
+        14,
+        32
+      ]
+    ],
+    "tool_requirements": [
+      [
+        12,
+        3,
+        1
+      ]
+    ],
+    "consumed_item_stacks": [
+      [
+        1606243360,
+        1,
+        [
+          0,
+          []
+        ],
+        1,
+        1.0
+      ]
+    ],
+    "discovery_triggers": [],
+    "required_claim_tech_id": 0,
+    "full_discovery_score": 1,
+    "experience_per_progress": [
+      [
+        14,
+        1.92
+      ]
+    ],
+    "crafted_item_stacks": [
+      [
+        361864114,
+        1,
+        [
+          0,
+          []
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    ],
+    "actions_required": 20,
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 567,
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "hide_without_required_knowledge": false,
+    "hide_with_blocking_knowledges": false,
+    "allow_use_hands": false,
+    "is_passive": false,
+    "show_in_progression": true
   },
   {
     "id": 1883120874,
