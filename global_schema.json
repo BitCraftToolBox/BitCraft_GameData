@@ -15541,6 +15541,22 @@
                   "I32": []
                 }
               }
+            },
+            {
+              "name": {
+                "some": "start_collapsing"
+              },
+              "algebraic_type": {
+                "Bool": []
+              }
+            },
+            {
+              "name": {
+                "some": "destroy_building_on_collapse"
+              },
+              "algebraic_type": {
+                "Bool": []
+              }
             }
           ]
         }
@@ -20603,6 +20619,75 @@
               "algebraic_type": {
                 "I32": []
               }
+            },
+            {
+              "name": {
+                "some": "on_destroy_building_outcomes"
+              },
+              "algebraic_type": {
+                "Sum": {
+                  "variants": [
+                    {
+                      "name": {
+                        "some": "some"
+                      },
+                      "algebraic_type": {
+                        "Array": {
+                          "Ref": 305
+                        }
+                      }
+                    },
+                    {
+                      "name": {
+                        "some": "none"
+                      },
+                      "algebraic_type": {
+                        "Product": {
+                          "elements": []
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Product": {
+          "elements": [
+            {
+              "name": {
+                "some": "probability"
+              },
+              "algebraic_type": {
+                "F32": []
+              }
+            },
+            {
+              "name": {
+                "some": "building_id"
+              },
+              "algebraic_type": {
+                "I32": []
+              }
+            },
+            {
+              "name": {
+                "some": "radius_min"
+              },
+              "algebraic_type": {
+                "I32": []
+              }
+            },
+            {
+              "name": {
+                "some": "radius_max"
+              },
+              "algebraic_type": {
+                "I32": []
+              }
             }
           ]
         }
@@ -21040,7 +21125,7 @@
                 "some": "skill_category"
               },
               "algebraic_type": {
-                "Ref": 313
+                "Ref": 314
               }
             },
             {
@@ -21652,7 +21737,7 @@
                 "some": "status"
               },
               "algebraic_type": {
-                "Ref": 325
+                "Ref": 326
               }
             },
             {
@@ -21677,7 +21762,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 326
+                  "Ref": 327
                 }
               }
             },
@@ -21687,7 +21772,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 326
+                  "Ref": 327
                 }
               }
             },
@@ -21823,7 +21908,7 @@
                 "some": "level_requirement"
               },
               "algebraic_type": {
-                "Ref": 328
+                "Ref": 329
               }
             },
             {
@@ -22091,7 +22176,7 @@
                 "some": "user_moderation_policy"
               },
               "algebraic_type": {
-                "Ref": 331
+                "Ref": 332
               }
             },
             {
@@ -22249,7 +22334,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 334
+                  "Ref": 335
                 }
               }
             }
@@ -22580,7 +22665,7 @@
                 "some": "contents"
               },
               "algebraic_type": {
-                "Ref": 342
+                "Ref": 343
               }
             }
           ]
@@ -22594,7 +22679,7 @@
                 "some": "TableUpdate"
               },
               "algebraic_type": {
-                "Ref": 343
+                "Ref": 344
               }
             },
             {
@@ -22602,7 +22687,7 @@
                 "some": "TransferPlayerRequest"
               },
               "algebraic_type": {
-                "Ref": 373
+                "Ref": 374
               }
             },
             {
@@ -22610,7 +22695,7 @@
                 "some": "TransferPlayerHousingRequest"
               },
               "algebraic_type": {
-                "Ref": 385
+                "Ref": 386
               }
             },
             {
@@ -22618,7 +22703,7 @@
                 "some": "PlayerCreateRequest"
               },
               "algebraic_type": {
-                "Ref": 386
+                "Ref": 387
               }
             },
             {
@@ -22626,7 +22711,7 @@
                 "some": "UserUpdateRegionRequest"
               },
               "algebraic_type": {
-                "Ref": 387
+                "Ref": 388
               }
             },
             {
@@ -22634,7 +22719,7 @@
                 "some": "OnPlayerNameSetRequest"
               },
               "algebraic_type": {
-                "Ref": 388
+                "Ref": 389
               }
             },
             {
@@ -22642,7 +22727,7 @@
                 "some": "ClaimCreateEmpireSettlementState"
               },
               "algebraic_type": {
-                "Ref": 389
+                "Ref": 390
               }
             },
             {
@@ -22650,7 +22735,7 @@
                 "some": "OnClaimMembersChanged"
               },
               "algebraic_type": {
-                "Ref": 390
+                "Ref": 391
               }
             },
             {
@@ -22658,7 +22743,7 @@
                 "some": "EmpireCreateBuilding"
               },
               "algebraic_type": {
-                "Ref": 391
+                "Ref": 392
               }
             },
             {
@@ -22666,7 +22751,7 @@
                 "some": "OnEmpireBuildingDeleted"
               },
               "algebraic_type": {
-                "Ref": 392
+                "Ref": 393
               }
             },
             {
@@ -22674,7 +22759,7 @@
                 "some": "GlobalDeleteEmpireBuilding"
               },
               "algebraic_type": {
-                "Ref": 393
+                "Ref": 394
               }
             },
             {
@@ -22682,7 +22767,7 @@
                 "some": "DeleteEmpire"
               },
               "algebraic_type": {
-                "Ref": 394
+                "Ref": 395
               }
             },
             {
@@ -22690,7 +22775,7 @@
                 "some": "EmpireClaimJoin"
               },
               "algebraic_type": {
-                "Ref": 395
+                "Ref": 396
               }
             },
             {
@@ -22698,7 +22783,7 @@
                 "some": "EmpireResupplyNode"
               },
               "algebraic_type": {
-                "Ref": 396
+                "Ref": 397
               }
             },
             {
@@ -22706,7 +22791,7 @@
                 "some": "EmpireDonateItem"
               },
               "algebraic_type": {
-                "Ref": 397
+                "Ref": 398
               }
             },
             {
@@ -22714,7 +22799,7 @@
                 "some": "EmpireCreate"
               },
               "algebraic_type": {
-                "Ref": 398
+                "Ref": 399
               }
             },
             {
@@ -22722,7 +22807,7 @@
                 "some": "EmpireCollectHexiteCapsule"
               },
               "algebraic_type": {
-                "Ref": 399
+                "Ref": 400
               }
             },
             {
@@ -22730,7 +22815,7 @@
                 "some": "EmpireStartSiege"
               },
               "algebraic_type": {
-                "Ref": 400
+                "Ref": 401
               }
             },
             {
@@ -22738,7 +22823,7 @@
                 "some": "EmpireSiegeAddSupplies"
               },
               "algebraic_type": {
-                "Ref": 401
+                "Ref": 402
               }
             },
             {
@@ -22746,7 +22831,7 @@
                 "some": "OnPlayerJoinedEmpire"
               },
               "algebraic_type": {
-                "Ref": 402
+                "Ref": 403
               }
             },
             {
@@ -22754,7 +22839,7 @@
                 "some": "OnPlayerLeftEmpire"
               },
               "algebraic_type": {
-                "Ref": 403
+                "Ref": 404
               }
             },
             {
@@ -22762,7 +22847,7 @@
                 "some": "RegionDestroySiegeEngine"
               },
               "algebraic_type": {
-                "Ref": 404
+                "Ref": 405
               }
             },
             {
@@ -22770,7 +22855,7 @@
                 "some": "OnRegionPlayerCreated"
               },
               "algebraic_type": {
-                "Ref": 405
+                "Ref": 406
               }
             },
             {
@@ -22778,7 +22863,7 @@
                 "some": "EmpireQueueSupplies"
               },
               "algebraic_type": {
-                "Ref": 406
+                "Ref": 407
               }
             },
             {
@@ -22786,7 +22871,7 @@
                 "some": "EmpireUpdateEmperorCrown"
               },
               "algebraic_type": {
-                "Ref": 407
+                "Ref": 408
               }
             },
             {
@@ -22794,7 +22879,7 @@
                 "some": "EmpireRemoveCrown"
               },
               "algebraic_type": {
-                "Ref": 408
+                "Ref": 409
               }
             },
             {
@@ -22802,7 +22887,7 @@
                 "some": "EmpireAddCurrency"
               },
               "algebraic_type": {
-                "Ref": 409
+                "Ref": 410
               }
             },
             {
@@ -22810,7 +22895,7 @@
                 "some": "SignPlayerOut"
               },
               "algebraic_type": {
-                "Ref": 410
+                "Ref": 411
               }
             },
             {
@@ -22818,7 +22903,7 @@
                 "some": "AdminBroadcastMessage"
               },
               "algebraic_type": {
-                "Ref": 411
+                "Ref": 412
               }
             },
             {
@@ -22826,7 +22911,7 @@
                 "some": "PlayerSkipQueue"
               },
               "algebraic_type": {
-                "Ref": 412
+                "Ref": 413
               }
             },
             {
@@ -22834,7 +22919,7 @@
                 "some": "GrantHubItem"
               },
               "algebraic_type": {
-                "Ref": 413
+                "Ref": 414
               }
             },
             {
@@ -22842,7 +22927,7 @@
                 "some": "RecoverDeployable"
               },
               "algebraic_type": {
-                "Ref": 414
+                "Ref": 415
               }
             },
             {
@@ -22850,7 +22935,7 @@
                 "some": "OnDeployableRecovered"
               },
               "algebraic_type": {
-                "Ref": 415
+                "Ref": 416
               }
             },
             {
@@ -22858,7 +22943,7 @@
                 "some": "ReplaceIdentity"
               },
               "algebraic_type": {
-                "Ref": 416
+                "Ref": 417
               }
             },
             {
@@ -22866,7 +22951,7 @@
                 "some": "ClaimSetName"
               },
               "algebraic_type": {
-                "Ref": 417
+                "Ref": 418
               }
             },
             {
@@ -22874,7 +22959,7 @@
                 "some": "RestoreSkills"
               },
               "algebraic_type": {
-                "Ref": 418
+                "Ref": 419
               }
             },
             {
@@ -22882,7 +22967,7 @@
                 "some": "NpcPlaceWatchtowers"
               },
               "algebraic_type": {
-                "Ref": 419
+                "Ref": 420
               }
             }
           ]
@@ -22894,37 +22979,6 @@
             {
               "name": {
                 "some": "blocked_identity"
-              },
-              "algebraic_type": {
-                "Sum": {
-                  "variants": [
-                    {
-                      "name": {
-                        "some": "some"
-                      },
-                      "algebraic_type": {
-                        "Array": {
-                          "Ref": 344
-                        }
-                      }
-                    },
-                    {
-                      "name": {
-                        "some": "none"
-                      },
-                      "algebraic_type": {
-                        "Product": {
-                          "elements": []
-                        }
-                      }
-                    }
-                  ]
-                }
-              }
-            },
-            {
-              "name": {
-                "some": "building_nickname_state"
               },
               "algebraic_type": {
                 "Sum": {
@@ -22955,7 +23009,7 @@
             },
             {
               "name": {
-                "some": "building_state"
+                "some": "building_nickname_state"
               },
               "algebraic_type": {
                 "Sum": {
@@ -22986,7 +23040,7 @@
             },
             {
               "name": {
-                "some": "claim_lowercase_name_state"
+                "some": "building_state"
               },
               "algebraic_type": {
                 "Sum": {
@@ -23017,7 +23071,7 @@
             },
             {
               "name": {
-                "some": "claim_member_state"
+                "some": "claim_lowercase_name_state"
               },
               "algebraic_type": {
                 "Sum": {
@@ -23048,7 +23102,7 @@
             },
             {
               "name": {
-                "some": "claim_state"
+                "some": "claim_member_state"
               },
               "algebraic_type": {
                 "Sum": {
@@ -23079,7 +23133,7 @@
             },
             {
               "name": {
-                "some": "empire_chunk_state"
+                "some": "claim_state"
               },
               "algebraic_type": {
                 "Sum": {
@@ -23110,7 +23164,7 @@
             },
             {
               "name": {
-                "some": "empire_node_siege_state"
+                "some": "empire_chunk_state"
               },
               "algebraic_type": {
                 "Sum": {
@@ -23141,7 +23195,7 @@
             },
             {
               "name": {
-                "some": "empire_node_state"
+                "some": "empire_node_siege_state"
               },
               "algebraic_type": {
                 "Sum": {
@@ -23172,7 +23226,7 @@
             },
             {
               "name": {
-                "some": "empire_player_data_state"
+                "some": "empire_node_state"
               },
               "algebraic_type": {
                 "Sum": {
@@ -23203,7 +23257,7 @@
             },
             {
               "name": {
-                "some": "empire_rank_state"
+                "some": "empire_player_data_state"
               },
               "algebraic_type": {
                 "Sum": {
@@ -23234,7 +23288,7 @@
             },
             {
               "name": {
-                "some": "empire_settlement_state"
+                "some": "empire_rank_state"
               },
               "algebraic_type": {
                 "Sum": {
@@ -23265,7 +23319,7 @@
             },
             {
               "name": {
-                "some": "empire_state"
+                "some": "empire_settlement_state"
               },
               "algebraic_type": {
                 "Sum": {
@@ -23296,7 +23350,7 @@
             },
             {
               "name": {
-                "some": "identity_role"
+                "some": "empire_state"
               },
               "algebraic_type": {
                 "Sum": {
@@ -23327,7 +23381,7 @@
             },
             {
               "name": {
-                "some": "location_state"
+                "some": "identity_role"
               },
               "algebraic_type": {
                 "Sum": {
@@ -23358,7 +23412,7 @@
             },
             {
               "name": {
-                "some": "player_housing_state"
+                "some": "location_state"
               },
               "algebraic_type": {
                 "Sum": {
@@ -23389,6 +23443,37 @@
             },
             {
               "name": {
+                "some": "player_housing_state"
+              },
+              "algebraic_type": {
+                "Sum": {
+                  "variants": [
+                    {
+                      "name": {
+                        "some": "some"
+                      },
+                      "algebraic_type": {
+                        "Array": {
+                          "Ref": 360
+                        }
+                      }
+                    },
+                    {
+                      "name": {
+                        "some": "none"
+                      },
+                      "algebraic_type": {
+                        "Product": {
+                          "elements": []
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "name": {
                 "some": "player_report_state"
               },
               "algebraic_type": {
@@ -23400,7 +23485,7 @@
                       },
                       "algebraic_type": {
                         "Array": {
-                          "Ref": 361
+                          "Ref": 362
                         }
                       }
                     },
@@ -23431,7 +23516,7 @@
                       },
                       "algebraic_type": {
                         "Array": {
-                          "Ref": 363
+                          "Ref": 364
                         }
                       }
                     },
@@ -23462,7 +23547,7 @@
                       },
                       "algebraic_type": {
                         "Array": {
-                          "Ref": 364
+                          "Ref": 365
                         }
                       }
                     },
@@ -23493,7 +23578,7 @@
                       },
                       "algebraic_type": {
                         "Array": {
-                          "Ref": 366
+                          "Ref": 367
                         }
                       }
                     },
@@ -23524,7 +23609,7 @@
                       },
                       "algebraic_type": {
                         "Array": {
-                          "Ref": 368
+                          "Ref": 369
                         }
                       }
                     },
@@ -23555,7 +23640,7 @@
                       },
                       "algebraic_type": {
                         "Array": {
-                          "Ref": 369
+                          "Ref": 370
                         }
                       }
                     },
@@ -23586,7 +23671,7 @@
                       },
                       "algebraic_type": {
                         "Array": {
-                          "Ref": 371
+                          "Ref": 372
                         }
                       }
                     },
@@ -23617,7 +23702,7 @@
                       },
                       "algebraic_type": {
                         "Array": {
-                          "Ref": 372
+                          "Ref": 373
                         }
                       }
                     },
@@ -23976,7 +24061,7 @@
                 "some": "Insert"
               },
               "algebraic_type": {
-                "Ref": 360
+                "Ref": 361
               }
             },
             {
@@ -23984,7 +24069,7 @@
                 "some": "Delete"
               },
               "algebraic_type": {
-                "Ref": 360
+                "Ref": 361
               }
             }
           ]
@@ -24079,7 +24164,7 @@
                 "some": "Insert"
               },
               "algebraic_type": {
-                "Ref": 362
+                "Ref": 363
               }
             },
             {
@@ -24087,7 +24172,7 @@
                 "some": "Delete"
               },
               "algebraic_type": {
-                "Ref": 362
+                "Ref": 363
               }
             }
           ]
@@ -24276,7 +24361,7 @@
                 "some": "Insert"
               },
               "algebraic_type": {
-                "Ref": 365
+                "Ref": 366
               }
             },
             {
@@ -24284,7 +24369,7 @@
                 "some": "Delete"
               },
               "algebraic_type": {
-                "Ref": 365
+                "Ref": 366
               }
             }
           ]
@@ -24336,7 +24421,7 @@
                 "some": "Insert"
               },
               "algebraic_type": {
-                "Ref": 367
+                "Ref": 368
               }
             },
             {
@@ -24344,7 +24429,7 @@
                 "some": "Delete"
               },
               "algebraic_type": {
-                "Ref": 367
+                "Ref": 368
               }
             }
           ]
@@ -24410,7 +24495,7 @@
                 "some": "Insert"
               },
               "algebraic_type": {
-                "Ref": 370
+                "Ref": 371
               }
             },
             {
@@ -24418,7 +24503,7 @@
                 "some": "Delete"
               },
               "algebraic_type": {
-                "Ref": 370
+                "Ref": 371
               }
             }
           ]
@@ -24476,7 +24561,7 @@
                 "some": "Insert"
               },
               "algebraic_type": {
-                "Ref": 330
+                "Ref": 331
               }
             },
             {
@@ -24484,7 +24569,7 @@
                 "some": "Delete"
               },
               "algebraic_type": {
-                "Ref": 330
+                "Ref": 331
               }
             }
           ]
@@ -24498,7 +24583,7 @@
                 "some": "Insert"
               },
               "algebraic_type": {
-                "Ref": 332
+                "Ref": 333
               }
             },
             {
@@ -24506,7 +24591,7 @@
                 "some": "Delete"
               },
               "algebraic_type": {
-                "Ref": 332
+                "Ref": 333
               }
             }
           ]
@@ -24618,7 +24703,7 @@
                 "some": "user_state"
               },
               "algebraic_type": {
-                "Ref": 332
+                "Ref": 333
               }
             },
             {
@@ -24626,7 +24711,7 @@
                 "some": "move_validation_strike_counter_state"
               },
               "algebraic_type": {
-                "Ref": 374
+                "Ref": 375
               }
             },
             {
@@ -24642,7 +24727,7 @@
                 "some": "stamina_state"
               },
               "algebraic_type": {
-                "Ref": 314
+                "Ref": 315
               }
             },
             {
@@ -24810,7 +24895,7 @@
                 "some": "knowledge_claim_state"
               },
               "algebraic_type": {
-                "Ref": 375
+                "Ref": 376
               }
             },
             {
@@ -24818,7 +24903,7 @@
                 "some": "knowledge_pillar_shaping_state"
               },
               "algebraic_type": {
-                "Ref": 377
+                "Ref": 378
               }
             },
             {
@@ -24852,7 +24937,7 @@
                 "some": "player_username_state"
               },
               "algebraic_type": {
-                "Ref": 378
+                "Ref": 379
               }
             },
             {
@@ -24899,7 +24984,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 379
+                  "Ref": 380
                 }
               }
             },
@@ -24936,7 +25021,7 @@
                 "some": "vault_state"
               },
               "algebraic_type": {
-                "Ref": 333
+                "Ref": 334
               }
             },
             {
@@ -24952,7 +25037,7 @@
                 "some": "satiation_state"
               },
               "algebraic_type": {
-                "Ref": 308
+                "Ref": 309
               }
             },
             {
@@ -24983,7 +25068,7 @@
                         "some": "some"
                       },
                       "algebraic_type": {
-                        "Ref": 380
+                        "Ref": 381
                       }
                     },
                     {
@@ -25005,7 +25090,7 @@
                 "some": "teleportation_energy_state"
               },
               "algebraic_type": {
-                "Ref": 381
+                "Ref": 382
               }
             },
             {
@@ -25020,7 +25105,7 @@
                         "some": "some"
                       },
                       "algebraic_type": {
-                        "Ref": 360
+                        "Ref": 361
                       }
                     },
                     {
@@ -25043,7 +25128,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 382
+                  "Ref": 383
                 }
               }
             },
@@ -25077,7 +25162,7 @@
                         "some": "some"
                       },
                       "algebraic_type": {
-                        "Ref": 383
+                        "Ref": 384
                       }
                     },
                     {
@@ -25100,7 +25185,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 384
+                  "Ref": 385
                 }
               }
             }
@@ -25159,7 +25244,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 376
+                  "Ref": 377
                 }
               }
             }
@@ -26469,7 +26554,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 323
+                  "Ref": 324
                 }
               }
             }
@@ -26583,7 +26668,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 420
+                  "Ref": 421
                 }
               }
             },
@@ -26714,7 +26799,7 @@
                 "some": "contents"
               },
               "algebraic_type": {
-                "Ref": 424
+                "Ref": 425
               }
             }
           ]
@@ -26728,7 +26813,7 @@
                 "some": "TableUpdate"
               },
               "algebraic_type": {
-                "Ref": 343
+                "Ref": 344
               }
             },
             {
@@ -26736,7 +26821,7 @@
                 "some": "TransferPlayerRequest"
               },
               "algebraic_type": {
-                "Ref": 425
+                "Ref": 426
               }
             },
             {
@@ -26744,7 +26829,7 @@
                 "some": "TransferPlayerHousingRequest"
               },
               "algebraic_type": {
-                "Ref": 385
+                "Ref": 386
               }
             },
             {
@@ -26752,7 +26837,7 @@
                 "some": "PlayerCreateRequest"
               },
               "algebraic_type": {
-                "Ref": 386
+                "Ref": 387
               }
             },
             {
@@ -26760,7 +26845,7 @@
                 "some": "UserUpdateRegionRequest"
               },
               "algebraic_type": {
-                "Ref": 387
+                "Ref": 388
               }
             },
             {
@@ -26768,7 +26853,7 @@
                 "some": "OnPlayerNameSetRequest"
               },
               "algebraic_type": {
-                "Ref": 388
+                "Ref": 389
               }
             },
             {
@@ -26776,7 +26861,7 @@
                 "some": "ClaimCreateEmpireSettlementState"
               },
               "algebraic_type": {
-                "Ref": 389
+                "Ref": 390
               }
             },
             {
@@ -26784,7 +26869,7 @@
                 "some": "OnClaimMembersChanged"
               },
               "algebraic_type": {
-                "Ref": 390
+                "Ref": 391
               }
             },
             {
@@ -26792,7 +26877,7 @@
                 "some": "EmpireCreateBuilding"
               },
               "algebraic_type": {
-                "Ref": 391
+                "Ref": 392
               }
             },
             {
@@ -26800,7 +26885,7 @@
                 "some": "OnEmpireBuildingDeleted"
               },
               "algebraic_type": {
-                "Ref": 392
+                "Ref": 393
               }
             },
             {
@@ -26808,7 +26893,7 @@
                 "some": "GlobalDeleteEmpireBuilding"
               },
               "algebraic_type": {
-                "Ref": 393
+                "Ref": 394
               }
             },
             {
@@ -26816,7 +26901,7 @@
                 "some": "DeleteEmpire"
               },
               "algebraic_type": {
-                "Ref": 394
+                "Ref": 395
               }
             },
             {
@@ -26824,7 +26909,7 @@
                 "some": "EmpireClaimJoin"
               },
               "algebraic_type": {
-                "Ref": 395
+                "Ref": 396
               }
             },
             {
@@ -26832,7 +26917,7 @@
                 "some": "EmpireResupplyNode"
               },
               "algebraic_type": {
-                "Ref": 396
+                "Ref": 397
               }
             },
             {
@@ -26840,7 +26925,7 @@
                 "some": "EmpireDonateItem"
               },
               "algebraic_type": {
-                "Ref": 397
+                "Ref": 398
               }
             },
             {
@@ -26848,7 +26933,7 @@
                 "some": "EmpireCreate"
               },
               "algebraic_type": {
-                "Ref": 398
+                "Ref": 399
               }
             },
             {
@@ -26856,7 +26941,7 @@
                 "some": "EmpireCollectHexiteCapsule"
               },
               "algebraic_type": {
-                "Ref": 399
+                "Ref": 400
               }
             },
             {
@@ -26864,7 +26949,7 @@
                 "some": "EmpireStartSiege"
               },
               "algebraic_type": {
-                "Ref": 400
+                "Ref": 401
               }
             },
             {
@@ -26872,7 +26957,7 @@
                 "some": "EmpireSiegeAddSupplies"
               },
               "algebraic_type": {
-                "Ref": 401
+                "Ref": 402
               }
             },
             {
@@ -26880,7 +26965,7 @@
                 "some": "OnPlayerJoinedEmpire"
               },
               "algebraic_type": {
-                "Ref": 402
+                "Ref": 403
               }
             },
             {
@@ -26888,7 +26973,7 @@
                 "some": "OnPlayerLeftEmpire"
               },
               "algebraic_type": {
-                "Ref": 403
+                "Ref": 404
               }
             },
             {
@@ -26896,7 +26981,7 @@
                 "some": "RegionDestroySiegeEngine"
               },
               "algebraic_type": {
-                "Ref": 404
+                "Ref": 405
               }
             },
             {
@@ -26904,7 +26989,7 @@
                 "some": "OnRegionPlayerCreated"
               },
               "algebraic_type": {
-                "Ref": 405
+                "Ref": 406
               }
             },
             {
@@ -26912,7 +26997,7 @@
                 "some": "EmpireQueueSupplies"
               },
               "algebraic_type": {
-                "Ref": 406
+                "Ref": 407
               }
             },
             {
@@ -26920,7 +27005,7 @@
                 "some": "EmpireUpdateEmperorCrown"
               },
               "algebraic_type": {
-                "Ref": 407
+                "Ref": 408
               }
             },
             {
@@ -26928,7 +27013,7 @@
                 "some": "EmpireRemoveCrown"
               },
               "algebraic_type": {
-                "Ref": 408
+                "Ref": 409
               }
             },
             {
@@ -26936,7 +27021,7 @@
                 "some": "EmpireAddCurrency"
               },
               "algebraic_type": {
-                "Ref": 409
+                "Ref": 410
               }
             },
             {
@@ -26944,7 +27029,7 @@
                 "some": "SignPlayerOut"
               },
               "algebraic_type": {
-                "Ref": 410
+                "Ref": 411
               }
             },
             {
@@ -26952,7 +27037,7 @@
                 "some": "AdminBroadcastMessage"
               },
               "algebraic_type": {
-                "Ref": 411
+                "Ref": 412
               }
             },
             {
@@ -26960,7 +27045,7 @@
                 "some": "PlayerSkipQueue"
               },
               "algebraic_type": {
-                "Ref": 412
+                "Ref": 413
               }
             },
             {
@@ -26968,7 +27053,7 @@
                 "some": "GrantHubItem"
               },
               "algebraic_type": {
-                "Ref": 413
+                "Ref": 414
               }
             },
             {
@@ -26976,7 +27061,7 @@
                 "some": "RecoverDeployable"
               },
               "algebraic_type": {
-                "Ref": 414
+                "Ref": 415
               }
             },
             {
@@ -26984,7 +27069,7 @@
                 "some": "OnDeployableRecovered"
               },
               "algebraic_type": {
-                "Ref": 415
+                "Ref": 416
               }
             },
             {
@@ -26992,7 +27077,7 @@
                 "some": "ReplaceIdentity"
               },
               "algebraic_type": {
-                "Ref": 416
+                "Ref": 417
               }
             },
             {
@@ -27000,7 +27085,7 @@
                 "some": "ClaimSetName"
               },
               "algebraic_type": {
-                "Ref": 417
+                "Ref": 418
               }
             },
             {
@@ -27008,7 +27093,7 @@
                 "some": "RestoreSkills"
               },
               "algebraic_type": {
-                "Ref": 418
+                "Ref": 419
               }
             },
             {
@@ -27016,7 +27101,7 @@
                 "some": "NpcPlaceWatchtowers"
               },
               "algebraic_type": {
-                "Ref": 419
+                "Ref": 420
               }
             },
             {
@@ -27024,7 +27109,7 @@
                 "some": "EmpireWithdrawItem"
               },
               "algebraic_type": {
-                "Ref": 426
+                "Ref": 427
               }
             }
           ]
@@ -27136,7 +27221,7 @@
                 "some": "user_state"
               },
               "algebraic_type": {
-                "Ref": 332
+                "Ref": 333
               }
             },
             {
@@ -27144,7 +27229,7 @@
                 "some": "move_validation_strike_counter_state"
               },
               "algebraic_type": {
-                "Ref": 374
+                "Ref": 375
               }
             },
             {
@@ -27160,7 +27245,7 @@
                 "some": "stamina_state"
               },
               "algebraic_type": {
-                "Ref": 314
+                "Ref": 315
               }
             },
             {
@@ -27328,7 +27413,7 @@
                 "some": "knowledge_claim_state"
               },
               "algebraic_type": {
-                "Ref": 375
+                "Ref": 376
               }
             },
             {
@@ -27336,7 +27421,7 @@
                 "some": "knowledge_pillar_shaping_state"
               },
               "algebraic_type": {
-                "Ref": 377
+                "Ref": 378
               }
             },
             {
@@ -27380,7 +27465,7 @@
                 "some": "player_username_state"
               },
               "algebraic_type": {
-                "Ref": 378
+                "Ref": 379
               }
             },
             {
@@ -27427,7 +27512,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 379
+                  "Ref": 380
                 }
               }
             },
@@ -27464,7 +27549,7 @@
                 "some": "vault_state"
               },
               "algebraic_type": {
-                "Ref": 333
+                "Ref": 334
               }
             },
             {
@@ -27480,7 +27565,7 @@
                 "some": "satiation_state"
               },
               "algebraic_type": {
-                "Ref": 308
+                "Ref": 309
               }
             },
             {
@@ -27511,7 +27596,7 @@
                         "some": "some"
                       },
                       "algebraic_type": {
-                        "Ref": 380
+                        "Ref": 381
                       }
                     },
                     {
@@ -27533,7 +27618,7 @@
                 "some": "teleportation_energy_state"
               },
               "algebraic_type": {
-                "Ref": 381
+                "Ref": 382
               }
             },
             {
@@ -27548,7 +27633,7 @@
                         "some": "some"
                       },
                       "algebraic_type": {
-                        "Ref": 360
+                        "Ref": 361
                       }
                     },
                     {
@@ -27571,7 +27656,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 382
+                  "Ref": 383
                 }
               }
             },
@@ -27597,7 +27682,7 @@
                         "some": "some"
                       },
                       "algebraic_type": {
-                        "Ref": 383
+                        "Ref": 384
                       }
                     },
                     {
@@ -27620,7 +27705,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 384
+                  "Ref": 385
                 }
               }
             }
@@ -27689,7 +27774,7 @@
                 "some": "contents"
               },
               "algebraic_type": {
-                "Ref": 428
+                "Ref": 429
               }
             }
           ]
@@ -27703,7 +27788,7 @@
                 "some": "TableUpdate"
               },
               "algebraic_type": {
-                "Ref": 343
+                "Ref": 344
               }
             },
             {
@@ -27711,7 +27796,7 @@
                 "some": "TransferPlayerRequest"
               },
               "algebraic_type": {
-                "Ref": 429
+                "Ref": 430
               }
             },
             {
@@ -27719,7 +27804,7 @@
                 "some": "TransferPlayerHousingRequest"
               },
               "algebraic_type": {
-                "Ref": 385
+                "Ref": 386
               }
             },
             {
@@ -27727,7 +27812,7 @@
                 "some": "PlayerCreateRequest"
               },
               "algebraic_type": {
-                "Ref": 386
+                "Ref": 387
               }
             },
             {
@@ -27735,7 +27820,7 @@
                 "some": "UserUpdateRegionRequest"
               },
               "algebraic_type": {
-                "Ref": 387
+                "Ref": 388
               }
             },
             {
@@ -27743,7 +27828,7 @@
                 "some": "OnPlayerNameSetRequest"
               },
               "algebraic_type": {
-                "Ref": 388
+                "Ref": 389
               }
             },
             {
@@ -27751,7 +27836,7 @@
                 "some": "ClaimCreateEmpireSettlementState"
               },
               "algebraic_type": {
-                "Ref": 389
+                "Ref": 390
               }
             },
             {
@@ -27759,7 +27844,7 @@
                 "some": "OnClaimMembersChanged"
               },
               "algebraic_type": {
-                "Ref": 390
+                "Ref": 391
               }
             },
             {
@@ -27767,7 +27852,7 @@
                 "some": "EmpireCreateBuilding"
               },
               "algebraic_type": {
-                "Ref": 391
+                "Ref": 392
               }
             },
             {
@@ -27775,7 +27860,7 @@
                 "some": "OnEmpireBuildingDeleted"
               },
               "algebraic_type": {
-                "Ref": 392
+                "Ref": 393
               }
             },
             {
@@ -27783,7 +27868,7 @@
                 "some": "GlobalDeleteEmpireBuilding"
               },
               "algebraic_type": {
-                "Ref": 393
+                "Ref": 394
               }
             },
             {
@@ -27791,7 +27876,7 @@
                 "some": "DeleteEmpire"
               },
               "algebraic_type": {
-                "Ref": 394
+                "Ref": 395
               }
             },
             {
@@ -27799,7 +27884,7 @@
                 "some": "EmpireClaimJoin"
               },
               "algebraic_type": {
-                "Ref": 395
+                "Ref": 396
               }
             },
             {
@@ -27807,7 +27892,7 @@
                 "some": "EmpireResupplyNode"
               },
               "algebraic_type": {
-                "Ref": 396
+                "Ref": 397
               }
             },
             {
@@ -27815,7 +27900,7 @@
                 "some": "EmpireDonateItem"
               },
               "algebraic_type": {
-                "Ref": 397
+                "Ref": 398
               }
             },
             {
@@ -27823,7 +27908,7 @@
                 "some": "EmpireCreate"
               },
               "algebraic_type": {
-                "Ref": 398
+                "Ref": 399
               }
             },
             {
@@ -27831,7 +27916,7 @@
                 "some": "EmpireCollectHexiteCapsule"
               },
               "algebraic_type": {
-                "Ref": 399
+                "Ref": 400
               }
             },
             {
@@ -27839,7 +27924,7 @@
                 "some": "EmpireStartSiege"
               },
               "algebraic_type": {
-                "Ref": 400
+                "Ref": 401
               }
             },
             {
@@ -27847,7 +27932,7 @@
                 "some": "EmpireSiegeAddSupplies"
               },
               "algebraic_type": {
-                "Ref": 401
+                "Ref": 402
               }
             },
             {
@@ -27855,7 +27940,7 @@
                 "some": "OnPlayerJoinedEmpire"
               },
               "algebraic_type": {
-                "Ref": 402
+                "Ref": 403
               }
             },
             {
@@ -27863,7 +27948,7 @@
                 "some": "OnPlayerLeftEmpire"
               },
               "algebraic_type": {
-                "Ref": 403
+                "Ref": 404
               }
             },
             {
@@ -27871,7 +27956,7 @@
                 "some": "RegionDestroySiegeEngine"
               },
               "algebraic_type": {
-                "Ref": 404
+                "Ref": 405
               }
             },
             {
@@ -27879,7 +27964,7 @@
                 "some": "OnRegionPlayerCreated"
               },
               "algebraic_type": {
-                "Ref": 405
+                "Ref": 406
               }
             },
             {
@@ -27887,7 +27972,7 @@
                 "some": "EmpireQueueSupplies"
               },
               "algebraic_type": {
-                "Ref": 406
+                "Ref": 407
               }
             },
             {
@@ -27895,7 +27980,7 @@
                 "some": "EmpireUpdateEmperorCrown"
               },
               "algebraic_type": {
-                "Ref": 407
+                "Ref": 408
               }
             },
             {
@@ -27903,7 +27988,7 @@
                 "some": "EmpireRemoveCrown"
               },
               "algebraic_type": {
-                "Ref": 408
+                "Ref": 409
               }
             },
             {
@@ -27911,7 +27996,7 @@
                 "some": "EmpireAddCurrency"
               },
               "algebraic_type": {
-                "Ref": 409
+                "Ref": 410
               }
             },
             {
@@ -27919,7 +28004,7 @@
                 "some": "SignPlayerOut"
               },
               "algebraic_type": {
-                "Ref": 410
+                "Ref": 411
               }
             },
             {
@@ -27927,7 +28012,7 @@
                 "some": "AdminBroadcastMessage"
               },
               "algebraic_type": {
-                "Ref": 411
+                "Ref": 412
               }
             },
             {
@@ -27935,7 +28020,7 @@
                 "some": "PlayerSkipQueue"
               },
               "algebraic_type": {
-                "Ref": 412
+                "Ref": 413
               }
             },
             {
@@ -27943,7 +28028,7 @@
                 "some": "GrantHubItem"
               },
               "algebraic_type": {
-                "Ref": 413
+                "Ref": 414
               }
             },
             {
@@ -27951,7 +28036,7 @@
                 "some": "RecoverDeployable"
               },
               "algebraic_type": {
-                "Ref": 414
+                "Ref": 415
               }
             },
             {
@@ -27959,7 +28044,7 @@
                 "some": "OnDeployableRecovered"
               },
               "algebraic_type": {
-                "Ref": 430
+                "Ref": 431
               }
             },
             {
@@ -27967,7 +28052,7 @@
                 "some": "ReplaceIdentity"
               },
               "algebraic_type": {
-                "Ref": 416
+                "Ref": 417
               }
             },
             {
@@ -27975,7 +28060,7 @@
                 "some": "ClaimSetName"
               },
               "algebraic_type": {
-                "Ref": 417
+                "Ref": 418
               }
             },
             {
@@ -27983,7 +28068,7 @@
                 "some": "RestoreSkills"
               },
               "algebraic_type": {
-                "Ref": 418
+                "Ref": 419
               }
             },
             {
@@ -27991,7 +28076,7 @@
                 "some": "NpcPlaceWatchtowers"
               },
               "algebraic_type": {
-                "Ref": 419
+                "Ref": 420
               }
             },
             {
@@ -27999,7 +28084,7 @@
                 "some": "EmpireWithdrawItem"
               },
               "algebraic_type": {
-                "Ref": 426
+                "Ref": 427
               }
             }
           ]
@@ -28111,7 +28196,7 @@
                 "some": "user_state"
               },
               "algebraic_type": {
-                "Ref": 332
+                "Ref": 333
               }
             },
             {
@@ -28119,7 +28204,7 @@
                 "some": "move_validation_strike_counter_state"
               },
               "algebraic_type": {
-                "Ref": 374
+                "Ref": 375
               }
             },
             {
@@ -28135,7 +28220,7 @@
                 "some": "stamina_state"
               },
               "algebraic_type": {
-                "Ref": 314
+                "Ref": 315
               }
             },
             {
@@ -28303,7 +28388,7 @@
                 "some": "knowledge_claim_state"
               },
               "algebraic_type": {
-                "Ref": 375
+                "Ref": 376
               }
             },
             {
@@ -28311,7 +28396,7 @@
                 "some": "knowledge_pillar_shaping_state"
               },
               "algebraic_type": {
-                "Ref": 377
+                "Ref": 378
               }
             },
             {
@@ -28355,7 +28440,7 @@
                 "some": "player_username_state"
               },
               "algebraic_type": {
-                "Ref": 378
+                "Ref": 379
               }
             },
             {
@@ -28402,7 +28487,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 379
+                  "Ref": 380
                 }
               }
             },
@@ -28439,7 +28524,7 @@
                 "some": "vault_state"
               },
               "algebraic_type": {
-                "Ref": 333
+                "Ref": 334
               }
             },
             {
@@ -28455,7 +28540,7 @@
                 "some": "satiation_state"
               },
               "algebraic_type": {
-                "Ref": 308
+                "Ref": 309
               }
             },
             {
@@ -28486,7 +28571,7 @@
                         "some": "some"
                       },
                       "algebraic_type": {
-                        "Ref": 380
+                        "Ref": 381
                       }
                     },
                     {
@@ -28508,7 +28593,7 @@
                 "some": "teleportation_energy_state"
               },
               "algebraic_type": {
-                "Ref": 381
+                "Ref": 382
               }
             },
             {
@@ -28523,7 +28608,7 @@
                         "some": "some"
                       },
                       "algebraic_type": {
-                        "Ref": 360
+                        "Ref": 361
                       }
                     },
                     {
@@ -28546,7 +28631,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 382
+                  "Ref": 383
                 }
               }
             },
@@ -28572,7 +28657,7 @@
                         "some": "some"
                       },
                       "algebraic_type": {
-                        "Ref": 383
+                        "Ref": 384
                       }
                     },
                     {
@@ -28595,7 +28680,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 384
+                  "Ref": 385
                 }
               }
             }
@@ -28643,7 +28728,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 323
+                  "Ref": 324
                 }
               }
             }
@@ -28674,7 +28759,7 @@
                 "some": "contents"
               },
               "algebraic_type": {
-                "Ref": 432
+                "Ref": 433
               }
             }
           ]
@@ -28688,7 +28773,7 @@
                 "some": "TableUpdate"
               },
               "algebraic_type": {
-                "Ref": 433
+                "Ref": 434
               }
             },
             {
@@ -28696,7 +28781,7 @@
                 "some": "TransferPlayerRequest"
               },
               "algebraic_type": {
-                "Ref": 435
+                "Ref": 436
               }
             },
             {
@@ -28704,7 +28789,7 @@
                 "some": "TransferPlayerHousingRequest"
               },
               "algebraic_type": {
-                "Ref": 385
+                "Ref": 386
               }
             },
             {
@@ -28712,7 +28797,7 @@
                 "some": "PlayerCreateRequest"
               },
               "algebraic_type": {
-                "Ref": 386
+                "Ref": 387
               }
             },
             {
@@ -28720,7 +28805,7 @@
                 "some": "UserUpdateRegionRequest"
               },
               "algebraic_type": {
-                "Ref": 387
+                "Ref": 388
               }
             },
             {
@@ -28728,7 +28813,7 @@
                 "some": "OnPlayerNameSetRequest"
               },
               "algebraic_type": {
-                "Ref": 388
+                "Ref": 389
               }
             },
             {
@@ -28736,7 +28821,7 @@
                 "some": "ClaimCreateEmpireSettlementState"
               },
               "algebraic_type": {
-                "Ref": 389
+                "Ref": 390
               }
             },
             {
@@ -28744,7 +28829,7 @@
                 "some": "OnClaimMembersChanged"
               },
               "algebraic_type": {
-                "Ref": 390
+                "Ref": 391
               }
             },
             {
@@ -28752,7 +28837,7 @@
                 "some": "EmpireCreateBuilding"
               },
               "algebraic_type": {
-                "Ref": 391
+                "Ref": 392
               }
             },
             {
@@ -28760,7 +28845,7 @@
                 "some": "OnEmpireBuildingDeleted"
               },
               "algebraic_type": {
-                "Ref": 392
+                "Ref": 393
               }
             },
             {
@@ -28768,7 +28853,7 @@
                 "some": "GlobalDeleteEmpireBuilding"
               },
               "algebraic_type": {
-                "Ref": 393
+                "Ref": 394
               }
             },
             {
@@ -28776,7 +28861,7 @@
                 "some": "DeleteEmpire"
               },
               "algebraic_type": {
-                "Ref": 394
+                "Ref": 395
               }
             },
             {
@@ -28784,7 +28869,7 @@
                 "some": "EmpireClaimJoin"
               },
               "algebraic_type": {
-                "Ref": 395
+                "Ref": 396
               }
             },
             {
@@ -28792,7 +28877,7 @@
                 "some": "EmpireResupplyNode"
               },
               "algebraic_type": {
-                "Ref": 396
+                "Ref": 397
               }
             },
             {
@@ -28800,7 +28885,7 @@
                 "some": "EmpireDonateItem"
               },
               "algebraic_type": {
-                "Ref": 397
+                "Ref": 398
               }
             },
             {
@@ -28808,7 +28893,7 @@
                 "some": "EmpireCreate"
               },
               "algebraic_type": {
-                "Ref": 398
+                "Ref": 399
               }
             },
             {
@@ -28816,7 +28901,7 @@
                 "some": "EmpireCollectHexiteCapsule"
               },
               "algebraic_type": {
-                "Ref": 399
+                "Ref": 400
               }
             },
             {
@@ -28824,7 +28909,7 @@
                 "some": "EmpireStartSiege"
               },
               "algebraic_type": {
-                "Ref": 400
+                "Ref": 401
               }
             },
             {
@@ -28832,7 +28917,7 @@
                 "some": "EmpireSiegeAddSupplies"
               },
               "algebraic_type": {
-                "Ref": 401
+                "Ref": 402
               }
             },
             {
@@ -28840,7 +28925,7 @@
                 "some": "OnPlayerJoinedEmpire"
               },
               "algebraic_type": {
-                "Ref": 402
+                "Ref": 403
               }
             },
             {
@@ -28848,7 +28933,7 @@
                 "some": "OnPlayerLeftEmpire"
               },
               "algebraic_type": {
-                "Ref": 403
+                "Ref": 404
               }
             },
             {
@@ -28856,7 +28941,7 @@
                 "some": "RegionDestroySiegeEngine"
               },
               "algebraic_type": {
-                "Ref": 404
+                "Ref": 405
               }
             },
             {
@@ -28864,7 +28949,7 @@
                 "some": "OnRegionPlayerCreated"
               },
               "algebraic_type": {
-                "Ref": 405
+                "Ref": 406
               }
             },
             {
@@ -28872,7 +28957,7 @@
                 "some": "EmpireQueueSupplies"
               },
               "algebraic_type": {
-                "Ref": 406
+                "Ref": 407
               }
             },
             {
@@ -28880,7 +28965,7 @@
                 "some": "EmpireUpdateEmperorCrown"
               },
               "algebraic_type": {
-                "Ref": 407
+                "Ref": 408
               }
             },
             {
@@ -28888,7 +28973,7 @@
                 "some": "EmpireRemoveCrown"
               },
               "algebraic_type": {
-                "Ref": 408
+                "Ref": 409
               }
             },
             {
@@ -28896,7 +28981,7 @@
                 "some": "EmpireAddCurrency"
               },
               "algebraic_type": {
-                "Ref": 409
+                "Ref": 410
               }
             },
             {
@@ -28904,7 +28989,7 @@
                 "some": "SignPlayerOut"
               },
               "algebraic_type": {
-                "Ref": 410
+                "Ref": 411
               }
             },
             {
@@ -28912,7 +28997,7 @@
                 "some": "AdminBroadcastMessage"
               },
               "algebraic_type": {
-                "Ref": 411
+                "Ref": 412
               }
             },
             {
@@ -28920,7 +29005,7 @@
                 "some": "PlayerSkipQueue"
               },
               "algebraic_type": {
-                "Ref": 412
+                "Ref": 413
               }
             },
             {
@@ -28928,7 +29013,7 @@
                 "some": "GrantHubItem"
               },
               "algebraic_type": {
-                "Ref": 413
+                "Ref": 414
               }
             },
             {
@@ -28936,7 +29021,7 @@
                 "some": "RecoverDeployable"
               },
               "algebraic_type": {
-                "Ref": 414
+                "Ref": 415
               }
             },
             {
@@ -28944,7 +29029,7 @@
                 "some": "OnDeployableRecovered"
               },
               "algebraic_type": {
-                "Ref": 430
+                "Ref": 431
               }
             },
             {
@@ -28952,7 +29037,7 @@
                 "some": "ReplaceIdentity"
               },
               "algebraic_type": {
-                "Ref": 416
+                "Ref": 417
               }
             },
             {
@@ -28960,7 +29045,7 @@
                 "some": "ClaimSetName"
               },
               "algebraic_type": {
-                "Ref": 417
+                "Ref": 418
               }
             },
             {
@@ -28968,7 +29053,7 @@
                 "some": "RestoreSkills"
               },
               "algebraic_type": {
-                "Ref": 418
+                "Ref": 419
               }
             },
             {
@@ -28976,7 +29061,7 @@
                 "some": "NpcPlaceWatchtowers"
               },
               "algebraic_type": {
-                "Ref": 419
+                "Ref": 420
               }
             },
             {
@@ -28984,7 +29069,7 @@
                 "some": "EmpireWithdrawItem"
               },
               "algebraic_type": {
-                "Ref": 426
+                "Ref": 427
               }
             }
           ]
@@ -28996,37 +29081,6 @@
             {
               "name": {
                 "some": "blocked_identity"
-              },
-              "algebraic_type": {
-                "Sum": {
-                  "variants": [
-                    {
-                      "name": {
-                        "some": "some"
-                      },
-                      "algebraic_type": {
-                        "Array": {
-                          "Ref": 344
-                        }
-                      }
-                    },
-                    {
-                      "name": {
-                        "some": "none"
-                      },
-                      "algebraic_type": {
-                        "Product": {
-                          "elements": []
-                        }
-                      }
-                    }
-                  ]
-                }
-              }
-            },
-            {
-              "name": {
-                "some": "building_nickname_state"
               },
               "algebraic_type": {
                 "Sum": {
@@ -29057,7 +29111,7 @@
             },
             {
               "name": {
-                "some": "building_state"
+                "some": "building_nickname_state"
               },
               "algebraic_type": {
                 "Sum": {
@@ -29088,7 +29142,7 @@
             },
             {
               "name": {
-                "some": "claim_lowercase_name_state"
+                "some": "building_state"
               },
               "algebraic_type": {
                 "Sum": {
@@ -29119,7 +29173,7 @@
             },
             {
               "name": {
-                "some": "claim_member_state"
+                "some": "claim_lowercase_name_state"
               },
               "algebraic_type": {
                 "Sum": {
@@ -29150,7 +29204,7 @@
             },
             {
               "name": {
-                "some": "claim_state"
+                "some": "claim_member_state"
               },
               "algebraic_type": {
                 "Sum": {
@@ -29181,7 +29235,7 @@
             },
             {
               "name": {
-                "some": "empire_chunk_state"
+                "some": "claim_state"
               },
               "algebraic_type": {
                 "Sum": {
@@ -29212,7 +29266,7 @@
             },
             {
               "name": {
-                "some": "empire_node_siege_state"
+                "some": "empire_chunk_state"
               },
               "algebraic_type": {
                 "Sum": {
@@ -29243,7 +29297,7 @@
             },
             {
               "name": {
-                "some": "empire_node_state"
+                "some": "empire_node_siege_state"
               },
               "algebraic_type": {
                 "Sum": {
@@ -29274,7 +29328,7 @@
             },
             {
               "name": {
-                "some": "empire_player_data_state"
+                "some": "empire_node_state"
               },
               "algebraic_type": {
                 "Sum": {
@@ -29305,7 +29359,7 @@
             },
             {
               "name": {
-                "some": "empire_rank_state"
+                "some": "empire_player_data_state"
               },
               "algebraic_type": {
                 "Sum": {
@@ -29336,7 +29390,7 @@
             },
             {
               "name": {
-                "some": "empire_settlement_state"
+                "some": "empire_rank_state"
               },
               "algebraic_type": {
                 "Sum": {
@@ -29367,7 +29421,7 @@
             },
             {
               "name": {
-                "some": "empire_state"
+                "some": "empire_settlement_state"
               },
               "algebraic_type": {
                 "Sum": {
@@ -29398,7 +29452,7 @@
             },
             {
               "name": {
-                "some": "identity_role"
+                "some": "empire_state"
               },
               "algebraic_type": {
                 "Sum": {
@@ -29429,7 +29483,7 @@
             },
             {
               "name": {
-                "some": "location_state"
+                "some": "identity_role"
               },
               "algebraic_type": {
                 "Sum": {
@@ -29460,7 +29514,7 @@
             },
             {
               "name": {
-                "some": "player_housing_state"
+                "some": "location_state"
               },
               "algebraic_type": {
                 "Sum": {
@@ -29491,6 +29545,37 @@
             },
             {
               "name": {
+                "some": "player_housing_state"
+              },
+              "algebraic_type": {
+                "Sum": {
+                  "variants": [
+                    {
+                      "name": {
+                        "some": "some"
+                      },
+                      "algebraic_type": {
+                        "Array": {
+                          "Ref": 360
+                        }
+                      }
+                    },
+                    {
+                      "name": {
+                        "some": "none"
+                      },
+                      "algebraic_type": {
+                        "Product": {
+                          "elements": []
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "name": {
                 "some": "player_report_state"
               },
               "algebraic_type": {
@@ -29502,7 +29587,7 @@
                       },
                       "algebraic_type": {
                         "Array": {
-                          "Ref": 361
+                          "Ref": 362
                         }
                       }
                     },
@@ -29533,7 +29618,7 @@
                       },
                       "algebraic_type": {
                         "Array": {
-                          "Ref": 363
+                          "Ref": 364
                         }
                       }
                     },
@@ -29564,7 +29649,7 @@
                       },
                       "algebraic_type": {
                         "Array": {
-                          "Ref": 364
+                          "Ref": 365
                         }
                       }
                     },
@@ -29595,7 +29680,7 @@
                       },
                       "algebraic_type": {
                         "Array": {
-                          "Ref": 434
+                          "Ref": 435
                         }
                       }
                     },
@@ -29626,7 +29711,7 @@
                       },
                       "algebraic_type": {
                         "Array": {
-                          "Ref": 366
+                          "Ref": 367
                         }
                       }
                     },
@@ -29657,7 +29742,7 @@
                       },
                       "algebraic_type": {
                         "Array": {
-                          "Ref": 368
+                          "Ref": 369
                         }
                       }
                     },
@@ -29688,7 +29773,7 @@
                       },
                       "algebraic_type": {
                         "Array": {
-                          "Ref": 369
+                          "Ref": 370
                         }
                       }
                     },
@@ -29719,7 +29804,7 @@
                       },
                       "algebraic_type": {
                         "Array": {
-                          "Ref": 371
+                          "Ref": 372
                         }
                       }
                     },
@@ -29750,7 +29835,7 @@
                       },
                       "algebraic_type": {
                         "Array": {
-                          "Ref": 372
+                          "Ref": 373
                         }
                       }
                     },
@@ -29899,7 +29984,7 @@
                 "some": "user_state"
               },
               "algebraic_type": {
-                "Ref": 332
+                "Ref": 333
               }
             },
             {
@@ -29907,7 +29992,7 @@
                 "some": "move_validation_strike_counter_state"
               },
               "algebraic_type": {
-                "Ref": 374
+                "Ref": 375
               }
             },
             {
@@ -29923,7 +30008,7 @@
                 "some": "stamina_state"
               },
               "algebraic_type": {
-                "Ref": 314
+                "Ref": 315
               }
             },
             {
@@ -30091,7 +30176,7 @@
                 "some": "knowledge_claim_state"
               },
               "algebraic_type": {
-                "Ref": 375
+                "Ref": 376
               }
             },
             {
@@ -30099,7 +30184,7 @@
                 "some": "knowledge_pillar_shaping_state"
               },
               "algebraic_type": {
-                "Ref": 377
+                "Ref": 378
               }
             },
             {
@@ -30143,7 +30228,7 @@
                 "some": "player_username_state"
               },
               "algebraic_type": {
-                "Ref": 378
+                "Ref": 379
               }
             },
             {
@@ -30190,7 +30275,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 379
+                  "Ref": 380
                 }
               }
             },
@@ -30227,7 +30312,7 @@
                 "some": "vault_state"
               },
               "algebraic_type": {
-                "Ref": 333
+                "Ref": 334
               }
             },
             {
@@ -30243,7 +30328,7 @@
                 "some": "satiation_state"
               },
               "algebraic_type": {
-                "Ref": 308
+                "Ref": 309
               }
             },
             {
@@ -30274,7 +30359,7 @@
                         "some": "some"
                       },
                       "algebraic_type": {
-                        "Ref": 380
+                        "Ref": 381
                       }
                     },
                     {
@@ -30296,7 +30381,7 @@
                 "some": "teleportation_energy_state"
               },
               "algebraic_type": {
-                "Ref": 381
+                "Ref": 382
               }
             },
             {
@@ -30311,7 +30396,7 @@
                         "some": "some"
                       },
                       "algebraic_type": {
-                        "Ref": 360
+                        "Ref": 361
                       }
                     },
                     {
@@ -30334,7 +30419,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 382
+                  "Ref": 383
                 }
               }
             },
@@ -30360,7 +30445,7 @@
                         "some": "some"
                       },
                       "algebraic_type": {
-                        "Ref": 383
+                        "Ref": 384
                       }
                     },
                     {
@@ -30383,7 +30468,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 384
+                  "Ref": 385
                 }
               }
             }
@@ -30414,7 +30499,7 @@
                 "some": "contents"
               },
               "algebraic_type": {
-                "Ref": 437
+                "Ref": 438
               }
             }
           ]
@@ -30428,7 +30513,7 @@
                 "some": "TableUpdate"
               },
               "algebraic_type": {
-                "Ref": 433
+                "Ref": 434
               }
             },
             {
@@ -30436,7 +30521,7 @@
                 "some": "TransferPlayerRequest"
               },
               "algebraic_type": {
-                "Ref": 438
+                "Ref": 439
               }
             },
             {
@@ -30444,7 +30529,7 @@
                 "some": "TransferPlayerHousingRequest"
               },
               "algebraic_type": {
-                "Ref": 385
+                "Ref": 386
               }
             },
             {
@@ -30452,7 +30537,7 @@
                 "some": "PlayerCreateRequest"
               },
               "algebraic_type": {
-                "Ref": 386
+                "Ref": 387
               }
             },
             {
@@ -30460,7 +30545,7 @@
                 "some": "UserUpdateRegionRequest"
               },
               "algebraic_type": {
-                "Ref": 387
+                "Ref": 388
               }
             },
             {
@@ -30468,7 +30553,7 @@
                 "some": "OnPlayerNameSetRequest"
               },
               "algebraic_type": {
-                "Ref": 388
+                "Ref": 389
               }
             },
             {
@@ -30476,7 +30561,7 @@
                 "some": "ClaimCreateEmpireSettlementState"
               },
               "algebraic_type": {
-                "Ref": 389
+                "Ref": 390
               }
             },
             {
@@ -30484,7 +30569,7 @@
                 "some": "OnClaimMembersChanged"
               },
               "algebraic_type": {
-                "Ref": 390
+                "Ref": 391
               }
             },
             {
@@ -30492,7 +30577,7 @@
                 "some": "EmpireCreateBuilding"
               },
               "algebraic_type": {
-                "Ref": 391
+                "Ref": 392
               }
             },
             {
@@ -30500,7 +30585,7 @@
                 "some": "OnEmpireBuildingDeleted"
               },
               "algebraic_type": {
-                "Ref": 392
+                "Ref": 393
               }
             },
             {
@@ -30508,7 +30593,7 @@
                 "some": "GlobalDeleteEmpireBuilding"
               },
               "algebraic_type": {
-                "Ref": 393
+                "Ref": 394
               }
             },
             {
@@ -30516,7 +30601,7 @@
                 "some": "DeleteEmpire"
               },
               "algebraic_type": {
-                "Ref": 394
+                "Ref": 395
               }
             },
             {
@@ -30524,7 +30609,7 @@
                 "some": "EmpireClaimJoin"
               },
               "algebraic_type": {
-                "Ref": 395
+                "Ref": 396
               }
             },
             {
@@ -30532,7 +30617,7 @@
                 "some": "EmpireResupplyNode"
               },
               "algebraic_type": {
-                "Ref": 396
+                "Ref": 397
               }
             },
             {
@@ -30540,7 +30625,7 @@
                 "some": "EmpireDonateItem"
               },
               "algebraic_type": {
-                "Ref": 397
+                "Ref": 398
               }
             },
             {
@@ -30548,7 +30633,7 @@
                 "some": "EmpireCreate"
               },
               "algebraic_type": {
-                "Ref": 398
+                "Ref": 399
               }
             },
             {
@@ -30556,7 +30641,7 @@
                 "some": "EmpireCollectHexiteCapsule"
               },
               "algebraic_type": {
-                "Ref": 399
+                "Ref": 400
               }
             },
             {
@@ -30564,7 +30649,7 @@
                 "some": "EmpireStartSiege"
               },
               "algebraic_type": {
-                "Ref": 400
+                "Ref": 401
               }
             },
             {
@@ -30572,7 +30657,7 @@
                 "some": "EmpireSiegeAddSupplies"
               },
               "algebraic_type": {
-                "Ref": 401
+                "Ref": 402
               }
             },
             {
@@ -30580,7 +30665,7 @@
                 "some": "OnPlayerJoinedEmpire"
               },
               "algebraic_type": {
-                "Ref": 402
+                "Ref": 403
               }
             },
             {
@@ -30588,7 +30673,7 @@
                 "some": "OnPlayerLeftEmpire"
               },
               "algebraic_type": {
-                "Ref": 403
+                "Ref": 404
               }
             },
             {
@@ -30596,7 +30681,7 @@
                 "some": "RegionDestroySiegeEngine"
               },
               "algebraic_type": {
-                "Ref": 404
+                "Ref": 405
               }
             },
             {
@@ -30604,7 +30689,7 @@
                 "some": "OnRegionPlayerCreated"
               },
               "algebraic_type": {
-                "Ref": 405
+                "Ref": 406
               }
             },
             {
@@ -30612,7 +30697,7 @@
                 "some": "EmpireQueueSupplies"
               },
               "algebraic_type": {
-                "Ref": 406
+                "Ref": 407
               }
             },
             {
@@ -30620,7 +30705,7 @@
                 "some": "EmpireUpdateEmperorCrown"
               },
               "algebraic_type": {
-                "Ref": 407
+                "Ref": 408
               }
             },
             {
@@ -30628,7 +30713,7 @@
                 "some": "EmpireRemoveCrown"
               },
               "algebraic_type": {
-                "Ref": 408
+                "Ref": 409
               }
             },
             {
@@ -30636,7 +30721,7 @@
                 "some": "EmpireAddCurrency"
               },
               "algebraic_type": {
-                "Ref": 409
+                "Ref": 410
               }
             },
             {
@@ -30644,7 +30729,7 @@
                 "some": "SignPlayerOut"
               },
               "algebraic_type": {
-                "Ref": 410
+                "Ref": 411
               }
             },
             {
@@ -30652,7 +30737,7 @@
                 "some": "AdminBroadcastMessage"
               },
               "algebraic_type": {
-                "Ref": 411
+                "Ref": 412
               }
             },
             {
@@ -30660,7 +30745,7 @@
                 "some": "PlayerSkipQueue"
               },
               "algebraic_type": {
-                "Ref": 412
+                "Ref": 413
               }
             },
             {
@@ -30668,7 +30753,7 @@
                 "some": "GrantHubItem"
               },
               "algebraic_type": {
-                "Ref": 413
+                "Ref": 414
               }
             },
             {
@@ -30676,7 +30761,7 @@
                 "some": "RecoverDeployable"
               },
               "algebraic_type": {
-                "Ref": 414
+                "Ref": 415
               }
             },
             {
@@ -30684,7 +30769,7 @@
                 "some": "OnDeployableRecovered"
               },
               "algebraic_type": {
-                "Ref": 430
+                "Ref": 431
               }
             },
             {
@@ -30692,7 +30777,7 @@
                 "some": "ReplaceIdentity"
               },
               "algebraic_type": {
-                "Ref": 416
+                "Ref": 417
               }
             },
             {
@@ -30700,7 +30785,7 @@
                 "some": "ClaimSetName"
               },
               "algebraic_type": {
-                "Ref": 417
+                "Ref": 418
               }
             },
             {
@@ -30708,7 +30793,7 @@
                 "some": "RestoreSkills"
               },
               "algebraic_type": {
-                "Ref": 418
+                "Ref": 419
               }
             },
             {
@@ -30716,7 +30801,7 @@
                 "some": "NpcPlaceWatchtowers"
               },
               "algebraic_type": {
-                "Ref": 419
+                "Ref": 420
               }
             },
             {
@@ -30724,7 +30809,7 @@
                 "some": "EmpireWithdrawItem"
               },
               "algebraic_type": {
-                "Ref": 426
+                "Ref": 427
               }
             }
           ]
@@ -30836,7 +30921,7 @@
                 "some": "user_state"
               },
               "algebraic_type": {
-                "Ref": 332
+                "Ref": 333
               }
             },
             {
@@ -30844,7 +30929,7 @@
                 "some": "move_validation_strike_counter_state"
               },
               "algebraic_type": {
-                "Ref": 374
+                "Ref": 375
               }
             },
             {
@@ -30860,7 +30945,7 @@
                 "some": "stamina_state"
               },
               "algebraic_type": {
-                "Ref": 314
+                "Ref": 315
               }
             },
             {
@@ -31028,7 +31113,7 @@
                 "some": "knowledge_claim_state"
               },
               "algebraic_type": {
-                "Ref": 375
+                "Ref": 376
               }
             },
             {
@@ -31036,7 +31121,7 @@
                 "some": "knowledge_pillar_shaping_state"
               },
               "algebraic_type": {
-                "Ref": 377
+                "Ref": 378
               }
             },
             {
@@ -31080,7 +31165,7 @@
                 "some": "player_username_state"
               },
               "algebraic_type": {
-                "Ref": 378
+                "Ref": 379
               }
             },
             {
@@ -31127,7 +31212,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 379
+                  "Ref": 380
                 }
               }
             },
@@ -31164,7 +31249,7 @@
                 "some": "vault_state"
               },
               "algebraic_type": {
-                "Ref": 333
+                "Ref": 334
               }
             },
             {
@@ -31180,7 +31265,7 @@
                 "some": "satiation_state"
               },
               "algebraic_type": {
-                "Ref": 308
+                "Ref": 309
               }
             },
             {
@@ -31211,7 +31296,7 @@
                         "some": "some"
                       },
                       "algebraic_type": {
-                        "Ref": 380
+                        "Ref": 381
                       }
                     },
                     {
@@ -31233,7 +31318,7 @@
                 "some": "teleportation_energy_state"
               },
               "algebraic_type": {
-                "Ref": 381
+                "Ref": 382
               }
             },
             {
@@ -31248,7 +31333,7 @@
                         "some": "some"
                       },
                       "algebraic_type": {
-                        "Ref": 360
+                        "Ref": 361
                       }
                     },
                     {
@@ -31271,7 +31356,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 382
+                  "Ref": 383
                 }
               }
             },
@@ -31281,7 +31366,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 439
+                  "Ref": 440
                 }
               }
             },
@@ -31307,7 +31392,7 @@
                         "some": "some"
                       },
                       "algebraic_type": {
-                        "Ref": 383
+                        "Ref": 384
                       }
                     },
                     {
@@ -31330,7 +31415,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 384
+                  "Ref": 385
                 }
               }
             }
@@ -32304,7 +32389,7 @@
                 "some": "status"
               },
               "algebraic_type": {
-                "Ref": 461
+                "Ref": 462
               }
             },
             {
@@ -32778,7 +32863,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 468
+                  "Ref": 469
                 }
               }
             },
@@ -32803,7 +32888,7 @@
                       },
                       "algebraic_type": {
                         "Array": {
-                          "Ref": 469
+                          "Ref": 470
                         }
                       }
                     },
@@ -33066,7 +33151,7 @@
                       },
                       "algebraic_type": {
                         "Array": {
-                          "Ref": 469
+                          "Ref": 470
                         }
                       }
                     },
@@ -33650,7 +33735,7 @@
                 "some": "severity"
               },
               "algebraic_type": {
-                "Ref": 480
+                "Ref": 481
               }
             }
           ]
@@ -34595,7 +34680,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 496
+                  "Ref": 497
                 }
               }
             },
@@ -34605,7 +34690,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 498
+                  "Ref": 499
                 }
               }
             },
@@ -34615,7 +34700,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 498
+                  "Ref": 499
                 }
               }
             },
@@ -34646,7 +34731,7 @@
                 "some": "PaddingNone"
               },
               "algebraic_type": {
-                "Ref": 497
+                "Ref": 498
               }
             },
             {
@@ -34746,7 +34831,7 @@
                 "some": "PaddingNone"
               },
               "algebraic_type": {
-                "Ref": 497
+                "Ref": 498
               }
             },
             {
@@ -34887,7 +34972,7 @@
               },
               "algebraic_type": {
                 "Array": {
-                  "Ref": 501
+                  "Ref": 502
                 }
               }
             }
@@ -34902,7 +34987,7 @@
                 "some": "PaddingNone"
               },
               "algebraic_type": {
-                "Ref": 497
+                "Ref": 498
               }
             },
             {
@@ -34910,7 +34995,7 @@
                 "some": "ItemStack"
               },
               "algebraic_type": {
-                "Ref": 502
+                "Ref": 503
               }
             },
             {
@@ -35268,7 +35353,7 @@
                 "some": "subject_type"
               },
               "algebraic_type": {
-                "Ref": 514
+                "Ref": 515
               }
             },
             {
@@ -35276,7 +35361,7 @@
                 "some": "data"
               },
               "algebraic_type": {
-                "Ref": 515
+                "Ref": 516
               }
             },
             {
@@ -35333,7 +35418,7 @@
                 "some": "Reserved"
               },
               "algebraic_type": {
-                "Ref": 516
+                "Ref": 517
               }
             },
             {
@@ -35447,7 +35532,7 @@
                 "some": "placeholder_skill_type"
               },
               "algebraic_type": {
-                "Ref": 519
+                "Ref": 520
               }
             },
             {
@@ -35455,7 +35540,7 @@
                 "some": "placeholder_buff_category"
               },
               "algebraic_type": {
-                "Ref": 520
+                "Ref": 521
               }
             },
             {
@@ -35463,7 +35548,7 @@
                 "some": "placeholder"
               },
               "algebraic_type": {
-                "Ref": 521
+                "Ref": 522
               }
             },
             {
@@ -35487,7 +35572,7 @@
                 "some": "permission"
               },
               "algebraic_type": {
-                "Ref": 522
+                "Ref": 523
               }
             },
             {
@@ -35495,7 +35580,7 @@
                 "some": "permission_group"
               },
               "algebraic_type": {
-                "Ref": 523
+                "Ref": 524
               }
             },
             {
@@ -35503,7 +35588,7 @@
                 "some": "ability_type"
               },
               "algebraic_type": {
-                "Ref": 524
+                "Ref": 525
               }
             }
           ]
@@ -36403,7 +36488,7 @@
                 "some": "user_moderation_policy"
               },
               "algebraic_type": {
-                "Ref": 331
+                "Ref": 332
               }
             },
             {
@@ -36523,7 +36608,7 @@
                 "some": "visibility"
               },
               "algebraic_type": {
-                "Ref": 506
+                "Ref": 507
               }
             }
           ]
@@ -45006,7 +45091,7 @@
     },
     {
       "name": "inter_module_message",
-      "product_type_ref": 341,
+      "product_type_ref": 342,
       "primary_key": [
         0
       ],
@@ -45069,7 +45154,7 @@
     },
     {
       "name": "inter_module_message_counter",
-      "product_type_ref": 421,
+      "product_type_ref": 422,
       "primary_key": [
         0
       ],
@@ -45115,7 +45200,7 @@
     },
     {
       "name": "inter_module_message_errors",
-      "product_type_ref": 422,
+      "product_type_ref": 423,
       "primary_key": [
         0
       ],
@@ -45175,7 +45260,7 @@
     },
     {
       "name": "inter_module_message_v2",
-      "product_type_ref": 423,
+      "product_type_ref": 424,
       "primary_key": [
         0
       ],
@@ -45238,7 +45323,7 @@
     },
     {
       "name": "inter_module_message_v3",
-      "product_type_ref": 427,
+      "product_type_ref": 428,
       "primary_key": [
         0
       ],
@@ -45301,7 +45386,7 @@
     },
     {
       "name": "inter_module_message_v4",
-      "product_type_ref": 431,
+      "product_type_ref": 432,
       "primary_key": [
         0
       ],
@@ -45364,7 +45449,7 @@
     },
     {
       "name": "inter_module_message_v5",
-      "product_type_ref": 436,
+      "product_type_ref": 437,
       "primary_key": [
         0
       ],
@@ -45427,7 +45512,7 @@
     },
     {
       "name": "inter_module_response_message_counter",
-      "product_type_ref": 440,
+      "product_type_ref": 441,
       "primary_key": [
         0
       ],
@@ -45519,7 +45604,7 @@
     },
     {
       "name": "interior_environment_desc",
-      "product_type_ref": 441,
+      "product_type_ref": 442,
       "primary_key": [
         0
       ],
@@ -45657,7 +45742,7 @@
     },
     {
       "name": "interior_player_count_state",
-      "product_type_ref": 442,
+      "product_type_ref": 443,
       "primary_key": [
         0
       ],
@@ -46312,7 +46397,7 @@
     },
     {
       "name": "knowledge_claim_state",
-      "product_type_ref": 375,
+      "product_type_ref": 376,
       "primary_key": [
         0
       ],
@@ -46772,7 +46857,7 @@
     },
     {
       "name": "knowledge_pillar_shaping_state",
-      "product_type_ref": 377,
+      "product_type_ref": 378,
       "primary_key": [
         0
       ],
@@ -47199,7 +47284,7 @@
     },
     {
       "name": "light_source_state",
-      "product_type_ref": 443,
+      "product_type_ref": 444,
       "primary_key": [
         0
       ],
@@ -47503,7 +47588,7 @@
     },
     {
       "name": "lost_items_state",
-      "product_type_ref": 444,
+      "product_type_ref": 445,
       "primary_key": [
         0
       ],
@@ -47562,7 +47647,7 @@
     },
     {
       "name": "marketplace_state",
-      "product_type_ref": 445,
+      "product_type_ref": 446,
       "primary_key": [
         0
       ],
@@ -47621,7 +47706,7 @@
     },
     {
       "name": "minimum_client_version",
-      "product_type_ref": 446,
+      "product_type_ref": 447,
       "primary_key": [
         0
       ],
@@ -47769,7 +47854,7 @@
     },
     {
       "name": "mod_consequence_state",
-      "product_type_ref": 447,
+      "product_type_ref": 448,
       "primary_key": [
         0
       ],
@@ -47832,7 +47917,7 @@
     },
     {
       "name": "mod_enforcement_config_state",
-      "product_type_ref": 448,
+      "product_type_ref": 449,
       "primary_key": [
         0
       ],
@@ -47878,7 +47963,7 @@
     },
     {
       "name": "mod_flag_level_threshold_state",
-      "product_type_ref": 449,
+      "product_type_ref": 450,
       "primary_key": [
         0
       ],
@@ -47924,7 +48009,7 @@
     },
     {
       "name": "mod_flagged_word_state",
-      "product_type_ref": 450,
+      "product_type_ref": 451,
       "primary_key": [
         0
       ],
@@ -48000,7 +48085,7 @@
     },
     {
       "name": "mod_replacement_text_state",
-      "product_type_ref": 451,
+      "product_type_ref": 452,
       "primary_key": [
         0
       ],
@@ -48046,7 +48131,7 @@
     },
     {
       "name": "mod_report_config_state",
-      "product_type_ref": 452,
+      "product_type_ref": 453,
       "primary_key": [
         0
       ],
@@ -48092,7 +48177,7 @@
     },
     {
       "name": "mod_threshold_state",
-      "product_type_ref": 453,
+      "product_type_ref": 454,
       "primary_key": [
         0
       ],
@@ -48168,7 +48253,7 @@
     },
     {
       "name": "mod_violation_state",
-      "product_type_ref": 454,
+      "product_type_ref": 455,
       "primary_key": [
         0
       ],
@@ -48214,7 +48299,7 @@
     },
     {
       "name": "mod_word_replacement_state",
-      "product_type_ref": 455,
+      "product_type_ref": 456,
       "primary_key": [
         0
       ],
@@ -48277,7 +48362,7 @@
     },
     {
       "name": "moderation_action_log_entry",
-      "product_type_ref": 456,
+      "product_type_ref": 457,
       "primary_key": [
         0
       ],
@@ -48408,7 +48493,7 @@
     },
     {
       "name": "move_validation_strike_counter_state",
-      "product_type_ref": 374,
+      "product_type_ref": 375,
       "primary_key": [
         0
       ],
@@ -48559,7 +48644,7 @@
     },
     {
       "name": "official_translators",
-      "product_type_ref": 457,
+      "product_type_ref": 458,
       "primary_key": [],
       "indexes": [
         {
@@ -48728,7 +48813,7 @@
     },
     {
       "name": "parameters_player_move_desc",
-      "product_type_ref": 458,
+      "product_type_ref": 459,
       "primary_key": [
         0
       ],
@@ -48774,7 +48859,7 @@
     },
     {
       "name": "partial_experience_state",
-      "product_type_ref": 459,
+      "product_type_ref": 460,
       "primary_key": [
         0
       ],
@@ -48820,7 +48905,7 @@
     },
     {
       "name": "passive_craft_state",
-      "product_type_ref": 460,
+      "product_type_ref": 461,
       "primary_key": [
         0
       ],
@@ -49123,7 +49208,7 @@
     },
     {
       "name": "permission_state",
-      "product_type_ref": 462,
+      "product_type_ref": 463,
       "primary_key": [
         0
       ],
@@ -49209,7 +49294,7 @@
     },
     {
       "name": "pillar_shaping_desc",
-      "product_type_ref": 463,
+      "product_type_ref": 464,
       "primary_key": [
         0
       ],
@@ -49348,7 +49433,7 @@
     },
     {
       "name": "pillar_shaping_state",
-      "product_type_ref": 464,
+      "product_type_ref": 465,
       "primary_key": [
         0
       ],
@@ -49394,7 +49479,7 @@
     },
     {
       "name": "placeable_desc",
-      "product_type_ref": 465,
+      "product_type_ref": 466,
       "primary_key": [
         0
       ],
@@ -49440,7 +49525,7 @@
     },
     {
       "name": "placeable_group_desc",
-      "product_type_ref": 466,
+      "product_type_ref": 467,
       "primary_key": [
         0
       ],
@@ -49486,7 +49571,7 @@
     },
     {
       "name": "placeable_growth_desc",
-      "product_type_ref": 467,
+      "product_type_ref": 468,
       "primary_key": [
         0
       ],
@@ -49557,7 +49642,7 @@
     },
     {
       "name": "placeable_interaction_desc",
-      "product_type_ref": 470,
+      "product_type_ref": 471,
       "primary_key": [
         0
       ],
@@ -49616,7 +49701,7 @@
     },
     {
       "name": "placeable_placement_desc",
-      "product_type_ref": 471,
+      "product_type_ref": 472,
       "primary_key": [
         0
       ],
@@ -49662,7 +49747,7 @@
     },
     {
       "name": "placeable_state",
-      "product_type_ref": 472,
+      "product_type_ref": 473,
       "primary_key": [
         0
       ],
@@ -49869,7 +49954,7 @@
     },
     {
       "name": "player_developer_notification_state",
-      "product_type_ref": 473,
+      "product_type_ref": 474,
       "primary_key": [
         0
       ],
@@ -49915,7 +50000,7 @@
     },
     {
       "name": "player_housing_customization_state",
-      "product_type_ref": 474,
+      "product_type_ref": 475,
       "primary_key": [
         0
       ],
@@ -49961,7 +50046,7 @@
     },
     {
       "name": "player_housing_desc",
-      "product_type_ref": 475,
+      "product_type_ref": 476,
       "primary_key": [
         0
       ],
@@ -50007,7 +50092,7 @@
     },
     {
       "name": "player_housing_moving_cost_state",
-      "product_type_ref": 476,
+      "product_type_ref": 477,
       "primary_key": [
         0
       ],
@@ -50053,7 +50138,7 @@
     },
     {
       "name": "player_housing_state",
-      "product_type_ref": 360,
+      "product_type_ref": 361,
       "primary_key": [
         0
       ],
@@ -50137,7 +50222,7 @@
     },
     {
       "name": "player_lowercase_username_state",
-      "product_type_ref": 477,
+      "product_type_ref": 478,
       "primary_key": [
         0
       ],
@@ -50208,7 +50293,7 @@
     },
     {
       "name": "player_note_state",
-      "product_type_ref": 478,
+      "product_type_ref": 479,
       "primary_key": [
         0
       ],
@@ -50254,7 +50339,7 @@
     },
     {
       "name": "player_notification_event",
-      "product_type_ref": 479,
+      "product_type_ref": 480,
       "primary_key": [
         0
       ],
@@ -50369,7 +50454,7 @@
     },
     {
       "name": "player_queue_state",
-      "product_type_ref": 481,
+      "product_type_ref": 482,
       "primary_key": [
         0
       ],
@@ -50457,7 +50542,7 @@
     },
     {
       "name": "player_report_state",
-      "product_type_ref": 362,
+      "product_type_ref": 363,
       "primary_key": [
         0
       ],
@@ -50503,7 +50588,7 @@
     },
     {
       "name": "player_report_state_timestamp",
-      "product_type_ref": 482,
+      "product_type_ref": 483,
       "primary_key": [
         0
       ],
@@ -50549,7 +50634,7 @@
     },
     {
       "name": "player_settings_state",
-      "product_type_ref": 383,
+      "product_type_ref": 384,
       "primary_key": [
         0
       ],
@@ -50595,7 +50680,7 @@
     },
     {
       "name": "player_shard_state",
-      "product_type_ref": 484,
+      "product_type_ref": 485,
       "primary_key": [
         0
       ],
@@ -50687,7 +50772,7 @@
     },
     {
       "name": "player_timestamp_state",
-      "product_type_ref": 485,
+      "product_type_ref": 486,
       "primary_key": [
         0
       ],
@@ -50733,7 +50818,7 @@
     },
     {
       "name": "player_username_state",
-      "product_type_ref": 378,
+      "product_type_ref": 379,
       "primary_key": [
         0
       ],
@@ -50804,7 +50889,7 @@
     },
     {
       "name": "player_vote_conclude_timer",
-      "product_type_ref": 487,
+      "product_type_ref": 488,
       "primary_key": [
         0
       ],
@@ -51037,7 +51122,7 @@
     },
     {
       "name": "premium_purchase_state",
-      "product_type_ref": 488,
+      "product_type_ref": 489,
       "primary_key": [
         0
       ],
@@ -51146,7 +51231,7 @@
     },
     {
       "name": "previous_empire_name_state",
-      "product_type_ref": 489,
+      "product_type_ref": 490,
       "primary_key": [
         0
       ],
@@ -51242,7 +51327,7 @@
     },
     {
       "name": "previous_player_skills_state",
-      "product_type_ref": 490,
+      "product_type_ref": 491,
       "primary_key": [
         0
       ],
@@ -51288,7 +51373,7 @@
     },
     {
       "name": "previous_player_username_state",
-      "product_type_ref": 491,
+      "product_type_ref": 492,
       "primary_key": [],
       "indexes": [
         {
@@ -51559,7 +51644,7 @@
     },
     {
       "name": "prospecting_desc",
-      "product_type_ref": 492,
+      "product_type_ref": 493,
       "primary_key": [
         0
       ],
@@ -51605,7 +51690,7 @@
     },
     {
       "name": "prospecting_state",
-      "product_type_ref": 493,
+      "product_type_ref": 494,
       "primary_key": [
         0
       ],
@@ -51664,7 +51749,7 @@
     },
     {
       "name": "public_progressive_action_state",
-      "product_type_ref": 494,
+      "product_type_ref": 495,
       "primary_key": [
         0
       ],
@@ -51723,7 +51808,7 @@
     },
     {
       "name": "quest_chain_desc",
-      "product_type_ref": 495,
+      "product_type_ref": 496,
       "primary_key": [
         0
       ],
@@ -51769,7 +51854,7 @@
     },
     {
       "name": "quest_chain_state",
-      "product_type_ref": 384,
+      "product_type_ref": 385,
       "primary_key": [
         0
       ],
@@ -51828,7 +51913,7 @@
     },
     {
       "name": "quest_drop_desc",
-      "product_type_ref": 499,
+      "product_type_ref": 500,
       "primary_key": [
         0
       ],
@@ -51913,7 +51998,7 @@
     },
     {
       "name": "quest_stage_desc",
-      "product_type_ref": 500,
+      "product_type_ref": 501,
       "primary_key": [
         0
       ],
@@ -52005,7 +52090,7 @@
     },
     {
       "name": "region_control_info",
-      "product_type_ref": 365,
+      "product_type_ref": 366,
       "primary_key": [
         0
       ],
@@ -52097,7 +52182,7 @@
     },
     {
       "name": "region_population_info",
-      "product_type_ref": 367,
+      "product_type_ref": 368,
       "primary_key": [
         0
       ],
@@ -52273,7 +52358,7 @@
     },
     {
       "name": "reserved_name_desc",
-      "product_type_ref": 503,
+      "product_type_ref": 504,
       "primary_key": [
         0
       ],
@@ -52457,7 +52542,7 @@
     },
     {
       "name": "resource_growth_recipe_desc",
-      "product_type_ref": 305,
+      "product_type_ref": 306,
       "primary_key": [
         0
       ],
@@ -52516,7 +52601,7 @@
     },
     {
       "name": "resource_health_state",
-      "product_type_ref": 504,
+      "product_type_ref": 505,
       "primary_key": [
         0
       ],
@@ -52562,7 +52647,7 @@
     },
     {
       "name": "resource_placement_recipe_desc",
-      "product_type_ref": 306,
+      "product_type_ref": 307,
       "primary_key": [
         0
       ],
@@ -52701,7 +52786,7 @@
     },
     {
       "name": "resource_state",
-      "product_type_ref": 307,
+      "product_type_ref": 308,
       "primary_key": [
         0
       ],
@@ -52760,7 +52845,7 @@
     },
     {
       "name": "rez_sick_long_term_state",
-      "product_type_ref": 505,
+      "product_type_ref": 506,
       "primary_key": [
         0
       ],
@@ -52806,7 +52891,7 @@
     },
     {
       "name": "satiation_state",
-      "product_type_ref": 308,
+      "product_type_ref": 309,
       "primary_key": [
         0
       ],
@@ -52852,7 +52937,7 @@
     },
     {
       "name": "secondary_knowledge_desc",
-      "product_type_ref": 309,
+      "product_type_ref": 310,
       "primary_key": [
         0
       ],
@@ -52986,7 +53071,7 @@
     },
     {
       "name": "server_identity",
-      "product_type_ref": 310,
+      "product_type_ref": 311,
       "primary_key": [
         0
       ],
@@ -53032,7 +53117,7 @@
     },
     {
       "name": "signed_in_player_state",
-      "product_type_ref": 311,
+      "product_type_ref": 312,
       "primary_key": [
         0
       ],
@@ -53078,7 +53163,7 @@
     },
     {
       "name": "single_resource_to_clump_desc",
-      "product_type_ref": 508,
+      "product_type_ref": 509,
       "primary_key": [
         0
       ],
@@ -53149,7 +53234,7 @@
     },
     {
       "name": "skill_desc",
-      "product_type_ref": 312,
+      "product_type_ref": 313,
       "primary_key": [
         0
       ],
@@ -53220,7 +53305,7 @@
     },
     {
       "name": "skill_level_knowledge_desc",
-      "product_type_ref": 509,
+      "product_type_ref": 510,
       "primary_key": [
         0
       ],
@@ -53293,7 +53378,7 @@
     },
     {
       "name": "stage_rewards_desc",
-      "product_type_ref": 510,
+      "product_type_ref": 511,
       "primary_key": [
         0
       ],
@@ -55723,7 +55808,7 @@
     },
     {
       "name": "staged_interior_environment_desc",
-      "product_type_ref": 441,
+      "product_type_ref": 442,
       "primary_key": [
         0
       ],
@@ -56643,7 +56728,7 @@
     },
     {
       "name": "staged_pillar_shaping_desc",
-      "product_type_ref": 463,
+      "product_type_ref": 464,
       "primary_key": [
         0
       ],
@@ -56689,7 +56774,7 @@
     },
     {
       "name": "staged_placeable_desc",
-      "product_type_ref": 465,
+      "product_type_ref": 466,
       "primary_key": [
         0
       ],
@@ -56735,7 +56820,7 @@
     },
     {
       "name": "staged_placeable_group_desc",
-      "product_type_ref": 466,
+      "product_type_ref": 467,
       "primary_key": [
         0
       ],
@@ -56781,7 +56866,7 @@
     },
     {
       "name": "staged_placeable_growth_desc",
-      "product_type_ref": 467,
+      "product_type_ref": 468,
       "primary_key": [
         0
       ],
@@ -56852,7 +56937,7 @@
     },
     {
       "name": "staged_placeable_interaction_desc",
-      "product_type_ref": 470,
+      "product_type_ref": 471,
       "primary_key": [
         0
       ],
@@ -56898,7 +56983,7 @@
     },
     {
       "name": "staged_placeable_placement_desc",
-      "product_type_ref": 471,
+      "product_type_ref": 472,
       "primary_key": [
         0
       ],
@@ -56990,7 +57075,7 @@
     },
     {
       "name": "staged_player_housing_desc",
-      "product_type_ref": 475,
+      "product_type_ref": 476,
       "primary_key": [
         0
       ],
@@ -57174,7 +57259,7 @@
     },
     {
       "name": "staged_prospecting_desc",
-      "product_type_ref": 492,
+      "product_type_ref": 493,
       "primary_key": [
         0
       ],
@@ -57220,7 +57305,7 @@
     },
     {
       "name": "staged_quest_chain_desc",
-      "product_type_ref": 495,
+      "product_type_ref": 496,
       "primary_key": [
         0
       ],
@@ -57266,7 +57351,7 @@
     },
     {
       "name": "staged_quest_drop_desc",
-      "product_type_ref": 499,
+      "product_type_ref": 500,
       "primary_key": [
         0
       ],
@@ -57312,7 +57397,7 @@
     },
     {
       "name": "staged_quest_stage_desc",
-      "product_type_ref": 500,
+      "product_type_ref": 501,
       "primary_key": [
         0
       ],
@@ -57358,7 +57443,7 @@
     },
     {
       "name": "staged_reserved_name_desc",
-      "product_type_ref": 503,
+      "product_type_ref": 504,
       "primary_key": [
         0
       ],
@@ -57496,7 +57581,7 @@
     },
     {
       "name": "staged_resource_growth_recipe_desc",
-      "product_type_ref": 305,
+      "product_type_ref": 306,
       "primary_key": [
         0
       ],
@@ -57542,7 +57627,7 @@
     },
     {
       "name": "staged_resource_placement_recipe_desc",
-      "product_type_ref": 306,
+      "product_type_ref": 307,
       "primary_key": [
         0
       ],
@@ -57588,7 +57673,7 @@
     },
     {
       "name": "staged_secondary_knowledge_desc",
-      "product_type_ref": 309,
+      "product_type_ref": 310,
       "primary_key": [
         0
       ],
@@ -57634,7 +57719,7 @@
     },
     {
       "name": "staged_skill_desc",
-      "product_type_ref": 312,
+      "product_type_ref": 313,
       "primary_key": [
         0
       ],
@@ -57705,7 +57790,7 @@
     },
     {
       "name": "staged_skill_level_knowledge_desc",
-      "product_type_ref": 509,
+      "product_type_ref": 510,
       "primary_key": [
         0
       ],
@@ -57751,7 +57836,7 @@
     },
     {
       "name": "staged_stage_rewards_desc",
-      "product_type_ref": 510,
+      "product_type_ref": 511,
       "primary_key": [
         0
       ],
@@ -57797,7 +57882,7 @@
     },
     {
       "name": "staged_targeting_matrix_desc",
-      "product_type_ref": 317,
+      "product_type_ref": 318,
       "primary_key": [
         0
       ],
@@ -57843,7 +57928,7 @@
     },
     {
       "name": "staged_teleport_item_desc",
-      "product_type_ref": 318,
+      "product_type_ref": 319,
       "primary_key": [
         0
       ],
@@ -57889,7 +57974,7 @@
     },
     {
       "name": "staged_terraform_recipe_desc",
-      "product_type_ref": 319,
+      "product_type_ref": 320,
       "primary_key": [
         0
       ],
@@ -57935,7 +58020,7 @@
     },
     {
       "name": "staged_tool_desc",
-      "product_type_ref": 321,
+      "product_type_ref": 322,
       "primary_key": [
         0
       ],
@@ -57981,7 +58066,7 @@
     },
     {
       "name": "staged_tool_type_desc",
-      "product_type_ref": 322,
+      "product_type_ref": 323,
       "primary_key": [
         0
       ],
@@ -58052,7 +58137,7 @@
     },
     {
       "name": "staged_traveler_task_desc",
-      "product_type_ref": 327,
+      "product_type_ref": 328,
       "primary_key": [
         0
       ],
@@ -58098,7 +58183,7 @@
     },
     {
       "name": "staged_traveler_task_knowledge_requirement_desc",
-      "product_type_ref": 511,
+      "product_type_ref": 512,
       "primary_key": [
         0
       ],
@@ -58144,7 +58229,7 @@
     },
     {
       "name": "staged_traveler_trade_order_desc",
-      "product_type_ref": 329,
+      "product_type_ref": 330,
       "primary_key": [
         0
       ],
@@ -58190,7 +58275,7 @@
     },
     {
       "name": "staged_wall_desc",
-      "product_type_ref": 335,
+      "product_type_ref": 336,
       "primary_key": [
         0
       ],
@@ -58236,7 +58321,7 @@
     },
     {
       "name": "staged_weapon_desc",
-      "product_type_ref": 336,
+      "product_type_ref": 337,
       "primary_key": [
         0
       ],
@@ -58282,7 +58367,7 @@
     },
     {
       "name": "staged_weapon_type_desc",
-      "product_type_ref": 337,
+      "product_type_ref": 338,
       "primary_key": [
         0
       ],
@@ -58328,7 +58413,7 @@
     },
     {
       "name": "staged_wind_params_desc",
-      "product_type_ref": 338,
+      "product_type_ref": 339,
       "primary_key": [
         0
       ],
@@ -58374,7 +58459,7 @@
     },
     {
       "name": "stamina_state",
-      "product_type_ref": 314,
+      "product_type_ref": 315,
       "primary_key": [
         0
       ],
@@ -58420,7 +58505,7 @@
     },
     {
       "name": "starving_player_state",
-      "product_type_ref": 512,
+      "product_type_ref": 513,
       "primary_key": [
         0
       ],
@@ -58466,7 +58551,7 @@
     },
     {
       "name": "storage_log_state",
-      "product_type_ref": 513,
+      "product_type_ref": 514,
       "primary_key": [
         0
       ],
@@ -58555,7 +58640,7 @@
     },
     {
       "name": "target_state",
-      "product_type_ref": 315,
+      "product_type_ref": 316,
       "primary_key": [
         0
       ],
@@ -58614,7 +58699,7 @@
     },
     {
       "name": "targetable_state",
-      "product_type_ref": 316,
+      "product_type_ref": 317,
       "primary_key": [
         0
       ],
@@ -58660,7 +58745,7 @@
     },
     {
       "name": "targeting_matrix_desc",
-      "product_type_ref": 317,
+      "product_type_ref": 318,
       "primary_key": [
         0
       ],
@@ -58706,7 +58791,7 @@
     },
     {
       "name": "teleport_item_desc",
-      "product_type_ref": 318,
+      "product_type_ref": 319,
       "primary_key": [
         0
       ],
@@ -58752,7 +58837,7 @@
     },
     {
       "name": "teleportation_energy_state",
-      "product_type_ref": 381,
+      "product_type_ref": 382,
       "primary_key": [
         0
       ],
@@ -58798,7 +58883,7 @@
     },
     {
       "name": "terraform_progress_state",
-      "product_type_ref": 517,
+      "product_type_ref": 518,
       "primary_key": [
         0
       ],
@@ -58844,7 +58929,7 @@
     },
     {
       "name": "terraform_recipe_desc",
-      "product_type_ref": 319,
+      "product_type_ref": 320,
       "primary_key": [
         0
       ],
@@ -58890,7 +58975,7 @@
     },
     {
       "name": "terrain_chunk_state",
-      "product_type_ref": 320,
+      "product_type_ref": 321,
       "primary_key": [
         0
       ],
@@ -58949,7 +59034,7 @@
     },
     {
       "name": "the_great_placeholder_table",
-      "product_type_ref": 518,
+      "product_type_ref": 519,
       "primary_key": [
         0
       ],
@@ -58995,7 +59080,7 @@
     },
     {
       "name": "threat_state",
-      "product_type_ref": 525,
+      "product_type_ref": 526,
       "primary_key": [
         0
       ],
@@ -59067,7 +59152,7 @@
     },
     {
       "name": "tool_desc",
-      "product_type_ref": 321,
+      "product_type_ref": 322,
       "primary_key": [
         0
       ],
@@ -59126,7 +59211,7 @@
     },
     {
       "name": "tool_type_desc",
-      "product_type_ref": 322,
+      "product_type_ref": 323,
       "primary_key": [
         0
       ],
@@ -59197,7 +59282,7 @@
     },
     {
       "name": "toolbar_state",
-      "product_type_ref": 379,
+      "product_type_ref": 380,
       "primary_key": [
         0
       ],
@@ -59256,7 +59341,7 @@
     },
     {
       "name": "trade_order_state",
-      "product_type_ref": 323,
+      "product_type_ref": 324,
       "primary_key": [
         0
       ],
@@ -59315,7 +59400,7 @@
     },
     {
       "name": "trade_session_state",
-      "product_type_ref": 324,
+      "product_type_ref": 325,
       "primary_key": [
         0
       ],
@@ -59387,7 +59472,7 @@
     },
     {
       "name": "translation_corrections",
-      "product_type_ref": 526,
+      "product_type_ref": 527,
       "primary_key": [
         0
       ],
@@ -59476,7 +59561,7 @@
     },
     {
       "name": "traveler_task_credit_state",
-      "product_type_ref": 439,
+      "product_type_ref": 440,
       "primary_key": [
         0
       ],
@@ -59549,7 +59634,7 @@
     },
     {
       "name": "traveler_task_desc",
-      "product_type_ref": 327,
+      "product_type_ref": 328,
       "primary_key": [
         0
       ],
@@ -59595,7 +59680,7 @@
     },
     {
       "name": "traveler_task_knowledge_requirement_desc",
-      "product_type_ref": 511,
+      "product_type_ref": 512,
       "primary_key": [
         0
       ],
@@ -59641,7 +59726,7 @@
     },
     {
       "name": "traveler_task_state",
-      "product_type_ref": 382,
+      "product_type_ref": 383,
       "primary_key": [
         0
       ],
@@ -59714,7 +59799,7 @@
     },
     {
       "name": "traveler_trade_order_desc",
-      "product_type_ref": 329,
+      "product_type_ref": 330,
       "primary_key": [
         0
       ],
@@ -59760,7 +59845,7 @@
     },
     {
       "name": "unclaimed_collectibles_state",
-      "product_type_ref": 380,
+      "product_type_ref": 381,
       "primary_key": [
         0
       ],
@@ -59806,7 +59891,7 @@
     },
     {
       "name": "unclaimed_shards_state",
-      "product_type_ref": 527,
+      "product_type_ref": 528,
       "primary_key": [
         0
       ],
@@ -59852,7 +59937,7 @@
     },
     {
       "name": "user_authentication_state",
-      "product_type_ref": 370,
+      "product_type_ref": 371,
       "primary_key": [
         0
       ],
@@ -59898,7 +59983,7 @@
     },
     {
       "name": "user_creation_timestamp_state",
-      "product_type_ref": 528,
+      "product_type_ref": 529,
       "primary_key": [
         0
       ],
@@ -59944,7 +60029,7 @@
     },
     {
       "name": "user_moderation_state",
-      "product_type_ref": 330,
+      "product_type_ref": 331,
       "primary_key": [
         0
       ],
@@ -60003,7 +60088,7 @@
     },
     {
       "name": "user_previous_region_state",
-      "product_type_ref": 530,
+      "product_type_ref": 531,
       "primary_key": [
         0
       ],
@@ -60049,7 +60134,7 @@
     },
     {
       "name": "user_region_state",
-      "product_type_ref": 531,
+      "product_type_ref": 532,
       "primary_key": [
         0
       ],
@@ -60108,7 +60193,7 @@
     },
     {
       "name": "user_state",
-      "product_type_ref": 332,
+      "product_type_ref": 333,
       "primary_key": [
         1
       ],
@@ -60179,7 +60264,7 @@
     },
     {
       "name": "vault_state",
-      "product_type_ref": 333,
+      "product_type_ref": 334,
       "primary_key": [
         0
       ],
@@ -60225,7 +60310,7 @@
     },
     {
       "name": "visibility_state",
-      "product_type_ref": 532,
+      "product_type_ref": 533,
       "primary_key": [
         0
       ],
@@ -60271,7 +60356,7 @@
     },
     {
       "name": "wall_desc",
-      "product_type_ref": 335,
+      "product_type_ref": 336,
       "primary_key": [
         0
       ],
@@ -60317,7 +60402,7 @@
     },
     {
       "name": "waystone_state",
-      "product_type_ref": 533,
+      "product_type_ref": 534,
       "primary_key": [
         0
       ],
@@ -60376,7 +60461,7 @@
     },
     {
       "name": "weapon_desc",
-      "product_type_ref": 336,
+      "product_type_ref": 337,
       "primary_key": [
         0
       ],
@@ -60422,7 +60507,7 @@
     },
     {
       "name": "weapon_type_desc",
-      "product_type_ref": 337,
+      "product_type_ref": 338,
       "primary_key": [
         0
       ],
@@ -60468,7 +60553,7 @@
     },
     {
       "name": "wind_dbg_desc",
-      "product_type_ref": 534,
+      "product_type_ref": 535,
       "primary_key": [
         0
       ],
@@ -60514,7 +60599,7 @@
     },
     {
       "name": "wind_params_desc",
-      "product_type_ref": 338,
+      "product_type_ref": 339,
       "primary_key": [
         0
       ],
@@ -60560,7 +60645,7 @@
     },
     {
       "name": "world_region_name_state",
-      "product_type_ref": 339,
+      "product_type_ref": 340,
       "primary_key": [
         0
       ],
@@ -60606,7 +60691,7 @@
     },
     {
       "name": "world_region_state",
-      "product_type_ref": 340,
+      "product_type_ref": 341,
       "primary_key": [
         0
       ],
@@ -65857,7 +65942,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 305
+                "Ref": 306
               }
             }
           }
@@ -65877,7 +65962,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 306
+                "Ref": 307
               }
             }
           }
@@ -65897,7 +65982,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 307
+                "Ref": 308
               }
             }
           }
@@ -65917,7 +66002,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 308
+                "Ref": 309
               }
             }
           }
@@ -65937,7 +66022,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 309
+                "Ref": 310
               }
             }
           }
@@ -65957,7 +66042,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 310
+                "Ref": 311
               }
             }
           }
@@ -65977,7 +66062,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 311
+                "Ref": 312
               }
             }
           }
@@ -65997,7 +66082,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 312
+                "Ref": 313
               }
             }
           }
@@ -66017,7 +66102,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 314
+                "Ref": 315
               }
             }
           }
@@ -66037,7 +66122,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 315
+                "Ref": 316
               }
             }
           }
@@ -66057,7 +66142,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 316
+                "Ref": 317
               }
             }
           }
@@ -66077,7 +66162,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 317
+                "Ref": 318
               }
             }
           }
@@ -66097,7 +66182,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 318
+                "Ref": 319
               }
             }
           }
@@ -66117,7 +66202,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 319
+                "Ref": 320
               }
             }
           }
@@ -66137,7 +66222,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 320
+                "Ref": 321
               }
             }
           }
@@ -66157,7 +66242,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 321
+                "Ref": 322
               }
             }
           }
@@ -66177,7 +66262,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 322
+                "Ref": 323
               }
             }
           }
@@ -66197,7 +66282,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 323
+                "Ref": 324
               }
             }
           }
@@ -66217,7 +66302,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 324
+                "Ref": 325
               }
             }
           }
@@ -66237,7 +66322,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 327
+                "Ref": 328
               }
             }
           }
@@ -66257,7 +66342,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 329
+                "Ref": 330
               }
             }
           }
@@ -66277,7 +66362,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 330
+                "Ref": 331
               }
             }
           }
@@ -66297,7 +66382,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 332
+                "Ref": 333
               }
             }
           }
@@ -66317,7 +66402,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 333
+                "Ref": 334
               }
             }
           }
@@ -66337,7 +66422,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 335
+                "Ref": 336
               }
             }
           }
@@ -66357,7 +66442,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 336
+                "Ref": 337
               }
             }
           }
@@ -66377,7 +66462,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 337
+                "Ref": 338
               }
             }
           }
@@ -66397,7 +66482,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 338
+                "Ref": 339
               }
             }
           }
@@ -66417,7 +66502,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 339
+                "Ref": 340
               }
             }
           }
@@ -66437,7 +66522,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 340
+                "Ref": 341
               }
             }
           }
@@ -66710,7 +66795,7 @@
               "some": "_timer"
             },
             "algebraic_type": {
-              "Ref": 479
+              "Ref": 480
             }
           }
         ]
@@ -66746,7 +66831,7 @@
               "some": "request"
             },
             "algebraic_type": {
-              "Ref": 483
+              "Ref": 484
             }
           }
         ]
@@ -66764,7 +66849,7 @@
               "some": "request"
             },
             "algebraic_type": {
-              "Ref": 486
+              "Ref": 487
             }
           }
         ]
@@ -66782,7 +66867,7 @@
               "some": "timer"
             },
             "algebraic_type": {
-              "Ref": 487
+              "Ref": 488
             }
           }
         ]
@@ -66808,7 +66893,7 @@
               "some": "message"
             },
             "algebraic_type": {
-              "Ref": 436
+              "Ref": 437
             }
           }
         ]
@@ -67044,7 +67129,7 @@
               "some": "visibility"
             },
             "algebraic_type": {
-              "Ref": 506
+              "Ref": 507
             }
           }
         ]
@@ -67062,7 +67147,7 @@
               "some": "_request"
             },
             "algebraic_type": {
-              "Ref": 507
+              "Ref": 508
             }
           }
         ]
@@ -68081,7 +68166,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 441
+                "Ref": 442
               }
             }
           }
@@ -68481,7 +68566,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 463
+                "Ref": 464
               }
             }
           }
@@ -68501,7 +68586,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 465
+                "Ref": 466
               }
             }
           }
@@ -68521,7 +68606,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 466
+                "Ref": 467
               }
             }
           }
@@ -68541,7 +68626,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 467
+                "Ref": 468
               }
             }
           }
@@ -68561,7 +68646,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 470
+                "Ref": 471
               }
             }
           }
@@ -68581,7 +68666,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 471
+                "Ref": 472
               }
             }
           }
@@ -68621,7 +68706,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 475
+                "Ref": 476
               }
             }
           }
@@ -68701,7 +68786,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 492
+                "Ref": 493
               }
             }
           }
@@ -68721,7 +68806,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 495
+                "Ref": 496
               }
             }
           }
@@ -68741,7 +68826,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 499
+                "Ref": 500
               }
             }
           }
@@ -68761,7 +68846,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 500
+                "Ref": 501
               }
             }
           }
@@ -68781,7 +68866,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 503
+                "Ref": 504
               }
             }
           }
@@ -68841,7 +68926,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 305
+                "Ref": 306
               }
             }
           }
@@ -68861,7 +68946,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 306
+                "Ref": 307
               }
             }
           }
@@ -68881,7 +68966,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 309
+                "Ref": 310
               }
             }
           }
@@ -68901,7 +68986,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 312
+                "Ref": 313
               }
             }
           }
@@ -68921,7 +69006,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 509
+                "Ref": 510
               }
             }
           }
@@ -68941,7 +69026,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 510
+                "Ref": 511
               }
             }
           }
@@ -68961,7 +69046,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 317
+                "Ref": 318
               }
             }
           }
@@ -68981,7 +69066,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 318
+                "Ref": 319
               }
             }
           }
@@ -69001,7 +69086,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 319
+                "Ref": 320
               }
             }
           }
@@ -69021,7 +69106,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 321
+                "Ref": 322
               }
             }
           }
@@ -69041,7 +69126,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 322
+                "Ref": 323
               }
             }
           }
@@ -69061,7 +69146,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 327
+                "Ref": 328
               }
             }
           }
@@ -69081,7 +69166,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 511
+                "Ref": 512
               }
             }
           }
@@ -69101,7 +69186,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 329
+                "Ref": 330
               }
             }
           }
@@ -69121,7 +69206,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 335
+                "Ref": 336
               }
             }
           }
@@ -69141,7 +69226,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 336
+                "Ref": 337
               }
             }
           }
@@ -69161,7 +69246,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 337
+                "Ref": 338
               }
             }
           }
@@ -69181,7 +69266,7 @@
             },
             "algebraic_type": {
               "Array": {
-                "Ref": 338
+                "Ref": 339
               }
             }
           }
@@ -69279,7 +69364,7 @@
               "some": "request"
             },
             "algebraic_type": {
-              "Ref": 529
+              "Ref": 530
             }
           }
         ]
@@ -69297,7 +69382,7 @@
               "some": "request"
             },
             "algebraic_type": {
-              "Ref": 529
+              "Ref": 530
             }
           }
         ]
@@ -69422,7 +69507,7 @@
         "scope": [],
         "name": "AbilityTypeEnum"
       },
-      "ty": 524,
+      "ty": 525,
       "custom_ordering": true
     },
     {
@@ -69462,7 +69547,7 @@
         "scope": [],
         "name": "ActionLogData"
       },
-      "ty": 515,
+      "ty": 516,
       "custom_ordering": true
     },
     {
@@ -69470,7 +69555,7 @@
         "scope": [],
         "name": "ActionLogDataSpaceAllocator"
       },
-      "ty": 516,
+      "ty": 517,
       "custom_ordering": true
     },
     {
@@ -69478,7 +69563,7 @@
         "scope": [],
         "name": "ActionLogState"
       },
-      "ty": 513,
+      "ty": 514,
       "custom_ordering": true
     },
     {
@@ -69486,7 +69571,7 @@
         "scope": [],
         "name": "ActionLogSubjectType"
       },
-      "ty": 514,
+      "ty": 515,
       "custom_ordering": true
     },
     {
@@ -69534,7 +69619,7 @@
         "scope": [],
         "name": "AdminBroadcastMessageMsg"
       },
-      "ty": 411,
+      "ty": 412,
       "custom_ordering": true
     },
     {
@@ -69638,7 +69723,7 @@
         "scope": [],
         "name": "BlockedIdentityOp"
       },
-      "ty": 344,
+      "ty": 345,
       "custom_ordering": true
     },
     {
@@ -69654,7 +69739,7 @@
         "scope": [],
         "name": "BuffCategory"
       },
-      "ty": 520,
+      "ty": 521,
       "custom_ordering": true
     },
     {
@@ -69758,7 +69843,7 @@
         "scope": [],
         "name": "BuildingNicknameStateOp"
       },
-      "ty": 345,
+      "ty": 346,
       "custom_ordering": true
     },
     {
@@ -69814,7 +69899,7 @@
         "scope": [],
         "name": "BuildingStateOp"
       },
-      "ty": 346,
+      "ty": 347,
       "custom_ordering": true
     },
     {
@@ -69830,7 +69915,7 @@
         "scope": [],
         "name": "CappedLevelRequirement"
       },
-      "ty": 328,
+      "ty": 329,
       "custom_ordering": true
     },
     {
@@ -69958,7 +70043,7 @@
         "scope": [],
         "name": "ClaimCreateEmpireSettlementMsg"
       },
-      "ty": 389,
+      "ty": 390,
       "custom_ordering": true
     },
     {
@@ -69990,7 +70075,7 @@
         "scope": [],
         "name": "ClaimLowercaseNameStateOp"
       },
-      "ty": 347,
+      "ty": 348,
       "custom_ordering": true
     },
     {
@@ -70006,7 +70091,7 @@
         "scope": [],
         "name": "ClaimMemberStateOp"
       },
-      "ty": 348,
+      "ty": 349,
       "custom_ordering": true
     },
     {
@@ -70030,7 +70115,7 @@
         "scope": [],
         "name": "ClaimSetNameMsg"
       },
-      "ty": 417,
+      "ty": 418,
       "custom_ordering": true
     },
     {
@@ -70046,7 +70131,7 @@
         "scope": [],
         "name": "ClaimStateOp"
       },
-      "ty": 349,
+      "ty": 350,
       "custom_ordering": true
     },
     {
@@ -70158,7 +70243,7 @@
         "scope": [],
         "name": "ColumnPad4u64"
       },
-      "ty": 497,
+      "ty": 498,
       "custom_ordering": true
     },
     {
@@ -70206,7 +70291,7 @@
         "scope": [],
         "name": "CompletionCondition"
       },
-      "ty": 501,
+      "ty": 502,
       "custom_ordering": true
     },
     {
@@ -70310,7 +70395,7 @@
         "scope": [],
         "name": "DeleteEmpireMsg"
       },
-      "ty": 394,
+      "ty": 395,
       "custom_ordering": true
     },
     {
@@ -70470,7 +70555,7 @@
         "scope": [],
         "name": "EmpireAddCurrencyMsg"
       },
-      "ty": 409,
+      "ty": 410,
       "custom_ordering": true
     },
     {
@@ -70494,7 +70579,7 @@
         "scope": [],
         "name": "EmpireChunkStateOp"
       },
-      "ty": 350,
+      "ty": 351,
       "custom_ordering": true
     },
     {
@@ -70502,7 +70587,7 @@
         "scope": [],
         "name": "EmpireClaimJoinMsg"
       },
-      "ty": 395,
+      "ty": 396,
       "custom_ordering": true
     },
     {
@@ -70510,7 +70595,7 @@
         "scope": [],
         "name": "EmpireCollectHexiteCapsuleMsg"
       },
-      "ty": 399,
+      "ty": 400,
       "custom_ordering": true
     },
     {
@@ -70534,7 +70619,7 @@
         "scope": [],
         "name": "EmpireCreateBuildingMsg"
       },
-      "ty": 391,
+      "ty": 392,
       "custom_ordering": true
     },
     {
@@ -70542,7 +70627,7 @@
         "scope": [],
         "name": "EmpireCreateMsg"
       },
-      "ty": 398,
+      "ty": 399,
       "custom_ordering": true
     },
     {
@@ -70574,7 +70659,7 @@
         "scope": [],
         "name": "EmpireDonateItemMsg"
       },
-      "ty": 397,
+      "ty": 398,
       "custom_ordering": true
     },
     {
@@ -70654,7 +70739,7 @@
         "scope": [],
         "name": "EmpireNodeSiegeStateOp"
       },
-      "ty": 351,
+      "ty": 352,
       "custom_ordering": true
     },
     {
@@ -70670,7 +70755,7 @@
         "scope": [],
         "name": "EmpireNodeStateOp"
       },
-      "ty": 352,
+      "ty": 353,
       "custom_ordering": true
     },
     {
@@ -70726,7 +70811,7 @@
         "scope": [],
         "name": "EmpirePlayerDataStateOp"
       },
-      "ty": 353,
+      "ty": 354,
       "custom_ordering": true
     },
     {
@@ -70758,7 +70843,7 @@
         "scope": [],
         "name": "EmpireQueueSuppliesMsg"
       },
-      "ty": 406,
+      "ty": 407,
       "custom_ordering": true
     },
     {
@@ -70782,7 +70867,7 @@
         "scope": [],
         "name": "EmpireRankStateOp"
       },
-      "ty": 354,
+      "ty": 355,
       "custom_ordering": true
     },
     {
@@ -70790,7 +70875,7 @@
         "scope": [],
         "name": "EmpireRemoveCrownMsg"
       },
-      "ty": 408,
+      "ty": 409,
       "custom_ordering": true
     },
     {
@@ -70798,7 +70883,7 @@
         "scope": [],
         "name": "EmpireResupplyNodeMsg"
       },
-      "ty": 396,
+      "ty": 397,
       "custom_ordering": true
     },
     {
@@ -70838,7 +70923,7 @@
         "scope": [],
         "name": "EmpireSettlementStateOp"
       },
-      "ty": 355,
+      "ty": 356,
       "custom_ordering": true
     },
     {
@@ -70846,7 +70931,7 @@
         "scope": [],
         "name": "EmpireSiegeAddSuppliesMsg"
       },
-      "ty": 401,
+      "ty": 402,
       "custom_ordering": true
     },
     {
@@ -70870,7 +70955,7 @@
         "scope": [],
         "name": "EmpireStartSiegeMsg"
       },
-      "ty": 400,
+      "ty": 401,
       "custom_ordering": true
     },
     {
@@ -70886,7 +70971,7 @@
         "scope": [],
         "name": "EmpireStateOp"
       },
-      "ty": 356,
+      "ty": 357,
       "custom_ordering": true
     },
     {
@@ -70910,7 +70995,7 @@
         "scope": [],
         "name": "EmpireUpdateEmperorCrownMsg"
       },
-      "ty": 407,
+      "ty": 408,
       "custom_ordering": true
     },
     {
@@ -70926,7 +71011,7 @@
         "scope": [],
         "name": "EmpireWithdrawItemMsg"
       },
-      "ty": 426,
+      "ty": 427,
       "custom_ordering": true
     },
     {
@@ -71222,7 +71307,7 @@
         "scope": [],
         "name": "GlobalDeleteEmpireBuildingMsg"
       },
-      "ty": 393,
+      "ty": 394,
       "custom_ordering": true
     },
     {
@@ -71246,7 +71331,7 @@
         "scope": [],
         "name": "GrantHubItemMsg"
       },
-      "ty": 413,
+      "ty": 414,
       "custom_ordering": true
     },
     {
@@ -71326,7 +71411,7 @@
         "scope": [],
         "name": "IdentityRoleOp"
       },
-      "ty": 357,
+      "ty": 358,
       "custom_ordering": true
     },
     {
@@ -71342,7 +71427,7 @@
         "scope": [],
         "name": "InterModuleMessage"
       },
-      "ty": 341,
+      "ty": 342,
       "custom_ordering": true
     },
     {
@@ -71350,7 +71435,7 @@
         "scope": [],
         "name": "InterModuleMessageCounter"
       },
-      "ty": 421,
+      "ty": 422,
       "custom_ordering": true
     },
     {
@@ -71358,7 +71443,7 @@
         "scope": [],
         "name": "InterModuleMessageErrors"
       },
-      "ty": 422,
+      "ty": 423,
       "custom_ordering": true
     },
     {
@@ -71366,7 +71451,7 @@
         "scope": [],
         "name": "InterModuleMessageV2"
       },
-      "ty": 423,
+      "ty": 424,
       "custom_ordering": true
     },
     {
@@ -71374,7 +71459,7 @@
         "scope": [],
         "name": "InterModuleMessageV3"
       },
-      "ty": 427,
+      "ty": 428,
       "custom_ordering": true
     },
     {
@@ -71382,7 +71467,7 @@
         "scope": [],
         "name": "InterModuleMessageV4"
       },
-      "ty": 431,
+      "ty": 432,
       "custom_ordering": true
     },
     {
@@ -71390,7 +71475,7 @@
         "scope": [],
         "name": "InterModuleMessageV5"
       },
-      "ty": 436,
+      "ty": 437,
       "custom_ordering": true
     },
     {
@@ -71398,7 +71483,7 @@
         "scope": [],
         "name": "InterModuleResponseMessageCounter"
       },
-      "ty": 440,
+      "ty": 441,
       "custom_ordering": true
     },
     {
@@ -71406,7 +71491,7 @@
         "scope": [],
         "name": "InterModuleTableUpdates"
       },
-      "ty": 343,
+      "ty": 344,
       "custom_ordering": true
     },
     {
@@ -71414,7 +71499,7 @@
         "scope": [],
         "name": "InterModuleTableUpdatesV2"
       },
-      "ty": 433,
+      "ty": 434,
       "custom_ordering": true
     },
     {
@@ -71430,7 +71515,7 @@
         "scope": [],
         "name": "InteriorEnvironmentDesc"
       },
-      "ty": 441,
+      "ty": 442,
       "custom_ordering": true
     },
     {
@@ -71454,7 +71539,7 @@
         "scope": [],
         "name": "InteriorPlayerCountState"
       },
-      "ty": 442,
+      "ty": 443,
       "custom_ordering": true
     },
     {
@@ -71550,7 +71635,7 @@
         "scope": [],
         "name": "ItemStackCompletionCondition"
       },
-      "ty": 502,
+      "ty": 503,
       "custom_ordering": true
     },
     {
@@ -71598,7 +71683,7 @@
         "scope": [],
         "name": "KnowledgeClaimState"
       },
-      "ty": 375,
+      "ty": 376,
       "custom_ordering": true
     },
     {
@@ -71638,7 +71723,7 @@
         "scope": [],
         "name": "KnowledgeEntityEntry"
       },
-      "ty": 376,
+      "ty": 377,
       "custom_ordering": true
     },
     {
@@ -71702,7 +71787,7 @@
         "scope": [],
         "name": "KnowledgePillarShapingState"
       },
-      "ty": 377,
+      "ty": 378,
       "custom_ordering": true
     },
     {
@@ -71798,7 +71883,7 @@
         "scope": [],
         "name": "LightSourceState"
       },
-      "ty": 443,
+      "ty": 444,
       "custom_ordering": true
     },
     {
@@ -71814,7 +71899,7 @@
         "scope": [],
         "name": "LocationStateOp"
       },
-      "ty": 358,
+      "ty": 359,
       "custom_ordering": true
     },
     {
@@ -71854,7 +71939,7 @@
         "scope": [],
         "name": "LostItemsState"
       },
-      "ty": 444,
+      "ty": 445,
       "custom_ordering": true
     },
     {
@@ -71862,7 +71947,7 @@
         "scope": [],
         "name": "MarketplaceState"
       },
-      "ty": 445,
+      "ty": 446,
       "custom_ordering": true
     },
     {
@@ -71870,7 +71955,7 @@
         "scope": [],
         "name": "MessageContents"
       },
-      "ty": 342,
+      "ty": 343,
       "custom_ordering": true
     },
     {
@@ -71878,7 +71963,7 @@
         "scope": [],
         "name": "MessageContentsV2"
       },
-      "ty": 424,
+      "ty": 425,
       "custom_ordering": true
     },
     {
@@ -71886,7 +71971,7 @@
         "scope": [],
         "name": "MessageContentsV3"
       },
-      "ty": 428,
+      "ty": 429,
       "custom_ordering": true
     },
     {
@@ -71894,7 +71979,7 @@
         "scope": [],
         "name": "MessageContentsV4"
       },
-      "ty": 432,
+      "ty": 433,
       "custom_ordering": true
     },
     {
@@ -71902,7 +71987,7 @@
         "scope": [],
         "name": "MessageContentsV5"
       },
-      "ty": 437,
+      "ty": 438,
       "custom_ordering": true
     },
     {
@@ -71910,7 +71995,7 @@
         "scope": [],
         "name": "MinimumClientVersion"
       },
-      "ty": 446,
+      "ty": 447,
       "custom_ordering": true
     },
     {
@@ -71926,7 +72011,7 @@
         "scope": [],
         "name": "ModConsequenceState"
       },
-      "ty": 447,
+      "ty": 448,
       "custom_ordering": true
     },
     {
@@ -71934,7 +72019,7 @@
         "scope": [],
         "name": "ModEnforcementConfigState"
       },
-      "ty": 448,
+      "ty": 449,
       "custom_ordering": true
     },
     {
@@ -71942,7 +72027,7 @@
         "scope": [],
         "name": "ModFlagLevelThresholdState"
       },
-      "ty": 449,
+      "ty": 450,
       "custom_ordering": true
     },
     {
@@ -71950,7 +72035,7 @@
         "scope": [],
         "name": "ModFlaggedWordState"
       },
-      "ty": 450,
+      "ty": 451,
       "custom_ordering": true
     },
     {
@@ -71958,7 +72043,7 @@
         "scope": [],
         "name": "ModReplacementTextState"
       },
-      "ty": 451,
+      "ty": 452,
       "custom_ordering": true
     },
     {
@@ -71966,7 +72051,7 @@
         "scope": [],
         "name": "ModReportConfigState"
       },
-      "ty": 452,
+      "ty": 453,
       "custom_ordering": true
     },
     {
@@ -71974,7 +72059,7 @@
         "scope": [],
         "name": "ModThresholdState"
       },
-      "ty": 453,
+      "ty": 454,
       "custom_ordering": true
     },
     {
@@ -71982,7 +72067,7 @@
         "scope": [],
         "name": "ModViolationState"
       },
-      "ty": 454,
+      "ty": 455,
       "custom_ordering": true
     },
     {
@@ -71990,7 +72075,7 @@
         "scope": [],
         "name": "ModWordReplacementState"
       },
-      "ty": 455,
+      "ty": 456,
       "custom_ordering": true
     },
     {
@@ -71998,7 +72083,7 @@
         "scope": [],
         "name": "ModerationActionLogEntry"
       },
-      "ty": 456,
+      "ty": 457,
       "custom_ordering": true
     },
     {
@@ -72022,7 +72107,7 @@
         "scope": [],
         "name": "MoveValidationStrikeCounterState"
       },
-      "ty": 374,
+      "ty": 375,
       "custom_ordering": true
     },
     {
@@ -72046,7 +72131,7 @@
         "scope": [],
         "name": "NotificationSeverity"
       },
-      "ty": 480,
+      "ty": 481,
       "custom_ordering": true
     },
     {
@@ -72062,7 +72147,7 @@
         "scope": [],
         "name": "NpcPlaceWatchtowersMsg"
       },
-      "ty": 419,
+      "ty": 420,
       "custom_ordering": true
     },
     {
@@ -72086,7 +72171,7 @@
         "scope": [],
         "name": "NpcWatchtowerPlacement"
       },
-      "ty": 420,
+      "ty": 421,
       "custom_ordering": true
     },
     {
@@ -72094,7 +72179,7 @@
         "scope": [],
         "name": "OfficialTranslators"
       },
-      "ty": 457,
+      "ty": 458,
       "custom_ordering": true
     },
     {
@@ -72118,7 +72203,7 @@
         "scope": [],
         "name": "OnClaimMembersChangedMsg"
       },
-      "ty": 390,
+      "ty": 391,
       "custom_ordering": true
     },
     {
@@ -72126,7 +72211,7 @@
         "scope": [],
         "name": "OnDeployableRecoveredMsg"
       },
-      "ty": 415,
+      "ty": 416,
       "custom_ordering": true
     },
     {
@@ -72134,7 +72219,7 @@
         "scope": [],
         "name": "OnDeployableRecoveredMsgV2"
       },
-      "ty": 430,
+      "ty": 431,
       "custom_ordering": true
     },
     {
@@ -72142,7 +72227,7 @@
         "scope": [],
         "name": "OnEmpireBuildingDeletedMsg"
       },
-      "ty": 392,
+      "ty": 393,
       "custom_ordering": true
     },
     {
@@ -72150,7 +72235,7 @@
         "scope": [],
         "name": "OnPlayerJoinedEmpireMsg"
       },
-      "ty": 402,
+      "ty": 403,
       "custom_ordering": true
     },
     {
@@ -72158,7 +72243,7 @@
         "scope": [],
         "name": "OnPlayerLeftEmpireMsg"
       },
-      "ty": 403,
+      "ty": 404,
       "custom_ordering": true
     },
     {
@@ -72166,7 +72251,7 @@
         "scope": [],
         "name": "OnPlayerNameSetMsg"
       },
-      "ty": 388,
+      "ty": 389,
       "custom_ordering": true
     },
     {
@@ -72174,7 +72259,7 @@
         "scope": [],
         "name": "OnRegionPlayerCreatedMsg"
       },
-      "ty": 405,
+      "ty": 406,
       "custom_ordering": true
     },
     {
@@ -72214,7 +72299,7 @@
         "scope": [],
         "name": "ParametersPlayerMoveDesc"
       },
-      "ty": 458,
+      "ty": 459,
       "custom_ordering": true
     },
     {
@@ -72222,7 +72307,7 @@
         "scope": [],
         "name": "PartialExperienceState"
       },
-      "ty": 459,
+      "ty": 460,
       "custom_ordering": true
     },
     {
@@ -72230,7 +72315,7 @@
         "scope": [],
         "name": "PassiveCraftState"
       },
-      "ty": 460,
+      "ty": 461,
       "custom_ordering": true
     },
     {
@@ -72238,7 +72323,7 @@
         "scope": [],
         "name": "PassiveCraftStatus"
       },
-      "ty": 461,
+      "ty": 462,
       "custom_ordering": true
     },
     {
@@ -72278,7 +72363,7 @@
         "scope": [],
         "name": "Permission"
       },
-      "ty": 522,
+      "ty": 523,
       "custom_ordering": true
     },
     {
@@ -72286,7 +72371,7 @@
         "scope": [],
         "name": "PermissionGroup"
       },
-      "ty": 523,
+      "ty": 524,
       "custom_ordering": true
     },
     {
@@ -72294,7 +72379,7 @@
         "scope": [],
         "name": "PermissionState"
       },
-      "ty": 462,
+      "ty": 463,
       "custom_ordering": true
     },
     {
@@ -72302,7 +72387,7 @@
         "scope": [],
         "name": "PillarShapingDesc"
       },
-      "ty": 463,
+      "ty": 464,
       "custom_ordering": true
     },
     {
@@ -72310,7 +72395,7 @@
         "scope": [],
         "name": "PillarShapingState"
       },
-      "ty": 464,
+      "ty": 465,
       "custom_ordering": true
     },
     {
@@ -72318,7 +72403,7 @@
         "scope": [],
         "name": "PlaceableDesc"
       },
-      "ty": 465,
+      "ty": 466,
       "custom_ordering": true
     },
     {
@@ -72326,7 +72411,7 @@
         "scope": [],
         "name": "PlaceableGroupDesc"
       },
-      "ty": 466,
+      "ty": 467,
       "custom_ordering": true
     },
     {
@@ -72334,7 +72419,7 @@
         "scope": [],
         "name": "PlaceableGrowthDesc"
       },
-      "ty": 467,
+      "ty": 468,
       "custom_ordering": true
     },
     {
@@ -72342,7 +72427,7 @@
         "scope": [],
         "name": "PlaceableGrowthOutcome"
       },
-      "ty": 468,
+      "ty": 469,
       "custom_ordering": true
     },
     {
@@ -72350,7 +72435,7 @@
         "scope": [],
         "name": "PlaceableGrowthOutcomeV2"
       },
-      "ty": 469,
+      "ty": 470,
       "custom_ordering": true
     },
     {
@@ -72358,7 +72443,7 @@
         "scope": [],
         "name": "PlaceableInteractionDesc"
       },
-      "ty": 470,
+      "ty": 471,
       "custom_ordering": true
     },
     {
@@ -72366,7 +72451,7 @@
         "scope": [],
         "name": "PlaceablePlacementDesc"
       },
-      "ty": 471,
+      "ty": 472,
       "custom_ordering": true
     },
     {
@@ -72382,7 +72467,7 @@
         "scope": [],
         "name": "PlaceableState"
       },
-      "ty": 472,
+      "ty": 473,
       "custom_ordering": true
     },
     {
@@ -72438,7 +72523,7 @@
         "scope": [],
         "name": "PlayerCreateMsg"
       },
-      "ty": 386,
+      "ty": 387,
       "custom_ordering": true
     },
     {
@@ -72446,7 +72531,7 @@
         "scope": [],
         "name": "PlayerDeveloperNotificationState"
       },
-      "ty": 473,
+      "ty": 474,
       "custom_ordering": true
     },
     {
@@ -72454,7 +72539,7 @@
         "scope": [],
         "name": "PlayerHousingCustomizationState"
       },
-      "ty": 474,
+      "ty": 475,
       "custom_ordering": true
     },
     {
@@ -72462,7 +72547,7 @@
         "scope": [],
         "name": "PlayerHousingDesc"
       },
-      "ty": 475,
+      "ty": 476,
       "custom_ordering": true
     },
     {
@@ -72470,7 +72555,7 @@
         "scope": [],
         "name": "PlayerHousingMovingCostState"
       },
-      "ty": 476,
+      "ty": 477,
       "custom_ordering": true
     },
     {
@@ -72478,7 +72563,7 @@
         "scope": [],
         "name": "PlayerHousingState"
       },
-      "ty": 360,
+      "ty": 361,
       "custom_ordering": true
     },
     {
@@ -72486,7 +72571,7 @@
         "scope": [],
         "name": "PlayerHousingStateOp"
       },
-      "ty": 359,
+      "ty": 360,
       "custom_ordering": true
     },
     {
@@ -72494,7 +72579,7 @@
         "scope": [],
         "name": "PlayerLowercaseUsernameState"
       },
-      "ty": 477,
+      "ty": 478,
       "custom_ordering": true
     },
     {
@@ -72502,7 +72587,7 @@
         "scope": [],
         "name": "PlayerNoteState"
       },
-      "ty": 478,
+      "ty": 479,
       "custom_ordering": true
     },
     {
@@ -72510,7 +72595,7 @@
         "scope": [],
         "name": "PlayerNotificationEvent"
       },
-      "ty": 479,
+      "ty": 480,
       "custom_ordering": true
     },
     {
@@ -72526,7 +72611,7 @@
         "scope": [],
         "name": "PlayerQueueState"
       },
-      "ty": 481,
+      "ty": 482,
       "custom_ordering": true
     },
     {
@@ -72534,7 +72619,7 @@
         "scope": [],
         "name": "PlayerReportState"
       },
-      "ty": 362,
+      "ty": 363,
       "custom_ordering": true
     },
     {
@@ -72542,7 +72627,7 @@
         "scope": [],
         "name": "PlayerReportStateOp"
       },
-      "ty": 361,
+      "ty": 362,
       "custom_ordering": true
     },
     {
@@ -72550,7 +72635,7 @@
         "scope": [],
         "name": "PlayerReportStateTimestamp"
       },
-      "ty": 482,
+      "ty": 483,
       "custom_ordering": true
     },
     {
@@ -72558,7 +72643,7 @@
         "scope": [],
         "name": "PlayerSetNameRequest"
       },
-      "ty": 483,
+      "ty": 484,
       "custom_ordering": true
     },
     {
@@ -72566,7 +72651,7 @@
         "scope": [],
         "name": "PlayerSettingsState"
       },
-      "ty": 383,
+      "ty": 384,
       "custom_ordering": true
     },
     {
@@ -72574,7 +72659,7 @@
         "scope": [],
         "name": "PlayerShardState"
       },
-      "ty": 484,
+      "ty": 485,
       "custom_ordering": true
     },
     {
@@ -72582,7 +72667,7 @@
         "scope": [],
         "name": "PlayerSignInRequest"
       },
-      "ty": 507,
+      "ty": 508,
       "custom_ordering": true
     },
     {
@@ -72590,7 +72675,7 @@
         "scope": [],
         "name": "PlayerSkipQueueMsg"
       },
-      "ty": 412,
+      "ty": 413,
       "custom_ordering": true
     },
     {
@@ -72606,7 +72691,7 @@
         "scope": [],
         "name": "PlayerTimestampState"
       },
-      "ty": 485,
+      "ty": 486,
       "custom_ordering": true
     },
     {
@@ -72614,7 +72699,7 @@
         "scope": [],
         "name": "PlayerUsernameState"
       },
-      "ty": 378,
+      "ty": 379,
       "custom_ordering": true
     },
     {
@@ -72630,7 +72715,7 @@
         "scope": [],
         "name": "PlayerVoteAnswerRequest"
       },
-      "ty": 486,
+      "ty": 487,
       "custom_ordering": true
     },
     {
@@ -72638,7 +72723,7 @@
         "scope": [],
         "name": "PlayerVoteConcludeTimer"
       },
-      "ty": 487,
+      "ty": 488,
       "custom_ordering": true
     },
     {
@@ -72686,7 +72771,7 @@
         "scope": [],
         "name": "PremiumPurchaseState"
       },
-      "ty": 488,
+      "ty": 489,
       "custom_ordering": true
     },
     {
@@ -72710,7 +72795,7 @@
         "scope": [],
         "name": "PreviousEmpireNameState"
       },
-      "ty": 489,
+      "ty": 490,
       "custom_ordering": true
     },
     {
@@ -72718,7 +72803,7 @@
         "scope": [],
         "name": "PreviousPlayerSkillsState"
       },
-      "ty": 490,
+      "ty": 491,
       "custom_ordering": true
     },
     {
@@ -72726,7 +72811,7 @@
         "scope": [],
         "name": "PreviousPlayerUsernameState"
       },
-      "ty": 491,
+      "ty": 492,
       "custom_ordering": true
     },
     {
@@ -72758,7 +72843,7 @@
         "scope": [],
         "name": "ProgressiveActionStatus"
       },
-      "ty": 521,
+      "ty": 522,
       "custom_ordering": true
     },
     {
@@ -72774,7 +72859,7 @@
         "scope": [],
         "name": "ProspectingDesc"
       },
-      "ty": 492,
+      "ty": 493,
       "custom_ordering": true
     },
     {
@@ -72782,7 +72867,7 @@
         "scope": [],
         "name": "ProspectingState"
       },
-      "ty": 493,
+      "ty": 494,
       "custom_ordering": true
     },
     {
@@ -72790,7 +72875,7 @@
         "scope": [],
         "name": "PublicProgressiveActionState"
       },
-      "ty": 494,
+      "ty": 495,
       "custom_ordering": true
     },
     {
@@ -72798,7 +72883,7 @@
         "scope": [],
         "name": "QuestChainDesc"
       },
-      "ty": 495,
+      "ty": 496,
       "custom_ordering": true
     },
     {
@@ -72806,7 +72891,7 @@
         "scope": [],
         "name": "QuestChainState"
       },
-      "ty": 384,
+      "ty": 385,
       "custom_ordering": true
     },
     {
@@ -72814,7 +72899,7 @@
         "scope": [],
         "name": "QuestDropDesc"
       },
-      "ty": 499,
+      "ty": 500,
       "custom_ordering": true
     },
     {
@@ -72822,7 +72907,7 @@
         "scope": [],
         "name": "QuestRequirement"
       },
-      "ty": 496,
+      "ty": 497,
       "custom_ordering": true
     },
     {
@@ -72830,7 +72915,7 @@
         "scope": [],
         "name": "QuestReward"
       },
-      "ty": 498,
+      "ty": 499,
       "custom_ordering": true
     },
     {
@@ -72838,7 +72923,7 @@
         "scope": [],
         "name": "QuestStageDesc"
       },
-      "ty": 500,
+      "ty": 501,
       "custom_ordering": true
     },
     {
@@ -72854,7 +72939,7 @@
         "scope": [],
         "name": "RecoverDeployableMsg"
       },
-      "ty": 414,
+      "ty": 415,
       "custom_ordering": true
     },
     {
@@ -72870,7 +72955,7 @@
         "scope": [],
         "name": "RegionConnectionInfoOp"
       },
-      "ty": 363,
+      "ty": 364,
       "custom_ordering": true
     },
     {
@@ -72878,7 +72963,7 @@
         "scope": [],
         "name": "RegionControlInfo"
       },
-      "ty": 365,
+      "ty": 366,
       "custom_ordering": true
     },
     {
@@ -72886,7 +72971,7 @@
         "scope": [],
         "name": "RegionControlInfoOp"
       },
-      "ty": 364,
+      "ty": 365,
       "custom_ordering": true
     },
     {
@@ -72894,7 +72979,7 @@
         "scope": [],
         "name": "RegionDestroySiegeEngineMsg"
       },
-      "ty": 404,
+      "ty": 405,
       "custom_ordering": true
     },
     {
@@ -72910,7 +72995,7 @@
         "scope": [],
         "name": "RegionExplorationInfoOp"
       },
-      "ty": 434,
+      "ty": 435,
       "custom_ordering": true
     },
     {
@@ -72918,7 +73003,7 @@
         "scope": [],
         "name": "RegionPopulationInfo"
       },
-      "ty": 367,
+      "ty": 368,
       "custom_ordering": true
     },
     {
@@ -72926,7 +73011,7 @@
         "scope": [],
         "name": "RegionPopulationInfoOp"
       },
-      "ty": 366,
+      "ty": 367,
       "custom_ordering": true
     },
     {
@@ -72942,7 +73027,7 @@
         "scope": [],
         "name": "RegionSignInParametersOp"
       },
-      "ty": 368,
+      "ty": 369,
       "custom_ordering": true
     },
     {
@@ -72958,7 +73043,7 @@
         "scope": [],
         "name": "ReplaceIdentityMsg"
       },
-      "ty": 416,
+      "ty": 417,
       "custom_ordering": true
     },
     {
@@ -72966,7 +73051,7 @@
         "scope": [],
         "name": "ReservedNameDesc"
       },
-      "ty": 503,
+      "ty": 504,
       "custom_ordering": true
     },
     {
@@ -72996,7 +73081,7 @@
     {
       "name": {
         "scope": [],
-        "name": "ResourceGrowthRecipeDesc"
+        "name": "ResourceDestroyBuildingOutcome"
       },
       "ty": 305,
       "custom_ordering": true
@@ -73004,15 +73089,7 @@
     {
       "name": {
         "scope": [],
-        "name": "ResourceHealthState"
-      },
-      "ty": 504,
-      "custom_ordering": true
-    },
-    {
-      "name": {
-        "scope": [],
-        "name": "ResourcePlacementRecipeDesc"
+        "name": "ResourceGrowthRecipeDesc"
       },
       "ty": 306,
       "custom_ordering": true
@@ -73020,7 +73097,15 @@
     {
       "name": {
         "scope": [],
-        "name": "ResourceState"
+        "name": "ResourceHealthState"
+      },
+      "ty": 505,
+      "custom_ordering": true
+    },
+    {
+      "name": {
+        "scope": [],
+        "name": "ResourcePlacementRecipeDesc"
       },
       "ty": 307,
       "custom_ordering": true
@@ -73028,9 +73113,17 @@
     {
       "name": {
         "scope": [],
+        "name": "ResourceState"
+      },
+      "ty": 308,
+      "custom_ordering": true
+    },
+    {
+      "name": {
+        "scope": [],
         "name": "RestoreSkillsMsg"
       },
-      "ty": 418,
+      "ty": 419,
       "custom_ordering": true
     },
     {
@@ -73038,7 +73131,7 @@
         "scope": [],
         "name": "RezSickLongTermState"
       },
-      "ty": 505,
+      "ty": 506,
       "custom_ordering": true
     },
     {
@@ -73054,7 +73147,7 @@
         "scope": [],
         "name": "SatiationState"
       },
-      "ty": 308,
+      "ty": 309,
       "custom_ordering": true
     },
     {
@@ -73062,7 +73155,7 @@
         "scope": [],
         "name": "SecondaryKnowledgeDesc"
       },
-      "ty": 309,
+      "ty": 310,
       "custom_ordering": true
     },
     {
@@ -73070,7 +73163,7 @@
         "scope": [],
         "name": "ServerIdentity"
       },
-      "ty": 310,
+      "ty": 311,
       "custom_ordering": true
     },
     {
@@ -73078,7 +73171,7 @@
         "scope": [],
         "name": "SignPlayerOutMsg"
       },
-      "ty": 410,
+      "ty": 411,
       "custom_ordering": true
     },
     {
@@ -73086,7 +73179,7 @@
         "scope": [],
         "name": "SignedInPlayerState"
       },
-      "ty": 311,
+      "ty": 312,
       "custom_ordering": true
     },
     {
@@ -73094,7 +73187,7 @@
         "scope": [],
         "name": "SingleResourceToClumpDesc"
       },
-      "ty": 508,
+      "ty": 509,
       "custom_ordering": true
     },
     {
@@ -73102,7 +73195,7 @@
         "scope": [],
         "name": "SkillCategory"
       },
-      "ty": 313,
+      "ty": 314,
       "custom_ordering": true
     },
     {
@@ -73110,7 +73203,7 @@
         "scope": [],
         "name": "SkillDesc"
       },
-      "ty": 312,
+      "ty": 313,
       "custom_ordering": true
     },
     {
@@ -73118,7 +73211,7 @@
         "scope": [],
         "name": "SkillLevelKnowledgeDesc"
       },
-      "ty": 509,
+      "ty": 510,
       "custom_ordering": true
     },
     {
@@ -73126,7 +73219,7 @@
         "scope": [],
         "name": "SkillType"
       },
-      "ty": 519,
+      "ty": 520,
       "custom_ordering": true
     },
     {
@@ -73142,7 +73235,7 @@
         "scope": [],
         "name": "StageRewardsDesc"
       },
-      "ty": 510,
+      "ty": 511,
       "custom_ordering": true
     },
     {
@@ -73150,7 +73243,7 @@
         "scope": [],
         "name": "StaminaState"
       },
-      "ty": 314,
+      "ty": 315,
       "custom_ordering": true
     },
     {
@@ -73158,7 +73251,7 @@
         "scope": [],
         "name": "StarvingPlayerState"
       },
-      "ty": 512,
+      "ty": 513,
       "custom_ordering": true
     },
     {
@@ -73174,7 +73267,7 @@
         "scope": [],
         "name": "TargetState"
       },
-      "ty": 315,
+      "ty": 316,
       "custom_ordering": true
     },
     {
@@ -73182,7 +73275,7 @@
         "scope": [],
         "name": "TargetableState"
       },
-      "ty": 316,
+      "ty": 317,
       "custom_ordering": true
     },
     {
@@ -73190,7 +73283,7 @@
         "scope": [],
         "name": "TargetingMatrixDesc"
       },
-      "ty": 317,
+      "ty": 318,
       "custom_ordering": true
     },
     {
@@ -73198,7 +73291,7 @@
         "scope": [],
         "name": "TeleportItemDesc"
       },
-      "ty": 318,
+      "ty": 319,
       "custom_ordering": true
     },
     {
@@ -73222,7 +73315,7 @@
         "scope": [],
         "name": "TeleportationEnergyState"
       },
-      "ty": 381,
+      "ty": 382,
       "custom_ordering": true
     },
     {
@@ -73230,7 +73323,7 @@
         "scope": [],
         "name": "TerraformProgressState"
       },
-      "ty": 517,
+      "ty": 518,
       "custom_ordering": true
     },
     {
@@ -73238,7 +73331,7 @@
         "scope": [],
         "name": "TerraformRecipeDesc"
       },
-      "ty": 319,
+      "ty": 320,
       "custom_ordering": true
     },
     {
@@ -73254,7 +73347,7 @@
         "scope": [],
         "name": "TerrainChunkState"
       },
-      "ty": 320,
+      "ty": 321,
       "custom_ordering": true
     },
     {
@@ -73262,7 +73355,7 @@
         "scope": [],
         "name": "TheGreatPlaceHolderTable"
       },
-      "ty": 518,
+      "ty": 519,
       "custom_ordering": true
     },
     {
@@ -73270,7 +73363,7 @@
         "scope": [],
         "name": "ThreatState"
       },
-      "ty": 525,
+      "ty": 526,
       "custom_ordering": true
     },
     {
@@ -73278,7 +73371,7 @@
         "scope": [],
         "name": "ToolDesc"
       },
-      "ty": 321,
+      "ty": 322,
       "custom_ordering": true
     },
     {
@@ -73294,7 +73387,7 @@
         "scope": [],
         "name": "ToolTypeDesc"
       },
-      "ty": 322,
+      "ty": 323,
       "custom_ordering": true
     },
     {
@@ -73302,7 +73395,7 @@
         "scope": [],
         "name": "ToolbarState"
       },
-      "ty": 379,
+      "ty": 380,
       "custom_ordering": true
     },
     {
@@ -73310,7 +73403,7 @@
         "scope": [],
         "name": "TradeOrderState"
       },
-      "ty": 323,
+      "ty": 324,
       "custom_ordering": true
     },
     {
@@ -73318,7 +73411,7 @@
         "scope": [],
         "name": "TradePocket"
       },
-      "ty": 326,
+      "ty": 327,
       "custom_ordering": true
     },
     {
@@ -73326,7 +73419,7 @@
         "scope": [],
         "name": "TradeSessionState"
       },
-      "ty": 324,
+      "ty": 325,
       "custom_ordering": true
     },
     {
@@ -73334,7 +73427,7 @@
         "scope": [],
         "name": "TradeSessionStatus"
       },
-      "ty": 325,
+      "ty": 326,
       "custom_ordering": true
     },
     {
@@ -73342,7 +73435,7 @@
         "scope": [],
         "name": "TransferPlayerHousingMsg"
       },
-      "ty": 385,
+      "ty": 386,
       "custom_ordering": true
     },
     {
@@ -73350,7 +73443,7 @@
         "scope": [],
         "name": "TransferPlayerMsg"
       },
-      "ty": 373,
+      "ty": 374,
       "custom_ordering": true
     },
     {
@@ -73358,7 +73451,7 @@
         "scope": [],
         "name": "TransferPlayerMsgV2"
       },
-      "ty": 425,
+      "ty": 426,
       "custom_ordering": true
     },
     {
@@ -73366,7 +73459,7 @@
         "scope": [],
         "name": "TransferPlayerMsgV3"
       },
-      "ty": 429,
+      "ty": 430,
       "custom_ordering": true
     },
     {
@@ -73374,7 +73467,7 @@
         "scope": [],
         "name": "TransferPlayerMsgV4"
       },
-      "ty": 435,
+      "ty": 436,
       "custom_ordering": true
     },
     {
@@ -73382,7 +73475,7 @@
         "scope": [],
         "name": "TransferPlayerMsgV5"
       },
-      "ty": 438,
+      "ty": 439,
       "custom_ordering": true
     },
     {
@@ -73390,7 +73483,7 @@
         "scope": [],
         "name": "TranslationCorrections"
       },
-      "ty": 526,
+      "ty": 527,
       "custom_ordering": true
     },
     {
@@ -73398,7 +73491,7 @@
         "scope": [],
         "name": "TravelerTaskCreditState"
       },
-      "ty": 439,
+      "ty": 440,
       "custom_ordering": true
     },
     {
@@ -73406,7 +73499,7 @@
         "scope": [],
         "name": "TravelerTaskDesc"
       },
-      "ty": 327,
+      "ty": 328,
       "custom_ordering": true
     },
     {
@@ -73414,7 +73507,7 @@
         "scope": [],
         "name": "TravelerTaskKnowledgeRequirementDesc"
       },
-      "ty": 511,
+      "ty": 512,
       "custom_ordering": true
     },
     {
@@ -73422,7 +73515,7 @@
         "scope": [],
         "name": "TravelerTaskState"
       },
-      "ty": 382,
+      "ty": 383,
       "custom_ordering": true
     },
     {
@@ -73430,7 +73523,7 @@
         "scope": [],
         "name": "TravelerTradeOrderDesc"
       },
-      "ty": 329,
+      "ty": 330,
       "custom_ordering": true
     },
     {
@@ -73454,7 +73547,7 @@
         "scope": [],
         "name": "UnclaimedCollectiblesState"
       },
-      "ty": 380,
+      "ty": 381,
       "custom_ordering": true
     },
     {
@@ -73462,7 +73555,7 @@
         "scope": [],
         "name": "UnclaimedShardsState"
       },
-      "ty": 527,
+      "ty": 528,
       "custom_ordering": true
     },
     {
@@ -73470,7 +73563,7 @@
         "scope": [],
         "name": "UserAuthenticationState"
       },
-      "ty": 370,
+      "ty": 371,
       "custom_ordering": true
     },
     {
@@ -73478,7 +73571,7 @@
         "scope": [],
         "name": "UserAuthenticationStateOp"
       },
-      "ty": 369,
+      "ty": 370,
       "custom_ordering": true
     },
     {
@@ -73486,7 +73579,7 @@
         "scope": [],
         "name": "UserCreationTimestampState"
       },
-      "ty": 528,
+      "ty": 529,
       "custom_ordering": true
     },
     {
@@ -73494,7 +73587,7 @@
         "scope": [],
         "name": "UserModerationCreateUserPolicyRequest"
       },
-      "ty": 529,
+      "ty": 530,
       "custom_ordering": true
     },
     {
@@ -73502,7 +73595,7 @@
         "scope": [],
         "name": "UserModerationPolicy"
       },
-      "ty": 331,
+      "ty": 332,
       "custom_ordering": true
     },
     {
@@ -73510,7 +73603,7 @@
         "scope": [],
         "name": "UserModerationState"
       },
-      "ty": 330,
+      "ty": 331,
       "custom_ordering": true
     },
     {
@@ -73518,7 +73611,7 @@
         "scope": [],
         "name": "UserModerationStateOp"
       },
-      "ty": 371,
+      "ty": 372,
       "custom_ordering": true
     },
     {
@@ -73526,7 +73619,7 @@
         "scope": [],
         "name": "UserPreviousRegionState"
       },
-      "ty": 530,
+      "ty": 531,
       "custom_ordering": true
     },
     {
@@ -73534,7 +73627,7 @@
         "scope": [],
         "name": "UserRegionState"
       },
-      "ty": 531,
+      "ty": 532,
       "custom_ordering": true
     },
     {
@@ -73542,7 +73635,7 @@
         "scope": [],
         "name": "UserState"
       },
-      "ty": 332,
+      "ty": 333,
       "custom_ordering": true
     },
     {
@@ -73550,7 +73643,7 @@
         "scope": [],
         "name": "UserStateOp"
       },
-      "ty": 372,
+      "ty": 373,
       "custom_ordering": true
     },
     {
@@ -73558,7 +73651,7 @@
         "scope": [],
         "name": "UserUpdateRegionMsg"
       },
-      "ty": 387,
+      "ty": 388,
       "custom_ordering": true
     },
     {
@@ -73566,7 +73659,7 @@
         "scope": [],
         "name": "VaultCollectible"
       },
-      "ty": 334,
+      "ty": 335,
       "custom_ordering": true
     },
     {
@@ -73574,7 +73667,7 @@
         "scope": [],
         "name": "VaultState"
       },
-      "ty": 333,
+      "ty": 334,
       "custom_ordering": true
     },
     {
@@ -73590,7 +73683,7 @@
         "scope": [],
         "name": "VisibilityState"
       },
-      "ty": 532,
+      "ty": 533,
       "custom_ordering": true
     },
     {
@@ -73598,7 +73691,7 @@
         "scope": [],
         "name": "VisibilityType"
       },
-      "ty": 506,
+      "ty": 507,
       "custom_ordering": true
     },
     {
@@ -73606,7 +73699,7 @@
         "scope": [],
         "name": "WallDesc"
       },
-      "ty": 335,
+      "ty": 336,
       "custom_ordering": true
     },
     {
@@ -73614,7 +73707,7 @@
         "scope": [],
         "name": "WaystoneState"
       },
-      "ty": 533,
+      "ty": 534,
       "custom_ordering": true
     },
     {
@@ -73622,7 +73715,7 @@
         "scope": [],
         "name": "WeaponDesc"
       },
-      "ty": 336,
+      "ty": 337,
       "custom_ordering": true
     },
     {
@@ -73630,7 +73723,7 @@
         "scope": [],
         "name": "WeaponTypeDesc"
       },
-      "ty": 337,
+      "ty": 338,
       "custom_ordering": true
     },
     {
@@ -73638,7 +73731,7 @@
         "scope": [],
         "name": "WindDbgDesc"
       },
-      "ty": 534,
+      "ty": 535,
       "custom_ordering": true
     },
     {
@@ -73646,7 +73739,7 @@
         "scope": [],
         "name": "WindParamsDesc"
       },
-      "ty": 338,
+      "ty": 339,
       "custom_ordering": true
     },
     {
@@ -73654,7 +73747,7 @@
         "scope": [],
         "name": "WorldRegionNameState"
       },
-      "ty": 339,
+      "ty": 340,
       "custom_ordering": true
     },
     {
@@ -73662,7 +73755,7 @@
         "scope": [],
         "name": "WorldRegionState"
       },
-      "ty": 340,
+      "ty": 341,
       "custom_ordering": true
     }
   ],
@@ -73678,7 +73771,7 @@
         },
         "return_type": {
           "Array": {
-            "Ref": 489
+            "Ref": 490
           }
         }
       }
@@ -73694,7 +73787,7 @@
         },
         "return_type": {
           "Array": {
-            "Ref": 490
+            "Ref": 491
           }
         }
       }
@@ -73710,7 +73803,7 @@
         },
         "return_type": {
           "Array": {
-            "Ref": 491
+            "Ref": 492
           }
         }
       }
