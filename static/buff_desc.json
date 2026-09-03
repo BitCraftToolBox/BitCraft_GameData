@@ -293,6 +293,26 @@
     "vfx_attachment_point": "Origin"
   },
   {
+    "id": 23701000,
+    "buff_type_id": 1995298307,
+    "description": "Fine Reckless Poison",
+    "priority": 4,
+    "duration": 1800,
+    "warn_time": 0.0,
+    "online_timestamp": false,
+    "beneficial": false,
+    "icon_asset_name": "\\u00C8",
+    "stats": [
+      {
+        "id": "MaxStamina",
+        "value": -0.6,
+        "is_pct": true
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
     "id": 24356068,
     "buff_type_id": 1707464193,
     "description": "Tree of Wisdom",
@@ -513,6 +533,20 @@
     "vfx_attachment_point": "Origin"
   },
   {
+    "id": 104813279,
+    "buff_type_id": 1995298307,
+    "description": "Flawless Antidote",
+    "priority": 10,
+    "duration": 1,
+    "warn_time": 0.0,
+    "online_timestamp": false,
+    "beneficial": true,
+    "icon_asset_name": "\\uFFE9",
+    "stats": [],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
     "id": 124291392,
     "buff_type_id": 1204575210,
     "description": "Infused Healing Potion",
@@ -527,6 +561,26 @@
         "id": "ActiveHealthRegenRate",
         "value": 5.0,
         "is_pct": false
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 131325445,
+    "buff_type_id": 1995298307,
+    "description": "Ornate Reckless Poison",
+    "priority": 7,
+    "duration": 1800,
+    "warn_time": 0.0,
+    "online_timestamp": false,
+    "beneficial": false,
+    "icon_asset_name": "\\u00C8",
+    "stats": [
+      {
+        "id": "MaxStamina",
+        "value": -0.6,
+        "is_pct": true
       }
     ],
     "vfx": "",
@@ -638,6 +692,20 @@
     "vfx_attachment_point": "Origin"
   },
   {
+    "id": 180250933,
+    "buff_type_id": 1995298307,
+    "description": "Pristine Antidote",
+    "priority": 8,
+    "duration": 1,
+    "warn_time": 0.0,
+    "online_timestamp": false,
+    "beneficial": true,
+    "icon_asset_name": "\\uFFE9",
+    "stats": [],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
     "id": 195290716,
     "buff_type_id": 861783812,
     "description": "Level 1 Movement Speed",
@@ -676,6 +744,31 @@
       {
         "id": "GatheringSpeed",
         "value": 0.084,
+        "is_pct": true
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 197812822,
+    "buff_type_id": 755187973,
+    "description": "Magnificent Reckless Foraging Power",
+    "priority": 1,
+    "duration": 3600,
+    "warn_time": 5.0,
+    "online_timestamp": false,
+    "beneficial": true,
+    "icon_asset_name": "\\uFFE9",
+    "stats": [
+      {
+        "id": "ForagingPower",
+        "value": 3.0,
+        "is_pct": false
+      },
+      {
+        "id": "ForagingSpeed",
+        "value": 0.078,
         "is_pct": true
       }
     ],
@@ -953,6 +1046,31 @@
     "vfx_attachment_point": "Origin"
   },
   {
+    "id": 291136973,
+    "buff_type_id": 111332504,
+    "description": "Deep Roots",
+    "priority": 0,
+    "duration": 10,
+    "warn_time": 2.0,
+    "online_timestamp": false,
+    "beneficial": true,
+    "icon_asset_name": "\\uFFE9",
+    "stats": [
+      {
+        "id": "ForagingCritMultiplier",
+        "value": 0.25,
+        "is_pct": false
+      },
+      {
+        "id": "ForagingCritChance",
+        "value": 0.1,
+        "is_pct": false
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
     "id": 313180854,
     "buff_type_id": 861783812,
     "description": "Level 9 Action Speed",
@@ -1061,6 +1179,31 @@
       {
         "id": "GatheringSpeed",
         "value": 0.05,
+        "is_pct": true
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 368682813,
+    "buff_type_id": 755187973,
+    "description": "Basic Reckless Foraging Power",
+    "priority": 1,
+    "duration": 3600,
+    "warn_time": 5.0,
+    "online_timestamp": false,
+    "beneficial": true,
+    "icon_asset_name": "\\uFFE9",
+    "stats": [
+      {
+        "id": "ForagingPower",
+        "value": 1.0,
+        "is_pct": false
+      },
+      {
+        "id": "ForagingSpeed",
+        "value": 0.03,
         "is_pct": true
       }
     ],
@@ -1742,6 +1885,31 @@
     "vfx_attachment_point": "Origin"
   },
   {
+    "id": 513922733,
+    "buff_type_id": 755187973,
+    "description": "Simple Reckless Foraging Power",
+    "priority": 1,
+    "duration": 3600,
+    "warn_time": 5.0,
+    "online_timestamp": false,
+    "beneficial": true,
+    "icon_asset_name": "\\uFFE9",
+    "stats": [
+      {
+        "id": "ForagingPower",
+        "value": 1.0,
+        "is_pct": false
+      },
+      {
+        "id": "ForagingSpeed",
+        "value": 0.036,
+        "is_pct": true
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
     "id": 537057824,
     "buff_type_id": 1304027385,
     "description": "Heavy Swings",
@@ -1865,6 +2033,26 @@
       {
         "id": "GatheringSpeed",
         "value": 0.044,
+        "is_pct": true
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 571361077,
+    "buff_type_id": 1995298307,
+    "description": "Pristine Reckless Poison",
+    "priority": 8,
+    "duration": 1800,
+    "warn_time": 0.0,
+    "online_timestamp": false,
+    "beneficial": false,
+    "icon_asset_name": "\\u00C8",
+    "stats": [
+      {
+        "id": "MaxStamina",
+        "value": -0.6,
         "is_pct": true
       }
     ],
@@ -2092,6 +2280,26 @@
     "vfx_attachment_point": "Origin"
   },
   {
+    "id": 633404437,
+    "buff_type_id": 1995298307,
+    "description": "Exquisite Reckless Poison",
+    "priority": 5,
+    "duration": 1800,
+    "warn_time": 0.0,
+    "online_timestamp": false,
+    "beneficial": false,
+    "icon_asset_name": "\\u00C8",
+    "stats": [
+      {
+        "id": "MaxStamina",
+        "value": -0.6,
+        "is_pct": true
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
     "id": 641504089,
     "buff_type_id": 861783812,
     "description": "High Quality Scholar Pie",
@@ -2166,6 +2374,26 @@
         "id": "HeatProtection",
         "value": 10.0,
         "is_pct": false
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 650562167,
+    "buff_type_id": 1995298307,
+    "description": "Flawless Reckless Poison",
+    "priority": 10,
+    "duration": 1800,
+    "warn_time": 0.0,
+    "online_timestamp": false,
+    "beneficial": false,
+    "icon_asset_name": "\\u00C8",
+    "stats": [
+      {
+        "id": "MaxStamina",
+        "value": -0.6,
+        "is_pct": true
       }
     ],
     "vfx": "",
@@ -2932,6 +3160,56 @@
     "vfx_attachment_point": "Origin"
   },
   {
+    "id": 862563558,
+    "buff_type_id": 755187973,
+    "description": "Exquisite Reckless Foraging Power",
+    "priority": 1,
+    "duration": 3600,
+    "warn_time": 5.0,
+    "online_timestamp": false,
+    "beneficial": true,
+    "icon_asset_name": "\\uFFE9",
+    "stats": [
+      {
+        "id": "ForagingPower",
+        "value": 2.0,
+        "is_pct": false
+      },
+      {
+        "id": "ForagingSpeed",
+        "value": 0.054,
+        "is_pct": true
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 865532639,
+    "buff_type_id": 755187973,
+    "description": "Fine Reckless Foraging Power",
+    "priority": 1,
+    "duration": 3600,
+    "warn_time": 5.0,
+    "online_timestamp": false,
+    "beneficial": true,
+    "icon_asset_name": "\\uFFE9",
+    "stats": [
+      {
+        "id": "ForagingPower",
+        "value": 2.0,
+        "is_pct": false
+      },
+      {
+        "id": "ForagingSpeed",
+        "value": 0.048,
+        "is_pct": true
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
     "id": 870775982,
     "buff_type_id": 205066123,
     "description": "Landweaver Energy",
@@ -3018,6 +3296,20 @@
         "is_pct": false
       }
     ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 899620289,
+    "buff_type_id": 1995298307,
+    "description": "Peerless Antidote",
+    "priority": 6,
+    "duration": 1,
+    "warn_time": 0.0,
+    "online_timestamp": false,
+    "beneficial": true,
+    "icon_asset_name": "\\uFFE9",
+    "stats": [],
     "vfx": "",
     "vfx_attachment_point": "Origin"
   },
@@ -3592,6 +3884,31 @@
     "vfx_attachment_point": "Origin"
   },
   {
+    "id": 1109859074,
+    "buff_type_id": 755187973,
+    "description": "Peerless Reckless Foraging Power",
+    "priority": 1,
+    "duration": 3600,
+    "warn_time": 5.0,
+    "online_timestamp": false,
+    "beneficial": true,
+    "icon_asset_name": "\\uFFE9",
+    "stats": [
+      {
+        "id": "ForagingPower",
+        "value": 2.0,
+        "is_pct": false
+      },
+      {
+        "id": "ForagingSpeed",
+        "value": 0.06,
+        "is_pct": true
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
     "id": 1120956531,
     "buff_type_id": 661614959,
     "description": "Figurine of the Sea",
@@ -3610,6 +3927,26 @@
       {
         "id": "CraftingSpeed",
         "value": 0.15,
+        "is_pct": true
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 1124774080,
+    "buff_type_id": 1995298307,
+    "description": "Infused Reckless Poison",
+    "priority": 3,
+    "duration": 1800,
+    "warn_time": 0.0,
+    "online_timestamp": false,
+    "beneficial": false,
+    "icon_asset_name": "\\u00C8",
+    "stats": [
+      {
+        "id": "MaxStamina",
+        "value": -0.6,
         "is_pct": true
       }
     ],
@@ -4222,6 +4559,26 @@
     "vfx_attachment_point": "Origin"
   },
   {
+    "id": 1313016181,
+    "buff_type_id": 1995298307,
+    "description": "Magnificent Reckless Poison",
+    "priority": 9,
+    "duration": 1800,
+    "warn_time": 0.0,
+    "online_timestamp": false,
+    "beneficial": false,
+    "icon_asset_name": "\\u00C8",
+    "stats": [
+      {
+        "id": "MaxStamina",
+        "value": -0.6,
+        "is_pct": true
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
     "id": 1318138218,
     "buff_type_id": 1204575210,
     "description": "Magnificent Healing Potion",
@@ -4261,6 +4618,51 @@
         "id": "ActiveStaminaRegenRate",
         "value": 0.17,
         "is_pct": false
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 1332707652,
+    "buff_type_id": 755187973,
+    "description": "Pristine Reckless Foraging Power",
+    "priority": 1,
+    "duration": 3600,
+    "warn_time": 5.0,
+    "online_timestamp": false,
+    "beneficial": true,
+    "icon_asset_name": "\\uFFE9",
+    "stats": [
+      {
+        "id": "ForagingPower",
+        "value": 3.0,
+        "is_pct": false
+      },
+      {
+        "id": "ForagingSpeed",
+        "value": 0.072,
+        "is_pct": true
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 1342421620,
+    "buff_type_id": 1995298307,
+    "description": "Peerless Reckless Poison",
+    "priority": 6,
+    "duration": 1800,
+    "warn_time": 0.0,
+    "online_timestamp": false,
+    "beneficial": false,
+    "icon_asset_name": "\\u00C8",
+    "stats": [
+      {
+        "id": "MaxStamina",
+        "value": -0.6,
+        "is_pct": true
       }
     ],
     "vfx": "",
@@ -4437,6 +4839,26 @@
     "vfx_attachment_point": "Origin"
   },
   {
+    "id": 1399411667,
+    "buff_type_id": 1995298307,
+    "description": "Basic Reckless Poison",
+    "priority": 1,
+    "duration": 1800,
+    "warn_time": 0.0,
+    "online_timestamp": false,
+    "beneficial": false,
+    "icon_asset_name": "\\u00C8",
+    "stats": [
+      {
+        "id": "MaxStamina",
+        "value": -0.6,
+        "is_pct": true
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
     "id": 1399948075,
     "buff_type_id": 1790361536,
     "description": "Level 3 Food Regen",
@@ -4558,6 +4980,20 @@
         "is_pct": false
       }
     ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 1421811657,
+    "buff_type_id": 1995298307,
+    "description": "Fine Antidote",
+    "priority": 4,
+    "duration": 1,
+    "warn_time": 0.0,
+    "online_timestamp": false,
+    "beneficial": true,
+    "icon_asset_name": "\\uFFE9",
+    "stats": [],
     "vfx": "",
     "vfx_attachment_point": "Origin"
   },
@@ -4842,6 +5278,31 @@
     "vfx_attachment_point": "Origin"
   },
   {
+    "id": 1507395685,
+    "buff_type_id": 755187973,
+    "description": "Flawless Reckless Foraging Power",
+    "priority": 1,
+    "duration": 3600,
+    "warn_time": 5.0,
+    "online_timestamp": false,
+    "beneficial": true,
+    "icon_asset_name": "\\uFFE9",
+    "stats": [
+      {
+        "id": "ForagingPower",
+        "value": 4.0,
+        "is_pct": false
+      },
+      {
+        "id": "ForagingSpeed",
+        "value": 0.084,
+        "is_pct": true
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
     "id": 1509772875,
     "buff_type_id": 861783812,
     "description": "Level 4 Deluxe Combat Cooldown",
@@ -4895,6 +5356,31 @@
       {
         "id": "MovementMultiplier",
         "value": 0.045,
+        "is_pct": true
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 1524598269,
+    "buff_type_id": 755187973,
+    "description": "Ornate Reckless Foraging Power",
+    "priority": 1,
+    "duration": 3600,
+    "warn_time": 5.0,
+    "online_timestamp": false,
+    "beneficial": true,
+    "icon_asset_name": "\\uFFE9",
+    "stats": [
+      {
+        "id": "ForagingPower",
+        "value": 2.0,
+        "is_pct": false
+      },
+      {
+        "id": "ForagingSpeed",
+        "value": 0.066,
         "is_pct": true
       }
     ],
@@ -5266,6 +5752,20 @@
     "vfx_attachment_point": "Origin"
   },
   {
+    "id": 1607830528,
+    "buff_type_id": 1995298307,
+    "description": "Simple Antidote",
+    "priority": 2,
+    "duration": 1,
+    "warn_time": 0.0,
+    "online_timestamp": false,
+    "beneficial": true,
+    "icon_asset_name": "\\uFFE9",
+    "stats": [],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
     "id": 1609260822,
     "buff_type_id": 861783812,
     "description": "High Quality EXP Pie",
@@ -5401,6 +5901,20 @@
     "vfx_attachment_point": "Origin"
   },
   {
+    "id": 1636266792,
+    "buff_type_id": 1995298307,
+    "description": "Infused Antidote",
+    "priority": 3,
+    "duration": 1,
+    "warn_time": 0.0,
+    "online_timestamp": false,
+    "beneficial": true,
+    "icon_asset_name": "\\uFFE9",
+    "stats": [],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
     "id": 1640131462,
     "buff_type_id": 861783812,
     "description": "Level 7 Deluxe Construction Speed",
@@ -5422,6 +5936,20 @@
         "is_pct": false
       }
     ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 1684654589,
+    "buff_type_id": 1995298307,
+    "description": "Exquisite Antidote",
+    "priority": 5,
+    "duration": 1,
+    "warn_time": 0.0,
+    "online_timestamp": false,
+    "beneficial": true,
+    "icon_asset_name": "\\uFFE9",
+    "stats": [],
     "vfx": "",
     "vfx_attachment_point": "Origin"
   },
@@ -5826,6 +6354,40 @@
     "vfx_attachment_point": "Origin"
   },
   {
+    "id": 1819822169,
+    "buff_type_id": 1995298307,
+    "description": "Magnificent Antidote",
+    "priority": 9,
+    "duration": 1,
+    "warn_time": 0.0,
+    "online_timestamp": false,
+    "beneficial": true,
+    "icon_asset_name": "\\uFFE9",
+    "stats": [],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 1844345101,
+    "buff_type_id": 1995298307,
+    "description": "Simple Reckless Poison",
+    "priority": 2,
+    "duration": 1800,
+    "warn_time": 0.0,
+    "online_timestamp": false,
+    "beneficial": false,
+    "icon_asset_name": "\\u00C8",
+    "stats": [
+      {
+        "id": "MaxStamina",
+        "value": -0.6,
+        "is_pct": true
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
     "id": 1845851314,
     "buff_type_id": 14,
     "description": "Sprint",
@@ -6111,6 +6673,31 @@
     "vfx_attachment_point": "Origin"
   },
   {
+    "id": 1898707022,
+    "buff_type_id": 111332504,
+    "description": "Preserved Mushroom",
+    "priority": 0,
+    "duration": 10,
+    "warn_time": 2.0,
+    "online_timestamp": false,
+    "beneficial": true,
+    "icon_asset_name": "\\uFFE9",
+    "stats": [
+      {
+        "id": "ForagingSpeed",
+        "value": 0.1,
+        "is_pct": true
+      },
+      {
+        "id": "ActiveStaminaRegenRate",
+        "value": 0.2,
+        "is_pct": false
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
     "id": 1923161495,
     "buff_type_id": 861783812,
     "description": "Level 1 Deluxe Construction Speed",
@@ -6356,6 +6943,20 @@
     "vfx_attachment_point": "Origin"
   },
   {
+    "id": 1989431730,
+    "buff_type_id": 1995298307,
+    "description": "Ornate Antidote",
+    "priority": 7,
+    "duration": 1,
+    "warn_time": 0.0,
+    "online_timestamp": false,
+    "beneficial": true,
+    "icon_asset_name": "\\uFFE9",
+    "stats": [],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
     "id": 1993372253,
     "buff_type_id": 861783812,
     "description": "Level 9 Combat Cooldown",
@@ -6421,6 +7022,20 @@
     "vfx_attachment_point": "Origin"
   },
   {
+    "id": 2064083630,
+    "buff_type_id": 1995298307,
+    "description": "Basic Antidote",
+    "priority": 1,
+    "duration": 1,
+    "warn_time": 0.0,
+    "online_timestamp": false,
+    "beneficial": true,
+    "icon_asset_name": "\\uFFE9",
+    "stats": [],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
     "id": 2069367650,
     "buff_type_id": 2041496537,
     "description": "Soda Armor Buff",
@@ -6440,6 +7055,31 @@
         "id": "HeatProtection",
         "value": 10.0,
         "is_pct": false
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 2074008662,
+    "buff_type_id": 755187973,
+    "description": "Infused Reckless Foraging Power",
+    "priority": 1,
+    "duration": 3600,
+    "warn_time": 5.0,
+    "online_timestamp": false,
+    "beneficial": true,
+    "icon_asset_name": "\\uFFE9",
+    "stats": [
+      {
+        "id": "ForagingPower",
+        "value": 1.0,
+        "is_pct": false
+      },
+      {
+        "id": "ForagingSpeed",
+        "value": 0.042,
+        "is_pct": true
       }
     ],
     "vfx": "",
@@ -6534,6 +7174,26 @@
       {
         "id": "FishingPower",
         "value": -24.0,
+        "is_pct": false
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 2103240282,
+    "buff_type_id": 1787860995,
+    "description": "Splintered Precision",
+    "priority": 0,
+    "duration": 5,
+    "warn_time": 0.0,
+    "online_timestamp": false,
+    "beneficial": true,
+    "icon_asset_name": "\\uFFE5",
+    "stats": [
+      {
+        "id": "CarpentryCritChance",
+        "value": 0.5,
         "is_pct": false
       }
     ],
