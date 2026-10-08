@@ -67700,6 +67700,32 @@
           }
         },
         {
+          "source_name": "delete_translation_correction",
+          "params": {
+            "elements": [
+              {
+                "name": {
+                  "some": "id"
+                },
+                "algebraic_type": {
+                  "U64": []
+                }
+              }
+            ]
+          },
+          "visibility": {
+            "ClientCallable": []
+          },
+          "ok_return_type": {
+            "Product": {
+              "elements": []
+            }
+          },
+          "err_return_type": {
+            "String": []
+          }
+        },
+        {
           "source_name": "edit_chat_channel",
           "params": {
             "elements": [
@@ -73692,6 +73718,40 @@
                 },
                 "algebraic_type": {
                   "U64": []
+                }
+              }
+            ]
+          },
+          "visibility": {
+            "ClientCallable": []
+          },
+          "ok_return_type": {
+            "Product": {
+              "elements": []
+            }
+          },
+          "err_return_type": {
+            "String": []
+          }
+        },
+        {
+          "source_name": "remove_official_translator",
+          "params": {
+            "elements": [
+              {
+                "name": {
+                  "some": "player_entity_id"
+                },
+                "algebraic_type": {
+                  "U64": []
+                }
+              },
+              {
+                "name": {
+                  "some": "lang"
+                },
+                "algebraic_type": {
+                  "String": []
                 }
               }
             ]
@@ -80418,6 +80478,12 @@
           },
           {
             "Function": {
+              "source_name": "delete_translation_correction",
+              "canonical_name": "delete_translation_correction"
+            }
+          },
+          {
+            "Function": {
               "source_name": "edit_chat_channel",
               "canonical_name": "edit_chat_channel"
             }
@@ -81710,6 +81776,12 @@
             "Function": {
               "source_name": "remove_friend",
               "canonical_name": "remove_friend"
+            }
+          },
+          {
+            "Function": {
+              "source_name": "remove_official_translator",
+              "canonical_name": "remove_official_translator"
             }
           },
           {

@@ -93369,6 +93369,23 @@
           }
         },
         {
+          "source_name": "migrate_duplicate_equipment_slots",
+          "params": {
+            "elements": []
+          },
+          "visibility": {
+            "ClientCallable": []
+          },
+          "ok_return_type": {
+            "Product": {
+              "elements": []
+            }
+          },
+          "err_return_type": {
+            "String": []
+          }
+        },
+        {
           "source_name": "migrate_equipment_slots",
           "params": {
             "elements": []
@@ -95499,6 +95516,23 @@
                 }
               }
             ]
+          },
+          "visibility": {
+            "ClientCallable": []
+          },
+          "ok_return_type": {
+            "Product": {
+              "elements": []
+            }
+          },
+          "err_return_type": {
+            "String": []
+          }
+        },
+        {
+          "source_name": "prospect_cancel",
+          "params": {
+            "elements": []
           },
           "visibility": {
             "ClientCallable": []
@@ -107179,6 +107213,12 @@
           },
           {
             "Function": {
+              "source_name": "migrate_duplicate_equipment_slots",
+              "canonical_name": "migrate_duplicate_equipment_slots"
+            }
+          },
+          {
+            "Function": {
               "source_name": "migrate_equipment_slots",
               "canonical_name": "migrate_equipment_slots"
             }
@@ -107673,6 +107713,12 @@
             "Function": {
               "source_name": "prospect",
               "canonical_name": "prospect"
+            }
+          },
+          {
+            "Function": {
+              "source_name": "prospect_cancel",
+              "canonical_name": "prospect_cancel"
             }
           },
           {
