@@ -21,7 +21,16 @@
     "global_cooldown": 0.0,
     "linked_ability_buff_desc_id": 0,
     "animation": "None",
-    "icon_path": "UI/axe-hewing-strike"
+    "icon_path": "UI/axe-hewing-strike",
+    "required_buff_ids": [],
+    "consume_required_buff": false,
+    "perform_profession_hit": false,
+    "profession_hit_bonus_damage": 0,
+    "profession_hit_skill_id": 1,
+    "description": "Set a steady chopping rhythm, increasing forestry speed for 20 seconds.",
+    "input_item_stacks": [],
+    "output_item_stacks": [],
+    "spawned_placeables": []
   },
   {
     "id": 507359262,
@@ -45,7 +54,16 @@
     "global_cooldown": 0.0,
     "linked_ability_buff_desc_id": 0,
     "animation": "None",
-    "icon_path": "UI/fishing-letitrun"
+    "icon_path": "UI/fishing-letitrun",
+    "required_buff_ids": [],
+    "consume_required_buff": false,
+    "perform_profession_hit": false,
+    "profession_hit_bonus_damage": 0,
+    "profession_hit_skill_id": 1,
+    "description": "Ease your pace to increase fishing power at the cost of crafting and gathering speed for 5 seconds.",
+    "input_item_stacks": [],
+    "output_item_stacks": [],
+    "spawned_placeables": []
   },
   {
     "id": 594765058,
@@ -69,7 +87,57 @@
     "global_cooldown": 0.0,
     "linked_ability_buff_desc_id": 0,
     "animation": "",
-    "icon_path": "UI/general-sprint"
+    "icon_path": "UI/general-sprint",
+    "required_buff_ids": [],
+    "consume_required_buff": false,
+    "perform_profession_hit": false,
+    "profession_hit_bonus_damage": 0,
+    "profession_hit_skill_id": 1,
+    "description": "Surge forward, increasing movement speed by 40% for 15 seconds.",
+    "input_item_stacks": [],
+    "output_item_stacks": [],
+    "spawned_placeables": []
+  },
+  {
+    "id": 894623801,
+    "ability_name": "Equip Gem Tipped Arrows",
+    "stamina_cost": 0,
+    "health_cost": 0,
+    "cast_time": 0.0,
+    "range": 0.0,
+    "friendly": true,
+    "radius": 0.0,
+    "buffs": [
+      {
+        "buff_id": 63316579,
+        "duration": null
+      }
+    ],
+    "buff_toggle": false,
+    "damage": 0,
+    "threat_value": 0.0,
+    "cooldown": 0.0,
+    "global_cooldown": 0.0,
+    "linked_ability_buff_desc_id": 0,
+    "animation": "None",
+    "icon_path": "UI/crossbow-snipersstance",
+    "required_buff_ids": [],
+    "consume_required_buff": false,
+    "perform_profession_hit": false,
+    "profession_hit_bonus_damage": 0,
+    "profession_hit_skill_id": 1,
+    "description": "Consume a gem tipped arrow to increase hunting weapon power for 1 hour.",
+    "input_item_stacks": [
+      {
+        "item_id": 1844110963,
+        "quantity": 1,
+        "item_type": "Item",
+        "discovery_score": 0,
+        "consumption_chance": 1.0
+      }
+    ],
+    "output_item_stacks": [],
+    "spawned_placeables": []
   },
   {
     "id": 933265452,
@@ -93,7 +161,16 @@
     "global_cooldown": 0.0,
     "linked_ability_buff_desc_id": 0,
     "animation": "None",
-    "icon_path": "UI/pickaxe-heavy-swings"
+    "icon_path": "UI/pickaxe-heavy-swings",
+    "required_buff_ids": [],
+    "consume_required_buff": false,
+    "perform_profession_hit": false,
+    "profession_hit_bonus_damage": 0,
+    "profession_hit_skill_id": 1,
+    "description": "Put your weight behind each swing, increasing mining power for 20 seconds.",
+    "input_item_stacks": [],
+    "output_item_stacks": [],
+    "spawned_placeables": []
   },
   {
     "id": 1052553567,
@@ -117,7 +194,57 @@
     "global_cooldown": 0.0,
     "linked_ability_buff_desc_id": 0,
     "animation": "None",
-    "icon_path": "UI/axe-pull-up"
+    "icon_path": "UI/axe-pull-up",
+    "required_buff_ids": [],
+    "consume_required_buff": false,
+    "perform_profession_hit": false,
+    "profession_hit_bonus_damage": 0,
+    "profession_hit_skill_id": 1,
+    "description": "Drive your axe into stubborn roots, briefly increasing forestry speed.",
+    "input_item_stacks": [],
+    "output_item_stacks": [],
+    "spawned_placeables": []
+  },
+  {
+    "id": 1620822450,
+    "ability_name": "Equip Bone Tipped Arrows",
+    "stamina_cost": 0,
+    "health_cost": 0,
+    "cast_time": 0.0,
+    "range": 0.0,
+    "friendly": true,
+    "radius": 0.0,
+    "buffs": [
+      {
+        "buff_id": 2139490131,
+        "duration": null
+      }
+    ],
+    "buff_toggle": false,
+    "damage": 0,
+    "threat_value": 0.0,
+    "cooldown": 0.0,
+    "global_cooldown": 0.0,
+    "linked_ability_buff_desc_id": 0,
+    "animation": "None",
+    "icon_path": "UI/crossbow-snipersstance",
+    "required_buff_ids": [],
+    "consume_required_buff": false,
+    "perform_profession_hit": false,
+    "profession_hit_bonus_damage": 0,
+    "profession_hit_skill_id": 1,
+    "description": "Consume a bone tipped arrow to increase hunting weapon power for 1 hour.",
+    "input_item_stacks": [
+      {
+        "item_id": 858968286,
+        "quantity": 1,
+        "item_type": "Item",
+        "discovery_score": 0,
+        "consumption_chance": 1.0
+      }
+    ],
+    "output_item_stacks": [],
+    "spawned_placeables": []
   },
   {
     "id": 1712453216,
@@ -141,6 +268,15 @@
     "global_cooldown": 0.0,
     "linked_ability_buff_desc_id": 0,
     "animation": "None",
-    "icon_path": "UI/fishing-reelin"
+    "icon_path": "UI/fishing-reelin",
+    "required_buff_ids": [],
+    "consume_required_buff": false,
+    "perform_profession_hit": false,
+    "profession_hit_bonus_damage": 0,
+    "profession_hit_skill_id": 1,
+    "description": "Reel with renewed focus, increasing fishing speed for 5 seconds.",
+    "input_item_stacks": [],
+    "output_item_stacks": [],
+    "spawned_placeables": []
   }
 ]
