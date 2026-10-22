@@ -3726,7 +3726,7 @@
   {
     "id": 1080003,
     "name": "Animal Bones",
-    "description": "A few small pieces of bone. Could be processed into glue in a kiln.",
+    "description": "A few small pieces of bone. Could be processed into bone arrows at a hunting workstation.",
     "volume": 200,
     "durability": 0,
     "convert_to_on_durability_zero": 0,
@@ -10470,7 +10470,7 @@
   },
   {
     "id": 2220033,
-    "name": "T2 Hierogylphs Output",
+    "name": "T2 Hieroglyphs Output",
     "description": "",
     "volume": 6000,
     "durability": 0,
@@ -10479,7 +10479,7 @@
     "model_asset_name": "",
     "icon_asset_name": "GeneratedIcons/Items/StoneCarving",
     "tier": 2,
-    "tag": "Hierogylphs Output",
+    "tag": "Hieroglyphs Output",
     "rarity": [
       1,
       {}
@@ -13548,7 +13548,7 @@
   },
   {
     "id": 3220033,
-    "name": "T3 Hierogylphs Output",
+    "name": "T3 Hieroglyphs Output",
     "description": "",
     "volume": 6000,
     "durability": 0,
@@ -13557,7 +13557,7 @@
     "model_asset_name": "",
     "icon_asset_name": "GeneratedIcons/Items/StoneCarving",
     "tier": 3,
-    "tag": "Hierogylphs Output",
+    "tag": "Hieroglyphs Output",
     "rarity": [
       1,
       {}
@@ -16474,7 +16474,7 @@
   },
   {
     "id": 4220033,
-    "name": "T4 Hierogylphs Output",
+    "name": "T4 Hieroglyphs Output",
     "description": "",
     "volume": 6000,
     "durability": 0,
@@ -16483,7 +16483,7 @@
     "model_asset_name": "",
     "icon_asset_name": "GeneratedIcons/Items/StoneCarving",
     "tier": 4,
-    "tag": "Hierogylphs Output",
+    "tag": "Hieroglyphs Output",
     "rarity": [
       1,
       {}
@@ -19362,7 +19362,7 @@
   },
   {
     "id": 5220033,
-    "name": "T5 Hierogylphs Output",
+    "name": "T5 Hieroglyphs Output",
     "description": "",
     "volume": 6000,
     "durability": 0,
@@ -19371,7 +19371,7 @@
     "model_asset_name": "",
     "icon_asset_name": "GeneratedIcons/Items/StoneCarving",
     "tier": 5,
-    "tag": "Hierogylphs Output",
+    "tag": "Hieroglyphs Output",
     "rarity": [
       1,
       {}
@@ -22307,7 +22307,7 @@
   },
   {
     "id": 6220033,
-    "name": "T6 Hierogylphs Output",
+    "name": "T6 Hieroglyphs Output",
     "description": "",
     "volume": 6000,
     "durability": 0,
@@ -22316,7 +22316,7 @@
     "model_asset_name": "",
     "icon_asset_name": "GeneratedIcons/Items/StoneCarving",
     "tier": 6,
-    "tag": "Hierogylphs Output",
+    "tag": "Hieroglyphs Output",
     "rarity": [
       1,
       {}
@@ -23731,6 +23731,25 @@
     "item_list_id": 0
   },
   {
+    "id": 26152427,
+    "name": "Hourglass Sand 2 Drop",
+    "description": "A fragment of an ancient hour glass of some kind. It has something written on it but you can't make it out.",
+    "volume": 600,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Items/Glass",
+    "tier": -1,
+    "tag": "Scholar Ingredient",
+    "rarity": [
+      3,
+      {}
+    ],
+    "compendium_entry": false,
+    "item_list_id": 202735762
+  },
+  {
     "id": 26165067,
     "name": "Deed: Pet Dromai",
     "description": "A small Sagi Bird that has feathers similar to the ones seen in the Desert. Will never grow. Right Click and add to your vault to be able to summon him.",
@@ -23864,6 +23883,25 @@
     "item_list_id": 0
   },
   {
+    "id": 27436825,
+    "name": "Magnificent Animal Lure",
+    "description": "A collection of animal feed that would be attractive to huntable enemies. Huntable enemies will frequently appear near it and will have less movement speed and health.",
+    "volume": 600,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Items/AnimalLure",
+    "tier": 9,
+    "tag": "AnimalLure",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
     "id": 27458919,
     "name": "Peerless Wood Polish",
     "description": "Polish that can be used to enhance wood planks. Made by a scholar from Resin and Crop Oil.",
@@ -23877,6 +23915,25 @@
     "tag": "Wood Polish",
     "rarity": [
       4,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
+    "id": 27730194,
+    "name": "Sturdy Snap Trap",
+    "description": "A trap that could be used to catch and kill a huntable animal. The trap can sometimes break when an animal is caught.",
+    "volume": 600,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Items/Snaptrap",
+    "tier": 3,
+    "tag": "Snap Trap",
+    "rarity": [
+      1,
       {}
     ],
     "compendium_entry": true,
@@ -24111,6 +24168,25 @@
     "item_list_id": 0
   },
   {
+    "id": 30149628,
+    "name": "Hourglass Sand",
+    "description": "This sand is an odd texture and would be suited to particular uses. Maybe a scholar could make use of it?",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Items/Sand",
+    "tier": -1,
+    "tag": "Sand",
+    "rarity": [
+      3,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
     "id": 31385178,
     "name": "Umbracite Duelist Legguards",
     "description": "",
@@ -24146,6 +24222,25 @@
       {}
     ],
     "compendium_entry": false,
+    "item_list_id": 0
+  },
+  {
+    "id": 32381065,
+    "name": "Sands of Time",
+    "description": "This sand is an odd texture and would be suited to particular uses. Maybe a scholar could make use of it?",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Items/Sand",
+    "tier": -1,
+    "tag": "Sand",
+    "rarity": [
+      4,
+      {}
+    ],
+    "compendium_entry": true,
     "item_list_id": 0
   },
   {
@@ -27116,7 +27211,7 @@
     "id": 82979680,
     "name": "The Linus That Got Away",
     "description": "This Linus has eluded fishermen for centuries. This comes with some incredible bragging rights...or you could just cut it up for some filets and fish oil.",
-    "volume": 6000,
+    "volume": 600,
     "durability": 0,
     "convert_to_on_durability_zero": 0,
     "secondary_knowledge_id": 0,
@@ -30603,6 +30698,25 @@
     "tag": "Metal Armor",
     "rarity": [
       6,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
+    "id": 135497243,
+    "name": "Pristine Snap Trap",
+    "description": "A trap that could be used to catch and kill a huntable animal. The trap can sometimes break when an animal is caught.",
+    "volume": 600,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Items/Snaptrap",
+    "tier": 8,
+    "tag": "Snap Trap",
+    "rarity": [
+      1,
       {}
     ],
     "compendium_entry": true,
@@ -35495,7 +35609,7 @@
     "id": 210962591,
     "name": "The Oxy That Got Away",
     "description": "This Oxy has eluded fishermen for centuries. This comes with some incredible bragging rights...or you could just cut it up for some filets and fish oil.",
-    "volume": 6000,
+    "volume": 600,
     "durability": 0,
     "convert_to_on_durability_zero": 0,
     "secondary_knowledge_id": 0,
@@ -35603,6 +35717,25 @@
       {}
     ],
     "compendium_entry": false,
+    "item_list_id": 0
+  },
+  {
+    "id": 213349126,
+    "name": "Witch's Hat",
+    "description": "A witch must of lost this amongst the pumpkins. ",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Other/Cosmetics/Head/WitchHat",
+    "tier": 2,
+    "tag": "Seasonal Cosmetic",
+    "rarity": [
+      4,
+      {}
+    ],
+    "compendium_entry": true,
     "item_list_id": 0
   },
   {
@@ -36483,7 +36616,7 @@
     "id": 227132028,
     "name": "The Selachii That Got Away",
     "description": "This Selachii has eluded fishermen for centuries. This comes with some incredible bragging rights...or you could just cut it up for some filets and fish oil.",
-    "volume": 6000,
+    "volume": 600,
     "durability": 0,
     "convert_to_on_durability_zero": 0,
     "secondary_knowledge_id": 0,
@@ -36725,6 +36858,25 @@
     ],
     "compendium_entry": false,
     "item_list_id": 1314914148
+  },
+  {
+    "id": 230439707,
+    "name": "Deed: Haunted Jack-o-Lantern",
+    "description": "The deed for a Carved Pumpkin.",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Other/HauntedJackoLantern",
+    "tier": -1,
+    "tag": "Deed",
+    "rarity": [
+      4,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
   },
   {
     "id": 230480763,
@@ -45733,6 +45885,25 @@
     "item_list_id": 1577898593
   },
   {
+    "id": 376637462,
+    "name": "Hourglass Fragment Drop",
+    "description": "A fragment of an ancient hour glass of some kind. It has something written on it but you can't make it out.",
+    "volume": 600,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Items/Glass",
+    "tier": -1,
+    "tag": "Scholar Ingredient",
+    "rarity": [
+      3,
+      {}
+    ],
+    "compendium_entry": false,
+    "item_list_id": 2092787307
+  },
+  {
     "id": 376968642,
     "name": "Fine Leather Leggings",
     "description": "",
@@ -47120,6 +47291,25 @@
     "item_list_id": 0
   },
   {
+    "id": 400827528,
+    "name": "Rangifer Antler",
+    "description": "A pristine rengifar antler. This inspires you to craft faster at the Hunting workbench.",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Items/RengifarAntler",
+    "tier": -1,
+    "tag": "Hunting Charm",
+    "rarity": [
+      3,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
     "id": 401302447,
     "name": "Umbracite Duelist Armor",
     "description": "",
@@ -47175,6 +47365,25 @@
     ],
     "compendium_entry": false,
     "item_list_id": 1961805011
+  },
+  {
+    "id": 401683957,
+    "name": "Simple Snap Trap",
+    "description": "A trap that could be used to catch and kill a huntable animal. The trap can sometimes break when an animal is caught.",
+    "volume": 600,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Items/Snaptrap",
+    "tier": 2,
+    "tag": "Snap Trap",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
   },
   {
     "id": 401814159,
@@ -47308,6 +47517,25 @@
     ],
     "compendium_entry": false,
     "item_list_id": 1339769202
+  },
+  {
+    "id": 405673006,
+    "name": "Hourglass Casing",
+    "description": "Casing for an hourglass. It has a different inscription on it than the fragment but you can't make it out.",
+    "volume": 600,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Items/Glass",
+    "tier": -1,
+    "tag": "Scholar Ingredient",
+    "rarity": [
+      4,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
   },
   {
     "id": 405878343,
@@ -50217,6 +50445,25 @@
     "item_list_id": 0
   },
   {
+    "id": 447701279,
+    "name": "Flawless Animal Lure",
+    "description": "A collection of animal feed that would be attractive to huntable enemies. Huntable enemies will frequently appear near it and will have less movement speed and health.",
+    "volume": 600,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Items/AnimalLure",
+    "tier": 10,
+    "tag": "AnimalLure",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
     "id": 448212639,
     "name": "Infused River Muck",
     "description": "Some river sand found in the sift collector. Full of various goodies...or not.",
@@ -51170,7 +51417,7 @@
     "id": 465028736,
     "name": "The Aulono That Got Away",
     "description": "This Aulono has eluded fishermen for centuries. This comes with some incredible bragging rights...or you could just cut it up for some filets and fish oil.",
-    "volume": 6000,
+    "volume": 600,
     "durability": 0,
     "convert_to_on_durability_zero": 0,
     "secondary_knowledge_id": 0,
@@ -56753,6 +57000,25 @@
     "item_list_id": 0
   },
   {
+    "id": 553161366,
+    "name": "Pristine Animal Lure",
+    "description": "A collection of animal feed that would be attractive to huntable enemies. Huntable enemies will frequently appear near it and will have less movement speed and health.",
+    "volume": 600,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Items/AnimalLure",
+    "tier": 8,
+    "tag": "AnimalLure",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
     "id": 554291192,
     "name": "Luminite Spear & Shield",
     "description": "A skillfully smithed spear and shield. The tools for a fighter who wants to taunt enemies and take damage.",
@@ -57486,6 +57752,25 @@
     "icon_asset_name": "Items/InsectBait",
     "tier": 9,
     "tag": "Chum",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
+    "id": 565359296,
+    "name": "Fine Snap Trap",
+    "description": "A trap that could be used to catch and kill a huntable animal. The trap can sometimes break when an animal is caught.",
+    "volume": 600,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Items/Snaptrap",
+    "tier": 4,
+    "tag": "Snap Trap",
     "rarity": [
       1,
       {}
@@ -67241,6 +67526,25 @@
     "item_list_id": 0
   },
   {
+    "id": 715293082,
+    "name": "Flawless Snap Trap",
+    "description": "A trap that could be used to catch and kill a huntable animal. The trap can sometimes break when an animal is caught.",
+    "volume": 600,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Items/Snaptrap",
+    "tier": 10,
+    "tag": "Snap Trap",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
     "id": 715765696,
     "name": "Auric Pan",
     "description": "A valuable that likely fell from some other boats cargo hold. Finders keepers! Svim would likely buy this.",
@@ -72447,6 +72751,25 @@
     "item_list_id": 0
   },
   {
+    "id": 801965051,
+    "name": "Rough Hunting Quiver",
+    "description": "A very simple quiver made from leather. Increases your hunting strength, allowing you to deal more damage to animals.",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Items/HuntingQuiver",
+    "tier": -1,
+    "tag": "Hunting Instrument",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
     "id": 802081280,
     "name": "Simple Crystalized Slime Amulet",
     "description": "A metal amulet made with a Crystalized Slime.",
@@ -72460,6 +72783,25 @@
     "tag": "Jewelry",
     "rarity": [
       3,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
+    "id": 802426546,
+    "name": "Peerless Animal Lure",
+    "description": "A collection of animal feed that would be attractive to huntable enemies. Huntable enemies will frequently appear near it and will have less movement speed and health.",
+    "volume": 600,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Items/AnimalLure",
+    "tier": 6,
+    "tag": "AnimalLure",
+    "rarity": [
+      1,
       {}
     ],
     "compendium_entry": true,
@@ -76038,6 +76380,44 @@
     "item_list_id": 1203985219
   },
   {
+    "id": 858968286,
+    "name": "Bone Tipped Arrows",
+    "description": "Simple arrows tipped with bone. Use these with your \"Equip Bone Tipped Arrows\" ability to increase your Hunting Strength for an hour.",
+    "volume": 60,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Items/HuntersArrow",
+    "tier": 1,
+    "tag": "Arrows",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
+    "id": 859002086,
+    "name": "Ornate Animal Lure",
+    "description": "A collection of animal feed that would be attractive to huntable enemies. Huntable enemies will frequently appear near it and will have less movement speed and health.",
+    "volume": 600,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Items/AnimalLure",
+    "tier": 7,
+    "tag": "AnimalLure",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
     "id": 859178162,
     "name": "Magnificent Stripped Wood",
     "description": "Strips of wood taken from a log from a tree. A skilled carpenter could form these into a plank to be used in construction or other crafting recipes.",
@@ -76345,7 +76725,7 @@
     "id": 865808986,
     "name": "The Gorbu That Got Away",
     "description": "This Gorbu has eluded fishermen for centuries. This comes with some incredible bragging rights...or you could just cut it up for some filets and fish oil.",
-    "volume": 6000,
+    "volume": 600,
     "durability": 0,
     "convert_to_on_durability_zero": 0,
     "secondary_knowledge_id": 0,
@@ -82802,6 +83182,25 @@
     "item_list_id": 679374124
   },
   {
+    "id": 977073986,
+    "name": "Gem Encrusted Quiver",
+    "description": "A very fancy quiver made of higher quality leather and encrusted with gems. Increases your hunting strength, allowing you to deal more damage to animals.",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Items/HuntingQuiver",
+    "tier": -1,
+    "tag": "Hunting Instrument",
+    "rarity": [
+      4,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
     "id": 977388886,
     "name": "Tier 1 One That Got Away Knowledge",
     "description": "You caught the one that got away! Slightly increases your fishing speed.",
@@ -83736,7 +84135,7 @@
     "id": 992460379,
     "name": "The Amia That Got Away",
     "description": "This Amia has eluded fishermen for centuries. This comes with some incredible bragging rights...or you could just cut it up for some filets and fish oil.",
-    "volume": 6000,
+    "volume": 600,
     "durability": 0,
     "convert_to_on_durability_zero": 0,
     "secondary_knowledge_id": 0,
@@ -85969,6 +86368,25 @@
     "tag": "Weapon",
     "rarity": [
       4,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
+    "id": 1024230627,
+    "name": "Basic Snap Trap",
+    "description": "A trap that could be used to catch and kill a huntable animal. The trap can sometimes break when an animal is caught.",
+    "volume": 600,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Items/Snaptrap",
+    "tier": 1,
+    "tag": "Snap Trap",
+    "rarity": [
+      1,
       {}
     ],
     "compendium_entry": true,
@@ -92340,6 +92758,25 @@
     "item_list_id": 986144653
   },
   {
+    "id": 1124041688,
+    "name": "Hourglass Fragment",
+    "description": "A fragment of an ancient hourglass of some kind. It has something written on it but you can't make it out.",
+    "volume": 600,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Items/Seaglass",
+    "tier": -1,
+    "tag": "Scholar Ingredient",
+    "rarity": [
+      3,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
     "id": 1124105212,
     "name": "Celestium Plated Legguards",
     "description": "",
@@ -94658,6 +95095,25 @@
     "item_list_id": 395247754
   },
   {
+    "id": 1155968455,
+    "name": "Makeshift River Platform",
+    "description": "A floating platform of lashed planks. Lets you walk over rivers and lakes. These ignore claim permissions for deconstruction, meaning anyone can deconstruct them on any claim. Ideal for making a quick river crossing. They decay in a few hours.",
+    "volume": 300,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Buildings/RiverPlatform",
+    "tier": 1,
+    "tag": "River Platform",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
     "id": 1156567689,
     "name": "Luminite Plated Boots",
     "description": "",
@@ -96271,6 +96727,25 @@
     ],
     "compendium_entry": false,
     "item_list_id": 1136976535
+  },
+  {
+    "id": 1184566940,
+    "name": "Doomsday Hourglass",
+    "description": "An inscription on the hourglass reads simply: \"Our time is running out. The Future is in our hands\".",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Items/Hourglass",
+    "tier": -1,
+    "tag": "Scholar Hourglass",
+    "rarity": [
+      3,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
   },
   {
     "id": 1184634453,
@@ -97943,6 +98418,25 @@
     ],
     "compendium_entry": false,
     "item_list_id": 534488309
+  },
+  {
+    "id": 1208954233,
+    "name": "Basic Animal Lure",
+    "description": "A collection of animal feed that would be attractive to huntable enemies. Huntable enemies will frequently appear near it and will have less movement speed and health.",
+    "volume": 600,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Items/AnimalLure",
+    "tier": 1,
+    "tag": "AnimalLure",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
   },
   {
     "id": 1209344851,
@@ -100912,7 +101406,7 @@
     "id": 1254737287,
     "name": "The Gladius That Got Away",
     "description": "This Gladius has eluded fishermen for centuries. This comes with some incredible bragging rights...or you could just cut it up for some filets and fish oil.",
-    "volume": 6000,
+    "volume": 600,
     "durability": 0,
     "convert_to_on_durability_zero": 0,
     "secondary_knowledge_id": 0,
@@ -104269,6 +104763,25 @@
       {}
     ],
     "compendium_entry": false,
+    "item_list_id": 0
+  },
+  {
+    "id": 1313515128,
+    "name": "Brittle Animal Bones",
+    "description": "A few small pieces of bone. Could be processed into bone arrows at a hunting workstation.",
+    "volume": 200,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Items/Bones",
+    "tier": -1,
+    "tag": "Bones",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": true,
     "item_list_id": 0
   },
   {
@@ -108091,6 +108604,25 @@
     "item_list_id": 0
   },
   {
+    "id": 1376403532,
+    "name": "Exquisite Animal Lure",
+    "description": "A collection of animal feed that would be attractive to huntable enemies. Huntable enemies will frequently appear near it and will have less movement speed and health.",
+    "volume": 600,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Items/AnimalLure",
+    "tier": 5,
+    "tag": "AnimalLure",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
     "id": 1376612754,
     "name": "Hex Coin Purse",
     "description": "A small purse containing Hex Coins that were lost in Rumbagh's shipment. Maybe you could steal one or two coins and he wouldn't notice...? Perhaps not, Rumbagh counts every coin.",
@@ -108930,7 +109462,7 @@
     "id": 1387829552,
     "name": "The Centro That Got Away",
     "description": "This Centro has eluded fishermen for centuries. This comes with some incredible bragging rights...or you could just cut it up for some filets and fish oil.",
-    "volume": 6000,
+    "volume": 600,
     "durability": 0,
     "convert_to_on_durability_zero": 0,
     "secondary_knowledge_id": 0,
@@ -114779,6 +115311,25 @@
     "item_list_id": 0
   },
   {
+    "id": 1474563345,
+    "name": "Peerless Snap Trap",
+    "description": "A trap that could be used to catch and kill a huntable animal. The trap can sometimes break when an animal is caught.",
+    "volume": 600,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Items/Snaptrap",
+    "tier": 6,
+    "tag": "Snap Trap",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
     "id": 1474639253,
     "name": "Aurumite Shortsword",
     "description": "",
@@ -115441,6 +115992,25 @@
       {}
     ],
     "compendium_entry": false,
+    "item_list_id": 0
+  },
+  {
+    "id": 1487006760,
+    "name": "Ornate Snap Trap",
+    "description": "A trap that could be used to catch and kill a huntable animal. The trap can sometimes break when an animal is caught.",
+    "volume": 600,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Items/Snaptrap",
+    "tier": 7,
+    "tag": "Snap Trap",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": true,
     "item_list_id": 0
   },
   {
@@ -118028,6 +118598,25 @@
     "item_list_id": 736672969
   },
   {
+    "id": 1523908304,
+    "name": "Simple Animal Lure",
+    "description": "A collection of animal feed that would be attractive to huntable enemies. Huntable enemies will frequently appear near it and will have less movement speed and health.",
+    "volume": 600,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Items/AnimalLure",
+    "tier": 2,
+    "tag": "AnimalLure",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
     "id": 1523953406,
     "name": "Rathium Spear & Shield",
     "description": "",
@@ -120097,6 +120686,25 @@
     ],
     "compendium_entry": true,
     "item_list_id": 0
+  },
+  {
+    "id": 1553304895,
+    "name": "Hourglass Sand Drop",
+    "description": "A fragment of an ancient hour glass of some kind. It has something written on it but you can't make it out.",
+    "volume": 600,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Items/Glass",
+    "tier": -1,
+    "tag": "Scholar Ingredient",
+    "rarity": [
+      3,
+      {}
+    ],
+    "compendium_entry": false,
+    "item_list_id": 21377950
   },
   {
     "id": 1553323502,
@@ -130834,6 +131442,25 @@
     "item_list_id": 1684035493
   },
   {
+    "id": 1726020551,
+    "name": "Hourglass Casing Drop",
+    "description": "A fragment of an ancient hour glass of some kind. It has something written on it but you can't make it out.",
+    "volume": 600,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Items/Glass",
+    "tier": -1,
+    "tag": "Scholar Ingredient",
+    "rarity": [
+      3,
+      {}
+    ],
+    "compendium_entry": false,
+    "item_list_id": 1802815590
+  },
+  {
     "id": 1726135200,
     "name": "Cabana Trendsetter Gloves",
     "description": "",
@@ -130866,6 +131493,25 @@
     "tag": "Journal",
     "rarity": [
       1,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
+    "id": 1726489406,
+    "name": "Futuremaker's Hourglass",
+    "description": "The sand in the Hourglass refills as it drains, never running out. A second inscription has been uncovered that reads: \"The future is secured. Peace at last\".",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Items/Hourglass",
+    "tier": -1,
+    "tag": "Scholar Hourglass",
+    "rarity": [
+      4,
       {}
     ],
     "compendium_entry": true,
@@ -138643,6 +139289,25 @@
     "item_list_id": 0
   },
   {
+    "id": 1844110963,
+    "name": "Gem Tipped Arrows",
+    "description": "Simple arrows tipped with bone. Use these with your \"Equip Gem Tipped Arrows\" ability to increase your Hunting Strength for an hour.",
+    "volume": 60,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Items/HuntersArrow",
+    "tier": 5,
+    "tag": "Arrows",
+    "rarity": [
+      3,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
     "id": 1844264024,
     "name": "Elenvar Duelist Legguards",
     "description": "",
@@ -142823,6 +143488,25 @@
     "item_list_id": 0
   },
   {
+    "id": 1901183311,
+    "name": "Sturdy Animal Lure",
+    "description": "A collection of animal feed that would be attractive to huntable enemies. Huntable enemies will frequently appear near it and will have less movement speed and health.",
+    "volume": 600,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Items/AnimalLure",
+    "tier": 3,
+    "tag": "AnimalLure",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
     "id": 1901286144,
     "name": "Umbracite Rod",
     "description": "A fishing rod made from umbracite.",
@@ -146756,6 +147440,25 @@
     "item_list_id": 0
   },
   {
+    "id": 1956861643,
+    "name": "Exquisite Snap Trap",
+    "description": "A trap that could be used to catch and kill a huntable animal. The trap can sometimes break when an animal is caught.",
+    "volume": 600,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Items/Snaptrap",
+    "tier": 5,
+    "tag": "Snap Trap",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
     "id": 1957011220,
     "name": "Ornate Leather Boots",
     "description": "",
@@ -150233,6 +150936,25 @@
     "item_list_id": 0
   },
   {
+    "id": 2010463188,
+    "name": "Crude Hunting Knife",
+    "description": "A very simple and crude hunting knife made from pebbles from a mason. Better than nothing when working at a hunting station.",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "Items/CrudeBronzeKnife",
+    "tier": -1,
+    "tag": "Hunting Instrument",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
     "id": 2010587273,
     "name": "Aurumite Mace",
     "description": "A skillfully smithed mace. Somewhat blunt, but gets the point across.",
@@ -152133,6 +152855,25 @@
     "item_list_id": 229609214
   },
   {
+    "id": 2031090432,
+    "name": "Magnificent Snap Trap",
+    "description": "A trap that could be used to catch and kill a huntable animal. The trap can sometimes break when an animal is caught.",
+    "volume": 600,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Items/Snaptrap",
+    "tier": 9,
+    "tag": "Snap Trap",
+    "rarity": [
+      1,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
     "id": 2031124201,
     "name": "Cartwheel Fruit",
     "description": "A fruit that makes you pull carts faster. Only one fruit from the Maker's Tree can be active at a time.",
@@ -153504,7 +154245,7 @@
     "id": 2053932554,
     "name": "The Oncor That Got Away",
     "description": "This Oncor has eluded fishermen for centuries. This comes with some incredible bragging rights...or you could just cut it up for some filets and fish oil.",
-    "volume": 6000,
+    "volume": 600,
     "durability": 0,
     "convert_to_on_durability_zero": 0,
     "secondary_knowledge_id": 0,
@@ -156202,7 +156943,7 @@
     "id": 2102322217,
     "name": "The Janus That Got Away",
     "description": "This Janus has eluded fishermen for centuries. This comes with some incredible bragging rights...or you could just cut it up for some filets and fish oil.",
-    "volume": 6000,
+    "volume": 600,
     "durability": 0,
     "convert_to_on_durability_zero": 0,
     "secondary_knowledge_id": 0,
@@ -156465,6 +157206,25 @@
     "item_list_id": 2032818135
   },
   {
+    "id": 2106850644,
+    "name": "Deed: A Very Spooky Ghost",
+    "description": "The deed for a ghost that haunted the Sunflowers in the land. Very spooky but he seems friendly?",
+    "volume": 6000,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Other/SpookyGhost",
+    "tier": -1,
+    "tag": "Deed",
+    "rarity": [
+      4,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
     "id": 2106911373,
     "name": "Astralite Bow",
     "description": "A bow made from astralite.",
@@ -156706,6 +157466,25 @@
     "tag": "Premium Cosmetic",
     "rarity": [
       6,
+      {}
+    ],
+    "compendium_entry": true,
+    "item_list_id": 0
+  },
+  {
+    "id": 2111634493,
+    "name": "Fine Animal Lure",
+    "description": "A collection of animal feed that would be attractive to huntable enemies. Huntable enemies will frequently appear near it and will have less movement speed and health.",
+    "volume": 600,
+    "durability": 0,
+    "convert_to_on_durability_zero": 0,
+    "secondary_knowledge_id": 0,
+    "model_asset_name": "",
+    "icon_asset_name": "GeneratedIcons/Items/AnimalLure",
+    "tier": 4,
+    "tag": "AnimalLure",
+    "rarity": [
+      1,
       {}
     ],
     "compendium_entry": true,
