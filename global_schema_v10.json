@@ -32511,6 +32511,36 @@
               "elements": [
                 {
                   "name": {
+                    "some": "metric"
+                  },
+                  "algebraic_type": {
+                    "U8": []
+                  }
+                },
+                {
+                  "name": {
+                    "some": "threshold_hours"
+                  },
+                  "algebraic_type": {
+                    "I32": []
+                  }
+                },
+                {
+                  "name": {
+                    "some": "alert_enabled"
+                  },
+                  "algebraic_type": {
+                    "Bool": []
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "Product": {
+              "elements": [
+                {
+                  "name": {
                     "some": "text_type"
                   },
                   "algebraic_type": {
@@ -32921,7 +32951,7 @@
                     "some": "status"
                   },
                   "algebraic_type": {
-                    "Ref": 466
+                    "Ref": 467
                   }
                 },
                 {
@@ -33426,7 +33456,7 @@
                   },
                   "algebraic_type": {
                     "Array": {
-                      "Ref": 473
+                      "Ref": 474
                     }
                   }
                 },
@@ -33451,7 +33481,7 @@
                           },
                           "algebraic_type": {
                             "Array": {
-                              "Ref": 474
+                              "Ref": 475
                             }
                           }
                         },
@@ -33714,7 +33744,7 @@
                           },
                           "algebraic_type": {
                             "Array": {
-                              "Ref": 474
+                              "Ref": 475
                             }
                           }
                         },
@@ -34298,7 +34328,7 @@
                     "some": "severity"
                   },
                   "algebraic_type": {
-                    "Ref": 485
+                    "Ref": 486
                   }
                 }
               ]
@@ -35243,7 +35273,7 @@
                   },
                   "algebraic_type": {
                     "Array": {
-                      "Ref": 501
+                      "Ref": 502
                     }
                   }
                 },
@@ -35253,7 +35283,7 @@
                   },
                   "algebraic_type": {
                     "Array": {
-                      "Ref": 503
+                      "Ref": 504
                     }
                   }
                 },
@@ -35263,7 +35293,7 @@
                   },
                   "algebraic_type": {
                     "Array": {
-                      "Ref": 503
+                      "Ref": 504
                     }
                   }
                 },
@@ -35294,7 +35324,7 @@
                     "some": "PaddingNone"
                   },
                   "algebraic_type": {
-                    "Ref": 502
+                    "Ref": 503
                   }
                 },
                 {
@@ -35394,7 +35424,7 @@
                     "some": "PaddingNone"
                   },
                   "algebraic_type": {
-                    "Ref": 502
+                    "Ref": 503
                   }
                 },
                 {
@@ -35535,7 +35565,7 @@
                   },
                   "algebraic_type": {
                     "Array": {
-                      "Ref": 506
+                      "Ref": 507
                     }
                   }
                 }
@@ -35550,7 +35580,7 @@
                     "some": "PaddingNone"
                   },
                   "algebraic_type": {
-                    "Ref": 502
+                    "Ref": 503
                   }
                 },
                 {
@@ -35558,7 +35588,7 @@
                     "some": "ItemStack"
                   },
                   "algebraic_type": {
-                    "Ref": 507
+                    "Ref": 508
                   }
                 },
                 {
@@ -35916,7 +35946,7 @@
                     "some": "subject_type"
                   },
                   "algebraic_type": {
-                    "Ref": 519
+                    "Ref": 520
                   }
                 },
                 {
@@ -35924,7 +35954,7 @@
                     "some": "data"
                   },
                   "algebraic_type": {
-                    "Ref": 520
+                    "Ref": 521
                   }
                 },
                 {
@@ -35981,7 +36011,7 @@
                     "some": "Reserved"
                   },
                   "algebraic_type": {
-                    "Ref": 521
+                    "Ref": 522
                   }
                 },
                 {
@@ -36095,7 +36125,7 @@
                     "some": "placeholder_skill_type"
                   },
                   "algebraic_type": {
-                    "Ref": 524
+                    "Ref": 525
                   }
                 },
                 {
@@ -36103,7 +36133,7 @@
                     "some": "placeholder_buff_category"
                   },
                   "algebraic_type": {
-                    "Ref": 525
+                    "Ref": 526
                   }
                 },
                 {
@@ -36111,7 +36141,7 @@
                     "some": "placeholder"
                   },
                   "algebraic_type": {
-                    "Ref": 526
+                    "Ref": 527
                   }
                 },
                 {
@@ -36135,7 +36165,7 @@
                     "some": "permission"
                   },
                   "algebraic_type": {
-                    "Ref": 527
+                    "Ref": 528
                   }
                 },
                 {
@@ -36143,7 +36173,7 @@
                     "some": "permission_group"
                   },
                   "algebraic_type": {
-                    "Ref": 528
+                    "Ref": 529
                   }
                 },
                 {
@@ -36151,7 +36181,7 @@
                     "some": "ability_type"
                   },
                   "algebraic_type": {
-                    "Ref": 529
+                    "Ref": 530
                   }
                 }
               ]
@@ -37171,7 +37201,7 @@
                     "some": "visibility"
                   },
                   "algebraic_type": {
-                    "Ref": 511
+                    "Ref": 512
                   }
                 }
               ]
@@ -37239,7 +37269,7 @@
             "scope": [],
             "source_name": "TranslationCorrections"
           },
-          "ty": 531,
+          "ty": 532,
           "custom_ordering": true
         },
         {
@@ -37431,7 +37461,7 @@
             "scope": [],
             "source_name": "TerraformProgressState"
           },
-          "ty": 522,
+          "ty": 523,
           "custom_ordering": true
         },
         {
@@ -37511,7 +37541,7 @@
             "scope": [],
             "source_name": "TravelerTaskKnowledgeRequirementDesc"
           },
-          "ty": 516,
+          "ty": 517,
           "custom_ordering": true
         },
         {
@@ -37519,7 +37549,7 @@
             "scope": [],
             "source_name": "VisibilityState"
           },
-          "ty": 537,
+          "ty": 538,
           "custom_ordering": true
         },
         {
@@ -37567,7 +37597,7 @@
             "scope": [],
             "source_name": "ModViolationState"
           },
-          "ty": 459,
+          "ty": 460,
           "custom_ordering": true
         },
         {
@@ -37575,7 +37605,7 @@
             "scope": [],
             "source_name": "ItemStackCompletionCondition"
           },
-          "ty": 507,
+          "ty": 508,
           "custom_ordering": true
         },
         {
@@ -37583,7 +37613,7 @@
             "scope": [],
             "source_name": "AbilityTypeEnum"
           },
-          "ty": 529,
+          "ty": 530,
           "custom_ordering": true
         },
         {
@@ -37599,7 +37629,7 @@
             "scope": [],
             "source_name": "PlayerLowercaseUsernameState"
           },
-          "ty": 482,
+          "ty": 483,
           "custom_ordering": true
         },
         {
@@ -37655,7 +37685,7 @@
             "scope": [],
             "source_name": "PillarShapingDesc"
           },
-          "ty": 468,
+          "ty": 469,
           "custom_ordering": true
         },
         {
@@ -37663,7 +37693,7 @@
             "scope": [],
             "source_name": "PlaceableState"
           },
-          "ty": 477,
+          "ty": 478,
           "custom_ordering": true
         },
         {
@@ -37671,7 +37701,7 @@
             "scope": [],
             "source_name": "ColumnPad4u64"
           },
-          "ty": 502,
+          "ty": 503,
           "custom_ordering": true
         },
         {
@@ -37679,7 +37709,7 @@
             "scope": [],
             "source_name": "PlayerHousingCustomizationState"
           },
-          "ty": 479,
+          "ty": 480,
           "custom_ordering": true
         },
         {
@@ -37743,7 +37773,7 @@
             "scope": [],
             "source_name": "CompletionCondition"
           },
-          "ty": 506,
+          "ty": 507,
           "custom_ordering": true
         },
         {
@@ -37839,7 +37869,7 @@
             "scope": [],
             "source_name": "SingleResourceToClumpDesc"
           },
-          "ty": 513,
+          "ty": 514,
           "custom_ordering": true
         },
         {
@@ -37855,7 +37885,7 @@
             "scope": [],
             "source_name": "QuestRequirement"
           },
-          "ty": 501,
+          "ty": 502,
           "custom_ordering": true
         },
         {
@@ -37863,7 +37893,7 @@
             "scope": [],
             "source_name": "PillarShapingState"
           },
-          "ty": 469,
+          "ty": 470,
           "custom_ordering": true
         },
         {
@@ -37911,7 +37941,7 @@
             "scope": [],
             "source_name": "StageRewardsDesc"
           },
-          "ty": 515,
+          "ty": 516,
           "custom_ordering": true
         },
         {
@@ -38095,7 +38125,7 @@
             "scope": [],
             "source_name": "PlayerNotificationEvent"
           },
-          "ty": 484,
+          "ty": 485,
           "custom_ordering": true
         },
         {
@@ -38119,7 +38149,7 @@
             "scope": [],
             "source_name": "SkillType"
           },
-          "ty": 524,
+          "ty": 525,
           "custom_ordering": true
         },
         {
@@ -38135,7 +38165,7 @@
             "scope": [],
             "source_name": "TheGreatPlaceHolderTable"
           },
-          "ty": 523,
+          "ty": 524,
           "custom_ordering": true
         },
         {
@@ -38143,7 +38173,7 @@
             "scope": [],
             "source_name": "PlayerSetNameRequest"
           },
-          "ty": 488,
+          "ty": 489,
           "custom_ordering": true
         },
         {
@@ -38247,7 +38277,7 @@
             "scope": [],
             "source_name": "UnclaimedShardsState"
           },
-          "ty": 532,
+          "ty": 533,
           "custom_ordering": true
         },
         {
@@ -38319,7 +38349,7 @@
             "scope": [],
             "source_name": "ReservedNameDesc"
           },
-          "ty": 508,
+          "ty": 509,
           "custom_ordering": true
         },
         {
@@ -38367,7 +38397,7 @@
             "scope": [],
             "source_name": "ActionLogState"
           },
-          "ty": 518,
+          "ty": 519,
           "custom_ordering": true
         },
         {
@@ -38391,7 +38421,7 @@
             "scope": [],
             "source_name": "ModReplacementTextState"
           },
-          "ty": 456,
+          "ty": 457,
           "custom_ordering": true
         },
         {
@@ -38415,7 +38445,7 @@
             "scope": [],
             "source_name": "PlaceableGrowthDesc"
           },
-          "ty": 472,
+          "ty": 473,
           "custom_ordering": true
         },
         {
@@ -38455,7 +38485,7 @@
             "scope": [],
             "source_name": "BuffCategory"
           },
-          "ty": 525,
+          "ty": 526,
           "custom_ordering": true
         },
         {
@@ -38551,7 +38581,7 @@
             "scope": [],
             "source_name": "PreviousPlayerSkillsState"
           },
-          "ty": 495,
+          "ty": 496,
           "custom_ordering": true
         },
         {
@@ -38567,7 +38597,7 @@
             "scope": [],
             "source_name": "PlaceablePlacementDesc"
           },
-          "ty": 476,
+          "ty": 477,
           "custom_ordering": true
         },
         {
@@ -38615,7 +38645,7 @@
             "scope": [],
             "source_name": "PlaceableGrowthOutcome"
           },
-          "ty": 473,
+          "ty": 474,
           "custom_ordering": true
         },
         {
@@ -38655,7 +38685,7 @@
             "scope": [],
             "source_name": "NotificationSeverity"
           },
-          "ty": 485,
+          "ty": 486,
           "custom_ordering": true
         },
         {
@@ -38783,7 +38813,7 @@
             "scope": [],
             "source_name": "ThreatState"
           },
-          "ty": 530,
+          "ty": 531,
           "custom_ordering": true
         },
         {
@@ -38935,7 +38965,7 @@
             "scope": [],
             "source_name": "PlayerShardState"
           },
-          "ty": 489,
+          "ty": 490,
           "custom_ordering": true
         },
         {
@@ -38951,7 +38981,7 @@
             "scope": [],
             "source_name": "PlaceableGrowthOutcomeV2"
           },
-          "ty": 474,
+          "ty": 475,
           "custom_ordering": true
         },
         {
@@ -38983,7 +39013,7 @@
             "scope": [],
             "source_name": "ProspectingDesc"
           },
-          "ty": 497,
+          "ty": 498,
           "custom_ordering": true
         },
         {
@@ -38999,7 +39029,7 @@
             "scope": [],
             "source_name": "PreviousPlayerUsernameState"
           },
-          "ty": 496,
+          "ty": 497,
           "custom_ordering": true
         },
         {
@@ -39079,7 +39109,7 @@
             "scope": [],
             "source_name": "SkillLevelKnowledgeDesc"
           },
-          "ty": 514,
+          "ty": 515,
           "custom_ordering": true
         },
         {
@@ -39087,7 +39117,7 @@
             "scope": [],
             "source_name": "PlayerHousingMovingCostState"
           },
-          "ty": 481,
+          "ty": 482,
           "custom_ordering": true
         },
         {
@@ -39095,7 +39125,7 @@
             "scope": [],
             "source_name": "UserPreviousRegionState"
           },
-          "ty": 535,
+          "ty": 536,
           "custom_ordering": true
         },
         {
@@ -39191,7 +39221,7 @@
             "scope": [],
             "source_name": "PlayerSignInRequest"
           },
-          "ty": 512,
+          "ty": 513,
           "custom_ordering": true
         },
         {
@@ -39271,7 +39301,7 @@
             "scope": [],
             "source_name": "PremiumPurchaseState"
           },
-          "ty": 493,
+          "ty": 494,
           "custom_ordering": true
         },
         {
@@ -39279,7 +39309,7 @@
             "scope": [],
             "source_name": "PassiveCraftStatus"
           },
-          "ty": 466,
+          "ty": 467,
           "custom_ordering": true
         },
         {
@@ -39327,7 +39357,7 @@
             "scope": [],
             "source_name": "PassiveCraftState"
           },
-          "ty": 465,
+          "ty": 466,
           "custom_ordering": true
         },
         {
@@ -39335,7 +39365,7 @@
             "scope": [],
             "source_name": "PlayerNoteState"
           },
-          "ty": 483,
+          "ty": 484,
           "custom_ordering": true
         },
         {
@@ -39367,7 +39397,7 @@
             "scope": [],
             "source_name": "UserCreationTimestampState"
           },
-          "ty": 533,
+          "ty": 534,
           "custom_ordering": true
         },
         {
@@ -39399,7 +39429,7 @@
             "scope": [],
             "source_name": "UserRegionState"
           },
-          "ty": 536,
+          "ty": 537,
           "custom_ordering": true
         },
         {
@@ -39471,7 +39501,7 @@
             "scope": [],
             "source_name": "ModWordReplacementState"
           },
-          "ty": 460,
+          "ty": 461,
           "custom_ordering": true
         },
         {
@@ -39535,7 +39565,7 @@
             "scope": [],
             "source_name": "PartialExperienceState"
           },
-          "ty": 464,
+          "ty": 465,
           "custom_ordering": true
         },
         {
@@ -39543,7 +39573,7 @@
             "scope": [],
             "source_name": "PlayerTimestampState"
           },
-          "ty": 490,
+          "ty": 491,
           "custom_ordering": true
         },
         {
@@ -39583,7 +39613,7 @@
             "scope": [],
             "source_name": "PlaceableGroupDesc"
           },
-          "ty": 471,
+          "ty": 472,
           "custom_ordering": true
         },
         {
@@ -39655,7 +39685,7 @@
             "scope": [],
             "source_name": "PermissionState"
           },
-          "ty": 467,
+          "ty": 468,
           "custom_ordering": true
         },
         {
@@ -39695,7 +39725,7 @@
             "scope": [],
             "source_name": "RezSickLongTermState"
           },
-          "ty": 510,
+          "ty": 511,
           "custom_ordering": true
         },
         {
@@ -39711,7 +39741,7 @@
             "scope": [],
             "source_name": "ActionLogData"
           },
-          "ty": 520,
+          "ty": 521,
           "custom_ordering": true
         },
         {
@@ -39759,7 +39789,7 @@
             "scope": [],
             "source_name": "PlayerVoteConcludeTimer"
           },
-          "ty": 492,
+          "ty": 493,
           "custom_ordering": true
         },
         {
@@ -39871,7 +39901,7 @@
             "scope": [],
             "source_name": "QuestReward"
           },
-          "ty": 503,
+          "ty": 504,
           "custom_ordering": true
         },
         {
@@ -39887,7 +39917,7 @@
             "scope": [],
             "source_name": "ModThresholdState"
           },
-          "ty": 458,
+          "ty": 459,
           "custom_ordering": true
         },
         {
@@ -39895,7 +39925,7 @@
             "scope": [],
             "source_name": "PreviousEmpireNameState"
           },
-          "ty": 494,
+          "ty": 495,
           "custom_ordering": true
         },
         {
@@ -39999,7 +40029,7 @@
             "scope": [],
             "source_name": "PermissionGroup"
           },
-          "ty": 528,
+          "ty": 529,
           "custom_ordering": true
         },
         {
@@ -40199,7 +40229,7 @@
             "scope": [],
             "source_name": "PlaceableDesc"
           },
-          "ty": 470,
+          "ty": 471,
           "custom_ordering": true
         },
         {
@@ -40231,7 +40261,7 @@
             "scope": [],
             "source_name": "ParametersPlayerMoveDesc"
           },
-          "ty": 463,
+          "ty": 464,
           "custom_ordering": true
         },
         {
@@ -40247,7 +40277,7 @@
             "scope": [],
             "source_name": "ProspectingState"
           },
-          "ty": 498,
+          "ty": 499,
           "custom_ordering": true
         },
         {
@@ -40375,7 +40405,7 @@
             "scope": [],
             "source_name": "PlayerReportStateTimestamp"
           },
-          "ty": 487,
+          "ty": 488,
           "custom_ordering": true
         },
         {
@@ -40535,7 +40565,7 @@
             "scope": [],
             "source_name": "StarvingPlayerState"
           },
-          "ty": 517,
+          "ty": 518,
           "custom_ordering": true
         },
         {
@@ -40637,17 +40667,17 @@
         {
           "source_name": {
             "scope": [],
-            "source_name": "PlayerDeveloperNotificationState"
+            "source_name": "ModPlaytimeThresholdState"
           },
-          "ty": 478,
+          "ty": 456,
           "custom_ordering": true
         },
         {
           "source_name": {
             "scope": [],
-            "source_name": "QuestStageDesc"
+            "source_name": "PlayerDeveloperNotificationState"
           },
-          "ty": 505,
+          "ty": 479,
           "custom_ordering": true
         },
         {
@@ -40656,6 +40686,14 @@
             "source_name": "EmpireSuppliesDesc"
           },
           "ty": 172,
+          "custom_ordering": true
+        },
+        {
+          "source_name": {
+            "scope": [],
+            "source_name": "QuestStageDesc"
+          },
+          "ty": 506,
           "custom_ordering": true
         },
         {
@@ -40671,7 +40709,7 @@
             "scope": [],
             "source_name": "PlaceableInteractionDesc"
           },
-          "ty": 475,
+          "ty": 476,
           "custom_ordering": true
         },
         {
@@ -40695,7 +40733,7 @@
             "scope": [],
             "source_name": "OfficialTranslators"
           },
-          "ty": 462,
+          "ty": 463,
           "custom_ordering": true
         },
         {
@@ -40727,7 +40765,7 @@
             "scope": [],
             "source_name": "Permission"
           },
-          "ty": 527,
+          "ty": 528,
           "custom_ordering": true
         },
         {
@@ -40815,7 +40853,7 @@
             "scope": [],
             "source_name": "ActionLogDataSpaceAllocator"
           },
-          "ty": 521,
+          "ty": 522,
           "custom_ordering": true
         },
         {
@@ -40863,7 +40901,7 @@
             "scope": [],
             "source_name": "ActionLogSubjectType"
           },
-          "ty": 519,
+          "ty": 520,
           "custom_ordering": true
         },
         {
@@ -40903,7 +40941,7 @@
             "scope": [],
             "source_name": "PlayerQueueState"
           },
-          "ty": 486,
+          "ty": 487,
           "custom_ordering": true
         },
         {
@@ -40951,7 +40989,7 @@
             "scope": [],
             "source_name": "WindDbgDesc"
           },
-          "ty": 539,
+          "ty": 540,
           "custom_ordering": true
         },
         {
@@ -40983,7 +41021,7 @@
             "scope": [],
             "source_name": "ResourceHealthState"
           },
-          "ty": 509,
+          "ty": 510,
           "custom_ordering": true
         },
         {
@@ -41111,7 +41149,7 @@
             "scope": [],
             "source_name": "ModReportConfigState"
           },
-          "ty": 457,
+          "ty": 458,
           "custom_ordering": true
         },
         {
@@ -41135,7 +41173,7 @@
             "scope": [],
             "source_name": "PlayerVoteAnswerRequest"
           },
-          "ty": 491,
+          "ty": 492,
           "custom_ordering": true
         },
         {
@@ -41199,7 +41237,7 @@
             "scope": [],
             "source_name": "UserModerationCreateUserPolicyRequest"
           },
-          "ty": 534,
+          "ty": 535,
           "custom_ordering": true
         },
         {
@@ -41263,7 +41301,7 @@
             "scope": [],
             "source_name": "ModerationActionLogEntry"
           },
-          "ty": 461,
+          "ty": 462,
           "custom_ordering": true
         },
         {
@@ -41295,7 +41333,7 @@
             "scope": [],
             "source_name": "PlayerHousingDesc"
           },
-          "ty": 480,
+          "ty": 481,
           "custom_ordering": true
         },
         {
@@ -41351,7 +41389,7 @@
             "scope": [],
             "source_name": "ProgressiveActionStatus"
           },
-          "ty": 526,
+          "ty": 527,
           "custom_ordering": true
         },
         {
@@ -41407,7 +41445,7 @@
             "scope": [],
             "source_name": "QuestDropDesc"
           },
-          "ty": 504,
+          "ty": 505,
           "custom_ordering": true
         },
         {
@@ -41423,7 +41461,7 @@
             "scope": [],
             "source_name": "QuestChainDesc"
           },
-          "ty": 500,
+          "ty": 501,
           "custom_ordering": true
         },
         {
@@ -41431,7 +41469,7 @@
             "scope": [],
             "source_name": "PublicProgressiveActionState"
           },
-          "ty": 499,
+          "ty": 500,
           "custom_ordering": true
         },
         {
@@ -41471,7 +41509,7 @@
             "scope": [],
             "source_name": "WaystoneState"
           },
-          "ty": 538,
+          "ty": 539,
           "custom_ordering": true
         },
         {
@@ -41479,7 +41517,7 @@
             "scope": [],
             "source_name": "VisibilityType"
           },
-          "ty": 511,
+          "ty": 512,
           "custom_ordering": true
         },
         {
@@ -41605,7 +41643,7 @@
         },
         {
           "source_name": "staged_skill_level_knowledge_desc",
-          "product_type_ref": 514,
+          "product_type_ref": 515,
           "primary_key": [
             0
           ],
@@ -41695,7 +41733,7 @@
         },
         {
           "source_name": "passive_craft_state",
-          "product_type_ref": 465,
+          "product_type_ref": 466,
           "primary_key": [
             0
           ],
@@ -42285,7 +42323,7 @@
         },
         {
           "source_name": "placeable_state",
-          "product_type_ref": 477,
+          "product_type_ref": 478,
           "primary_key": [
             0
           ],
@@ -42666,7 +42704,7 @@
         },
         {
           "source_name": "mod_violation_state",
-          "product_type_ref": 459,
+          "product_type_ref": 460,
           "primary_key": [
             0
           ],
@@ -42994,7 +43032,7 @@
         },
         {
           "source_name": "rez_sick_long_term_state",
-          "product_type_ref": 510,
+          "product_type_ref": 511,
           "primary_key": [
             0
           ],
@@ -43302,7 +43340,7 @@
         },
         {
           "source_name": "traveler_task_knowledge_requirement_desc",
-          "product_type_ref": 516,
+          "product_type_ref": 517,
           "primary_key": [
             0
           ],
@@ -43370,6 +43408,51 @@
             {
               "source_name": {
                 "some": "staged_building_buff_desc_id_key"
+              },
+              "data": {
+                "Unique": {
+                  "columns": [
+                    0
+                  ]
+                }
+              }
+            }
+          ],
+          "sequences": [],
+          "table_type": {
+            "User": []
+          },
+          "table_access": {
+            "Private": []
+          },
+          "default_values": [],
+          "is_event": false
+        },
+        {
+          "source_name": "mod_playtime_threshold_state",
+          "product_type_ref": 456,
+          "primary_key": [
+            0
+          ],
+          "indexes": [
+            {
+              "source_name": {
+                "some": "mod_playtime_threshold_state_metric_idx_btree"
+              },
+              "accessor_name": {
+                "some": "metric"
+              },
+              "algorithm": {
+                "BTree": [
+                  0
+                ]
+              }
+            }
+          ],
+          "constraints": [
+            {
+              "source_name": {
+                "some": "mod_playtime_threshold_state_metric_key"
               },
               "data": {
                 "Unique": {
@@ -43527,7 +43610,7 @@
         },
         {
           "source_name": "player_notification_event",
-          "product_type_ref": 484,
+          "product_type_ref": 485,
           "primary_key": [
             0
           ],
@@ -44043,7 +44126,7 @@
         },
         {
           "source_name": "staged_reserved_name_desc",
-          "product_type_ref": 508,
+          "product_type_ref": 509,
           "primary_key": [
             0
           ],
@@ -44253,7 +44336,7 @@
         },
         {
           "source_name": "mod_threshold_state",
-          "product_type_ref": 458,
+          "product_type_ref": 459,
           "primary_key": [
             0
           ],
@@ -44373,7 +44456,7 @@
         },
         {
           "source_name": "player_queue_state",
-          "product_type_ref": 486,
+          "product_type_ref": 487,
           "primary_key": [
             0
           ],
@@ -44460,7 +44543,7 @@
         },
         {
           "source_name": "visibility_state",
-          "product_type_ref": 537,
+          "product_type_ref": 538,
           "primary_key": [
             0
           ],
@@ -44505,7 +44588,7 @@
         },
         {
           "source_name": "previous_player_username_state",
-          "product_type_ref": 496,
+          "product_type_ref": 497,
           "primary_key": [],
           "indexes": [
             {
@@ -44643,7 +44726,7 @@
         },
         {
           "source_name": "terraform_progress_state",
-          "product_type_ref": 522,
+          "product_type_ref": 523,
           "primary_key": [
             0
           ],
@@ -44803,7 +44886,7 @@
         },
         {
           "source_name": "resource_health_state",
-          "product_type_ref": 509,
+          "product_type_ref": 510,
           "primary_key": [
             0
           ],
@@ -44848,7 +44931,7 @@
         },
         {
           "source_name": "stage_rewards_desc",
-          "product_type_ref": 515,
+          "product_type_ref": 516,
           "primary_key": [
             0
           ],
@@ -45492,7 +45575,7 @@
         },
         {
           "source_name": "staged_quest_drop_desc",
-          "product_type_ref": 504,
+          "product_type_ref": 505,
           "primary_key": [
             0
           ],
@@ -45537,7 +45620,7 @@
         },
         {
           "source_name": "quest_stage_desc",
-          "product_type_ref": 505,
+          "product_type_ref": 506,
           "primary_key": [
             0
           ],
@@ -45775,7 +45858,7 @@
         },
         {
           "source_name": "staged_player_housing_desc",
-          "product_type_ref": 480,
+          "product_type_ref": 481,
           "primary_key": [
             0
           ],
@@ -46169,7 +46252,7 @@
         },
         {
           "source_name": "skill_level_knowledge_desc",
-          "product_type_ref": 514,
+          "product_type_ref": 515,
           "primary_key": [
             0
           ],
@@ -46299,7 +46382,7 @@
         },
         {
           "source_name": "player_report_state_timestamp",
-          "product_type_ref": 487,
+          "product_type_ref": 488,
           "primary_key": [
             0
           ],
@@ -46398,7 +46481,7 @@
         },
         {
           "source_name": "translation_corrections",
-          "product_type_ref": 531,
+          "product_type_ref": 532,
           "primary_key": [
             0
           ],
@@ -46561,7 +46644,7 @@
         },
         {
           "source_name": "staged_placeable_group_desc",
-          "product_type_ref": 471,
+          "product_type_ref": 472,
           "primary_key": [
             0
           ],
@@ -46606,7 +46689,7 @@
         },
         {
           "source_name": "staged_traveler_task_knowledge_requirement_desc",
-          "product_type_ref": 516,
+          "product_type_ref": 517,
           "primary_key": [
             0
           ],
@@ -46946,7 +47029,7 @@
         },
         {
           "source_name": "waystone_state",
-          "product_type_ref": 538,
+          "product_type_ref": 539,
           "primary_key": [
             0
           ],
@@ -47079,7 +47162,7 @@
         },
         {
           "source_name": "player_lowercase_username_state",
-          "product_type_ref": 482,
+          "product_type_ref": 483,
           "primary_key": [
             0
           ],
@@ -47710,7 +47793,7 @@
         },
         {
           "source_name": "single_resource_to_clump_desc",
-          "product_type_ref": 513,
+          "product_type_ref": 514,
           "primary_key": [
             0
           ],
@@ -48219,7 +48302,7 @@
         },
         {
           "source_name": "placeable_placement_desc",
-          "product_type_ref": 476,
+          "product_type_ref": 477,
           "primary_key": [
             0
           ],
@@ -48355,7 +48438,7 @@
         },
         {
           "source_name": "placeable_desc",
-          "product_type_ref": 470,
+          "product_type_ref": 471,
           "primary_key": [
             0
           ],
@@ -48474,7 +48557,7 @@
         },
         {
           "source_name": "staged_prospecting_desc",
-          "product_type_ref": 497,
+          "product_type_ref": 498,
           "primary_key": [
             0
           ],
@@ -48581,7 +48664,7 @@
         },
         {
           "source_name": "user_region_state",
-          "product_type_ref": 536,
+          "product_type_ref": 537,
           "primary_key": [
             0
           ],
@@ -48774,7 +48857,7 @@
         },
         {
           "source_name": "reserved_name_desc",
-          "product_type_ref": 508,
+          "product_type_ref": 509,
           "primary_key": [
             0
           ],
@@ -48997,7 +49080,7 @@
         },
         {
           "source_name": "storage_log_state",
-          "product_type_ref": 518,
+          "product_type_ref": 519,
           "primary_key": [
             0
           ],
@@ -49309,7 +49392,7 @@
         },
         {
           "source_name": "mod_word_replacement_state",
-          "product_type_ref": 460,
+          "product_type_ref": 461,
           "primary_key": [
             0
           ],
@@ -49511,7 +49594,7 @@
         },
         {
           "source_name": "user_previous_region_state",
-          "product_type_ref": 535,
+          "product_type_ref": 536,
           "primary_key": [
             0
           ],
@@ -49601,7 +49684,7 @@
         },
         {
           "source_name": "player_developer_notification_state",
-          "product_type_ref": 478,
+          "product_type_ref": 479,
           "primary_key": [
             0
           ],
@@ -49721,7 +49804,7 @@
         },
         {
           "source_name": "staged_quest_chain_desc",
-          "product_type_ref": 500,
+          "product_type_ref": 501,
           "primary_key": [
             0
           ],
@@ -50108,7 +50191,7 @@
         },
         {
           "source_name": "quest_drop_desc",
-          "product_type_ref": 504,
+          "product_type_ref": 505,
           "primary_key": [
             0
           ],
@@ -51078,7 +51161,7 @@
         },
         {
           "source_name": "partial_experience_state",
-          "product_type_ref": 464,
+          "product_type_ref": 465,
           "primary_key": [
             0
           ],
@@ -51168,7 +51251,7 @@
         },
         {
           "source_name": "placeable_interaction_desc",
-          "product_type_ref": 475,
+          "product_type_ref": 476,
           "primary_key": [
             0
           ],
@@ -51576,7 +51659,7 @@
         },
         {
           "source_name": "official_translators",
-          "product_type_ref": 462,
+          "product_type_ref": 463,
           "primary_key": [],
           "indexes": [
             {
@@ -51906,7 +51989,7 @@
         },
         {
           "source_name": "placeable_group_desc",
-          "product_type_ref": 471,
+          "product_type_ref": 472,
           "primary_key": [
             0
           ],
@@ -51951,7 +52034,7 @@
         },
         {
           "source_name": "prospecting_desc",
-          "product_type_ref": 497,
+          "product_type_ref": 498,
           "primary_key": [
             0
           ],
@@ -52484,7 +52567,7 @@
         },
         {
           "source_name": "unclaimed_shards_state",
-          "product_type_ref": 532,
+          "product_type_ref": 533,
           "primary_key": [
             0
           ],
@@ -52658,7 +52741,7 @@
         },
         {
           "source_name": "player_vote_conclude_timer",
-          "product_type_ref": 492,
+          "product_type_ref": 493,
           "primary_key": [
             0
           ],
@@ -53116,7 +53199,7 @@
         },
         {
           "source_name": "staged_placeable_interaction_desc",
-          "product_type_ref": 475,
+          "product_type_ref": 476,
           "primary_key": [
             0
           ],
@@ -53849,7 +53932,7 @@
         },
         {
           "source_name": "starving_player_state",
-          "product_type_ref": 517,
+          "product_type_ref": 518,
           "primary_key": [
             0
           ],
@@ -54505,7 +54588,7 @@
         },
         {
           "source_name": "pillar_shaping_state",
-          "product_type_ref": 469,
+          "product_type_ref": 470,
           "primary_key": [
             0
           ],
@@ -56403,7 +56486,7 @@
         },
         {
           "source_name": "staged_placeable_desc",
-          "product_type_ref": 470,
+          "product_type_ref": 471,
           "primary_key": [
             0
           ],
@@ -56800,7 +56883,7 @@
         },
         {
           "source_name": "player_timestamp_state",
-          "product_type_ref": 490,
+          "product_type_ref": 491,
           "primary_key": [
             0
           ],
@@ -56845,7 +56928,7 @@
         },
         {
           "source_name": "public_progressive_action_state",
-          "product_type_ref": 499,
+          "product_type_ref": 500,
           "primary_key": [
             0
           ],
@@ -57302,7 +57385,7 @@
         },
         {
           "source_name": "moderation_action_log_entry",
-          "product_type_ref": 461,
+          "product_type_ref": 462,
           "primary_key": [
             0
           ],
@@ -57769,7 +57852,7 @@
         },
         {
           "source_name": "previous_empire_name_state",
-          "product_type_ref": 494,
+          "product_type_ref": 495,
           "primary_key": [
             0
           ],
@@ -57864,7 +57947,7 @@
         },
         {
           "source_name": "staged_placeable_growth_desc",
-          "product_type_ref": 472,
+          "product_type_ref": 473,
           "primary_key": [
             0
           ],
@@ -57939,7 +58022,7 @@
         },
         {
           "source_name": "threat_state",
-          "product_type_ref": 530,
+          "product_type_ref": 531,
           "primary_key": [
             0
           ],
@@ -58010,7 +58093,7 @@
         },
         {
           "source_name": "mod_replacement_text_state",
-          "product_type_ref": 456,
+          "product_type_ref": 457,
           "primary_key": [
             0
           ],
@@ -58645,7 +58728,7 @@
         },
         {
           "source_name": "wind_dbg_desc",
-          "product_type_ref": 539,
+          "product_type_ref": 540,
           "primary_key": [
             0
           ],
@@ -59805,7 +59888,7 @@
         },
         {
           "source_name": "quest_chain_desc",
-          "product_type_ref": 500,
+          "product_type_ref": 501,
           "primary_key": [
             0
           ],
@@ -60193,7 +60276,7 @@
         },
         {
           "source_name": "staged_stage_rewards_desc",
-          "product_type_ref": 515,
+          "product_type_ref": 516,
           "primary_key": [
             0
           ],
@@ -60238,7 +60321,7 @@
         },
         {
           "source_name": "player_housing_moving_cost_state",
-          "product_type_ref": 481,
+          "product_type_ref": 482,
           "primary_key": [
             0
           ],
@@ -60337,7 +60420,7 @@
         },
         {
           "source_name": "the_great_placeholder_table",
-          "product_type_ref": 523,
+          "product_type_ref": 524,
           "primary_key": [
             0
           ],
@@ -60387,7 +60470,7 @@
         },
         {
           "source_name": "premium_purchase_state",
-          "product_type_ref": 493,
+          "product_type_ref": 494,
           "primary_key": [
             0
           ],
@@ -60788,7 +60871,7 @@
         },
         {
           "source_name": "mod_report_config_state",
-          "product_type_ref": 457,
+          "product_type_ref": 458,
           "primary_key": [
             0
           ],
@@ -60878,7 +60961,7 @@
         },
         {
           "source_name": "parameters_player_move_desc",
-          "product_type_ref": 463,
+          "product_type_ref": 464,
           "primary_key": [
             0
           ],
@@ -61068,7 +61151,7 @@
         },
         {
           "source_name": "pillar_shaping_desc",
-          "product_type_ref": 468,
+          "product_type_ref": 469,
           "primary_key": [
             0
           ],
@@ -61324,7 +61407,7 @@
         },
         {
           "source_name": "previous_player_skills_state",
-          "product_type_ref": 495,
+          "product_type_ref": 496,
           "primary_key": [
             0
           ],
@@ -61669,7 +61752,7 @@
         },
         {
           "source_name": "user_creation_timestamp_state",
-          "product_type_ref": 533,
+          "product_type_ref": 534,
           "primary_key": [
             0
           ],
@@ -61835,7 +61918,7 @@
         },
         {
           "source_name": "staged_quest_stage_desc",
-          "product_type_ref": 505,
+          "product_type_ref": 506,
           "primary_key": [
             0
           ],
@@ -62230,7 +62313,7 @@
         },
         {
           "source_name": "player_note_state",
-          "product_type_ref": 483,
+          "product_type_ref": 484,
           "primary_key": [
             0
           ],
@@ -62320,7 +62403,7 @@
         },
         {
           "source_name": "placeable_growth_desc",
-          "product_type_ref": 472,
+          "product_type_ref": 473,
           "primary_key": [
             0
           ],
@@ -63019,7 +63102,7 @@
         },
         {
           "source_name": "player_housing_customization_state",
-          "product_type_ref": 479,
+          "product_type_ref": 480,
           "primary_key": [
             0
           ],
@@ -63623,7 +63706,7 @@
         },
         {
           "source_name": "staged_placeable_placement_desc",
-          "product_type_ref": 476,
+          "product_type_ref": 477,
           "primary_key": [
             0
           ],
@@ -63871,7 +63954,7 @@
         },
         {
           "source_name": "prospecting_state",
-          "product_type_ref": 498,
+          "product_type_ref": 499,
           "primary_key": [
             0
           ],
@@ -64403,7 +64486,7 @@
         },
         {
           "source_name": "player_housing_desc",
-          "product_type_ref": 480,
+          "product_type_ref": 481,
           "primary_key": [
             0
           ],
@@ -64673,7 +64756,7 @@
         },
         {
           "source_name": "permission_state",
-          "product_type_ref": 467,
+          "product_type_ref": 468,
           "primary_key": [
             0
           ],
@@ -65768,7 +65851,7 @@
         },
         {
           "source_name": "staged_pillar_shaping_desc",
-          "product_type_ref": 468,
+          "product_type_ref": 469,
           "primary_key": [
             0
           ],
@@ -66080,7 +66163,7 @@
         },
         {
           "source_name": "player_shard_state",
-          "product_type_ref": 489,
+          "product_type_ref": 490,
           "primary_key": [
             0
           ],
@@ -68131,6 +68214,48 @@
                 },
                 "algebraic_type": {
                   "I32": []
+                }
+              }
+            ]
+          },
+          "visibility": {
+            "ClientCallable": []
+          },
+          "ok_return_type": {
+            "Product": {
+              "elements": []
+            }
+          },
+          "err_return_type": {
+            "String": []
+          }
+        },
+        {
+          "source_name": "admin_update_playtime_threshold",
+          "params": {
+            "elements": [
+              {
+                "name": {
+                  "some": "metric"
+                },
+                "algebraic_type": {
+                  "U8": []
+                }
+              },
+              {
+                "name": {
+                  "some": "threshold_hours"
+                },
+                "algebraic_type": {
+                  "I32": []
+                }
+              },
+              {
+                "name": {
+                  "some": "alert_enabled"
+                },
+                "algebraic_type": {
+                  "Bool": []
                 }
               }
             ]
@@ -74551,7 +74676,7 @@
                   "some": "_timer"
                 },
                 "algebraic_type": {
-                  "Ref": 484
+                  "Ref": 485
                 }
               }
             ]
@@ -74603,7 +74728,7 @@
                   "some": "request"
                 },
                 "algebraic_type": {
-                  "Ref": 488
+                  "Ref": 489
                 }
               }
             ]
@@ -74629,7 +74754,7 @@
                   "some": "request"
                 },
                 "algebraic_type": {
-                  "Ref": 491
+                  "Ref": 492
                 }
               }
             ]
@@ -74655,7 +74780,7 @@
                   "some": "timer"
                 },
                 "algebraic_type": {
-                  "Ref": 492
+                  "Ref": 493
                 }
               }
             ]
@@ -75039,7 +75164,7 @@
                   "some": "visibility"
                 },
                 "algebraic_type": {
-                  "Ref": 511
+                  "Ref": 512
                 }
               }
             ]
@@ -75065,7 +75190,7 @@
                   "some": "_request"
                 },
                 "algebraic_type": {
-                  "Ref": 512
+                  "Ref": 513
                 }
               }
             ]
@@ -77136,7 +77261,7 @@
                 },
                 "algebraic_type": {
                   "Array": {
-                    "Ref": 468
+                    "Ref": 469
                   }
                 }
               }
@@ -77164,7 +77289,7 @@
                 },
                 "algebraic_type": {
                   "Array": {
-                    "Ref": 470
+                    "Ref": 471
                   }
                 }
               }
@@ -77192,7 +77317,7 @@
                 },
                 "algebraic_type": {
                   "Array": {
-                    "Ref": 471
+                    "Ref": 472
                   }
                 }
               }
@@ -77220,7 +77345,7 @@
                 },
                 "algebraic_type": {
                   "Array": {
-                    "Ref": 472
+                    "Ref": 473
                   }
                 }
               }
@@ -77248,7 +77373,7 @@
                 },
                 "algebraic_type": {
                   "Array": {
-                    "Ref": 475
+                    "Ref": 476
                   }
                 }
               }
@@ -77276,7 +77401,7 @@
                 },
                 "algebraic_type": {
                   "Array": {
-                    "Ref": 476
+                    "Ref": 477
                   }
                 }
               }
@@ -77332,7 +77457,7 @@
                 },
                 "algebraic_type": {
                   "Array": {
-                    "Ref": 480
+                    "Ref": 481
                   }
                 }
               }
@@ -77444,7 +77569,7 @@
                 },
                 "algebraic_type": {
                   "Array": {
-                    "Ref": 497
+                    "Ref": 498
                   }
                 }
               }
@@ -77472,7 +77597,7 @@
                 },
                 "algebraic_type": {
                   "Array": {
-                    "Ref": 500
+                    "Ref": 501
                   }
                 }
               }
@@ -77500,7 +77625,7 @@
                 },
                 "algebraic_type": {
                   "Array": {
-                    "Ref": 504
+                    "Ref": 505
                   }
                 }
               }
@@ -77528,7 +77653,7 @@
                 },
                 "algebraic_type": {
                   "Array": {
-                    "Ref": 505
+                    "Ref": 506
                   }
                 }
               }
@@ -77556,7 +77681,7 @@
                 },
                 "algebraic_type": {
                   "Array": {
-                    "Ref": 508
+                    "Ref": 509
                   }
                 }
               }
@@ -77752,7 +77877,7 @@
                 },
                 "algebraic_type": {
                   "Array": {
-                    "Ref": 514
+                    "Ref": 515
                   }
                 }
               }
@@ -77780,7 +77905,7 @@
                 },
                 "algebraic_type": {
                   "Array": {
-                    "Ref": 515
+                    "Ref": 516
                   }
                 }
               }
@@ -77976,7 +78101,7 @@
                 },
                 "algebraic_type": {
                   "Array": {
-                    "Ref": 516
+                    "Ref": 517
                   }
                 }
               }
@@ -78254,7 +78379,7 @@
                   "some": "request"
                 },
                 "algebraic_type": {
-                  "Ref": 534
+                  "Ref": 535
                 }
               }
             ]
@@ -78280,7 +78405,7 @@
                   "some": "request"
                 },
                 "algebraic_type": {
-                  "Ref": 534
+                  "Ref": 535
                 }
               }
             ]
@@ -78412,7 +78537,7 @@
           },
           "return_type": {
             "Array": {
-              "Ref": 494
+              "Ref": 495
             }
           }
         },
@@ -78426,7 +78551,7 @@
           },
           "return_type": {
             "Array": {
-              "Ref": 495
+              "Ref": 496
             }
           }
         },
@@ -78440,7 +78565,7 @@
           },
           "return_type": {
             "Array": {
-              "Ref": 496
+              "Ref": 497
             }
           }
         }
@@ -78738,6 +78863,12 @@
             "Table": {
               "source_name": "staged_building_buff_desc",
               "canonical_name": "staged_building_buff_desc"
+            }
+          },
+          {
+            "Table": {
+              "source_name": "mod_playtime_threshold_state",
+              "canonical_name": "mod_playtime_threshold_state"
             }
           },
           {
@@ -81624,6 +81755,12 @@
             "Function": {
               "source_name": "admin_update_moderation_enforcement_config",
               "canonical_name": "admin_update_moderation_enforcement_config"
+            }
+          },
+          {
+            "Function": {
+              "source_name": "admin_update_playtime_threshold",
+              "canonical_name": "admin_update_playtime_threshold"
             }
           },
           {
