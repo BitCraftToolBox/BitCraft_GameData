@@ -50,6 +50,31 @@
     ]
   },
   {
+    "id": 27096245,
+    "name": "Fertilized Planted Peerless Starbulb",
+    "tag": "Farmed Crop",
+    "tier": 6,
+    "description": "A peerless starbulb seed that's been planted.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/StarbulbPlantedFertilized",
+    "icon_asset_name": "GeneratedIcons/Items/VegetablePlant",
+    "max_health": 1,
+    "visible_to_others": false,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "enemy_params_id": [
+      0,
+      []
+    ]
+  },
+  {
     "id": 27770330,
     "name": "Basic Fertile Tree Seed",
     "tag": "Tree Seed",
@@ -325,6 +350,31 @@
     ]
   },
   {
+    "id": 31355014,
+    "name": "Grown Ornate Wispweave",
+    "tag": "Farmed Crop",
+    "tier": 7,
+    "description": "A grown ornate wispweave plant. Harvest it for Ornate Wispweave Plant Output.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/WispweavePlantedGrown",
+    "icon_asset_name": "GeneratedIcons/Resources/WispweavePlanted",
+    "max_health": 120,
+    "visible_to_others": false,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "enemy_params_id": [
+      0,
+      []
+    ]
+  },
+  {
     "id": 33531245,
     "name": "Calm Standard Equous",
     "tag": "Wild Equous",
@@ -400,6 +450,56 @@
     ]
   },
   {
+    "id": 80406780,
+    "name": "Charged Pristine Surveyor",
+    "tag": "Scholar's Surveyor",
+    "tier": 8,
+    "description": "Surveying the ground for ancient Hieroglyphs. Ready to collect after 30 minutes.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/Surveyor",
+    "icon_asset_name": "GeneratedIcons/Items/ScholarSurveyor",
+    "max_health": 1,
+    "visible_to_others": false,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "enemy_params_id": [
+      0,
+      []
+    ]
+  },
+  {
+    "id": 84041585,
+    "name": "Growing Peerless Embergrain",
+    "tag": "Farmed Crop",
+    "tier": 6,
+    "description": "A peerless embergrain seed that's been planted.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/EmbergrainPlantedGrowing",
+    "icon_asset_name": "GeneratedIcons/Items/GrainPlant",
+    "max_health": 1,
+    "visible_to_others": false,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "enemy_params_id": [
+      0,
+      []
+    ]
+  },
+  {
     "id": 91942063,
     "name": "Snap Trapped Elder Scrofa",
     "tag": "Snap Trap",
@@ -436,6 +536,31 @@
     ],
     "model_asset_name": "Placeables/CommonScallopPlaceable",
     "icon_asset_name": "GeneratedIcons/Items/CommonScallop",
+    "max_health": 1,
+    "visible_to_others": false,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "enemy_params_id": [
+      0,
+      []
+    ]
+  },
+  {
+    "id": 94532690,
+    "name": "Charged Flawless Surveyor",
+    "tag": "Scholar's Surveyor",
+    "tier": 10,
+    "description": "Surveying the ground for ancient Hieroglyphs. Ready to collect after 30 minutes.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/Surveyor",
+    "icon_asset_name": "GeneratedIcons/Items/ScholarSurveyor",
     "max_health": 1,
     "visible_to_others": false,
     "spawns_on_land": true,
@@ -493,6 +618,81 @@
     "land_elevation_max": 1000,
     "spawns_in_water": true,
     "water_depth_min": 15,
+    "water_depth_max": 1000,
+    "enemy_params_id": [
+      0,
+      []
+    ]
+  },
+  {
+    "id": 119196907,
+    "name": "Growing Fine Starbulb",
+    "tag": "Farmed Crop",
+    "tier": 4,
+    "description": "A fine starbulb seed that's been planted.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/StarbulbPlantedGrowing",
+    "icon_asset_name": "GeneratedIcons/Items/VegetablePlant",
+    "max_health": 1,
+    "visible_to_others": false,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "enemy_params_id": [
+      0,
+      []
+    ]
+  },
+  {
+    "id": 119375962,
+    "name": "Grown Peerless Starbulb",
+    "tag": "Farmed Crop",
+    "tier": 6,
+    "description": "A grown peerless starbulb plant. Harvest it for Peerless Starbulb Plant Output.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/StarbulbPlantedGrown",
+    "icon_asset_name": "GeneratedIcons/Items/VegetablePlant",
+    "max_health": 95,
+    "visible_to_others": false,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "enemy_params_id": [
+      0,
+      []
+    ]
+  },
+  {
+    "id": 119552230,
+    "name": "Grown Basic Wispweave",
+    "tag": "Farmed Crop",
+    "tier": 1,
+    "description": "A grown basic wispweave plant. Harvest it for Basic Wispweave Plant Output.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/WispweavePlantedGrown",
+    "icon_asset_name": "GeneratedIcons/Resources/WispweavePlanted",
+    "max_health": 25,
+    "visible_to_others": false,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
     "water_depth_max": 1000,
     "enemy_params_id": [
       0,
@@ -625,6 +825,31 @@
     ]
   },
   {
+    "id": 139865709,
+    "name": "Growing Infused Embergrain",
+    "tag": "Farmed Crop",
+    "tier": 3,
+    "description": "A infused embergrain seed that's been planted.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/EmbergrainPlantedGrowing",
+    "icon_asset_name": "GeneratedIcons/Items/GrainPlant",
+    "max_health": 1,
+    "visible_to_others": false,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "enemy_params_id": [
+      0,
+      []
+    ]
+  },
+  {
     "id": 143502006,
     "name": "Briny Fishy Fugitives",
     "tag": "Ocean Fishing Fish",
@@ -643,6 +868,31 @@
     "land_elevation_max": 1000,
     "spawns_in_water": true,
     "water_depth_min": 13,
+    "water_depth_max": 1000,
+    "enemy_params_id": [
+      0,
+      []
+    ]
+  },
+  {
+    "id": 144163300,
+    "name": "Fertilized Planted Infused Embergrain",
+    "tag": "Farmed Crop",
+    "tier": 3,
+    "description": "A infused embergrain seed that's been planted.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/EmbergrainPlantedFertilized",
+    "icon_asset_name": "GeneratedIcons/Items/GrainPlant",
+    "max_health": 1,
+    "visible_to_others": false,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
     "water_depth_max": 1000,
     "enemy_params_id": [
       0,
@@ -1000,6 +1250,31 @@
     ]
   },
   {
+    "id": 170655831,
+    "name": "Planted Infused Starbulb",
+    "tag": "Farmed Crop",
+    "tier": 3,
+    "description": "A infused starbulb seed that's been planted. It needs to be tended to.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/StarbulbPlanted",
+    "icon_asset_name": "GeneratedIcons/Items/VegetablePlant",
+    "max_health": 1,
+    "visible_to_others": false,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "enemy_params_id": [
+      0,
+      []
+    ]
+  },
+  {
     "id": 174734549,
     "name": "Infested Young Tropical Coconut Tree",
     "tag": "Planted Tree",
@@ -1011,6 +1286,31 @@
     ],
     "model_asset_name": "Placeables/TreePalmYoung",
     "icon_asset_name": "GeneratedIcons/Other/TropicalTree",
+    "max_health": 1,
+    "visible_to_others": false,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "enemy_params_id": [
+      0,
+      []
+    ]
+  },
+  {
+    "id": 185070584,
+    "name": "Planted Infused Wispweave",
+    "tag": "Farmed Crop",
+    "tier": 3,
+    "description": "A infused wispweave seed that's been planted. It needs to be tended to.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/WispweavePlanted",
+    "icon_asset_name": "GeneratedIcons/Resources/WispweavePlanted",
     "max_health": 1,
     "visible_to_others": false,
     "spawns_on_land": true,
@@ -1100,6 +1400,31 @@
     ]
   },
   {
+    "id": 202377915,
+    "name": "Grown Infused Embergrain",
+    "tag": "Farmed Crop",
+    "tier": 3,
+    "description": "A grown infused embergrain plant. Harvest it for Infused Embergrain Plant Output.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/EmbergrainPlantedGrown",
+    "icon_asset_name": "GeneratedIcons/Items/GrainPlant",
+    "max_health": 45,
+    "visible_to_others": false,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "enemy_params_id": [
+      0,
+      []
+    ]
+  },
+  {
     "id": 204872691,
     "name": "Small Tired Trask",
     "tag": "Trophy Fish",
@@ -1168,6 +1493,56 @@
     "land_elevation_max": 1000,
     "spawns_in_water": true,
     "water_depth_min": 8,
+    "water_depth_max": 1000,
+    "enemy_params_id": [
+      0,
+      []
+    ]
+  },
+  {
+    "id": 214698043,
+    "name": "Growing Flawless Starbulb",
+    "tag": "Farmed Crop",
+    "tier": 10,
+    "description": "A flawless starbulb seed that's been planted.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/StarbulbPlantedGrowing",
+    "icon_asset_name": "GeneratedIcons/Items/VegetablePlant",
+    "max_health": 1,
+    "visible_to_others": false,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "enemy_params_id": [
+      0,
+      []
+    ]
+  },
+  {
+    "id": 215417559,
+    "name": "Ornate Surveyor",
+    "tag": "Scholar's Surveyor",
+    "tier": 7,
+    "description": "Charge with 4 Hexite Energy to begin surveying for ancient Hieroglyphs. Ready to collect 30 minutes after charging.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/Surveyor",
+    "icon_asset_name": "GeneratedIcons/Items/ScholarSurveyor",
+    "max_health": 1,
+    "visible_to_others": false,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
     "water_depth_max": 1000,
     "enemy_params_id": [
       0,
@@ -1250,6 +1625,56 @@
     ]
   },
   {
+    "id": 218737133,
+    "name": "Planted Ornate Embergrain",
+    "tag": "Farmed Crop",
+    "tier": 7,
+    "description": "A ornate embergrain seed that's been planted. It needs to be tended to.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/EmbergrainPlanted",
+    "icon_asset_name": "GeneratedIcons/Items/GrainPlant",
+    "max_health": 1,
+    "visible_to_others": false,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "enemy_params_id": [
+      0,
+      []
+    ]
+  },
+  {
+    "id": 222370421,
+    "name": "Growing Exquisite Embergrain",
+    "tag": "Farmed Crop",
+    "tier": 5,
+    "description": "A exquisite embergrain seed that's been planted.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/EmbergrainPlantedGrowing",
+    "icon_asset_name": "GeneratedIcons/Items/GrainPlant",
+    "max_health": 1,
+    "visible_to_others": false,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "enemy_params_id": [
+      0,
+      []
+    ]
+  },
+  {
     "id": 222761493,
     "name": "Tiny Dorbel",
     "tag": "Trophy Fish",
@@ -1293,6 +1718,56 @@
     "land_elevation_max": 1000,
     "spawns_in_water": true,
     "water_depth_min": 10,
+    "water_depth_max": 1000,
+    "enemy_params_id": [
+      0,
+      []
+    ]
+  },
+  {
+    "id": 230252480,
+    "name": "Grown Wild Wispweave",
+    "tag": "Farmed Crop",
+    "tier": 1,
+    "description": "A grown wild wispweave plant. Grants domesticated Wispweave Seeds",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/WispweavePlantedGrown",
+    "icon_asset_name": "GeneratedIcons/Resources/WispweavePlanted",
+    "max_health": 15,
+    "visible_to_others": false,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "enemy_params_id": [
+      0,
+      []
+    ]
+  },
+  {
+    "id": 236807750,
+    "name": "Grown Wild Embergrain",
+    "tag": "Farmed Crop",
+    "tier": 1,
+    "description": "A grown wild embergrain plant. Grants domesticated Embergrain Seeds",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/EmbergrainPlantedGrown",
+    "icon_asset_name": "GeneratedIcons/Items/GrainPlant",
+    "max_health": 15,
+    "visible_to_others": false,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
     "water_depth_max": 1000,
     "enemy_params_id": [
       0,
@@ -1375,6 +1850,81 @@
     ]
   },
   {
+    "id": 262982023,
+    "name": "Planted Flawless Wispweave",
+    "tag": "Farmed Crop",
+    "tier": 10,
+    "description": "A flawless wispweave seed that's been planted. It needs to be tended to.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/WispweavePlanted",
+    "icon_asset_name": "GeneratedIcons/Resources/WispweavePlanted",
+    "max_health": 1,
+    "visible_to_others": false,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "enemy_params_id": [
+      0,
+      []
+    ]
+  },
+  {
+    "id": 266151346,
+    "name": "Fertilized Planted Ornate Embergrain",
+    "tag": "Farmed Crop",
+    "tier": 7,
+    "description": "A ornate embergrain seed that's been planted.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/EmbergrainPlantedFertilized",
+    "icon_asset_name": "GeneratedIcons/Items/GrainPlant",
+    "max_health": 1,
+    "visible_to_others": false,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "enemy_params_id": [
+      0,
+      []
+    ]
+  },
+  {
+    "id": 266569446,
+    "name": "Fertilized Planted Infused Starbulb",
+    "tag": "Farmed Crop",
+    "tier": 3,
+    "description": "A infused starbulb seed that's been planted.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/StarbulbPlantedFertilized",
+    "icon_asset_name": "GeneratedIcons/Items/VegetablePlant",
+    "max_health": 1,
+    "visible_to_others": false,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "enemy_params_id": [
+      0,
+      []
+    ]
+  },
+  {
     "id": 270767210,
     "name": "Flawless Young Tropical Rice Seedling",
     "tag": "Rice Farming",
@@ -1450,6 +2000,31 @@
     ]
   },
   {
+    "id": 275277197,
+    "name": "Fertilized Planted Fine Embergrain",
+    "tag": "Farmed Crop",
+    "tier": 4,
+    "description": "A fine embergrain seed that's been planted.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/EmbergrainPlantedFertilized",
+    "icon_asset_name": "GeneratedIcons/Items/GrainPlant",
+    "max_health": 1,
+    "visible_to_others": false,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "enemy_params_id": [
+      0,
+      []
+    ]
+  },
+  {
     "id": 276058026,
     "name": "Large Dorbel",
     "tag": "Trophy Fish",
@@ -1468,6 +2043,56 @@
     "land_elevation_max": 1000,
     "spawns_in_water": true,
     "water_depth_min": 10,
+    "water_depth_max": 1000,
+    "enemy_params_id": [
+      0,
+      []
+    ]
+  },
+  {
+    "id": 284718784,
+    "name": "Fertilized Planted Fine Starbulb",
+    "tag": "Farmed Crop",
+    "tier": 4,
+    "description": "A fine starbulb seed that's been planted.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/StarbulbPlantedFertilized",
+    "icon_asset_name": "GeneratedIcons/Items/VegetablePlant",
+    "max_health": 1,
+    "visible_to_others": false,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "enemy_params_id": [
+      0,
+      []
+    ]
+  },
+  {
+    "id": 286854698,
+    "name": "Growing Flawless Wispweave",
+    "tag": "Farmed Crop",
+    "tier": 10,
+    "description": "A flawless wispweave seed that's been planted.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/WispweavePlantedGrowing",
+    "icon_asset_name": "GeneratedIcons/Resources/WispweavePlanted",
+    "max_health": 1,
+    "visible_to_others": false,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
     "water_depth_max": 1000,
     "enemy_params_id": [
       0,
@@ -1650,6 +2275,56 @@
     ]
   },
   {
+    "id": 313427961,
+    "name": "Growing Basic Wispweave",
+    "tag": "Farmed Crop",
+    "tier": 1,
+    "description": "A basic wispweave seed that's been planted.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/WispweavePlantedGrowing",
+    "icon_asset_name": "GeneratedIcons/Resources/WispweavePlanted",
+    "max_health": 1,
+    "visible_to_others": false,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "enemy_params_id": [
+      0,
+      []
+    ]
+  },
+  {
+    "id": 317143248,
+    "name": "Planted Fine Starbulb",
+    "tag": "Farmed Crop",
+    "tier": 4,
+    "description": "A fine starbulb seed that's been planted. It needs to be tended to.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/StarbulbPlanted",
+    "icon_asset_name": "GeneratedIcons/Items/VegetablePlant",
+    "max_health": 1,
+    "visible_to_others": false,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "enemy_params_id": [
+      0,
+      []
+    ]
+  },
+  {
     "id": 320216646,
     "name": "Full Ornate Sift Collector",
     "tag": "Sift",
@@ -1693,6 +2368,31 @@
     "land_elevation_max": 1000,
     "spawns_in_water": true,
     "water_depth_min": 10,
+    "water_depth_max": 1000,
+    "enemy_params_id": [
+      0,
+      []
+    ]
+  },
+  {
+    "id": 320832638,
+    "name": "Growing Exquisite Wispweave",
+    "tag": "Farmed Crop",
+    "tier": 5,
+    "description": "A exquisite wispweave seed that's been planted.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/WispweavePlantedGrowing",
+    "icon_asset_name": "GeneratedIcons/Resources/WispweavePlanted",
+    "max_health": 1,
+    "visible_to_others": false,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
     "water_depth_max": 1000,
     "enemy_params_id": [
       0,
@@ -1950,6 +2650,31 @@
     ]
   },
   {
+    "id": 334741616,
+    "name": "Grown Simple Wispweave",
+    "tag": "Farmed Crop",
+    "tier": 2,
+    "description": "A grown simple wispweave plant. Harvest it for Simple Wispweave Plant Output.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/WispweavePlantedGrown",
+    "icon_asset_name": "GeneratedIcons/Resources/WispweavePlanted",
+    "max_health": 35,
+    "visible_to_others": false,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "enemy_params_id": [
+      0,
+      []
+    ]
+  },
+  {
     "id": 340234109,
     "name": "Average Tired Tharbel",
     "tag": "Trophy Fish",
@@ -2075,6 +2800,31 @@
     ]
   },
   {
+    "id": 373125607,
+    "name": "Fertilized Planted Magnificent Wispweave",
+    "tag": "Farmed Crop",
+    "tier": 9,
+    "description": "A magnificent wispweave seed that's been planted.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/WispweavePlantedFertilized",
+    "icon_asset_name": "GeneratedIcons/Resources/WispweavePlanted",
+    "max_health": 1,
+    "visible_to_others": false,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "enemy_params_id": [
+      0,
+      []
+    ]
+  },
+  {
     "id": 381832014,
     "name": "Pristine Magnetic Rock Chunk",
     "tag": "Magnetic Rock",
@@ -2112,6 +2862,31 @@
     "model_asset_name": "Placeables/PlaceableCypressTreeMature",
     "icon_asset_name": "GeneratedIcons/Other/CypressTreeMature",
     "max_health": 750,
+    "visible_to_others": false,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "enemy_params_id": [
+      0,
+      []
+    ]
+  },
+  {
+    "id": 383577133,
+    "name": "Planted Basic Wispweave",
+    "tag": "Farmed Crop",
+    "tier": 1,
+    "description": "A basic wispweave seed that's been planted. It needs to be tended to.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/WispweavePlanted",
+    "icon_asset_name": "GeneratedIcons/Resources/WispweavePlanted",
+    "max_health": 1,
     "visible_to_others": false,
     "spawns_on_land": true,
     "land_elevation_min": 0,
@@ -2193,6 +2968,31 @@
     "land_elevation_max": 1000,
     "spawns_in_water": true,
     "water_depth_min": 13,
+    "water_depth_max": 1000,
+    "enemy_params_id": [
+      0,
+      []
+    ]
+  },
+  {
+    "id": 392589207,
+    "name": "Grown Infused Starbulb",
+    "tag": "Farmed Crop",
+    "tier": 3,
+    "description": "A grown infused starbulb plant. Harvest it for Infused Starbulb Plant Output.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/StarbulbPlantedGrown",
+    "icon_asset_name": "GeneratedIcons/Items/VegetablePlant",
+    "max_health": 45,
+    "visible_to_others": false,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
     "water_depth_max": 1000,
     "enemy_params_id": [
       0,
@@ -2300,6 +3100,31 @@
     ]
   },
   {
+    "id": 412405553,
+    "name": "Planted Peerless Starbulb",
+    "tag": "Farmed Crop",
+    "tier": 6,
+    "description": "A peerless starbulb seed that's been planted. It needs to be tended to.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/StarbulbPlanted",
+    "icon_asset_name": "GeneratedIcons/Items/VegetablePlant",
+    "max_health": 1,
+    "visible_to_others": false,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "enemy_params_id": [
+      0,
+      []
+    ]
+  },
+  {
     "id": 418902577,
     "name": "Infused Tropical Rice Plant",
     "tag": "Rice Farming",
@@ -2337,6 +3162,31 @@
     "model_asset_name": "Placeables/PlaceableBaobabTreeYoung",
     "icon_asset_name": "GeneratedIcons/Other/BaobabTreeMature",
     "max_health": 500,
+    "visible_to_others": false,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "enemy_params_id": [
+      0,
+      []
+    ]
+  },
+  {
+    "id": 422449407,
+    "name": "Grown Ornate Embergrain",
+    "tag": "Farmed Crop",
+    "tier": 7,
+    "description": "A grown ornate embergrain plant. Harvest it for Ornate Embergrain Plant Output.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/EmbergrainPlantedGrown",
+    "icon_asset_name": "GeneratedIcons/Items/GrainPlant",
+    "max_health": 120,
     "visible_to_others": false,
     "spawns_on_land": true,
     "land_elevation_min": 0,
@@ -2400,6 +3250,56 @@
     ]
   },
   {
+    "id": 440948298,
+    "name": "Grown Magnificent Wispweave",
+    "tag": "Farmed Crop",
+    "tier": 9,
+    "description": "A grown magnificent wispweave plant. Harvest it for Magnificent Wispweave Plant Output.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/WispweavePlantedGrown",
+    "icon_asset_name": "GeneratedIcons/Resources/WispweavePlanted",
+    "max_health": 205,
+    "visible_to_others": false,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "enemy_params_id": [
+      0,
+      []
+    ]
+  },
+  {
+    "id": 443658333,
+    "name": "Growing Peerless Starbulb",
+    "tag": "Farmed Crop",
+    "tier": 6,
+    "description": "A peerless starbulb seed that's been planted.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/StarbulbPlantedGrowing",
+    "icon_asset_name": "GeneratedIcons/Items/VegetablePlant",
+    "max_health": 1,
+    "visible_to_others": false,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "enemy_params_id": [
+      0,
+      []
+    ]
+  },
+  {
     "id": 445014296,
     "name": "Pristine Healthy Tropical Rice Seedling",
     "tag": "Rice Farming",
@@ -2419,6 +3319,31 @@
     "spawns_in_water": true,
     "water_depth_min": 1,
     "water_depth_max": 3,
+    "enemy_params_id": [
+      0,
+      []
+    ]
+  },
+  {
+    "id": 448131933,
+    "name": "Planted Wild Starbulb",
+    "tag": "Farmed Crop",
+    "tier": 1,
+    "description": "A wild starbulb seed that's been planted. It needs to be tended to.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/StarbulbPlanted",
+    "icon_asset_name": "GeneratedIcons/Items/VegetablePlant",
+    "max_health": 1,
+    "visible_to_others": false,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
     "enemy_params_id": [
       0,
       []
@@ -2450,6 +3375,31 @@
     ]
   },
   {
+    "id": 453391029,
+    "name": "Fertilized Planted Exquisite Embergrain",
+    "tag": "Farmed Crop",
+    "tier": 5,
+    "description": "A exquisite embergrain seed that's been planted.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/EmbergrainPlantedFertilized",
+    "icon_asset_name": "GeneratedIcons/Items/GrainPlant",
+    "max_health": 1,
+    "visible_to_others": false,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "enemy_params_id": [
+      0,
+      []
+    ]
+  },
+  {
     "id": 453555524,
     "name": "Massive Trophy Garbel",
     "tag": "Trophy Fish",
@@ -2468,6 +3418,31 @@
     "land_elevation_max": 1000,
     "spawns_in_water": true,
     "water_depth_min": 10,
+    "water_depth_max": 1000,
+    "enemy_params_id": [
+      0,
+      []
+    ]
+  },
+  {
+    "id": 453831355,
+    "name": "Exquisite Surveyor",
+    "tag": "Scholar's Surveyor",
+    "tier": 5,
+    "description": "Charge with 3 Hexite Energy to begin surveying for ancient Hieroglyphs. Ready to collect 30 minutes after charging.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/Surveyor",
+    "icon_asset_name": "GeneratedIcons/Items/ScholarSurveyor",
+    "max_health": 1,
+    "visible_to_others": false,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
     "water_depth_max": 1000,
     "enemy_params_id": [
       0,
@@ -2512,6 +3487,31 @@
     "model_asset_name": "Placeables/TreeFoodStash",
     "icon_asset_name": "GeneratedIcons/Items/TreeFoodStash",
     "max_health": 1,
+    "visible_to_others": false,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "enemy_params_id": [
+      0,
+      []
+    ]
+  },
+  {
+    "id": 459828251,
+    "name": "Grown Peerless Embergrain",
+    "tag": "Farmed Crop",
+    "tier": 6,
+    "description": "A grown peerless embergrain plant. Harvest it for Peerless Embergrain Plant Output.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/EmbergrainPlantedGrown",
+    "icon_asset_name": "GeneratedIcons/Items/GrainPlant",
+    "max_health": 95,
     "visible_to_others": false,
     "spawns_on_land": true,
     "land_elevation_min": 0,
@@ -2650,6 +3650,56 @@
     ]
   },
   {
+    "id": 478907652,
+    "name": "Planted Flawless Starbulb",
+    "tag": "Farmed Crop",
+    "tier": 10,
+    "description": "A flawless starbulb seed that's been planted. It needs to be tended to.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/StarbulbPlanted",
+    "icon_asset_name": "GeneratedIcons/Items/VegetablePlant",
+    "max_health": 1,
+    "visible_to_others": false,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "enemy_params_id": [
+      0,
+      []
+    ]
+  },
+  {
+    "id": 479526779,
+    "name": "Growing Wild Wispweave",
+    "tag": "Farmed Crop",
+    "tier": 1,
+    "description": "A wild wispweave seed that's been planted.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/WispweavePlantedGrowing",
+    "icon_asset_name": "GeneratedIcons/Resources/WispweavePlanted",
+    "max_health": 1,
+    "visible_to_others": false,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "enemy_params_id": [
+      0,
+      []
+    ]
+  },
+  {
     "id": 480217064,
     "name": "Enormous Naskel",
     "tag": "Trophy Fish",
@@ -2668,6 +3718,31 @@
     "land_elevation_max": 1000,
     "spawns_in_water": true,
     "water_depth_min": 10,
+    "water_depth_max": 1000,
+    "enemy_params_id": [
+      0,
+      []
+    ]
+  },
+  {
+    "id": 481180374,
+    "name": "Growing Pristine Wispweave",
+    "tag": "Farmed Crop",
+    "tier": 8,
+    "description": "A pristine wispweave seed that's been planted.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/WispweavePlantedGrowing",
+    "icon_asset_name": "GeneratedIcons/Resources/WispweavePlanted",
+    "max_health": 1,
+    "visible_to_others": false,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
     "water_depth_max": 1000,
     "enemy_params_id": [
       0,
@@ -2725,6 +3800,31 @@
     ]
   },
   {
+    "id": 494210735,
+    "name": "Fertilized Planted Flawless Starbulb",
+    "tag": "Farmed Crop",
+    "tier": 10,
+    "description": "A flawless starbulb seed that's been planted.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/StarbulbPlantedFertilized",
+    "icon_asset_name": "GeneratedIcons/Items/VegetablePlant",
+    "max_health": 1,
+    "visible_to_others": false,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "enemy_params_id": [
+      0,
+      []
+    ]
+  },
+  {
     "id": 496823873,
     "name": "Ornate Magnetic Rock Chunk",
     "tag": "Magnetic Rock",
@@ -2762,6 +3862,31 @@
     "model_asset_name": "Placeables/SilkmothCocoon",
     "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Items/SpiderEggSack",
     "max_health": 200,
+    "visible_to_others": false,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "enemy_params_id": [
+      0,
+      []
+    ]
+  },
+  {
+    "id": 498975787,
+    "name": "Grown Flawless Embergrain",
+    "tag": "Farmed Crop",
+    "tier": 10,
+    "description": "A grown flawless embergrain plant. Harvest it for Flawless Embergrain Plant Output.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/EmbergrainPlantedGrown",
+    "icon_asset_name": "GeneratedIcons/Items/GrainPlant",
+    "max_health": 265,
     "visible_to_others": false,
     "spawns_on_land": true,
     "land_elevation_min": 0,
@@ -2977,6 +4102,31 @@
     ]
   },
   {
+    "id": 522682782,
+    "name": "Growing Fine Wispweave",
+    "tag": "Farmed Crop",
+    "tier": 4,
+    "description": "A fine wispweave seed that's been planted.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/WispweavePlantedGrowing",
+    "icon_asset_name": "GeneratedIcons/Resources/WispweavePlanted",
+    "max_health": 1,
+    "visible_to_others": false,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "enemy_params_id": [
+      0,
+      []
+    ]
+  },
+  {
     "id": 525163539,
     "name": "The Abyssal One That Got Away",
     "tag": "Ocean Fishing Fish",
@@ -3127,6 +4277,31 @@
     ]
   },
   {
+    "id": 546723821,
+    "name": "Grown Exquisite Embergrain",
+    "tag": "Farmed Crop",
+    "tier": 5,
+    "description": "A grown exquisite embergrain plant. Harvest it for Exquisite Embergrain Plant Output.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/EmbergrainPlantedGrown",
+    "icon_asset_name": "GeneratedIcons/Items/GrainPlant",
+    "max_health": 75,
+    "visible_to_others": false,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "enemy_params_id": [
+      0,
+      []
+    ]
+  },
+  {
     "id": 549161991,
     "name": "Flawless Sift Collector",
     "tag": "Sift",
@@ -3195,6 +4370,31 @@
     "land_elevation_max": 1000,
     "spawns_in_water": true,
     "water_depth_min": 10,
+    "water_depth_max": 1000,
+    "enemy_params_id": [
+      0,
+      []
+    ]
+  },
+  {
+    "id": 564315632,
+    "name": "Full Peerless Surveyor",
+    "tag": "Scholar's Surveyor",
+    "tier": 6,
+    "description": "Used to detect and collect ancient Hieroglyphs.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/SurveyorCompleted",
+    "icon_asset_name": "GeneratedIcons/Items/ScholarSurveyor",
+    "max_health": 1,
+    "visible_to_others": false,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
     "water_depth_max": 1000,
     "enemy_params_id": [
       0,
@@ -3302,6 +4502,31 @@
     ]
   },
   {
+    "id": 575637390,
+    "name": "Grown Magnificent Starbulb",
+    "tag": "Farmed Crop",
+    "tier": 9,
+    "description": "A grown magnificent starbulb plant. Harvest it for Magnificent Starbulb Plant Output.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/StarbulbPlantedGrown",
+    "icon_asset_name": "GeneratedIcons/Items/VegetablePlant",
+    "max_health": 205,
+    "visible_to_others": false,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "enemy_params_id": [
+      0,
+      []
+    ]
+  },
+  {
     "id": 575878286,
     "name": "Fertile Cypress Tree Sapling",
     "tag": "Plantable Tree",
@@ -3338,6 +4563,31 @@
     ],
     "model_asset_name": "Placeables/SnapTrap",
     "icon_asset_name": "GeneratedIcons/Items/Snaptrap",
+    "max_health": 1,
+    "visible_to_others": false,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "enemy_params_id": [
+      0,
+      []
+    ]
+  },
+  {
+    "id": 585470451,
+    "name": "Fertilized Planted Ornate Starbulb",
+    "tag": "Farmed Crop",
+    "tier": 7,
+    "description": "A ornate starbulb seed that's been planted.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/StarbulbPlantedFertilized",
+    "icon_asset_name": "GeneratedIcons/Items/VegetablePlant",
     "max_health": 1,
     "visible_to_others": false,
     "spawns_on_land": true,
@@ -3427,6 +4677,31 @@
     ]
   },
   {
+    "id": 602861142,
+    "name": "Charged Basic Surveyor",
+    "tag": "Scholar's Surveyor",
+    "tier": 1,
+    "description": "Surveying the ground for ancient Hieroglyphs. Ready to collect after 30 minutes.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/Surveyor",
+    "icon_asset_name": "GeneratedIcons/Items/ScholarSurveyor",
+    "max_health": 1,
+    "visible_to_others": false,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "enemy_params_id": [
+      0,
+      []
+    ]
+  },
+  {
     "id": 607621088,
     "name": "Large Garbel",
     "tag": "Trophy Fish",
@@ -3489,6 +4764,31 @@
     "model_asset_name": "Placeables/PlaceableMapleTreeMature",
     "icon_asset_name": "GeneratedIcons/Other/MapleTreeMature",
     "max_health": 750,
+    "visible_to_others": false,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "enemy_params_id": [
+      0,
+      []
+    ]
+  },
+  {
+    "id": 613850684,
+    "name": "Charged Ornate Surveyor",
+    "tag": "Scholar's Surveyor",
+    "tier": 7,
+    "description": "Surveying the ground for ancient Hieroglyphs. Ready to collect after 30 minutes.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/Surveyor",
+    "icon_asset_name": "GeneratedIcons/Items/ScholarSurveyor",
+    "max_health": 1,
     "visible_to_others": false,
     "spawns_on_land": true,
     "land_elevation_min": 0,
@@ -3652,6 +4952,31 @@
     ]
   },
   {
+    "id": 639429077,
+    "name": "Planted Magnificent Starbulb",
+    "tag": "Farmed Crop",
+    "tier": 9,
+    "description": "A magnificent starbulb seed that's been planted. It needs to be tended to.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/StarbulbPlanted",
+    "icon_asset_name": "GeneratedIcons/Items/VegetablePlant",
+    "max_health": 1,
+    "visible_to_others": false,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "enemy_params_id": [
+      0,
+      []
+    ]
+  },
+  {
     "id": 648237048,
     "name": "Divine Fishy Fugitives",
     "tag": "Ocean Fishing Fish",
@@ -3770,6 +5095,31 @@
     "land_elevation_max": 1000,
     "spawns_in_water": true,
     "water_depth_min": 15,
+    "water_depth_max": 1000,
+    "enemy_params_id": [
+      0,
+      []
+    ]
+  },
+  {
+    "id": 670700359,
+    "name": "Grown Magnificent Embergrain",
+    "tag": "Farmed Crop",
+    "tier": 9,
+    "description": "A grown magnificent embergrain plant. Harvest it for Magnificent Embergrain Plant Output.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/EmbergrainPlantedGrown",
+    "icon_asset_name": "GeneratedIcons/Items/GrainPlant",
+    "max_health": 205,
+    "visible_to_others": false,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
     "water_depth_max": 1000,
     "enemy_params_id": [
       0,
@@ -4079,6 +5429,81 @@
     ]
   },
   {
+    "id": 722427204,
+    "name": "Fertilized Planted Exquisite Starbulb",
+    "tag": "Farmed Crop",
+    "tier": 5,
+    "description": "A exquisite starbulb seed that's been planted.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/StarbulbPlantedFertilized",
+    "icon_asset_name": "GeneratedIcons/Items/VegetablePlant",
+    "max_health": 1,
+    "visible_to_others": false,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "enemy_params_id": [
+      0,
+      []
+    ]
+  },
+  {
+    "id": 723664732,
+    "name": "Growing Pristine Embergrain",
+    "tag": "Farmed Crop",
+    "tier": 8,
+    "description": "A pristine embergrain seed that's been planted.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/EmbergrainPlantedGrowing",
+    "icon_asset_name": "GeneratedIcons/Items/GrainPlant",
+    "max_health": 1,
+    "visible_to_others": false,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "enemy_params_id": [
+      0,
+      []
+    ]
+  },
+  {
+    "id": 725600999,
+    "name": "Fertilized Planted Pristine Starbulb",
+    "tag": "Farmed Crop",
+    "tier": 8,
+    "description": "A pristine starbulb seed that's been planted.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/StarbulbPlantedFertilized",
+    "icon_asset_name": "GeneratedIcons/Items/VegetablePlant",
+    "max_health": 1,
+    "visible_to_others": false,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "enemy_params_id": [
+      0,
+      []
+    ]
+  },
+  {
     "id": 731680705,
     "name": "Fine Withered Tropical Rice Plant",
     "tag": "Rice Farming",
@@ -4115,6 +5540,31 @@
     ],
     "model_asset_name": "Buildings/EquousWild",
     "icon_asset_name": "GeneratedIcons/Resources/TrophyFish",
+    "max_health": 1,
+    "visible_to_others": false,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "enemy_params_id": [
+      0,
+      []
+    ]
+  },
+  {
+    "id": 740575108,
+    "name": "Fertilized Planted Flawless Wispweave",
+    "tag": "Farmed Crop",
+    "tier": 10,
+    "description": "A flawless wispweave seed that's been planted.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/WispweavePlantedFertilized",
+    "icon_asset_name": "GeneratedIcons/Resources/WispweavePlanted",
     "max_health": 1,
     "visible_to_others": false,
     "spawns_on_land": true,
@@ -4229,6 +5679,31 @@
     ]
   },
   {
+    "id": 750242328,
+    "name": "Fertilized Planted Basic Starbulb",
+    "tag": "Farmed Crop",
+    "tier": 1,
+    "description": "A basic starbulb seed that's been planted.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/StarbulbPlantedFertilized",
+    "icon_asset_name": "GeneratedIcons/Items/VegetablePlant",
+    "max_health": 1,
+    "visible_to_others": false,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "enemy_params_id": [
+      0,
+      []
+    ]
+  },
+  {
     "id": 761520771,
     "name": "Snap Trapped Desert Terrorbird",
     "tag": "Snap Trap",
@@ -4272,6 +5747,56 @@
     "land_elevation_max": 1000,
     "spawns_in_water": true,
     "water_depth_min": 10,
+    "water_depth_max": 1000,
+    "enemy_params_id": [
+      0,
+      []
+    ]
+  },
+  {
+    "id": 765587149,
+    "name": "Growing Ornate Embergrain",
+    "tag": "Farmed Crop",
+    "tier": 7,
+    "description": "A ornate embergrain seed that's been planted.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/EmbergrainPlantedGrowing",
+    "icon_asset_name": "GeneratedIcons/Items/GrainPlant",
+    "max_health": 1,
+    "visible_to_others": false,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "enemy_params_id": [
+      0,
+      []
+    ]
+  },
+  {
+    "id": 768500476,
+    "name": "Planted Simple Wispweave",
+    "tag": "Farmed Crop",
+    "tier": 2,
+    "description": "A simple wispweave seed that's been planted. It needs to be tended to.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/WispweavePlanted",
+    "icon_asset_name": "GeneratedIcons/Resources/WispweavePlanted",
+    "max_health": 1,
+    "visible_to_others": false,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
     "water_depth_max": 1000,
     "enemy_params_id": [
       0,
@@ -4340,6 +5865,31 @@
     ],
     "model_asset_name": "Placeables/LuminiteChunk",
     "icon_asset_name": "GeneratedIcons/Other/GeneratedIcons/Items/CrushedLuminiteOre",
+    "max_health": 1,
+    "visible_to_others": false,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "enemy_params_id": [
+      0,
+      []
+    ]
+  },
+  {
+    "id": 775929416,
+    "name": "Planted Wild Wispweave",
+    "tag": "Farmed Crop",
+    "tier": 1,
+    "description": "A wild wispweave seed that's been planted. It needs to be tended to.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/WispweavePlanted",
+    "icon_asset_name": "GeneratedIcons/Resources/WispweavePlanted",
     "max_health": 1,
     "visible_to_others": false,
     "spawns_on_land": true,
@@ -4454,6 +6004,31 @@
     ]
   },
   {
+    "id": 794039905,
+    "name": "Planted Peerless Embergrain",
+    "tag": "Farmed Crop",
+    "tier": 6,
+    "description": "A peerless embergrain seed that's been planted. It needs to be tended to.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/EmbergrainPlanted",
+    "icon_asset_name": "GeneratedIcons/Items/GrainPlant",
+    "max_health": 1,
+    "visible_to_others": false,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "enemy_params_id": [
+      0,
+      []
+    ]
+  },
+  {
     "id": 795396731,
     "name": "Pristine Withered Tropical Rice Plant",
     "tag": "Rice Farming",
@@ -4497,6 +6072,31 @@
     "land_elevation_max": 1000,
     "spawns_in_water": true,
     "water_depth_min": 10,
+    "water_depth_max": 1000,
+    "enemy_params_id": [
+      0,
+      []
+    ]
+  },
+  {
+    "id": 802317031,
+    "name": "Fine Surveyor",
+    "tag": "Scholar's Surveyor",
+    "tier": 4,
+    "description": "Charge with 2 Hexite Energy to begin surveying for ancient Hieroglyphs. Ready to collect 30 minutes after charging.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/Surveyor",
+    "icon_asset_name": "GeneratedIcons/Items/ScholarSurveyor",
+    "max_health": 1,
+    "visible_to_others": false,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
     "water_depth_max": 1000,
     "enemy_params_id": [
       0,
@@ -4554,6 +6154,31 @@
     ]
   },
   {
+    "id": 821109564,
+    "name": "Growing Wild Starbulb",
+    "tag": "Farmed Crop",
+    "tier": 1,
+    "description": "A wild starbulb seed that's been planted.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/StarbulbPlantedGrowing",
+    "icon_asset_name": "GeneratedIcons/Items/VegetablePlant",
+    "max_health": 1,
+    "visible_to_others": false,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "enemy_params_id": [
+      0,
+      []
+    ]
+  },
+  {
     "id": 822056761,
     "name": "Peerless Gem Geode",
     "tag": "Geode",
@@ -4565,6 +6190,31 @@
     ],
     "model_asset_name": "Placeables/GemGeode",
     "icon_asset_name": "GeneratedIcons/Other/Geode",
+    "max_health": 1,
+    "visible_to_others": false,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "enemy_params_id": [
+      0,
+      []
+    ]
+  },
+  {
+    "id": 830744936,
+    "name": "Growing Wild Embergrain",
+    "tag": "Farmed Crop",
+    "tier": 1,
+    "description": "A wild embergrain seed that's been planted.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/EmbergrainPlantedGrowing",
+    "icon_asset_name": "GeneratedIcons/Items/GrainPlant",
     "max_health": 1,
     "visible_to_others": false,
     "spawns_on_land": true,
@@ -4648,6 +6298,31 @@
     "spawns_in_water": true,
     "water_depth_min": 1,
     "water_depth_max": 3,
+    "enemy_params_id": [
+      0,
+      []
+    ]
+  },
+  {
+    "id": 839497346,
+    "name": "Charged Peerless Surveyor",
+    "tag": "Scholar's Surveyor",
+    "tier": 6,
+    "description": "Surveying the ground for ancient Hieroglyphs. Ready to collect after 30 minutes.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/Surveyor",
+    "icon_asset_name": "GeneratedIcons/Items/ScholarSurveyor",
+    "max_health": 1,
+    "visible_to_others": false,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
     "enemy_params_id": [
       0,
       []
@@ -4754,6 +6429,31 @@
     ]
   },
   {
+    "id": 860315867,
+    "name": "Growing Simple Starbulb",
+    "tag": "Farmed Crop",
+    "tier": 2,
+    "description": "A simple starbulb seed that's been planted.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/StarbulbPlantedGrowing",
+    "icon_asset_name": "GeneratedIcons/Items/VegetablePlant",
+    "max_health": 1,
+    "visible_to_others": false,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "enemy_params_id": [
+      0,
+      []
+    ]
+  },
+  {
     "id": 865200115,
     "name": "Magnificent Baited Fishing Net",
     "tag": "Fishing Net",
@@ -4772,6 +6472,31 @@
     "land_elevation_max": 1000,
     "spawns_in_water": true,
     "water_depth_min": 8,
+    "water_depth_max": 1000,
+    "enemy_params_id": [
+      0,
+      []
+    ]
+  },
+  {
+    "id": 865766098,
+    "name": "Growing Infused Starbulb",
+    "tag": "Farmed Crop",
+    "tier": 3,
+    "description": "A infused starbulb seed that's been planted.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/StarbulbPlantedGrowing",
+    "icon_asset_name": "GeneratedIcons/Items/VegetablePlant",
+    "max_health": 1,
+    "visible_to_others": false,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
     "water_depth_max": 1000,
     "enemy_params_id": [
       0,
@@ -4798,6 +6523,31 @@
     "spawns_in_water": false,
     "water_depth_min": 0,
     "water_depth_max": 0,
+    "enemy_params_id": [
+      0,
+      []
+    ]
+  },
+  {
+    "id": 878543940,
+    "name": "Fertilized Planted Wild Embergrain",
+    "tag": "Farmed Crop",
+    "tier": 1,
+    "description": "A wild embergrain seed that's been planted.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/EmbergrainPlantedFertilized",
+    "icon_asset_name": "GeneratedIcons/Items/GrainPlant",
+    "max_health": 1,
+    "visible_to_others": false,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
     "enemy_params_id": [
       0,
       []
@@ -4954,6 +6704,31 @@
     ]
   },
   {
+    "id": 901178872,
+    "name": "Grown Basic Starbulb",
+    "tag": "Farmed Crop",
+    "tier": 1,
+    "description": "A grown basic starbulb plant. Harvest it for Basic Starbulb Plant Output.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/StarbulbPlantedGrown",
+    "icon_asset_name": "GeneratedIcons/Items/VegetablePlant",
+    "max_health": 25,
+    "visible_to_others": false,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "enemy_params_id": [
+      0,
+      []
+    ]
+  },
+  {
     "id": 901914424,
     "name": "Tiny Corven",
     "tag": "Trophy Fish",
@@ -5079,6 +6854,56 @@
     ]
   },
   {
+    "id": 919190618,
+    "name": "Fertilized Planted Magnificent Starbulb",
+    "tag": "Farmed Crop",
+    "tier": 9,
+    "description": "A magnificent starbulb seed that's been planted.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/StarbulbPlantedFertilized",
+    "icon_asset_name": "GeneratedIcons/Items/VegetablePlant",
+    "max_health": 1,
+    "visible_to_others": false,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "enemy_params_id": [
+      0,
+      []
+    ]
+  },
+  {
+    "id": 922459581,
+    "name": "Grown Wild Starbulb",
+    "tag": "Farmed Crop",
+    "tier": 1,
+    "description": "A grown wild starbulb plant. Grants domesticated Starbulb Seeds",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/StarbulbPlantedGrown",
+    "icon_asset_name": "GeneratedIcons/Items/VegetablePlant",
+    "max_health": 15,
+    "visible_to_others": false,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "enemy_params_id": [
+      0,
+      []
+    ]
+  },
+  {
     "id": 925603670,
     "name": "Pristine Young Tropical Rice Seedling",
     "tag": "Rice Farming",
@@ -5129,6 +6954,31 @@
     ]
   },
   {
+    "id": 935653623,
+    "name": "Charged Fine Surveyor",
+    "tag": "Scholar's Surveyor",
+    "tier": 4,
+    "description": "Surveying the ground for ancient Hieroglyphs. Ready to collect after 30 minutes.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/Surveyor",
+    "icon_asset_name": "GeneratedIcons/Items/ScholarSurveyor",
+    "max_health": 1,
+    "visible_to_others": false,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "enemy_params_id": [
+      0,
+      []
+    ]
+  },
+  {
     "id": 936946947,
     "name": "Average Tired Trask",
     "tag": "Trophy Fish",
@@ -5172,6 +7022,31 @@
     "land_elevation_max": 1000,
     "spawns_in_water": true,
     "water_depth_min": 10,
+    "water_depth_max": 1000,
+    "enemy_params_id": [
+      0,
+      []
+    ]
+  },
+  {
+    "id": 945573594,
+    "name": "Peerless Surveyor",
+    "tag": "Scholar's Surveyor",
+    "tier": 6,
+    "description": "Charge with 3 Hexite Energy to begin surveying for ancient Hieroglyphs. Ready to collect 30 minutes after charging.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/Surveyor",
+    "icon_asset_name": "GeneratedIcons/Items/ScholarSurveyor",
+    "max_health": 1,
+    "visible_to_others": false,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
     "water_depth_max": 1000,
     "enemy_params_id": [
       0,
@@ -5278,6 +7153,31 @@
       [
         2121579779
       ]
+    ]
+  },
+  {
+    "id": 955641968,
+    "name": "Planted Infused Embergrain",
+    "tag": "Farmed Crop",
+    "tier": 3,
+    "description": "A infused embergrain seed that's been planted. It needs to be tended to.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/EmbergrainPlanted",
+    "icon_asset_name": "GeneratedIcons/Items/GrainPlant",
+    "max_health": 1,
+    "visible_to_others": false,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "enemy_params_id": [
+      0,
+      []
     ]
   },
   {
@@ -5731,6 +7631,56 @@
     ]
   },
   {
+    "id": 978951189,
+    "name": "Growing Basic Starbulb",
+    "tag": "Farmed Crop",
+    "tier": 1,
+    "description": "A basic starbulb seed that's been planted.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/StarbulbPlantedGrowing",
+    "icon_asset_name": "GeneratedIcons/Items/VegetablePlant",
+    "max_health": 1,
+    "visible_to_others": false,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "enemy_params_id": [
+      0,
+      []
+    ]
+  },
+  {
+    "id": 994253313,
+    "name": "Planted Magnificent Embergrain",
+    "tag": "Farmed Crop",
+    "tier": 9,
+    "description": "A magnificent embergrain seed that's been planted. It needs to be tended to.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/EmbergrainPlanted",
+    "icon_asset_name": "GeneratedIcons/Items/GrainPlant",
+    "max_health": 1,
+    "visible_to_others": false,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "enemy_params_id": [
+      0,
+      []
+    ]
+  },
+  {
     "id": 994939277,
     "name": "Unfinished Bricks",
     "tag": "Bricks",
@@ -5793,6 +7743,31 @@
     "model_asset_name": "Placeables/DriedPlankPile",
     "icon_asset_name": "GeneratedIcons/Other/DriedWoodPile",
     "max_health": 5,
+    "visible_to_others": false,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "enemy_params_id": [
+      0,
+      []
+    ]
+  },
+  {
+    "id": 1005098979,
+    "name": "Basic Surveyor",
+    "tag": "Scholar's Surveyor",
+    "tier": 1,
+    "description": "Charge with 1 Hexite Energy to begin surveying for ancient Hieroglyphs. Ready to collect 30 minutes after charging.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/Surveyor",
+    "icon_asset_name": "GeneratedIcons/Items/ScholarSurveyor",
+    "max_health": 1,
     "visible_to_others": false,
     "spawns_on_land": true,
     "land_elevation_min": 0,
@@ -5999,6 +7974,31 @@
     "land_elevation_max": 1000,
     "spawns_in_water": true,
     "water_depth_min": 10,
+    "water_depth_max": 1000,
+    "enemy_params_id": [
+      0,
+      []
+    ]
+  },
+  {
+    "id": 1022120865,
+    "name": "Fertilized Planted Simple Wispweave",
+    "tag": "Farmed Crop",
+    "tier": 2,
+    "description": "A simple wispweave seed that's been planted.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/WispweavePlantedFertilized",
+    "icon_asset_name": "GeneratedIcons/Resources/WispweavePlanted",
+    "max_health": 1,
+    "visible_to_others": false,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
     "water_depth_max": 1000,
     "enemy_params_id": [
       0,
@@ -6233,6 +8233,31 @@
     ]
   },
   {
+    "id": 1072010779,
+    "name": "Charged Sturdy Surveyor",
+    "tag": "Scholar's Surveyor",
+    "tier": 3,
+    "description": "Surveying the ground for ancient Hieroglyphs. Ready to collect after 30 minutes.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/Surveyor",
+    "icon_asset_name": "GeneratedIcons/Items/ScholarSurveyor",
+    "max_health": 1,
+    "visible_to_others": false,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "enemy_params_id": [
+      0,
+      []
+    ]
+  },
+  {
     "id": 1081882298,
     "name": "Enormous Dorbel",
     "tag": "Trophy Fish",
@@ -6435,6 +8460,31 @@
     ]
   },
   {
+    "id": 1093170194,
+    "name": "Growing Simple Embergrain",
+    "tag": "Farmed Crop",
+    "tier": 2,
+    "description": "A simple embergrain seed that's been planted.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/EmbergrainPlantedGrowing",
+    "icon_asset_name": "GeneratedIcons/Items/GrainPlant",
+    "max_health": 1,
+    "visible_to_others": false,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "enemy_params_id": [
+      0,
+      []
+    ]
+  },
+  {
     "id": 1093486218,
     "name": "Small Garbel",
     "tag": "Trophy Fish",
@@ -6535,6 +8585,31 @@
     ]
   },
   {
+    "id": 1103352928,
+    "name": "Grown Pristine Embergrain",
+    "tag": "Farmed Crop",
+    "tier": 8,
+    "description": "A grown pristine embergrain plant. Harvest it for Pristine Embergrain Plant Output.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/EmbergrainPlantedGrown",
+    "icon_asset_name": "GeneratedIcons/Items/GrainPlant",
+    "max_health": 160,
+    "visible_to_others": false,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "enemy_params_id": [
+      0,
+      []
+    ]
+  },
+  {
     "id": 1107007590,
     "name": "Magnificent Magnetic Rock Chunk",
     "tag": "Magnetic Rock",
@@ -6546,6 +8621,56 @@
     ],
     "model_asset_name": "Placeables/MagneticRockChunk",
     "icon_asset_name": "GeneratedIcons/Other/MagneticRock",
+    "max_health": 1,
+    "visible_to_others": false,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "enemy_params_id": [
+      0,
+      []
+    ]
+  },
+  {
+    "id": 1107448945,
+    "name": "Grown Fine Wispweave",
+    "tag": "Farmed Crop",
+    "tier": 4,
+    "description": "A grown fine wispweave plant. Harvest it for Fine Wispweave Plant Output.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/WispweavePlantedGrown",
+    "icon_asset_name": "GeneratedIcons/Resources/WispweavePlanted",
+    "max_health": 55,
+    "visible_to_others": false,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "enemy_params_id": [
+      0,
+      []
+    ]
+  },
+  {
+    "id": 1110740912,
+    "name": "Growing Magnificent Wispweave",
+    "tag": "Farmed Crop",
+    "tier": 9,
+    "description": "A magnificent wispweave seed that's been planted.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/WispweavePlantedGrowing",
+    "icon_asset_name": "GeneratedIcons/Resources/WispweavePlanted",
     "max_health": 1,
     "visible_to_others": false,
     "spawns_on_land": true,
@@ -6885,6 +9010,31 @@
     ]
   },
   {
+    "id": 1178646626,
+    "name": "Growing Ornate Starbulb",
+    "tag": "Farmed Crop",
+    "tier": 7,
+    "description": "A ornate starbulb seed that's been planted.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/StarbulbPlantedGrowing",
+    "icon_asset_name": "GeneratedIcons/Items/VegetablePlant",
+    "max_health": 1,
+    "visible_to_others": false,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "enemy_params_id": [
+      0,
+      []
+    ]
+  },
+  {
     "id": 1185242216,
     "name": "Small Carbot",
     "tag": "Trophy Fish",
@@ -6903,6 +9053,31 @@
     "land_elevation_max": 1000,
     "spawns_in_water": true,
     "water_depth_min": 10,
+    "water_depth_max": 1000,
+    "enemy_params_id": [
+      0,
+      []
+    ]
+  },
+  {
+    "id": 1187325495,
+    "name": "Planted Basic Embergrain",
+    "tag": "Farmed Crop",
+    "tier": 1,
+    "description": "A basic embergrain seed that's been planted. It needs to be tended to.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/EmbergrainPlanted",
+    "icon_asset_name": "GeneratedIcons/Items/GrainPlant",
+    "max_health": 1,
+    "visible_to_others": false,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
     "water_depth_max": 1000,
     "enemy_params_id": [
       0,
@@ -6946,6 +9121,81 @@
     ],
     "model_asset_name": "Placeables/VibrantStarfishPlaceable",
     "icon_asset_name": "GeneratedIcons/Items/VibrantStarfish",
+    "max_health": 1,
+    "visible_to_others": false,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "enemy_params_id": [
+      0,
+      []
+    ]
+  },
+  {
+    "id": 1199444665,
+    "name": "Charged Exquisite Surveyor",
+    "tag": "Scholar's Surveyor",
+    "tier": 5,
+    "description": "Surveying the ground for ancient Hieroglyphs. Ready to collect after 30 minutes.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/Surveyor",
+    "icon_asset_name": "GeneratedIcons/Items/ScholarSurveyor",
+    "max_health": 1,
+    "visible_to_others": false,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "enemy_params_id": [
+      0,
+      []
+    ]
+  },
+  {
+    "id": 1202652289,
+    "name": "Growing Flawless Embergrain",
+    "tag": "Farmed Crop",
+    "tier": 10,
+    "description": "A flawless embergrain seed that's been planted.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/EmbergrainPlantedGrowing",
+    "icon_asset_name": "GeneratedIcons/Items/GrainPlant",
+    "max_health": 1,
+    "visible_to_others": false,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "enemy_params_id": [
+      0,
+      []
+    ]
+  },
+  {
+    "id": 1210446833,
+    "name": "Fertilized Planted Flawless Embergrain",
+    "tag": "Farmed Crop",
+    "tier": 10,
+    "description": "A flawless embergrain seed that's been planted.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/EmbergrainPlantedFertilized",
+    "icon_asset_name": "GeneratedIcons/Items/GrainPlant",
     "max_health": 1,
     "visible_to_others": false,
     "spawns_on_land": true,
@@ -7185,6 +9435,31 @@
     ]
   },
   {
+    "id": 1251584233,
+    "name": "Grown Flawless Wispweave",
+    "tag": "Farmed Crop",
+    "tier": 10,
+    "description": "A grown flawless wispweave plant. Harvest it for Flawless Wispweave Plant Output.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/WispweavePlantedGrown",
+    "icon_asset_name": "GeneratedIcons/Resources/WispweavePlanted",
+    "max_health": 265,
+    "visible_to_others": false,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "enemy_params_id": [
+      0,
+      []
+    ]
+  },
+  {
     "id": 1253646510,
     "name": "Exquisite Withered Tropical Rice Plant",
     "tag": "Rice Farming",
@@ -7335,6 +9610,31 @@
     ]
   },
   {
+    "id": 1266798591,
+    "name": "Grown Simple Embergrain",
+    "tag": "Farmed Crop",
+    "tier": 2,
+    "description": "A grown simple embergrain plant. Harvest it for Simple Embergrain Plant Output.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/EmbergrainPlantedGrown",
+    "icon_asset_name": "GeneratedIcons/Items/GrainPlant",
+    "max_health": 35,
+    "visible_to_others": false,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "enemy_params_id": [
+      0,
+      []
+    ]
+  },
+  {
     "id": 1271646237,
     "name": "Small Naskel",
     "tag": "Trophy Fish",
@@ -7409,6 +9709,31 @@
       [
         805019604
       ]
+    ]
+  },
+  {
+    "id": 1277967241,
+    "name": "Grown Pristine Starbulb",
+    "tag": "Farmed Crop",
+    "tier": 8,
+    "description": "A grown pristine starbulb plant. Harvest it for Pristine Starbulb Plant Output.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/StarbulbPlantedGrown",
+    "icon_asset_name": "GeneratedIcons/Items/VegetablePlant",
+    "max_health": 160,
+    "visible_to_others": false,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "enemy_params_id": [
+      0,
+      []
     ]
   },
   {
@@ -7587,6 +9912,31 @@
     ]
   },
   {
+    "id": 1295527994,
+    "name": "Full Ornate Surveyor",
+    "tag": "Scholar's Surveyor",
+    "tier": 7,
+    "description": "Used to detect and collect ancient Hieroglyphs.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/SurveyorCompleted",
+    "icon_asset_name": "GeneratedIcons/Items/ScholarSurveyor",
+    "max_health": 1,
+    "visible_to_others": false,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "enemy_params_id": [
+      0,
+      []
+    ]
+  },
+  {
     "id": 1298672194,
     "name": "Fertile Spruce Tree Sapling",
     "tag": "Plantable Tree",
@@ -7598,6 +9948,31 @@
     ],
     "model_asset_name": "Placeables/PlaceableSpruceTreeSapling",
     "icon_asset_name": "GeneratedIcons/Other/SpruceTreeMature",
+    "max_health": 1,
+    "visible_to_others": false,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "enemy_params_id": [
+      0,
+      []
+    ]
+  },
+  {
+    "id": 1301017327,
+    "name": "Growing Fine Embergrain",
+    "tag": "Farmed Crop",
+    "tier": 4,
+    "description": "A fine embergrain seed that's been planted.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/EmbergrainPlantedGrowing",
+    "icon_asset_name": "GeneratedIcons/Items/GrainPlant",
     "max_health": 1,
     "visible_to_others": false,
     "spawns_on_land": true,
@@ -7674,6 +10049,56 @@
     "model_asset_name": "Placeables/PlaceableFicusTreeSapling",
     "icon_asset_name": "GeneratedIcons/Other/FicusTreeMature",
     "max_health": 1,
+    "visible_to_others": false,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "enemy_params_id": [
+      0,
+      []
+    ]
+  },
+  {
+    "id": 1309389908,
+    "name": "Full Sturdy Surveyor",
+    "tag": "Scholar's Surveyor",
+    "tier": 3,
+    "description": "Used to detect and collect ancient Hieroglyphs.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/SurveyorCompleted",
+    "icon_asset_name": "GeneratedIcons/Items/ScholarSurveyor",
+    "max_health": 1,
+    "visible_to_others": false,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "enemy_params_id": [
+      0,
+      []
+    ]
+  },
+  {
+    "id": 1314737934,
+    "name": "Grown Infused Wispweave",
+    "tag": "Farmed Crop",
+    "tier": 3,
+    "description": "A grown infused wispweave plant. Harvest it for Infused Wispweave Plant Output.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/WispweavePlantedGrown",
+    "icon_asset_name": "GeneratedIcons/Resources/WispweavePlanted",
+    "max_health": 45,
     "visible_to_others": false,
     "spawns_on_land": true,
     "land_elevation_min": 0,
@@ -8037,6 +10462,56 @@
     ]
   },
   {
+    "id": 1339796713,
+    "name": "Full Basic Surveyor",
+    "tag": "Scholar's Surveyor",
+    "tier": 1,
+    "description": "Used to detect and collect ancient Hieroglyphs.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/SurveyorCompleted",
+    "icon_asset_name": "GeneratedIcons/Items/ScholarSurveyor",
+    "max_health": 1,
+    "visible_to_others": false,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "enemy_params_id": [
+      0,
+      []
+    ]
+  },
+  {
+    "id": 1342588443,
+    "name": "Full Exquisite Surveyor",
+    "tag": "Scholar's Surveyor",
+    "tier": 5,
+    "description": "Used to detect and collect ancient Hieroglyphs.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/SurveyorCompleted",
+    "icon_asset_name": "GeneratedIcons/Items/ScholarSurveyor",
+    "max_health": 1,
+    "visible_to_others": false,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "enemy_params_id": [
+      0,
+      []
+    ]
+  },
+  {
     "id": 1347013771,
     "name": "Fine Fishing Net",
     "tag": "Fishing Net",
@@ -8080,6 +10555,31 @@
     "land_elevation_max": 1000,
     "spawns_in_water": true,
     "water_depth_min": 13,
+    "water_depth_max": 1000,
+    "enemy_params_id": [
+      0,
+      []
+    ]
+  },
+  {
+    "id": 1351534563,
+    "name": "Planted Flawless Embergrain",
+    "tag": "Farmed Crop",
+    "tier": 10,
+    "description": "A flawless embergrain seed that's been planted. It needs to be tended to.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/EmbergrainPlanted",
+    "icon_asset_name": "GeneratedIcons/Items/GrainPlant",
+    "max_health": 1,
+    "visible_to_others": false,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
     "water_depth_max": 1000,
     "enemy_params_id": [
       0,
@@ -8147,7 +10647,7 @@
       {}
     ],
     "model_asset_name": "Placeables/MagicConchPlaceable",
-    "icon_asset_name": "GeneratedIcons/Items/PlainConch",
+    "icon_asset_name": "GeneratedIcons/Items/MagicConch",
     "max_health": 1,
     "visible_to_others": false,
     "spawns_on_land": true,
@@ -8212,6 +10712,31 @@
     ]
   },
   {
+    "id": 1359350003,
+    "name": "Grown Fine Starbulb",
+    "tag": "Farmed Crop",
+    "tier": 4,
+    "description": "A grown fine starbulb plant. Harvest it for Fine Starbulb Plant Output.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/StarbulbPlantedGrown",
+    "icon_asset_name": "GeneratedIcons/Items/VegetablePlant",
+    "max_health": 55,
+    "visible_to_others": false,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "enemy_params_id": [
+      0,
+      []
+    ]
+  },
+  {
     "id": 1368073012,
     "name": "Tiny Tired Carbot",
     "tag": "Trophy Fish",
@@ -8230,6 +10755,31 @@
     "land_elevation_max": 1000,
     "spawns_in_water": true,
     "water_depth_min": 10,
+    "water_depth_max": 1000,
+    "enemy_params_id": [
+      0,
+      []
+    ]
+  },
+  {
+    "id": 1368618510,
+    "name": "Fertilized Planted Peerless Embergrain",
+    "tag": "Farmed Crop",
+    "tier": 6,
+    "description": "A peerless embergrain seed that's been planted.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/EmbergrainPlantedFertilized",
+    "icon_asset_name": "GeneratedIcons/Items/GrainPlant",
+    "max_health": 1,
+    "visible_to_others": false,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
     "water_depth_max": 1000,
     "enemy_params_id": [
       0,
@@ -8279,6 +10829,31 @@
     "land_elevation_min": 0,
     "land_elevation_max": 0,
     "spawns_in_water": true,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "enemy_params_id": [
+      0,
+      []
+    ]
+  },
+  {
+    "id": 1372336659,
+    "name": "Planted Simple Starbulb",
+    "tag": "Farmed Crop",
+    "tier": 2,
+    "description": "A simple starbulb seed that's been planted. It needs to be tended to.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/StarbulbPlanted",
+    "icon_asset_name": "GeneratedIcons/Items/VegetablePlant",
+    "max_health": 1,
+    "visible_to_others": false,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
     "water_depth_min": 0,
     "water_depth_max": 1000,
     "enemy_params_id": [
@@ -8337,6 +10912,31 @@
     ]
   },
   {
+    "id": 1376819797,
+    "name": "Fertilized Planted Ornate Wispweave",
+    "tag": "Farmed Crop",
+    "tier": 7,
+    "description": "A ornate wispweave seed that's been planted.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/WispweavePlantedFertilized",
+    "icon_asset_name": "GeneratedIcons/Resources/WispweavePlanted",
+    "max_health": 1,
+    "visible_to_others": false,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "enemy_params_id": [
+      0,
+      []
+    ]
+  },
+  {
     "id": 1378988938,
     "name": "Snap Trapped Sagi Bird",
     "tag": "Snap Trap",
@@ -8348,6 +10948,31 @@
     ],
     "model_asset_name": "Placeables/SnapTrapFullT1",
     "icon_asset_name": "GeneratedIcons/Items/Snaptrap",
+    "max_health": 1,
+    "visible_to_others": false,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "enemy_params_id": [
+      0,
+      []
+    ]
+  },
+  {
+    "id": 1381783270,
+    "name": "Charged Magnificent Surveyor",
+    "tag": "Scholar's Surveyor",
+    "tier": 9,
+    "description": "Surveying the ground for ancient Hieroglyphs. Ready to collect after 30 minutes.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/Surveyor",
+    "icon_asset_name": "GeneratedIcons/Items/ScholarSurveyor",
     "max_health": 1,
     "visible_to_others": false,
     "spawns_on_land": true,
@@ -8437,6 +11062,81 @@
     ]
   },
   {
+    "id": 1408372320,
+    "name": "Planted Exquisite Wispweave",
+    "tag": "Farmed Crop",
+    "tier": 5,
+    "description": "A exquisite wispweave seed that's been planted. It needs to be tended to.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/WispweavePlanted",
+    "icon_asset_name": "GeneratedIcons/Resources/WispweavePlanted",
+    "max_health": 1,
+    "visible_to_others": false,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "enemy_params_id": [
+      0,
+      []
+    ]
+  },
+  {
+    "id": 1410982360,
+    "name": "Growing Pristine Starbulb",
+    "tag": "Farmed Crop",
+    "tier": 8,
+    "description": "A pristine starbulb seed that's been planted.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/StarbulbPlantedGrowing",
+    "icon_asset_name": "GeneratedIcons/Items/VegetablePlant",
+    "max_health": 1,
+    "visible_to_others": false,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "enemy_params_id": [
+      0,
+      []
+    ]
+  },
+  {
+    "id": 1411766020,
+    "name": "Growing Infused Wispweave",
+    "tag": "Farmed Crop",
+    "tier": 3,
+    "description": "A infused wispweave seed that's been planted.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/WispweavePlantedGrowing",
+    "icon_asset_name": "GeneratedIcons/Resources/WispweavePlanted",
+    "max_health": 1,
+    "visible_to_others": false,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "enemy_params_id": [
+      0,
+      []
+    ]
+  },
+  {
     "id": 1425024368,
     "name": "Peerless Tropical Rice Plant",
     "tag": "Rice Farming",
@@ -8480,6 +11180,56 @@
     "land_elevation_max": 1000,
     "spawns_in_water": true,
     "water_depth_min": 10,
+    "water_depth_max": 1000,
+    "enemy_params_id": [
+      0,
+      []
+    ]
+  },
+  {
+    "id": 1433591578,
+    "name": "Planted Fine Wispweave",
+    "tag": "Farmed Crop",
+    "tier": 4,
+    "description": "A fine wispweave seed that's been planted. It needs to be tended to.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/WispweavePlanted",
+    "icon_asset_name": "GeneratedIcons/Resources/WispweavePlanted",
+    "max_health": 1,
+    "visible_to_others": false,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "enemy_params_id": [
+      0,
+      []
+    ]
+  },
+  {
+    "id": 1435130709,
+    "name": "Fertilized Planted Exquisite Wispweave",
+    "tag": "Farmed Crop",
+    "tier": 5,
+    "description": "A exquisite wispweave seed that's been planted.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/WispweavePlantedFertilized",
+    "icon_asset_name": "GeneratedIcons/Resources/WispweavePlanted",
+    "max_health": 1,
+    "visible_to_others": false,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
     "water_depth_max": 1000,
     "enemy_params_id": [
       0,
@@ -8762,6 +11512,31 @@
     ]
   },
   {
+    "id": 1485560037,
+    "name": "Planted Simple Embergrain",
+    "tag": "Farmed Crop",
+    "tier": 2,
+    "description": "A simple embergrain seed that's been planted. It needs to be tended to.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/EmbergrainPlanted",
+    "icon_asset_name": "GeneratedIcons/Items/GrainPlant",
+    "max_health": 1,
+    "visible_to_others": false,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "enemy_params_id": [
+      0,
+      []
+    ]
+  },
+  {
     "id": 1490842487,
     "name": "Fertile Sapwood Tree Sapling",
     "tag": "Plantable Tree",
@@ -8773,6 +11548,31 @@
     ],
     "model_asset_name": "Placeables/PlaceableSapwoodTreeSapling",
     "icon_asset_name": "GeneratedIcons/Other/SapwoodTreeMature",
+    "max_health": 1,
+    "visible_to_others": false,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "enemy_params_id": [
+      0,
+      []
+    ]
+  },
+  {
+    "id": 1491325420,
+    "name": "Planted Fine Embergrain",
+    "tag": "Farmed Crop",
+    "tier": 4,
+    "description": "A fine embergrain seed that's been planted. It needs to be tended to.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/EmbergrainPlanted",
+    "icon_asset_name": "GeneratedIcons/Items/GrainPlant",
     "max_health": 1,
     "visible_to_others": false,
     "spawns_on_land": true,
@@ -8880,6 +11680,31 @@
     "land_elevation_max": 1000,
     "spawns_in_water": true,
     "water_depth_min": 10,
+    "water_depth_max": 1000,
+    "enemy_params_id": [
+      0,
+      []
+    ]
+  },
+  {
+    "id": 1515778098,
+    "name": "Fertilized Planted Wild Wispweave",
+    "tag": "Farmed Crop",
+    "tier": 1,
+    "description": "A wild wispweave seed that's been planted.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/WispweavePlantedFertilized",
+    "icon_asset_name": "GeneratedIcons/Resources/WispweavePlanted",
+    "max_health": 1,
+    "visible_to_others": false,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
     "water_depth_max": 1000,
     "enemy_params_id": [
       0,
@@ -9137,6 +11962,31 @@
     ]
   },
   {
+    "id": 1570251975,
+    "name": "Grown Ornate Starbulb",
+    "tag": "Farmed Crop",
+    "tier": 7,
+    "description": "A grown ornate starbulb plant. Harvest it for Ornate Starbulb Plant Output.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/StarbulbPlantedGrown",
+    "icon_asset_name": "GeneratedIcons/Items/VegetablePlant",
+    "max_health": 120,
+    "visible_to_others": false,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "enemy_params_id": [
+      0,
+      []
+    ]
+  },
+  {
     "id": 1572145085,
     "name": "Fertile Pine Tree",
     "tag": "Plantable Tree",
@@ -9149,6 +11999,81 @@
     "model_asset_name": "Placeables/PlaceablePineTreeYoung",
     "icon_asset_name": "GeneratedIcons/Other/PineTreeMature",
     "max_health": 500,
+    "visible_to_others": false,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "enemy_params_id": [
+      0,
+      []
+    ]
+  },
+  {
+    "id": 1582057659,
+    "name": "Growing Exquisite Starbulb",
+    "tag": "Farmed Crop",
+    "tier": 5,
+    "description": "A exquisite starbulb seed that's been planted.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/StarbulbPlantedGrowing",
+    "icon_asset_name": "GeneratedIcons/Items/VegetablePlant",
+    "max_health": 1,
+    "visible_to_others": false,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "enemy_params_id": [
+      0,
+      []
+    ]
+  },
+  {
+    "id": 1584685597,
+    "name": "Full Fine Surveyor",
+    "tag": "Scholar's Surveyor",
+    "tier": 4,
+    "description": "Used to detect and collect ancient Hieroglyphs.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/SurveyorCompleted",
+    "icon_asset_name": "GeneratedIcons/Items/ScholarSurveyor",
+    "max_health": 1,
+    "visible_to_others": false,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "enemy_params_id": [
+      0,
+      []
+    ]
+  },
+  {
+    "id": 1589442535,
+    "name": "Growing Ornate Wispweave",
+    "tag": "Farmed Crop",
+    "tier": 7,
+    "description": "A ornate wispweave seed that's been planted.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/WispweavePlantedGrowing",
+    "icon_asset_name": "GeneratedIcons/Resources/WispweavePlanted",
+    "max_health": 1,
     "visible_to_others": false,
     "spawns_on_land": true,
     "land_elevation_min": 0,
@@ -9298,6 +12223,31 @@
     ],
     "model_asset_name": "Placeables/AnimalTrapSuccess",
     "icon_asset_name": "GeneratedIcons/Other/Buildings/Crafting/NubiGoatTrap",
+    "max_health": 1,
+    "visible_to_others": false,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "enemy_params_id": [
+      0,
+      []
+    ]
+  },
+  {
+    "id": 1600048298,
+    "name": "Planted Peerless Wispweave",
+    "tag": "Farmed Crop",
+    "tier": 6,
+    "description": "A peerless wispweave seed that's been planted. It needs to be tended to.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/WispweavePlanted",
+    "icon_asset_name": "GeneratedIcons/Resources/WispweavePlanted",
     "max_health": 1,
     "visible_to_others": false,
     "spawns_on_land": true,
@@ -9462,6 +12412,31 @@
     ]
   },
   {
+    "id": 1628293567,
+    "name": "Sturdy Surveyor",
+    "tag": "Scholar's Surveyor",
+    "tier": 3,
+    "description": "Charge with 2 Hexite Energy to begin surveying for ancient Hieroglyphs. Ready to collect 30 minutes after charging.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/Surveyor",
+    "icon_asset_name": "GeneratedIcons/Items/ScholarSurveyor",
+    "max_health": 1,
+    "visible_to_others": false,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "enemy_params_id": [
+      0,
+      []
+    ]
+  },
+  {
     "id": 1637541577,
     "name": "Sea Glass",
     "tag": "Forageable",
@@ -9512,6 +12487,31 @@
     ]
   },
   {
+    "id": 1646634853,
+    "name": "Planted Pristine Starbulb",
+    "tag": "Farmed Crop",
+    "tier": 8,
+    "description": "A pristine starbulb seed that's been planted. It needs to be tended to.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/StarbulbPlanted",
+    "icon_asset_name": "GeneratedIcons/Items/VegetablePlant",
+    "max_health": 1,
+    "visible_to_others": false,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "enemy_params_id": [
+      0,
+      []
+    ]
+  },
+  {
     "id": 1648543805,
     "name": "Fertile Spruce Tree",
     "tag": "Plantable Tree",
@@ -9524,6 +12524,106 @@
     "model_asset_name": "Placeables/PlaceableSpruceTreeYoung",
     "icon_asset_name": "GeneratedIcons/Other/SpruceTreeMature",
     "max_health": 500,
+    "visible_to_others": false,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "enemy_params_id": [
+      0,
+      []
+    ]
+  },
+  {
+    "id": 1650266495,
+    "name": "Planted Wild Embergrain",
+    "tag": "Farmed Crop",
+    "tier": 1,
+    "description": "A wild embergrain seed that's been planted. It needs to be tended to.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/EmbergrainPlanted",
+    "icon_asset_name": "GeneratedIcons/Items/GrainPlant",
+    "max_health": 1,
+    "visible_to_others": false,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "enemy_params_id": [
+      0,
+      []
+    ]
+  },
+  {
+    "id": 1650486835,
+    "name": "Growing Basic Embergrain",
+    "tag": "Farmed Crop",
+    "tier": 1,
+    "description": "A basic embergrain seed that's been planted.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/EmbergrainPlantedGrowing",
+    "icon_asset_name": "GeneratedIcons/Items/GrainPlant",
+    "max_health": 1,
+    "visible_to_others": false,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "enemy_params_id": [
+      0,
+      []
+    ]
+  },
+  {
+    "id": 1653813161,
+    "name": "Planted Pristine Embergrain",
+    "tag": "Farmed Crop",
+    "tier": 8,
+    "description": "A pristine embergrain seed that's been planted. It needs to be tended to.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/EmbergrainPlanted",
+    "icon_asset_name": "GeneratedIcons/Items/GrainPlant",
+    "max_health": 1,
+    "visible_to_others": false,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "enemy_params_id": [
+      0,
+      []
+    ]
+  },
+  {
+    "id": 1660103349,
+    "name": "Fertilized Planted Basic Wispweave",
+    "tag": "Farmed Crop",
+    "tier": 1,
+    "description": "A basic wispweave seed that's been planted.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/WispweavePlantedFertilized",
+    "icon_asset_name": "GeneratedIcons/Resources/WispweavePlanted",
+    "max_health": 1,
     "visible_to_others": false,
     "spawns_on_land": true,
     "land_elevation_min": 0,
@@ -9555,6 +12655,56 @@
     "land_elevation_max": 1000,
     "spawns_in_water": true,
     "water_depth_min": 10,
+    "water_depth_max": 1000,
+    "enemy_params_id": [
+      0,
+      []
+    ]
+  },
+  {
+    "id": 1667957175,
+    "name": "Fertilized Planted Pristine Wispweave",
+    "tag": "Farmed Crop",
+    "tier": 8,
+    "description": "A pristine wispweave seed that's been planted.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/WispweavePlantedFertilized",
+    "icon_asset_name": "GeneratedIcons/Resources/WispweavePlanted",
+    "max_health": 1,
+    "visible_to_others": false,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "enemy_params_id": [
+      0,
+      []
+    ]
+  },
+  {
+    "id": 1680741882,
+    "name": "Fertilized Planted Pristine Embergrain",
+    "tag": "Farmed Crop",
+    "tier": 8,
+    "description": "A pristine embergrain seed that's been planted.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/EmbergrainPlantedFertilized",
+    "icon_asset_name": "GeneratedIcons/Items/GrainPlant",
+    "max_health": 1,
+    "visible_to_others": false,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
     "water_depth_max": 1000,
     "enemy_params_id": [
       0,
@@ -9612,6 +12762,31 @@
     ]
   },
   {
+    "id": 1687483751,
+    "name": "Growing Peerless Wispweave",
+    "tag": "Farmed Crop",
+    "tier": 6,
+    "description": "A peerless wispweave seed that's been planted.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/WispweavePlantedGrowing",
+    "icon_asset_name": "GeneratedIcons/Resources/WispweavePlanted",
+    "max_health": 1,
+    "visible_to_others": false,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "enemy_params_id": [
+      0,
+      []
+    ]
+  },
+  {
     "id": 1698423742,
     "name": "Fertile Mature Sapwood Tree",
     "tag": "Plantable Tree",
@@ -9655,6 +12830,31 @@
     "land_elevation_max": 1000,
     "spawns_in_water": true,
     "water_depth_min": 13,
+    "water_depth_max": 1000,
+    "enemy_params_id": [
+      0,
+      []
+    ]
+  },
+  {
+    "id": 1712306450,
+    "name": "Grown Pristine Wispweave",
+    "tag": "Farmed Crop",
+    "tier": 8,
+    "description": "A grown pristine wispweave plant. Harvest it for Pristine Wispweave Plant Output.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/WispweavePlantedGrown",
+    "icon_asset_name": "GeneratedIcons/Resources/WispweavePlanted",
+    "max_health": 160,
+    "visible_to_others": false,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
     "water_depth_max": 1000,
     "enemy_params_id": [
       0,
@@ -9781,6 +12981,31 @@
     "spawns_in_water": true,
     "water_depth_min": 1,
     "water_depth_max": 3,
+    "enemy_params_id": [
+      0,
+      []
+    ]
+  },
+  {
+    "id": 1743727217,
+    "name": "Full Simple Surveyor",
+    "tag": "Scholar's Surveyor",
+    "tier": 2,
+    "description": "Used to detect and collect ancient Hieroglyphs.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/SurveyorCompleted",
+    "icon_asset_name": "GeneratedIcons/Items/ScholarSurveyor",
+    "max_health": 1,
+    "visible_to_others": false,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
     "enemy_params_id": [
       0,
       []
@@ -10037,6 +13262,31 @@
     ]
   },
   {
+    "id": 1779076421,
+    "name": "Planted Basic Starbulb",
+    "tag": "Farmed Crop",
+    "tier": 1,
+    "description": "A basic starbulb seed that's been planted. It needs to be tended to.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/StarbulbPlanted",
+    "icon_asset_name": "GeneratedIcons/Items/VegetablePlant",
+    "max_health": 1,
+    "visible_to_others": false,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "enemy_params_id": [
+      0,
+      []
+    ]
+  },
+  {
     "id": 1784957391,
     "name": "Massive Tired Corven",
     "tag": "Trophy Fish",
@@ -10089,6 +13339,31 @@
     ]
   },
   {
+    "id": 1794986360,
+    "name": "Planted Ornate Starbulb",
+    "tag": "Farmed Crop",
+    "tier": 7,
+    "description": "A ornate starbulb seed that's been planted. It needs to be tended to.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/StarbulbPlanted",
+    "icon_asset_name": "GeneratedIcons/Items/VegetablePlant",
+    "max_health": 1,
+    "visible_to_others": false,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "enemy_params_id": [
+      0,
+      []
+    ]
+  },
+  {
     "id": 1800672254,
     "name": "Large Tired Trask",
     "tag": "Trophy Fish",
@@ -10107,6 +13382,31 @@
     "land_elevation_max": 1000,
     "spawns_in_water": true,
     "water_depth_min": 10,
+    "water_depth_max": 1000,
+    "enemy_params_id": [
+      0,
+      []
+    ]
+  },
+  {
+    "id": 1803286182,
+    "name": "Grown Flawless Starbulb",
+    "tag": "Farmed Crop",
+    "tier": 10,
+    "description": "A grown flawless starbulb plant. Harvest it for Flawless Starbulb Plant Output.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/StarbulbPlantedGrown",
+    "icon_asset_name": "GeneratedIcons/Items/VegetablePlant",
+    "max_health": 265,
+    "visible_to_others": false,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
     "water_depth_max": 1000,
     "enemy_params_id": [
       0,
@@ -10216,6 +13516,31 @@
     ]
   },
   {
+    "id": 1822176955,
+    "name": "Growing Simple Wispweave",
+    "tag": "Farmed Crop",
+    "tier": 2,
+    "description": "A simple wispweave seed that's been planted.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/WispweavePlantedGrowing",
+    "icon_asset_name": "GeneratedIcons/Resources/WispweavePlanted",
+    "max_health": 1,
+    "visible_to_others": false,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "enemy_params_id": [
+      0,
+      []
+    ]
+  },
+  {
     "id": 1828822695,
     "name": "Enormous Murrel",
     "tag": "Trophy Fish",
@@ -10284,6 +13609,31 @@
     "land_elevation_max": 1000,
     "spawns_in_water": true,
     "water_depth_min": 10,
+    "water_depth_max": 1000,
+    "enemy_params_id": [
+      0,
+      []
+    ]
+  },
+  {
+    "id": 1834837987,
+    "name": "Grown Exquisite Wispweave",
+    "tag": "Farmed Crop",
+    "tier": 5,
+    "description": "A grown exquisite wispweave plant. Harvest it for Exquisite Wispweave Plant Output.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/WispweavePlantedGrown",
+    "icon_asset_name": "GeneratedIcons/Resources/WispweavePlanted",
+    "max_health": 75,
+    "visible_to_others": false,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
     "water_depth_max": 1000,
     "enemy_params_id": [
       0,
@@ -10387,6 +13737,31 @@
     "spawns_in_water": false,
     "water_depth_min": 0,
     "water_depth_max": 0,
+    "enemy_params_id": [
+      0,
+      []
+    ]
+  },
+  {
+    "id": 1846023489,
+    "name": "Planted Exquisite Starbulb",
+    "tag": "Farmed Crop",
+    "tier": 5,
+    "description": "A exquisite starbulb seed that's been planted. It needs to be tended to.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/StarbulbPlanted",
+    "icon_asset_name": "GeneratedIcons/Items/VegetablePlant",
+    "max_health": 1,
+    "visible_to_others": false,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
     "enemy_params_id": [
       0,
       []
@@ -10620,6 +13995,56 @@
     ]
   },
   {
+    "id": 1871593873,
+    "name": "Full Magnificent Surveyor",
+    "tag": "Scholar's Surveyor",
+    "tier": 9,
+    "description": "Used to detect and collect ancient Hieroglyphs.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/SurveyorCompleted",
+    "icon_asset_name": "GeneratedIcons/Items/ScholarSurveyor",
+    "max_health": 1,
+    "visible_to_others": false,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "enemy_params_id": [
+      0,
+      []
+    ]
+  },
+  {
+    "id": 1883137223,
+    "name": "Grown Basic Embergrain",
+    "tag": "Farmed Crop",
+    "tier": 1,
+    "description": "A grown basic embergrain plant. Harvest it for Basic Embergrain Plant Output.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/EmbergrainPlantedGrown",
+    "icon_asset_name": "GeneratedIcons/Items/GrainPlant",
+    "max_health": 25,
+    "visible_to_others": false,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "enemy_params_id": [
+      0,
+      []
+    ]
+  },
+  {
     "id": 1885653631,
     "name": "Abyssal Fishy Fugitives",
     "tag": "Ocean Fishing Fish",
@@ -10638,6 +14063,31 @@
     "land_elevation_max": 1000,
     "spawns_in_water": true,
     "water_depth_min": 13,
+    "water_depth_max": 1000,
+    "enemy_params_id": [
+      0,
+      []
+    ]
+  },
+  {
+    "id": 1888040372,
+    "name": "Planted Magnificent Wispweave",
+    "tag": "Farmed Crop",
+    "tier": 9,
+    "description": "A magnificent wispweave seed that's been planted. It needs to be tended to.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/WispweavePlanted",
+    "icon_asset_name": "GeneratedIcons/Resources/WispweavePlanted",
+    "max_health": 1,
+    "visible_to_others": false,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
     "water_depth_max": 1000,
     "enemy_params_id": [
       0,
@@ -10695,6 +14145,56 @@
     ]
   },
   {
+    "id": 1898612634,
+    "name": "Magnificent Surveyor",
+    "tag": "Scholar's Surveyor",
+    "tier": 9,
+    "description": "Charge with 5 Hexite Energy to begin surveying for ancient Hieroglyphs. Ready to collect 30 minutes after charging.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/Surveyor",
+    "icon_asset_name": "GeneratedIcons/Items/ScholarSurveyor",
+    "max_health": 1,
+    "visible_to_others": false,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "enemy_params_id": [
+      0,
+      []
+    ]
+  },
+  {
+    "id": 1900532894,
+    "name": "Grown Peerless Wispweave",
+    "tag": "Farmed Crop",
+    "tier": 6,
+    "description": "A grown peerless wispweave plant. Harvest it for Peerless Wispweave Plant Output.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/WispweavePlantedGrown",
+    "icon_asset_name": "GeneratedIcons/Resources/WispweavePlanted",
+    "max_health": 95,
+    "visible_to_others": false,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "enemy_params_id": [
+      0,
+      []
+    ]
+  },
+  {
     "id": 1900917729,
     "name": "Abyssal Scattering Swimmers",
     "tag": "Ocean Fishing Fish",
@@ -10713,6 +14213,56 @@
     "land_elevation_max": 1000,
     "spawns_in_water": true,
     "water_depth_min": 13,
+    "water_depth_max": 1000,
+    "enemy_params_id": [
+      0,
+      []
+    ]
+  },
+  {
+    "id": 1902748597,
+    "name": "Grown Exquisite Starbulb",
+    "tag": "Farmed Crop",
+    "tier": 5,
+    "description": "A grown exquisite starbulb plant. Harvest it for Exquisite Starbulb Plant Output.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/StarbulbPlantedGrown",
+    "icon_asset_name": "GeneratedIcons/Items/VegetablePlant",
+    "max_health": 75,
+    "visible_to_others": false,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "enemy_params_id": [
+      0,
+      []
+    ]
+  },
+  {
+    "id": 1905002994,
+    "name": "Fertilized Planted Basic Embergrain",
+    "tag": "Farmed Crop",
+    "tier": 1,
+    "description": "A basic embergrain seed that's been planted.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/EmbergrainPlantedFertilized",
+    "icon_asset_name": "GeneratedIcons/Items/GrainPlant",
+    "max_health": 1,
+    "visible_to_others": false,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
     "water_depth_max": 1000,
     "enemy_params_id": [
       0,
@@ -10788,6 +14338,31 @@
     "land_elevation_max": 1000,
     "spawns_in_water": true,
     "water_depth_min": 10,
+    "water_depth_max": 1000,
+    "enemy_params_id": [
+      0,
+      []
+    ]
+  },
+  {
+    "id": 1915363663,
+    "name": "Planted Pristine Wispweave",
+    "tag": "Farmed Crop",
+    "tier": 8,
+    "description": "A pristine wispweave seed that's been planted. It needs to be tended to.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/WispweavePlanted",
+    "icon_asset_name": "GeneratedIcons/Resources/WispweavePlanted",
+    "max_health": 1,
+    "visible_to_others": false,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
     "water_depth_max": 1000,
     "enemy_params_id": [
       0,
@@ -10895,6 +14470,31 @@
     ]
   },
   {
+    "id": 1932348608,
+    "name": "Grown Fine Embergrain",
+    "tag": "Farmed Crop",
+    "tier": 4,
+    "description": "A grown fine embergrain plant. Harvest it for Fine Embergrain Plant Output.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/EmbergrainPlantedGrown",
+    "icon_asset_name": "GeneratedIcons/Items/GrainPlant",
+    "max_health": 55,
+    "visible_to_others": false,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "enemy_params_id": [
+      0,
+      []
+    ]
+  },
+  {
     "id": 1932691567,
     "name": "Simple Baited Lobster Trap",
     "tag": "Fishing Trap",
@@ -10913,6 +14513,31 @@
     "land_elevation_max": 1000,
     "spawns_in_water": true,
     "water_depth_min": 15,
+    "water_depth_max": 1000,
+    "enemy_params_id": [
+      0,
+      []
+    ]
+  },
+  {
+    "id": 1934673485,
+    "name": "Growing Magnificent Starbulb",
+    "tag": "Farmed Crop",
+    "tier": 9,
+    "description": "A magnificent starbulb seed that's been planted.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/StarbulbPlantedGrowing",
+    "icon_asset_name": "GeneratedIcons/Items/VegetablePlant",
+    "max_health": 1,
+    "visible_to_others": false,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
     "water_depth_max": 1000,
     "enemy_params_id": [
       0,
@@ -10962,6 +14587,31 @@
     "land_elevation_min": 0,
     "land_elevation_max": 0,
     "spawns_in_water": true,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "enemy_params_id": [
+      0,
+      []
+    ]
+  },
+  {
+    "id": 1942994677,
+    "name": "Flawless Surveyor",
+    "tag": "Scholar's Surveyor",
+    "tier": 10,
+    "description": "Charge with 5 Hexite Energy to begin surveying for ancient Hieroglyphs. Ready to collect 30 minutes after charging.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/Surveyor",
+    "icon_asset_name": "GeneratedIcons/Items/ScholarSurveyor",
+    "max_health": 1,
+    "visible_to_others": false,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
     "water_depth_min": 0,
     "water_depth_max": 1000,
     "enemy_params_id": [
@@ -11038,6 +14688,31 @@
     "land_elevation_max": 1000,
     "spawns_in_water": true,
     "water_depth_min": 10,
+    "water_depth_max": 1000,
+    "enemy_params_id": [
+      0,
+      []
+    ]
+  },
+  {
+    "id": 1953484727,
+    "name": "Fertilized Planted Simple Embergrain",
+    "tag": "Farmed Crop",
+    "tier": 2,
+    "description": "A simple embergrain seed that's been planted.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/EmbergrainPlantedFertilized",
+    "icon_asset_name": "GeneratedIcons/Items/GrainPlant",
+    "max_health": 1,
+    "visible_to_others": false,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
     "water_depth_max": 1000,
     "enemy_params_id": [
       0,
@@ -11195,6 +14870,31 @@
     ]
   },
   {
+    "id": 2004179595,
+    "name": "Grown Simple Starbulb",
+    "tag": "Farmed Crop",
+    "tier": 2,
+    "description": "A grown simple starbulb plant. Harvest it for Simple Starbulb Plant Output.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/StarbulbPlantedGrown",
+    "icon_asset_name": "GeneratedIcons/Items/VegetablePlant",
+    "max_health": 35,
+    "visible_to_others": false,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "enemy_params_id": [
+      0,
+      []
+    ]
+  },
+  {
     "id": 2011877452,
     "name": "Average Tired Dorbel",
     "tag": "Trophy Fish",
@@ -11295,6 +14995,31 @@
     ]
   },
   {
+    "id": 2016003784,
+    "name": "Fertilized Planted Fine Wispweave",
+    "tag": "Farmed Crop",
+    "tier": 4,
+    "description": "A fine wispweave seed that's been planted.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/WispweavePlantedFertilized",
+    "icon_asset_name": "GeneratedIcons/Resources/WispweavePlanted",
+    "max_health": 1,
+    "visible_to_others": false,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "enemy_params_id": [
+      0,
+      []
+    ]
+  },
+  {
     "id": 2020075165,
     "name": "Flawless Baited Fishing Net",
     "tag": "Fishing Net",
@@ -11370,6 +15095,31 @@
     ]
   },
   {
+    "id": 2048330349,
+    "name": "Fertilized Planted Infused Wispweave",
+    "tag": "Farmed Crop",
+    "tier": 3,
+    "description": "A infused wispweave seed that's been planted.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/WispweavePlantedFertilized",
+    "icon_asset_name": "GeneratedIcons/Resources/WispweavePlanted",
+    "max_health": 1,
+    "visible_to_others": false,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "enemy_params_id": [
+      0,
+      []
+    ]
+  },
+  {
     "id": 2051255190,
     "name": "Azure Scattering Swimmers",
     "tag": "Ocean Fishing Fish",
@@ -11388,6 +15138,56 @@
     "land_elevation_max": 1000,
     "spawns_in_water": true,
     "water_depth_min": 13,
+    "water_depth_max": 1000,
+    "enemy_params_id": [
+      0,
+      []
+    ]
+  },
+  {
+    "id": 2056690833,
+    "name": "Planted Exquisite Embergrain",
+    "tag": "Farmed Crop",
+    "tier": 5,
+    "description": "A exquisite embergrain seed that's been planted. It needs to be tended to.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/EmbergrainPlanted",
+    "icon_asset_name": "GeneratedIcons/Items/GrainPlant",
+    "max_health": 1,
+    "visible_to_others": false,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "enemy_params_id": [
+      0,
+      []
+    ]
+  },
+  {
+    "id": 2061013446,
+    "name": "Full Flawless Surveyor",
+    "tag": "Scholar's Surveyor",
+    "tier": 10,
+    "description": "Used to detect and collect ancient Hieroglyphs.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/SurveyorCompleted",
+    "icon_asset_name": "GeneratedIcons/Items/ScholarSurveyor",
+    "max_health": 1,
+    "visible_to_others": false,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
     "water_depth_max": 1000,
     "enemy_params_id": [
       0,
@@ -11495,6 +15295,31 @@
     ]
   },
   {
+    "id": 2069644933,
+    "name": "Planted Ornate Wispweave",
+    "tag": "Farmed Crop",
+    "tier": 7,
+    "description": "A ornate wispweave seed that's been planted. It needs to be tended to.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/WispweavePlanted",
+    "icon_asset_name": "GeneratedIcons/Resources/WispweavePlanted",
+    "max_health": 1,
+    "visible_to_others": false,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "enemy_params_id": [
+      0,
+      []
+    ]
+  },
+  {
     "id": 2070011221,
     "name": "Baited Hermit Crab Trap",
     "tag": "Traps",
@@ -11506,6 +15331,106 @@
     ],
     "model_asset_name": "Placeables/CrabTrapBaited",
     "icon_asset_name": "GeneratedIcons/Items/HermitCrabTrap",
+    "max_health": 1,
+    "visible_to_others": false,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "enemy_params_id": [
+      0,
+      []
+    ]
+  },
+  {
+    "id": 2075049310,
+    "name": "Full Pristine Surveyor",
+    "tag": "Scholar's Surveyor",
+    "tier": 8,
+    "description": "Used to detect and collect ancient Hieroglyphs.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/SurveyorCompleted",
+    "icon_asset_name": "GeneratedIcons/Items/ScholarSurveyor",
+    "max_health": 1,
+    "visible_to_others": false,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "enemy_params_id": [
+      0,
+      []
+    ]
+  },
+  {
+    "id": 2078653964,
+    "name": "Fertilized Planted Magnificent Embergrain",
+    "tag": "Farmed Crop",
+    "tier": 9,
+    "description": "A magnificent embergrain seed that's been planted.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/EmbergrainPlantedFertilized",
+    "icon_asset_name": "GeneratedIcons/Items/GrainPlant",
+    "max_health": 1,
+    "visible_to_others": false,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "enemy_params_id": [
+      0,
+      []
+    ]
+  },
+  {
+    "id": 2079873008,
+    "name": "Growing Magnificent Embergrain",
+    "tag": "Farmed Crop",
+    "tier": 9,
+    "description": "A magnificent embergrain seed that's been planted.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/EmbergrainPlantedGrowing",
+    "icon_asset_name": "GeneratedIcons/Items/GrainPlant",
+    "max_health": 1,
+    "visible_to_others": false,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "enemy_params_id": [
+      0,
+      []
+    ]
+  },
+  {
+    "id": 2080239890,
+    "name": "Simple Surveyor",
+    "tag": "Scholar's Surveyor",
+    "tier": 2,
+    "description": "Charge with 1 Hexite Energy to begin surveying for ancient Hieroglyphs. Ready to collect 30 minutes after charging.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/Surveyor",
+    "icon_asset_name": "GeneratedIcons/Items/ScholarSurveyor",
     "max_health": 1,
     "visible_to_others": false,
     "spawns_on_land": true,
@@ -11563,6 +15488,31 @@
     "land_elevation_max": 1000,
     "spawns_in_water": true,
     "water_depth_min": 10,
+    "water_depth_max": 1000,
+    "enemy_params_id": [
+      0,
+      []
+    ]
+  },
+  {
+    "id": 2085984141,
+    "name": "Fertilized Planted Peerless Wispweave",
+    "tag": "Farmed Crop",
+    "tier": 6,
+    "description": "A peerless wispweave seed that's been planted.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/WispweavePlantedFertilized",
+    "icon_asset_name": "GeneratedIcons/Resources/WispweavePlanted",
+    "max_health": 1,
+    "visible_to_others": false,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
     "water_depth_max": 1000,
     "enemy_params_id": [
       0,
@@ -11720,6 +15670,81 @@
     ]
   },
   {
+    "id": 2121400000,
+    "name": "Pristine Surveyor",
+    "tag": "Scholar's Surveyor",
+    "tier": 8,
+    "description": "Charge with 4 Hexite Energy to begin surveying for ancient Hieroglyphs. Ready to collect 30 minutes after charging.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/Surveyor",
+    "icon_asset_name": "GeneratedIcons/Items/ScholarSurveyor",
+    "max_health": 1,
+    "visible_to_others": false,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "enemy_params_id": [
+      0,
+      []
+    ]
+  },
+  {
+    "id": 2124263448,
+    "name": "Charged Simple Surveyor",
+    "tag": "Scholar's Surveyor",
+    "tier": 2,
+    "description": "Surveying the ground for ancient Hieroglyphs. Ready to collect after 30 minutes.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/Surveyor",
+    "icon_asset_name": "GeneratedIcons/Items/ScholarSurveyor",
+    "max_health": 1,
+    "visible_to_others": false,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "enemy_params_id": [
+      0,
+      []
+    ]
+  },
+  {
+    "id": 2138849958,
+    "name": "Fertilized Planted Simple Starbulb",
+    "tag": "Farmed Crop",
+    "tier": 2,
+    "description": "A simple starbulb seed that's been planted.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/StarbulbPlantedFertilized",
+    "icon_asset_name": "GeneratedIcons/Items/VegetablePlant",
+    "max_health": 1,
+    "visible_to_others": false,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
+    "enemy_params_id": [
+      0,
+      []
+    ]
+  },
+  {
     "id": 2141280508,
     "name": "Content Sagi Bird",
     "tag": "Tameable Animal",
@@ -11739,6 +15764,31 @@
     "spawns_in_water": false,
     "water_depth_min": 0,
     "water_depth_max": 0,
+    "enemy_params_id": [
+      0,
+      []
+    ]
+  },
+  {
+    "id": 2142844427,
+    "name": "Fertilized Planted Wild Starbulb",
+    "tag": "Farmed Crop",
+    "tier": 1,
+    "description": "A wild starbulb seed that's been planted.",
+    "rarity": [
+      1,
+      {}
+    ],
+    "model_asset_name": "Placeables/StarbulbPlantedFertilized",
+    "icon_asset_name": "GeneratedIcons/Items/VegetablePlant",
+    "max_health": 1,
+    "visible_to_others": false,
+    "spawns_on_land": true,
+    "land_elevation_min": 0,
+    "land_elevation_max": 1000,
+    "spawns_in_water": false,
+    "water_depth_min": 0,
+    "water_depth_max": 1000,
     "enemy_params_id": [
       0,
       []

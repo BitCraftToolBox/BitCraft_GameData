@@ -1664,13 +1664,34 @@
     "tier": 1,
     "biome": 0,
     "rentable": false,
-    "generate_walls_mesh": true,
-    "generate_floor_mesh": true,
-    "default_lighting": true,
-    "interior_model": "",
+    "generate_walls_mesh": false,
+    "generate_floor_mesh": false,
+    "default_lighting": false,
+    "interior_model": "ScholarDungeonInterior",
     "wall_material": "ProceduralRuinsWalls",
     "floor_material": "SeamlessFloorRuins",
     "min_zoom": 0.18780488,
+    "max_zoom": 1.0,
+    "min_angle": 0.0,
+    "max_angle": 89.0,
+    "intertior_environment_id": [
+      0,
+      229709100
+    ]
+  },
+  {
+    "id": 81,
+    "interior_shape_id": 87886027,
+    "tier": 1,
+    "biome": 0,
+    "rentable": false,
+    "generate_walls_mesh": false,
+    "generate_floor_mesh": false,
+    "default_lighting": false,
+    "interior_model": "MakDungeon1",
+    "wall_material": "ProceduralRuinsWalls",
+    "floor_material": "SeamlessFloorRuins",
+    "min_zoom": 0.33170733,
     "max_zoom": 1.0,
     "min_angle": 0.0,
     "max_angle": 89.0,
@@ -2332,17 +2353,17 @@
   },
   {
     "id": 85926629,
-    "interior_shape_id": 400,
+    "interior_shape_id": 1707588626,
     "tier": 1,
     "biome": 0,
     "rentable": false,
-    "generate_walls_mesh": true,
-    "generate_floor_mesh": true,
-    "default_lighting": true,
-    "interior_model": "",
+    "generate_walls_mesh": false,
+    "generate_floor_mesh": false,
+    "default_lighting": false,
+    "interior_model": "MakDungeon2",
     "wall_material": "ProceduralRuinsWalls",
     "floor_material": "SeamlessFloorRuins",
-    "min_zoom": 0.0,
+    "min_zoom": 0.33170733,
     "max_zoom": 1.0,
     "min_angle": 0.0,
     "max_angle": 89.0,
@@ -2412,6 +2433,27 @@
     "intertior_environment_id": [
       1,
       {}
+    ]
+  },
+  {
+    "id": 295893990,
+    "interior_shape_id": 482027081,
+    "tier": 9,
+    "biome": 0,
+    "rentable": false,
+    "generate_walls_mesh": false,
+    "generate_floor_mesh": false,
+    "default_lighting": false,
+    "interior_model": "ScholarDungeonInterior",
+    "wall_material": "ProceduralRuinsWalls",
+    "floor_material": "SeamlessFloorRuins",
+    "min_zoom": 0.18780488,
+    "max_zoom": 1.0,
+    "min_angle": 0.0,
+    "max_angle": 89.0,
+    "intertior_environment_id": [
+      0,
+      229709100
     ]
   },
   {
@@ -2520,6 +2562,27 @@
     ]
   },
   {
+    "id": 592596100,
+    "interior_shape_id": 482027081,
+    "tier": 4,
+    "biome": 0,
+    "rentable": false,
+    "generate_walls_mesh": false,
+    "generate_floor_mesh": false,
+    "default_lighting": false,
+    "interior_model": "ScholarDungeonInterior",
+    "wall_material": "ProceduralRuinsWalls",
+    "floor_material": "SeamlessFloorRuins",
+    "min_zoom": 0.18780488,
+    "max_zoom": 1.0,
+    "min_angle": 0.0,
+    "max_angle": 89.0,
+    "intertior_environment_id": [
+      0,
+      229709100
+    ]
+  },
+  {
     "id": 612927753,
     "interior_shape_id": 478149874,
     "tier": 1,
@@ -2559,6 +2622,27 @@
     "intertior_environment_id": [
       1,
       {}
+    ]
+  },
+  {
+    "id": 736211355,
+    "interior_shape_id": 482027081,
+    "tier": 3,
+    "biome": 0,
+    "rentable": false,
+    "generate_walls_mesh": false,
+    "generate_floor_mesh": false,
+    "default_lighting": false,
+    "interior_model": "ScholarDungeonInterior",
+    "wall_material": "ProceduralRuinsWalls",
+    "floor_material": "SeamlessFloorRuins",
+    "min_zoom": 0.18780488,
+    "max_zoom": 1.0,
+    "min_angle": 0.0,
+    "max_angle": 89.0,
+    "intertior_environment_id": [
+      0,
+      229709100
     ]
   },
   {
@@ -2625,6 +2709,48 @@
     ]
   },
   {
+    "id": 1062672189,
+    "interior_shape_id": 482027081,
+    "tier": 6,
+    "biome": 0,
+    "rentable": false,
+    "generate_walls_mesh": false,
+    "generate_floor_mesh": false,
+    "default_lighting": false,
+    "interior_model": "ScholarDungeonInterior",
+    "wall_material": "ProceduralRuinsWalls",
+    "floor_material": "SeamlessFloorRuins",
+    "min_zoom": 0.18780488,
+    "max_zoom": 1.0,
+    "min_angle": 0.0,
+    "max_angle": 89.0,
+    "intertior_environment_id": [
+      0,
+      229709100
+    ]
+  },
+  {
+    "id": 1125309987,
+    "interior_shape_id": 482027081,
+    "tier": 5,
+    "biome": 0,
+    "rentable": false,
+    "generate_walls_mesh": false,
+    "generate_floor_mesh": false,
+    "default_lighting": false,
+    "interior_model": "ScholarDungeonInterior",
+    "wall_material": "ProceduralRuinsWalls",
+    "floor_material": "SeamlessFloorRuins",
+    "min_zoom": 0.18780488,
+    "max_zoom": 1.0,
+    "min_angle": 0.0,
+    "max_angle": 89.0,
+    "intertior_environment_id": [
+      0,
+      229709100
+    ]
+  },
+  {
     "id": 1235636972,
     "interior_shape_id": 637167134,
     "tier": 1,
@@ -2664,6 +2790,69 @@
     "intertior_environment_id": [
       0,
       1802146406
+    ]
+  },
+  {
+    "id": 1311183761,
+    "interior_shape_id": 482027081,
+    "tier": 2,
+    "biome": 0,
+    "rentable": false,
+    "generate_walls_mesh": false,
+    "generate_floor_mesh": false,
+    "default_lighting": false,
+    "interior_model": "ScholarDungeonInterior",
+    "wall_material": "ProceduralRuinsWalls",
+    "floor_material": "SeamlessFloorRuins",
+    "min_zoom": 0.18780488,
+    "max_zoom": 1.0,
+    "min_angle": 0.0,
+    "max_angle": 89.0,
+    "intertior_environment_id": [
+      0,
+      229709100
+    ]
+  },
+  {
+    "id": 1323853644,
+    "interior_shape_id": 482027081,
+    "tier": 8,
+    "biome": 0,
+    "rentable": false,
+    "generate_walls_mesh": false,
+    "generate_floor_mesh": false,
+    "default_lighting": false,
+    "interior_model": "ScholarDungeonInterior",
+    "wall_material": "ProceduralRuinsWalls",
+    "floor_material": "SeamlessFloorRuins",
+    "min_zoom": 0.18780488,
+    "max_zoom": 1.0,
+    "min_angle": 0.0,
+    "max_angle": 89.0,
+    "intertior_environment_id": [
+      0,
+      229709100
+    ]
+  },
+  {
+    "id": 1354081268,
+    "interior_shape_id": 482027081,
+    "tier": 10,
+    "biome": 0,
+    "rentable": false,
+    "generate_walls_mesh": false,
+    "generate_floor_mesh": false,
+    "default_lighting": false,
+    "interior_model": "ScholarDungeonInterior",
+    "wall_material": "ProceduralRuinsWalls",
+    "floor_material": "SeamlessFloorRuins",
+    "min_zoom": 0.18780488,
+    "max_zoom": 1.0,
+    "min_angle": 0.0,
+    "max_angle": 89.0,
+    "intertior_environment_id": [
+      0,
+      229709100
     ]
   },
   {
@@ -2769,6 +2958,27 @@
     "intertior_environment_id": [
       1,
       {}
+    ]
+  },
+  {
+    "id": 1682083215,
+    "interior_shape_id": 482027081,
+    "tier": 7,
+    "biome": 0,
+    "rentable": false,
+    "generate_walls_mesh": false,
+    "generate_floor_mesh": false,
+    "default_lighting": false,
+    "interior_model": "ScholarDungeonInterior",
+    "wall_material": "ProceduralRuinsWalls",
+    "floor_material": "SeamlessFloorRuins",
+    "min_zoom": 0.18780488,
+    "max_zoom": 1.0,
+    "min_angle": 0.0,
+    "max_angle": 89.0,
+    "intertior_environment_id": [
+      0,
+      229709100
     ]
   },
   {

@@ -114,6 +114,71 @@
     ]
   },
   {
+    "id": 83856539,
+    "name": "Search for a Futuremaker's Ruin T10",
+    "description": "Begin a hunt to find an ancient Futuremaker's ruin. Hopefully they're hoarding lots of knowledge down there!",
+    "resource_clump_id": 725662760,
+    "placeholder_resource_clump_id": 1010220448,
+    "enemy_ai_desc_id": 0,
+    "is_aquatic_resource": false,
+    "biome_requirements": [
+      4,
+      7,
+      3
+    ],
+    "equipment_requirements": [],
+    "required_items_to_start": [
+      [
+        1225689290,
+        1,
+        [
+          0,
+          []
+        ],
+        [
+          1,
+          []
+        ]
+      ]
+    ],
+    "required_items_to_interact_with_reward": [],
+    "consumed_items_by_ability_trigger": [],
+    "allow_aquatic_prospecting": false,
+    "bread_crumb_count": [
+      3,
+      4
+    ],
+    "bread_crumb_radius": [
+      6,
+      8
+    ],
+    "distance_between_bread_crumbs": [
+      60,
+      80
+    ],
+    "deadzone_angle_between_crumbs": 200.0,
+    "allow_aquatic_bread_crumb": false,
+    "pointer_duration": 4.0,
+    "prospecting_duration": 3.0,
+    "join_radius": 40,
+    "contribution_per_visited_bread_crumb": 4,
+    "breadcrumb_found_message": "You've found a clue to the ancient Futuremaker's ruin.",
+    "resource_uncovered_message": "You've found a suspicious looking dirt pile. Maybe there's something under it?",
+    "breadcrumb_found_by_someone_else_message": "You are able to follow someone else's trail",
+    "resource_uncovered_by_someone_else_message": "You are able to follow someone else's trail to the ruin!",
+    "icon_asset_path": "5",
+    "experience_per_node": {
+      "skill_id": 7,
+      "quantity": 380.0
+    },
+    "pct_nodes_for_max_contribution": 0.0,
+    "single_contribution_only": false,
+    "step_item_stacks": [
+      0,
+      []
+    ]
+  },
+  {
     "id": 126942728,
     "name": "Argent Ore Prospecting",
     "description": "Begin a hunt for Argent Ore or join a nearby hunt that's in progress. Argent ore can be used to make special jewelry and also gives a lot of experience when mined.",
@@ -1016,6 +1081,72 @@
     ]
   },
   {
+    "id": 433482184,
+    "name": "Search for a Futuremaker's Ruin T4",
+    "description": "Begin a hunt to find an ancient Futuremaker's ruin. Hopefully they're hoarding lots of knowledge down there!",
+    "resource_clump_id": 53729039,
+    "placeholder_resource_clump_id": 1010220448,
+    "enemy_ai_desc_id": 0,
+    "is_aquatic_resource": false,
+    "biome_requirements": [
+      9,
+      13,
+      6,
+      16
+    ],
+    "equipment_requirements": [],
+    "required_items_to_start": [
+      [
+        1897833421,
+        1,
+        [
+          0,
+          []
+        ],
+        [
+          1,
+          []
+        ]
+      ]
+    ],
+    "required_items_to_interact_with_reward": [],
+    "consumed_items_by_ability_trigger": [],
+    "allow_aquatic_prospecting": false,
+    "bread_crumb_count": [
+      3,
+      4
+    ],
+    "bread_crumb_radius": [
+      6,
+      8
+    ],
+    "distance_between_bread_crumbs": [
+      60,
+      80
+    ],
+    "deadzone_angle_between_crumbs": 200.0,
+    "allow_aquatic_bread_crumb": false,
+    "pointer_duration": 4.0,
+    "prospecting_duration": 3.0,
+    "join_radius": 40,
+    "contribution_per_visited_bread_crumb": 4,
+    "breadcrumb_found_message": "You've found a clue to the ancient Futuremaker's ruin.",
+    "resource_uncovered_message": "You've found a suspicious looking dirt pile. Maybe there's something under it?",
+    "breadcrumb_found_by_someone_else_message": "You are able to follow someone else's trail",
+    "resource_uncovered_by_someone_else_message": "You are able to follow someone else's trail to the ruin!",
+    "icon_asset_path": "5",
+    "experience_per_node": {
+      "skill_id": 7,
+      "quantity": 260.0
+    },
+    "pct_nodes_for_max_contribution": 0.0,
+    "single_contribution_only": false,
+    "step_item_stacks": [
+      0,
+      []
+    ]
+  },
+  {
     "id": 446994655,
     "name": "Naskel Hunt",
     "description": "Hunt down a school of Tier 10 trophy fish. These fish are challenging to catch and don't provide much fish itself for the effort, but the experience you'll gain while catching them is well worth it. You'll have to carefull use your fishing abilities to secure more than a small fry of a catch.",
@@ -1157,6 +1288,135 @@
     "experience_per_node": {
       "skill_id": 0,
       "quantity": 0.0
+    },
+    "pct_nodes_for_max_contribution": 0.0,
+    "single_contribution_only": false,
+    "step_item_stacks": [
+      0,
+      []
+    ]
+  },
+  {
+    "id": 481750576,
+    "name": "Search for a Futuremaker's Ruin T7",
+    "description": "Begin a hunt to find an ancient Futuremaker's ruin. Hopefully they're hoarding lots of knowledge down there!",
+    "resource_clump_id": 658959488,
+    "placeholder_resource_clump_id": 1010220448,
+    "enemy_ai_desc_id": 0,
+    "is_aquatic_resource": false,
+    "biome_requirements": [
+      4,
+      3
+    ],
+    "equipment_requirements": [],
+    "required_items_to_start": [
+      [
+        1081984975,
+        1,
+        [
+          0,
+          []
+        ],
+        [
+          1,
+          []
+        ]
+      ]
+    ],
+    "required_items_to_interact_with_reward": [],
+    "consumed_items_by_ability_trigger": [],
+    "allow_aquatic_prospecting": false,
+    "bread_crumb_count": [
+      3,
+      4
+    ],
+    "bread_crumb_radius": [
+      6,
+      8
+    ],
+    "distance_between_bread_crumbs": [
+      60,
+      80
+    ],
+    "deadzone_angle_between_crumbs": 200.0,
+    "allow_aquatic_bread_crumb": false,
+    "pointer_duration": 4.0,
+    "prospecting_duration": 3.0,
+    "join_radius": 40,
+    "contribution_per_visited_bread_crumb": 4,
+    "breadcrumb_found_message": "You've found a clue to the ancient Futuremaker's ruin.",
+    "resource_uncovered_message": "You've found a suspicious looking dirt pile. Maybe there's something under it?",
+    "breadcrumb_found_by_someone_else_message": "You are able to follow someone else's trail",
+    "resource_uncovered_by_someone_else_message": "You are able to follow someone else's trail to the ruin!",
+    "icon_asset_path": "5",
+    "experience_per_node": {
+      "skill_id": 7,
+      "quantity": 320.0
+    },
+    "pct_nodes_for_max_contribution": 0.0,
+    "single_contribution_only": false,
+    "step_item_stacks": [
+      0,
+      []
+    ]
+  },
+  {
+    "id": 485464399,
+    "name": "Search for a Futuremaker's Ruin T5",
+    "description": "Begin a hunt to find an ancient Futuremaker's ruin. Hopefully they're hoarding lots of knowledge down there!",
+    "resource_clump_id": 705823792,
+    "placeholder_resource_clump_id": 1010220448,
+    "enemy_ai_desc_id": 0,
+    "is_aquatic_resource": false,
+    "biome_requirements": [
+      3,
+      14,
+      16
+    ],
+    "equipment_requirements": [],
+    "required_items_to_start": [
+      [
+        898863622,
+        1,
+        [
+          0,
+          []
+        ],
+        [
+          1,
+          []
+        ]
+      ]
+    ],
+    "required_items_to_interact_with_reward": [],
+    "consumed_items_by_ability_trigger": [],
+    "allow_aquatic_prospecting": false,
+    "bread_crumb_count": [
+      3,
+      4
+    ],
+    "bread_crumb_radius": [
+      6,
+      8
+    ],
+    "distance_between_bread_crumbs": [
+      60,
+      80
+    ],
+    "deadzone_angle_between_crumbs": 200.0,
+    "allow_aquatic_bread_crumb": false,
+    "pointer_duration": 4.0,
+    "prospecting_duration": 3.0,
+    "join_radius": 40,
+    "contribution_per_visited_bread_crumb": 4,
+    "breadcrumb_found_message": "You've found a clue to the ancient Futuremaker's ruin.",
+    "resource_uncovered_message": "You've found a suspicious looking dirt pile. Maybe there's something under it?",
+    "breadcrumb_found_by_someone_else_message": "You are able to follow someone else's trail",
+    "resource_uncovered_by_someone_else_message": "You are able to follow someone else's trail to the ruin!",
+    "icon_asset_path": "5",
+    "experience_per_node": {
+      "skill_id": 7,
+      "quantity": 280.0
     },
     "pct_nodes_for_max_contribution": 0.0,
     "single_contribution_only": false,
@@ -1706,6 +1966,70 @@
     ]
   },
   {
+    "id": 932045340,
+    "name": "Search for a Futuremaker's Ruin T9",
+    "description": "Begin a hunt to find an ancient Futuremaker's ruin. Hopefully they're hoarding lots of knowledge down there!",
+    "resource_clump_id": 806448935,
+    "placeholder_resource_clump_id": 1010220448,
+    "enemy_ai_desc_id": 0,
+    "is_aquatic_resource": false,
+    "biome_requirements": [
+      4,
+      6
+    ],
+    "equipment_requirements": [],
+    "required_items_to_start": [
+      [
+        266014773,
+        1,
+        [
+          0,
+          []
+        ],
+        [
+          1,
+          []
+        ]
+      ]
+    ],
+    "required_items_to_interact_with_reward": [],
+    "consumed_items_by_ability_trigger": [],
+    "allow_aquatic_prospecting": false,
+    "bread_crumb_count": [
+      3,
+      4
+    ],
+    "bread_crumb_radius": [
+      6,
+      8
+    ],
+    "distance_between_bread_crumbs": [
+      60,
+      80
+    ],
+    "deadzone_angle_between_crumbs": 200.0,
+    "allow_aquatic_bread_crumb": false,
+    "pointer_duration": 4.0,
+    "prospecting_duration": 3.0,
+    "join_radius": 40,
+    "contribution_per_visited_bread_crumb": 4,
+    "breadcrumb_found_message": "You've found a clue to the ancient Futuremaker's ruin.",
+    "resource_uncovered_message": "You've found a suspicious looking dirt pile. Maybe there's something under it?",
+    "breadcrumb_found_by_someone_else_message": "You are able to follow someone else's trail",
+    "resource_uncovered_by_someone_else_message": "You are able to follow someone else's trail to the ruin!",
+    "icon_asset_path": "5",
+    "experience_per_node": {
+      "skill_id": 7,
+      "quantity": 360.0
+    },
+    "pct_nodes_for_max_contribution": 0.0,
+    "single_contribution_only": false,
+    "step_item_stacks": [
+      0,
+      []
+    ]
+  },
+  {
     "id": 933459301,
     "name": "Hidden Divine Serra Spot Search",
     "description": "Track down a Hidden Divine Serra Spot",
@@ -1800,6 +2124,71 @@
     },
     "pct_nodes_for_max_contribution": 0.0,
     "single_contribution_only": true,
+    "step_item_stacks": [
+      0,
+      []
+    ]
+  },
+  {
+    "id": 991661826,
+    "name": "Search for a Futuremaker's Ruin T2",
+    "description": "Begin a hunt to find an ancient Futuremaker's ruin. Hopefully they're hoarding lots of knowledge down there!",
+    "resource_clump_id": 69156461,
+    "placeholder_resource_clump_id": 1010220448,
+    "enemy_ai_desc_id": 0,
+    "is_aquatic_resource": false,
+    "biome_requirements": [
+      2,
+      5,
+      1
+    ],
+    "equipment_requirements": [],
+    "required_items_to_start": [
+      [
+        1893292023,
+        1,
+        [
+          0,
+          []
+        ],
+        [
+          1,
+          []
+        ]
+      ]
+    ],
+    "required_items_to_interact_with_reward": [],
+    "consumed_items_by_ability_trigger": [],
+    "allow_aquatic_prospecting": false,
+    "bread_crumb_count": [
+      3,
+      4
+    ],
+    "bread_crumb_radius": [
+      6,
+      8
+    ],
+    "distance_between_bread_crumbs": [
+      60,
+      80
+    ],
+    "deadzone_angle_between_crumbs": 200.0,
+    "allow_aquatic_bread_crumb": false,
+    "pointer_duration": 4.0,
+    "prospecting_duration": 3.0,
+    "join_radius": 40,
+    "contribution_per_visited_bread_crumb": 4,
+    "breadcrumb_found_message": "You've found a clue to the ancient Futuremaker's ruin.",
+    "resource_uncovered_message": "You've found a suspicious looking dirt pile. Maybe there's something under it?",
+    "breadcrumb_found_by_someone_else_message": "You are able to follow someone else's trail",
+    "resource_uncovered_by_someone_else_message": "You are able to follow someone else's trail to the ruin!",
+    "icon_asset_path": "5",
+    "experience_per_node": {
+      "skill_id": 7,
+      "quantity": 220.0
+    },
+    "pct_nodes_for_max_contribution": 0.0,
+    "single_contribution_only": false,
     "step_item_stacks": [
       0,
       []
@@ -2027,6 +2416,74 @@
     "experience_per_node": {
       "skill_id": 0,
       "quantity": 0.0
+    },
+    "pct_nodes_for_max_contribution": 0.0,
+    "single_contribution_only": false,
+    "step_item_stacks": [
+      0,
+      []
+    ]
+  },
+  {
+    "id": 1065366660,
+    "name": "Search for a Futuremaker's Ruin T3",
+    "description": "Begin a hunt to find an ancient Futuremaker's ruin. Hopefully they're hoarding lots of knowledge down there!",
+    "resource_clump_id": 1760021095,
+    "placeholder_resource_clump_id": 1010220448,
+    "enemy_ai_desc_id": 0,
+    "is_aquatic_resource": false,
+    "biome_requirements": [
+      2,
+      8,
+      13,
+      6,
+      14,
+      16
+    ],
+    "equipment_requirements": [],
+    "required_items_to_start": [
+      [
+        2046123475,
+        1,
+        [
+          0,
+          []
+        ],
+        [
+          1,
+          []
+        ]
+      ]
+    ],
+    "required_items_to_interact_with_reward": [],
+    "consumed_items_by_ability_trigger": [],
+    "allow_aquatic_prospecting": false,
+    "bread_crumb_count": [
+      3,
+      4
+    ],
+    "bread_crumb_radius": [
+      6,
+      8
+    ],
+    "distance_between_bread_crumbs": [
+      60,
+      80
+    ],
+    "deadzone_angle_between_crumbs": 200.0,
+    "allow_aquatic_bread_crumb": false,
+    "pointer_duration": 4.0,
+    "prospecting_duration": 3.0,
+    "join_radius": 40,
+    "contribution_per_visited_bread_crumb": 4,
+    "breadcrumb_found_message": "You've found a clue to the ancient Futuremaker's ruin.",
+    "resource_uncovered_message": "You've found a suspicious looking dirt pile. Maybe there's something under it?",
+    "breadcrumb_found_by_someone_else_message": "You are able to follow someone else's trail",
+    "resource_uncovered_by_someone_else_message": "You are able to follow someone else's trail to the ruin!",
+    "icon_asset_path": "5",
+    "experience_per_node": {
+      "skill_id": 7,
+      "quantity": 240.0
     },
     "pct_nodes_for_max_contribution": 0.0,
     "single_contribution_only": false,
@@ -2331,6 +2788,72 @@
     "experience_per_node": {
       "skill_id": 0,
       "quantity": 0.0
+    },
+    "pct_nodes_for_max_contribution": 0.0,
+    "single_contribution_only": false,
+    "step_item_stacks": [
+      0,
+      []
+    ]
+  },
+  {
+    "id": 1253963547,
+    "name": "Search for a Futuremaker's Ruin T6",
+    "description": "Begin a hunt to find an ancient Futuremaker's ruin. Hopefully they're hoarding lots of knowledge down there!",
+    "resource_clump_id": 1941077267,
+    "placeholder_resource_clump_id": 1010220448,
+    "enemy_ai_desc_id": 0,
+    "is_aquatic_resource": false,
+    "biome_requirements": [
+      7,
+      8,
+      3,
+      16
+    ],
+    "equipment_requirements": [],
+    "required_items_to_start": [
+      [
+        1955234806,
+        1,
+        [
+          0,
+          []
+        ],
+        [
+          1,
+          []
+        ]
+      ]
+    ],
+    "required_items_to_interact_with_reward": [],
+    "consumed_items_by_ability_trigger": [],
+    "allow_aquatic_prospecting": false,
+    "bread_crumb_count": [
+      3,
+      4
+    ],
+    "bread_crumb_radius": [
+      6,
+      8
+    ],
+    "distance_between_bread_crumbs": [
+      60,
+      80
+    ],
+    "deadzone_angle_between_crumbs": 200.0,
+    "allow_aquatic_bread_crumb": false,
+    "pointer_duration": 4.0,
+    "prospecting_duration": 3.0,
+    "join_radius": 40,
+    "contribution_per_visited_bread_crumb": 4,
+    "breadcrumb_found_message": "You've found a clue to the ancient Futuremaker's ruin.",
+    "resource_uncovered_message": "You've found a suspicious looking dirt pile. Maybe there's something under it?",
+    "breadcrumb_found_by_someone_else_message": "You are able to follow someone else's trail",
+    "resource_uncovered_by_someone_else_message": "You are able to follow someone else's trail to the ruin!",
+    "icon_asset_path": "5",
+    "experience_per_node": {
+      "skill_id": 7,
+      "quantity": 300.0
     },
     "pct_nodes_for_max_contribution": 0.0,
     "single_contribution_only": false,
@@ -3114,6 +3637,69 @@
     ]
   },
   {
+    "id": 1800845422,
+    "name": "Search for a Futuremaker's Ruin",
+    "description": "Begin a hunt to find an ancient Futuremaker's ruin. Hopefully they're hoarding lots of knowledge down there!",
+    "resource_clump_id": 1575854562,
+    "placeholder_resource_clump_id": 1010220448,
+    "enemy_ai_desc_id": 0,
+    "is_aquatic_resource": false,
+    "biome_requirements": [
+      1
+    ],
+    "equipment_requirements": [],
+    "required_items_to_start": [
+      [
+        1646523941,
+        1,
+        [
+          0,
+          []
+        ],
+        [
+          1,
+          []
+        ]
+      ]
+    ],
+    "required_items_to_interact_with_reward": [],
+    "consumed_items_by_ability_trigger": [],
+    "allow_aquatic_prospecting": false,
+    "bread_crumb_count": [
+      3,
+      4
+    ],
+    "bread_crumb_radius": [
+      6,
+      8
+    ],
+    "distance_between_bread_crumbs": [
+      60,
+      80
+    ],
+    "deadzone_angle_between_crumbs": 200.0,
+    "allow_aquatic_bread_crumb": false,
+    "pointer_duration": 4.0,
+    "prospecting_duration": 3.0,
+    "join_radius": 40,
+    "contribution_per_visited_bread_crumb": 4,
+    "breadcrumb_found_message": "You've found a clue to the ancient Futuremaker's ruin.",
+    "resource_uncovered_message": "You've found a suspicious looking dirt pile. Maybe there's something under it?",
+    "breadcrumb_found_by_someone_else_message": "You are able to follow someone else's trail",
+    "resource_uncovered_by_someone_else_message": "You are able to follow someone else's trail to the ruin!",
+    "icon_asset_path": "5",
+    "experience_per_node": {
+      "skill_id": 7,
+      "quantity": 200.0
+    },
+    "pct_nodes_for_max_contribution": 0.0,
+    "single_contribution_only": false,
+    "step_item_stacks": [
+      0,
+      []
+    ]
+  },
+  {
     "id": 1814863361,
     "name": "Search for Toughened Pine Bark",
     "description": "Begin searching for Toughened Pine Bark. Hopefully it wont be too hard to find.",
@@ -3387,6 +3973,70 @@
     "experience_per_node": {
       "skill_id": 0,
       "quantity": 0.0
+    },
+    "pct_nodes_for_max_contribution": 0.0,
+    "single_contribution_only": false,
+    "step_item_stacks": [
+      0,
+      []
+    ]
+  },
+  {
+    "id": 1981092239,
+    "name": "Search for a Futuremaker's Ruin T8",
+    "description": "Begin a hunt to find an ancient Futuremaker's ruin. Hopefully they're hoarding lots of knowledge down there!",
+    "resource_clump_id": 1957197115,
+    "placeholder_resource_clump_id": 1010220448,
+    "enemy_ai_desc_id": 0,
+    "is_aquatic_resource": false,
+    "biome_requirements": [
+      4,
+      14
+    ],
+    "equipment_requirements": [],
+    "required_items_to_start": [
+      [
+        1035789844,
+        1,
+        [
+          0,
+          []
+        ],
+        [
+          1,
+          []
+        ]
+      ]
+    ],
+    "required_items_to_interact_with_reward": [],
+    "consumed_items_by_ability_trigger": [],
+    "allow_aquatic_prospecting": false,
+    "bread_crumb_count": [
+      3,
+      4
+    ],
+    "bread_crumb_radius": [
+      6,
+      8
+    ],
+    "distance_between_bread_crumbs": [
+      60,
+      80
+    ],
+    "deadzone_angle_between_crumbs": 200.0,
+    "allow_aquatic_bread_crumb": false,
+    "pointer_duration": 4.0,
+    "prospecting_duration": 3.0,
+    "join_radius": 40,
+    "contribution_per_visited_bread_crumb": 4,
+    "breadcrumb_found_message": "You've found a clue to the ancient Futuremaker's ruin.",
+    "resource_uncovered_message": "You've found a suspicious looking dirt pile. Maybe there's something under it?",
+    "breadcrumb_found_by_someone_else_message": "You are able to follow someone else's trail",
+    "resource_uncovered_by_someone_else_message": "You are able to follow someone else's trail to the ruin!",
+    "icon_asset_path": "5",
+    "experience_per_node": {
+      "skill_id": 7,
+      "quantity": 340.0
     },
     "pct_nodes_for_max_contribution": 0.0,
     "single_contribution_only": false,

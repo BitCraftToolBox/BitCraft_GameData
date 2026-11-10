@@ -1253,6 +1253,39 @@
     "description": "A road made from cobblestone. Fancier than a dirt road."
   },
   {
+    "id": 353777737,
+    "name": "Fertile Ground",
+    "consumed_item_stacks": [
+      [
+        1100001,
+        1,
+        [
+          0,
+          []
+        ],
+        1,
+        1.0
+      ]
+    ],
+    "input_cargo_id": 0,
+    "input_cargo_discovery_score": 0,
+    "experience_per_progress": [
+      [
+        15,
+        1.6
+      ]
+    ],
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "full_discovery_score": 2,
+    "paving_duration": 1.0,
+    "prefab_address": "Paving/FarmingField",
+    "tier": 1,
+    "stat_effects": [],
+    "icon_address": "GeneratedIcons/Items/Fertilizer",
+    "description": "This paving is required by farming to plant crops."
+  },
+  {
     "id": 369582221,
     "name": "Cobblestone (Gray)",
     "consumed_item_stacks": [
