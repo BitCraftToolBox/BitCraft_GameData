@@ -1,9 +1,9 @@
 [
   {
-    "building_id": 664939023,
+    "building_id": 296254839,
     "tier": 1,
     "min_water_depth": 1,
-    "max_water_depth": 20,
+    "max_water_depth": 30,
     "allowed_biomes": [
       "Dev",
       "CalmForest",
@@ -20,6 +20,44 @@
       "TropicalCanopy"
     ],
     "supports_buildings": false,
-    "max_per_player": 0
+    "max_per_player": 0,
+    "target_elevation": -1
+  },
+  {
+    "building_id": 468846293,
+    "tier": 1,
+    "min_water_depth": 1,
+    "max_water_depth": 1000,
+    "allowed_biomes": [
+      "Ocean",
+      "UnchartedOcean"
+    ],
+    "supports_buildings": true,
+    "max_per_player": 0,
+    "target_elevation": 1
+  },
+  {
+    "building_id": 664939023,
+    "tier": 1,
+    "min_water_depth": 1,
+    "max_water_depth": 30,
+    "allowed_biomes": [
+      "Dev",
+      "CalmForest",
+      "PineWoods",
+      "SnowyPeaks",
+      "BreezyPlains",
+      "AutumnForest",
+      "Tundra",
+      "Desert",
+      "Swamp",
+      "Canyon",
+      "Jungle",
+      "DesertedBeach",
+      "TropicalCanopy"
+    ],
+    "supports_buildings": false,
+    "max_per_player": 0,
+    "target_elevation": -1
   }
 ]

@@ -597,6 +597,26 @@
     "vfx_attachment_point": "Origin"
   },
   {
+    "id": 105806634,
+    "buff_type_id": 378101867,
+    "description": "Flip of a Coin",
+    "priority": 0,
+    "duration": 10,
+    "warn_time": 0.0,
+    "online_timestamp": false,
+    "beneficial": true,
+    "icon_asset_name": "\\uFFEF",
+    "stats": [
+      {
+        "id": "SmithingCritChance",
+        "value": 0.5,
+        "is_pct": false
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
     "id": 124291392,
     "buff_type_id": 1204575210,
     "description": "Infused Healing Potion",
@@ -904,6 +924,31 @@
       {
         "id": "CooldownMultiplier",
         "value": 0.05,
+        "is_pct": true
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 233511278,
+    "buff_type_id": 1420668795,
+    "description": "Pearlfection",
+    "priority": 0,
+    "duration": 10,
+    "warn_time": 0.0,
+    "online_timestamp": false,
+    "beneficial": true,
+    "icon_asset_name": "\\uFFF0",
+    "stats": [
+      {
+        "id": "TailoringPower",
+        "value": 10.0,
+        "is_pct": false
+      },
+      {
+        "id": "TailoringSpeed",
+        "value": -0.1,
         "is_pct": true
       }
     ],
@@ -1673,6 +1718,31 @@
       {
         "id": "MiningPower",
         "value": 1.0,
+        "is_pct": false
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 462056751,
+    "buff_type_id": 1889722244,
+    "description": "Stunted Vigor",
+    "priority": 0,
+    "duration": 10,
+    "warn_time": 5.0,
+    "online_timestamp": false,
+    "beneficial": true,
+    "icon_asset_name": "\\u005D",
+    "stats": [
+      {
+        "id": "FarmingSpeed",
+        "value": -0.05,
+        "is_pct": true
+      },
+      {
+        "id": "FarmingPower",
+        "value": 8.0,
         "is_pct": false
       }
     ],
@@ -2725,6 +2795,20 @@
     "vfx_attachment_point": "Origin"
   },
   {
+    "id": 694874146,
+    "buff_type_id": 2029919581,
+    "description": "Smith's Inspiration",
+    "priority": 0,
+    "duration": 10,
+    "warn_time": 0.0,
+    "online_timestamp": false,
+    "beneficial": true,
+    "icon_asset_name": "\\uFFEF",
+    "stats": [],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
     "id": 696939404,
     "buff_type_id": 816607747,
     "description": "Enormous Trask Inspiration",
@@ -3055,6 +3139,26 @@
     "vfx_attachment_point": "Origin"
   },
   {
+    "id": 741759462,
+    "buff_type_id": 1183345211,
+    "description": "Farmer's Flow",
+    "priority": 0,
+    "duration": 5,
+    "warn_time": 0.0,
+    "online_timestamp": false,
+    "beneficial": true,
+    "icon_asset_name": "\\u005D",
+    "stats": [
+      {
+        "id": "ActiveStaminaRegenRate",
+        "value": 0.5,
+        "is_pct": false
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
     "id": 749675367,
     "buff_type_id": 755187973,
     "description": "Exquisite Building Speed Elixir",
@@ -3118,6 +3222,26 @@
       {
         "id": "FishingCritChance",
         "value": 0.02,
+        "is_pct": false
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 776049025,
+    "buff_type_id": 839731415,
+    "description": "Seamster's Focus",
+    "priority": 0,
+    "duration": 10,
+    "warn_time": 0.0,
+    "online_timestamp": false,
+    "beneficial": true,
+    "icon_asset_name": "\\uFFF0",
+    "stats": [
+      {
+        "id": "TailoringPower",
+        "value": 5.0,
         "is_pct": false
       }
     ],
@@ -3592,6 +3716,26 @@
       {
         "id": "ActiveHealthRegenRate",
         "value": 3.0,
+        "is_pct": false
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 904701638,
+    "buff_type_id": 1297830668,
+    "description": "Leatherworker's Flow",
+    "priority": 0,
+    "duration": 5,
+    "warn_time": 0.0,
+    "online_timestamp": false,
+    "beneficial": true,
+    "icon_asset_name": "\\uFFEC",
+    "stats": [
+      {
+        "id": "ActiveStaminaRegenRate",
+        "value": 0.5,
         "is_pct": false
       }
     ],
@@ -4504,6 +4648,26 @@
     "vfx_attachment_point": "Origin"
   },
   {
+    "id": 1225125250,
+    "buff_type_id": 1669304921,
+    "description": "Eureka",
+    "priority": 0,
+    "duration": 5,
+    "warn_time": 0.0,
+    "online_timestamp": false,
+    "beneficial": true,
+    "icon_asset_name": "\\uFFEE",
+    "stats": [
+      {
+        "id": "ScholarPower",
+        "value": 5.0,
+        "is_pct": false
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
     "id": 1228318070,
     "buff_type_id": 76392182,
     "description": "Simple Tree Food Stash",
@@ -4999,6 +5163,26 @@
     "vfx_attachment_point": "Origin"
   },
   {
+    "id": 1343163500,
+    "buff_type_id": 233081635,
+    "description": "Smith's Flow",
+    "priority": 0,
+    "duration": 5,
+    "warn_time": 0.0,
+    "online_timestamp": false,
+    "beneficial": true,
+    "icon_asset_name": "\\uFFEF",
+    "stats": [
+      {
+        "id": "ActiveStaminaRegenRate",
+        "value": 0.5,
+        "is_pct": false
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
     "id": 1346847362,
     "buff_type_id": 1482558529,
     "description": "Ancient Carpentry Inspiration",
@@ -5097,6 +5281,26 @@
       {
         "id": "MovementMultiplier",
         "value": 0.086,
+        "is_pct": true
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 1384324736,
+    "buff_type_id": 1686192242,
+    "description": "Exposed Weakness",
+    "priority": 1,
+    "duration": 5,
+    "warn_time": 0.0,
+    "online_timestamp": true,
+    "beneficial": false,
+    "icon_asset_name": "\\u006D",
+    "stats": [
+      {
+        "id": "Armor",
+        "value": -0.2,
         "is_pct": true
       }
     ],
@@ -5233,6 +5437,26 @@
         "id": "ForestrySpeed",
         "value": 0.1,
         "is_pct": true
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 1404494873,
+    "buff_type_id": 622935374,
+    "description": "Hope for the Future",
+    "priority": 0,
+    "duration": 5,
+    "warn_time": 0.0,
+    "online_timestamp": false,
+    "beneficial": true,
+    "icon_asset_name": "\\uFFEE",
+    "stats": [
+      {
+        "id": "ActiveStaminaRegenRate",
+        "value": 0.5,
+        "is_pct": false
       }
     ],
     "vfx": "",
@@ -5387,6 +5611,31 @@
         "id": "CraftingSpeed",
         "value": 0.066,
         "is_pct": true
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 1440071188,
+    "buff_type_id": 2029919581,
+    "description": "Taking a Breather",
+    "priority": 1,
+    "duration": 10,
+    "warn_time": 0.0,
+    "online_timestamp": false,
+    "beneficial": true,
+    "icon_asset_name": "\\u007D",
+    "stats": [
+      {
+        "id": "SmithingPower",
+        "value": -5.0,
+        "is_pct": false
+      },
+      {
+        "id": "ActiveStaminaRegenRate",
+        "value": 1.0,
+        "is_pct": false
       }
     ],
     "vfx": "",
@@ -5588,6 +5837,26 @@
     "vfx_attachment_point": "Origin"
   },
   {
+    "id": 1484367448,
+    "buff_type_id": 378101867,
+    "description": "Everburning",
+    "priority": 0,
+    "duration": 5,
+    "warn_time": 0.0,
+    "online_timestamp": false,
+    "beneficial": true,
+    "icon_asset_name": "\\uFFEF",
+    "stats": [
+      {
+        "id": "ActiveStaminaRegenRate",
+        "value": 1.5,
+        "is_pct": false
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
     "id": 1485812767,
     "buff_type_id": 1482558529,
     "description": "Ancient Leatherworking Inspiration",
@@ -5653,6 +5922,26 @@
     "vfx_attachment_point": "Origin"
   },
   {
+    "id": 1509438591,
+    "buff_type_id": 869610560,
+    "description": "Cracked Armor",
+    "priority": 0,
+    "duration": 10,
+    "warn_time": 1.0,
+    "online_timestamp": false,
+    "beneficial": false,
+    "icon_asset_name": "\\u0062",
+    "stats": [
+      {
+        "id": "Armor",
+        "value": -0.5,
+        "is_pct": true
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
     "id": 1509772875,
     "buff_type_id": 861783812,
     "description": "Level 4 Deluxe Combat Cooldown",
@@ -5692,6 +5981,26 @@
         "id": "FishingCritMultiplier",
         "value": 0.08,
         "is_pct": false
+      }
+    ],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 1515782705,
+    "buff_type_id": 615290603,
+    "description": "The Rabbit's Sprint",
+    "priority": 0,
+    "duration": 3,
+    "warn_time": 0.0,
+    "online_timestamp": false,
+    "beneficial": true,
+    "icon_asset_name": "\\uFFEC",
+    "stats": [
+      {
+        "id": "LeatherworkingSpeed",
+        "value": 0.3,
+        "is_pct": true
       }
     ],
     "vfx": "",
@@ -6764,6 +7073,31 @@
     "beneficial": true,
     "icon_asset_name": "\\uFFE9",
     "stats": [],
+    "vfx": "",
+    "vfx_attachment_point": "Origin"
+  },
+  {
+    "id": 1824052679,
+    "buff_type_id": 615290603,
+    "description": "The Smell of Success",
+    "priority": 0,
+    "duration": 10,
+    "warn_time": 0.0,
+    "online_timestamp": false,
+    "beneficial": true,
+    "icon_asset_name": "\\uFFEC",
+    "stats": [
+      {
+        "id": "LeatherworkingCritChance",
+        "value": 0.25,
+        "is_pct": false
+      },
+      {
+        "id": "LeatherworkingCritMultiplier",
+        "value": 0.25,
+        "is_pct": false
+      }
+    ],
     "vfx": "",
     "vfx_attachment_point": "Origin"
   },

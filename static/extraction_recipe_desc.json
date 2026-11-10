@@ -7333,6 +7333,15 @@
           "durability": 0
         },
         "probability": 0.01
+      },
+      {
+        "item_stack": {
+          "item_id": 1249850357,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        },
+        "probability": 0.0005
       }
     ],
     "consumed_item_stacks": [],
@@ -14775,6 +14784,50 @@
     "self_buffs": []
   },
   {
+    "id": 15794158,
+    "resource_id": 641755128,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 2.0,
+    "stamina_requirement": 0.0,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [],
+    "consumed_item_stacks": [
+      {
+        "item_id": 1420617544,
+        "quantity": 1,
+        "item_type": "Cargo",
+        "discovery_score": 0,
+        "consumption_chance": 1.0
+      }
+    ],
+    "range": 0,
+    "tool_requirements": [],
+    "allow_use_hands": true,
+    "level_requirements": [
+      {
+        "skill_id": 7,
+        "level": 76
+      }
+    ],
+    "experience_per_progress": [
+      {
+        "skill_id": 7,
+        "quantity": 0.0
+      }
+    ],
+    "verb_phrase": "Collect",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 403,
+    "empire_rank_requirement": null,
+    "show_in_progression": false,
+    "empire_permission_required": null,
+    "spawned_placeables": [],
+    "self_buffs": []
+  },
+  {
     "id": 28073362,
     "resource_id": 2104975743,
     "cargo_id": 0,
@@ -14837,6 +14890,50 @@
         "radius_max": 3
       }
     ],
+    "self_buffs": []
+  },
+  {
+    "id": 30035678,
+    "resource_id": 366182449,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 2.0,
+    "stamina_requirement": 0.0,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [],
+    "consumed_item_stacks": [
+      {
+        "item_id": 301014127,
+        "quantity": 1,
+        "item_type": "Cargo",
+        "discovery_score": 0,
+        "consumption_chance": 1.0
+      }
+    ],
+    "range": 0,
+    "tool_requirements": [],
+    "allow_use_hands": true,
+    "level_requirements": [
+      {
+        "skill_id": 7,
+        "level": 36
+      }
+    ],
+    "experience_per_progress": [
+      {
+        "skill_id": 7,
+        "quantity": 0.0
+      }
+    ],
+    "verb_phrase": "Collect",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 403,
+    "empire_rank_requirement": null,
+    "show_in_progression": false,
+    "empire_permission_required": null,
+    "spawned_placeables": [],
     "self_buffs": []
   },
   {
@@ -15037,6 +15134,96 @@
     "self_buffs": []
   },
   {
+    "id": 55208049,
+    "resource_id": 685192075,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 2.0,
+    "stamina_requirement": 0.0,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [
+      {
+        "item_stack": {
+          "item_id": 984175255,
+          "quantity": 1,
+          "item_type": "Cargo",
+          "durability": null
+        },
+        "probability": 1.0
+      }
+    ],
+    "consumed_item_stacks": [],
+    "range": 0,
+    "tool_requirements": [],
+    "allow_use_hands": true,
+    "level_requirements": [
+      {
+        "skill_id": 7,
+        "level": 46
+      }
+    ],
+    "experience_per_progress": [
+      {
+        "skill_id": 7,
+        "quantity": 0.0
+      }
+    ],
+    "verb_phrase": "Collect",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 403,
+    "empire_rank_requirement": null,
+    "show_in_progression": false,
+    "empire_permission_required": null,
+    "spawned_placeables": [],
+    "self_buffs": []
+  },
+  {
+    "id": 59401361,
+    "resource_id": 792932767,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 2.0,
+    "stamina_requirement": 0.0,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [],
+    "consumed_item_stacks": [
+      {
+        "item_id": 1345016400,
+        "quantity": 1,
+        "item_type": "Cargo",
+        "discovery_score": 0,
+        "consumption_chance": 1.0
+      }
+    ],
+    "range": 0,
+    "tool_requirements": [],
+    "allow_use_hands": true,
+    "level_requirements": [
+      {
+        "skill_id": 7,
+        "level": 96
+      }
+    ],
+    "experience_per_progress": [
+      {
+        "skill_id": 7,
+        "quantity": 0.0
+      }
+    ],
+    "verb_phrase": "Collect",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 403,
+    "empire_rank_requirement": null,
+    "show_in_progression": false,
+    "empire_permission_required": null,
+    "spawned_placeables": [],
+    "self_buffs": []
+  },
+  {
     "id": 61701399,
     "resource_id": 1072537375,
     "cargo_id": 0,
@@ -15082,6 +15269,50 @@
     "verb_phrase": "Gather",
     "tool_mesh_index": 0,
     "recipe_performance_id": 567,
+    "empire_rank_requirement": null,
+    "show_in_progression": false,
+    "empire_permission_required": null,
+    "spawned_placeables": [],
+    "self_buffs": []
+  },
+  {
+    "id": 64321947,
+    "resource_id": 2030458489,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 2.0,
+    "stamina_requirement": 0.0,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [],
+    "consumed_item_stacks": [
+      {
+        "item_id": 1421136425,
+        "quantity": 1,
+        "item_type": "Cargo",
+        "discovery_score": 0,
+        "consumption_chance": 1.0
+      }
+    ],
+    "range": 0,
+    "tool_requirements": [],
+    "allow_use_hands": true,
+    "level_requirements": [
+      {
+        "skill_id": 7,
+        "level": 56
+      }
+    ],
+    "experience_per_progress": [
+      {
+        "skill_id": 7,
+        "quantity": 0.0
+      }
+    ],
+    "verb_phrase": "Collect",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 403,
     "empire_rank_requirement": null,
     "show_in_progression": false,
     "empire_permission_required": null,
@@ -15312,6 +15543,67 @@
     "self_buffs": []
   },
   {
+    "id": 80984471,
+    "resource_id": 2060043398,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 1.6,
+    "stamina_requirement": 1.16,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [
+      {
+        "item_stack": {
+          "item_id": 4220017,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        },
+        "probability": 0.0129
+      },
+      {
+        "item_stack": {
+          "item_id": 1229964374,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        },
+        "probability": 1.11E-05
+      }
+    ],
+    "consumed_item_stacks": [],
+    "range": 1,
+    "tool_requirements": [
+      {
+        "tool_type": 13,
+        "level": 4,
+        "power": 1
+      }
+    ],
+    "allow_use_hands": false,
+    "level_requirements": [
+      {
+        "skill_id": 7,
+        "level": 46
+      }
+    ],
+    "experience_per_progress": [
+      {
+        "skill_id": 7,
+        "quantity": 9.1
+      }
+    ],
+    "verb_phrase": "Gather",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 650,
+    "empire_rank_requirement": null,
+    "show_in_progression": false,
+    "empire_permission_required": null,
+    "spawned_placeables": [],
+    "self_buffs": []
+  },
+  {
     "id": 82526231,
     "resource_id": 925275042,
     "cargo_id": 0,
@@ -15517,6 +15809,50 @@
     "verb_phrase": "Repair",
     "tool_mesh_index": 0,
     "recipe_performance_id": 568,
+    "empire_rank_requirement": null,
+    "show_in_progression": false,
+    "empire_permission_required": null,
+    "spawned_placeables": [],
+    "self_buffs": []
+  },
+  {
+    "id": 97421758,
+    "resource_id": 1061244409,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 2.0,
+    "stamina_requirement": 0.0,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [],
+    "consumed_item_stacks": [
+      {
+        "item_id": 1853523364,
+        "quantity": 1,
+        "item_type": "Cargo",
+        "discovery_score": 0,
+        "consumption_chance": 1.0
+      }
+    ],
+    "range": 0,
+    "tool_requirements": [],
+    "allow_use_hands": true,
+    "level_requirements": [
+      {
+        "skill_id": 7,
+        "level": 26
+      }
+    ],
+    "experience_per_progress": [
+      {
+        "skill_id": 7,
+        "quantity": 0.0
+      }
+    ],
+    "verb_phrase": "Collect",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 403,
     "empire_rank_requirement": null,
     "show_in_progression": false,
     "empire_permission_required": null,
@@ -16143,6 +16479,184 @@
     "self_buffs": []
   },
   {
+    "id": 160712343,
+    "resource_id": 793157591,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 2.0,
+    "stamina_requirement": 0.0,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [
+      {
+        "item_stack": {
+          "item_id": 1733322223,
+          "quantity": 1,
+          "item_type": "Cargo",
+          "durability": null
+        },
+        "probability": 1.0
+      }
+    ],
+    "consumed_item_stacks": [],
+    "range": 0,
+    "tool_requirements": [],
+    "allow_use_hands": true,
+    "level_requirements": [
+      {
+        "skill_id": 7,
+        "level": 46
+      }
+    ],
+    "experience_per_progress": [
+      {
+        "skill_id": 7,
+        "quantity": 0.0
+      }
+    ],
+    "verb_phrase": "Collect",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 403,
+    "empire_rank_requirement": null,
+    "show_in_progression": false,
+    "empire_permission_required": null,
+    "spawned_placeables": [],
+    "self_buffs": []
+  },
+  {
+    "id": 163696207,
+    "resource_id": 668628667,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 2.0,
+    "stamina_requirement": 0.0,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [],
+    "consumed_item_stacks": [
+      {
+        "item_id": 1733322223,
+        "quantity": 1,
+        "item_type": "Cargo",
+        "discovery_score": 0,
+        "consumption_chance": 1.0
+      }
+    ],
+    "range": 0,
+    "tool_requirements": [],
+    "allow_use_hands": true,
+    "level_requirements": [
+      {
+        "skill_id": 7,
+        "level": 46
+      }
+    ],
+    "experience_per_progress": [
+      {
+        "skill_id": 7,
+        "quantity": 0.0
+      }
+    ],
+    "verb_phrase": "Collect",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 403,
+    "empire_rank_requirement": null,
+    "show_in_progression": false,
+    "empire_permission_required": null,
+    "spawned_placeables": [],
+    "self_buffs": []
+  },
+  {
+    "id": 167472153,
+    "resource_id": 967025828,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 2.0,
+    "stamina_requirement": 0.0,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [],
+    "consumed_item_stacks": [
+      {
+        "item_id": 2146199905,
+        "quantity": 1,
+        "item_type": "Cargo",
+        "discovery_score": 0,
+        "consumption_chance": 1.0
+      }
+    ],
+    "range": 0,
+    "tool_requirements": [],
+    "allow_use_hands": true,
+    "level_requirements": [
+      {
+        "skill_id": 7,
+        "level": 100
+      }
+    ],
+    "experience_per_progress": [
+      {
+        "skill_id": 7,
+        "quantity": 0.0
+      }
+    ],
+    "verb_phrase": "Collect",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 403,
+    "empire_rank_requirement": null,
+    "show_in_progression": false,
+    "empire_permission_required": null,
+    "spawned_placeables": [],
+    "self_buffs": []
+  },
+  {
+    "id": 169106076,
+    "resource_id": 878717288,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 2.0,
+    "stamina_requirement": 0.0,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [],
+    "consumed_item_stacks": [
+      {
+        "item_id": 2095212038,
+        "quantity": 1,
+        "item_type": "Cargo",
+        "discovery_score": 0,
+        "consumption_chance": 1.0
+      }
+    ],
+    "range": 0,
+    "tool_requirements": [],
+    "allow_use_hands": true,
+    "level_requirements": [
+      {
+        "skill_id": 7,
+        "level": 76
+      }
+    ],
+    "experience_per_progress": [
+      {
+        "skill_id": 7,
+        "quantity": 0.0
+      }
+    ],
+    "verb_phrase": "Collect",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 403,
+    "empire_rank_requirement": null,
+    "show_in_progression": false,
+    "empire_permission_required": null,
+    "spawned_placeables": [],
+    "self_buffs": []
+  },
+  {
     "id": 173251562,
     "resource_id": 1502935362,
     "cargo_id": 0,
@@ -16193,6 +16707,56 @@
     "self_buffs": []
   },
   {
+    "id": 180611297,
+    "resource_id": 1560637933,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 1.6,
+    "stamina_requirement": 0.0,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [],
+    "consumed_item_stacks": [
+      {
+        "item_id": 828972621,
+        "quantity": 1,
+        "item_type": "Item",
+        "discovery_score": 0,
+        "consumption_chance": 1.0
+      }
+    ],
+    "range": 1,
+    "tool_requirements": [
+      {
+        "tool_type": 15,
+        "level": 1,
+        "power": 1
+      }
+    ],
+    "allow_use_hands": true,
+    "level_requirements": [
+      {
+        "skill_id": 22,
+        "level": 1
+      }
+    ],
+    "experience_per_progress": [
+      {
+        "skill_id": 22,
+        "quantity": 0.0
+      }
+    ],
+    "verb_phrase": "Open",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 946,
+    "empire_rank_requirement": null,
+    "show_in_progression": false,
+    "empire_permission_required": null,
+    "spawned_placeables": [],
+    "self_buffs": []
+  },
+  {
     "id": 184889445,
     "resource_id": 1078671453,
     "cargo_id": 0,
@@ -16227,6 +16791,52 @@
       {
         "skill_id": 17,
         "quantity": 44.0
+      }
+    ],
+    "verb_phrase": "Collect",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 403,
+    "empire_rank_requirement": null,
+    "show_in_progression": false,
+    "empire_permission_required": null,
+    "spawned_placeables": [],
+    "self_buffs": []
+  },
+  {
+    "id": 196527065,
+    "resource_id": 1301589695,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 2.0,
+    "stamina_requirement": 0.0,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [
+      {
+        "item_stack": {
+          "item_id": 2146199905,
+          "quantity": 1,
+          "item_type": "Cargo",
+          "durability": null
+        },
+        "probability": 1.0
+      }
+    ],
+    "consumed_item_stacks": [],
+    "range": 0,
+    "tool_requirements": [],
+    "allow_use_hands": true,
+    "level_requirements": [
+      {
+        "skill_id": 7,
+        "level": 100
+      }
+    ],
+    "experience_per_progress": [
+      {
+        "skill_id": 7,
+        "quantity": 0.0
       }
     ],
     "verb_phrase": "Collect",
@@ -16614,6 +17224,52 @@
     "self_buffs": []
   },
   {
+    "id": 262064045,
+    "resource_id": 437007740,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 2.0,
+    "stamina_requirement": 0.0,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [
+      {
+        "item_stack": {
+          "item_id": 395889468,
+          "quantity": 1,
+          "item_type": "Cargo",
+          "durability": null
+        },
+        "probability": 1.0
+      }
+    ],
+    "consumed_item_stacks": [],
+    "range": 0,
+    "tool_requirements": [],
+    "allow_use_hands": true,
+    "level_requirements": [
+      {
+        "skill_id": 7,
+        "level": 66
+      }
+    ],
+    "experience_per_progress": [
+      {
+        "skill_id": 7,
+        "quantity": 0.0
+      }
+    ],
+    "verb_phrase": "Collect",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 403,
+    "empire_rank_requirement": null,
+    "show_in_progression": false,
+    "empire_permission_required": null,
+    "spawned_placeables": [],
+    "self_buffs": []
+  },
+  {
     "id": 263598971,
     "resource_id": 499397253,
     "cargo_id": 0,
@@ -16718,6 +17374,198 @@
     "self_buffs": []
   },
   {
+    "id": 268756403,
+    "resource_id": 2109001093,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 2.0,
+    "stamina_requirement": 0.0,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [],
+    "consumed_item_stacks": [
+      {
+        "item_id": 662510203,
+        "quantity": 1,
+        "item_type": "Cargo",
+        "discovery_score": 0,
+        "consumption_chance": 1.0
+      }
+    ],
+    "range": 0,
+    "tool_requirements": [],
+    "allow_use_hands": true,
+    "level_requirements": [
+      {
+        "skill_id": 7,
+        "level": 56
+      }
+    ],
+    "experience_per_progress": [
+      {
+        "skill_id": 7,
+        "quantity": 0.0
+      }
+    ],
+    "verb_phrase": "Collect",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 403,
+    "empire_rank_requirement": null,
+    "show_in_progression": false,
+    "empire_permission_required": null,
+    "spawned_placeables": [],
+    "self_buffs": []
+  },
+  {
+    "id": 278397128,
+    "resource_id": 944500845,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 1.6,
+    "stamina_requirement": 1.28,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [],
+    "consumed_item_stacks": [
+      {
+        "item_id": 898863622,
+        "quantity": 1,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "range": 1,
+    "tool_requirements": [],
+    "allow_use_hands": true,
+    "level_requirements": [
+      {
+        "skill_id": 7,
+        "level": 56
+      }
+    ],
+    "experience_per_progress": [
+      {
+        "skill_id": 7,
+        "quantity": 420.0
+      }
+    ],
+    "verb_phrase": "Dig",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 261,
+    "empire_rank_requirement": null,
+    "show_in_progression": false,
+    "empire_permission_required": null,
+    "spawned_placeables": [],
+    "self_buffs": []
+  },
+  {
+    "id": 280462904,
+    "resource_id": 1432290891,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 1.6,
+    "stamina_requirement": 1.28,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [
+      {
+        "item_stack": {
+          "item_id": 5220027,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        },
+        "probability": 0.00584
+      }
+    ],
+    "consumed_item_stacks": [],
+    "range": 1,
+    "tool_requirements": [
+      {
+        "tool_type": 4,
+        "level": 5,
+        "power": 1
+      }
+    ],
+    "allow_use_hands": false,
+    "level_requirements": [
+      {
+        "skill_id": 5,
+        "level": 50
+      }
+    ],
+    "experience_per_progress": [
+      {
+        "skill_id": 5,
+        "quantity": 1.75
+      }
+    ],
+    "verb_phrase": "Mine",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 975,
+    "empire_rank_requirement": null,
+    "show_in_progression": false,
+    "empire_permission_required": null,
+    "spawned_placeables": [],
+    "self_buffs": []
+  },
+  {
+    "id": 282591632,
+    "resource_id": 1619066961,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 1.6,
+    "stamina_requirement": 1.75,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [
+      {
+        "item_stack": {
+          "item_id": 954664564,
+          "quantity": 1,
+          "item_type": "Cargo",
+          "durability": null
+        },
+        "probability": 0.00428
+      }
+    ],
+    "consumed_item_stacks": [],
+    "range": 1,
+    "tool_requirements": [
+      {
+        "tool_type": 4,
+        "level": 9,
+        "power": 1
+      }
+    ],
+    "allow_use_hands": false,
+    "level_requirements": [
+      {
+        "skill_id": 5,
+        "level": 90
+      }
+    ],
+    "experience_per_progress": [
+      {
+        "skill_id": 5,
+        "quantity": 2.25
+      }
+    ],
+    "verb_phrase": "Mine",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 975,
+    "empire_rank_requirement": null,
+    "show_in_progression": false,
+    "empire_permission_required": null,
+    "spawned_placeables": [],
+    "self_buffs": []
+  },
+  {
     "id": 282788631,
     "resource_id": 1661853275,
     "cargo_id": 0,
@@ -16736,6 +17584,15 @@
           "durability": 0
         },
         "probability": 0.015
+      },
+      {
+        "item_stack": {
+          "item_id": 1356221724,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        },
+        "probability": 5E-05
       }
     ],
     "consumed_item_stacks": [],
@@ -16878,6 +17735,58 @@
         "radius_max": 9
       }
     ],
+    "self_buffs": []
+  },
+  {
+    "id": 307550082,
+    "resource_id": 472688681,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 1.6,
+    "stamina_requirement": 1.64,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [
+      {
+        "item_stack": {
+          "item_id": 1723948353,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        },
+        "probability": 0.0091
+      }
+    ],
+    "consumed_item_stacks": [],
+    "range": 1,
+    "tool_requirements": [
+      {
+        "tool_type": 13,
+        "level": 8,
+        "power": 1
+      }
+    ],
+    "allow_use_hands": false,
+    "level_requirements": [
+      {
+        "skill_id": 7,
+        "level": 86
+      }
+    ],
+    "experience_per_progress": [
+      {
+        "skill_id": 7,
+        "quantity": 11.9
+      }
+    ],
+    "verb_phrase": "Gather",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 650,
+    "empire_rank_requirement": null,
+    "show_in_progression": false,
+    "empire_permission_required": null,
+    "spawned_placeables": [],
     "self_buffs": []
   },
   {
@@ -17464,6 +18373,96 @@
     "self_buffs": []
   },
   {
+    "id": 338171110,
+    "resource_id": 1343259171,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 2.0,
+    "stamina_requirement": 0.0,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [],
+    "consumed_item_stacks": [
+      {
+        "item_id": 884897904,
+        "quantity": 1,
+        "item_type": "Cargo",
+        "discovery_score": 0,
+        "consumption_chance": 1.0
+      }
+    ],
+    "range": 0,
+    "tool_requirements": [],
+    "allow_use_hands": true,
+    "level_requirements": [
+      {
+        "skill_id": 7,
+        "level": 56
+      }
+    ],
+    "experience_per_progress": [
+      {
+        "skill_id": 7,
+        "quantity": 0.0
+      }
+    ],
+    "verb_phrase": "Collect",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 403,
+    "empire_rank_requirement": null,
+    "show_in_progression": false,
+    "empire_permission_required": null,
+    "spawned_placeables": [],
+    "self_buffs": []
+  },
+  {
+    "id": 339073838,
+    "resource_id": 1273787277,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 2.0,
+    "stamina_requirement": 0.0,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [
+      {
+        "item_stack": {
+          "item_id": 195279556,
+          "quantity": 1,
+          "item_type": "Cargo",
+          "durability": null
+        },
+        "probability": 1.0
+      }
+    ],
+    "consumed_item_stacks": [],
+    "range": 0,
+    "tool_requirements": [],
+    "allow_use_hands": true,
+    "level_requirements": [
+      {
+        "skill_id": 7,
+        "level": 100
+      }
+    ],
+    "experience_per_progress": [
+      {
+        "skill_id": 7,
+        "quantity": 0.0
+      }
+    ],
+    "verb_phrase": "Collect",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 403,
+    "empire_rank_requirement": null,
+    "show_in_progression": false,
+    "empire_permission_required": null,
+    "spawned_placeables": [],
+    "self_buffs": []
+  },
+  {
     "id": 340458540,
     "resource_id": 1043012047,
     "cargo_id": 0,
@@ -17779,6 +18778,138 @@
     "self_buffs": []
   },
   {
+    "id": 366611892,
+    "resource_id": 553614880,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 2.0,
+    "stamina_requirement": 0.0,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [],
+    "consumed_item_stacks": [
+      {
+        "item_id": 483994014,
+        "quantity": 1,
+        "item_type": "Cargo",
+        "discovery_score": 0,
+        "consumption_chance": 1.0
+      }
+    ],
+    "range": 0,
+    "tool_requirements": [],
+    "allow_use_hands": true,
+    "level_requirements": [
+      {
+        "skill_id": 7,
+        "level": 76
+      }
+    ],
+    "experience_per_progress": [
+      {
+        "skill_id": 7,
+        "quantity": 0.0
+      }
+    ],
+    "verb_phrase": "Collect",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 403,
+    "empire_rank_requirement": null,
+    "show_in_progression": false,
+    "empire_permission_required": null,
+    "spawned_placeables": [],
+    "self_buffs": []
+  },
+  {
+    "id": 371481544,
+    "resource_id": 1414503424,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 2.0,
+    "stamina_requirement": 0.0,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [],
+    "consumed_item_stacks": [
+      {
+        "item_id": 1968563788,
+        "quantity": 1,
+        "item_type": "Cargo",
+        "discovery_score": 0,
+        "consumption_chance": 1.0
+      }
+    ],
+    "range": 0,
+    "tool_requirements": [],
+    "allow_use_hands": true,
+    "level_requirements": [
+      {
+        "skill_id": 7,
+        "level": 96
+      }
+    ],
+    "experience_per_progress": [
+      {
+        "skill_id": 7,
+        "quantity": 0.0
+      }
+    ],
+    "verb_phrase": "Collect",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 403,
+    "empire_rank_requirement": null,
+    "show_in_progression": false,
+    "empire_permission_required": null,
+    "spawned_placeables": [],
+    "self_buffs": []
+  },
+  {
+    "id": 374373708,
+    "resource_id": 179090611,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 2.0,
+    "stamina_requirement": 0.0,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [],
+    "consumed_item_stacks": [
+      {
+        "item_id": 242407424,
+        "quantity": 1,
+        "item_type": "Cargo",
+        "discovery_score": 0,
+        "consumption_chance": 1.0
+      }
+    ],
+    "range": 0,
+    "tool_requirements": [],
+    "allow_use_hands": true,
+    "level_requirements": [
+      {
+        "skill_id": 7,
+        "level": 86
+      }
+    ],
+    "experience_per_progress": [
+      {
+        "skill_id": 7,
+        "quantity": 0.0
+      }
+    ],
+    "verb_phrase": "Collect",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 403,
+    "empire_rank_requirement": null,
+    "show_in_progression": false,
+    "empire_permission_required": null,
+    "spawned_placeables": [],
+    "self_buffs": []
+  },
+  {
     "id": 377144201,
     "resource_id": 1489491467,
     "cargo_id": 0,
@@ -17989,6 +19120,52 @@
     "verb_phrase": "Mine",
     "tool_mesh_index": 0,
     "recipe_performance_id": 975,
+    "empire_rank_requirement": null,
+    "show_in_progression": false,
+    "empire_permission_required": null,
+    "spawned_placeables": [],
+    "self_buffs": []
+  },
+  {
+    "id": 389112167,
+    "resource_id": 82239943,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 2.0,
+    "stamina_requirement": 0.0,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [
+      {
+        "item_stack": {
+          "item_id": 1012160821,
+          "quantity": 1,
+          "item_type": "Cargo",
+          "durability": null
+        },
+        "probability": 1.0
+      }
+    ],
+    "consumed_item_stacks": [],
+    "range": 0,
+    "tool_requirements": [],
+    "allow_use_hands": true,
+    "level_requirements": [
+      {
+        "skill_id": 7,
+        "level": 36
+      }
+    ],
+    "experience_per_progress": [
+      {
+        "skill_id": 7,
+        "quantity": 0.0
+      }
+    ],
+    "verb_phrase": "Collect",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 403,
     "empire_rank_requirement": null,
     "show_in_progression": false,
     "empire_permission_required": null,
@@ -18215,6 +19392,52 @@
     "self_buffs": []
   },
   {
+    "id": 413288963,
+    "resource_id": 360537282,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 2.0,
+    "stamina_requirement": 0.0,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [
+      {
+        "item_stack": {
+          "item_id": 1330857881,
+          "quantity": 1,
+          "item_type": "Cargo",
+          "durability": null
+        },
+        "probability": 1.0
+      }
+    ],
+    "consumed_item_stacks": [],
+    "range": 0,
+    "tool_requirements": [],
+    "allow_use_hands": true,
+    "level_requirements": [
+      {
+        "skill_id": 7,
+        "level": 66
+      }
+    ],
+    "experience_per_progress": [
+      {
+        "skill_id": 7,
+        "quantity": 0.0
+      }
+    ],
+    "verb_phrase": "Collect",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 403,
+    "empire_rank_requirement": null,
+    "show_in_progression": false,
+    "empire_permission_required": null,
+    "spawned_placeables": [],
+    "self_buffs": []
+  },
+  {
     "id": 415076000,
     "resource_id": 2089325907,
     "cargo_id": 0,
@@ -18303,6 +19526,98 @@
     "self_buffs": []
   },
   {
+    "id": 435505676,
+    "resource_id": 1994051808,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 2.0,
+    "stamina_requirement": 0.0,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [
+      {
+        "item_stack": {
+          "item_id": 242407424,
+          "quantity": 1,
+          "item_type": "Cargo",
+          "durability": null
+        },
+        "probability": 1.0
+      }
+    ],
+    "consumed_item_stacks": [],
+    "range": 0,
+    "tool_requirements": [],
+    "allow_use_hands": true,
+    "level_requirements": [
+      {
+        "skill_id": 7,
+        "level": 86
+      }
+    ],
+    "experience_per_progress": [
+      {
+        "skill_id": 7,
+        "quantity": 0.0
+      }
+    ],
+    "verb_phrase": "Collect",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 403,
+    "empire_rank_requirement": null,
+    "show_in_progression": false,
+    "empire_permission_required": null,
+    "spawned_placeables": [],
+    "self_buffs": []
+  },
+  {
+    "id": 437101897,
+    "resource_id": 1255209378,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 2.0,
+    "stamina_requirement": 0.0,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [
+      {
+        "item_stack": {
+          "item_id": 1410321189,
+          "quantity": 1,
+          "item_type": "Cargo",
+          "durability": null
+        },
+        "probability": 1.0
+      }
+    ],
+    "consumed_item_stacks": [],
+    "range": 0,
+    "tool_requirements": [],
+    "allow_use_hands": true,
+    "level_requirements": [
+      {
+        "skill_id": 7,
+        "level": 26
+      }
+    ],
+    "experience_per_progress": [
+      {
+        "skill_id": 7,
+        "quantity": 0.0
+      }
+    ],
+    "verb_phrase": "Collect",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 403,
+    "empire_rank_requirement": null,
+    "show_in_progression": false,
+    "empire_permission_required": null,
+    "spawned_placeables": [],
+    "self_buffs": []
+  },
+  {
     "id": 441839176,
     "resource_id": 1840475867,
     "cargo_id": 0,
@@ -18344,6 +19659,58 @@
     "recipe_performance_id": 261,
     "empire_rank_requirement": null,
     "show_in_progression": true,
+    "empire_permission_required": null,
+    "spawned_placeables": [],
+    "self_buffs": []
+  },
+  {
+    "id": 454229760,
+    "resource_id": 787556256,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 1.6,
+    "stamina_requirement": 1.86,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [
+      {
+        "item_stack": {
+          "item_id": 1052901724,
+          "quantity": 1,
+          "item_type": "Cargo",
+          "durability": null
+        },
+        "probability": 0.00402
+      }
+    ],
+    "consumed_item_stacks": [],
+    "range": 1,
+    "tool_requirements": [
+      {
+        "tool_type": 4,
+        "level": 10,
+        "power": 1
+      }
+    ],
+    "allow_use_hands": false,
+    "level_requirements": [
+      {
+        "skill_id": 5,
+        "level": 100
+      }
+    ],
+    "experience_per_progress": [
+      {
+        "skill_id": 5,
+        "quantity": 2.375
+      }
+    ],
+    "verb_phrase": "Mine",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 975,
+    "empire_rank_requirement": null,
+    "show_in_progression": false,
     "empire_permission_required": null,
     "spawned_placeables": [],
     "self_buffs": []
@@ -18940,6 +20307,50 @@
     "self_buffs": []
   },
   {
+    "id": 509916599,
+    "resource_id": 1789861273,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 1.6,
+    "stamina_requirement": 1.75,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [],
+    "consumed_item_stacks": [
+      {
+        "item_id": 266014773,
+        "quantity": 1,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "range": 1,
+    "tool_requirements": [],
+    "allow_use_hands": true,
+    "level_requirements": [
+      {
+        "skill_id": 7,
+        "level": 96
+      }
+    ],
+    "experience_per_progress": [
+      {
+        "skill_id": 7,
+        "quantity": 540.0
+      }
+    ],
+    "verb_phrase": "Dig",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 261,
+    "empire_rank_requirement": null,
+    "show_in_progression": false,
+    "empire_permission_required": null,
+    "spawned_placeables": [],
+    "self_buffs": []
+  },
+  {
     "id": 516490804,
     "resource_id": 1426567739,
     "cargo_id": 0,
@@ -19363,6 +20774,98 @@
     "self_buffs": []
   },
   {
+    "id": 554492851,
+    "resource_id": 1003230775,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 2.0,
+    "stamina_requirement": 0.0,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [
+      {
+        "item_stack": {
+          "item_id": 884897904,
+          "quantity": 1,
+          "item_type": "Cargo",
+          "durability": null
+        },
+        "probability": 1.0
+      }
+    ],
+    "consumed_item_stacks": [],
+    "range": 0,
+    "tool_requirements": [],
+    "allow_use_hands": true,
+    "level_requirements": [
+      {
+        "skill_id": 7,
+        "level": 56
+      }
+    ],
+    "experience_per_progress": [
+      {
+        "skill_id": 7,
+        "quantity": 0.0
+      }
+    ],
+    "verb_phrase": "Collect",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 403,
+    "empire_rank_requirement": null,
+    "show_in_progression": false,
+    "empire_permission_required": null,
+    "spawned_placeables": [],
+    "self_buffs": []
+  },
+  {
+    "id": 562059492,
+    "resource_id": 1194268174,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 2.0,
+    "stamina_requirement": 0.0,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [
+      {
+        "item_stack": {
+          "item_id": 301014127,
+          "quantity": 1,
+          "item_type": "Cargo",
+          "durability": null
+        },
+        "probability": 1.0
+      }
+    ],
+    "consumed_item_stacks": [],
+    "range": 0,
+    "tool_requirements": [],
+    "allow_use_hands": true,
+    "level_requirements": [
+      {
+        "skill_id": 7,
+        "level": 36
+      }
+    ],
+    "experience_per_progress": [
+      {
+        "skill_id": 7,
+        "quantity": 0.0
+      }
+    ],
+    "verb_phrase": "Collect",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 403,
+    "empire_rank_requirement": null,
+    "show_in_progression": false,
+    "empire_permission_required": null,
+    "spawned_placeables": [],
+    "self_buffs": []
+  },
+  {
     "id": 567011411,
     "resource_id": 1324294934,
     "cargo_id": 0,
@@ -19417,6 +20920,50 @@
     "verb_phrase": "Dig",
     "tool_mesh_index": 1,
     "recipe_performance_id": 641,
+    "empire_rank_requirement": null,
+    "show_in_progression": false,
+    "empire_permission_required": null,
+    "spawned_placeables": [],
+    "self_buffs": []
+  },
+  {
+    "id": 567025390,
+    "resource_id": 1594782792,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 2.0,
+    "stamina_requirement": 0.0,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [],
+    "consumed_item_stacks": [
+      {
+        "item_id": 1762783254,
+        "quantity": 1,
+        "item_type": "Cargo",
+        "discovery_score": 0,
+        "consumption_chance": 1.0
+      }
+    ],
+    "range": 0,
+    "tool_requirements": [],
+    "allow_use_hands": true,
+    "level_requirements": [
+      {
+        "skill_id": 7,
+        "level": 46
+      }
+    ],
+    "experience_per_progress": [
+      {
+        "skill_id": 7,
+        "quantity": 0.0
+      }
+    ],
+    "verb_phrase": "Collect",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 403,
     "empire_rank_requirement": null,
     "show_in_progression": false,
     "empire_permission_required": null,
@@ -19538,13 +21085,57 @@
     "self_buffs": []
   },
   {
+    "id": 573947758,
+    "resource_id": 324150453,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 2.0,
+    "stamina_requirement": 0.0,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [],
+    "consumed_item_stacks": [
+      {
+        "item_id": 102377024,
+        "quantity": 1,
+        "item_type": "Cargo",
+        "discovery_score": 0,
+        "consumption_chance": 1.0
+      }
+    ],
+    "range": 0,
+    "tool_requirements": [],
+    "allow_use_hands": true,
+    "level_requirements": [
+      {
+        "skill_id": 7,
+        "level": 26
+      }
+    ],
+    "experience_per_progress": [
+      {
+        "skill_id": 7,
+        "quantity": 0.0
+      }
+    ],
+    "verb_phrase": "Collect",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 403,
+    "empire_rank_requirement": null,
+    "show_in_progression": false,
+    "empire_permission_required": null,
+    "spawned_placeables": [],
+    "self_buffs": []
+  },
+  {
     "id": 576232325,
     "resource_id": 1731709368,
     "cargo_id": 0,
     "discovery_triggers": [],
     "required_knowledges": [],
     "blocking_knowledges": [],
-    "time_requirement": 1.6,
+    "time_requirement": 6.0,
     "stamina_requirement": 0.0,
     "tool_durability_lost": 0,
     "extracted_item_stacks": [],
@@ -19557,9 +21148,15 @@
         "consumption_chance": 1.0
       }
     ],
-    "range": 1,
-    "tool_requirements": [],
-    "allow_use_hands": true,
+    "range": 2,
+    "tool_requirements": [
+      {
+        "tool_type": 15,
+        "level": 1,
+        "power": 1
+      }
+    ],
+    "allow_use_hands": false,
     "level_requirements": [
       {
         "skill_id": 1,
@@ -19574,7 +21171,7 @@
     ],
     "verb_phrase": "Absorb",
     "tool_mesh_index": 0,
-    "recipe_performance_id": 1,
+    "recipe_performance_id": 946,
     "empire_rank_requirement": null,
     "show_in_progression": false,
     "empire_permission_required": null,
@@ -19731,6 +21328,110 @@
         "radius_max": 2
       }
     ],
+    "self_buffs": []
+  },
+  {
+    "id": 588122287,
+    "resource_id": 1569476318,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 1.6,
+    "stamina_requirement": 1.75,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [
+      {
+        "item_stack": {
+          "item_id": 50901979,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        },
+        "probability": 0.0086
+      }
+    ],
+    "consumed_item_stacks": [],
+    "range": 1,
+    "tool_requirements": [
+      {
+        "tool_type": 13,
+        "level": 9,
+        "power": 1
+      }
+    ],
+    "allow_use_hands": false,
+    "level_requirements": [
+      {
+        "skill_id": 7,
+        "level": 96
+      }
+    ],
+    "experience_per_progress": [
+      {
+        "skill_id": 7,
+        "quantity": 12.6
+      }
+    ],
+    "verb_phrase": "Gather",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 650,
+    "empire_rank_requirement": null,
+    "show_in_progression": false,
+    "empire_permission_required": null,
+    "spawned_placeables": [],
+    "self_buffs": []
+  },
+  {
+    "id": 591645749,
+    "resource_id": 860003907,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 1.6,
+    "stamina_requirement": 1.16,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [
+      {
+        "item_stack": {
+          "item_id": 4220027,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        },
+        "probability": 0.00647
+      }
+    ],
+    "consumed_item_stacks": [],
+    "range": 1,
+    "tool_requirements": [
+      {
+        "tool_type": 4,
+        "level": 4,
+        "power": 1
+      }
+    ],
+    "allow_use_hands": false,
+    "level_requirements": [
+      {
+        "skill_id": 5,
+        "level": 40
+      }
+    ],
+    "experience_per_progress": [
+      {
+        "skill_id": 5,
+        "quantity": 1.625
+      }
+    ],
+    "verb_phrase": "Mine",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 975,
+    "empire_rank_requirement": null,
+    "show_in_progression": false,
+    "empire_permission_required": null,
+    "spawned_placeables": [],
     "self_buffs": []
   },
   {
@@ -20659,6 +22360,52 @@
     "self_buffs": []
   },
   {
+    "id": 608905809,
+    "resource_id": 2122146489,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 2.0,
+    "stamina_requirement": 0.0,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [
+      {
+        "item_stack": {
+          "item_id": 2017180339,
+          "quantity": 1,
+          "item_type": "Cargo",
+          "durability": null
+        },
+        "probability": 1.0
+      }
+    ],
+    "consumed_item_stacks": [],
+    "range": 0,
+    "tool_requirements": [],
+    "allow_use_hands": true,
+    "level_requirements": [
+      {
+        "skill_id": 7,
+        "level": 96
+      }
+    ],
+    "experience_per_progress": [
+      {
+        "skill_id": 7,
+        "quantity": 0.0
+      }
+    ],
+    "verb_phrase": "Collect",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 403,
+    "empire_rank_requirement": null,
+    "show_in_progression": false,
+    "empire_permission_required": null,
+    "spawned_placeables": [],
+    "self_buffs": []
+  },
+  {
     "id": 609137392,
     "resource_id": 1673056013,
     "cargo_id": 0,
@@ -20902,6 +22649,52 @@
     "verb_phrase": "Mine",
     "tool_mesh_index": 0,
     "recipe_performance_id": 975,
+    "empire_rank_requirement": null,
+    "show_in_progression": false,
+    "empire_permission_required": null,
+    "spawned_placeables": [],
+    "self_buffs": []
+  },
+  {
+    "id": 623512874,
+    "resource_id": 1410844594,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 2.0,
+    "stamina_requirement": 0.0,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [
+      {
+        "item_stack": {
+          "item_id": 1444610870,
+          "quantity": 1,
+          "item_type": "Cargo",
+          "durability": null
+        },
+        "probability": 1.0
+      }
+    ],
+    "consumed_item_stacks": [],
+    "range": 0,
+    "tool_requirements": [],
+    "allow_use_hands": true,
+    "level_requirements": [
+      {
+        "skill_id": 7,
+        "level": 96
+      }
+    ],
+    "experience_per_progress": [
+      {
+        "skill_id": 7,
+        "quantity": 0.0
+      }
+    ],
+    "verb_phrase": "Collect",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 403,
     "empire_rank_requirement": null,
     "show_in_progression": false,
     "empire_permission_required": null,
@@ -21230,6 +23023,52 @@
     "self_buffs": []
   },
   {
+    "id": 651854688,
+    "resource_id": 1284637141,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 2.0,
+    "stamina_requirement": 0.0,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [
+      {
+        "item_stack": {
+          "item_id": 795147214,
+          "quantity": 1,
+          "item_type": "Cargo",
+          "durability": null
+        },
+        "probability": 1.0
+      }
+    ],
+    "consumed_item_stacks": [],
+    "range": 0,
+    "tool_requirements": [],
+    "allow_use_hands": true,
+    "level_requirements": [
+      {
+        "skill_id": 7,
+        "level": 66
+      }
+    ],
+    "experience_per_progress": [
+      {
+        "skill_id": 7,
+        "quantity": 0.0
+      }
+    ],
+    "verb_phrase": "Collect",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 403,
+    "empire_rank_requirement": null,
+    "show_in_progression": false,
+    "empire_permission_required": null,
+    "spawned_placeables": [],
+    "self_buffs": []
+  },
+  {
     "id": 653316482,
     "resource_id": 2144918116,
     "cargo_id": 0,
@@ -21393,6 +23232,58 @@
     "self_buffs": []
   },
   {
+    "id": 655622777,
+    "resource_id": 49212251,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 1.6,
+    "stamina_requirement": 1.52,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [
+      {
+        "item_stack": {
+          "item_id": 1954280449,
+          "quantity": 1,
+          "item_type": "Cargo",
+          "durability": null
+        },
+        "probability": 0.00492
+      }
+    ],
+    "consumed_item_stacks": [],
+    "range": 1,
+    "tool_requirements": [
+      {
+        "tool_type": 4,
+        "level": 7,
+        "power": 1
+      }
+    ],
+    "allow_use_hands": false,
+    "level_requirements": [
+      {
+        "skill_id": 5,
+        "level": 70
+      }
+    ],
+    "experience_per_progress": [
+      {
+        "skill_id": 5,
+        "quantity": 2.0
+      }
+    ],
+    "verb_phrase": "Mine",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 975,
+    "empire_rank_requirement": null,
+    "show_in_progression": false,
+    "empire_permission_required": null,
+    "spawned_placeables": [],
+    "self_buffs": []
+  },
+  {
     "id": 657903749,
     "resource_id": 2145270439,
     "cargo_id": 0,
@@ -21438,6 +23329,58 @@
     "verb_phrase": "Destroy",
     "tool_mesh_index": 0,
     "recipe_performance_id": 538,
+    "empire_rank_requirement": null,
+    "show_in_progression": false,
+    "empire_permission_required": null,
+    "spawned_placeables": [],
+    "self_buffs": []
+  },
+  {
+    "id": 667449295,
+    "resource_id": 1758121480,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 1.6,
+    "stamina_requirement": 1.41,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [
+      {
+        "item_stack": {
+          "item_id": 6220017,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        },
+        "probability": 0.0107
+      }
+    ],
+    "consumed_item_stacks": [],
+    "range": 1,
+    "tool_requirements": [
+      {
+        "tool_type": 13,
+        "level": 6,
+        "power": 1
+      }
+    ],
+    "allow_use_hands": false,
+    "level_requirements": [
+      {
+        "skill_id": 7,
+        "level": 66
+      }
+    ],
+    "experience_per_progress": [
+      {
+        "skill_id": 7,
+        "quantity": 10.5
+      }
+    ],
+    "verb_phrase": "Gather",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 650,
     "empire_rank_requirement": null,
     "show_in_progression": false,
     "empire_permission_required": null,
@@ -21779,6 +23722,52 @@
     "verb_phrase": "Gather",
     "tool_mesh_index": 0,
     "recipe_performance_id": 725,
+    "empire_rank_requirement": null,
+    "show_in_progression": false,
+    "empire_permission_required": null,
+    "spawned_placeables": [],
+    "self_buffs": []
+  },
+  {
+    "id": 705995077,
+    "resource_id": 1978543583,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 2.0,
+    "stamina_requirement": 0.0,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [
+      {
+        "item_stack": {
+          "item_id": 1333568365,
+          "quantity": 1,
+          "item_type": "Cargo",
+          "durability": null
+        },
+        "probability": 1.0
+      }
+    ],
+    "consumed_item_stacks": [],
+    "range": 0,
+    "tool_requirements": [],
+    "allow_use_hands": true,
+    "level_requirements": [
+      {
+        "skill_id": 7,
+        "level": 26
+      }
+    ],
+    "experience_per_progress": [
+      {
+        "skill_id": 7,
+        "quantity": 0.0
+      }
+    ],
+    "verb_phrase": "Collect",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 403,
     "empire_rank_requirement": null,
     "show_in_progression": false,
     "empire_permission_required": null,
@@ -22128,6 +24117,52 @@
     "self_buffs": []
   },
   {
+    "id": 748036031,
+    "resource_id": 1650563350,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 2.0,
+    "stamina_requirement": 0.0,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [
+      {
+        "item_stack": {
+          "item_id": 597254650,
+          "quantity": 1,
+          "item_type": "Cargo",
+          "durability": null
+        },
+        "probability": 1.0
+      }
+    ],
+    "consumed_item_stacks": [],
+    "range": 0,
+    "tool_requirements": [],
+    "allow_use_hands": true,
+    "level_requirements": [
+      {
+        "skill_id": 7,
+        "level": 36
+      }
+    ],
+    "experience_per_progress": [
+      {
+        "skill_id": 7,
+        "quantity": 0.0
+      }
+    ],
+    "verb_phrase": "Collect",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 403,
+    "empire_rank_requirement": null,
+    "show_in_progression": false,
+    "empire_permission_required": null,
+    "spawned_placeables": [],
+    "self_buffs": []
+  },
+  {
     "id": 749499729,
     "resource_id": 1964258267,
     "cargo_id": 0,
@@ -22421,6 +24456,76 @@
     "self_buffs": []
   },
   {
+    "id": 778616801,
+    "resource_id": 1048583780,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 6.0,
+    "stamina_requirement": 0.75,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [
+      {
+        "item_stack": {
+          "item_id": 828972621,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        },
+        "probability": 0.51975
+      },
+      {
+        "item_stack": {
+          "item_id": 1091470477,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        },
+        "probability": 0.00111
+      },
+      {
+        "item_stack": {
+          "item_id": 1755998153,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        },
+        "probability": 0.0003333
+      }
+    ],
+    "consumed_item_stacks": [],
+    "range": 4,
+    "tool_requirements": [
+      {
+        "tool_type": 15,
+        "level": 1,
+        "power": 1
+      }
+    ],
+    "allow_use_hands": false,
+    "level_requirements": [
+      {
+        "skill_id": 22,
+        "level": 1
+      }
+    ],
+    "experience_per_progress": [
+      {
+        "skill_id": 22,
+        "quantity": 0.0
+      }
+    ],
+    "verb_phrase": "Extract",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 946,
+    "empire_rank_requirement": null,
+    "show_in_progression": false,
+    "empire_permission_required": null,
+    "spawned_placeables": [],
+    "self_buffs": []
+  },
+  {
     "id": 783360638,
     "resource_id": 1467799531,
     "cargo_id": 0,
@@ -22466,6 +24571,50 @@
     "verb_phrase": "Gather",
     "tool_mesh_index": 0,
     "recipe_performance_id": 725,
+    "empire_rank_requirement": null,
+    "show_in_progression": false,
+    "empire_permission_required": null,
+    "spawned_placeables": [],
+    "self_buffs": []
+  },
+  {
+    "id": 786666034,
+    "resource_id": 1126712081,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 1.6,
+    "stamina_requirement": 1.16,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [],
+    "consumed_item_stacks": [
+      {
+        "item_id": 1897833421,
+        "quantity": 1,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "range": 1,
+    "tool_requirements": [],
+    "allow_use_hands": true,
+    "level_requirements": [
+      {
+        "skill_id": 7,
+        "level": 46
+      }
+    ],
+    "experience_per_progress": [
+      {
+        "skill_id": 7,
+        "quantity": 390.0
+      }
+    ],
+    "verb_phrase": "Dig",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 261,
     "empire_rank_requirement": null,
     "show_in_progression": false,
     "empire_permission_required": null,
@@ -22685,6 +24834,50 @@
     "self_buffs": []
   },
   {
+    "id": 816682806,
+    "resource_id": 1147553081,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 2.0,
+    "stamina_requirement": 0.0,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [],
+    "consumed_item_stacks": [
+      {
+        "item_id": 1910867899,
+        "quantity": 1,
+        "item_type": "Cargo",
+        "discovery_score": 0,
+        "consumption_chance": 1.0
+      }
+    ],
+    "range": 0,
+    "tool_requirements": [],
+    "allow_use_hands": true,
+    "level_requirements": [
+      {
+        "skill_id": 7,
+        "level": 86
+      }
+    ],
+    "experience_per_progress": [
+      {
+        "skill_id": 7,
+        "quantity": 0.0
+      }
+    ],
+    "verb_phrase": "Collect",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 403,
+    "empire_rank_requirement": null,
+    "show_in_progression": false,
+    "empire_permission_required": null,
+    "spawned_placeables": [],
+    "self_buffs": []
+  },
+  {
     "id": 822214699,
     "resource_id": 847832618,
     "cargo_id": 0,
@@ -22782,6 +24975,67 @@
     "verb_phrase": "Dig",
     "tool_mesh_index": 1,
     "recipe_performance_id": 641,
+    "empire_rank_requirement": null,
+    "show_in_progression": false,
+    "empire_permission_required": null,
+    "spawned_placeables": [],
+    "self_buffs": []
+  },
+  {
+    "id": 836384891,
+    "resource_id": 1378626647,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 6.0,
+    "stamina_requirement": 0.75,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [
+      {
+        "item_stack": {
+          "item_id": 828972621,
+          "quantity": 2,
+          "item_type": "Item",
+          "durability": 0
+        },
+        "probability": 1.0
+      },
+      {
+        "item_stack": {
+          "item_id": 1128755342,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        },
+        "probability": 8.164E-05
+      }
+    ],
+    "consumed_item_stacks": [],
+    "range": 20,
+    "tool_requirements": [
+      {
+        "tool_type": 15,
+        "level": 1,
+        "power": 1
+      }
+    ],
+    "allow_use_hands": false,
+    "level_requirements": [
+      {
+        "skill_id": 22,
+        "level": 1
+      }
+    ],
+    "experience_per_progress": [
+      {
+        "skill_id": 22,
+        "quantity": 0.0
+      }
+    ],
+    "verb_phrase": "Extract",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 946,
     "empire_rank_requirement": null,
     "show_in_progression": false,
     "empire_permission_required": null,
@@ -24036,6 +26290,104 @@
     "self_buffs": []
   },
   {
+    "id": 869343048,
+    "resource_id": 1146865969,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 1.6,
+    "stamina_requirement": 1.28,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [
+      {
+        "item_stack": {
+          "item_id": 5220017,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        },
+        "probability": 0.0117
+      }
+    ],
+    "consumed_item_stacks": [],
+    "range": 1,
+    "tool_requirements": [
+      {
+        "tool_type": 13,
+        "level": 5,
+        "power": 1
+      }
+    ],
+    "allow_use_hands": false,
+    "level_requirements": [
+      {
+        "skill_id": 7,
+        "level": 56
+      }
+    ],
+    "experience_per_progress": [
+      {
+        "skill_id": 7,
+        "quantity": 9.8
+      }
+    ],
+    "verb_phrase": "Gather",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 650,
+    "empire_rank_requirement": null,
+    "show_in_progression": false,
+    "empire_permission_required": null,
+    "spawned_placeables": [],
+    "self_buffs": []
+  },
+  {
+    "id": 869642769,
+    "resource_id": 2041429368,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 2.0,
+    "stamina_requirement": 0.0,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [
+      {
+        "item_stack": {
+          "item_id": 419476990,
+          "quantity": 1,
+          "item_type": "Cargo",
+          "durability": null
+        },
+        "probability": 1.0
+      }
+    ],
+    "consumed_item_stacks": [],
+    "range": 0,
+    "tool_requirements": [],
+    "allow_use_hands": true,
+    "level_requirements": [
+      {
+        "skill_id": 7,
+        "level": 100
+      }
+    ],
+    "experience_per_progress": [
+      {
+        "skill_id": 7,
+        "quantity": 0.0
+      }
+    ],
+    "verb_phrase": "Collect",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 403,
+    "empire_rank_requirement": null,
+    "show_in_progression": false,
+    "empire_permission_required": null,
+    "spawned_placeables": [],
+    "self_buffs": []
+  },
+  {
     "id": 876905937,
     "resource_id": 1693390912,
     "cargo_id": 0,
@@ -24517,6 +26869,104 @@
     "recipe_performance_id": 143,
     "empire_rank_requirement": null,
     "show_in_progression": true,
+    "empire_permission_required": null,
+    "spawned_placeables": [],
+    "self_buffs": []
+  },
+  {
+    "id": 896158026,
+    "resource_id": 1473851134,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 1.6,
+    "stamina_requirement": 1.86,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [
+      {
+        "item_stack": {
+          "item_id": 1794492607,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        },
+        "probability": 0.008
+      }
+    ],
+    "consumed_item_stacks": [],
+    "range": 1,
+    "tool_requirements": [
+      {
+        "tool_type": 13,
+        "level": 10,
+        "power": 1
+      }
+    ],
+    "allow_use_hands": false,
+    "level_requirements": [
+      {
+        "skill_id": 7,
+        "level": 100
+      }
+    ],
+    "experience_per_progress": [
+      {
+        "skill_id": 7,
+        "quantity": 13.3
+      }
+    ],
+    "verb_phrase": "Gather",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 650,
+    "empire_rank_requirement": null,
+    "show_in_progression": false,
+    "empire_permission_required": null,
+    "spawned_placeables": [],
+    "self_buffs": []
+  },
+  {
+    "id": 897277724,
+    "resource_id": 310091002,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 2.0,
+    "stamina_requirement": 0.0,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [
+      {
+        "item_stack": {
+          "item_id": 1191707144,
+          "quantity": 1,
+          "item_type": "Cargo",
+          "durability": null
+        },
+        "probability": 1.0
+      }
+    ],
+    "consumed_item_stacks": [],
+    "range": 0,
+    "tool_requirements": [],
+    "allow_use_hands": true,
+    "level_requirements": [
+      {
+        "skill_id": 7,
+        "level": 86
+      }
+    ],
+    "experience_per_progress": [
+      {
+        "skill_id": 7,
+        "quantity": 0.0
+      }
+    ],
+    "verb_phrase": "Collect",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 403,
+    "empire_rank_requirement": null,
+    "show_in_progression": false,
     "empire_permission_required": null,
     "spawned_placeables": [],
     "self_buffs": []
@@ -25335,6 +27785,52 @@
     "self_buffs": []
   },
   {
+    "id": 958755158,
+    "resource_id": 1109702568,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 2.0,
+    "stamina_requirement": 0.0,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [
+      {
+        "item_stack": {
+          "item_id": 1226906649,
+          "quantity": 1,
+          "item_type": "Cargo",
+          "durability": null
+        },
+        "probability": 1.0
+      }
+    ],
+    "consumed_item_stacks": [],
+    "range": 0,
+    "tool_requirements": [],
+    "allow_use_hands": true,
+    "level_requirements": [
+      {
+        "skill_id": 7,
+        "level": 56
+      }
+    ],
+    "experience_per_progress": [
+      {
+        "skill_id": 7,
+        "quantity": 0.0
+      }
+    ],
+    "verb_phrase": "Collect",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 403,
+    "empire_rank_requirement": null,
+    "show_in_progression": false,
+    "empire_permission_required": null,
+    "spawned_placeables": [],
+    "self_buffs": []
+  },
+  {
     "id": 963512310,
     "resource_id": 1875433014,
     "cargo_id": 0,
@@ -25540,6 +28036,50 @@
         "radius_max": 3
       }
     ],
+    "self_buffs": []
+  },
+  {
+    "id": 979486396,
+    "resource_id": 1882406196,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 2.0,
+    "stamina_requirement": 0.0,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [],
+    "consumed_item_stacks": [
+      {
+        "item_id": 1959769503,
+        "quantity": 1,
+        "item_type": "Cargo",
+        "discovery_score": 0,
+        "consumption_chance": 1.0
+      }
+    ],
+    "range": 0,
+    "tool_requirements": [],
+    "allow_use_hands": true,
+    "level_requirements": [
+      {
+        "skill_id": 7,
+        "level": 76
+      }
+    ],
+    "experience_per_progress": [
+      {
+        "skill_id": 7,
+        "quantity": 0.0
+      }
+    ],
+    "verb_phrase": "Collect",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 403,
+    "empire_rank_requirement": null,
+    "show_in_progression": false,
+    "empire_permission_required": null,
+    "spawned_placeables": [],
     "self_buffs": []
   },
   {
@@ -26066,6 +28606,52 @@
     "self_buffs": []
   },
   {
+    "id": 1019611701,
+    "resource_id": 13466331,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 2.0,
+    "stamina_requirement": 0.0,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [
+      {
+        "item_stack": {
+          "item_id": 1959769503,
+          "quantity": 1,
+          "item_type": "Cargo",
+          "durability": null
+        },
+        "probability": 1.0
+      }
+    ],
+    "consumed_item_stacks": [],
+    "range": 0,
+    "tool_requirements": [],
+    "allow_use_hands": true,
+    "level_requirements": [
+      {
+        "skill_id": 7,
+        "level": 76
+      }
+    ],
+    "experience_per_progress": [
+      {
+        "skill_id": 7,
+        "quantity": 0.0
+      }
+    ],
+    "verb_phrase": "Collect",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 403,
+    "empire_rank_requirement": null,
+    "show_in_progression": false,
+    "empire_permission_required": null,
+    "spawned_placeables": [],
+    "self_buffs": []
+  },
+  {
     "id": 1027608931,
     "resource_id": 1690549080,
     "cargo_id": 0,
@@ -26298,6 +28884,50 @@
     "self_buffs": []
   },
   {
+    "id": 1051384547,
+    "resource_id": 520769981,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 2.0,
+    "stamina_requirement": 0.0,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [],
+    "consumed_item_stacks": [
+      {
+        "item_id": 1226906649,
+        "quantity": 1,
+        "item_type": "Cargo",
+        "discovery_score": 0,
+        "consumption_chance": 1.0
+      }
+    ],
+    "range": 0,
+    "tool_requirements": [],
+    "allow_use_hands": true,
+    "level_requirements": [
+      {
+        "skill_id": 7,
+        "level": 56
+      }
+    ],
+    "experience_per_progress": [
+      {
+        "skill_id": 7,
+        "quantity": 0.0
+      }
+    ],
+    "verb_phrase": "Collect",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 403,
+    "empire_rank_requirement": null,
+    "show_in_progression": false,
+    "empire_permission_required": null,
+    "spawned_placeables": [],
+    "self_buffs": []
+  },
+  {
     "id": 1055926851,
     "resource_id": 1941684774,
     "cargo_id": 0,
@@ -26485,6 +29115,52 @@
     "recipe_performance_id": 143,
     "empire_rank_requirement": null,
     "show_in_progression": true,
+    "empire_permission_required": null,
+    "spawned_placeables": [],
+    "self_buffs": []
+  },
+  {
+    "id": 1067175668,
+    "resource_id": 1333174295,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 2.0,
+    "stamina_requirement": 0.0,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [
+      {
+        "item_stack": {
+          "item_id": 1345016400,
+          "quantity": 1,
+          "item_type": "Cargo",
+          "durability": null
+        },
+        "probability": 1.0
+      }
+    ],
+    "consumed_item_stacks": [],
+    "range": 0,
+    "tool_requirements": [],
+    "allow_use_hands": true,
+    "level_requirements": [
+      {
+        "skill_id": 7,
+        "level": 96
+      }
+    ],
+    "experience_per_progress": [
+      {
+        "skill_id": 7,
+        "quantity": 0.0
+      }
+    ],
+    "verb_phrase": "Collect",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 403,
+    "empire_rank_requirement": null,
+    "show_in_progression": false,
     "empire_permission_required": null,
     "spawned_placeables": [],
     "self_buffs": []
@@ -27460,6 +30136,52 @@
     "self_buffs": []
   },
   {
+    "id": 1086888421,
+    "resource_id": 1286428370,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 2.0,
+    "stamina_requirement": 0.0,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [
+      {
+        "item_stack": {
+          "item_id": 2074315761,
+          "quantity": 1,
+          "item_type": "Cargo",
+          "durability": null
+        },
+        "probability": 1.0
+      }
+    ],
+    "consumed_item_stacks": [],
+    "range": 0,
+    "tool_requirements": [],
+    "allow_use_hands": true,
+    "level_requirements": [
+      {
+        "skill_id": 7,
+        "level": 36
+      }
+    ],
+    "experience_per_progress": [
+      {
+        "skill_id": 7,
+        "quantity": 0.0
+      }
+    ],
+    "verb_phrase": "Collect",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 403,
+    "empire_rank_requirement": null,
+    "show_in_progression": false,
+    "empire_permission_required": null,
+    "spawned_placeables": [],
+    "self_buffs": []
+  },
+  {
     "id": 1087461488,
     "resource_id": 213706467,
     "cargo_id": 0,
@@ -27505,6 +30227,104 @@
     "verb_phrase": "Mine",
     "tool_mesh_index": 0,
     "recipe_performance_id": 975,
+    "empire_rank_requirement": null,
+    "show_in_progression": false,
+    "empire_permission_required": null,
+    "spawned_placeables": [],
+    "self_buffs": []
+  },
+  {
+    "id": 1091156192,
+    "resource_id": 1433745234,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 1.6,
+    "stamina_requirement": 0.75,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [
+      {
+        "item_stack": {
+          "item_id": 1220017,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        },
+        "probability": 0.02
+      }
+    ],
+    "consumed_item_stacks": [],
+    "range": 1,
+    "tool_requirements": [
+      {
+        "tool_type": 13,
+        "level": 1,
+        "power": 1
+      }
+    ],
+    "allow_use_hands": false,
+    "level_requirements": [
+      {
+        "skill_id": 7,
+        "level": 6
+      }
+    ],
+    "experience_per_progress": [
+      {
+        "skill_id": 7,
+        "quantity": 7.0
+      }
+    ],
+    "verb_phrase": "Gather",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 650,
+    "empire_rank_requirement": null,
+    "show_in_progression": false,
+    "empire_permission_required": null,
+    "spawned_placeables": [],
+    "self_buffs": []
+  },
+  {
+    "id": 1097654131,
+    "resource_id": 553435848,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 2.0,
+    "stamina_requirement": 0.0,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [
+      {
+        "item_stack": {
+          "item_id": 1853523364,
+          "quantity": 1,
+          "item_type": "Cargo",
+          "durability": null
+        },
+        "probability": 1.0
+      }
+    ],
+    "consumed_item_stacks": [],
+    "range": 0,
+    "tool_requirements": [],
+    "allow_use_hands": true,
+    "level_requirements": [
+      {
+        "skill_id": 7,
+        "level": 26
+      }
+    ],
+    "experience_per_progress": [
+      {
+        "skill_id": 7,
+        "quantity": 0.0
+      }
+    ],
+    "verb_phrase": "Collect",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 403,
     "empire_rank_requirement": null,
     "show_in_progression": false,
     "empire_permission_required": null,
@@ -27601,6 +30421,50 @@
       }
     ],
     "verb_phrase": "Collect",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 261,
+    "empire_rank_requirement": null,
+    "show_in_progression": false,
+    "empire_permission_required": null,
+    "spawned_placeables": [],
+    "self_buffs": []
+  },
+  {
+    "id": 1112732847,
+    "resource_id": 475240146,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 1.6,
+    "stamina_requirement": 1.03,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [],
+    "consumed_item_stacks": [
+      {
+        "item_id": 2046123475,
+        "quantity": 1,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "range": 1,
+    "tool_requirements": [],
+    "allow_use_hands": true,
+    "level_requirements": [
+      {
+        "skill_id": 7,
+        "level": 36
+      }
+    ],
+    "experience_per_progress": [
+      {
+        "skill_id": 7,
+        "quantity": 360.0
+      }
+    ],
+    "verb_phrase": "Dig",
     "tool_mesh_index": 0,
     "recipe_performance_id": 261,
     "empire_rank_requirement": null,
@@ -27739,6 +30603,50 @@
     "self_buffs": []
   },
   {
+    "id": 1141911419,
+    "resource_id": 624619893,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 2.0,
+    "stamina_requirement": 0.0,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [],
+    "consumed_item_stacks": [
+      {
+        "item_id": 1631370878,
+        "quantity": 1,
+        "item_type": "Cargo",
+        "discovery_score": 0,
+        "consumption_chance": 1.0
+      }
+    ],
+    "range": 0,
+    "tool_requirements": [],
+    "allow_use_hands": true,
+    "level_requirements": [
+      {
+        "skill_id": 7,
+        "level": 46
+      }
+    ],
+    "experience_per_progress": [
+      {
+        "skill_id": 7,
+        "quantity": 0.0
+      }
+    ],
+    "verb_phrase": "Collect",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 403,
+    "empire_rank_requirement": null,
+    "show_in_progression": false,
+    "empire_permission_required": null,
+    "spawned_placeables": [],
+    "self_buffs": []
+  },
+  {
     "id": 1143894781,
     "resource_id": 699727318,
     "cargo_id": 0,
@@ -27865,6 +30773,50 @@
     "recipe_performance_id": 777,
     "empire_rank_requirement": null,
     "show_in_progression": true,
+    "empire_permission_required": null,
+    "spawned_placeables": [],
+    "self_buffs": []
+  },
+  {
+    "id": 1152556553,
+    "resource_id": 1191382733,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 1.6,
+    "stamina_requirement": 1.41,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [],
+    "consumed_item_stacks": [
+      {
+        "item_id": 1955234806,
+        "quantity": 1,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "range": 1,
+    "tool_requirements": [],
+    "allow_use_hands": true,
+    "level_requirements": [
+      {
+        "skill_id": 7,
+        "level": 66
+      }
+    ],
+    "experience_per_progress": [
+      {
+        "skill_id": 7,
+        "quantity": 450.0
+      }
+    ],
+    "verb_phrase": "Dig",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 261,
+    "empire_rank_requirement": null,
+    "show_in_progression": false,
     "empire_permission_required": null,
     "spawned_placeables": [],
     "self_buffs": []
@@ -28173,6 +31125,50 @@
     "self_buffs": []
   },
   {
+    "id": 1195650554,
+    "resource_id": 90424896,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 2.0,
+    "stamina_requirement": 0.0,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [],
+    "consumed_item_stacks": [
+      {
+        "item_id": 1333568365,
+        "quantity": 1,
+        "item_type": "Cargo",
+        "discovery_score": 0,
+        "consumption_chance": 1.0
+      }
+    ],
+    "range": 0,
+    "tool_requirements": [],
+    "allow_use_hands": true,
+    "level_requirements": [
+      {
+        "skill_id": 7,
+        "level": 26
+      }
+    ],
+    "experience_per_progress": [
+      {
+        "skill_id": 7,
+        "quantity": 0.0
+      }
+    ],
+    "verb_phrase": "Collect",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 403,
+    "empire_rank_requirement": null,
+    "show_in_progression": false,
+    "empire_permission_required": null,
+    "spawned_placeables": [],
+    "self_buffs": []
+  },
+  {
     "id": 1197518668,
     "resource_id": 384211022,
     "cargo_id": 0,
@@ -28306,6 +31302,50 @@
     "verb_phrase": "Mine",
     "tool_mesh_index": 0,
     "recipe_performance_id": 1,
+    "empire_rank_requirement": null,
+    "show_in_progression": false,
+    "empire_permission_required": null,
+    "spawned_placeables": [],
+    "self_buffs": []
+  },
+  {
+    "id": 1206585871,
+    "resource_id": 1210451686,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 2.0,
+    "stamina_requirement": 0.0,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [],
+    "consumed_item_stacks": [
+      {
+        "item_id": 1330857881,
+        "quantity": 1,
+        "item_type": "Cargo",
+        "discovery_score": 0,
+        "consumption_chance": 1.0
+      }
+    ],
+    "range": 0,
+    "tool_requirements": [],
+    "allow_use_hands": true,
+    "level_requirements": [
+      {
+        "skill_id": 7,
+        "level": 66
+      }
+    ],
+    "experience_per_progress": [
+      {
+        "skill_id": 7,
+        "quantity": 0.0
+      }
+    ],
+    "verb_phrase": "Collect",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 403,
     "empire_rank_requirement": null,
     "show_in_progression": false,
     "empire_permission_required": null,
@@ -28560,6 +31600,50 @@
     "verb_phrase": "Gather",
     "tool_mesh_index": 0,
     "recipe_performance_id": 632,
+    "empire_rank_requirement": null,
+    "show_in_progression": false,
+    "empire_permission_required": null,
+    "spawned_placeables": [],
+    "self_buffs": []
+  },
+  {
+    "id": 1236911582,
+    "resource_id": 1005587768,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 2.0,
+    "stamina_requirement": 0.0,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [],
+    "consumed_item_stacks": [
+      {
+        "item_id": 1516636325,
+        "quantity": 1,
+        "item_type": "Cargo",
+        "discovery_score": 0,
+        "consumption_chance": 1.0
+      }
+    ],
+    "range": 0,
+    "tool_requirements": [],
+    "allow_use_hands": true,
+    "level_requirements": [
+      {
+        "skill_id": 7,
+        "level": 86
+      }
+    ],
+    "experience_per_progress": [
+      {
+        "skill_id": 7,
+        "quantity": 0.0
+      }
+    ],
+    "verb_phrase": "Collect",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 403,
     "empire_rank_requirement": null,
     "show_in_progression": false,
     "empire_permission_required": null,
@@ -28845,6 +31929,52 @@
     "self_buffs": []
   },
   {
+    "id": 1259891056,
+    "resource_id": 1638243061,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 2.0,
+    "stamina_requirement": 0.0,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [
+      {
+        "item_stack": {
+          "item_id": 662510203,
+          "quantity": 1,
+          "item_type": "Cargo",
+          "durability": null
+        },
+        "probability": 1.0
+      }
+    ],
+    "consumed_item_stacks": [],
+    "range": 0,
+    "tool_requirements": [],
+    "allow_use_hands": true,
+    "level_requirements": [
+      {
+        "skill_id": 7,
+        "level": 56
+      }
+    ],
+    "experience_per_progress": [
+      {
+        "skill_id": 7,
+        "quantity": 0.0
+      }
+    ],
+    "verb_phrase": "Collect",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 403,
+    "empire_rank_requirement": null,
+    "show_in_progression": false,
+    "empire_permission_required": null,
+    "spawned_placeables": [],
+    "self_buffs": []
+  },
+  {
     "id": 1261282853,
     "resource_id": 673344019,
     "cargo_id": 0,
@@ -28915,6 +32045,52 @@
     "self_buffs": []
   },
   {
+    "id": 1265467606,
+    "resource_id": 1988665595,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 2.0,
+    "stamina_requirement": 0.0,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [
+      {
+        "item_stack": {
+          "item_id": 1762783254,
+          "quantity": 1,
+          "item_type": "Cargo",
+          "durability": null
+        },
+        "probability": 1.0
+      }
+    ],
+    "consumed_item_stacks": [],
+    "range": 0,
+    "tool_requirements": [],
+    "allow_use_hands": true,
+    "level_requirements": [
+      {
+        "skill_id": 7,
+        "level": 46
+      }
+    ],
+    "experience_per_progress": [
+      {
+        "skill_id": 7,
+        "quantity": 0.0
+      }
+    ],
+    "verb_phrase": "Collect",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 403,
+    "empire_rank_requirement": null,
+    "show_in_progression": false,
+    "empire_permission_required": null,
+    "spawned_placeables": [],
+    "self_buffs": []
+  },
+  {
     "id": 1266048413,
     "resource_id": 537004766,
     "cargo_id": 0,
@@ -28952,6 +32128,94 @@
     "recipe_performance_id": 403,
     "empire_rank_requirement": null,
     "show_in_progression": true,
+    "empire_permission_required": null,
+    "spawned_placeables": [],
+    "self_buffs": []
+  },
+  {
+    "id": 1266051308,
+    "resource_id": 1855877712,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 1.6,
+    "stamina_requirement": 1.86,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [],
+    "consumed_item_stacks": [
+      {
+        "item_id": 1225689290,
+        "quantity": 1,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "range": 1,
+    "tool_requirements": [],
+    "allow_use_hands": true,
+    "level_requirements": [
+      {
+        "skill_id": 7,
+        "level": 100
+      }
+    ],
+    "experience_per_progress": [
+      {
+        "skill_id": 7,
+        "quantity": 570.0
+      }
+    ],
+    "verb_phrase": "Dig",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 261,
+    "empire_rank_requirement": null,
+    "show_in_progression": false,
+    "empire_permission_required": null,
+    "spawned_placeables": [],
+    "self_buffs": []
+  },
+  {
+    "id": 1266338620,
+    "resource_id": 12451715,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 2.0,
+    "stamina_requirement": 0.0,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [],
+    "consumed_item_stacks": [
+      {
+        "item_id": 795147214,
+        "quantity": 1,
+        "item_type": "Cargo",
+        "discovery_score": 0,
+        "consumption_chance": 1.0
+      }
+    ],
+    "range": 0,
+    "tool_requirements": [],
+    "allow_use_hands": true,
+    "level_requirements": [
+      {
+        "skill_id": 7,
+        "level": 66
+      }
+    ],
+    "experience_per_progress": [
+      {
+        "skill_id": 7,
+        "quantity": 0.0
+      }
+    ],
+    "verb_phrase": "Collect",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 403,
+    "empire_rank_requirement": null,
+    "show_in_progression": false,
     "empire_permission_required": null,
     "spawned_placeables": [],
     "self_buffs": []
@@ -29628,6 +32892,52 @@
     "self_buffs": []
   },
   {
+    "id": 1286102405,
+    "resource_id": 354131551,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 2.0,
+    "stamina_requirement": 0.0,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [
+      {
+        "item_stack": {
+          "item_id": 1968563788,
+          "quantity": 1,
+          "item_type": "Cargo",
+          "durability": null
+        },
+        "probability": 1.0
+      }
+    ],
+    "consumed_item_stacks": [],
+    "range": 0,
+    "tool_requirements": [],
+    "allow_use_hands": true,
+    "level_requirements": [
+      {
+        "skill_id": 7,
+        "level": 96
+      }
+    ],
+    "experience_per_progress": [
+      {
+        "skill_id": 7,
+        "quantity": 0.0
+      }
+    ],
+    "verb_phrase": "Collect",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 403,
+    "empire_rank_requirement": null,
+    "show_in_progression": false,
+    "empire_permission_required": null,
+    "spawned_placeables": [],
+    "self_buffs": []
+  },
+  {
     "id": 1288166058,
     "resource_id": 70663203,
     "cargo_id": 0,
@@ -29821,6 +33131,50 @@
     ]
   },
   {
+    "id": 1302211597,
+    "resource_id": 71870989,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 2.0,
+    "stamina_requirement": 0.0,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [],
+    "consumed_item_stacks": [
+      {
+        "item_id": 1444610870,
+        "quantity": 1,
+        "item_type": "Cargo",
+        "discovery_score": 0,
+        "consumption_chance": 1.0
+      }
+    ],
+    "range": 0,
+    "tool_requirements": [],
+    "allow_use_hands": true,
+    "level_requirements": [
+      {
+        "skill_id": 7,
+        "level": 96
+      }
+    ],
+    "experience_per_progress": [
+      {
+        "skill_id": 7,
+        "quantity": 0.0
+      }
+    ],
+    "verb_phrase": "Collect",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 403,
+    "empire_rank_requirement": null,
+    "show_in_progression": false,
+    "empire_permission_required": null,
+    "spawned_placeables": [],
+    "self_buffs": []
+  },
+  {
     "id": 1320064394,
     "resource_id": 1158906419,
     "cargo_id": 0,
@@ -29975,6 +33329,52 @@
     "verb_phrase": "Gather",
     "tool_mesh_index": 0,
     "recipe_performance_id": 632,
+    "empire_rank_requirement": null,
+    "show_in_progression": false,
+    "empire_permission_required": null,
+    "spawned_placeables": [],
+    "self_buffs": []
+  },
+  {
+    "id": 1341866691,
+    "resource_id": 1728003481,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 2.0,
+    "stamina_requirement": 0.0,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [
+      {
+        "item_stack": {
+          "item_id": 851140520,
+          "quantity": 1,
+          "item_type": "Cargo",
+          "durability": null
+        },
+        "probability": 1.0
+      }
+    ],
+    "consumed_item_stacks": [],
+    "range": 0,
+    "tool_requirements": [],
+    "allow_use_hands": true,
+    "level_requirements": [
+      {
+        "skill_id": 7,
+        "level": 66
+      }
+    ],
+    "experience_per_progress": [
+      {
+        "skill_id": 7,
+        "quantity": 0.0
+      }
+    ],
+    "verb_phrase": "Collect",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 403,
     "empire_rank_requirement": null,
     "show_in_progression": false,
     "empire_permission_required": null,
@@ -30148,6 +33548,50 @@
         "radius_max": 3
       }
     ],
+    "self_buffs": []
+  },
+  {
+    "id": 1351456514,
+    "resource_id": 899507703,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 1.6,
+    "stamina_requirement": 0.75,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [],
+    "consumed_item_stacks": [
+      {
+        "item_id": 1646523941,
+        "quantity": 1,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "range": 1,
+    "tool_requirements": [],
+    "allow_use_hands": true,
+    "level_requirements": [
+      {
+        "skill_id": 7,
+        "level": 6
+      }
+    ],
+    "experience_per_progress": [
+      {
+        "skill_id": 7,
+        "quantity": 300.0
+      }
+    ],
+    "verb_phrase": "Dig",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 261,
+    "empire_rank_requirement": null,
+    "show_in_progression": false,
+    "empire_permission_required": null,
+    "spawned_placeables": [],
     "self_buffs": []
   },
   {
@@ -30607,7 +34051,7 @@
     "discovery_triggers": [],
     "required_knowledges": [],
     "blocking_knowledges": [],
-    "time_requirement": 1.6,
+    "time_requirement": 6.0,
     "stamina_requirement": 0.0,
     "tool_durability_lost": 0,
     "extracted_item_stacks": [],
@@ -30620,9 +34064,15 @@
         "consumption_chance": 1.0
       }
     ],
-    "range": 1,
-    "tool_requirements": [],
-    "allow_use_hands": true,
+    "range": 2,
+    "tool_requirements": [
+      {
+        "tool_type": 15,
+        "level": 1,
+        "power": 1
+      }
+    ],
+    "allow_use_hands": false,
     "level_requirements": [
       {
         "skill_id": 1,
@@ -30637,7 +34087,59 @@
     ],
     "verb_phrase": "Absorb",
     "tool_mesh_index": 0,
-    "recipe_performance_id": 1,
+    "recipe_performance_id": 946,
+    "empire_rank_requirement": null,
+    "show_in_progression": false,
+    "empire_permission_required": null,
+    "spawned_placeables": [],
+    "self_buffs": []
+  },
+  {
+    "id": 1393296539,
+    "resource_id": 1747640710,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 1.6,
+    "stamina_requirement": 1.03,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [
+      {
+        "item_stack": {
+          "item_id": 3220017,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        },
+        "probability": 0.0146
+      }
+    ],
+    "consumed_item_stacks": [],
+    "range": 1,
+    "tool_requirements": [
+      {
+        "tool_type": 13,
+        "level": 3,
+        "power": 1
+      }
+    ],
+    "allow_use_hands": false,
+    "level_requirements": [
+      {
+        "skill_id": 7,
+        "level": 36
+      }
+    ],
+    "experience_per_progress": [
+      {
+        "skill_id": 7,
+        "quantity": 8.4
+      }
+    ],
+    "verb_phrase": "Gather",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 650,
     "empire_rank_requirement": null,
     "show_in_progression": false,
     "empire_permission_required": null,
@@ -31110,6 +34612,52 @@
     "self_buffs": []
   },
   {
+    "id": 1419543408,
+    "resource_id": 1667056626,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 2.0,
+    "stamina_requirement": 0.0,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [
+      {
+        "item_stack": {
+          "item_id": 1516636325,
+          "quantity": 1,
+          "item_type": "Cargo",
+          "durability": null
+        },
+        "probability": 1.0
+      }
+    ],
+    "consumed_item_stacks": [],
+    "range": 0,
+    "tool_requirements": [],
+    "allow_use_hands": true,
+    "level_requirements": [
+      {
+        "skill_id": 7,
+        "level": 86
+      }
+    ],
+    "experience_per_progress": [
+      {
+        "skill_id": 7,
+        "quantity": 0.0
+      }
+    ],
+    "verb_phrase": "Collect",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 403,
+    "empire_rank_requirement": null,
+    "show_in_progression": false,
+    "empire_permission_required": null,
+    "spawned_placeables": [],
+    "self_buffs": []
+  },
+  {
     "id": 1421385357,
     "resource_id": 331687458,
     "cargo_id": 0,
@@ -31452,6 +35000,50 @@
     "self_buffs": []
   },
   {
+    "id": 1468593993,
+    "resource_id": 162515036,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 2.0,
+    "stamina_requirement": 0.0,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [],
+    "consumed_item_stacks": [
+      {
+        "item_id": 1410321189,
+        "quantity": 1,
+        "item_type": "Cargo",
+        "discovery_score": 0,
+        "consumption_chance": 1.0
+      }
+    ],
+    "range": 0,
+    "tool_requirements": [],
+    "allow_use_hands": true,
+    "level_requirements": [
+      {
+        "skill_id": 7,
+        "level": 26
+      }
+    ],
+    "experience_per_progress": [
+      {
+        "skill_id": 7,
+        "quantity": 0.0
+      }
+    ],
+    "verb_phrase": "Collect",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 403,
+    "empire_rank_requirement": null,
+    "show_in_progression": false,
+    "empire_permission_required": null,
+    "spawned_placeables": [],
+    "self_buffs": []
+  },
+  {
     "id": 1480513881,
     "resource_id": 1999842598,
     "cargo_id": 0,
@@ -31591,6 +35183,52 @@
     "self_buffs": []
   },
   {
+    "id": 1490152187,
+    "resource_id": 129915428,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 2.0,
+    "stamina_requirement": 0.0,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [
+      {
+        "item_stack": {
+          "item_id": 2095212038,
+          "quantity": 1,
+          "item_type": "Cargo",
+          "durability": null
+        },
+        "probability": 1.0
+      }
+    ],
+    "consumed_item_stacks": [],
+    "range": 0,
+    "tool_requirements": [],
+    "allow_use_hands": true,
+    "level_requirements": [
+      {
+        "skill_id": 7,
+        "level": 76
+      }
+    ],
+    "experience_per_progress": [
+      {
+        "skill_id": 7,
+        "quantity": 0.0
+      }
+    ],
+    "verb_phrase": "Collect",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 403,
+    "empire_rank_requirement": null,
+    "show_in_progression": false,
+    "empire_permission_required": null,
+    "spawned_placeables": [],
+    "self_buffs": []
+  },
+  {
     "id": 1495602503,
     "resource_id": 956829437,
     "cargo_id": 0,
@@ -31686,6 +35324,50 @@
     "self_buffs": []
   },
   {
+    "id": 1513908421,
+    "resource_id": 629686204,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 1.6,
+    "stamina_requirement": 0.89,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [],
+    "consumed_item_stacks": [
+      {
+        "item_id": 1893292023,
+        "quantity": 1,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "range": 1,
+    "tool_requirements": [],
+    "allow_use_hands": true,
+    "level_requirements": [
+      {
+        "skill_id": 7,
+        "level": 26
+      }
+    ],
+    "experience_per_progress": [
+      {
+        "skill_id": 7,
+        "quantity": 330.0
+      }
+    ],
+    "verb_phrase": "Dig",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 261,
+    "empire_rank_requirement": null,
+    "show_in_progression": false,
+    "empire_permission_required": null,
+    "spawned_placeables": [],
+    "self_buffs": []
+  },
+  {
     "id": 1516698960,
     "resource_id": 1477126404,
     "cargo_id": 0,
@@ -31715,6 +35397,50 @@
     "verb_phrase": "Collect",
     "tool_mesh_index": 0,
     "recipe_performance_id": 725,
+    "empire_rank_requirement": null,
+    "show_in_progression": false,
+    "empire_permission_required": null,
+    "spawned_placeables": [],
+    "self_buffs": []
+  },
+  {
+    "id": 1523541316,
+    "resource_id": 2115643604,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 2.0,
+    "stamina_requirement": 0.0,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [],
+    "consumed_item_stacks": [
+      {
+        "item_id": 419476990,
+        "quantity": 1,
+        "item_type": "Cargo",
+        "discovery_score": 0,
+        "consumption_chance": 1.0
+      }
+    ],
+    "range": 0,
+    "tool_requirements": [],
+    "allow_use_hands": true,
+    "level_requirements": [
+      {
+        "skill_id": 7,
+        "level": 100
+      }
+    ],
+    "experience_per_progress": [
+      {
+        "skill_id": 7,
+        "quantity": 0.0
+      }
+    ],
+    "verb_phrase": "Collect",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 403,
     "empire_rank_requirement": null,
     "show_in_progression": false,
     "empire_permission_required": null,
@@ -32146,6 +35872,52 @@
     "self_buffs": []
   },
   {
+    "id": 1561549912,
+    "resource_id": 1672470830,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 2.0,
+    "stamina_requirement": 0.0,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [
+      {
+        "item_stack": {
+          "item_id": 1631370878,
+          "quantity": 1,
+          "item_type": "Cargo",
+          "durability": null
+        },
+        "probability": 1.0
+      }
+    ],
+    "consumed_item_stacks": [],
+    "range": 0,
+    "tool_requirements": [],
+    "allow_use_hands": true,
+    "level_requirements": [
+      {
+        "skill_id": 7,
+        "level": 46
+      }
+    ],
+    "experience_per_progress": [
+      {
+        "skill_id": 7,
+        "quantity": 0.0
+      }
+    ],
+    "verb_phrase": "Collect",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 403,
+    "empire_rank_requirement": null,
+    "show_in_progression": false,
+    "empire_permission_required": null,
+    "spawned_placeables": [],
+    "self_buffs": []
+  },
+  {
     "id": 1577587047,
     "resource_id": 487003651,
     "cargo_id": 0,
@@ -32191,6 +35963,50 @@
     "verb_phrase": "Salvage",
     "tool_mesh_index": 0,
     "recipe_performance_id": 18,
+    "empire_rank_requirement": null,
+    "show_in_progression": false,
+    "empire_permission_required": null,
+    "spawned_placeables": [],
+    "self_buffs": []
+  },
+  {
+    "id": 1595979488,
+    "resource_id": 1333099082,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 2.0,
+    "stamina_requirement": 0.0,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [],
+    "consumed_item_stacks": [
+      {
+        "item_id": 395889468,
+        "quantity": 1,
+        "item_type": "Cargo",
+        "discovery_score": 0,
+        "consumption_chance": 1.0
+      }
+    ],
+    "range": 0,
+    "tool_requirements": [],
+    "allow_use_hands": true,
+    "level_requirements": [
+      {
+        "skill_id": 7,
+        "level": 66
+      }
+    ],
+    "experience_per_progress": [
+      {
+        "skill_id": 7,
+        "quantity": 0.0
+      }
+    ],
+    "verb_phrase": "Collect",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 403,
     "empire_rank_requirement": null,
     "show_in_progression": false,
     "empire_permission_required": null,
@@ -32358,6 +36174,50 @@
     "self_buffs": []
   },
   {
+    "id": 1611861418,
+    "resource_id": 980750699,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 2.0,
+    "stamina_requirement": 0.0,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [],
+    "consumed_item_stacks": [
+      {
+        "item_id": 1012160821,
+        "quantity": 1,
+        "item_type": "Cargo",
+        "discovery_score": 0,
+        "consumption_chance": 1.0
+      }
+    ],
+    "range": 0,
+    "tool_requirements": [],
+    "allow_use_hands": true,
+    "level_requirements": [
+      {
+        "skill_id": 7,
+        "level": 36
+      }
+    ],
+    "experience_per_progress": [
+      {
+        "skill_id": 7,
+        "quantity": 0.0
+      }
+    ],
+    "verb_phrase": "Collect",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 403,
+    "empire_rank_requirement": null,
+    "show_in_progression": false,
+    "empire_permission_required": null,
+    "spawned_placeables": [],
+    "self_buffs": []
+  },
+  {
     "id": 1614224568,
     "resource_id": 1626015312,
     "cargo_id": 0,
@@ -32421,6 +36281,50 @@
     "verb_phrase": "Chop",
     "tool_mesh_index": 0,
     "recipe_performance_id": 401,
+    "empire_rank_requirement": null,
+    "show_in_progression": false,
+    "empire_permission_required": null,
+    "spawned_placeables": [],
+    "self_buffs": []
+  },
+  {
+    "id": 1615250729,
+    "resource_id": 1607856909,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 2.0,
+    "stamina_requirement": 0.0,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [],
+    "consumed_item_stacks": [
+      {
+        "item_id": 2074315761,
+        "quantity": 1,
+        "item_type": "Cargo",
+        "discovery_score": 0,
+        "consumption_chance": 1.0
+      }
+    ],
+    "range": 0,
+    "tool_requirements": [],
+    "allow_use_hands": true,
+    "level_requirements": [
+      {
+        "skill_id": 7,
+        "level": 36
+      }
+    ],
+    "experience_per_progress": [
+      {
+        "skill_id": 7,
+        "quantity": 0.0
+      }
+    ],
+    "verb_phrase": "Collect",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 403,
     "empire_rank_requirement": null,
     "show_in_progression": false,
     "empire_permission_required": null,
@@ -32516,6 +36420,50 @@
     "verb_phrase": "Mine",
     "tool_mesh_index": 0,
     "recipe_performance_id": 975,
+    "empire_rank_requirement": null,
+    "show_in_progression": false,
+    "empire_permission_required": null,
+    "spawned_placeables": [],
+    "self_buffs": []
+  },
+  {
+    "id": 1627836753,
+    "resource_id": 221899210,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 2.0,
+    "stamina_requirement": 0.75,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [],
+    "consumed_item_stacks": [
+      {
+        "item_id": 11007,
+        "quantity": 1,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "range": 1,
+    "tool_requirements": [],
+    "allow_use_hands": true,
+    "level_requirements": [
+      {
+        "skill_id": 22,
+        "level": 1
+      }
+    ],
+    "experience_per_progress": [
+      {
+        "skill_id": 22,
+        "quantity": 0.0
+      }
+    ],
+    "verb_phrase": "Extinguish",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 882,
     "empire_rank_requirement": null,
     "show_in_progression": false,
     "empire_permission_required": null,
@@ -32662,6 +36610,15 @@
           "durability": 0
         },
         "probability": 1.0
+      },
+      {
+        "item_stack": {
+          "item_id": 1271278292,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        },
+        "probability": 0.001
       }
     ],
     "consumed_item_stacks": [
@@ -32743,6 +36700,104 @@
     "verb_phrase": "Mine",
     "tool_mesh_index": 0,
     "recipe_performance_id": 975,
+    "empire_rank_requirement": null,
+    "show_in_progression": false,
+    "empire_permission_required": null,
+    "spawned_placeables": [],
+    "self_buffs": []
+  },
+  {
+    "id": 1637280727,
+    "resource_id": 1090022434,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 1.6,
+    "stamina_requirement": 1.64,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [
+      {
+        "item_stack": {
+          "item_id": 76399881,
+          "quantity": 1,
+          "item_type": "Cargo",
+          "durability": null
+        },
+        "probability": 0.00457
+      }
+    ],
+    "consumed_item_stacks": [],
+    "range": 1,
+    "tool_requirements": [
+      {
+        "tool_type": 4,
+        "level": 8,
+        "power": 1
+      }
+    ],
+    "allow_use_hands": false,
+    "level_requirements": [
+      {
+        "skill_id": 5,
+        "level": 80
+      }
+    ],
+    "experience_per_progress": [
+      {
+        "skill_id": 5,
+        "quantity": 2.125
+      }
+    ],
+    "verb_phrase": "Mine",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 975,
+    "empire_rank_requirement": null,
+    "show_in_progression": false,
+    "empire_permission_required": null,
+    "spawned_placeables": [],
+    "self_buffs": []
+  },
+  {
+    "id": 1637281414,
+    "resource_id": 1259926721,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 2.0,
+    "stamina_requirement": 0.0,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [
+      {
+        "item_stack": {
+          "item_id": 1421136425,
+          "quantity": 1,
+          "item_type": "Cargo",
+          "durability": null
+        },
+        "probability": 1.0
+      }
+    ],
+    "consumed_item_stacks": [],
+    "range": 0,
+    "tool_requirements": [],
+    "allow_use_hands": true,
+    "level_requirements": [
+      {
+        "skill_id": 7,
+        "level": 56
+      }
+    ],
+    "experience_per_progress": [
+      {
+        "skill_id": 7,
+        "quantity": 0.0
+      }
+    ],
+    "verb_phrase": "Collect",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 403,
     "empire_rank_requirement": null,
     "show_in_progression": false,
     "empire_permission_required": null,
@@ -33311,7 +37366,7 @@
     "discovery_triggers": [],
     "required_knowledges": [],
     "blocking_knowledges": [],
-    "time_requirement": 1.6,
+    "time_requirement": 6.0,
     "stamina_requirement": 0.0,
     "tool_durability_lost": 0,
     "extracted_item_stacks": [],
@@ -33324,9 +37379,15 @@
         "consumption_chance": 1.0
       }
     ],
-    "range": 1,
-    "tool_requirements": [],
-    "allow_use_hands": true,
+    "range": 2,
+    "tool_requirements": [
+      {
+        "tool_type": 15,
+        "level": 1,
+        "power": 1
+      }
+    ],
+    "allow_use_hands": false,
     "level_requirements": [
       {
         "skill_id": 1,
@@ -33341,7 +37402,59 @@
     ],
     "verb_phrase": "Absorb",
     "tool_mesh_index": 0,
-    "recipe_performance_id": 1,
+    "recipe_performance_id": 946,
+    "empire_rank_requirement": null,
+    "show_in_progression": false,
+    "empire_permission_required": null,
+    "spawned_placeables": [],
+    "self_buffs": []
+  },
+  {
+    "id": 1673714271,
+    "resource_id": 0,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 1.6,
+    "stamina_requirement": 1.03,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [
+      {
+        "item_stack": {
+          "item_id": 3220027,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        },
+        "probability": 0.00729
+      }
+    ],
+    "consumed_item_stacks": [],
+    "range": 1,
+    "tool_requirements": [
+      {
+        "tool_type": 4,
+        "level": 3,
+        "power": 1
+      }
+    ],
+    "allow_use_hands": false,
+    "level_requirements": [
+      {
+        "skill_id": 5,
+        "level": 30
+      }
+    ],
+    "experience_per_progress": [
+      {
+        "skill_id": 5,
+        "quantity": 0.0
+      }
+    ],
+    "verb_phrase": "Mine",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 975,
     "empire_rank_requirement": null,
     "show_in_progression": false,
     "empire_permission_required": null,
@@ -33465,7 +37578,7 @@
     "discovery_triggers": [],
     "required_knowledges": [],
     "blocking_knowledges": [],
-    "time_requirement": 1.6,
+    "time_requirement": 6.0,
     "stamina_requirement": 0.0,
     "tool_durability_lost": 0,
     "extracted_item_stacks": [],
@@ -33478,9 +37591,15 @@
         "consumption_chance": 1.0
       }
     ],
-    "range": 1,
-    "tool_requirements": [],
-    "allow_use_hands": true,
+    "range": 2,
+    "tool_requirements": [
+      {
+        "tool_type": 15,
+        "level": 1,
+        "power": 1
+      }
+    ],
+    "allow_use_hands": false,
     "level_requirements": [
       {
         "skill_id": 1,
@@ -33495,7 +37614,7 @@
     ],
     "verb_phrase": "Absorb",
     "tool_mesh_index": 0,
-    "recipe_performance_id": 1,
+    "recipe_performance_id": 946,
     "empire_rank_requirement": null,
     "show_in_progression": false,
     "empire_permission_required": null,
@@ -33543,6 +37662,96 @@
         "radius_max": 0
       }
     ],
+    "self_buffs": []
+  },
+  {
+    "id": 1692638925,
+    "resource_id": 1855220745,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 1.6,
+    "stamina_requirement": 1.64,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [],
+    "consumed_item_stacks": [
+      {
+        "item_id": 1035789844,
+        "quantity": 1,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "range": 1,
+    "tool_requirements": [],
+    "allow_use_hands": true,
+    "level_requirements": [
+      {
+        "skill_id": 7,
+        "level": 86
+      }
+    ],
+    "experience_per_progress": [
+      {
+        "skill_id": 7,
+        "quantity": 510.0
+      }
+    ],
+    "verb_phrase": "Dig",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 261,
+    "empire_rank_requirement": null,
+    "show_in_progression": false,
+    "empire_permission_required": null,
+    "spawned_placeables": [],
+    "self_buffs": []
+  },
+  {
+    "id": 1694473943,
+    "resource_id": 443253769,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 2.0,
+    "stamina_requirement": 0.0,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [
+      {
+        "item_stack": {
+          "item_id": 1420617544,
+          "quantity": 1,
+          "item_type": "Cargo",
+          "durability": null
+        },
+        "probability": 1.0
+      }
+    ],
+    "consumed_item_stacks": [],
+    "range": 0,
+    "tool_requirements": [],
+    "allow_use_hands": true,
+    "level_requirements": [
+      {
+        "skill_id": 7,
+        "level": 76
+      }
+    ],
+    "experience_per_progress": [
+      {
+        "skill_id": 7,
+        "quantity": 0.0
+      }
+    ],
+    "verb_phrase": "Collect",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 403,
+    "empire_rank_requirement": null,
+    "show_in_progression": false,
+    "empire_permission_required": null,
+    "spawned_placeables": [],
     "self_buffs": []
   },
   {
@@ -33683,6 +37892,52 @@
       }
     ],
     "verb_phrase": "Unlock",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 403,
+    "empire_rank_requirement": null,
+    "show_in_progression": false,
+    "empire_permission_required": null,
+    "spawned_placeables": [],
+    "self_buffs": []
+  },
+  {
+    "id": 1721779588,
+    "resource_id": 2068942552,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 2.0,
+    "stamina_requirement": 0.0,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [
+      {
+        "item_stack": {
+          "item_id": 779693782,
+          "quantity": 1,
+          "item_type": "Cargo",
+          "durability": null
+        },
+        "probability": 1.0
+      }
+    ],
+    "consumed_item_stacks": [],
+    "range": 0,
+    "tool_requirements": [],
+    "allow_use_hands": true,
+    "level_requirements": [
+      {
+        "skill_id": 7,
+        "level": 100
+      }
+    ],
+    "experience_per_progress": [
+      {
+        "skill_id": 7,
+        "quantity": 0.0
+      }
+    ],
+    "verb_phrase": "Collect",
     "tool_mesh_index": 0,
     "recipe_performance_id": 403,
     "empire_rank_requirement": null,
@@ -34195,6 +38450,58 @@
     "self_buffs": []
   },
   {
+    "id": 1741155796,
+    "resource_id": 1374765351,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 1.6,
+    "stamina_requirement": 1.52,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [
+      {
+        "item_stack": {
+          "item_id": 518969403,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        },
+        "probability": 0.0098
+      }
+    ],
+    "consumed_item_stacks": [],
+    "range": 1,
+    "tool_requirements": [
+      {
+        "tool_type": 13,
+        "level": 7,
+        "power": 1
+      }
+    ],
+    "allow_use_hands": false,
+    "level_requirements": [
+      {
+        "skill_id": 7,
+        "level": 76
+      }
+    ],
+    "experience_per_progress": [
+      {
+        "skill_id": 7,
+        "quantity": 11.2
+      }
+    ],
+    "verb_phrase": "Gather",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 650,
+    "empire_rank_requirement": null,
+    "show_in_progression": false,
+    "empire_permission_required": null,
+    "spawned_placeables": [],
+    "self_buffs": []
+  },
+  {
     "id": 1742371572,
     "resource_id": 1048179054,
     "cargo_id": 0,
@@ -34240,6 +38547,50 @@
     "verb_phrase": "Mine",
     "tool_mesh_index": 0,
     "recipe_performance_id": 975,
+    "empire_rank_requirement": null,
+    "show_in_progression": false,
+    "empire_permission_required": null,
+    "spawned_placeables": [],
+    "self_buffs": []
+  },
+  {
+    "id": 1742683987,
+    "resource_id": 1157690922,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 2.0,
+    "stamina_requirement": 0.0,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [],
+    "consumed_item_stacks": [
+      {
+        "item_id": 2017180339,
+        "quantity": 1,
+        "item_type": "Cargo",
+        "discovery_score": 0,
+        "consumption_chance": 1.0
+      }
+    ],
+    "range": 0,
+    "tool_requirements": [],
+    "allow_use_hands": true,
+    "level_requirements": [
+      {
+        "skill_id": 7,
+        "level": 96
+      }
+    ],
+    "experience_per_progress": [
+      {
+        "skill_id": 7,
+        "quantity": 0.0
+      }
+    ],
+    "verb_phrase": "Collect",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 403,
     "empire_rank_requirement": null,
     "show_in_progression": false,
     "empire_permission_required": null,
@@ -34575,6 +38926,50 @@
     "recipe_performance_id": 143,
     "empire_rank_requirement": null,
     "show_in_progression": true,
+    "empire_permission_required": null,
+    "spawned_placeables": [],
+    "self_buffs": []
+  },
+  {
+    "id": 1767976201,
+    "resource_id": 97998766,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 2.0,
+    "stamina_requirement": 0.0,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [],
+    "consumed_item_stacks": [
+      {
+        "item_id": 597254650,
+        "quantity": 1,
+        "item_type": "Cargo",
+        "discovery_score": 0,
+        "consumption_chance": 1.0
+      }
+    ],
+    "range": 0,
+    "tool_requirements": [],
+    "allow_use_hands": true,
+    "level_requirements": [
+      {
+        "skill_id": 7,
+        "level": 36
+      }
+    ],
+    "experience_per_progress": [
+      {
+        "skill_id": 7,
+        "quantity": 0.0
+      }
+    ],
+    "verb_phrase": "Collect",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 403,
+    "empire_rank_requirement": null,
+    "show_in_progression": false,
     "empire_permission_required": null,
     "spawned_placeables": [],
     "self_buffs": []
@@ -35276,6 +39671,50 @@
     ]
   },
   {
+    "id": 1809496638,
+    "resource_id": 1570861711,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 1.6,
+    "stamina_requirement": 1.52,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [],
+    "consumed_item_stacks": [
+      {
+        "item_id": 1081984975,
+        "quantity": 1,
+        "item_type": "Item",
+        "discovery_score": 1,
+        "consumption_chance": 1.0
+      }
+    ],
+    "range": 1,
+    "tool_requirements": [],
+    "allow_use_hands": true,
+    "level_requirements": [
+      {
+        "skill_id": 7,
+        "level": 76
+      }
+    ],
+    "experience_per_progress": [
+      {
+        "skill_id": 7,
+        "quantity": 480.0
+      }
+    ],
+    "verb_phrase": "Dig",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 261,
+    "empire_rank_requirement": null,
+    "show_in_progression": false,
+    "empire_permission_required": null,
+    "spawned_placeables": [],
+    "self_buffs": []
+  },
+  {
     "id": 1813642974,
     "resource_id": 1902575241,
     "cargo_id": 0,
@@ -35596,6 +40035,52 @@
     "self_buffs": []
   },
   {
+    "id": 1843655203,
+    "resource_id": 816348166,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 2.0,
+    "stamina_requirement": 0.0,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [
+      {
+        "item_stack": {
+          "item_id": 102377024,
+          "quantity": 1,
+          "item_type": "Cargo",
+          "durability": null
+        },
+        "probability": 1.0
+      }
+    ],
+    "consumed_item_stacks": [],
+    "range": 0,
+    "tool_requirements": [],
+    "allow_use_hands": true,
+    "level_requirements": [
+      {
+        "skill_id": 7,
+        "level": 26
+      }
+    ],
+    "experience_per_progress": [
+      {
+        "skill_id": 7,
+        "quantity": 0.0
+      }
+    ],
+    "verb_phrase": "Collect",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 403,
+    "empire_rank_requirement": null,
+    "show_in_progression": false,
+    "empire_permission_required": null,
+    "spawned_placeables": [],
+    "self_buffs": []
+  },
+  {
     "id": 1844711727,
     "resource_id": 2022104490,
     "cargo_id": 0,
@@ -35709,6 +40194,52 @@
     "self_buffs": []
   },
   {
+    "id": 1847371988,
+    "resource_id": 1380303349,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 2.0,
+    "stamina_requirement": 0.0,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [
+      {
+        "item_stack": {
+          "item_id": 483994014,
+          "quantity": 1,
+          "item_type": "Cargo",
+          "durability": null
+        },
+        "probability": 1.0
+      }
+    ],
+    "consumed_item_stacks": [],
+    "range": 0,
+    "tool_requirements": [],
+    "allow_use_hands": true,
+    "level_requirements": [
+      {
+        "skill_id": 7,
+        "level": 76
+      }
+    ],
+    "experience_per_progress": [
+      {
+        "skill_id": 7,
+        "quantity": 0.0
+      }
+    ],
+    "verb_phrase": "Collect",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 403,
+    "empire_rank_requirement": null,
+    "show_in_progression": false,
+    "empire_permission_required": null,
+    "spawned_placeables": [],
+    "self_buffs": []
+  },
+  {
     "id": 1851709031,
     "resource_id": 1110001,
     "cargo_id": 0,
@@ -35744,6 +40275,50 @@
       }
     ],
     "verb_phrase": "Bait",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 403,
+    "empire_rank_requirement": null,
+    "show_in_progression": false,
+    "empire_permission_required": null,
+    "spawned_placeables": [],
+    "self_buffs": []
+  },
+  {
+    "id": 1867731546,
+    "resource_id": 1889592521,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 2.0,
+    "stamina_requirement": 0.0,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [],
+    "consumed_item_stacks": [
+      {
+        "item_id": 1191707144,
+        "quantity": 1,
+        "item_type": "Cargo",
+        "discovery_score": 0,
+        "consumption_chance": 1.0
+      }
+    ],
+    "range": 0,
+    "tool_requirements": [],
+    "allow_use_hands": true,
+    "level_requirements": [
+      {
+        "skill_id": 7,
+        "level": 86
+      }
+    ],
+    "experience_per_progress": [
+      {
+        "skill_id": 7,
+        "quantity": 0.0
+      }
+    ],
+    "verb_phrase": "Collect",
     "tool_mesh_index": 0,
     "recipe_performance_id": 403,
     "empire_rank_requirement": null,
@@ -36113,6 +40688,50 @@
     "self_buffs": []
   },
   {
+    "id": 1908141012,
+    "resource_id": 1302896139,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 2.0,
+    "stamina_requirement": 0.0,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [],
+    "consumed_item_stacks": [
+      {
+        "item_id": 851140520,
+        "quantity": 1,
+        "item_type": "Cargo",
+        "discovery_score": 0,
+        "consumption_chance": 1.0
+      }
+    ],
+    "range": 0,
+    "tool_requirements": [],
+    "allow_use_hands": true,
+    "level_requirements": [
+      {
+        "skill_id": 7,
+        "level": 66
+      }
+    ],
+    "experience_per_progress": [
+      {
+        "skill_id": 7,
+        "quantity": 0.0
+      }
+    ],
+    "verb_phrase": "Collect",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 403,
+    "empire_rank_requirement": null,
+    "show_in_progression": false,
+    "empire_permission_required": null,
+    "spawned_placeables": [],
+    "self_buffs": []
+  },
+  {
     "id": 1912932629,
     "resource_id": 1225153871,
     "cargo_id": 0,
@@ -36224,6 +40843,58 @@
     "verb_phrase": "Collect",
     "tool_mesh_index": 0,
     "recipe_performance_id": 403,
+    "empire_rank_requirement": null,
+    "show_in_progression": false,
+    "empire_permission_required": null,
+    "spawned_placeables": [],
+    "self_buffs": []
+  },
+  {
+    "id": 1919668502,
+    "resource_id": 1461080442,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 1.6,
+    "stamina_requirement": 0.89,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [
+      {
+        "item_stack": {
+          "item_id": 2220017,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        },
+        "probability": 0.0168
+      }
+    ],
+    "consumed_item_stacks": [],
+    "range": 1,
+    "tool_requirements": [
+      {
+        "tool_type": 13,
+        "level": 2,
+        "power": 1
+      }
+    ],
+    "allow_use_hands": false,
+    "level_requirements": [
+      {
+        "skill_id": 7,
+        "level": 26
+      }
+    ],
+    "experience_per_progress": [
+      {
+        "skill_id": 7,
+        "quantity": 7.7
+      }
+    ],
+    "verb_phrase": "Gather",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 650,
     "empire_rank_requirement": null,
     "show_in_progression": false,
     "empire_permission_required": null,
@@ -36630,6 +41301,96 @@
     "self_buffs": []
   },
   {
+    "id": 1952013936,
+    "resource_id": 1068627371,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 2.0,
+    "stamina_requirement": 0.0,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [
+      {
+        "item_stack": {
+          "item_id": 1910867899,
+          "quantity": 1,
+          "item_type": "Cargo",
+          "durability": null
+        },
+        "probability": 1.0
+      }
+    ],
+    "consumed_item_stacks": [],
+    "range": 0,
+    "tool_requirements": [],
+    "allow_use_hands": true,
+    "level_requirements": [
+      {
+        "skill_id": 7,
+        "level": 86
+      }
+    ],
+    "experience_per_progress": [
+      {
+        "skill_id": 7,
+        "quantity": 0.0
+      }
+    ],
+    "verb_phrase": "Collect",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 403,
+    "empire_rank_requirement": null,
+    "show_in_progression": false,
+    "empire_permission_required": null,
+    "spawned_placeables": [],
+    "self_buffs": []
+  },
+  {
+    "id": 1955673496,
+    "resource_id": 364017548,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 2.0,
+    "stamina_requirement": 0.0,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [],
+    "consumed_item_stacks": [
+      {
+        "item_id": 779693782,
+        "quantity": 1,
+        "item_type": "Cargo",
+        "discovery_score": 0,
+        "consumption_chance": 1.0
+      }
+    ],
+    "range": 0,
+    "tool_requirements": [],
+    "allow_use_hands": true,
+    "level_requirements": [
+      {
+        "skill_id": 7,
+        "level": 100
+      }
+    ],
+    "experience_per_progress": [
+      {
+        "skill_id": 7,
+        "quantity": 0.0
+      }
+    ],
+    "verb_phrase": "Collect",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 403,
+    "empire_rank_requirement": null,
+    "show_in_progression": false,
+    "empire_permission_required": null,
+    "spawned_placeables": [],
+    "self_buffs": []
+  },
+  {
     "id": 1959014177,
     "resource_id": 904022325,
     "cargo_id": 0,
@@ -36995,7 +41756,7 @@
     "discovery_triggers": [],
     "required_knowledges": [],
     "blocking_knowledges": [],
-    "time_requirement": 1.6,
+    "time_requirement": 6.0,
     "stamina_requirement": 0.0,
     "tool_durability_lost": 0,
     "extracted_item_stacks": [],
@@ -37008,9 +41769,15 @@
         "consumption_chance": 1.0
       }
     ],
-    "range": 1,
-    "tool_requirements": [],
-    "allow_use_hands": true,
+    "range": 2,
+    "tool_requirements": [
+      {
+        "tool_type": 15,
+        "level": 1,
+        "power": 1
+      }
+    ],
+    "allow_use_hands": false,
     "level_requirements": [
       {
         "skill_id": 1,
@@ -37025,7 +41792,7 @@
     ],
     "verb_phrase": "Absorb",
     "tool_mesh_index": 0,
-    "recipe_performance_id": 1,
+    "recipe_performance_id": 946,
     "empire_rank_requirement": null,
     "show_in_progression": false,
     "empire_permission_required": null,
@@ -37921,6 +42688,50 @@
     "self_buffs": []
   },
   {
+    "id": 2052631460,
+    "resource_id": 295590668,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 2.0,
+    "stamina_requirement": 0.0,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [],
+    "consumed_item_stacks": [
+      {
+        "item_id": 984175255,
+        "quantity": 1,
+        "item_type": "Cargo",
+        "discovery_score": 0,
+        "consumption_chance": 1.0
+      }
+    ],
+    "range": 0,
+    "tool_requirements": [],
+    "allow_use_hands": true,
+    "level_requirements": [
+      {
+        "skill_id": 7,
+        "level": 46
+      }
+    ],
+    "experience_per_progress": [
+      {
+        "skill_id": 7,
+        "quantity": 0.0
+      }
+    ],
+    "verb_phrase": "Collect",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 403,
+    "empire_rank_requirement": null,
+    "show_in_progression": false,
+    "empire_permission_required": null,
+    "spawned_placeables": [],
+    "self_buffs": []
+  },
+  {
     "id": 2059853367,
     "resource_id": 483651994,
     "cargo_id": 0,
@@ -37961,6 +42772,58 @@
         "radius_max": 0
       }
     ],
+    "self_buffs": []
+  },
+  {
+    "id": 2065616996,
+    "resource_id": 1041092997,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 1.6,
+    "stamina_requirement": 1.41,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [
+      {
+        "item_stack": {
+          "item_id": 6220027,
+          "quantity": 1,
+          "item_type": "Item",
+          "durability": 0
+        },
+        "probability": 0.00533
+      }
+    ],
+    "consumed_item_stacks": [],
+    "range": 1,
+    "tool_requirements": [
+      {
+        "tool_type": 4,
+        "level": 6,
+        "power": 1
+      }
+    ],
+    "allow_use_hands": false,
+    "level_requirements": [
+      {
+        "skill_id": 5,
+        "level": 60
+      }
+    ],
+    "experience_per_progress": [
+      {
+        "skill_id": 5,
+        "quantity": 1.875
+      }
+    ],
+    "verb_phrase": "Mine",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 975,
+    "empire_rank_requirement": null,
+    "show_in_progression": false,
+    "empire_permission_required": null,
+    "spawned_placeables": [],
     "self_buffs": []
   },
   {
@@ -38103,6 +42966,50 @@
     "verb_phrase": "Challenge",
     "tool_mesh_index": 0,
     "recipe_performance_id": 261,
+    "empire_rank_requirement": null,
+    "show_in_progression": false,
+    "empire_permission_required": null,
+    "spawned_placeables": [],
+    "self_buffs": []
+  },
+  {
+    "id": 2071228501,
+    "resource_id": 473655067,
+    "cargo_id": 0,
+    "discovery_triggers": [],
+    "required_knowledges": [],
+    "blocking_knowledges": [],
+    "time_requirement": 2.0,
+    "stamina_requirement": 0.0,
+    "tool_durability_lost": 0,
+    "extracted_item_stacks": [],
+    "consumed_item_stacks": [
+      {
+        "item_id": 195279556,
+        "quantity": 1,
+        "item_type": "Cargo",
+        "discovery_score": 0,
+        "consumption_chance": 1.0
+      }
+    ],
+    "range": 0,
+    "tool_requirements": [],
+    "allow_use_hands": true,
+    "level_requirements": [
+      {
+        "skill_id": 7,
+        "level": 100
+      }
+    ],
+    "experience_per_progress": [
+      {
+        "skill_id": 7,
+        "quantity": 0.0
+      }
+    ],
+    "verb_phrase": "Collect",
+    "tool_mesh_index": 0,
+    "recipe_performance_id": 403,
     "empire_rank_requirement": null,
     "show_in_progression": false,
     "empire_permission_required": null,

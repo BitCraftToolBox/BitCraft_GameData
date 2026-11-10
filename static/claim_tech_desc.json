@@ -10,10 +10,15 @@
     "requirements": [],
     "input": [],
     "members": 50,
-    "area": 1000,
+    "area": 0,
     "supplies": 12000,
-    "xp_to_mint_hex_coin": 400,
-    "unlocks_techs": []
+    "xp_to_mint_hex_coin": 0,
+    "unlocks_techs": [
+      200
+    ],
+    "cannot_be_researched": false,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": false
   },
   {
     "id": 200,
@@ -25,11 +30,14 @@
     "research_time": 0,
     "requirements": [],
     "input": [],
-    "members": 0,
-    "area": 0,
+    "members": 1000,
+    "area": 1261,
     "supplies": 0,
-    "xp_to_mint_hex_coin": 400,
-    "unlocks_techs": []
+    "xp_to_mint_hex_coin": 0,
+    "unlocks_techs": [],
+    "cannot_be_researched": true,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": false
   },
   {
     "id": 300,
@@ -37,24 +45,20 @@
     "description": "Unlocks the ability to research tier 3 researches.",
     "tier": 3,
     "tech_type": "TierUpgrade",
-    "supplies_cost": 1500,
+    "supplies_cost": 0,
     "research_time": 0,
     "requirements": [
       200
     ],
-    "input": [
-      {
-        "item_id": 1249122434,
-        "quantity": 1,
-        "item_type": "Item",
-        "durability": 0
-      }
-    ],
+    "input": [],
     "members": 0,
     "area": 0,
     "supplies": 0,
-    "xp_to_mint_hex_coin": 400,
-    "unlocks_techs": []
+    "xp_to_mint_hex_coin": 0,
+    "unlocks_techs": [],
+    "cannot_be_researched": true,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": false
   },
   {
     "id": 400,
@@ -67,19 +71,15 @@
     "requirements": [
       300
     ],
-    "input": [
-      {
-        "item_id": 1387450581,
-        "quantity": 3,
-        "item_type": "Item",
-        "durability": 0
-      }
-    ],
+    "input": [],
     "members": 0,
     "area": 0,
     "supplies": 0,
-    "xp_to_mint_hex_coin": 400,
-    "unlocks_techs": []
+    "xp_to_mint_hex_coin": 0,
+    "unlocks_techs": [],
+    "cannot_be_researched": true,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": false
   },
   {
     "id": 500,
@@ -87,24 +87,20 @@
     "description": "",
     "tier": 5,
     "tech_type": "TierUpgrade",
-    "supplies_cost": 3000,
+    "supplies_cost": 0,
     "research_time": 0,
     "requirements": [
       400
     ],
-    "input": [
-      {
-        "item_id": 2036617800,
-        "quantity": 3,
-        "item_type": "Item",
-        "durability": 0
-      }
-    ],
+    "input": [],
     "members": 0,
     "area": 0,
     "supplies": 0,
-    "xp_to_mint_hex_coin": 400,
-    "unlocks_techs": []
+    "xp_to_mint_hex_coin": 0,
+    "unlocks_techs": [],
+    "cannot_be_researched": true,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": false
   },
   {
     "id": 600,
@@ -117,19 +113,15 @@
     "requirements": [
       500
     ],
-    "input": [
-      {
-        "item_id": 383751483,
-        "quantity": 5,
-        "item_type": "Item",
-        "durability": 0
-      }
-    ],
+    "input": [],
     "members": 0,
     "area": 0,
     "supplies": 0,
-    "xp_to_mint_hex_coin": 400,
-    "unlocks_techs": []
+    "xp_to_mint_hex_coin": 0,
+    "unlocks_techs": [],
+    "cannot_be_researched": true,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": false
   },
   {
     "id": 700,
@@ -137,24 +129,20 @@
     "description": "",
     "tier": 7,
     "tech_type": "TierUpgrade",
-    "supplies_cost": 4500,
+    "supplies_cost": 0,
     "research_time": 0,
     "requirements": [
       600
     ],
-    "input": [
-      {
-        "item_id": 2080555135,
-        "quantity": 5,
-        "item_type": "Item",
-        "durability": 0
-      }
-    ],
+    "input": [],
     "members": 0,
     "area": 0,
     "supplies": 0,
-    "xp_to_mint_hex_coin": 400,
-    "unlocks_techs": []
+    "xp_to_mint_hex_coin": 0,
+    "unlocks_techs": [],
+    "cannot_be_researched": true,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": false
   },
   {
     "id": 800,
@@ -162,24 +150,20 @@
     "description": "",
     "tier": 8,
     "tech_type": "TierUpgrade",
-    "supplies_cost": 5250,
+    "supplies_cost": 0,
     "research_time": 0,
     "requirements": [
       700
     ],
-    "input": [
-      {
-        "item_id": 335321809,
-        "quantity": 7,
-        "item_type": "Item",
-        "durability": 0
-      }
-    ],
+    "input": [],
     "members": 0,
     "area": 0,
     "supplies": 0,
-    "xp_to_mint_hex_coin": 400,
-    "unlocks_techs": []
+    "xp_to_mint_hex_coin": 0,
+    "unlocks_techs": [],
+    "cannot_be_researched": true,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": false
   },
   {
     "id": 900,
@@ -187,24 +171,20 @@
     "description": "",
     "tier": 9,
     "tech_type": "TierUpgrade",
-    "supplies_cost": 6000,
+    "supplies_cost": 0,
     "research_time": 0,
     "requirements": [
       800
     ],
-    "input": [
-      {
-        "item_id": 905786066,
-        "quantity": 7,
-        "item_type": "Item",
-        "durability": 0
-      }
-    ],
+    "input": [],
     "members": 0,
     "area": 0,
     "supplies": 0,
-    "xp_to_mint_hex_coin": 400,
-    "unlocks_techs": []
+    "xp_to_mint_hex_coin": 0,
+    "unlocks_techs": [],
+    "cannot_be_researched": true,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": false
   },
   {
     "id": 1000,
@@ -212,24 +192,20 @@
     "description": "",
     "tier": 10,
     "tech_type": "TierUpgrade",
-    "supplies_cost": 6750,
+    "supplies_cost": 0,
     "research_time": 0,
     "requirements": [
       900
     ],
-    "input": [
-      {
-        "item_id": 1598535119,
-        "quantity": 9,
-        "item_type": "Item",
-        "durability": 0
-      }
-    ],
+    "input": [],
     "members": 0,
     "area": 0,
     "supplies": 0,
-    "xp_to_mint_hex_coin": 400,
-    "unlocks_techs": []
+    "xp_to_mint_hex_coin": 0,
+    "unlocks_techs": [],
+    "cannot_be_researched": true,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": false
   },
   {
     "id": 10000,
@@ -240,14 +216,36 @@
     "supplies_cost": 20000,
     "research_time": 0,
     "requirements": [
-      200
+      1300921803
     ],
     "input": [],
     "members": 0,
     "area": 0,
     "supplies": 0,
-    "xp_to_mint_hex_coin": 500,
-    "unlocks_techs": []
+    "xp_to_mint_hex_coin": 0,
+    "unlocks_techs": [],
+    "cannot_be_researched": false,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": false
+  },
+  {
+    "id": 43715291,
+    "name": "T4 Township or Homestead",
+    "description": "Tech that allows you to build and craft items and buildings of this tier.",
+    "tier": 4,
+    "tech_type": "Undefined",
+    "supplies_cost": 0,
+    "research_time": 0,
+    "requirements": [],
+    "input": [],
+    "members": 0,
+    "area": 0,
+    "supplies": 0,
+    "xp_to_mint_hex_coin": 0,
+    "unlocks_techs": [],
+    "cannot_be_researched": true,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": true
   },
   {
     "id": 54596490,
@@ -273,7 +271,10 @@
     "area": 0,
     "supplies": 0,
     "xp_to_mint_hex_coin": 0,
-    "unlocks_techs": []
+    "unlocks_techs": [],
+    "cannot_be_researched": true,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": true
   },
   {
     "id": 61398979,
@@ -299,7 +300,10 @@
     "area": 0,
     "supplies": 0,
     "xp_to_mint_hex_coin": 0,
-    "unlocks_techs": []
+    "unlocks_techs": [],
+    "cannot_be_researched": true,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": true
   },
   {
     "id": 72825831,
@@ -325,7 +329,48 @@
     "area": 0,
     "supplies": 0,
     "xp_to_mint_hex_coin": 0,
-    "unlocks_techs": []
+    "unlocks_techs": [],
+    "cannot_be_researched": true,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": true
+  },
+  {
+    "id": 83884649,
+    "name": "Tier 4 Homestead",
+    "description": "Upgrade your homestead, allowing you to build the next tier of buildings and craft the next tier of items.",
+    "tier": 4,
+    "tech_type": "Homestead",
+    "supplies_cost": 4500,
+    "research_time": 0,
+    "requirements": [
+      400,
+      729161904
+    ],
+    "input": [
+      {
+        "item_id": 2084675346,
+        "quantity": 2,
+        "item_type": "Item",
+        "durability": 0
+      },
+      {
+        "item_id": 2034284796,
+        "quantity": 2,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "members": 0,
+    "area": 0,
+    "supplies": 15000,
+    "xp_to_mint_hex_coin": 0,
+    "unlocks_techs": [
+      500,
+      43715291
+    ],
+    "cannot_be_researched": false,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": false
   },
   {
     "id": 85068090,
@@ -351,7 +396,10 @@
     "area": 0,
     "supplies": 0,
     "xp_to_mint_hex_coin": 0,
-    "unlocks_techs": []
+    "unlocks_techs": [],
+    "cannot_be_researched": true,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": true
   },
   {
     "id": 105271650,
@@ -377,7 +425,10 @@
     "area": 0,
     "supplies": 0,
     "xp_to_mint_hex_coin": 0,
-    "unlocks_techs": []
+    "unlocks_techs": [],
+    "cannot_be_researched": true,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": true
   },
   {
     "id": 114585002,
@@ -403,7 +454,10 @@
     "area": 0,
     "supplies": 0,
     "xp_to_mint_hex_coin": 0,
-    "unlocks_techs": []
+    "unlocks_techs": [],
+    "cannot_be_researched": true,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": true
   },
   {
     "id": 117622524,
@@ -429,7 +483,10 @@
     "area": 0,
     "supplies": 0,
     "xp_to_mint_hex_coin": 0,
-    "unlocks_techs": []
+    "unlocks_techs": [],
+    "cannot_be_researched": true,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": true
   },
   {
     "id": 126942728,
@@ -455,7 +512,48 @@
     "area": 0,
     "supplies": 0,
     "xp_to_mint_hex_coin": 0,
-    "unlocks_techs": []
+    "unlocks_techs": [],
+    "cannot_be_researched": true,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": true
+  },
+  {
+    "id": 151624167,
+    "name": "Tier 5 Homestead",
+    "description": "Upgrade your homestead, allowing you to build the next tier of buildings and craft the next tier of items.",
+    "tier": 5,
+    "tech_type": "Homestead",
+    "supplies_cost": 4500,
+    "research_time": 0,
+    "requirements": [
+      500,
+      83884649
+    ],
+    "input": [
+      {
+        "item_id": 2104173771,
+        "quantity": 5,
+        "item_type": "Item",
+        "durability": 0
+      },
+      {
+        "item_id": 1104523370,
+        "quantity": 5,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "members": 0,
+    "area": 0,
+    "supplies": 15000,
+    "xp_to_mint_hex_coin": 0,
+    "unlocks_techs": [
+      600,
+      443589242
+    ],
+    "cannot_be_researched": false,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": false
   },
   {
     "id": 172211984,
@@ -481,7 +579,10 @@
     "area": 0,
     "supplies": 0,
     "xp_to_mint_hex_coin": 0,
-    "unlocks_techs": []
+    "unlocks_techs": [],
+    "cannot_be_researched": true,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": true
   },
   {
     "id": 174863415,
@@ -507,7 +608,10 @@
     "area": 0,
     "supplies": 0,
     "xp_to_mint_hex_coin": 0,
-    "unlocks_techs": []
+    "unlocks_techs": [],
+    "cannot_be_researched": true,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": true
   },
   {
     "id": 183443207,
@@ -533,7 +637,10 @@
     "area": 0,
     "supplies": 0,
     "xp_to_mint_hex_coin": 0,
-    "unlocks_techs": []
+    "unlocks_techs": [],
+    "cannot_be_researched": true,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": true
   },
   {
     "id": 187931146,
@@ -548,11 +655,14 @@
       1912870048
     ],
     "input": [],
-    "members": 150,
+    "members": 0,
     "area": 0,
     "supplies": 0,
-    "xp_to_mint_hex_coin": 500,
-    "unlocks_techs": []
+    "xp_to_mint_hex_coin": 0,
+    "unlocks_techs": [],
+    "cannot_be_researched": true,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": true
   },
   {
     "id": 191761671,
@@ -578,7 +688,10 @@
     "area": 0,
     "supplies": 0,
     "xp_to_mint_hex_coin": 0,
-    "unlocks_techs": []
+    "unlocks_techs": [],
+    "cannot_be_researched": true,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": true
   },
   {
     "id": 194737210,
@@ -604,7 +717,10 @@
     "area": 0,
     "supplies": 0,
     "xp_to_mint_hex_coin": 0,
-    "unlocks_techs": []
+    "unlocks_techs": [],
+    "cannot_be_researched": true,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": true
   },
   {
     "id": 207644280,
@@ -630,12 +746,15 @@
     "area": 0,
     "supplies": 0,
     "xp_to_mint_hex_coin": 0,
-    "unlocks_techs": []
+    "unlocks_techs": [],
+    "cannot_be_researched": true,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": true
   },
   {
     "id": 225112729,
     "name": "Tier 5 Township",
-    "description": "This research allows your settlement to build all tier 5 workstations. This automatically researches all tier 5 profession researches.",
+    "description": "Upgrade your township, allowing you to craft and build the next tier of items and buildings.",
     "tier": 5,
     "tech_type": "Settlement",
     "supplies_cost": 9000,
@@ -646,30 +765,44 @@
     ],
     "input": [
       {
-        "item_id": 2036617800,
-        "quantity": 17,
+        "item_id": 2104173771,
+        "quantity": 25,
         "item_type": "Item",
         "durability": 0
       }
     ],
     "members": 0,
-    "area": 0,
+    "area": 6600,
+    "supplies": 160000,
+    "xp_to_mint_hex_coin": 0,
+    "unlocks_techs": [
+      600,
+      443589242
+    ],
+    "cannot_be_researched": false,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": false
+  },
+  {
+    "id": 254714033,
+    "name": "Starter Claim",
+    "description": "Unlocks the ability to tech down into either Homesteads or Townships.",
+    "tier": 2,
+    "tech_type": "StarterTech",
+    "supplies_cost": 10,
+    "research_time": 0,
+    "requirements": [],
+    "input": [],
+    "members": 1000,
+    "area": 1261,
     "supplies": 0,
     "xp_to_mint_hex_coin": 0,
     "unlocks_techs": [
-      548052562,
-      2084932646,
-      1319064719,
-      372566884,
-      1061639232,
-      1481570421,
-      1066484698,
-      1614535885,
-      335616392,
-      1937715639,
-      1703704413,
-      54596490
-    ]
+      300
+    ],
+    "cannot_be_researched": false,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": false
   },
   {
     "id": 259551211,
@@ -695,7 +828,10 @@
     "area": 0,
     "supplies": 0,
     "xp_to_mint_hex_coin": 0,
-    "unlocks_techs": []
+    "unlocks_techs": [],
+    "cannot_be_researched": true,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": true
   },
   {
     "id": 267834710,
@@ -721,12 +857,15 @@
     "area": 0,
     "supplies": 0,
     "xp_to_mint_hex_coin": 0,
-    "unlocks_techs": []
+    "unlocks_techs": [],
+    "cannot_be_researched": true,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": true
   },
   {
     "id": 315153795,
     "name": "Tier 7 Township",
-    "description": "This research allows your settlement to build all tier 7 workstations. This automatically researches all tier 7 profession researches.",
+    "description": "Upgrade your township, allowing you to craft and build the next tier of items and buildings.",
     "tier": 7,
     "tech_type": "Settlement",
     "supplies_cost": 13500,
@@ -737,30 +876,23 @@
     ],
     "input": [
       {
-        "item_id": 2080555135,
-        "quantity": 25,
+        "item_id": 1160169553,
+        "quantity": 90,
         "item_type": "Item",
         "durability": 0
       }
     ],
     "members": 0,
-    "area": 0,
-    "supplies": 0,
+    "area": 11000,
+    "supplies": 354000,
     "xp_to_mint_hex_coin": 0,
     "unlocks_techs": [
-      1690952159,
-      207644280,
-      761484652,
-      574203839,
-      117622524,
-      709585317,
-      1700553143,
-      815955652,
-      1108393180,
-      1756386262,
-      259551211,
-      1288145944
-    ]
+      800,
+      1510210914
+    ],
+    "cannot_be_researched": false,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": false
   },
   {
     "id": 335616392,
@@ -786,7 +918,10 @@
     "area": 0,
     "supplies": 0,
     "xp_to_mint_hex_coin": 0,
-    "unlocks_techs": []
+    "unlocks_techs": [],
+    "cannot_be_researched": true,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": true
   },
   {
     "id": 341023858,
@@ -812,7 +947,10 @@
     "area": 0,
     "supplies": 0,
     "xp_to_mint_hex_coin": 0,
-    "unlocks_techs": []
+    "unlocks_techs": [],
+    "cannot_be_researched": true,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": true
   },
   {
     "id": 371378688,
@@ -838,7 +976,10 @@
     "area": 0,
     "supplies": 0,
     "xp_to_mint_hex_coin": 0,
-    "unlocks_techs": []
+    "unlocks_techs": [],
+    "cannot_be_researched": true,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": true
   },
   {
     "id": 372566884,
@@ -864,7 +1005,48 @@
     "area": 0,
     "supplies": 0,
     "xp_to_mint_hex_coin": 0,
-    "unlocks_techs": []
+    "unlocks_techs": [],
+    "cannot_be_researched": true,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": true
+  },
+  {
+    "id": 442389180,
+    "name": "T10 Township or Homestead",
+    "description": "Tech that allows you to build and craft items and buildings of this tier.",
+    "tier": 10,
+    "tech_type": "Undefined",
+    "supplies_cost": 0,
+    "research_time": 0,
+    "requirements": [],
+    "input": [],
+    "members": 0,
+    "area": 0,
+    "supplies": 0,
+    "xp_to_mint_hex_coin": 0,
+    "unlocks_techs": [],
+    "cannot_be_researched": true,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": true
+  },
+  {
+    "id": 443589242,
+    "name": "T5 Township or Homestead",
+    "description": "Tech that allows you to build and craft items and buildings of this tier.",
+    "tier": 5,
+    "tech_type": "Undefined",
+    "supplies_cost": 0,
+    "research_time": 0,
+    "requirements": [],
+    "input": [],
+    "members": 0,
+    "area": 0,
+    "supplies": 0,
+    "xp_to_mint_hex_coin": 0,
+    "unlocks_techs": [],
+    "cannot_be_researched": true,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": true
   },
   {
     "id": 455850385,
@@ -890,11 +1072,14 @@
     "area": 0,
     "supplies": 0,
     "xp_to_mint_hex_coin": 0,
-    "unlocks_techs": []
+    "unlocks_techs": [],
+    "cannot_be_researched": true,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": true
   },
   {
     "id": 473237479,
-    "name": "Unlock up to 8000 tiles",
+    "name": "Unlock up to 8800 tiles",
     "description": "This research increases the maximum amount of tiles that your settlement can claim. Owning more tiles will increase the amount of supply drain of your claim.",
     "tier": 6,
     "tech_type": "ClaimArea",
@@ -906,14 +1091,17 @@
     ],
     "input": [],
     "members": 0,
-    "area": 8000,
+    "area": 8800,
     "supplies": 0,
-    "xp_to_mint_hex_coin": 500,
-    "unlocks_techs": []
+    "xp_to_mint_hex_coin": 0,
+    "unlocks_techs": [],
+    "cannot_be_researched": true,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": true
   },
   {
     "id": 477458683,
-    "name": "Unlock up to 3000 tiles",
+    "name": "Unlock up to 3300 tiles",
     "description": "This research increases the maximum amount of tiles that your settlement can claim. Owning more tiles will increase the amount of supply drain of your claim.",
     "tier": 3,
     "tech_type": "ClaimArea",
@@ -925,10 +1113,13 @@
     ],
     "input": [],
     "members": 0,
-    "area": 3000,
+    "area": 3300,
     "supplies": 0,
-    "xp_to_mint_hex_coin": 500,
-    "unlocks_techs": []
+    "xp_to_mint_hex_coin": 0,
+    "unlocks_techs": [],
+    "cannot_be_researched": true,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": true
   },
   {
     "id": 479987213,
@@ -953,7 +1144,10 @@
     "area": 0,
     "supplies": 0,
     "xp_to_mint_hex_coin": 0,
-    "unlocks_techs": []
+    "unlocks_techs": [],
+    "cannot_be_researched": true,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": true
   },
   {
     "id": 496392478,
@@ -979,7 +1173,10 @@
     "area": 0,
     "supplies": 0,
     "xp_to_mint_hex_coin": 0,
-    "unlocks_techs": []
+    "unlocks_techs": [],
+    "cannot_be_researched": true,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": true
   },
   {
     "id": 529434719,
@@ -1005,7 +1202,10 @@
     "area": 0,
     "supplies": 0,
     "xp_to_mint_hex_coin": 0,
-    "unlocks_techs": []
+    "unlocks_techs": [],
+    "cannot_be_researched": true,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": true
   },
   {
     "id": 548052562,
@@ -1031,7 +1231,10 @@
     "area": 0,
     "supplies": 0,
     "xp_to_mint_hex_coin": 0,
-    "unlocks_techs": []
+    "unlocks_techs": [],
+    "cannot_be_researched": true,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": true
   },
   {
     "id": 563374688,
@@ -1057,7 +1260,38 @@
     "area": 0,
     "supplies": 0,
     "xp_to_mint_hex_coin": 0,
-    "unlocks_techs": []
+    "unlocks_techs": [],
+    "cannot_be_researched": true,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": true
+  },
+  {
+    "id": 565217107,
+    "name": "Regional Bank",
+    "description": "Allows your township to build a regional bank. This bank connects to all other Regional Banks in the region, including the ones in Neutral Towns. Items in this building can only be accessed by the player who deposited them.",
+    "tier": 7,
+    "tech_type": "RegionalBank",
+    "supplies_cost": 10000,
+    "research_time": 0,
+    "requirements": [
+      315153795
+    ],
+    "input": [
+      {
+        "item_id": 1,
+        "quantity": 300000,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "members": 0,
+    "area": 0,
+    "supplies": 0,
+    "xp_to_mint_hex_coin": 0,
+    "unlocks_techs": [],
+    "cannot_be_researched": false,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": false
   },
   {
     "id": 571236380,
@@ -1072,11 +1306,14 @@
       905455362
     ],
     "input": [],
-    "members": 250,
+    "members": 0,
     "area": 0,
     "supplies": 0,
-    "xp_to_mint_hex_coin": 500,
-    "unlocks_techs": []
+    "xp_to_mint_hex_coin": 0,
+    "unlocks_techs": [],
+    "cannot_be_researched": true,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": true
   },
   {
     "id": 574203839,
@@ -1102,7 +1339,10 @@
     "area": 0,
     "supplies": 0,
     "xp_to_mint_hex_coin": 0,
-    "unlocks_techs": []
+    "unlocks_techs": [],
+    "cannot_be_researched": true,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": true
   },
   {
     "id": 585984297,
@@ -1128,7 +1368,10 @@
     "area": 0,
     "supplies": 0,
     "xp_to_mint_hex_coin": 0,
-    "unlocks_techs": []
+    "unlocks_techs": [],
+    "cannot_be_researched": true,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": true
   },
   {
     "id": 611825682,
@@ -1139,7 +1382,7 @@
     "supplies_cost": 2000,
     "research_time": 0,
     "requirements": [
-      1300921803
+      1272742983
     ],
     "input": [
       {
@@ -1153,7 +1396,10 @@
     "area": 0,
     "supplies": 0,
     "xp_to_mint_hex_coin": 0,
-    "unlocks_techs": []
+    "unlocks_techs": [],
+    "cannot_be_researched": false,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": false
   },
   {
     "id": 649819263,
@@ -1170,9 +1416,12 @@
     "input": [],
     "members": 0,
     "area": 0,
-    "supplies": 310000,
-    "xp_to_mint_hex_coin": 500,
-    "unlocks_techs": []
+    "supplies": 0,
+    "xp_to_mint_hex_coin": 0,
+    "unlocks_techs": [],
+    "cannot_be_researched": true,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": true
   },
   {
     "id": 664226236,
@@ -1198,7 +1447,10 @@
     "area": 0,
     "supplies": 0,
     "xp_to_mint_hex_coin": 0,
-    "unlocks_techs": []
+    "unlocks_techs": [],
+    "cannot_be_researched": true,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": true
   },
   {
     "id": 680761036,
@@ -1224,7 +1476,10 @@
     "area": 0,
     "supplies": 0,
     "xp_to_mint_hex_coin": 0,
-    "unlocks_techs": []
+    "unlocks_techs": [],
+    "cannot_be_researched": true,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": true
   },
   {
     "id": 688169271,
@@ -1241,9 +1496,12 @@
     "input": [],
     "members": 0,
     "area": 0,
-    "supplies": 85000,
-    "xp_to_mint_hex_coin": 500,
-    "unlocks_techs": []
+    "supplies": 0,
+    "xp_to_mint_hex_coin": 0,
+    "unlocks_techs": [],
+    "cannot_be_researched": true,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": true
   },
   {
     "id": 709585317,
@@ -1269,11 +1527,14 @@
     "area": 0,
     "supplies": 0,
     "xp_to_mint_hex_coin": 0,
-    "unlocks_techs": []
+    "unlocks_techs": [],
+    "cannot_be_researched": true,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": true
   },
   {
     "id": 728778297,
-    "name": "Unlock up to 10000 tiles",
+    "name": "Unlock up to 11000 tiles",
     "description": "This research increases the maximum amount of tiles that your settlement can claim. Owning more tiles will increase the amount of supply drain of your claim.",
     "tier": 7,
     "tech_type": "ClaimArea",
@@ -1285,10 +1546,52 @@
     ],
     "input": [],
     "members": 0,
-    "area": 10000,
+    "area": 11000,
     "supplies": 0,
-    "xp_to_mint_hex_coin": 500,
-    "unlocks_techs": []
+    "xp_to_mint_hex_coin": 0,
+    "unlocks_techs": [],
+    "cannot_be_researched": true,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": true
+  },
+  {
+    "id": 729161904,
+    "name": "Tier 3 Homestead",
+    "description": "Upgrade your settlement to a Homestead. Homesteads are cheaper to upgrade than Townships, however they cannot expand their claim and they cannot build certain structures. Additionally, they require items from Settlements to upgrade. Ideal for solo or small groups of players. Once you upgrade to a Homestead, you can no longer research Township research.",
+    "tier": 3,
+    "tech_type": "Homestead",
+    "supplies_cost": 4500,
+    "research_time": 0,
+    "requirements": [
+      300
+    ],
+    "input": [
+      {
+        "item_id": 1391796353,
+        "quantity": 1,
+        "item_type": "Item",
+        "durability": 0
+      },
+      {
+        "item_id": 1221734352,
+        "quantity": 1,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "members": 0,
+    "area": 0,
+    "supplies": 15000,
+    "xp_to_mint_hex_coin": 0,
+    "unlocks_techs": [
+      400,
+      1623246356
+    ],
+    "cannot_be_researched": false,
+    "blocking_claim_techs": [
+      1300921803
+    ],
+    "not_shown_in_ui": false
   },
   {
     "id": 729944190,
@@ -1313,7 +1616,10 @@
     "area": 0,
     "supplies": 0,
     "xp_to_mint_hex_coin": 0,
-    "unlocks_techs": []
+    "unlocks_techs": [],
+    "cannot_be_researched": true,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": true
   },
   {
     "id": 731572772,
@@ -1338,7 +1644,10 @@
     "area": 0,
     "supplies": 0,
     "xp_to_mint_hex_coin": 0,
-    "unlocks_techs": []
+    "unlocks_techs": [],
+    "cannot_be_researched": true,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": true
   },
   {
     "id": 733358069,
@@ -1355,9 +1664,12 @@
     "input": [],
     "members": 0,
     "area": 0,
-    "supplies": 115000,
-    "xp_to_mint_hex_coin": 500,
-    "unlocks_techs": []
+    "supplies": 0,
+    "xp_to_mint_hex_coin": 0,
+    "unlocks_techs": [],
+    "cannot_be_researched": true,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": true
   },
   {
     "id": 736567281,
@@ -1372,16 +1684,19 @@
       187931146
     ],
     "input": [],
-    "members": 175,
+    "members": 0,
     "area": 0,
     "supplies": 0,
-    "xp_to_mint_hex_coin": 500,
-    "unlocks_techs": []
+    "xp_to_mint_hex_coin": 0,
+    "unlocks_techs": [],
+    "cannot_be_researched": true,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": true
   },
   {
     "id": 748616905,
-    "name": "Town Bank",
-    "description": "Allows your settlement to build a bank. The bank can be used as personal storage by anyone who visits your claim. Goods stored in the bank can only be retrieved by the player that puts them there.",
+    "name": "Settlement Stash",
+    "description": "Allows your settlement to build a stash. The stash can be used as personal storage by anyone who visits your claim. Goods stored in the stash can only be retrieved by the player that puts them there.",
     "tier": 2,
     "tech_type": "TownBank",
     "supplies_cost": 500,
@@ -1401,7 +1716,10 @@
     "area": 0,
     "supplies": 0,
     "xp_to_mint_hex_coin": 0,
-    "unlocks_techs": []
+    "unlocks_techs": [],
+    "cannot_be_researched": false,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": false
   },
   {
     "id": 752846511,
@@ -1427,12 +1745,15 @@
     "area": 0,
     "supplies": 0,
     "xp_to_mint_hex_coin": 0,
-    "unlocks_techs": []
+    "unlocks_techs": [],
+    "cannot_be_researched": true,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": true
   },
   {
     "id": 760073735,
     "name": "Tier 9 Township",
-    "description": "This research allows your settlement to build all tier 9 workstations. This automatically researches all tier 9 profession researches.",
+    "description": "Upgrade your township, allowing you to craft and build the next tier of items and buildings.",
     "tier": 9,
     "tech_type": "Settlement",
     "supplies_cost": 18000,
@@ -1443,30 +1764,23 @@
     ],
     "input": [
       {
-        "item_id": 905786066,
-        "quantity": 33,
+        "item_id": 1645009798,
+        "quantity": 220,
         "item_type": "Item",
         "durability": 0
       }
     ],
     "members": 0,
-    "area": 0,
-    "supplies": 0,
+    "area": 17600,
+    "supplies": 777000,
     "xp_to_mint_hex_coin": 0,
     "unlocks_techs": [
-      783680290,
-      183443207,
-      1486853759,
-      1831603547,
-      455850385,
-      1366372118,
-      1400121492,
-      680761036,
-      1494255786,
-      939572734,
-      496392478,
-      267834710
-    ]
+      1000,
+      1976017717
+    ],
+    "cannot_be_researched": false,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": false
   },
   {
     "id": 761484652,
@@ -1492,7 +1806,10 @@
     "area": 0,
     "supplies": 0,
     "xp_to_mint_hex_coin": 0,
-    "unlocks_techs": []
+    "unlocks_techs": [],
+    "cannot_be_researched": true,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": true
   },
   {
     "id": 771728405,
@@ -1517,7 +1834,10 @@
     "area": 0,
     "supplies": 0,
     "xp_to_mint_hex_coin": 0,
-    "unlocks_techs": []
+    "unlocks_techs": [],
+    "cannot_be_researched": true,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": true
   },
   {
     "id": 782857121,
@@ -1543,7 +1863,10 @@
     "area": 0,
     "supplies": 0,
     "xp_to_mint_hex_coin": 0,
-    "unlocks_techs": []
+    "unlocks_techs": [],
+    "cannot_be_researched": true,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": true
   },
   {
     "id": 783680290,
@@ -1569,7 +1892,10 @@
     "area": 0,
     "supplies": 0,
     "xp_to_mint_hex_coin": 0,
-    "unlocks_techs": []
+    "unlocks_techs": [],
+    "cannot_be_researched": true,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": true
   },
   {
     "id": 786995235,
@@ -1594,7 +1920,10 @@
     "area": 0,
     "supplies": 0,
     "xp_to_mint_hex_coin": 0,
-    "unlocks_techs": []
+    "unlocks_techs": [],
+    "cannot_be_researched": true,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": true
   },
   {
     "id": 815955652,
@@ -1620,7 +1949,10 @@
     "area": 0,
     "supplies": 0,
     "xp_to_mint_hex_coin": 0,
-    "unlocks_techs": []
+    "unlocks_techs": [],
+    "cannot_be_researched": true,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": true
   },
   {
     "id": 830936030,
@@ -1635,11 +1967,14 @@
       571236380
     ],
     "input": [],
-    "members": 275,
+    "members": 0,
     "area": 0,
     "supplies": 0,
-    "xp_to_mint_hex_coin": 500,
-    "unlocks_techs": []
+    "xp_to_mint_hex_coin": 0,
+    "unlocks_techs": [],
+    "cannot_be_researched": true,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": true
   },
   {
     "id": 834181377,
@@ -1664,7 +1999,10 @@
     "area": 0,
     "supplies": 0,
     "xp_to_mint_hex_coin": 0,
-    "unlocks_techs": []
+    "unlocks_techs": [],
+    "cannot_be_researched": false,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": false
   },
   {
     "id": 861848649,
@@ -1690,7 +2028,10 @@
     "area": 0,
     "supplies": 0,
     "xp_to_mint_hex_coin": 0,
-    "unlocks_techs": []
+    "unlocks_techs": [],
+    "cannot_be_researched": true,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": true
   },
   {
     "id": 872951839,
@@ -1715,7 +2056,10 @@
     "area": 0,
     "supplies": 0,
     "xp_to_mint_hex_coin": 0,
-    "unlocks_techs": []
+    "unlocks_techs": [],
+    "cannot_be_researched": true,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": true
   },
   {
     "id": 882510759,
@@ -1741,7 +2085,10 @@
     "area": 0,
     "supplies": 0,
     "xp_to_mint_hex_coin": 0,
-    "unlocks_techs": []
+    "unlocks_techs": [],
+    "cannot_be_researched": true,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": true
   },
   {
     "id": 897662728,
@@ -1767,7 +2114,10 @@
     "area": 0,
     "supplies": 0,
     "xp_to_mint_hex_coin": 0,
-    "unlocks_techs": []
+    "unlocks_techs": [],
+    "cannot_be_researched": true,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": true
   },
   {
     "id": 905455362,
@@ -1782,11 +2132,14 @@
       1728735124
     ],
     "input": [],
-    "members": 225,
+    "members": 0,
     "area": 0,
     "supplies": 0,
-    "xp_to_mint_hex_coin": 500,
-    "unlocks_techs": []
+    "xp_to_mint_hex_coin": 0,
+    "unlocks_techs": [],
+    "cannot_be_researched": true,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": true
   },
   {
     "id": 906602291,
@@ -1803,9 +2156,12 @@
     "input": [],
     "members": 0,
     "area": 0,
-    "supplies": 150000,
-    "xp_to_mint_hex_coin": 500,
-    "unlocks_techs": []
+    "supplies": 0,
+    "xp_to_mint_hex_coin": 0,
+    "unlocks_techs": [],
+    "cannot_be_researched": true,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": true
   },
   {
     "id": 939572734,
@@ -1831,7 +2187,10 @@
     "area": 0,
     "supplies": 0,
     "xp_to_mint_hex_coin": 0,
-    "unlocks_techs": []
+    "unlocks_techs": [],
+    "cannot_be_researched": true,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": true
   },
   {
     "id": 953606644,
@@ -1857,11 +2216,14 @@
     "area": 0,
     "supplies": 0,
     "xp_to_mint_hex_coin": 0,
-    "unlocks_techs": []
+    "unlocks_techs": [],
+    "cannot_be_researched": true,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": true
   },
   {
     "id": 956489539,
-    "name": "Unlock up to 6000 tiles",
+    "name": "Unlock up to 6600 tiles",
     "description": "This research increases the maximum amount of tiles that your settlement can claim. Owning more tiles will increase the amount of supply drain of your claim.",
     "tier": 5,
     "tech_type": "ClaimArea",
@@ -1873,10 +2235,13 @@
     ],
     "input": [],
     "members": 0,
-    "area": 6000,
+    "area": 6600,
     "supplies": 0,
-    "xp_to_mint_hex_coin": 500,
-    "unlocks_techs": []
+    "xp_to_mint_hex_coin": 0,
+    "unlocks_techs": [],
+    "cannot_be_researched": true,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": true
   },
   {
     "id": 997551788,
@@ -1901,7 +2266,38 @@
     "area": 0,
     "supplies": 0,
     "xp_to_mint_hex_coin": 0,
-    "unlocks_techs": []
+    "unlocks_techs": [],
+    "cannot_be_researched": true,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": true
+  },
+  {
+    "id": 1007749528,
+    "name": "Departure Waystone",
+    "description": "Allows your settlement to construct a waystone that can be used to teleport to destination waystones. Players cannot teleport to this waystone.",
+    "tier": 3,
+    "tech_type": "OneWayWaystones",
+    "supplies_cost": 2000,
+    "research_time": 0,
+    "requirements": [
+      300
+    ],
+    "input": [
+      {
+        "item_id": 1,
+        "quantity": 2000,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "members": 0,
+    "area": 0,
+    "supplies": 0,
+    "xp_to_mint_hex_coin": 0,
+    "unlocks_techs": [],
+    "cannot_be_researched": false,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": false
   },
   {
     "id": 1061639232,
@@ -1927,7 +2323,10 @@
     "area": 0,
     "supplies": 0,
     "xp_to_mint_hex_coin": 0,
-    "unlocks_techs": []
+    "unlocks_techs": [],
+    "cannot_be_researched": true,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": true
   },
   {
     "id": 1066484698,
@@ -1953,12 +2352,15 @@
     "area": 0,
     "supplies": 0,
     "xp_to_mint_hex_coin": 0,
-    "unlocks_techs": []
+    "unlocks_techs": [],
+    "cannot_be_researched": true,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": true
   },
   {
     "id": 1091470477,
     "name": "Tier 10 Township",
-    "description": "This research allows your settlement to build all tier 10 workstations. This automatically researches all tier 10 profession researches.",
+    "description": "Upgrade your township, allowing you to craft and build the next tier of items and buildings.",
     "tier": 10,
     "tech_type": "Settlement",
     "supplies_cost": 20250,
@@ -1969,30 +2371,23 @@
     ],
     "input": [
       {
-        "item_id": 1598535119,
-        "quantity": 36,
+        "item_id": 1718024780,
+        "quantity": 330,
         "item_type": "Item",
         "durability": 0
       }
     ],
     "members": 0,
-    "area": 0,
-    "supplies": 0,
+    "area": 22000,
+    "supplies": 1110000,
     "xp_to_mint_hex_coin": 0,
     "unlocks_techs": [
-      1744085452,
-      1801548642,
-      105271650,
-      1580338100,
-      191761671,
-      861848649,
-      174863415,
-      85068090,
-      1501709234,
-      1683461594,
-      1587676416,
-      1657586929
-    ]
+      1000,
+      442389180
+    ],
+    "cannot_be_researched": false,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": false
   },
   {
     "id": 1108393180,
@@ -2018,7 +2413,10 @@
     "area": 0,
     "supplies": 0,
     "xp_to_mint_hex_coin": 0,
-    "unlocks_techs": []
+    "unlocks_techs": [],
+    "cannot_be_researched": true,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": true
   },
   {
     "id": 1147119773,
@@ -2043,7 +2441,10 @@
     "area": 0,
     "supplies": 0,
     "xp_to_mint_hex_coin": 0,
-    "unlocks_techs": []
+    "unlocks_techs": [],
+    "cannot_be_researched": true,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": true
   },
   {
     "id": 1157053499,
@@ -2060,9 +2461,12 @@
     "input": [],
     "members": 0,
     "area": 0,
-    "supplies": 50000,
-    "xp_to_mint_hex_coin": 500,
-    "unlocks_techs": []
+    "supplies": 0,
+    "xp_to_mint_hex_coin": 0,
+    "unlocks_techs": [],
+    "cannot_be_researched": true,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": true
   },
   {
     "id": 1161565644,
@@ -2077,10 +2481,13 @@
     ],
     "input": [],
     "members": 0,
-    "area": 2000,
+    "area": 0,
     "supplies": 0,
-    "xp_to_mint_hex_coin": 500,
-    "unlocks_techs": []
+    "xp_to_mint_hex_coin": 0,
+    "unlocks_techs": [],
+    "cannot_be_researched": true,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": true
   },
   {
     "id": 1173861814,
@@ -2106,7 +2513,10 @@
     "area": 0,
     "supplies": 0,
     "xp_to_mint_hex_coin": 0,
-    "unlocks_techs": []
+    "unlocks_techs": [],
+    "cannot_be_researched": true,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": true
   },
   {
     "id": 1181086844,
@@ -2131,7 +2541,10 @@
     "area": 0,
     "supplies": 0,
     "xp_to_mint_hex_coin": 0,
-    "unlocks_techs": []
+    "unlocks_techs": [],
+    "cannot_be_researched": true,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": true
   },
   {
     "id": 1193371042,
@@ -2157,7 +2570,10 @@
     "area": 0,
     "supplies": 0,
     "xp_to_mint_hex_coin": 0,
-    "unlocks_techs": []
+    "unlocks_techs": [],
+    "cannot_be_researched": true,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": true
   },
   {
     "id": 1206083197,
@@ -2174,14 +2590,17 @@
     "input": [],
     "members": 0,
     "area": 0,
-    "supplies": 220000,
-    "xp_to_mint_hex_coin": 500,
-    "unlocks_techs": []
+    "supplies": 0,
+    "xp_to_mint_hex_coin": 0,
+    "unlocks_techs": [],
+    "cannot_be_researched": true,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": true
   },
   {
     "id": 1272742983,
     "name": "Tier 4 Township",
-    "description": "This research allows your settlement to build all tier 4 workstations. This automatically researches all tier 4 profession researches.",
+    "description": "Upgrade your township, allowing you to craft and build the next tier of items and buildings.",
     "tier": 4,
     "tech_type": "Settlement",
     "supplies_cost": 6750,
@@ -2192,30 +2611,23 @@
     ],
     "input": [
       {
-        "item_id": 1387450581,
-        "quantity": 12,
+        "item_id": 2084675346,
+        "quantity": 10,
         "item_type": "Item",
         "durability": 0
       }
     ],
     "members": 0,
-    "area": 0,
-    "supplies": 0,
+    "area": 4400,
+    "supplies": 86000,
     "xp_to_mint_hex_coin": 0,
     "unlocks_techs": [
-      2080834544,
-      126942728,
-      563374688,
-      371378688,
-      194737210,
-      1477042807,
-      782857121,
-      1173861814,
-      882510759,
-      2040178117,
-      1654551007,
-      1720559325
-    ]
+      500,
+      43715291
+    ],
+    "cannot_be_researched": false,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": false
   },
   {
     "id": 1273121576,
@@ -2232,9 +2644,12 @@
     "input": [],
     "members": 0,
     "area": 0,
-    "supplies": 180000,
-    "xp_to_mint_hex_coin": 500,
-    "unlocks_techs": []
+    "supplies": 0,
+    "xp_to_mint_hex_coin": 0,
+    "unlocks_techs": [],
+    "cannot_be_researched": true,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": true
   },
   {
     "id": 1284511578,
@@ -2260,7 +2675,10 @@
     "area": 0,
     "supplies": 0,
     "xp_to_mint_hex_coin": 0,
-    "unlocks_techs": []
+    "unlocks_techs": [],
+    "cannot_be_researched": true,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": true
   },
   {
     "id": 1288145944,
@@ -2286,12 +2704,15 @@
     "area": 0,
     "supplies": 0,
     "xp_to_mint_hex_coin": 0,
-    "unlocks_techs": []
+    "unlocks_techs": [],
+    "cannot_be_researched": true,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": true
   },
   {
     "id": 1300921803,
     "name": "Tier 3 Township",
-    "description": "This research allows your settlement to build all tier 3 workstations. This automatically researches all tier 3 profession researches.",
+    "description": "Upgrade your settlement to a Township, allowing you to construct the next tier of buildings and crafts. Townships are more expensive than Homesteads, however they can build structures that homesteads can't and they can be expanded to control more land. Ideal for medium to large groups. Once you upgrade to a Township, you can no longer research Homestead tech.",
     "tier": 3,
     "tech_type": "Settlement",
     "supplies_cost": 4500,
@@ -2301,30 +2722,25 @@
     ],
     "input": [
       {
-        "item_id": 1249122434,
-        "quantity": 9,
+        "item_id": 1391796353,
+        "quantity": 5,
         "item_type": "Item",
         "durability": 0
       }
     ],
     "members": 0,
-    "area": 0,
-    "supplies": 0,
-    "xp_to_mint_hex_coin": 0,
+    "area": 3300,
+    "supplies": 54000,
+    "xp_to_mint_hex_coin": 400,
     "unlocks_techs": [
-      479987213,
-      1926459936,
-      1181086844,
-      786995235,
-      1147119773,
-      997551788,
-      2044590963,
-      872951839,
-      771728405,
-      2034458333,
-      731572772,
-      729944190
-    ]
+      400,
+      1623246356
+    ],
+    "cannot_be_researched": false,
+    "blocking_claim_techs": [
+      729161904
+    ],
+    "not_shown_in_ui": false
   },
   {
     "id": 1319064719,
@@ -2350,11 +2766,14 @@
     "area": 0,
     "supplies": 0,
     "xp_to_mint_hex_coin": 0,
-    "unlocks_techs": []
+    "unlocks_techs": [],
+    "cannot_be_researched": true,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": true
   },
   {
     "id": 1337780142,
-    "name": "Unlock up to 16000 tiles",
+    "name": "Unlock up to 17600 tiles",
     "description": "This research increases the maximum amount of tiles that your settlement can claim. Owning more tiles will increase the amount of supply drain of your claim.",
     "tier": 9,
     "tech_type": "ClaimArea",
@@ -2366,10 +2785,51 @@
     ],
     "input": [],
     "members": 0,
-    "area": 16000,
+    "area": 17600,
     "supplies": 0,
-    "xp_to_mint_hex_coin": 500,
-    "unlocks_techs": []
+    "xp_to_mint_hex_coin": 0,
+    "unlocks_techs": [],
+    "cannot_be_researched": true,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": true
+  },
+  {
+    "id": 1343639996,
+    "name": "Tier 7 Homestead",
+    "description": "Upgrade your homestead, allowing you to build the next tier of buildings and craft the next tier of items.",
+    "tier": 7,
+    "tech_type": "Homestead",
+    "supplies_cost": 4500,
+    "research_time": 0,
+    "requirements": [
+      700,
+      1629073666
+    ],
+    "input": [
+      {
+        "item_id": 1160169553,
+        "quantity": 18,
+        "item_type": "Item",
+        "durability": 0
+      },
+      {
+        "item_id": 868194855,
+        "quantity": 18,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "members": 0,
+    "area": 0,
+    "supplies": 15000,
+    "xp_to_mint_hex_coin": 0,
+    "unlocks_techs": [
+      800,
+      1510210914
+    ],
+    "cannot_be_researched": false,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": false
   },
   {
     "id": 1366372118,
@@ -2395,7 +2855,10 @@
     "area": 0,
     "supplies": 0,
     "xp_to_mint_hex_coin": 0,
-    "unlocks_techs": []
+    "unlocks_techs": [],
+    "cannot_be_researched": true,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": true
   },
   {
     "id": 1388047099,
@@ -2421,7 +2884,10 @@
     "area": 0,
     "supplies": 0,
     "xp_to_mint_hex_coin": 0,
-    "unlocks_techs": []
+    "unlocks_techs": [],
+    "cannot_be_researched": true,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": true
   },
   {
     "id": 1400121492,
@@ -2447,12 +2913,15 @@
     "area": 0,
     "supplies": 0,
     "xp_to_mint_hex_coin": 0,
-    "unlocks_techs": []
+    "unlocks_techs": [],
+    "cannot_be_researched": true,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": true
   },
   {
     "id": 1425977115,
     "name": "Tier 6 Township",
-    "description": "This research allows your settlement to build all tier 6 workstations. This automatically researches all tier 6 profession researches.",
+    "description": "Upgrade your township, allowing you to craft and build the next tier of items and buildings.",
     "tier": 6,
     "tech_type": "Settlement",
     "supplies_cost": 11250,
@@ -2463,30 +2932,23 @@
     ],
     "input": [
       {
-        "item_id": 383751483,
-        "quantity": 20,
+        "item_id": 1837081278,
+        "quantity": 50,
         "item_type": "Item",
         "durability": 0
       }
     ],
     "members": 0,
-    "area": 0,
-    "supplies": 0,
+    "area": 8800,
+    "supplies": 248000,
     "xp_to_mint_hex_coin": 0,
     "unlocks_techs": [
-      1284511578,
-      529434719,
-      752846511,
-      172211984,
-      61398979,
-      72825831,
-      897662728,
-      1941744545,
-      1798795868,
-      1917169512,
-      1876781519,
-      341023858
-    ]
+      700,
+      1461951487
+    ],
+    "cannot_be_researched": false,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": false
   },
   {
     "id": 1426269264,
@@ -2501,11 +2963,14 @@
       2136582402
     ],
     "input": [],
-    "members": 100,
+    "members": 0,
     "area": 0,
     "supplies": 0,
-    "xp_to_mint_hex_coin": 500,
-    "unlocks_techs": []
+    "xp_to_mint_hex_coin": 0,
+    "unlocks_techs": [],
+    "cannot_be_researched": true,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": true
   },
   {
     "id": 1438268605,
@@ -2531,7 +2996,29 @@
     "area": 0,
     "supplies": 0,
     "xp_to_mint_hex_coin": 0,
-    "unlocks_techs": []
+    "unlocks_techs": [],
+    "cannot_be_researched": true,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": true
+  },
+  {
+    "id": 1461951487,
+    "name": "T6 Township or Homestead",
+    "description": "Tech that allows you to build and craft items and buildings of this tier.",
+    "tier": 6,
+    "tech_type": "Undefined",
+    "supplies_cost": 0,
+    "research_time": 0,
+    "requirements": [],
+    "input": [],
+    "members": 0,
+    "area": 0,
+    "supplies": 0,
+    "xp_to_mint_hex_coin": 0,
+    "unlocks_techs": [],
+    "cannot_be_researched": true,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": true
   },
   {
     "id": 1477042807,
@@ -2557,7 +3044,10 @@
     "area": 0,
     "supplies": 0,
     "xp_to_mint_hex_coin": 0,
-    "unlocks_techs": []
+    "unlocks_techs": [],
+    "cannot_be_researched": true,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": true
   },
   {
     "id": 1481570421,
@@ -2583,7 +3073,10 @@
     "area": 0,
     "supplies": 0,
     "xp_to_mint_hex_coin": 0,
-    "unlocks_techs": []
+    "unlocks_techs": [],
+    "cannot_be_researched": true,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": true
   },
   {
     "id": 1486853759,
@@ -2609,7 +3102,10 @@
     "area": 0,
     "supplies": 0,
     "xp_to_mint_hex_coin": 0,
-    "unlocks_techs": []
+    "unlocks_techs": [],
+    "cannot_be_researched": true,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": true
   },
   {
     "id": 1494255786,
@@ -2635,7 +3131,10 @@
     "area": 0,
     "supplies": 0,
     "xp_to_mint_hex_coin": 0,
-    "unlocks_techs": []
+    "unlocks_techs": [],
+    "cannot_be_researched": true,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": true
   },
   {
     "id": 1501709234,
@@ -2661,7 +3160,29 @@
     "area": 0,
     "supplies": 0,
     "xp_to_mint_hex_coin": 0,
-    "unlocks_techs": []
+    "unlocks_techs": [],
+    "cannot_be_researched": true,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": true
+  },
+  {
+    "id": 1510210914,
+    "name": "T7 Township or Homestead",
+    "description": "Tech that allows you to build and craft items and buildings of this tier.",
+    "tier": 7,
+    "tech_type": "Undefined",
+    "supplies_cost": 0,
+    "research_time": 0,
+    "requirements": [],
+    "input": [],
+    "members": 0,
+    "area": 0,
+    "supplies": 0,
+    "xp_to_mint_hex_coin": 0,
+    "unlocks_techs": [],
+    "cannot_be_researched": true,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": true
   },
   {
     "id": 1567647942,
@@ -2678,9 +3199,12 @@
     "input": [],
     "members": 0,
     "area": 0,
-    "supplies": 260000,
-    "xp_to_mint_hex_coin": 500,
-    "unlocks_techs": []
+    "supplies": 0,
+    "xp_to_mint_hex_coin": 0,
+    "unlocks_techs": [],
+    "cannot_be_researched": true,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": true
   },
   {
     "id": 1580338100,
@@ -2706,7 +3230,10 @@
     "area": 0,
     "supplies": 0,
     "xp_to_mint_hex_coin": 0,
-    "unlocks_techs": []
+    "unlocks_techs": [],
+    "cannot_be_researched": true,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": true
   },
   {
     "id": 1587676416,
@@ -2732,7 +3259,10 @@
     "area": 0,
     "supplies": 0,
     "xp_to_mint_hex_coin": 0,
-    "unlocks_techs": []
+    "unlocks_techs": [],
+    "cannot_be_researched": true,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": true
   },
   {
     "id": 1614535885,
@@ -2758,11 +3288,14 @@
     "area": 0,
     "supplies": 0,
     "xp_to_mint_hex_coin": 0,
-    "unlocks_techs": []
+    "unlocks_techs": [],
+    "cannot_be_researched": true,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": true
   },
   {
     "id": 1617681454,
-    "name": "Unlock up to 13000 tiles",
+    "name": "Unlock up to 14300 tiles",
     "description": "This research increases the maximum amount of tiles that your settlement can claim. Owning more tiles will increase the amount of supply drain of your claim.",
     "tier": 8,
     "tech_type": "ClaimArea",
@@ -2774,10 +3307,70 @@
     ],
     "input": [],
     "members": 0,
-    "area": 13000,
+    "area": 14300,
     "supplies": 0,
-    "xp_to_mint_hex_coin": 500,
-    "unlocks_techs": []
+    "xp_to_mint_hex_coin": 0,
+    "unlocks_techs": [],
+    "cannot_be_researched": true,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": true
+  },
+  {
+    "id": 1623246356,
+    "name": "T3 Township or Homestead",
+    "description": "Tech that allows you to build and craft items and buildings of this tier.",
+    "tier": 3,
+    "tech_type": "Undefined",
+    "supplies_cost": 0,
+    "research_time": 0,
+    "requirements": [],
+    "input": [],
+    "members": 0,
+    "area": 0,
+    "supplies": 0,
+    "xp_to_mint_hex_coin": 0,
+    "unlocks_techs": [],
+    "cannot_be_researched": true,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": true
+  },
+  {
+    "id": 1629073666,
+    "name": "Tier 6 Homestead",
+    "description": "Upgrade your homestead, allowing you to build the next tier of buildings and craft the next tier of items.",
+    "tier": 6,
+    "tech_type": "Homestead",
+    "supplies_cost": 4500,
+    "research_time": 0,
+    "requirements": [
+      600,
+      151624167
+    ],
+    "input": [
+      {
+        "item_id": 1837081278,
+        "quantity": 10,
+        "item_type": "Item",
+        "durability": 0
+      },
+      {
+        "item_id": 224264747,
+        "quantity": 10,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "members": 0,
+    "area": 0,
+    "supplies": 15000,
+    "xp_to_mint_hex_coin": 0,
+    "unlocks_techs": [
+      700,
+      1461951487
+    ],
+    "cannot_be_researched": false,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": false
   },
   {
     "id": 1654551007,
@@ -2803,7 +3396,10 @@
     "area": 0,
     "supplies": 0,
     "xp_to_mint_hex_coin": 0,
-    "unlocks_techs": []
+    "unlocks_techs": [],
+    "cannot_be_researched": true,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": true
   },
   {
     "id": 1657586929,
@@ -2829,7 +3425,10 @@
     "area": 0,
     "supplies": 0,
     "xp_to_mint_hex_coin": 0,
-    "unlocks_techs": []
+    "unlocks_techs": [],
+    "cannot_be_researched": true,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": true
   },
   {
     "id": 1683461594,
@@ -2855,7 +3454,10 @@
     "area": 0,
     "supplies": 0,
     "xp_to_mint_hex_coin": 0,
-    "unlocks_techs": []
+    "unlocks_techs": [],
+    "cannot_be_researched": true,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": true
   },
   {
     "id": 1690952159,
@@ -2881,7 +3483,10 @@
     "area": 0,
     "supplies": 0,
     "xp_to_mint_hex_coin": 0,
-    "unlocks_techs": []
+    "unlocks_techs": [],
+    "cannot_be_researched": true,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": true
   },
   {
     "id": 1700553143,
@@ -2907,7 +3512,10 @@
     "area": 0,
     "supplies": 0,
     "xp_to_mint_hex_coin": 0,
-    "unlocks_techs": []
+    "unlocks_techs": [],
+    "cannot_be_researched": true,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": true
   },
   {
     "id": 1703704413,
@@ -2933,7 +3541,10 @@
     "area": 0,
     "supplies": 0,
     "xp_to_mint_hex_coin": 0,
-    "unlocks_techs": []
+    "unlocks_techs": [],
+    "cannot_be_researched": true,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": true
   },
   {
     "id": 1720559325,
@@ -2959,7 +3570,10 @@
     "area": 0,
     "supplies": 0,
     "xp_to_mint_hex_coin": 0,
-    "unlocks_techs": []
+    "unlocks_techs": [],
+    "cannot_be_researched": true,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": true
   },
   {
     "id": 1728735124,
@@ -2974,11 +3588,14 @@
       736567281
     ],
     "input": [],
-    "members": 200,
+    "members": 0,
     "area": 0,
     "supplies": 0,
-    "xp_to_mint_hex_coin": 500,
-    "unlocks_techs": []
+    "xp_to_mint_hex_coin": 0,
+    "unlocks_techs": [],
+    "cannot_be_researched": true,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": true
   },
   {
     "id": 1744085452,
@@ -3004,7 +3621,10 @@
     "area": 0,
     "supplies": 0,
     "xp_to_mint_hex_coin": 0,
-    "unlocks_techs": []
+    "unlocks_techs": [],
+    "cannot_be_researched": true,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": true
   },
   {
     "id": 1756386262,
@@ -3030,7 +3650,96 @@
     "area": 0,
     "supplies": 0,
     "xp_to_mint_hex_coin": 0,
-    "unlocks_techs": []
+    "unlocks_techs": [],
+    "cannot_be_researched": true,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": true
+  },
+  {
+    "id": 1756599942,
+    "name": "T8 Township or Homestead",
+    "description": "Tech that allows you to build and craft items and buildings of this tier.",
+    "tier": 8,
+    "tech_type": "Undefined",
+    "supplies_cost": 0,
+    "research_time": 0,
+    "requirements": [],
+    "input": [],
+    "members": 0,
+    "area": 0,
+    "supplies": 0,
+    "xp_to_mint_hex_coin": 0,
+    "unlocks_techs": [],
+    "cannot_be_researched": true,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": true
+  },
+  {
+    "id": 1773594862,
+    "name": "Tier 8 Homestead",
+    "description": "Upgrade your homestead, allowing you to build the next tier of buildings and craft the next tier of items.",
+    "tier": 8,
+    "tech_type": "Homestead",
+    "supplies_cost": 4500,
+    "research_time": 0,
+    "requirements": [
+      800,
+      1343639996
+    ],
+    "input": [
+      {
+        "item_id": 1469831075,
+        "quantity": 27,
+        "item_type": "Item",
+        "durability": 0
+      },
+      {
+        "item_id": 395104709,
+        "quantity": 27,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "members": 0,
+    "area": 0,
+    "supplies": 15000,
+    "xp_to_mint_hex_coin": 0,
+    "unlocks_techs": [
+      900,
+      1756599942
+    ],
+    "cannot_be_researched": false,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": false
+  },
+  {
+    "id": 1775534556,
+    "name": "Destination Waystone",
+    "description": "Allows your settlement to build a destination waystone. This waystone can be used to teleport to other destination waystones or to allow people to teleport to your town.",
+    "tier": 5,
+    "tech_type": "DestinationWaystones",
+    "supplies_cost": 20000,
+    "research_time": 0,
+    "requirements": [
+      600,
+      225112729
+    ],
+    "input": [
+      {
+        "item_id": 1,
+        "quantity": 25000,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "members": 0,
+    "area": 0,
+    "supplies": 0,
+    "xp_to_mint_hex_coin": 0,
+    "unlocks_techs": [],
+    "cannot_be_researched": false,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": false
   },
   {
     "id": 1785993958,
@@ -3056,7 +3765,10 @@
     "area": 0,
     "supplies": 0,
     "xp_to_mint_hex_coin": 0,
-    "unlocks_techs": []
+    "unlocks_techs": [],
+    "cannot_be_researched": true,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": true
   },
   {
     "id": 1798795868,
@@ -3082,7 +3794,10 @@
     "area": 0,
     "supplies": 0,
     "xp_to_mint_hex_coin": 0,
-    "unlocks_techs": []
+    "unlocks_techs": [],
+    "cannot_be_researched": true,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": true
   },
   {
     "id": 1801548642,
@@ -3108,7 +3823,10 @@
     "area": 0,
     "supplies": 0,
     "xp_to_mint_hex_coin": 0,
-    "unlocks_techs": []
+    "unlocks_techs": [],
+    "cannot_be_researched": true,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": true
   },
   {
     "id": 1826500486,
@@ -3124,9 +3842,12 @@
     "input": [],
     "members": 0,
     "area": 0,
-    "supplies": 30000,
-    "xp_to_mint_hex_coin": 500,
-    "unlocks_techs": []
+    "supplies": 0,
+    "xp_to_mint_hex_coin": 0,
+    "unlocks_techs": [],
+    "cannot_be_researched": true,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": true
   },
   {
     "id": 1831603547,
@@ -3152,7 +3873,10 @@
     "area": 0,
     "supplies": 0,
     "xp_to_mint_hex_coin": 0,
-    "unlocks_techs": []
+    "unlocks_techs": [],
+    "cannot_be_researched": true,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": true
   },
   {
     "id": 1876781519,
@@ -3178,7 +3902,10 @@
     "area": 0,
     "supplies": 0,
     "xp_to_mint_hex_coin": 0,
-    "unlocks_techs": []
+    "unlocks_techs": [],
+    "cannot_be_researched": true,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": true
   },
   {
     "id": 1912870048,
@@ -3193,11 +3920,14 @@
       1426269264
     ],
     "input": [],
-    "members": 125,
+    "members": 0,
     "area": 0,
     "supplies": 0,
-    "xp_to_mint_hex_coin": 500,
-    "unlocks_techs": []
+    "xp_to_mint_hex_coin": 0,
+    "unlocks_techs": [],
+    "cannot_be_researched": true,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": true
   },
   {
     "id": 1917169512,
@@ -3223,7 +3953,10 @@
     "area": 0,
     "supplies": 0,
     "xp_to_mint_hex_coin": 0,
-    "unlocks_techs": []
+    "unlocks_techs": [],
+    "cannot_be_researched": true,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": true
   },
   {
     "id": 1926459936,
@@ -3248,7 +3981,10 @@
     "area": 0,
     "supplies": 0,
     "xp_to_mint_hex_coin": 0,
-    "unlocks_techs": []
+    "unlocks_techs": [],
+    "cannot_be_researched": true,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": true
   },
   {
     "id": 1937715639,
@@ -3274,7 +4010,10 @@
     "area": 0,
     "supplies": 0,
     "xp_to_mint_hex_coin": 0,
-    "unlocks_techs": []
+    "unlocks_techs": [],
+    "cannot_be_researched": true,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": true
   },
   {
     "id": 1941744545,
@@ -3300,7 +4039,29 @@
     "area": 0,
     "supplies": 0,
     "xp_to_mint_hex_coin": 0,
-    "unlocks_techs": []
+    "unlocks_techs": [],
+    "cannot_be_researched": true,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": true
+  },
+  {
+    "id": 1976017717,
+    "name": "T9 Township or Homestead",
+    "description": "Tech that allows you to build and craft items and buildings of this tier.",
+    "tier": 9,
+    "tech_type": "Undefined",
+    "supplies_cost": 0,
+    "research_time": 0,
+    "requirements": [],
+    "input": [],
+    "members": 0,
+    "area": 0,
+    "supplies": 0,
+    "xp_to_mint_hex_coin": 0,
+    "unlocks_techs": [],
+    "cannot_be_researched": true,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": true
   },
   {
     "id": 2007200868,
@@ -3326,7 +4087,10 @@
     "area": 0,
     "supplies": 0,
     "xp_to_mint_hex_coin": 0,
-    "unlocks_techs": []
+    "unlocks_techs": [],
+    "cannot_be_researched": true,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": true
   },
   {
     "id": 2028278058,
@@ -3352,12 +4116,15 @@
     "area": 0,
     "supplies": 0,
     "xp_to_mint_hex_coin": 0,
-    "unlocks_techs": []
+    "unlocks_techs": [],
+    "cannot_be_researched": true,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": true
   },
   {
     "id": 2029414118,
     "name": "Tier 8 Township",
-    "description": "This research allows your settlement to build all tier 8 workstations. This automatically researches all tier 8 profession researches.",
+    "description": "Upgrade your township, allowing you to craft and build the next tier of items and buildings.",
     "tier": 8,
     "tech_type": "Settlement",
     "supplies_cost": 15750,
@@ -3368,30 +4135,23 @@
     ],
     "input": [
       {
-        "item_id": 335321809,
-        "quantity": 28,
+        "item_id": 1469831075,
+        "quantity": 135,
         "item_type": "Item",
         "durability": 0
       }
     ],
     "members": 0,
-    "area": 0,
-    "supplies": 0,
+    "area": 14300,
+    "supplies": 546000,
     "xp_to_mint_hex_coin": 0,
     "unlocks_techs": [
-      2077792531,
-      953606644,
-      585984297,
-      1193371042,
-      2007200868,
-      1438268605,
-      1388047099,
-      114585002,
-      664226236,
-      2039125317,
-      1785993958,
-      2028278058
-    ]
+      900,
+      1756599942
+    ],
+    "cannot_be_researched": false,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": false
   },
   {
     "id": 2034458333,
@@ -3416,7 +4176,10 @@
     "area": 0,
     "supplies": 0,
     "xp_to_mint_hex_coin": 0,
-    "unlocks_techs": []
+    "unlocks_techs": [],
+    "cannot_be_researched": true,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": true
   },
   {
     "id": 2039125317,
@@ -3442,7 +4205,10 @@
     "area": 0,
     "supplies": 0,
     "xp_to_mint_hex_coin": 0,
-    "unlocks_techs": []
+    "unlocks_techs": [],
+    "cannot_be_researched": true,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": true
   },
   {
     "id": 2040178117,
@@ -3468,7 +4234,10 @@
     "area": 0,
     "supplies": 0,
     "xp_to_mint_hex_coin": 0,
-    "unlocks_techs": []
+    "unlocks_techs": [],
+    "cannot_be_researched": true,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": true
   },
   {
     "id": 2044590963,
@@ -3493,11 +4262,14 @@
     "area": 0,
     "supplies": 0,
     "xp_to_mint_hex_coin": 0,
-    "unlocks_techs": []
+    "unlocks_techs": [],
+    "cannot_be_researched": true,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": true
   },
   {
     "id": 2072167322,
-    "name": "Unlock up to 20000 tiles",
+    "name": "Unlock up to 22000 tiles",
     "description": "This research increases the maximum amount of tiles that your settlement can claim. Owning more tiles will increase the amount of supply drain of your claim.",
     "tier": 10,
     "tech_type": "ClaimArea",
@@ -3509,10 +4281,13 @@
     ],
     "input": [],
     "members": 0,
-    "area": 20000,
+    "area": 22000,
     "supplies": 0,
-    "xp_to_mint_hex_coin": 500,
-    "unlocks_techs": []
+    "xp_to_mint_hex_coin": 0,
+    "unlocks_techs": [],
+    "cannot_be_researched": true,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": true
   },
   {
     "id": 2077792531,
@@ -3538,7 +4313,10 @@
     "area": 0,
     "supplies": 0,
     "xp_to_mint_hex_coin": 0,
-    "unlocks_techs": []
+    "unlocks_techs": [],
+    "cannot_be_researched": true,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": true
   },
   {
     "id": 2080834544,
@@ -3564,7 +4342,10 @@
     "area": 0,
     "supplies": 0,
     "xp_to_mint_hex_coin": 0,
-    "unlocks_techs": []
+    "unlocks_techs": [],
+    "cannot_be_researched": true,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": true
   },
   {
     "id": 2084932646,
@@ -3590,11 +4371,51 @@
     "area": 0,
     "supplies": 0,
     "xp_to_mint_hex_coin": 0,
-    "unlocks_techs": []
+    "unlocks_techs": [],
+    "cannot_be_researched": true,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": true
+  },
+  {
+    "id": 2088177425,
+    "name": "Tier 10 Homestead",
+    "description": "Upgrade your homestead, allowing you to build the next tier of buildings and craft the next tier of items.",
+    "tier": 10,
+    "tech_type": "Homestead",
+    "supplies_cost": 4500,
+    "research_time": 0,
+    "requirements": [
+      1000,
+      2113481439
+    ],
+    "input": [
+      {
+        "item_id": 1718024780,
+        "quantity": 65,
+        "item_type": "Item",
+        "durability": 0
+      },
+      {
+        "item_id": 380110462,
+        "quantity": 65,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "members": 0,
+    "area": 0,
+    "supplies": 15000,
+    "xp_to_mint_hex_coin": 0,
+    "unlocks_techs": [
+      442389180
+    ],
+    "cannot_be_researched": false,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": false
   },
   {
     "id": 2099304788,
-    "name": "Unlock up to 4000 tiles",
+    "name": "Unlock up to 4400 tiles",
     "description": "This research increases the maximum amount of tiles that your settlement can claim. Owning more tiles will increase the amount of supply drain of your claim.",
     "tier": 4,
     "tech_type": "ClaimArea",
@@ -3606,26 +4427,29 @@
     ],
     "input": [],
     "members": 0,
-    "area": 4000,
+    "area": 4400,
     "supplies": 0,
-    "xp_to_mint_hex_coin": 500,
-    "unlocks_techs": []
+    "xp_to_mint_hex_coin": 0,
+    "unlocks_techs": [],
+    "cannot_be_researched": true,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": true
   },
   {
     "id": 2111626185,
     "name": "Town Marketplace",
-    "description": "Allows your town to build a Town Marketplace.",
-    "tier": 4,
+    "description": "Allows your town to build a Town Marketplace. This Marketplace connects to all Marketplaces in the region, including ones in Neutral Towns",
+    "tier": 7,
     "tech_type": "TownMarket",
-    "supplies_cost": 1250,
+    "supplies_cost": 10000,
     "research_time": 0,
     "requirements": [
-      1272742983
+      315153795
     ],
     "input": [
       {
         "item_id": 1,
-        "quantity": 2500,
+        "quantity": 300000,
         "item_type": "Item",
         "durability": 0
       }
@@ -3634,7 +4458,48 @@
     "area": 0,
     "supplies": 0,
     "xp_to_mint_hex_coin": 0,
-    "unlocks_techs": []
+    "unlocks_techs": [],
+    "cannot_be_researched": false,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": false
+  },
+  {
+    "id": 2113481439,
+    "name": "Tier 9 Homestead",
+    "description": "Upgrade your homestead, allowing you to build the next tier of buildings and craft the next tier of items.",
+    "tier": 9,
+    "tech_type": "Homestead",
+    "supplies_cost": 4500,
+    "research_time": 0,
+    "requirements": [
+      900,
+      1773594862
+    ],
+    "input": [
+      {
+        "item_id": 1645009798,
+        "quantity": 44,
+        "item_type": "Item",
+        "durability": 0
+      },
+      {
+        "item_id": 467369448,
+        "quantity": 44,
+        "item_type": "Item",
+        "durability": 0
+      }
+    ],
+    "members": 0,
+    "area": 0,
+    "supplies": 15000,
+    "xp_to_mint_hex_coin": 0,
+    "unlocks_techs": [
+      1000,
+      1976017717
+    ],
+    "cannot_be_researched": false,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": false
   },
   {
     "id": 2136582402,
@@ -3648,10 +4513,13 @@
       200
     ],
     "input": [],
-    "members": 75,
+    "members": 0,
     "area": 0,
     "supplies": 0,
-    "xp_to_mint_hex_coin": 500,
-    "unlocks_techs": []
+    "xp_to_mint_hex_coin": 0,
+    "unlocks_techs": [],
+    "cannot_be_researched": true,
+    "blocking_claim_techs": [],
+    "not_shown_in_ui": true
   }
 ]

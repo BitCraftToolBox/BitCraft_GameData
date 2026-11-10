@@ -48,7 +48,7 @@
     "building_decay_tick_millis": 3600000,
     "max_traded_items": 6,
     "max_trade_distance_large_tiles": 16,
-    "min_distance_between_claims": 8,
+    "min_distance_between_claims": 16,
     "starting_supplies": 5000,
     "show_shield_bar_percent": 1.0,
     "swim_sprint_speed_multiplier": 1.5,
@@ -63,7 +63,7 @@
     "recommended_achievements": 30,
     "empire_decay_tick_millis": 3600000,
     "empire_siege_tick_millis": 600000,
-    "empire_siege_raise_pct": 0.75,
+    "empire_siege_raise_pct": 10.0,
     "empire_default_nobility_threshold": 1000,
     "empire_shard_cost": 2500,
     "empire_starting_shards": 0,
@@ -152,6 +152,11 @@
         "weekly_task_credits": 50
       }
     ],
-    "traveler_task_reroll_credit_cost": 2
+    "traveler_task_reroll_credit_cost": 2,
+    "min_distance_to_neutral_claims": 8,
+    "claim_totem_spacing": 100,
+    "empire_watchtower_upkeep_per_chunk": 0.1,
+    "empire_watchtower_upkeep_per_total_chunks": 3.75E-08,
+    "empire_siege_delay_ticks": 48
   }
 ]
