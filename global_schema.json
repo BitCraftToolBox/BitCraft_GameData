@@ -19118,6 +19118,14 @@
               "algebraic_type": {
                 "I32": []
               }
+            },
+            {
+              "name": {
+                "some": "floating_platform_region_edge_margin_chunks"
+              },
+              "algebraic_type": {
+                "I32": []
+              }
             }
           ]
         }
@@ -35734,6 +35742,14 @@
               },
               "algebraic_type": {
                 "Bool": []
+              }
+            },
+            {
+              "name": {
+                "some": "recommended_priority"
+              },
+              "algebraic_type": {
+                "U32": []
               }
             }
           ]
@@ -76103,6 +76119,13 @@
     },
     {
       "ColumnDefaultValue": {
+        "table": "staged_quest_chain_desc",
+        "col_id": 9,
+        "value": "00000000"
+      }
+    },
+    {
+      "ColumnDefaultValue": {
         "table": "staged_interior_spawn_desc",
         "col_id": 16,
         "value": "00000000"
@@ -76614,6 +76637,13 @@
     },
     {
       "ColumnDefaultValue": {
+        "table": "parameters_desc",
+        "col_id": 101,
+        "value": "02000000"
+      }
+    },
+    {
+      "ColumnDefaultValue": {
         "table": "quest_chain_desc",
         "col_id": 7,
         "value": "00"
@@ -76624,6 +76654,13 @@
         "table": "quest_chain_desc",
         "col_id": 8,
         "value": "00"
+      }
+    },
+    {
+      "ColumnDefaultValue": {
+        "table": "quest_chain_desc",
+        "col_id": 9,
+        "value": "00000000"
       }
     },
     {
@@ -77058,6 +77095,13 @@
         "table": "staged_parameters_desc",
         "col_id": 100,
         "value": "30000000"
+      }
+    },
+    {
+      "ColumnDefaultValue": {
+        "table": "staged_parameters_desc",
+        "col_id": 101,
+        "value": "02000000"
       }
     },
     {
