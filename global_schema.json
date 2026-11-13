@@ -75825,56 +75825,28 @@
   "misc_exports": [
     {
       "ColumnDefaultValue": {
-        "table": "staged_deployable_desc",
-        "col_id": 31,
-        "value": "00"
-      }
-    },
-    {
-      "ColumnDefaultValue": {
-        "table": "staged_floating_platform_desc",
-        "col_id": 7,
-        "value": "0000"
-      }
-    },
-    {
-      "ColumnDefaultValue": {
-        "table": "claim_tech_desc",
+        "table": "staged_claim_tech_desc",
         "col_id": 14,
         "value": "00"
       }
     },
     {
       "ColumnDefaultValue": {
-        "table": "claim_tech_desc",
+        "table": "staged_claim_tech_desc",
         "col_id": 15,
         "value": "01"
       }
     },
     {
       "ColumnDefaultValue": {
-        "table": "claim_tech_desc",
+        "table": "staged_claim_tech_desc",
         "col_id": 16,
         "value": "00"
       }
     },
     {
       "ColumnDefaultValue": {
-        "table": "staged_cargo_desc",
-        "col_id": 23,
-        "value": "00"
-      }
-    },
-    {
-      "ColumnDefaultValue": {
-        "table": "staged_cargo_desc",
-        "col_id": 24,
-        "value": "00"
-      }
-    },
-    {
-      "ColumnDefaultValue": {
-        "table": "staged_deployable_appearance_override_desc",
+        "table": "deployable_appearance_override_desc",
         "col_id": 5,
         "value": "01"
       }
@@ -75902,6 +75874,34 @@
     },
     {
       "ColumnDefaultValue": {
+        "table": "placeable_interaction_desc",
+        "col_id": 19,
+        "value": "01"
+      }
+    },
+    {
+      "ColumnDefaultValue": {
+        "table": "placeable_interaction_desc",
+        "col_id": 20,
+        "value": "01"
+      }
+    },
+    {
+      "ColumnDefaultValue": {
+        "table": "placeable_interaction_desc",
+        "col_id": 21,
+        "value": "00000000"
+      }
+    },
+    {
+      "ColumnDefaultValue": {
+        "table": "placeable_interaction_desc",
+        "col_id": 22,
+        "value": "01"
+      }
+    },
+    {
+      "ColumnDefaultValue": {
         "table": "equipment_desc",
         "col_id": 10,
         "value": "00000000"
@@ -75923,184 +75923,212 @@
     },
     {
       "ColumnDefaultValue": {
-        "table": "interior_spawned_resource_state",
-        "col_id": 3,
+        "table": "resource_desc",
+        "col_id": 20,
         "value": "00"
       }
     },
     {
       "ColumnDefaultValue": {
-        "table": "interior_spawned_resource_state",
-        "col_id": 4,
+        "table": "resource_desc",
+        "col_id": 21,
+        "value": "0000803f"
+      }
+    },
+    {
+      "ColumnDefaultValue": {
+        "table": "resource_desc",
+        "col_id": 22,
         "value": "00000000"
       }
     },
     {
       "ColumnDefaultValue": {
-        "table": "emote_desc",
-        "col_id": 8,
+        "table": "resource_desc",
+        "col_id": 23,
         "value": "00000000"
       }
     },
     {
       "ColumnDefaultValue": {
-        "table": "emote_desc",
+        "table": "resource_desc",
+        "col_id": 24,
+        "value": "00000000"
+      }
+    },
+    {
+      "ColumnDefaultValue": {
+        "table": "resource_desc",
+        "col_id": 25,
+        "value": "00"
+      }
+    },
+    {
+      "ColumnDefaultValue": {
+        "table": "resource_desc",
+        "col_id": 26,
+        "value": "00000000"
+      }
+    },
+    {
+      "ColumnDefaultValue": {
+        "table": "resource_desc",
+        "col_id": 27,
+        "value": "00000000"
+      }
+    },
+    {
+      "ColumnDefaultValue": {
+        "table": "resource_desc",
+        "col_id": 28,
+        "value": "00"
+      }
+    },
+    {
+      "ColumnDefaultValue": {
+        "table": "resource_desc",
+        "col_id": 29,
+        "value": "00000000"
+      }
+    },
+    {
+      "ColumnDefaultValue": {
+        "table": "resource_desc",
+        "col_id": 30,
+        "value": "00000000"
+      }
+    },
+    {
+      "ColumnDefaultValue": {
+        "table": "resource_desc",
+        "col_id": 31,
+        "value": "00000000"
+      }
+    },
+    {
+      "ColumnDefaultValue": {
+        "table": "resource_desc",
+        "col_id": 32,
+        "value": "01"
+      }
+    },
+    {
+      "ColumnDefaultValue": {
+        "table": "staged_placeable_placement_desc",
         "col_id": 9,
-        "value": "00000000"
+        "value": "00"
       }
     },
     {
       "ColumnDefaultValue": {
-        "table": "emote_desc",
+        "table": "staged_placeable_placement_desc",
         "col_id": 10,
         "value": "00000000"
       }
     },
     {
       "ColumnDefaultValue": {
-        "table": "placeable_placement_desc",
-        "col_id": 9,
-        "value": "00"
-      }
-    },
-    {
-      "ColumnDefaultValue": {
-        "table": "placeable_placement_desc",
-        "col_id": 10,
-        "value": "00000000"
-      }
-    },
-    {
-      "ColumnDefaultValue": {
-        "table": "placeable_placement_desc",
+        "table": "staged_placeable_placement_desc",
         "col_id": 11,
         "value": "00000000"
       }
     },
     {
       "ColumnDefaultValue": {
-        "table": "placeable_placement_desc",
+        "table": "staged_placeable_placement_desc",
         "col_id": 12,
         "value": "00"
       }
     },
     {
       "ColumnDefaultValue": {
-        "table": "placeable_placement_desc",
+        "table": "staged_placeable_placement_desc",
         "col_id": 13,
         "value": "00000000"
       }
     },
     {
       "ColumnDefaultValue": {
-        "table": "placeable_placement_desc",
+        "table": "staged_placeable_placement_desc",
         "col_id": 14,
         "value": "00000000"
       }
     },
     {
       "ColumnDefaultValue": {
-        "table": "placeable_placement_desc",
+        "table": "staged_placeable_placement_desc",
         "col_id": 25,
         "value": "01"
       }
     },
     {
       "ColumnDefaultValue": {
-        "table": "placeable_placement_desc",
+        "table": "staged_placeable_placement_desc",
         "col_id": 26,
         "value": "01"
       }
     },
     {
       "ColumnDefaultValue": {
-        "table": "placeable_desc",
-        "col_id": 10,
-        "value": "01"
-      }
-    },
-    {
-      "ColumnDefaultValue": {
-        "table": "placeable_desc",
-        "col_id": 11,
-        "value": "00000000"
-      }
-    },
-    {
-      "ColumnDefaultValue": {
-        "table": "placeable_desc",
-        "col_id": 12,
-        "value": "e8030000"
-      }
-    },
-    {
-      "ColumnDefaultValue": {
-        "table": "placeable_desc",
-        "col_id": 13,
-        "value": "00"
-      }
-    },
-    {
-      "ColumnDefaultValue": {
-        "table": "placeable_desc",
-        "col_id": 14,
-        "value": "00000000"
-      }
-    },
-    {
-      "ColumnDefaultValue": {
-        "table": "placeable_desc",
-        "col_id": 15,
-        "value": "e8030000"
-      }
-    },
-    {
-      "ColumnDefaultValue": {
-        "table": "placeable_desc",
-        "col_id": 16,
-        "value": "01"
-      }
-    },
-    {
-      "ColumnDefaultValue": {
-        "table": "staged_prospecting_desc",
-        "col_id": 27,
-        "value": "0000000000000000"
-      }
-    },
-    {
-      "ColumnDefaultValue": {
-        "table": "staged_prospecting_desc",
-        "col_id": 28,
-        "value": "00000000"
-      }
-    },
-    {
-      "ColumnDefaultValue": {
-        "table": "staged_prospecting_desc",
-        "col_id": 29,
-        "value": "00"
-      }
-    },
-    {
-      "ColumnDefaultValue": {
-        "table": "staged_prospecting_desc",
-        "col_id": 30,
-        "value": "01"
-      }
-    },
-    {
-      "ColumnDefaultValue": {
-        "table": "crafting_recipe_desc",
-        "col_id": 24,
-        "value": "01"
-      }
-    },
-    {
-      "ColumnDefaultValue": {
-        "table": "staged_premium_service_desc",
+        "table": "quest_chain_desc",
         "col_id": 7,
         "value": "00"
+      }
+    },
+    {
+      "ColumnDefaultValue": {
+        "table": "quest_chain_desc",
+        "col_id": 8,
+        "value": "00"
+      }
+    },
+    {
+      "ColumnDefaultValue": {
+        "table": "quest_chain_desc",
+        "col_id": 9,
+        "value": "00000000"
+      }
+    },
+    {
+      "ColumnDefaultValue": {
+        "table": "claim_tech_desc",
+        "col_id": 14,
+        "value": "00"
+      }
+    },
+    {
+      "ColumnDefaultValue": {
+        "table": "claim_tech_desc",
+        "col_id": 15,
+        "value": "01"
+      }
+    },
+    {
+      "ColumnDefaultValue": {
+        "table": "claim_tech_desc",
+        "col_id": 16,
+        "value": "00"
+      }
+    },
+    {
+      "ColumnDefaultValue": {
+        "table": "prospecting_state",
+        "col_id": 9,
+        "value": "00000000"
+      }
+    },
+    {
+      "ColumnDefaultValue": {
+        "table": "placeable_growth_desc",
+        "col_id": 5,
+        "value": "01"
+      }
+    },
+    {
+      "ColumnDefaultValue": {
+        "table": "direct_message_state",
+        "col_id": 7,
+        "value": "01"
       }
     },
     {
@@ -76122,125 +76150,6 @@
         "table": "staged_quest_chain_desc",
         "col_id": 9,
         "value": "00000000"
-      }
-    },
-    {
-      "ColumnDefaultValue": {
-        "table": "staged_interior_spawn_desc",
-        "col_id": 16,
-        "value": "00000000"
-      }
-    },
-    {
-      "ColumnDefaultValue": {
-        "table": "deployable_desc",
-        "col_id": 31,
-        "value": "00"
-      }
-    },
-    {
-      "ColumnDefaultValue": {
-        "table": "floating_platform_desc",
-        "col_id": 7,
-        "value": "0000"
-      }
-    },
-    {
-      "ColumnDefaultValue": {
-        "table": "placeable_interaction_desc",
-        "col_id": 19,
-        "value": "01"
-      }
-    },
-    {
-      "ColumnDefaultValue": {
-        "table": "placeable_interaction_desc",
-        "col_id": 20,
-        "value": "01"
-      }
-    },
-    {
-      "ColumnDefaultValue": {
-        "table": "placeable_interaction_desc",
-        "col_id": 21,
-        "value": "00000000"
-      }
-    },
-    {
-      "ColumnDefaultValue": {
-        "table": "placeable_interaction_desc",
-        "col_id": 22,
-        "value": "01"
-      }
-    },
-    {
-      "ColumnDefaultValue": {
-        "table": "prospecting_desc",
-        "col_id": 27,
-        "value": "0000000000000000"
-      }
-    },
-    {
-      "ColumnDefaultValue": {
-        "table": "prospecting_desc",
-        "col_id": 28,
-        "value": "00000000"
-      }
-    },
-    {
-      "ColumnDefaultValue": {
-        "table": "prospecting_desc",
-        "col_id": 29,
-        "value": "00"
-      }
-    },
-    {
-      "ColumnDefaultValue": {
-        "table": "prospecting_desc",
-        "col_id": 30,
-        "value": "01"
-      }
-    },
-    {
-      "ColumnDefaultValue": {
-        "table": "herd_state",
-        "col_id": 5,
-        "value": "0000000000000000"
-      }
-    },
-    {
-      "ColumnDefaultValue": {
-        "table": "staged_placeable_interaction_desc",
-        "col_id": 19,
-        "value": "01"
-      }
-    },
-    {
-      "ColumnDefaultValue": {
-        "table": "staged_placeable_interaction_desc",
-        "col_id": 20,
-        "value": "01"
-      }
-    },
-    {
-      "ColumnDefaultValue": {
-        "table": "staged_placeable_interaction_desc",
-        "col_id": 21,
-        "value": "00000000"
-      }
-    },
-    {
-      "ColumnDefaultValue": {
-        "table": "staged_placeable_interaction_desc",
-        "col_id": 22,
-        "value": "01"
-      }
-    },
-    {
-      "ColumnDefaultValue": {
-        "table": "extract_outcome_state",
-        "col_id": 4,
-        "value": "00"
       }
     },
     {
@@ -76252,8 +76161,225 @@
     },
     {
       "ColumnDefaultValue": {
-        "table": "direct_message_state",
+        "table": "staged_food_desc",
+        "col_id": 9,
+        "value": "00"
+      }
+    },
+    {
+      "ColumnDefaultValue": {
+        "table": "staged_food_desc",
+        "col_id": 10,
+        "value": "01"
+      }
+    },
+    {
+      "ColumnDefaultValue": {
+        "table": "staged_prospecting_desc",
+        "col_id": 27,
+        "value": "0000000000000000"
+      }
+    },
+    {
+      "ColumnDefaultValue": {
+        "table": "staged_prospecting_desc",
+        "col_id": 28,
+        "value": "00000000"
+      }
+    },
+    {
+      "ColumnDefaultValue": {
+        "table": "staged_prospecting_desc",
+        "col_id": 29,
+        "value": "00"
+      }
+    },
+    {
+      "ColumnDefaultValue": {
+        "table": "staged_prospecting_desc",
+        "col_id": 30,
+        "value": "01"
+      }
+    },
+    {
+      "ColumnDefaultValue": {
+        "table": "staged_placeable_desc",
+        "col_id": 10,
+        "value": "01"
+      }
+    },
+    {
+      "ColumnDefaultValue": {
+        "table": "staged_placeable_desc",
+        "col_id": 11,
+        "value": "00000000"
+      }
+    },
+    {
+      "ColumnDefaultValue": {
+        "table": "staged_placeable_desc",
+        "col_id": 12,
+        "value": "e8030000"
+      }
+    },
+    {
+      "ColumnDefaultValue": {
+        "table": "staged_placeable_desc",
+        "col_id": 13,
+        "value": "00"
+      }
+    },
+    {
+      "ColumnDefaultValue": {
+        "table": "staged_placeable_desc",
+        "col_id": 14,
+        "value": "00000000"
+      }
+    },
+    {
+      "ColumnDefaultValue": {
+        "table": "staged_placeable_desc",
+        "col_id": 15,
+        "value": "e8030000"
+      }
+    },
+    {
+      "ColumnDefaultValue": {
+        "table": "staged_placeable_desc",
+        "col_id": 16,
+        "value": "01"
+      }
+    },
+    {
+      "ColumnDefaultValue": {
+        "table": "staged_emote_desc",
+        "col_id": 8,
+        "value": "00000000"
+      }
+    },
+    {
+      "ColumnDefaultValue": {
+        "table": "staged_emote_desc",
+        "col_id": 9,
+        "value": "00000000"
+      }
+    },
+    {
+      "ColumnDefaultValue": {
+        "table": "staged_emote_desc",
+        "col_id": 10,
+        "value": "00000000"
+      }
+    },
+    {
+      "ColumnDefaultValue": {
+        "table": "floating_platform_desc",
         "col_id": 7,
+        "value": "0000"
+      }
+    },
+    {
+      "ColumnDefaultValue": {
+        "table": "interior_network_desc",
+        "col_id": 5,
+        "value": "00"
+      }
+    },
+    {
+      "ColumnDefaultValue": {
+        "table": "interior_network_desc",
+        "col_id": 6,
+        "value": "00"
+      }
+    },
+    {
+      "ColumnDefaultValue": {
+        "table": "extract_outcome_state",
+        "col_id": 4,
+        "value": "00"
+      }
+    },
+    {
+      "ColumnDefaultValue": {
+        "table": "staged_interior_spawn_desc",
+        "col_id": 16,
+        "value": "00000000"
+      }
+    },
+    {
+      "ColumnDefaultValue": {
+        "table": "staged_ability_custom_desc",
+        "col_id": 17,
+        "value": "01"
+      }
+    },
+    {
+      "ColumnDefaultValue": {
+        "table": "staged_ability_custom_desc",
+        "col_id": 18,
+        "value": "00"
+      }
+    },
+    {
+      "ColumnDefaultValue": {
+        "table": "staged_ability_custom_desc",
+        "col_id": 19,
+        "value": "00"
+      }
+    },
+    {
+      "ColumnDefaultValue": {
+        "table": "staged_ability_custom_desc",
+        "col_id": 20,
+        "value": "00000000"
+      }
+    },
+    {
+      "ColumnDefaultValue": {
+        "table": "staged_ability_custom_desc",
+        "col_id": 21,
+        "value": "01000000"
+      }
+    },
+    {
+      "ColumnDefaultValue": {
+        "table": "staged_ability_custom_desc",
+        "col_id": 22,
+        "value": "00000000"
+      }
+    },
+    {
+      "ColumnDefaultValue": {
+        "table": "staged_ability_custom_desc",
+        "col_id": 23,
+        "value": "01"
+      }
+    },
+    {
+      "ColumnDefaultValue": {
+        "table": "staged_ability_custom_desc",
+        "col_id": 24,
+        "value": "01"
+      }
+    },
+    {
+      "ColumnDefaultValue": {
+        "table": "staged_ability_custom_desc",
+        "col_id": 25,
+        "value": "01"
+      }
+    },
+    {
+      "ColumnDefaultValue": {
+        "table": "staged_placeable_growth_desc",
+        "col_id": 5,
+        "value": "01"
+      }
+    },
+    {
+      "ColumnDefaultValue": {
+        "table": "crafting_recipe_desc",
+        "col_id": 24,
         "value": "01"
       }
     },
@@ -76357,93 +76483,9 @@
     },
     {
       "ColumnDefaultValue": {
-        "table": "deployable_appearance_override_desc",
+        "table": "staged_deployable_appearance_override_desc",
         "col_id": 5,
         "value": "01"
-      }
-    },
-    {
-      "ColumnDefaultValue": {
-        "table": "cargo_desc",
-        "col_id": 23,
-        "value": "00"
-      }
-    },
-    {
-      "ColumnDefaultValue": {
-        "table": "cargo_desc",
-        "col_id": 24,
-        "value": "00"
-      }
-    },
-    {
-      "ColumnDefaultValue": {
-        "table": "staged_placeable_desc",
-        "col_id": 10,
-        "value": "01"
-      }
-    },
-    {
-      "ColumnDefaultValue": {
-        "table": "staged_placeable_desc",
-        "col_id": 11,
-        "value": "00000000"
-      }
-    },
-    {
-      "ColumnDefaultValue": {
-        "table": "staged_placeable_desc",
-        "col_id": 12,
-        "value": "e8030000"
-      }
-    },
-    {
-      "ColumnDefaultValue": {
-        "table": "staged_placeable_desc",
-        "col_id": 13,
-        "value": "00"
-      }
-    },
-    {
-      "ColumnDefaultValue": {
-        "table": "staged_placeable_desc",
-        "col_id": 14,
-        "value": "00000000"
-      }
-    },
-    {
-      "ColumnDefaultValue": {
-        "table": "staged_placeable_desc",
-        "col_id": 15,
-        "value": "e8030000"
-      }
-    },
-    {
-      "ColumnDefaultValue": {
-        "table": "staged_placeable_desc",
-        "col_id": 16,
-        "value": "01"
-      }
-    },
-    {
-      "ColumnDefaultValue": {
-        "table": "staged_claim_tech_desc",
-        "col_id": 14,
-        "value": "00"
-      }
-    },
-    {
-      "ColumnDefaultValue": {
-        "table": "staged_claim_tech_desc",
-        "col_id": 15,
-        "value": "01"
-      }
-    },
-    {
-      "ColumnDefaultValue": {
-        "table": "staged_claim_tech_desc",
-        "col_id": 16,
-        "value": "00"
       }
     },
     {
@@ -76455,9 +76497,170 @@
     },
     {
       "ColumnDefaultValue": {
-        "table": "staged_placeable_growth_desc",
-        "col_id": 5,
+        "table": "placeable_placement_desc",
+        "col_id": 9,
+        "value": "00"
+      }
+    },
+    {
+      "ColumnDefaultValue": {
+        "table": "placeable_placement_desc",
+        "col_id": 10,
+        "value": "00000000"
+      }
+    },
+    {
+      "ColumnDefaultValue": {
+        "table": "placeable_placement_desc",
+        "col_id": 11,
+        "value": "00000000"
+      }
+    },
+    {
+      "ColumnDefaultValue": {
+        "table": "placeable_placement_desc",
+        "col_id": 12,
+        "value": "00"
+      }
+    },
+    {
+      "ColumnDefaultValue": {
+        "table": "placeable_placement_desc",
+        "col_id": 13,
+        "value": "00000000"
+      }
+    },
+    {
+      "ColumnDefaultValue": {
+        "table": "placeable_placement_desc",
+        "col_id": 14,
+        "value": "00000000"
+      }
+    },
+    {
+      "ColumnDefaultValue": {
+        "table": "placeable_placement_desc",
+        "col_id": 25,
         "value": "01"
+      }
+    },
+    {
+      "ColumnDefaultValue": {
+        "table": "placeable_placement_desc",
+        "col_id": 26,
+        "value": "01"
+      }
+    },
+    {
+      "ColumnDefaultValue": {
+        "table": "staged_parameters_desc",
+        "col_id": 92,
+        "value": "00000000"
+      }
+    },
+    {
+      "ColumnDefaultValue": {
+        "table": "staged_parameters_desc",
+        "col_id": 93,
+        "value": "00000000"
+      }
+    },
+    {
+      "ColumnDefaultValue": {
+        "table": "staged_parameters_desc",
+        "col_id": 94,
+        "value": "01"
+      }
+    },
+    {
+      "ColumnDefaultValue": {
+        "table": "staged_parameters_desc",
+        "col_id": 95,
+        "value": "00000000"
+      }
+    },
+    {
+      "ColumnDefaultValue": {
+        "table": "staged_parameters_desc",
+        "col_id": 96,
+        "value": "08000000"
+      }
+    },
+    {
+      "ColumnDefaultValue": {
+        "table": "staged_parameters_desc",
+        "col_id": 97,
+        "value": "64000000"
+      }
+    },
+    {
+      "ColumnDefaultValue": {
+        "table": "staged_parameters_desc",
+        "col_id": 98,
+        "value": "9a9999999999b93f"
+      }
+    },
+    {
+      "ColumnDefaultValue": {
+        "table": "staged_parameters_desc",
+        "col_id": 99,
+        "value": "76830df4f521643e"
+      }
+    },
+    {
+      "ColumnDefaultValue": {
+        "table": "staged_parameters_desc",
+        "col_id": 100,
+        "value": "30000000"
+      }
+    },
+    {
+      "ColumnDefaultValue": {
+        "table": "staged_parameters_desc",
+        "col_id": 101,
+        "value": "02000000"
+      }
+    },
+    {
+      "ColumnDefaultValue": {
+        "table": "premium_service_desc",
+        "col_id": 7,
+        "value": "00"
+      }
+    },
+    {
+      "ColumnDefaultValue": {
+        "table": "staged_placeable_interaction_desc",
+        "col_id": 19,
+        "value": "01"
+      }
+    },
+    {
+      "ColumnDefaultValue": {
+        "table": "staged_placeable_interaction_desc",
+        "col_id": 20,
+        "value": "01"
+      }
+    },
+    {
+      "ColumnDefaultValue": {
+        "table": "staged_placeable_interaction_desc",
+        "col_id": 21,
+        "value": "00000000"
+      }
+    },
+    {
+      "ColumnDefaultValue": {
+        "table": "staged_placeable_interaction_desc",
+        "col_id": 22,
+        "value": "01"
+      }
+    },
+    {
+      "ColumnDefaultValue": {
+        "table": "staged_premium_service_desc",
+        "col_id": 7,
+        "value": "00"
       }
     },
     {
@@ -76472,237 +76675,6 @@
         "table": "food_desc",
         "col_id": 10,
         "value": "01"
-      }
-    },
-    {
-      "ColumnDefaultValue": {
-        "table": "staged_crafting_recipe_desc",
-        "col_id": 24,
-        "value": "01"
-      }
-    },
-    {
-      "ColumnDefaultValue": {
-        "table": "resource_desc",
-        "col_id": 20,
-        "value": "00"
-      }
-    },
-    {
-      "ColumnDefaultValue": {
-        "table": "resource_desc",
-        "col_id": 21,
-        "value": "0000803f"
-      }
-    },
-    {
-      "ColumnDefaultValue": {
-        "table": "resource_desc",
-        "col_id": 22,
-        "value": "00000000"
-      }
-    },
-    {
-      "ColumnDefaultValue": {
-        "table": "resource_desc",
-        "col_id": 23,
-        "value": "00000000"
-      }
-    },
-    {
-      "ColumnDefaultValue": {
-        "table": "resource_desc",
-        "col_id": 24,
-        "value": "00000000"
-      }
-    },
-    {
-      "ColumnDefaultValue": {
-        "table": "resource_desc",
-        "col_id": 25,
-        "value": "00"
-      }
-    },
-    {
-      "ColumnDefaultValue": {
-        "table": "resource_desc",
-        "col_id": 26,
-        "value": "00000000"
-      }
-    },
-    {
-      "ColumnDefaultValue": {
-        "table": "resource_desc",
-        "col_id": 27,
-        "value": "00000000"
-      }
-    },
-    {
-      "ColumnDefaultValue": {
-        "table": "resource_desc",
-        "col_id": 28,
-        "value": "00"
-      }
-    },
-    {
-      "ColumnDefaultValue": {
-        "table": "resource_desc",
-        "col_id": 29,
-        "value": "00000000"
-      }
-    },
-    {
-      "ColumnDefaultValue": {
-        "table": "resource_desc",
-        "col_id": 30,
-        "value": "00000000"
-      }
-    },
-    {
-      "ColumnDefaultValue": {
-        "table": "resource_desc",
-        "col_id": 31,
-        "value": "00000000"
-      }
-    },
-    {
-      "ColumnDefaultValue": {
-        "table": "resource_desc",
-        "col_id": 32,
-        "value": "01"
-      }
-    },
-    {
-      "ColumnDefaultValue": {
-        "table": "parameters_desc",
-        "col_id": 92,
-        "value": "00000000"
-      }
-    },
-    {
-      "ColumnDefaultValue": {
-        "table": "parameters_desc",
-        "col_id": 93,
-        "value": "00000000"
-      }
-    },
-    {
-      "ColumnDefaultValue": {
-        "table": "parameters_desc",
-        "col_id": 94,
-        "value": "01"
-      }
-    },
-    {
-      "ColumnDefaultValue": {
-        "table": "parameters_desc",
-        "col_id": 95,
-        "value": "00000000"
-      }
-    },
-    {
-      "ColumnDefaultValue": {
-        "table": "parameters_desc",
-        "col_id": 96,
-        "value": "08000000"
-      }
-    },
-    {
-      "ColumnDefaultValue": {
-        "table": "parameters_desc",
-        "col_id": 97,
-        "value": "64000000"
-      }
-    },
-    {
-      "ColumnDefaultValue": {
-        "table": "parameters_desc",
-        "col_id": 98,
-        "value": "9a9999999999b93f"
-      }
-    },
-    {
-      "ColumnDefaultValue": {
-        "table": "parameters_desc",
-        "col_id": 99,
-        "value": "76830df4f521643e"
-      }
-    },
-    {
-      "ColumnDefaultValue": {
-        "table": "parameters_desc",
-        "col_id": 100,
-        "value": "30000000"
-      }
-    },
-    {
-      "ColumnDefaultValue": {
-        "table": "parameters_desc",
-        "col_id": 101,
-        "value": "02000000"
-      }
-    },
-    {
-      "ColumnDefaultValue": {
-        "table": "quest_chain_desc",
-        "col_id": 7,
-        "value": "00"
-      }
-    },
-    {
-      "ColumnDefaultValue": {
-        "table": "quest_chain_desc",
-        "col_id": 8,
-        "value": "00"
-      }
-    },
-    {
-      "ColumnDefaultValue": {
-        "table": "quest_chain_desc",
-        "col_id": 9,
-        "value": "00000000"
-      }
-    },
-    {
-      "ColumnDefaultValue": {
-        "table": "extraction_recipe_desc",
-        "col_id": 21,
-        "value": "01"
-      }
-    },
-    {
-      "ColumnDefaultValue": {
-        "table": "extraction_recipe_desc",
-        "col_id": 22,
-        "value": "01"
-      }
-    },
-    {
-      "ColumnDefaultValue": {
-        "table": "extraction_recipe_desc",
-        "col_id": 23,
-        "value": "01"
-      }
-    },
-    {
-      "ColumnDefaultValue": {
-        "table": "staged_interior_network_desc",
-        "col_id": 5,
-        "value": "00"
-      }
-    },
-    {
-      "ColumnDefaultValue": {
-        "table": "staged_interior_network_desc",
-        "col_id": 6,
-        "value": "00"
-      }
-    },
-    {
-      "ColumnDefaultValue": {
-        "table": "the_great_placeholder_table",
-        "col_id": 8,
-        "value": "00"
       }
     },
     {
@@ -76714,6 +76686,104 @@
     },
     {
       "ColumnDefaultValue": {
+        "table": "staged_interior_spawn_destroy_trigger_desc",
+        "col_id": 5,
+        "value": "00"
+      }
+    },
+    {
+      "ColumnDefaultValue": {
+        "table": "quest_chain_state",
+        "col_id": 6,
+        "value": "00"
+      }
+    },
+    {
+      "ColumnDefaultValue": {
+        "table": "staged_cargo_desc",
+        "col_id": 23,
+        "value": "00"
+      }
+    },
+    {
+      "ColumnDefaultValue": {
+        "table": "staged_cargo_desc",
+        "col_id": 24,
+        "value": "00"
+      }
+    },
+    {
+      "ColumnDefaultValue": {
+        "table": "resource_growth_recipe_desc",
+        "col_id": 4,
+        "value": "0000803f"
+      }
+    },
+    {
+      "ColumnDefaultValue": {
+        "table": "resource_growth_recipe_desc",
+        "col_id": 5,
+        "value": "00000000"
+      }
+    },
+    {
+      "ColumnDefaultValue": {
+        "table": "resource_growth_recipe_desc",
+        "col_id": 6,
+        "value": "00000000"
+      }
+    },
+    {
+      "ColumnDefaultValue": {
+        "table": "emote_desc",
+        "col_id": 8,
+        "value": "00000000"
+      }
+    },
+    {
+      "ColumnDefaultValue": {
+        "table": "emote_desc",
+        "col_id": 9,
+        "value": "00000000"
+      }
+    },
+    {
+      "ColumnDefaultValue": {
+        "table": "emote_desc",
+        "col_id": 10,
+        "value": "00000000"
+      }
+    },
+    {
+      "ColumnDefaultValue": {
+        "table": "deployable_desc",
+        "col_id": 31,
+        "value": "00"
+      }
+    },
+    {
+      "ColumnDefaultValue": {
+        "table": "extraction_recipe_desc",
+        "col_id": 21,
+        "value": "01"
+      }
+    },
+    {
+      "ColumnDefaultValue": {
+        "table": "extraction_recipe_desc",
+        "col_id": 22,
+        "value": "01"
+      }
+    },
+    {
+      "ColumnDefaultValue": {
+        "table": "extraction_recipe_desc",
+        "col_id": 23,
+        "value": "01"
+      }
+    },
+    {
+      "ColumnDefaultValue": {
         "table": "staged_extraction_recipe_desc",
         "col_id": 21,
         "value": "01"
@@ -76735,22 +76805,64 @@
     },
     {
       "ColumnDefaultValue": {
-        "table": "staged_food_desc",
-        "col_id": 9,
+        "table": "interior_spawned_resource_state",
+        "col_id": 3,
         "value": "00"
       }
     },
     {
       "ColumnDefaultValue": {
-        "table": "staged_food_desc",
-        "col_id": 10,
+        "table": "interior_spawned_resource_state",
+        "col_id": 4,
+        "value": "00000000"
+      }
+    },
+    {
+      "ColumnDefaultValue": {
+        "table": "staged_crafting_recipe_desc",
+        "col_id": 24,
         "value": "01"
       }
     },
     {
       "ColumnDefaultValue": {
-        "table": "premium_service_desc",
-        "col_id": 7,
+        "table": "staged_deployable_desc",
+        "col_id": 31,
+        "value": "00"
+      }
+    },
+    {
+      "ColumnDefaultValue": {
+        "table": "staged_resource_growth_recipe_desc",
+        "col_id": 4,
+        "value": "0000803f"
+      }
+    },
+    {
+      "ColumnDefaultValue": {
+        "table": "staged_resource_growth_recipe_desc",
+        "col_id": 5,
+        "value": "00000000"
+      }
+    },
+    {
+      "ColumnDefaultValue": {
+        "table": "staged_resource_growth_recipe_desc",
+        "col_id": 6,
+        "value": "00000000"
+      }
+    },
+    {
+      "ColumnDefaultValue": {
+        "table": "staged_interior_network_desc",
+        "col_id": 5,
+        "value": "00"
+      }
+    },
+    {
+      "ColumnDefaultValue": {
+        "table": "staged_interior_network_desc",
+        "col_id": 6,
         "value": "00"
       }
     },
@@ -76763,359 +76875,247 @@
     },
     {
       "ColumnDefaultValue": {
-        "table": "staged_resource_growth_recipe_desc",
-        "col_id": 4,
-        "value": "0000803f"
+        "table": "prospecting_desc",
+        "col_id": 27,
+        "value": "0000000000000000"
       }
     },
     {
       "ColumnDefaultValue": {
-        "table": "staged_resource_growth_recipe_desc",
+        "table": "prospecting_desc",
+        "col_id": 28,
+        "value": "00000000"
+      }
+    },
+    {
+      "ColumnDefaultValue": {
+        "table": "prospecting_desc",
+        "col_id": 29,
+        "value": "00"
+      }
+    },
+    {
+      "ColumnDefaultValue": {
+        "table": "prospecting_desc",
+        "col_id": 30,
+        "value": "01"
+      }
+    },
+    {
+      "ColumnDefaultValue": {
+        "table": "herd_state",
         "col_id": 5,
-        "value": "00000000"
+        "value": "0000000000000000"
       }
     },
     {
       "ColumnDefaultValue": {
-        "table": "staged_resource_growth_recipe_desc",
-        "col_id": 6,
-        "value": "00000000"
-      }
-    },
-    {
-      "ColumnDefaultValue": {
-        "table": "quest_chain_state",
-        "col_id": 6,
-        "value": "00"
-      }
-    },
-    {
-      "ColumnDefaultValue": {
-        "table": "ability_custom_desc",
-        "col_id": 17,
-        "value": "01"
-      }
-    },
-    {
-      "ColumnDefaultValue": {
-        "table": "ability_custom_desc",
-        "col_id": 18,
-        "value": "00"
-      }
-    },
-    {
-      "ColumnDefaultValue": {
-        "table": "ability_custom_desc",
-        "col_id": 19,
-        "value": "00"
-      }
-    },
-    {
-      "ColumnDefaultValue": {
-        "table": "ability_custom_desc",
-        "col_id": 20,
-        "value": "00000000"
-      }
-    },
-    {
-      "ColumnDefaultValue": {
-        "table": "ability_custom_desc",
-        "col_id": 21,
-        "value": "01000000"
-      }
-    },
-    {
-      "ColumnDefaultValue": {
-        "table": "ability_custom_desc",
-        "col_id": 22,
-        "value": "00000000"
-      }
-    },
-    {
-      "ColumnDefaultValue": {
-        "table": "ability_custom_desc",
-        "col_id": 23,
-        "value": "01"
-      }
-    },
-    {
-      "ColumnDefaultValue": {
-        "table": "ability_custom_desc",
-        "col_id": 24,
-        "value": "01"
-      }
-    },
-    {
-      "ColumnDefaultValue": {
-        "table": "ability_custom_desc",
-        "col_id": 25,
-        "value": "01"
-      }
-    },
-    {
-      "ColumnDefaultValue": {
-        "table": "placeable_growth_desc",
-        "col_id": 5,
-        "value": "01"
-      }
-    },
-    {
-      "ColumnDefaultValue": {
-        "table": "staged_ability_custom_desc",
-        "col_id": 17,
-        "value": "01"
-      }
-    },
-    {
-      "ColumnDefaultValue": {
-        "table": "staged_ability_custom_desc",
-        "col_id": 18,
-        "value": "00"
-      }
-    },
-    {
-      "ColumnDefaultValue": {
-        "table": "staged_ability_custom_desc",
-        "col_id": 19,
-        "value": "00"
-      }
-    },
-    {
-      "ColumnDefaultValue": {
-        "table": "staged_ability_custom_desc",
-        "col_id": 20,
-        "value": "00000000"
-      }
-    },
-    {
-      "ColumnDefaultValue": {
-        "table": "staged_ability_custom_desc",
-        "col_id": 21,
-        "value": "01000000"
-      }
-    },
-    {
-      "ColumnDefaultValue": {
-        "table": "staged_ability_custom_desc",
-        "col_id": 22,
-        "value": "00000000"
-      }
-    },
-    {
-      "ColumnDefaultValue": {
-        "table": "staged_ability_custom_desc",
-        "col_id": 23,
-        "value": "01"
-      }
-    },
-    {
-      "ColumnDefaultValue": {
-        "table": "staged_ability_custom_desc",
-        "col_id": 24,
-        "value": "01"
-      }
-    },
-    {
-      "ColumnDefaultValue": {
-        "table": "staged_ability_custom_desc",
-        "col_id": 25,
-        "value": "01"
-      }
-    },
-    {
-      "ColumnDefaultValue": {
-        "table": "staged_placeable_placement_desc",
-        "col_id": 9,
-        "value": "00"
-      }
-    },
-    {
-      "ColumnDefaultValue": {
-        "table": "staged_placeable_placement_desc",
-        "col_id": 10,
-        "value": "00000000"
-      }
-    },
-    {
-      "ColumnDefaultValue": {
-        "table": "staged_placeable_placement_desc",
-        "col_id": 11,
-        "value": "00000000"
-      }
-    },
-    {
-      "ColumnDefaultValue": {
-        "table": "staged_placeable_placement_desc",
-        "col_id": 12,
-        "value": "00"
-      }
-    },
-    {
-      "ColumnDefaultValue": {
-        "table": "staged_placeable_placement_desc",
-        "col_id": 13,
-        "value": "00000000"
-      }
-    },
-    {
-      "ColumnDefaultValue": {
-        "table": "staged_placeable_placement_desc",
-        "col_id": 14,
-        "value": "00000000"
-      }
-    },
-    {
-      "ColumnDefaultValue": {
-        "table": "staged_placeable_placement_desc",
-        "col_id": 25,
-        "value": "01"
-      }
-    },
-    {
-      "ColumnDefaultValue": {
-        "table": "staged_placeable_placement_desc",
-        "col_id": 26,
-        "value": "01"
-      }
-    },
-    {
-      "ColumnDefaultValue": {
-        "table": "resource_growth_recipe_desc",
-        "col_id": 4,
-        "value": "0000803f"
-      }
-    },
-    {
-      "ColumnDefaultValue": {
-        "table": "resource_growth_recipe_desc",
-        "col_id": 5,
-        "value": "00000000"
-      }
-    },
-    {
-      "ColumnDefaultValue": {
-        "table": "resource_growth_recipe_desc",
-        "col_id": 6,
-        "value": "00000000"
-      }
-    },
-    {
-      "ColumnDefaultValue": {
-        "table": "prospecting_state",
-        "col_id": 9,
-        "value": "00000000"
-      }
-    },
-    {
-      "ColumnDefaultValue": {
-        "table": "staged_emote_desc",
+        "table": "the_great_placeholder_table",
         "col_id": 8,
-        "value": "00000000"
-      }
-    },
-    {
-      "ColumnDefaultValue": {
-        "table": "staged_emote_desc",
-        "col_id": 9,
-        "value": "00000000"
-      }
-    },
-    {
-      "ColumnDefaultValue": {
-        "table": "staged_emote_desc",
-        "col_id": 10,
-        "value": "00000000"
-      }
-    },
-    {
-      "ColumnDefaultValue": {
-        "table": "staged_interior_spawn_destroy_trigger_desc",
-        "col_id": 5,
         "value": "00"
       }
     },
     {
       "ColumnDefaultValue": {
-        "table": "staged_parameters_desc",
+        "table": "cargo_desc",
+        "col_id": 23,
+        "value": "00"
+      }
+    },
+    {
+      "ColumnDefaultValue": {
+        "table": "cargo_desc",
+        "col_id": 24,
+        "value": "00"
+      }
+    },
+    {
+      "ColumnDefaultValue": {
+        "table": "parameters_desc",
         "col_id": 92,
         "value": "00000000"
       }
     },
     {
       "ColumnDefaultValue": {
-        "table": "staged_parameters_desc",
+        "table": "parameters_desc",
         "col_id": 93,
         "value": "00000000"
       }
     },
     {
       "ColumnDefaultValue": {
-        "table": "staged_parameters_desc",
+        "table": "parameters_desc",
         "col_id": 94,
         "value": "01"
       }
     },
     {
       "ColumnDefaultValue": {
-        "table": "staged_parameters_desc",
+        "table": "parameters_desc",
         "col_id": 95,
         "value": "00000000"
       }
     },
     {
       "ColumnDefaultValue": {
-        "table": "staged_parameters_desc",
+        "table": "parameters_desc",
         "col_id": 96,
         "value": "08000000"
       }
     },
     {
       "ColumnDefaultValue": {
-        "table": "staged_parameters_desc",
+        "table": "parameters_desc",
         "col_id": 97,
         "value": "64000000"
       }
     },
     {
       "ColumnDefaultValue": {
-        "table": "staged_parameters_desc",
+        "table": "parameters_desc",
         "col_id": 98,
         "value": "9a9999999999b93f"
       }
     },
     {
       "ColumnDefaultValue": {
-        "table": "staged_parameters_desc",
+        "table": "parameters_desc",
         "col_id": 99,
         "value": "76830df4f521643e"
       }
     },
     {
       "ColumnDefaultValue": {
-        "table": "staged_parameters_desc",
+        "table": "parameters_desc",
         "col_id": 100,
         "value": "30000000"
       }
     },
     {
       "ColumnDefaultValue": {
-        "table": "staged_parameters_desc",
+        "table": "parameters_desc",
         "col_id": 101,
         "value": "02000000"
       }
     },
     {
       "ColumnDefaultValue": {
-        "table": "interior_network_desc",
-        "col_id": 5,
+        "table": "placeable_desc",
+        "col_id": 10,
+        "value": "01"
+      }
+    },
+    {
+      "ColumnDefaultValue": {
+        "table": "placeable_desc",
+        "col_id": 11,
+        "value": "00000000"
+      }
+    },
+    {
+      "ColumnDefaultValue": {
+        "table": "placeable_desc",
+        "col_id": 12,
+        "value": "e8030000"
+      }
+    },
+    {
+      "ColumnDefaultValue": {
+        "table": "placeable_desc",
+        "col_id": 13,
         "value": "00"
       }
     },
     {
       "ColumnDefaultValue": {
-        "table": "interior_network_desc",
-        "col_id": 6,
+        "table": "placeable_desc",
+        "col_id": 14,
+        "value": "00000000"
+      }
+    },
+    {
+      "ColumnDefaultValue": {
+        "table": "placeable_desc",
+        "col_id": 15,
+        "value": "e8030000"
+      }
+    },
+    {
+      "ColumnDefaultValue": {
+        "table": "placeable_desc",
+        "col_id": 16,
+        "value": "01"
+      }
+    },
+    {
+      "ColumnDefaultValue": {
+        "table": "ability_custom_desc",
+        "col_id": 17,
+        "value": "01"
+      }
+    },
+    {
+      "ColumnDefaultValue": {
+        "table": "ability_custom_desc",
+        "col_id": 18,
         "value": "00"
+      }
+    },
+    {
+      "ColumnDefaultValue": {
+        "table": "ability_custom_desc",
+        "col_id": 19,
+        "value": "00"
+      }
+    },
+    {
+      "ColumnDefaultValue": {
+        "table": "ability_custom_desc",
+        "col_id": 20,
+        "value": "00000000"
+      }
+    },
+    {
+      "ColumnDefaultValue": {
+        "table": "ability_custom_desc",
+        "col_id": 21,
+        "value": "01000000"
+      }
+    },
+    {
+      "ColumnDefaultValue": {
+        "table": "ability_custom_desc",
+        "col_id": 22,
+        "value": "00000000"
+      }
+    },
+    {
+      "ColumnDefaultValue": {
+        "table": "ability_custom_desc",
+        "col_id": 23,
+        "value": "01"
+      }
+    },
+    {
+      "ColumnDefaultValue": {
+        "table": "ability_custom_desc",
+        "col_id": 24,
+        "value": "01"
+      }
+    },
+    {
+      "ColumnDefaultValue": {
+        "table": "ability_custom_desc",
+        "col_id": 25,
+        "value": "01"
+      }
+    },
+    {
+      "ColumnDefaultValue": {
+        "table": "staged_floating_platform_desc",
+        "col_id": 7,
+        "value": "0000"
       }
     },
     {
