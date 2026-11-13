@@ -322,6 +322,12 @@
     "completion_conditions": []
   },
   {
+    "id": 114022366,
+    "chain_desc_id": 1102939934,
+    "name": "Many Professions One Discovery",
+    "completion_conditions": []
+  },
+  {
     "id": 114228858,
     "chain_desc_id": 1121072693,
     "name": "Gather Argent Ingots - Cart III",
@@ -491,6 +497,12 @@
     "id": 155740456,
     "chain_desc_id": 371815384,
     "name": "Craft Pebbles",
+    "completion_conditions": []
+  },
+  {
+    "id": 156180497,
+    "chain_desc_id": 1523998557,
+    "name": "Visit Ruined Town Marketplace",
     "completion_conditions": []
   },
   {
@@ -1996,6 +2008,12 @@
     "completion_conditions": []
   },
   {
+    "id": 545980477,
+    "chain_desc_id": 1102939934,
+    "name": "APlace To Call Home",
+    "completion_conditions": []
+  },
+  {
     "id": 547543544,
     "chain_desc_id": 11822390,
     "name": "Gather Umbura Fur - Slayer Dual Dagger Training",
@@ -2440,6 +2458,24 @@
     "completion_conditions": []
   },
   {
+    "id": 698806050,
+    "chain_desc_id": 1102939934,
+    "name": "Craft Settlement Research",
+    "completion_conditions": [
+      {
+        "ItemStack_": {
+          "item_stack": {
+            "item_id": 78117662,
+            "quantity": 1,
+            "item_type": "Item",
+            "durability": 0
+          },
+          "is_consumed": false
+        }
+      }
+    ]
+  },
+  {
     "id": 705650393,
     "chain_desc_id": 871400259,
     "name": "Craft Leather",
@@ -2625,6 +2661,12 @@
     "id": 731196410,
     "chain_desc_id": 1,
     "name": "Learn Extraction (Sticks + Flint)",
+    "completion_conditions": []
+  },
+  {
+    "id": 733974568,
+    "chain_desc_id": 1102939934,
+    "name": "Join Or Found Settlement",
     "completion_conditions": []
   },
   {
@@ -2977,6 +3019,12 @@
     "id": 845375687,
     "chain_desc_id": 1463250815,
     "name": "Rumbagh Second Dialogue - Feline Mask Unlock",
+    "completion_conditions": []
+  },
+  {
+    "id": 847316294,
+    "chain_desc_id": 1102939934,
+    "name": "Research Builds Civilization",
     "completion_conditions": []
   },
   {
@@ -3470,6 +3518,12 @@
     "completion_conditions": []
   },
   {
+    "id": 957100227,
+    "chain_desc_id": 1102939934,
+    "name": "Choose Where You Belong",
+    "completion_conditions": []
+  },
+  {
     "id": 959018307,
     "chain_desc_id": 618339395,
     "name": "Collect Honey",
@@ -3757,6 +3811,12 @@
     "id": 1045551297,
     "chain_desc_id": 1762918554,
     "name": "Talk to Brico - Default Wagon Quest",
+    "completion_conditions": []
+  },
+  {
+    "id": 1051100176,
+    "chain_desc_id": 1102939934,
+    "name": "Keep Civilization Standing",
     "completion_conditions": []
   },
   {
@@ -5666,6 +5726,12 @@
     "completion_conditions": []
   },
   {
+    "id": 1560981396,
+    "chain_desc_id": 1102939934,
+    "name": "View Settlement Research",
+    "completion_conditions": []
+  },
+  {
     "id": 1563148314,
     "chain_desc_id": 1660704637,
     "name": "Brico First Dialogue - Level 100 Construction Exp Quest",
@@ -7133,6 +7199,12 @@
     ]
   },
   {
+    "id": 1974106294,
+    "chain_desc_id": 1102939934,
+    "name": "Planning Your Settlement",
+    "completion_conditions": []
+  },
+  {
     "id": 1979184264,
     "chain_desc_id": 1854817774,
     "name": "Svim First Dialogue - Default Skiff",
@@ -7654,6 +7726,79 @@
     "chain_desc_id": 1021437725,
     "name": "Heimlich Final Dialogue - Level 30 Cooking Exp Quest",
     "completion_conditions": []
+  },
+  {
+    "id": 2142866746,
+    "chain_desc_id": 1102939934,
+    "name": "Gather Research Materials",
+    "completion_conditions": [
+      {
+        "ItemStack_": {
+          "item_stack": {
+            "item_id": 1385860989,
+            "quantity": 1,
+            "item_type": "Item",
+            "durability": 0
+          },
+          "is_consumed": false
+        }
+      },
+      {
+        "ItemStack_": {
+          "item_stack": {
+            "item_id": 1024748948,
+            "quantity": 1,
+            "item_type": "Item",
+            "durability": 0
+          },
+          "is_consumed": false
+        }
+      },
+      {
+        "ItemStack_": {
+          "item_stack": {
+            "item_id": 1835207370,
+            "quantity": 1,
+            "item_type": "Item",
+            "durability": 0
+          },
+          "is_consumed": false
+        }
+      },
+      {
+        "ItemStack_": {
+          "item_stack": {
+            "item_id": 1005831193,
+            "quantity": 1,
+            "item_type": "Item",
+            "durability": 0
+          },
+          "is_consumed": false
+        }
+      },
+      {
+        "ItemStack_": {
+          "item_stack": {
+            "item_id": 319334286,
+            "quantity": 1,
+            "item_type": "Item",
+            "durability": 0
+          },
+          "is_consumed": false
+        }
+      },
+      {
+        "ItemStack_": {
+          "item_stack": {
+            "item_id": 1210004,
+            "quantity": 5,
+            "item_type": "Item",
+            "durability": 0
+          },
+          "is_consumed": false
+        }
+      }
+    ]
   },
   {
     "id": 2145839065,

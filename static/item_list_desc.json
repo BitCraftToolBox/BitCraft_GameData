@@ -36932,11 +36932,34 @@
     "name": "StarseekerScoutMemoryCrystalDrop",
     "possibilities": [
       {
-        "probability": 100.0,
+        "probability": 0.5,
         "items": [
           {
             "item_id": 1583563992,
             "quantity": 1,
+            "item_type": "Item",
+            "durability": 0
+          },
+          {
+            "item_id": 828972621,
+            "quantity": 1,
+            "item_type": "Item",
+            "durability": 0
+          }
+        ]
+      },
+      {
+        "probability": 0.5,
+        "items": [
+          {
+            "item_id": 1583563992,
+            "quantity": 1,
+            "item_type": "Item",
+            "durability": 0
+          },
+          {
+            "item_id": 828972621,
+            "quantity": 2,
             "item_type": "Item",
             "durability": 0
           }
@@ -49043,7 +49066,7 @@
     "name": "SentinelDungeonStarseekerSkirmisher",
     "possibilities": [
       {
-        "probability": 90.22,
+        "probability": 90.02,
         "items": []
       },
       {
@@ -49058,7 +49081,7 @@
         ]
       },
       {
-        "probability": 0.3,
+        "probability": 0.5,
         "items": [
           {
             "item_id": 828972621,
@@ -50517,6 +50540,27 @@
         "items": [
           {
             "item_id": 1509276435,
+            "quantity": 1,
+            "item_type": "Item",
+            "durability": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1089500577,
+    "name": "DroneDungeonImmortalGuardian",
+    "possibilities": [
+      {
+        "probability": 99.8,
+        "items": []
+      },
+      {
+        "probability": 0.2,
+        "items": [
+          {
+            "item_id": 828972621,
             "quantity": 1,
             "item_type": "Item",
             "durability": 0
