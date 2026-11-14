@@ -537610,6 +537610,16 @@
         ],
         1,
         1.0
+      ],
+      [
+        1964485692,
+        5,
+        [
+          0,
+          []
+        ],
+        0,
+        1.0
       ]
     ],
     "discovery_triggers": [],
@@ -590798,9 +590808,11 @@
     "actions_required": 100,
     "tool_mesh_index": 0,
     "recipe_performance_id": 18,
-    "required_knowledges": [],
+    "required_knowledges": [
+      12345
+    ],
     "blocking_knowledges": [],
-    "hide_without_required_knowledge": false,
+    "hide_without_required_knowledge": true,
     "hide_with_blocking_knowledges": false,
     "allow_use_hands": false,
     "is_passive": false,
