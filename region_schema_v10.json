@@ -61088,6 +61088,19 @@
           "indexes": [
             {
               "source_name": {
+                "some": "distant_visible_entity_chunk_index_idx_btree"
+              },
+              "accessor_name": {
+                "some": "chunk_index"
+              },
+              "algorithm": {
+                "BTree": [
+                  1
+                ]
+              }
+            },
+            {
+              "source_name": {
                 "some": "distant_visible_entity_entity_id_idx_btree"
               },
               "accessor_name": {
