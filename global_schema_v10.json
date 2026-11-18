@@ -48761,6 +48761,19 @@
           "indexes": [
             {
               "source_name": {
+                "some": "distant_visible_entity_chunk_index_idx_btree"
+              },
+              "accessor_name": {
+                "some": "chunk_index"
+              },
+              "algorithm": {
+                "BTree": [
+                  1
+                ]
+              }
+            },
+            {
+              "source_name": {
                 "some": "distant_visible_entity_entity_id_idx_btree"
               },
               "accessor_name": {
@@ -67875,6 +67888,40 @@
           }
         },
         {
+          "source_name": "admin_deduct_shards",
+          "params": {
+            "elements": [
+              {
+                "name": {
+                  "some": "identity"
+                },
+                "algebraic_type": {
+                  "String": []
+                }
+              },
+              {
+                "name": {
+                  "some": "amount"
+                },
+                "algebraic_type": {
+                  "U32": []
+                }
+              }
+            ]
+          },
+          "visibility": {
+            "ClientCallable": []
+          },
+          "ok_return_type": {
+            "Product": {
+              "elements": []
+            }
+          },
+          "err_return_type": {
+            "String": []
+          }
+        },
+        {
           "source_name": "admin_delete_chat_message",
           "params": {
             "elements": [
@@ -82552,6 +82599,12 @@
             "Function": {
               "source_name": "admin_create_player_report",
               "canonical_name": "admin_create_player_report"
+            }
+          },
+          {
+            "Function": {
+              "source_name": "admin_deduct_shards",
+              "canonical_name": "admin_deduct_shards"
             }
           },
           {

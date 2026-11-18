@@ -83093,6 +83093,32 @@
           }
         },
         {
+          "source_name": "admin_recount_resources",
+          "params": {
+            "elements": [
+              {
+                "name": {
+                  "some": "resource_description_id"
+                },
+                "algebraic_type": {
+                  "I32": []
+                }
+              }
+            ]
+          },
+          "visibility": {
+            "ClientCallable": []
+          },
+          "ok_return_type": {
+            "Product": {
+              "elements": []
+            }
+          },
+          "err_return_type": {
+            "String": []
+          }
+        },
+        {
           "source_name": "admin_remove_collectible",
           "params": {
             "elements": [
@@ -107151,6 +107177,12 @@
             "Function": {
               "source_name": "admin_patch_housing_costs",
               "canonical_name": "admin_patch_housing_costs"
+            }
+          },
+          {
+            "Function": {
+              "source_name": "admin_recount_resources",
+              "canonical_name": "admin_recount_resources"
             }
           },
           {

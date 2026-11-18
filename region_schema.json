@@ -76469,6 +76469,24 @@
       }
     },
     {
+      "name": "admin_recount_resources",
+      "params": {
+        "elements": [
+          {
+            "name": {
+              "some": "resource_description_id"
+            },
+            "algebraic_type": {
+              "I32": []
+            }
+          }
+        ]
+      },
+      "lifecycle": {
+        "none": []
+      }
+    },
+    {
       "name": "admin_remove_collectible",
       "params": {
         "elements": [

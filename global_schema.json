@@ -42646,6 +42646,19 @@
       "indexes": [
         {
           "name": {
+            "some": "distant_visible_entity_chunk_index_idx_btree"
+          },
+          "accessor_name": {
+            "some": "chunk_index"
+          },
+          "algorithm": {
+            "BTree": [
+              1
+            ]
+          }
+        },
+        {
+          "name": {
             "some": "distant_visible_entity_entity_id_idx_btree"
           },
           "accessor_name": {
@@ -63063,6 +63076,32 @@
             },
             "algebraic_type": {
               "Ref": 23
+            }
+          }
+        ]
+      },
+      "lifecycle": {
+        "none": []
+      }
+    },
+    {
+      "name": "admin_deduct_shards",
+      "params": {
+        "elements": [
+          {
+            "name": {
+              "some": "identity"
+            },
+            "algebraic_type": {
+              "String": []
+            }
+          },
+          {
+            "name": {
+              "some": "amount"
+            },
+            "algebraic_type": {
+              "U32": []
             }
           }
         ]
